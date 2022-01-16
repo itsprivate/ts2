@@ -1,7 +1,4 @@
 sources:
-  # use: https://deno.land/x/axiod@0.24/mod.ts
-  # module: default
-  # from: https://deno.land/x/axiod@0.24/mod.ts
   - use: fetch
     args:
       - https://test.owenyoung.com/slim.json
@@ -10,7 +7,7 @@ sources:
       return ctx.result.json();
     uniqueKey: objectID
     itemsPath: hits
-    # force: true
+    force: true
     limit: 1
 steps:
   - from: ./save.ts
