@@ -1,10 +1,11 @@
+if: false
 sources:
   - from: https://deno.land/x/getfiles@v1.0.0/mod.ts
     args:
       - ./raw
     key: path
     force: true
-    limit: 1
+    # limit: 1
     filter: return ctx.item.ext === 'json'
 filter:
   from: ./translate.ts

@@ -116,7 +116,7 @@ export default async (
   await page.waitForSelector(".lmt--active_translation_request", {
     hidden: true,
   });
-  let result = await page.$eval(targetSentenceField, (el) => el.value);
+  const result = await page.$eval(targetSentenceField, (el) => el.value);
   _res.target.translation = result;
   _res.result = result;
   // page.close().catch(() => {});

@@ -1,6 +1,11 @@
 import { NewsArticle, Person, Organization } from "https://esm.sh/schema-dts";
-import { getYearMonthDay, getDataFilePath } from "../../../common/util.ts";
-import { ROOT_DOMAIN, SEPARATOR } from "../../../common/constant.ts";
+import {
+  getYearMonthDay,
+  getDataFilePath,
+  stringifyIdentifier,
+  getPathIdentifierByIdentifier,
+} from "../../../common/util.ts";
+import { ROOT_DOMAIN } from "../../../common/constant.ts";
 import { titleCase } from "https://esm.sh/title-case";
 export default function (item: Item) {
   const type = "NewsArticle";
@@ -28,23 +33,15 @@ export default function (item: Item) {
   }
   const now = new Date();
   const nowISO = now.toISOString();
-  const { year, month, day } = getYearMonthDay(now);
-
-  const identifier =
-    year +
-    SEPARATOR +
-    month +
-    SEPARATOR +
-    day +
-    SEPARATOR +
-    langauge +
-    SEPARATOR +
-    publisherName +
-    SEPARATOR +
-    type +
-    SEPARATOR +
-    item.objectID;
-  const pathIdentifier = identifier.split(SEPARATOR).join("/");
+  const { year, month } = getYearMonthDay(now);
+  const identifier = stringifyIdentifier(
+    now,
+    langauge,
+    publisherName,
+    type,
+    item.objectID
+  );
+  const pathIdentifier = getPathIdentifierByIdentifier(identifier);
   const path = `raw/${pathIdentifier}.json`;
   const url = `https://${year}-${month}.${ROOT_DOMAIN}/${pathIdentifier}/`;
   const keywords: string[] = [];

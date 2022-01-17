@@ -1,14 +1,23 @@
 import { NewsArticle, Person, Organization } from "https://esm.sh/schema-dts";
-import { TARGET_LANGUAGES } from "../common/constant.ts";
+import { TARGET_LANGUAGES, TRANSLATED_FIELDS } from "../common/constant.ts";
+import {
+  parseIdentifier,
+  getPathIdentifierByIdentifier,
+  writeJson,
+} from "../common/util.ts";
+import { parse } from "https://deno.land/std@0.121.0/path/mod.ts";
 import puppeteer, {
   Browser,
   Page,
 } from "https://deno.land/x/puppeteer@9.0.2/mod.ts";
 import d from "./d.js";
 // import { JsonLdDocument } from "https://denopkg.com/DefinitelyTyped/DefinitelyTyped@master/types/jsonld/index.d.ts";
-import { NodeObject } from "https://cdn.skypack.dev/jsonld?dts";
+import {
+  NodeObject,
+  ContextDefinition,
+} from "https://cdn.skypack.dev/jsonld?dts";
+import zhToHant from "./zh-to-hant.ts";
 const homepage = "https://www.deepl.com/translator";
-// const homepage = "https://baidu.com";
 
 export default async function (files: string[]) {
   const results: boolean[] = [];
@@ -18,7 +27,7 @@ export default async function (files: string[]) {
     if (browser) return browser;
     browser = await puppeteer.launch({
       devtools: false,
-      headless: true,
+      headless: false,
       defaultViewport: { width: 1370, height: 1200 },
       args: ["--lang=zh-Hans,zh", "--disable-gpu"],
     });
@@ -26,11 +35,11 @@ export default async function (files: string[]) {
     return browser;
   };
 
-  const getNewPage = async (): Promise<Page> => {
+  const getNewPage = async (force: boolean): Promise<Page> => {
     if (page) return page;
     browser = await getBrowser();
     const pages = await browser.pages();
-    if (pages[0]) {
+    if (pages[0] && !force) {
       page = pages[0];
     } else {
       page = await browser.newPage();
@@ -43,14 +52,12 @@ export default async function (files: string[]) {
     // await page.setViewport({ width: 1370, height: 1200 });
     await page.goto(homepage, { waitUntil: "domcontentloaded" });
 
-    await page.waitForTimeout(3000);
-    await page.screenshot({ path: "example.png" });
+    await page.waitForTimeout(2000);
+    // await page.screenshot({ path: "example.png" });
 
     return page;
   };
 
-  // open puppeteer
-  page = await getNewPage();
   // await page.goto("https://example.com");
   // await page.screenshot({ path: "example.png" });
 
@@ -58,25 +65,82 @@ export default async function (files: string[]) {
   const source = "en";
   let target = "zh-ZH";
 
-  const translated = await d(page, setence, source, target);
-  console.log("translated", translated);
+  let currentHandledFiles = 0;
   for (let fileIndex = 0; fileIndex < files.length; fileIndex++) {
+    if (currentHandledFiles > 100) {
+      currentHandledFiles = 1;
+      // refresh page
+      browser = await getBrowser();
+      const pages = await browser!.pages();
+
+      if (pages.length > 1 && page) {
+        page!.close();
+      }
+      page = null;
+      page = await getNewPage(true);
+    } else {
+      currentHandledFiles++;
+      // open puppeteer
+      page = await getNewPage(false);
+    }
+
     const file = files[fileIndex];
     console.log("file", file);
+    const parsedFilePath = parse(file);
+    const identifier = parsedFilePath.name;
+    const pathIdentifier = getPathIdentifierByIdentifier(identifier);
+    const parsedIdentifier = parseIdentifier(identifier);
+    const sourceLanguage = parsedIdentifier.language;
 
     const data = await Deno.readTextFile(file);
     const item = JSON.parse(data) as NodeObject;
     console.log("item", item);
-
+    const context: ContextDefinition = {
+      "@version": "1.1",
+      "@vocab": "https://schema.org/",
+      "@language": sourceLanguage,
+    };
     for (const targetLanguage of TARGET_LANGUAGES) {
-      console.log("targetLanguage", targetLanguage);
-
-      if (item.headline && !item[`headline_${targetLanguage}`]) {
-        item[`headline_${targetLanguage}`] = item.headline;
+      // TODO
+      for (const translatedKey of TRANSLATED_FIELDS) {
+        if (item.headline && !item[`headline_${targetLanguage}`]) {
+          const dTargetLanguage = toDLanguage(targetLanguage);
+          const translated = await d(
+            page,
+            item.headline,
+            sourceLanguage,
+            dTargetLanguage
+          );
+          console.log("source", parsedIdentifier.language, item.headline);
+          console.log("translated", dTargetLanguage, translated.result);
+          const targetHant =
+            targetLanguage === "zh-Hans" ? "zh-Hant" : undefined;
+          if (translated.result) {
+            let translatedKey = `headline_${targetLanguage}`;
+            item[translatedKey] = translated.result;
+            context[translatedKey] = {
+              "@id": "headline",
+              "@language": targetLanguage,
+            };
+            // change context
+            if (targetHant) {
+              translatedKey = `headline_${targetHant}`;
+              item[translatedKey] = zhToHant(translated.result);
+              context[translatedKey] = {
+                "@id": "headline",
+                "@language": targetLanguage,
+              };
+            }
+          } else {
+            throw new Error(translated.result);
+          }
+        }
       }
     }
-    console.log("item", item);
-
+    item["@context"] = ["https://schema.org", context];
+    console.log("final item", item);
+    // write to changed path
+    await writeJson(`changed/${pathIdentifier}.json`, item);
     results.push(true);
   }
   if (page) {
@@ -84,8 +148,16 @@ export default async function (files: string[]) {
   }
   // quit puppeteer
   if (browser) {
-    await browser!.close();
+    await (browser as Browser)!.close();
   }
 
   return results;
+}
+
+function toDLanguage(lang: string) {
+  if (lang === "zh-Hans") {
+    return "zh-ZH";
+  } else {
+    return lang;
+  }
 }

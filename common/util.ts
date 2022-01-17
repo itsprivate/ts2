@@ -1,6 +1,7 @@
 import { Organization, Thing, WithContext } from "https://esm.sh/schema-dts";
 import { resolve } from "https://deno.land/std@0.121.0/path/mod.ts";
-
+import { ROOT_DOMAIN, SEPARATOR } from "./constant.ts";
+import { ensureFile } from "https://deno.land/std@0.121.0/fs/mod.ts";
 export function getDateString(date: Date) {
   const { year, month, day } = getYearMonthDay(date);
   return `${year}-${month}-${day}`;
@@ -35,4 +36,70 @@ export function getCwdPath(): string {
 export function getDataFilePath(relativePath: string): string {
   const cwd = getCwdPath();
   return resolve(cwd, relativePath);
+}
+
+export function stringifyIdentifier(
+  date: Date,
+  sourceLanguage: string,
+  publisherName: string,
+  postType: string,
+  originalId: string
+): string {
+  const { year, month, day } = getYearMonthDay(date);
+
+  const identifierPrefix =
+    year +
+    SEPARATOR +
+    month +
+    SEPARATOR +
+    day +
+    SEPARATOR +
+    sourceLanguage +
+    SEPARATOR +
+    publisherName +
+    SEPARATOR +
+    postType;
+  const identifier = identifierPrefix + SEPARATOR + originalId;
+  return identifier;
+}
+export function getPathIdentifierByIdentifier(identifier: string): string {
+  const parts = identifier.split(SEPARATOR);
+  const identifierPrefix = parts.slice(0, -1).join(SEPARATOR);
+  const pathIdentifier =
+    identifierPrefix.split(SEPARATOR).join("/") + "/" + identifier;
+  return pathIdentifier;
+}
+export interface IdentifierObj {
+  year: string;
+  month: string;
+  day: string;
+  language: string;
+  publisherName: string;
+  postType: string;
+  originalId: string;
+}
+export function parseIdentifier(identifier: string): IdentifierObj {
+  const parts = identifier.split(SEPARATOR);
+  const year = parts[0];
+  const month = parts[1];
+  const day = parts[2];
+  const sourceLanguage = parts[3];
+  const publisherName = parts[4];
+  const postType = parts[5];
+  const originalId = parts[6];
+  return {
+    year,
+    month,
+    day,
+    language: sourceLanguage,
+    publisherName,
+    postType,
+    originalId,
+  };
+}
+
+export async function writeJson(path: string, data: unknown) {
+  console.log("writing json to", path);
+  await ensureFile(path);
+  await Deno.writeTextFile(path, JSON.stringify(data, null, 2));
 }
