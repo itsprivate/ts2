@@ -4,7 +4,9 @@ import {
   parseIdentifier,
   getPathIdentifierByIdentifier,
   writeJson,
+  get,
 } from "../common/util.ts";
+import set from "https://deno.land/x/lodash@4.17.15-es/set.js";
 import { parse } from "https://deno.land/std@0.121.0/path/mod.ts";
 import puppeteer, {
   Browser,
@@ -18,7 +20,7 @@ import {
 } from "https://cdn.skypack.dev/jsonld?dts";
 import zhToHant from "./zh-to-hant.ts";
 const homepage = "https://www.deepl.com/translator";
-
+const isDev = Deno.env.get("ENVIRONMENT") === "development";
 export default async function (files: string[]) {
   const results: boolean[] = [];
   let browser: Browser | null = null;
@@ -57,90 +59,37 @@ export default async function (files: string[]) {
 
     return page;
   };
-
-  // await page.goto("https://example.com");
-  // await page.screenshot({ path: "example.png" });
-
-  const setence = "hello world";
-  const source = "en";
-  let target = "zh-ZH";
-
+  // handled files number
   let currentHandledFiles = 0;
   for (let fileIndex = 0; fileIndex < files.length; fileIndex++) {
-    if (currentHandledFiles > 100) {
-      currentHandledFiles = 1;
-      // refresh page
-      browser = await getBrowser();
-      const pages = await browser!.pages();
+    if (!isDev) {
+      if (currentHandledFiles > 100) {
+        currentHandledFiles = 1;
+        // refresh page
+        browser = await getBrowser();
+        const pages = await browser!.pages();
 
-      if (pages.length > 1 && page) {
-        page!.close();
+        if (pages.length > 1 && page) {
+          page!.close();
+        }
+        page = null;
+        page = await getNewPage(true);
+      } else {
+        currentHandledFiles++;
+        // open puppeteer
+        page = await getNewPage(false);
       }
-      page = null;
-      page = await getNewPage(true);
-    } else {
-      currentHandledFiles++;
-      // open puppeteer
-      page = await getNewPage(false);
     }
-
     const file = files[fileIndex];
-    console.log("file", file);
     const parsedFilePath = parse(file);
     const identifier = parsedFilePath.name;
     const pathIdentifier = getPathIdentifierByIdentifier(identifier);
-    const parsedIdentifier = parseIdentifier(identifier);
-    const sourceLanguage = parsedIdentifier.language;
 
     const data = await Deno.readTextFile(file);
     const item = JSON.parse(data) as NodeObject;
-    console.log("item", item);
-    const context: ContextDefinition = {
-      "@version": "1.1",
-      "@vocab": "https://schema.org/",
-      "@language": sourceLanguage,
-    };
-    for (const targetLanguage of TARGET_LANGUAGES) {
-      // TODO
-      for (const translatedKey of TRANSLATED_FIELDS) {
-        if (item.headline && !item[`headline_${targetLanguage}`]) {
-          const dTargetLanguage = toDLanguage(targetLanguage);
-          const translated = await d(
-            page,
-            item.headline,
-            sourceLanguage,
-            dTargetLanguage
-          );
-          console.log("source", parsedIdentifier.language, item.headline);
-          console.log("translated", dTargetLanguage, translated.result);
-          const targetHant =
-            targetLanguage === "zh-Hans" ? "zh-Hant" : undefined;
-          if (translated.result) {
-            let translatedKey = `headline_${targetLanguage}`;
-            item[translatedKey] = translated.result;
-            context[translatedKey] = {
-              "@id": "headline",
-              "@language": targetLanguage,
-            };
-            // change context
-            if (targetHant) {
-              translatedKey = `headline_${targetHant}`;
-              item[translatedKey] = zhToHant(translated.result);
-              context[translatedKey] = {
-                "@id": "headline",
-                "@language": targetLanguage,
-              };
-            }
-          } else {
-            throw new Error(translated.result);
-          }
-        }
-      }
-    }
-    item["@context"] = ["https://schema.org", context];
-    console.log("final item", item);
+    const finalItem = await translateItem(item, page);
     // write to changed path
-    await writeJson(`changed/${pathIdentifier}.json`, item);
+    await writeJson(`changed/${pathIdentifier}.json`, finalItem);
     results.push(true);
   }
   if (page) {
@@ -153,6 +102,85 @@ export default async function (files: string[]) {
 
   return results;
 }
+export async function translateItem(item: NodeObject, page: Page | null) {
+  if (!(item && item.identifier)) {
+    throw new Error("Invalid item, item must have identifier");
+  }
+  const identifier = item.identifier as string;
+  const parsedIdentifier = parseIdentifier(identifier);
+  const sourceLanguage = parsedIdentifier.language;
+
+  console.log("item", item);
+  let context: ContextDefinition = {
+    "@vocab": "https://schema.org/",
+    "@language": sourceLanguage,
+  };
+  for (const targetLanguage of TARGET_LANGUAGES) {
+    // TODO
+    for (const translatedKey of TRANSLATED_FIELDS) {
+      const translatedValue = get(item, translatedKey);
+      const translatedTargetKey = `${translatedKey}_${targetLanguage}`;
+
+      const translatedTargetValue = get(item, translatedTargetKey);
+      if (translatedValue && translatedTargetValue === undefined) {
+        const dTargetLanguage = toDLanguage(targetLanguage);
+        const translated = await d(
+          page,
+          translatedValue,
+          sourceLanguage,
+          dTargetLanguage,
+          {
+            mock: isDev || page === null,
+          }
+        );
+        console.log(
+          "source",
+          translatedKey,
+          parsedIdentifier.language,
+          item.headline
+        );
+        console.log(
+          "translated",
+          translatedTargetKey,
+          dTargetLanguage,
+          translated.result
+        );
+        const targetHant = targetLanguage === "zh-Hans" ? "zh-Hant" : undefined;
+        if (translated.result) {
+          item = set(
+            item,
+            translatedTargetKey,
+            translated.result
+          ) as NodeObject;
+          context = set(context, getContextKey(translatedTargetKey), {
+            "@id": getContextKey(translatedKey),
+            "@language": targetLanguage,
+          }) as ContextDefinition;
+          // change context
+          if (targetHant) {
+            const translatedTargetHantKey = `${translatedKey}_${targetHant}`;
+
+            item = set(
+              item,
+              translatedTargetHantKey,
+              zhToHant(translated.result)
+            ) as NodeObject;
+            context = set(context, getContextKey(translatedTargetHantKey), {
+              "@id": getContextKey(translatedKey),
+              "@language": targetHant,
+            }) as ContextDefinition;
+          }
+        } else {
+          throw new Error(translated.result);
+        }
+      }
+    }
+  }
+  (context as Record<string, number>)["@version"] = 1.1;
+  item["@context"] = ["https://schema.org", context];
+  console.log("final item", JSON.stringify(item, null, 2));
+  return item;
+}
 
 function toDLanguage(lang: string) {
   if (lang === "zh-Hans") {
@@ -160,4 +188,15 @@ function toDLanguage(lang: string) {
   } else {
     return lang;
   }
+}
+
+function getContextKey(key: string) {
+  const lastDotIndex = key.lastIndexOf(".");
+  const isIncludeNest = lastDotIndex > 0;
+  // sharedContent.headline
+  const translatedContextTargetKey = key.substring(
+    isIncludeNest ? lastDotIndex + 1 : 0,
+    key.length
+  );
+  return translatedContextTargetKey;
 }

@@ -1,5 +1,9 @@
 # Core Concepts
 
+## TODO
+
+1. cache deno modules local
+
 ## Standard
 
 - [json-ld internationalization](https://www.w3.org/TR/json-ld/#string-internationalization)

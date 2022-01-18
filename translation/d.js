@@ -2,8 +2,14 @@ export default async (
   page,
   sentence,
   sourceLanguage = "auto",
-  targetLanguage
+  targetLanguage,
+  { mock = false }
 ) => {
+  if (mock) {
+    return {
+      result: sentence,
+    };
+  }
   if (!/^(auto|[a-z]{2})$/.test(sourceLanguage))
     throw new Error("INVALID_SOURCE_LANGUAGE");
   if (!/^[a-z]{2}-[A-Z]{2}$/.test(targetLanguage))
