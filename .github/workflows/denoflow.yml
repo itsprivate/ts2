@@ -17,6 +17,7 @@ jobs:
           deno-version: v1.x
       - run: make install
       - run: make github
+        continue-on-error: true
       - name: chown
         run: sudo chown -R $USER:$USER ./
       - name: git config

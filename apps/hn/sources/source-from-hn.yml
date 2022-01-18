@@ -7,7 +7,7 @@ sources:
     run: return ctx.result.json();
     itemsPath: hits
     key: objectID
-    force: true
+    # force: true
     limit: 1
     filter: return true;
 steps:

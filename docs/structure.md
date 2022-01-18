@@ -163,3 +163,66 @@ data/
 ```
 
 24*365*20
+
+[
+[url,name],
+[url,name]
+]
+
+```bash
+current/
+  issues/
+    site1/
+      en.json
+    site2/
+      en.json
+  archives/
+    site1/
+      en.json
+      zh.json
+  posts/
+    2021/
+      11/
+        12/
+          site1/
+            post-slug.json
+changed/
+  posts/
+    2021/
+      11/
+        12/
+          site1/
+            post-slug.json
+```
+
+changed -> build -> archive data
+
+```bash
+2020/
+    posts/
+      2021/
+        11/
+          16/
+            site1/
+              post-slug.json
+    issues/
+      2021/
+        01/
+          site1/
+            en.json
+            zh-ZH.json
+          site2/
+            en.json
+        02/
+    archives/
+      2021/
+        01/
+          site/
+            en.json
+            zh-ZH.json
+archive-dist/
+  posts/
+    2021/
+
+
+```

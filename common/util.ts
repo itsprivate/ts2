@@ -35,7 +35,7 @@ export function getCwdPath(): string {
 }
 export function getDataFilePath(relativePath: string): string {
   const cwd = getCwdPath();
-  return resolve(cwd, relativePath);
+  return resolve(cwd, "sources", relativePath);
 }
 
 export function stringifyIdentifier(
