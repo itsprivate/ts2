@@ -8,7 +8,7 @@ sources:
     itemsPath: hits
     key: objectID
     force: true
-    # limit: 1
+    limit: 1
     filter: return true;
 steps:
   - from: ./format.ts
