@@ -15,4 +15,5 @@ Deno.test("format hn", () => {
     Deno.readTextFileSync(`${dirname}expected-item.json`)
   );
   assertEquals(newItem.item.headline, expectedNewItem.headline);
+  assertEquals(newItem.item.genre, "Show HN");
 });

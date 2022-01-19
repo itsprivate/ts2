@@ -15,8 +15,21 @@
 - https://www.w3.org/International/articles/bcp47/
 - https://jvilk.com/MakeTypes/
 - https://search.google.com/test/rich-results
+- https://console.scaleway.com/object-storage/buckets/nl-ams/b-posts/
 
 ## Project Structure
+
+simple:
+
+```bash
+data/
+  site1/
+      1234321432-xxxxxx.json
+      1234321432-xxxxxx.json
+changed/
+raw/
+
+```
 
 ```bash
 

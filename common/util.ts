@@ -1,7 +1,9 @@
 import { Organization, Thing, WithContext } from "https://esm.sh/schema-dts";
-import { resolve } from "https://deno.land/std@0.121.0/path/mod.ts";
+import { resolve, join } from "https://deno.land/std@0.121.0/path/mod.ts";
 import { ROOT_DOMAIN, SEPARATOR } from "./constant.ts";
 import { ensureFile } from "https://deno.land/std@0.121.0/fs/mod.ts";
+import schema from "../common/schema-org.js";
+
 export function getDateString(date: Date) {
   const { year, month, day } = getYearMonthDay(date);
   return `${year}-${month}-${day}`;
@@ -34,10 +36,9 @@ export function getCwdPath(): string {
   return resolve(dirname, "../");
 }
 export function getDataFilePath(relativePath: string): string {
-  const cwd = getCwdPath();
-  return resolve(cwd, "sources", relativePath);
+  // const cwd = getCwdPath();
+  return join("./sources", relativePath);
 }
-
 export function stringifyIdentifier(
   date: Date,
   sourceLanguage: string,
@@ -46,7 +47,6 @@ export function stringifyIdentifier(
   originalId: string
 ): string {
   const { year, month, day } = getYearMonthDay(date);
-
   const identifierPrefix =
     year +
     SEPARATOR +
@@ -64,6 +64,10 @@ export function stringifyIdentifier(
 }
 export function getPathIdentifierByIdentifier(identifier: string): string {
   const parts = identifier.split(SEPARATOR);
+  const part0 = parts[0];
+  if (part0.startsWith("t")) {
+    parts.shift();
+  }
   const identifierPrefix = parts.slice(0, -1).join(SEPARATOR);
   const pathIdentifier =
     identifierPrefix.split(SEPARATOR).join("/") + "/" + identifier;
@@ -103,6 +107,8 @@ export async function writeJson(path: string, data: unknown) {
   await ensureFile(path);
   await Deno.writeTextFile(path, JSON.stringify(data, null, 2));
 }
+
+export async function getJson(path: string, data: unknown) {}
 // Native
 export const get = (obj: unknown, path: string, defaultValue = undefined) => {
   const travel = (regexp: RegExp) =>
@@ -119,3 +125,46 @@ export const get = (obj: unknown, path: string, defaultValue = undefined) => {
   const result = travel(/[,[\]]+?/) || travel(/[,[\].]+?/);
   return result === undefined || result === obj ? defaultValue : result;
 };
+const CONTEXTS = {
+  "https://schema.org": schema,
+};
+
+export const customLoader = async (url: string) => {
+  if (url in CONTEXTS) {
+    return {
+      contextUrl: null, // this is for a context via a link header
+      document: (CONTEXTS as Record<string, unknown>)[url], // this is the actual document that was loaded
+      documentUrl: url, // this is the actual context URL after redirects
+    };
+  }
+
+  const theUrl = `${url}/docs/jsonldcontext.jsonld`;
+  let result = await fetch(theUrl, {
+    headers: {
+      accept: "application/ld+json, application/json",
+    },
+  });
+  result = await result.json();
+  return {
+    contextUrl: null, // this is for a context via a link header
+    document: result,
+    documentUrl: url, // this is the actual context URL after redirects
+  };
+};
+
+export function getFinalHeadline(item: unknown, headline: string): string {
+  const name = get(item, "name");
+  const genre = get(item, "genre");
+  let title = ``;
+  if (genre) {
+    title += `${genre}: `;
+  }
+  if (name) {
+    title += `${name} - `;
+  }
+  if (headline) {
+    title += headline;
+  }
+
+  return title;
+}

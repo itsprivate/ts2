@@ -19,12 +19,15 @@ export default function (item: Item) {
     logo: publisherLogo,
   };
 
-  const langauge = "en";
+  const sourceLanguage = "en";
   let genre: string | undefined;
   if (item._tags && item._tags.length > 3) {
     const tag4 = item._tags[3];
-    if (tag4 !== "front_page") {
-      genre = titleCase(tag4);
+    if (tag4 !== "front_page" && tag4 !== undefined) {
+      const tag4Arr = tag4.split("_");
+      if (tag4Arr.length === 2) {
+        genre = `${titleCase(tag4Arr[0])} ${tag4Arr[1].toUpperCase()}`;
+      }
     }
   }
   let headline = item.title;
@@ -34,9 +37,10 @@ export default function (item: Item) {
   const now = new Date();
   const nowISO = now.toISOString();
   const { year, month } = getYearMonthDay(now);
+  const datePublished = item.created_at;
   const identifier = stringifyIdentifier(
     now,
-    langauge,
+    sourceLanguage,
     publisherName,
     type,
     item.objectID
@@ -69,7 +73,7 @@ export default function (item: Item) {
     discussionUrl,
     sameAs,
     dateCreated: nowISO,
-    datePublished: item.created_at,
+    datePublished: datePublished,
     dateModified: nowISO,
     interactionStatistic: [
       {

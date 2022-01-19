@@ -7,7 +7,19 @@
 5. use changed data, to build index pages
 6. get changed databuild archive data
 
+transfert changed data to archive data, -> current-data
+
+build current data.
+
 ```bash
+current-data
+  site1/
+    posts/
+      creaerrfe.json
+      en.json
+    issues/
+      01.json
+      12.json
 site/
   archive/
     2022/

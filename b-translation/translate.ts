@@ -4,6 +4,7 @@ import {
   getPathIdentifierByIdentifier,
   writeJson,
   get,
+  getFinalHeadline,
   getDataFilePath,
 } from "../common/util.ts";
 import set from "https://deno.land/x/lodash@4.17.15-es/set.js";
@@ -20,7 +21,7 @@ import {
 } from "https://cdn.skypack.dev/jsonld?dts";
 import zhToHant from "./zh-to-hant.ts";
 const homepage = "https://www.deepl.com/translator";
-const isDev = Deno.env.get("ENVIRONMENT") === "development";
+const isDev = Deno.env.get("ENV") === "dev";
 export default async function (files: string[]) {
   const results: boolean[] = [];
   let browser: Browser | null = null;
@@ -49,8 +50,6 @@ export default async function (files: string[]) {
     await page.setUserAgent(
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
     );
-    console.log("yhhh");
-
     // await page.setViewport({ width: 1370, height: 1200 });
     await page.goto(homepage, { waitUntil: "domcontentloaded" });
 
@@ -93,6 +92,10 @@ export default async function (files: string[]) {
       getDataFilePath(`changed/${pathIdentifier}.json`),
       finalItem
     );
+    // delete raw files
+    console.log("remove raw file: ", file);
+
+    await Deno.remove(file);
     results.push(true);
   }
   if (page) {
@@ -113,7 +116,6 @@ export async function translateItem(item: NodeObject, page: Page | null) {
   const parsedIdentifier = parseIdentifier(identifier);
   const sourceLanguage = parsedIdentifier.language;
 
-  console.log("item", item);
   let context: ContextDefinition = {
     "@vocab": "https://schema.org/",
     "@language": sourceLanguage,
@@ -121,7 +123,7 @@ export async function translateItem(item: NodeObject, page: Page | null) {
   for (const targetLanguage of TARGET_LANGUAGES) {
     // TODO
     for (const translatedKey of TRANSLATED_FIELDS) {
-      const translatedValue = get(item, translatedKey);
+      const translatedValue = get(item, translatedKey) as string;
       const translatedTargetKey = `${translatedKey}_${targetLanguage}`;
 
       const translatedTargetValue = get(item, translatedTargetKey);
@@ -152,8 +154,14 @@ export async function translateItem(item: NodeObject, page: Page | null) {
         if (translated.result) {
           item = set(
             item,
+            translatedKey,
+            getFinalHeadline(item, translatedValue)
+          ) as NodeObject;
+
+          item = set(
+            item,
             translatedTargetKey,
-            translated.result
+            getFinalHeadline(item, translated.result)
           ) as NodeObject;
           context = set(context, getContextKey(translatedTargetKey), {
             "@id": getContextKey(translatedKey),
@@ -166,7 +174,7 @@ export async function translateItem(item: NodeObject, page: Page | null) {
             item = set(
               item,
               translatedTargetHantKey,
-              zhToHant(translated.result)
+              getFinalHeadline(item, zhToHant(translated.result))
             ) as NodeObject;
             context = set(context, getContextKey(translatedTargetHantKey), {
               "@id": getContextKey(translatedKey),
@@ -181,7 +189,7 @@ export async function translateItem(item: NodeObject, page: Page | null) {
   }
   (context as Record<string, number>)["@version"] = 1.1;
   item["@context"] = ["https://schema.org", context];
-  console.log("final item", JSON.stringify(item, null, 2));
+  // console.log("final item", JSON.stringify(item, null, 2));
   return item;
 }
 

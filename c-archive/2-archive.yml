@@ -1,0 +1,16 @@
+if: true
+sources:
+  - from: https://deno.land/x/getfiles@v1.0.0/mod.ts
+    args:
+      - ./sources/changed
+    key: path
+    force: true
+    # limit: 1
+    filter: return ctx.item.ext === 'json'
+steps:
+  - from: ./to-s3.ts
+    args:
+      - ${{ctx.item.path}}
+  - from: ./to-archive.ts
+    args:
+      - ${{ctx.item.path}}
