@@ -3,11 +3,14 @@ import {
   getYearMonthDay,
   getDataFilePath,
   stringifyIdentifier,
+  parseIdentifier,
   getPathIdentifierByIdentifier,
 } from "../../../common/util.ts";
 import { ROOT_DOMAIN } from "../../../common/constant.ts";
 import { titleCase } from "https://esm.sh/title-case";
-export default function (item: Item) {
+import { ensureDir } from "https://deno.land/std@0.121.0/fs/mod.ts";
+
+export default async function (item: Item) {
   const type = "NewsArticle";
   const publisherName = "HackerNews";
   const publisherUrl = `https://news.ycombinator.com`;
@@ -34,7 +37,32 @@ export default function (item: Item) {
   if (genre && item.title.startsWith(genre)) {
     headline = item.title.substring(genre.length + 1).trim();
   }
+
+  // check if unique
+  const postsDirPath = getDataFilePath(`sites/${publisherName}/posts`);
+  await ensureDir(postsDirPath);
+  const fileNames: string[] = [];
   const now = new Date();
+  let dateCreated = now;
+  for await (const dirEntry of Deno.readDir(postsDirPath)) {
+    if (dirEntry.isFile && dirEntry.name.endsWith(".json")) {
+      const fileName = dirEntry.name.slice(0, -5);
+
+      const parsedIdentifier = parseIdentifier(fileName);
+      if (
+        parsedIdentifier.originalId === item.objectID &&
+        parsedIdentifier.dateCreated
+      ) {
+        console.log(
+          `Found duplicate ${item.objectID}`,
+          parsedIdentifier.dateCreated
+        );
+        dateCreated = parsedIdentifier.dateCreated;
+        break;
+      }
+      fileNames.push(dirEntry.name);
+    }
+  }
   const nowISO = now.toISOString();
   const { year, month } = getYearMonthDay(now);
   const datePublished = item.created_at;
@@ -54,6 +82,7 @@ export default function (item: Item) {
   }
   const discussionUrl = `${publisherUrl}/item?id=${item.objectID}`;
   const sameAs = item.url || discussionUrl;
+  // try get image
 
   const author: Person = {
     "@type": "Person",
@@ -72,7 +101,7 @@ export default function (item: Item) {
     author,
     discussionUrl,
     sameAs,
-    dateCreated: nowISO,
+    dateCreated: dateCreated.toISOString(),
     datePublished: datePublished,
     dateModified: nowISO,
     interactionStatistic: [

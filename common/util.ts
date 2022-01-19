@@ -81,9 +81,16 @@ export interface IdentifierObj {
   publisherName: string;
   postType: string;
   originalId: string;
+  dateCreated?: Date;
 }
 export function parseIdentifier(identifier: string): IdentifierObj {
   const parts = identifier.split(SEPARATOR);
+  const part0 = parts[0];
+  let dateCreated: Date | undefined;
+  if (part0.startsWith("t")) {
+    parts.shift();
+    dateCreated = new Date(parseInt(part0.slice(1), 10));
+  }
   const year = parts[0];
   const month = parts[1];
   const day = parts[2];
@@ -91,7 +98,7 @@ export function parseIdentifier(identifier: string): IdentifierObj {
   const publisherName = parts[4];
   const postType = parts[5];
   const originalId = parts[6];
-  return {
+  const obj: IdentifierObj = {
     year,
     month,
     day,
@@ -100,6 +107,10 @@ export function parseIdentifier(identifier: string): IdentifierObj {
     postType,
     originalId,
   };
+  if (dateCreated) {
+    obj.dateCreated = dateCreated;
+  }
+  return obj;
 }
 
 export async function writeJson(path: string, data: unknown) {

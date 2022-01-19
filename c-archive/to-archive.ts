@@ -25,13 +25,12 @@ export default async function to(file: string) {
   let fileNames: string[] = [];
   const postsDirPath = getDataFilePath(`sites/${item.publisher.name}/posts`);
   await ensureDir(postsDirPath);
-  await move(
-    file,
-    join(postsDirPath, `${createdTime}${SEPARATOR}${identifier}.json`),
-    {
-      overwrite: true,
-    }
-  );
+  const newPostPath = `t${createdTime}${SEPARATOR}${identifier}.json`;
+  console.log("Move ", file, "to", newPostPath);
+
+  await move(file, join(postsDirPath, newPostPath), {
+    overwrite: true,
+  });
   // mv json to
 
   for await (const dirEntry of Deno.readDir(postsDirPath)) {

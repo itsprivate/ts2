@@ -7,8 +7,8 @@ sources:
     run: return ctx.result.json();
     itemsPath: hits
     key: objectID
-    force: true
-    limit: 1
+    # force: true
+    # limit: 1
     filter: return true;
 steps:
   - from: ./format.ts
@@ -19,4 +19,5 @@ steps:
     args:
       - ${{ctx.result.path}}
     run: |
+      console.log('Write json to: ',ctx.steps[0].result.path);
       Deno.writeTextFileSync(ctx.steps[0].result.path, JSON.stringify(ctx.steps[0].result.item,null,2));
