@@ -33,6 +33,7 @@ jobs:
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
           labels: automerge
+          add-paths: data,sources
           commit-message: "chore: new item"
           committer: "github-actions[bot] <github-actions-bot@users.noreply.github.com>"
           author: "github-actions[bot] <github-actions-bot@users.noreply.github.com>"
