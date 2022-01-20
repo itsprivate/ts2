@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--20--en--HackerNews--hnshow--NewsArticle--30004743",
+  "url": "https://news.ycombinator.com/item?id=30004743",
+  "headline": "Show HN: Wordlet – A Wordle Bookmarklet",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mataherry",
+    "url": "https://news.ycombinator.com/user?id=mataherry"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30004743",
+  "sameAs": "https://wordlet.deno.dev/",
+  "dateCreated": "2022-01-20T16:55:40.666Z",
+  "datePublished": "2022-01-20T04:41:31.000Z",
+  "dateModified": "2022-01-20T16:55:40.666Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Wordlet - 一个Wordle小书签",
+  "headline_zh-Hant": "Show HN: Wordlet - 一個Wordle小書籤",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
