@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--20--en--showhn--HackerNews--NewsArticle--30015803",
+  "url": "https://news.ycombinator.com/item?id=30015803",
+  "headline": "Show HN: Pytagmapper – python3 SLAM library for square fiducial tags",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "markisus",
+    "url": "https://news.ycombinator.com/user?id=markisus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30015803",
+  "sameAs": "https://github.com/markisus/pytagmapper",
+  "dateCreated": "2022-01-20T22:07:06.324Z",
+  "datePublished": "2022-01-20T22:05:28.000Z",
+  "dateModified": "2022-01-20T22:07:06.324Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Pytagmapper - 用于方形靶标的python3 SLAM库",
+  "headline_zh-Hant": "Show HN: Pytagmapper - 用於方形靶標的python3 SLAM庫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
