@@ -1,0 +1,1051 @@
+import "/-/setimmediate@v1.0.5-uywfpDbDtsbU92820dkK/dist=es2019,mode=imports/optimized/setimmediate.js";
+var IdentifierIssuer_1 = class IdentifierIssuer {
+  constructor(prefix, existing = new Map(), counter = 0) {
+    this.prefix = prefix;
+    this._existing = existing;
+    this.counter = counter;
+  }
+  clone() {
+    const {prefix, _existing, counter} = this;
+    return new IdentifierIssuer(prefix, new Map(_existing), counter);
+  }
+  getId(old) {
+    const existing = old && this._existing.get(old);
+    if (existing) {
+      return existing;
+    }
+    const identifier = this.prefix + this.counter;
+    this.counter++;
+    if (old) {
+      this._existing.set(old, identifier);
+    }
+    return identifier;
+  }
+  hasId(old) {
+    return this._existing.has(old);
+  }
+  getOldIds() {
+    return [...this._existing.keys()];
+  }
+};
+const crypto = self.crypto || self.msCrypto;
+var MessageDigestBrowser = class MessageDigest {
+  constructor(algorithm) {
+    if (!(crypto && crypto.subtle)) {
+      throw new Error("crypto.subtle not found.");
+    }
+    if (algorithm === "sha256") {
+      this.algorithm = {name: "SHA-256"};
+    } else if (algorithm === "sha1") {
+      this.algorithm = {name: "SHA-1"};
+    } else {
+      throw new Error(`Unsupport algorithm "${algorithm}".`);
+    }
+    this._content = "";
+  }
+  update(msg) {
+    this._content += msg;
+  }
+  async digest() {
+    const data = new TextEncoder().encode(this._content);
+    const buffer = new Uint8Array(await crypto.subtle.digest(this.algorithm, data));
+    let hex = "";
+    for (let i = 0; i < buffer.length; ++i) {
+      hex += buffer[i].toString(16).padStart(2, "0");
+    }
+    return hex;
+  }
+};
+var Permuter_1 = class Permuter {
+  constructor(list) {
+    this.current = list.sort();
+    this.done = false;
+    this.dir = new Map();
+    for (let i = 0; i < list.length; ++i) {
+      this.dir.set(list[i], true);
+    }
+  }
+  hasNext() {
+    return !this.done;
+  }
+  next() {
+    const {current, dir} = this;
+    const rval = current.slice();
+    let k = null;
+    let pos = 0;
+    const length = current.length;
+    for (let i = 0; i < length; ++i) {
+      const element = current[i];
+      const left = dir.get(element);
+      if ((k === null || element > k) && (left && i > 0 && element > current[i - 1] || !left && i < length - 1 && element > current[i + 1])) {
+        k = element;
+        pos = i;
+      }
+    }
+    if (k === null) {
+      this.done = true;
+    } else {
+      const swap = dir.get(k) ? pos - 1 : pos + 1;
+      current[pos] = current[swap];
+      current[swap] = k;
+      for (const element of current) {
+        if (element > k) {
+          dir.set(element, !dir.get(element));
+        }
+      }
+    }
+    return rval;
+  }
+};
+const RDF = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
+const RDF_LANGSTRING = RDF + "langString";
+const XSD_STRING = "http://www.w3.org/2001/XMLSchema#string";
+const TYPE_NAMED_NODE = "NamedNode";
+const TYPE_BLANK_NODE = "BlankNode";
+const TYPE_LITERAL = "Literal";
+const TYPE_DEFAULT_GRAPH = "DefaultGraph";
+const REGEX = {};
+(() => {
+  const iri = "(?:<([^:]+:[^>]*)>)";
+  const PN_CHARS_BASE = "A-Za-z\xC0-\xD6\xD8-\xF6\xF8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD";
+  const PN_CHARS_U = PN_CHARS_BASE + "_";
+  const PN_CHARS = PN_CHARS_U + "0-9-\xB7\u0300-\u036F\u203F-\u2040";
+  const BLANK_NODE_LABEL = "(_:(?:[" + PN_CHARS_U + "0-9])(?:(?:[" + PN_CHARS + ".])*(?:[" + PN_CHARS + "]))?)";
+  const bnode = BLANK_NODE_LABEL;
+  const plain = '"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"';
+  const datatype = "(?:\\^\\^" + iri + ")";
+  const language = "(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*))";
+  const literal = "(?:" + plain + "(?:" + datatype + "|" + language + ")?)";
+  const ws = "[ \\t]+";
+  const wso = "[ \\t]*";
+  const subject = "(?:" + iri + "|" + bnode + ")" + ws;
+  const property = iri + ws;
+  const object = "(?:" + iri + "|" + bnode + "|" + literal + ")" + wso;
+  const graphName = "(?:\\.|(?:(?:" + iri + "|" + bnode + ")" + wso + "\\.))";
+  REGEX.eoln = /(?:\r\n)|(?:\n)|(?:\r)/g;
+  REGEX.empty = new RegExp("^" + wso + "$");
+  REGEX.quad = new RegExp("^" + wso + subject + property + object + graphName + wso + "$");
+})();
+var NQuads_1 = class NQuads {
+  static parse(input) {
+    const dataset = [];
+    const graphs = {};
+    const lines = input.split(REGEX.eoln);
+    let lineNumber = 0;
+    for (const line of lines) {
+      lineNumber++;
+      if (REGEX.empty.test(line)) {
+        continue;
+      }
+      const match = line.match(REGEX.quad);
+      if (match === null) {
+        throw new Error("N-Quads parse error on line " + lineNumber + ".");
+      }
+      const quad = {subject: null, predicate: null, object: null, graph: null};
+      if (match[1] !== void 0) {
+        quad.subject = {termType: TYPE_NAMED_NODE, value: match[1]};
+      } else {
+        quad.subject = {termType: TYPE_BLANK_NODE, value: match[2]};
+      }
+      quad.predicate = {termType: TYPE_NAMED_NODE, value: match[3]};
+      if (match[4] !== void 0) {
+        quad.object = {termType: TYPE_NAMED_NODE, value: match[4]};
+      } else if (match[5] !== void 0) {
+        quad.object = {termType: TYPE_BLANK_NODE, value: match[5]};
+      } else {
+        quad.object = {
+          termType: TYPE_LITERAL,
+          value: void 0,
+          datatype: {
+            termType: TYPE_NAMED_NODE
+          }
+        };
+        if (match[7] !== void 0) {
+          quad.object.datatype.value = match[7];
+        } else if (match[8] !== void 0) {
+          quad.object.datatype.value = RDF_LANGSTRING;
+          quad.object.language = match[8];
+        } else {
+          quad.object.datatype.value = XSD_STRING;
+        }
+        quad.object.value = _unescape(match[6]);
+      }
+      if (match[9] !== void 0) {
+        quad.graph = {
+          termType: TYPE_NAMED_NODE,
+          value: match[9]
+        };
+      } else if (match[10] !== void 0) {
+        quad.graph = {
+          termType: TYPE_BLANK_NODE,
+          value: match[10]
+        };
+      } else {
+        quad.graph = {
+          termType: TYPE_DEFAULT_GRAPH,
+          value: ""
+        };
+      }
+      if (!(quad.graph.value in graphs)) {
+        graphs[quad.graph.value] = [quad];
+        dataset.push(quad);
+      } else {
+        let unique = true;
+        const quads = graphs[quad.graph.value];
+        for (const q of quads) {
+          if (_compareTriples(q, quad)) {
+            unique = false;
+            break;
+          }
+        }
+        if (unique) {
+          quads.push(quad);
+          dataset.push(quad);
+        }
+      }
+    }
+    return dataset;
+  }
+  static serialize(dataset) {
+    if (!Array.isArray(dataset)) {
+      dataset = NQuads.legacyDatasetToQuads(dataset);
+    }
+    const quads = [];
+    for (const quad of dataset) {
+      quads.push(NQuads.serializeQuad(quad));
+    }
+    return quads.sort().join("");
+  }
+  static serializeQuad(quad) {
+    const s = quad.subject;
+    const p = quad.predicate;
+    const o = quad.object;
+    const g = quad.graph;
+    let nquad = "";
+    if (s.termType === TYPE_NAMED_NODE) {
+      nquad += `<${s.value}>`;
+    } else {
+      nquad += `${s.value}`;
+    }
+    nquad += ` <${p.value}> `;
+    if (o.termType === TYPE_NAMED_NODE) {
+      nquad += `<${o.value}>`;
+    } else if (o.termType === TYPE_BLANK_NODE) {
+      nquad += o.value;
+    } else {
+      nquad += `"${_escape(o.value)}"`;
+      if (o.datatype.value === RDF_LANGSTRING) {
+        if (o.language) {
+          nquad += `@${o.language}`;
+        }
+      } else if (o.datatype.value !== XSD_STRING) {
+        nquad += `^^<${o.datatype.value}>`;
+      }
+    }
+    if (g.termType === TYPE_NAMED_NODE) {
+      nquad += ` <${g.value}>`;
+    } else if (g.termType === TYPE_BLANK_NODE) {
+      nquad += ` ${g.value}`;
+    }
+    nquad += " .\n";
+    return nquad;
+  }
+  static legacyDatasetToQuads(dataset) {
+    const quads = [];
+    const termTypeMap = {
+      "blank node": TYPE_BLANK_NODE,
+      IRI: TYPE_NAMED_NODE,
+      literal: TYPE_LITERAL
+    };
+    for (const graphName in dataset) {
+      const triples = dataset[graphName];
+      triples.forEach((triple) => {
+        const quad = {};
+        for (const componentName in triple) {
+          const oldComponent = triple[componentName];
+          const newComponent = {
+            termType: termTypeMap[oldComponent.type],
+            value: oldComponent.value
+          };
+          if (newComponent.termType === TYPE_LITERAL) {
+            newComponent.datatype = {
+              termType: TYPE_NAMED_NODE
+            };
+            if ("datatype" in oldComponent) {
+              newComponent.datatype.value = oldComponent.datatype;
+            }
+            if ("language" in oldComponent) {
+              if (!("datatype" in oldComponent)) {
+                newComponent.datatype.value = RDF_LANGSTRING;
+              }
+              newComponent.language = oldComponent.language;
+            } else if (!("datatype" in oldComponent)) {
+              newComponent.datatype.value = XSD_STRING;
+            }
+          }
+          quad[componentName] = newComponent;
+        }
+        if (graphName === "@default") {
+          quad.graph = {
+            termType: TYPE_DEFAULT_GRAPH,
+            value: ""
+          };
+        } else {
+          quad.graph = {
+            termType: graphName.startsWith("_:") ? TYPE_BLANK_NODE : TYPE_NAMED_NODE,
+            value: graphName
+          };
+        }
+        quads.push(quad);
+      });
+    }
+    return quads;
+  }
+};
+function _compareTriples(t1, t2) {
+  if (!(t1.subject.termType === t2.subject.termType && t1.object.termType === t2.object.termType)) {
+    return false;
+  }
+  if (!(t1.subject.value === t2.subject.value && t1.predicate.value === t2.predicate.value && t1.object.value === t2.object.value)) {
+    return false;
+  }
+  if (t1.object.termType !== TYPE_LITERAL) {
+    return true;
+  }
+  return t1.object.datatype.termType === t2.object.datatype.termType && t1.object.language === t2.object.language && t1.object.datatype.value === t2.object.datatype.value;
+}
+const _escapeRegex = /["\\\n\r]/g;
+function _escape(s) {
+  return s.replace(_escapeRegex, function(match) {
+    switch (match) {
+      case '"':
+        return '\\"';
+      case "\\":
+        return "\\\\";
+      case "\n":
+        return "\\n";
+      case "\r":
+        return "\\r";
+    }
+  });
+}
+const _unescapeRegex = /(?:\\([tbnrf"'\\]))|(?:\\u([0-9A-Fa-f]{4}))|(?:\\U([0-9A-Fa-f]{8}))/g;
+function _unescape(s) {
+  return s.replace(_unescapeRegex, function(match, code, u, U) {
+    if (code) {
+      switch (code) {
+        case "t":
+          return "	";
+        case "b":
+          return "\b";
+        case "n":
+          return "\n";
+        case "r":
+          return "\r";
+        case "f":
+          return "\f";
+        case '"':
+          return '"';
+        case "'":
+          return "'";
+        case "\\":
+          return "\\";
+      }
+    }
+    if (u) {
+      return String.fromCharCode(parseInt(u, 16));
+    }
+    if (U) {
+      throw new Error("Unsupported U escape");
+    }
+  });
+}
+var URDNA2015_1 = class URDNA2015 {
+  constructor() {
+    this.name = "URDNA2015";
+    this.blankNodeInfo = new Map();
+    this.canonicalIssuer = new IdentifierIssuer_1("_:c14n");
+    this.hashAlgorithm = "sha256";
+    this.quads = null;
+  }
+  async main(dataset) {
+    this.quads = dataset;
+    for (const quad of dataset) {
+      this._addBlankNodeQuadInfo({quad, component: quad.subject});
+      this._addBlankNodeQuadInfo({quad, component: quad.object});
+      this._addBlankNodeQuadInfo({quad, component: quad.graph});
+    }
+    const hashToBlankNodes = new Map();
+    const nonNormalized = [...this.blankNodeInfo.keys()];
+    let i = 0;
+    for (const id of nonNormalized) {
+      if (++i % 100 === 0) {
+        await this._yield();
+      }
+      await this._hashAndTrackBlankNode({id, hashToBlankNodes});
+    }
+    const hashes = [...hashToBlankNodes.keys()].sort();
+    const nonUnique = [];
+    for (const hash of hashes) {
+      const idList = hashToBlankNodes.get(hash);
+      if (idList.length > 1) {
+        nonUnique.push(idList);
+        continue;
+      }
+      const id = idList[0];
+      this.canonicalIssuer.getId(id);
+    }
+    for (const idList of nonUnique) {
+      const hashPathList = [];
+      for (const id of idList) {
+        if (this.canonicalIssuer.hasId(id)) {
+          continue;
+        }
+        const issuer = new IdentifierIssuer_1("_:b");
+        issuer.getId(id);
+        const result = await this.hashNDegreeQuads(id, issuer);
+        hashPathList.push(result);
+      }
+      hashPathList.sort(_stringHashCompare);
+      for (const result of hashPathList) {
+        const oldIds = result.issuer.getOldIds();
+        for (const id of oldIds) {
+          this.canonicalIssuer.getId(id);
+        }
+      }
+    }
+    const normalized = [];
+    for (const quad of this.quads) {
+      const q = {...quad};
+      q.subject = this._useCanonicalId({component: q.subject});
+      q.object = this._useCanonicalId({component: q.object});
+      q.graph = this._useCanonicalId({component: q.graph});
+      normalized.push(NQuads_1.serializeQuad(q));
+    }
+    normalized.sort();
+    return normalized.join("");
+  }
+  async hashFirstDegreeQuads(id) {
+    const nquads = [];
+    const info = this.blankNodeInfo.get(id);
+    const quads = info.quads;
+    for (const quad of quads) {
+      const copy = {
+        subject: null,
+        predicate: quad.predicate,
+        object: null,
+        graph: null
+      };
+      copy.subject = this.modifyFirstDegreeComponent(id, quad.subject, "subject");
+      copy.object = this.modifyFirstDegreeComponent(id, quad.object, "object");
+      copy.graph = this.modifyFirstDegreeComponent(id, quad.graph, "graph");
+      nquads.push(NQuads_1.serializeQuad(copy));
+    }
+    nquads.sort();
+    const md = new MessageDigestBrowser(this.hashAlgorithm);
+    for (const nquad of nquads) {
+      md.update(nquad);
+    }
+    info.hash = await md.digest();
+    return info.hash;
+  }
+  async hashRelatedBlankNode(related, quad, issuer, position) {
+    let id;
+    if (this.canonicalIssuer.hasId(related)) {
+      id = this.canonicalIssuer.getId(related);
+    } else if (issuer.hasId(related)) {
+      id = issuer.getId(related);
+    } else {
+      id = this.blankNodeInfo.get(related).hash;
+    }
+    const md = new MessageDigestBrowser(this.hashAlgorithm);
+    md.update(position);
+    if (position !== "g") {
+      md.update(this.getRelatedPredicate(quad));
+    }
+    md.update(id);
+    return md.digest();
+  }
+  async hashNDegreeQuads(id, issuer) {
+    const md = new MessageDigestBrowser(this.hashAlgorithm);
+    const hashToRelated = await this.createHashToRelated(id, issuer);
+    const hashes = [...hashToRelated.keys()].sort();
+    for (const hash of hashes) {
+      md.update(hash);
+      let chosenPath = "";
+      let chosenIssuer;
+      const permuter = new Permuter_1(hashToRelated.get(hash));
+      let i = 0;
+      while (permuter.hasNext()) {
+        const permutation = permuter.next();
+        if (++i % 3 === 0) {
+          await this._yield();
+        }
+        let issuerCopy = issuer.clone();
+        let path = "";
+        const recursionList = [];
+        let nextPermutation = false;
+        for (const related of permutation) {
+          if (this.canonicalIssuer.hasId(related)) {
+            path += this.canonicalIssuer.getId(related);
+          } else {
+            if (!issuerCopy.hasId(related)) {
+              recursionList.push(related);
+            }
+            path += issuerCopy.getId(related);
+          }
+          if (chosenPath.length !== 0 && path > chosenPath) {
+            nextPermutation = true;
+            break;
+          }
+        }
+        if (nextPermutation) {
+          continue;
+        }
+        for (const related of recursionList) {
+          const result = await this.hashNDegreeQuads(related, issuerCopy);
+          path += issuerCopy.getId(related);
+          path += `<${result.hash}>`;
+          issuerCopy = result.issuer;
+          if (chosenPath.length !== 0 && path > chosenPath) {
+            nextPermutation = true;
+            break;
+          }
+        }
+        if (nextPermutation) {
+          continue;
+        }
+        if (chosenPath.length === 0 || path < chosenPath) {
+          chosenPath = path;
+          chosenIssuer = issuerCopy;
+        }
+      }
+      md.update(chosenPath);
+      issuer = chosenIssuer;
+    }
+    return {hash: await md.digest(), issuer};
+  }
+  modifyFirstDegreeComponent(id, component) {
+    if (component.termType !== "BlankNode") {
+      return component;
+    }
+    return {
+      termType: "BlankNode",
+      value: component.value === id ? "_:a" : "_:z"
+    };
+  }
+  getRelatedPredicate(quad) {
+    return `<${quad.predicate.value}>`;
+  }
+  async createHashToRelated(id, issuer) {
+    const hashToRelated = new Map();
+    const quads = this.blankNodeInfo.get(id).quads;
+    let i = 0;
+    for (const quad of quads) {
+      if (++i % 100 === 0) {
+        await this._yield();
+      }
+      await Promise.all([
+        this._addRelatedBlankNodeHash({
+          quad,
+          component: quad.subject,
+          position: "s",
+          id,
+          issuer,
+          hashToRelated
+        }),
+        this._addRelatedBlankNodeHash({
+          quad,
+          component: quad.object,
+          position: "o",
+          id,
+          issuer,
+          hashToRelated
+        }),
+        this._addRelatedBlankNodeHash({
+          quad,
+          component: quad.graph,
+          position: "g",
+          id,
+          issuer,
+          hashToRelated
+        })
+      ]);
+    }
+    return hashToRelated;
+  }
+  async _hashAndTrackBlankNode({id, hashToBlankNodes}) {
+    const hash = await this.hashFirstDegreeQuads(id);
+    const idList = hashToBlankNodes.get(hash);
+    if (!idList) {
+      hashToBlankNodes.set(hash, [id]);
+    } else {
+      idList.push(id);
+    }
+  }
+  _addBlankNodeQuadInfo({quad, component}) {
+    if (component.termType !== "BlankNode") {
+      return;
+    }
+    const id = component.value;
+    const info = this.blankNodeInfo.get(id);
+    if (info) {
+      info.quads.add(quad);
+    } else {
+      this.blankNodeInfo.set(id, {quads: new Set([quad]), hash: null});
+    }
+  }
+  async _addRelatedBlankNodeHash({quad, component, position, id, issuer, hashToRelated}) {
+    if (!(component.termType === "BlankNode" && component.value !== id)) {
+      return;
+    }
+    const related = component.value;
+    const hash = await this.hashRelatedBlankNode(related, quad, issuer, position);
+    const entries = hashToRelated.get(hash);
+    if (entries) {
+      entries.push(related);
+    } else {
+      hashToRelated.set(hash, [related]);
+    }
+  }
+  _useCanonicalId({component}) {
+    if (component.termType === "BlankNode" && !component.value.startsWith(this.canonicalIssuer.prefix)) {
+      return {
+        termType: "BlankNode",
+        value: this.canonicalIssuer.getId(component.value)
+      };
+    }
+    return component;
+  }
+  async _yield() {
+    return new Promise((resolve) => setImmediate(resolve));
+  }
+};
+function _stringHashCompare(a, b) {
+  return a.hash < b.hash ? -1 : a.hash > b.hash ? 1 : 0;
+}
+var URGNA2012 = class URDNA2012 extends URDNA2015_1 {
+  constructor() {
+    super();
+    this.name = "URGNA2012";
+    this.hashAlgorithm = "sha1";
+  }
+  modifyFirstDegreeComponent(id, component, key) {
+    if (component.termType !== "BlankNode") {
+      return component;
+    }
+    if (key === "graph") {
+      return {
+        termType: "BlankNode",
+        value: "_:g"
+      };
+    }
+    return {
+      termType: "BlankNode",
+      value: component.value === id ? "_:a" : "_:z"
+    };
+  }
+  getRelatedPredicate(quad) {
+    return quad.predicate.value;
+  }
+  async createHashToRelated(id, issuer) {
+    const hashToRelated = new Map();
+    const quads = this.blankNodeInfo.get(id).quads;
+    let i = 0;
+    for (const quad of quads) {
+      let position;
+      let related;
+      if (quad.subject.termType === "BlankNode" && quad.subject.value !== id) {
+        related = quad.subject.value;
+        position = "p";
+      } else if (quad.object.termType === "BlankNode" && quad.object.value !== id) {
+        related = quad.object.value;
+        position = "r";
+      } else {
+        continue;
+      }
+      if (++i % 100 === 0) {
+        await this._yield();
+      }
+      const hash = await this.hashRelatedBlankNode(related, quad, issuer, position);
+      const entries = hashToRelated.get(hash);
+      if (entries) {
+        entries.push(related);
+      } else {
+        hashToRelated.set(hash, [related]);
+      }
+    }
+    return hashToRelated;
+  }
+};
+var URDNA2015Sync_1 = class URDNA2015Sync {
+  constructor() {
+    this.name = "URDNA2015";
+    this.blankNodeInfo = new Map();
+    this.canonicalIssuer = new IdentifierIssuer_1("_:c14n");
+    this.hashAlgorithm = "sha256";
+    this.quads = null;
+  }
+  main(dataset) {
+    this.quads = dataset;
+    for (const quad of dataset) {
+      this._addBlankNodeQuadInfo({quad, component: quad.subject});
+      this._addBlankNodeQuadInfo({quad, component: quad.object});
+      this._addBlankNodeQuadInfo({quad, component: quad.graph});
+    }
+    const hashToBlankNodes = new Map();
+    const nonNormalized = [...this.blankNodeInfo.keys()];
+    for (const id of nonNormalized) {
+      this._hashAndTrackBlankNode({id, hashToBlankNodes});
+    }
+    const hashes = [...hashToBlankNodes.keys()].sort();
+    const nonUnique = [];
+    for (const hash of hashes) {
+      const idList = hashToBlankNodes.get(hash);
+      if (idList.length > 1) {
+        nonUnique.push(idList);
+        continue;
+      }
+      const id = idList[0];
+      this.canonicalIssuer.getId(id);
+    }
+    for (const idList of nonUnique) {
+      const hashPathList = [];
+      for (const id of idList) {
+        if (this.canonicalIssuer.hasId(id)) {
+          continue;
+        }
+        const issuer = new IdentifierIssuer_1("_:b");
+        issuer.getId(id);
+        const result = this.hashNDegreeQuads(id, issuer);
+        hashPathList.push(result);
+      }
+      hashPathList.sort(_stringHashCompare$1);
+      for (const result of hashPathList) {
+        const oldIds = result.issuer.getOldIds();
+        for (const id of oldIds) {
+          this.canonicalIssuer.getId(id);
+        }
+      }
+    }
+    const normalized = [];
+    for (const quad of this.quads) {
+      const q = {...quad};
+      q.subject = this._useCanonicalId({component: q.subject});
+      q.object = this._useCanonicalId({component: q.object});
+      q.graph = this._useCanonicalId({component: q.graph});
+      normalized.push(NQuads_1.serializeQuad(q));
+    }
+    normalized.sort();
+    return normalized.join("");
+  }
+  hashFirstDegreeQuads(id) {
+    const nquads = [];
+    const info = this.blankNodeInfo.get(id);
+    const quads = info.quads;
+    for (const quad of quads) {
+      const copy = {
+        subject: null,
+        predicate: quad.predicate,
+        object: null,
+        graph: null
+      };
+      copy.subject = this.modifyFirstDegreeComponent(id, quad.subject, "subject");
+      copy.object = this.modifyFirstDegreeComponent(id, quad.object, "object");
+      copy.graph = this.modifyFirstDegreeComponent(id, quad.graph, "graph");
+      nquads.push(NQuads_1.serializeQuad(copy));
+    }
+    nquads.sort();
+    const md = new MessageDigestBrowser(this.hashAlgorithm);
+    for (const nquad of nquads) {
+      md.update(nquad);
+    }
+    info.hash = md.digest();
+    return info.hash;
+  }
+  hashRelatedBlankNode(related, quad, issuer, position) {
+    let id;
+    if (this.canonicalIssuer.hasId(related)) {
+      id = this.canonicalIssuer.getId(related);
+    } else if (issuer.hasId(related)) {
+      id = issuer.getId(related);
+    } else {
+      id = this.blankNodeInfo.get(related).hash;
+    }
+    const md = new MessageDigestBrowser(this.hashAlgorithm);
+    md.update(position);
+    if (position !== "g") {
+      md.update(this.getRelatedPredicate(quad));
+    }
+    md.update(id);
+    return md.digest();
+  }
+  hashNDegreeQuads(id, issuer) {
+    const md = new MessageDigestBrowser(this.hashAlgorithm);
+    const hashToRelated = this.createHashToRelated(id, issuer);
+    const hashes = [...hashToRelated.keys()].sort();
+    for (const hash of hashes) {
+      md.update(hash);
+      let chosenPath = "";
+      let chosenIssuer;
+      const permuter = new Permuter_1(hashToRelated.get(hash));
+      while (permuter.hasNext()) {
+        const permutation = permuter.next();
+        let issuerCopy = issuer.clone();
+        let path = "";
+        const recursionList = [];
+        let nextPermutation = false;
+        for (const related of permutation) {
+          if (this.canonicalIssuer.hasId(related)) {
+            path += this.canonicalIssuer.getId(related);
+          } else {
+            if (!issuerCopy.hasId(related)) {
+              recursionList.push(related);
+            }
+            path += issuerCopy.getId(related);
+          }
+          if (chosenPath.length !== 0 && path > chosenPath) {
+            nextPermutation = true;
+            break;
+          }
+        }
+        if (nextPermutation) {
+          continue;
+        }
+        for (const related of recursionList) {
+          const result = this.hashNDegreeQuads(related, issuerCopy);
+          path += issuerCopy.getId(related);
+          path += `<${result.hash}>`;
+          issuerCopy = result.issuer;
+          if (chosenPath.length !== 0 && path > chosenPath) {
+            nextPermutation = true;
+            break;
+          }
+        }
+        if (nextPermutation) {
+          continue;
+        }
+        if (chosenPath.length === 0 || path < chosenPath) {
+          chosenPath = path;
+          chosenIssuer = issuerCopy;
+        }
+      }
+      md.update(chosenPath);
+      issuer = chosenIssuer;
+    }
+    return {hash: md.digest(), issuer};
+  }
+  modifyFirstDegreeComponent(id, component) {
+    if (component.termType !== "BlankNode") {
+      return component;
+    }
+    return {
+      termType: "BlankNode",
+      value: component.value === id ? "_:a" : "_:z"
+    };
+  }
+  getRelatedPredicate(quad) {
+    return `<${quad.predicate.value}>`;
+  }
+  createHashToRelated(id, issuer) {
+    const hashToRelated = new Map();
+    const quads = this.blankNodeInfo.get(id).quads;
+    for (const quad of quads) {
+      this._addRelatedBlankNodeHash({
+        quad,
+        component: quad.subject,
+        position: "s",
+        id,
+        issuer,
+        hashToRelated
+      });
+      this._addRelatedBlankNodeHash({
+        quad,
+        component: quad.object,
+        position: "o",
+        id,
+        issuer,
+        hashToRelated
+      });
+      this._addRelatedBlankNodeHash({
+        quad,
+        component: quad.graph,
+        position: "g",
+        id,
+        issuer,
+        hashToRelated
+      });
+    }
+    return hashToRelated;
+  }
+  _hashAndTrackBlankNode({id, hashToBlankNodes}) {
+    const hash = this.hashFirstDegreeQuads(id);
+    const idList = hashToBlankNodes.get(hash);
+    if (!idList) {
+      hashToBlankNodes.set(hash, [id]);
+    } else {
+      idList.push(id);
+    }
+  }
+  _addBlankNodeQuadInfo({quad, component}) {
+    if (component.termType !== "BlankNode") {
+      return;
+    }
+    const id = component.value;
+    const info = this.blankNodeInfo.get(id);
+    if (info) {
+      info.quads.add(quad);
+    } else {
+      this.blankNodeInfo.set(id, {quads: new Set([quad]), hash: null});
+    }
+  }
+  _addRelatedBlankNodeHash({quad, component, position, id, issuer, hashToRelated}) {
+    if (!(component.termType === "BlankNode" && component.value !== id)) {
+      return;
+    }
+    const related = component.value;
+    const hash = this.hashRelatedBlankNode(related, quad, issuer, position);
+    const entries = hashToRelated.get(hash);
+    if (entries) {
+      entries.push(related);
+    } else {
+      hashToRelated.set(hash, [related]);
+    }
+  }
+  _useCanonicalId({component}) {
+    if (component.termType === "BlankNode" && !component.value.startsWith(this.canonicalIssuer.prefix)) {
+      return {
+        termType: "BlankNode",
+        value: this.canonicalIssuer.getId(component.value)
+      };
+    }
+    return component;
+  }
+};
+function _stringHashCompare$1(a, b) {
+  return a.hash < b.hash ? -1 : a.hash > b.hash ? 1 : 0;
+}
+var URGNA2012Sync = class URDNA2012Sync extends URDNA2015Sync_1 {
+  constructor() {
+    super();
+    this.name = "URGNA2012";
+    this.hashAlgorithm = "sha1";
+  }
+  modifyFirstDegreeComponent(id, component, key) {
+    if (component.termType !== "BlankNode") {
+      return component;
+    }
+    if (key === "graph") {
+      return {
+        termType: "BlankNode",
+        value: "_:g"
+      };
+    }
+    return {
+      termType: "BlankNode",
+      value: component.value === id ? "_:a" : "_:z"
+    };
+  }
+  getRelatedPredicate(quad) {
+    return quad.predicate.value;
+  }
+  createHashToRelated(id, issuer) {
+    const hashToRelated = new Map();
+    const quads = this.blankNodeInfo.get(id).quads;
+    for (const quad of quads) {
+      let position;
+      let related;
+      if (quad.subject.termType === "BlankNode" && quad.subject.value !== id) {
+        related = quad.subject.value;
+        position = "p";
+      } else if (quad.object.termType === "BlankNode" && quad.object.value !== id) {
+        related = quad.object.value;
+        position = "r";
+      } else {
+        continue;
+      }
+      const hash = this.hashRelatedBlankNode(related, quad, issuer, position);
+      const entries = hashToRelated.get(hash);
+      if (entries) {
+        entries.push(related);
+      } else {
+        hashToRelated.set(hash, [related]);
+      }
+    }
+    return hashToRelated;
+  }
+};
+var _nodeResolve_empty = {};
+var _nodeResolve_empty$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  default: _nodeResolve_empty
+});
+function getDefaultExportFromNamespaceIfNotNamed(n) {
+  return n && Object.prototype.hasOwnProperty.call(n, "default") && Object.keys(n).length === 1 ? n["default"] : n;
+}
+var require$$0 = /* @__PURE__ */ getDefaultExportFromNamespaceIfNotNamed(_nodeResolve_empty$1);
+let rdfCanonizeNative;
+try {
+  rdfCanonizeNative = require$$0;
+} catch (e) {
+}
+const api = {};
+var lib = api;
+api.NQuads = NQuads_1;
+api.IdentifierIssuer = IdentifierIssuer_1;
+api._rdfCanonizeNative = function(api2) {
+  if (api2) {
+    rdfCanonizeNative = api2;
+  }
+  return rdfCanonizeNative;
+};
+api.canonize = async function(dataset, options) {
+  if (!Array.isArray(dataset)) {
+    dataset = api.NQuads.legacyDatasetToQuads(dataset);
+  }
+  if (options.useNative) {
+    if (!rdfCanonizeNative) {
+      throw new Error("rdf-canonize-native not available");
+    }
+    return new Promise((resolve, reject) => rdfCanonizeNative.canonize(dataset, options, (err, canonical) => err ? reject(err) : resolve(canonical)));
+  }
+  if (options.algorithm === "URDNA2015") {
+    return new URDNA2015_1(options).main(dataset);
+  }
+  if (options.algorithm === "URGNA2012") {
+    return new URGNA2012(options).main(dataset);
+  }
+  if (!("algorithm" in options)) {
+    throw new Error("No RDF Dataset Canonicalization algorithm specified.");
+  }
+  throw new Error("Invalid RDF Dataset Canonicalization algorithm: " + options.algorithm);
+};
+api._canonizeSync = function(dataset, options) {
+  if (!Array.isArray(dataset)) {
+    dataset = api.NQuads.legacyDatasetToQuads(dataset);
+  }
+  if (options.useNative) {
+    if (rdfCanonizeNative) {
+      return rdfCanonizeNative.canonizeSync(dataset, options);
+    }
+    throw new Error("rdf-canonize-native not available");
+  }
+  if (options.algorithm === "URDNA2015") {
+    return new URDNA2015Sync_1(options).main(dataset);
+  }
+  if (options.algorithm === "URGNA2012") {
+    return new URGNA2012Sync(options).main(dataset);
+  }
+  if (!("algorithm" in options)) {
+    throw new Error("No RDF Dataset Canonicalization algorithm specified.");
+  }
+  throw new Error("Invalid RDF Dataset Canonicalization algorithm: " + options.algorithm);
+};
+var rdfCanonize = lib;
+var IdentifierIssuer2 = rdfCanonize.IdentifierIssuer;
+var NQuads2 = rdfCanonize.NQuads;
+var _canonizeSync = rdfCanonize._canonizeSync;
+var _rdfCanonizeNative = rdfCanonize._rdfCanonizeNative;
+var canonize = rdfCanonize.canonize;
+export default rdfCanonize;
+export {IdentifierIssuer2 as IdentifierIssuer, NQuads2 as NQuads, rdfCanonize as __moduleExports, _canonizeSync, _rdfCanonizeNative, canonize};
