@@ -184,6 +184,12 @@ export async function translateItem(item: NodeObject, page: Page | null) {
         } else {
           throw new Error(translated.result);
         }
+      } else {
+        console.log(
+          "translated result exists, skip",
+          translatedKey,
+          translatedTargetKey
+        );
       }
     }
   }

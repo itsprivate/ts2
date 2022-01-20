@@ -18,12 +18,12 @@ export default async function to(file: string) {
   const item = JSON.parse(data);
   const identifier = item.identifier as string;
   const createdTime = new Date(item.dateCreated).getTime();
-  const { year, month } = parseIdentifier(identifier);
+  const { year, month, siteIdentifier } = parseIdentifier(identifier);
 
   // transfer to sites/posts folder
 
   let fileNames: string[] = [];
-  const postsDirPath = getDataFilePath(`sites/${item.publisher.name}/posts`);
+  const postsDirPath = getDataFilePath(`sites/${siteIdentifier}/posts`);
   await ensureDir(postsDirPath);
   const newPostPath = `t${createdTime}${SEPARATOR}${identifier}.json`;
   console.log("Move ", file, "to", newPostPath);
@@ -51,7 +51,7 @@ export default async function to(file: string) {
   }
 
   const archiveFielPath = getDataFilePath(
-    `sites/${item.publisher.name}/archive/${year}/${month}.json`
+    `sites/${siteIdentifier}/archive/${year}/${month}.json`
   );
 
   let archiveData: Record<string, unknown> = {};
@@ -95,7 +95,7 @@ export default async function to(file: string) {
 
   for (const slug of slugs) {
     const slugsFilePath = getDataFilePath(
-      `sites/${item.publisher.name}/tags/${slug}.json`
+      `sites/${siteIdentifier}/tags/${slug}.json`
     );
     let slugsData: Record<string, Record<string, string>> = {};
     try {

@@ -3,6 +3,7 @@ import { resolve, join } from "https://deno.land/std@0.121.0/path/mod.ts";
 import { ROOT_DOMAIN, SEPARATOR } from "./constant.ts";
 import { ensureFile } from "https://deno.land/std@0.121.0/fs/mod.ts";
 import schema from "../common/schema-org.js";
+const isDev = Deno.env.get("ENV") === "dev";
 
 export function getDateString(date: Date) {
   const { year, month, day } = getYearMonthDay(date);
@@ -37,12 +38,18 @@ export function getCwdPath(): string {
 }
 export function getDataFilePath(relativePath: string): string {
   // const cwd = getCwdPath();
-  return join("./sources", relativePath);
+  // check dev
+  if (isDev) {
+    return join("./dev-sources", relativePath);
+  } else {
+    return join("./sources", relativePath);
+  }
 }
 export function stringifyIdentifier(
   date: Date,
   sourceLanguage: string,
   publisherName: string,
+  siteIdentifier: string,
   postType: string,
   originalId: string
 ): string {
@@ -57,6 +64,8 @@ export function stringifyIdentifier(
     sourceLanguage +
     SEPARATOR +
     publisherName +
+    SEPARATOR +
+    siteIdentifier +
     SEPARATOR +
     postType;
   const identifier = identifierPrefix + SEPARATOR + originalId;
@@ -79,6 +88,7 @@ export interface IdentifierObj {
   day: string;
   language: string;
   publisherName: string;
+  siteIdentifier: string;
   postType: string;
   originalId: string;
   dateCreated?: Date;
@@ -96,14 +106,16 @@ export function parseIdentifier(identifier: string): IdentifierObj {
   const day = parts[2];
   const sourceLanguage = parts[3];
   const publisherName = parts[4];
-  const postType = parts[5];
-  const originalId = parts[6];
+  const siteIdentifier = parts[5];
+  const postType = parts[6];
+  const originalId = parts[7];
   const obj: IdentifierObj = {
     year,
     month,
     day,
     language: sourceLanguage,
     publisherName,
+    siteIdentifier,
     postType,
     originalId,
   };

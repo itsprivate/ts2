@@ -1,4 +1,4 @@
-.Phony: run update test local install github source tr start
+.Phony: run update test local install github source tr start build
 run:
 	deno run --allow-read --allow-net --allow-write --allow-env --allow-run --unstable https://denopkg.com/denoflow/denoflow@main/cli.ts run apps/*/sources/*.yml translate.yml
 github:
@@ -19,3 +19,5 @@ archive:
 	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run archive
 start:
 	denon start
+build:
+	deno run -A --unstable site/build.ts hnshow
