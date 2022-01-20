@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--20--en--askhn--HackerNews--NewsArticle--30009578",
+  "url": "https://news.ycombinator.com/item?id=30009578",
+  "headline": "Ask HN: Why does Google greatly limit search results if I am logged in?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "Jimmc414",
+    "url": "https://news.ycombinator.com/user?id=Jimmc414"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30009578",
+  "sameAs": "https://news.ycombinator.com/item?id=30009578",
+  "dateCreated": "2022-01-20T19:56:31.429Z",
+  "datePublished": "2022-01-20T14:52:49.000Z",
+  "dateModified": "2022-01-20T19:56:31.429Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么谷歌在我登录的情况下会大大限制搜索结果？",
+  "headline_zh-Hant": "Ask HN: 為什麼谷歌在我登錄的情況下會大大限制搜索結果？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
