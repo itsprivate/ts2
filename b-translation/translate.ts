@@ -30,7 +30,7 @@ export default async function (files: string[]) {
     if (browser) return browser;
     browser = await puppeteer.launch({
       devtools: false,
-      headless: false,
+      headless: !isDev,
       defaultViewport: { width: 1370, height: 1200 },
       args: ["--lang=zh-Hans,zh", "--disable-gpu"],
     });
