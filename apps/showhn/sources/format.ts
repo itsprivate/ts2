@@ -10,10 +10,9 @@ import { ROOT_DOMAIN } from "../../../common/constant.ts";
 import { titleCase } from "https://esm.sh/title-case";
 import { ensureDir } from "https://deno.land/std@0.121.0/fs/mod.ts";
 
-export default async function (item: Item) {
+export default async function (item: Item, siteIdentifier: string) {
   const type = "NewsArticle";
   const publisherName = "HackerNews";
-  const siteIdentifier = "showhn";
   const publisherUrl = `https://news.ycombinator.com`;
   const publisherLogo = "https://hn.buzzing.cc/avatar.png";
   const publisher: Organization = {
