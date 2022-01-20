@@ -2,7 +2,7 @@ if: true
 sources:
   - from: https://deno.land/x/getfiles@v1.0.0/mod.ts
     args:
-      - ./sources/changed
+      - ./${{ctx.env.ENV=='dev'?'dev-':''}}sources/changed
     key: path
     force: true
     # limit: 1
