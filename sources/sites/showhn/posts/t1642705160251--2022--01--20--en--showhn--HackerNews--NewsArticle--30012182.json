@@ -2,7 +2,7 @@
   "@type": "NewsArticle",
   "identifier": "2022--01--20--en--showhn--HackerNews--NewsArticle--30012182",
   "url": "https://news.ycombinator.com/item?id=30012182",
-  "headline": "Wordle Solver Bookmarklet",
+  "headline": "Show HN: Wordle Solver Bookmarklet",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -38,6 +38,24 @@
         "@type": "CommentAction"
       },
       "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Wordle Solver Bookmarklet",
+  "headline_zh-Hant": "Show HN: Wordle Solver Bookmarklet",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
     }
   ]
 }

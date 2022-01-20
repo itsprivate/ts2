@@ -2,7 +2,7 @@
   "@type": "NewsArticle",
   "identifier": "2022--01--20--en--showhn--HackerNews--NewsArticle--30011149",
   "url": "https://news.ycombinator.com/item?id=30011149",
-  "headline": "Make better food choices when grocery shopping",
+  "headline": "Show HN: Make better food choices when grocery shopping",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -38,6 +38,24 @@
         "@type": "CommentAction"
       },
       "userInteractionCount": 61
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 在购买食品时做出更好的食物选择",
+  "headline_zh-Hant": "Show HN: 在購買食品時做出更好的食物選擇",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
     }
   ]
 }

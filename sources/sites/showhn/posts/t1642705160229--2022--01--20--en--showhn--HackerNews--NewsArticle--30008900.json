@@ -2,7 +2,7 @@
   "@type": "NewsArticle",
   "identifier": "2022--01--20--en--showhn--HackerNews--NewsArticle--30008900",
   "url": "https://news.ycombinator.com/item?id=30008900",
-  "headline": "Yarr – React router enabling render-as-you-fetch",
+  "headline": "Show HN: Yarr – React router enabling render-as-you-fetch",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -38,6 +38,24 @@
         "@type": "CommentAction"
       },
       "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Yarr - React 路由器，实现了边获取边渲染。",
+  "headline_zh-Hant": "Show HN: Yarr - React 路由器，實現了邊獲取邊渲染。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
     }
   ]
 }
