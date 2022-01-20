@@ -13,7 +13,7 @@ import { ensureDir } from "https://deno.land/std@0.121.0/fs/mod.ts";
 export default async function (item: Item) {
   const type = "NewsArticle";
   const publisherName = "HackerNews";
-  const siteIdentifier = "hnshow";
+  const siteIdentifier = "showhn";
   const publisherUrl = `https://news.ycombinator.com`;
   const publisherLogo = "https://hn.buzzing.cc/avatar.png";
   const publisher: Organization = {

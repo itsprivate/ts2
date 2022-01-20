@@ -32,11 +32,17 @@ export default async function main(siteIdentifier: string) {
         const postContent = await Deno.readTextFile(postFilePath);
         const rawPost = JSON.parse(postContent);
         languages.forEach((language, index) => {
+          let headline = rawPost[`headline_${language}`];
+          if (headline.startsWith("Show HN")) {
+            headline = headline.substring(9);
+          }
+          const originalHeadline = rawPost.headline;
+
           const post: Record<string, unknown> = {
             dateCreated: formatDate(new Date(rawPost.datePublished)),
             dateCreatedDate: new Date(rawPost.datePublished),
-            originalHeadline: rawPost.headline,
-            headline: rawPost[`headline_${language}`],
+            originalHeadline: originalHeadline,
+            headline: headline,
             publisher: rawPost.publisher,
 
             url: rawPost.url,

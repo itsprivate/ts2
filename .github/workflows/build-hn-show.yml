@@ -6,8 +6,8 @@ on:
     branches:
       - main
     paths:
-      - "sources/sites/hnshow/**"
-      - "apps/hnshow/**"
+      - "sources/sites/showhn/**"
+      - "apps/showhn/**"
 
 jobs:
   denoflow:
@@ -19,7 +19,7 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - run: DENO_DIR=./deno_dir deno run -A --unstable site/cli.ts hnshow
+      - run: DENO_DIR=./deno_dir deno run -A --unstable site/cli.ts showhn
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -28,4 +28,4 @@ jobs:
           force_orphan: false
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
-          external_repository: itsprivate/hnshow
+          external_repository: itsprivate/showhn

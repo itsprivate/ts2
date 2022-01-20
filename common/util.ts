@@ -63,9 +63,9 @@ export function stringifyIdentifier(
     SEPARATOR +
     sourceLanguage +
     SEPARATOR +
-    publisherName +
-    SEPARATOR +
     siteIdentifier +
+    SEPARATOR +
+    publisherName +
     SEPARATOR +
     postType;
   const identifier = identifierPrefix + SEPARATOR + originalId;
@@ -105,8 +105,8 @@ export function parseIdentifier(identifier: string): IdentifierObj {
   const month = parts[1];
   const day = parts[2];
   const sourceLanguage = parts[3];
-  const publisherName = parts[4];
-  const siteIdentifier = parts[5];
+  const siteIdentifier = parts[4];
+  const publisherName = parts[5];
   const postType = parts[6];
   const originalId = parts[7];
   const obj: IdentifierObj = {

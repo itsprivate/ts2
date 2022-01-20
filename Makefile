@@ -20,6 +20,6 @@ archive:
 start:
 	denon start
 build:
-	deno run -A --unstable site/build.ts hnshow
+	deno run -A --unstable site/build.ts showhn
 cache:
 	rm -rf ./deno_dir && DENO_DIR=./deno_dir deno cache --unstable https://raw.githubusercontent.com/denoflow/denoflow/main/cli.ts && DENO_DIR=./deno_dir deno cache --unstable site/build.ts

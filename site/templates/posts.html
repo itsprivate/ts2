@@ -4,45 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="{{themeColor}}" />
+    <meta name="theme-color" content="{{{themeColor}}}" />
     {{#jsonLD}}
-    <meta itemprop="name" content="{{name}}" />
-    <meta itemprop="image" content="{{image}}" />
-    <meta itemprop="description" name="description" content="{{description}}" />
-    <meta property="og:url" content="{{pageUrl}}" />
+    <title>{{name}}</title>
+    <meta itemprop="name" content="{{{name}}}" />
+    <meta itemprop="image" content="{{{image}}}" />
+    <meta
+      itemprop="description"
+      name="description"
+      content="{{{description}}}"
+    />
+    <meta property="og:url" content="{{{pageUrl}}}" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{name}}" />
-    <meta property="og:image" content="{{image}}" />
-    <meta property="og:image:alt" content="HN Show Logo" />
-    <meta property="og:description" content="{{description}}" />
-    <meta property="og:site_name" content="{{name}}" />
+    <meta property="og:title" content="{{{name}}}" />
+    <meta property="og:image" content="{{{image}}}" />
+    <meta property="og:image:alt" content="{{{name}}} Logo" />
+    <meta property="og:description" content="{{{description}}}" />
+    <meta property="og:site_name" content="{{{name}}}" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@buzzingcc" />
-    <meta name="twitter:url" content="{{pageUrl}}" />
-    <meta name="twitter:title" content="{{name}}" />
-    <meta name="twitter:description" content="{{description}}" />
-    <meta name="twitter:image" content="{{image}}" />
-    <meta name="twitter:image:alt" content="HN Show Logo" />
+    <meta name="twitter:url" content="{{{pageUrl}}}" />
+    <meta name="twitter:title" content="{{{name}}}" />
+    <meta name="twitter:description" content="{{{description}}}" />
+    <meta name="twitter:image" content="{{{image}}}" />
+    <meta name="twitter:image:alt" content="{{{name}}} Logo" />
     {{/jsonLD}}
-    <meta property="og:locale" content="{{language}}" />
+    <meta property="og:locale" content="{{{language}}}" />
 
     <link
       rel="alternate"
-      href="{{rssUrl}}"
+      href="{{{rssUrl}}}"
       type="application/rss+xml"
       title="RSS"
     />
     <link
       rel="alternate"
-      href="{{atomUrl}}"
+      href="{{{atomUrl}}}"
       type="application/atom+xml"
       title="Atom 1.0"
     />
 
     <script type="application/ld+json">
-      {{jsonLDString}}
+      {{{jsonLDString}}}
     </script>
-    <link rel="manifest" href="{{manifestUrl}}" crossorigin="anonymous" />
+    <link rel="manifest" href="{{{manifestUrl}}}" crossorigin="anonymous" />
     <link
       rel="icon"
       href="/favicon-32x32.png?v=2ef7ada74a965bcb65a38c81f47158be"
@@ -74,7 +79,6 @@
         color: var(--secondary);
       }
     </style>
-    <title>👋 HN Show!</title>
   </head>
   <body>
     <main class="container">
@@ -82,18 +86,22 @@
         <nav>
           <ul>
             <li>
-              <h1><a href="{{rootUrl}}" class="contrast">👋 HN Show!</a></h1>
+              <h1>
+                <a href="{{{rootUrl}}}" class="contrast"
+                  >{{#jsonLD}}{{name}}{{/jsonLD}}</a
+                >
+              </h1>
             </li>
           </ul>
 
-          <ul>
+          <ul style="font-size: 16px">
             <li>
-              <a href="{{rssUrl}}" class="secondary">RSS</a>
+              <a href="{{{rssUrl}}}" class="secondary">RSS</a>
             </li>
             {{#languages}}
             <li>
               <a
-                href="{{url}}"
+                href="{{{url}}}"
                 class="{{#active}}contrast{{/active}}{{^active}}secondary{{/active}}"
                 >{{name}}</a
               >
@@ -105,10 +113,13 @@
       <ul>
         {{#posts}}
         <li>
-          <a href="{{url}}" class="secondary"><small>{{dateCreated}}</small></a>
+          <a href="{{{url}}}" class="secondary"
+            ><small>{{dateCreated}}</small></a
+          >
           &nbsp;
-          <a href="{{sameAs}}" class="contrast"
-            >{{headline}}<small>
+          <a href="{{{sameAs}}}" class="contrast"
+            ><span style="font-size: 16px">{{headline}}</span
+            ><small>
               <cite class="secondary">&nbsp;({{originalHeadline}})</cite>
             </small></a
           >
@@ -126,11 +137,15 @@
               </g></svg></span
           ><small>{{LikeAction}}</small>&nbsp; {{/LikeAction}}
           {{#CommentAction}}
-          <a href="{{discussionUrl}}" class="secondary"
+          <a href="{{{discussionUrl}}}" class="secondary"
+            >{{#publisher}}<small>💬&nbsp;{{CommentAction}}</small>{{/publisher}}</a
+          >
+          &nbsp; {{/CommentAction}}{{^CommentAction}}
+          <a href="{{{discussionUrl}}}" class="secondary"
             >{{#publisher}}<small>💬&nbsp;{{CommentAction}}</small>{{/publisher}}</a
           >
           &nbsp; {{/CommentAction}} {{#author}}
-          <a href="{{#url}}{{url}}{{/url}}">
+          <a href="{{#url}}{{{url}}}{{/url}}">
             <small>✍️&nbsp;{{#name}} {{name}} {{/name}}</small>
           </a>
 
