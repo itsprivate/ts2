@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--21--en--showhn--HackerNews--NewsArticle--30025352",
+  "url": "https://news.ycombinator.com/item?id=30025352",
+  "headline": "Show HN: Declarative Instrumentation for Python",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "smacke",
+    "url": "https://news.ycombinator.com/user?id=smacke"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30025352",
+  "sameAs": "https://github.com/smacke/pyccolo",
+  "dateCreated": "2022-01-21T16:09:35.416Z",
+  "datePublished": "2022-01-21T16:02:38.000Z",
+  "dateModified": "2022-01-21T16:09:35.416Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 用于Python的声明式仪表盘",
+  "headline_zh-Hant": "Show HN: 用於Python的聲明式儀表盤",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
