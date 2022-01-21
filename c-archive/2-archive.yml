@@ -11,6 +11,7 @@ steps:
   - from: ./to-s3.ts
     args:
       - ${{ctx.item.path}}
+    sleep: 2
   - from: ./to-archive.ts
     args:
       - ${{ctx.item.path}}
