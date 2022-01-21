@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--21--en--showhn--HackerNews--NewsArticle--30019218",
+  "url": "https://news.ycombinator.com/item?id=30019218",
+  "headline": "Show HN: Bleep – Collect Everything Visually",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "sirwinsley",
+    "url": "https://news.ycombinator.com/user?id=sirwinsley"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30019218",
+  "sameAs": "https://www.bleep.is/",
+  "dateCreated": "2022-01-21T04:38:02.883Z",
+  "datePublished": "2022-01-21T04:35:46.000Z",
+  "dateModified": "2022-01-21T04:38:02.883Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 哔哩哔哩 - 视觉上收集一切",
+  "headline_zh-Hant": "Show HN: 嗶哩嗶哩 - 視覺上收集一切",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
