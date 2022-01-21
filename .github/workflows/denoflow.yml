@@ -30,8 +30,11 @@ jobs:
       - name: git add
         run: git add data && git add sources
       - run: git status
+      - id: isChanged
+        run: git diff-index --cached --quiet HEAD || echo '::set-output name=changed::true'
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3
+        if: ${{ steps.isChanged.outputs.changed == 'true' }}
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
           labels: automerge
