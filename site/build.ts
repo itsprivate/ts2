@@ -35,6 +35,8 @@ export default async function main(siteIdentifier: string) {
           let headline = rawPost[`headline_${language}`];
           if (headline.startsWith("Show HN")) {
             headline = headline.substring(9);
+          } else if (headline.startsWith("Ask HN")) {
+            headline = headline.substring(8);
           }
           const originalHeadline = rawPost.headline;
 
