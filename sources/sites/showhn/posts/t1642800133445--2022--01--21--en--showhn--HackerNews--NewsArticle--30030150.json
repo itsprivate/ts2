@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--21--en--showhn--HackerNews--NewsArticle--30030150",
+  "url": "https://news.ycombinator.com/item?id=30030150",
+  "headline": "Show HN: Ahoy 2.0 – virtual comment box for every website",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jefflee0127",
+    "url": "https://news.ycombinator.com/user?id=jefflee0127"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30030150",
+  "sameAs": "https://www.getahoy.net/",
+  "dateCreated": "2022-01-21T21:22:13.445Z",
+  "datePublished": "2022-01-21T21:20:35.000Z",
+  "dateModified": "2022-01-21T21:22:13.445Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Ahoy 2.0 - 每个网站的虚拟评论箱",
+  "headline_zh-Hant": "Show HN: Ahoy 2.0 - 每個網站的虛擬評論箱",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
