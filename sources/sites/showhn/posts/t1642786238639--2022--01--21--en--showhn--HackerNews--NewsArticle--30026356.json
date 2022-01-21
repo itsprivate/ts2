@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--21--en--showhn--HackerNews--NewsArticle--30026356",
+  "url": "https://news.ycombinator.com/item?id=30026356",
+  "headline": "Show HN: Threlte – A Three.js component library for Svelte",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "legrisch",
+    "url": "https://news.ycombinator.com/user?id=legrisch"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30026356",
+  "sameAs": "https://github.com/grischaerbe/threlte",
+  "dateCreated": "2022-01-21T17:30:38.639Z",
+  "datePublished": "2022-01-21T17:03:32.000Z",
+  "dateModified": "2022-01-21T17:30:38.639Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Threlte - 一个用于Svelte的Three.js组件库",
+  "headline_zh-Hant": "Show HN: Threlte - 一個用於Svelte的Three.js組件庫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
