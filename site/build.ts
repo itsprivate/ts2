@@ -153,6 +153,7 @@ export default async function main(siteIdentifier: string) {
         const manifest = {
           name: siteConfig.name,
           short_name: siteConfig.alternateName,
+          description: siteConfig.description,
           icons: [
             {
               src: "/android-chrome-192x192.png",
