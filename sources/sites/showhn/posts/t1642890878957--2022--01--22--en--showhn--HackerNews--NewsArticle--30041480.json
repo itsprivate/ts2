@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--22--en--showhn--HackerNews--NewsArticle--30041480",
+  "url": "https://news.ycombinator.com/item?id=30041480",
+  "headline": "Show HN: AI for Predicting Trending Topics",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jfhb",
+    "url": "https://news.ycombinator.com/user?id=jfhb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30041480",
+  "sameAs": "https://trendspredictions.com/",
+  "dateCreated": "2022-01-22T22:34:38.957Z",
+  "datePublished": "2022-01-22T22:32:12.000Z",
+  "dateModified": "2022-01-22T22:34:38.957Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 预测趋势性话题的人工智能",
+  "headline_zh-Hant": "Show HN: 預測趨勢性話題的人工智能",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
