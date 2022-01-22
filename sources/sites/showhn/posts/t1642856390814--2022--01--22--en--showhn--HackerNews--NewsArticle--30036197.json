@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--22--en--showhn--HackerNews--NewsArticle--30036197",
+  "url": "https://news.ycombinator.com/item?id=30036197",
+  "headline": "Show HN: kube-green, K8s operator to reduce CO2 footprint of your clusters",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "davidebianchi",
+    "url": "https://news.ycombinator.com/user?id=davidebianchi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30036197",
+  "sameAs": "https://github.com/kube-green/kube-green",
+  "dateCreated": "2022-01-22T12:59:50.814Z",
+  "datePublished": "2022-01-22T12:45:18.000Z",
+  "dateModified": "2022-01-22T12:59:50.814Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: kube-green，K8s运营商，减少集群的二氧化碳足迹",
+  "headline_zh-Hant": "Show HN: kube-green，K8s運營商，減少集群的二氧化碳足跡",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
