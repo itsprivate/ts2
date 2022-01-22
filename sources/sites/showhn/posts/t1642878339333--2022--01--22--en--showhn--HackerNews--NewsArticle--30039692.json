@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--22--en--showhn--HackerNews--NewsArticle--30039692",
+  "url": "https://news.ycombinator.com/item?id=30039692",
+  "headline": "Show HN: Hacker XP – Hacker News styled as a Windows XP Outlook email client",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "assemblylang",
+    "url": "https://news.ycombinator.com/user?id=assemblylang"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30039692",
+  "sameAs": "https://hackerxp.com/",
+  "dateCreated": "2022-01-22T19:05:39.333Z",
+  "datePublished": "2022-01-22T18:58:19.000Z",
+  "dateModified": "2022-01-22T19:05:39.333Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Hacker XP - 黑客新闻的风格是Windows XP的Outlook电子邮件客户端",
+  "headline_zh-Hant": "Show HN: Hacker XP - 黑客新聞的風格是Windows XP的Outlook電子郵件客戶端",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
