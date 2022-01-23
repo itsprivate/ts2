@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--23--en--showhn--HackerNews--NewsArticle--30045923",
+  "url": "https://news.ycombinator.com/item?id=30045923",
+  "headline": "Show HN: No-code API marketplace - extract data from any API in under 3 clicks",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "david_abaev",
+    "url": "https://news.ycombinator.com/user?id=david_abaev"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30045923",
+  "sameAs": "https://databar.ai/",
+  "dateCreated": "2022-01-23T13:18:41.178Z",
+  "datePublished": "2022-01-23T13:16:20.000Z",
+  "dateModified": "2022-01-23T13:18:41.178Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 无代码的API市场--从任何API中提取数据，只需3次点击即可完成",
+  "headline_zh-Hant": "Show HN: 無代碼的API市場--從任何API中提取數據，只需3次點擊即可完成",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
