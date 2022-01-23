@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--23--en--showhn--HackerNews--NewsArticle--30045901",
+  "url": "https://news.ycombinator.com/item?id=30045901",
+  "headline": "Show HN: Bulk convert images online without sending to server",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "akmittal",
+    "url": "https://news.ycombinator.com/user?id=akmittal"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30045901",
+  "sameAs": "https://www.webutils.app/image-compress",
+  "dateCreated": "2022-01-23T13:18:41.175Z",
+  "datePublished": "2022-01-23T13:13:30.000Z",
+  "dateModified": "2022-01-23T13:18:41.175Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 在线批量转换图片，无需发送至服务器",
+  "headline_zh-Hant": "Show HN: 在線批量轉換圖片，無需發送至服務器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
