@@ -116,7 +116,7 @@ export async function translateItem(item: NodeObject, page: Page | null) {
   const parsedIdentifier = parseIdentifier(identifier);
   const sourceLanguage = parsedIdentifier.language;
 
-  let context: ContextDefinition = {
+  let context: ContextDefinition = (item["@context"] as ContextDefinition) || {
     "@vocab": "https://schema.org/",
     "@language": sourceLanguage,
   };
@@ -181,7 +181,10 @@ export async function translateItem(item: NodeObject, page: Page | null) {
               "@language": targetHant,
             }) as ContextDefinition;
           }
+          (context as Record<string, number>)["@version"] = 1.1;
+          item["@context"] = ["https://schema.org", context];
         } else {
+          console.error("translated error", translated);
           throw new Error(translated.result);
         }
       } else {
@@ -193,8 +196,7 @@ export async function translateItem(item: NodeObject, page: Page | null) {
       }
     }
   }
-  (context as Record<string, number>)["@version"] = 1.1;
-  item["@context"] = ["https://schema.org", context];
+
   // console.log("final item", JSON.stringify(item, null, 2));
   return item;
 }
