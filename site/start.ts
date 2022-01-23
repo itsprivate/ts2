@@ -11,4 +11,5 @@ main()
   })
   .catch((e) => {
     console.log("Build Error", e);
+    throw e;
   });
