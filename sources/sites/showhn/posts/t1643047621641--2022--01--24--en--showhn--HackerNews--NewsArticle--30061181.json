@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--24--en--showhn--HackerNews--NewsArticle--30061181",
+  "url": "https://news.ycombinator.com/item?id=30061181",
+  "headline": "Show HN: A powerful bitstream library for TypeScript",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "rezonant",
+    "url": "https://news.ycombinator.com/user?id=rezonant"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30061181",
+  "sameAs": "https://github.com/astronautlabs/bitstream",
+  "dateCreated": "2022-01-24T18:07:01.641Z",
+  "datePublished": "2022-01-24T17:50:49.000Z",
+  "dateModified": "2022-01-24T18:07:01.641Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 适用于TypeScript的强大比特流库",
+  "headline_zh-Hant": "Show HN: 適用於TypeScript的強大比特流庫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
