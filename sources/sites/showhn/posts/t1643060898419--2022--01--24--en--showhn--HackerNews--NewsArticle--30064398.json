@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--24--en--showhn--HackerNews--NewsArticle--30064398",
+  "url": "https://news.ycombinator.com/item?id=30064398",
+  "headline": "Show HN: Image on home Page of Coinbase",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "currio",
+    "url": "https://news.ycombinator.com/user?id=currio"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30064398",
+  "sameAs": "https://images.ctfassets.net/c5bd0wqjc7v0/78izqtRYhV0TiHtZ5U9NUC/39973996d80d21547ddaf0141e15016b/Bitcoin-vs-Stock-Market-2016-2022.png?fm=webp&q=100&w=1180",
+  "dateCreated": "2022-01-24T21:48:18.419Z",
+  "datePublished": "2022-01-24T21:37:13.000Z",
+  "dateModified": "2022-01-24T21:48:18.419Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Coinbase主页上的图片",
+  "headline_zh-Hant": "Show HN: Coinbase主頁上的圖片",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
