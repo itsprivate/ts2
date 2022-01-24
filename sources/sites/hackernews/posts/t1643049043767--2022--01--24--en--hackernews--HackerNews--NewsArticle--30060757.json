@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--24--en--hackernews--HackerNews--NewsArticle--30060757",
+  "url": "https://news.ycombinator.com/item?id=30060757",
+  "headline": "Removing Banding in Linelight",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "WithinReason",
+    "url": "https://news.ycombinator.com/user?id=WithinReason"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30060757",
+  "sameAs": "https://pixelmager.github.io/linelight/banding.html",
+  "dateCreated": "2022-01-24T18:30:43.767Z",
+  "datePublished": "2022-01-24T17:23:02.000Z",
+  "dateModified": "2022-01-24T18:30:43.767Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "消除线性光中的带状物",
+  "headline_zh-Hant": "消除線性光中的帶狀物",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
