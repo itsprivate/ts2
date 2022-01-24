@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--24--en--showhn--HackerNews--NewsArticle--30053822",
+  "url": "https://news.ycombinator.com/item?id=30053822",
+  "headline": "Show HN: HN-KeyBERT: AI KeyPhrase extraction in the browser",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "Der_Einzige",
+    "url": "https://news.ycombinator.com/user?id=Der_Einzige"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30053822",
+  "sameAs": "https://huggingface.co/spaces/Hellisotherpeople/HF-KeyBERT",
+  "dateCreated": "2022-01-24T04:54:03.318Z",
+  "datePublished": "2022-01-24T04:42:17.000Z",
+  "dateModified": "2022-01-24T04:54:03.318Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: HN-KeyBERT：在浏览器中提取人工智能的关键词句",
+  "headline_zh-Hant": "Show HN: HN-KeyBERT：在瀏覽器中提取人工智能的關鍵詞句",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
