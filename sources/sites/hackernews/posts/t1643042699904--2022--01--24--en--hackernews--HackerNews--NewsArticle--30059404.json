@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--24--en--hackernews--HackerNews--NewsArticle--30059404",
+  "url": "https://news.ycombinator.com/item?id=30059404",
+  "headline": "Fortune-500 company expects answers about Log4j vulnerability from curl dev",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "elsombrero",
+    "url": "https://news.ycombinator.com/user?id=elsombrero"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30059404",
+  "sameAs": "https://daniel.haxx.se/blog/2022/01/24/logj4-security-inquiry-response-required/",
+  "dateCreated": "2022-01-24T16:44:59.904Z",
+  "datePublished": "2022-01-24T16:08:33.000Z",
+  "dateModified": "2022-01-24T16:44:59.904Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 19
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "财富500强企业希望Curl开发公司回答关于Log4j漏洞的问题",
+  "headline_zh-Hant": "財富500強企業希望Curl開發公司回答關於Log4j漏洞的問題",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
