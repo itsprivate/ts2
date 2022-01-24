@@ -1,4 +1,4 @@
-.Phony: run update test local install github source tr start build cache ask show
+.Phony: run update test local install github source tr start build cache ask show front hackernews
 run:
 	DENO_DIR=./deno_dir deno run -A --unstable https://denopkg.com/denoflow/denoflow@main/cli.ts run apps/*/sources/*.yml translate.yml archive
 github:
@@ -27,3 +27,7 @@ ask:
 	deno run -A --unstable site/cli.ts askhn
 show:
 	deno run -A --unstable site/cli.ts showhn
+hackernews:
+	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run front
+front:
+	deno run -A --unstable site/cli.ts hackernews

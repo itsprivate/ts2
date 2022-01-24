@@ -1,30 +1,30 @@
 {
   "headers": {
+    "source-age": "0",
+    "x-timer": "S1643026126.542142,VS0,VE223",
     "x-content-type-options": "nosniff",
+    "x-frame-options": "deny",
+    "etag": "W/\"92f8415fb93a49f97076f737beb15cb7e54d5a674df0c1ef479381bff806ba58\"",
+    "cache-control": "max-age=300",
+    "x-served-by": "cache-itm18826-ITM",
+    "x-cache-hits": "0",
+    "via": "1.1 varnish",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
     "x-xss-protection": "1; mode=block",
     "accept-ranges": "bytes",
-    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
-    "source-age": "159",
-    "etag": "W/\"4c8b054306c11bd7604619215c69e51d9d7bd65ac1ffd10ddfba324141ae79ae\"",
-    "x-fastly-request-id": "7085b37f44e5ee48d020fd9a3822e5666241e398",
-    "strict-transport-security": "max-age=31536000",
-    "date": "Thu, 20 Jan 2022 18:01:02 GMT",
-    "x-github-request-id": "E37E:10AE:347ECB:40F581:61E9A2BF",
-    "x-cache-hits": "1",
-    "x-served-by": "cache-nrt18339-NRT",
-    "via": "1.1 varnish",
-    "x-timer": "S1642701663.724922,VS0,VE1",
+    "date": "Mon, 24 Jan 2022 12:08:45 GMT",
+    "x-cache": "MISS",
     "vary": "Authorization,Accept-Encoding,Origin",
-    "expires": "Thu, 20 Jan 2022 18:06:02 GMT",
+    "x-github-request-id": "FFDC:7502:279E67:3323DF:61EE9428",
+    "strict-transport-security": "max-age=31536000",
+    "access-control-allow-origin": "*",
     "content-type": "text/plain; charset=utf-8",
-    "x-frame-options": "deny",
-    "x-cache": "HIT",
-    "cache-control": "max-age=300",
-    "access-control-allow-origin": "*"
+    "x-fastly-request-id": "f2d4fbaec8718b39e17546975336864eb241f3fd",
+    "expires": "Mon, 24 Jan 2022 12:13:45 GMT"
   },
   "url": "https://raw.githubusercontent.com/denoflow/denoflow/main/cli.ts",
   "now": {
-    "secs_since_epoch": 1642701662,
-    "nanos_since_epoch": 658754000
+    "secs_since_epoch": 1643026125,
+    "nanos_since_epoch": 830765000
   }
 }

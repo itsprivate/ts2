@@ -1,2 +1,0 @@
-export { debuglog } from "../../_util/_debuglog.ts";
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGVidWdsb2cuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJkZWJ1Z2xvZy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sMEJBQTBCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgeyBkZWJ1Z2xvZyB9IGZyb20gXCIuLi8uLi9fdXRpbC9fZGVidWdsb2cudHNcIjtcbiJdfQ==

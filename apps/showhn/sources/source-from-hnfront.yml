@@ -2,19 +2,19 @@ if: true
 sources:
   - use: fetch
     args:
-      - https://hn.algolia.com/api/v1/search_by_date?tags=(ask_hn)&hitsPerPage=50
+      - https://hn.algolia.com/api/v1/search_by_date?tags=front_page&hitsPerPage=50
     run: return ctx.result.json();
     itemsPath: hits
     key: objectID
     # force: true
-    # limit: 1
-    # filter: return true;
+    # limit:
+    filter: return ctx.item._tags.includes("front_page") && !ctx.item._tags.includes("show_hn") && !ctx.item._tags.includes("ask_hn");
     reverse: true
 steps:
   - from: ./format.ts
     args:
       - ${{ctx.item}}
-      - askhn
+      - hackernews
   - from: https://deno.land/std@0.121.0/fs/mod.ts
     use: ensureFile
     args:
