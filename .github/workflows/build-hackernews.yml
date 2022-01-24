@@ -19,7 +19,7 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - run: DENO_DIR=./deno_dir deno run -A --unstable site/cli.ts askhn
+      - run: DENO_DIR=./deno_dir deno run -A --unstable site/cli.ts hackernews
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
