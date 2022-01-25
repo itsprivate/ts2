@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--25--en--hackernews--HackerNews--NewsArticle--30057048",
+  "url": "https://news.ycombinator.com/item?id=30057048",
+  "headline": "A trick to have arbitrary infix operators in Python",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "prionassembly",
+    "url": "https://news.ycombinator.com/user?id=prionassembly"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30057048",
+  "sameAs": "http://tomerfiliba.com/blog/Infix-Operators/",
+  "dateCreated": "2022-01-25T21:47:55.511Z",
+  "datePublished": "2022-01-24T12:58:58.000Z",
+  "dateModified": "2022-01-25T21:47:55.511Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 11
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在Python中拥有任意的infix运算符的技巧",
+  "headline_zh-Hant": "在Python中擁有任意的infix運算符的技巧",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
