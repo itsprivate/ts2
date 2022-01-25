@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--25--en--showhn--HackerNews--NewsArticle--30079085",
+  "url": "https://news.ycombinator.com/item?id=30079085",
+  "headline": "Show HN: Wordle is Capture The Flag 101",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "ganessh",
+    "url": "https://news.ycombinator.com/user?id=ganessh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30079085",
+  "sameAs": "https://github.com/ganesshkumar/wordle-answer",
+  "dateCreated": "2022-01-25T22:36:41.237Z",
+  "datePublished": "2022-01-25T22:35:13.000Z",
+  "dateModified": "2022-01-25T22:36:41.237Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Wordle是 \"夺旗 \"101",
+  "headline_zh-Hant": "Show HN: Wordle是 \"奪旗 \"101",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
