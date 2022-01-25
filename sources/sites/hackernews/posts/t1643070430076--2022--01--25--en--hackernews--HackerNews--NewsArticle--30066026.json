@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--25--en--hackernews--HackerNews--NewsArticle--30066026",
+  "url": "https://news.ycombinator.com/item?id=30066026",
+  "headline": "Lighthouse Map",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "yread",
+    "url": "https://news.ycombinator.com/user?id=yread"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30066026",
+  "sameAs": "https://geodienst.github.io/lighthousemap/",
+  "dateCreated": "2022-01-25T00:27:10.076Z",
+  "datePublished": "2022-01-25T00:09:52.000Z",
+  "dateModified": "2022-01-25T00:27:10.076Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "灯塔地图",
+  "headline_zh-Hant": "燈塔地圖",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
