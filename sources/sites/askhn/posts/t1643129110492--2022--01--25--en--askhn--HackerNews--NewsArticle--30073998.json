@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--25--en--askhn--HackerNews--NewsArticle--30073998",
+  "url": "https://news.ycombinator.com/item?id=30073998",
+  "headline": "Ask HN: Facebook Is Down Again?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "bobkrusty",
+    "url": "https://news.ycombinator.com/user?id=bobkrusty"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30073998",
+  "sameAs": "https://news.ycombinator.com/item?id=30073998",
+  "dateCreated": "2022-01-25T16:45:10.492Z",
+  "datePublished": "2022-01-25T16:42:41.000Z",
+  "dateModified": "2022-01-25T16:45:10.492Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 脸书再次瘫痪？",
+  "headline_zh-Hant": "Ask HN: 臉書再次癱瘓？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
