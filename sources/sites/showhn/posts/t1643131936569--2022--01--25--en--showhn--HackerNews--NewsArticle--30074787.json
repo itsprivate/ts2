@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--25--en--showhn--HackerNews--NewsArticle--30074787",
+  "url": "https://news.ycombinator.com/item?id=30074787",
+  "headline": "Show HN: Query any kind of data with SQL powered by Python",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "dmoura",
+    "url": "https://news.ycombinator.com/user?id=dmoura"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30074787",
+  "sameAs": "https://github.com/dcmoura/spyql",
+  "dateCreated": "2022-01-25T17:32:16.569Z",
+  "datePublished": "2022-01-25T17:29:58.000Z",
+  "dateModified": "2022-01-25T17:32:16.569Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 使用由Python驱动的SQL查询任何类型的数据",
+  "headline_zh-Hant": "Show HN: 使用由Python驅動的SQL查詢任何類型的數據",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
