@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--25--en--hackernews--HackerNews--NewsArticle--30071098",
+  "url": "https://news.ycombinator.com/item?id=30071098",
+  "headline": "We purchased a machine from China and it came with malware preinstalled",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "truxs",
+    "url": "https://news.ycombinator.com/user?id=truxs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30071098",
+  "sameAs": "https://www.rmcybernetics.com/general/zhengbang-zb3245tss-pick-place-machine",
+  "dateCreated": "2022-01-25T13:04:00.145Z",
+  "datePublished": "2022-01-25T12:37:35.000Z",
+  "dateModified": "2022-01-25T13:04:00.145Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 25
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "我们从中国购买了一台机器，它预装了恶意软件。",
+  "headline_zh-Hant": "我們從中國購買了一臺機器，它預裝了惡意軟件。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
