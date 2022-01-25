@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--25--en--hackernews--HackerNews--NewsArticle--30072712",
+  "url": "https://news.ycombinator.com/item?id=30072712",
+  "headline": "Building a production database in ten years or less",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "1st1",
+    "url": "https://news.ycombinator.com/user?id=1st1"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30072712",
+  "sameAs": "https://www.edgedb.com/blog/building-a-production-database-in-ten-years-or-less",
+  "dateCreated": "2022-01-25T17:03:07.492Z",
+  "datePublished": "2022-01-25T15:18:04.000Z",
+  "dateModified": "2022-01-25T17:03:07.492Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "在十年或更短时间内建立一个生产数据库",
+  "headline_zh-Hant": "在十年或更短時間內建立一個生產數據庫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
