@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--26--en--hackernews--HackerNews--NewsArticle--30083815",
+  "url": "https://news.ycombinator.com/item?id=30083815",
+  "headline": "Redis vs. Kafka vs. RabbitMQ",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "FragrantRiver",
+    "url": "https://news.ycombinator.com/user?id=FragrantRiver"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30083815",
+  "sameAs": "https://blog.devgenius.io/redis-vs-kafka-vs-rabbitmq-e935ebbc7ec?gi=b3138e222174",
+  "dateCreated": "2022-01-26T11:06:56.999Z",
+  "datePublished": "2022-01-26T10:28:46.000Z",
+  "dateModified": "2022-01-26T11:06:56.999Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Redis vs. Kafka vs. RabbitMQ",
+  "headline_zh-Hant": "Redis vs. Kafka vs. RabbitMQ",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
