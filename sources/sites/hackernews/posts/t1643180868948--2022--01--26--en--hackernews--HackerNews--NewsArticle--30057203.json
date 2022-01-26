@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--26--en--hackernews--HackerNews--NewsArticle--30057203",
+  "url": "https://news.ycombinator.com/item?id=30057203",
+  "headline": "Why routing alogrithms from different maps don't always give the same route",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "afknewsagency",
+    "url": "https://news.ycombinator.com/user?id=afknewsagency"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30057203",
+  "sameAs": "https://www.tomtom.com/blog/navigation/map-data-to-suggest-the-safest-route/",
+  "dateCreated": "2022-01-26T07:07:48.948Z",
+  "datePublished": "2022-01-24T13:17:33.000Z",
+  "dateModified": "2022-01-26T07:07:48.948Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "为什么不同地图的路由算法并不总是给出相同的路线？",
+  "headline_zh-Hant": "為什麼不同地圖的路由算法並不總是給出相同的路線？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
