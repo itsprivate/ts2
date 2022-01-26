@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--26--en--hackernews--HackerNews--NewsArticle--30084492",
+  "url": "https://news.ycombinator.com/item?id=30084492",
+  "headline": "YC's software team is looking for a full stack engineer",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ryankicks",
+    "url": "https://news.ycombinator.com/user?id=ryankicks"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30084492",
+  "sameAs": "https://www.ycombinator.com/companies/y-combinator/jobs/7D3drHl-product-engineer",
+  "dateCreated": "2022-01-26T12:10:47.526Z",
+  "datePublished": "2022-01-26T12:00:06.000Z",
+  "dateModified": "2022-01-26T12:10:47.526Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": null
+    }
+  ],
+  "headline_zh-Hans": "YC的软件团队正在寻找一名全栈工程师",
+  "headline_zh-Hant": "YC的軟件團隊正在尋找一名全棧工程師",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
