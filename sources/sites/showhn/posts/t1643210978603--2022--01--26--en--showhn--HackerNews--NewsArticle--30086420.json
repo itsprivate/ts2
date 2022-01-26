@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--26--en--showhn--HackerNews--NewsArticle--30086420",
+  "url": "https://news.ycombinator.com/item?id=30086420",
+  "headline": "Show HN: MockRocket – 3D app mockups and animations in the browser",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "dfeehrer",
+    "url": "https://news.ycombinator.com/user?id=dfeehrer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30086420",
+  "sameAs": "https://mockrocket.io",
+  "dateCreated": "2022-01-26T15:29:38.603Z",
+  "datePublished": "2022-01-26T15:11:49.000Z",
+  "dateModified": "2022-01-26T15:29:38.603Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Show HN: MockRocket - 浏览器中的3D应用模型和动画",
+  "headline_zh-Hant": "Show HN: MockRocket - 瀏覽器中的3D應用模型和動畫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
