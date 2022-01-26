@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--26--en--hackernews--HackerNews--NewsArticle--30086087",
+  "url": "https://news.ycombinator.com/item?id=30086087",
+  "headline": "Privacy concerns are breaking the Census",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bpodgursky",
+    "url": "https://news.ycombinator.com/user?id=bpodgursky"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30086087",
+  "sameAs": "https://www.slowboring.com/p/census-data",
+  "dateCreated": "2022-01-26T16:09:37.904Z",
+  "datePublished": "2022-01-26T14:50:16.000Z",
+  "dateModified": "2022-01-26T16:09:37.904Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "隐私问题正在打破人口普查",
+  "headline_zh-Hant": "隱私問題正在打破人口普查",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
