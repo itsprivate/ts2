@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--26--en--hackernews--HackerNews--NewsArticle--30080472",
+  "url": "https://news.ycombinator.com/item?id=30080472",
+  "headline": "Two weeks later David Bennett is alive, his pig’s heart beating soundly",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "otoolep",
+    "url": "https://news.ycombinator.com/user?id=otoolep"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30080472",
+  "sameAs": "https://www.irishtimes.com/life-and-style/health-family/two-weeks-after-his-operation-david-bennett-is-alive-his-pig-s-heart-beating-soundly-1.4783776",
+  "dateCreated": "2022-01-26T01:44:03.634Z",
+  "datePublished": "2022-01-26T01:22:32.000Z",
+  "dateModified": "2022-01-26T01:44:03.634Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "两周后，大卫-班尼特还活着，他的猪的心脏在酣畅地跳动。",
+  "headline_zh-Hant": "兩週後，大衛-班尼特還活著，他的豬的心臟在酣暢地跳動。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
