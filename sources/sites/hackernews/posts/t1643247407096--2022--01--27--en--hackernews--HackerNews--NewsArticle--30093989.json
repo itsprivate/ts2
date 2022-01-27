@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--27--en--hackernews--HackerNews--NewsArticle--30093989",
+  "url": "https://news.ycombinator.com/item?id=30093989",
+  "headline": "Spotify says it will remove Neil Young’s music instead of dropping Joe Rogan",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "schaefer",
+    "url": "https://news.ycombinator.com/user?id=schaefer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30093989",
+  "sameAs": "https://arstechnica.com/tech-policy/2022/01/spotify-to-remove-neil-youngs-music-after-rockers-ultimatum-over-joe-rogan/",
+  "dateCreated": "2022-01-27T01:36:47.096Z",
+  "datePublished": "2022-01-27T00:00:14.000Z",
+  "dateModified": "2022-01-27T01:36:47.096Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 78
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 53
+    }
+  ],
+  "headline_zh-Hans": "Spotify称将删除尼尔-杨的音乐，而不是删除乔-罗根的音乐",
+  "headline_zh-Hant": "Spotify稱將刪除尼爾-楊的音樂，而不是刪除喬-羅根的音樂",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
