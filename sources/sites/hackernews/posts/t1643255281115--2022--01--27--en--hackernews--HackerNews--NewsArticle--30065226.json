@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--27--en--hackernews--HackerNews--NewsArticle--30065226",
+  "url": "https://news.ycombinator.com/item?id=30065226",
+  "headline": "How I built a date picker",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "zsbenke",
+    "url": "https://news.ycombinator.com/user?id=zsbenke"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30065226",
+  "sameAs": "https://decoding.io/2022/01/how-i-built-a-date-picker/",
+  "dateCreated": "2022-01-27T03:48:01.115Z",
+  "datePublished": "2022-01-24T22:52:40.000Z",
+  "dateModified": "2022-01-27T03:48:01.115Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我是如何建立一个日期选择器的",
+  "headline_zh-Hant": "我是如何建立一個日期選擇器的",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
