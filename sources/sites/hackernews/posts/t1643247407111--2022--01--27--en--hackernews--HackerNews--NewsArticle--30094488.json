@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--27--en--hackernews--HackerNews--NewsArticle--30094488",
+  "url": "https://news.ycombinator.com/item?id=30094488",
+  "headline": "Moral Machine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "activatedgeek",
+    "url": "https://news.ycombinator.com/user?id=activatedgeek"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30094488",
+  "sameAs": "https://www.moralmachine.net/",
+  "dateCreated": "2022-01-27T01:36:47.111Z",
+  "datePublished": "2022-01-27T00:50:53.000Z",
+  "dateModified": "2022-01-27T01:36:47.111Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "道德机器",
+  "headline_zh-Hant": "道德機器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
