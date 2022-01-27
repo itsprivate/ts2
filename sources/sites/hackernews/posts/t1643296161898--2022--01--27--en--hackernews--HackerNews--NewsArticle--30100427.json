@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--27--en--hackernews--HackerNews--NewsArticle--30100427",
+  "url": "https://news.ycombinator.com/item?id=30100427",
+  "headline": "A Primer on Bézier Curves",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "s1291",
+    "url": "https://news.ycombinator.com/user?id=s1291"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30100427",
+  "sameAs": "https://pomax.github.io/bezierinfo/",
+  "dateCreated": "2022-01-27T15:09:21.898Z",
+  "datePublished": "2022-01-27T13:42:46.000Z",
+  "dateModified": "2022-01-27T15:09:21.898Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "贝塞尔曲线的入门知识",
+  "headline_zh-Hant": "貝塞爾曲線的入門知識",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
