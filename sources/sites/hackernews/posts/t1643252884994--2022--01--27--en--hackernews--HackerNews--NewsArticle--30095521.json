@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--27--en--hackernews--HackerNews--NewsArticle--30095521",
+  "url": "https://news.ycombinator.com/item?id=30095521",
+  "headline": "Alder Lake Core i9 processor is faster than the M1 Max",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kofejnik",
+    "url": "https://news.ycombinator.com/user?id=kofejnik"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30095521",
+  "sameAs": "https://www.macworld.com/article/608396/intel-alder-lake-m1-pro-max-benchmarks-power-efficiency.html",
+  "dateCreated": "2022-01-27T03:08:04.994Z",
+  "datePublished": "2022-01-27T02:40:31.000Z",
+  "dateModified": "2022-01-27T03:08:04.994Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "阿尔德湖酷睿i9处理器比M1 Max快",
+  "headline_zh-Hant": "阿爾德湖酷睿i9處理器比M1 Max快",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
