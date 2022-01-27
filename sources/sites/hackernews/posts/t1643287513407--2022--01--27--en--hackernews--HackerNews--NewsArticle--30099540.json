@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--27--en--hackernews--HackerNews--NewsArticle--30099540",
+  "url": "https://news.ycombinator.com/item?id=30099540",
+  "headline": "LTO Tape data storage for Linux nerds",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "detaro",
+    "url": "https://news.ycombinator.com/user?id=detaro"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30099540",
+  "sameAs": "https://blog.benjojo.co.uk/post/lto-tape-backups-for-linux-nerds",
+  "dateCreated": "2022-01-27T12:45:13.407Z",
+  "datePublished": "2022-01-27T12:10:20.000Z",
+  "dateModified": "2022-01-27T12:45:13.407Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 15
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "面向Linux书呆子的LTO磁带数据存储",
+  "headline_zh-Hant": "面向Linux書呆子的LTO磁帶數據存儲",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
