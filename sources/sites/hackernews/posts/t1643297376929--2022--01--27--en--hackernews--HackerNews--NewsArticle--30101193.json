@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--27--en--hackernews--HackerNews--NewsArticle--30101193",
+  "url": "https://news.ycombinator.com/item?id=30101193",
+  "headline": "CVE-2021-4122 decryption through LUKS2 reencryption crash recovery",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "beermonster",
+    "url": "https://news.ycombinator.com/user?id=beermonster"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30101193",
+  "sameAs": "https://seclists.org/oss-sec/2022/q1/34",
+  "dateCreated": "2022-01-27T15:29:36.929Z",
+  "datePublished": "2022-01-27T14:48:15.000Z",
+  "dateModified": "2022-01-27T15:29:36.929Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "CVE-2021-4122通过LUKS2重新加密崩溃恢复解密",
+  "headline_zh-Hant": "CVE-2021-4122通過LUKS2重新加密崩潰恢復解密",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
