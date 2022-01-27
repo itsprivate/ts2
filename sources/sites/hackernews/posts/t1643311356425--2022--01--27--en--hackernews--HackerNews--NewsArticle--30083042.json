@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--27--en--hackernews--HackerNews--NewsArticle--30083042",
+  "url": "https://news.ycombinator.com/item?id=30083042",
+  "headline": "Playwright: Automate Chromium, WebKit and Firefox",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cyrusmg",
+    "url": "https://news.ycombinator.com/user?id=cyrusmg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30083042",
+  "sameAs": "https://github.com/microsoft/playwright",
+  "dateCreated": "2022-01-27T19:22:36.425Z",
+  "datePublished": "2022-01-26T08:12:35.000Z",
+  "dateModified": "2022-01-27T19:22:36.425Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Playwright: 自动化Chromium、WebKit和Firefox",
+  "headline_zh-Hant": "Playwright: 自動化Chromium、WebKit和Firefox",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
