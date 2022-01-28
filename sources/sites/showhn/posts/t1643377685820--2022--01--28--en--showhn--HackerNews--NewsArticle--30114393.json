@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--28--en--showhn--HackerNews--NewsArticle--30114393",
+  "url": "https://news.ycombinator.com/item?id=30114393",
+  "headline": "Show HN: SLA / Uptime Calculator",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "km",
+    "url": "https://news.ycombinator.com/user?id=km"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30114393",
+  "sameAs": "https://uptime.is/",
+  "dateCreated": "2022-01-28T13:48:05.820Z",
+  "datePublished": "2022-01-28T13:38:26.000Z",
+  "dateModified": "2022-01-28T13:48:05.820Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 服务水平协议/正常运行时间计算器",
+  "headline_zh-Hant": "Show HN: 服務水平協議/正常運行時間計算器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
