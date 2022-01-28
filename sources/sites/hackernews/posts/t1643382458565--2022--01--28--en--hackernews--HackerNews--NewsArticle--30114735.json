@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--28--en--hackernews--HackerNews--NewsArticle--30114735",
+  "url": "https://news.ycombinator.com/item?id=30114735",
+  "headline": "Rare real colour photos of WWII",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dnqthao",
+    "url": "https://news.ycombinator.com/user?id=dnqthao"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30114735",
+  "sameAs": "https://rarehistoricalphotos.com/color-photos-from-second-world-war/",
+  "dateCreated": "2022-01-28T15:07:38.565Z",
+  "datePublished": "2022-01-28T14:09:03.000Z",
+  "dateModified": "2022-01-28T15:07:38.565Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "罕见的二战真实彩色照片",
+  "headline_zh-Hant": "罕見的二戰真實彩色照片",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
