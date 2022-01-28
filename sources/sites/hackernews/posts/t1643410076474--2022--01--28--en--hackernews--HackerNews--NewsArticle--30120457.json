@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--28--en--hackernews--HackerNews--NewsArticle--30120457",
+  "url": "https://news.ycombinator.com/item?id=30120457",
+  "headline": "Can a biologist fix a radio?–Or, what I learned while studying apoptosis (2002) [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "breck",
+    "url": "https://news.ycombinator.com/user?id=breck"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30120457",
+  "sameAs": "https://www.cell.com/cancer-cell/pdf/S1535-6108(02)00133-2.pdf",
+  "dateCreated": "2022-01-28T22:47:56.474Z",
+  "datePublished": "2022-01-28T21:15:44.000Z",
+  "dateModified": "2022-01-28T22:47:56.474Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "生物学家能修好收音机吗？--或者，我在研究细胞凋亡时学到的东西(2002) [pdf]",
+  "headline_zh-Hant": "生物學家能修好收音機嗎？--或者，我在研究細胞凋亡時學到的東西(2002) [pdf]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
