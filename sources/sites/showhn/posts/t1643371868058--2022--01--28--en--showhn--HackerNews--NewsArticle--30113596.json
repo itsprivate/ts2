@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--28--en--showhn--HackerNews--NewsArticle--30113596",
+  "url": "https://news.ycombinator.com/item?id=30113596",
+  "headline": "Show HN: Data Science Portfolio for Jupyter Notebooks, No HML/CSS Only Python",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "pplonski86",
+    "url": "https://news.ycombinator.com/user?id=pplonski86"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30113596",
+  "sameAs": "https://github.com/pplonski/data-science-portfolio",
+  "dateCreated": "2022-01-28T12:11:08.058Z",
+  "datePublished": "2022-01-28T12:03:21.000Z",
+  "dateModified": "2022-01-28T12:11:08.058Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 用于Jupyter笔记本的数据科学组合，没有HML/CSS只有Python",
+  "headline_zh-Hant": "Show HN: 用於Jupyter筆記本的數據科學組合，沒有HML/CSS只有Python",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
