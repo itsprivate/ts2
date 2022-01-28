@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--28--en--showhn--HackerNews--NewsArticle--30111122",
+  "url": "https://news.ycombinator.com/item?id=30111122",
+  "headline": "Show HN: Oneironomicon – Training collaborative AI on dreamed-up users",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "paubric",
+    "url": "https://news.ycombinator.com/user?id=paubric"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30111122",
+  "sameAs": "https://paulbricman.com/thoughtware/oneironomicon",
+  "dateCreated": "2022-01-28T06:08:55.921Z",
+  "datePublished": "2022-01-28T05:58:19.000Z",
+  "dateModified": "2022-01-28T06:08:55.921Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Oneironomicon--对梦想中的用户进行协作式AI训练",
+  "headline_zh-Hant": "Show HN: Oneironomicon--對夢想中的用戶進行協作式AI訓練",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
