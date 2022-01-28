@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--28--en--hackernews--HackerNews--NewsArticle--30113521",
+  "url": "https://news.ycombinator.com/item?id=30113521",
+  "headline": "Terminal support for Emoji – or why terminals don't like families",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "willm",
+    "url": "https://news.ycombinator.com/user?id=willm"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30113521",
+  "sameAs": "https://darrenburns.net/posts/emoji-in-the-terminal/",
+  "dateCreated": "2022-01-28T12:42:16.480Z",
+  "datePublished": "2022-01-28T11:54:03.000Z",
+  "dateModified": "2022-01-28T12:42:16.480Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "终端支持Emoji--或终端为何不喜欢家庭",
+  "headline_zh-Hant": "終端支持Emoji--或終端為何不喜歡家庭",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
