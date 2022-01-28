@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--28--en--hackernews--HackerNews--NewsArticle--30111884",
+  "url": "https://news.ycombinator.com/item?id=30111884",
+  "headline": "Nostalgic Computing Center",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "elvis70",
+    "url": "https://news.ycombinator.com/user?id=elvis70"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30111884",
+  "sameAs": "http://www.nostalgiccomputing.org/index.html",
+  "dateCreated": "2022-01-28T08:48:07.633Z",
+  "datePublished": "2022-01-28T07:59:30.000Z",
+  "dateModified": "2022-01-28T08:48:07.633Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "怀旧的计算中心",
+  "headline_zh-Hant": "懷舊的計算中心",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
