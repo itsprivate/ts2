@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--28--en--hackernews--HackerNews--NewsArticle--30083925",
+  "url": "https://news.ycombinator.com/item?id=30083925",
+  "headline": "Sweetness and Power",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "graderjs",
+    "url": "https://news.ycombinator.com/user?id=graderjs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30083925",
+  "sameAs": "https://www.penguinrandomhouse.com/books/322123/sweetness-and-power-by-sidney-w-mintz/",
+  "dateCreated": "2022-01-28T18:32:32.510Z",
+  "datePublished": "2022-01-26T10:46:00.000Z",
+  "dateModified": "2022-01-28T18:32:32.510Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "甜蜜与力量",
+  "headline_zh-Hant": "甜蜜與力量",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
