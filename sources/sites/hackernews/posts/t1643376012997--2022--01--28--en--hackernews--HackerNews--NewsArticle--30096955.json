@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--28--en--hackernews--HackerNews--NewsArticle--30096955",
+  "url": "https://news.ycombinator.com/item?id=30096955",
+  "headline": "The King Who Became a Pirate",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "emptybits",
+    "url": "https://news.ycombinator.com/user?id=emptybits"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30096955",
+  "sameAs": "https://narratively.com/the-king-who-became-a-pirate/",
+  "dateCreated": "2022-01-28T13:20:12.997Z",
+  "datePublished": "2022-01-27T06:31:59.000Z",
+  "dateModified": "2022-01-28T13:20:12.997Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "沦为海盗的国王",
+  "headline_zh-Hant": "淪為海盜的國王",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
