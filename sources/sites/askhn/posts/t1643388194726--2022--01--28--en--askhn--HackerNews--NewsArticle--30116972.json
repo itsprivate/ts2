@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--28--en--askhn--HackerNews--NewsArticle--30116972",
+  "url": "https://news.ycombinator.com/item?id=30116972",
+  "headline": "Ask HN: Could we decrease the HN points counter to 0 for new comments?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "gjsman-1000",
+    "url": "https://news.ycombinator.com/user?id=gjsman-1000"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30116972",
+  "sameAs": "https://news.ycombinator.com/item?id=30116972",
+  "dateCreated": "2022-01-28T16:43:14.726Z",
+  "datePublished": "2022-01-28T16:39:02.000Z",
+  "dateModified": "2022-01-28T16:43:14.726Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我们能不能把新评论的HN积分计数器减少到0？",
+  "headline_zh-Hant": "Ask HN: 我們能不能把新評論的HN積分計數器減少到0？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

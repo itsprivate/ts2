@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--28--en--showhn--HackerNews--NewsArticle--30116609",
+  "url": "https://news.ycombinator.com/item?id=30116609",
+  "headline": "Show HN: Wordle Scoreboards – Keep track of who's the better Wordle player",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "ryanyl",
+    "url": "https://news.ycombinator.com/user?id=ryanyl"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30116609",
+  "sameAs": "https://wordle.reslant.com/",
+  "dateCreated": "2022-01-28T16:43:14.875Z",
+  "datePublished": "2022-01-28T16:18:15.000Z",
+  "dateModified": "2022-01-28T16:43:14.875Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Wordle记分牌 - 追踪谁是更好的Wordle玩家",
+  "headline_zh-Hant": "Show HN: Wordle記分牌 - 追蹤誰是更好的Wordle玩家",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
