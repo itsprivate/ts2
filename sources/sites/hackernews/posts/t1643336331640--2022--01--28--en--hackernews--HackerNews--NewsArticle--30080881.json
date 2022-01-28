@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--28--en--hackernews--HackerNews--NewsArticle--30080881",
+  "url": "https://news.ycombinator.com/item?id=30080881",
+  "headline": "A History of Haggis",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tintinnabula",
+    "url": "https://news.ycombinator.com/user?id=tintinnabula"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30080881",
+  "sameAs": "https://www.historytoday.com/archive/historians-cookbook/history-haggis",
+  "dateCreated": "2022-01-28T02:18:51.640Z",
+  "datePublished": "2022-01-26T02:21:31.000Z",
+  "dateModified": "2022-01-28T02:18:51.640Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "羊杂碎的历史",
+  "headline_zh-Hant": "羊雜碎的歷史",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
