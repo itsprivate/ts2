@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--28--en--hackernews--HackerNews--NewsArticle--30117700",
+  "url": "https://news.ycombinator.com/item?id=30117700",
+  "headline": "More than 70% of prometheus executable are unused by most people",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "wejick",
+    "url": "https://news.ycombinator.com/user?id=wejick"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30117700",
+  "sameAs": "https://wejick.wordpress.com/2022/01/29/can-i-have-a-smaller-prometheus/",
+  "dateCreated": "2022-01-28T19:47:58.614Z",
+  "datePublished": "2022-01-28T17:29:36.000Z",
+  "dateModified": "2022-01-28T19:47:58.614Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "超过70%的普罗米修斯可执行文件没有被大多数人使用。",
+  "headline_zh-Hant": "超過70%的普羅米修斯可執行文件沒有被大多數人使用。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
