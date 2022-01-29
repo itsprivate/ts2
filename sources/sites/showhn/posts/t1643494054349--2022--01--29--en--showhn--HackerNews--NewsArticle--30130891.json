@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--29--en--showhn--HackerNews--NewsArticle--30130891",
+  "url": "https://news.ycombinator.com/item?id=30130891",
+  "headline": "Show HN: Extension for g style search but for your favourite sites",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "pikaynu",
+    "url": "https://news.ycombinator.com/user?id=pikaynu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30130891",
+  "sameAs": "https://github.com/prateeknischal/quicksearch",
+  "dateCreated": "2022-01-29T22:07:34.349Z",
+  "datePublished": "2022-01-29T21:47:59.000Z",
+  "dateModified": "2022-01-29T22:07:34.349Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: G风格搜索的扩展，但为您最喜爱的网站提供服务",
+  "headline_zh-Hant": "Show HN: G風格搜索的擴展，但為您最喜愛的網站提供服務",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
