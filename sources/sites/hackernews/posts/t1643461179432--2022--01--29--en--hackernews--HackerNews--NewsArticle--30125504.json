@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--29--en--hackernews--HackerNews--NewsArticle--30125504",
+  "url": "https://news.ycombinator.com/item?id=30125504",
+  "headline": "Malicious app on Google Play drops banking malware on users’ devices",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "caaqil",
+    "url": "https://news.ycombinator.com/user?id=caaqil"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30125504",
+  "sameAs": "https://blog.pradeo.com/vultur-malware-dropper-google-play",
+  "dateCreated": "2022-01-29T12:59:39.432Z",
+  "datePublished": "2022-01-29T11:18:24.000Z",
+  "dateModified": "2022-01-29T12:59:39.432Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Google Play上的恶意应用程序向用户的设备投放银行恶意软件",
+  "headline_zh-Hant": "Google Play上的惡意應用程序向用戶的設備投放銀行惡意軟件",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
