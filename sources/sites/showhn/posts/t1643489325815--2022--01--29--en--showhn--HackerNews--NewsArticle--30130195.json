@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--29--en--showhn--HackerNews--NewsArticle--30130195",
+  "url": "https://news.ycombinator.com/item?id=30130195",
+  "headline": "Show HN: TypeSchema a JSON format to describe data models for code generation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "k42b3",
+    "url": "https://news.ycombinator.com/user?id=k42b3"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30130195",
+  "sameAs": "https://typeschema.org/",
+  "dateCreated": "2022-01-29T20:48:45.815Z",
+  "datePublished": "2022-01-29T20:42:18.000Z",
+  "dateModified": "2022-01-29T20:48:45.815Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: TypeSchema 一种JSON格式，用于描述代码生成的数据模型",
+  "headline_zh-Hant": "Show HN: TypeSchema 一種JSON格式，用於描述代碼生成的數據模型",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
