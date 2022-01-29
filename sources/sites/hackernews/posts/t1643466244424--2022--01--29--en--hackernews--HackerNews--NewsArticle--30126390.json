@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--29--en--hackernews--HackerNews--NewsArticle--30126390",
+  "url": "https://news.ycombinator.com/item?id=30126390",
+  "headline": "Can computers cope with human races?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "smk_",
+    "url": "https://news.ycombinator.com/user?id=smk_"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30126390",
+  "sameAs": "https://web.stanford.edu/~learnest/les/mongrel.htm",
+  "dateCreated": "2022-01-29T14:24:04.424Z",
+  "datePublished": "2022-01-29T14:10:23.000Z",
+  "dateModified": "2022-01-29T14:24:04.424Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "计算机能否应付人类的比赛？",
+  "headline_zh-Hant": "計算機能否應付人類的比賽？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
