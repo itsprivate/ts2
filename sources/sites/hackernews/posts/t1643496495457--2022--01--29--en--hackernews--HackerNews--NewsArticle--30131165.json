@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--29--en--hackernews--HackerNews--NewsArticle--30131165",
+  "url": "https://news.ycombinator.com/item?id=30131165",
+  "headline": "PostgreSQL used fsync incorrectly for 20 years (2019) [video]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "belter",
+    "url": "https://news.ycombinator.com/user?id=belter"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30131165",
+  "sameAs": "https://archive.fosdem.org/2019/schedule/event/postgresql_fsync/",
+  "dateCreated": "2022-01-29T22:48:15.457Z",
+  "datePublished": "2022-01-29T22:19:31.000Z",
+  "dateModified": "2022-01-29T22:48:15.457Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "PostgreSQL错误地使用fsync长达20年之久（2019年）[视频]",
+  "headline_zh-Hant": "PostgreSQL錯誤地使用fsync長達20年之久（2019年）[視頻]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
