@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--29--en--hackernews--HackerNews--NewsArticle--30123096",
+  "url": "https://news.ycombinator.com/item?id=30123096",
+  "headline": "People don't work as much as you think",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "exolymph",
+    "url": "https://news.ycombinator.com/user?id=exolymph"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30123096",
+  "sameAs": "https://drmaciver.substack.com/p/people-dont-work-as-much-as-you-think",
+  "dateCreated": "2022-01-29T08:08:34.498Z",
+  "datePublished": "2022-01-29T02:12:10.000Z",
+  "dateModified": "2022-01-29T08:08:34.498Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 15
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "人们并不像你想象的那样工作",
+  "headline_zh-Hant": "人們並不像你想象的那樣工作",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
