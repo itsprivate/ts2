@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--30--en--showhn--HackerNews--NewsArticle--30138151",
+  "url": "https://news.ycombinator.com/item?id=30138151",
+  "headline": "Show HN: Ranked-Choice Surveys",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "zeschnell",
+    "url": "https://news.ycombinator.com/user?id=zeschnell"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30138151",
+  "sameAs": "https://rankedchoicesurvey.netlify.app",
+  "dateCreated": "2022-01-30T16:08:52.128Z",
+  "datePublished": "2022-01-30T15:48:32.000Z",
+  "dateModified": "2022-01-30T16:08:52.128Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 排名选择调查",
+  "headline_zh-Hant": "Show HN: 排名選擇調查",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
