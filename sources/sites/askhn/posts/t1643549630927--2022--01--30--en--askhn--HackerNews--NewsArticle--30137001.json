@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--30--en--askhn--HackerNews--NewsArticle--30137001",
+  "url": "https://news.ycombinator.com/item?id=30137001",
+  "headline": "Ask HN: Why can't I type in the HN text box?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "civilized",
+    "url": "https://news.ycombinator.com/user?id=civilized"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30137001",
+  "sameAs": "https://news.ycombinator.com/item?id=30137001",
+  "dateCreated": "2022-01-30T13:33:50.927Z",
+  "datePublished": "2022-01-30T13:28:51.000Z",
+  "dateModified": "2022-01-30T13:33:50.927Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么我不能在HN文本框中输入？",
+  "headline_zh-Hant": "Ask HN: 為什麼我不能在HN文本框中輸入？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
