@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--30--en--hackernews--HackerNews--NewsArticle--30135758",
+  "url": "https://news.ycombinator.com/item?id=30135758",
+  "headline": "Uninitialized Memory: Unsafe Rust Is Too Hard",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "drrlvn",
+    "url": "https://news.ycombinator.com/user?id=drrlvn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30135758",
+  "sameAs": "https://lucumr.pocoo.org/2022/1/30/unsafe-rust/",
+  "dateCreated": "2022-01-30T15:07:30.973Z",
+  "datePublished": "2022-01-30T10:51:45.000Z",
+  "dateModified": "2022-01-30T15:07:30.973Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 16
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "未初始化的内存。不安全的Rust太难了",
+  "headline_zh-Hant": "未初始化的內存。不安全的Rust太難了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
