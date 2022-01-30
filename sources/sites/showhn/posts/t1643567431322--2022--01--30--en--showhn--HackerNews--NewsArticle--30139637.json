@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--30--en--showhn--HackerNews--NewsArticle--30139637",
+  "url": "https://news.ycombinator.com/item?id=30139637",
+  "headline": "Show HN: I reverse engineered and documented United Airlines in flight API",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "greatjack613",
+    "url": "https://news.ycombinator.com/user?id=greatjack613"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30139637",
+  "sameAs": "https://github.com/greatjack1/United-In-Flight-Api",
+  "dateCreated": "2022-01-30T18:30:31.322Z",
+  "datePublished": "2022-01-30T18:23:45.000Z",
+  "dateModified": "2022-01-30T18:30:31.322Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我反向设计并记录了美国联合航空公司的飞行API",
+  "headline_zh-Hant": "Show HN: 我反向設計並記錄了美國聯合航空公司的飛行API",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
