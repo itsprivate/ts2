@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--30--en--hackernews--HackerNews--NewsArticle--30137306",
+  "url": "https://news.ycombinator.com/item?id=30137306",
+  "headline": "Regarding the Neil Young–Joe Rogan Spotify Saga",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "danaris",
+    "url": "https://news.ycombinator.com/user?id=danaris"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30137306",
+  "sameAs": "https://daringfireball.net/2022/01/young_rogan_spotify_saga",
+  "dateCreated": "2022-01-30T15:07:30.979Z",
+  "datePublished": "2022-01-30T14:07:55.000Z",
+  "dateModified": "2022-01-30T15:07:30.979Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 19
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "关于尼尔-杨-乔-罗根的Spotify Saga",
+  "headline_zh-Hant": "關於尼爾-楊-喬-羅根的Spotify Saga",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
