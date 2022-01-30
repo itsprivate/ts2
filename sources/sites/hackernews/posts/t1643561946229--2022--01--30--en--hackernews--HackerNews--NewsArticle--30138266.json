@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--30--en--hackernews--HackerNews--NewsArticle--30138266",
+  "url": "https://news.ycombinator.com/item?id=30138266",
+  "headline": "Hollows Hunter – Scans all running processes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "maydemir",
+    "url": "https://news.ycombinator.com/user?id=maydemir"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30138266",
+  "sameAs": "https://github.com/hasherezade/hollows_hunter",
+  "dateCreated": "2022-01-30T16:59:06.229Z",
+  "datePublished": "2022-01-30T16:00:23.000Z",
+  "dateModified": "2022-01-30T16:59:06.229Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "霍尔兹猎人 - 扫描所有正在运行的进程",
+  "headline_zh-Hant": "霍爾茲獵人 - 掃描所有正在運行的進程",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
