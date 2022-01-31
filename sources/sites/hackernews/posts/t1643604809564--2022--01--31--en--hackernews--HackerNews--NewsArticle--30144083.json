@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--31--en--hackernews--HackerNews--NewsArticle--30144083",
+  "url": "https://news.ycombinator.com/item?id=30144083",
+  "headline": "Rents are up 40 percent in some cities, forcing millions to move",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "MilnerRoute",
+    "url": "https://news.ycombinator.com/user?id=MilnerRoute"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30144083",
+  "sameAs": "https://www.washingtonpost.com/business/2022/01/30/rent-inflation-housing/",
+  "dateCreated": "2022-01-31T04:53:29.564Z",
+  "datePublished": "2022-01-31T03:20:34.000Z",
+  "dateModified": "2022-01-31T04:53:29.564Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 36
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 6
+    }
+  ],
+  "headline_zh-Hans": "一些城市的房租上涨40%，迫使数百万人搬迁",
+  "headline_zh-Hant": "一些城市的房租上漲40%，迫使數百萬人搬遷",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
