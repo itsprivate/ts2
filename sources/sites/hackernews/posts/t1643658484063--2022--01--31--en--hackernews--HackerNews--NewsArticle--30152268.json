@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--31--en--hackernews--HackerNews--NewsArticle--30152268",
+  "url": "https://news.ycombinator.com/item?id=30152268",
+  "headline": "The unreasonable effectiveness of one-on-ones",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sebg",
+    "url": "https://news.ycombinator.com/user?id=sebg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30152268",
+  "sameAs": "https://www.benkuhn.net/11/",
+  "dateCreated": "2022-01-31T19:48:04.063Z",
+  "datePublished": "2022-01-31T18:47:46.000Z",
+  "dateModified": "2022-01-31T19:48:04.063Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "一对一的不合理的有效性",
+  "headline_zh-Hant": "一對一的不合理的有效性",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
