@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--31--en--hackernews--HackerNews--NewsArticle--30140835",
+  "url": "https://news.ycombinator.com/item?id=30140835",
+  "headline": "Hardy, Ramanujan and Taxi No. 1729",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "johncarlosbaez",
+    "url": "https://news.ycombinator.com/user?id=johncarlosbaez"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30140835",
+  "sameAs": "https://johncarlosbaez.wordpress.com/2022/01/30/hardy-ramanujan-and-taxi-no-1729/",
+  "dateCreated": "2022-01-31T00:25:25.451Z",
+  "datePublished": "2022-01-30T20:36:17.000Z",
+  "dateModified": "2022-01-31T00:25:25.451Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "哈代、拉马努扬和出租车1729号",
+  "headline_zh-Hant": "哈代、拉馬努揚和出租車1729號",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
