@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--01--en--hackernews--HackerNews--NewsArticle--30135440",
+  "url": "https://news.ycombinator.com/item?id=30135440",
+  "headline": "Linear O(N) sorting with Radix Sort (2000)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Radim",
+    "url": "https://news.ycombinator.com/user?id=Radim"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30135440",
+  "sameAs": "http://www.codercorner.com/RadixSortRevisited.htm",
+  "dateCreated": "2022-02-01T12:11:39.169Z",
+  "datePublished": "2022-01-30T09:51:11.000Z",
+  "dateModified": "2022-02-01T12:11:39.169Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用Radix Sort进行线性O(N)排序(2000)",
+  "headline_zh-Hant": "用Radix Sort進行線性O(N)排序(2000)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
