@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--01--en--showhn--HackerNews--NewsArticle--30161802",
+  "url": "https://news.ycombinator.com/item?id=30161802",
+  "headline": "Show HN: Thumblisher – Figma plugin to manage social media image resizing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "raoufbel",
+    "url": "https://news.ycombinator.com/user?id=raoufbel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30161802",
+  "sameAs": "https://www.captain-design.com/plugin/thumblisher",
+  "dateCreated": "2022-02-01T13:02:21.430Z",
+  "datePublished": "2022-02-01T12:54:50.000Z",
+  "dateModified": "2022-02-01T13:02:21.430Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Thumblisher - 用于管理社交媒体图片大小的Figma插件",
+  "headline_zh-Hant": "Show HN: Thumblisher - 用於管理社交媒體圖片大小的Figma插件",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
