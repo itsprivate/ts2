@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--01--en--hackernews--HackerNews--NewsArticle--30159764",
+  "url": "https://news.ycombinator.com/item?id=30159764",
+  "headline": "I wrote a script to automatically fix 100s of Grammarly corrections",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "isneu",
+    "url": "https://news.ycombinator.com/user?id=isneu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30159764",
+  "sameAs": "https://github.com/isneuu/autofix-grammarly-errors/blob/main/readme.md",
+  "dateCreated": "2022-02-01T08:32:17.325Z",
+  "datePublished": "2022-02-01T07:57:51.000Z",
+  "dateModified": "2022-02-01T08:32:17.325Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "我写了一个脚本来自动修正100个Grammarly的更正",
+  "headline_zh-Hant": "我寫了一個腳本來自動修正100個Grammarly的更正",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
