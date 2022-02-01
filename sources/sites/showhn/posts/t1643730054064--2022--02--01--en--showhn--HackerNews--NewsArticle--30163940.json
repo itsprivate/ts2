@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--01--en--showhn--HackerNews--NewsArticle--30163940",
+  "url": "https://news.ycombinator.com/item?id=30163940",
+  "headline": "Show HN: WordleCLI",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jermaustin1",
+    "url": "https://news.ycombinator.com/user?id=jermaustin1"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30163940",
+  "sameAs": "https://github.com/jeremyaboyd/WordleCLI",
+  "dateCreated": "2022-02-01T15:40:54.064Z",
+  "datePublished": "2022-02-01T15:38:34.000Z",
+  "dateModified": "2022-02-01T15:40:54.064Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 词库",
+  "headline_zh-Hant": "Show HN: 詞庫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
