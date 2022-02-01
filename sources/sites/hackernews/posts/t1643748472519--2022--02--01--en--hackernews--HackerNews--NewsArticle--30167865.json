@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--01--en--hackernews--HackerNews--NewsArticle--30167865",
+  "url": "https://news.ycombinator.com/item?id=30167865",
+  "headline": "Google Maps now requires WiFi scanning to use navigation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bbarnett",
+    "url": "https://news.ycombinator.com/user?id=bbarnett"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30167865",
+  "sameAs": "https://news.ycombinator.com/item?id=30167865",
+  "dateCreated": "2022-02-01T20:47:52.519Z",
+  "datePublished": "2022-02-01T19:31:31.000Z",
+  "dateModified": "2022-02-01T20:47:52.519Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 33
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 12
+    }
+  ],
+  "headline_zh-Hans": "谷歌地图现在需要WiFi扫描才能使用导航",
+  "headline_zh-Hant": "谷歌地圖現在需要WiFi掃描才能使用導航",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
