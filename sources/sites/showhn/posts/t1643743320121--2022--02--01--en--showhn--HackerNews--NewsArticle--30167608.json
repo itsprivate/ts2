@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--01--en--showhn--HackerNews--NewsArticle--30167608",
+  "url": "https://news.ycombinator.com/item?id=30167608",
+  "headline": "Show HN: Circles. A privacy focused social app for close friends and family",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jstrafy",
+    "url": "https://news.ycombinator.com/user?id=jstrafy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30167608",
+  "sameAs": "https://news.ycombinator.com/item?id=30167608",
+  "dateCreated": "2022-02-01T19:22:00.121Z",
+  "datePublished": "2022-02-01T19:14:54.000Z",
+  "dateModified": "2022-02-01T19:22:00.121Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 圈子。为亲密的朋友和家人提供的注重隐私的社交应用程序",
+  "headline_zh-Hant": "Show HN: 圈子。為親密的朋友和家人提供的注重隱私的社交應用程序",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
