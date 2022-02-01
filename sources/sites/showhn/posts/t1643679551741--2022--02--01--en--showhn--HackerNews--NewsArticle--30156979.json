@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--01--en--showhn--HackerNews--NewsArticle--30156979",
+  "url": "https://news.ycombinator.com/item?id=30156979",
+  "headline": "Show HN: Colab-xterm – Open a terminal in colab, including the free tier",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "popcornylu",
+    "url": "https://news.ycombinator.com/user?id=popcornylu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30156979",
+  "sameAs": "https://github.com/InfuseAI/colab-xterm",
+  "dateCreated": "2022-02-01T01:39:11.741Z",
+  "datePublished": "2022-02-01T00:30:48.000Z",
+  "dateModified": "2022-02-01T01:39:11.741Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Colab-xterm - 在colab中打开一个终端，包括免费层。",
+  "headline_zh-Hant": "Show HN: Colab-xterm - 在colab中打開一個終端，包括免費層。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--01--en--hackernews--HackerNews--NewsArticle--30156479",
+  "url": "https://news.ycombinator.com/item?id=30156479",
+  "headline": "Fifth Browser",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "app4soft",
+    "url": "https://news.ycombinator.com/user?id=app4soft"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30156479",
+  "sameAs": "https://github.com/clbr/fifth",
+  "dateCreated": "2022-02-01T01:39:11.855Z",
+  "datePublished": "2022-01-31T23:41:53.000Z",
+  "dateModified": "2022-02-01T01:39:11.855Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "第五浏览器",
+  "headline_zh-Hant": "第五瀏覽器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
