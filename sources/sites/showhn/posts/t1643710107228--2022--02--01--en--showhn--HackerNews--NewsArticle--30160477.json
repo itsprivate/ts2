@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--01--en--showhn--HackerNews--NewsArticle--30160477",
+  "url": "https://news.ycombinator.com/item?id=30160477",
+  "headline": "Show HN: Moqueries – Lock-free interface and function mocks for Go",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "myshkin5",
+    "url": "https://news.ycombinator.com/user?id=myshkin5"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30160477",
+  "sameAs": "https://github.com/myshkin5/moqueries",
+  "dateCreated": "2022-02-01T10:08:27.228Z",
+  "datePublished": "2022-02-01T09:49:36.000Z",
+  "dateModified": "2022-02-01T10:08:27.228Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Moqueries - Go的无锁接口和函数模拟",
+  "headline_zh-Hant": "Show HN: Moqueries - Go的無鎖接口和函數模擬",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
