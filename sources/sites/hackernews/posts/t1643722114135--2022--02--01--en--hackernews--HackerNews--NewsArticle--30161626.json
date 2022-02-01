@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--01--en--hackernews--HackerNews--NewsArticle--30161626",
+  "url": "https://news.ycombinator.com/item?id=30161626",
+  "headline": "Fetch API has landed into Node.js",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "yamafaktory",
+    "url": "https://news.ycombinator.com/user?id=yamafaktory"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30161626",
+  "sameAs": "https://github.com/nodejs/node/commit/6ec225392675c92b102d3caad02ee3a157c9d1b7",
+  "dateCreated": "2022-02-01T13:28:34.135Z",
+  "datePublished": "2022-02-01T12:31:47.000Z",
+  "dateModified": "2022-02-01T13:28:34.135Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 38
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 10
+    }
+  ],
+  "headline_zh-Hans": "Fetch API已经登陆到Node.js中了",
+  "headline_zh-Hant": "Fetch API已經登陸到Node.js中了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
