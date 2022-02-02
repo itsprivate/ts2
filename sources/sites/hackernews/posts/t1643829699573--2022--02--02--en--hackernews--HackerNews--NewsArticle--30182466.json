@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--02--en--hackernews--HackerNews--NewsArticle--30182466",
+  "url": "https://news.ycombinator.com/item?id=30182466",
+  "headline": "That’s How It Works When You’re a Woman on the Internet",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "laurex",
+    "url": "https://news.ycombinator.com/user?id=laurex"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30182466",
+  "sameAs": "https://lyz.substack.com/p/thats-how-it-works-when-youre-a-woman",
+  "dateCreated": "2022-02-02T19:21:39.573Z",
+  "datePublished": "2022-02-02T19:13:33.000Z",
+  "dateModified": "2022-02-02T19:21:39.573Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "当你是一个互联网上的女人时，这就是它的工作方式",
+  "headline_zh-Hant": "當你是一個互聯網上的女人時，這就是它的工作方式",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
