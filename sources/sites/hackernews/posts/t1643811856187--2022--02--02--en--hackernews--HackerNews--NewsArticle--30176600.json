@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--02--en--hackernews--HackerNews--NewsArticle--30176600",
+  "url": "https://news.ycombinator.com/item?id=30176600",
+  "headline": "NASA plans to retire the ISS by 2031 by crashing it into the Pacific Ocean",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jeffwass",
+    "url": "https://news.ycombinator.com/user?id=jeffwass"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30176600",
+  "sameAs": "https://www.cnn.com/2022/02/02/world/nasa-international-space-station-retire-iss-scn/index.html",
+  "dateCreated": "2022-02-02T14:24:16.187Z",
+  "datePublished": "2022-02-02T12:28:50.000Z",
+  "dateModified": "2022-02-02T14:24:16.187Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 9
+    }
+  ],
+  "headline_zh-Hans": "美国国家航空航天局计划在2031年之前将国际空间站坠入太平洋，使其退役",
+  "headline_zh-Hant": "美國國家航空航天局計劃在2031年之前將國際空間站墜入太平洋，使其退役",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
