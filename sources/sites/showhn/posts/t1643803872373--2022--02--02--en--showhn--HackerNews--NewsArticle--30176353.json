@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--02--en--showhn--HackerNews--NewsArticle--30176353",
+  "url": "https://news.ycombinator.com/item?id=30176353",
+  "headline": "Show HN: Hexle ­- A Wordle-like game where you guess a 16-bit hex int",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "James-Livesey",
+    "url": "https://news.ycombinator.com/user?id=James-Livesey"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30176353",
+  "sameAs": "https://jamesl.me/hexle/",
+  "dateCreated": "2022-02-02T12:11:12.373Z",
+  "datePublished": "2022-02-02T11:51:43.000Z",
+  "dateModified": "2022-02-02T12:11:12.373Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Hexle - 一个类似于Wordle的游戏，你可以猜测一个16位的十六进制数字。",
+  "headline_zh-Hant": "Show HN: Hexle - 一個類似於Wordle的遊戲，你可以猜測一個16位的十六進制數字。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
