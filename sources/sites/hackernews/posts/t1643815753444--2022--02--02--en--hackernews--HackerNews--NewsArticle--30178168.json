@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--02--en--hackernews--HackerNews--NewsArticle--30178168",
+  "url": "https://news.ycombinator.com/item?id=30178168",
+  "headline": "Self-driving Tesla does 'the craziest things you can imagine'",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "camjohnson26",
+    "url": "https://news.ycombinator.com/user?id=camjohnson26"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30178168",
+  "sameAs": "https://www.boston.com/news/cars/2022/02/01/self-driving-tesla-boston-video-elon-musk/",
+  "dateCreated": "2022-02-02T15:29:13.444Z",
+  "datePublished": "2022-02-02T14:40:51.000Z",
+  "dateModified": "2022-02-02T15:29:13.444Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "自动驾驶特斯拉做 \"你能想象的最疯狂的事",
+  "headline_zh-Hant": "自動駕駛特斯拉做 \"你能想象的最瘋狂的事",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
