@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--02--en--showhn--HackerNews--NewsArticle--30176129",
+  "url": "https://news.ycombinator.com/item?id=30176129",
+  "headline": "Show HN: Hand-curated resource database for Everyone",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mtaimoorhassan",
+    "url": "https://news.ycombinator.com/user?id=mtaimoorhassan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30176129",
+  "sameAs": "https://www.untapped.link",
+  "dateCreated": "2022-02-02T11:23:59.748Z",
+  "datePublished": "2022-02-02T11:17:57.000Z",
+  "dateModified": "2022-02-02T11:23:59.748Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 为每个人手工整理的资源数据库",
+  "headline_zh-Hant": "Show HN: 為每個人手工整理的資源數據庫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
