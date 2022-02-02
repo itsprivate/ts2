@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--02--en--hackernews--HackerNews--NewsArticle--30182565",
+  "url": "https://news.ycombinator.com/item?id=30182565",
+  "headline": "Rustenstein 3D: Game programming like it's 1992",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "facundo_olano",
+    "url": "https://news.ycombinator.com/user?id=facundo_olano"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30182565",
+  "sameAs": "https://tech.nextroll.com/blog/dev/2022/02/02/rustenstein.html",
+  "dateCreated": "2022-02-02T19:33:26.501Z",
+  "datePublished": "2022-02-02T19:18:44.000Z",
+  "dateModified": "2022-02-02T19:33:26.501Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Rustenstein 3D：像1992年一样的游戏编程",
+  "headline_zh-Hant": "Rustenstein 3D：像1992年一樣的遊戲編程",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
