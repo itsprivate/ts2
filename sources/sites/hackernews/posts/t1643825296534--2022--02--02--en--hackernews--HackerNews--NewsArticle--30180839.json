@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--02--en--hackernews--HackerNews--NewsArticle--30180839",
+  "url": "https://news.ycombinator.com/item?id=30180839",
+  "headline": "New lightweight material is stronger than steel",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hhs",
+    "url": "https://news.ycombinator.com/user?id=hhs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30180839",
+  "sameAs": "https://news.mit.edu/2022/polymer-lightweight-material-2d-0202",
+  "dateCreated": "2022-02-02T18:08:16.534Z",
+  "datePublished": "2022-02-02T17:33:34.000Z",
+  "dateModified": "2022-02-02T18:08:16.534Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "新的轻质材料比钢更坚固",
+  "headline_zh-Hant": "新的輕質材料比鋼更堅固",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
