@@ -1,10 +1,8 @@
 .Phony: run update test local install github source tr start build cache ask show front hackernews
 run:
-	DENO_DIR=./deno_dir deno run -A --unstable https://denopkg.com/denoflow/denoflow@main/cli.ts run apps/*/sources/*.yml translate.yml archive
-github:
-	DENO_DIR=./deno_dir deno run -A --unstable https://raw.githubusercontent.com/denoflow/denoflow/main/cli.ts run apps/*/sources/*.yml translate.yml archive
+	DENO_DIR=./deno_dir deno run -A --unstable https://deno.land/x/denoflow/cli.ts run apps/*/sources/*.yml translate.yml archive
 update:
-	DENO_DIR=./deno_dir deno cache --reload https://denopkg.com/denoflow/denoflow@main/cli.ts
+	DENO_DIR=./deno_dir deno cache --reload https://deno.land/x/denoflow/cli.ts
 test:
 	deno test -A --unstable
 local:
@@ -22,7 +20,7 @@ start:
 build:
 	deno run -A --unstable site/build.ts showhn
 cache:
-	rm -rf ./deno_dir && DENO_DIR=./deno_dir deno cache --unstable https://raw.githubusercontent.com/denoflow/denoflow/main/cli.ts && DENO_DIR=./deno_dir deno cache --unstable site/build.ts
+	rm -rf ./deno_dir && DENO_DIR=./deno_dir deno cache --unstable https://deno.land/x/denoflow/cli.ts && DENO_DIR=./deno_dir deno cache --unstable site/build.ts
 ask:
 	deno run -A --unstable site/cli.ts askhn
 show:

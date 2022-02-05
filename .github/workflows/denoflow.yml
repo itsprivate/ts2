@@ -18,7 +18,7 @@ jobs:
         with:
           deno-version: v1.x
       - run: make install
-      - run: make github
+      - run: make run
         env:
           SCALEWAY_ACCESS_KEY_ID: ${{secrets.SCALEWAY_ACCESS_KEY_ID}}
           SCALEWAY_SECRET_ACCESS_KEY: ${{secrets.SCALEWAY_SECRET_ACCESS_KEY}}
