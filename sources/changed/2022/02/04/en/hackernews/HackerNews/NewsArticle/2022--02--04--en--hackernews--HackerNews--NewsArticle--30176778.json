@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--04--en--hackernews--HackerNews--NewsArticle--30176778",
+  "url": "https://news.ycombinator.com/item?id=30176778",
+  "headline": "A Gas Dynamics Toolkit in D",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pjmlp",
+    "url": "https://news.ycombinator.com/user?id=pjmlp"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30176778",
+  "sameAs": "https://dlang.org/blog/2022/02/02/a-gas-dynamics-toolkit-in-d/",
+  "dateCreated": "2022-02-04T04:29:51.578Z",
+  "datePublished": "2022-02-02T12:50:33.000Z",
+  "dateModified": "2022-02-04T04:29:51.578Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 18
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一个D版的气体动力学工具包",
+  "headline_zh-Hant": "一個D版的氣體動力學工具包",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

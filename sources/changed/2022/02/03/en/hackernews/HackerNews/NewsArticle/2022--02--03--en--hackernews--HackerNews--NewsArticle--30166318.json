@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--03--en--hackernews--HackerNews--NewsArticle--30166318",
+  "url": "https://news.ycombinator.com/item?id=30166318",
+  "headline": "Code colocation is king",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vnglst",
+    "url": "https://news.ycombinator.com/user?id=vnglst"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30166318",
+  "sameAs": "https://koenvangilst.nl/blog/code-colocation-is-king",
+  "dateCreated": "2022-02-03T12:10:53.367Z",
+  "datePublished": "2022-02-01T17:51:03.000Z",
+  "dateModified": "2022-02-03T12:10:53.367Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "代码代管是王道",
+  "headline_zh-Hant": "代碼代管是王道",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

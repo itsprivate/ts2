@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--03--en--showhn--HackerNews--NewsArticle--30189228",
+  "url": "https://news.ycombinator.com/item?id=30189228",
+  "headline": "Show HN: Create audio-reactive video for your music on browser",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "sabigara",
+    "url": "https://news.ycombinator.com/user?id=sabigara"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30189228",
+  "sameAs": "https://reaktr.vercel.app",
+  "dateCreated": "2022-02-03T06:32:42.532Z",
+  "datePublished": "2022-02-03T06:05:05.000Z",
+  "dateModified": "2022-02-03T06:32:42.532Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 在浏览器上为你的音乐创建音频反应视频",
+  "headline_zh-Hant": "Show HN: 在瀏覽器上為你的音樂創建音頻反應視頻",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

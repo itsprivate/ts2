@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--05--en--hackernews--HackerNews--NewsArticle--30189983",
+  "url": "https://news.ycombinator.com/item?id=30189983",
+  "headline": "The Nintendo Switch has now outsold the Wii",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Tomte",
+    "url": "https://news.ycombinator.com/user?id=Tomte"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30189983",
+  "sameAs": "https://www.theverge.com/2022/2/3/22915715/nintendo-earnings-q3-2021-switch-sales-forecast",
+  "dateCreated": "2022-02-05T01:21:06.270Z",
+  "datePublished": "2022-02-03T08:15:21.000Z",
+  "dateModified": "2022-02-05T01:21:06.270Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 72
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 17
+    }
+  ],
+  "headline_zh-Hans": "任天堂Switch的销量现在已经超过了Wii",
+  "headline_zh-Hant": "任天堂Switch的銷量現在已經超過了Wii",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
