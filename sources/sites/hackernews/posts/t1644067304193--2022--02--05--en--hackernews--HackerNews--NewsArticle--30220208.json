@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--25--en--hackernews--HackerNews--NewsArticle--30054239",
-  "url": "https://news.ycombinator.com/item?id=30054239",
-  "headline": "Foobar2000",
+  "identifier": "2022--02--05--en--hackernews--HackerNews--NewsArticle--30220208",
+  "url": "https://news.ycombinator.com/item?id=30220208",
+  "headline": "A distributed peer to peer list of bad actor IP addresses and phone numbers",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,14 +13,14 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "niedzielski",
-    "url": "https://news.ycombinator.com/user?id=niedzielski"
+    "name": "Brajeshwar",
+    "url": "https://news.ycombinator.com/user?id=Brajeshwar"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30054239",
-  "sameAs": "https://www.foobar2000.org",
-  "dateCreated": "2022-01-25T14:33:08.862Z",
-  "datePublished": "2022-01-24T06:20:33.000Z",
-  "dateModified": "2022-01-25T14:33:08.862Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30220208",
+  "sameAs": "https://sentrypeer.org/",
+  "dateCreated": "2022-02-05T13:21:44.193Z",
+  "datePublished": "2022-02-05T11:47:46.000Z",
+  "dateModified": "2022-02-05T13:21:44.193Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
@@ -34,15 +34,15 @@
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 1
+      "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "狐狸精2000",
-  "headline_zh-Hant": "狐狸精2000",
+  "headline_zh-Hans": "分布式点对点的不良行为人IP地址和电话号码列表",
+  "headline_zh-Hant": "分佈式點對點的不良行為人IP地址和電話號碼列表",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
