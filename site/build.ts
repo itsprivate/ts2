@@ -33,15 +33,16 @@ export default async function main(siteIdentifier: string) {
         const rawPost = JSON.parse(postContent);
         languages.forEach((language, index) => {
           let headline = rawPost[`headline_${language}`];
+          const originalHeadline = rawPost.headline;
 
           if (headline && headline.startsWith("Show HN")) {
             headline = headline.substring(9);
           } else if (headline && headline.startsWith("Ask HN")) {
             headline = headline.substring(8);
           } else if (!headline) {
-            throw new Error(`headline is empty ${postFilePath}`);
+            console.error(new Error(`headline is empty ${postFilePath}`));
+            headline = originalHeadline;
           }
-          const originalHeadline = rawPost.headline;
 
           const post: Record<string, unknown> = {
             dateCreated: formatDate(new Date(rawPost.datePublished)),
