@@ -117,7 +117,7 @@ export async function translateItem(item: NodeObject, page: Page | null) {
   const sourceLanguage = parsedIdentifier.language;
 
   let context: ContextDefinition = (item["@context"] as ContextDefinition) || {
-    "@vocab": "https://schema.org/",
+    "@vocab": "http://schema.org/",
     "@language": sourceLanguage,
   };
   for (const targetLanguage of TARGET_LANGUAGES) {
@@ -185,6 +185,8 @@ export async function translateItem(item: NodeObject, page: Page | null) {
           item["@context"] = ["https://schema.org", context];
         } else {
           console.error("translated error", translated);
+          item["@context"] = ["https://schema.org", context];
+
           // skip this item.
           // throw new Error(translated.result);
         }

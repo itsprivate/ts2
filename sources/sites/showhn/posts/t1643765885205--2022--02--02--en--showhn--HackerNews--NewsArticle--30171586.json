@@ -1,4 +1,8 @@
 {
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "@language": "en"
+  },
   "@type": "NewsArticle",
   "identifier": "2022--02--02--en--showhn--HackerNews--NewsArticle--30171586",
   "url": "https://news.ycombinator.com/item?id=30171586",
@@ -10,9 +14,7 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [
-    "Show HN"
-  ],
+  "keywords": ["Show HN"],
   "genre": "Show HN",
   "author": {
     "@type": "Person",

@@ -62,38 +62,12 @@ export default async function to(file: string) {
   } catch (_e) {
     // ignore
   }
-  // console.log("expanded", expanded);
-  const expanded = await jsonld.expand(item, { documentLoader: customLoader });
-
-  const headlines = expanded[0]["http://schema.org/headline"] as Record<
-    string,
-    string
-  >[];
-  const postInfo: Record<string, string> = {
-    dateCreated: (item as Record<string, string>).dateCreated,
-  };
-  headlines.forEach((headline) => {
-    postInfo[headline["@language"]] = headline["@value"];
-  });
-
-  archiveData[identifier] = postInfo;
+  const formatedResult = await formatArchiveData(item);
+  archiveData[identifier] = formatedResult.postInfo;
   // write to archive
   await writeJson(archiveFielPath, archiveData);
 
-  // get tags
-  const slugger = new GithubSlugger();
-
-  const keywords = expanded[0]["http://schema.org/keywords"] as Record<
-    string,
-    string
-  >[];
-  const slugs: string[] = [];
-  keywords.forEach((keyword) => {
-    const slug = slugger.slug(keyword["@value"]);
-    slugs.push(slug);
-  });
-
-  for (const slug of slugs) {
+  for (const slug of formatedResult.slugs) {
     const slugsFilePath = getDataFilePath(
       `sites/${siteIdentifier}/tags/${slug}.json`
     );
@@ -106,7 +80,7 @@ export default async function to(file: string) {
       // ignore
     }
 
-    slugsData[identifier] = postInfo;
+    slugsData[identifier] = formatedResult.postInfo;
     let slugKeys: string[] = Object.keys(slugsData).sort((a, b) => {
       return new Date(slugsData[a].dateCreated) <
         new Date(slugsData[b].dateCreated)
@@ -125,4 +99,38 @@ export default async function to(file: string) {
     // write to archive
     await writeJson(slugsFilePath, newTagsData);
   }
+}
+
+export async function formatArchiveData(item: unknown) {
+  // console.log("expanded", expanded);
+  const expanded = await jsonld.expand(item, { documentLoader: customLoader });
+
+  const headlines = expanded[0]["http://schema.org/headline"] as Record<
+    string,
+    string
+  >[];
+
+  const postInfo: Record<string, string> = {
+    dateCreated: (item as Record<string, string>).dateCreated,
+  };
+  headlines.forEach((headline) => {
+    postInfo[headline["@language"]] = headline["@value"];
+  });
+  // get tags
+  const slugger = new GithubSlugger();
+
+  const keywords = expanded[0]["http://schema.org/keywords"] as Record<
+    string,
+    string
+  >[];
+  const slugs: string[] = [];
+  keywords.forEach((keyword) => {
+    const slug = slugger.slug(keyword["@value"]);
+    slugs.push(slug);
+  });
+
+  return {
+    postInfo,
+    slugs: slugs,
+  };
 }
