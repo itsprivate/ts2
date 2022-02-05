@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--03--en--hackernews--HackerNews--NewsArticle--30162678",
+  "url": "https://news.ycombinator.com/item?id=30162678",
+  "headline": "In defense of user-defined web fonts",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sirodoht",
+    "url": "https://news.ycombinator.com/user?id=sirodoht"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30162678",
+  "sameAs": "https://nutcroft.com/blog/in-defense-of-user-defined-web-fonts/",
+  "dateCreated": "2022-02-03T05:33:07.758Z",
+  "datePublished": "2022-02-01T14:18:06.000Z",
+  "dateModified": "2022-02-03T05:33:07.758Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "为用户定义的网络字体辩护",
+  "headline_zh-Hant": "為用戶定義的網絡字體辯護",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

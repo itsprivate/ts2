@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--04--en--hackernews--HackerNews--NewsArticle--30202913",
+  "url": "https://news.ycombinator.com/item?id=30202913",
+  "headline": "Medical communication is bad–how can we fix it?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tomjcleveland",
+    "url": "https://news.ycombinator.com/user?id=tomjcleveland"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30202913",
+  "sameAs": "https://blog.tjcx.me/p/medical-communication-is-badhow-do",
+  "dateCreated": "2022-02-04T05:21:01.071Z",
+  "datePublished": "2022-02-04T04:34:07.000Z",
+  "dateModified": "2022-02-04T05:21:01.071Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "医学交流很糟糕--我们怎样才能解决它？",
+  "headline_zh-Hant": "醫學交流很糟糕--我們怎樣才能解決它？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

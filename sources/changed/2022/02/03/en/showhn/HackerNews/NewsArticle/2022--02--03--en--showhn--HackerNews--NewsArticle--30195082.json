@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--03--en--showhn--HackerNews--NewsArticle--30195082",
+  "url": "https://news.ycombinator.com/item?id=30195082",
+  "headline": "Show HN: Upload and share CSV files as queryable SQL tables",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "chatmasta",
+    "url": "https://news.ycombinator.com/user?id=chatmasta"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30195082",
+  "sameAs": "https://www.splitgraph.com/blog/csv-to-sql-upload-to-data-delivery-network-ddn",
+  "dateCreated": "2022-02-03T17:30:30.205Z",
+  "datePublished": "2022-02-03T17:05:34.000Z",
+  "dateModified": "2022-02-03T17:30:30.205Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 上传和分享CSV文件作为可查询的SQL表",
+  "headline_zh-Hant": "Show HN: 上傳和分享CSV文件作為可查詢的SQL表",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

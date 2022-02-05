@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--03--en--showhn--HackerNews--NewsArticle--30197837",
+  "url": "https://news.ycombinator.com/item?id=30197837",
+  "headline": "Show HN: What do you think this form builder that *updates* existing records?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "Chetane",
+    "url": "https://news.ycombinator.com/user?id=Chetane"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30197837",
+  "sameAs": "https://news.ycombinator.com/item?id=30197837",
+  "dateCreated": "2022-02-03T20:07:49.833Z",
+  "datePublished": "2022-02-03T19:52:39.000Z",
+  "dateModified": "2022-02-03T20:07:49.833Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 你认为这个*更新*现有记录的表格生成器是什么？",
+  "headline_zh-Hant": "Show HN: 你認為這個*更新*現有記錄的表格生成器是什麼？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

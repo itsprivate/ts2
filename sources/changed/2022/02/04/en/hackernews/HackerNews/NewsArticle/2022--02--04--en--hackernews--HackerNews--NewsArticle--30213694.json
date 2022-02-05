@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--04--en--hackernews--HackerNews--NewsArticle--30213694",
+  "url": "https://news.ycombinator.com/item?id=30213694",
+  "headline": "That’s all folks, for me anyway. Canon Rumors will live on",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "techolic",
+    "url": "https://news.ycombinator.com/user?id=techolic"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30213694",
+  "sameAs": "https://www.canonrumors.com/thats-all-folks-for-me-anyway-canon-rumors-will-live-on/",
+  "dateCreated": "2022-02-04T22:22:53.195Z",
+  "datePublished": "2022-02-04T21:41:45.000Z",
+  "dateModified": "2022-02-04T22:22:53.195Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 28
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "这就是所有的人，无论如何对我来说。佳能流言将继续存在",
+  "headline_zh-Hant": "這就是所有的人，無論如何對我來說。佳能流言將繼續存在",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

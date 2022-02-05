@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--04--en--hackernews--HackerNews--NewsArticle--30192131",
+  "url": "https://news.ycombinator.com/item?id=30192131",
+  "headline": "Fisher's rule: Number all displayed equations (1989)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sieste",
+    "url": "https://news.ycombinator.com/user?id=sieste"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30192131",
+  "sameAs": "https://physicstoday.scitation.org/doi/10.1063/1.2811173",
+  "dateCreated": "2022-02-04T16:36:20.168Z",
+  "datePublished": "2022-02-03T13:32:07.000Z",
+  "dateModified": "2022-02-04T16:36:20.168Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "费希尔规则。对所有显示的方程式进行编号 (1989)",
+  "headline_zh-Hant": "費希爾規則。對所有顯示的方程式進行編號 (1989)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
