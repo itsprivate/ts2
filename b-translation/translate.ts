@@ -185,7 +185,8 @@ export async function translateItem(item: NodeObject, page: Page | null) {
           item["@context"] = ["https://schema.org", context];
         } else {
           console.error("translated error", translated);
-          throw new Error(translated.result);
+          // skip this item.
+          // throw new Error(translated.result);
         }
       } else {
         console.log(
