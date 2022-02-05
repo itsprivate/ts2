@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--05--en--hackernews--HackerNews--NewsArticle--30224536",
+  "url": "https://news.ycombinator.com/item?id=30224536",
+  "headline": "Apple bans accounts of developers from Belarus",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ameshkov",
+    "url": "https://news.ycombinator.com/user?id=ameshkov"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30224536",
+  "sameAs": "https://developer.apple.com/forums/thread/700036",
+  "dateCreated": "2022-02-05T19:48:05.346Z",
+  "datePublished": "2022-02-05T19:00:22.000Z",
+  "dateModified": "2022-02-05T19:48:05.346Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "苹果禁止来自白俄罗斯的开发者的账户",
+  "headline_zh-Hant": "蘋果禁止來自白俄羅斯的開發者的賬戶",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
