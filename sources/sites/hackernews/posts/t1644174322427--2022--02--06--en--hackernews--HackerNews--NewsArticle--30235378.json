@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--06--en--hackernews--HackerNews--NewsArticle--30235378",
+  "url": "https://news.ycombinator.com/item?id=30235378",
+  "headline": "Gut microbe linked to depression in large health study",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pella",
+    "url": "https://news.ycombinator.com/user?id=pella"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30235378",
+  "sameAs": "https://www.science.org/content/article/gut-microbe-linked-depression-large-health-study",
+  "dateCreated": "2022-02-06T19:05:22.427Z",
+  "datePublished": "2022-02-06T18:29:00.000Z",
+  "dateModified": "2022-02-06T19:05:22.427Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 18
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "大型健康研究中肠道微生物与抑郁症有关",
+  "headline_zh-Hant": "大型健康研究中腸道微生物與抑鬱症有關",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
