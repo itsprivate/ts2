@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--06--en--hackernews--HackerNews--NewsArticle--30232416",
+  "url": "https://news.ycombinator.com/item?id=30232416",
+  "headline": "Markov Chain Monte Carlo analysis of climate-change variables",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bryanrasmussen",
+    "url": "https://news.ycombinator.com/user?id=bryanrasmussen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30232416",
+  "sameAs": "https://www.nature.com/articles/s41598-022-05643-8",
+  "dateCreated": "2022-02-06T14:33:07.464Z",
+  "datePublished": "2022-02-06T13:45:05.000Z",
+  "dateModified": "2022-02-06T14:33:07.464Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "气候变化变量的马尔科夫链蒙特卡洛分析",
+  "headline_zh-Hant": "氣候變化變量的馬爾科夫鏈蒙特卡洛分析",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
