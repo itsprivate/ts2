@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--26--en--hackernews--HackerNews--NewsArticle--30091980",
-  "url": "https://news.ycombinator.com/item?id=30091980",
-  "headline": "About the security content of macOS Monterey 12.2",
+  "identifier": "2022--02--06--en--hackernews--HackerNews--NewsArticle--30190237",
+  "url": "https://news.ycombinator.com/item?id=30190237",
+  "headline": "Dumpster diving the Go garbage collector",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,36 +13,36 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "ingve",
-    "url": "https://news.ycombinator.com/user?id=ingve"
+    "name": "emreb",
+    "url": "https://news.ycombinator.com/user?id=emreb"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30091980",
-  "sameAs": "https://support.apple.com/en-us/HT213054",
-  "dateCreated": "2022-01-26T21:34:00.860Z",
-  "datePublished": "2022-01-26T21:15:09.000Z",
-  "dateModified": "2022-01-26T21:34:00.860Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30190237",
+  "sameAs": "https://blog.px.dev/go-garbage-collector/",
+  "dateCreated": "2022-02-06T23:25:51.010Z",
+  "datePublished": "2022-02-03T08:51:27.000Z",
+  "dateModified": "2022-02-06T23:25:51.010Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 11
+      "userInteractionCount": 6
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 1
+      "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "关于macOS Monterey 12.2的安全内容",
-  "headline_zh-Hant": "關於macOS Monterey 12.2的安全內容",
+  "headline_zh-Hans": "垃圾箱潜水--Go垃圾收集器",
+  "headline_zh-Hant": "垃圾箱潛水--Go垃圾收集器",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
