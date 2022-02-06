@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--26--en--hackernews--HackerNews--NewsArticle--30075279",
-  "url": "https://news.ycombinator.com/item?id=30075279",
-  "headline": "On the Difficulty of Extrapolation with NN Scaling",
+  "identifier": "2022--02--06--en--showhn--HackerNews--NewsArticle--30236630",
+  "url": "https://news.ycombinator.com/item?id=30236630",
+  "headline": "Show HN: EBNF Specification of the BBC Shipping Forecast",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "ericjang",
-    "url": "https://news.ycombinator.com/user?id=ericjang"
+    "name": "jamespwilliams",
+    "url": "https://news.ycombinator.com/user?id=jamespwilliams"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30075279",
-  "sameAs": "http://lukemetz.com/difficulty-of-extrapolation-nn-scaling/",
-  "dateCreated": "2022-01-26T20:35:49.710Z",
-  "datePublished": "2022-01-25T17:56:42.000Z",
-  "dateModified": "2022-01-26T20:35:49.710Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30236630",
+  "sameAs": "https://github.com/jamespwilliams/ebnf-shipping-forecast",
+  "dateCreated": "2022-02-06T20:26:55.380Z",
+  "datePublished": "2022-02-06T20:24:56.000Z",
+  "dateModified": "2022-02-06T20:26:55.380Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 7
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +40,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "论用NN缩放法进行外推的困难性",
-  "headline_zh-Hant": "論用NN縮放法進行外推的困難性",
+  "headline_zh-Hans": "Show HN: BBC航运预测的EBNF规范",
+  "headline_zh-Hant": "Show HN: BBC航運預測的EBNF規範",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
