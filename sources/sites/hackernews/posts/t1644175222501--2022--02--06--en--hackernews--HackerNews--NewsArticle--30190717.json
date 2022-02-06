@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--26--en--hackernews--HackerNews--NewsArticle--30089895",
-  "url": "https://news.ycombinator.com/item?id=30089895",
-  "headline": "Electric Tables – an experiment in personal databases",
+  "identifier": "2022--02--06--en--hackernews--HackerNews--NewsArticle--30190717",
+  "url": "https://news.ycombinator.com/item?id=30190717",
+  "headline": "BeeWare – write Python, run as native everywhere",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,36 +13,36 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "topcat31",
-    "url": "https://news.ycombinator.com/user?id=topcat31"
+    "name": "ivanche",
+    "url": "https://news.ycombinator.com/user?id=ivanche"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30089895",
-  "sameAs": "https://tomcritchlow.com/2022/01/26/electric-tables/",
-  "dateCreated": "2022-01-26T19:21:41.629Z",
-  "datePublished": "2022-01-26T18:46:31.000Z",
-  "dateModified": "2022-01-26T19:21:41.629Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30190717",
+  "sameAs": "https://beeware.org/",
+  "dateCreated": "2022-02-06T19:20:22.501Z",
+  "datePublished": "2022-02-03T10:13:06.000Z",
+  "dateModified": "2022-02-06T19:20:22.501Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 4
+      "userInteractionCount": 18
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 1
+      "userInteractionCount": 3
     }
   ],
-  "headline_zh-Hans": "电表--个人数据库的实验",
-  "headline_zh-Hant": "電錶--個人數據庫的實驗",
+  "headline_zh-Hans": "BeeWare - 编写Python，在任何地方都可以作为本地程序运行",
+  "headline_zh-Hant": "BeeWare - 編寫Python，在任何地方都可以作為本地程序運行",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
