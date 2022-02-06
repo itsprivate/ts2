@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--26--en--hackernews--HackerNews--NewsArticle--30083908",
-  "url": "https://news.ycombinator.com/item?id=30083908",
-  "headline": "Machine Readable Specifications at Scale",
+  "identifier": "2022--02--06--en--hackernews--HackerNews--NewsArticle--30230846",
+  "url": "https://news.ycombinator.com/item?id=30230846",
+  "headline": "A Quick Introduction to R",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,36 +13,36 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "fanf2",
-    "url": "https://news.ycombinator.com/user?id=fanf2"
+    "name": "kkoncevicius",
+    "url": "https://news.ycombinator.com/user?id=kkoncevicius"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30083908",
-  "sameAs": "https://alastairreid.github.io/mrs-at-scale/",
-  "dateCreated": "2022-01-26T11:25:18.753Z",
-  "datePublished": "2022-01-26T10:44:13.000Z",
-  "dateModified": "2022-01-26T11:25:18.753Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30230846",
+  "sameAs": "https://github.com/karoliskoncevicius/tutorial_r_introduction/blob/main/README.md",
+  "dateCreated": "2022-02-06T11:05:58.404Z",
+  "datePublished": "2022-02-06T09:30:30.000Z",
+  "dateModified": "2022-02-06T11:05:58.404Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 5
+      "userInteractionCount": 3
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "规模化的机器可读规格",
-  "headline_zh-Hant": "規模化的機器可讀規格",
+  "headline_zh-Hans": "R的快速介绍",
+  "headline_zh-Hant": "R的快速介紹",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",

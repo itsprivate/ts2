@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--26--en--hackernews--HackerNews--NewsArticle--30083988",
-  "url": "https://news.ycombinator.com/item?id=30083988",
-  "headline": "Sleep quality and consistency is associated with better academic performance",
+  "identifier": "2022--02--06--en--hackernews--HackerNews--NewsArticle--30230944",
+  "url": "https://news.ycombinator.com/item?id=30230944",
+  "headline": "TornadoVM: A practical and efficient heterogeneous programming framework",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,21 +13,21 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "wallopingfuture",
-    "url": "https://news.ycombinator.com/user?id=wallopingfuture"
+    "name": "capableweb",
+    "url": "https://news.ycombinator.com/user?id=capableweb"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30083988",
-  "sameAs": "https://www.grelin.net/post/Urruj7Id8snp96DQRdPP",
-  "dateCreated": "2022-01-26T11:25:18.760Z",
-  "datePublished": "2022-01-26T10:54:48.000Z",
-  "dateModified": "2022-01-26T11:25:18.760Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30230944",
+  "sameAs": "https://github.com/beehive-lab/TornadoVM",
+  "dateCreated": "2022-02-06T11:05:58.440Z",
+  "datePublished": "2022-02-06T09:46:40.000Z",
+  "dateModified": "2022-02-06T11:05:58.440Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 8
+      "userInteractionCount": 6
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +37,12 @@
       "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "睡眠质量和一致性与更好的学习成绩有关",
-  "headline_zh-Hant": "睡眠質量和一致性與更好的學習成績有關",
+  "headline_zh-Hans": "TornadoVM。一个实用、高效的异构编程框架",
+  "headline_zh-Hant": "TornadoVM。一個實用、高效的異構編程框架",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
