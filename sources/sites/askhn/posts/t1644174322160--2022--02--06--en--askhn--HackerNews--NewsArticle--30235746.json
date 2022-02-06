@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--26--en--hackernews--HackerNews--NewsArticle--30088347",
-  "url": "https://news.ycombinator.com/item?id=30088347",
-  "headline": "Wanna Buy a Radio Station? (2015)",
+  "identifier": "2022--02--06--en--askhn--HackerNews--NewsArticle--30235746",
+  "url": "https://news.ycombinator.com/item?id=30235746",
+  "headline": "Ask HN: What Are Your Hobbies?",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,39 +10,42 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
   "author": {
     "@type": "Person",
-    "name": "11thEarlOfMar",
-    "url": "https://news.ycombinator.com/user?id=11thEarlOfMar"
+    "name": "kcindric",
+    "url": "https://news.ycombinator.com/user?id=kcindric"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30088347",
-  "sameAs": "https://darrylparks.com/2015/11/11/wanna-buy-a-radio-station-really-cheap/",
-  "dateCreated": "2022-01-26T18:32:42.281Z",
-  "datePublished": "2022-01-26T17:17:03.000Z",
-  "dateModified": "2022-01-26T18:32:42.281Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30235746",
+  "sameAs": "https://news.ycombinator.com/item?id=30235746",
+  "dateCreated": "2022-02-06T19:05:22.160Z",
+  "datePublished": "2022-02-06T19:02:57.000Z",
+  "dateModified": "2022-02-06T19:05:22.160Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 9
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 1
+      "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "想买一个电台吗？(2015)",
-  "headline_zh-Hant": "想買一個電臺嗎？(2015)",
+  "headline_zh-Hans": "Ask HN: 你的爱好是什么？",
+  "headline_zh-Hant": "Ask HN: 你的愛好是什麼？",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
