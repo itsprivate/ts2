@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--26--en--hackernews--HackerNews--NewsArticle--30055036",
-  "url": "https://news.ycombinator.com/item?id=30055036",
-  "headline": "Zlib – a spiffy yet delicately unobtrusive compression library",
+  "identifier": "2022--02--06--en--hackernews--HackerNews--NewsArticle--30206330",
+  "url": "https://news.ycombinator.com/item?id=30206330",
+  "headline": "My cheapskate commenting system",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,14 +13,14 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "maydemir",
-    "url": "https://news.ycombinator.com/user?id=maydemir"
+    "name": "bradley_taunt",
+    "url": "https://news.ycombinator.com/user?id=bradley_taunt"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30055036",
-  "sameAs": "https://github.com/madler/zlib",
-  "dateCreated": "2022-01-26T11:06:56.992Z",
-  "datePublished": "2022-01-24T09:00:27.000Z",
-  "dateModified": "2022-01-26T11:06:56.992Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30206330",
+  "sameAs": "https://tdarb.org/poormans-comment-system/",
+  "dateCreated": "2022-02-06T10:07:15.608Z",
+  "datePublished": "2022-02-04T13:10:16.000Z",
+  "dateModified": "2022-02-06T10:07:15.608Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
@@ -34,15 +34,15 @@
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "Zlib - 一个精致而不显眼的压缩库",
-  "headline_zh-Hant": "Zlib - 一個精緻而不顯眼的壓縮庫",
+  "headline_zh-Hans": "我的小气鬼评论系统",
+  "headline_zh-Hant": "我的小氣鬼評論系統",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
