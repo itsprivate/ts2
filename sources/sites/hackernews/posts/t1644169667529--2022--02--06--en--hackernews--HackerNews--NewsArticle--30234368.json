@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--06--en--hackernews--HackerNews--NewsArticle--30234368",
+  "url": "https://news.ycombinator.com/item?id=30234368",
+  "headline": "Resistbot: Contact your officials by sending a text",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ajs256",
+    "url": "https://news.ycombinator.com/user?id=ajs256"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30234368",
+  "sameAs": "https://resist.bot",
+  "dateCreated": "2022-02-06T17:47:47.529Z",
+  "datePublished": "2022-02-06T17:04:29.000Z",
+  "dateModified": "2022-02-06T17:47:47.529Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Resistbot: 通过发送短信联系你的官员",
+  "headline_zh-Hant": "Resistbot: 通過發送短信聯繫你的官員",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
