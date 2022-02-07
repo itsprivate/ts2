@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--27--en--hackernews--HackerNews--NewsArticle--30084641",
-  "url": "https://news.ycombinator.com/item?id=30084641",
-  "headline": "More Than Digital Copies: Maps That Interpret Maps",
+  "identifier": "2022--02--07--en--askhn--HackerNews--NewsArticle--30240609",
+  "url": "https://news.ycombinator.com/item?id=30240609",
+  "headline": "Ask HN: Feeling Depressed and Choked. How to handle it?",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
   "author": {
     "@type": "Person",
-    "name": "mxfh",
-    "url": "https://news.ycombinator.com/user?id=mxfh"
+    "name": "princevegeta89",
+    "url": "https://news.ycombinator.com/user?id=princevegeta89"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30084641",
-  "sameAs": "https://www.davidrumsey.com/blog/articles/more-than-digital-copies-maps-that-interpret-maps",
-  "dateCreated": "2022-01-27T02:17:03.474Z",
-  "datePublished": "2022-01-26T12:21:36.000Z",
-  "dateModified": "2022-01-27T02:17:03.474Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30240609",
+  "sameAs": "https://news.ycombinator.com/item?id=30240609",
+  "dateCreated": "2022-02-07T05:07:29.047Z",
+  "datePublished": "2022-02-07T04:58:08.000Z",
+  "dateModified": "2022-02-07T05:07:29.047Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 9
+      "userInteractionCount": 2
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +40,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "不仅仅是数字拷贝。解释地图的地图",
-  "headline_zh-Hant": "不僅僅是數字拷貝。解釋地圖的地圖",
+  "headline_zh-Hans": "Ask HN: 感到压抑和窒息。如何处理？",
+  "headline_zh-Hant": "Ask HN: 感到壓抑和窒息。如何處理？",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
