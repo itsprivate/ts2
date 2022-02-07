@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--07--en--showhn--HackerNews--NewsArticle--30243418",
+  "url": "https://news.ycombinator.com/item?id=30243418",
+  "headline": "Show HN: I made a VS Code extension that helps you refactor JavaScript",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "lgrammel",
+    "url": "https://news.ycombinator.com/user?id=lgrammel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30243418",
+  "sameAs": "https://marketplace.visualstudio.com/items?itemName=p42ai.refactor",
+  "dateCreated": "2022-02-07T11:48:03.880Z",
+  "datePublished": "2022-02-07T11:40:16.000Z",
+  "dateModified": "2022-02-07T11:48:03.880Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我做了一个VS Code扩展，可以帮助你重构JavaScript",
+  "headline_zh-Hant": "Show HN: 我做了一個VS Code擴展，可以幫助你重構JavaScript",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
