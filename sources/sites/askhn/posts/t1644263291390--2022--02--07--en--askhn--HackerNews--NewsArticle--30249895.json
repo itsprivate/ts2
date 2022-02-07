@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--27--en--hackernews--HackerNews--NewsArticle--30085550",
-  "url": "https://news.ycombinator.com/item?id=30085550",
-  "headline": "Learning happens in the brains of sleeping babes",
+  "identifier": "2022--02--07--en--askhn--HackerNews--NewsArticle--30249895",
+  "url": "https://news.ycombinator.com/item?id=30249895",
+  "headline": "Ask HN: How can Skype be so bad?",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
   "author": {
     "@type": "Person",
-    "name": "Hooke",
-    "url": "https://news.ycombinator.com/user?id=Hooke"
+    "name": "mikkelenzo",
+    "url": "https://news.ycombinator.com/user?id=mikkelenzo"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30085550",
-  "sameAs": "https://knowablemagazine.org/article/mind/2022/how-learning-happens-brains-sleeping-babes",
-  "dateCreated": "2022-01-27T20:07:21.052Z",
-  "datePublished": "2022-01-26T14:10:17.000Z",
-  "dateModified": "2022-01-27T20:07:21.052Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30249895",
+  "sameAs": "https://news.ycombinator.com/item?id=30249895",
+  "dateCreated": "2022-02-07T19:48:11.390Z",
+  "datePublished": "2022-02-07T19:40:37.000Z",
+  "dateModified": "2022-02-07T19:48:11.390Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 9
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +40,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "学习发生在睡着的婴儿的大脑中",
-  "headline_zh-Hant": "學習發生在睡著的嬰兒的大腦中",
+  "headline_zh-Hans": "Ask HN: Skype怎么会如此糟糕？",
+  "headline_zh-Hant": "Ask HN: Skype怎麼會如此糟糕？",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
