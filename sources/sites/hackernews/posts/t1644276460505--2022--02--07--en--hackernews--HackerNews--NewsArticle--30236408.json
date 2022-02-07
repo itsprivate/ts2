@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--07--en--hackernews--HackerNews--NewsArticle--30236408",
+  "url": "https://news.ycombinator.com/item?id=30236408",
+  "headline": "Ice Spikes: Strange things you can find in your freezer",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mmastrac",
+    "url": "https://news.ycombinator.com/user?id=mmastrac"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30236408",
+  "sameAs": "http://www.its.caltech.edu/~atomic/snowcrystals/icespikes/icespikes.htm",
+  "dateCreated": "2022-02-07T23:27:40.505Z",
+  "datePublished": "2022-02-06T20:03:49.000Z",
+  "dateModified": "2022-02-07T23:27:40.505Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 11
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "冰钉。在冰箱里能找到的奇怪的东西",
+  "headline_zh-Hant": "冰釘。在冰箱裡能找到的奇怪的東西",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
