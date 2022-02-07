@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--27--en--hackernews--HackerNews--NewsArticle--30102122",
-  "url": "https://news.ycombinator.com/item?id=30102122",
-  "headline": "Aligning Language Models to Follow Instructions",
+  "identifier": "2022--02--07--en--showhn--HackerNews--NewsArticle--30251249",
+  "url": "https://news.ycombinator.com/item?id=30251249",
+  "headline": "Show HN: Better Breath Using Bacteria?",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "todsacerdoti",
-    "url": "https://news.ycombinator.com/user?id=todsacerdoti"
+    "name": "JayMiah",
+    "url": "https://news.ycombinator.com/user?id=JayMiah"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30102122",
-  "sameAs": "https://openai.com/blog/instruction-following/",
-  "dateCreated": "2022-01-27T22:07:07.645Z",
-  "datePublished": "2022-01-27T16:01:12.000Z",
-  "dateModified": "2022-01-27T22:07:07.645Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30251249",
+  "sameAs": "https://www.shopriven.com/",
+  "dateCreated": "2022-02-07T21:24:00.857Z",
+  "datePublished": "2022-02-07T21:13:09.000Z",
+  "dateModified": "2022-02-07T21:24:00.857Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 14
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +40,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "对准语言模型，遵循指令",
-  "headline_zh-Hant": "對準語言模型，遵循指令",
+  "headline_zh-Hans": "Show HN: 利用细菌改善呼吸？",
+  "headline_zh-Hant": "Show HN: 利用細菌改善呼吸？",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--07--en--hackernews--HackerNews--NewsArticle--30250719",
+  "url": "https://news.ycombinator.com/item?id=30250719",
+  "headline": "Recruiters lying about salary? Is this just me or is it getting out of control?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "forgotmyacc",
+    "url": "https://news.ycombinator.com/user?id=forgotmyacc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30250719",
+  "sameAs": "https://news.ycombinator.com/item?id=30250719",
+  "dateCreated": "2022-02-07T21:24:01.216Z",
+  "datePublished": "2022-02-07T20:38:26.000Z",
+  "dateModified": "2022-02-07T21:24:01.216Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 21
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 10
+    }
+  ],
+  "headline_zh-Hans": "招聘人员在工资上撒谎？这只是我的问题，还是已经失控了？",
+  "headline_zh-Hant": "招聘人員在工資上撒謊？這只是我的問題，還是已經失控了？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
