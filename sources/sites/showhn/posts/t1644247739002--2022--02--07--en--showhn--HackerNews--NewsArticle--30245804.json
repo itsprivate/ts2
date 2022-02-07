@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--07--en--showhn--HackerNews--NewsArticle--30245804",
+  "url": "https://news.ycombinator.com/item?id=30245804",
+  "headline": "Show HN: Multimodal AI to process video content like Big Data",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "matgillard",
+    "url": "https://news.ycombinator.com/user?id=matgillard"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30245804",
+  "sameAs": "https://newsbridge.io/",
+  "dateCreated": "2022-02-07T15:28:59.002Z",
+  "datePublished": "2022-02-07T15:07:13.000Z",
+  "dateModified": "2022-02-07T15:28:59.002Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 多模态人工智能，像大数据一样处理视频内容",
+  "headline_zh-Hant": "Show HN: 多模態人工智能，像大數據一樣處理視頻內容",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
