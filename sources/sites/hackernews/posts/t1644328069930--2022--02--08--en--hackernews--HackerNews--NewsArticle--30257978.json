@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--28--en--hackernews--HackerNews--NewsArticle--30115350",
-  "url": "https://news.ycombinator.com/item?id=30115350",
-  "headline": "Hive: A Globally-Distributed Key/Value Store [pdf]",
+  "identifier": "2022--02--08--en--hackernews--HackerNews--NewsArticle--30257978",
+  "url": "https://news.ycombinator.com/item?id=30257978",
+  "headline": "Exposing a web service with Cloudflare Tunnel",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,36 +13,36 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "wut42",
-    "url": "https://news.ycombinator.com/user?id=wut42"
+    "name": "geostyx",
+    "url": "https://news.ycombinator.com/user?id=geostyx"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30115350",
-  "sameAs": "https://papers.s3.fr-par.scw.cloud/hive.pdf",
-  "dateCreated": "2022-01-28T15:29:30.300Z",
-  "datePublished": "2022-01-28T14:55:19.000Z",
-  "dateModified": "2022-01-28T15:29:30.300Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30257978",
+  "sameAs": "https://erisa.dev/exposing-a-web-service-with-cloudflare-tunnel/",
+  "dateCreated": "2022-02-08T13:47:49.930Z",
+  "datePublished": "2022-02-08T13:15:33.000Z",
+  "dateModified": "2022-02-08T13:47:49.930Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 5
+      "userInteractionCount": 4
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 1
+      "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "蜂巢。一个全球分布的键/值存储 [pdf]",
-  "headline_zh-Hant": "蜂巢。一個全球分佈的鍵/值存儲 [pdf]",
+  "headline_zh-Hans": "用Cloudflare Tunnel暴露一个网络服务",
+  "headline_zh-Hant": "用Cloudflare Tunnel暴露一個網絡服務",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
