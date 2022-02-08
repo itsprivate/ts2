@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--08--en--askhn--HackerNews--NewsArticle--30254924",
+  "url": "https://news.ycombinator.com/item?id=30254924",
+  "headline": "Ask HN: Do you know any great coding tutors? I have 100k students for you",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "randomquest99",
+    "url": "https://news.ycombinator.com/user?id=randomquest99"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30254924",
+  "sameAs": "https://news.ycombinator.com/item?id=30254924",
+  "dateCreated": "2022-02-08T04:52:25.492Z",
+  "datePublished": "2022-02-08T04:33:27.000Z",
+  "dateModified": "2022-02-08T04:52:25.492Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你知道有什么好的编码辅导老师吗？我有10万个学生给你",
+  "headline_zh-Hant": "Ask HN: 你知道有什麼好的編碼輔導老師嗎？我有10萬個學生給你",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
