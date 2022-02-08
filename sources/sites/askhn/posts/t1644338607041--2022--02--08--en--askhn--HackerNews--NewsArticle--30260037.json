@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--28--en--hackernews--HackerNews--NewsArticle--30117423",
-  "url": "https://news.ycombinator.com/item?id=30117423",
-  "headline": "Wire is now on F-Droid",
+  "identifier": "2022--02--08--en--askhn--HackerNews--NewsArticle--30260037",
+  "url": "https://news.ycombinator.com/item?id=30260037",
+  "headline": "Ask HN: How do you take accountability in 2022?",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
   "author": {
     "@type": "Person",
-    "name": "lucgommans",
-    "url": "https://news.ycombinator.com/user?id=lucgommans"
+    "name": "throwaway837d",
+    "url": "https://news.ycombinator.com/user?id=throwaway837d"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30117423",
-  "sameAs": "https://f-droid.org/en/packages/com.wire/",
-  "dateCreated": "2022-01-28T17:37:38.924Z",
-  "datePublished": "2022-01-28T17:08:24.000Z",
-  "dateModified": "2022-01-28T17:37:38.924Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30260037",
+  "sameAs": "https://news.ycombinator.com/item?id=30260037",
+  "dateCreated": "2022-02-08T16:43:27.041Z",
+  "datePublished": "2022-02-08T16:02:32.000Z",
+  "dateModified": "2022-02-08T16:43:27.041Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 18
+      "userInteractionCount": 2
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +40,12 @@
       "userInteractionCount": 2
     }
   ],
-  "headline_zh-Hans": "Wire现在在F-Droid上",
-  "headline_zh-Hant": "Wire現在在F-Droid上",
+  "headline_zh-Hans": "Ask HN: 在2022年，你如何接受问责？",
+  "headline_zh-Hant": "Ask HN: 在2022年，你如何接受問責？",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
