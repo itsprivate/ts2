@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--08--en--hackernews--HackerNews--NewsArticle--30263481",
+  "url": "https://news.ycombinator.com/item?id=30263481",
+  "headline": "Justice Dept. announces $3.6B crypto seizure, 2 arrests",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "awb",
+    "url": "https://news.ycombinator.com/user?id=awb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30263481",
+  "sameAs": "https://apnews.com/article/cryptocurrency-stolen-arrest-7e83f7188e8e1580e9678d8a47d6ab32",
+  "dateCreated": "2022-02-08T20:27:45.612Z",
+  "datePublished": "2022-02-08T19:42:04.000Z",
+  "dateModified": "2022-02-08T20:27:45.612Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "司法部宣布扣押36亿美元加密货币，逮捕2人",
+  "headline_zh-Hant": "司法部宣佈扣押36億美元加密貨幣，逮捕2人",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
