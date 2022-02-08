@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--08--en--hackernews--HackerNews--NewsArticle--30241917",
+  "url": "https://news.ycombinator.com/item?id=30241917",
+  "headline": "One American Hacker Suddenly Took Down North Korea’s Internet–All of It",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "newswasboring",
+    "url": "https://news.ycombinator.com/user?id=newswasboring"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30241917",
+  "sameAs": "https://www.forbes.com/sites/daveywinder/2022/02/05/one-american-hacker-suddenly-takes-down-north-koreas-internet-all-of-it/",
+  "dateCreated": "2022-02-08T03:36:37.576Z",
+  "datePublished": "2022-02-07T08:35:57.000Z",
+  "dateModified": "2022-02-08T03:36:37.576Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一个美国黑客突然间攻陷了朝鲜的互联网--所有的互联网",
+  "headline_zh-Hant": "一個美國黑客突然間攻陷了朝鮮的互聯網--所有的互聯網",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
