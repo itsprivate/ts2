@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--08--en--hackernews--HackerNews--NewsArticle--30256589",
+  "url": "https://news.ycombinator.com/item?id=30256589",
+  "headline": "Physical Unclonable Functions,a unique, inborn, unclonable hardware level key",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Nokinside",
+    "url": "https://news.ycombinator.com/user?id=Nokinside"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30256589",
+  "sameAs": "https://blog.pufsecurity.com/2021/12/20/pufrt-solving-chip-securitys-weakest-link/",
+  "dateCreated": "2022-02-08T22:07:21.715Z",
+  "datePublished": "2022-02-08T09:53:01.000Z",
+  "dateModified": "2022-02-08T22:07:21.715Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "物理不可克隆的功能，一个独特的、天生的、不可克隆的硬件级密钥",
+  "headline_zh-Hant": "物理不可克隆的功能，一個獨特的、天生的、不可克隆的硬件級密鑰",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
