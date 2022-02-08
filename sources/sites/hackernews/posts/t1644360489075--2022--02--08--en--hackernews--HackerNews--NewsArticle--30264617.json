@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--08--en--hackernews--HackerNews--NewsArticle--30264617",
+  "url": "https://news.ycombinator.com/item?id=30264617",
+  "headline": "The unlimited storage that Google promised my university is being discontinued",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nonfamous",
+    "url": "https://news.ycombinator.com/user?id=nonfamous"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30264617",
+  "sameAs": "https://twitter.com/bwjones/status/1490802506628145153",
+  "dateCreated": "2022-02-08T22:48:09.075Z",
+  "datePublished": "2022-02-08T20:59:50.000Z",
+  "dateModified": "2022-02-08T22:48:09.075Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 43
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "谷歌向我的大学承诺的无限存储正在停止。",
+  "headline_zh-Hant": "谷歌向我的大學承諾的無限存儲正在停止。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
