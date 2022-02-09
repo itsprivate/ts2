@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--29--en--hackernews--HackerNews--NewsArticle--30130206",
-  "url": "https://news.ycombinator.com/item?id=30130206",
-  "headline": "Tom Brady retiring after 22 seasons",
+  "identifier": "2022--02--09--en--hackernews--HackerNews--NewsArticle--30269286",
+  "url": "https://news.ycombinator.com/item?id=30269286",
+  "headline": "Understanding LSM Trees: What Powers Write-Heavy Databases",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,21 +13,21 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "jez",
-    "url": "https://news.ycombinator.com/user?id=jez"
+    "name": "branko_d",
+    "url": "https://news.ycombinator.com/user?id=branko_d"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30130206",
-  "sameAs": "https://www.espn.com/nfl/story/_/id/33173652/tom-brady-retiring-22-seasons-seven-super-bowl-wins-new-england-patriots-tampa-bay-buccaneers-sources-say",
-  "dateCreated": "2022-01-29T21:23:54.084Z",
-  "datePublished": "2022-01-29T20:43:37.000Z",
-  "dateModified": "2022-01-29T21:23:54.084Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30269286",
+  "sameAs": "https://yetanotherdevblog.com/lsm/",
+  "dateCreated": "2022-02-09T21:25:09.053Z",
+  "datePublished": "2022-02-09T05:37:53.000Z",
+  "dateModified": "2022-02-09T21:25:09.053Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 8
+      "userInteractionCount": 7
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +37,12 @@
       "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "汤姆-布雷迪在22个赛季后退役",
-  "headline_zh-Hant": "湯姆-布雷迪在22個賽季後退役",
+  "headline_zh-Hans": "了解LSM树。是什么让大量写入的数据库变得强大",
+  "headline_zh-Hant": "瞭解LSM樹。是什麼讓大量寫入的數據庫變得強大",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
