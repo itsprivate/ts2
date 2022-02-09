@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--09--en--hackernews--HackerNews--NewsArticle--30271694",
+  "url": "https://news.ycombinator.com/item?id=30271694",
+  "headline": "Oxford's JET lab smashes nuclear fusion energy output record",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "caaqil",
+    "url": "https://news.ycombinator.com/user?id=caaqil"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30271694",
+  "sameAs": "https://www.bbc.com/news/science-environment-60312633",
+  "dateCreated": "2022-02-09T12:43:33.717Z",
+  "datePublished": "2022-02-09T12:05:44.000Z",
+  "dateModified": "2022-02-09T12:43:33.717Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 16
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "牛津大学的JET实验室打破了核聚变能量输出记录",
+  "headline_zh-Hant": "牛津大學的JET實驗室打破了核聚變能量輸出記錄",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
