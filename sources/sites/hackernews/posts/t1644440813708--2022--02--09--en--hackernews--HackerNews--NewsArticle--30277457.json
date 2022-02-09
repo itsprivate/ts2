@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--09--en--hackernews--HackerNews--NewsArticle--30277457",
+  "url": "https://news.ycombinator.com/item?id=30277457",
+  "headline": "This needs some heavy checking... (line 1029)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dennis_moore",
+    "url": "https://news.ycombinator.com/user?id=dennis_moore"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30277457",
+  "sameAs": "https://github.com/torvalds/linux/blob/f4bc5bbb5fef3cf421ba3485d6d383c27ec473ed/kernel/sys.c",
+  "dateCreated": "2022-02-09T21:06:53.708Z",
+  "datePublished": "2022-02-09T19:46:24.000Z",
+  "dateModified": "2022-02-09T21:06:53.708Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "这需要进行一些严格的检查... (第1029行)",
+  "headline_zh-Hant": "這需要進行一些嚴格的檢查... (第1029行)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
