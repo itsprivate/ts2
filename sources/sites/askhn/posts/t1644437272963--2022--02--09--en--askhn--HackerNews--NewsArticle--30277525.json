@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--29--en--hackernews--HackerNews--NewsArticle--30113320",
-  "url": "https://news.ycombinator.com/item?id=30113320",
-  "headline": "Snap Chat: The Psychology of Selfies",
+  "identifier": "2022--02--09--en--askhn--HackerNews--NewsArticle--30277525",
+  "url": "https://news.ycombinator.com/item?id=30277525",
+  "headline": "Ask HN: What is com.vix.cron in launchctl on macOS?",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
   "author": {
     "@type": "Person",
-    "name": "yamrzou",
-    "url": "https://news.ycombinator.com/user?id=yamrzou"
+    "name": "jjtheblunt",
+    "url": "https://news.ycombinator.com/user?id=jjtheblunt"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30113320",
-  "sameAs": "https://drmarkgriffiths.wordpress.com/2019/02/07/snap-chat-the-psychology-of-selfies/",
-  "dateCreated": "2022-01-29T20:30:34.532Z",
-  "datePublished": "2022-01-28T11:26:14.000Z",
-  "dateModified": "2022-01-29T20:30:34.532Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30277525",
+  "sameAs": "https://news.ycombinator.com/item?id=30277525",
+  "dateCreated": "2022-02-09T20:07:52.963Z",
+  "datePublished": "2022-02-09T19:52:11.000Z",
+  "dateModified": "2022-02-09T20:07:52.963Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 16
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +40,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "啪啪啪的聊天。自拍的心理学",
-  "headline_zh-Hant": "啪啪啪的聊天。自拍的心理學",
+  "headline_zh-Hans": "Ask HN: 什么是macOS上launchctl中的com.vix.cron？",
+  "headline_zh-Hant": "Ask HN: 什麼是macOS上launchctl中的com.vix.cron？",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
