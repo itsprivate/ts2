@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--09--en--showhn--HackerNews--NewsArticle--30273857",
+  "url": "https://news.ycombinator.com/item?id=30273857",
+  "headline": "Show HN: ValidKube – Validate, Clean and Secure Your K8s YAML",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "k8s_Hero",
+    "url": "https://news.ycombinator.com/user?id=k8s_Hero"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30273857",
+  "sameAs": "https://validkube.com/",
+  "dateCreated": "2022-02-09T15:40:31.582Z",
+  "datePublished": "2022-02-09T15:37:24.000Z",
+  "dateModified": "2022-02-09T15:40:31.582Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: ValidKube - 验证、清理和保护你的K8s YAML",
+  "headline_zh-Hant": "Show HN: ValidKube - 驗證、清理和保護你的K8s YAML",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
