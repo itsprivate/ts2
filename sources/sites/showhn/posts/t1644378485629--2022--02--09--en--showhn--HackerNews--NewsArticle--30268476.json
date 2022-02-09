@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--29--en--hackernews--HackerNews--NewsArticle--30123982",
-  "url": "https://news.ycombinator.com/item?id=30123982",
-  "headline": "Tor Browser: a legacy of advancing private browsing innovation",
+  "identifier": "2022--02--09--en--showhn--HackerNews--NewsArticle--30268476",
+  "url": "https://news.ycombinator.com/item?id=30268476",
+  "headline": "Show HN: Connect to any API without code",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "pabs3",
-    "url": "https://news.ycombinator.com/user?id=pabs3"
+    "name": "david_abaev",
+    "url": "https://news.ycombinator.com/user?id=david_abaev"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30123982",
-  "sameAs": "https://blog.torproject.org/tor-browser-advancing-privacy-innovation/",
-  "dateCreated": "2022-01-29T05:47:58.669Z",
-  "datePublished": "2022-01-29T05:11:37.000Z",
-  "dateModified": "2022-01-29T05:47:58.669Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30268476",
+  "sameAs": "https://databar.ai",
+  "dateCreated": "2022-02-09T03:48:05.629Z",
+  "datePublished": "2022-02-09T03:38:52.000Z",
+  "dateModified": "2022-02-09T03:48:05.629Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 6
+      "userInteractionCount": 2
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +40,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "Tor浏览器：推进私人浏览创新的遗产",
-  "headline_zh-Hant": "Tor瀏覽器：推進私人瀏覽創新的遺產",
+  "headline_zh-Hans": "Show HN: 无需代码即可连接到任何API",
+  "headline_zh-Hant": "Show HN: 無需代碼即可連接到任何API",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
