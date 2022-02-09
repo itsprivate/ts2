@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--09--en--hackernews--HackerNews--NewsArticle--30257424",
+  "url": "https://news.ycombinator.com/item?id=30257424",
+  "headline": "Home-built Bugatti replica [video]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jnord",
+    "url": "https://news.ycombinator.com/user?id=jnord"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30257424",
+  "sameAs": "https://www.youtube.com/watch?v=bwUnIN5RLm0",
+  "dateCreated": "2022-02-09T15:29:16.056Z",
+  "datePublished": "2022-02-08T11:57:53.000Z",
+  "dateModified": "2022-02-09T15:29:16.056Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 36
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "自家制造的布加迪复制品[视频]",
+  "headline_zh-Hant": "自家制造的布加迪複製品[視頻]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
