@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--30--en--hackernews--HackerNews--NewsArticle--30138420",
-  "url": "https://news.ycombinator.com/item?id=30138420",
-  "headline": "Autonomous battery-powered rail cars",
+  "identifier": "2022--02--10--en--showhn--HackerNews--NewsArticle--30288119",
+  "url": "https://news.ycombinator.com/item?id=30288119",
+  "headline": "Show HN: Tweet AI Generated Hot Takes",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "vanburen",
-    "url": "https://news.ycombinator.com/user?id=vanburen"
+    "name": "m2com",
+    "url": "https://news.ycombinator.com/user?id=m2com"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30138420",
-  "sameAs": "https://arstechnica.com/cars/2022/01/moving-more-with-less-freight-startup-bets-on-autonomous-electric-rail-cars/",
-  "dateCreated": "2022-01-30T16:41:37.735Z",
-  "datePublished": "2022-01-30T16:16:10.000Z",
-  "dateModified": "2022-01-30T16:41:37.735Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30288119",
+  "sameAs": "https://github.com/MarkMcKinney/responsible-ai-hot-takes",
+  "dateCreated": "2022-02-10T16:09:37.950Z",
+  "datePublished": "2022-02-10T16:04:23.000Z",
+  "dateModified": "2022-02-10T16:09:37.950Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 5
+      "userInteractionCount": 2
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +40,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "自主电池供电的轨道车",
-  "headline_zh-Hant": "自主電池供電的軌道車",
+  "headline_zh-Hans": "Show HN: 推特人工智能生成的热门话题",
+  "headline_zh-Hant": "Show HN: 推特人工智能生成的熱門話題",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
