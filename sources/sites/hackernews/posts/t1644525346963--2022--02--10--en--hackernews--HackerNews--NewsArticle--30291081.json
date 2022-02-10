@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--10--en--hackernews--HackerNews--NewsArticle--30291081",
+  "url": "https://news.ycombinator.com/item?id=30291081",
+  "headline": "Tell HN: \"Upload your resume and then type it out” is hurting your company",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "valar_m",
+    "url": "https://news.ycombinator.com/user?id=valar_m"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30291081",
+  "sameAs": "https://news.ycombinator.com/item?id=30291081",
+  "dateCreated": "2022-02-10T20:35:46.963Z",
+  "datePublished": "2022-02-10T19:19:08.000Z",
+  "dateModified": "2022-02-10T20:35:46.963Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 19
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 6
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：\"上传你的简历然后打出来 \"正在伤害你的公司",
+  "headline_zh-Hant": "告訴HN：\"上傳你的簡歷然後打出來 \"正在傷害你的公司",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
