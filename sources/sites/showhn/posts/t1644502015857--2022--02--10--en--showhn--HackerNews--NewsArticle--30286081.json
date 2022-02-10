@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--10--en--showhn--HackerNews--NewsArticle--30286081",
+  "url": "https://news.ycombinator.com/item?id=30286081",
+  "headline": "Show HN: I created a minimal, secure, terminal native chat application",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "humility",
+    "url": "https://news.ycombinator.com/user?id=humility"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30286081",
+  "sameAs": "https://github.com/navxio/chatty",
+  "dateCreated": "2022-02-10T14:06:55.857Z",
+  "datePublished": "2022-02-10T14:02:22.000Z",
+  "dateModified": "2022-02-10T14:06:55.857Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我创建了一个最小的、安全的、终端的本地聊天应用程序",
+  "headline_zh-Hant": "Show HN: 我創建了一個最小的、安全的、終端的本地聊天應用程序",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
