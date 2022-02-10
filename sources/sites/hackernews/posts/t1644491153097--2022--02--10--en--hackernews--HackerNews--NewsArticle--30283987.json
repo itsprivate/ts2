@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--10--en--hackernews--HackerNews--NewsArticle--30283987",
+  "url": "https://news.ycombinator.com/item?id=30283987",
+  "headline": "SSH into your private machines from anywhere, for free, using Cloudflare Tunnel",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "SpaghettiX",
+    "url": "https://news.ycombinator.com/user?id=SpaghettiX"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30283987",
+  "sameAs": "https://orth.uk/ssh-over-cloudflare/",
+  "dateCreated": "2022-02-10T11:05:53.097Z",
+  "datePublished": "2022-02-10T09:18:51.000Z",
+  "dateModified": "2022-02-10T11:05:53.097Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 14
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "使用Cloudflare Tunnel从任何地方免费SSH进入你的私人机器",
+  "headline_zh-Hant": "使用Cloudflare Tunnel從任何地方免費SSH進入你的私人機器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
