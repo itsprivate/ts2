@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--10--en--hackernews--HackerNews--NewsArticle--30288139",
+  "url": "https://news.ycombinator.com/item?id=30288139",
+  "headline": "U.S. Inflation Accelerates to 40-Year High",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tima101",
+    "url": "https://news.ycombinator.com/user?id=tima101"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30288139",
+  "sameAs": "https://www.wsj.com/articles/us-inflation-consumer-price-index-january-2022-11644452274",
+  "dateCreated": "2022-02-10T16:41:55.596Z",
+  "datePublished": "2022-02-10T16:05:41.000Z",
+  "dateModified": "2022-02-10T16:41:55.596Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 32
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "美国通胀率加速至40年来的高点",
+  "headline_zh-Hant": "美國通脹率加速至40年來的高點",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
