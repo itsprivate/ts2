@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--30--en--hackernews--HackerNews--NewsArticle--30138533",
-  "url": "https://news.ycombinator.com/item?id=30138533",
-  "headline": "Hypercard Simulator",
+  "identifier": "2022--02--10--en--askhn--HackerNews--NewsArticle--30288567",
+  "url": "https://news.ycombinator.com/item?id=30288567",
+  "headline": "Ask HN: Looking for Roles in NYC",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
   "author": {
     "@type": "Person",
-    "name": "alexmingoia",
-    "url": "https://news.ycombinator.com/user?id=alexmingoia"
+    "name": "redlion",
+    "url": "https://news.ycombinator.com/user?id=redlion"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30138533",
-  "sameAs": "https://hypercardsimulator.com/",
-  "dateCreated": "2022-01-30T16:41:37.750Z",
-  "datePublished": "2022-01-30T16:30:48.000Z",
-  "dateModified": "2022-01-30T16:41:37.750Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30288567",
+  "sameAs": "https://news.ycombinator.com/item?id=30288567",
+  "dateCreated": "2022-02-10T16:41:55.305Z",
+  "datePublished": "2022-02-10T16:30:16.000Z",
+  "dateModified": "2022-02-10T16:41:55.305Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 6
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +40,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "超级卡片模拟器",
-  "headline_zh-Hant": "超級卡片模擬器",
+  "headline_zh-Hans": "Ask HN: 在纽约市寻找角色",
+  "headline_zh-Hant": "Ask HN: 在紐約市尋找角色",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
