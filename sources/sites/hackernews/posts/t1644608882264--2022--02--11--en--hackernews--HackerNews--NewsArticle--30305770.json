@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--11--en--hackernews--HackerNews--NewsArticle--30305770",
+  "url": "https://news.ycombinator.com/item?id=30305770",
+  "headline": "Mozilla Partners with Meta on Privacy Preserving Attribution for Advertising",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Santosh83",
+    "url": "https://news.ycombinator.com/user?id=Santosh83"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30305770",
+  "sameAs": "https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/",
+  "dateCreated": "2022-02-11T19:48:02.264Z",
+  "datePublished": "2022-02-11T19:16:07.000Z",
+  "dateModified": "2022-02-11T19:48:02.264Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 23
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 7
+    }
+  ],
+  "headline_zh-Hans": "Mozilla与Meta合作，为广告保留隐私归属权",
+  "headline_zh-Hant": "Mozilla與Meta合作，為廣告保留隱私歸屬權",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
