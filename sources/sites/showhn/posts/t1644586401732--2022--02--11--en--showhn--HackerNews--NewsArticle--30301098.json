@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--31--en--hackernews--HackerNews--NewsArticle--30114822",
-  "url": "https://news.ycombinator.com/item?id=30114822",
-  "headline": "Async Rust: Panics vs. Cancellation",
+  "identifier": "2022--02--11--en--showhn--HackerNews--NewsArticle--30301098",
+  "url": "https://news.ycombinator.com/item?id=30301098",
+  "headline": "Show HN: A mastermind-like version of Wordle",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "ingve",
-    "url": "https://news.ycombinator.com/user?id=ingve"
+    "name": "prvnsmpth",
+    "url": "https://news.ycombinator.com/user?id=prvnsmpth"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30114822",
-  "sameAs": "https://smallcultfollowing.com/babysteps//blog/2022/01/27/panics-vs-cancellation-part-1/",
-  "dateCreated": "2022-01-31T10:08:54.760Z",
-  "datePublished": "2022-01-28T14:16:43.000Z",
-  "dateModified": "2022-01-31T10:08:54.760Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30301098",
+  "sameAs": "https://playhurdle.vercel.app/",
+  "dateCreated": "2022-02-11T13:33:21.732Z",
+  "datePublished": "2022-02-11T13:19:31.000Z",
+  "dateModified": "2022-02-11T13:33:21.732Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 4
+      "userInteractionCount": 2
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +40,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "异步Rust。恐慌与取消",
-  "headline_zh-Hant": "異步Rust。恐慌與取消",
+  "headline_zh-Hans": "Show HN: 一个类似于大师级的Wordle版本",
+  "headline_zh-Hant": "Show HN: 一個類似於大師級的Wordle版本",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
