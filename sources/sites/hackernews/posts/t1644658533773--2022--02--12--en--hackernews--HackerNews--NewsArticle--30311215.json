@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--hackernews--HackerNews--NewsArticle--30311215",
+  "url": "https://news.ycombinator.com/item?id=30311215",
+  "headline": "Douglas Adams from first issue of Wired (1998)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "colinprince",
+    "url": "https://news.ycombinator.com/user?id=colinprince"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30311215",
+  "sameAs": "https://douglasadams.com/dna/980707-05-a.html",
+  "dateCreated": "2022-02-12T09:35:33.773Z",
+  "datePublished": "2022-02-12T09:04:29.000Z",
+  "dateModified": "2022-02-12T09:35:33.773Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "道格拉斯-亚当斯来自《连线》杂志的第一期（1998年）。",
+  "headline_zh-Hant": "道格拉斯-亞當斯來自《連線》雜誌的第一期（1998年）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
