@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--hackernews--HackerNews--NewsArticle--30299888",
+  "url": "https://news.ycombinator.com/item?id=30299888",
+  "headline": "Little Sound Dj",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Tomte",
+    "url": "https://news.ycombinator.com/user?id=Tomte"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30299888",
+  "sameAs": "https://www.littlesounddj.com/lsd/index.php",
+  "dateCreated": "2022-02-12T18:49:05.937Z",
+  "datePublished": "2022-02-11T10:53:32.000Z",
+  "dateModified": "2022-02-12T18:49:05.937Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "小声音Dj",
+  "headline_zh-Hant": "小聲音Dj",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
