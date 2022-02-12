@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--hackernews--HackerNews--NewsArticle--30317313",
+  "url": "https://news.ycombinator.com/item?id=30317313",
+  "headline": "SikuliX – Automate what you see on a computer monitor",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "notamy",
+    "url": "https://news.ycombinator.com/user?id=notamy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30317313",
+  "sameAs": "http://sikulix.com",
+  "dateCreated": "2022-02-12T23:47:54.812Z",
+  "datePublished": "2022-02-12T23:10:41.000Z",
+  "dateModified": "2022-02-12T23:47:54.812Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "SikuliX - 将你在电脑显示器上看到的东西自动化",
+  "headline_zh-Hant": "SikuliX - 將你在電腦顯示器上看到的東西自動化",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
