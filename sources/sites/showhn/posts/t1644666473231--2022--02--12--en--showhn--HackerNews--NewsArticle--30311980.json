@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--showhn--HackerNews--NewsArticle--30311980",
+  "url": "https://news.ycombinator.com/item?id=30311980",
+  "headline": "Show HN: Kobadoo – train your brain by memorizing flags, numbers and emojis",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "pepalgarid",
+    "url": "https://news.ycombinator.com/user?id=pepalgarid"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30311980",
+  "sameAs": "https://www.kobadoo.com/",
+  "dateCreated": "2022-02-12T11:47:53.231Z",
+  "datePublished": "2022-02-12T11:32:03.000Z",
+  "dateModified": "2022-02-12T11:47:53.231Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Kobadoo - 通过记忆旗帜、数字和表情符号来训练你的大脑",
+  "headline_zh-Hant": "Show HN: Kobadoo - 通過記憶旗幟、數字和表情符號來訓練你的大腦",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
