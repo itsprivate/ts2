@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--02--01--en--hackernews--HackerNews--NewsArticle--30146442",
-  "url": "https://news.ycombinator.com/item?id=30146442",
-  "headline": "The Theory of Steinitz",
+  "identifier": "2022--02--12--en--hackernews--HackerNews--NewsArticle--30312029",
+  "url": "https://news.ycombinator.com/item?id=30312029",
+  "headline": "Unpacking ASIC firmware: AntMiner Exploited (2019)",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,21 +13,21 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "Tomte",
-    "url": "https://news.ycombinator.com/user?id=Tomte"
+    "name": "crecker",
+    "url": "https://news.ycombinator.com/user?id=crecker"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30146442",
-  "sameAs": "https://exeterchessclub.org.uk/content/theory-steinitz",
-  "dateCreated": "2022-02-01T08:09:17.229Z",
-  "datePublished": "2022-01-31T10:11:33.000Z",
-  "dateModified": "2022-02-01T08:09:17.229Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30312029",
+  "sameAs": "https://serhack.me/articles/unpacking-asic-firmware-antminer-exploited/",
+  "dateCreated": "2022-02-12T12:59:05.087Z",
+  "datePublished": "2022-02-12T11:39:18.000Z",
+  "dateModified": "2022-02-12T12:59:05.087Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 4
+      "userInteractionCount": 3
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +37,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "斯坦尼茨的理论",
-  "headline_zh-Hant": "斯坦尼茨的理論",
+  "headline_zh-Hans": "解开ASIC固件的包装。蚂蚁金服被剥削（2019年）",
+  "headline_zh-Hant": "解開ASIC固件的包裝。螞蟻金服被剝削（2019年）",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
