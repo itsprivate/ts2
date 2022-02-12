@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--02--01--en--hackernews--HackerNews--NewsArticle--30166198",
-  "url": "https://news.ycombinator.com/item?id=30166198",
-  "headline": "Python Tools for the Semantic Web, an Overview",
+  "identifier": "2022--02--12--en--hackernews--HackerNews--NewsArticle--30313239",
+  "url": "https://news.ycombinator.com/item?id=30313239",
+  "headline": "Real-Cugan: Real Cascade U-Nets for Anime Image Super Resolution",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,21 +13,21 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "PaulHoule",
-    "url": "https://news.ycombinator.com/user?id=PaulHoule"
+    "name": "ksec",
+    "url": "https://news.ycombinator.com/user?id=ksec"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30166198",
-  "sameAs": "https://github.com/pysemtec/semantic-python-overview",
-  "dateCreated": "2022-02-01T18:08:56.815Z",
-  "datePublished": "2022-02-01T17:42:55.000Z",
-  "dateModified": "2022-02-01T18:08:56.815Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30313239",
+  "sameAs": "https://github.com/bilibili/ailab/blob/main/Real-CUGAN/README_EN.md",
+  "dateCreated": "2022-02-12T21:34:22.075Z",
+  "datePublished": "2022-02-12T14:55:14.000Z",
+  "dateModified": "2022-02-12T21:34:22.075Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 6
+      "userInteractionCount": 8
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +37,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "语义网的Python工具，概述",
-  "headline_zh-Hant": "語義網的Python工具，概述",
+  "headline_zh-Hans": "真实-库根。用于动漫图像超分辨率的真实级联U型网",
+  "headline_zh-Hant": "真實-庫根。用於動漫圖像超分辨率的真實級聯U型網",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
