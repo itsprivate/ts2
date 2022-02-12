@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--hackernews--HackerNews--NewsArticle--30312182",
+  "url": "https://news.ycombinator.com/item?id=30312182",
+  "headline": "Can GPT-3 AI write comedy?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rossvor",
+    "url": "https://news.ycombinator.com/user?id=rossvor"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30312182",
+  "sameAs": "https://robmanuelfuckyeah.substack.com/p/someone-needs-to-stop-me-playing",
+  "dateCreated": "2022-02-12T13:27:02.569Z",
+  "datePublished": "2022-02-12T12:10:12.000Z",
+  "dateModified": "2022-02-12T13:27:02.569Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "GPT-3人工智能可以写喜剧吗？",
+  "headline_zh-Hant": "GPT-3人工智能可以寫喜劇嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
