@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--hackernews--HackerNews--NewsArticle--30309065",
+  "url": "https://news.ycombinator.com/item?id=30309065",
+  "headline": "CAD files for the external shell (surface topology) of Steam Deck",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sohkamyung",
+    "url": "https://news.ycombinator.com/user?id=sohkamyung"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30309065",
+  "sameAs": "https://gitlab.steamos.cloud/SteamDeck/hardware",
+  "dateCreated": "2022-02-12T02:26:32.972Z",
+  "datePublished": "2022-02-12T01:30:00.000Z",
+  "dateModified": "2022-02-12T02:26:32.972Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 22
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 7
+    }
+  ],
+  "headline_zh-Hans": "蒸汽甲板的外部外壳（表面拓扑结构）的CAD文件",
+  "headline_zh-Hant": "蒸汽甲板的外部外殼（表面拓撲結構）的CAD文件",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
