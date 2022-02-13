@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--02--02--en--hackernews--HackerNews--NewsArticle--30177362",
-  "url": "https://news.ycombinator.com/item?id=30177362",
-  "headline": "Run Your Home on a Raspberry Pi",
+  "identifier": "2022--02--13--en--askhn--HackerNews--NewsArticle--30323131",
+  "url": "https://news.ycombinator.com/item?id=30323131",
+  "headline": "Ask HN: Tools to visualize data in SQL database?",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
   "author": {
     "@type": "Person",
-    "name": "CapitalistCartr",
-    "url": "https://news.ycombinator.com/user?id=CapitalistCartr"
+    "name": "dyml",
+    "url": "https://news.ycombinator.com/user?id=dyml"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30177362",
-  "sameAs": "https://pragprog.com/titles/mrpython/portable-python-projects/",
-  "dateCreated": "2022-02-02T14:24:16.204Z",
-  "datePublished": "2022-02-02T13:43:53.000Z",
-  "dateModified": "2022-02-02T14:24:16.204Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30323131",
+  "sameAs": "https://news.ycombinator.com/item?id=30323131",
+  "dateCreated": "2022-02-13T16:57:23.413Z",
+  "datePublished": "2022-02-13T16:52:32.000Z",
+  "dateModified": "2022-02-13T16:57:23.413Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 16
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +40,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "在树莓派上运行你的家庭",
-  "headline_zh-Hant": "在樹莓派上運行你的家庭",
+  "headline_zh-Hans": "Ask HN: 在SQL数据库中实现数据可视化的工具？",
+  "headline_zh-Hant": "Ask HN: 在SQL數據庫中實現數據可視化的工具？",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
