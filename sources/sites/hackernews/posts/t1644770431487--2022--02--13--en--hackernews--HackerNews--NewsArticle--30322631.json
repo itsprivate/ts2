@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--02--02--en--hackernews--HackerNews--NewsArticle--30177105",
-  "url": "https://news.ycombinator.com/item?id=30177105",
-  "headline": "Adding custom RISC-V instructions to an open-source rv32 SoC",
+  "identifier": "2022--02--13--en--hackernews--HackerNews--NewsArticle--30322631",
+  "url": "https://news.ycombinator.com/item?id=30322631",
+  "headline": "How to break long-term compatibility in NetBSD [pdf]",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,21 +13,21 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "just_like_you",
-    "url": "https://news.ycombinator.com/user?id=just_like_you"
+    "name": "ingve",
+    "url": "https://news.ycombinator.com/user?id=ingve"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30177105",
-  "sameAs": "https://github.com/stnolting/neorv32/pull/264",
-  "dateCreated": "2022-02-02T14:24:16.196Z",
-  "datePublished": "2022-02-02T13:21:32.000Z",
-  "dateModified": "2022-02-02T14:24:16.196Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30322631",
+  "sameAs": "https://www.netbsd.org/gallery/presentations/joerg/asiabsdcon2016/asiabsdcon2016.pdf",
+  "dateCreated": "2022-02-13T16:40:31.487Z",
+  "datePublished": "2022-02-13T16:03:13.000Z",
+  "dateModified": "2022-02-13T16:40:31.487Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 5
+      "userInteractionCount": 6
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +37,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "在开源的rv32 SoC上添加自定义的RISC-V指令",
-  "headline_zh-Hant": "在開源的rv32 SoC上添加自定義的RISC-V指令",
+  "headline_zh-Hans": "如何打破NetBSD的长期兼容性[pdf]",
+  "headline_zh-Hant": "如何打破NetBSD的長期兼容性[pdf]",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
