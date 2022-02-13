@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--02--02--en--hackernews--HackerNews--NewsArticle--30174112",
-  "url": "https://news.ycombinator.com/item?id=30174112",
-  "headline": "A Wordle clone in 50 lines of Bash",
+  "identifier": "2022--02--13--en--hackernews--HackerNews--NewsArticle--30320582",
+  "url": "https://news.ycombinator.com/item?id=30320582",
+  "headline": "Simple XMPP command line client",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,36 +13,36 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "huydotnet",
-    "url": "https://news.ycombinator.com/user?id=huydotnet"
+    "name": "matthias_hmb",
+    "url": "https://news.ycombinator.com/user?id=matthias_hmb"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30174112",
-  "sameAs": "https://gist.github.com/huytd/6a1a6a7b34a0d0abcac00b47e3d01513",
-  "dateCreated": "2022-02-02T06:08:54.492Z",
-  "datePublished": "2022-02-02T05:33:21.000Z",
-  "dateModified": "2022-02-02T06:08:54.492Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30320582",
+  "sameAs": "https://holmeinbuch.de/repo/txmppc/file?name=txmppc.c&ci=tip",
+  "dateCreated": "2022-02-13T11:23:14.168Z",
+  "datePublished": "2022-02-13T09:46:47.000Z",
+  "dateModified": "2022-02-13T11:23:14.168Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 19
+      "userInteractionCount": 6
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 3
+      "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "用50行Bash编写的Wordle克隆程序",
-  "headline_zh-Hant": "用50行Bash編寫的Wordle克隆程序",
+  "headline_zh-Hans": "简单的XMPP命令行客户端",
+  "headline_zh-Hant": "簡單的XMPP命令行客戶端",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
