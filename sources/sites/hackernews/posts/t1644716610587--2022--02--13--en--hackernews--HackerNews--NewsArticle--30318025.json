@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--02--01--en--hackernews--HackerNews--NewsArticle--30167403",
-  "url": "https://news.ycombinator.com/item?id=30167403",
-  "headline": "WebVM: Server-less x86 virtual machines in the browser",
+  "identifier": "2022--02--13--en--hackernews--HackerNews--NewsArticle--30318025",
+  "url": "https://news.ycombinator.com/item?id=30318025",
+  "headline": "Traffic Simulator",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,21 +13,21 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "AshleysBrain",
-    "url": "https://news.ycombinator.com/user?id=AshleysBrain"
+    "name": "ohjeez",
+    "url": "https://news.ycombinator.com/user?id=ohjeez"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30167403",
-  "sameAs": "https://leaningtech.com/webvm-server-less-x86-virtual-machines-in-the-browser/",
-  "dateCreated": "2022-02-01T20:07:46.502Z",
-  "datePublished": "2022-02-01T19:01:08.000Z",
-  "dateModified": "2022-02-01T20:07:46.502Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30318025",
+  "sameAs": "https://traffic-simulation.de/ring.html",
+  "dateCreated": "2022-02-13T01:43:30.587Z",
+  "datePublished": "2022-02-13T01:02:01.000Z",
+  "dateModified": "2022-02-13T01:43:30.587Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 20
+      "userInteractionCount": 10
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +37,12 @@
       "userInteractionCount": 2
     }
   ],
-  "headline_zh-Hans": "WebVM。浏览器中的无服务器x86虚拟机",
-  "headline_zh-Hant": "WebVM。瀏覽器中的無服務器x86虛擬機",
+  "headline_zh-Hans": "交通模拟器",
+  "headline_zh-Hant": "交通模擬器",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
