@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--02--02--en--hackernews--HackerNews--NewsArticle--30149890",
-  "url": "https://news.ycombinator.com/item?id=30149890",
-  "headline": "A better Turing machine tape model",
+  "identifier": "2022--02--13--en--askhn--HackerNews--NewsArticle--30320837",
+  "url": "https://news.ycombinator.com/item?id=30320837",
+  "headline": "Ask HN: Easiest way to build a CRUD app",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
   "author": {
     "@type": "Person",
-    "name": "nickdrozd",
-    "url": "https://news.ycombinator.com/user?id=nickdrozd"
+    "name": "mouzogu",
+    "url": "https://news.ycombinator.com/user?id=mouzogu"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30149890",
-  "sameAs": "https://nickdrozd.github.io/2021/12/31/turing-machine-tape.html",
-  "dateCreated": "2022-02-02T06:08:54.451Z",
-  "datePublished": "2022-01-31T16:33:47.000Z",
-  "dateModified": "2022-02-02T06:08:54.451Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30320837",
+  "sameAs": "https://news.ycombinator.com/item?id=30320837",
+  "dateCreated": "2022-02-13T11:06:30.766Z",
+  "datePublished": "2022-02-13T10:50:38.000Z",
+  "dateModified": "2022-02-13T11:06:30.766Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 5
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +40,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "一个更好的图灵机磁带模型",
-  "headline_zh-Hant": "一個更好的圖靈機磁帶模型",
+  "headline_zh-Hans": "Ask HN: 构建CRUD应用程序的最简单方法",
+  "headline_zh-Hant": "Ask HN: 構建CRUD應用程序的最簡單方法",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
