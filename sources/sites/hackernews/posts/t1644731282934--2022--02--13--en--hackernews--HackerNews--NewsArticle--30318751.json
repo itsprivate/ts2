@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--13--en--hackernews--HackerNews--NewsArticle--30318751",
+  "url": "https://news.ycombinator.com/item?id=30318751",
+  "headline": "PostgreSQL Timestamps and Timezones: What You Need to Know–and What You Don’t",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lobo_tuerto",
+    "url": "https://news.ycombinator.com/user?id=lobo_tuerto"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30318751",
+  "sameAs": "https://blog.yugabyte.com/postgresql-timestamps-timezones/",
+  "dateCreated": "2022-02-13T05:48:02.934Z",
+  "datePublished": "2022-02-13T03:09:27.000Z",
+  "dateModified": "2022-02-13T05:48:02.934Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "PostgreSQL的时间戳和时区。你需要知道什么--你不需要知道什么",
+  "headline_zh-Hant": "PostgreSQL的時間戳和時區。你需要知道什麼--你不需要知道什麼",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
