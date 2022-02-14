@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--14--en--hackernews--HackerNews--NewsArticle--30331734",
+  "url": "https://news.ycombinator.com/item?id=30331734",
+  "headline": "Upcoming Python Features Brought to You by Python Enhancement Proposals",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "moriambi",
+    "url": "https://news.ycombinator.com/user?id=moriambi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30331734",
+  "sameAs": "https://martinheinz.dev/blog/67",
+  "dateCreated": "2022-02-14T14:48:19.604Z",
+  "datePublished": "2022-02-14T13:28:34.000Z",
+  "dateModified": "2022-02-14T14:48:19.604Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 7
+    }
+  ],
+  "headline_zh-Hans": "由Python增强提案带来的即将到来的Python特性",
+  "headline_zh-Hant": "由Python增強提案帶來的即將到來的Python特性",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
