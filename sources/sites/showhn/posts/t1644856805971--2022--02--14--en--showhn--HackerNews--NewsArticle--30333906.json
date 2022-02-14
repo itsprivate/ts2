@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--14--en--showhn--HackerNews--NewsArticle--30333906",
+  "url": "https://news.ycombinator.com/item?id=30333906",
+  "headline": "Show HN: A computer vision model to help identify Valentine's chocolates",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "karweiss",
+    "url": "https://news.ycombinator.com/user?id=karweiss"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30333906",
+  "sameAs": "https://universe.roboflow.com/chocolates/valentines-chocolates",
+  "dateCreated": "2022-02-14T16:40:05.971Z",
+  "datePublished": "2022-02-14T16:25:24.000Z",
+  "dateModified": "2022-02-14T16:40:05.971Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 一个帮助识别情人节巧克力的计算机视觉模型",
+  "headline_zh-Hant": "Show HN: 一個幫助識別情人節巧克力的計算機視覺模型",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
