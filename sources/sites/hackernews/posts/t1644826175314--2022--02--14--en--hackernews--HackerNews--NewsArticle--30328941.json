@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--14--en--hackernews--HackerNews--NewsArticle--30328941",
+  "url": "https://news.ycombinator.com/item?id=30328941",
+  "headline": "My Wife Was Dying of Brain Cancer. My Boss at Amazon Told Me to Perform or Quit",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gleenn",
+    "url": "https://news.ycombinator.com/user?id=gleenn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30328941",
+  "sameAs": "https://www.motherjones.com/politics/2022/01/amazon-wife-dying-cancer-the-big-quit-bad-bosses",
+  "dateCreated": "2022-02-14T08:09:35.314Z",
+  "datePublished": "2022-02-14T06:27:12.000Z",
+  "dateModified": "2022-02-14T08:09:35.314Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 42
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 8
+    }
+  ],
+  "headline_zh-Hans": "我的妻子因脑癌濒临死亡。我在亚马逊的老板告诉我，要么表演，要么辞职",
+  "headline_zh-Hant": "我的妻子因腦癌瀕臨死亡。我在亞馬遜的老闆告訴我，要麼表演，要麼辭職",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
