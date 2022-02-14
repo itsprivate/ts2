@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--14--en--hackernews--HackerNews--NewsArticle--30332761",
+  "url": "https://news.ycombinator.com/item?id=30332761",
+  "headline": "Underdispersion in the Covid19 case/death numbers may suggest data manipulations",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "r721",
+    "url": "https://news.ycombinator.com/user?id=r721"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30332761",
+  "sameAs": "https://www.medrxiv.org/content/10.1101/2022.02.11.22270841v1",
+  "dateCreated": "2022-02-14T15:28:55.127Z",
+  "datePublished": "2022-02-14T15:00:44.000Z",
+  "dateModified": "2022-02-14T15:28:55.127Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 20
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 7
+    }
+  ],
+  "headline_zh-Hans": "Covid19病例/死亡人数的分散性不足，可能表明有数据操作。",
+  "headline_zh-Hant": "Covid19病例/死亡人數的分散性不足，可能表明有數據操作。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
