@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--29147186",
+  "url": "https://news.ycombinator.com/item?id=29147186",
+  "headline": "Show HN: Yosup – An app to share your current status",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "vasanthv",
+    "url": "https://news.ycombinator.com/user?id=vasanthv"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29147186",
+  "sameAs": "https://yosup.co",
+  "dateCreated": "2022-02-15T20:28:18.265Z",
+  "datePublished": "2021-11-08T08:30:21.000Z",
+  "dateModified": "2022-02-15T20:28:18.265Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Yosup - 一个分享你当前状态的应用程序",
+  "headline_zh-Hant": "Show HN: Yosup - 一個分享你當前狀態的應用程序",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--hackernews--HackerNews--NewsArticle--30350860",
+  "url": "https://news.ycombinator.com/item?id=30350860",
+  "headline": "Google Release Chrome OS Flex",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "BoumTAC",
+    "url": "https://news.ycombinator.com/user?id=BoumTAC"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30350860",
+  "sameAs": "https://chromeenterprise.google/os/chromeosflex/",
+  "dateCreated": "2022-02-15T20:28:18.502Z",
+  "datePublished": "2022-02-15T18:46:19.000Z",
+  "dateModified": "2022-02-15T20:28:18.502Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 34
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 13
+    }
+  ],
+  "headline_zh-Hans": "谷歌发布Chrome OS Flex",
+  "headline_zh-Hant": "谷歌發佈Chrome OS Flex",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
