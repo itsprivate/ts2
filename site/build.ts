@@ -6,15 +6,20 @@ import { Feed } from "https://esm.sh/feed";
 import { copy } from "https://deno.land/std@0.121.0/fs/copy.ts";
 
 import { getSitePath, getAppPath, formatDate } from "./util.ts";
+import { getDataFilePath } from "../common/util.ts";
 const themeColor = "#1095c1";
 const pageSize = 1000;
 const languages = ["zh-Hans", "zh-Hant"];
 const distPath = getSitePath("public");
 export default async function main(siteIdentifier: string) {
-  const postsFiles = await getFiles(`./sources/sites/${siteIdentifier}/posts`)
+  const postsPath = getDataFilePath(`sites/${siteIdentifier}/posts`);
+  console.log("postsPath", postsPath);
+
+  const postsFiles = await getFiles(postsPath)
     .map((item) => item.path)
     .sort()
     .reverse();
+
   const siteConfigPath = getAppPath(siteIdentifier, "site.json");
   const siteConfig = JSON.parse(await Deno.readTextFile(siteConfigPath));
   const totalPages = Math.ceil(postsFiles.length / pageSize);

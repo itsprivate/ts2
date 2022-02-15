@@ -17,6 +17,8 @@ archive:
 	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run archive
 start:
 	denon start
+dev:
+	ENV=dev denon start
 build:
 	deno run -A --unstable site/build.ts showhn
 cache:
@@ -29,3 +31,9 @@ hackernews:
 	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run front
 front:
 	deno run -A --unstable site/cli.ts hackernews
+feed:
+	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run hnauthors --database json://dev-data
+feedsite:
+	deno run -A --unstable site/cli.ts myfeed
+devfeedsite:
+	ENV=dev deno run -A --unstable site/cli.ts myfeed
