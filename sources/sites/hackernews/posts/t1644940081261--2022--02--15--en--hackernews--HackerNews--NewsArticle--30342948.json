@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--02--04--en--hackernews--HackerNews--NewsArticle--30206755",
-  "url": "https://news.ycombinator.com/item?id=30206755",
-  "headline": "Omicron’s molecular structure could help explain its global takeover",
+  "identifier": "2022--02--15--en--hackernews--HackerNews--NewsArticle--30342948",
+  "url": "https://news.ycombinator.com/item?id=30342948",
+  "headline": "Using Device Tree Overlays, Example on BeagleBone Boards",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,21 +13,21 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "pseudolus",
-    "url": "https://news.ycombinator.com/user?id=pseudolus"
+    "name": "pabs3",
+    "url": "https://news.ycombinator.com/user?id=pabs3"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30206755",
-  "sameAs": "https://www.nature.com/articles/d41586-022-00292-3",
-  "dateCreated": "2022-02-04T14:33:12.698Z",
-  "datePublished": "2022-02-04T13:53:44.000Z",
-  "dateModified": "2022-02-04T14:33:12.698Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30342948",
+  "sameAs": "https://bootlin.com/blog/using-device-tree-overlays-example-on-beaglebone-boards/",
+  "dateCreated": "2022-02-15T15:48:01.261Z",
+  "datePublished": "2022-02-15T04:56:04.000Z",
+  "dateModified": "2022-02-15T15:48:01.261Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 4
+      "userInteractionCount": 6
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +37,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "欧米茄的分子结构可以帮助解释它的全球接管问题",
-  "headline_zh-Hant": "歐米茄的分子結構可以幫助解釋它的全球接管問題",
+  "headline_zh-Hans": "使用设备树覆盖，BeagleBone板上的例子",
+  "headline_zh-Hant": "使用設備樹覆蓋，BeagleBone板上的例子",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
