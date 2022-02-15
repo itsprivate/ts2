@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--02--04--en--hackernews--HackerNews--NewsArticle--30190254",
-  "url": "https://news.ycombinator.com/item?id=30190254",
-  "headline": "Inja: A Template Engine for Modern C++",
+  "identifier": "2022--02--15--en--hackernews--HackerNews--NewsArticle--30345204",
+  "url": "https://news.ycombinator.com/item?id=30345204",
+  "headline": "ReCAPTCHA (A Google Service) Privacy Concerns",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,36 +13,36 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "EntICOnc",
-    "url": "https://news.ycombinator.com/user?id=EntICOnc"
+    "name": "AutoDisorder",
+    "url": "https://news.ycombinator.com/user?id=AutoDisorder"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30190254",
-  "sameAs": "https://github.com/pantor/inja",
-  "dateCreated": "2022-02-04T10:24:48.900Z",
-  "datePublished": "2022-02-03T08:54:03.000Z",
-  "dateModified": "2022-02-04T10:24:48.900Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30345204",
+  "sameAs": "https://blog.cloudflare.com/moving-from-recaptcha-to-hcaptcha/",
+  "dateCreated": "2022-02-15T12:13:26.509Z",
+  "datePublished": "2022-02-15T11:33:49.000Z",
+  "dateModified": "2022-02-15T12:13:26.509Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 3
+      "userInteractionCount": 8
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 2
     }
   ],
-  "headline_zh-Hans": "Inja：现代C++的模板引擎",
-  "headline_zh-Hant": "Inja：現代C++的模板引擎",
+  "headline_zh-Hans": "ReCAPTCHA（谷歌的一项服务）的隐私问题",
+  "headline_zh-Hant": "ReCAPTCHA（谷歌的一項服務）的隱私問題",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",

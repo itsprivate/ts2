@@ -36,5 +36,23 @@
       },
       "userInteractionCount": 2
     }
+  ],
+  "headline_zh-Hans": "德州起诉Meta，称其滥用面部识别数据",
+  "headline_zh-Hant": "德州起訴Meta，稱其濫用面部識別數據",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
   ]
 }
