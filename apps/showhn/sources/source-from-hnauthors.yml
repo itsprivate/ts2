@@ -7,6 +7,7 @@ sources:
     itemsPath: hits
     key: objectID
     reverse: true
+    sleep: 2
   - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_andreyazimov
@@ -14,6 +15,48 @@ sources:
     itemsPath: hits
     key: objectID
     reverse: true
+    sleep: 2
+
+  - use: fetch
+    args:
+      - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_bbx
+    run: return ctx.result.json();
+    itemsPath: hits
+    key: objectID
+    reverse: true
+    sleep: 2
+  - use: fetch
+    args:
+      - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_dang
+    run: return ctx.result.json();
+    itemsPath: hits
+    key: objectID
+    reverse: true
+    sleep: 2
+  - use: fetch
+    args:
+      - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_hubraumhugo
+    run: return ctx.result.json();
+    itemsPath: hits
+    key: objectID
+    reverse: true
+    sleep: 2
+  - use: fetch
+    args:
+      - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_tracyhenry
+    run: return ctx.result.json();
+    itemsPath: hits
+    key: objectID
+    reverse: true
+    sleep: 2
+  - use: fetch
+    args:
+      - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_vasanthv
+    run: return ctx.result.json();
+    itemsPath: hits
+    key: objectID
+    reverse: true
+    sleep: 2
 steps:
   - from: ./format.ts
     args:
