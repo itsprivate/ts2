@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--hackernews--HackerNews--NewsArticle--30340548",
+  "url": "https://news.ycombinator.com/item?id=30340548",
+  "headline": "San Francisco police linked a woman to a crime using DNA from her rape exam",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "arkadiyt",
+    "url": "https://news.ycombinator.com/user?id=arkadiyt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30340548",
+  "sameAs": "https://www.sfchronicle.com/sf/article/San-Francisco-police-linked-a-woman-to-a-crime-16918673.php",
+  "dateCreated": "2022-02-15T01:49:09.739Z",
+  "datePublished": "2022-02-15T00:09:33.000Z",
+  "dateModified": "2022-02-15T01:49:09.739Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 60
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 36
+    }
+  ],
+  "headline_zh-Hans": "旧金山警方利用一名妇女被强奸时的DNA将其与犯罪联系起来",
+  "headline_zh-Hant": "舊金山警方利用一名婦女被強姦時的DNA將其與犯罪聯繫起來",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
