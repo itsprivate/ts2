@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--02--04--en--hackernews--HackerNews--NewsArticle--30202190",
-  "url": "https://news.ycombinator.com/item?id=30202190",
-  "headline": "Software correctness is a lot like flossing",
+  "identifier": "2022--02--15--en--hackernews--HackerNews--NewsArticle--30342414",
+  "url": "https://news.ycombinator.com/item?id=30342414",
+  "headline": "ProteusISC – JTAG Controller Abstraction Library",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,21 +13,21 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "BerislavLopac",
-    "url": "https://news.ycombinator.com/user?id=BerislavLopac"
+    "name": "pabs3",
+    "url": "https://news.ycombinator.com/user?id=pabs3"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30202190",
-  "sameAs": "https://www.hillelwayne.com/post/flossing/",
-  "dateCreated": "2022-02-04T04:07:41.978Z",
-  "datePublished": "2022-02-04T02:48:19.000Z",
-  "dateModified": "2022-02-04T04:07:41.978Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30342414",
+  "sameAs": "https://github.com/diamondman/proteusisc",
+  "dateCreated": "2022-02-15T04:35:32.799Z",
+  "datePublished": "2022-02-15T03:34:44.000Z",
+  "dateModified": "2022-02-15T04:35:32.799Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 8
+      "userInteractionCount": 3
     },
     {
       "@type": "InteractionCounter",
@@ -37,12 +37,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "软件的正确性很像使用牙线",
-  "headline_zh-Hant": "軟件的正確性很像使用牙線",
+  "headline_zh-Hans": "ProteusISC - JTAG控制器抽象库",
+  "headline_zh-Hant": "ProteusISC - JTAG控制器抽象庫",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
