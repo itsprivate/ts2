@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--29547841",
+  "url": "https://news.ycombinator.com/item?id=29547841",
+  "headline": "Mozilla expects to generate more than $500M in revenue this year",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Garbage",
+    "url": "https://news.ycombinator.com/user?id=Garbage"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29547841",
+  "sameAs": "https://techcrunch.com/2021/12/13/mozilla-expects-to-generate-more-than-500m-in-revenue-this-year/",
+  "dateCreated": "2022-02-15T21:36:37.285Z",
+  "datePublished": "2021-12-14T03:26:03.000Z",
+  "dateModified": "2022-02-15T21:36:37.285Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "Mozilla预计今年的收入将超过5亿美元",
+  "headline_zh-Hant": "Mozilla預計今年的收入將超過5億美元",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

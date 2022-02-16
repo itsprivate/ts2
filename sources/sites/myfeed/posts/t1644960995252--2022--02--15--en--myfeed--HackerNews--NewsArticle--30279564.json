@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--30279564",
+  "url": "https://news.ycombinator.com/item?id=30279564",
+  "headline": "Find paper. click button. read paper. have paper. (2011)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dredmorbius",
+    "url": "https://news.ycombinator.com/user?id=dredmorbius"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30279564",
+  "sameAs": "https://threadreaderapp.com/thread/1454007217837907971.html",
+  "dateCreated": "2022-02-15T21:36:35.252Z",
+  "datePublished": "2022-02-09T22:35:47.000Z",
+  "dateModified": "2022-02-15T21:36:35.252Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "查找论文。点击按钮。阅读论文。拥有论文。(2011)",
+  "headline_zh-Hant": "查找論文。點擊按鈕。閱讀論文。擁有論文。(2011)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

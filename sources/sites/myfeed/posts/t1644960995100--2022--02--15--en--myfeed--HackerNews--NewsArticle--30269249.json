@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--30269249",
+  "url": "https://news.ycombinator.com/item?id=30269249",
+  "headline": "The race to save the Internet from quantum hackers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sohkamyung",
+    "url": "https://news.ycombinator.com/user?id=sohkamyung"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30269249",
+  "sameAs": "https://www.nature.com/articles/d41586-022-00339-5",
+  "dateCreated": "2022-02-15T21:36:35.100Z",
+  "datePublished": "2022-02-09T05:33:05.000Z",
+  "dateModified": "2022-02-15T21:36:35.100Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "从量子黑客手中拯救互联网的竞赛",
+  "headline_zh-Hant": "從量子黑客手中拯救互聯網的競賽",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

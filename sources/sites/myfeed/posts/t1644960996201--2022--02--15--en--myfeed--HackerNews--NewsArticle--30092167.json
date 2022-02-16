@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--30092167",
+  "url": "https://news.ycombinator.com/item?id=30092167",
+  "headline": "Architect Peter Cook (Of Archigram) on Drawing [video]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "brudgers",
+    "url": "https://news.ycombinator.com/user?id=brudgers"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30092167",
+  "sameAs": "https://www.youtube.com/watch?v=1suurGcp8BI",
+  "dateCreated": "2022-02-15T21:36:36.201Z",
+  "datePublished": "2022-01-26T21:28:54.000Z",
+  "dateModified": "2022-02-15T21:36:36.201Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 20
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "建筑师彼得-库克（Archigram公司）谈绘画[视频］",
+  "headline_zh-Hant": "建築師彼得-庫克（Archigram公司）談繪畫[視頻］",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

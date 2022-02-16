@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--30251623",
+  "url": "https://news.ycombinator.com/item?id=30251623",
+  "headline": "WWF shuts down its NFT project",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ilamont",
+    "url": "https://news.ycombinator.com/user?id=ilamont"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30251623",
+  "sameAs": "https://www.wwf.org.uk/updates/nft-statement",
+  "dateCreated": "2022-02-15T21:36:36.854Z",
+  "datePublished": "2022-02-07T21:37:58.000Z",
+  "dateModified": "2022-02-15T21:36:36.854Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 29
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "世界自然基金会关闭了其NFT项目",
+  "headline_zh-Hant": "世界自然基金會關閉了其NFT項目",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

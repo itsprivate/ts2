@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--1494850",
+  "url": "https://news.ycombinator.com/item?id=1494850",
+  "headline": "Full chapter text on concurrency for The D Programming Language",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "WalterBright",
+    "url": "https://news.ycombinator.com/user?id=WalterBright"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=1494850",
+  "sameAs": "http://www.informit.com/articles/printerfriendly.aspx?p=1609144",
+  "dateCreated": "2022-02-15T21:36:35.133Z",
+  "datePublished": "2010-07-07T17:49:56.000Z",
+  "dateModified": "2022-02-15T21:36:35.133Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "D编程语言的并发性章节全文",
+  "headline_zh-Hant": "D編程語言的併發性章節全文",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

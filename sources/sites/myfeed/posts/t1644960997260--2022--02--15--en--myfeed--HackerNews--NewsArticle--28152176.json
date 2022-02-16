@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--28152176",
+  "url": "https://news.ycombinator.com/item?id=28152176",
+  "headline": "Stack Overflow Developer Survey is here",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Garbage",
+    "url": "https://news.ycombinator.com/user?id=Garbage"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=28152176",
+  "sameAs": "https://stackoverflow.blog/2021/08/02/2021-stack-overflow-developer-survey-results/",
+  "dateCreated": "2022-02-15T21:36:37.260Z",
+  "datePublished": "2021-08-12T05:03:23.000Z",
+  "dateModified": "2022-02-15T21:36:37.260Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Stack Overflow开发者调查在这里",
+  "headline_zh-Hant": "Stack Overflow開發者調查在這裡",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

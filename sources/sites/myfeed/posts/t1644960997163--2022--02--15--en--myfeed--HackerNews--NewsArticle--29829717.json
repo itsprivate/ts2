@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--29829717",
+  "url": "https://news.ycombinator.com/item?id=29829717",
+  "headline": "Tesla Tunnel Traffic Jam",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "edward",
+    "url": "https://news.ycombinator.com/user?id=edward"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29829717",
+  "sameAs": "https://twitter.com/pixelnull/status/1479086874140594176",
+  "dateCreated": "2022-02-15T21:36:37.163Z",
+  "datePublished": "2022-01-06T20:36:47.000Z",
+  "dateModified": "2022-02-15T21:36:37.163Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 31
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 16
+    }
+  ],
+  "headline_zh-Hans": "特斯拉隧道交通堵塞",
+  "headline_zh-Hant": "特斯拉隧道交通堵塞",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

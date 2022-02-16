@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--28809051",
+  "url": "https://news.ycombinator.com/item?id=28809051",
+  "headline": "2021-10-08 Nerd Roundup [video]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "DanielBMarkham",
+    "url": "https://news.ycombinator.com/user?id=DanielBMarkham"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=28809051",
+  "sameAs": "https://danielbmarkham.com/2021-10-08-nerd-roundup-2/",
+  "dateCreated": "2022-02-15T21:36:36.098Z",
+  "datePublished": "2021-10-09T11:50:34.000Z",
+  "dateModified": "2022-02-15T21:36:36.098Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "2021-10-08 书呆子综述[视频]",
+  "headline_zh-Hant": "2021-10-08 書呆子綜述[視頻]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
