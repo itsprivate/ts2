@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--29929947",
+  "url": "https://news.ycombinator.com/item?id=29929947",
+  "headline": "UT1 NTP Time Dissemination",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "wglb",
+    "url": "https://news.ycombinator.com/user?id=wglb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29929947",
+  "sameAs": "https://www.nist.gov/pml/time-and-frequency-division/time-services/ut1-ntp-time-dissemination",
+  "dateCreated": "2022-02-15T21:36:35.367Z",
+  "datePublished": "2022-01-14T02:32:59.000Z",
+  "dateModified": "2022-02-15T21:36:35.367Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 40
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 24
+    }
+  ],
+  "headline_zh-Hans": "UT1 NTP时间传播",
+  "headline_zh-Hant": "UT1 NTP時間傳播",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
