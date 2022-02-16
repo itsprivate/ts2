@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--30175470",
+  "url": "https://news.ycombinator.com/item?id=30175470",
+  "headline": "How People with Disabilities Use the Web",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "robin_reala",
+    "url": "https://news.ycombinator.com/user?id=robin_reala"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30175470",
+  "sameAs": "https://www.w3.org/WAI/people-use-web/",
+  "dateCreated": "2022-02-15T21:36:35.005Z",
+  "datePublished": "2022-02-02T09:29:51.000Z",
+  "dateModified": "2022-02-15T21:36:35.005Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "残障人士如何使用网络",
+  "headline_zh-Hant": "殘障人士如何使用網絡",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
