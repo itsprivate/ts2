@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30183060",
+  "url": "https://news.ycombinator.com/item?id=30183060",
+  "headline": "LYTS: Layout Primitives for React",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bpierre",
+    "url": "https://news.ycombinator.com/user?id=bpierre"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30183060",
+  "sameAs": "https://lyts.christiankaindl.com/",
+  "dateCreated": "2022-02-16T12:17:35.414Z",
+  "datePublished": "2022-02-02T19:52:39.000Z",
+  "dateModified": "2022-02-16T12:17:35.414Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "LYTS: React的布局原语",
+  "headline_zh-Hant": "LYTS: React的佈局原語",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

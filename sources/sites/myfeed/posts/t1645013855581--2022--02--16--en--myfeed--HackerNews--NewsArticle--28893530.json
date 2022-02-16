@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--28893530",
+  "url": "https://news.ycombinator.com/item?id=28893530",
+  "headline": "HCA posts stories of anti-vaxxers dying, scaring fence-sitters into the shot",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tzs",
+    "url": "https://news.ycombinator.com/user?id=tzs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=28893530",
+  "sameAs": "https://www.cnbc.com/2021/10/16/reddit-r/hermancainaward-posts-stories-of-anti-vaxxers-dying-of-covid.html",
+  "dateCreated": "2022-02-16T12:17:35.581Z",
+  "datePublished": "2021-10-17T02:51:43.000Z",
+  "dateModified": "2022-02-16T12:17:35.581Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 24
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 66
+    }
+  ],
+  "headline_zh-Hans": "HCA发布反疫苗接种者死亡的故事，吓得围观者纷纷出手",
+  "headline_zh-Hant": "HCA發佈反疫苗接種者死亡的故事，嚇得圍觀者紛紛出手",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

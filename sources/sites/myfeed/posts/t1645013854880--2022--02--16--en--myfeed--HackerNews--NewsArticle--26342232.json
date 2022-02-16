@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--26342232",
+  "url": "https://news.ycombinator.com/item?id=26342232",
+  "headline": "AI-powered, privacy-preserving ads at IMGZ",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "stavros",
+    "url": "https://news.ycombinator.com/user?id=stavros"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=26342232",
+  "sameAs": "https://imgz.org/blog/2021/03/04/yeah-right/",
+  "dateCreated": "2022-02-16T12:17:34.880Z",
+  "datePublished": "2021-03-04T13:41:37.000Z",
+  "dateModified": "2022-02-16T12:17:34.880Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "IMGZ的AI-powered, 隐私保护的广告",
+  "headline_zh-Hant": "IMGZ的AI-powered, 隱私保護的廣告",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

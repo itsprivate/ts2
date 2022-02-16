@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--26790486",
+  "url": "https://news.ycombinator.com/item?id=26790486",
+  "headline": "Show HN: I made a 5-key keyboard",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "stavros",
+    "url": "https://news.ycombinator.com/user?id=stavros"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=26790486",
+  "sameAs": "https://www.stavros.io/posts/keyyyyyyyys/",
+  "dateCreated": "2022-02-16T12:17:34.896Z",
+  "datePublished": "2021-04-13T10:46:25.000Z",
+  "dateModified": "2022-02-16T12:17:34.896Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 221
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 224
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我做了一个5键键盘",
+  "headline_zh-Hant": "Show HN: 我做了一個5鍵鍵盤",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

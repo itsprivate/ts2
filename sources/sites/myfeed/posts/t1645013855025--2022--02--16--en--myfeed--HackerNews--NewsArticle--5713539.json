@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--5713539",
+  "url": "https://news.ycombinator.com/item?id=5713539",
+  "headline": "Writing Testable Code in D (video)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "WalterBright",
+    "url": "https://news.ycombinator.com/user?id=WalterBright"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=5713539",
+  "sameAs": "http://www.youtube.com/watch?v=V98Z11V7kEY",
+  "dateCreated": "2022-02-16T12:17:35.025Z",
+  "datePublished": "2013-05-15T17:37:12.000Z",
+  "dateModified": "2022-02-16T12:17:35.025Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "用D语言编写可测试的代码（视频）",
+  "headline_zh-Hant": "用D語言編寫可測試的代碼（視頻）",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
