@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--27991873",
+  "url": "https://news.ycombinator.com/item?id=27991873",
+  "headline": "A Pasadena startup got billions selling Covid tests, then came questions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "adventured",
+    "url": "https://news.ycombinator.com/user?id=adventured"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=27991873",
+  "sameAs": "https://www.latimes.com/business/story/2021-07-28/innova-pasaca-covid-17-antigen-test-british-uk-government",
+  "dateCreated": "2022-02-16T11:07:59.712Z",
+  "datePublished": "2021-07-29T01:41:10.000Z",
+  "dateModified": "2022-02-16T11:07:59.712Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "帕萨迪纳的一家初创公司通过销售Covid测试获得了数十亿美元的收入，然后就出现了问题。",
+  "headline_zh-Hant": "帕薩迪納的一家初創公司通過銷售Covid測試獲得了數十億美元的收入，然後就出現了問題。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

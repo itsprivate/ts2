@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30233569",
+  "url": "https://news.ycombinator.com/item?id=30233569",
+  "headline": "The future of human behaviour research",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Anon84",
+    "url": "https://news.ycombinator.com/user?id=Anon84"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30233569",
+  "sameAs": "https://www.nature.com/articles/s41562-021-01275-6",
+  "dateCreated": "2022-02-16T11:07:59.507Z",
+  "datePublished": "2022-02-06T15:49:39.000Z",
+  "dateModified": "2022-02-16T11:07:59.507Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "人类行为研究的未来",
+  "headline_zh-Hant": "人類行為研究的未來",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

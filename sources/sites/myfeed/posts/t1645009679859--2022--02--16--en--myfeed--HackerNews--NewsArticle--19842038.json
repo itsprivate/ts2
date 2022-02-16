@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--19842038",
+  "url": "https://news.ycombinator.com/item?id=19842038",
+  "headline": "Health Care as a Right: Freedom Isn't Free",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "stcredzero",
+    "url": "https://news.ycombinator.com/user?id=stcredzero"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=19842038",
+  "sameAs": "http://www.overcomingbias.com/2019/05/freedom-isnt-free.html",
+  "dateCreated": "2022-02-16T11:07:59.859Z",
+  "datePublished": "2019-05-06T18:02:53.000Z",
+  "dateModified": "2022-02-16T11:07:59.859Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "健康护理是一种权利。自由不是免费的",
+  "headline_zh-Hant": "健康護理是一種權利。自由不是免費的",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
