@@ -8,7 +8,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
   - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_andreyazimov
@@ -17,7 +17,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -27,7 +27,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
   - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_dang
@@ -36,7 +36,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
   - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_hubraumhugo
@@ -45,7 +45,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
   - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_tracyhenry
@@ -54,7 +54,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -64,7 +64,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
   - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_tptacek
@@ -73,7 +73,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -83,7 +83,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -93,7 +93,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -103,7 +103,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -113,7 +113,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -123,7 +123,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -133,7 +133,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -143,7 +143,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -153,7 +153,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -163,7 +163,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -173,7 +173,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -183,7 +183,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -193,7 +193,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -203,7 +203,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -213,7 +213,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -223,7 +223,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -233,7 +233,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -243,7 +243,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -253,7 +253,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -263,7 +263,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -273,7 +273,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -283,7 +283,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -293,7 +293,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -303,7 +303,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -313,7 +313,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -323,7 +323,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -333,7 +333,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -343,7 +343,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -353,7 +353,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -363,7 +363,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -373,7 +373,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -383,7 +383,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -393,7 +393,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -403,7 +403,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -413,7 +413,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -423,7 +423,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -433,7 +433,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -443,7 +443,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -453,7 +453,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -463,7 +463,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -473,7 +473,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -483,7 +483,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -493,7 +493,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -503,7 +503,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -513,7 +513,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -523,7 +523,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -533,7 +533,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -543,7 +543,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -553,7 +553,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -563,7 +563,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -573,7 +573,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -583,7 +583,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -593,7 +593,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -603,7 +603,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -613,7 +613,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -623,7 +623,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -633,7 +633,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -643,7 +643,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -653,7 +653,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -663,7 +663,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -673,7 +673,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -683,7 +683,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -693,7 +693,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -703,7 +703,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -713,7 +713,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -723,7 +723,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -733,7 +733,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -743,7 +743,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -753,7 +753,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -763,7 +763,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -773,7 +773,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -783,7 +783,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -793,7 +793,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -803,7 +803,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -813,7 +813,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -823,7 +823,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -833,7 +833,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -843,7 +843,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -853,7 +853,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -863,7 +863,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -873,7 +873,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -883,7 +883,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -893,7 +893,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -903,7 +903,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -913,7 +913,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -923,7 +923,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -933,7 +933,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -943,7 +943,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -953,7 +953,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -963,7 +963,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -973,7 +973,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -983,7 +983,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -993,7 +993,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -1003,7 +1003,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -1013,7 +1013,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -1023,7 +1023,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -1033,7 +1033,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -1043,7 +1043,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -1053,7 +1053,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 
   - use: fetch
     args:
@@ -1063,7 +1063,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
   - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_dieulot
@@ -1072,7 +1072,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
   - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_linuz90
@@ -1081,7 +1081,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
   - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_jsomers
@@ -1090,7 +1090,7 @@ sources:
     key: objectID
     reverse: true
     sleep: 1
-    limit: 5
+    limit: 3
 steps:
   - from: ./format.ts
     args:
