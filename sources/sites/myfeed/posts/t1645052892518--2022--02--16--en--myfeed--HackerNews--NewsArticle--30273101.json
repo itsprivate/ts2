@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30273101",
+  "url": "https://news.ycombinator.com/item?id=30273101",
+  "headline": "GrapheneOS: Private and secure mobile OS with Android app compatibility",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "doener",
+    "url": "https://news.ycombinator.com/user?id=doener"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30273101",
+  "sameAs": "https://grapheneos.org/",
+  "dateCreated": "2022-02-16T23:08:12.518Z",
+  "datePublished": "2022-02-09T14:39:49.000Z",
+  "dateModified": "2022-02-16T23:08:12.518Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "GrapheneOS：具有安卓应用兼容性的私人和安全移动操作系统",
+  "headline_zh-Hant": "GrapheneOS：具有安卓應用兼容性的私人和安全移動操作系統",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
