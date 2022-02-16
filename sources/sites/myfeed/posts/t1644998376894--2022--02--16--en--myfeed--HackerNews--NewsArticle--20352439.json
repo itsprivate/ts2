@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--20352439",
+  "url": "https://news.ycombinator.com/item?id=20352439",
+  "headline": "A better zip bomb",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "masklinn",
+    "url": "https://news.ycombinator.com/user?id=masklinn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=20352439",
+  "sameAs": "https://www.bamsoftware.com/hacks/zipbomb/",
+  "dateCreated": "2022-02-16T07:59:36.894Z",
+  "datePublished": "2019-07-04T07:38:47.000Z",
+  "dateModified": "2022-02-16T07:59:36.894Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 483
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 131
+    }
+  ],
+  "headline_zh-Hans": "一个更好的拉链炸弹",
+  "headline_zh-Hant": "一個更好的拉鍊炸彈",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

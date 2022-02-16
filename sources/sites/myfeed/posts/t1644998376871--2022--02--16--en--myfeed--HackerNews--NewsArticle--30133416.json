@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30133416",
+  "url": "https://news.ycombinator.com/item?id=30133416",
+  "headline": "Quickstart Guides – RimWorld Wiki",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "evo_9",
+    "url": "https://news.ycombinator.com/user?id=evo_9"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30133416",
+  "sameAs": "https://www.rimworldwiki.com/wiki/Quickstart_Guides",
+  "dateCreated": "2022-02-16T07:59:36.871Z",
+  "datePublished": "2022-01-30T02:55:45.000Z",
+  "dateModified": "2022-02-16T07:59:36.871Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "快速入门指南 - RimWorld Wiki",
+  "headline_zh-Hant": "快速入門指南 - RimWorld Wiki",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
