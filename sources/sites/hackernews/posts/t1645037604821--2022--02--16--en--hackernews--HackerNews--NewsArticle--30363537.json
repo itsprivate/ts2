@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--hackernews--HackerNews--NewsArticle--30363537",
+  "url": "https://news.ycombinator.com/item?id=30363537",
+  "headline": "MFA Fatigue Attack Campaign Targeting MS Office 365 Users",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "WaitWaitWha",
+    "url": "https://news.ycombinator.com/user?id=WaitWaitWha"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30363537",
+  "sameAs": "https://www.gosecure.net/blog/2022/02/14/current-mfa-fatigue-attack-campaign-targeting-microsoft-office-365-users/",
+  "dateCreated": "2022-02-16T18:53:24.821Z",
+  "datePublished": "2022-02-16T18:17:07.000Z",
+  "dateModified": "2022-02-16T18:53:24.821Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 25
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 6
+    }
+  ],
+  "headline_zh-Hans": "针对MS Office 365用户的MFA疲劳攻击活动",
+  "headline_zh-Hant": "針對MS Office 365用戶的MFA疲勞攻擊活動",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

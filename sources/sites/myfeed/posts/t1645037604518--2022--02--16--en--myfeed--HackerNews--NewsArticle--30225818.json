@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30225818",
+  "url": "https://news.ycombinator.com/item?id=30225818",
+  "headline": "Help scraping: track changes to CLI tools by recording their –help using Git",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "edward",
+    "url": "https://news.ycombinator.com/user?id=edward"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30225818",
+  "sameAs": "https://simonwillison.net/2022/Feb/2/help-scraping/",
+  "dateCreated": "2022-02-16T18:53:24.518Z",
+  "datePublished": "2022-02-05T20:48:46.000Z",
+  "dateModified": "2022-02-16T18:53:24.518Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "帮助收集：通过使用Git记录CLI工具的帮助来跟踪其变化。",
+  "headline_zh-Hant": "幫助收集：通過使用Git記錄CLI工具的幫助來跟蹤其變化。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--27090051",
+  "url": "https://news.ycombinator.com/item?id=27090051",
+  "headline": "4-year-old boy orders $2,600 worth of SpongeBob popsicles on Amazon",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tyingq",
+    "url": "https://news.ycombinator.com/user?id=tyingq"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=27090051",
+  "sameAs": "https://www.today.com/parents/4-year-old-boy-orders-2-600-spongebob-popsicles-amazon-t217741",
+  "dateCreated": "2022-02-16T18:53:23.932Z",
+  "datePublished": "2021-05-08T19:39:31.000Z",
+  "dateModified": "2022-02-16T18:53:23.932Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "4岁男孩在亚马逊上订购价值2600美元的海绵宝宝冰棒",
+  "headline_zh-Hant": "4歲男孩在亞馬遜上訂購價值2600美元的海綿寶寶冰棒",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

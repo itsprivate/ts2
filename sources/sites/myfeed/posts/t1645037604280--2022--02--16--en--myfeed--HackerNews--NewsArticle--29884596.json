@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--29884596",
+  "url": "https://news.ycombinator.com/item?id=29884596",
+  "headline": "SoK: On the Analysis of Web Browser Security",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pcwalton",
+    "url": "https://news.ycombinator.com/user?id=pcwalton"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29884596",
+  "sameAs": "https://arxiv.org/abs/2112.15561",
+  "dateCreated": "2022-02-16T18:53:24.280Z",
+  "datePublished": "2022-01-10T23:28:19.000Z",
+  "dateModified": "2022-02-16T18:53:24.280Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "SoK: 论网络浏览器的安全分析",
+  "headline_zh-Hant": "SoK: 論網絡瀏覽器的安全分析",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

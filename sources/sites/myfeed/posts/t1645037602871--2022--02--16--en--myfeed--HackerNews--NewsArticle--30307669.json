@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30307669",
+  "url": "https://news.ycombinator.com/item?id=30307669",
+  "headline": "Stuttgart Model Railroad, 800 sqm, built by one individual over 30 years",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jacquesm",
+    "url": "https://news.ycombinator.com/user?id=jacquesm"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30307669",
+  "sameAs": "https://www.youtube.com/watch?v=P5Nb_-q1ArI",
+  "dateCreated": "2022-02-16T18:53:22.871Z",
+  "datePublished": "2022-02-11T22:16:09.000Z",
+  "dateModified": "2022-02-16T18:53:22.871Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "斯图加特模型铁路，800平方米，由一个人在30年内建造。",
+  "headline_zh-Hant": "斯圖加特模型鐵路，800平方米，由一個人在30年內建造。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
