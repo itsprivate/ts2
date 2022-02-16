@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--391238",
+  "url": "https://news.ycombinator.com/item?id=391238",
+  "headline": "Liskov, Reuse, Inheritance, and Roles",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jrockway",
+    "url": "https://news.ycombinator.com/user?id=jrockway"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=391238",
+  "sameAs": "http://blog.jrock.us/articles/Liskov,%20Reuse,%20Inheritance,%20and%20Roles.pod",
+  "dateCreated": "2022-02-16T15:41:07.135Z",
+  "datePublished": "2008-12-09T12:48:56.000Z",
+  "dateModified": "2022-02-16T15:41:07.135Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "利斯科夫，重用，继承，和角色",
+  "headline_zh-Hant": "利斯科夫，重用，繼承，和角色",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
