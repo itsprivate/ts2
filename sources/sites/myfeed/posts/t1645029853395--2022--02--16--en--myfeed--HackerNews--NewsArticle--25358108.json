@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--25358108",
+  "url": "https://news.ycombinator.com/item?id=25358108",
+  "headline": "Show HN: Write-Only Interface for Twitter",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "linuz90",
+    "url": "https://news.ycombinator.com/user?id=linuz90"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=25358108",
+  "sameAs": "https://typefully.app/",
+  "dateCreated": "2022-02-16T16:44:13.395Z",
+  "datePublished": "2020-12-09T13:13:52.000Z",
+  "dateModified": "2022-02-16T16:44:13.395Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 219
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 91
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 推特的只写界面",
+  "headline_zh-Hant": "Show HN: 推特的只寫界面",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
