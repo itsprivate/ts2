@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--29115386",
+  "url": "https://news.ycombinator.com/item?id=29115386",
+  "headline": "The Elements, in Haiku",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "wallflower",
+    "url": "https://news.ycombinator.com/user?id=wallflower"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29115386",
+  "sameAs": "https://vis.sciencemag.org/chemhaiku/",
+  "dateCreated": "2022-02-15T21:36:35.159Z",
+  "datePublished": "2021-11-05T04:16:23.000Z",
+  "dateModified": "2022-02-15T21:36:35.159Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "俳句中的元素",
+  "headline_zh-Hant": "俳句中的元素",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
