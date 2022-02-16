@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--29786725",
+  "url": "https://news.ycombinator.com/item?id=29786725",
+  "headline": "Biggest change to trash since the ’80s. Hint: It’s all about composting",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "edward",
+    "url": "https://news.ycombinator.com/user?id=edward"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29786725",
+  "sameAs": "https://www.sfchronicle.com/projects/2022/california-compost-law-climate-change-effect/",
+  "dateCreated": "2022-02-15T21:36:37.156Z",
+  "datePublished": "2022-01-03T20:54:11.000Z",
+  "dateModified": "2022-02-15T21:36:37.156Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "自80年代以来，垃圾的最大变化。提示：这都是关于堆肥的。",
+  "headline_zh-Hant": "自80年代以來，垃圾的最大變化。提示：這都是關於堆肥的。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

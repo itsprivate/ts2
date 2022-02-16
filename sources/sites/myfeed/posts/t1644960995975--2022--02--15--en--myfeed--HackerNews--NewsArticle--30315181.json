@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--30315181",
+  "url": "https://news.ycombinator.com/item?id=30315181",
+  "headline": "God is not a good (scientific) theory (Sean Carroll) [video]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lisper",
+    "url": "https://news.ycombinator.com/user?id=lisper"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30315181",
+  "sameAs": "https://www.youtube.com/watch?v=ew_cNONhhKI",
+  "dateCreated": "2022-02-15T21:36:35.975Z",
+  "datePublished": "2022-02-12T18:49:09.000Z",
+  "dateModified": "2022-02-15T21:36:35.975Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "上帝不是一个好的（科学）理论（Sean Carroll）[视频］",
+  "headline_zh-Hant": "上帝不是一個好的（科學）理論（Sean Carroll）[視頻］",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

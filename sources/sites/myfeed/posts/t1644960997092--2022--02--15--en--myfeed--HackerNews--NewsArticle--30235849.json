@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--30235849",
+  "url": "https://news.ycombinator.com/item?id=30235849",
+  "headline": "Should you be concerned about a low resting heart rate?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bookofjoe",
+    "url": "https://news.ycombinator.com/user?id=bookofjoe"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30235849",
+  "sameAs": "https://www.washingtonpost.com/health/2022/02/06/what-is-too-low-heart-rate/",
+  "dateCreated": "2022-02-15T21:36:37.092Z",
+  "datePublished": "2022-02-06T19:13:16.000Z",
+  "dateModified": "2022-02-15T21:36:37.092Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "你是否应该关注静息心率过低的问题？",
+  "headline_zh-Hant": "你是否應該關注靜息心率過低的問題？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

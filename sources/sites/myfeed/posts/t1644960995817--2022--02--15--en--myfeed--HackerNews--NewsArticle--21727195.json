@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--21727195",
+  "url": "https://news.ycombinator.com/item?id=21727195",
+  "headline": "“I count at least 5 waves of 3D hype going back to the 1850s”",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "wpietri",
+    "url": "https://news.ycombinator.com/user?id=wpietri"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=21727195",
+  "sameAs": "https://twitter.com/williampietri/status/1203074623232851970",
+  "dateCreated": "2022-02-15T21:36:35.817Z",
+  "datePublished": "2019-12-06T23:37:18.000Z",
+  "dateModified": "2022-02-15T21:36:35.817Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "\"我算过，至少有5波3D炒作可以追溯到19世纪50年代\"",
+  "headline_zh-Hant": "\"我算過，至少有5波3D炒作可以追溯到19世紀50年代\"",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

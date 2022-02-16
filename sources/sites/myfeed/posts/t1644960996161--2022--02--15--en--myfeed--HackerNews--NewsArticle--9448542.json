@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--9448542",
+  "url": "https://news.ycombinator.com/item?id=9448542",
+  "headline": "Capturing the Stars That Light Pollution Has Taken from Us",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Retric",
+    "url": "https://news.ycombinator.com/user?id=Retric"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=9448542",
+  "sameAs": "http://www.wired.com/2015/04/gavin-heffernan-hurun-mehmedinovic-skyglow/",
+  "dateCreated": "2022-02-15T21:36:36.161Z",
+  "datePublished": "2015-04-27T19:19:40.000Z",
+  "dateModified": "2022-02-15T21:36:36.161Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "捕捉被光污染夺走的星星",
+  "headline_zh-Hant": "捕捉被光汙染奪走的星星",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--29039307",
+  "url": "https://news.ycombinator.com/item?id=29039307",
+  "headline": "New Orleans shoeshine man wins legal battle over $30k seized by DEA agents",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ceejayoz",
+    "url": "https://news.ycombinator.com/user?id=ceejayoz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29039307",
+  "sameAs": "https://www.nbcnews.com/news/investigations/new-orleans-shoeshine-man-wins-legal-battle-over-30-000-n1282629",
+  "dateCreated": "2022-02-15T21:36:35.727Z",
+  "datePublished": "2021-10-29T15:03:37.000Z",
+  "dateModified": "2022-02-15T21:36:35.727Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 118
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 71
+    }
+  ],
+  "headline_zh-Hans": "新奥尔良擦鞋匠为被缉毒局特工扣押的3万美元赢得法律斗争",
+  "headline_zh-Hant": "新奧爾良擦鞋匠為被緝毒局特工扣押的3萬美元贏得法律鬥爭",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
