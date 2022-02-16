@@ -7,7 +7,8 @@ sources:
     itemsPath: hits
     key: objectID
     sleep: 1
-    limit: 3  - use: fetch
+    limit: 3
+  - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_andreyazimov
     run: return ctx.result.json();
@@ -22,21 +23,24 @@ sources:
     itemsPath: hits
     key: objectID
     sleep: 1
-    limit: 3  - use: fetch
+    limit: 3
+  - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_dang
     run: return ctx.result.json();
     itemsPath: hits
     key: objectID
     sleep: 1
-    limit: 3  - use: fetch
+    limit: 3
+  - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_hubraumhugo
     run: return ctx.result.json();
     itemsPath: hits
     key: objectID
     sleep: 1
-    limit: 3  - use: fetch
+    limit: 3
+  - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_tracyhenry
     run: return ctx.result.json();
@@ -51,7 +55,8 @@ sources:
     itemsPath: hits
     key: objectID
     sleep: 1
-    limit: 3  - use: fetch
+    limit: 3
+  - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_tptacek
     run: return ctx.result.json();
@@ -850,28 +855,32 @@ sources:
     itemsPath: hits
     key: objectID
     sleep: 1
-    limit: 3  - use: fetch
+    limit: 3
+  - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_dieulot
     run: return ctx.result.json();
     itemsPath: hits
     key: objectID
     sleep: 1
-    limit: 3  - use: fetch
+    limit: 3
+  - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_linuz90
     run: return ctx.result.json();
     itemsPath: hits
     key: objectID
     sleep: 1
-    limit: 3  - use: fetch
+    limit: 3
+  - use: fetch
     args:
       - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_jsomers
     run: return ctx.result.json();
     itemsPath: hits
     key: objectID
     sleep: 1
-    limit: 3steps:
+    limit: 3
+steps:
   - from: ./format.ts
     args:
       - ${{ctx.item}}
