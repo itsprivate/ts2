@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--29786828",
+  "url": "https://news.ycombinator.com/item?id=29786828",
+  "headline": "Challenge HN: Convince an ancient Greek that you are from the future",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lisper",
+    "url": "https://news.ycombinator.com/user?id=lisper"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29786828",
+  "sameAs": "https://news.ycombinator.com/item?id=29786828",
+  "dateCreated": "2022-02-16T10:00:00.232Z",
+  "datePublished": "2022-01-03T21:01:32.000Z",
+  "dateModified": "2022-02-16T10:00:00.232Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 41
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 34
+    }
+  ],
+  "headline_zh-Hans": "挑战HN：让古希腊人相信你来自未来",
+  "headline_zh-Hant": "挑戰HN：讓古希臘人相信你來自未來",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

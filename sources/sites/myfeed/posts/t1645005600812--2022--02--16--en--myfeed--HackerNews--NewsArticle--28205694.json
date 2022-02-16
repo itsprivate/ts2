@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--28205694",
+  "url": "https://news.ycombinator.com/item?id=28205694",
+  "headline": "How WhatsApp enables multi-device capability",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Garbage",
+    "url": "https://news.ycombinator.com/user?id=Garbage"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=28205694",
+  "sameAs": "https://engineering.fb.com/2021/07/14/security/whatsapp-multi-device/",
+  "dateCreated": "2022-02-16T10:00:00.812Z",
+  "datePublished": "2021-08-17T02:59:22.000Z",
+  "dateModified": "2022-02-16T10:00:00.812Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "WhatsApp如何实现多设备功能",
+  "headline_zh-Hant": "WhatsApp如何實現多設備功能",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

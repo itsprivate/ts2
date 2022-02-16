@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--29790047",
+  "url": "https://news.ycombinator.com/item?id=29790047",
+  "headline": "“Digitally unwrapping” Amenhotep I’s mummy shows pharaoh died around age 35",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lisper",
+    "url": "https://news.ycombinator.com/user?id=lisper"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29790047",
+  "sameAs": "https://arstechnica.com/science/2022/01/virtual-unwrapping-lets-us-peek-inside-amenhotep-is-3000-year-old-mummy/",
+  "dateCreated": "2022-02-16T10:00:00.238Z",
+  "datePublished": "2022-01-04T01:42:40.000Z",
+  "dateModified": "2022-02-16T10:00:00.238Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "\"数字化解读 \"阿蒙霍特普一世的木乃伊显示法老在35岁左右死亡",
+  "headline_zh-Hant": "\"數字化解讀 \"阿蒙霍特普一世的木乃伊顯示法老在35歲左右死亡",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

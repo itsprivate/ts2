@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--27408843",
+  "url": "https://news.ycombinator.com/item?id=27408843",
+  "headline": "Yes, You May Need a Blockchain",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cwan",
+    "url": "https://news.ycombinator.com/user?id=cwan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=27408843",
+  "sameAs": "https://balajis.com/yes-you-may-need-a-blockchain/",
+  "dateCreated": "2022-02-16T10:00:00.193Z",
+  "datePublished": "2021-06-05T22:14:31.000Z",
+  "dateModified": "2022-02-16T10:00:00.193Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "是的，你可能需要一个区块链",
+  "headline_zh-Hant": "是的，你可能需要一個區塊鏈",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

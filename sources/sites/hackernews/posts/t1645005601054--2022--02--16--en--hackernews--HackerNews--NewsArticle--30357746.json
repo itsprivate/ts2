@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--hackernews--HackerNews--NewsArticle--30357746",
+  "url": "https://news.ycombinator.com/item?id=30357746",
+  "headline": "Imitate, Then Innovate",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "imartin2k",
+    "url": "https://news.ycombinator.com/user?id=imartin2k"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30357746",
+  "sameAs": "https://perell.com/essay/imitate-then-innovate/",
+  "dateCreated": "2022-02-16T10:00:01.054Z",
+  "datePublished": "2022-02-16T09:00:21.000Z",
+  "dateModified": "2022-02-16T10:00:01.054Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "模仿，然后创新",
+  "headline_zh-Hant": "模仿，然後創新",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
