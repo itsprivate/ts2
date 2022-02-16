@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--hackernews--HackerNews--NewsArticle--30359741",
+  "url": "https://news.ycombinator.com/item?id=30359741",
+  "headline": "I cut the bite of the Apple logo out of my iPhone",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kuuunst",
+    "url": "https://news.ycombinator.com/user?id=kuuunst"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30359741",
+  "sameAs": "https://simonfreund.com/works/apple/",
+  "dateCreated": "2022-02-16T14:30:05.459Z",
+  "datePublished": "2022-02-16T13:38:44.000Z",
+  "dateModified": "2022-02-16T14:30:05.459Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 32
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 25
+    }
+  ],
+  "headline_zh-Hans": "我把苹果标志的咬痕从我的iPhone上剪掉了",
+  "headline_zh-Hant": "我把蘋果標誌的咬痕從我的iPhone上剪掉了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--22336439",
+  "url": "https://news.ycombinator.com/item?id=22336439",
+  "headline": "Escaping the Chrome Sandbox with RIDL",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tptacek",
+    "url": "https://news.ycombinator.com/user?id=tptacek"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=22336439",
+  "sameAs": "https://googleprojectzero.blogspot.com/2020/02/escaping-chrome-sandbox-with-ridl.html",
+  "dateCreated": "2022-02-16T14:30:03.408Z",
+  "datePublished": "2020-02-15T17:10:59.000Z",
+  "dateModified": "2022-02-16T14:30:03.408Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 75
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 31
+    }
+  ],
+  "headline_zh-Hans": "用RIDL逃出Chrome沙盒",
+  "headline_zh-Hant": "用RIDL逃出Chrome沙盒",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

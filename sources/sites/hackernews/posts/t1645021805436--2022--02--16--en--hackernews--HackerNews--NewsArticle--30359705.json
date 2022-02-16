@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--hackernews--HackerNews--NewsArticle--30359705",
+  "url": "https://news.ycombinator.com/item?id=30359705",
+  "headline": "Code specialization for the MIR lightweight JIT compiler",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "compilersfun",
+    "url": "https://news.ycombinator.com/user?id=compilersfun"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30359705",
+  "sameAs": "https://developers.redhat.com/articles/2022/02/16/code-specialization-mir-lightweight-jit-compiler",
+  "dateCreated": "2022-02-16T14:30:05.436Z",
+  "datePublished": "2022-02-16T13:35:21.000Z",
+  "dateModified": "2022-02-16T14:30:05.436Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 14
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "MIR轻量级JIT编译器的代码专用化",
+  "headline_zh-Hant": "MIR輕量級JIT編譯器的代碼專用化",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

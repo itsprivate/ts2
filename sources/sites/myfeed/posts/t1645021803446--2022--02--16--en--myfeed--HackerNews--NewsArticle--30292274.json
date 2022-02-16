@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30292274",
+  "url": "https://news.ycombinator.com/item?id=30292274",
+  "headline": "Pz: CLI operation via Python instead of regular Bash programs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ingve",
+    "url": "https://news.ycombinator.com/user?id=ingve"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30292274",
+  "sameAs": "https://github.com/CZ-NIC/pz",
+  "dateCreated": "2022-02-16T14:30:03.446Z",
+  "datePublished": "2022-02-10T20:48:20.000Z",
+  "dateModified": "2022-02-16T14:30:03.446Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Pz: 通过Python而不是普通的Bash程序进行CLI操作",
+  "headline_zh-Hant": "Pz: 通過Python而不是普通的Bash程序進行CLI操作",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

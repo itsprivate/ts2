@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30075292",
+  "url": "https://news.ycombinator.com/item?id=30075292",
+  "headline": "How the Air Fryer Crisped Its Way into America's Heart",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "edward",
+    "url": "https://news.ycombinator.com/user?id=edward"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30075292",
+  "sameAs": "https://www.nytimes.com/2022/01/25/dining/air-fryer.html",
+  "dateCreated": "2022-02-16T14:30:05.139Z",
+  "datePublished": "2022-01-25T17:57:35.000Z",
+  "dateModified": "2022-02-16T14:30:05.139Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "空气炸锅是如何进入美国人的心里的？",
+  "headline_zh-Hant": "空氣炸鍋是如何進入美國人的心裡的？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

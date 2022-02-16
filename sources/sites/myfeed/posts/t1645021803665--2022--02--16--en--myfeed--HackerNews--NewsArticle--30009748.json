@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30009748",
+  "url": "https://news.ycombinator.com/item?id=30009748",
+  "headline": "Russia’s central bank proposes ban on crypto trading and mining",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "JumpCrisscross",
+    "url": "https://news.ycombinator.com/user?id=JumpCrisscross"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30009748",
+  "sameAs": "https://www.ft.com/content/54433e18-7442-4804-9fec-f0f934bf8b4e",
+  "dateCreated": "2022-02-16T14:30:03.665Z",
+  "datePublished": "2022-01-20T15:05:37.000Z",
+  "dateModified": "2022-02-16T14:30:03.665Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "俄罗斯央行提议禁止加密货币交易和挖矿",
+  "headline_zh-Hant": "俄羅斯央行提議禁止加密貨幣交易和挖礦",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

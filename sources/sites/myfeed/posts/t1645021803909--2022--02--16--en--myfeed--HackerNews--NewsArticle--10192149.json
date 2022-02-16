@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--10192149",
+  "url": "https://news.ycombinator.com/item?id=10192149",
+  "headline": "A message to the aliens, part 7/23 (mass)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jerf",
+    "url": "https://news.ycombinator.com/user?id=jerf"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=10192149",
+  "sameAs": "http://blog.plover.com/2015/09/09/#p07",
+  "dateCreated": "2022-02-16T14:30:03.909Z",
+  "datePublished": "2015-09-09T15:50:33.000Z",
+  "dateModified": "2022-02-16T14:30:03.909Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "给外星人的信息，第7/23部分（大量）。",
+  "headline_zh-Hant": "給外星人的信息，第7/23部分（大量）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
