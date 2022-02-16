@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--15433766",
+  "url": "https://news.ycombinator.com/item?id=15433766",
+  "headline": "Dear Silicon Valley: America’s fallen out of love with you",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "edw519",
+    "url": "https://news.ycombinator.com/user?id=edw519"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=15433766",
+  "sameAs": "https://www.yahoo.com/finance/news/dear-silicon-valley-america-fallen-193053316.html",
+  "dateCreated": "2022-02-16T16:44:12.072Z",
+  "datePublished": "2017-10-09T13:53:13.000Z",
+  "dateModified": "2022-02-16T16:44:12.072Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "亲爱的硅谷。美国已经不爱你了",
+  "headline_zh-Hant": "親愛的硅谷。美國已經不愛你了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

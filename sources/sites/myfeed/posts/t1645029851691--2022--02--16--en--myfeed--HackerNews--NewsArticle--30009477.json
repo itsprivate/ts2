@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30009477",
+  "url": "https://news.ycombinator.com/item?id=30009477",
+  "headline": "GSA/govt-URLs: Public U.S. government managed domains outside of .gov and .mil",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "danso",
+    "url": "https://news.ycombinator.com/user?id=danso"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30009477",
+  "sameAs": "https://github.com/GSA/govt-urls",
+  "dateCreated": "2022-02-16T16:44:11.691Z",
+  "datePublished": "2022-01-20T14:43:58.000Z",
+  "dateModified": "2022-02-16T16:44:11.691Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "GSA/govt-URLs。.gov和.mil之外的美国政府公共管理域名",
+  "headline_zh-Hant": "GSA/govt-URLs。.gov和.mil之外的美國政府公共管理域名",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
