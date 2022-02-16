@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--30305817",
+  "url": "https://news.ycombinator.com/item?id=30305817",
+  "headline": "A man who got fired by his DAO",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bpierre",
+    "url": "https://news.ycombinator.com/user?id=bpierre"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30305817",
+  "sameAs": "https://www.theverge.com/22928769/web3-ethereum-name-service-ens-tokens-voting-dao",
+  "dateCreated": "2022-02-15T21:36:36.227Z",
+  "datePublished": "2022-02-11T19:18:38.000Z",
+  "dateModified": "2022-02-15T21:36:36.227Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一个被他的DAO解雇的人",
+  "headline_zh-Hant": "一個被他的DAO解僱的人",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

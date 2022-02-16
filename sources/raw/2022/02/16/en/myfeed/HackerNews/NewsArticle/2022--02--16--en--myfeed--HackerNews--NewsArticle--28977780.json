@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--28977780",
+  "url": "https://news.ycombinator.com/item?id=28977780",
+  "headline": "The most used software components in the world",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Garbage",
+    "url": "https://news.ycombinator.com/user?id=Garbage"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=28977780",
+  "sameAs": "https://daniel.haxx.se/blog/2021/10/21/the-most-used-software-components-in-the-world/",
+  "dateCreated": "2022-02-15T21:36:37.277Z",
+  "datePublished": "2021-10-24T13:39:34.000Z",
+  "dateModified": "2022-02-15T21:36:37.277Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "世界上使用最多的软件组件",
+  "headline_zh-Hant": "世界上使用最多的軟件組件",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
