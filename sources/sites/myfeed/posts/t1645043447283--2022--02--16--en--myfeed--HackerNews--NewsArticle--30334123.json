@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30334123",
+  "url": "https://news.ycombinator.com/item?id=30334123",
+  "headline": "HMRC seizes NFT for first time in £1.4m fraud case",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ColinWright",
+    "url": "https://news.ycombinator.com/user?id=ColinWright"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30334123",
+  "sameAs": "https://www.bbc.co.uk/news/business-60369879",
+  "dateCreated": "2022-02-16T20:30:47.283Z",
+  "datePublished": "2022-02-14T16:42:33.000Z",
+  "dateModified": "2022-02-16T20:30:47.283Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "HMRC在140万英镑的欺诈案中首次查封NFT",
+  "headline_zh-Hant": "HMRC在140萬英鎊的欺詐案中首次查封NFT",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
