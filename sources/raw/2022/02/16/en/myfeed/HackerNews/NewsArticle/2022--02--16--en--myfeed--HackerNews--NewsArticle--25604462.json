@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--25604462",
+  "url": "https://news.ycombinator.com/item?id=25604462",
+  "headline": "How Graphviz thinks the USA is laid out",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pavel_lishin",
+    "url": "https://news.ycombinator.com/user?id=pavel_lishin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=25604462",
+  "sameAs": "https://shitpost.plover.com/g/graphviz-usa.html",
+  "dateCreated": "2022-02-15T21:36:36.423Z",
+  "datePublished": "2021-01-01T16:43:32.000Z",
+  "dateModified": "2022-02-15T21:36:36.423Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 23
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "Graphviz认为美国是如何布局的",
+  "headline_zh-Hant": "Graphviz認為美國是如何佈局的",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

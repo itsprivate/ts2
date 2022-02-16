@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--27436459",
+  "url": "https://news.ycombinator.com/item?id=27436459",
+  "headline": "The Sad End of Jack Ma Inc",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cwan",
+    "url": "https://news.ycombinator.com/user?id=cwan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=27436459",
+  "sameAs": "https://www.forbes.com/sites/georgecalhoun/2021/06/07/the-sad-end-of-jack-ma-inc/",
+  "dateCreated": "2022-02-15T21:36:35.786Z",
+  "datePublished": "2021-06-08T15:27:59.000Z",
+  "dateModified": "2022-02-15T21:36:35.786Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "马云公司的悲惨结局",
+  "headline_zh-Hant": "馬雲公司的悲慘結局",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

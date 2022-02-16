@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--11227176",
+  "url": "https://news.ycombinator.com/item?id=11227176",
+  "headline": "Data Is a Toxic Asset",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "_delirium",
+    "url": "https://news.ycombinator.com/user?id=_delirium"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=11227176",
+  "sameAs": "https://www.schneier.com/blog/archives/2016/03/data_is_a_toxic.html",
+  "dateCreated": "2022-02-15T21:36:36.371Z",
+  "datePublished": "2016-03-04T22:02:56.000Z",
+  "dateModified": "2022-02-15T21:36:36.371Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "数据是一种有毒的资产",
+  "headline_zh-Hant": "數據是一種有毒的資產",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

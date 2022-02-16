@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--29633918",
+  "url": "https://news.ycombinator.com/item?id=29633918",
+  "headline": "Death by Coconut",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "brudgers",
+    "url": "https://news.ycombinator.com/user?id=brudgers"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29633918",
+  "sameAs": "https://en.wikipedia.org/wiki/Death_by_coconut",
+  "dateCreated": "2022-02-15T21:36:36.178Z",
+  "datePublished": "2021-12-21T04:34:22.000Z",
+  "dateModified": "2022-02-15T21:36:36.178Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 107
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 80
+    }
+  ],
+  "headline_zh-Hans": "椰子之死",
+  "headline_zh-Hant": "椰子之死",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
