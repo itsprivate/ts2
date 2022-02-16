@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--28199994",
+  "url": "https://news.ycombinator.com/item?id=28199994",
+  "headline": "EC2 Boot Time Benchmarking",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cperciva",
+    "url": "https://news.ycombinator.com/user?id=cperciva"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=28199994",
+  "sameAs": "https://www.daemonology.net/blog/2021-08-12-EC2-boot-time-benchmarking.html",
+  "dateCreated": "2022-02-16T18:53:23.580Z",
+  "datePublished": "2021-08-16T16:38:16.000Z",
+  "dateModified": "2022-02-16T18:53:23.580Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 108
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 57
+    }
+  ],
+  "headline_zh-Hans": "EC2启动时间基准测试",
+  "headline_zh-Hant": "EC2啟動時間基準測試",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

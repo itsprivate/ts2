@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30358218",
+  "url": "https://news.ycombinator.com/item?id=30358218",
+  "headline": "History of Women in Computing: GNU Girls",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rbanffy",
+    "url": "https://news.ycombinator.com/user?id=rbanffy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30358218",
+  "sameAs": "https://www.lpi.org/blog/2022/02/09/history-women-computing-gnu-girls",
+  "dateCreated": "2022-02-16T18:53:22.940Z",
+  "datePublished": "2022-02-16T10:16:29.000Z",
+  "dateModified": "2022-02-16T18:53:22.940Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "计算机领域女性的历史。GNU女孩",
+  "headline_zh-Hant": "計算機領域女性的歷史。GNU女孩",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--23203347",
+  "url": "https://news.ycombinator.com/item?id=23203347",
+  "headline": "Show HN: Hacker News Dark Mode",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "bbx",
+    "url": "https://news.ycombinator.com/user?id=bbx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=23203347",
+  "sameAs": "https://jgthms.com/hacker-news-dark-mode/",
+  "dateCreated": "2022-02-16T18:53:22.746Z",
+  "datePublished": "2020-05-16T13:50:09.000Z",
+  "dateModified": "2022-02-16T18:53:22.746Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 119
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 57
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 黑客新闻黑暗模式",
+  "headline_zh-Hant": "Show HN: 黑客新聞黑暗模式",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

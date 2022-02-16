@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--29287401",
+  "url": "https://news.ycombinator.com/item?id=29287401",
+  "headline": "What's the Frequency, Kenneth? (F#)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "DanielBMarkham",
+    "url": "https://news.ycombinator.com/user?id=DanielBMarkham"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29287401",
+  "sameAs": "https://danielbmarkham.com/whats-the-frequency-kenneth-f/",
+  "dateCreated": "2022-02-16T18:53:24.145Z",
+  "datePublished": "2021-11-20T12:11:40.000Z",
+  "dateModified": "2022-02-16T18:53:24.145Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "频率是多少，肯尼斯？(F#)",
+  "headline_zh-Hant": "頻率是多少，肯尼斯？(F#)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
