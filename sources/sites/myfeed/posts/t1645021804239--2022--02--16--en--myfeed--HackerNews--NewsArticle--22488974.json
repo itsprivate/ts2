@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--22488974",
+  "url": "https://news.ycombinator.com/item?id=22488974",
+  "headline": "Post Mortem: Unavailability of Good Work-from-Home Coffee",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cperciva",
+    "url": "https://news.ycombinator.com/user?id=cperciva"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=22488974",
+  "sameAs": "https://blog.qxnitro.org/2020/03/post-mortem-unavailability-of-good-work.html",
+  "dateCreated": "2022-02-16T14:30:04.239Z",
+  "datePublished": "2020-03-04T22:43:43.000Z",
+  "dateModified": "2022-02-16T14:30:04.239Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "亡羊补牢。无法获得良好的在家工作的咖啡",
+  "headline_zh-Hant": "亡羊補牢。無法獲得良好的在家工作的咖啡",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
