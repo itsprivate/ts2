@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--7306476",
+  "url": "https://news.ycombinator.com/item?id=7306476",
+  "headline": "Some things can’t be wireframed",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dieulot",
+    "url": "https://news.ycombinator.com/user?id=dieulot"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=7306476",
+  "sameAs": "http://insideintercom.io/things-cant-wireframed/",
+  "dateCreated": "2022-02-16T05:09:11.449Z",
+  "datePublished": "2014-02-26T18:08:22.000Z",
+  "dateModified": "2022-02-16T05:09:11.449Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 42
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 18
+    }
+  ],
+  "headline_zh-Hans": "有些东西是不能用线框来表示的",
+  "headline_zh-Hant": "有些東西是不能用線框來表示的",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

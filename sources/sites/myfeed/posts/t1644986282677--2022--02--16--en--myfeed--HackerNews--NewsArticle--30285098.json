@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30285098",
+  "url": "https://news.ycombinator.com/item?id=30285098",
+  "headline": ".NET Rocks: Twenty Years of C# with Anders Hejlsberg",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pjmlp",
+    "url": "https://news.ycombinator.com/user?id=pjmlp"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30285098",
+  "sameAs": "https://www.dotnetrocks.com/?show=1780",
+  "dateCreated": "2022-02-16T04:38:02.677Z",
+  "datePublished": "2022-02-10T12:14:44.000Z",
+  "dateModified": "2022-02-16T04:38:02.677Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": ".NET摇滚。与Anders Hejlsberg合作的C#的20年",
+  "headline_zh-Hant": ".NET搖滾。與Anders Hejlsberg合作的C#的20年",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

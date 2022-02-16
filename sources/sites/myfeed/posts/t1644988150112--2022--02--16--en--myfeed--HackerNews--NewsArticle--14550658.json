@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--14550658",
+  "url": "https://news.ycombinator.com/item?id=14550658",
+  "headline": "Oil changes, safety recalls, and software updates",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cperciva",
+    "url": "https://news.ycombinator.com/user?id=cperciva"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=14550658",
+  "sameAs": "http://www.daemonology.net/blog/2017-06-14-oil-changes-safety-recalls-software-patches.html",
+  "dateCreated": "2022-02-16T05:09:10.112Z",
+  "datePublished": "2017-06-14T04:32:37.000Z",
+  "dateModified": "2022-02-16T05:09:10.112Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 65
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 59
+    }
+  ],
+  "headline_zh-Hans": "换油、安全召回和软件更新",
+  "headline_zh-Hant": "換油、安全召回和軟件更新",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

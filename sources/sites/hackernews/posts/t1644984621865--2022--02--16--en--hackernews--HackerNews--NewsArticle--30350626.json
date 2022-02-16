@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--hackernews--HackerNews--NewsArticle--30350626",
+  "url": "https://news.ycombinator.com/item?id=30350626",
+  "headline": "Never use text pixelation to redact sensitive information",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "feross",
+    "url": "https://news.ycombinator.com/user?id=feross"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30350626",
+  "sameAs": "https://bishopfox.com/blog/unredacter-tool-never-pixelation",
+  "dateCreated": "2022-02-16T04:10:21.865Z",
+  "datePublished": "2022-02-15T18:31:13.000Z",
+  "dateModified": "2022-02-16T04:10:21.865Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 87
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 33
+    }
+  ],
+  "headline_zh-Hans": "切勿使用文本像素化来编辑敏感信息",
+  "headline_zh-Hant": "切勿使用文本像素化來編輯敏感信息",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

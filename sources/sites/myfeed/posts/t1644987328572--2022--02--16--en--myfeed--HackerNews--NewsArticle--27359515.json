@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--27359515",
+  "url": "https://news.ycombinator.com/item?id=27359515",
+  "headline": "One-Fifth of U.S. Beef Capacity Wiped Out by JBS Cyberattack",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "davidw",
+    "url": "https://news.ycombinator.com/user?id=davidw"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=27359515",
+  "sameAs": "https://www.bloomberg.com/news/articles/2021-05-31/meat-is-latest-cyber-victim-as-hackers-hit-top-supplier-jbs",
+  "dateCreated": "2022-02-16T04:55:28.572Z",
+  "datePublished": "2021-06-01T18:53:48.000Z",
+  "dateModified": "2022-02-16T04:55:28.572Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 283
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 371
+    }
+  ],
+  "headline_zh-Hans": "美国五分之一的牛肉产能因JBS网络攻击而被消灭",
+  "headline_zh-Hant": "美國五分之一的牛肉產能因JBS網絡攻擊而被消滅",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

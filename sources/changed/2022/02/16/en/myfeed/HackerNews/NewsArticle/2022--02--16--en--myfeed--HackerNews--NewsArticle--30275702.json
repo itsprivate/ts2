@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30275702",
+  "url": "https://news.ycombinator.com/item?id=30275702",
+  "headline": "Apps commandeered the age-old idea of takeout",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "prostoalex",
+    "url": "https://news.ycombinator.com/user?id=prostoalex"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30275702",
+  "sameAs": "https://www.wired.com/story/delivery-apps-age-old-idea-takeout/",
+  "dateCreated": "2022-02-16T04:55:27.767Z",
+  "datePublished": "2022-02-09T17:53:51.000Z",
+  "dateModified": "2022-02-16T04:55:27.767Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 34
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 57
+    }
+  ],
+  "headline_zh-Hans": "应用程序抢占了古老的外卖理念",
+  "headline_zh-Hant": "應用程序搶佔了古老的外賣理念",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

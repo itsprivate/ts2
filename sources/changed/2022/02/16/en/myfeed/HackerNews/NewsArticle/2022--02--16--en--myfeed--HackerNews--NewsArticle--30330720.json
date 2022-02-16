@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30330720",
+  "url": "https://news.ycombinator.com/item?id=30330720",
+  "headline": "iOS Text Replacement Missing after iOS 15 Update (2021)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "walterbell",
+    "url": "https://news.ycombinator.com/user?id=walterbell"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30330720",
+  "sameAs": "https://discussions.apple.com/thread/253163462",
+  "dateCreated": "2022-02-16T04:55:28.522Z",
+  "datePublished": "2022-02-14T11:23:04.000Z",
+  "dateModified": "2022-02-16T04:55:28.522Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "iOS 15更新后，iOS文本替换缺失（2021）。",
+  "headline_zh-Hant": "iOS 15更新後，iOS文本替換缺失（2021）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

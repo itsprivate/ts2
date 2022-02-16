@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30341880",
+  "url": "https://news.ycombinator.com/item?id=30341880",
+  "headline": "UC Berkeley may be forced by court to cut 3k undergrads, freeze enrollment",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jseliger",
+    "url": "https://news.ycombinator.com/user?id=jseliger"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30341880",
+  "sameAs": "https://www.latimes.com/california/story/2022-02-14/uc-berkeley-may-be-forced-to-cut-3-000-freshman-seats-under-court-order-to-halt-growth",
+  "dateCreated": "2022-02-16T04:55:28.332Z",
+  "datePublished": "2022-02-15T02:26:30.000Z",
+  "dateModified": "2022-02-16T04:55:28.332Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "加州大学伯克利分校可能被法院强制削减3千名本科生，冻结招生人数",
+  "headline_zh-Hant": "加州大學伯克利分校可能被法院強制削減3千名本科生，凍結招生人數",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

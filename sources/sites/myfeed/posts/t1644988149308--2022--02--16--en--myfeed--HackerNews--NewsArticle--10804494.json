@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--10804494",
+  "url": "https://news.ycombinator.com/item?id=10804494",
+  "headline": "China 'social credit': Beijing sets up huge system",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dragonwriter",
+    "url": "https://news.ycombinator.com/user?id=dragonwriter"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=10804494",
+  "sameAs": "http://www.bbc.com/news/world-asia-china-34592186",
+  "dateCreated": "2022-02-16T05:09:09.308Z",
+  "datePublished": "2015-12-29T01:04:56.000Z",
+  "dateModified": "2022-02-16T05:09:09.308Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "中国 \"社会信用\"：北京建立了庞大的系统",
+  "headline_zh-Hant": "中國 \"社會信用\"：北京建立了龐大的系統",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
