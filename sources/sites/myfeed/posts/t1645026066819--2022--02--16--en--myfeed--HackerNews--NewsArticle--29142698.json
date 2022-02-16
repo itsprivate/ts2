@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--29142698",
+  "url": "https://news.ycombinator.com/item?id=29142698",
+  "headline": "The Bongcloud Attack",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "luu",
+    "url": "https://news.ycombinator.com/user?id=luu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29142698",
+  "sameAs": "https://www.chess.com/blog/ThummimS/the-bongcloud-attack",
+  "dateCreated": "2022-02-16T15:41:06.819Z",
+  "datePublished": "2021-11-07T19:37:26.000Z",
+  "dateModified": "2022-02-16T15:41:06.819Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 144
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 54
+    }
+  ],
+  "headline_zh-Hans": "邦克云攻击",
+  "headline_zh-Hant": "邦克雲攻擊",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
