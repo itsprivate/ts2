@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--11254888",
+  "url": "https://news.ycombinator.com/item?id=11254888",
+  "headline": "Google says it won’t Google jurors in upcoming Oracle API copyright trial",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rayiner",
+    "url": "https://news.ycombinator.com/user?id=rayiner"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=11254888",
+  "sameAs": "http://arstechnica.com/tech-policy/2016/03/google-says-it-wont-google-jurors-in-upcoming-oracle-api-copyright-trial/",
+  "dateCreated": "2022-02-16T05:09:09.144Z",
+  "datePublished": "2016-03-09T18:51:35.000Z",
+  "dateModified": "2022-02-16T05:09:09.144Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "谷歌称不会在即将到来的甲骨文API版权审判中谷歌陪审员",
+  "headline_zh-Hant": "谷歌稱不會在即將到來的甲骨文API版權審判中谷歌陪審員",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

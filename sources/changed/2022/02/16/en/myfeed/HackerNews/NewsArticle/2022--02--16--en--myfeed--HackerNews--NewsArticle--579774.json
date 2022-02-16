@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--579774",
+  "url": "https://news.ycombinator.com/item?id=579774",
+  "headline": "Multimethods (and other syntactic fun) in Perl",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jrockway",
+    "url": "https://news.ycombinator.com/user?id=jrockway"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=579774",
+  "sameAs": "http://blog.jrock.us/articles/Multimethods.pod",
+  "dateCreated": "2022-02-16T05:09:09.859Z",
+  "datePublished": "2009-04-26T07:51:20.000Z",
+  "dateModified": "2022-02-16T05:09:09.859Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 16
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Perl中的多方法（以及其他语法上的乐趣",
+  "headline_zh-Hant": "Perl中的多方法（以及其他語法上的樂趣",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

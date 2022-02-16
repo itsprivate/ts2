@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--21627714",
+  "url": "https://news.ycombinator.com/item?id=21627714",
+  "headline": "Show HN: I made a no-bullshit image host",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "stavros",
+    "url": "https://news.ycombinator.com/user?id=stavros"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=21627714",
+  "sameAs": "https://imgz.org/",
+  "dateCreated": "2022-02-16T05:09:10.222Z",
+  "datePublished": "2019-11-25T12:58:33.000Z",
+  "dateModified": "2022-02-16T05:09:10.222Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 248
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 247
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我做了一个没有废话的图像主机",
+  "headline_zh-Hant": "Show HN: 我做了一個沒有廢話的圖像主機",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

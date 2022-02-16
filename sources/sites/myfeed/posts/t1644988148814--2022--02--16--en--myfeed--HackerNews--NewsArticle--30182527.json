@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30182527",
+  "url": "https://news.ycombinator.com/item?id=30182527",
+  "headline": "FBI urges temporary phones for Olympic athletes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hubraumhugo",
+    "url": "https://news.ycombinator.com/user?id=hubraumhugo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30182527",
+  "sameAs": "https://www.bbc.com/news/technology-60215250",
+  "dateCreated": "2022-02-16T05:09:08.814Z",
+  "datePublished": "2022-02-02T19:16:23.000Z",
+  "dateModified": "2022-02-16T05:09:08.814Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 15
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "联邦调查局敦促为奥运会运动员提供临时电话",
+  "headline_zh-Hant": "聯邦調查局敦促為奧運會運動員提供臨時電話",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

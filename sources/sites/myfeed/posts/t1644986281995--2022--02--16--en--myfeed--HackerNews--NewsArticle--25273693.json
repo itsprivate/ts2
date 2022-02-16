@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--25273693",
+  "url": "https://news.ycombinator.com/item?id=25273693",
+  "headline": "This little web app lets you connect with people nearby you",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vasanthv",
+    "url": "https://news.ycombinator.com/user?id=vasanthv"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=25273693",
+  "sameAs": "https://whistly.co",
+  "dateCreated": "2022-02-16T04:38:01.995Z",
+  "datePublished": "2020-12-02T06:07:11.000Z",
+  "dateModified": "2022-02-16T04:38:01.995Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "这个小小的网络应用可以让你与附近的人建立联系",
+  "headline_zh-Hant": "這個小小的網絡應用可以讓你與附近的人建立聯繫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

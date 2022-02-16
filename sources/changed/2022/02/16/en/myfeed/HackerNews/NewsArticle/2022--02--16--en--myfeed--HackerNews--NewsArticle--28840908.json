@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--28840908",
+  "url": "https://news.ycombinator.com/item?id=28840908",
+  "headline": "UK completes over one million SARS-CoV-2 whole genome sequences",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "DanBC",
+    "url": "https://news.ycombinator.com/user?id=DanBC"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=28840908",
+  "sameAs": "https://www.gov.uk/government/news/uk-completes-over-one-million-sars-cov-2-whole-genome-sequences",
+  "dateCreated": "2022-02-16T05:17:59.398Z",
+  "datePublished": "2021-10-12T15:27:36.000Z",
+  "dateModified": "2022-02-16T05:17:59.398Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "英国完成了超过100万个SARS-CoV-2全基因组测序",
+  "headline_zh-Hant": "英國完成了超過100萬個SARS-CoV-2全基因組測序",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
