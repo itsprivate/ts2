@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--12874846",
+  "url": "https://news.ycombinator.com/item?id=12874846",
+  "headline": "Fixing Pay to Win",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "stcredzero",
+    "url": "https://news.ycombinator.com/user?id=stcredzero"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=12874846",
+  "sameAs": "http://www.emergencevector.com/blog/2015/6/10/fixing-pay-to-win",
+  "dateCreated": "2022-02-16T10:00:00.767Z",
+  "datePublished": "2016-11-04T18:39:45.000Z",
+  "dateModified": "2022-02-16T10:00:00.767Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "修正 \"赢钱 \"的问题",
+  "headline_zh-Hant": "修正 \"贏錢 \"的問題",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
