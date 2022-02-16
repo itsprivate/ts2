@@ -12,7 +12,7 @@ on:
 jobs:
   denoflow:
     runs-on: ubuntu-latest
-    concurrency: denoflow
+    concurrency: build-ask-show
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
