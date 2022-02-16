@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--22435818",
+  "url": "https://news.ycombinator.com/item?id=22435818",
+  "headline": "Bayes’ Rule, Decision Making, and Containing Covid-19 with Unreliable Tests",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "btilly",
+    "url": "https://news.ycombinator.com/user?id=btilly"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=22435818",
+  "sameAs": "https://towardsdatascience.com/statistics-and-unreliable-tests-coronavirus-is-difficult-to-contain-e113b5c0967c",
+  "dateCreated": "2022-02-16T07:59:37.206Z",
+  "datePublished": "2020-02-27T18:00:48.000Z",
+  "dateModified": "2022-02-16T07:59:37.206Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "贝叶斯法则、决策和含有不可靠的测试的Covid-19",
+  "headline_zh-Hant": "貝葉斯法則、決策和含有不可靠的測試的Covid-19",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30270994",
+  "url": "https://news.ycombinator.com/item?id=30270994",
+  "headline": "Lessons from Learning Ada in 2021",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pjmlp",
+    "url": "https://news.ycombinator.com/user?id=pjmlp"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30270994",
+  "sameAs": "https://fosdem.org/2022/schedule/event/ada_outsiders_guide/",
+  "dateCreated": "2022-02-16T07:59:36.312Z",
+  "datePublished": "2022-02-09T10:12:30.000Z",
+  "dateModified": "2022-02-16T07:59:36.312Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 94
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 73
+    }
+  ],
+  "headline_zh-Hans": "2021年学习Ada的教训",
+  "headline_zh-Hant": "2021年學習Ada的教訓",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

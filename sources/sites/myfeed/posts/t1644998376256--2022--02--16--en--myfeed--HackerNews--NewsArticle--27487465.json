@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--27487465",
+  "url": "https://news.ycombinator.com/item?id=27487465",
+  "headline": "A few thoughts on Fuchsia security",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "steveklabnik",
+    "url": "https://news.ycombinator.com/user?id=steveklabnik"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=27487465",
+  "sameAs": "https://blog.cr0.org/2021/06/a-few-thoughts-on-fuchsia-security.html",
+  "dateCreated": "2022-02-16T07:59:36.256Z",
+  "datePublished": "2021-06-12T21:11:49.000Z",
+  "dateModified": "2022-02-16T07:59:36.256Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 176
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 125
+    }
+  ],
+  "headline_zh-Hans": "关于福州安全的几点思考",
+  "headline_zh-Hant": "關於福州安全的幾點思考",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

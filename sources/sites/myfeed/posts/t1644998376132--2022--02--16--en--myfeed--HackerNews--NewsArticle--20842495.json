@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--20842495",
+  "url": "https://news.ycombinator.com/item?id=20842495",
+  "headline": "Why Housing Is So Expensive",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rayiner",
+    "url": "https://news.ycombinator.com/user?id=rayiner"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=20842495",
+  "sameAs": "https://www.nationalreview.com/2019/08/heres-why-housing-is-so-expensive/",
+  "dateCreated": "2022-02-16T07:59:36.132Z",
+  "datePublished": "2019-08-30T20:41:19.000Z",
+  "dateModified": "2022-02-16T07:59:36.132Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "为什么住房如此昂贵",
+  "headline_zh-Hant": "為什麼住房如此昂貴",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
