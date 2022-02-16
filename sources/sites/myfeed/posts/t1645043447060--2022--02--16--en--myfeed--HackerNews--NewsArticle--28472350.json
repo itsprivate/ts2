@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--28472350",
+  "url": "https://news.ycombinator.com/item?id=28472350",
+  "headline": "Tell HN: Thanks to thehodge and littlewarden.com, this site is up today",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dang",
+    "url": "https://news.ycombinator.com/user?id=dang"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=28472350",
+  "sameAs": "https://news.ycombinator.com/item?id=28472350",
+  "dateCreated": "2022-02-16T20:30:47.060Z",
+  "datePublished": "2021-09-09T17:35:45.000Z",
+  "dateModified": "2022-02-16T20:30:47.060Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1314
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 78
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：感谢thehodge和littlewarden.com，这个网站今天起来了。",
+  "headline_zh-Hant": "告訴HN：感謝thehodge和littlewarden.com，這個網站今天起來了。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

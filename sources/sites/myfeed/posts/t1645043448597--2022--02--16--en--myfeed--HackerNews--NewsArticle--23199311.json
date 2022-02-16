@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--23199311",
+  "url": "https://news.ycombinator.com/item?id=23199311",
+  "headline": "The World is not Object Oriented (2004)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "btilly",
+    "url": "https://news.ycombinator.com/user?id=btilly"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=23199311",
+  "sameAs": "https://www.perlmonks.org/?node_id=318257",
+  "dateCreated": "2022-02-16T20:30:48.597Z",
+  "datePublished": "2020-05-16T00:45:43.000Z",
+  "dateModified": "2022-02-16T20:30:48.597Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "世界不是面向对象的 (2004)",
+  "headline_zh-Hant": "世界不是面向對象的 (2004)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30335418",
+  "url": "https://news.ycombinator.com/item?id=30335418",
+  "headline": "Adaptively Exploiting D-Separators with Causal Bandits",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Anon84",
+    "url": "https://news.ycombinator.com/user?id=Anon84"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30335418",
+  "sameAs": "https://arxiv.org/abs/2202.05100",
+  "dateCreated": "2022-02-16T21:08:07.513Z",
+  "datePublished": "2022-02-14T17:59:40.000Z",
+  "dateModified": "2022-02-16T21:08:07.513Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "自适应地利用D-分离器的因果强盗行为",
+  "headline_zh-Hant": "自適應地利用D-分離器的因果強盜行為",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
