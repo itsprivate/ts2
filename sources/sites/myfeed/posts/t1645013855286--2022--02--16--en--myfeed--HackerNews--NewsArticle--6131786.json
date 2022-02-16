@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--6131786",
+  "url": "https://news.ycombinator.com/item?id=6131786",
+  "headline": "Everybody thinks about garbage collection the wrong way (2010)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "derefr",
+    "url": "https://news.ycombinator.com/user?id=derefr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=6131786",
+  "sameAs": "http://blogs.msdn.com/b/oldnewthing/archive/2010/08/09/10047586.aspx",
+  "dateCreated": "2022-02-16T12:17:35.286Z",
+  "datePublished": "2013-07-31T03:45:34.000Z",
+  "dateModified": "2022-02-16T12:17:35.286Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 69
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 43
+    }
+  ],
+  "headline_zh-Hans": "每个人对垃圾收集的思考都是错误的 (2010)",
+  "headline_zh-Hant": "每個人對垃圾收集的思考都是錯誤的 (2010)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
