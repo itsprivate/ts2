@@ -21,7 +21,8 @@ import {
 } from "https://cdn.skypack.dev/jsonld?dts";
 import zhToHant from "./zh-to-hant.ts";
 const homepage = "https://www.deepl.com/translator";
-const isDev = Deno.env.get("ENV") === "dev";
+// const isDev = Deno.env.get("ENV") === "dev";
+const isDev = false;
 export default async function (files: string[]) {
   const results: boolean[] = [];
   let browser: Browser | null = null;
@@ -30,7 +31,7 @@ export default async function (files: string[]) {
     if (browser) return browser;
     browser = await puppeteer.launch({
       devtools: false,
-      headless: !isDev,
+      headless: false, // !isDev,
       defaultViewport: { width: 1370, height: 1200 },
       args: ["--lang=zh-Hans,zh", "--disable-gpu"],
     });
@@ -183,6 +184,7 @@ export async function translateItem(item: NodeObject, page: Page | null) {
           }
           (context as Record<string, number>)["@version"] = 1.1;
           item["@context"] = ["https://schema.org", context];
+          console.log("context", context);
         } else {
           console.error("translated error", translated);
           item["@context"] = ["https://schema.org", context];
@@ -191,11 +193,18 @@ export async function translateItem(item: NodeObject, page: Page | null) {
           // throw new Error(translated.result);
         }
       } else {
-        console.log(
-          "translated result exists, skip",
-          translatedKey,
-          translatedTargetKey
-        );
+        if (translatedValue) {
+          console.log(
+            "translated result exists, skip",
+            identifier,
+            translatedKey,
+            translatedTargetKey,
+            translatedValue,
+            translatedTargetValue
+          );
+        } else {
+          console.log("skip ", translatedKey, "field, cause not exists");
+        }
       }
     }
   }
