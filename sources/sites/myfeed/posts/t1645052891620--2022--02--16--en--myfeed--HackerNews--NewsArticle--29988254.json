@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--29988254",
+  "url": "https://news.ycombinator.com/item?id=29988254",
+  "headline": "St. Louis Made Their Elections More Equitable. Seattle Should Too",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "aaronbrethorst",
+    "url": "https://news.ycombinator.com/user?id=aaronbrethorst"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29988254",
+  "sameAs": "https://publicola.com/2022/01/18/st-louis-made-their-elections-more-equitable-seattle-should-too/",
+  "dateCreated": "2022-02-16T23:08:11.620Z",
+  "datePublished": "2022-01-19T00:29:43.000Z",
+  "dateModified": "2022-02-16T23:08:11.620Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "圣路易斯使他们的选举更加公平。西雅图也应该这样做",
+  "headline_zh-Hant": "聖路易斯使他們的選舉更加公平。西雅圖也應該這樣做",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

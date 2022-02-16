@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--29720718",
+  "url": "https://news.ycombinator.com/item?id=29720718",
+  "headline": "1906 San Francisco Earthquake and Fire",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "brudgers",
+    "url": "https://news.ycombinator.com/user?id=brudgers"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29720718",
+  "sameAs": "https://bancroft.berkeley.edu/collections/earthquakeandfire/index2.html",
+  "dateCreated": "2022-02-16T23:08:12.333Z",
+  "datePublished": "2021-12-29T01:40:43.000Z",
+  "dateModified": "2022-02-16T23:08:12.333Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 18
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "1906年旧金山大地震和火灾",
+  "headline_zh-Hant": "1906年舊金山大地震和火災",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--730116",
+  "url": "https://news.ycombinator.com/item?id=730116",
+  "headline": "Example of a nearly perfect product demo. ",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Retric",
+    "url": "https://news.ycombinator.com/user?id=Retric"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=730116",
+  "sameAs": "http://www.naturalmotion.com/euphoria.htm#video",
+  "dateCreated": "2022-02-16T23:08:12.327Z",
+  "datePublished": "2009-07-29T15:07:29.000Z",
+  "dateModified": "2022-02-16T23:08:12.327Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一个几乎完美的产品演示的例子。",
+  "headline_zh-Hant": "一個幾乎完美的產品演示的例子。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

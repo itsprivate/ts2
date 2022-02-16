@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--29897184",
+  "url": "https://news.ycombinator.com/item?id=29897184",
+  "headline": "“This guy shamelessly cloned Wordle as an F2P iOS game with IAP and is bragging”",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "minimaxir",
+    "url": "https://news.ycombinator.com/user?id=minimaxir"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29897184",
+  "sameAs": "https://twitter.com/waxpancake/status/1480990948972658689",
+  "dateCreated": "2022-02-16T23:08:11.927Z",
+  "datePublished": "2022-01-11T20:15:22.000Z",
+  "dateModified": "2022-02-16T23:08:11.927Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 33
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 8
+    }
+  ],
+  "headline_zh-Hans": "\"这家伙无耻地将Wordle克隆为一个有IAP的F2P iOS游戏，并在吹嘘\"",
+  "headline_zh-Hant": "\"這傢伙無恥地將Wordle克隆為一個有IAP的F2P iOS遊戲，並在吹噓\"",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

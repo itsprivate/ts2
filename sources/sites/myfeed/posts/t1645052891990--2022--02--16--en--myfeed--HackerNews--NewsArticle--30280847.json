@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30280847",
+  "url": "https://news.ycombinator.com/item?id=30280847",
+  "headline": "A GPT-3 bot posted comments on Reddit for a week and no one noticed (2020)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dredmorbius",
+    "url": "https://news.ycombinator.com/user?id=dredmorbius"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30280847",
+  "sameAs": "https://www.technologyreview.com/2020/10/08/1009845/a-gpt-3-bot-posted-comments-on-reddit-for-a-week-and-no-one-noticed/",
+  "dateCreated": "2022-02-16T23:08:11.990Z",
+  "datePublished": "2022-02-10T00:27:47.000Z",
+  "dateModified": "2022-02-16T23:08:11.990Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "一个GPT-3机器人在Reddit上发布了一个星期的评论，没有人注意到（2020年）。",
+  "headline_zh-Hant": "一個GPT-3機器人在Reddit上發佈了一個星期的評論，沒有人注意到（2020年）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
