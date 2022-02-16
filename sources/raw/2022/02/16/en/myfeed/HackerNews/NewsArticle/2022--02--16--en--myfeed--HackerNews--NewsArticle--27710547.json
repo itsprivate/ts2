@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--myfeed--HackerNews--NewsArticle--27710547",
+  "url": "https://news.ycombinator.com/item?id=27710547",
+  "headline": "Contributing the Go Compiler: Adding an Operator",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "petercooper",
+    "url": "https://news.ycombinator.com/user?id=petercooper"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=27710547",
+  "sameAs": "https://medium.com/trendyol-tech/contributing-the-go-compiler-adding-new-tilde-operator-f66d0c6cff7",
+  "dateCreated": "2022-02-15T21:36:36.043Z",
+  "datePublished": "2021-07-02T12:26:09.000Z",
+  "dateModified": "2022-02-15T21:36:36.043Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "贡献Go编译器。添加一个操作符",
+  "headline_zh-Hant": "貢獻Go編譯器。添加一個操作符",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
