@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--17--en--hackernews--HackerNews--NewsArticle--30359640",
+  "url": "https://news.ycombinator.com/item?id=30359640",
+  "headline": "Track down the JavaScript code responsible for polluting the global scope",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mmazzarolo",
+    "url": "https://news.ycombinator.com/user?id=mmazzarolo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30359640",
+  "sameAs": "https://mmazzarolo.com/blog/2022-02-16-track-down-the-javascript-code-responsible-for-polluting-the-global-scope/",
+  "dateCreated": "2022-02-17T00:41:14.255Z",
+  "datePublished": "2022-02-16T13:26:25.000Z",
+  "dateModified": "2022-02-17T00:41:14.255Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 34
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "追踪负责污染全局范围的JavaScript代码",
+  "headline_zh-Hant": "追蹤負責汙染全局範圍的JavaScript代碼",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
