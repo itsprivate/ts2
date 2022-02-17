@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30322631",
+  "url": "https://news.ycombinator.com/item?id=30322631",
+  "headline": "How to break long-term compatibility in NetBSD [pdf] (2016)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ingve",
+    "url": "https://news.ycombinator.com/user?id=ingve"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30322631",
+  "sameAs": "https://www.netbsd.org/gallery/presentations/joerg/asiabsdcon2016/asiabsdcon2016.pdf",
+  "dateCreated": "2022-02-16T21:08:05.980Z",
+  "datePublished": "2022-02-13T16:03:13.000Z",
+  "dateModified": "2022-02-16T21:08:05.980Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 24
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 12
+    }
+  ],
+  "headline_zh-Hans": "如何打破NetBSD的长期兼容性[pdf] (2016)",
+  "headline_zh-Hant": "如何打破NetBSD的長期兼容性[pdf] (2016)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

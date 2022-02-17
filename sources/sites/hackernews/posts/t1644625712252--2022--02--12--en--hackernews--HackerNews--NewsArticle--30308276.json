@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--hackernews--HackerNews--NewsArticle--30308276",
+  "url": "https://news.ycombinator.com/item?id=30308276",
+  "headline": "Language Homogenization at Harvard",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "inteoryx",
+    "url": "https://news.ycombinator.com/user?id=inteoryx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30308276",
+  "sameAs": "https://inteoryx.com/htmls/LanguageHomog.html",
+  "dateCreated": "2022-02-12T00:28:32.252Z",
+  "datePublished": "2022-02-11T23:29:11.000Z",
+  "dateModified": "2022-02-12T00:28:32.252Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 8
+    }
+  ],
+  "headline_zh-Hans": "哈佛的语言同质化问题",
+  "headline_zh-Hant": "哈佛的語言同質化問題",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

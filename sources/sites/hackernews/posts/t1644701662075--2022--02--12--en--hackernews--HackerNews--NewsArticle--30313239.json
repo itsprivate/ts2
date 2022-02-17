@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--hackernews--HackerNews--NewsArticle--30313239",
+  "url": "https://news.ycombinator.com/item?id=30313239",
+  "headline": "Real-Cugan: Real Cascade U-Nets for Anime Image Super Resolution",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ksec",
+    "url": "https://news.ycombinator.com/user?id=ksec"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30313239",
+  "sameAs": "https://github.com/bilibili/ailab/blob/main/Real-CUGAN/README_EN.md",
+  "dateCreated": "2022-02-12T21:34:22.075Z",
+  "datePublished": "2022-02-12T14:55:14.000Z",
+  "dateModified": "2022-02-12T21:34:22.075Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "真实-库根。用于动漫图像超分辨率的真实级联U型网",
+  "headline_zh-Hant": "真實-庫根。用於動漫圖像超分辨率的真實級聯U型網",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

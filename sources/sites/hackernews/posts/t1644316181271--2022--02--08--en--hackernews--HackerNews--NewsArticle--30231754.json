@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--08--en--hackernews--HackerNews--NewsArticle--30231754",
+  "url": "https://news.ycombinator.com/item?id=30231754",
+  "headline": "Generating Datasets with Identical Statistics Through Simulated Annealing (2017)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Tomte",
+    "url": "https://news.ycombinator.com/user?id=Tomte"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30231754",
+  "sameAs": "https://www.autodesk.com/research/publications/same-stats-different-graphs",
+  "dateCreated": "2022-02-08T10:29:41.271Z",
+  "datePublished": "2022-02-06T12:01:37.000Z",
+  "dateModified": "2022-02-08T10:29:41.271Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "通过模拟退火法生成具有相同统计量的数据集（2017年）",
+  "headline_zh-Hant": "通過模擬退火法生成具有相同統計量的數據集（2017年）",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

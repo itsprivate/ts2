@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--21--en--showhn--HackerNews--NewsArticle--30030812",
+  "url": "https://news.ycombinator.com/item?id=30030812",
+  "headline": "Show HN: qme: simple utility for queueing long-running commands",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "abdusco",
+    "url": "https://news.ycombinator.com/user?id=abdusco"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30030812",
+  "sameAs": "https://github.com/abdusco/qme",
+  "dateCreated": "2022-01-21T22:36:11.419Z",
+  "datePublished": "2022-01-21T22:31:42.000Z",
+  "dateModified": "2022-01-21T22:36:11.419Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: qme：用于排队的长运行命令的简单工具",
+  "headline_zh-Hant": "Show HN: qme：用於排隊的長運行命令的簡單工具",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

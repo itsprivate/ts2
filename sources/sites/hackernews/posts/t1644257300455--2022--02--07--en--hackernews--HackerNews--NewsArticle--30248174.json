@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--07--en--hackernews--HackerNews--NewsArticle--30248174",
+  "url": "https://news.ycombinator.com/item?id=30248174",
+  "headline": "Lightform's Sunset",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "xbryanx",
+    "url": "https://news.ycombinator.com/user?id=xbryanx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30248174",
+  "sameAs": "https://lightform.com/blog/lightforms-sunset",
+  "dateCreated": "2022-02-07T18:08:20.455Z",
+  "datePublished": "2022-02-07T17:38:21.000Z",
+  "dateModified": "2022-02-07T18:08:20.455Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Lightform的夕阳",
+  "headline_zh-Hant": "Lightform的夕陽",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

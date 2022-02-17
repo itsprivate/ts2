@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--hackernews--HackerNews--NewsArticle--30329574",
+  "url": "https://news.ycombinator.com/item?id=30329574",
+  "headline": "Playford’s Dancing Master (1651-1728)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tomcam",
+    "url": "https://news.ycombinator.com/user?id=tomcam"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30329574",
+  "sameAs": "https://playforddances.com/",
+  "dateCreated": "2022-02-15T10:39:33.599Z",
+  "datePublished": "2022-02-14T08:21:06.000Z",
+  "dateModified": "2022-02-15T10:39:33.599Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "普莱福的舞蹈大师(1651-1728)",
+  "headline_zh-Hant": "普萊福的舞蹈大師(1651-1728)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--10--en--hackernews--HackerNews--NewsArticle--30284643",
+  "url": "https://news.ycombinator.com/item?id=30284643",
+  "headline": "We sound like idiots when we talk about technical debt",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "seekayel",
+    "url": "https://news.ycombinator.com/user?id=seekayel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30284643",
+  "sameAs": "https://www.cyclic.sh/posts/we-sound-like-idiots-when-we-talk-about-technical-debt",
+  "dateCreated": "2022-02-10T11:24:06.962Z",
+  "datePublished": "2022-02-10T11:03:07.000Z",
+  "dateModified": "2022-02-10T11:24:06.962Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "当我们谈论技术债务时，我们听起来像个傻瓜",
+  "headline_zh-Hant": "當我們談論技術債務時，我們聽起來像個傻瓜",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

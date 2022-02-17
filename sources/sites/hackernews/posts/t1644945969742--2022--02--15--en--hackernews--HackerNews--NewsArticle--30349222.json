@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--hackernews--HackerNews--NewsArticle--30349222",
+  "url": "https://news.ycombinator.com/item?id=30349222",
+  "headline": "I love you, Hacker News, but you’re toxic",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kashnote",
+    "url": "https://news.ycombinator.com/user?id=kashnote"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30349222",
+  "sameAs": "https://kg.dev/thoughts/i-love-you-hn-but-youre-toxic",
+  "dateCreated": "2022-02-15T17:26:09.742Z",
+  "datePublished": "2022-02-15T17:05:20.000Z",
+  "dateModified": "2022-02-15T17:26:09.742Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 31
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 20
+    }
+  ],
+  "headline_zh-Hans": "我爱你，黑客新闻，但你是有毒的",
+  "headline_zh-Hant": "我愛你，黑客新聞，但你是有毒的",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

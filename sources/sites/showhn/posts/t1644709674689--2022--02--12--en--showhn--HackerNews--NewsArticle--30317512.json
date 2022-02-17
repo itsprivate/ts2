@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--showhn--HackerNews--NewsArticle--30317512",
+  "url": "https://news.ycombinator.com/item?id=30317512",
+  "headline": "Show HN: I built a tool convert any image to ASCII Art",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "pankajtanwar",
+    "url": "https://news.ycombinator.com/user?id=pankajtanwar"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30317512",
+  "sameAs": "https://asciiart.pankajtanwar.in/",
+  "dateCreated": "2022-02-12T23:47:54.689Z",
+  "datePublished": "2022-02-12T23:41:16.000Z",
+  "dateModified": "2022-02-12T23:47:54.689Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我建立了一个将任何图像转换为ASCII艺术的工具",
+  "headline_zh-Hant": "Show HN: 我建立了一個將任何圖像轉換為ASCII藝術的工具",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

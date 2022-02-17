@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--06--en--hackernews--HackerNews--NewsArticle--30209859",
+  "url": "https://news.ycombinator.com/item?id=30209859",
+  "headline": "Gaussian Process Regression Demo",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "alemelis",
+    "url": "https://news.ycombinator.com/user?id=alemelis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30209859",
+  "sameAs": "http://www.tmpl.fi/gp/",
+  "dateCreated": "2022-02-06T11:05:58.393Z",
+  "datePublished": "2022-02-04T17:33:26.000Z",
+  "dateModified": "2022-02-06T11:05:58.393Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "高斯过程回归演示",
+  "headline_zh-Hant": "高斯過程迴歸演示",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

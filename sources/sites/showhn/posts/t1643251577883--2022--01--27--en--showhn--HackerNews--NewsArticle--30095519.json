@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--27--en--showhn--HackerNews--NewsArticle--30095519",
+  "url": "https://news.ycombinator.com/item?id=30095519",
+  "headline": "Show HN: Alexa is shutting down, so I made a UI for the most popular sites",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "orangegreen",
+    "url": "https://news.ycombinator.com/user?id=orangegreen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30095519",
+  "sameAs": "https://caldwell.org/projects/code/top-sites/",
+  "dateCreated": "2022-01-27T02:46:17.883Z",
+  "datePublished": "2022-01-27T02:40:17.000Z",
+  "dateModified": "2022-01-27T02:46:17.883Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Alexa正在关闭，所以我为最受欢迎的网站做了一个用户界面",
+  "headline_zh-Hant": "Show HN: Alexa正在關閉，所以我為最受歡迎的網站做了一個用戶界面",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--11--en--hackernews--HackerNews--NewsArticle--30282766",
+  "url": "https://news.ycombinator.com/item?id=30282766",
+  "headline": "Minolta X-700 Aperture Priority Mode",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ynac",
+    "url": "https://news.ycombinator.com/user?id=ynac"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30282766",
+  "sameAs": "http://rokkorfiles.com/X-700.html",
+  "dateCreated": "2022-02-11T02:47:37.530Z",
+  "datePublished": "2022-02-10T05:30:46.000Z",
+  "dateModified": "2022-02-11T02:47:37.530Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "美能达X-700光圈优先模式",
+  "headline_zh-Hant": "美能達X-700光圈優先模式",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--31--en--showhn--HackerNews--NewsArticle--30153116",
+  "url": "https://news.ycombinator.com/item?id=30153116",
+  "headline": "Show HN: Get notification for top stories from Hacker News",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mavci",
+    "url": "https://news.ycombinator.com/user?id=mavci"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30153116",
+  "sameAs": "https://hnn.avci.me/",
+  "dateCreated": "2022-01-31T19:48:03.822Z",
+  "datePublished": "2022-01-31T19:37:48.000Z",
+  "dateModified": "2022-01-31T19:48:03.822Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 接收来自Hacker News的顶级故事的通知",
+  "headline_zh-Hant": "Show HN: 接收來自Hacker News的頂級故事的通知",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

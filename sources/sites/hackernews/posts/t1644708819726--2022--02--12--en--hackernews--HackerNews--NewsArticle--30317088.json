@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--hackernews--HackerNews--NewsArticle--30317088",
+  "url": "https://news.ycombinator.com/item?id=30317088",
+  "headline": "Forbidden Emacs Lisp Knowledge: Block Comments",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hprotagonist",
+    "url": "https://news.ycombinator.com/user?id=hprotagonist"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30317088",
+  "sameAs": "https://emacsninja.com/posts/forbidden-emacs-lisp-knowledge-block-comments.html",
+  "dateCreated": "2022-02-12T23:33:39.726Z",
+  "datePublished": "2022-02-12T22:34:42.000Z",
+  "dateModified": "2022-02-12T23:33:39.726Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "禁忌的Emacs Lisp知识。块状注释",
+  "headline_zh-Hant": "禁忌的Emacs Lisp知識。塊狀註釋",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

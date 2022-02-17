@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--hackernews--HackerNews--NewsArticle--30343373",
+  "url": "https://news.ycombinator.com/item?id=30343373",
+  "headline": "Frawk: A fast, JITted, statically-typed AWK written in Rust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "benhoyt",
+    "url": "https://news.ycombinator.com/user?id=benhoyt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30343373",
+  "sameAs": "https://github.com/ezrosent/frawk",
+  "dateCreated": "2022-02-15T07:48:02.670Z",
+  "datePublished": "2022-02-15T06:14:18.000Z",
+  "dateModified": "2022-02-15T07:48:02.670Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Frawk: 一个用Rust编写的快速、JIT化、静态类型的AWK",
+  "headline_zh-Hant": "Frawk: 一個用Rust編寫的快速、JIT化、靜態類型的AWK",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

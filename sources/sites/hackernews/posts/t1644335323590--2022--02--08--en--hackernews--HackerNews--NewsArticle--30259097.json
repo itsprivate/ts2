@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--08--en--hackernews--HackerNews--NewsArticle--30259097",
+  "url": "https://news.ycombinator.com/item?id=30259097",
+  "headline": "How UTF-8 Works",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "SethMLarson",
+    "url": "https://news.ycombinator.com/user?id=SethMLarson"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30259097",
+  "sameAs": "https://sethmlarson.dev/blog/utf-8",
+  "dateCreated": "2022-02-08T15:48:43.590Z",
+  "datePublished": "2022-02-08T14:56:17.000Z",
+  "dateModified": "2022-02-08T15:48:43.590Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "UTF-8如何工作",
+  "headline_zh-Hant": "UTF-8如何工作",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

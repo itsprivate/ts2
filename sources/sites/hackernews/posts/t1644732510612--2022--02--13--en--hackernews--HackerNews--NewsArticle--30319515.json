@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--13--en--hackernews--HackerNews--NewsArticle--30319515",
+  "url": "https://news.ycombinator.com/item?id=30319515",
+  "headline": "Viaweb's First Business Plan",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "webmaven",
+    "url": "https://news.ycombinator.com/user?id=webmaven"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30319515",
+  "sameAs": "http://paulgraham.com/vwplan.html",
+  "dateCreated": "2022-02-13T06:08:30.612Z",
+  "datePublished": "2022-02-13T05:29:07.000Z",
+  "dateModified": "2022-02-13T06:08:30.612Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Viaweb的第一个商业计划书",
+  "headline_zh-Hant": "Viaweb的第一個商業計劃書",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

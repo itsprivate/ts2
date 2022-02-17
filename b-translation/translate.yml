@@ -1,0 +1,13 @@
+sources:
+  - from: https://deno.land/x/getfiles@v1.0.0/mod.ts
+    args:
+      - ./${{ctx.env.ENV=='dev'?'dev-':''}}sources/raw
+    key: path
+    force: true
+    # limit: 1
+    filter: return ctx.item.ext === 'json'
+filter:
+  from: ./translate.ts
+  args:
+    - ${{ctx.items.map(item=>item.path)}}
+  run: return ctx.items.map(item=>true);

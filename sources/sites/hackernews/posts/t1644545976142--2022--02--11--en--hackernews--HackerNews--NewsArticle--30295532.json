@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--11--en--hackernews--HackerNews--NewsArticle--30295532",
+  "url": "https://news.ycombinator.com/item?id=30295532",
+  "headline": "Newly Declassified Docs Reveal Previously Secret CIA Bulk Collection",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sneak",
+    "url": "https://news.ycombinator.com/user?id=sneak"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30295532",
+  "sameAs": "https://www.wyden.senate.gov/news/press-releases/wyden-and-heinrich-newly-declassified-documents-reveal-previously-secret-cia-bulk-collection-problems-with-cia-handling-of-americans-information",
+  "dateCreated": "2022-02-11T02:19:36.142Z",
+  "datePublished": "2022-02-11T01:21:01.000Z",
+  "dateModified": "2022-02-11T02:19:36.142Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 51
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 24
+    }
+  ],
+  "headline_zh-Hans": "新的解密文件揭示了以前秘密的中情局批量收集的情况",
+  "headline_zh-Hant": "新的解密文件揭示了以前秘密的中情局批量收集的情況",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

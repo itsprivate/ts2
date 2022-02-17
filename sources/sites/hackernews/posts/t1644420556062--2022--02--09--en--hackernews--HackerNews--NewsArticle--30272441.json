@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--09--en--hackernews--HackerNews--NewsArticle--30272441",
+  "url": "https://news.ycombinator.com/item?id=30272441",
+  "headline": "Data misreporting during the COVID19 crisis: The role of political institutions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rustoo",
+    "url": "https://news.ycombinator.com/user?id=rustoo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30272441",
+  "sameAs": "https://www.sciencedirect.com/science/article/pii/S016517652200043X",
+  "dateCreated": "2022-02-09T15:29:16.062Z",
+  "datePublished": "2022-02-09T13:37:33.000Z",
+  "dateModified": "2022-02-09T15:29:16.062Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "COVID19危机期间的数据误报。政治机构的作用",
+  "headline_zh-Hant": "COVID19危機期間的數據誤報。政治機構的作用",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

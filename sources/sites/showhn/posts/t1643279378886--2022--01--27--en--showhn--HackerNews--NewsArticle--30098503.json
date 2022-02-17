@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--27--en--showhn--HackerNews--NewsArticle--30098503",
+  "url": "https://news.ycombinator.com/item?id=30098503",
+  "headline": "Show HN: Repography – visualize your Git repo",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "arraypad",
+    "url": "https://news.ycombinator.com/user?id=arraypad"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30098503",
+  "sameAs": "https://repography.com/",
+  "dateCreated": "2022-01-27T10:29:38.886Z",
+  "datePublished": "2022-01-27T10:09:52.000Z",
+  "dateModified": "2022-01-27T10:29:38.886Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Repography - 将你的Git repo可视化",
+  "headline_zh-Hant": "Show HN: Repography - 將你的Git repo可視化",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

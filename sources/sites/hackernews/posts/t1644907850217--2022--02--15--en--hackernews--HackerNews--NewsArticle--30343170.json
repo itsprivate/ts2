@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--hackernews--HackerNews--NewsArticle--30343170",
+  "url": "https://news.ycombinator.com/item?id=30343170",
+  "headline": "U.S. corn-based ethanol worse for the climate than gasoline",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jeffbee",
+    "url": "https://news.ycombinator.com/user?id=jeffbee"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30343170",
+  "sameAs": "https://www.reuters.com/article/us-usa-biofuels-emissions-idUSKBN2KJ1YU",
+  "dateCreated": "2022-02-15T06:50:50.217Z",
+  "datePublished": "2022-02-15T05:30:58.000Z",
+  "dateModified": "2022-02-15T06:50:50.217Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "美国玉米基乙醇对气候的影响比汽油更严重",
+  "headline_zh-Hant": "美國玉米基乙醇對氣候的影響比汽油更嚴重",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

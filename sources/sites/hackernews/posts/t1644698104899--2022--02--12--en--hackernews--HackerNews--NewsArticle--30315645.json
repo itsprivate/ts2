@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--hackernews--HackerNews--NewsArticle--30315645",
+  "url": "https://news.ycombinator.com/item?id=30315645",
+  "headline": "A (joke) cryptocurrency where you get paid to scalp",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "anchpop",
+    "url": "https://news.ycombinator.com/user?id=anchpop"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30315645",
+  "sameAs": "https://scalpcoin.xyz/",
+  "dateCreated": "2022-02-12T20:35:04.899Z",
+  "datePublished": "2022-02-12T19:43:14.000Z",
+  "dateModified": "2022-02-12T20:35:04.899Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一种（玩笑）加密货币，你可以通过剥头皮获得报酬",
+  "headline_zh-Hant": "一種（玩笑）加密貨幣，你可以通過剝頭皮獲得報酬",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

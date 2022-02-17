@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--11--en--hackernews--HackerNews--NewsArticle--30306926",
+  "url": "https://news.ycombinator.com/item?id=30306926",
+  "headline": "Police hacking with Pegasus of key Netanyahu trial witness explodes into scandal",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tomohawk",
+    "url": "https://news.ycombinator.com/user?id=tomohawk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30306926",
+  "sameAs": "https://www.debka.com/police-hacking-of-key-netanyahu-trial-witness-explodes-into-full-blown-scandal/",
+  "dateCreated": "2022-02-11T21:24:31.931Z",
+  "datePublished": "2022-02-11T20:59:39.000Z",
+  "dateModified": "2022-02-11T21:24:31.931Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "警方与飞马公司合作入侵内塔尼亚胡审判的关键证人引爆丑闻",
+  "headline_zh-Hant": "警方與飛馬公司合作入侵內塔尼亞胡審判的關鍵證人引爆醜聞",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

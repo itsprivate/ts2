@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--hackernews--HackerNews--NewsArticle--30309644",
+  "url": "https://news.ycombinator.com/item?id=30309644",
+  "headline": "Incident: Air Asia A320 near Kuching on Feb 10th 2022, snake on the plane",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jhugo",
+    "url": "https://news.ycombinator.com/user?id=jhugo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30309644",
+  "sameAs": "https://avherald.com/h?article=4f47cac0",
+  "dateCreated": "2022-02-12T03:47:55.298Z",
+  "datePublished": "2022-02-12T03:23:25.000Z",
+  "dateModified": "2022-02-12T03:47:55.298Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "事故。2022年2月10日，亚洲航空公司A320在古晋附近，飞机上有蛇。",
+  "headline_zh-Hant": "事故。2022年2月10日，亞洲航空公司A320在古晉附近，飛機上有蛇。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

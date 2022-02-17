@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--13--en--hackernews--HackerNews--NewsArticle--30320382",
+  "url": "https://news.ycombinator.com/item?id=30320382",
+  "headline": "Spongebob-CLI – Watch classic spongebob from the terminal",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "maydemir",
+    "url": "https://news.ycombinator.com/user?id=maydemir"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30320382",
+  "sameAs": "https://github.com/trakBan/spongebob-cli",
+  "dateCreated": "2022-02-13T10:07:40.315Z",
+  "datePublished": "2022-02-13T09:00:23.000Z",
+  "dateModified": "2022-02-13T10:07:40.315Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Spongebob-CLI - 从终端观看经典的海绵宝宝",
+  "headline_zh-Hant": "Spongebob-CLI - 從終端觀看經典的海綿寶寶",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

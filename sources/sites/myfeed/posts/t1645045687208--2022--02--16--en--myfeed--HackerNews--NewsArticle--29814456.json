@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--29814456",
+  "url": "https://news.ycombinator.com/item?id=29814456",
+  "headline": "Former NASA Scientist Explains How We Could Terraform Mars",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "protomyth",
+    "url": "https://news.ycombinator.com/user?id=protomyth"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=29814456",
+  "sameAs": "https://futurism.com/the-byte/scientist-explains-terraform-mars",
+  "dateCreated": "2022-02-16T21:08:07.208Z",
+  "datePublished": "2022-01-05T20:25:28.000Z",
+  "dateModified": "2022-02-16T21:08:07.208Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "前美国宇航局科学家解释我们如何能使火星变成地球。",
+  "headline_zh-Hant": "前美國宇航局科學家解釋我們如何能使火星變成地球。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

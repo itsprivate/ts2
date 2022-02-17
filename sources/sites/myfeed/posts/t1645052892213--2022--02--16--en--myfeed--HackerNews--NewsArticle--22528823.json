@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--22528823",
+  "url": "https://news.ycombinator.com/item?id=22528823",
+  "headline": "Welcome Cruise Ship 🇧🇲Grand Princess Enjoy San Francisco",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "wpietri",
+    "url": "https://news.ycombinator.com/user?id=wpietri"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=22528823",
+  "sameAs": "https://twitter.com/sfships/status/1237078653667659777",
+  "dateCreated": "2022-02-16T23:08:12.213Z",
+  "datePublished": "2020-03-09T19:29:07.000Z",
+  "dateModified": "2022-02-16T23:08:12.213Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "欢迎乘坐邮轮🇧🇲大公主号享受旧金山之旅",
+  "headline_zh-Hant": "歡迎乘坐郵輪🇧🇲大公主號享受舊金山之旅",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

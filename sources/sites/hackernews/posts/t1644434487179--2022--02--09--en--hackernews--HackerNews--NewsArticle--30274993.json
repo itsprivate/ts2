@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--09--en--hackernews--HackerNews--NewsArticle--30274993",
+  "url": "https://news.ycombinator.com/item?id=30274993",
+  "headline": "U.S. science no longer leads the world. Here’s how nation should respond",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "paulpauper",
+    "url": "https://news.ycombinator.com/user?id=paulpauper"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30274993",
+  "sameAs": "https://www.science.org/content/article/u-s-science-no-longer-leads-world-here-s-how-top-advisers-say-nation-should-respond",
+  "dateCreated": "2022-02-09T19:21:27.179Z",
+  "datePublished": "2022-02-09T17:02:51.000Z",
+  "dateModified": "2022-02-09T19:21:27.179Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 10
+    }
+  ],
+  "headline_zh-Hans": "美国科学不再领先于世界。以下是国家应该如何回应",
+  "headline_zh-Hant": "美國科學不再領先於世界。以下是國家應該如何迴應",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--10--en--askhn--HackerNews--NewsArticle--30290095",
+  "url": "https://news.ycombinator.com/item?id=30290095",
+  "headline": "Ask HN: Any chance of HN implementing OAuth2 for 3rd-party clients?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "anderspitman",
+    "url": "https://news.ycombinator.com/user?id=anderspitman"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30290095",
+  "sameAs": "https://news.ycombinator.com/item?id=30290095",
+  "dateCreated": "2022-02-10T18:08:13.717Z",
+  "datePublished": "2022-02-10T18:03:51.000Z",
+  "dateModified": "2022-02-10T18:08:13.717Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: HN是否有可能为第三方客户实施OAuth2？",
+  "headline_zh-Hant": "Ask HN: HN是否有可能為第三方客戶實施OAuth2？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

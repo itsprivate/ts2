@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--17--en--myfeed--HackerNews--NewsArticle--30211079",
+  "url": "https://news.ycombinator.com/item?id=30211079",
+  "headline": "NYT Story About a “Self-Driving Road Trip” Full of Dangerous Misunderstandings",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Animats",
+    "url": "https://news.ycombinator.com/user?id=Animats"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30211079",
+  "sameAs": "https://jalopnik.com/this-nyt-story-about-a-self-driving-road-trip-is-full-1848482117",
+  "dateCreated": "2022-02-17T00:41:12.898Z",
+  "datePublished": "2022-02-04T18:40:45.000Z",
+  "dateModified": "2022-02-17T00:41:12.898Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "纽约时报》关于 \"自动驾驶公路旅行 \"的报道充满了危险的误解",
+  "headline_zh-Hant": "紐約時報》關於 \"自動駕駛公路旅行 \"的報道充滿了危險的誤解",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

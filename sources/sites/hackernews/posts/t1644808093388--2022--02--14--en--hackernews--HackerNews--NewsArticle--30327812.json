@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--14--en--hackernews--HackerNews--NewsArticle--30327812",
+  "url": "https://news.ycombinator.com/item?id=30327812",
+  "headline": "Perl Saved the Human Genome Project (1996)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jimmytucson",
+    "url": "https://news.ycombinator.com/user?id=jimmytucson"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30327812",
+  "sameAs": "https://www.foo.be/docs/tpj/issues/vol1_2/tpj0102-0001.html",
+  "dateCreated": "2022-02-14T03:08:13.388Z",
+  "datePublished": "2022-02-14T02:34:34.000Z",
+  "dateModified": "2022-02-14T03:08:13.388Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Perl拯救了人类基因组计划 (1996)",
+  "headline_zh-Hant": "Perl拯救了人類基因組計劃 (1996)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

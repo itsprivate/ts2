@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--11--en--hackernews--HackerNews--NewsArticle--30297662",
+  "url": "https://news.ycombinator.com/item?id=30297662",
+  "headline": "San Francisco Is Sick",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fortran77",
+    "url": "https://news.ycombinator.com/user?id=fortran77"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30297662",
+  "sameAs": "https://spectatorworld.com/topic/san-francisco-is-sick/",
+  "dateCreated": "2022-02-11T08:30:47.536Z",
+  "datePublished": "2022-02-11T06:07:24.000Z",
+  "dateModified": "2022-02-11T08:30:47.536Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "旧金山生病了",
+  "headline_zh-Hant": "舊金山生病了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

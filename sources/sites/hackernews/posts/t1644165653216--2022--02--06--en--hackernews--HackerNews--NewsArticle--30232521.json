@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--06--en--hackernews--HackerNews--NewsArticle--30232521",
+  "url": "https://news.ycombinator.com/item?id=30232521",
+  "headline": "SPCSS Demo: A simple stylesheet for simple text-based websites",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "susam",
+    "url": "https://news.ycombinator.com/user?id=susam"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30232521",
+  "sameAs": "https://susam.github.io/spcss/",
+  "dateCreated": "2022-02-06T16:40:53.216Z",
+  "datePublished": "2022-02-06T14:01:17.000Z",
+  "dateModified": "2022-02-06T16:40:53.216Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "SPCSS演示。一个简单的样式表，适用于简单的基于文本的网站",
+  "headline_zh-Hant": "SPCSS演示。一個簡單的樣式表，適用於簡單的基於文本的網站",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

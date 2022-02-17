@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--28326828",
+  "url": "https://news.ycombinator.com/item?id=28326828",
+  "headline": "Players can refund short Steam games after playing them all the way through",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sp332",
+    "url": "https://news.ycombinator.com/user?id=sp332"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=28326828",
+  "sameAs": "https://twitter.com/EmikaGames/status/1430941640001265673",
+  "dateCreated": "2022-02-16T23:08:12.032Z",
+  "datePublished": "2021-08-27T12:17:05.000Z",
+  "dateModified": "2022-02-16T23:08:12.032Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "玩家在玩完Steam上的短小游戏后可以退款",
+  "headline_zh-Hant": "玩家在玩完Steam上的短小遊戲後可以退款",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

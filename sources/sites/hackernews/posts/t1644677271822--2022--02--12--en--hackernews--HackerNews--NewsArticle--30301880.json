@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--hackernews--HackerNews--NewsArticle--30301880",
+  "url": "https://news.ycombinator.com/item?id=30301880",
+  "headline": "Running C unit tests with pytest",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "p403n1x87",
+    "url": "https://news.ycombinator.com/user?id=p403n1x87"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30301880",
+  "sameAs": "https://p403n1x87.github.io/running-c-unit-tests-with-pytest.html",
+  "dateCreated": "2022-02-12T14:47:51.822Z",
+  "datePublished": "2022-02-11T14:31:33.000Z",
+  "dateModified": "2022-02-12T14:47:51.822Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用pytest运行C单元测试",
+  "headline_zh-Hant": "用pytest運行C單元測試",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

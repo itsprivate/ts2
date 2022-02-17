@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--30--en--showhn--HackerNews--NewsArticle--30138546",
+  "url": "https://news.ycombinator.com/item?id=30138546",
+  "headline": "Show HN: A Safari web extension to access alternate news",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "lintfail",
+    "url": "https://news.ycombinator.com/user?id=lintfail"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30138546",
+  "sameAs": "https://stayobjective.com/",
+  "dateCreated": "2022-01-30T16:41:37.562Z",
+  "datePublished": "2022-01-30T16:32:44.000Z",
+  "dateModified": "2022-01-30T16:41:37.562Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 一个Safari浏览器的网络扩展，用于访问替代性新闻",
+  "headline_zh-Hant": "Show HN: 一個Safari瀏覽器的網絡擴展，用於訪問替代性新聞",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

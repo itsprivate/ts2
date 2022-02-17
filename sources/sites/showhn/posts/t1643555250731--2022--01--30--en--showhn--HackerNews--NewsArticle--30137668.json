@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--30--en--showhn--HackerNews--NewsArticle--30137668",
+  "url": "https://news.ycombinator.com/item?id=30137668",
+  "headline": "Show HN: Efficient C++ async web framework",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "Barenboim",
+    "url": "https://news.ycombinator.com/user?id=Barenboim"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30137668",
+  "sameAs": "https://github.com/wfrest/wfrest",
+  "dateCreated": "2022-01-30T15:07:30.731Z",
+  "datePublished": "2022-01-30T14:51:44.000Z",
+  "dateModified": "2022-01-30T15:07:30.731Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 高效的C++异步网络框架",
+  "headline_zh-Hant": "Show HN: 高效的C++異步網絡框架",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

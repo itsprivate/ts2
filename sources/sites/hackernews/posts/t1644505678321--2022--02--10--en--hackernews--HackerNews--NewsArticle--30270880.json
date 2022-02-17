@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--10--en--hackernews--HackerNews--NewsArticle--30270880",
+  "url": "https://news.ycombinator.com/item?id=30270880",
+  "headline": "Identify the Champion: An Organisational Pattern for Programme Commitees",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bollu",
+    "url": "https://news.ycombinator.com/user?id=bollu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30270880",
+  "sameAs": "http://scg.unibe.ch/download/champion/",
+  "dateCreated": "2022-02-10T15:07:58.321Z",
+  "datePublished": "2022-02-09T09:55:36.000Z",
+  "dateModified": "2022-02-10T15:07:58.321Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "识别冠军。项目专员的组织模式",
+  "headline_zh-Hant": "識別冠軍。項目專員的組織模式",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

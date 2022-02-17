@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--08--en--hackernews--HackerNews--NewsArticle--30242612",
+  "url": "https://news.ycombinator.com/item?id=30242612",
+  "headline": "Dalí. Stereoscopic images. Painting in three dimensions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "wslh",
+    "url": "https://news.ycombinator.com/user?id=wslh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30242612",
+  "sameAs": "https://exhibitions.salvador-dali.org/en/daliestereoscopies/",
+  "dateCreated": "2022-02-08T19:33:25.338Z",
+  "datePublished": "2022-02-07T10:03:39.000Z",
+  "dateModified": "2022-02-08T19:33:25.338Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "达利。立体图像。三维的绘画",
+  "headline_zh-Hant": "達利。立體圖像。三維的繪畫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

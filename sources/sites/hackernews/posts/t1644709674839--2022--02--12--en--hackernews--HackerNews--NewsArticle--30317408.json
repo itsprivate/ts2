@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--hackernews--HackerNews--NewsArticle--30317408",
+  "url": "https://news.ycombinator.com/item?id=30317408",
+  "headline": "Compile-Time Sort in D",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "teleforce",
+    "url": "https://news.ycombinator.com/user?id=teleforce"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30317408",
+  "sameAs": "https://dlang.org/blog/2017/06/05/compile-time-sort-in-d/",
+  "dateCreated": "2022-02-12T23:47:54.839Z",
+  "datePublished": "2022-02-12T23:26:12.000Z",
+  "dateModified": "2022-02-12T23:47:54.839Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "D语言中的编译时排序",
+  "headline_zh-Hant": "D語言中的編譯時排序",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

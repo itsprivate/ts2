@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--hackernews--HackerNews--NewsArticle--30340503",
+  "url": "https://news.ycombinator.com/item?id=30340503",
+  "headline": "JDeploy – Deploy desktop Java apps as native bundles on Mac, Linux, and Windows",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "shannah78",
+    "url": "https://news.ycombinator.com/user?id=shannah78"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30340503",
+  "sameAs": "https://www.jdeploy.com",
+  "dateCreated": "2022-02-15T01:49:09.734Z",
+  "datePublished": "2022-02-15T00:04:44.000Z",
+  "dateModified": "2022-02-15T01:49:09.734Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 16
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "JDeploy - 在Mac、Linux和Windows上将桌面Java应用程序作为本地捆绑包进行部署",
+  "headline_zh-Hant": "JDeploy - 在Mac、Linux和Windows上將桌面Java應用程序作為本地捆綁包進行部署",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

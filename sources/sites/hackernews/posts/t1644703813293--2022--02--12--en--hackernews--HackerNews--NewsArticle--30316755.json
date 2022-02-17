@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--hackernews--HackerNews--NewsArticle--30316755",
+  "url": "https://news.ycombinator.com/item?id=30316755",
+  "headline": "Dino 0.3: Video calls and conferences – encrypted and peer-to-peer",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "larma",
+    "url": "https://news.ycombinator.com/user?id=larma"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30316755",
+  "sameAs": "https://dino.im/blog/2022/02/dino-0.3-release/",
+  "dateCreated": "2022-02-12T22:10:13.293Z",
+  "datePublished": "2022-02-12T21:36:30.000Z",
+  "dateModified": "2022-02-12T22:10:13.293Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Dino 0.3: 视频通话和会议 - 加密的和点对点的",
+  "headline_zh-Hant": "Dino 0.3: 視頻通話和會議 - 加密的和點對點的",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

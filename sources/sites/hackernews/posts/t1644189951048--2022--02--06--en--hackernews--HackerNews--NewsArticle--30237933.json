@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--06--en--hackernews--HackerNews--NewsArticle--30237933",
+  "url": "https://news.ycombinator.com/item?id=30237933",
+  "headline": "Spotify Platform Rules",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ofou",
+    "url": "https://news.ycombinator.com/user?id=ofou"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30237933",
+  "sameAs": "https://www.spotify.com/us/platform-rules/",
+  "dateCreated": "2022-02-06T23:25:51.048Z",
+  "datePublished": "2022-02-06T22:58:44.000Z",
+  "dateModified": "2022-02-06T23:25:51.048Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Spotify平台规则",
+  "headline_zh-Hant": "Spotify平臺規則",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

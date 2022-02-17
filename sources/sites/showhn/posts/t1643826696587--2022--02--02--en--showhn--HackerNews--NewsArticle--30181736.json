@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--02--en--showhn--HackerNews--NewsArticle--30181736",
+  "url": "https://news.ycombinator.com/item?id=30181736",
+  "headline": "Show HN: HF-BERTopic – Transformer based topic modeling in the browser",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "Der_Einzige",
+    "url": "https://news.ycombinator.com/user?id=Der_Einzige"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30181736",
+  "sameAs": "https://huggingface.co/spaces/Hellisotherpeople/HF-BERTopic",
+  "dateCreated": "2022-02-02T18:31:36.587Z",
+  "datePublished": "2022-02-02T18:29:22.000Z",
+  "dateModified": "2022-02-02T18:31:36.587Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: HF-BERTopic - 浏览器中基于变压器的主题建模",
+  "headline_zh-Hant": "Show HN: HF-BERTopic - 瀏覽器中基於變壓器的主題建模",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

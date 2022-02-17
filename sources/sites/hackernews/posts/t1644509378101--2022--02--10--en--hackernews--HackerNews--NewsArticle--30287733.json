@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--10--en--hackernews--HackerNews--NewsArticle--30287733",
+  "url": "https://news.ycombinator.com/item?id=30287733",
+  "headline": "An Interactive Introduction to A* (and other pathfinding algorithms)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "djood",
+    "url": "https://news.ycombinator.com/user?id=djood"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30287733",
+  "sameAs": "https://www.redblobgames.com/pathfinding/a-star/introduction.html",
+  "dateCreated": "2022-02-10T16:09:38.101Z",
+  "datePublished": "2022-02-10T15:42:38.000Z",
+  "dateModified": "2022-02-10T16:09:38.101Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "A*（和其他寻路算法）的互动介绍",
+  "headline_zh-Hant": "A*（和其他尋路算法）的互動介紹",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

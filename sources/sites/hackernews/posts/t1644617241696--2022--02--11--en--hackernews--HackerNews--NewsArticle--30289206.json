@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--11--en--hackernews--HackerNews--NewsArticle--30289206",
+  "url": "https://news.ycombinator.com/item?id=30289206",
+  "headline": "A walk through Project Zero metrics",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "arkadiyt",
+    "url": "https://news.ycombinator.com/user?id=arkadiyt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30289206",
+  "sameAs": "https://googleprojectzero.blogspot.com/2022/02/a-walk-through-project-zero-metrics.html",
+  "dateCreated": "2022-02-11T22:07:21.696Z",
+  "datePublished": "2022-02-10T17:07:42.000Z",
+  "dateModified": "2022-02-11T22:07:21.696Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 16
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "漫步在 \"零点计划 \"的衡量标准中",
+  "headline_zh-Hant": "漫步在 \"零點計劃 \"的衡量標準中",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30249407",
+  "url": "https://news.ycombinator.com/item?id=30249407",
+  "headline": "Snaptoken: Tutorials on writing medium-size software projects from scratch",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "luu",
+    "url": "https://news.ycombinator.com/user?id=luu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30249407",
+  "sameAs": "https://viewsourcecode.org/snaptoken/",
+  "dateCreated": "2022-02-16T20:30:47.553Z",
+  "datePublished": "2022-02-07T19:03:14.000Z",
+  "dateModified": "2022-02-16T20:30:47.553Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "抢答器。从零开始编写中等规模软件项目的教程",
+  "headline_zh-Hant": "搶答器。從零開始編寫中等規模軟件項目的教程",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--14--en--hackernews--HackerNews--NewsArticle--30334667",
+  "url": "https://news.ycombinator.com/item?id=30334667",
+  "headline": "Andromeda Invaders: A 1980s-arcade-style game using HTML5, Canvas, Web Audio",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "susam",
+    "url": "https://news.ycombinator.com/user?id=susam"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30334667",
+  "sameAs": "https://github.com/susam/invaders",
+  "dateCreated": "2022-02-14T17:47:51.537Z",
+  "datePublished": "2022-02-14T17:17:16.000Z",
+  "dateModified": "2022-02-14T17:47:51.537Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "仙女座入侵者。使用HTML5、帆布、网络音频的80年代街机风格游戏",
+  "headline_zh-Hant": "仙女座入侵者。使用HTML5、帆布、網絡音頻的80年代街機風格遊戲",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

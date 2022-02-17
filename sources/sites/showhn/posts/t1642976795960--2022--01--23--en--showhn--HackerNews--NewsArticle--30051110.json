@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--23--en--showhn--HackerNews--NewsArticle--30051110",
+  "url": "https://news.ycombinator.com/item?id=30051110",
+  "headline": "Show HN: Insta – an enjoyable snapshot testing tool for Rust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "the_mitsuhiko",
+    "url": "https://news.ycombinator.com/user?id=the_mitsuhiko"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30051110",
+  "sameAs": "https://insta.rs/",
+  "dateCreated": "2022-01-23T22:26:35.960Z",
+  "datePublished": "2022-01-23T22:20:52.000Z",
+  "dateModified": "2022-01-23T22:26:35.960Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Insta - 一个令人愉快的Rust快照测试工具",
+  "headline_zh-Hant": "Show HN: Insta - 一個令人愉快的Rust快照測試工具",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

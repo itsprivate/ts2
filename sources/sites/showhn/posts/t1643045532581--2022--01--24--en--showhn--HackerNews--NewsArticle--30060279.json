@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--24--en--showhn--HackerNews--NewsArticle--30060279",
+  "url": "https://news.ycombinator.com/item?id=30060279",
+  "headline": "Show HN: Hajime – a modern-C++ userspace init system for Minecraft servers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "netr0ute",
+    "url": "https://news.ycombinator.com/user?id=netr0ute"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30060279",
+  "sameAs": "https://github.com/Slackadays/Hajime",
+  "dateCreated": "2022-01-24T17:32:12.581Z",
+  "datePublished": "2022-01-24T16:54:48.000Z",
+  "dateModified": "2022-01-24T17:32:12.581Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Hajime - 一个用于Minecraft服务器的现代C++用户空间启动系统",
+  "headline_zh-Hant": "Show HN: Hajime - 一個用於Minecraft服務器的現代C++用戶空間啟動系統",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

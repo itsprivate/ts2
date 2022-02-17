@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--31--en--askhn--HackerNews--NewsArticle--30151191",
+  "url": "https://news.ycombinator.com/item?id=30151191",
+  "headline": "Ask HN: Why does text jump around during images load? Is it a bug or a feature?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "acadapter",
+    "url": "https://news.ycombinator.com/user?id=acadapter"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30151191",
+  "sameAs": "https://news.ycombinator.com/item?id=30151191",
+  "dateCreated": "2022-01-31T18:08:22.852Z",
+  "datePublished": "2022-01-31T17:47:51.000Z",
+  "dateModified": "2022-01-31T18:08:22.852Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么在加载图片时文字会跳来跳去？这是一个错误还是一个特点？",
+  "headline_zh-Hant": "Ask HN: 為什麼在加載圖片時文字會跳來跳去？這是一個錯誤還是一個特點？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

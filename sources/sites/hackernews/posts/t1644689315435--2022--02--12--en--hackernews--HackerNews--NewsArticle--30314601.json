@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--hackernews--HackerNews--NewsArticle--30314601",
+  "url": "https://news.ycombinator.com/item?id=30314601",
+  "headline": "Sci-Hub statistics and database are now available",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "NmAmDa",
+    "url": "https://news.ycombinator.com/user?id=NmAmDa"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30314601",
+  "sameAs": "https://sci-hub.ru/database",
+  "dateCreated": "2022-02-12T18:08:35.435Z",
+  "datePublished": "2022-02-12T17:40:18.000Z",
+  "dateModified": "2022-02-12T18:08:35.435Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 20
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Sci-Hub的统计数据和数据库现在可用",
+  "headline_zh-Hant": "Sci-Hub的統計數據和數據庫現在可用",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--10--en--hackernews--HackerNews--NewsArticle--30286568",
+  "url": "https://news.ycombinator.com/item?id=30286568",
+  "headline": "Node.js adds support for direct registry-less HTTPS imports",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "inglor",
+    "url": "https://news.ycombinator.com/user?id=inglor"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30286568",
+  "sameAs": "https://github.com/nodejs/node/pull/36328",
+  "dateCreated": "2022-02-10T15:07:58.333Z",
+  "datePublished": "2022-02-10T14:36:47.000Z",
+  "dateModified": "2022-02-10T15:07:58.333Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "Node.js增加了对直接无注册表的HTTPS导入的支持",
+  "headline_zh-Hant": "Node.js增加了對直接無註冊表的HTTPS導入的支持",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

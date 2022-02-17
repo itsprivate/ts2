@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--20--en--showhn--HackerNews--NewsArticle--30008900",
+  "url": "https://news.ycombinator.com/item?id=30008900",
+  "headline": "Show HN: Yarr – React router enabling render-as-you-fetch",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "gajus",
+    "url": "https://news.ycombinator.com/user?id=gajus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30008900",
+  "sameAs": "https://github.com/contra/yarr",
+  "dateCreated": "2022-01-20T18:59:20.229Z",
+  "datePublished": "2022-01-20T13:55:53.000Z",
+  "dateModified": "2022-01-20T18:59:20.229Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Yarr - React 路由器，实现了边获取边渲染。",
+  "headline_zh-Hant": "Show HN: Yarr - React 路由器，實現了邊獲取邊渲染。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

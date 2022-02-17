@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--hackernews--HackerNews--NewsArticle--30348925",
+  "url": "https://news.ycombinator.com/item?id=30348925",
+  "headline": "ML training compute has been growing by a factor of 10B since 2010",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "innerfestival",
+    "url": "https://news.ycombinator.com/user?id=innerfestival"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30348925",
+  "sameAs": "https://twitter.com/ohlennart/status/1493521176286609412",
+  "dateCreated": "2022-02-15T18:32:01.218Z",
+  "datePublished": "2022-02-15T16:44:55.000Z",
+  "dateModified": "2022-02-15T18:32:01.218Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "自2010年以来，ML训练计算量一直在以100亿的倍数增长",
+  "headline_zh-Hant": "自2010年以來，ML訓練計算量一直在以100億的倍數增長",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

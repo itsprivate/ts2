@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--06--en--hackernews--HackerNews--NewsArticle--30229427",
+  "url": "https://news.ycombinator.com/item?id=30229427",
+  "headline": "MyFy – Start, Finance, and Run Your Business",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "michaeltendo",
+    "url": "https://news.ycombinator.com/user?id=michaeltendo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30229427",
+  "sameAs": "https://myfy.me/",
+  "dateCreated": "2022-02-06T07:48:12.421Z",
+  "datePublished": "2022-02-06T04:27:03.000Z",
+  "dateModified": "2022-02-06T07:48:12.421Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "MyFy - 创业、融资和经营你的企业",
+  "headline_zh-Hant": "MyFy - 創業、融資和經營你的企業",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

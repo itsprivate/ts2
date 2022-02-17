@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--23488943",
+  "url": "https://news.ycombinator.com/item?id=23488943",
+  "headline": "An empirical study of obsolete answers on Stack Overflow [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fogus",
+    "url": "https://news.ycombinator.com/user?id=fogus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=23488943",
+  "sameAs": "https://arxiv.org/abs/1903.12282",
+  "dateCreated": "2022-02-16T23:08:11.733Z",
+  "datePublished": "2020-06-11T13:58:43.000Z",
+  "dateModified": "2022-02-16T23:08:11.733Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 126
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 103
+    }
+  ],
+  "headline_zh-Hans": "对Stack Overflow上过期答案的实证研究[pdf]",
+  "headline_zh-Hant": "對Stack Overflow上過期答案的實證研究[pdf]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

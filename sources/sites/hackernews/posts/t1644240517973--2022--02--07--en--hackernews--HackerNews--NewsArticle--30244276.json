@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--07--en--hackernews--HackerNews--NewsArticle--30244276",
+  "url": "https://news.ycombinator.com/item?id=30244276",
+  "headline": "This app does not support the App Store’s private and secure payment system",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tiagoleifert",
+    "url": "https://news.ycombinator.com/user?id=tiagoleifert"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30244276",
+  "sameAs": "https://twitter.com/marcoarment/status/1489595793506029578",
+  "dateCreated": "2022-02-07T13:28:37.973Z",
+  "datePublished": "2022-02-07T13:05:29.000Z",
+  "dateModified": "2022-02-07T13:28:37.973Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "此应用程序不支持App Store的私人和安全支付系统",
+  "headline_zh-Hant": "此應用程序不支持App Store的私人和安全支付系統",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

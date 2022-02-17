@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--23--en--showhn--HackerNews--NewsArticle--30051909",
+  "url": "https://news.ycombinator.com/item?id=30051909",
+  "headline": "Show HN: Maroofy – Search for songs that sound similar",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "subtech",
+    "url": "https://news.ycombinator.com/user?id=subtech"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30051909",
+  "sameAs": "https://maroofy.com/",
+  "dateCreated": "2022-01-23T23:47:37.624Z",
+  "datePublished": "2022-01-23T23:44:33.000Z",
+  "dateModified": "2022-01-23T23:47:37.624Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Maroofy - 搜索听起来相似的歌曲",
+  "headline_zh-Hant": "Show HN: Maroofy - 搜索聽起來相似的歌曲",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--30218623",
+  "url": "https://news.ycombinator.com/item?id=30218623",
+  "headline": "Lawmakers Press Amazon on Sales of Chemical Used in Suicides",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "aaronbrethorst",
+    "url": "https://news.ycombinator.com/user?id=aaronbrethorst"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30218623",
+  "sameAs": "https://www.nytimes.com/2022/02/04/technology/amazon-suicide-poison-preservative.html",
+  "dateCreated": "2022-02-16T20:30:47.931Z",
+  "datePublished": "2022-02-05T07:12:50.000Z",
+  "dateModified": "2022-02-16T20:30:47.931Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "立法者就销售用于自杀的化学品向亚马逊施压",
+  "headline_zh-Hant": "立法者就銷售用於自殺的化學品向亞馬遜施壓",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--21371748",
+  "url": "https://news.ycombinator.com/item?id=21371748",
+  "headline": "23 years of software side channel attacks [video]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cperciva",
+    "url": "https://news.ycombinator.com/user?id=cperciva"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=21371748",
+  "sameAs": "https://www.youtube.com/watch?v=UNoP3qVyU8w",
+  "dateCreated": "2022-02-16T23:08:11.765Z",
+  "datePublished": "2019-10-27T19:12:01.000Z",
+  "dateModified": "2022-02-16T23:08:11.765Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 36
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "软件侧信道攻击的23年[视频]",
+  "headline_zh-Hant": "軟件側信道攻擊的23年[視頻]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

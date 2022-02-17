@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--09--en--showhn--HackerNews--NewsArticle--30278389",
+  "url": "https://news.ycombinator.com/item?id=30278389",
+  "headline": "Show HN: ZXB – Script Manager for ZX",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "pyronaur",
+    "url": "https://news.ycombinator.com/user?id=pyronaur"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30278389",
+  "sameAs": "https://github.com/pyronaur/zxb",
+  "dateCreated": "2022-02-09T21:06:53.575Z",
+  "datePublished": "2022-02-09T20:58:59.000Z",
+  "dateModified": "2022-02-09T21:06:53.575Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: ZXB--ZX的脚本管理器",
+  "headline_zh-Hant": "Show HN: ZXB--ZX的腳本管理器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

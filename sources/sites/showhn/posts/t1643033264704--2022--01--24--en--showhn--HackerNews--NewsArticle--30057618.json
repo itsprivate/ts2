@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--24--en--showhn--HackerNews--NewsArticle--30057618",
+  "url": "https://news.ycombinator.com/item?id=30057618",
+  "headline": "Show HN: HomeownerLog – For tracking the tasks you complete around the house",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "zapstar",
+    "url": "https://news.ycombinator.com/user?id=zapstar"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30057618",
+  "sameAs": "https://homeownerlog.com/",
+  "dateCreated": "2022-01-24T14:07:44.704Z",
+  "datePublished": "2022-01-24T14:01:48.000Z",
+  "dateModified": "2022-01-24T14:07:44.704Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 房主日志 - 用于跟踪你在房子周围完成的任务",
+  "headline_zh-Hant": "Show HN: 房主日誌 - 用於跟蹤你在房子周圍完成的任務",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

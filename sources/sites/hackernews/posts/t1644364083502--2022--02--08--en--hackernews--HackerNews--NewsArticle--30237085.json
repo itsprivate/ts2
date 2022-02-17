@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--08--en--hackernews--HackerNews--NewsArticle--30237085",
+  "url": "https://news.ycombinator.com/item?id=30237085",
+  "headline": "The Common Tongue of Twenty-First-Century London",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Petiver",
+    "url": "https://news.ycombinator.com/user?id=Petiver"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30237085",
+  "sameAs": "https://www.newyorker.com/culture/personal-history/the-common-tongue-of-twenty-first-century-london",
+  "dateCreated": "2022-02-08T23:48:03.502Z",
+  "datePublished": "2022-02-06T21:17:34.000Z",
+  "dateModified": "2022-02-08T23:48:03.502Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "二十一世纪伦敦的通用语",
+  "headline_zh-Hant": "二十一世紀倫敦的通用語",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--hackernews--HackerNews--NewsArticle--30345760",
+  "url": "https://news.ycombinator.com/item?id=30345760",
+  "headline": "GeoFS – a flight simulator based on Cesium WebGL Virtual Globe",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ghgr",
+    "url": "https://news.ycombinator.com/user?id=ghgr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30345760",
+  "sameAs": "https://www.geo-fs.com/",
+  "dateCreated": "2022-02-15T15:48:01.271Z",
+  "datePublished": "2022-02-15T12:49:55.000Z",
+  "dateModified": "2022-02-15T15:48:01.271Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "GeoFS--一个基于Cesium WebGL虚拟地球的飞行模拟器",
+  "headline_zh-Hant": "GeoFS--一個基於Cesium WebGL虛擬地球的飛行模擬器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

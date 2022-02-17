@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--07--en--hackernews--HackerNews--NewsArticle--30238928",
+  "url": "https://news.ycombinator.com/item?id=30238928",
+  "headline": "Some of the error messages produced by Apple's MPW C compiler",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tiagobraw",
+    "url": "https://news.ycombinator.com/user?id=tiagobraw"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30238928",
+  "sameAs": "https://www.cs.cmu.edu/~jasonh/personal/humor/compile.html",
+  "dateCreated": "2022-02-07T01:36:09.673Z",
+  "datePublished": "2022-02-07T01:12:14.000Z",
+  "dateModified": "2022-02-07T01:36:09.673Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "苹果的MPW C编译器产生的一些错误信息",
+  "headline_zh-Hant": "蘋果的MPW C編譯器產生的一些錯誤信息",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

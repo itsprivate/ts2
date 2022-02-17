@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--05--en--askhn--HackerNews--NewsArticle--30222765",
+  "url": "https://news.ycombinator.com/item?id=30222765",
+  "headline": "Ask HN: If you came with a user's manual, what would be in it?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "Victerius",
+    "url": "https://news.ycombinator.com/user?id=Victerius"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30222765",
+  "sameAs": "https://news.ycombinator.com/item?id=30222765",
+  "dateCreated": "2022-02-05T16:49:33.427Z",
+  "datePublished": "2022-02-05T16:36:00.000Z",
+  "dateModified": "2022-02-05T16:49:33.427Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如果你有一本用户手册，里面会有什么内容？",
+  "headline_zh-Hant": "Ask HN: 如果你有一本用戶手冊，裡面會有什麼內容？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

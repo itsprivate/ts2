@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--14--en--hackernews--HackerNews--NewsArticle--30338289",
+  "url": "https://news.ycombinator.com/item?id=30338289",
+  "headline": "SSH-tools: Making SSH more convenient",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vaporup",
+    "url": "https://news.ycombinator.com/user?id=vaporup"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30338289",
+  "sameAs": "https://github.com/vaporup/ssh-tools",
+  "dateCreated": "2022-02-14T22:08:02.246Z",
+  "datePublished": "2022-02-14T21:01:35.000Z",
+  "dateModified": "2022-02-14T22:08:02.246Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 11
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "SSH-tools。让SSH更方便",
+  "headline_zh-Hant": "SSH-tools。讓SSH更方便",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

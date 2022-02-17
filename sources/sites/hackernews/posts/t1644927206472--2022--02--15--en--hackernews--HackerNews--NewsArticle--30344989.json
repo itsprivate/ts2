@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--15--en--hackernews--HackerNews--NewsArticle--30344989",
+  "url": "https://news.ycombinator.com/item?id=30344989",
+  "headline": "I let my 6 y.o. daughter design my website",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kbst",
+    "url": "https://news.ycombinator.com/user?id=kbst"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30344989",
+  "sameAs": "https://news.ycombinator.com/item?id=30344989",
+  "dateCreated": "2022-02-15T12:13:26.472Z",
+  "datePublished": "2022-02-15T10:59:32.000Z",
+  "dateModified": "2022-02-15T12:13:26.472Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 20
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "我让我6岁的女儿设计我的网站",
+  "headline_zh-Hant": "我讓我6歲的女兒設計我的網站",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

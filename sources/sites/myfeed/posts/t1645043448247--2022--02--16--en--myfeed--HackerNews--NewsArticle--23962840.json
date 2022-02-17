@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--23962840",
+  "url": "https://news.ycombinator.com/item?id=23962840",
+  "headline": "GnuTLS audit: passive cleartext recovery attack",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "masklinn",
+    "url": "https://news.ycombinator.com/user?id=masklinn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=23962840",
+  "sameAs": "https://anarc.at/blog/2020-06-10-gnutls-audit/",
+  "dateCreated": "2022-02-16T20:30:48.247Z",
+  "datePublished": "2020-07-27T07:08:37.000Z",
+  "dateModified": "2022-02-16T20:30:48.247Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 146
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 25
+    }
+  ],
+  "headline_zh-Hans": "GnuTLS审计：被动明文恢复攻击",
+  "headline_zh-Hant": "GnuTLS審計：被動明文恢復攻擊",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

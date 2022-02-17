@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--01--22--en--showhn--HackerNews--NewsArticle--30035608",
+  "url": "https://news.ycombinator.com/item?id=30035608",
+  "headline": "Show HN: Chrome extension to get research paper details",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "vpj",
+    "url": "https://news.ycombinator.com/user?id=vpj"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30035608",
+  "sameAs": "https://chrome.google.com/webstore/detail/paperslabmlai/agkeoekbbkpokfbpmmminnombikadbhb",
+  "dateCreated": "2022-01-22T11:05:44.832Z",
+  "datePublished": "2022-01-22T11:00:39.000Z",
+  "dateModified": "2022-01-22T11:05:44.832Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 获取研究论文细节的Chrome扩展",
+  "headline_zh-Hant": "Show HN: 獲取研究論文細節的Chrome擴展",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "https://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

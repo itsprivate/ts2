@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--06--en--hackernews--HackerNews--NewsArticle--30213234",
+  "url": "https://news.ycombinator.com/item?id=30213234",
+  "headline": "James Joyce’s Ulysses reviewed (1922)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "see-also",
+    "url": "https://news.ycombinator.com/user?id=see-also"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30213234",
+  "sameAs": "https://www.theguardian.com/books/2022/feb/02/james-joyces-ulysses-reviewed-observer-1922",
+  "dateCreated": "2022-02-06T08:47:54.540Z",
+  "datePublished": "2022-02-04T21:08:25.000Z",
+  "dateModified": "2022-02-06T08:47:54.540Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "詹姆斯-乔伊斯的《尤利西斯》被评论(1922年)",
+  "headline_zh-Hant": "詹姆斯-喬伊斯的《尤利西斯》被評論(1922年)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

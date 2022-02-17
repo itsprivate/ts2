@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--11--en--hackernews--HackerNews--NewsArticle--30302079",
+  "url": "https://news.ycombinator.com/item?id=30302079",
+  "headline": "Why won’t anyone teach me math?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mathgenius",
+    "url": "https://news.ycombinator.com/user?id=mathgenius"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30302079",
+  "sameAs": "https://www.dailyprincetonian.com/article/2022/02/stem-intro-courses-humanites-exploration",
+  "dateCreated": "2022-02-11T15:39:19.686Z",
+  "datePublished": "2022-02-11T14:50:16.000Z",
+  "dateModified": "2022-02-11T15:39:19.686Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 15
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 8
+    }
+  ],
+  "headline_zh-Hans": "为什么没有人教我数学？",
+  "headline_zh-Hant": "為什麼沒有人教我數學？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

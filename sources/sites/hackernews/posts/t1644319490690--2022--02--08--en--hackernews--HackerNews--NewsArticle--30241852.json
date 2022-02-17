@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--08--en--hackernews--HackerNews--NewsArticle--30241852",
+  "url": "https://news.ycombinator.com/item?id=30241852",
+  "headline": "A short history of the O’Reilly animals",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "neamar",
+    "url": "https://news.ycombinator.com/user?id=neamar"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30241852",
+  "sameAs": "https://www.oreilly.com/animals.csp",
+  "dateCreated": "2022-02-08T11:24:50.690Z",
+  "datePublished": "2022-02-07T08:25:36.000Z",
+  "dateModified": "2022-02-08T11:24:50.690Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 15
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "奥莱利动物的简短历史",
+  "headline_zh-Hant": "奧萊利動物的簡短歷史",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

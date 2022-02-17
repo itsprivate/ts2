@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--14--en--hackernews--HackerNews--NewsArticle--30333200",
+  "url": "https://news.ycombinator.com/item?id=30333200",
+  "headline": "Yesterday I Was Levi’s Brand President. I Quit So I Could Be Free",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lando2319",
+    "url": "https://news.ycombinator.com/user?id=lando2319"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30333200",
+  "sameAs": "https://bariweiss.substack.com/p/yesterday-i-was-levis-brand-president",
+  "dateCreated": "2022-02-14T16:09:23.109Z",
+  "datePublished": "2022-02-14T15:32:35.000Z",
+  "dateModified": "2022-02-14T16:09:23.109Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 28
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "昨天我还是李维斯的品牌总裁。我辞职了，这样我就可以自由了",
+  "headline_zh-Hant": "昨天我還是李維斯的品牌總裁。我辭職了，這樣我就可以自由了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

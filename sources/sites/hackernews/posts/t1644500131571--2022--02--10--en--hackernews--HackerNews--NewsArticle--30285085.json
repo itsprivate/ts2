@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--10--en--hackernews--HackerNews--NewsArticle--30285085",
+  "url": "https://news.ycombinator.com/item?id=30285085",
+  "headline": "Imaginary Numbers Are Reality",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "CapitalistCartr",
+    "url": "https://news.ycombinator.com/user?id=CapitalistCartr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30285085",
+  "sameAs": "https://nautil.us/imaginary-numbers-are-reality-13999/",
+  "dateCreated": "2022-02-10T13:35:31.571Z",
+  "datePublished": "2022-02-10T12:13:23.000Z",
+  "dateModified": "2022-02-10T13:35:31.571Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "虚数就是现实",
+  "headline_zh-Hant": "虛數就是現實",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
