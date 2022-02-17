@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--17--en--showhn--HackerNews--NewsArticle--30370004",
+  "url": "https://news.ycombinator.com/item?id=30370004",
+  "headline": "Show HN: What The Fake: Guess which headline is real?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "cerivitos",
+    "url": "https://news.ycombinator.com/user?id=cerivitos"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30370004",
+  "sameAs": "https://wtf.notmydayjob.fyi",
+  "dateCreated": "2022-02-17T06:12:15.713Z",
+  "datePublished": "2022-02-17T05:58:43.000Z",
+  "dateModified": "2022-02-17T06:12:15.713Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 什么是假的。猜猜哪个标题是真的？",
+  "headline_zh-Hant": "Show HN: 什麼是假的。猜猜哪個標題是真的？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
