@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--17--en--hackernews--HackerNews--NewsArticle--30373279",
+  "url": "https://news.ycombinator.com/item?id=30373279",
+  "headline": "13yo kid builds TinyML powered “e-nose” to diagnose pneumonia",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kartben_",
+    "url": "https://news.ycombinator.com/user?id=kartben_"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30373279",
+  "sameAs": "https://blog.benjamin-cabe.com/2022/02/16/how-a-13-year-old-used-my-artificial-nose-to-diagnose-pneumonia",
+  "dateCreated": "2022-02-17T14:52:04.336Z",
+  "datePublished": "2022-02-17T14:18:48.000Z",
+  "dateModified": "2022-02-17T14:52:04.336Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "13岁的孩子建立了由TinyML驱动的 \"电子鼻 \"来诊断肺炎",
+  "headline_zh-Hant": "13歲的孩子建立了由TinyML驅動的 \"電子鼻 \"來診斷肺炎",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
