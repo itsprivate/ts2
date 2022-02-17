@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--17--en--myfeed--HackerNews--NewsArticle--30376112",
+  "url": "https://news.ycombinator.com/item?id=30376112",
+  "headline": "Glowing clouds surround an exploded star in NASA mission's first image",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Tomte",
+    "url": "https://news.ycombinator.com/user?id=Tomte"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30376112",
+  "sameAs": "https://www.cnn.com/2022/02/16/world/nasa-ixpe-xray-image-scn/index.html",
+  "dateCreated": "2022-02-17T17:52:20.528Z",
+  "datePublished": "2022-02-17T17:40:52.000Z",
+  "dateModified": "2022-02-17T17:52:20.528Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "美国宇航局任务的第一张图片中，发光的云层围绕着一颗爆炸的恒星",
+  "headline_zh-Hant": "美國宇航局任務的第一張圖片中，發光的雲層圍繞著一顆爆炸的恆星",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
