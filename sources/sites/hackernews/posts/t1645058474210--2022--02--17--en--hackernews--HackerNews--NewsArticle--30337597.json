@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--17--en--hackernews--HackerNews--NewsArticle--30337597",
+  "url": "https://news.ycombinator.com/item?id=30337597",
+  "headline": "The multiple meanings of “nameserver” and “DNS resolver”",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "todsacerdoti",
+    "url": "https://news.ycombinator.com/user?id=todsacerdoti"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30337597",
+  "sameAs": "https://jvns.ca/blog/2022/02/14/some-dns-terminology/",
+  "dateCreated": "2022-02-17T00:41:14.210Z",
+  "datePublished": "2022-02-14T20:11:19.000Z",
+  "dateModified": "2022-02-17T00:41:14.210Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 48
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "\"名称服务器 \"和 \"DNS解析器 \"的多重含义",
+  "headline_zh-Hant": "\"名稱服務器 \"和 \"DNS解析器 \"的多重含義",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

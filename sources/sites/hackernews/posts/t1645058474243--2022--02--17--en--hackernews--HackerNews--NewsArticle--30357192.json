@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--17--en--hackernews--HackerNews--NewsArticle--30357192",
+  "url": "https://news.ycombinator.com/item?id=30357192",
+  "headline": "I quit my job to make free web tools",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pul",
+    "url": "https://news.ycombinator.com/user?id=pul"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30357192",
+  "sameAs": "https://www.nslookup.io/blog/i-quit-my-job/",
+  "dateCreated": "2022-02-17T00:41:14.243Z",
+  "datePublished": "2022-02-16T07:18:58.000Z",
+  "dateModified": "2022-02-17T00:41:14.243Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 121
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 26
+    }
+  ],
+  "headline_zh-Hans": "我辞去工作，制作免费网络工具",
+  "headline_zh-Hant": "我辭去工作，製作免費網絡工具",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
