@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--17--en--hackernews--HackerNews--NewsArticle--30376904",
+  "url": "https://news.ycombinator.com/item?id=30376904",
+  "headline": "Despite rising wages, 61% of Americans are still living paycheck to paycheck",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kungfudoi",
+    "url": "https://news.ycombinator.com/user?id=kungfudoi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30376904",
+  "sameAs": "https://www.cnbc.com/2022/02/17/wages-are-rising-but-many-americans-still-live-paycheck-to-paycheck.html",
+  "dateCreated": "2022-02-17T19:11:22.151Z",
+  "datePublished": "2022-02-17T18:42:34.000Z",
+  "dateModified": "2022-02-17T19:11:22.151Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 21
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 7
+    }
+  ],
+  "headline_zh-Hans": "尽管工资上涨，61%的美国人仍在靠工资过日子",
+  "headline_zh-Hant": "儘管工資上漲，61%的美國人仍在靠工資過日子",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
