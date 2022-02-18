@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--18--en--hackernews--HackerNews--NewsArticle--30387879",
+  "url": "https://news.ycombinator.com/item?id=30387879",
+  "headline": "An example of why RSS is useful and important",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ChrisHardie",
+    "url": "https://news.ycombinator.com/user?id=ChrisHardie"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30387879",
+  "sameAs": "https://tech.chrishardie.com/2022/rss-useful-important/",
+  "dateCreated": "2022-02-18T19:11:08.717Z",
+  "datePublished": "2022-02-18T16:37:33.000Z",
+  "dateModified": "2022-02-18T19:11:08.717Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 14
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "一个说明RSS为何有用和重要的例子",
+  "headline_zh-Hant": "一個說明RSS為何有用和重要的例子",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
