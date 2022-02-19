@@ -52,6 +52,7 @@ steps:
       if(!title){
         return null;
       }
+      title = title + " ("+result['headline']+")";
       let form =  {
         api_type:"json",
         sr: 'hnzh',

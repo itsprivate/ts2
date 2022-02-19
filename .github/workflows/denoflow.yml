@@ -26,6 +26,7 @@ jobs:
           SCALEWAY_ACCESS_KEY_ID: ${{secrets.SCALEWAY_ACCESS_KEY_ID}}
           SCALEWAY_SECRET_ACCESS_KEY: ${{secrets.SCALEWAY_SECRET_ACCESS_KEY}}
           REDDIT_HNZHBOT_BASIC: ${{secrets.REDDIT_HNZHBOT_BASIC}}
+          REDDIT_HNZHBOT_BODY: ${{secrets.REDDIT_HNZHBOT_BODY}}
         continue-on-error: true
       - name: chown
         run: sudo chown -R $USER:$USER ./
