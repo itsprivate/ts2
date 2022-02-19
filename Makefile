@@ -47,3 +47,5 @@ t2:
 	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run tests/test2.yml --database json://dev-data
 besthn:
 	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run besthn --limit=1 --force --database json://dev-data 
+best:
+	ENV=dev deno run -A --unstable site/cli.ts besthn
