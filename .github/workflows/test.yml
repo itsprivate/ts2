@@ -16,7 +16,7 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - run: make install
+      # - run: make install
       - run: make prodtest
         env:
           SCALEWAY_ACCESS_KEY_ID: ${{secrets.SCALEWAY_ACCESS_KEY_ID}}
