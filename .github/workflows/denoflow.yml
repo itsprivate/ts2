@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     concurrency: denoflow
     steps:
-      - if: github.event_name!="workflow_dispatch"
+      - if: 'github.event_name!="workflow_dispatch"'
         name: sleep for pr
         run: sleep 2m
       - name: Check out repository code
