@@ -1,6 +1,8 @@
 .Phony: run update test local install github source tr start build cache ask show front hackernews
+# run:
+# 	DENO_DIR=./deno_dir deno run -A --unstable https://deno.land/x/denoflow@0.0.30/cli.ts run apps/*/sources/*.yml translate.yml archive
 run:
-	DENO_DIR=./deno_dir deno run -A --unstable https://deno.land/x/denoflow@0.0.30/cli.ts run apps/*/sources/*.yml translate.yml archive
+	DENO_DIR=./deno_dir deno run -A --unstable https://deno.land/x/denoflow@0.0.30/cli.ts run besthn translate.yml archive
 update:
 	DENO_DIR=./deno_dir deno cache --reload https://deno.land/x/denoflow@0.0.30/cli.ts
 test:
@@ -33,7 +35,15 @@ front:
 	deno run -A --unstable site/cli.ts hackernews
 feed:
 	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run hnauthors --database json://dev-data
+faq:
+	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run askhn --database json://dev-data
 feedsite:
 	deno run -A --unstable site/cli.ts myfeed
 devfeedsite:
 	ENV=dev deno run -A --unstable site/cli.ts myfeed
+t:
+	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run tests/test.yml --database json://dev-data
+t2:
+	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run tests/test2.yml --database json://dev-data
+besthn:
+	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run besthn --database json://dev-data

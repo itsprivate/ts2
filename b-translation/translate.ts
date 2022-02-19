@@ -21,8 +21,8 @@ import {
 } from "https://cdn.skypack.dev/jsonld?dts";
 import zhToHant from "./zh-to-hant.ts";
 const homepage = "https://www.deepl.com/translator";
-// const isDev = Deno.env.get("ENV") === "dev";
-const isDev = false;
+const isDev = Deno.env.get("ENV") === "dev";
+// const isDev = false;
 export default async function (files: string[]) {
   const results: boolean[] = [];
   let browser: Browser | null = null;

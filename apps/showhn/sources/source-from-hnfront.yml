@@ -8,7 +8,7 @@ sources:
     key: objectID
     # force: true
     # limit:
-    filter: return ctx.item._tags.includes("front_page") && !ctx.item._tags.includes("show_hn") && !ctx.item._tags.includes("ask_hn");
+    # filter: return ctx.item._tags.includes("front_page") && !ctx.item._tags.includes("show_hn") && !ctx.item._tags.includes("ask_hn");
     reverse: true
 steps:
   - from: ./format.ts

@@ -1,12 +1,10 @@
 import { NewsArticle, Person, Organization } from "https://esm.sh/schema-dts";
 import {
-  getYearMonthDay,
   getDataFilePath,
   stringifyIdentifier,
   parseIdentifier,
   getPathIdentifierByIdentifier,
 } from "../../../common/util.ts";
-import { ROOT_DOMAIN } from "../../../common/constant.ts";
 import { titleCase } from "https://esm.sh/title-case";
 import { ensureDir } from "https://deno.land/std@0.121.0/fs/mod.ts";
 
@@ -118,13 +116,17 @@ export default async function (item: Item, siteIdentifier: string) {
     name: item.author,
     url: `${publisherUrl}/user?id=${item.author}`,
   };
+  let description = "";
+  if (item?._highlightResult?.story_text?.value) {
+    description = item._highlightResult.story_text.value;
+  }
   const newItem: NewsArticle = {
     "@type": type,
     identifier,
     url,
     headline,
     publisher,
-    description: "",
+    description: description,
     keywords,
     genre,
     author,
@@ -178,6 +180,7 @@ export interface HighlightResult {
   title: TitleOrUrlOrAuthor;
   url: TitleOrUrlOrAuthor;
   author: TitleOrUrlOrAuthor;
+  story_text: TitleOrUrlOrAuthor;
 }
 export interface TitleOrUrlOrAuthor {
   value: string;

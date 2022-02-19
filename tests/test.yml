@@ -1,0 +1,17 @@
+sources:
+  - run: return [{"id":new Date().getTime()}]
+steps:
+  - run: console.log('item',ctx.item)
+  - use: fetch
+    # Open: <https://requestbin.com/r/enyvb91j5zjv9/23eNPamD4DK4YK1rfEB1FAQOKIj> , See live webhook request. replace your webhook here
+    env:
+      DISCORD_WEBHOOK: https://enyvb91j5zjv9.x.pipedream.net/
+      REDDIT_TOKEN: ttttttttttt
+    args:
+      - ${{ctx.env.DISCORD_WEBHOOK}}
+      - headers:
+          Authorization: Bearer ${{ctx.env.REDDIT_TOKEN}}
+          User-Agent: HackerNewsZh/0.1 by hnzhbot
+          Content-Type: application/x-www-form-urlencoded
+        method: POST
+        body: "${{new URLSearchParams({'sr': 'hnzh','kind': 'link','title': 'xxxxx'})}}"

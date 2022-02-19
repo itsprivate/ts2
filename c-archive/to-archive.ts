@@ -99,6 +99,7 @@ export default async function to(file: string) {
     // write to archive
     await writeJson(slugsFilePath, newTagsData);
   }
+  return item;
 }
 
 export async function formatArchiveData(item: unknown) {
