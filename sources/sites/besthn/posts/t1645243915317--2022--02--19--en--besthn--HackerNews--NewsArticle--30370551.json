@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--19--en--besthn--HackerNews--NewsArticle--30370551",
+  "url": "https://news.ycombinator.com/item?id=30370551",
+  "headline": "Apple's custom NVMes are amazingly fast – if you don't care about data integrity",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "omnibrain",
+    "url": "https://news.ycombinator.com/user?id=omnibrain"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30370551",
+  "sameAs": "https://twitter.com/marcan42/status/1494213855387734019",
+  "dateCreated": "2022-02-19T04:11:55.317Z",
+  "datePublished": "2022-02-17T07:54:10.000Z",
+  "dateModified": "2022-02-19T04:11:55.317Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 637
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 347
+    }
+  ],
+  "headline_zh-Hans": "苹果的定制NVMs速度惊人--如果你不关心数据完整性的话",
+  "headline_zh-Hant": "蘋果的定製NVMs速度驚人--如果你不關心數據完整性的話",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
