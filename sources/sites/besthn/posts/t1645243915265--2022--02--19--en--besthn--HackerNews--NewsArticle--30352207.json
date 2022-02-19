@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--19--en--besthn--HackerNews--NewsArticle--30352207",
+  "url": "https://news.ycombinator.com/item?id=30352207",
+  "headline": "Free public domain ebooks in PDf, ePub, mobi formats",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "notanexpert",
+    "url": "https://news.ycombinator.com/user?id=notanexpert"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30352207",
+  "sameAs": "https://www.globalgreyebooks.com/index.html",
+  "dateCreated": "2022-02-19T04:11:55.265Z",
+  "datePublished": "2022-02-15T20:29:00.000Z",
+  "dateModified": "2022-02-19T04:11:55.265Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 330
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 79
+    }
+  ],
+  "headline_zh-Hans": "PDf、ePub、mobi格式的免费公共领域电子书",
+  "headline_zh-Hant": "PDf、ePub、mobi格式的免費公共領域電子書",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
