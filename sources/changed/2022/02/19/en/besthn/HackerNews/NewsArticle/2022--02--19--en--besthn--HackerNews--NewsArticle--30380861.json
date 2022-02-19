@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--19--en--besthn--HackerNews--NewsArticle--30380861",
+  "url": "https://news.ycombinator.com/item?id=30380861",
+  "headline": "Fred's ImageMagick Scripts",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "beepbooptheory",
+    "url": "https://news.ycombinator.com/user?id=beepbooptheory"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30380861",
+  "sameAs": "http://www.fmwconcepts.com/imagemagick/index.php",
+  "dateCreated": "2022-02-19T00:37:15.348Z",
+  "datePublished": "2022-02-18T00:41:27.000Z",
+  "dateModified": "2022-02-19T00:37:15.348Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 263
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 40
+    }
+  ],
+  "headline_zh-Hans": "弗雷德的ImageMagick脚本",
+  "headline_zh-Hant": "弗雷德的ImageMagick腳本",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

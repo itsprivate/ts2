@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--19--en--besthn--HackerNews--NewsArticle--30382577",
+  "url": "https://news.ycombinator.com/item?id=30382577",
+  "headline": "Open-source online SVG path editor",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sandreas",
+    "url": "https://news.ycombinator.com/user?id=sandreas"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30382577",
+  "sameAs": "https://github.com/Yqnn/svg-path-editor",
+  "dateCreated": "2022-02-19T00:37:15.361Z",
+  "datePublished": "2022-02-18T06:01:40.000Z",
+  "dateModified": "2022-02-19T00:37:15.361Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 152
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 27
+    }
+  ],
+  "headline_zh-Hans": "开源的在线SVG路径编辑器",
+  "headline_zh-Hant": "開源的在線SVG路徑編輯器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
