@@ -12,7 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     concurrency: denoflow
     steps:
-      - name: sleep for pr
+      - if: github.event_name!="workflow_dispatch"
+        name: sleep for pr
         run: sleep 2m
       - name: Check out repository code
         uses: actions/checkout@v2
