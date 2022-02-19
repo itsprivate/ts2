@@ -175,19 +175,27 @@ export const customLoader = async (url: string) => {
   };
 };
 
-export function getFinalHeadline(item: unknown, headline: string): string {
-  const name = get(item, "name");
-  const genre = get(item, "genre");
-  let title = ``;
-  if (genre) {
-    title += `${genre}: `;
-  }
-  if (name) {
-    title += `${name} - `;
-  }
-  if (headline) {
-    title += headline;
-  }
+export function getFinalHeadline(
+  translatedKey: string,
+  item: unknown,
+  headline: string
+): string {
+  if (translatedKey === "headline") {
+    const name = get(item, "name");
+    const genre = get(item, "genre");
+    let title = ``;
+    if (genre) {
+      title += `${genre}: `;
+    }
+    if (name) {
+      title += `${name} - `;
+    }
+    if (headline) {
+      title += headline;
+    }
 
-  return title;
+    return title;
+  } else {
+    return headline;
+  }
 }

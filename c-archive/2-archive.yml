@@ -5,9 +5,11 @@ sources:
       - ./${{ctx.env.ENV=='dev'?'dev-':''}}sources/changed
     key: path
     force: true
-    limit: 1
+    # limit: 1
     filter: return ctx.item.ext === 'json'
+
 filter:
+  # from: ./test.ts
   use: fetch
   if: true
   args:
@@ -17,6 +19,8 @@ filter:
         User-Agent: HackerNewsZh/0.1 by hnzhbot
         Content-Type: application/x-www-form-urlencoded
         Authorization: ${{ctx.env.REDDIT_HNZHBOT_BASIC}}
+      body: ${{ctx.env.REDDIT_HNZHBOT_BODY}}
+
   run: |
     let result = await ctx.result.json();
     Deno.env.set("REDDIT_TOKEN", result.access_token);
@@ -49,6 +53,7 @@ steps:
         return null;
       }
       let form =  {
+        api_type:"json",
         sr: 'hnzh',
         kind: isLink?'link':'self',
         title: title
@@ -74,6 +79,8 @@ steps:
     if: ${{ ctx.steps.form.result!==null && ctx.steps.isPublishToReddit.result===true}}
     args:
       - https://oauth.reddit.com/api/submit
+      # Open: <https://requestbin.com/r/enyvb91j5zjv9/23eNPamD4DK4YK1rfEB1FAQOKIj> , See live webhook request. replace your webhook here
+      # - https://enyvb91j5zjv9.x.pipedream.net/
       - headers:
           Authorization: Bearer ${{ctx.env.REDDIT_TOKEN}}
           User-Agent: HackerNewsZh/0.1 by hnzhbot

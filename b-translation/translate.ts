@@ -122,7 +122,6 @@ export async function translateItem(item: NodeObject, page: Page | null) {
     "@language": sourceLanguage,
   };
   for (const targetLanguage of TARGET_LANGUAGES) {
-    // TODO
     for (const translatedKey of TRANSLATED_FIELDS) {
       const translatedValue = get(item, translatedKey) as string;
       const translatedTargetKey = `${translatedKey}_${targetLanguage}`;
@@ -156,13 +155,13 @@ export async function translateItem(item: NodeObject, page: Page | null) {
           item = set(
             item,
             translatedKey,
-            getFinalHeadline(item, translatedValue)
+            getFinalHeadline(translatedKey, item, translatedValue)
           ) as NodeObject;
 
           item = set(
             item,
             translatedTargetKey,
-            getFinalHeadline(item, translated.result)
+            getFinalHeadline(translatedKey, item, translated.result)
           ) as NodeObject;
           context = set(context, getContextKey(translatedTargetKey), {
             "@id": getContextKey(translatedKey),
@@ -175,7 +174,7 @@ export async function translateItem(item: NodeObject, page: Page | null) {
             item = set(
               item,
               translatedTargetHantKey,
-              getFinalHeadline(item, zhToHant(translated.result))
+              getFinalHeadline(translatedKey, item, zhToHant(translated.result))
             ) as NodeObject;
             context = set(context, getContextKey(translatedTargetHantKey), {
               "@id": getContextKey(translatedKey),
