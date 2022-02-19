@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--19--en--askhn--HackerNews--NewsArticle--30392926",
+  "url": "https://news.ycombinator.com/item?id=30392926",
+  "headline": "Ask HN: How do you implement audit trail for a product?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Say I want to log every change to the database, how does one go about implementing that when using open source DBs like Postgres or CouchDB? Are there open source, on-premise solutions available for this?<p>Also, what other factors need to be considered when implementing audit trail?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "_448",
+    "url": "https://news.ycombinator.com/user?id=_448"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30392926",
+  "sameAs": "https://news.ycombinator.com/item?id=30392926",
+  "dateCreated": "2022-02-19T02:30:32.821Z",
+  "datePublished": "2022-02-19T00:03:56.000Z",
+  "dateModified": "2022-02-19T02:30:32.821Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何实现产品的审计跟踪？",
+  "headline_zh-Hant": "Ask HN: 如何實現產品的審計跟蹤？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "假设我想记录数据库的每一个变化，在使用Postgres或CouchDB这样的开源数据库时，该如何去实现呢？是否有开源的内部解决方案可用于此？<p>另外，在实施审计跟踪时还需要考虑哪些因素？",
+  "description_zh-Hant": "假設我想記錄數據庫的每一個變化，在使用Postgres或CouchDB這樣的開源數據庫時，該如何去實現呢？是否有開源的內部解決方案可用於此？<p>另外，在實施審計跟蹤時還需要考慮哪些因素？"
+}
