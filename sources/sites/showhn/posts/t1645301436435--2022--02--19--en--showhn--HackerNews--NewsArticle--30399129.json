@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--02--16--en--myfeed--HackerNews--NewsArticle--19276076",
-  "url": "https://news.ycombinator.com/item?id=19276076",
-  "headline": "Machining the Ultimate Hackathon Prize",
+  "identifier": "2022--02--19--en--showhn--HackerNews--NewsArticle--30399129",
+  "url": "https://news.ycombinator.com/item?id=30399129",
+  "headline": "Show HN: Arduino 6502 Controller",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "jsomers",
-    "url": "https://news.ycombinator.com/user?id=jsomers"
+    "name": "billziss",
+    "url": "https://news.ycombinator.com/user?id=billziss"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=19276076",
-  "sameAs": "https://blog.janestreet.com/hackathon-keyboards/",
-  "dateCreated": "2022-02-16T20:30:49.388Z",
-  "datePublished": "2019-02-28T22:43:17.000Z",
-  "dateModified": "2022-02-16T20:30:49.388Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30399129",
+  "sameAs": "https://github.com/billziss-gh/arduino-6502ctl",
+  "dateCreated": "2022-02-19T20:10:36.435Z",
+  "datePublished": "2022-02-19T18:13:06.000Z",
+  "dateModified": "2022-02-19T20:10:36.435Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 3
+      "userInteractionCount": 2
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "加工最终的黑客马拉松奖",
-  "headline_zh-Hant": "加工最終的黑客馬拉松獎",
+  "headline_zh-Hans": "Show HN: Arduino 6502控制器",
+  "headline_zh-Hant": "Show HN: Arduino 6502控制器",
   "@context": [
     "https://schema.org",
     {
