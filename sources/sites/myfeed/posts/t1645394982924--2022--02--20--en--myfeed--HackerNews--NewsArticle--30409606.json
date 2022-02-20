@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--01--30--en--askhn--HackerNews--NewsArticle--30135907",
-  "url": "https://news.ycombinator.com/item?id=30135907",
-  "headline": "Ask HN: What Happened to YouTube Recommendations?",
+  "identifier": "2022--02--20--en--myfeed--HackerNews--NewsArticle--30409606",
+  "url": "https://news.ycombinator.com/item?id=30409606",
+  "headline": "PACSafe: Leveraging ARM Pointer Authentication for Memory Safety in C/C++",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,27 +10,24 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [
-    "Ask HN"
-  ],
-  "genre": "Ask HN",
+  "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "exizt88",
-    "url": "https://news.ycombinator.com/user?id=exizt88"
+    "name": "belter",
+    "url": "https://news.ycombinator.com/user?id=belter"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30135907",
-  "sameAs": "https://news.ycombinator.com/item?id=30135907",
-  "dateCreated": "2022-01-30T11:22:28.924Z",
-  "datePublished": "2022-01-30T11:09:56.000Z",
-  "dateModified": "2022-01-30T11:22:28.924Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30409606",
+  "sameAs": "https://arxiv.org/abs/2202.08669",
+  "dateCreated": "2022-02-20T22:09:42.924Z",
+  "datePublished": "2022-02-20T21:53:50.000Z",
+  "dateModified": "2022-02-20T22:09:42.924Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 1
+      "userInteractionCount": 2
     },
     {
       "@type": "InteractionCounter",
@@ -40,12 +37,12 @@
       "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "Ask HN: YouTube推荐发生了什么？",
-  "headline_zh-Hant": "Ask HN: YouTube推薦發生了什麼？",
+  "headline_zh-Hans": "PACSafe。在C/C++中利用ARM指针认证实现内存安全",
+  "headline_zh-Hant": "PACSafe。在C/C++中利用ARM指針認證實現內存安全",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
