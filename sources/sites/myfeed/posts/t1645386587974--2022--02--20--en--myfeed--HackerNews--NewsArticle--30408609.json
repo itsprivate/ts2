@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--myfeed--HackerNews--NewsArticle--30408609",
+  "url": "https://news.ycombinator.com/item?id=30408609",
+  "headline": "Sharpened Cosine Similarity for Neural Networks",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "btown",
+    "url": "https://news.ycombinator.com/user?id=btown"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30408609",
+  "sameAs": "https://e2eml.school/scs.html",
+  "dateCreated": "2022-02-20T19:49:47.974Z",
+  "datePublished": "2022-02-20T19:41:35.000Z",
+  "dateModified": "2022-02-20T19:49:47.974Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "神经网络的锐化余弦相似性",
+  "headline_zh-Hant": "神經網絡的銳化餘弦相似性",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
