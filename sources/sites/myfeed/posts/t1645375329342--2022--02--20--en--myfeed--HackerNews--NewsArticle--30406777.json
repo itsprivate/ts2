@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--myfeed--HackerNews--NewsArticle--30406777",
+  "url": "https://news.ycombinator.com/item?id=30406777",
+  "headline": "Why did moving the mouse cursor cause Windows 95 to run more quickly? (2019)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lnyan",
+    "url": "https://news.ycombinator.com/user?id=lnyan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30406777",
+  "sameAs": "https://retrocomputing.stackexchange.com/questions/11533/why-did-moving-the-mouse-cursor-cause-windows-95-to-run-more-quickly",
+  "dateCreated": "2022-02-20T16:42:09.342Z",
+  "datePublished": "2022-02-20T16:14:43.000Z",
+  "dateModified": "2022-02-20T16:42:09.342Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "为什么移动鼠标光标会使Windows 95运行得更快？(2019)",
+  "headline_zh-Hant": "為什麼移動鼠標光標會使Windows 95運行得更快？(2019)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
