@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--myfeed--HackerNews--NewsArticle--30405399",
+  "url": "https://news.ycombinator.com/item?id=30405399",
+  "headline": "Hey man, want some TCTs?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "john-doe",
+    "url": "https://news.ycombinator.com/user?id=john-doe"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30405399",
+  "sameAs": "https://www.fasterandworse.com/hey-man-want-some-tcts/",
+  "dateCreated": "2022-02-20T13:34:49.546Z",
+  "datePublished": "2022-02-20T13:11:49.000Z",
+  "dateModified": "2022-02-20T13:34:49.546Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "嘿，伙计，想要一些TCT吗？",
+  "headline_zh-Hant": "嘿，夥計，想要一些TCT嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
