@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--askhn--HackerNews--NewsArticle--30404909",
+  "url": "https://news.ycombinator.com/item?id=30404909",
+  "headline": "Ask HN: Short-depth rack server for home lab recommendation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN, I’m looking for a short-depth rack server to run small, general-purpose workloads and experimentation. Probably not CPU-intensive. A bunch of Docker containers, some microservices, nginx, a small PostgreSQL instance, etc. \nIt should be short-depth (&lt; 15“) for a wall cabinet and of course run Linux well. Affordable would be great, but not looking for cheap. Any recommendations?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "alex_suzuki",
+    "url": "https://news.ycombinator.com/user?id=alex_suzuki"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30404909",
+  "sameAs": "https://news.ycombinator.com/item?id=30404909",
+  "dateCreated": "2022-02-20T11:26:50.339Z",
+  "datePublished": "2022-02-20T11:24:50.000Z",
+  "dateModified": "2022-02-20T11:26:50.339Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 用于家庭实验室的短深度机架式服务器推荐",
+  "headline_zh-Hant": "Ask HN: 用於家庭實驗室的短深度機架式服務器推薦",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN，我正在寻找一个短深度的机架服务器，以运行小型、通用的工作负载和实验。可能不是CPU密集型的。一堆Docker容器，一些微服务，nginx，一个小型PostgreSQL实例，等等。\n它应该是短深度（&lt;15\"）的壁柜，当然可以很好地运行Linux。负担得起就好了，但不要找便宜的。有什么建议吗？",
+  "description_zh-Hant": "嗨，HN，我正在尋找一個短深度的機架服務器，以運行小型、通用的工作負載和實驗。可能不是CPU密集型的。一堆Docker容器，一些微服務，nginx，一個小型PostgreSQL實例，等等。\n它應該是短深度（&lt;15\"）的壁櫃，當然可以很好地運行Linux。負擔得起就好了，但不要找便宜的。有什麼建議嗎？"
+}
