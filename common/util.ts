@@ -3,6 +3,11 @@ import { resolve, join } from "https://deno.land/std@0.121.0/path/mod.ts";
 import { ROOT_DOMAIN, SEPARATOR } from "./constant.ts";
 import { ensureFile } from "https://deno.land/std@0.121.0/fs/mod.ts";
 import schema from "../common/schema-org.js";
+// import TurndownService from "https://esm.sh/turndown@7.1.1";
+import TurndownService from "https://cdn.skypack.dev/turndown@7.1.1";
+
+import { DOMParser } from "https://deno.land/x/deno_dom@v0.1.21-alpha/deno-dom-wasm.ts";
+
 const isDev = Deno.env.get("ENV") === "dev";
 
 export function getDateString(date: Date) {
@@ -199,3 +204,20 @@ export function getFinalHeadline(
     return headline;
   }
 }
+
+export const html2markdown = (html: string): string => {
+  console.log("html", html);
+  if (!html) {
+    return html;
+  }
+
+  const turndownService = new TurndownService();
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(html, "text/html");
+  if (!doc) {
+    console.error(`failed to parse doc`, html);
+    return html;
+  }
+  const markdown = turndownService.turndown(doc);
+  return markdown;
+};

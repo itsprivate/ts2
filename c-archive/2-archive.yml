@@ -5,13 +5,14 @@ sources:
       - ./${{ctx.env.ENV=='dev'?'dev-':''}}sources/changed
     key: path
     force: true
-    # limit: 1
+    # todo
+    limit: 1
     filter: return ctx.item.ext === 'json'
 
 filter:
   # from: ./test.ts
   use: fetch
-  if: true
+  if: ${{ctx.env.ENV!=='dev'}}
   args:
     - https://www.reddit.com/api/v1/access_token
     - method: POST
@@ -43,10 +44,19 @@ steps:
     run: return ctx.result.siteIdentifier;
   - id: isPublishToReddit
     run: return ctx.steps.identifier.result==='besthn'
+  - run: console.log("222",ctx.steps.item.result['description_zh-Hans'])
+    if: ${{ctx.steps.item.result['description_zh-Hans']}}
+  - id: formText
+    if: ${{ctx.steps.isPublishToReddit.result===true && ctx.steps.item.result['description_zh-Hans']}}
+    from: ../common/util.ts
+    use: html2markdown
+    args:
+      - ${{ctx.steps.item.result['description_zh-Hans']}}
   - id: form
     if: ${{ctx.steps.isPublishToReddit.result===true}}
     run: |
       const result = ctx.steps.item.result;
+      const formTextResult = ctx.steps.formText.result;
       let isLink = result.discussionUrl !== result.sameAs;
       let title = result['headline_zh-Hans'];
       if(!title){
@@ -60,7 +70,7 @@ steps:
         title: title
       };
       if(!isLink){
-        form.text = result['description_zh-Hans'] || "";
+        form.text =formTextResult || "";
         if(form.text){
           form.text = form.text +"\n\n";
         }
@@ -77,7 +87,7 @@ steps:
   - run: console.log("form",ctx.steps.form.result);
   - sleep: 2
     use: fetch
-    if: ${{ ctx.steps.form.result!==null && ctx.steps.isPublishToReddit.result===true}}
+    if: ${{ ctx.steps.form.result!==null && ctx.steps.isPublishToReddit.result===true && ctx.env.ENV!=='dev'}}
     args:
       - https://oauth.reddit.com/api/submit
       # Open: <https://requestbin.com/r/enyvb91j5zjv9/23eNPamD4DK4YK1rfEB1FAQOKIj> , See live webhook request. replace your webhook here
