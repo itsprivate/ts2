@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--askhn--HackerNews--NewsArticle--30404687",
+  "url": "https://news.ycombinator.com/item?id=30404687",
+  "headline": "Ask HN: Example of good account takeover recovery flow?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "My sister recently had her Instagram account compromised and has been unsuccessful in regaining access to it.<p>A big part of this is the dysfunctional ATO recovery flow. The unscrupulous folk that managed to takeover the account first changed the email and phone number and then added 2FA.<p>When attempting to do the ATO recovery flow it asks for the 2FA codes... essentially invalidating the entire flow as a recovery mechanism.<p>Given this what is the proper way to design these?<p>What I implemented previously was automated recovery via user being able to verify both the original email and original phone number on the account (bypassing whatever 2FA has been enabled). This works but if IG isn't doing that what is the reason why this isn't enough? Is SIM jacking a large enough threat in the case the hacker has already taken over the email?<p>Netflix asks for payment record information, I think this is a pretty good one and has potential to be automated.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "jpgvm",
+    "url": "https://news.ycombinator.com/user?id=jpgvm"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30404687",
+  "sameAs": "https://news.ycombinator.com/item?id=30404687",
+  "dateCreated": "2022-02-20T10:31:05.832Z",
+  "datePublished": "2022-02-20T10:25:13.000Z",
+  "dateModified": "2022-02-20T10:31:05.832Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 好的账户接管回收流程的例子？",
+  "headline_zh-Hant": "Ask HN: 好的賬戶接管回收流程的例子？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我的妹妹最近在Instagram上的账户被泄露了，并且一直没有成功恢复访问权。<p>这其中很大一部分是ATO恢复流程的失灵。<p>当试图进行ATO恢复流程时，它要求提供2FA代码......基本上使整个流程作为一种恢复机制失效。<p>鉴于此，设计这些流程的正确方法是什么？<p>我之前实施的是通过用户能够验证账户上的原始电子邮件和原始电话号码（绕过任何已启用的2FA）来自动恢复。这很有效，但如果IG没有这样做，那么这还不够的原因是什么？在黑客已经接管电子邮件的情况下，SIM卡被劫持的威胁够大吗？<p>Netflix要求提供支付记录信息，我认为这是一个相当好的问题，而且有可能被自动化。",
+  "description_zh-Hant": "我的妹妹最近在Instagram上的賬戶被洩露了，並且一直沒有成功恢復訪問權。<p>這其中很大一部分是ATO恢復流程的失靈。<p>當試圖進行ATO恢復流程時，它要求提供2FA代碼......基本上使整個流程作為一種恢復機制失效。<p>鑑於此，設計這些流程的正確方法是什麼？<p>我之前實施的是通過用戶能夠驗證賬戶上的原始電子郵件和原始電話號碼（繞過任何已啟用的2FA）來自動恢復。這很有效，但如果IG沒有這樣做，那麼這還不夠的原因是什麼？在黑客已經接管電子郵件的情況下，SIM卡被劫持的威脅夠大嗎？<p>Netflix要求提供支付記錄信息，我認為這是一個相當好的問題，而且有可能被自動化。"
+}
