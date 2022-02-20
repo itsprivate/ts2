@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--myfeed--HackerNews--NewsArticle--30404504",
+  "url": "https://news.ycombinator.com/item?id=30404504",
+  "headline": "Svim: Vim for macOS Text Fields",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I found this very powerful tool which enables vim bindings in most macOS text boxes: https://github.com/FelixKratz/SketchyVim. It is a\nhuge productivity helper for me.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dannygo",
+    "url": "https://news.ycombinator.com/user?id=dannygo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30404504",
+  "sameAs": "https://news.ycombinator.com/item?id=30404504",
+  "dateCreated": "2022-02-20T09:50:06.970Z",
+  "datePublished": "2022-02-20T09:45:02.000Z",
+  "dateModified": "2022-02-20T09:50:06.970Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Svim: Vim for macOS文本字段",
+  "headline_zh-Hant": "Svim: Vim for macOS文本字段",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我发现这个非常强大的工具可以在大多数macOS文本框中实现vim绑定：https://github.com/FelixKratz/SketchyVim。它是我的一个\n对我来说是一个巨大的生产力帮助。",
+  "description_zh-Hant": "我發現這個非常強大的工具可以在大多數macOS文本框中實現vim綁定：https://github.com/FelixKratz/SketchyVim。它是我的一個\n對我來說是一個巨大的生產力幫助。"
+}
