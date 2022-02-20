@@ -5,8 +5,6 @@ sources:
       - ./${{ctx.env.ENV=='dev'?'dev-':''}}sources/changed
     key: path
     force: true
-    # todo
-    limit: 1
     filter: return ctx.item.ext === 'json'
 
 filter:
