@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--myfeed--HackerNews--NewsArticle--30403652",
+  "url": "https://news.ycombinator.com/item?id=30403652",
+  "headline": "Learning robust perceptive locomotion for quadrupedal robots in the wild",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fuzzythinker",
+    "url": "https://news.ycombinator.com/user?id=fuzzythinker"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30403652",
+  "sameAs": "https://leggedrobotics.github.io/rl-perceptiveloco/",
+  "dateCreated": "2022-02-20T06:41:40.524Z",
+  "datePublished": "2022-02-20T06:18:31.000Z",
+  "dateModified": "2022-02-20T06:41:40.524Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在野外为四足机器人学习稳健的感知性运动",
+  "headline_zh-Hant": "在野外為四足機器人學習穩健的感知性運動",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

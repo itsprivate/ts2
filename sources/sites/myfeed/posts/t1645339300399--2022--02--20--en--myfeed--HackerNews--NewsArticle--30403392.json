@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--myfeed--HackerNews--NewsArticle--30403392",
+  "url": "https://news.ycombinator.com/item?id=30403392",
+  "headline": "A Causal Masked Multimodal Model of the Internet",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vignesh_warar",
+    "url": "https://news.ycombinator.com/user?id=vignesh_warar"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30403392",
+  "sameAs": "https://arxiv.org/abs/2201.07520",
+  "dateCreated": "2022-02-20T06:41:40.399Z",
+  "datePublished": "2022-02-20T05:13:02.000Z",
+  "dateModified": "2022-02-20T06:41:40.399Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "互联网的因果屏蔽多模态模型",
+  "headline_zh-Hant": "互聯網的因果屏蔽多模態模型",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
