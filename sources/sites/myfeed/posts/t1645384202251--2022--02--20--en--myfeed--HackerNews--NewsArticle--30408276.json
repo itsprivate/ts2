@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--myfeed--HackerNews--NewsArticle--30408276",
+  "url": "https://news.ycombinator.com/item?id=30408276",
+  "headline": "Show HN: Newser, utility written in go to generate a pdf with news content",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've gotten myself a Supernote A5X (awesome device btw) and since it doesn't have a web browser or anything I've wanted to have a way to read news on it. I've hacked together this utility in a couple of days and it works wonders for me personally so I thought it might be interesting to others. It can also be used as a noise free newspaper generator as it removes images/ads/links and other noisy stuff.<p>https://github.com/lnenad/newser<p>(there is a screenshot of the first page of the generated pdf)<p>It scrapes (news) websites for content and puts it into a pdf. For me the pdf location is my dropbox supernote directory so my setup is to run this thing daily and have a fresh pdf with news whenever I want it.<p>It's rough around the edges probably (currently added crawl support for verge, ars, engadget) but I think it's a good base so if anyone wants to contribute feel free. Some of the stuff I want to add is pictures (maybe), maybe parse the text html to include font styling and other stuff.<p>I've tried to generalize it as much as possible so the crawling is pretty much automatic and is controlled by a config file where you define &quot;rules&quot; on how to parse the website.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "lnenad",
+    "url": "https://news.ycombinator.com/user?id=lnenad"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30408276",
+  "sameAs": "https://news.ycombinator.com/item?id=30408276",
+  "dateCreated": "2022-02-20T19:10:02.251Z",
+  "datePublished": "2022-02-20T18:58:55.000Z",
+  "dateModified": "2022-02-20T19:10:02.251Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Newser，用go语言编写的实用程序，用于生成带有新闻内容的pdf。",
+  "headline_zh-Hant": "Show HN: Newser，用go語言編寫的實用程序，用於生成帶有新聞內容的pdf。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我给自己买了一个Supernote A5X（很好的设备），由于它没有网络浏览器或任何东西，我想有一个方法来阅读它的新闻。我在几天内黑进了这个工具，它对我个人来说是个奇迹，所以我想它可能对其他人有用。它也可以作为一个无噪音的报纸生成器，因为它删除了图像/广告/链接和其他噪音的东西。<p>https://github.com/lnenad/newser<p>（有一个生成的pdf的第一页的截图）<p>它搜刮（新闻）网站的内容，并将其放入一个pdf。对我来说，pdf的位置是我的dropbox supernote目录，所以我的设置是每天运行这个东西，并在我想要的时候有一个新鲜的pdf。<p>它的边缘可能很粗糙（目前增加了对verge、ars、engadget的抓取支持），但我认为它是一个很好的基础，所以如果有人想要贡献，请随意。我想添加的一些东西是图片（也许），也许解析html文本以包括字体样式和其他东西。<p>我已经尽可能地概括它，所以抓取几乎是自动的，并由一个配置文件控制，在那里你定义&quot;规则&quot; 如何解析网站。",
+  "description_zh-Hant": "我給自己買了一個Supernote A5X（很好的設備），由於它沒有網絡瀏覽器或任何東西，我想有一個方法來閱讀它的新聞。我在幾天內黑進了這個工具，它對我個人來說是個奇蹟，所以我想它可能對其他人有用。它也可以作為一個無噪音的報紙生成器，因為它刪除了圖像/廣告/鏈接和其他噪音的東西。<p>https://github.com/lnenad/newser<p>（有一個生成的pdf的第一頁的截圖）<p>它搜刮（新聞）網站的內容，並將其放入一個pdf。對我來說，pdf的位置是我的dropbox supernote目錄，所以我的設置是每天運行這個東西，並在我想要的時候有一個新鮮的pdf。<p>它的邊緣可能很粗糙（目前增加了對verge、ars、engadget的抓取支持），但我認為它是一個很好的基礎，所以如果有人想要貢獻，請隨意。我想添加的一些東西是圖片（也許），也許解析html文本以包括字體樣式和其他東西。<p>我已經儘可能地概括它，所以抓取幾乎是自動的，並由一個配置文件控制，在那裡你定義&quot;規則&quot; 如何解析網站。"
+}
