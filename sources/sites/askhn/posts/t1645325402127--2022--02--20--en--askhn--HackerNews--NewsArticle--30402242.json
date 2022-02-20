@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--askhn--HackerNews--NewsArticle--30402242",
+  "url": "https://news.ycombinator.com/item?id=30402242",
+  "headline": "Ask HN: Safari 7-day storage limit, ideas for improvement",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Following some of the discussion on &quot;Safari now supports File System Access API with private origin&quot; (https://news.ycombinator.com/item?id=30394737) and that it's limited just like all other storage in Safari to a maximum of 7 days without a repeat visit, I started wondering what could be a better design for evacuating storage.<p>The limited time for storage was announced by Apple as a privacy measure to combat tracking. But that falls apart rather quickly if a site that a users opens and closes a second later gets the same time limit as a site that the user actively engages with.<p>So I'm thinking this might be better handled with something like the Media Engagement Index for media autoplay policy (perhaps only Chrome implemented that index).<p>Here's an example that would only apply to first-party storage:<p>- User does not interact  with website (scrolling, playing media and clicking external links would not count as interacting)<p><pre><code>  No storage allowed and it's cleared shortly after the user leaves the site.\n</code></pre>\n- User interacts with website<p><pre><code>  Storage allowed and cleared in 45 days without a repeat visit\n</code></pre>\n- User spends more than 5 minutes on site (perhaps within 24 hours)<p><pre><code>  Storage extends to 90 days without a repeat visit\n</code></pre>\n- User input into form fields or adds files<p><pre><code>  Storage extends to 180 days without a repeat visit\n</code></pre>\nEach repeat visit would extend according to the rules above or at least 30 days if no interaction. The score could also be used to set the storage quota for the site.<p>I do know that the current time limit only applies to storage APIs including cookies accessible via scripting (HTTP only cookies are not limited) but my interest is in sites that can store everything on the client side without any user data (including cookies) going back to the server.<p>This could even open up the possibility for Safari to sync data for sites that get the highest engagement scores (180 days), which would be a great feature since no storage is synced today (in any browser I know of).<p>Is this something worth trying to get implemented (and perhaps in other browsers as well)?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "phillipseamore",
+    "url": "https://news.ycombinator.com/user?id=phillipseamore"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30402242",
+  "sameAs": "https://news.ycombinator.com/item?id=30402242",
+  "dateCreated": "2022-02-20T02:50:02.127Z",
+  "datePublished": "2022-02-20T01:13:14.000Z",
+  "dateModified": "2022-02-20T02:50:02.127Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Safari的7天存储限制，改进的想法",
+  "headline_zh-Hant": "Ask HN: Safari的7天存儲限制，改進的想法",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在关于 \"Safari 现在支持具有私人来源的文件系统访问 API\"(https://news.ycombinator.com/item?id=30394737) 的一些讨论之后，我开始想，对于疏散存储来说，什么才是更好的设计。<p>存储的有限时间是由苹果宣布的，作为打击跟踪的隐私措施。But that falls apart rather quickly if a site that a users opens and closes a second later gets the same time limit as a site that the user actively engages with.<p>So I'm thinking this might be better handled with something like the Media Engagement Index for media autoplay policy (perhaps only Chrome implemented that index). <p>Here's an example that would only apply to first-party storage:<p>- User does not interact with website (scrolling, playing media and clicking external links would not count as interacting)<p><pre><code> No storage allowed and it's cleared shortly after the user leaves the site.\n</code></pre>\n- User interacts with website<p><pre><code> Storage allowed and cleared in 45 days without a repeat visit\n</code></pre>\n- User spends more than 5 minutes on site (perhaps within 24 hours)<p><pre><code> Storage extends to 90 days without a repeat visit\n</code></pre>\n- User input into form fields or adds files<p><pre><code> Storage extends to 180 days without a repeat visit\n</code></pre>\n每次重复访问将根据上述规则延长，如果没有互动，则至少延长30天。<p>我知道目前的时间限制只适用于存储API，包括通过脚本访问的cookie（只有HTTP的cookie不受限制），但我感兴趣的是，网站可以在客户端存储所有内容，而没有任何用户数据（包括cookie）返回到服务器。 <p>这甚至可以让Safari浏览器为获得最高参与度分数（180天）的网站同步数据，这将是一个伟大的功能，因为今天没有任何存储被同步（在我所知的任何浏览器中）。<p>这是否值得尝试实现（也许也可以在其他浏览器中实现）？",
+  "description_zh-Hant": "在關於 \"Safari 現在支持具有私人來源的文件系統訪問 API\"(https://news.ycombinator.com/item?id=30394737) 的一些討論之後，我開始想，對於疏散存儲來說，什麼才是更好的設計。<p>存儲的有限時間是由蘋果宣佈的，作為打擊跟蹤的隱私措施。But that falls apart rather quickly if a site that a users opens and closes a second later gets the same time limit as a site that the user actively engages with.<p>So I'm thinking this might be better handled with something like the Media Engagement Index for media autoplay policy (perhaps only Chrome implemented that index). <p>Here's an example that would only apply to first-party storage:<p>- User does not interact with website (scrolling, playing media and clicking external links would not count as interacting)<p><pre><code> No storage allowed and it's cleared shortly after the user leaves the site.\n</code></pre>\n- User interacts with website<p><pre><code> Storage allowed and cleared in 45 days without a repeat visit\n</code></pre>\n- User spends more than 5 minutes on site (perhaps within 24 hours)<p><pre><code> Storage extends to 90 days without a repeat visit\n</code></pre>\n- User input into form fields or adds files<p><pre><code> Storage extends to 180 days without a repeat visit\n</code></pre>\n每次重複訪問將根據上述規則延長，如果沒有互動，則至少延長30天。<p>我知道目前的時間限制只適用於存儲API，包括通過腳本訪問的cookie（只有HTTP的cookie不受限制），但我感興趣的是，網站可以在客戶端存儲所有內容，而沒有任何用戶數據（包括cookie）返回到服務器。 <p>這甚至可以讓Safari瀏覽器為獲得最高參與度分數（180天）的網站同步數據，這將是一個偉大的功能，因為今天沒有任何存儲被同步（在我所知的任何瀏覽器中）。<p>這是否值得嘗試實現（也許也可以在其他瀏覽器中實現）？"
+}
