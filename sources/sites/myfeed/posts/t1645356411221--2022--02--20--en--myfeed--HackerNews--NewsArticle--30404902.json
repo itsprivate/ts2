@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--myfeed--HackerNews--NewsArticle--30404902",
+  "url": "https://news.ycombinator.com/item?id=30404902",
+  "headline": "RF Solid-State Cooking",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sannee",
+    "url": "https://news.ycombinator.com/user?id=sannee"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30404902",
+  "sameAs": "http://www.gojifoodsolutions.com/",
+  "dateCreated": "2022-02-20T11:26:51.221Z",
+  "datePublished": "2022-02-20T11:23:06.000Z",
+  "dateModified": "2022-02-20T11:26:51.221Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "射频固态烹饪",
+  "headline_zh-Hant": "射頻固態烹飪",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
