@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--myfeed--HackerNews--NewsArticle--30408770",
+  "url": "https://news.ycombinator.com/item?id=30408770",
+  "headline": "YouTube Continuation Searches",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "<p><pre><code>         #!/bin/sh\n         # 1.sh\n         # usage: 1.sh query\n         # usage: 1.sh &lt; query.yts &gt;&gt; query.yts\n         _x2_(){ local x=$(printf '\\r\\n');sed &quot;s/ *//;s/$/$x/&quot;;};\n         case $# in :-)\n         ;;0) # continuation search\n         KEY=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8;\n         MIN=\\&quot;context\\&quot;:{\\&quot;client\\&quot;:{\\&quot;hl\\&quot;:\\&quot;en-US\\&quot;,\\&quot;gl\\&quot;:\\&quot;US\\&quot;,\\&quot;clientName\\&quot;:\\&quot;MWEB\\&quot;,\\&quot;clientVersion\\&quot;:\\&quot;2.20210916.06.01\\&quot;}},\\&quot;continuation\\&quot;:; \n         TOKEN=$(sed -n &quot;s/\\&quot;token\\&quot;:/$MIN/p&quot;|sed -n \\$p);\n         _x2_ &lt;&lt;eof|nc -vvn 127.8 80|yy045|yy059   \n         POST /youtubei/v1/search?key=$KEY HTTP/1.1\n         Host: www.youtube.com\n         Content-Length: ${#TOKEN}\n         Content-Type: application/json\n         Connection: close\n   \n         $TOKEN\n   eof\n         ;;*) # initial search\n         S=$(echo &quot;$@&quot;|sed 's/ /+/g');\n         _x2_ &lt;&lt;eof|nc -vvn 127.8 80|yy045|yy059|sed -n &quot;/\\&quot;responseContext\\&quot;:/,/\\&quot;searchSubMenu\\&quot;:/w$S.yts&quot;            \n         GET /results?search_query=&quot;$S&quot; HTTP/1.1\n         Host: www.youtube.com\n         Connection: close\n   \n   eof\n         esac;</code></pre>",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "1vuio0pswjnm7",
+    "url": "https://news.ycombinator.com/user?id=1vuio0pswjnm7"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30408770",
+  "sameAs": "https://news.ycombinator.com/item?id=30408770",
+  "dateCreated": "2022-02-20T20:10:40.180Z",
+  "datePublished": "2022-02-20T19:56:43.000Z",
+  "dateModified": "2022-02-20T20:10:40.180Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "YouTube继续搜索",
+  "headline_zh-Hant": "YouTube繼續搜索",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "<p><pre><code> #！/bin/sh\n         # 1.sh\n         # 使用方法。1.sh查询\n         # 使用方法。1.sh &lt; query.yts &gt;&gt; query.yts\n         _x2_(){ local x=$(printf '\\r\\n');sed &quot;s/ *//;s/$/$x/&quot;; };\n         case $# in :-)\n         ;;0) # 继续搜索\n         KEY=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8;\n         MIN=&quot;context&quot;:{&quot;client&quot;:{&quot;hl&quot;:&quot;en-US&quot;,&quot;gl&quot;。 \\`&quot;US&quot;,`&quot;clientName&quot;:`&quot;MWEB&quot;,`&quot;clientVersion&quot;:`&quot;2.20210916.06.01&quot;}, `&quot;continuation&quot;:; \n         TOKEN=$(sed -n &quot;s/\\&quot;token\\&quot;:/$MIN/p&quot;|sed -n \\$p)。\n         _x2_ &lt;&lt;eof|nc -vvn 127.8 80|yy045|yy059   \n         POST /youtubei/v1/search?key=$KEY HTTP/1.1\n         主机：www.youtube.com\n         Content-Length: ${#TOKEN}.\n         Content-Type: application/json\n         连接：关闭\n   \n         $TOKEN\n   eof\n         ;;*) #初始搜索\n         S=$(echo &quot;$@&quot;|sed 's/ /+/g');\n         _x2_ &lt;&lt;ef|nc -vvn 127.8 80|yy045|yy059|sed -n &quot;/&quot;responseContext/quot;:/,/&quot;searchSubMenu/quot;:/w$S.yts&quot;            \n         GET /results?search_query=&quot;$S&quot; HTTP/1.1\n         Host: www.youtube.com\n         Connection: close\n   \n   eof\n         esac;</code></pre>",
+  "description_zh-Hant": "<p><pre><code> #！/bin/sh\n         # 1.sh\n         # 使用方法。1.sh查詢\n         # 使用方法。1.sh &lt; query.yts &gt;&gt; query.yts\n         _x2_(){ local x=$(printf '\\r\\n');sed &quot;s/ *//;s/$/$x/&quot;; };\n         case $# in :-)\n         ;;0) # 繼續搜索\n         KEY=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8;\n         MIN=&quot;context&quot;:{&quot;client&quot;:{&quot;hl&quot;:&quot;en-US&quot;,&quot;gl&quot;。 \\`&quot;US&quot;,`&quot;clientName&quot;:`&quot;MWEB&quot;,`&quot;clientVersion&quot;:`&quot;2.20210916.06.01&quot;}, `&quot;continuation&quot;:; \n         TOKEN=$(sed -n &quot;s/\\&quot;token\\&quot;:/$MIN/p&quot;|sed -n \\$p)。\n         _x2_ &lt;&lt;eof|nc -vvn 127.8 80|yy045|yy059   \n         POST /youtubei/v1/search?key=$KEY HTTP/1.1\n         主機：www.youtube.com\n         Content-Length: ${#TOKEN}.\n         Content-Type: application/json\n         連接：關閉\n   \n         $TOKEN\n   eof\n         ;;*) #初始搜索\n         S=$(echo &quot;$@&quot;|sed 's/ /+/g');\n         _x2_ &lt;&lt;ef|nc -vvn 127.8 80|yy045|yy059|sed -n &quot;/&quot;responseContext/quot;:/,/&quot;searchSubMenu/quot;:/w$S.yts&quot;            \n         GET /results?search_query=&quot;$S&quot; HTTP/1.1\n         Host: www.youtube.com\n         Connection: close\n   \n   eof\n         esac;</code></pre>"
+}
