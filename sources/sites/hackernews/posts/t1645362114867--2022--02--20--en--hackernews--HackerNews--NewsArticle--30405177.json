@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--hackernews--HackerNews--NewsArticle--30405177",
+  "url": "https://news.ycombinator.com/item?id=30405177",
+  "headline": "Ask HN: Let's build Checkstyle for Bash?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "After working with Bash and Shellcheck for a few months, I noticed I could improve my code quality by making it compliant with the Shell Style Guide by Google [0]. While working on that, I thought some aspects of this Shell style guide can be verified automatically, granted some assumptions/opinions are formed. So I looked around for linting tools and autoformatters for Bash:<p>Shellcheck: https://github.com/koalaman/shellcheck<p>From Asynchronous Lint Engine (ALE): https://github.com/dense-analysis/ale/blob/master/supported-tools.md<p>- bashate: https://github.com/openstack/bashate<p>- cspell: https://github.com/streetsidesoftware/cspell/tree/main/packages/cspell<p>- Bash Language Server: https://github.com/bash-lsp/bash-language-server<p>- shell -n flag: https://www.gnu.org/software/bash/manual/bash.html#index-set<p>- sh: https://github.com/mvdan/sh<p>From this stack post [1]:<p>- checkbashisms: http://man.he.net/man1/checkbashisms<p>- shlint: https://github.com/duggan/shlint (archived)<p>Prettier: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode<p>Within all these linters and auto-formatters I did not find checks that enforce, for example, the Function Comments of the Shell Style Guide by Google:<p>All function comments should describe the intended API behaviour using:<p><pre><code>    Description of the function.\n    Globals: List of global variables used and modified.\n    Arguments: Arguments taken.\n    Outputs: Output to STDOUT or STDERR.\n    Returns: Returned values other than the default exit status of the last command run.\n</code></pre>\nHence, I thought we could make a Bash linting tool that verifies compliance with the Shell Style Guide by Google. To do so, a brief start was made here [2]. It identifies/lists elements in that style guide that may be verified automatically. Since Bash has been around longer than me, I think there may be some people better suited for the development of this enhanced linter. Hence, I thought it might be wise, for impact and usability, to share this idea here.<p>What do you say, HN?<p>[0]: https://google.github.io/styleguide/shellguide.html<p>[1]: https://stackoverflow.com/questions/3668665/is-there-a-static-analysis-tool-like-lint-or-perlcritic-for-shell-scripts<p>[2]: https://github.com/TruCol/checkstyle-for-bash",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "a-t-0",
+    "url": "https://news.ycombinator.com/user?id=a-t-0"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30405177",
+  "sameAs": "https://news.ycombinator.com/item?id=30405177",
+  "dateCreated": "2022-02-20T13:01:54.867Z",
+  "datePublished": "2022-02-20T12:29:08.000Z",
+  "dateModified": "2022-02-20T13:01:54.867Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 让我们为Bash建立Checkstyle？",
+  "headline_zh-Hant": "Ask HN: 讓我們為Bash建立Checkstyle？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在使用Bash和Shellcheck工作了几个月后，我注意到我可以通过使其符合Google的Shell风格指南来提高我的代码质量[0]。在工作中，我认为这个Shell风格指南的某些方面可以自动验证，当然也会形成一些假设/观点。So I looked around for linting tools and autoformatters for Bash:<p>Shellcheck: https://github.com/koalaman/shellcheck<p>From Asynchronous Lint Engine (ALE): https://github.com/dense-analysis/ale/blob/master/supported-tools.md<p>- bashate: https://github.com/openstack/bashate<p>- cspell: https://github.com/streetsidesoftware/cspell/tree/main/packages/cspell<p>- Bash Language Server: https://github.com/bash-lsp/bash-language-server<p>- shell -n flag: https://www.gnu.org/software/bash/manual/bash.html#index-set<p>- sh: https://github. com/mvdan/sh<p>From this stack post [1]:<p>- checkbashisms: http://man.he.net/man1/checkbashisms<p>- shlint: https://github.com/duggan/shlint (archived)<p>Prettier: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode<p>Within all these linters and auto-formatters I did not find checks that enforce, for example, the Function Comments of the Shell Style Guide by Google:<p>All function comments should describe the intended API behaviour using:<p><pre><code> Description of the function.\n    Globals: List of global variables used and modified.\n    Arguments: Arguments taken.\n    Outputs: Output to STDOUT or STDERR.\n    Returns: Returned values other than the default exit status of the last command run.\n</code></pre>\n因此，我想我们可以做一个Bash linting工具，验证是否符合Google的Shell Style Guide。为了做到这一点，在这里做了一个简单的开始[2]。它识别/列出了该风格指南中可能被自动验证的元素。由于Bash的历史比我长，我认为可能有一些人更适合开发这个增强型linter。因此，我认为，为了影响和可用性，在这里分享这个想法可能是明智的。<p>你怎么说，HN？<p>[0]: https://google.github.io/styleguide/shellguide.html<p>[1]: https://stackoverflow.com/questions/3668665/is-there-a-static-analysis-tool-like-lint-or-perlcritic-for-shell-scripts<p>[2]: https://github.com/TruCol/checkstyle-for-bash",
+  "description_zh-Hant": "在使用Bash和Shellcheck工作了幾個月後，我注意到我可以通過使其符合Google的Shell風格指南來提高我的代碼質量[0]。在工作中，我認為這個Shell風格指南的某些方面可以自動驗證，當然也會形成一些假設/觀點。So I looked around for linting tools and autoformatters for Bash:<p>Shellcheck: https://github.com/koalaman/shellcheck<p>From Asynchronous Lint Engine (ALE): https://github.com/dense-analysis/ale/blob/master/supported-tools.md<p>- bashate: https://github.com/openstack/bashate<p>- cspell: https://github.com/streetsidesoftware/cspell/tree/main/packages/cspell<p>- Bash Language Server: https://github.com/bash-lsp/bash-language-server<p>- shell -n flag: https://www.gnu.org/software/bash/manual/bash.html#index-set<p>- sh: https://github. com/mvdan/sh<p>From this stack post [1]:<p>- checkbashisms: http://man.he.net/man1/checkbashisms<p>- shlint: https://github.com/duggan/shlint (archived)<p>Prettier: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode<p>Within all these linters and auto-formatters I did not find checks that enforce, for example, the Function Comments of the Shell Style Guide by Google:<p>All function comments should describe the intended API behaviour using:<p><pre><code> Description of the function.\n    Globals: List of global variables used and modified.\n    Arguments: Arguments taken.\n    Outputs: Output to STDOUT or STDERR.\n    Returns: Returned values other than the default exit status of the last command run.\n</code></pre>\n因此，我想我們可以做一個Bash linting工具，驗證是否符合Google的Shell Style Guide。為了做到這一點，在這裡做了一個簡單的開始[2]。它識別/列出了該風格指南中可能被自動驗證的元素。由於Bash的歷史比我長，我認為可能有一些人更適合開發這個增強型linter。因此，我認為，為了影響和可用性，在這裡分享這個想法可能是明智的。<p>你怎麼說，HN？<p>[0]: https://google.github.io/styleguide/shellguide.html<p>[1]: https://stackoverflow.com/questions/3668665/is-there-a-static-analysis-tool-like-lint-or-perlcritic-for-shell-scripts<p>[2]: https://github.com/TruCol/checkstyle-for-bash"
+}
