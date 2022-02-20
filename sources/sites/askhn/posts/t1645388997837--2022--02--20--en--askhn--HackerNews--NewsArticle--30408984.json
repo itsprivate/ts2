@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--askhn--HackerNews--NewsArticle--30408984",
+  "url": "https://news.ycombinator.com/item?id=30408984",
+  "headline": "Ask HN: CLI Journaling Tool for macOS",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I use JRNL on my linux machine and it's great.  I am spending more time using my Mac and would like the same experience.  I installed jrnl but it is very buggy.  It regularly fails to recognize the date and continuously throws this &gt;Quote line that is unescapable. Sometimes it fails to save entries to file at all. Maybe it's the ARM M1 chip? Maybe ZSH? I don't know but it definitely doesn't work as well as it does on my Thinkpad running Pop_OS.<p>Can anyone suggest an alternative CLI journal tool for Mac?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "7174n6",
+    "url": "https://news.ycombinator.com/user?id=7174n6"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30408984",
+  "sameAs": "https://news.ycombinator.com/item?id=30408984",
+  "dateCreated": "2022-02-20T20:29:57.837Z",
+  "datePublished": "2022-02-20T20:26:22.000Z",
+  "dateModified": "2022-02-20T20:29:57.837Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 用于macOS的CLI日志工具",
+  "headline_zh-Hant": "Ask HN: 用於macOS的CLI日誌工具",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我在我的linux机器上使用JRNL，它很好。 我现在花更多的时间使用我的Mac，希望能有同样的体验。 我安装了jrnl，但它有很大的问题。 它经常无法识别日期，并不断抛出这个无法逃脱的&gt;引用行。有时它根本无法将条目保存到文件中。也许是ARM M1芯片的问题？也许是ZSH？我不知道，但它绝对没有在运行Pop_OS的Thinkpad上工作得那么好。<p>谁能推荐一个Mac的替代CLI日志工具？",
+  "description_zh-Hant": "我在我的linux機器上使用JRNL，它很好。 我現在花更多的時間使用我的Mac，希望能有同樣的體驗。 我安裝了jrnl，但它有很大的問題。 它經常無法識別日期，並不斷拋出這個無法逃脫的&gt;引用行。有時它根本無法將條目保存到文件中。也許是ARM M1芯片的問題？也許是ZSH？我不知道，但它絕對沒有在運行Pop_OS的Thinkpad上工作得那麼好。<p>誰能推薦一個Mac的替代CLI日誌工具？"
+}
