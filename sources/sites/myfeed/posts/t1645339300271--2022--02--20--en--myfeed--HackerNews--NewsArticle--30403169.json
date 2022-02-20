@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--myfeed--HackerNews--NewsArticle--30403169",
+  "url": "https://news.ycombinator.com/item?id=30403169",
+  "headline": "Cadbury's ‘Gorilla’. Explained",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "atulatul",
+    "url": "https://news.ycombinator.com/user?id=atulatul"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30403169",
+  "sameAs": "https://twitter.com/unclebernbach/status/1494665971155582984",
+  "dateCreated": "2022-02-20T06:41:40.271Z",
+  "datePublished": "2022-02-20T04:17:05.000Z",
+  "dateModified": "2022-02-20T06:41:40.271Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "吉百利的 \"大猩猩\"。解释一下",
+  "headline_zh-Hant": "吉百利的 \"大猩猩\"。解釋一下",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

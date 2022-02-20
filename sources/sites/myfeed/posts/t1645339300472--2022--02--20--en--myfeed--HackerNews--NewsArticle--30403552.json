@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--myfeed--HackerNews--NewsArticle--30403552",
+  "url": "https://news.ycombinator.com/item?id=30403552",
+  "headline": "OpenSea Investigates Exploit Rumours",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jsemrau",
+    "url": "https://news.ycombinator.com/user?id=jsemrau"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30403552",
+  "sameAs": "https://twitter.com/opensea/status/1495211277097996290",
+  "dateCreated": "2022-02-20T06:41:40.472Z",
+  "datePublished": "2022-02-20T05:50:46.000Z",
+  "dateModified": "2022-02-20T06:41:40.472Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "开海公司调查漏洞传闻",
+  "headline_zh-Hant": "開海公司調查漏洞傳聞",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

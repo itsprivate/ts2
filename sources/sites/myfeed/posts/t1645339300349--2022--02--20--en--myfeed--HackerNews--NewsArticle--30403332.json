@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--myfeed--HackerNews--NewsArticle--30403332",
+  "url": "https://news.ycombinator.com/item?id=30403332",
+  "headline": "Curia of Pompey, where Julius Caesar was killed, was built in three phases",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "diodorus",
+    "url": "https://news.ycombinator.com/user?id=diodorus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30403332",
+  "sameAs": "https://arstechnica.com/science/2022/02/confirmed-curia-of-pompey-where-julius-caesar-was-killed-was-built-in-three-phases/",
+  "dateCreated": "2022-02-20T06:41:40.349Z",
+  "datePublished": "2022-02-20T04:59:14.000Z",
+  "dateModified": "2022-02-20T06:41:40.349Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "庞贝的库里亚，朱利叶斯-凯撒被杀的地方，分三个阶段建造。",
+  "headline_zh-Hant": "龐貝的庫里亞，朱利葉斯-凱撒被殺的地方，分三個階段建造。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

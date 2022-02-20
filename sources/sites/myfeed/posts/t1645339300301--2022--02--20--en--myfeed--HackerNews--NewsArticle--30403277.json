@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--myfeed--HackerNews--NewsArticle--30403277",
+  "url": "https://news.ycombinator.com/item?id=30403277",
+  "headline": "Our immune systems are remembering Covid-19 and fighting against its variants",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "steelstraw",
+    "url": "https://news.ycombinator.com/user?id=steelstraw"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30403277",
+  "sameAs": "https://abc7.com/covid-variants-immune-system-vaccine-virus/11575669/",
+  "dateCreated": "2022-02-20T06:41:40.301Z",
+  "datePublished": "2022-02-20T04:45:24.000Z",
+  "dateModified": "2022-02-20T06:41:40.301Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我们的免疫系统正在记住Covid-19并与它的变体作斗争",
+  "headline_zh-Hant": "我們的免疫系統正在記住Covid-19並與它的變體作鬥爭",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
