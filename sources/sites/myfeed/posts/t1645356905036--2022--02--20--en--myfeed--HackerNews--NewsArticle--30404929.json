@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--myfeed--HackerNews--NewsArticle--30404929",
+  "url": "https://news.ycombinator.com/item?id=30404929",
+  "headline": "Multi-search addon turning no-query-interface websites into search engines",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Big Search is a browser extension (Firefox+Chrome) to use / switch any one or multiple search engines. Source code on Github https://github.com/garywill/BigSearch .<p>Besides basic features, it is with some special technical features also.<p>For example, it works with those websites that don't provide GET/POST interface to public (so-called Ajax-only websites).  Visitor need to open their page and input, then they show search results on page via Ajax.\nBig Search can turn such Ajax-only websites into search engines and add them to browser.<p>Chrome Extension API doc ( https://developer.chrome.com/docs/extensions/reference/ ) is one of such Ajax-only websites. That's a simple one. There're more such websites with more complicated js involved to do search, which still need us to figure out.<p>Big Search repo on Github : https://github.com/garywill/BigSearch",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gry_gh",
+    "url": "https://news.ycombinator.com/user?id=gry_gh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30404929",
+  "sameAs": "https://news.ycombinator.com/item?id=30404929",
+  "dateCreated": "2022-02-20T11:35:05.036Z",
+  "datePublished": "2022-02-20T11:28:30.000Z",
+  "dateModified": "2022-02-20T11:35:05.036Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "多重搜索插件将无查询界面的网站变成搜索引擎",
+  "headline_zh-Hant": "多重搜索插件將無查詢界面的網站變成搜索引擎",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大搜索是一个浏览器扩展（Firefox+Chrome），可以使用/切换任何一个或多个搜索引擎。源代码在Github上https://github.com/garywill/BigSearch。<p>除了基本功能外，它还具有一些特殊的技术功能。<p>例如，它适用于那些不向公众提供GET/POST接口的网站（所谓的纯Ajax网站）。 访客需要打开他们的页面并输入，然后他们通过Ajax在页面上显示搜索结果。\nBig Search可以把这样的Ajax-only网站变成搜索引擎，并把它们添加到浏览器中。<p>Chrome Extension API doc ( https://developer.chrome.com/docs/extensions/reference/ )就是这样的Ajax-only网站之一。那是一个简单的网站。还有更多这样的网站，涉及到更复杂的js来做搜索，这仍然需要我们去弄清楚。<p>Github上的Big Search repo : https://github.com/garywill/BigSearch",
+  "description_zh-Hant": "大搜索是一個瀏覽器擴展（Firefox+Chrome），可以使用/切換任何一個或多個搜索引擎。源代碼在Github上https://github.com/garywill/BigSearch。<p>除了基本功能外，它還具有一些特殊的技術功能。<p>例如，它適用於那些不向公眾提供GET/POST接口的網站（所謂的純Ajax網站）。 訪客需要打開他們的頁面並輸入，然後他們通過Ajax在頁面上顯示搜索結果。\nBig Search可以把這樣的Ajax-only網站變成搜索引擎，並把它們添加到瀏覽器中。<p>Chrome Extension API doc ( https://developer.chrome.com/docs/extensions/reference/ )就是這樣的Ajax-only網站之一。那是一個簡單的網站。還有更多這樣的網站，涉及到更復雜的js來做搜索，這仍然需要我們去弄清楚。<p>Github上的Big Search repo : https://github.com/garywill/BigSearch"
+}
