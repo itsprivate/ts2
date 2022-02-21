@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--21--en--myfeed--HackerNews--NewsArticle--30416617",
+  "url": "https://news.ycombinator.com/item?id=30416617",
+  "headline": "New Release of the OpenBot 0.5 – Turning Smartphones into Robots",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ilyaivanov",
+    "url": "https://news.ycombinator.com/user?id=ilyaivanov"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30416617",
+  "sameAs": "https://github.com/isl-org/OpenBot/releases/tag/v0.5.0",
+  "dateCreated": "2022-02-21T15:11:55.261Z",
+  "datePublished": "2022-02-21T15:05:42.000Z",
+  "dateModified": "2022-02-21T15:11:55.261Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "新发布的OpenBot 0.5 - 将智能手机变成机器人",
+  "headline_zh-Hant": "新發布的OpenBot 0.5 - 將智能手機變成機器人",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
