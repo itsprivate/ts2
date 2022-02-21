@@ -48,6 +48,9 @@ export default async function main(siteIdentifier: string) {
             console.error(new Error(`headline is empty ${postFilePath}`));
             headline = originalHeadline;
           }
+          const postUrl = new URL(rawPost.sameAs);
+          let hostName = postUrl.hostname;
+          hostName = hostName.replace(/^[^.]+\./g, "");
 
           const post: Record<string, unknown> = {
             dateCreated: formatDate(new Date(rawPost.datePublished)),
@@ -60,6 +63,7 @@ export default async function main(siteIdentifier: string) {
             discussionUrl: rawPost.discussionUrl,
             author: rawPost.author,
             sameAs: rawPost.sameAs,
+            hostName: hostName,
             keywords: rawPost.keywords,
           };
           if (rawPost.interactionStatistic) {
