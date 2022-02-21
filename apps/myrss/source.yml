@@ -1,14 +1,19 @@
 if: true
 sources:
-  - from: https://deno.land/x/denoflow@0.0.19/sources/rss.ts
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
     args:
       # - https://actionsflow.github.io/test-page/hn-rss.xml
       - https://blackgnu.net/atom.xml
     limit: 50
-  - from: https://deno.land/x/denoflow@0.0.19/sources/rss.ts
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
     args:
       - https://www.currentaffairs.org/feed
     limit: 50
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - https://cacm.acm.org/magazine.rss
+    limit: 50
+
 steps:
   - from: ../../common/format-rss.ts
     args:
