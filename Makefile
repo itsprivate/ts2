@@ -1,18 +1,18 @@
 .Phony: run update test local install github source tr start build cache ask show front hackernews
 run:
-	DENO_DIR=./deno_dir deno run -A --unstable https://deno.land/x/denoflow@0.0.33/cli.ts run apps/*/sources/*.yml translate.yml archive
+	DENO_DIR=./deno_dir deno run -A --unstable https://deno.land/x/denoflow@0.0.34/cli.ts run apps/*/*.yml translate.yml archive
 prodtest:
-	DENO_DIR=./deno_dir deno run -A --unstable https://deno.land/x/denoflow@0.0.33/cli.ts run archive
+	DENO_DIR=./deno_dir deno run -A --unstable https://deno.land/x/denoflow@0.0.34/cli.ts run archive
 # run:
-# 	DENO_DIR=./deno_dir deno run -A --unstable https://deno.land/x/denoflow@0.0.33/cli.ts run besthn translate.yml archive
+# 	DENO_DIR=./deno_dir deno run -A --unstable https://deno.land/x/denoflow@0.0.34/cli.ts run besthn translate.yml archive
 update:
-	DENO_DIR=./deno_dir deno cache --reload https://deno.land/x/denoflow@0.0.33/cli.ts
+	DENO_DIR=./deno_dir deno cache --reload https://deno.land/x/denoflow@0.0.34/cli.ts
 test:
 	deno test -A --unstable
 local:
-	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run apps/*/sources/*.yml translate.yml archive
+	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run apps/*/*.yml translate.yml archive
 source:
-	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run apps/*/sources/*.yml
+	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run apps/*/*.yml
 tr:
 	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run translate.yml --database json://dev-data
 install:
@@ -26,7 +26,7 @@ dev:
 build:
 	deno run -A --unstable site/build.ts showhn
 cache:
-	rm -rf ./deno_dir && DENO_DIR=./deno_dir deno cache --unstable https://deno.land/x/denoflow@0.0.33/cli.ts && DENO_DIR=./deno_dir deno cache --unstable site/build.ts
+	rm -rf ./deno_dir && DENO_DIR=./deno_dir deno cache --unstable https://deno.land/x/denoflow@0.0.34/cli.ts && DENO_DIR=./deno_dir deno cache --unstable site/build.ts
 ask:
 	deno run -A --unstable site/cli.ts askhn
 show:

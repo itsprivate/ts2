@@ -2,19 +2,20 @@ if: true
 sources:
   - use: fetch
     args:
-      - https://hn.algolia.com/api/v1/search_by_date?tags=(ask_hn)&hitsPerPage=50
+      - http://hn.algolia.com/api/v1/search_by_date?tags=(story,poll,show_hn,ask_hn)&numericFilters=points>=250&hitsPerPage=50
+      # - http://hn.algolia.com/api/v1/search_by_date?tags=(ask_hn)&numericFilters=points>=80&hitsPerPage=50
     run: return ctx.result.json();
     itemsPath: hits
     key: objectID
+    # limit: 1
+    # TODO
     # force: true
-    limit: ${{ctx.env.ENV=='dev'?1:undefined}}
-    # filter: return true;
     reverse: true
 steps:
-  - from: ./format.ts
+  - from: ../../common/format.ts
     args:
       - ${{ctx.item}}
-      - askhn
+      - besthn
   - from: https://deno.land/std@0.121.0/fs/mod.ts
     use: ensureFile
     args:

@@ -891,7 +891,7 @@ sources:
   #   sleep: 1
   #   limit: 3
 steps:
-  - from: ./format.ts
+  - from: ../../common/format.ts
     args:
       - ${{ctx.item}}
       - myfeed

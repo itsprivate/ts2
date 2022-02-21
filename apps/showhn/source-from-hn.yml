@@ -7,7 +7,7 @@ sources:
     key: objectID
     reverse: true
 steps:
-  - from: ./format.ts
+  - from: ../../common/format.ts
     args:
       - ${{ctx.item}}
       - showhn

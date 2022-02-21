@@ -4,7 +4,7 @@ import {
   stringifyIdentifier,
   parseIdentifier,
   getPathIdentifierByIdentifier,
-} from "../../../common/util.ts";
+} from "./util.ts";
 import { titleCase } from "https://esm.sh/title-case";
 import { ensureDir } from "https://deno.land/std@0.121.0/fs/mod.ts";
 
