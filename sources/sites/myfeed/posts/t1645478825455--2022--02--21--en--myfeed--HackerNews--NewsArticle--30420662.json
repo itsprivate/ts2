@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--21--en--myfeed--HackerNews--NewsArticle--30420662",
+  "url": "https://news.ycombinator.com/item?id=30420662",
+  "headline": "Hetzner-k3s v0.5.4 is out with support for multi zonal Kubernetes clusters",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "For any Hetzner Cloud customers who may be interested: I have released v0.5.4 of a tool I created [1] to manage Kubernetes clusters in Hetzner Cloud. This release adds support for multi zonal clusters for higher availability as well as the ability to specify extra args for each Kubernetes component, so that you can enable feature flags and things like that.<p>For those not familiar with this tool: it's a tool to quickly create production clusters in Hetzner Cloud using k3s, so creating a cluster takes only a couple of minutes or less.<p>For those not familiar with Hetzner: it's a German provider that offers an awesome service, servers with great performance and reliability for a fraction of the price the other providers charge. If you mostly need compute and not the many services the bigger providers offer, you can save quite a bit of money with this provider. They have 2 locations in Europe (in Germany and one in Finland) as well as one location in the US (Ashburn, Virginia).<p>Looking for feedback and suggestions of features I could add. Thanks!<p>[1] https://github.com/vitobotta/hetzner-k3s",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "SkyLinx",
+    "url": "https://news.ycombinator.com/user?id=SkyLinx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30420662",
+  "sameAs": "https://news.ycombinator.com/item?id=30420662",
+  "dateCreated": "2022-02-21T21:27:05.455Z",
+  "datePublished": "2022-02-21T21:10:10.000Z",
+  "dateModified": "2022-02-21T21:27:05.455Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Hetzner-k3s v0.5.4已经发布，支持多区Kubernetes集群",
+  "headline_zh-Hant": "Hetzner-k3s v0.5.4已經發布，支持多區Kubernetes集群",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "对于任何可能感兴趣的Hetzner云客户：我已经发布了我创建的一个工具[1]的0.5.4版本，用于在Hetzner云中管理Kubernetes集群。这个版本增加了对多区集群的支持，以获得更高的可用性，以及为每个Kubernetes组件指定额外的args的能力，这样你就可以启用功能标志之类的东西。 <p>对于那些不熟悉这个工具的人来说：这是一个在Hetzner云中使用k3s快速创建生产集群的工具，所以创建一个集群只需要几分钟甚至更短的时间。<p>对于那些不熟悉Hetzner的人来说：这是一个德国供应商，它提供了一个很棒的服务，服务器具有很好的性能和可靠性，而价格只是其他供应商的一小部分。如果你主要需要计算，而不是大的供应商提供的许多服务，你可以通过这个供应商节省相当多的钱。他们在欧洲有两个地点（在德国和一个在芬兰），在美国也有一个地点（弗吉尼亚州的阿什本）。<p>希望得到反馈和我可以添加的功能建议。谢谢！<p>[1] https://github.com/vitobotta/hetzner-k3s",
+  "description_zh-Hant": "對於任何可能感興趣的Hetzner雲客戶：我已經發布了我創建的一個工具[1]的0.5.4版本，用於在Hetzner雲中管理Kubernetes集群。這個版本增加了對多區集群的支持，以獲得更高的可用性，以及為每個Kubernetes組件指定額外的args的能力，這樣你就可以啟用功能標誌之類的東西。 <p>對於那些不熟悉這個工具的人來說：這是一個在Hetzner雲中使用k3s快速創建生產集群的工具，所以創建一個集群只需要幾分鐘甚至更短的時間。<p>對於那些不熟悉Hetzner的人來說：這是一個德國供應商，它提供了一個很棒的服務，服務器具有很好的性能和可靠性，而價格只是其他供應商的一小部分。如果你主要需要計算，而不是大的供應商提供的許多服務，你可以通過這個供應商節省相當多的錢。他們在歐洲有兩個地點（在德國和一個在芬蘭），在美國也有一個地點（弗吉尼亞州的阿什本）。<p>希望得到反饋和我可以添加的功能建議。謝謝！<p>[1] https://github.com/vitobotta/hetzner-k3s"
+}
