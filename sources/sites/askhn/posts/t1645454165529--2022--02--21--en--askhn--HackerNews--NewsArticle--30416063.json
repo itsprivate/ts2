@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--21--en--askhn--HackerNews--NewsArticle--30416063",
+  "url": "https://news.ycombinator.com/item?id=30416063",
+  "headline": "Ask HN: Is the Ask HN page broken?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I get an empty page when I go to https://news.ycombinator.com/ask",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "Tipewryter",
+    "url": "https://news.ycombinator.com/user?id=Tipewryter"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30416063",
+  "sameAs": "https://news.ycombinator.com/item?id=30416063",
+  "dateCreated": "2022-02-21T14:36:05.529Z",
+  "datePublished": "2022-02-21T14:13:32.000Z",
+  "dateModified": "2022-02-21T14:36:05.529Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Ask HN的页面坏了吗？",
+  "headline_zh-Hant": "Ask HN: Ask HN的頁面壞了嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "当我进入https://news.ycombinator.com/ask，得到的是一个空页面。",
+  "description_zh-Hant": "當我進入https://news.ycombinator.com/ask，得到的是一個空頁面。"
+}
