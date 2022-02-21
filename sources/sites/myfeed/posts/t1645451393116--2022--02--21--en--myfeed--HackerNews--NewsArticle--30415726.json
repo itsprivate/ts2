@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--21--en--myfeed--HackerNews--NewsArticle--30415726",
+  "url": "https://news.ycombinator.com/item?id=30415726",
+  "headline": "Show HN: Apptrail – SaaS audit trails as a Service",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi Hacker News! We're Samrose and Shaeq from Apptrail (https://apptrail.com). We let B2B SaaS companies easily add customer-facing audit trails to their products.<p>It's currently too hard to build and consume SaaS audit logs. Organizations use audit logs to access and monitor the activity coming from their SaaS tools for security and compliance reasons. For example, a security admin at an enterprise company would use Slack audit logs to see messages sent and what devices and IP addresses they were sent from. Many SaaS companies don’t offer audit trails to their customers, which results in a lack of insight for the SaaS user (for example, they have to make a support ticket every time they need information).<p>For SaaS companies, adding audit logs to their products is a daunting task that often gets delayed because audit logs are full of hidden complexity. Designing a multi-tenant audit trail solution involves careful consideration around scalability, availability, durability, verifiable immutability, configurable data retention, and guaranteed delivery, to name a few requirements. The audit logs need to be viewable through a UI, searchable &amp; filterable, accessible programmatically via a REST API, and ideally support streaming delivery to consumers. SaaS companies are overwhelmed by the complexity, and often implement subpar solutions, which results in more work for their customers to actually consume the audit logs. As an example, SaaS companies are often unable to support extended data retention times (7-10 years is common for larger customers) because their systems aren’t designed for long-term storage.<p>At AWS, we worked on the infrastructure that allows Amazon to easily bake audit logs into their services. Whether it’s S3 or Sagemaker, every AWS service needs to offer audit logs to all customers for it to launch. We realized that enterprise &amp; security-conscious customers have the same needs when using SaaS tools, but SaaS companies are left entirely to figure out building customer-facing audit logs themselves.<p>Apptrail is a fully managed service that enables any B2B SaaS company to easily add full-featured audit trails to their product and deliver audit logs to their end customers' destinations (data lakes, SIEM, etc.) in near real time. Check out a short demo here: https://watch.mmhmm.app/z_JQJ5sqVvIWtkYhrwIkAf.<p>The way it works is SaaS companies record user and API activity using our language native SDKs, and Apptrail takes care of everything else. Apptrail automatically aggregates and indexes audit data in the cloud and surfaces it to SaaS customers through a self-service portal UI and REST API that we host on your behalf. There's full support for analytical queries and fast data retrieval while keeping audit logs in S3 for durability and optimal scaling.<p>Apptrail offers audit log delivery as a first-class feature using &quot;trails&quot;, which allows audit log consumers to add rules to filter audit logs based on their content and configure streaming delivery to destinations like S3 or Splunk.<p>We’re built entirely on AWS, using services like S3, SQS, Kinesis, and ECS on EC2 extensively, with good ol’ JVM powering the application logic. We’ve built Apptrail to scale horizontally, so it can ingest an unlimited number of audit logs. Apptrail is also completely replicated in independent cloud regions, so you can use our regional endpoints to keep audit log data in a specified region (currently we’re launching with US West - Oregon as our first region).<p>We have a usage-based pricing model and charge for each audit log sent and delivered. Our extensive always free tier allows 100k events to be sent for free every month forever. You can sign up for and try Apptrail today. We offer a no credit card required free trial.<p>We would love to hear your thoughts about what we’re building or your experiences with SaaS audit logs in general. Feel free to also reach out to us at founders@apptrail.com",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "wizwit999",
+    "url": "https://news.ycombinator.com/user?id=wizwit999"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30415726",
+  "sameAs": "https://news.ycombinator.com/item?id=30415726",
+  "dateCreated": "2022-02-21T13:49:53.116Z",
+  "datePublished": "2022-02-21T13:39:06.000Z",
+  "dateModified": "2022-02-21T13:49:53.116Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Apptrail - SaaS审计跟踪服务",
+  "headline_zh-Hant": "Show HN: Apptrail - SaaS審計跟蹤服務",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，Hacker News! 我们是Apptrail（https://apptrail.com）的Samrose和Shaeq。我们让B2B SaaS公司轻松地将面向客户的审计跟踪添加到他们的产品中。<p>目前，建立和消费SaaS审计日志太难了。企业出于安全和合规的考虑，使用审计日志来访问和监控来自其SaaS工具的活动。例如，一个企业公司的安全管理员会使用Slack的审计日志来查看发送的消息，以及它们是从哪些设备和IP地址发送的。许多SaaS公司不向他们的客户提供审计跟踪，这导致SaaS用户缺乏洞察力（例如，他们每次需要信息时都要开一张支持票）。<p>对于SaaS公司来说，向他们的产品添加审计日志是一项艰巨的任务，由于审计日志充满了隐藏的复杂性，所以常常被推迟。设计一个多用户审计跟踪解决方案需要围绕可扩展性、可用性、耐久性、可验证的不变性、可配置的数据保留和保证交付等要求进行仔细考虑。审计日志需要通过用户界面查看，可搜索&amp；可过滤，可通过REST API以编程方式访问，并且最好支持流式交付给消费者。SaaS公司被这种复杂性所淹没，并经常实施不合格的解决方案，这导致他们的客户在实际消费审计日志时需要做更多的工作。例如，SaaS公司往往无法支持延长数据保留时间（对于大客户来说，7-10年是很常见的），因为他们的系统不是为长期存储而设计的。<p>在AWS，我们致力于开发基础设施，使Amazon能够轻松地将审计日志植入其服务中。无论是S3还是Sagemaker，每一个AWS服务都需要向所有客户提供审计日志，以便它能够启动。我们意识到，企业和amp；安全意识强的客户在使用SaaS工具时也有同样的需求，但SaaS公司却完全要自己想办法建立面向客户的审计日志。<p>Apptrail是一项完全可管理的服务，使任何B2B SaaS公司能够轻松地将全功能的审计跟踪添加到他们的产品中，并将审计日志以近乎实时的方式交付给他们的终端客户（数据湖，SIEM等）。请看这里的简短演示：https://watch.mmhmm.app/z_JQJ5sqVvIWtkYhrwIkAf。<p>它的工作方式是SaaS公司使用我们的语言原生SDK记录用户和API活动，而Apptrail负责其他一切。Apptrail在云端自动聚集和索引审计数据，并通过我们代表你托管的自助服务门户UI和REST API向SaaS客户展示这些数据。<p>Apptrail使用&quot;trails&quot;提供审计日志交付的一流功能，允许审计日志消费者添加规则，根据其内容过滤审计日志，并配置流式交付到S3或Splunk等目的地。 <p>我们完全建立在AWS上，广泛使用S3、SQS、Kinesis和EC2上的ECS等服务，并由优秀的JVM来驱动应用逻辑。我们已经建立了Apptrail来进行横向扩展，所以它可以摄取无限数量的审计日志。Apptrail也完全复制在独立的云区域，所以你可以使用我们的区域端点来保持指定区域的审计日志数据（目前我们推出的第一个区域是美西-俄勒冈）。我们广泛的始终免费的层级允许每月免费发送10万个事件，永远免费。你可以今天就注册并试用Apptrail。我们提供不需要信用卡的免费试用。<p>我们很想听听你对我们正在建立的东西的想法，或者你对SaaS审计日志的一般经验。请随时与我们联系：founders@apptrail.com。",
+  "description_zh-Hant": "嗨，Hacker News! 我們是Apptrail（https://apptrail.com）的Samrose和Shaeq。我們讓B2B SaaS公司輕鬆地將面向客戶的審計跟蹤添加到他們的產品中。<p>目前，建立和消費SaaS審計日誌太難了。企業出於安全和合規的考慮，使用審計日誌來訪問和監控來自其SaaS工具的活動。例如，一個企業公司的安全管理員會使用Slack的審計日誌來查看發送的消息，以及它們是從哪些設備和IP地址發送的。許多SaaS公司不向他們的客戶提供審計跟蹤，這導致SaaS用戶缺乏洞察力（例如，他們每次需要信息時都要開一張支持票）。<p>對於SaaS公司來說，向他們的產品添加審計日誌是一項艱鉅的任務，由於審計日誌充滿了隱藏的複雜性，所以常常被推遲。設計一個多用戶審計跟蹤解決方案需要圍繞可擴展性、可用性、耐久性、可驗證的不變性、可配置的數據保留和保證交付等要求進行仔細考慮。審計日誌需要通過用戶界面查看，可搜索&amp；可過濾，可通過REST API以編程方式訪問，並且最好支持流式交付給消費者。SaaS公司被這種複雜性所淹沒，並經常實施不合格的解決方案，這導致他們的客戶在實際消費審計日誌時需要做更多的工作。例如，SaaS公司往往無法支持延長數據保留時間（對於大客戶來說，7-10年是很常見的），因為他們的系統不是為長期存儲而設計的。<p>在AWS，我們致力於開發基礎設施，使Amazon能夠輕鬆地將審計日誌植入其服務中。無論是S3還是Sagemaker，每一個AWS服務都需要向所有客戶提供審計日誌，以便它能夠啟動。我們意識到，企業和amp；安全意識強的客戶在使用SaaS工具時也有同樣的需求，但SaaS公司卻完全要自己想辦法建立面向客戶的審計日誌。<p>Apptrail是一項完全可管理的服務，使任何B2B SaaS公司能夠輕鬆地將全功能的審計跟蹤添加到他們的產品中，並將審計日誌以近乎實時的方式交付給他們的終端客戶（數據湖，SIEM等）。請看這裡的簡短演示：https://watch.mmhmm.app/z_JQJ5sqVvIWtkYhrwIkAf。<p>它的工作方式是SaaS公司使用我們的語言原生SDK記錄用戶和API活動，而Apptrail負責其他一切。Apptrail在雲端自動聚集和索引審計數據，並通過我們代表你託管的自助服務門戶UI和REST API向SaaS客戶展示這些數據。<p>Apptrail使用&quot;trails&quot;提供審計日誌交付的一流功能，允許審計日誌消費者添加規則，根據其內容過濾審計日誌，並配置流式交付到S3或Splunk等目的地。 <p>我們完全建立在AWS上，廣泛使用S3、SQS、Kinesis和EC2上的ECS等服務，並由優秀的JVM來驅動應用邏輯。我們已經建立了Apptrail來進行橫向擴展，所以它可以攝取無限數量的審計日誌。Apptrail也完全複製在獨立的雲區域，所以你可以使用我們的區域端點來保持指定區域的審計日誌數據（目前我們推出的第一個區域是美西-俄勒岡）。我們廣泛的始終免費的層級允許每月免費發送10萬個事件，永遠免費。你可以今天就註冊並試用Apptrail。我們提供不需要信用卡的免費試用。<p>我們很想聽聽你對我們正在建立的東西的想法，或者你對SaaS審計日誌的一般經驗。請隨時與我們聯繫：founders@apptrail.com。"
+}
