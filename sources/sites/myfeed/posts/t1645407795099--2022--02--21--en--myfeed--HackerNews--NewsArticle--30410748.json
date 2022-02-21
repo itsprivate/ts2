@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--21--en--myfeed--HackerNews--NewsArticle--30410748",
+  "url": "https://news.ycombinator.com/item?id=30410748",
+  "headline": "Imagine if a lemon law penalized schools for rotten educations",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mudro_zboris",
+    "url": "https://news.ycombinator.com/user?id=mudro_zboris"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30410748",
+  "sameAs": "https://www.washingtonpost.com/opinions/2022/02/14/lemon-law-for-rotten-college-educations/",
+  "dateCreated": "2022-02-21T01:43:15.099Z",
+  "datePublished": "2022-02-21T00:48:36.000Z",
+  "dateModified": "2022-02-21T01:43:15.099Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 19
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 10
+    }
+  ],
+  "headline_zh-Hans": "想象一下，如果柠檬法对学校的烂教育进行惩罚，会是怎样的情况？",
+  "headline_zh-Hant": "想象一下，如果檸檬法對學校的爛教育進行懲罰，會是怎樣的情況？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
