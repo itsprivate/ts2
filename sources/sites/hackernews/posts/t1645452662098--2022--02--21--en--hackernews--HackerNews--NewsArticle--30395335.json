@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--21--en--hackernews--HackerNews--NewsArticle--30395335",
+  "url": "https://news.ycombinator.com/item?id=30395335",
+  "headline": "From atomic blast to Rodney King, KTLA helped shape L.A. and TV history",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "robbiet480",
+    "url": "https://news.ycombinator.com/user?id=robbiet480"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30395335",
+  "sameAs": "https://www.latimes.com/entertainment-arts/business/story/2022-02-18/ktla-los-angeles-channel-five-75-anniversary",
+  "dateCreated": "2022-02-21T14:11:02.098Z",
+  "datePublished": "2022-02-19T08:17:58.000Z",
+  "dateModified": "2022-02-21T14:11:02.098Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "从原子弹爆炸到罗德尼-金，KTLA帮助塑造洛杉矶和电视历史",
+  "headline_zh-Hant": "從原子彈爆炸到羅德尼-金，KTLA幫助塑造洛杉磯和電視歷史",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
