@@ -13,7 +13,7 @@ steps:
   - from: ../../common/format-rss.ts
     args:
       - ${{ctx.item}}
-      - rss
+      - myrss
       - ${{ctx.itemSourceOptions}}
   - from: https://deno.land/std@0.121.0/fs/mod.ts
     use: ensureFile
