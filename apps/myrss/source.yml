@@ -17,6 +17,15 @@ sources:
     args:
       - http://www.aaronsw.com/2002/feeds/pgessays.rss
     limit: 50
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - https://dkb.io/rss.xml
+    limit: 50
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+    limit: 50
+
 steps:
   - from: ../../common/format-rss.ts
     args:
