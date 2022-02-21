@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--21--en--showhn--HackerNews--NewsArticle--30409112",
+  "url": "https://news.ycombinator.com/item?id=30409112",
+  "headline": "Show HN: Rebluff Poker, no limit hold'em for loose aggressive players",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello, I'm uberf1sh, software engineer (I've previously worked for Amazon and Fortnite, though obviously none of the following as to do with my previous employers).<p>My cousin introduced me to online poker in 2008 and I loved it instantly, playing $2 games for fun and glory (the same day my aunt also proceeded to warn me that &quot;it all starts like that&quot;, oh boy if you knew Tata). I was initially pretty bad but I had fun. Indeed, in 2008 the game was really amazing because it was so chaotic and full of crazy plays, your blood was pumping before even sitting at the table. Fast forward I was able to make $1000 a day in vegas, spending everything on sneakers, restaurants and other unspeakable stuff (you know the drill, what happens in Vegas stays in Vegas).<p>5-8 years ago, things started to take a bad turn. The game slowly but surely became incredibly boring. Most regular players started to all adopt a strategy called <i>tight passive</i>. Tight means you play only the best starting hands and passive means you don't bet or raise much, you let your opponent dictate the action (i.e. you let them bet and raise on your behalf). The <i>tight</i> part isn't much of an issue because there is counter strategies that works well (e.g. setting mines). However the <i>passive</i> component is absolutely dreadful.<p>Passive poker is an anti-game strategy. When it comes to games and sports in general, an anti-game strategy works as follows: you are not reaching for a win, but instead, you make the game so boring and frustrating, your opponents become crazy. Passive poker is beatable, but while a passive player don't win much, he doesn't loose much as well. The player keeps its score close to zero and wait patiently that his opponents get crazy enough to make a mistake (while looting beginners).<p>In short, it kills the game entirely. Nowdays, online cash games (especially at lower stakes) are ridiculously passive. The biggest bluff you can expect to see on some tables will be for 3BB (big blinds) max if you're lucky. You will never ever see a 3-barrel bluff with air anymore. You can't set mines either because they wont bet big enough to make it worth it and they will stop betting mostly after the flop. You can often see players literally not betting a dime on the flop, turn and river, even with monster hands. It hurts to see a player check on the river when he speaks last, only to discover they have the nuts - he wants to hurt you that's the point.<p>It's time for passive poker to go. It's time for a change of rules. So I've built Rebluff Poker. Rebluff Poker is the first gaming platform dedicated to loose-aggressive no limit hold'em. The game is in every bit the same, except, each and every player has to bet or raise to some extent on average, or gets to pay a significant penalty in the form of antes (up to 5BB per hand for a multi passive recidivist). For a decently aggressive player, it makes no difference. At the moment, the threshold is close to 2.5BB per hand on average.<p>The game is also much more fun for beginners. Playing LAG against beginners lead to a higher variance which means the beginner still wins occasionally.<p>The plan is to raise money (so far I'd say the reception has been incredible) to get a proper gaming license and legal framework (some licenses are dirt cheap nowdays). So I distribute <i>gift cards</i> to players so we can play, <i>but</i>, I have deactivated stablecoin deposits and withdrawals. Once you've lost your gift card chips, there is no automatic way of getting more so still take care of them if you decide to play. Once we get a gaming license, you will be able to withdraw your balance. In the case where we don't get a gaming license, your balance is worth nothing, it's <i>play money</i>. It's then 100% legal to play today (as a bonus the server is out of reach of a DMCA).<p>Dealers, let's shuffle and deal.<p><a href=\"https://rebluff.poker\" rel=\"nofollow\">https://rebluff.poker</a><p><a href=\"https://discord.gg/TQxqxEpxbS\" rel=\"nofollow\">https://discord.gg/TQxqxEpxbS</a><p>uberf1sh)at(rebluff.poker",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "uberf1sh",
+    "url": "https://news.ycombinator.com/user?id=uberf1sh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30409112",
+  "sameAs": "https://rebluff.poker",
+  "dateCreated": "2022-02-21T01:43:14.780Z",
+  "datePublished": "2022-02-20T20:44:21.000Z",
+  "dateModified": "2022-02-21T01:43:14.780Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Rebluff扑克，为宽松的进取型玩家提供无限制的扑克。",
+  "headline_zh-Hant": "Show HN: Rebluff撲克，為寬鬆的進取型玩家提供無限制的撲克。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家好，我是uberf1sh，软件工程师（我之前在亚马逊和《堡垒之夜》工作过，不过显然以下内容与我之前的雇主无关）。<p>我的表弟在2008年向我介绍了在线扑克，我立刻就喜欢上了它，为了乐趣和荣耀玩了2美元的游戏（同一天我的姑姑还接着警告我，&quot;这一切是这样开始的&quot;，哦，如果你知道Tata，孩子）。我最初的表现相当糟糕，但我很开心。的确，在2008年，这个游戏真的很神奇，因为它是如此混乱，充满了疯狂的游戏，你甚至在坐在桌子前就已经血脉喷张了。Fast forward I was able to make $1000 a day in vegas, spending everything on sneakers, restaurants and other unspeakable stuff (you know the drill, what happens in Vegas stays in Vegas).<p>5-8 years ago, things started to take a bad turn. The game slowly but surely became incredibly boring. Most regular players started to all adopt a strategy called <i>tight passive</i>. Tight means you play only the best starting hands and passive means you don't bet or raise much, you let your opponent dictate the action (i.e. you let them bet and raise on your behalf). The <i>tight</i> part isn't much of an issue because there is counter strategies that works well (e.g. setting mines). 然而，<i>被动</i>部分是绝对可怕的。<p>被动扑克是一种反游戏策略。当涉及到游戏和一般的运动时，反游戏策略的作用如下：你不是为了赢，而是让游戏变得如此无聊和令人沮丧，你的对手变得疯狂。被动的扑克是可以被打败的，但是虽然被动的玩家赢得不多，他也不会失去很多。该玩家保持其分数接近零，并耐心等待他的对手疯狂到犯错（同时掠夺初学者）。现在，在线现金游戏（尤其是低赌注的）被动得令人发指。如果你运气好的话，你在一些桌子上能看到的最大的诈唬是3BB（大盲注）。你将永远不会看到3桶虚张声势的空气。你也不能设置地雷，因为他们不会下足够大的赌注，他们在翻牌后大多会停止下注。你经常可以看到玩家在翻牌、转牌和河牌时不下注一毛钱，即使是怪物手。看到一个玩家在河牌时过牌，当他最后发言时，才发现他们有坚果--他想伤害你，这才是重点。<p>现在是被动扑克的时候了。现在是改变规则的时候了。所以我建立了Rebluff Poker。Rebluff Poker是第一个致力于宽松攻击性无限制扑克的游戏平台。这个游戏在每一点上都是一样的，除了，每一个玩家都必须平均下注或加注到一定程度，否则就要以赌注的形式支付大量的罚款（对于一个多头被动的惯犯来说，每手高达5BB）。对于一个有攻击性的玩家来说，这没有什么区别。目前，平均每手的门槛接近2.5BB。<p>这个游戏对初学者来说也更有趣。Playing LAG against beginners lead to a higher variance which means the beginner still wins occasionally.<p>The plan is to raise money (so far I'd say the reception has been incredible) to get a proper gaming license and legal framework (some licenses are dirt cheap nowdays). So I distribute <i>gift cards</i> to players so we can play, <i>but</i>, I have deactivated stablecoin deposits and withdrawals. Once you've lost your gift card chips, there is no automatic way of getting more so still take care of them if you decide to play. Once we get a gaming license, you will be able to withdraw your balance. In the case where we don't get a gaming license, your balance is worth nothing, it's <i>play money</i>. 然后，今天的游戏是100%合法的（作为奖励，服务器在DMCA的范围之外）。<p>交易员，让我们洗牌和交易。<p><a href=\"https://rebluff.poker\" rel=\"nofollow\">https://rebluff.poker</a><p><a href=\"https://discord.gg/TQxqxEpxbS\" rel=\"nofollow\">https://discord.gg/TQxqxEpxbS</a><p>uberf1sh）在（rebluff.poker",
+  "description_zh-Hant": "大家好，我是uberf1sh，軟件工程師（我之前在亞馬遜和《堡壘之夜》工作過，不過顯然以下內容與我之前的僱主無關）。<p>我的表弟在2008年向我介紹了在線撲克，我立刻就喜歡上了它，為了樂趣和榮耀玩了2美元的遊戲（同一天我的姑姑還接著警告我，&quot;這一切是這樣開始的&quot;，哦，如果你知道Tata，孩子）。我最初的表現相當糟糕，但我很開心。的確，在2008年，這個遊戲真的很神奇，因為它是如此混亂，充滿了瘋狂的遊戲，你甚至在坐在桌子前就已經血脈噴張了。Fast forward I was able to make $1000 a day in vegas, spending everything on sneakers, restaurants and other unspeakable stuff (you know the drill, what happens in Vegas stays in Vegas).<p>5-8 years ago, things started to take a bad turn. The game slowly but surely became incredibly boring. Most regular players started to all adopt a strategy called <i>tight passive</i>. Tight means you play only the best starting hands and passive means you don't bet or raise much, you let your opponent dictate the action (i.e. you let them bet and raise on your behalf). The <i>tight</i> part isn't much of an issue because there is counter strategies that works well (e.g. setting mines). 然而，<i>被動</i>部分是絕對可怕的。<p>被動撲克是一種反遊戲策略。當涉及到遊戲和一般的運動時，反遊戲策略的作用如下：你不是為了贏，而是讓遊戲變得如此無聊和令人沮喪，你的對手變得瘋狂。被動的撲克是可以被打敗的，但是雖然被動的玩家贏得不多，他也不會失去很多。該玩家保持其分數接近零，並耐心等待他的對手瘋狂到犯錯（同時掠奪初學者）。現在，在線現金遊戲（尤其是低賭注的）被動得令人髮指。如果你運氣好的話，你在一些桌子上能看到的最大的詐唬是3BB（大盲注）。你將永遠不會看到3桶虛張聲勢的空氣。你也不能設置地雷，因為他們不會下足夠大的賭注，他們在翻牌後大多會停止下注。你經常可以看到玩家在翻牌、轉牌和河牌時不下注一毛錢，即使是怪物手。看到一個玩家在河牌時過牌，當他最後發言時，才發現他們有堅果--他想傷害你，這才是重點。<p>現在是被動撲克的時候了。現在是改變規則的時候了。所以我建立了Rebluff Poker。Rebluff Poker是第一個致力於寬鬆攻擊性無限制撲克的遊戲平臺。這個遊戲在每一點上都是一樣的，除了，每一個玩家都必須平均下注或加註到一定程度，否則就要以賭注的形式支付大量的罰款（對於一個多頭被動的慣犯來說，每手高達5BB）。對於一個有攻擊性的玩家來說，這沒有什麼區別。目前，平均每手的門檻接近2.5BB。<p>這個遊戲對初學者來說也更有趣。Playing LAG against beginners lead to a higher variance which means the beginner still wins occasionally.<p>The plan is to raise money (so far I'd say the reception has been incredible) to get a proper gaming license and legal framework (some licenses are dirt cheap nowdays). So I distribute <i>gift cards</i> to players so we can play, <i>but</i>, I have deactivated stablecoin deposits and withdrawals. Once you've lost your gift card chips, there is no automatic way of getting more so still take care of them if you decide to play. Once we get a gaming license, you will be able to withdraw your balance. In the case where we don't get a gaming license, your balance is worth nothing, it's <i>play money</i>. 然後，今天的遊戲是100%合法的（作為獎勵，服務器在DMCA的範圍之外）。<p>交易員，讓我們洗牌和交易。<p><a href=\"https://rebluff.poker\" rel=\"nofollow\">https://rebluff.poker</a><p><a href=\"https://discord.gg/TQxqxEpxbS\" rel=\"nofollow\">https://discord.gg/TQxqxEpxbS</a><p>uberf1sh）在（rebluff.poker"
+}
