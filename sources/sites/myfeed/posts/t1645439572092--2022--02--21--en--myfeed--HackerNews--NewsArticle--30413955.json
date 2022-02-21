@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--21--en--myfeed--HackerNews--NewsArticle--30413955",
+  "url": "https://news.ycombinator.com/item?id=30413955",
+  "headline": "Linux Kernel Use-After-Free (CVE-2021-23134) PoC",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jeroenhd",
+    "url": "https://news.ycombinator.com/user?id=jeroenhd"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30413955",
+  "sameAs": "https://ruia-ruia.github.io/NFC-UAF/",
+  "dateCreated": "2022-02-21T10:32:52.092Z",
+  "datePublished": "2022-02-21T10:13:30.000Z",
+  "dateModified": "2022-02-21T10:32:52.092Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Linux内核使用后自由（CVE-2021-23134） PoC",
+  "headline_zh-Hant": "Linux內核使用後自由（CVE-2021-23134） PoC",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
