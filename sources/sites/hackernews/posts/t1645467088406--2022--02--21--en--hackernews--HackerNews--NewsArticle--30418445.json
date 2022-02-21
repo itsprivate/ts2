@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--21--en--hackernews--HackerNews--NewsArticle--30418445",
+  "url": "https://news.ycombinator.com/item?id=30418445",
+  "headline": "Ask HN: When did computers get 'fast enough' for you?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Unless gaming, machine learning, or the like, computers have been fast enough not to make a difference to me for quite a while. I was trying to recall any pivotal moments but have to go pretty far back. I'm also excluding overcoming slowdowns from abstractions because we could.<p>The last time I remember computers being very slow was waiting for C++ compiles in the late-90's/early-00's. Of course C++ compiles could still be slow for people, but I haven't had reason to need to use C++ since because of languages like Java or Go.<p>We always want faster server software as there can be many users using it at once, but even then an SQL db, indexes, and thoughtfully written queries generally get the job done. I remember there was a time that vertically scaling/federating dbs was almost not enough on bare metal, but add sharding and there's very little that you can't handle unless you're FB/Twitter.<p>[The slowest things I've run into in the last decade was Spring/Boot startup, and a React front-end where running all the assembly (TypeScript, CSS, images, polyfills, what-have-you) took over 30s to reload a page.]",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "karmakaze",
+    "url": "https://news.ycombinator.com/user?id=karmakaze"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30418445",
+  "sameAs": "https://news.ycombinator.com/item?id=30418445",
+  "dateCreated": "2022-02-21T18:11:28.406Z",
+  "datePublished": "2022-02-21T17:41:18.000Z",
+  "dateModified": "2022-02-21T18:11:28.406Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 17
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 计算机什么时候对你来说变得 \"足够快 \"了？",
+  "headline_zh-Hant": "Ask HN: 計算機什麼時候對你來說變得 \"足夠快 \"了？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "除非是游戏、机器学习之类的，否则计算机的速度已经足够快了，对我来说，相当长一段时间内不会有什么影响。我试图回忆任何关键的时刻，但必须追溯到很久之前。<p>我记得计算机最后一次变得非常慢是在90年代末/00年代初等待C++编译的时候。<p>我们总是希望服务器软件能够更快，因为可能会有很多用户同时使用它，但即使如此，SQL数据库、索引和精心编写的查询通常也能完成工作。我记得曾经有一段时间，垂直扩展/联合数据库在裸机上几乎是不够的，但是加上分片，除非你是FB/Twitter，否则几乎没有什么是你不能处理的。<p>[在过去十年中，我遇到的最慢的事情是Spring/Boot启动，以及一个React前端，运行所有组件（TypeScript、CSS、图像、polyfills，等等）需要超过30秒来重新加载一个页面。］",
+  "description_zh-Hant": "除非是遊戲、機器學習之類的，否則計算機的速度已經足夠快了，對我來說，相當長一段時間內不會有什麼影響。我試圖回憶任何關鍵的時刻，但必須追溯到很久之前。<p>我記得計算機最後一次變得非常慢是在90年代末/00年代初等待C++編譯的時候。<p>我們總是希望服務器軟件能夠更快，因為可能會有很多用戶同時使用它，但即使如此，SQL數據庫、索引和精心編寫的查詢通常也能完成工作。我記得曾經有一段時間，垂直擴展/聯合數據庫在裸機上幾乎是不夠的，但是加上分片，除非你是FB/Twitter，否則幾乎沒有什麼是你不能處理的。<p>[在過去十年中，我遇到的最慢的事情是Spring/Boot啟動，以及一個React前端，運行所有組件（TypeScript、CSS、圖像、polyfills，等等）需要超過30秒來重新加載一個頁面。］"
+}
