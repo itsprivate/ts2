@@ -13,7 +13,10 @@ sources:
     args:
       - https://cacm.acm.org/magazine.rss
     limit: 50
-
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - http://www.aaronsw.com/2002/feeds/pgessays.rss
+    limit: 50
 steps:
   - from: ../../common/format-rss.ts
     args:
