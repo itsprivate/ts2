@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--21--en--besthn--HackerNews--NewsArticle--30399576",
+  "url": "https://news.ycombinator.com/item?id=30399576",
+  "headline": "Oilslick – an elevation map showing fine detail in terrain",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mleonhard",
+    "url": "https://news.ycombinator.com/user?id=mleonhard"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30399576",
+  "sameAs": "http://mrgris.com/projects/oilslick/",
+  "dateCreated": "2022-02-21T15:11:54.014Z",
+  "datePublished": "2022-02-19T19:06:30.000Z",
+  "dateModified": "2022-02-21T15:11:54.014Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 90
+    }
+  ],
+  "headline_zh-Hans": "Oilslick - 显示地形细部的高程地图",
+  "headline_zh-Hant": "Oilslick - 顯示地形細部的高程地圖",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
