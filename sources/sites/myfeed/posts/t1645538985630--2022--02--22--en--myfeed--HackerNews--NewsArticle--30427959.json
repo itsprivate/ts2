@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30427959",
+  "url": "https://news.ycombinator.com/item?id=30427959",
+  "headline": "Decodable is GA – Real-time stream processing in SQL in the cloud",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "esammer",
+    "url": "https://news.ycombinator.com/user?id=esammer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30427959",
+  "sameAs": "https://www.decodable.co/blog/decodable-is-ga",
+  "dateCreated": "2022-02-22T14:09:45.630Z",
+  "datePublished": "2022-02-22T13:59:12.000Z",
+  "dateModified": "2022-02-22T14:09:45.630Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Decodable is GA - 云中的SQL实时流处理",
+  "headline_zh-Hant": "Decodable is GA - 雲中的SQL實時流處理",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
