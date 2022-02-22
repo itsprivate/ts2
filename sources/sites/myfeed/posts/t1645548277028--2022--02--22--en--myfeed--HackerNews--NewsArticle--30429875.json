@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30429875",
+  "url": "https://news.ycombinator.com/item?id=30429875",
+  "headline": "We Select Our Distractions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ivanvas",
+    "url": "https://news.ycombinator.com/user?id=ivanvas"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30429875",
+  "sameAs": "https://gallant.dev/posts/we-select-our-distractions/",
+  "dateCreated": "2022-02-22T16:44:37.028Z",
+  "datePublished": "2022-02-22T16:29:35.000Z",
+  "dateModified": "2022-02-22T16:44:37.028Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我们选择我们的分心",
+  "headline_zh-Hant": "我們選擇我們的分心",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--hackernews--HackerNews--NewsArticle--30429182",
+  "url": "https://news.ycombinator.com/item?id=30429182",
+  "headline": "European Union to require all job postings to show a salary range",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cocochanel",
+    "url": "https://news.ycombinator.com/user?id=cocochanel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30429182",
+  "sameAs": "https://ec.europa.eu/commission/presscorner/detail/en/ip_21_881",
+  "dateCreated": "2022-02-22T16:44:36.750Z",
+  "datePublished": "2022-02-22T15:35:04.000Z",
+  "dateModified": "2022-02-22T16:44:36.750Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 19
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "欧盟要求所有招聘信息显示工资范围",
+  "headline_zh-Hant": "歐盟要求所有招聘信息顯示工資範圍",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
