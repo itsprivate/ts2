@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--02--20--en--myfeed--HackerNews--NewsArticle--30405908",
-  "url": "https://news.ycombinator.com/item?id=30405908",
-  "headline": "100 Years of the BBC",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30422925",
+  "url": "https://news.ycombinator.com/item?id=30422925",
+  "headline": "Show HN: Quick and dirty way to make Dropbox ignore node_modules (and others)",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,17 +10,20 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "simonjgreen",
-    "url": "https://news.ycombinator.com/user?id=simonjgreen"
+    "name": "kichik",
+    "url": "https://news.ycombinator.com/user?id=kichik"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30405908",
-  "sameAs": "https://www.bbc.co.uk/historyofthebbc/bbc-100/timeline/",
-  "dateCreated": "2022-02-20T14:26:19.153Z",
-  "datePublished": "2022-02-20T14:22:52.000Z",
-  "dateModified": "2022-02-20T14:26:19.153Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30422925",
+  "sameAs": "https://github.com/kichik/dropbox-ignorer",
+  "dateCreated": "2022-02-22T01:43:22.041Z",
+  "datePublished": "2022-02-22T01:10:33.000Z",
+  "dateModified": "2022-02-22T01:43:22.041Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
@@ -34,11 +37,11 @@
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "英国广播公司的100年",
-  "headline_zh-Hant": "英國廣播公司的100年",
+  "headline_zh-Hans": "Show HN: 让Dropbox忽略node_modules（和其他）的快速和肮脏的方法",
+  "headline_zh-Hant": "Show HN: 讓Dropbox忽略node_modules（和其他）的快速和骯髒的方法",
   "@context": [
     "https://schema.org",
     {
