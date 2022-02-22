@@ -1,0 +1,52 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myrss--hello@nichaley.com (Nicholas Haley)--NewsArticle--https%3A%2F%2Fnichaley.com%2Fblog%2F%2Fthis-is-a-blog",
+  "url": "https://nichaley.com/blog//this-is-a-blog",
+  "headline": "This is a blog",
+  "publisher": {
+    "@type": "Organization",
+    "name": "www.nichaley.com",
+    "url": "https://www.nichaley.com/rss/feed.xml"
+  },
+  "description": "An introduction to my site.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hello@nichaley.com (Nicholas Haley)",
+    "url": "https://www.nichaley.com/rss/feed.xml"
+  },
+  "discussionUrl": "https://nichaley.com/blog//this-is-a-blog",
+  "sameAs": "https://nichaley.com/blog//this-is-a-blog",
+  "dateCreated": "2022-02-22T09:50:07.160Z",
+  "datePublished": "2021-05-30T00:00:00.000Z",
+  "dateModified": "2022-02-22T09:50:07.160Z",
+  "interactionStatistic": [],
+  "headline_zh-Hans": "这是个博客",
+  "headline_zh-Hant": "這是個博客",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "对我的网站的介绍。",
+  "description_zh-Hant": "對我的網站的介紹。"
+}
