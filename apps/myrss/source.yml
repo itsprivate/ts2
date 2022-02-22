@@ -26,7 +26,21 @@ sources:
     args:
       - https://www.nichaley.com/rss/feed.xml
     limit: 50
-
+  # https://www.davidhaney.io/ npm dependence guy
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - https://www.davidhaney.io/index.xml
+    limit: 50
+  # https://overreacted.io/
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - https://overreacted.io/rss.xml
+    limit: 50
+  # https://www.newyorker.com/news/daily-comment 纽约客，每日评论
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - https://www.newyorker.com/feed/news/daily-comment
+    limit: 50
 steps:
   - from: ../../common/format-rss.ts
     args:
