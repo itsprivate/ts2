@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30425837",
+  "url": "https://news.ycombinator.com/item?id=30425837",
+  "headline": "UK Government advice update diffs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "splaty",
+    "url": "https://news.ycombinator.com/user?id=splaty"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30425837",
+  "sameAs": "https://govdiff.njk.onl/updates",
+  "dateCreated": "2022-02-22T09:49:53.699Z",
+  "datePublished": "2022-02-22T09:39:46.000Z",
+  "dateModified": "2022-02-22T09:49:53.699Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "英国政府建议的更新差异",
+  "headline_zh-Hant": "英國政府建議的更新差異",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
