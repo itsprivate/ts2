@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30431280",
+  "url": "https://news.ycombinator.com/item?id=30431280",
+  "headline": "Horde Webmail 5.2.22 – Account Takeover via Email",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "h1x",
+    "url": "https://news.ycombinator.com/user?id=h1x"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30431280",
+  "sameAs": "https://blog.sonarsource.com/horde-webmail-account-takeover-via-email/",
+  "dateCreated": "2022-02-22T18:35:03.652Z",
+  "datePublished": "2022-02-22T18:12:38.000Z",
+  "dateModified": "2022-02-22T18:35:03.652Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Horde Webmail 5.2.22 - 通过电子邮件接管账户",
+  "headline_zh-Hant": "Horde Webmail 5.2.22 - 通過電子郵件接管賬戶",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

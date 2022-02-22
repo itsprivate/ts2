@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30431396",
+  "url": "https://news.ycombinator.com/item?id=30431396",
+  "headline": "PyPortal Winamp MP3 Player",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "HieronymusBosch",
+    "url": "https://news.ycombinator.com/user?id=HieronymusBosch"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30431396",
+  "sameAs": "https://learn.adafruit.com/pyportal-winamp-mp3-player?view=all",
+  "dateCreated": "2022-02-22T18:35:03.713Z",
+  "datePublished": "2022-02-22T18:20:27.000Z",
+  "dateModified": "2022-02-22T18:35:03.713Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "PyPortal Winamp MP3播放器",
+  "headline_zh-Hant": "PyPortal Winamp MP3播放器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
