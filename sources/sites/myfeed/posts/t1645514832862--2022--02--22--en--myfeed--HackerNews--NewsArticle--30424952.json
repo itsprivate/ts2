@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30424952",
+  "url": "https://news.ycombinator.com/item?id=30424952",
+  "headline": "Programmer's cookbook during coronavirous isolation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "willyywt",
+    "url": "https://news.ycombinator.com/user?id=willyywt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30424952",
+  "sameAs": "https://github.com/Anduin2017/HowToCook",
+  "dateCreated": "2022-02-22T07:27:12.862Z",
+  "datePublished": "2022-02-22T07:23:27.000Z",
+  "dateModified": "2022-02-22T07:27:12.862Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "冠状病毒隔离期间的程序员食谱",
+  "headline_zh-Hant": "冠狀病毒隔離期間的程序員食譜",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
