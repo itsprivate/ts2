@@ -8,7 +8,7 @@ import { copy } from "https://deno.land/std@0.121.0/fs/copy.ts";
 import { getSitePath, getAppPath, formatDate } from "./util.ts";
 import { getDataFilePath } from "../common/util.ts";
 const themeColor = "#1095c1";
-const pageSize = 1000;
+const pageSize = 600;
 const languages = ["zh-Hans", "zh-Hant"];
 const distPath = getSitePath("public");
 export default async function main(siteIdentifier: string) {
