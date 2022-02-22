@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30422340",
+  "url": "https://news.ycombinator.com/item?id=30422340",
+  "headline": "22/02/2022 is palindrome day (for most of the world)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Sorry USA.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tony-allan",
+    "url": "https://news.ycombinator.com/user?id=tony-allan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30422340",
+  "sameAs": "https://news.ycombinator.com/item?id=30422340",
+  "dateCreated": "2022-02-22T00:31:39.955Z",
+  "datePublished": "2022-02-21T23:53:51.000Z",
+  "dateModified": "2022-02-22T00:31:39.955Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "2022年2月22日是调色板日（对世界上大多数人来说）。",
+  "headline_zh-Hant": "2022年2月22日是調色板日（對世界上大多數人來說）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "对不起，美国。",
+  "description_zh-Hant": "對不起，美國。"
+}
