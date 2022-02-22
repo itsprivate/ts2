@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--hackernews--HackerNews--NewsArticle--30428167",
+  "url": "https://news.ycombinator.com/item?id=30428167",
+  "headline": "Slack Buggy This Morning?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Nothing on https://status.slack.com/ but many people at my organization have trouble loading channels or having messages send.<p>Issues seem to exist across web app / mobile app / desktop app.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "eqmvii",
+    "url": "https://news.ycombinator.com/user?id=eqmvii"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30428167",
+  "sameAs": "https://news.ycombinator.com/item?id=30428167",
+  "dateCreated": "2022-02-22T14:27:18.713Z",
+  "datePublished": "2022-02-22T14:19:07.000Z",
+  "dateModified": "2022-02-22T14:27:18.713Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "今早的Slack Buggy？",
+  "headline_zh-Hant": "今早的Slack Buggy？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "https://status.slack.com/，但在我的组织中，许多人在加载频道或发送消息时遇到困难。<p>问题似乎存在于网络应用/移动应用/桌面应用之间。",
+  "description_zh-Hant": "https://status.slack.com/，但在我的組織中，許多人在加載頻道或發送消息時遇到困難。<p>問題似乎存在於網絡應用/移動應用/桌面應用之間。"
+}
