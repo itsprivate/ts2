@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30424783",
+  "url": "https://news.ycombinator.com/item?id=30424783",
+  "headline": "Today is 2022/02/22",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Today is the last date with only two digits until 2111/1/1.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "junkerm",
+    "url": "https://news.ycombinator.com/user?id=junkerm"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30424783",
+  "sameAs": "https://news.ycombinator.com/item?id=30424783",
+  "dateCreated": "2022-02-22T07:09:41.223Z",
+  "datePublished": "2022-02-22T06:58:14.000Z",
+  "dateModified": "2022-02-22T07:09:41.223Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "今天是2022/02/22",
+  "headline_zh-Hant": "今天是2022/02/22",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "今天是2111/1/1之前最后一个只有两位数的日期。",
+  "description_zh-Hant": "今天是2111/1/1之前最後一個只有兩位數的日期。"
+}
