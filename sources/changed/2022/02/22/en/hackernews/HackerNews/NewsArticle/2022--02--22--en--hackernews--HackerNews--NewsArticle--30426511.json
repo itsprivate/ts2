@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--hackernews--HackerNews--NewsArticle--30426511",
+  "url": "https://news.ycombinator.com/item?id=30426511",
+  "headline": "A curated list of libraries, packages and resources for Quants",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "_benj",
+    "url": "https://news.ycombinator.com/user?id=_benj"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30426511",
+  "sameAs": "https://github.com/wilsonfreitas/awesome-quant",
+  "dateCreated": "2022-02-22T13:49:55.143Z",
+  "datePublished": "2022-02-22T11:19:41.000Z",
+  "dateModified": "2022-02-22T13:49:55.143Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一个精心策划的库、包和资源清单，供Quants使用。",
+  "headline_zh-Hant": "一個精心策劃的庫、包和資源清單，供Quants使用。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
