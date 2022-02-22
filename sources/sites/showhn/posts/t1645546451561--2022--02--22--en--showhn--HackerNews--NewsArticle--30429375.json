@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--02--01--en--askhn--HackerNews--NewsArticle--30157708",
-  "url": "https://news.ycombinator.com/item?id=30157708",
-  "headline": "Ask HN: Minimum testable application to evaluate a stack?",
+  "identifier": "2022--02--22--en--showhn--HackerNews--NewsArticle--30429375",
+  "url": "https://news.ycombinator.com/item?id=30429375",
+  "headline": "Show HN: Auto-generate unit tests (with mocks) from API calls",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -11,26 +11,26 @@
   },
   "description": "",
   "keywords": [
-    "Ask HN"
+    "Show HN"
   ],
-  "genre": "Ask HN",
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "uptownfunk",
-    "url": "https://news.ycombinator.com/user?id=uptownfunk"
+    "name": "slayerjain",
+    "url": "https://news.ycombinator.com/user?id=slayerjain"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30157708",
-  "sameAs": "https://news.ycombinator.com/item?id=30157708",
-  "dateCreated": "2022-02-01T02:19:41.363Z",
-  "datePublished": "2022-02-01T02:01:35.000Z",
-  "dateModified": "2022-02-01T02:19:41.363Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30429375",
+  "sameAs": "https://github.com/keploy/keploy",
+  "dateCreated": "2022-02-22T16:14:11.561Z",
+  "datePublished": "2022-02-22T15:51:10.000Z",
+  "dateModified": "2022-02-22T16:14:11.561Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 1
+      "userInteractionCount": 3
     },
     {
       "@type": "InteractionCounter",
@@ -40,12 +40,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "Ask HN: 评估一个堆栈的最小可测试应用？",
-  "headline_zh-Hant": "Ask HN: 評估一個堆棧的最小可測試應用？",
+  "headline_zh-Hans": "Show HN: 从API调用中自动生成单元测试（带模拟）。",
+  "headline_zh-Hant": "Show HN: 從API調用中自動生成單元測試（帶模擬）。",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
