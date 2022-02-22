@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--showhn--HackerNews--NewsArticle--30426838",
+  "url": "https://news.ycombinator.com/item?id=30426838",
+  "headline": "Show HN: Esolang Park, an online visual debugger for esolangs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN! Esolang Park is an online visual debugger interface for esoteric programming languages, that I've been working on for the past few months. For every supported language, Esolang Park provides the powerful Monaco code editor, syntax checking, debugging functionality and a visualisation of the runtime state. The core is language-agnostic - a &quot;language provider&quot; only needs to implement the esolang's parser, interpreter and visualisation UI (and some other little stuff).<p>Apart from trying to boost DX for esolangs, the idea is for this to grow into a platform where people can discover and play around with a variety of esolangs without leaving the browser. That's quite far away though - the project is quite early in development and currently only has 5 languages (Befunge-93, Brainf*ck, Chef, Deadfish and Shakespeare).<p>Happy to hear any feedback (and bug reports too)!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "nilaymaj",
+    "url": "https://news.ycombinator.com/user?id=nilaymaj"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30426838",
+  "sameAs": "https://esolangpark.vercel.app",
+  "dateCreated": "2022-02-22T12:17:22.703Z",
+  "datePublished": "2022-02-22T12:03:44.000Z",
+  "dateModified": "2022-02-22T12:17:22.703Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Esolang Park，一个针对esolangs的在线可视化调试器。",
+  "headline_zh-Hant": "Show HN: Esolang Park，一個針對esolangs的在線可視化調試器。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嘿，HN! Esolang Park是一个针对神秘编程语言的在线可视化调试器界面，在过去的几个月里，我一直在致力于此。对于每一种支持的语言，Esolang Park都提供强大的Monaco代码编辑器、语法检查、调试功能和运行时状态的可视化。该核心是与语言无关的--语言提供者只需要实现esolang的解析器、解释器和可视化用户界面（以及其他一些小东西）。<p>除了试图提高esolangs的DX之外，我们的想法是让它发展成为一个平台，人们可以发现和玩弄各种esolangs而无需离开浏览器。不过这还很遥远--该项目处于开发初期，目前只有5种语言（Befunge-93、Brainf*ck、Chef、Deadfish和Shakespeare）。<p>很高兴听到任何反馈（以及错误报告）!",
+  "description_zh-Hant": "嘿，HN! Esolang Park是一個針對神秘編程語言的在線可視化調試器界面，在過去的幾個月裡，我一直在致力於此。對於每一種支持的語言，Esolang Park都提供強大的Monaco代碼編輯器、語法檢查、調試功能和運行時狀態的可視化。該核心是與語言無關的--語言提供者只需要實現esolang的解析器、解釋器和可視化用戶界面（以及其他一些小東西）。<p>除了試圖提高esolangs的DX之外，我們的想法是讓它發展成為一個平臺，人們可以發現和玩弄各種esolangs而無需離開瀏覽器。不過這還很遙遠--該項目處於開發初期，目前只有5種語言（Befunge-93、Brainf*ck、Chef、Deadfish和Shakespeare）。<p>很高興聽到任何反饋（以及錯誤報告）!"
+}
