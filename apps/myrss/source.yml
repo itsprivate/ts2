@@ -25,6 +25,11 @@ sources:
     args:
       - https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
     limit: 50
+  # <https://www.nichaley.com/>
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - https://www.nichaley.com/rss/feed.xml
+    limit: 50
 
 steps:
   - from: ../../common/format-rss.ts
