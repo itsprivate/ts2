@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--showhn--HackerNews--NewsArticle--30423065",
+  "url": "https://news.ycombinator.com/item?id=30423065",
+  "headline": "Show HN: Mappable – raw text to API in 30min",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "deneutoy",
+    "url": "https://news.ycombinator.com/user?id=deneutoy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30423065",
+  "sameAs": "https://mappable.ai/",
+  "dateCreated": "2022-02-22T01:43:36.176Z",
+  "datePublished": "2022-02-22T01:35:09.000Z",
+  "dateModified": "2022-02-22T01:43:36.176Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 可映射--原始文本到API只需30分钟",
+  "headline_zh-Hant": "Show HN: 可映射--原始文本到API只需30分鐘",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

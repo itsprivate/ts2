@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30422515",
+  "url": "https://news.ycombinator.com/item?id=30422515",
+  "headline": "Hacker Gets PCIe GPU Working on Raspberry Pi CM4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mrlonglong",
+    "url": "https://news.ycombinator.com/user?id=mrlonglong"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30422515",
+  "sameAs": "https://www.tomshardware.com/uk/news/raspberry-pi-compute-module-4-pcie-gpu-hack",
+  "dateCreated": "2022-02-22T00:31:40.001Z",
+  "datePublished": "2022-02-22T00:13:42.000Z",
+  "dateModified": "2022-02-22T00:31:40.001Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "黑客让PCIe GPU在Raspberry Pi CM4上工作",
+  "headline_zh-Hant": "黑客讓PCIe GPU在Raspberry Pi CM4上工作",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

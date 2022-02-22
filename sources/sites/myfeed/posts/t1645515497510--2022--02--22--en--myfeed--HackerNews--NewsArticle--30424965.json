@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30424965",
+  "url": "https://news.ycombinator.com/item?id=30424965",
+  "headline": "Tonga Reconnected to the Internet",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jgrahamc",
+    "url": "https://news.ycombinator.com/user?id=jgrahamc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30424965",
+  "sameAs": "https://twitter.com/CloudflareRadar/status/1496015262080020481",
+  "dateCreated": "2022-02-22T07:38:17.510Z",
+  "datePublished": "2022-02-22T07:26:48.000Z",
+  "dateModified": "2022-02-22T07:38:17.510Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "汤加重新连接到互联网",
+  "headline_zh-Hant": "湯加重新連接到互聯網",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30422492",
+  "url": "https://news.ycombinator.com/item?id=30422492",
+  "headline": "Shadow Stacks for User Space",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "chmaynard",
+    "url": "https://news.ycombinator.com/user?id=chmaynard"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30422492",
+  "sameAs": "https://lwn.net/SubscriberLink/885220/770e20c7eb732c4b/",
+  "dateCreated": "2022-02-22T00:31:39.988Z",
+  "datePublished": "2022-02-22T00:10:53.000Z",
+  "dateModified": "2022-02-22T00:31:39.988Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用户空间的影子堆栈",
+  "headline_zh-Hant": "用戶空間的影子堆棧",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30423157",
+  "url": "https://news.ycombinator.com/item?id=30423157",
+  "headline": "TextSnatcher – An Easy to use OCR front end for GNU/Linux",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rajsolai",
+    "url": "https://news.ycombinator.com/user?id=rajsolai"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30423157",
+  "sameAs": "https://github.com/RajSolai/TextSnatcher",
+  "dateCreated": "2022-02-22T02:20:26.251Z",
+  "datePublished": "2022-02-22T01:48:13.000Z",
+  "dateModified": "2022-02-22T02:20:26.251Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "TextSnatcher - 适用于GNU/Linux的易于使用的OCR前端程序",
+  "headline_zh-Hant": "TextSnatcher - 適用於GNU/Linux的易於使用的OCR前端程序",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

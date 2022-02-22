@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30422653",
+  "url": "https://news.ycombinator.com/item?id=30422653",
+  "headline": "Elon Musk: Entertainment is becoming a username/password/2FA nightmare",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hhs",
+    "url": "https://news.ycombinator.com/user?id=hhs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30422653",
+  "sameAs": "https://twitter.com/elonmusk/status/1495901654872383499",
+  "dateCreated": "2022-02-22T00:31:40.069Z",
+  "datePublished": "2022-02-22T00:29:46.000Z",
+  "dateModified": "2022-02-22T00:31:40.069Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "埃隆-马斯克：娱乐业正成为用户名/密码/2FA的恶梦",
+  "headline_zh-Hant": "埃隆-馬斯克：娛樂業正成為用戶名/密碼/2FA的惡夢",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

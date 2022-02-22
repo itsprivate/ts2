@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30423515",
+  "url": "https://news.ycombinator.com/item?id=30423515",
+  "headline": "Have You Ever Tried to Sell a Diamond? 1982",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "croh",
+    "url": "https://news.ycombinator.com/user?id=croh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30423515",
+  "sameAs": "https://www.theatlantic.com/magazine/archive/1982/02/have-you-ever-tried-to-sell-a-diamond/304575/",
+  "dateCreated": "2022-02-22T02:56:03.142Z",
+  "datePublished": "2022-02-22T02:49:41.000Z",
+  "dateModified": "2022-02-22T02:56:03.142Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "你有没有尝试过出售钻石？1982",
+  "headline_zh-Hant": "你有沒有嘗試過出售鑽石？1982",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

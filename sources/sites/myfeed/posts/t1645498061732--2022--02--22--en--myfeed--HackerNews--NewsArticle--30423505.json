@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30423505",
+  "url": "https://news.ycombinator.com/item?id=30423505",
+  "headline": "NIH Sent The Intercept 292 Redacted Pages in FOIA Response over Virus Research",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "BarrySeal",
+    "url": "https://news.ycombinator.com/user?id=BarrySeal"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30423505",
+  "sameAs": "https://theintercept.com/2022/02/20/nih-coronavirus-research-wuhan-redacted/",
+  "dateCreated": "2022-02-22T02:47:41.732Z",
+  "datePublished": "2022-02-22T02:45:58.000Z",
+  "dateModified": "2022-02-22T02:47:41.732Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "美国国立卫生研究院向拦截者发送了292页关于病毒研究的信息披露答复，并对其进行了删减。",
+  "headline_zh-Hant": "美國國立衛生研究院向攔截者發送了292頁關於病毒研究的信息披露答覆，並對其進行了刪減。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

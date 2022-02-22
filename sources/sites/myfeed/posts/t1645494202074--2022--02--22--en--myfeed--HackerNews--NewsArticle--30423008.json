@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30423008",
+  "url": "https://news.ycombinator.com/item?id=30423008",
+  "headline": "Maclaurin Integration: A Weapon Against Infamous Integrals",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "davidrupp",
+    "url": "https://news.ycombinator.com/user?id=davidrupp"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30423008",
+  "sameAs": "https://arxiv.org/abs/2201.12717",
+  "dateCreated": "2022-02-22T01:43:22.074Z",
+  "datePublished": "2022-02-22T01:25:16.000Z",
+  "dateModified": "2022-02-22T01:43:22.074Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "麦考林整合。反对臭名昭著的积分的武器",
+  "headline_zh-Hant": "麥考林整合。反對臭名昭著的積分的武器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30422765",
+  "url": "https://news.ycombinator.com/item?id=30422765",
+  "headline": "Boris Johnson announces the end of Covid restrictions in England",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "baskethead",
+    "url": "https://news.ycombinator.com/user?id=baskethead"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30422765",
+  "sameAs": "https://www.cnn.com/2022/02/21/uk/boris-johnson-drops-covid-restrictions-intl-gbr/index.html",
+  "dateCreated": "2022-02-22T01:43:21.999Z",
+  "datePublished": "2022-02-22T00:44:21.000Z",
+  "dateModified": "2022-02-22T01:43:21.999Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "鲍里斯-约翰逊宣布结束英格兰的Covid限制",
+  "headline_zh-Hant": "鮑里斯-約翰遜宣佈結束英格蘭的Covid限制",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

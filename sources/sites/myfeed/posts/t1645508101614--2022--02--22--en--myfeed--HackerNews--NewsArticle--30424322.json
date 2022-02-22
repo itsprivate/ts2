@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30424322",
+  "url": "https://news.ycombinator.com/item?id=30424322",
+  "headline": "Tech Companies Face a Fresh Crisis: Hiring",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "knappe",
+    "url": "https://news.ycombinator.com/user?id=knappe"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30424322",
+  "sameAs": "https://www.nytimes.com/2022/02/16/magazine/tech-company-recruiters.html",
+  "dateCreated": "2022-02-22T05:35:01.614Z",
+  "datePublished": "2022-02-22T05:27:15.000Z",
+  "dateModified": "2022-02-22T05:35:01.614Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "科技公司面临新的危机：招聘",
+  "headline_zh-Hant": "科技公司面臨新的危機：招聘",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
