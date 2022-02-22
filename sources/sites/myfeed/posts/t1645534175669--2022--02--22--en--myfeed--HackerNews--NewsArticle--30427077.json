@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30427077",
+  "url": "https://news.ycombinator.com/item?id=30427077",
+  "headline": "I tested Apple Watch sleep tracking",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "janandonly",
+    "url": "https://news.ycombinator.com/user?id=janandonly"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30427077",
+  "sameAs": "https://venturebeat.com/2020/09/28/i-tested-apple-watch-sleep-tracking-to-save-you-time-and-battery-life/",
+  "dateCreated": "2022-02-22T12:49:35.669Z",
+  "datePublished": "2022-02-22T12:29:22.000Z",
+  "dateModified": "2022-02-22T12:49:35.669Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我测试了苹果手表的睡眠追踪",
+  "headline_zh-Hant": "我測試了蘋果手錶的睡眠追蹤",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
