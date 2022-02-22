@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--myfeed--HackerNews--NewsArticle--30427027",
+  "url": "https://news.ycombinator.com/item?id=30427027",
+  "headline": "Forsyth–Edwards Notation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tosh",
+    "url": "https://news.ycombinator.com/user?id=tosh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30427027",
+  "sameAs": "https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation",
+  "dateCreated": "2022-02-22T12:49:35.647Z",
+  "datePublished": "2022-02-22T12:25:42.000Z",
+  "dateModified": "2022-02-22T12:49:35.647Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "福赛斯-爱德华兹记号",
+  "headline_zh-Hant": "福賽斯-愛德華茲記號",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
