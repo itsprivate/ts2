@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--23--en--myfeed--HackerNews--NewsArticle--30444897",
+  "url": "https://news.ycombinator.com/item?id=30444897",
+  "headline": "Google Ads API sunset schedule is too aggressive",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "My company builds on top of the Google Ads API. We are having serious issues with the iteration speed of the API and the aggressive deprecation and sunset schedule. Every few months we get emails warning us that the version of the API that we are currently using is going to sunset shortly and we need to migrate to the latest version. For example we are currently on V9 of the API. We migrated to it almost as soon as it was released on November 3, 2021. The sunset date for this version of the API is February 9, 2022. This is a grand total of 3 months and 6 days between release and sunset.<p>Three months between release of an API version and sunset is insane to me. Luckily we are an agile startup and can switch to a new API version fairly quickly (when there aren't breaking changes, which sometimes there are). I have no idea how a bigger company who has to go through layers of QA, release planning, and red tape could possibly keep up. By the time you develop and launch support for a new version of the API you would literally have to start all over and work on upgrading to the next version.<p>You can see the release and sunset schedule on this page of the docs: https://developers.google.com/google-ads/api/docs/sunset-dates<p>Here are a few of the release schedules:<p>Version: V7 \nRelease Date: April 28, 2021 \nSunset Date: September 8, 2021<p>Version: V8\nRelease Date: June 9, 2021\nSunset Date: November 3, 2021<p>Version: V9\nRelease Date: November 3, 2021\nSunset Date: February 9, 2022",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fourseventy",
+    "url": "https://news.ycombinator.com/user?id=fourseventy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30444897",
+  "sameAs": "https://news.ycombinator.com/item?id=30444897",
+  "dateCreated": "2022-02-23T19:24:17.753Z",
+  "datePublished": "2022-02-23T19:03:12.000Z",
+  "dateModified": "2022-02-23T19:24:17.753Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "谷歌广告API日落时间表过于激进",
+  "headline_zh-Hant": "谷歌廣告API日落時間表過於激進",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我的公司建立在谷歌广告API之上。我们在API的迭代速度和积极的淘汰和日落时间表方面有严重的问题。每隔几个月，我们就会收到电子邮件，警告我们目前使用的API版本很快就会日落，我们需要迁移到最新版本。例如，我们目前使用的是API的V9版本。几乎在2021年11月3日发布后，我们就迁移到了它。这个版本的API的日落日期是2022年2月9日。这意味着从发布到日落总共有3个月零6天的时间。<p>从发布API版本到日落有3个月的时间，对我来说是很疯狂的。幸运的是，我们是一家敏捷的初创公司，可以相当迅速地切换到新的API版本（当没有重大变化时，有时会有）。我不知道一个需要经过层层QA、发布计划和繁文缛节的大公司怎么可能跟得上。当你开发并启动对新版本API的支持时，你将不得不从头开始，并努力升级到下一个版本。<p>你可以在文档的这一页看到发布和日落时间表：https://developers.google.com/google-ads/api/docs/sunset-dates<p>以下是一些发布时间表：<p>版本。V7 \n发布日期。2021年4月28日 \n日落日期。2021年9月8日<p>版本。V8\n发布日期。2021年6月9日\n日落日期。2021年11月3日<p>版本。V9\n发布日期。2021年11月3日\n日落日期。2022年2月9日",
+  "description_zh-Hant": "我的公司建立在谷歌廣告API之上。我們在API的迭代速度和積極的淘汰和日落時間表方面有嚴重的問題。每隔幾個月，我們就會收到電子郵件，警告我們目前使用的API版本很快就會日落，我們需要遷移到最新版本。例如，我們目前使用的是API的V9版本。幾乎在2021年11月3日發佈後，我們就遷移到了它。這個版本的API的日落日期是2022年2月9日。這意味著從發佈到日落總共有3個月零6天的時間。<p>從發佈API版本到日落有3個月的時間，對我來說是很瘋狂的。幸運的是，我們是一家敏捷的初創公司，可以相當迅速地切換到新的API版本（當沒有重大變化時，有時會有）。我不知道一個需要經過層層QA、發佈計劃和繁文縟節的大公司怎麼可能跟得上。當你開發並啟動對新版本API的支持時，你將不得不從頭開始，並努力升級到下一個版本。<p>你可以在文檔的這一頁看到發佈和日落時間表：https://developers.google.com/google-ads/api/docs/sunset-dates<p>以下是一些發佈時間表：<p>版本。V7 \n發佈日期。2021年4月28日 \n日落日期。2021年9月8日<p>版本。V8\n發佈日期。2021年6月9日\n日落日期。2021年11月3日<p>版本。V9\n發佈日期。2021年11月3日\n日落日期。2022年2月9日"
+}
