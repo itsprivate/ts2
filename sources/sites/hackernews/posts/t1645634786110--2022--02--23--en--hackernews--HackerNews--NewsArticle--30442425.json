@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--23--en--hackernews--HackerNews--NewsArticle--30442425",
+  "url": "https://news.ycombinator.com/item?id=30442425",
+  "headline": "Save your Phantom wallet details in 1Password",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "techiedude",
+    "url": "https://news.ycombinator.com/user?id=techiedude"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30442425",
+  "sameAs": "https://blog.1password.com/phantom-crypto-wallet-1password/",
+  "dateCreated": "2022-02-23T16:46:26.110Z",
+  "datePublished": "2022-02-23T15:56:38.000Z",
+  "dateModified": "2022-02-23T16:46:26.110Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在1Password中保存您的Phantom钱包信息",
+  "headline_zh-Hant": "在1Password中保存您的Phantom錢包信息",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
