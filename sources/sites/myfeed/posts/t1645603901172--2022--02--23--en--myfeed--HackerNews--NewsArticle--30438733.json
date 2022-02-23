@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--02--01--en--askhn--HackerNews--NewsArticle--30167206",
-  "url": "https://news.ycombinator.com/item?id=30167206",
-  "headline": "Ask HN: Effective way to find new job?",
+  "identifier": "2022--02--23--en--myfeed--HackerNews--NewsArticle--30438733",
+  "url": "https://news.ycombinator.com/item?id=30438733",
+  "headline": "Debugging WebAssembly with modern tools (2020)",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,27 +10,24 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [
-    "Ask HN"
-  ],
-  "genre": "Ask HN",
+  "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "2bor-2n",
-    "url": "https://news.ycombinator.com/user?id=2bor-2n"
+    "name": "tosh",
+    "url": "https://news.ycombinator.com/user?id=tosh"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30167206",
-  "sameAs": "https://news.ycombinator.com/item?id=30167206",
-  "dateCreated": "2022-02-01T19:07:30.845Z",
-  "datePublished": "2022-02-01T18:48:58.000Z",
-  "dateModified": "2022-02-01T19:07:30.845Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30438733",
+  "sameAs": "https://developer.chrome.com/blog/wasm-debugging-2020/",
+  "dateCreated": "2022-02-23T08:11:41.172Z",
+  "datePublished": "2022-02-23T07:52:13.000Z",
+  "dateModified": "2022-02-23T08:11:41.172Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 1
+      "userInteractionCount": 2
     },
     {
       "@type": "InteractionCounter",
@@ -40,12 +37,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "Ask HN: 寻找新工作的有效方法？",
-  "headline_zh-Hant": "Ask HN: 尋找新工作的有效方法？",
+  "headline_zh-Hans": "用现代工具调试WebAssembly（2020）。",
+  "headline_zh-Hant": "用現代工具調試WebAssembly（2020）。",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
