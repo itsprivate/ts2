@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--23--en--myfeed--HackerNews--NewsArticle--30443319",
+  "url": "https://news.ycombinator.com/item?id=30443319",
+  "headline": "Does life flash before your eyes? Brain scan of dying man suggests it’s possible",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "DrNuke",
+    "url": "https://news.ycombinator.com/user?id=DrNuke"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30443319",
+  "sameAs": "https://www.theguardian.com/science/2022/feb/23/does-life-flash-before-your-eyes-brain-scan-of-dying-man-suggests-its-possible",
+  "dateCreated": "2022-02-23T17:31:37.849Z",
+  "datePublished": "2022-02-23T17:05:18.000Z",
+  "dateModified": "2022-02-23T17:31:37.849Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "生命是否在你眼前闪过？垂死男子的大脑扫描表明这是可能的",
+  "headline_zh-Hant": "生命是否在你眼前閃過？垂死男子的大腦掃描表明這是可能的",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
