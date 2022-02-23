@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--02--02--en--askhn--HackerNews--NewsArticle--30175621",
-  "url": "https://news.ycombinator.com/item?id=30175621",
-  "headline": "Ask HN: Interesting Magic Numbers?",
+  "identifier": "2022--02--23--en--myfeed--HackerNews--NewsArticle--30445372",
+  "url": "https://news.ycombinator.com/item?id=30445372",
+  "headline": "TextSynth",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,27 +10,24 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [
-    "Ask HN"
-  ],
-  "genre": "Ask HN",
+  "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "hahnchen",
-    "url": "https://news.ycombinator.com/user?id=hahnchen"
+    "name": "ggktk",
+    "url": "https://news.ycombinator.com/user?id=ggktk"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30175621",
-  "sameAs": "https://news.ycombinator.com/item?id=30175621",
-  "dateCreated": "2022-02-02T10:08:13.215Z",
-  "datePublished": "2022-02-02T09:55:31.000Z",
-  "dateModified": "2022-02-02T10:08:13.215Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30445372",
+  "sameAs": "https://textsynth.com/index.html",
+  "dateCreated": "2022-02-23T19:49:58.208Z",
+  "datePublished": "2022-02-23T19:42:43.000Z",
+  "dateModified": "2022-02-23T19:49:58.208Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -40,12 +37,12 @@
       "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "Ask HN: 有趣的神奇数字？",
-  "headline_zh-Hant": "Ask HN: 有趣的神奇數字？",
+  "headline_zh-Hans": "文本合成器",
+  "headline_zh-Hant": "文本合成器",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
