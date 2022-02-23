@@ -46,6 +46,10 @@ sources:
     args:
       - http://edit.mooreds.com/wordpress/feed
     limit: 50
+  - args:
+      - https://astralcodexten.substack.com/feed
+    from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    limit: 50
 steps:
   - from: ../../common/format-rss.ts
     args:
