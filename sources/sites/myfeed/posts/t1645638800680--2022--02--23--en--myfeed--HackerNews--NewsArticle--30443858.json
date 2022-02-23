@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--23--en--myfeed--HackerNews--NewsArticle--30443858",
+  "url": "https://news.ycombinator.com/item?id=30443858",
+  "headline": "The Non-Shopper Problem",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "samglover97",
+    "url": "https://news.ycombinator.com/user?id=samglover97"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30443858",
+  "sameAs": "https://www.econlib.org/the-non-shopper-problem/",
+  "dateCreated": "2022-02-23T17:53:20.680Z",
+  "datePublished": "2022-02-23T17:40:39.000Z",
+  "dateModified": "2022-02-23T17:53:20.680Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "非购物者问题",
+  "headline_zh-Hant": "非購物者問題",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--23--en--myfeed--HackerNews--NewsArticle--30443868",
+  "url": "https://news.ycombinator.com/item?id=30443868",
+  "headline": "Facebook's fight to beat Google and dominate in AI",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tosh",
+    "url": "https://news.ycombinator.com/user?id=tosh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30443868",
+  "sameAs": "https://www.wired.co.uk/article/facebook-ai-research-fair-google-experiments",
+  "dateCreated": "2022-02-23T17:53:20.696Z",
+  "datePublished": "2022-02-23T17:41:46.000Z",
+  "dateModified": "2022-02-23T17:53:20.696Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "脸书为击败谷歌并在人工智能领域占据主导地位而进行的斗争",
+  "headline_zh-Hant": "臉書為擊敗谷歌並在人工智能領域佔據主導地位而進行的鬥爭",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

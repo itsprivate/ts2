@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--23--en--myfeed--HackerNews--NewsArticle--30443904",
+  "url": "https://news.ycombinator.com/item?id=30443904",
+  "headline": "How to call a Lambda function in another account from AWS Redshift",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hglaser",
+    "url": "https://news.ycombinator.com/user?id=hglaser"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30443904",
+  "sameAs": "https://www.modelbit.com/blog/how-to-call-a-lambda-function-in-another-account-from-aws-redshift",
+  "dateCreated": "2022-02-23T17:53:20.723Z",
+  "datePublished": "2022-02-23T17:44:35.000Z",
+  "dateModified": "2022-02-23T17:53:20.723Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "如何从AWS Redshift调用另一个账户中的Lambda函数",
+  "headline_zh-Hant": "如何從AWS Redshift調用另一個賬戶中的Lambda函數",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
