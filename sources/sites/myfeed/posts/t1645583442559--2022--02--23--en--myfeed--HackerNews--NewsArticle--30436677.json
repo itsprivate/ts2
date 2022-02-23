@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--23--en--myfeed--HackerNews--NewsArticle--30436677",
+  "url": "https://news.ycombinator.com/item?id=30436677",
+  "headline": "Long Covid could be linked to the effects of SARS-CoV-2 on the vagus nerve",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "alwillis",
+    "url": "https://news.ycombinator.com/user?id=alwillis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30436677",
+  "sameAs": "https://www.eurekalert.org/news-releases/943102",
+  "dateCreated": "2022-02-23T02:30:42.559Z",
+  "datePublished": "2022-02-23T02:03:45.000Z",
+  "dateModified": "2022-02-23T02:30:42.559Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "长颈鹿可能与SARS-CoV-2对迷走神经的影响有关",
+  "headline_zh-Hant": "長頸鹿可能與SARS-CoV-2對迷走神經的影響有關",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
