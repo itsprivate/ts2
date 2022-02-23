@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--23--en--myfeed--HackerNews--NewsArticle--30443790",
+  "url": "https://news.ycombinator.com/item?id=30443790",
+  "headline": "Deng Xiaoping's CIA Visit",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "aaronsdevera",
+    "url": "https://news.ycombinator.com/user?id=aaronsdevera"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30443790",
+  "sameAs": "https://twitter.com/JanePerlez/status/1496190537019310087",
+  "dateCreated": "2022-02-23T17:53:20.624Z",
+  "datePublished": "2022-02-23T17:35:27.000Z",
+  "dateModified": "2022-02-23T17:53:20.624Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "邓小平对中央情报局的访问",
+  "headline_zh-Hant": "鄧小平對中央情報局的訪問",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
