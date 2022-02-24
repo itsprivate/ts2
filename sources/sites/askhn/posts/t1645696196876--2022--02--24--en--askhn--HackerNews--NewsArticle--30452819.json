@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--24--en--askhn--HackerNews--NewsArticle--30452819",
+  "url": "https://news.ycombinator.com/item?id=30452819",
+  "headline": "Ask HN: Anyone interested in API to common phone apps operatable by SMS?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I don't want to carry around a smart phone (for several reasons), but reliance on commons apps has made it difficult to give up.<p>I've been dreaming of a dumb phone that could provide access to the same apps via SMS similar to a command line interface.<p>So the user experience would be for e.g. to order Chipotle, you could text:<p>&quot;chipotle -mode delivery -order favorite1&quot;<p>Or to get directions, you'd text:<p>&quot;google-maps -from '111 newage rd 80014' -to 757 thisisgreat ave. 80207&quot;<p>Now I know this is NOT for everyone. \nHowever, I'm curious to know if this resonates with anyone.<p>Would an open source project that provides an SMS interface to common apps (e.g. Google Maps, Whatsapp, Chipotle, you-name-it) be of interest?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "dhruvkar",
+    "url": "https://news.ycombinator.com/user?id=dhruvkar"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30452819",
+  "sameAs": "https://news.ycombinator.com/item?id=30452819",
+  "dateCreated": "2022-02-24T09:49:56.876Z",
+  "datePublished": "2022-02-24T09:45:40.000Z",
+  "dateModified": "2022-02-24T09:49:56.876Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 有人对可通过短信操作的普通手机应用程序的API感兴趣吗？",
+  "headline_zh-Hant": "Ask HN: 有人對可通過短信操作的普通手機應用程序的API感興趣嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我不想随身携带智能手机（有几个原因），但对通用应用程序的依赖使我难以放弃。<p>我一直梦想着有一种哑巴手机，可以通过类似于命令行界面的短信来访问相同的应用程序。 <p>因此，用户体验将是，例如，要订购Chipotle，你可以发短信：<p>&quot;Chipotle -mode delivery -order favorite1&quot;<p>或者要获得路线，你会发短信：<p>&quot;google-map -from '111 newage rd 80014' -to 757 thisisgreat ave. 80207&quot;<p>现在我知道这不适合所有人。\n<p>一个为常见的应用程序（如谷歌地图、Whatsapp、Chipotle、你叫什么名字）提供短信接口的开源项目会不会引起人们的兴趣？",
+  "description_zh-Hant": "我不想隨身攜帶智能手機（有幾個原因），但對通用應用程序的依賴使我難以放棄。<p>我一直夢想著有一種啞巴手機，可以通過類似於命令行界面的短信來訪問相同的應用程序。 <p>因此，用戶體驗將是，例如，要訂購Chipotle，你可以發短信：<p>&quot;Chipotle -mode delivery -order favorite1&quot;<p>或者要獲得路線，你會發短信：<p>&quot;google-map -from '111 newage rd 80014' -to 757 thisisgreat ave. 80207&quot;<p>現在我知道這不適合所有人。\n<p>一個為常見的應用程序（如谷歌地圖、Whatsapp、Chipotle、你叫什麼名字）提供短信接口的開源項目會不會引起人們的興趣？"
+}
