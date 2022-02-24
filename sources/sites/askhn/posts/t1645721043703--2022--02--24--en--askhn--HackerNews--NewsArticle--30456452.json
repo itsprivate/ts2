@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--24--en--askhn--HackerNews--NewsArticle--30456452",
+  "url": "https://news.ycombinator.com/item?id=30456452",
+  "headline": "Ask HN: Remote Unix CLI on local files?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Tell me, if this idea is (1) useful, (2) possible or (3) already exists: A local command line tool that runs standard Unix CLI on a fully configured remote server but on local files.<p>So say the local machine only has a process called 'remo' that talks to a 'remo-server' process on a remote machine fully configured with git, gradle, python, java, etc. Then I could do something like this locally:<p><pre><code>    &gt; remo git -clone https://github.com/user/MyProject\n\n    &gt; cd MyProject\n\n    &gt; remo gradle build\n</code></pre>\nSo with 'remo' I would be able to run all manner of CLI apps that read/write to the local file system without installing anything local. The two processes would be reasonably simple:<p>The local 'remo' CLI app does this:<p><pre><code>    - Open socket to 'remo-server' process on remote machine\n\n    - Execute remote CLI apps\n\n    - Vend file system info to 'remo-server' (LIST, HEAD, GET, PUT, DELETE)\n</code></pre>\nThe remote 'remo-server' process does this:<p><pre><code>    - Mount a virtual file system\n\n    - Execute processes locally in vfs root dir\n\n    - Feed vfs via communication with 'remo' process\n</code></pre>\nI don't think this is a great business opportunity, and it's probably a little dangerous, but it seems like it could be pretty useful. What do you think?<p>jeff",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "jeffreportmill1",
+    "url": "https://news.ycombinator.com/user?id=jeffreportmill1"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30456452",
+  "sameAs": "https://news.ycombinator.com/item?id=30456452",
+  "dateCreated": "2022-02-24T16:44:03.703Z",
+  "datePublished": "2022-02-24T16:17:03.000Z",
+  "dateModified": "2022-02-24T16:44:03.703Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 本地文件上的远程Unix CLI？",
+  "headline_zh-Hant": "Ask HN: 本地文件上的遠程Unix CLI？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "告诉我，这个想法是否（1）有用，（2）可能，或（3）已经存在。A local command line tool that runs standard Unix CLI on a fully configured remote server but on local files.<p>So say the local machine only has a process called 'remo' that talks to a 'remo-server' process on a remote machine fully configured with git, gradle, python, java, etc. Then I could do something like this locally:<p><pre><code> &gt; remo git -clone https://github.com/user/MyProject\n\n    &gt; cd MyProject\n\n    &gt; remo gradle build\n</code></pre>\n因此，有了'remo'，我就可以运行所有方式的CLI应用程序，这些应用程序可以读/写本地文件系统，而无需在本地安装任何东西。这两个过程将相当简单：<p>本地的'remo'CLI应用程序这样做：<p><pre><code> - 打开套接字到远程机器上的'remo-server'进程\n\n    - 执行远程CLI应用程序\n\n    - Vend file system info to 'remo-server' (LIST, HEAD, GET, PUT, DELETE)\n</code></pre>\nThe remote 'remo-server' process does this:<p><pre><code> - Mount a virtual file system\n\n    - Execute processes locally in vfs root dir\n\n    - Feed vfs via communication with 'remo' process\n</code></pre>\n我不认为这是一个很好的商业机会，而且它可能有点危险，但它看起来可能相当有用。你怎么看？<p>jeff",
+  "description_zh-Hant": "告訴我，這個想法是否（1）有用，（2）可能，或（3）已經存在。A local command line tool that runs standard Unix CLI on a fully configured remote server but on local files.<p>So say the local machine only has a process called 'remo' that talks to a 'remo-server' process on a remote machine fully configured with git, gradle, python, java, etc. Then I could do something like this locally:<p><pre><code> &gt; remo git -clone https://github.com/user/MyProject\n\n    &gt; cd MyProject\n\n    &gt; remo gradle build\n</code></pre>\n因此，有了'remo'，我就可以運行所有方式的CLI應用程序，這些應用程序可以讀/寫本地文件系統，而無需在本地安裝任何東西。這兩個過程將相當簡單：<p>本地的'remo'CLI應用程序這樣做：<p><pre><code> - 打開套接字到遠程機器上的'remo-server'進程\n\n    - 執行遠程CLI應用程序\n\n    - Vend file system info to 'remo-server' (LIST, HEAD, GET, PUT, DELETE)\n</code></pre>\nThe remote 'remo-server' process does this:<p><pre><code> - Mount a virtual file system\n\n    - Execute processes locally in vfs root dir\n\n    - Feed vfs via communication with 'remo' process\n</code></pre>\n我不認為這是一個很好的商業機會，而且它可能有點危險，但它看起來可能相當有用。你怎麼看？<p>jeff"
+}

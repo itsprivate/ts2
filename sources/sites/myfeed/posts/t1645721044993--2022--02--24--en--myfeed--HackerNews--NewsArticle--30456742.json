@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--24--en--myfeed--HackerNews--NewsArticle--30456742",
+  "url": "https://news.ycombinator.com/item?id=30456742",
+  "headline": "Redis Viewer: A command line TUI tool for browsing Redis data",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gojiberries",
+    "url": "https://news.ycombinator.com/user?id=gojiberries"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30456742",
+  "sameAs": "https://github.com/SaltFishPr/redis-viewer",
+  "dateCreated": "2022-02-24T16:44:04.993Z",
+  "datePublished": "2022-02-24T16:37:14.000Z",
+  "dateModified": "2022-02-24T16:44:04.993Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Redis浏览器。一个用于浏览Redis数据的命令行TUI工具",
+  "headline_zh-Hant": "Redis瀏覽器。一個用於瀏覽Redis數據的命令行TUI工具",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
