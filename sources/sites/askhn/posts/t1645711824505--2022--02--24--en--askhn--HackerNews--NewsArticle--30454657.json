@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--24--en--askhn--HackerNews--NewsArticle--30454657",
+  "url": "https://news.ycombinator.com/item?id=30454657",
+  "headline": "Ask HN: How to scale a list to an knowledge platform",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm looking for advice on how to scale OpenSustain.tech, which is essentially a awesome list for open climate and sustainability projects, into a central platform for data, software, and knowledge in the field. After about 16 months, we have managed to capture a large part of the active open source projects in this field. Now the list has grown so large that it is difficult to search for suitable projects. Fortunately, we always added the Git repositories directly to the list, so it was possible to get meta data from each project via the GitHub API. Here is the datasets we have been able to generate by crawling metadata from every project:\nhttps://airtable.com/shr9we419r2TkpLkc<p>My experience with website development is limited. Any ideas, hints or thoughts on how we can use this data to create an open source website that is a bit more user friendly than the previous list? Of course it would be best if this is also done with open source tools.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "protontypes",
+    "url": "https://news.ycombinator.com/user?id=protontypes"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30454657",
+  "sameAs": "https://news.ycombinator.com/item?id=30454657",
+  "dateCreated": "2022-02-24T14:10:24.505Z",
+  "datePublished": "2022-02-24T13:54:38.000Z",
+  "dateModified": "2022-02-24T14:10:24.505Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何将一个列表扩展到一个知识平台",
+  "headline_zh-Hant": "Ask HN: 如何將一個列表擴展到一個知識平臺",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我在寻找关于如何扩大OpenSustain.tech的建议，它基本上是一个开放的气候和可持续发展项目的很棒的列表，成为这个领域的数据、软件和知识的中心平台。经过大约16个月的时间，我们已经成功捕获了这个领域中大部分活跃的开源项目。现在这个列表已经变得如此之大，以至于很难搜索到合适的项目。幸运的是，我们总是直接将Git仓库添加到列表中，因此有可能通过GitHub的API获得每个项目的元数据。以下是我们通过抓取每个项目的元数据而产生的数据集。\nhttps://airtable.com/shr9we419r2TkpLkc<p>我在网站开发方面的经验是有限的。对于我们如何利用这些数据来创建一个比之前的列表更友好的开源网站，有什么想法、提示或思路吗？当然，如果这也能用开源工具来完成，那就最好不过了。",
+  "description_zh-Hant": "我在尋找關於如何擴大OpenSustain.tech的建議，它基本上是一個開放的氣候和可持續發展項目的很棒的列表，成為這個領域的數據、軟件和知識的中心平臺。經過大約16個月的時間，我們已經成功捕獲了這個領域中大部分活躍的開源項目。現在這個列表已經變得如此之大，以至於很難搜索到合適的項目。幸運的是，我們總是直接將Git倉庫添加到列表中，因此有可能通過GitHub的API獲得每個項目的元數據。以下是我們通過抓取每個項目的元數據而產生的數據集。\nhttps://airtable.com/shr9we419r2TkpLkc<p>我在網站開發方面的經驗是有限的。對於我們如何利用這些數據來創建一個比之前的列表更友好的開源網站，有什麼想法、提示或思路嗎？當然，如果這也能用開源工具來完成，那就最好不過了。"
+}
