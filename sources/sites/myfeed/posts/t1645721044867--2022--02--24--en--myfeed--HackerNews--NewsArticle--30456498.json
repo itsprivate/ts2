@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--24--en--myfeed--HackerNews--NewsArticle--30456498",
+  "url": "https://news.ycombinator.com/item?id=30456498",
+  "headline": "How to be miserable after a breakup",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kashnote",
+    "url": "https://news.ycombinator.com/user?id=kashnote"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30456498",
+  "sameAs": "https://kg.dev/thoughts/miserable-breakup",
+  "dateCreated": "2022-02-24T16:44:04.867Z",
+  "datePublished": "2022-02-24T16:20:30.000Z",
+  "dateModified": "2022-02-24T16:44:04.867Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "分手后的痛苦是怎样的",
+  "headline_zh-Hant": "分手後的痛苦是怎樣的",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
