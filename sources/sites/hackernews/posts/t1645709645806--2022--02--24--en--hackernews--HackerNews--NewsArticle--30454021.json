@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--02--03--en--askhn--HackerNews--NewsArticle--30188101",
-  "url": "https://news.ycombinator.com/item?id=30188101",
-  "headline": "Ask HN: What do you do and what's your consulting rate?",
+  "identifier": "2022--02--24--en--hackernews--HackerNews--NewsArticle--30454021",
+  "url": "https://news.ycombinator.com/item?id=30454021",
+  "headline": "Stockfish.js",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,27 +10,24 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [
-    "Ask HN"
-  ],
-  "genre": "Ask HN",
+  "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "burtonator",
-    "url": "https://news.ycombinator.com/user?id=burtonator"
+    "name": "tosh",
+    "url": "https://news.ycombinator.com/user?id=tosh"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30188101",
-  "sameAs": "https://news.ycombinator.com/item?id=30188101",
-  "dateCreated": "2022-02-03T03:28:25.991Z",
-  "datePublished": "2022-02-03T03:17:30.000Z",
-  "dateModified": "2022-02-03T03:28:25.991Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30454021",
+  "sameAs": "https://github.com/nmrugg/stockfish.js",
+  "dateCreated": "2022-02-24T13:34:05.806Z",
+  "datePublished": "2022-02-24T12:47:46.000Z",
+  "dateModified": "2022-02-24T13:34:05.806Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 4
+      "userInteractionCount": 13
     },
     {
       "@type": "InteractionCounter",
@@ -40,12 +37,12 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "Ask HN: 你是做什么的，你的咨询费是多少？",
-  "headline_zh-Hant": "Ask HN: 你是做什麼的，你的諮詢費是多少？",
+  "headline_zh-Hans": "Stockfish.js",
+  "headline_zh-Hant": "Stockfish.js",
   "@context": [
     "https://schema.org",
     {
-      "@vocab": "https://schema.org/",
+      "@vocab": "http://schema.org/",
       "@language": "en",
       "headline_zh-Hans": {
         "@id": "headline",
