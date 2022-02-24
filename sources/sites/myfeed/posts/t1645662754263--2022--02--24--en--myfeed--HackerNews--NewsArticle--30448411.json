@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--24--en--myfeed--HackerNews--NewsArticle--30448411",
+  "url": "https://news.ycombinator.com/item?id=30448411",
+  "headline": "Sourcegraph 3.37 Released",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jdorfman",
+    "url": "https://news.ycombinator.com/user?id=jdorfman"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30448411",
+  "sameAs": "https://about.sourcegraph.com/blog/release/3.37/",
+  "dateCreated": "2022-02-24T00:32:34.263Z",
+  "datePublished": "2022-02-23T23:54:18.000Z",
+  "dateModified": "2022-02-24T00:32:34.263Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Sourcegraph 3.37发布",
+  "headline_zh-Hant": "Sourcegraph 3.37發佈",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

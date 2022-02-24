@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--24--en--myfeed--HackerNews--NewsArticle--30448724",
+  "url": "https://news.ycombinator.com/item?id=30448724",
+  "headline": "Stealing a few more GitHub Actions secrets",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "soheilpro",
+    "url": "https://news.ycombinator.com/user?id=soheilpro"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30448724",
+  "sameAs": "https://blog.teddykatz.com/2022/02/23/ghosts-of-branches-past.html",
+  "dateCreated": "2022-02-24T00:32:34.465Z",
+  "datePublished": "2022-02-24T00:28:27.000Z",
+  "dateModified": "2022-02-24T00:32:34.465Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "窃取更多GitHub行动的秘密",
+  "headline_zh-Hant": "竊取更多GitHub行動的秘密",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
