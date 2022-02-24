@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--24--en--myfeed--HackerNews--NewsArticle--30450634",
+  "url": "https://news.ycombinator.com/item?id=30450634",
+  "headline": "Google sign-in will soon require JavaScript",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "&gt; Your users won’t be able to sign into their Google accounts on browsers that don’t support JavaScript.<p>Dear Administrator,<p>Accessing Google accounts with a browser that does not support JavaScript or that has JavaScript turned off does not allow Google to run a complete risk analysis. This puts your organization's accounts at increased risk of phishing and takeover by malicious actors.<p>As we’re constantly working to improve the security of your organization’s Google accounts and in consideration of the current threat landscape, your users will no longer be able to sign into their Google accounts on browsers that do not support JavaScript or that have JavaScript turned off. This means they won’t be able to access Google Workspace services, such as Gmail and Drive, unless they change to browsers supporting JavaScript or turn it on in their current browsers.<p>What does this mean for my organization?<p>Starting on March 24, 2022 users who try to sign in to their Google account from a browser that doesn’t have JavaScript enabled will see the following error message:\nError users will see if they attempt to sign in with Javascript disabled.\nMay vary based on browser.<p>You can find a list of your affected users attached to this email.<p>What do I need to do?<p>As an administrator, no action is required from you. As of March 24, 2022, all new sign-in attempts from browsers with JavaScript disabled will be blocked. If any impacted users reach out to you, help them turn on JavaScript in their browsers or enable Chrome Browser management[1] for your organization through the Admin console.<p>Learn more[2] about how JavaScript helps protect you and your users.<p>We’re here to help<p>If you have questions or need assistance, please refer to the guide on how to turn on JavaScript[3].<p>Thanks for choosing Google Workspace.<p>–The Google Workspace Team<p>[1] https://support.google.com/chrome/a/answer/6304822\n[2] https://security.googleblog.com/2018/10/announcing-some-security-treats-to.html\n[3] https://support.google.com/accounts/answer/7675428",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "scim-knox-twox",
+    "url": "https://news.ycombinator.com/user?id=scim-knox-twox"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30450634",
+  "sameAs": "https://news.ycombinator.com/item?id=30450634",
+  "dateCreated": "2022-02-24T05:27:30.109Z",
+  "datePublished": "2022-02-24T05:18:46.000Z",
+  "dateModified": "2022-02-24T05:27:30.109Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "谷歌登录将很快需要JavaScript",
+  "headline_zh-Hant": "谷歌登錄將很快需要JavaScript",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "<p>亲爱的管理员，<p>使用不支持 JavaScript 的浏览器或关闭了 JavaScript 的浏览器访问 Google 账户，无法让 Google 进行完整的风险分析。<p>由于我们一直在努力提高贵组织的 Google 账户的安全性，并考虑到当前的威胁情况，您的用户将不再能够在不支持 JavaScript 或关闭 JavaScript 的浏览器上登录其 Google 账户。这意味着他们将无法访问谷歌工作空间服务，如Gmail和Drive，除非他们改用支持JavaScript的浏览器或在当前浏览器中打开JavaScript。<p>这对我的组织意味着什么？<p>从3月24日开始，2022年试图从未启用JavaScript的浏览器登录谷歌账户的用户将看到以下错误信息。\n如果用户试图在禁用Javascript的情况下登录，他们会看到错误。\n<p>你可以在这封邮件中找到一份受影响用户的名单。<p>我需要做什么？<p>作为管理员，你不需要采取任何行动。从2022年3月24日起，所有来自禁用JavaScript的浏览器的新登录尝试都将被阻止。如果有任何受影响的用户向您求助，请帮助他们打开浏览器中的 JavaScript，或者通过管理控制台为您的组织启用 Chrome 浏览器管理[1]。<p>了解更多[2]关于 JavaScript 如何帮助保护您和您的用户的信息。<p>我们会提供帮助<p>如果您有问题或需要帮助，请参考关于如何打开 JavaScript 的指南[3]。<p>感谢您选择 Google Workspace。<p>- Google Workspace 团队<p>[1] https://support.google.com/chrome/a/answer/6304822\n[2] https://security.googleblog.com/2018/10/announcing-some-security-treats-to.html\n[3] https://support.google.com/accounts/answer/7675428",
+  "description_zh-Hant": "<p>親愛的管理員，<p>使用不支持 JavaScript 的瀏覽器或關閉了 JavaScript 的瀏覽器訪問 Google 賬戶，無法讓 Google 進行完整的風險分析。<p>由於我們一直在努力提高貴組織的 Google 賬戶的安全性，並考慮到當前的威脅情況，您的用戶將不再能夠在不支持 JavaScript 或關閉 JavaScript 的瀏覽器上登錄其 Google 賬戶。這意味著他們將無法訪問谷歌工作空間服務，如Gmail和Drive，除非他們改用支持JavaScript的瀏覽器或在當前瀏覽器中打開JavaScript。<p>這對我的組織意味著什麼？<p>從3月24日開始，2022年試圖從未啟用JavaScript的瀏覽器登錄谷歌賬戶的用戶將看到以下錯誤信息。\n如果用戶試圖在禁用Javascript的情況下登錄，他們會看到錯誤。\n<p>你可以在這封郵件中找到一份受影響用戶的名單。<p>我需要做什麼？<p>作為管理員，你不需要採取任何行動。從2022年3月24日起，所有來自禁用JavaScript的瀏覽器的新登錄嘗試都將被阻止。如果有任何受影響的用戶向您求助，請幫助他們打開瀏覽器中的 JavaScript，或者通過管理控制檯為您的組織啟用 Chrome 瀏覽器管理[1]。<p>瞭解更多[2]關於 JavaScript 如何幫助保護您和您的用戶的信息。<p>我們會提供幫助<p>如果您有問題或需要幫助，請參考關於如何打開 JavaScript 的指南[3]。<p>感謝您選擇 Google Workspace。<p>- Google Workspace 團隊<p>[1] https://support.google.com/chrome/a/answer/6304822\n[2] https://security.googleblog.com/2018/10/announcing-some-security-treats-to.html\n[3] https://support.google.com/accounts/answer/7675428"
+}
