@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--24--en--hackernews--HackerNews--NewsArticle--30455168",
+  "url": "https://news.ycombinator.com/item?id=30455168",
+  "headline": "UK study of 17,000 students: One in three felt happier during lockdown",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vanilla-almond",
+    "url": "https://news.ycombinator.com/user?id=vanilla-almond"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30455168",
+  "sameAs": "https://www.cam.ac.uk/research/news/one-in-three-young-people-say-they-felt-happier-during-lockdown",
+  "dateCreated": "2022-02-24T14:50:10.028Z",
+  "datePublished": "2022-02-24T14:35:02.000Z",
+  "dateModified": "2022-02-24T14:50:10.028Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "英国对17000名学生的研究。三分之一的人在封锁期间感到更快乐",
+  "headline_zh-Hant": "英國對17000名學生的研究。三分之一的人在封鎖期間感到更快樂",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
