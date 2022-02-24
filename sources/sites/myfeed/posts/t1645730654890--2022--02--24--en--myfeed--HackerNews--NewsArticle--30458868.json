@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--24--en--myfeed--HackerNews--NewsArticle--30458868",
+  "url": "https://news.ycombinator.com/item?id=30458868",
+  "headline": "TorchRec, a library for modern production recommendation systems",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tokyopanda",
+    "url": "https://news.ycombinator.com/user?id=tokyopanda"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30458868",
+  "sameAs": "https://pytorch.org/blog/introducing-torchrec/",
+  "dateCreated": "2022-02-24T19:24:14.890Z",
+  "datePublished": "2022-02-24T19:10:49.000Z",
+  "dateModified": "2022-02-24T19:24:14.890Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "TorchRec，一个用于现代生产推荐系统的库",
+  "headline_zh-Hant": "TorchRec，一個用於現代生產推薦系統的庫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
