@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--24--en--hackernews--HackerNews--NewsArticle--30454104",
+  "url": "https://news.ycombinator.com/item?id=30454104",
+  "headline": "Ask HN: Is Google phasing out Authenticator/TOTP?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I use TOTP for every site that supports two-factor authentication. When setting up 2FA for a new google account, I can choose: SMS/call, security key or google prompt. I don't have a security key, I would prefer not to log into google with my work account on my phone, and I would prefer not to be susceptible to sim swapping. Is TOTP less safe than SMS/call?<p>Interestingly google's own Authenticator TOTP app still exists, but apparently you can't use it to set up 2FA for a google account anymore: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "prometheon1",
+    "url": "https://news.ycombinator.com/user?id=prometheon1"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30454104",
+  "sameAs": "https://news.ycombinator.com/item?id=30454104",
+  "dateCreated": "2022-02-24T13:16:11.398Z",
+  "datePublished": "2022-02-24T12:58:00.000Z",
+  "dateModified": "2022-02-24T13:16:11.398Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 12
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 谷歌是否正在逐步淘汰Authenticator/TOTP？",
+  "headline_zh-Hant": "Ask HN: 谷歌是否正在逐步淘汰Authenticator/TOTP？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我对每个支持双因素认证的网站都使用TOTP。在为一个新的谷歌账户设置2FA时，我可以选择。短信/电话、安全密钥或谷歌提示。我没有安全密钥，我不希望用我手机上的工作账户登录谷歌，我也不希望容易受到SIM卡交换的影响。TOTP是否比短信/电话更不安全？<p>有趣的是，谷歌自己的Authenticator TOTP应用程序仍然存在，但显然，你不能用它来为谷歌账户设置2FA了：https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2",
+  "description_zh-Hant": "我對每個支持雙因素認證的網站都使用TOTP。在為一個新的谷歌賬戶設置2FA時，我可以選擇。短信/電話、安全密鑰或谷歌提示。我沒有安全密鑰，我不希望用我手機上的工作賬戶登錄谷歌，我也不希望容易受到SIM卡交換的影響。TOTP是否比短信/電話更不安全？<p>有趣的是，谷歌自己的Authenticator TOTP應用程序仍然存在，但顯然，你不能用它來為谷歌賬戶設置2FA了：https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2"
+}
