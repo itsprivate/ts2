@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--myfeed--HackerNews--NewsArticle--30467250",
+  "url": "https://news.ycombinator.com/item?id=30467250",
+  "headline": "Anonymous declares 'cyber war' against Russia, disables state news website",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ushakov",
+    "url": "https://news.ycombinator.com/user?id=ushakov"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30467250",
+  "sameAs": "https://www.abc.net.au/news/science/2022-02-25/hacker-collective-anonymous-declares-cyber-war-against-russia/100861160",
+  "dateCreated": "2022-02-25T14:09:50.504Z",
+  "datePublished": "2022-02-25T13:54:07.000Z",
+  "dateModified": "2022-02-25T14:09:50.504Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "匿名者对俄罗斯宣布 \"网络战争\"，禁用国家新闻网站",
+  "headline_zh-Hant": "匿名者對俄羅斯宣佈 \"網絡戰爭\"，禁用國家新聞網站",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

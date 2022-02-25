@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--myfeed--HackerNews--NewsArticle--30467332",
+  "url": "https://news.ycombinator.com/item?id=30467332",
+  "headline": "iPhone revenue was $196B in 2021 and it had 44% of total smartphone revenue",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "retskrad",
+    "url": "https://news.ycombinator.com/user?id=retskrad"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30467332",
+  "sameAs": "https://9to5mac.com/2022/02/25/iphone-average-selling-price-2021/",
+  "dateCreated": "2022-02-25T14:09:50.553Z",
+  "datePublished": "2022-02-25T14:00:08.000Z",
+  "dateModified": "2022-02-25T14:09:50.553Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "2021年，iPhone收入为1960亿美元，占智能手机总收入的44%。",
+  "headline_zh-Hant": "2021年，iPhone收入為1960億美元，佔智能手機總收入的44%。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
