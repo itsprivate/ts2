@@ -49,8 +49,8 @@ export default async function main(siteIdentifier: string) {
             headline = originalHeadline;
           }
           const postUrl = new URL(rawPost.sameAs);
-          let hostName = postUrl.hostname;
-          hostName = hostName.replace(/^[^.]+\./g, "");
+          const hostName = postUrl.hostname;
+          // hostName = hostName.replace(/^[^.]+\./g, "");
 
           const post: Record<string, unknown> = {
             dateCreated: formatDate(new Date(rawPost.datePublished)),
