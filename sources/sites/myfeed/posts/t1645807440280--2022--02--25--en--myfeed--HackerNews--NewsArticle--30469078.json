@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--myfeed--HackerNews--NewsArticle--30469078",
+  "url": "https://news.ycombinator.com/item?id=30469078",
+  "headline": "Launch HN: Convoy (YC W22) – Open-source cloud-native webhooks service",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN, we’re Subomi and Emmanuel, founders of Convoy (<a href=\"https://getconvoy.io\" rel=\"nofollow\">https://getconvoy.io</a>). Convoy is an open-source webhooks service. We make it easy for developers to publish webhooks like Stripe and Twilio. Convoy is cloud-native so developers can deploy the container to wherever they host their applications.<p>Some time ago I built an API for local fintech companies alongside Emmanuel. While trying to sell this product, we were asked several times for webhooks. We didn't find a great tool that was easy to use, language-agnostic and cloud-native; something that could scale independently of our core service. We decided to build it ourselves.<p>Webhooks are the glue of the modern internet. I like to say it as if you make a payment on Shopify with Stripe’s checkout and Stripe fails to send a webhook event to Shopify’s servers about your payment, you won’t get a delivery of your package even though your card has been debited. This explains the importance of webhook events to many consumer apps. Webhooks are used for asynchronous communication by API providers to notify apps/integrators about an event that occurred in their account.<p>Today, implementing a webhooks delivery system is a highly fragmented problem. Stripe's system is designed for security (with features like replay attacks, rolling secrets etc), Twilio for performance(with features like connection override), Pagerduty for flexibility(with features like payload filtering) and many more. We'd love to make these features available to everyone with Convoy. We're already helping a few companies solve problems they didn't know they had because of the visibility Convoy gives.<p>API providers need to push webhook events reliably. It’s a pain to build this from scratch. At first glance, it seems like a good old HTTP Post, but with time it becomes more nuanced as the requirements pile up: dealing with bad endpoints, pushing events to multiple endpoints as configured by your user,  rate-limiting of customer endpoints, security of delivery, UX for managing retries. We take care of all that and give you one less infrastructure to worry about.<p>Convoy is open-source software that exposes a REST API. Developers push events to it using the REST API(we aim to support other means of ingesting data in the future for high volume environments – this is a feature Shopify provides today) then we sign the payload, publish the events, apply retries, etc. We also provide a management UI to manually retry events to user endpoints.<p>Convoy consists of 3 core components—in addition to the REST API, there is a job queue and a storage layer. The REST API server is used to create applications, endpoints and events. The job queue currently supports 2 backends: in-memory and Redis. The storage layer currently supports 2 backends: on-disk and MongoDB. All events pushed to Convoy are saved to storage and enqueued on the job queue for workers to deliver.<p>Most of our users use our product to push webhook events to their customers’ endpoints. Customers also use Convoy as a broker for inter-service communication.<p>We make money by providing a managed service. We've been running the managed service for a while now and charge $1/5k events, but those details are not on our website yet.<p><pre><code>  The repository is available at https://github.com/frain-dev/convoy and a getting started doc exists here: https://getconvoy.io/docs/guide. Anyone can download the binary or Docker image from here: https://getconvoy.io/download and run it wherever they choose - AWS, Azure, GCP, etc.\n</code></pre>\nWe’d love you to try it out and hear your thoughts! We’d also love to hear your experiences building custom webhook software and what you think we can abstract into Convoy?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "subomi",
+    "url": "https://news.ycombinator.com/user?id=subomi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30469078",
+  "sameAs": "https://getconvoy.io",
+  "dateCreated": "2022-02-25T16:44:00.280Z",
+  "datePublished": "2022-02-25T16:35:40.000Z",
+  "dateModified": "2022-02-25T16:44:00.280Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "启动HN：Convoy (YC W22) - 开源的云原生webhooks服务",
+  "headline_zh-Hant": "啟動HN：Convoy (YC W22) - 開源的雲原生webhooks服務",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi HN，我们是Subomi和Emmanuel，Convoy（<a href=\"https://getconvoy.io\" rel=\"nofollow\">https://getconvoy.io</a>）的创始人。Convoy是一个开源的webhooks服务。我们让开发者能够轻松地发布像Stripe和Twilio这样的网络钩子。Convoy是云原生的，因此开发人员可以将容器部署到他们托管应用程序的任何地方。<p>前一段时间，我与Emmanuel一起为本地金融科技公司构建了一个API。在尝试销售这一产品时，我们多次被要求提供Webhooks。我们没有找到一个易于使用、与语言无关和云原生的伟大工具；它可以独立于我们的核心服务进行扩展。我们决定自己建造它。<p>Webhooks是现代互联网的粘合剂。我想说的是，如果你在Shopify上用Stripe的结账方式付款，而Stripe未能向Shopify的服务器发送关于你的付款的webhook事件，即使你的卡已经被扣除，你也不会得到你的包裹。这解释了webhook事件对许多消费者应用程序的重要性。Webhooks用于API提供商的异步通信，以通知应用程序/集成商在其账户中发生的事件。<p>今天，实现Webhooks交付系统是一个高度分散的问题。Stripe的系统是为安全而设计的（有重放攻击、滚动秘密等功能），Twilio是为性能而设计的（有连接覆盖等功能），Pagerduty是为灵活性而设计的（有有效载荷过滤等功能），还有更多。我们希望通过Convoy向所有人提供这些功能。我们已经在帮助一些公司解决他们所不知道的问题，因为Convoy提供了可见性。从头开始建立这个是很痛苦的。乍一看，这似乎是一个很好的老式HTTP Post，但随着时间的推移，它变得更加细微，因为需求堆积如山：处理坏端点，将事件推送到用户配置的多个端点，客户端点的速率限制，交付的安全性，管理重试的用户体验。我们负责所有这些，并让您少担心一个基础设施。<p>Convoy是开源软件，暴露了一个REST API。开发人员使用REST API向其推送事件（我们的目标是在未来支持其他高容量环境的数据摄取方式 - 这是Shopify目前提供的功能），然后我们签署有效载荷，发布事件，应用重试等。<p>Convoy由3个核心组件组成，除了REST API之外，还有一个作业队列和一个存储层。REST API服务器用于创建应用程序、端点和事件。工作队列目前支持2个后端：内存和Redis。存储层目前支持2个后端：磁盘和MongoDB。所有推送到Convoy的事件都被保存到存储中，并在作业队列中排队，供工人传递。<p>我们的大多数用户使用我们的产品来推送webhook事件到他们客户的端点。客户也将Convoy作为服务间通信的中介。<p>我们通过提供管理服务来赚钱。我们已经运行管理服务有一段时间了，收费为1美元/5k事件，但这些细节还没有在我们的网站上公布。<p><pre><code>存储库可在https://github.com/frain-dev/convoy，这里有一个入门文档：https://getconvoy.io/docs/guide。Anyone can download the binary or Docker image from here: https://getconvoy.io/download and run it wherever they choose - AWS, Azure, GCP, etc.\n</code></pre>\n我们希望你能试一试，听听你的想法! 我们也很想听听你在构建自定义webhook软件方面的经验，以及你认为我们可以在Convoy中抽象出什么？",
+  "description_zh-Hant": "Hi HN，我們是Subomi和Emmanuel，Convoy（<a href=\"https://getconvoy.io\" rel=\"nofollow\">https://getconvoy.io</a>）的創始人。Convoy是一個開源的webhooks服務。我們讓開發者能夠輕鬆地發佈像Stripe和Twilio這樣的網絡鉤子。Convoy是雲原生的，因此開發人員可以將容器部署到他們託管應用程序的任何地方。<p>前一段時間，我與Emmanuel一起為本地金融科技公司構建了一個API。在嘗試銷售這一產品時，我們多次被要求提供Webhooks。我們沒有找到一個易於使用、與語言無關和雲原生的偉大工具；它可以獨立於我們的核心服務進行擴展。我們決定自己建造它。<p>Webhooks是現代互聯網的粘合劑。我想說的是，如果你在Shopify上用Stripe的結賬方式付款，而Stripe未能向Shopify的服務器發送關於你的付款的webhook事件，即使你的卡已經被扣除，你也不會得到你的包裹。這解釋了webhook事件對許多消費者應用程序的重要性。Webhooks用於API提供商的異步通信，以通知應用程序/集成商在其賬戶中發生的事件。<p>今天，實現Webhooks交付系統是一個高度分散的問題。Stripe的系統是為安全而設計的（有重放攻擊、滾動秘密等功能），Twilio是為性能而設計的（有連接覆蓋等功能），Pagerduty是為靈活性而設計的（有有效載荷過濾等功能），還有更多。我們希望通過Convoy向所有人提供這些功能。我們已經在幫助一些公司解決他們所不知道的問題，因為Convoy提供了可見性。從頭開始建立這個是很痛苦的。乍一看，這似乎是一個很好的老式HTTP Post，但隨著時間的推移，它變得更加細微，因為需求堆積如山：處理壞端點，將事件推送到用戶配置的多個端點，客戶端點的速率限制，交付的安全性，管理重試的用戶體驗。我們負責所有這些，並讓您少擔心一個基礎設施。<p>Convoy是開源軟件，暴露了一個REST API。開發人員使用REST API向其推送事件（我們的目標是在未來支持其他高容量環境的數據攝取方式 - 這是Shopify目前提供的功能），然後我們簽署有效載荷，發佈事件，應用重試等。<p>Convoy由3個核心組件組成，除了REST API之外，還有一個作業隊列和一個存儲層。REST API服務器用於創建應用程序、端點和事件。工作隊列目前支持2個後端：內存和Redis。存儲層目前支持2個後端：磁盤和MongoDB。所有推送到Convoy的事件都被保存到存儲中，並在作業隊列中排隊，供工人傳遞。<p>我們的大多數用戶使用我們的產品來推送webhook事件到他們客戶的端點。客戶也將Convoy作為服務間通信的中介。<p>我們通過提供管理服務來賺錢。我們已經運行管理服務有一段時間了，收費為1美元/5k事件，但這些細節還沒有在我們的網站上公佈。<p><pre><code>存儲庫可在https://github.com/frain-dev/convoy，這裡有一個入門文檔：https://getconvoy.io/docs/guide。Anyone can download the binary or Docker image from here: https://getconvoy.io/download and run it wherever they choose - AWS, Azure, GCP, etc.\n</code></pre>\n我們希望你能試一試，聽聽你的想法! 我們也很想聽聽你在構建自定義webhook軟件方面的經驗，以及你認為我們可以在Convoy中抽象出什麼？"
+}
