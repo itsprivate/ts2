@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--hackernews--HackerNews--NewsArticle--30447025",
+  "url": "https://news.ycombinator.com/item?id=30447025",
+  "headline": "Paranoid SQL Execution on Postgres",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "luu",
+    "url": "https://news.ycombinator.com/user?id=luu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30447025",
+  "sameAs": "https://ardentperf.com/2021/07/06/paranoid-sql-execution-on-postgresql/",
+  "dateCreated": "2022-02-25T22:50:06.214Z",
+  "datePublished": "2022-02-23T21:51:49.000Z",
+  "dateModified": "2022-02-25T22:50:06.214Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在Postgres上进行偏执的SQL执行",
+  "headline_zh-Hant": "在Postgres上進行偏執的SQL執行",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
