@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--myfeed--HackerNews--NewsArticle--30462458",
+  "url": "https://news.ycombinator.com/item?id=30462458",
+  "headline": "Live Radiological Maps in Ukraine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jryb",
+    "url": "https://news.ycombinator.com/user?id=jryb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30462458",
+  "sameAs": "https://www.saveecobot.com/en/radiation-maps#11/51.3788/30.1019/gamma/comp+cams+fire",
+  "dateCreated": "2022-02-25T01:51:25.101Z",
+  "datePublished": "2022-02-25T00:53:10.000Z",
+  "dateModified": "2022-02-25T01:51:25.101Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "乌克兰的现场辐射图",
+  "headline_zh-Hant": "烏克蘭的現場輻射圖",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

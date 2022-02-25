@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--myfeed--HackerNews--NewsArticle--30462512",
+  "url": "https://news.ycombinator.com/item?id=30462512",
+  "headline": "Moving away from Windows – It begins",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pndy",
+    "url": "https://news.ycombinator.com/user?id=pndy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30462512",
+  "sameAs": "https://www.dedoimedo.com/computers/windows-moving-away.html",
+  "dateCreated": "2022-02-25T01:51:25.116Z",
+  "datePublished": "2022-02-25T01:01:48.000Z",
+  "dateModified": "2022-02-25T01:51:25.116Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "摆脱Windows - 开始了",
+  "headline_zh-Hant": "擺脫Windows - 開始了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

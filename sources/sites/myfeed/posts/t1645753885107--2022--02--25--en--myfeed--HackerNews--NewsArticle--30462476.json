@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--myfeed--HackerNews--NewsArticle--30462476",
+  "url": "https://news.ycombinator.com/item?id=30462476",
+  "headline": "Why are most US market indexes up today?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tpmx",
+    "url": "https://news.ycombinator.com/user?id=tpmx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30462476",
+  "sameAs": "https://www.cnbc.com/us-market-indexes/",
+  "dateCreated": "2022-02-25T01:51:25.107Z",
+  "datePublished": "2022-02-25T00:56:44.000Z",
+  "dateModified": "2022-02-25T01:51:25.107Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "为什么今天大多数美国市场指数都在上涨？",
+  "headline_zh-Hant": "為什麼今天大多數美國市場指數都在上漲？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
