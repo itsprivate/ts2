@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--myfeed--HackerNews--NewsArticle--30468797",
+  "url": "https://news.ycombinator.com/item?id=30468797",
+  "headline": "Why should you learn Rust?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "adrianomartins",
+    "url": "https://news.ycombinator.com/user?id=adrianomartins"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30468797",
+  "sameAs": "https://datasciencelearningcenter.substack.com/p/why-should-you-learn-rust",
+  "dateCreated": "2022-02-25T16:44:00.076Z",
+  "datePublished": "2022-02-25T16:12:34.000Z",
+  "dateModified": "2022-02-25T16:44:00.076Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "为什么要学习Rust？",
+  "headline_zh-Hant": "為什麼要學習Rust？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--myfeed--HackerNews--NewsArticle--30469129",
+  "url": "https://news.ycombinator.com/item?id=30469129",
+  "headline": "Additional Checksum Algorithms for Amazon S3",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jeffbarr",
+    "url": "https://news.ycombinator.com/user?id=jeffbarr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30469129",
+  "sameAs": "https://aws.amazon.com/blogs/aws/new-additional-checksum-algorithms-for-amazon-s3/",
+  "dateCreated": "2022-02-25T16:44:00.320Z",
+  "datePublished": "2022-02-25T16:39:51.000Z",
+  "dateModified": "2022-02-25T16:44:00.320Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "亚马逊S3的额外校验算法",
+  "headline_zh-Hant": "亞馬遜S3的額外校驗算法",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
