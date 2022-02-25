@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--myfeed--HackerNews--NewsArticle--30462751",
+  "url": "https://news.ycombinator.com/item?id=30462751",
+  "headline": "Cascading HTML style sheets – a proposal (1994)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "john-doe",
+    "url": "https://news.ycombinator.com/user?id=john-doe"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30462751",
+  "sameAs": "https://www.w3.org/People/howcome/p/cascade.html",
+  "dateCreated": "2022-02-25T01:51:25.231Z",
+  "datePublished": "2022-02-25T01:41:16.000Z",
+  "dateModified": "2022-02-25T01:51:25.231Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "层叠式HTML样式表--一个建议 (1994)",
+  "headline_zh-Hant": "層疊式HTML樣式表--一個建議 (1994)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
