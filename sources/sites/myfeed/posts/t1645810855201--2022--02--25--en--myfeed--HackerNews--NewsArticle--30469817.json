@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--myfeed--HackerNews--NewsArticle--30469817",
+  "url": "https://news.ycombinator.com/item?id=30469817",
+  "headline": "We’re Porting Our Database Drivers to Async Rust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "uberdru",
+    "url": "https://news.ycombinator.com/user?id=uberdru"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30469817",
+  "sameAs": "https://scylladb.medium.com/were-porting-our-database-drivers-to-async-rust-144925103646",
+  "dateCreated": "2022-02-25T17:40:55.201Z",
+  "datePublished": "2022-02-25T17:38:14.000Z",
+  "dateModified": "2022-02-25T17:40:55.201Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我们正在将我们的数据库驱动程序移植到异步Rust上",
+  "headline_zh-Hant": "我們正在將我們的數據庫驅動程序移植到異步Rust上",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
