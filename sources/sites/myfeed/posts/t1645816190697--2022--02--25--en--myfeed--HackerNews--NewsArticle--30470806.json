@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--myfeed--HackerNews--NewsArticle--30470806",
+  "url": "https://news.ycombinator.com/item?id=30470806",
+  "headline": "Codeberg – Independent collaboration platform and Git hosting for FOSS and OSS",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "capableweb",
+    "url": "https://news.ycombinator.com/user?id=capableweb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30470806",
+  "sameAs": "https://news.ycombinator.com/item?id=30470806",
+  "dateCreated": "2022-02-25T19:09:50.697Z",
+  "datePublished": "2022-02-25T18:59:00.000Z",
+  "dateModified": "2022-02-25T19:09:50.697Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Codeberg - 为FOSS和OSS提供独立的协作平台和Git托管服务",
+  "headline_zh-Hant": "Codeberg - 為FOSS和OSS提供獨立的協作平臺和Git託管服務",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
