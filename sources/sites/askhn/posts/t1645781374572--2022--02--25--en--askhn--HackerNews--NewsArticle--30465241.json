@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--askhn--HackerNews--NewsArticle--30465241",
+  "url": "https://news.ycombinator.com/item?id=30465241",
+  "headline": "Ask HN: How to scale our ci/CD process?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We have a suite of integration tests that take about 2 hours to complete.<p>Currently our flow is that each feature branch runs the integration tests, and only if the branch is updated from master and the tests completed, it can be merged to master. So naturally, it happens quite a low that you start the tests when your branch is updated, but by the time it ends, there are new changes to master, and you must update your branch and re-run the tests...<p>We are obviously doing something wrong. But we are not sure what.<p>Should we allow to merge the feature branch even without updating and testing? it feels risky...<p>Should we allow to merge, but have another run on master before deployment to production?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "shlosky",
+    "url": "https://news.ycombinator.com/user?id=shlosky"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30465241",
+  "sameAs": "https://news.ycombinator.com/item?id=30465241",
+  "dateCreated": "2022-02-25T09:29:34.572Z",
+  "datePublished": "2022-02-25T09:16:47.000Z",
+  "dateModified": "2022-02-25T09:29:34.572Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何扩展我们的CI/CD流程？",
+  "headline_zh-Hant": "Ask HN: 如何擴展我們的CI/CD流程？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "<p>目前我们的流程是，每个功能分支都要进行集成测试，只有当该分支从主站更新并完成测试后，才能合并到主站。因此，很自然地，当你的分支被更新时，你开始测试，但当测试结束时，主干有了新的变化，你必须更新你的分支并重新运行测试...<p>我们显然做错了什么。<p>我们是否应该允许在不更新和测试的情况下合并功能分支？这感觉很冒险......<p>我们是否应该允许合并，但在部署到生产之前在主干上再运行一次？",
+  "description_zh-Hant": "<p>目前我們的流程是，每個功能分支都要進行集成測試，只有當該分支從主站更新並完成測試後，才能合併到主站。因此，很自然地，當你的分支被更新時，你開始測試，但當測試結束時，主幹有了新的變化，你必須更新你的分支並重新運行測試...<p>我們顯然做錯了什麼。<p>我們是否應該允許在不更新和測試的情況下合併功能分支？這感覺很冒險......<p>我們是否應該允許合併，但在部署到生產之前在主幹上再運行一次？"
+}
