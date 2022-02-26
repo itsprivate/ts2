@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--26--en--myfeed--HackerNews--NewsArticle--30479031",
+  "url": "https://news.ycombinator.com/item?id=30479031",
+  "headline": "Chinese rover finds translucent glass globules on the moon",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Brajeshwar",
+    "url": "https://news.ycombinator.com/user?id=Brajeshwar"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30479031",
+  "sameAs": "https://phys.org/news/2022-02-chinese-rover-translucent-glass-globules.html",
+  "dateCreated": "2022-02-26T16:42:12.895Z",
+  "datePublished": "2022-02-26T16:35:00.000Z",
+  "dateModified": "2022-02-26T16:42:12.895Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "中国探测器在月球上发现半透明的玻璃球",
+  "headline_zh-Hant": "中國探測器在月球上發現半透明的玻璃球",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
