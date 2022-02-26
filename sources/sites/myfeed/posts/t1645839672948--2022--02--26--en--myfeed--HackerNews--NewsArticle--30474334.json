@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--26--en--myfeed--HackerNews--NewsArticle--30474334",
+  "url": "https://news.ycombinator.com/item?id=30474334",
+  "headline": "The rules of photojournalism are keeping us from the truth",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Txoko",
+    "url": "https://news.ycombinator.com/user?id=Txoko"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30474334",
+  "sameAs": "https://medium.com/vantage/the-rules-of-photojournalism-are-keeping-us-from-the-truth-52c093bb0436",
+  "dateCreated": "2022-02-26T01:41:12.948Z",
+  "datePublished": "2022-02-26T00:59:54.000Z",
+  "dateModified": "2022-02-26T01:41:12.948Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "摄影记者的规则让我们远离真相",
+  "headline_zh-Hant": "攝影記者的規則讓我們遠離真相",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
