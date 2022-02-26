@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--26--en--myfeed--HackerNews--NewsArticle--30479377",
+  "url": "https://news.ycombinator.com/item?id=30479377",
+  "headline": "Why is there so much censorship on this site?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I posted this question and it was flagged/removed within 10 minutes, lol.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "samfather",
+    "url": "https://news.ycombinator.com/user?id=samfather"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30479377",
+  "sameAs": "https://news.ycombinator.com/item?id=30479377",
+  "dateCreated": "2022-02-26T17:11:48.668Z",
+  "datePublished": "2022-02-26T17:02:50.000Z",
+  "dateModified": "2022-02-26T17:11:48.668Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "为什么这个网站上有这么多的审查制度？",
+  "headline_zh-Hant": "為什麼這個網站上有這麼多的審查制度？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我发了这个问题，10分钟内就被标记/删除了，笑。",
+  "description_zh-Hant": "我發了這個問題，10分鐘內就被標記/刪除了，笑。"
+}
