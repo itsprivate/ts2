@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--27--en--myfeed--HackerNews--NewsArticle--30490853",
+  "url": "https://news.ycombinator.com/item?id=30490853",
+  "headline": "Full browser stack L7 DDoS against Russian resources",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Last days there are DDoS attacks against many Russian resources (news, banking, government). The interesting point is that the attacks (at least some of them, e.g. against rbc.ru) are running by live people from more than 100K communities using Tor browsers and java script code. There are also plenty of dummy curl scripts. These are essentially full-browser stack L7 DDoS attacks.<p>Typically, the attacks aren't applicable against business resources since they require large people communities.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "krizhanovsky",
+    "url": "https://news.ycombinator.com/user?id=krizhanovsky"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30490853",
+  "sameAs": "https://news.ycombinator.com/item?id=30490853",
+  "dateCreated": "2022-02-27T18:34:07.383Z",
+  "datePublished": "2022-02-27T18:12:28.000Z",
+  "dateModified": "2022-02-27T18:34:07.383Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "针对俄罗斯资源的全浏览器堆栈L7 DDoS",
+  "headline_zh-Hant": "針對俄羅斯資源的全瀏覽器堆棧L7 DDoS",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "最近几天，有针对许多俄罗斯资源（新闻、银行、政府）的DDoS攻击。有趣的是，这些攻击（至少是其中的一部分，如对rbc.ru的攻击）是由超过10万个社区的活人使用Tor浏览器和java脚本代码运行的。还有大量的假curl脚本。这些基本上是全浏览器堆栈的L7 DDoS攻击。<p>通常情况下，这些攻击不适用于商业资源，因为它们需要大量的人民社区。",
+  "description_zh-Hant": "最近幾天，有針對許多俄羅斯資源（新聞、銀行、政府）的DDoS攻擊。有趣的是，這些攻擊（至少是其中的一部分，如對rbc.ru的攻擊）是由超過10萬個社區的活人使用Tor瀏覽器和java腳本代碼運行的。還有大量的假curl腳本。這些基本上是全瀏覽器堆棧的L7 DDoS攻擊。<p>通常情況下，這些攻擊不適用於商業資源，因為它們需要大量的人民社區。"
+}
