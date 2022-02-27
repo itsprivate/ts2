@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--27--en--myfeed--HackerNews--NewsArticle--30484487",
+  "url": "https://news.ycombinator.com/item?id=30484487",
+  "headline": "What Is a Script?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ntechs",
+    "url": "https://news.ycombinator.com/user?id=ntechs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30484487",
+  "sameAs": "https://notechsolutions.wordpress.com/2022/02/26/what-is-a-script/",
+  "dateCreated": "2022-02-27T01:53:30.680Z",
+  "datePublished": "2022-02-27T01:46:09.000Z",
+  "dateModified": "2022-02-27T01:53:30.680Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "什么是脚本？",
+  "headline_zh-Hant": "什麼是腳本？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
