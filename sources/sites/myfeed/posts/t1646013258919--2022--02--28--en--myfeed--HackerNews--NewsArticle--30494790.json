@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30494790",
+  "url": "https://news.ycombinator.com/item?id=30494790",
+  "headline": "5km-long Russian convoy seen outside Kyiv, Ukraine (video)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rmbyrro",
+    "url": "https://news.ycombinator.com/user?id=rmbyrro"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30494790",
+  "sameAs": "https://www.youtube.com/watch?v=_gDmMVzjIVw",
+  "dateCreated": "2022-02-28T01:54:18.919Z",
+  "datePublished": "2022-02-28T00:58:58.000Z",
+  "dateModified": "2022-02-28T01:54:18.919Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "在乌克兰基辅城外看到5公里长的俄罗斯车队（视频）",
+  "headline_zh-Hant": "在烏克蘭基輔城外看到5公里長的俄羅斯車隊（視頻）",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
