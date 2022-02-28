@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30504022",
+  "url": "https://news.ycombinator.com/item?id=30504022",
+  "headline": "The surprising links between what you eat and how well you sleep",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "prostoalex",
+    "url": "https://news.ycombinator.com/user?id=prostoalex"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30504022",
+  "sameAs": "https://www.bbc.com/news/health-60291027",
+  "dateCreated": "2022-02-28T19:35:19.285Z",
+  "datePublished": "2022-02-28T19:34:05.000Z",
+  "dateModified": "2022-02-28T19:35:19.285Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "你吃什么和你的睡眠质量之间的惊人联系",
+  "headline_zh-Hant": "你吃什麼和你的睡眠質量之間的驚人聯繫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
