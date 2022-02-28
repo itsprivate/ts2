@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30500753",
+  "url": "https://news.ycombinator.com/item?id=30500753",
+  "headline": "Toyota suspends domestic factory operations after suspected cyber attack",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "caaqil",
+    "url": "https://news.ycombinator.com/user?id=caaqil"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30500753",
+  "sameAs": "https://www.reuters.com/business/autos-transportation/toyota-suspends-all-domestic-factory-operations-after-suspected-cyber-attack-2022-02-28/",
+  "dateCreated": "2022-02-28T15:32:27.899Z",
+  "datePublished": "2022-02-28T15:21:57.000Z",
+  "dateModified": "2022-02-28T15:32:27.899Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "疑似网络攻击后丰田暂停国内工厂运营",
+  "headline_zh-Hant": "疑似網絡攻擊后豐田暫停國內工廠運營",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

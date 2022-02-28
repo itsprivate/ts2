@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30500807",
+  "url": "https://news.ycombinator.com/item?id=30500807",
+  "headline": "MacPaw’s Operations Amidst the Russian Aggression Against Ukraine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "thecosas",
+    "url": "https://news.ycombinator.com/user?id=thecosas"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30500807",
+  "sameAs": "https://macpaw.com/news/macpaw-amidst-aggression",
+  "dateCreated": "2022-02-28T15:32:27.934Z",
+  "datePublished": "2022-02-28T15:26:17.000Z",
+  "dateModified": "2022-02-28T15:32:27.934Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在俄罗斯对乌克兰的侵略中，MacPaw的行动",
+  "headline_zh-Hant": "在俄羅斯對烏克蘭的侵略中，MacPaw的行動",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
