@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30499730",
+  "url": "https://news.ycombinator.com/item?id=30499730",
+  "headline": "Lenovo’s Newest ThinkPads Feature an ARM Snapdragon CPU",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "b33f",
+    "url": "https://news.ycombinator.com/user?id=b33f"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30499730",
+  "sameAs": "https://www.theverge.com/2022/2/28/22951154/lenovo-thinkpad-x1-extreme-x13s-laptops-specs-price",
+  "dateCreated": "2022-02-28T14:10:08.943Z",
+  "datePublished": "2022-02-28T13:46:45.000Z",
+  "dateModified": "2022-02-28T14:10:08.943Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "联想最新的ThinkPads配备了ARM Snapdragon CPU",
+  "headline_zh-Hant": "聯想最新的ThinkPads配備了ARM Snapdragon CPU",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

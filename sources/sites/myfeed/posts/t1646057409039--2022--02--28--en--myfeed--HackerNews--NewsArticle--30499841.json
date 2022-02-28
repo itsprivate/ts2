@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30499841",
+  "url": "https://news.ycombinator.com/item?id=30499841",
+  "headline": "Host a Ghost blog on Fly.io for free",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "favadi",
+    "url": "https://news.ycombinator.com/user?id=favadi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30499841",
+  "sameAs": "https://favadi.com/host-a-ghost-blog-on-fly-io-for-free/",
+  "dateCreated": "2022-02-28T14:10:09.039Z",
+  "datePublished": "2022-02-28T13:59:09.000Z",
+  "dateModified": "2022-02-28T14:10:09.039Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在Fly.io上免费托管一个Ghost博客",
+  "headline_zh-Hant": "在Fly.io上免費託管一個Ghost博客",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

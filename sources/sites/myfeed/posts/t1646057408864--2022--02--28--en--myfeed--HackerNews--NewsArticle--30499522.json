@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30499522",
+  "url": "https://news.ycombinator.com/item?id=30499522",
+  "headline": "Dr. Bronner's, the Soap Company, Dips into Psychedelics",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mitchbob",
+    "url": "https://news.ycombinator.com/user?id=mitchbob"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30499522",
+  "sameAs": "https://www.nytimes.com/2022/02/28/health/ketamine-bronner-bros.html",
+  "dateCreated": "2022-02-28T14:10:08.864Z",
+  "datePublished": "2022-02-28T13:23:45.000Z",
+  "dateModified": "2022-02-28T14:10:08.864Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Bronner's博士，肥皂公司，涉足迷幻药",
+  "headline_zh-Hant": "Bronner's博士，肥皂公司，涉足迷幻藥",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
