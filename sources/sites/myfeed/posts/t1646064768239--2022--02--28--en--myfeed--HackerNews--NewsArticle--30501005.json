@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30501005",
+  "url": "https://news.ycombinator.com/item?id=30501005",
+  "headline": "Ambiguity Causes Conflict",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "CapitalistCartr",
+    "url": "https://news.ycombinator.com/user?id=CapitalistCartr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30501005",
+  "sameAs": "https://www.lesswrong.com/posts/9aiaJoiGGiyMjoqBq/ambiguity-causes-conflict",
+  "dateCreated": "2022-02-28T16:12:48.239Z",
+  "datePublished": "2022-02-28T15:40:25.000Z",
+  "dateModified": "2022-02-28T16:12:48.239Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "含糊不清导致冲突",
+  "headline_zh-Hant": "含糊不清導致衝突",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

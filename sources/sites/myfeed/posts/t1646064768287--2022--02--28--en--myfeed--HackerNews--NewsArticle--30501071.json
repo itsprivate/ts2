@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30501071",
+  "url": "https://news.ycombinator.com/item?id=30501071",
+  "headline": "Elixir, Telemetry, and Prometheus",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "clessg",
+    "url": "https://news.ycombinator.com/user?id=clessg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30501071",
+  "sameAs": "https://blog.miguelcoba.com/elixir-telemetry-and-prometheus",
+  "dateCreated": "2022-02-28T16:12:48.287Z",
+  "datePublished": "2022-02-28T15:43:54.000Z",
+  "dateModified": "2022-02-28T16:12:48.287Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Elixir, Telemetry, and Prometheus",
+  "headline_zh-Hant": "Elixir, Telemetry, and Prometheus",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

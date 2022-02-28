@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30501030",
+  "url": "https://news.ycombinator.com/item?id=30501030",
+  "headline": "Mar. 2nd Webinar: Moving from Long-Lived to Ephemeral Environments: Why and How?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "HollyDevRel",
+    "url": "https://news.ycombinator.com/user?id=HollyDevRel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30501030",
+  "sameAs": "https://zoom.us/webinar/register/5016456499864/WN_0cQ03PYaTAyDV5JApKooZg",
+  "dateCreated": "2022-02-28T16:12:48.256Z",
+  "datePublished": "2022-02-28T15:41:42.000Z",
+  "dateModified": "2022-02-28T16:12:48.256Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "3月2日网络研讨会。从长期存在的环境转向短暂存在的环境。为什么和如何？",
+  "headline_zh-Hant": "3月2日網絡研討會。從長期存在的環境轉向短暫存在的環境。為什麼和如何？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
