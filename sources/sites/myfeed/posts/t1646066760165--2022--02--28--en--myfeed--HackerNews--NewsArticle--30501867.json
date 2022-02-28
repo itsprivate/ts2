@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30501867",
+  "url": "https://news.ycombinator.com/item?id=30501867",
+  "headline": "IvorySQL is an open source Oracle compatible PostgreSQL",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "epberry",
+    "url": "https://news.ycombinator.com/user?id=epberry"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30501867",
+  "sameAs": "https://www.ivorysql.org/blog/",
+  "dateCreated": "2022-02-28T16:46:00.165Z",
+  "datePublished": "2022-02-28T16:41:35.000Z",
+  "dateModified": "2022-02-28T16:46:00.165Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "IvorySQL是一个开源的与Oracle兼容的PostgreSQL。",
+  "headline_zh-Hant": "IvorySQL是一個開源的與Oracle兼容的PostgreSQL。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
