@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30500320",
+  "url": "https://news.ycombinator.com/item?id=30500320",
+  "headline": "Airbnb to provide temporary housing for up to 100k Ukrainian refugees for free",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mudro_zboris",
+    "url": "https://news.ycombinator.com/user?id=mudro_zboris"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30500320",
+  "sameAs": "https://news.airbnb.com/help-ukraine/",
+  "dateCreated": "2022-02-28T15:32:27.620Z",
+  "datePublished": "2022-02-28T14:45:03.000Z",
+  "dateModified": "2022-02-28T15:32:27.620Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Airbnb将为多达10万名乌克兰难民免费提供临时住房",
+  "headline_zh-Hant": "Airbnb將為多達10萬名烏克蘭難民免費提供臨時住房",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
