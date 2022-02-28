@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30503081",
+  "url": "https://news.ycombinator.com/item?id=30503081",
+  "headline": "Database functions to wrap logic and SQL queries",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jorangreef",
+    "url": "https://news.ycombinator.com/user?id=jorangreef"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30503081",
+  "sameAs": "https://sive.rs/api01",
+  "dateCreated": "2022-02-28T18:34:56.237Z",
+  "datePublished": "2022-02-28T18:20:23.000Z",
+  "dateModified": "2022-02-28T18:34:56.237Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "用来包装逻辑和SQL查询的数据库函数",
+  "headline_zh-Hant": "用來包裝邏輯和SQL查詢的數據庫函數",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

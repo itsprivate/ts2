@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30504023",
+  "url": "https://news.ycombinator.com/item?id=30504023",
+  "headline": "Podcast with CEO of LaunchDarkly on Lessons Learned",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "JordanTen",
+    "url": "https://news.ycombinator.com/user?id=JordanTen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30504023",
+  "sameAs": "https://www.enterpriseready.io/podcast/05-edith-harbaugh-launchdarkley/",
+  "dateCreated": "2022-02-28T19:35:19.292Z",
+  "datePublished": "2022-02-28T19:34:07.000Z",
+  "dateModified": "2022-02-28T19:35:19.292Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "与LaunchDarkly的CEO讨论经验教训的播客",
+  "headline_zh-Hant": "與LaunchDarkly的CEO討論經驗教訓的播客",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
