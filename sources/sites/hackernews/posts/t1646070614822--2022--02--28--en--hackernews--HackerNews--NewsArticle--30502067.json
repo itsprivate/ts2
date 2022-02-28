@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--hackernews--HackerNews--NewsArticle--30502067",
+  "url": "https://news.ycombinator.com/item?id=30502067",
+  "headline": "Ask HN: Why can't await be used from non-async functions?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm trying to wrap my head around async/await and how it works under the hood, be it JavaScript, C# or others.<p>From what I understand, in JavaScript at least, putting `await foo()` inside an async function, splits the calling function in two, with the 2nd half being converted to a callback. (Pretty sure this is full of errors so please correct me where I'm wrong)<p>Why can't non-async functions use await()?<p>I've also read that await() basically preempts the currently running function. How does this work?<p>Update: I'm re-reading <a href=\"http://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/\" rel=\"nofollow\">http://journal.stuffwithstuff.com/2015/02/01/what-color-is-y...</a> and I think the answer lies somewhere in this paragraph, but I can't wrap my head around it yet:<p>&gt; The fundamental problem is “How do you pick up where you left off when an operation completes”? You’ve built up some big callstack and then you call some IO operation. For performance, that operation uses the operating system’s underlying asynchronous API. You cannot wait for it to complete because it won’t. You have to return all the way back to your language’s event loop and give the OS some time to spin before it will be done. Once operation completes, you need to resume what you were doing. The usual way a language “remembers where it is” is the callstack. That tracks all of the functions that are currently being invoked and where the instruction pointer is in each one. But to do async IO, you have to unwind and discard the entire C callstack. Kind of a Catch-22. You can do super fast IO, you just can’t do anything with the result! Every language that has async IO in its core—or in the case of JS, the browser’s event loop—copes with this in some way. [...]<p>I don't get the &quot;You cannot wait for it to complete because it won’t.&quot; or the &quot;But to do async IO, you have to unwind and discard the entire C callstack&quot; parts.<p>I'm also using these resources, they help but I'm not there yet:<p>- <a href=\"https://stackoverflow.com/questions/47227550/using-await-inside-non-async-function\" rel=\"nofollow\">https://stackoverflow.com/questions/47227550/using-await-ins...</a><p>- <a href=\"https://www.youtube.com/watch?v=KmMU5Y_r0Uk\" rel=\"nofollow\">https://www.youtube.com/watch?v=KmMU5Y_r0Uk</a>",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "endorphine",
+    "url": "https://news.ycombinator.com/user?id=endorphine"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30502067",
+  "sameAs": "https://news.ycombinator.com/item?id=30502067",
+  "dateCreated": "2022-02-28T17:50:14.822Z",
+  "datePublished": "2022-02-28T16:57:48.000Z",
+  "dateModified": "2022-02-28T17:50:14.822Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 8
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么不能从非async函数中使用await？",
+  "headline_zh-Hant": "Ask HN: 為什麼不能從非async函數中使用await？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "<p>根据我的理解，至少在JavaScript中，将`await foo()`放在一个异步函数中，将调用的函数一分为二，第二部分被转换为一个回调。(<p>为什么非同步函数不能使用await()？<p>我还读到，await()基本上是抢占当前运行的函数。这是如何做到的？<p>更新：我正在重读<a href=\"http://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/\" rel=\"nofollow\">http://journal.stuffwithstuff.com/2015/02/01/what-color-is-y...</a>，我认为答案就在这一段的某个地方，但我还不能理解：<p>&gt; 根本问题是 \"当一个操作完成时，你如何从你离开的地方继续前进\"？你已经建立了一些大的调用栈，然后你调用了一些 IO 操作。为了提高性能，该操作使用了操作系统的底层异步API。你不能等待它完成，因为它不会。你必须一路返回到你的语言的事件循环中，给操作系统一些时间来旋转，然后它才会完成。一旦操作完成，你需要恢复你正在做的事情。一种语言 \"记住它在哪里 \"的通常方式是调用栈。它跟踪所有当前被调用的函数以及指令指针在每个函数中的位置。但是要做异步IO，你就必须解开并丢弃整个C语言的调用栈。这有点像一个 \"陷阱\"。你可以做超快的IO，但你不能对结果做任何事情 每一种在其核心中拥有异步IO的语言--或者在JS的情况下，浏览器的事件循环--都以某种方式解决了这个问题。[...]<p>I don't get the &quot;You cannot wait for it to complete because it won’t.&quot; or the &quot;But to do async IO, you have to unwind and discard the entire C callstack&quot; parts.<p>I'm also using these resources, they help but I'm not there yet:<p>- <a href=\"https://stackoverflow. com/questions/47227550/using-await-inside-non-async-function\" rel=\"nofollow\">https://stackoverflow.com/questions/47227550/using-await-ins...</a><p>- <a href=\"https://www.youtube.com/watch?v=KmMU5Y_r0Uk\" rel=\"nofollow\">https://www.youtube.com/watch?v=KmMU5Y_r0Uk</a>",
+  "description_zh-Hant": "<p>根據我的理解，至少在JavaScript中，將`await foo()`放在一個異步函數中，將調用的函數一分為二，第二部分被轉換為一個回調。(<p>為什麼非同步函數不能使用await()？<p>我還讀到，await()基本上是搶佔當前運行的函數。這是如何做到的？<p>更新：我正在重讀<a href=\"http://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/\" rel=\"nofollow\">http://journal.stuffwithstuff.com/2015/02/01/what-color-is-y...</a>，我認為答案就在這一段的某個地方，但我還不能理解：<p>&gt; 根本問題是 \"當一個操作完成時，你如何從你離開的地方繼續前進\"？你已經建立了一些大的調用棧，然後你調用了一些 IO 操作。為了提高性能，該操作使用了操作系統的底層異步API。你不能等待它完成，因為它不會。你必須一路返回到你的語言的事件循環中，給操作系統一些時間來旋轉，然後它才會完成。一旦操作完成，你需要恢復你正在做的事情。一種語言 \"記住它在哪裡 \"的通常方式是調用棧。它跟蹤所有當前被調用的函數以及指令指針在每個函數中的位置。但是要做異步IO，你就必須解開並丟棄整個C語言的調用棧。這有點像一個 \"陷阱\"。你可以做超快的IO，但你不能對結果做任何事情 每一種在其核心中擁有異步IO的語言--或者在JS的情況下，瀏覽器的事件循環--都以某種方式解決了這個問題。[...]<p>I don't get the &quot;You cannot wait for it to complete because it won’t.&quot; or the &quot;But to do async IO, you have to unwind and discard the entire C callstack&quot; parts.<p>I'm also using these resources, they help but I'm not there yet:<p>- <a href=\"https://stackoverflow. com/questions/47227550/using-await-inside-non-async-function\" rel=\"nofollow\">https://stackoverflow.com/questions/47227550/using-await-ins...</a><p>- <a href=\"https://www.youtube.com/watch?v=KmMU5Y_r0Uk\" rel=\"nofollow\">https://www.youtube.com/watch?v=KmMU5Y_r0Uk</a>"
+}
