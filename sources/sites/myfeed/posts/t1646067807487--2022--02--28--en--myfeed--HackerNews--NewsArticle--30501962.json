@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30501962",
+  "url": "https://news.ycombinator.com/item?id=30501962",
+  "headline": "CISA and FBI publish advisory to protect orgs from malware used in Ukraine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dev_tty01",
+    "url": "https://news.ycombinator.com/user?id=dev_tty01"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30501962",
+  "sameAs": "https://www.cisa.gov/news/2022/02/26/cisa-and-fbi-publish-advisory-protect-organizations-destructive-malware-used",
+  "dateCreated": "2022-02-28T17:03:27.487Z",
+  "datePublished": "2022-02-28T16:49:17.000Z",
+  "dateModified": "2022-02-28T17:03:27.487Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "CISA和FBI发布咨询意见，保护企业免受在乌克兰使用的恶意软件的影响",
+  "headline_zh-Hant": "CISA和FBI發佈諮詢意見，保護企業免受在烏克蘭使用的惡意軟件的影響",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
