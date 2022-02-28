@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30501509",
+  "url": "https://news.ycombinator.com/item?id=30501509",
+  "headline": "Combining CPU profiling and static analysis for better JupyterNotebook profiling",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nyellin",
+    "url": "https://news.ycombinator.com/user?id=nyellin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30501509",
+  "sameAs": "https://home.robusta.dev/blog/whyprofiler-the-worlds-first-hybrid-cpu-profiler-now-for-jupyter-notebook-and-python/",
+  "dateCreated": "2022-02-28T16:45:59.975Z",
+  "datePublished": "2022-02-28T16:14:10.000Z",
+  "dateModified": "2022-02-28T16:45:59.975Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "将CPU剖析和静态分析结合起来，更好地进行JupyterNotebook剖析",
+  "headline_zh-Hant": "將CPU剖析和靜態分析結合起來，更好地進行JupyterNotebook剖析",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

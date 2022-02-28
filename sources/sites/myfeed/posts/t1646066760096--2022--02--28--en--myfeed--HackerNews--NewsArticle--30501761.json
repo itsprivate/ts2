@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30501761",
+  "url": "https://news.ycombinator.com/item?id=30501761",
+  "headline": "Growth Buddies are creating guides, templates and podcasts with growth experts",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sorenso",
+    "url": "https://news.ycombinator.com/user?id=sorenso"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30501761",
+  "sameAs": "https://www.patreon.com/growth_buddies",
+  "dateCreated": "2022-02-28T16:46:00.096Z",
+  "datePublished": "2022-02-28T16:33:37.000Z",
+  "dateModified": "2022-02-28T16:46:00.096Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "增长伙伴正在与增长专家一起创建指南、模板和播客",
+  "headline_zh-Hant": "增長夥伴正在與增長專家一起創建指南、模板和播客",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
