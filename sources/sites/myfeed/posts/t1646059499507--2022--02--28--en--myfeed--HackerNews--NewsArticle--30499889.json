@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30499889",
+  "url": "https://news.ycombinator.com/item?id=30499889",
+  "headline": "A Contradiction in Cancer Screening",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rwbhn",
+    "url": "https://news.ycombinator.com/user?id=rwbhn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30499889",
+  "sameAs": "https://www.bostonglobe.com/2022/02/23/opinion/contradiction-cancer-screening/",
+  "dateCreated": "2022-02-28T14:44:59.507Z",
+  "datePublished": "2022-02-28T14:04:52.000Z",
+  "dateModified": "2022-02-28T14:44:59.507Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "癌症筛查中的一个矛盾",
+  "headline_zh-Hant": "癌症篩查中的一個矛盾",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30499996",
+  "url": "https://news.ycombinator.com/item?id=30499996",
+  "headline": "Updates on Our Security Work in Ukraine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Shraal",
+    "url": "https://news.ycombinator.com/user?id=Shraal"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30499996",
+  "sameAs": "https://about.fb.com/news/2022/02/security-updates-ukraine/",
+  "dateCreated": "2022-02-28T14:44:59.634Z",
+  "datePublished": "2022-02-28T14:15:24.000Z",
+  "dateModified": "2022-02-28T14:44:59.634Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "关于我们在乌克兰安全工作的最新情况",
+  "headline_zh-Hant": "關於我們在烏克蘭安全工作的最新情況",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

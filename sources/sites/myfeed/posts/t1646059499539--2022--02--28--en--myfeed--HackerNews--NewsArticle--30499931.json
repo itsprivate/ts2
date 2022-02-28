@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30499931",
+  "url": "https://news.ycombinator.com/item?id=30499931",
+  "headline": "Beware What Sounds Insightful",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "janandonly",
+    "url": "https://news.ycombinator.com/user?id=janandonly"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30499931",
+  "sameAs": "https://commoncog.com/blog/beware-what-sounds-insightful/",
+  "dateCreated": "2022-02-28T14:44:59.539Z",
+  "datePublished": "2022-02-28T14:08:55.000Z",
+  "dateModified": "2022-02-28T14:44:59.539Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "警惕听起来很有见地的东西",
+  "headline_zh-Hant": "警惕聽起來很有見地的東西",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
