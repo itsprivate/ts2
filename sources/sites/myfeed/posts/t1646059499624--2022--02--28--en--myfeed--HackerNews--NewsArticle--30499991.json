@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30499991",
+  "url": "https://news.ycombinator.com/item?id=30499991",
+  "headline": "Aasho Road Test",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fito",
+    "url": "https://news.ycombinator.com/user?id=fito"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30499991",
+  "sameAs": "https://en.wikipedia.org/wiki/AASHO_Road_Test",
+  "dateCreated": "2022-02-28T14:44:59.624Z",
+  "datePublished": "2022-02-28T14:14:47.000Z",
+  "dateModified": "2022-02-28T14:44:59.624Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Aasho路测",
+  "headline_zh-Hant": "Aasho路測",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

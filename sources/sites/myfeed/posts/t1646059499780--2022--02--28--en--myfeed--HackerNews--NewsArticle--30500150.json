@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30500150",
+  "url": "https://news.ycombinator.com/item?id=30500150",
+  "headline": "Belarus Hackers Allegedly Disrupted Trains to Thwart Russia",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ushakov",
+    "url": "https://news.ycombinator.com/user?id=ushakov"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30500150",
+  "sameAs": "https://www.bloomberg.com/news/articles/2022-02-27/belarus-hackers-allegedly-disrupted-trains-to-thwart-russia",
+  "dateCreated": "2022-02-28T14:44:59.780Z",
+  "datePublished": "2022-02-28T14:28:24.000Z",
+  "dateModified": "2022-02-28T14:44:59.780Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "白俄罗斯黑客被指扰乱火车以阻挠俄罗斯",
+  "headline_zh-Hant": "白俄羅斯黑客被指擾亂火車以阻撓俄羅斯",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
