@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--myfeed--HackerNews--NewsArticle--30503111",
+  "url": "https://news.ycombinator.com/item?id=30503111",
+  "headline": "NASA’s New Shortcut to Fusion Power",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "GordonS",
+    "url": "https://news.ycombinator.com/user?id=GordonS"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30503111",
+  "sameAs": "https://spectrum.ieee.org/lattice-confinement-fusion",
+  "dateCreated": "2022-02-28T18:34:56.283Z",
+  "datePublished": "2022-02-28T18:22:36.000Z",
+  "dateModified": "2022-02-28T18:34:56.283Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "美国宇航局通向聚变能源的新捷径",
+  "headline_zh-Hant": "美國宇航局通向聚變能源的新捷徑",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
