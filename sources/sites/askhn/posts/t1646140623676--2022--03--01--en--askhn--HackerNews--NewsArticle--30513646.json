@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--askhn--HackerNews--NewsArticle--30513646",
+  "url": "https://news.ycombinator.com/item?id=30513646",
+  "headline": "Ask HN: VPS Providers in Russia",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "As internet access is getting further restricted in Russia, I think there are those among us who would be happy to try doing their part by helping people in Russia communicating both internally and externally while staying, evade censorship and maintaining privacy.<p>Examples:<p><pre><code>  https://github.com/signalapp/Signal-TLS-Proxy (is there something similar for TG?)\n  https://snowflake.torproject.org/\n  \n</code></pre>\nWhat are some places where one can acquire IP and/or compute in Russia?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "3np",
+    "url": "https://news.ycombinator.com/user?id=3np"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30513646",
+  "sameAs": "https://news.ycombinator.com/item?id=30513646",
+  "dateCreated": "2022-03-01T13:17:03.676Z",
+  "datePublished": "2022-03-01T13:10:51.000Z",
+  "dateModified": "2022-03-01T13:17:03.676Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 俄罗斯的VPS供应商",
+  "headline_zh-Hant": "Ask HN: 俄羅斯的VPS供應商",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "由于互联网接入在俄罗斯越来越受到限制，我想我们当中有一些人很乐意尝试尽自己的一份力量，帮助俄罗斯的人们在保持内部和外部沟通的同时，规避审查和维护隐私。<p>例子：<p><pre><code>https://github.com/signalapp/Signal-TLS-Proxy（TG是否有类似的东西？）\n  https://snowflake.torproject.org/\n  \n</code></pre>\n在俄罗斯有哪些地方可以获得IP和/或计算？",
+  "description_zh-Hant": "由於互聯網接入在俄羅斯越來越受到限制，我想我們當中有一些人很樂意嘗試儘自己的一份力量，幫助俄羅斯的人們在保持內部和外部溝通的同時，規避審查和維護隱私。<p>例子：<p><pre><code>https://github.com/signalapp/Signal-TLS-Proxy（TG是否有類似的東西？）\n  https://snowflake.torproject.org/\n  \n</code></pre>\n在俄羅斯有哪些地方可以獲得IP和/或計算？"
+}
