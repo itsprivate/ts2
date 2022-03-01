@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--myfeed--HackerNews--NewsArticle--30507794",
+  "url": "https://news.ycombinator.com/item?id=30507794",
+  "headline": "One Sigh per Yes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "enigmatic02",
+    "url": "https://news.ycombinator.com/user?id=enigmatic02"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30507794",
+  "sameAs": "https://seths.blog/2022/02/one-grudge-per-yes/",
+  "dateCreated": "2022-03-01T02:06:22.456Z",
+  "datePublished": "2022-03-01T01:11:33.000Z",
+  "dateModified": "2022-03-01T02:06:22.456Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "每一个是的一声叹息",
+  "headline_zh-Hant": "每一個是的一聲嘆息",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

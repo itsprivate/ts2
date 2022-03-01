@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--hackernews--HackerNews--NewsArticle--30507799",
+  "url": "https://news.ycombinator.com/item?id=30507799",
+  "headline": "US PTO rules against Univ of California, argues that Broad Inst invented CRISPR",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dluan",
+    "url": "https://news.ycombinator.com/user?id=dluan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30507799",
+  "sameAs": "https://www.scribd.com/document/561762623/106-115-Decision-on-Priority",
+  "dateCreated": "2022-03-01T02:06:22.221Z",
+  "datePublished": "2022-03-01T01:12:00.000Z",
+  "dateModified": "2022-03-01T02:06:22.221Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 26
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "美国专利商标局裁定加州大学败诉，认为是Broad研究所发明了CRISPR",
+  "headline_zh-Hant": "美國專利商標局裁定加州大學敗訴，認為是Broad研究所發明了CRISPR",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
