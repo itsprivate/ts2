@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--askhn--HackerNews--NewsArticle--30512160",
+  "url": "https://news.ycombinator.com/item?id=30512160",
+  "headline": "Ask HN: Is mobile the future of cross platform apps?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "With Windows Subsystem for Android in preview for W11, both MacOS and Windows will now have first class support for running mobile versions of apps on the desktop.<p>I can definitely see the appeal for mobile apps if the only alternative is Electron. For example, the iOS versions of Discord and Slack when sideloaded on an M1 mac are much lighter on CPU and RAM while also being smoother compared to the &quot;native&quot; clients.<p>So if the dream of true native on all platforms ends up failing for someone's use case, this might be a desirable option as a stopgap before going full webview on desktop.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "udbhavs",
+    "url": "https://news.ycombinator.com/user?id=udbhavs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30512160",
+  "sameAs": "https://news.ycombinator.com/item?id=30512160",
+  "dateCreated": "2022-03-01T10:32:52.328Z",
+  "datePublished": "2022-03-01T10:10:02.000Z",
+  "dateModified": "2022-03-01T10:32:52.328Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 移动是跨平台应用程序的未来吗？",
+  "headline_zh-Hant": "Ask HN: 移動是跨平臺應用程序的未來嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "随着W11预览版的Windows Subsystem for Android，MacOS和Windows现在都将拥有一流的支持，可以在桌面上运行移动版本的应用程序。<p>如果唯一的选择是Electron，我绝对可以看到移动应用程序的吸引力。例如，在M1 mac上侧载的iOS版本的Discord和Slack在CPU和内存上要轻得多，同时与&quot;原生&quot;客户端相比也更加流畅。<p>因此，如果在所有平台上实现真正原生的梦想最终未能满足某人的使用情况，这可能是一个理想的选择，作为在桌面上完全采用webview之前的一个权宜之计。",
+  "description_zh-Hant": "隨著W11預覽版的Windows Subsystem for Android，MacOS和Windows現在都將擁有一流的支持，可以在桌面上運行移動版本的應用程序。<p>如果唯一的選擇是Electron，我絕對可以看到移動應用程序的吸引力。例如，在M1 mac上側載的iOS版本的Discord和Slack在CPU和內存上要輕得多，同時與&quot;原生&quot;客戶端相比也更加流暢。<p>因此，如果在所有平臺上實現真正原生的夢想最終未能滿足某人的使用情況，這可能是一個理想的選擇，作為在桌面上完全採用webview之前的一個權宜之計。"
+}
