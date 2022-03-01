@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--myfeed--HackerNews--NewsArticle--30520832",
+  "url": "https://news.ycombinator.com/item?id=30520832",
+  "headline": "Berrygps Imu",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Can you use a berrygps-imu instead of the sensors?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jacobpew",
+    "url": "https://news.ycombinator.com/user?id=jacobpew"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30520832",
+  "sameAs": "https://news.ycombinator.com/item?id=30520832",
+  "dateCreated": "2022-03-01T22:29:55.938Z",
+  "datePublished": "2022-03-01T22:20:14.000Z",
+  "dateModified": "2022-03-01T22:29:55.938Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "莓果园伊姆",
+  "headline_zh-Hant": "莓果園伊姆",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你可以用berrygps-imu来代替传感器吗？",
+  "description_zh-Hant": "你可以用berrygps-imu來代替傳感器嗎？"
+}
