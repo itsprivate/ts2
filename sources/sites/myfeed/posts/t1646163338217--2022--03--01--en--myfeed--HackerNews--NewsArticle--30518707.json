@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--myfeed--HackerNews--NewsArticle--30518707",
+  "url": "https://news.ycombinator.com/item?id=30518707",
+  "headline": "Russia's mainstay A-50 monitors Ukranian demilitarization daily from the north",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "opensores",
+    "url": "https://news.ycombinator.com/user?id=opensores"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30518707",
+  "sameAs": "https://www.janes.com/defence-news/news-detail/ukraine-conflict-belarus-based-a-50-aewc-aircraft-lead-russian-air-offensive-on-ukraine",
+  "dateCreated": "2022-03-01T19:35:38.217Z",
+  "datePublished": "2022-03-01T19:19:03.000Z",
+  "dateModified": "2022-03-01T19:35:38.217Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "俄罗斯的主力军A-50每天从北部监测乌克兰的非军事化情况",
+  "headline_zh-Hant": "俄羅斯的主力軍A-50每天從北部監測烏克蘭的非軍事化情況",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
