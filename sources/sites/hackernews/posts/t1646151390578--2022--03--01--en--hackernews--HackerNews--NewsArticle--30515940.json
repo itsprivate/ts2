@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--hackernews--HackerNews--NewsArticle--30515940",
+  "url": "https://news.ycombinator.com/item?id=30515940",
+  "headline": "Launch HN: GrowthBook (YC W22) – Open-source feature flagging and A/B testing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN, Graham and Jeremy here - we are building GrowthBook is an open-source platform for feature flagging and A/B testing. The repo is here: <a href=\"https://github.com/growthbook/growthbook\" rel=\"nofollow\">https://github.com/growthbook/growthbook</a> and our home page is <a href=\"https://www.growthbook.io\" rel=\"nofollow\">https://www.growthbook.io</a>. We did a Show HN 6 months ago (<a href=\"https://news.ycombinator.com/item?id=28088882\" rel=\"nofollow\">https://news.ycombinator.com/item?id=28088882</a>, which helped us get into YC) and have since added feature flagging.<p>Developers often launch a feature without understanding the impact it has on their users and business. This is a big deal, because only 1/3 of product launches actually improve the desired metrics. Of the rest, 1/3 have no effect, and the last 1/3 actually hurt [1]. The best way to measure this is to use feature flags and controlled experiments (A/B tests).<p>Jeremy and I worked together for 10 years at an ed-tech startup as CTO and software architect. We spent far too long just building and launching features without really knowing how they impacted our users and if they were adding value to the company. We had product analytics, but there was too much noise in the data to draw real conclusions. We knew the “right” way to do this was to build feature flags and run controlled experiments, but that was daunting for our small team.<p>We looked into 3rd party tools, but it bothered us that they didn't use our existing data warehouse and metric definitions, and we really didn't like the idea of adding an API call in the critical rendering path of our application. We also didn’t want to send our data to 3rd parties, didn’t feel good about vendor lock-in, plus the vendors were expensive. So, we did what any engineers would do—build it ourselves. After all, how hard could it be?<p>After a couple painful years, we hacked something together that (mostly) worked and used it to help grow revenue 10x. We started talking to other teams and realized just how many larger companies spend years building these feature flagging and experimentation platforms in-house because, like us, they couldn’t find any tools that met their needs. So we took everything we learned and built the tool we wish had existed back when we started.<p>GrowthBook is an open source platform for feature flagging and A/B experimentation. Our SDKs are built to be fast and cache-friendly. We take data privacy seriously and don’t use cookies or deal with PII. We sit on top of your company’s existing data warehouse and metrics so you can maintain a single source of truth. We’re open source (MIT), so you can either self-host the platform (with Docker containers), or use our managed cloud offering.<p>In GrowthBook, feature flags are added and controlled within the UI. Engineers or PMs can add targeting rules (e.g.”beta users get feature X, everyone else does not”), do gradual rollouts, and run A/B tests on the features. The current state of features are stored in a JSON file and exposed via an API or kept in-sync with a cache/database using webhooks. Engineers install our SDK and pass in the JSON file. Then they can do feature checks throughout their code (e.g. `if feature.on { ... } else { ... }`).<p>For A/B test analysis, a data analyst or engineer connects GrowthBook to their data warehouse, then they write a few SQL queries that tell GrowthBook how to query their experiment assignment and metric conversion data. After that initial setup, GrowthBook is able to pull experiment results, run it through our Bayesian stats engine, and display results. Users can slice and dice the data by custom dimensions and/or export results to a Jupyter notebook for further analysis.<p>We’re used by over 60 companies in production. We have self-hosted and cloud versions (see our pricing here: <a href=\"https://www.growthbook.io/pricing\" rel=\"nofollow\">https://www.growthbook.io/pricing</a>), and both are self-serve and simple to set up. We currently have SDKs for Javascript/Typescript, React, PHP, Ruby, Python, Go, and Android with more in the works (C#, Java, Swift, and Elixir). We support all the major SQL data warehouses as well as Mixpanel and Google Analytics.<p>You can give it a spin at <a href=\"https://github.com/growthbook/growthbook\" rel=\"nofollow\">https://github.com/growthbook/growthbook</a>. Let us know what you think!  We would especially love feedback from anyone who has built platforms like this in the past.<p>----------<p>Footnotes:<p>[1] Online Experimentation at Microsoft: <a href=\"https://exp-platform.com/Documents/ExPThinkWeek2009Public.pdf\" rel=\"nofollow\">https://exp-platform.com/Documents/ExPThinkWeek2009Public.pd...</a>",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "combat_wombat",
+    "url": "https://news.ycombinator.com/user?id=combat_wombat"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30515940",
+  "sameAs": "https://www.growthbook.io/",
+  "dateCreated": "2022-03-01T16:16:30.578Z",
+  "datePublished": "2022-03-01T16:12:50.000Z",
+  "dateModified": "2022-03-01T16:16:30.578Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "启动HN：GrowthBook (YC W22) - 开源的功能标记和A/B测试",
+  "headline_zh-Hant": "啟動HN：GrowthBook (YC W22) - 開源的功能標記和A/B測試",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi HN, Graham and Jeremy here - we are building GrowthBook is an open-source platform for feature flagging and A/B testing. The repo is here: <a href=\"https://github.com/growthbook/growthbook\" rel=\"nofollow\">https://github.com/growthbook/growthbook</a>，我们的主页是<a href=\"https://www.growthbook.io\" rel=\"nofollow\">https://www.growthbook.io</a>。我们在6个月前做了一个Show HN（<a href=\"https://news.ycombinator.com/item?id=28088882\" rel=\"nofollow\">https://news.ycombinator.com/item?id=28088882</a>，这帮助我们进入了YC），此后又增加了功能标记。<p>开发人员经常在不了解其对用户和业务的影响的情况下推出一项功能。这是一个大问题，因为只有1/3的产品发布实际上改善了预期的指标。其余的，1/3没有影响，而最后的1/3实际上是伤害[1]。<p>Jeremy和我在一家教育技术创业公司担任CTO和软件架构师，一起工作了10年。我们花了太多的时间来构建和发布功能，却没有真正了解它们对用户的影响，以及它们是否为公司带来了价值。我们有产品分析，但数据中有太多的噪音，无法得出真正的结论。我们知道做这件事的 \"正确 \"方法是建立功能标志和运行受控实验，但这对我们的小团队来说是令人生畏的。<p>我们研究了第三方工具，但他们没有使用我们现有的数据仓库和指标定义，这令我们感到不安，而且我们真的不喜欢在我们应用程序的关键渲染路径中添加API调用的想法。我们也不想把我们的数据发送给第三方，对供应商的锁定感觉不好，而且供应商的价格很高。因此，我们做了任何工程师都会做的事情--自己动手。毕竟，这能有多难呢？<p>在经历了几年的痛苦之后，我们黑掉了一些东西，（大部分）是有效的，并使用它来帮助收入增长10倍。我们开始与其他团队交流，并意识到有多少大公司花费数年时间在内部建立这些功能标记和实验平台，因为他们和我们一样，找不到任何满足其需求的工具。因此，我们利用我们所学到的一切，建立了我们希望在我们开始时就存在的工具。<p>GrowthBook是一个用于功能标记和A/B实验的开源平台。我们的SDK是为快速和缓存友好而建立的。我们认真对待数据隐私，不使用cookies或处理PII。我们位于贵公司现有的数据仓库和指标之上，因此您可以保持一个单一的真相来源。我们是开源的（MIT），所以你可以自行托管平台（使用Docker容器），或使用我们的管理云产品。<p>在GrowthBook中，功能标志是在用户界面中添加和控制的。工程师或项目管理人员可以添加目标规则（例如 \"测试版用户获得功能X，其他人不获得\"），进行逐步推广，并对功能进行A/B测试。功能的当前状态被存储在一个JSON文件中，并通过API暴露出来，或者使用webhooks与缓存/数据库保持同步。工程师们安装我们的SDK，并传入JSON文件。<p>对于A/B测试分析，数据分析师或工程师将GrowthBook连接到他们的数据仓库，然后他们写一些SQL查询，告诉GrowthBook如何查询他们的实验分配和指标转换数据。经过最初的设置，GrowthBook能够拉动实验结果，通过我们的贝叶斯统计引擎运行，并显示结果。用户可以通过自定义维度对数据进行切分，并/或将结果导出到Jupyter笔记本，以便进一步分析。<p>我们被60多家公司用于生产。我们有自我托管和云计算版本（见这里的定价。<a href=\"https://www.growthbook.io/pricing\" rel=\"nofollow\">https://www.growthbook.io/pricing</a>），这两种版本都是自助式的，设置起来很简单。我们目前拥有针对Javascript/Typescript、React、PHP、Ruby、Python、Go和Android的SDK，还有更多的SDK正在开发中（C#、Java、Swift和Elixir）。我们支持所有主要的 SQL 数据仓库以及 Mixpanel 和 Google Analytics。<p>您可以在<a href=\"https://github.com/growthbook/growthbook\" rel=\"nofollow\">https://github.com/growthbook/growthbook</a>上试用它。让我们知道您的想法!  我们特别希望过去曾建立过这样的平台的人提供反馈。<p>----------<p>脚注：<p>[1] Microsoft的在线实验。<a href=\"https://exp-platform.com/Documents/ExPThinkWeek2009Public.pdf\" rel=\"nofollow\">https://exp-platform.com/Documents/ExPThinkWeek2009Public.pd...</a>。",
+  "description_zh-Hant": "Hi HN, Graham and Jeremy here - we are building GrowthBook is an open-source platform for feature flagging and A/B testing. The repo is here: <a href=\"https://github.com/growthbook/growthbook\" rel=\"nofollow\">https://github.com/growthbook/growthbook</a>，我們的主頁是<a href=\"https://www.growthbook.io\" rel=\"nofollow\">https://www.growthbook.io</a>。我們在6個月前做了一個Show HN（<a href=\"https://news.ycombinator.com/item?id=28088882\" rel=\"nofollow\">https://news.ycombinator.com/item?id=28088882</a>，這幫助我們進入了YC），此後又增加了功能標記。<p>開發人員經常在不瞭解其對用戶和業務的影響的情況下推出一項功能。這是一個大問題，因為只有1/3的產品發佈實際上改善了預期的指標。其餘的，1/3沒有影響，而最後的1/3實際上是傷害[1]。<p>Jeremy和我在一家教育技術創業公司擔任CTO和軟件架構師，一起工作了10年。我們花了太多的時間來構建和發佈功能，卻沒有真正瞭解它們對用戶的影響，以及它們是否為公司帶來了價值。我們有產品分析，但數據中有太多的噪音，無法得出真正的結論。我們知道做這件事的 \"正確 \"方法是建立功能標誌和運行受控實驗，但這對我們的小團隊來說是令人生畏的。<p>我們研究了第三方工具，但他們沒有使用我們現有的數據倉庫和指標定義，這令我們感到不安，而且我們真的不喜歡在我們應用程序的關鍵渲染路徑中添加API調用的想法。我們也不想把我們的數據發送給第三方，對供應商的鎖定感覺不好，而且供應商的價格很高。因此，我們做了任何工程師都會做的事情--自己動手。畢竟，這能有多難呢？<p>在經歷了幾年的痛苦之後，我們黑掉了一些東西，（大部分）是有效的，並使用它來幫助收入增長10倍。我們開始與其他團隊交流，並意識到有多少大公司花費數年時間在內部建立這些功能標記和實驗平臺，因為他們和我們一樣，找不到任何滿足其需求的工具。因此，我們利用我們所學到的一切，建立了我們希望在我們開始時就存在的工具。<p>GrowthBook是一個用於功能標記和A/B實驗的開源平臺。我們的SDK是為快速和緩存友好而建立的。我們認真對待數據隱私，不使用cookies或處理PII。我們位於貴公司現有的數據倉庫和指標之上，因此您可以保持一個單一的真相來源。我們是開源的（MIT），所以你可以自行託管平臺（使用Docker容器），或使用我們的管理雲產品。<p>在GrowthBook中，功能標誌是在用戶界面中添加和控制的。工程師或項目管理人員可以添加目標規則（例如 \"測試版用戶獲得功能X，其他人不獲得\"），進行逐步推廣，並對功能進行A/B測試。功能的當前狀態被存儲在一個JSON文件中，並通過API暴露出來，或者使用webhooks與緩存/數據庫保持同步。工程師們安裝我們的SDK，並傳入JSON文件。<p>對於A/B測試分析，數據分析師或工程師將GrowthBook連接到他們的數據倉庫，然後他們寫一些SQL查詢，告訴GrowthBook如何查詢他們的實驗分配和指標轉換數據。經過最初的設置，GrowthBook能夠拉動實驗結果，通過我們的貝葉斯統計引擎運行，並顯示結果。用戶可以通過自定義維度對數據進行切分，並/或將結果導出到Jupyter筆記本，以便進一步分析。<p>我們被60多家公司用於生產。我們有自我託管和雲計算版本（見這裡的定價。<a href=\"https://www.growthbook.io/pricing\" rel=\"nofollow\">https://www.growthbook.io/pricing</a>），這兩種版本都是自助式的，設置起來很簡單。我們目前擁有針對Javascript/Typescript、React、PHP、Ruby、Python、Go和Android的SDK，還有更多的SDK正在開發中（C#、Java、Swift和Elixir）。我們支持所有主要的 SQL 數據倉庫以及 Mixpanel 和 Google Analytics。<p>您可以在<a href=\"https://github.com/growthbook/growthbook\" rel=\"nofollow\">https://github.com/growthbook/growthbook</a>上試用它。讓我們知道您的想法!  我們特別希望過去曾建立過這樣的平臺的人提供反饋。<p>----------<p>腳註：<p>[1] Microsoft的在線實驗。<a href=\"https://exp-platform.com/Documents/ExPThinkWeek2009Public.pdf\" rel=\"nofollow\">https://exp-platform.com/Documents/ExPThinkWeek2009Public.pd...</a>。"
+}

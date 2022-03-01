@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--myfeed--HackerNews--NewsArticle--30515921",
+  "url": "https://news.ycombinator.com/item?id=30515921",
+  "headline": "Popular Website in Siberia Blocked for Using the Word 'War' in Ukraine Coverage",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "awb",
+    "url": "https://news.ycombinator.com/user?id=awb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30515921",
+  "sameAs": "https://www.rferl.org/a/russia-websites-blocked-ukraine-invasion/31730244.html",
+  "dateCreated": "2022-03-01T16:16:30.932Z",
+  "datePublished": "2022-03-01T16:11:22.000Z",
+  "dateModified": "2022-03-01T16:16:30.932Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "西伯利亚热门网站因在乌克兰报道中使用 \"战争 \"一词而被封锁",
+  "headline_zh-Hant": "西伯利亞熱門網站因在烏克蘭報道中使用 \"戰爭 \"一詞而被封鎖",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

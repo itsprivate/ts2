@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--myfeed--HackerNews--NewsArticle--30515734",
+  "url": "https://news.ycombinator.com/item?id=30515734",
+  "headline": "Show HN: I created PlotPanel, an app for creating interactive visualisations",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "batterylow",
+    "url": "https://news.ycombinator.com/user?id=batterylow"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30515734",
+  "sameAs": "https://plotpanel.com",
+  "dateCreated": "2022-03-01T16:16:30.809Z",
+  "datePublished": "2022-03-01T16:00:48.000Z",
+  "dateModified": "2022-03-01T16:16:30.809Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我创建了PlotPanel，一个用于创建交互式可视化的应用程序。",
+  "headline_zh-Hant": "Show HN: 我創建了PlotPanel，一個用於創建交互式可視化的應用程序。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
