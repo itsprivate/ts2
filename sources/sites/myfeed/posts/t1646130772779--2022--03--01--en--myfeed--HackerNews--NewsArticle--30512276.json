@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--myfeed--HackerNews--NewsArticle--30512276",
+  "url": "https://news.ycombinator.com/item?id=30512276",
+  "headline": "AG Grid rolls out major new platform version with 100% React rendering engine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "LONDON, 1st March 2022 – AG Grid, the industry-leading provider of JavaScript datagrids, rolled out version 27 (AG Grid 27) this month, which introduces major improvements in developer productivity, functionality and accessibility.<p>One of the most noteworthy new features for AG Grid 27, is that its 100% React Rendering Engine is now the default engine for AG Grid React. This means AG Grid React is no longer a thin React wrapper over a JavaScript library. The new rendering engine means AG Grid works perfectly within the React Developer Tools ecosystem for viewing component state, managing render cycles, profiling and improving performance of the app.<p>The pure React Rendering Engine for AG Grid has been in development for almost a year, and creating it required the development team to refactor the internal code structure, which has improved the internal architecture of the project.<p>As a result, the React community who prefer to use 100% React Components can now provide their end users with the 'full' set of business facing features, including integrated charts, grouping, pivoting, MS Excel report, and customisable graphs and charts generated from user selected data in the grid.<p>These features, once enabled by the programmer, are under the user's control and allow users to explore and visualise the data in the grid without the programmers having to make any coding changes to the application.<p>AG Grid 27 also has an Immutable Data Store mode to work more efficiently with React Immutable Data Stores like Redux. This helps ensure that minimal processing time and GUI updates are required to refresh data in the grid. This improves the user experience because user interaction like selected rows are maintained when data updates.<p>Additional improvements introduced to AG Grid 27 involve deprecating and removing unused API members, as well as a simplification for the registration of Framework Components process.<p>All documentation examples have now been made available in TypeScript, and key enhancements have been made to Column Filtering to improve the user and developer experience.<p>In fact, improving the user experience has been central to AG Grid 27, and a number of highly-requested improvements and community feedback has been addressed, with a number of new features, tools and visual aids.<p>You can see a full list of changes here: https://www.ag-grid.com/ag-grid-changelog/?fixVersion=27.0.0<p>Niall Crosby, the CEO and initial developer of AG Grid comments:\n&quot;AG Grid 27 is a major step forward for our hugely popular Data Grid technology, and our React Rendering engine is perfect for React Teams that want a great developer experience as well as offering the most feature packed and functional experience to their users.<p>“For too long, React developers have been at a loss for a pure React Data Grid with the many advanced features of AG Grid. Too many of the 100% React Data Grids start out with some good ideas, but as the complexity grows, the breadth of features slows or quality drops. It's incredibly difficult to create a Data Grid that covers all the basic features and still maintains quality.<p>“Seeing this demand is what made us re-think our React solution, and after a year of work, we finally have React JavaScript Data Grid that is rendered 100% in React, and are looking forward to how the React community responds to the new offering.”",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kcentropy",
+    "url": "https://news.ycombinator.com/user?id=kcentropy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30512276",
+  "sameAs": "https://news.ycombinator.com/item?id=30512276",
+  "dateCreated": "2022-03-01T10:32:52.779Z",
+  "datePublished": "2022-03-01T10:22:35.000Z",
+  "dateModified": "2022-03-01T10:32:52.779Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "AG网格公司推出主要的新平台版本，100%采用React渲染引擎",
+  "headline_zh-Hant": "AG網格公司推出主要的新平臺版本，100%採用React渲染引擎",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "伦敦，2022年3月1日 - 业界领先的JavaScript数据网格供应商AG Grid本月推出了第27版（AG Grid 27），该版本在开发人员的生产力、功能和可访问性方面有重大改进。<p>AG Grid 27最值得注意的新功能之一是，其100%的React渲染引擎现在是AG Grid React的默认引擎。这意味着AG Grid React不再是一个薄薄的React包装在一个JavaScript库上。新的渲染引擎意味着AG Grid可以在React开发者工具生态系统中完美运行，用于查看组件状态、管理渲染周期、分析和提高应用程序的性能。<p>AG Grid的纯React渲染引擎已经开发了近一年，创建它需要开发团队重构内部代码结构，这改善了项目的内部架构。 <p>因此，喜欢使用100% React组件的React社区现在可以为他们的终端用户提供 \"完整 \"的面向业务的功能，包括集成的图表、分组、透视、MS Excel报告，以及从网格中用户选择的数据生成的可定制的图形和图表。 <p>这些功能一旦被程序员启用，就处于用户的控制之下，并允许用户探索和可视化网格中的数据，而程序员无需对应用程序进行任何编码更改。<p>AG Grid 27还拥有一个不可变数据存储模式，以更有效地与Redux等React不可变数据存储一起工作。这有助于确保刷新网格中的数据所需的处理时间和GUI更新最小。<p>AG Grid 27中引入的其他改进包括废弃和删除未使用的API成员，以及简化框架组件的注册流程。<p>所有文档示例现在都可以使用TypeScript，并且对列过滤进行了关键的改进，以改善用户和开发人员的体验。 <p>事实上，改善用户体验一直是AG Grid 27的核心，一些高度要求的改进和社区反馈已经得到解决，并有一些新的功能、工具和视觉辅助工具。<p>你可以在这里看到完整的变化列表：https://www.ag-grid.com/ag-grid-changelog/?fixVersion=27.0.0<p>AG Grid的首席执行官和初始开发者Niall Crosby评论说。\n&quot;AG Grid 27是我们大受欢迎的数据网格技术的一大进步，我们的React渲染引擎对于那些希望获得出色的开发者体验以及为用户提供最丰富的功能体验的React团队来说是完美的。<p>\"长久以来，React开发者一直对具有AG Grid众多高级功能的纯React数据网格感到茫然。太多100%的React数据网格开始时有一些好的想法，但随着复杂性的增加，功能的广度变慢或质量下降。<p>\"看到这种需求使我们重新思考我们的React解决方案，经过一年的工作，我们终于有了100%用React渲染的React JavaScript数据网格，并期待着React社区对新产品的反应。\"",
+  "description_zh-Hant": "倫敦，2022年3月1日 - 業界領先的JavaScript數據網格供應商AG Grid本月推出了第27版（AG Grid 27），該版本在開發人員的生產力、功能和可訪問性方面有重大改進。<p>AG Grid 27最值得注意的新功能之一是，其100%的React渲染引擎現在是AG Grid React的默認引擎。這意味著AG Grid React不再是一個薄薄的React包裝在一個JavaScript庫上。新的渲染引擎意味著AG Grid可以在React開發者工具生態系統中完美運行，用於查看組件狀態、管理渲染週期、分析和提高應用程序的性能。<p>AG Grid的純React渲染引擎已經開發了近一年，創建它需要開發團隊重構內部代碼結構，這改善了項目的內部架構。 <p>因此，喜歡使用100% React組件的React社區現在可以為他們的終端用戶提供 \"完整 \"的面向業務的功能，包括集成的圖表、分組、透視、MS Excel報告，以及從網格中用戶選擇的數據生成的可定製的圖形和圖表。 <p>這些功能一旦被程序員啟用，就處於用戶的控制之下，並允許用戶探索和可視化網格中的數據，而程序員無需對應用程序進行任何編碼更改。<p>AG Grid 27還擁有一個不可變數據存儲模式，以更有效地與Redux等React不可變數據存儲一起工作。這有助於確保刷新網格中的數據所需的處理時間和GUI更新最小。<p>AG Grid 27中引入的其他改進包括廢棄和刪除未使用的API成員，以及簡化框架組件的註冊流程。<p>所有文檔示例現在都可以使用TypeScript，並且對列過濾進行了關鍵的改進，以改善用戶和開發人員的體驗。 <p>事實上，改善用戶體驗一直是AG Grid 27的核心，一些高度要求的改進和社區反饋已經得到解決，並有一些新的功能、工具和視覺輔助工具。<p>你可以在這裡看到完整的變化列表：https://www.ag-grid.com/ag-grid-changelog/?fixVersion=27.0.0<p>AG Grid的首席執行官和初始開發者Niall Crosby評論說。\n&quot;AG Grid 27是我們大受歡迎的數據網格技術的一大進步，我們的React渲染引擎對於那些希望獲得出色的開發者體驗以及為用戶提供最豐富的功能體驗的React團隊來說是完美的。<p>\"長久以來，React開發者一直對具有AG Grid眾多高級功能的純React數據網格感到茫然。太多100%的React數據網格開始時有一些好的想法，但隨著複雜性的增加，功能的廣度變慢或質量下降。<p>\"看到這種需求使我們重新思考我們的React解決方案，經過一年的工作，我們終於有了100%用React渲染的React JavaScript數據網格，並期待著React社區對新產品的反應。\""
+}
