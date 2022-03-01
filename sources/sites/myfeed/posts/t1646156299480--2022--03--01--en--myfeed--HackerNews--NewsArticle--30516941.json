@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--myfeed--HackerNews--NewsArticle--30516941",
+  "url": "https://news.ycombinator.com/item?id=30516941",
+  "headline": "Etsy is canceling the current balances to all sellers in Ukraine (about $4mln)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "giuliomagnifico",
+    "url": "https://news.ycombinator.com/user?id=giuliomagnifico"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30516941",
+  "sameAs": "https://blog.etsy.com/news/2022/standing-with-our-community-when-it-matters-most/",
+  "dateCreated": "2022-03-01T17:38:19.480Z",
+  "datePublished": "2022-03-01T17:22:13.000Z",
+  "dateModified": "2022-03-01T17:38:19.480Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Etsy正在取消对乌克兰所有卖家的现有余额（约4百万美元）。",
+  "headline_zh-Hant": "Etsy正在取消對烏克蘭所有賣家的現有餘額（約4百萬美元）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
