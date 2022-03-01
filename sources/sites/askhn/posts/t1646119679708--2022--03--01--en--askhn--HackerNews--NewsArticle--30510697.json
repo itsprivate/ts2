@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--askhn--HackerNews--NewsArticle--30510697",
+  "url": "https://news.ycombinator.com/item?id=30510697",
+  "headline": "Ask HN: What does your HN look like?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We all know how this community loves software that can be customized and modded.<p>So, I'm curious what your Hacker News page looks like? Share a screenshot and explain the details of your scripts/styles/changes.<p>---<p>I'll start. My HN: https://i.imgur.com/z9D2XPr.png<p>I use Stylebot to implement custom CSS rules. I tried many dark HN extensions and most of them have issues with threading or style details I didn't like, so I just wrote my own CSS.<p>Then I use Tampermonkey to run a simple JS function which adds tags based on how many comments each article has. And I also tag articles as &quot;Fresh&quot; if they have been posted within the last hour.<p>I also plan to add sorting by comment count. The thing I loved most about HN is the discussions that happen within the comments.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "bukka",
+    "url": "https://news.ycombinator.com/user?id=bukka"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30510697",
+  "sameAs": "https://news.ycombinator.com/item?id=30510697",
+  "dateCreated": "2022-03-01T07:27:59.708Z",
+  "datePublished": "2022-03-01T07:14:47.000Z",
+  "dateModified": "2022-03-01T07:27:59.708Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你的HN是什么样子的？",
+  "headline_zh-Hant": "Ask HN: 你的HN是什麼樣子的？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们都知道这个社区喜欢可以定制和修改的软件。<p>所以，我很好奇你的Hacker News页面是什么样子的？分享一张截图，并解释一下你的脚本/样式/修改的细节。<p>----<p>我先说。我的HN：https://i.imgur.com/z9D2XPr.png<p>我使用Stylebot来实现自定义CSS规则。我试过很多黑暗的HN扩展，它们中的大多数都有线程问题或我不喜欢的样式细节，所以我只是写了我自己的CSS。<p>然后我用Tampermonkey来运行一个简单的JS函数，根据每篇文章的评论数量来添加标签。如果文章是在过去一小时内发布的，我也会将其标记为&quot;新鲜&quot;。<p>我还计划增加按评论数排序。我最喜欢HN的地方是评论中发生的讨论。",
+  "description_zh-Hant": "我們都知道這個社區喜歡可以定製和修改的軟件。<p>所以，我很好奇你的Hacker News頁面是什麼樣子的？分享一張截圖，並解釋一下你的腳本/樣式/修改的細節。<p>----<p>我先說。我的HN：https://i.imgur.com/z9D2XPr.png<p>我使用Stylebot來實現自定義CSS規則。我試過很多黑暗的HN擴展，它們中的大多數都有線程問題或我不喜歡的樣式細節，所以我只是寫了我自己的CSS。<p>然後我用Tampermonkey來運行一個簡單的JS函數，根據每篇文章的評論數量來添加標籤。如果文章是在過去一小時內發佈的，我也會將其標記為&quot;新鮮&quot;。<p>我還計劃增加按評論數排序。我最喜歡HN的地方是評論中發生的討論。"
+}
