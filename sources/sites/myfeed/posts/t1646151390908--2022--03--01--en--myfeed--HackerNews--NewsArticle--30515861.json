@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--myfeed--HackerNews--NewsArticle--30515861",
+  "url": "https://news.ycombinator.com/item?id=30515861",
+  "headline": "Nvidia confirms: malware group Lapsus$ has personal company data",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jeffreygoesto",
+    "url": "https://news.ycombinator.com/user?id=jeffreygoesto"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30515861",
+  "sameAs": "https://www.techzine.eu/news/infrastructure/73912/nvidia-confirms-malware-group-lapsus-has-personal-company-data/",
+  "dateCreated": "2022-03-01T16:16:30.908Z",
+  "datePublished": "2022-03-01T16:07:48.000Z",
+  "dateModified": "2022-03-01T16:16:30.908Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Nvidia证实：恶意软件集团Lapsus$拥有公司个人数据",
+  "headline_zh-Hant": "Nvidia證實：惡意軟件集團Lapsus$擁有公司個人數據",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
