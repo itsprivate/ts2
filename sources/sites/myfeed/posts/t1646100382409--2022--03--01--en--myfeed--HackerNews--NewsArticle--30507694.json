@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--myfeed--HackerNews--NewsArticle--30507694",
+  "url": "https://news.ycombinator.com/item?id=30507694",
+  "headline": "Disney will halt theatrical releases in Russia",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "doener",
+    "url": "https://news.ycombinator.com/user?id=doener"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30507694",
+  "sameAs": "https://twitter.com/spectatorindex/status/1498462883902279680",
+  "dateCreated": "2022-03-01T02:06:22.409Z",
+  "datePublished": "2022-03-01T01:01:02.000Z",
+  "dateModified": "2022-03-01T02:06:22.409Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "迪士尼将停止在俄罗斯的影院发行",
+  "headline_zh-Hant": "迪士尼將停止在俄羅斯的影院發行",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--myfeed--HackerNews--NewsArticle--30508084",
+  "url": "https://news.ycombinator.com/item?id=30508084",
+  "headline": "How the US created a world of endless war",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ryanqian",
+    "url": "https://news.ycombinator.com/user?id=ryanqian"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30508084",
+  "sameAs": "https://www.theguardian.com/us-news/2021/aug/31/how-the-us-created-a-world-of-endless-war",
+  "dateCreated": "2022-03-01T02:06:22.553Z",
+  "datePublished": "2022-03-01T01:40:20.000Z",
+  "dateModified": "2022-03-01T02:06:22.553Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "美国如何创造了一个无休止战争的世界",
+  "headline_zh-Hant": "美國如何創造了一個無休止戰爭的世界",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
