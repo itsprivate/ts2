@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--myfeed--HackerNews--NewsArticle--30510928",
+  "url": "https://news.ycombinator.com/item?id=30510928",
+  "headline": "Tell HN: SWIFT is not a payments transfer system",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "As part of my startup's remit, I do a lot of work with clients' SWIFT payments. I feel like the media has done a very poor job explaining what SWIFT is and how exactly it works.<p>SWIFT exists not for the purpose of providing the rail(s) upon which money moves but to be the messaging system which coordinates said transfers. When sending funds (typically done via a document called a MT103, which is a text file with specific formatting requirements) one informs the recipient institution by sending a SWIFT message. When it is time for the banks to actually move the funds (which often times occurs significantly after the funds are made available to the client in question) this will be coordinated through a payment system. In most cases in Europe, this is TARGET2. However, as Russia is not a member of the Eurozone, the majority of their impacted payments will likely be on the STEP2 payment network, which is the only European-wide payment system. From what I understand from banks and clients we work with who have a significant Eastern European nexus, Russia was already experiencing problems with the payment systems before the formal SWIFT bans were announced and that the effective shutdown of central bank settlements for Russia has served to bring international payments coordination for RU based institutions to a crawl.<p>Happy to add clarification where it could be useful.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "atdrummond",
+    "url": "https://news.ycombinator.com/user?id=atdrummond"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30510928",
+  "sameAs": "https://news.ycombinator.com/item?id=30510928",
+  "dateCreated": "2022-03-01T07:50:15.873Z",
+  "datePublished": "2022-03-01T07:48:08.000Z",
+  "dateModified": "2022-03-01T07:50:15.873Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：SWIFT不是一个支付转账系统",
+  "headline_zh-Hant": "告訴HN：SWIFT不是一個支付轉賬系統",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "作为我的创业公司的职责之一，我在客户的SWIFT支付方面做了很多工作。我觉得媒体在解释SWIFT是什么以及它的具体运作方式方面做得很差。<p>SWIFT的存在不是为了提供资金流动的轨道，而是为了成为协调上述转账的信息传递系统。当发送资金时（通常是通过一个称为MT103的文件，这是一个具有特定格式要求的文本文件），人们通过发送SWIFT消息通知接收机构。当银行实际转移资金时（通常在资金提供给有关客户后才发生），这将通过一个支付系统进行协调。在欧洲的大多数情况下，这就是TARGET2。然而，由于俄罗斯不是欧元区的成员，他们大部分受影响的支付可能会在STEP2支付网络上进行，这是唯一的欧洲范围的支付系统。据我从与我们有重要东欧关系的银行和客户那里了解到的情况，在SWIFT正式禁令宣布之前，俄罗斯已经遇到了支付系统的问题，而俄罗斯中央银行结算的有效关闭已经使设在俄罗斯的机构的国际支付协调陷入困境。",
+  "description_zh-Hant": "作為我的創業公司的職責之一，我在客戶的SWIFT支付方面做了很多工作。我覺得媒體在解釋SWIFT是什麼以及它的具體運作方式方面做得很差。<p>SWIFT的存在不是為了提供資金流動的軌道，而是為了成為協調上述轉賬的信息傳遞系統。當發送資金時（通常是通過一個稱為MT103的文件，這是一個具有特定格式要求的文本文件），人們通過發送SWIFT消息通知接收機構。當銀行實際轉移資金時（通常在資金提供給有關客戶後才發生），這將通過一個支付系統進行協調。在歐洲的大多數情況下，這就是TARGET2。然而，由於俄羅斯不是歐元區的成員，他們大部分受影響的支付可能會在STEP2支付網絡上進行，這是唯一的歐洲範圍的支付系統。據我從與我們有重要東歐關係的銀行和客戶那裡瞭解到的情況，在SWIFT正式禁令宣佈之前，俄羅斯已經遇到了支付系統的問題，而俄羅斯中央銀行結算的有效關閉已經使設在俄羅斯的機構的國際支付協調陷入困境。"
+}
