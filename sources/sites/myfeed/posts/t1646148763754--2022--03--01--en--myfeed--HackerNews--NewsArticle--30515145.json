@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--myfeed--HackerNews--NewsArticle--30515145",
+  "url": "https://news.ycombinator.com/item?id=30515145",
+  "headline": "Covid-19 immunity holds up over time",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nihkolberg",
+    "url": "https://news.ycombinator.com/user?id=nihkolberg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30515145",
+  "sameAs": "https://directorsblog.nih.gov/2022/03/01/how-covid-19-immunity-holds-up-over-time/",
+  "dateCreated": "2022-03-01T15:32:43.754Z",
+  "datePublished": "2022-03-01T15:15:32.000Z",
+  "dateModified": "2022-03-01T15:32:43.754Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Covid-19的免疫力随着时间的推移保持不变",
+  "headline_zh-Hant": "Covid-19的免疫力隨著時間的推移保持不變",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--myfeed--HackerNews--NewsArticle--30515118",
+  "url": "https://news.ycombinator.com/item?id=30515118",
+  "headline": "I went out for dinner and I took some endpoint",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ilpianista",
+    "url": "https://news.ycombinator.com/user?id=ilpianista"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30515118",
+  "sameAs": "https://scarpino.dev/posts/i-went-out-for-dinner-and-i-took-some-endpoint.html",
+  "dateCreated": "2022-03-01T15:32:43.730Z",
+  "datePublished": "2022-03-01T15:13:21.000Z",
+  "dateModified": "2022-03-01T15:32:43.730Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我出去吃饭了，我拿了一些终端产品",
+  "headline_zh-Hant": "我出去吃飯了，我拿了一些終端產品",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
