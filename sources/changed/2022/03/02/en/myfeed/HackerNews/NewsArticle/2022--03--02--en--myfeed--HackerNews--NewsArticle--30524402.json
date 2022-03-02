@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--myfeed--HackerNews--NewsArticle--30524402",
+  "url": "https://news.ycombinator.com/item?id=30524402",
+  "headline": "The next phase of the war has begun: The battle for the cities",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mizzao",
+    "url": "https://news.ycombinator.com/user?id=mizzao"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30524402",
+  "sameAs": "https://www.smh.com.au/world/europe/the-next-phase-of-the-war-has-begun-the-battle-for-the-cities-20220302-p5a11p.html",
+  "dateCreated": "2022-03-02T06:36:43.151Z",
+  "datePublished": "2022-03-02T06:28:24.000Z",
+  "dateModified": "2022-03-02T06:36:43.151Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "战争的下一阶段已经开始。争夺城市的战斗",
+  "headline_zh-Hant": "戰爭的下一階段已經開始。爭奪城市的戰鬥",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
