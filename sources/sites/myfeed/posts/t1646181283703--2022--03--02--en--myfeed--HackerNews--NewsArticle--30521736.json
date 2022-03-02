@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--myfeed--HackerNews--NewsArticle--30521736",
+  "url": "https://news.ycombinator.com/item?id=30521736",
+  "headline": "All Russian developers at my company just got fired",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mudro_zboris",
+    "url": "https://news.ycombinator.com/user?id=mudro_zboris"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30521736",
+  "sameAs": "https://old.reddit.com/r/cscareerquestions/comments/t4e8o6/all_russian_developers_at_my_company_just_got/",
+  "dateCreated": "2022-03-02T00:34:43.703Z",
+  "datePublished": "2022-03-01T23:57:51.000Z",
+  "dateModified": "2022-03-02T00:34:43.703Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "我公司的所有俄罗斯开发人员刚刚被解雇",
+  "headline_zh-Hant": "我公司的所有俄羅斯開發人員剛剛被解僱",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
