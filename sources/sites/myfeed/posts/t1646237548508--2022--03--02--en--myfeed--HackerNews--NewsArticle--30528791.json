@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--myfeed--HackerNews--NewsArticle--30528791",
+  "url": "https://news.ycombinator.com/item?id=30528791",
+  "headline": "Living Consciously",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "thecsw",
+    "url": "https://news.ycombinator.com/user?id=thecsw"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30528791",
+  "sameAs": "https://sandyuraz.com/blogs/living/",
+  "dateCreated": "2022-03-02T16:12:28.508Z",
+  "datePublished": "2022-03-02T16:02:24.000Z",
+  "dateModified": "2022-03-02T16:12:28.508Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "有意识地生活",
+  "headline_zh-Hant": "有意識地生活",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

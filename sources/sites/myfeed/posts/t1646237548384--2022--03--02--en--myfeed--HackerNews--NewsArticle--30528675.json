@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--myfeed--HackerNews--NewsArticle--30528675",
+  "url": "https://news.ycombinator.com/item?id=30528675",
+  "headline": "Ford splits electric cars from gas to operate at ‘startup speed’",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "aboveandbeyond",
+    "url": "https://news.ycombinator.com/user?id=aboveandbeyond"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30528675",
+  "sameAs": "https://www.theverge.com/2022/3/2/22958002/ford-electric-cars-model-e-business-blue-doug-field-evs",
+  "dateCreated": "2022-03-02T16:12:28.384Z",
+  "datePublished": "2022-03-02T15:53:26.000Z",
+  "dateModified": "2022-03-02T16:12:28.384Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "福特将电动汽车与汽油分开，以 \"启动速度 \"运行",
+  "headline_zh-Hant": "福特將電動汽車與汽油分開，以 \"啟動速度 \"運行",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

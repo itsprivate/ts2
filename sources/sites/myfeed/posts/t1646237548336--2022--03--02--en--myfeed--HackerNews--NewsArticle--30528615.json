@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--myfeed--HackerNews--NewsArticle--30528615",
+  "url": "https://news.ycombinator.com/item?id=30528615",
+  "headline": "WebGPU Samples",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pjmlp",
+    "url": "https://news.ycombinator.com/user?id=pjmlp"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30528615",
+  "sameAs": "https://austin-eng.com/webgpu-samples/",
+  "dateCreated": "2022-03-02T16:12:28.336Z",
+  "datePublished": "2022-03-02T15:47:46.000Z",
+  "dateModified": "2022-03-02T16:12:28.336Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "WebGPU样本",
+  "headline_zh-Hant": "WebGPU樣本",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
