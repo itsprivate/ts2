@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--myfeed--HackerNews--NewsArticle--30530273",
+  "url": "https://news.ycombinator.com/item?id=30530273",
+  "headline": "Have You Tried Rubbing a Database on It?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "louis-paul",
+    "url": "https://news.ycombinator.com/user?id=louis-paul"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30530273",
+  "sameAs": "https://www.hytradboi.com/",
+  "dateCreated": "2022-03-02T18:12:00.136Z",
+  "datePublished": "2022-03-02T17:49:17.000Z",
+  "dateModified": "2022-03-02T18:12:00.136Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "你试过用数据库擦拭它吗？",
+  "headline_zh-Hant": "你試過用數據庫擦拭它嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
