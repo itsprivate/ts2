@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--myfeed--HackerNews--NewsArticle--30522007",
+  "url": "https://news.ycombinator.com/item?id=30522007",
+  "headline": "As Tanks Rolled into Ukraine, So Did Malware. Then Microsoft Entered the War",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "renaudg",
+    "url": "https://news.ycombinator.com/user?id=renaudg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30522007",
+  "sameAs": "https://www.nytimes.com/2022/02/28/us/politics/ukraine-russia-microsoft.html",
+  "dateCreated": "2022-03-02T00:34:43.826Z",
+  "datePublished": "2022-03-02T00:30:33.000Z",
+  "dateModified": "2022-03-02T00:34:43.826Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "随着坦克开进乌克兰，恶意软件也开始出现。然后，微软加入了这场战争",
+  "headline_zh-Hant": "隨著坦克開進烏克蘭，惡意軟件也開始出現。然後，微軟加入了這場戰爭",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

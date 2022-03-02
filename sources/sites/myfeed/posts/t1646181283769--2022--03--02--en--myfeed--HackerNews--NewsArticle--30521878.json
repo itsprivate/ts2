@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--myfeed--HackerNews--NewsArticle--30521878",
+  "url": "https://news.ycombinator.com/item?id=30521878",
+  "headline": "Analyzing Your iMessage Usage with SQLite",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "justindeguzman",
+    "url": "https://news.ycombinator.com/user?id=justindeguzman"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30521878",
+  "sameAs": "https://arctype.com/blog/search-imessage/",
+  "dateCreated": "2022-03-02T00:34:43.769Z",
+  "datePublished": "2022-03-02T00:14:09.000Z",
+  "dateModified": "2022-03-02T00:34:43.769Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用SQLite分析你的iMessage使用情况",
+  "headline_zh-Hant": "用SQLite分析你的iMessage使用情況",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
