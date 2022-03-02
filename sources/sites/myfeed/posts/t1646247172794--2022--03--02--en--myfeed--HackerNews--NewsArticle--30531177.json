@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--myfeed--HackerNews--NewsArticle--30531177",
+  "url": "https://news.ycombinator.com/item?id=30531177",
+  "headline": "Yann LeCun's vision to make AI systems learn and reason like animals and humans",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tokyopanda",
+    "url": "https://news.ycombinator.com/user?id=tokyopanda"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30531177",
+  "sameAs": "https://ai.facebook.com/blog/yann-lecun-advances-in-ai-research/",
+  "dateCreated": "2022-03-02T18:52:52.794Z",
+  "datePublished": "2022-03-02T18:50:16.000Z",
+  "dateModified": "2022-03-02T18:52:52.794Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Yann LeCun的愿景是让AI系统像动物和人类一样学习和推理",
+  "headline_zh-Hant": "Yann LeCun的願景是讓AI系統像動物和人類一樣學習和推理",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
