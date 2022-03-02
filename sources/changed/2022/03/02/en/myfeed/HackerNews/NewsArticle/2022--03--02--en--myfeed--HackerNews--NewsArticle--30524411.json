@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--myfeed--HackerNews--NewsArticle--30524411",
+  "url": "https://news.ycombinator.com/item?id=30524411",
+  "headline": "Apache Arrow DataFusion 7.0 released",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "matthewmturner",
+    "url": "https://news.ycombinator.com/user?id=matthewmturner"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30524411",
+  "sameAs": "https://arrow.apache.org/blog/2022/02/28/datafusion-7.0.0/",
+  "dateCreated": "2022-03-02T06:36:43.170Z",
+  "datePublished": "2022-03-02T06:30:25.000Z",
+  "dateModified": "2022-03-02T06:36:43.170Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Apache Arrow DataFusion 7.0发布",
+  "headline_zh-Hant": "Apache Arrow DataFusion 7.0發佈",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
