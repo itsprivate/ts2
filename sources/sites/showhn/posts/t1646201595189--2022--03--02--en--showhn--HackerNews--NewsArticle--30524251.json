@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--03--01--en--myfeed--HackerNews--NewsArticle--30510186",
-  "url": "https://news.ycombinator.com/item?id=30510186",
-  "headline": "At least 524 MB required to continue using WeChat",
+  "identifier": "2022--03--02--en--showhn--HackerNews--NewsArticle--30524251",
+  "url": "https://news.ycombinator.com/item?id=30524251",
+  "headline": "Show HN: A local file search tool written in rust",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,17 +10,20 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "Razengan",
-    "url": "https://news.ycombinator.com/user?id=Razengan"
+    "name": "jeffhong",
+    "url": "https://news.ycombinator.com/user?id=jeffhong"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30510186",
-  "sameAs": "https://i.imgur.com/RaYbJQx.jpg",
-  "dateCreated": "2022-03-01T06:12:18.363Z",
-  "datePublished": "2022-03-01T05:56:00.000Z",
-  "dateModified": "2022-03-01T06:12:18.363Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30524251",
+  "sameAs": "https://github.com/naaive/orange",
+  "dateCreated": "2022-03-02T06:13:15.189Z",
+  "datePublished": "2022-03-02T05:57:48.000Z",
+  "dateModified": "2022-03-02T06:13:15.189Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
@@ -34,11 +37,11 @@
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 1
+      "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "至少需要524MB才能继续使用微信",
-  "headline_zh-Hant": "至少需要524MB才能繼續使用微信",
+  "headline_zh-Hans": "Show HN: 一个用rust编写的本地文件搜索工具",
+  "headline_zh-Hant": "Show HN: 一個用rust編寫的本地文件搜索工具",
   "@context": [
     "https://schema.org",
     {
