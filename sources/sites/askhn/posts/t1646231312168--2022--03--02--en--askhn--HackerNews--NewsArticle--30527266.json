@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--askhn--HackerNews--NewsArticle--30527266",
+  "url": "https://news.ycombinator.com/item?id=30527266",
+  "headline": "Ask HN: What front end framework do you recommend?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I wouldn't call myself a frontend dev, but I do have experience with ReactJS, Svelte and also server side templating languages like Jinja.<p>I haven't done much frontend work in a while and I am wondering what the landscape looks like now. What do people here like working with?<p>This is regarding building highly interactive web apps.<p>---<p>I used ReactJS before the introduction of hooks. I found it quite nice, though I am sure I wrote some terrible code. I found Redux a bit cumbersome to use and very lengthy to write out the whole process, even if you just wanted to update the state of a button.<p>I will reiterate that a lot of my time with React+Redux I was asking myself: &quot;Surely there is a better way to do this, I must be doing this wrong&quot;.<p>Svelte felt... lighter, simpler. But maybe in some ways too simple. I found the lack of a router a bit odd and was a bit confused about the stage of the project, which didn't encourage me to keep using it.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "petargyurov",
+    "url": "https://news.ycombinator.com/user?id=petargyurov"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30527266",
+  "sameAs": "https://news.ycombinator.com/item?id=30527266",
+  "dateCreated": "2022-03-02T14:28:32.168Z",
+  "datePublished": "2022-03-02T13:49:17.000Z",
+  "dateModified": "2022-03-02T14:28:32.168Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你推荐什么前端框架？",
+  "headline_zh-Hant": "Ask HN: 你推薦什麼前端框架？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我不会称自己为前端开发，但我确实有ReactJS、Svelte和Jinja等服务器端模板语言的经验。<p>我有一段时间没有做过很多前端工作，我想知道现在的情况是怎样的。这里的人喜欢用什么工作？<p>这是关于构建高度互动的Web应用程序。我发现它相当不错，尽管我确信我写了一些糟糕的代码。我发现Redux使用起来有点麻烦，而且写出整个过程非常冗长，即使你只是想更新一个按钮的状态。<p>我将重申，在使用React+Redux的很多时候，我都在问自己：&quot;肯定有更好的方法来做这个，我一定是做错了&quot;。但也许在某些方面过于简单。我发现没有路由器有点奇怪，而且对项目的阶段感到有点困惑，这并不鼓励我继续使用它。",
+  "description_zh-Hant": "我不會稱自己為前端開發，但我確實有ReactJS、Svelte和Jinja等服務器端模板語言的經驗。<p>我有一段時間沒有做過很多前端工作，我想知道現在的情況是怎樣的。這裡的人喜歡用什麼工作？<p>這是關於構建高度互動的Web應用程序。我發現它相當不錯，儘管我確信我寫了一些糟糕的代碼。我發現Redux使用起來有點麻煩，而且寫出整個過程非常冗長，即使你只是想更新一個按鈕的狀態。<p>我將重申，在使用React+Redux的很多時候，我都在問自己：&quot;肯定有更好的方法來做這個，我一定是做錯了&quot;。但也許在某些方面過於簡單。我發現沒有路由器有點奇怪，而且對項目的階段感到有點困惑，這並不鼓勵我繼續使用它。"
+}
