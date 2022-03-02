@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--myfeed--HackerNews--NewsArticle--30522151",
+  "url": "https://news.ycombinator.com/item?id=30522151",
+  "headline": "Wire Bonding Basics",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "teleforce",
+    "url": "https://news.ycombinator.com/user?id=teleforce"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30522151",
+  "sameAs": "https://www.youtube.com/watch?v=mvZ1dJuvenw",
+  "dateCreated": "2022-03-02T02:02:10.143Z",
+  "datePublished": "2022-03-02T00:47:18.000Z",
+  "dateModified": "2022-03-02T02:02:10.143Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "接线基础知识",
+  "headline_zh-Hant": "接線基礎知識",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

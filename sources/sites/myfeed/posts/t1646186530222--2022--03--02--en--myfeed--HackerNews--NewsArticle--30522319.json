@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--myfeed--HackerNews--NewsArticle--30522319",
+  "url": "https://news.ycombinator.com/item?id=30522319",
+  "headline": "Instagram makes encrypted direct messaging available in Ukraine and Russia",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mudro_zboris",
+    "url": "https://news.ycombinator.com/user?id=mudro_zboris"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30522319",
+  "sameAs": "https://techcrunch.com/2022/03/01/instagram-rolls-out-encrypted-direct-messaging-in-ukraine-and-russia/",
+  "dateCreated": "2022-03-02T02:02:10.222Z",
+  "datePublished": "2022-03-02T01:03:45.000Z",
+  "dateModified": "2022-03-02T02:02:10.222Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Instagram在乌克兰和俄罗斯提供加密的直接信息服务",
+  "headline_zh-Hant": "Instagram在烏克蘭和俄羅斯提供加密的直接信息服務",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
