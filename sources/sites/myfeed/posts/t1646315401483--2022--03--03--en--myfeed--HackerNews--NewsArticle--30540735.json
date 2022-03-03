@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30540735",
+  "url": "https://news.ycombinator.com/item?id=30540735",
+  "headline": "Launch HN: Requestly (YC W22) – Network debugging proxy for web and mobile",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN, My name is Sachin - I’m the founder of Requestly (<a href=\"https://requestly.io\" rel=\"nofollow\">https://requestly.io</a>) and I’m very happy to be here and get feedback from you all. Requestly is software that lets you intercept network requests, modify, and debug them. We’re available as a browser extension as well as a desktop app and Requestly is useful whether you are a web developer, backend developer, or mobile developer.<p>When developers work with APIs on their local machine, current experience is very broken—be it web development, mobile, or backend. Requestly saves you time by letting you test your APIs faster without deployment on staging. Requestly also lets you simulate different failover and edge case scenarios which are hard to simulate without code changes.<p>Back in 2014, I was working on Adobe Target and I had a customer issue where the delivered campaign was showing FOUC (Flash of Unstyled Content) on the customer’s website and It was intermittent. It was so hard to debug with the minified production version of the script, so I built a tool to perform a simple redirect of production JS to my locally running JS. I was then able to do logging in different methods and was able to pinpoint the exact issue and where I could optimize. My team and I debugged a lot of customer issues using this tool, which eventually became Requestly.<p>I just loved working on Requestly so I kept maintaining the project over weekends and supporting users. It started to gain traction organically and today it serves more than 40K monthly active users. \nIn a later job at Blinkit (10min delivery platform in India), I saw how mobile app debugging is hard, and similar problems exist in backend development. I did a bit of both there and decided to work on Requestly full time to solve these problems.<p>You might have used solutions like Charles Proxy earlier! Charles is good and I am myself a huge fan, but when it comes to modification capabilities—setting up redirects or mocking API responses—it requires a lot of work. Collaboration is missing, data extraction and offline history are missing. It’d be fair to say that we are building a better alternative to Charles Proxy. We are also simplifying mobile app debugging by building a native SDK that anyone can connect to our Web.<p>Many users also confuse us with Postman. I’d also clarify this as Postman is an API development platform, while Requestly is an API debugging and testing platform. For Example - As a frontend engineer at Uber, I’d like to test how my app would react if the driver allocation API doesn’t respond on time - will there be an automatic retry, or does the app crash?<p>Requestly intercepts your local network traffic and provides capabilities like Mocking API Response, Simulate HTTP(s) Status Codes, Switching API endpoints, Redirect Production Traffic (or selective API) to stage/local environment, Inject scripts on web pages, and much more.\nRequestly is available as a browser extension on Chromium and Firefox, as well as a desktop app on MacOS, Windows, and Linux systems. You can download it at <a href=\"https://requestly.io/downloads\" rel=\"nofollow\">https://requestly.io/downloads</a>\nWe have a freemium model. The free plan has almost every feature but is limited to 3 modification rules. Our pricing is at <a href=\"https://app.requestly.io/pricing\" rel=\"nofollow\">https://app.requestly.io/pricing</a>.<p>We are now building an open-source Android SDK that lets developers view their API traffic (and analytics events) on the web. This is in testing and planning to roll out very soon. This can be used by non-developers as well. Folks like product managers or digital marketers will be able to validate the analytics instrumentation easily.\nIn fact, tools like this are required not only in development environments but also in production environments to debug distributed transactions. We are not there yet but we have plans to solve that problem too. One foot at a time :)<p>I’d love to hear your thoughts on the product experience. What specific challenges do you face while developing and testing your code changes? Do you ever have to make changes in your codebase to simulate a scenario? I’d like to discuss &amp; brainstorm potential use-cases that can be solved with Requestly. I’ll do my best to answer in the comments.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sachinjain",
+    "url": "https://news.ycombinator.com/user?id=sachinjain"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30540735",
+  "sameAs": "https://news.ycombinator.com/item?id=30540735",
+  "dateCreated": "2022-03-03T13:50:01.483Z",
+  "datePublished": "2022-03-03T13:33:28.000Z",
+  "dateModified": "2022-03-03T13:50:01.483Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "启动HN：Requestly (YC W22) - 网络和移动的网络调试代理",
+  "headline_zh-Hant": "啟動HN：Requestly (YC W22) - 網絡和移動的網絡調試代理",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN，我叫Sachin--我是Requestly（<a href=\"https://requestly.io\" rel=\"nofollow\">https://requestly.io</a>）的创始人，我非常高兴能在这里得到大家的反馈。Requestly是一款让你拦截网络请求、修改和调试它们的软件。我们提供了浏览器扩展以及桌面应用程序，无论您是网络开发人员、后端开发人员还是移动开发人员，Requestly都非常有用。<p>当开发人员在其本地机器上使用API时，当前的体验非常破碎，无论是网络开发、移动还是后端。Requestly让你更快地测试你的API，而无需在暂存器上部署，从而节省了你的时间。<p>早在2014年，我正在为Adobe Target工作，我遇到了一个客户问题，即交付的活动在客户的网站上显示FOUC（Flash of Unstyled Content），而且是间歇性的。这很难用脚本的最小化生产版本进行调试，所以我建立了一个工具来执行一个简单的生产JS重定向到我的本地运行JS。然后，我能够用不同的方法进行记录，并能够准确地指出问题所在，以及我可以在哪里进行优化。我和我的团队使用这个工具调试了很多客户的问题，最终成为了Requestly。<p>我只是喜欢在Requestly上工作，所以我一直在周末维护这个项目并支持用户。它开始获得有机的牵引力，如今它为超过4万名月活跃用户提供服务。\n在后来的Blinkit（印度的10min递送平台）工作中，我看到了移动应用的调试是多么困难，而后端开发也存在类似的问题。我在那里做了一些工作，并决定全职在Requestly工作，以解决这些问题。<p>你可能在早些时候使用过像Charles Proxy这样的解决方案! Charles很好，我自己也是他的忠实粉丝，但是当涉及到修改功能--设置重定向或模拟API响应--它需要大量的工作。协作是缺失的，数据提取和离线历史是缺失的。可以说，我们正在建立一个更好的Charles Proxy的替代品。我们也在通过建立一个任何人都可以连接到我们的Web.<p>许多用户也将我们与Postman混淆。我也要澄清一下，Postman是一个API开发平台，而Requestly是一个API调试和测试平台。例如--作为Uber的前端工程师，我想测试一下，如果司机分配API没有及时响应，我的应用会有什么反应--会不会有自动重试，或者应用崩溃？<p>Requestly拦截你的本地网络流量，并提供诸如模拟API响应、模拟HTTP（s）状态代码、切换API端点、将生产流量（或选择性API）重定向到阶段/本地环境、在网页中注入脚本等功能。\nRequestly可作为Chromium和Firefox的浏览器扩展，以及MacOS、Windows和Linux系统的桌面应用程序。You can download it at <a href=\"https://requestly.io/downloads\" rel=\"nofollow\">https://requestly.io/downloads</a>\nWe have a freemium model. The free plan has almost every feature but is limited to 3 modification rules. 我们的定价是<a href=\"https://app.requestly.io/pricing\" rel=\"nofollow\">https://app.requestly.io/pricing</a>。<p>我们现在正在构建一个开源的 Android SDK，使开发人员能够在网络上查看其 API 流量（和分析事件）。这正在测试中，并计划很快就会推出。非开发人员也可以使用这一功能。像产品经理或数字营销人员将能够轻松地验证分析仪器。\n事实上，像这样的工具不仅在开发环境中需要，在生产环境中也需要，以调试分布式事务。我们还没有做到这一点，但我们也有计划来解决这个问题。一次一个脚印:)<p>我很想听听你对产品体验的看法。在开发和测试你的代码变化时，你会面临哪些具体的挑战？你是否曾经不得不在你的代码库中进行修改以模拟某个场景？我想讨论&amp；集思广益，用Requestly来解决潜在的用例。我将在评论中尽力回答。",
+  "description_zh-Hant": "嗨，HN，我叫Sachin--我是Requestly（<a href=\"https://requestly.io\" rel=\"nofollow\">https://requestly.io</a>）的創始人，我非常高興能在這裡得到大家的反饋。Requestly是一款讓你攔截網絡請求、修改和調試它們的軟件。我們提供了瀏覽器擴展以及桌面應用程序，無論您是網絡開發人員、後端開發人員還是移動開發人員，Requestly都非常有用。<p>當開發人員在其本地機器上使用API時，當前的體驗非常破碎，無論是網絡開發、移動還是後端。Requestly讓你更快地測試你的API，而無需在暫存器上部署，從而節省了你的時間。<p>早在2014年，我正在為Adobe Target工作，我遇到了一個客戶問題，即交付的活動在客戶的網站上顯示FOUC（Flash of Unstyled Content），而且是間歇性的。這很難用腳本的最小化生產版本進行調試，所以我建立了一個工具來執行一個簡單的生產JS重定向到我的本地運行JS。然後，我能夠用不同的方法進行記錄，並能夠準確地指出問題所在，以及我可以在哪裡進行優化。我和我的團隊使用這個工具調試了很多客戶的問題，最終成為了Requestly。<p>我只是喜歡在Requestly上工作，所以我一直在週末維護這個項目並支持用戶。它開始獲得有機的牽引力，如今它為超過4萬名月活躍用戶提供服務。\n在後來的Blinkit（印度的10min遞送平臺）工作中，我看到了移動應用的調試是多麼困難，而後端開發也存在類似的問題。我在那裡做了一些工作，並決定全職在Requestly工作，以解決這些問題。<p>你可能在早些時候使用過像Charles Proxy這樣的解決方案! Charles很好，我自己也是他的忠實粉絲，但是當涉及到修改功能--設置重定向或模擬API響應--它需要大量的工作。協作是缺失的，數據提取和離線歷史是缺失的。可以說，我們正在建立一個更好的Charles Proxy的替代品。我們也在通過建立一個任何人都可以連接到我們的Web.<p>許多用戶也將我們與Postman混淆。我也要澄清一下，Postman是一個API開發平臺，而Requestly是一個API調試和測試平臺。例如--作為Uber的前端工程師，我想測試一下，如果司機分配API沒有及時響應，我的應用會有什麼反應--會不會有自動重試，或者應用崩潰？<p>Requestly攔截你的本地網絡流量，並提供諸如模擬API響應、模擬HTTP（s）狀態代碼、切換API端點、將生產流量（或選擇性API）重定向到階段/本地環境、在網頁中注入腳本等功能。\nRequestly可作為Chromium和Firefox的瀏覽器擴展，以及MacOS、Windows和Linux系統的桌面應用程序。You can download it at <a href=\"https://requestly.io/downloads\" rel=\"nofollow\">https://requestly.io/downloads</a>\nWe have a freemium model. The free plan has almost every feature but is limited to 3 modification rules. 我們的定價是<a href=\"https://app.requestly.io/pricing\" rel=\"nofollow\">https://app.requestly.io/pricing</a>。<p>我們現在正在構建一個開源的 Android SDK，使開發人員能夠在網絡上查看其 API 流量（和分析事件）。這正在測試中，並計劃很快就會推出。非開發人員也可以使用這一功能。像產品經理或數字營銷人員將能夠輕鬆地驗證分析儀器。\n事實上，像這樣的工具不僅在開發環境中需要，在生產環境中也需要，以調試分佈式事務。我們還沒有做到這一點，但我們也有計劃來解決這個問題。一次一個腳印:)<p>我很想聽聽你對產品體驗的看法。在開發和測試你的代碼變化時，你會面臨哪些具體的挑戰？你是否曾經不得不在你的代碼庫中進行修改以模擬某個場景？我想討論&amp；集思廣益，用Requestly來解決潛在的用例。我將在評論中盡力回答。"
+}
