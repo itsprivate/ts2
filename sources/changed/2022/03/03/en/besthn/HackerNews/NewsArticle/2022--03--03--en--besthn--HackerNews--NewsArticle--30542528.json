@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--besthn--HackerNews--NewsArticle--30542528",
+  "url": "https://news.ycombinator.com/item?id=30542528",
+  "headline": "It's now your fault they don't know about it",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "zdw",
+    "url": "https://news.ycombinator.com/user?id=zdw"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30542528",
+  "sameAs": "http://rachelbythebay.com/w/2022/03/02/wrong/",
+  "dateCreated": "2022-03-03T21:49:59.663Z",
+  "datePublished": "2022-03-03T15:51:46.000Z",
+  "dateModified": "2022-03-03T21:49:59.663Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 253
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 224
+    }
+  ],
+  "headline_zh-Hans": "现在是你的错，他们不知道这件事",
+  "headline_zh-Hant": "現在是你的錯，他們不知道這件事",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
