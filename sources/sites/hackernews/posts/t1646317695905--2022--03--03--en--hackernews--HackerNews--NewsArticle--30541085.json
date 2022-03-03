@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--hackernews--HackerNews--NewsArticle--30541085",
+  "url": "https://news.ycombinator.com/item?id=30541085",
+  "headline": "AWS just changed my default currency?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "AWS suddenly changed all of my aws accounts (I manage several) from USD to CAD. This change was made without any warning.<p>I receved my usual monthly email: &quot;Amazon Web Services Billing Statement Available / Relevé de facture Amazon Web Services disponible&quot;, which indicated that the payment would be processed in CAD, with an asteriks indicating: &quot;* You have asked for this invoice to be processed in CAD. For more information visit https://aws.amazon.com/billing/faqs/#payment_currency&quot;<p>When I log into my AWS account to change my default current back to USD, I am not able to. My only payment option in the dropdown list is CAD.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "brody_hamer",
+    "url": "https://news.ycombinator.com/user?id=brody_hamer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30541085",
+  "sameAs": "https://news.ycombinator.com/item?id=30541085",
+  "dateCreated": "2022-03-03T14:28:15.905Z",
+  "datePublished": "2022-03-03T14:00:35.000Z",
+  "dateModified": "2022-03-03T14:28:15.905Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "AWS刚刚改变了我的默认货币？",
+  "headline_zh-Hant": "AWS剛剛改變了我的默認貨幣？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "AWS突然将我所有的AWS账户（我管理着几个账户）从美元改为加元。<p>我收到了我通常的每月电子邮件：&quot;Amazon Web Services Billing Statement Available / Relevé de facture Amazon Web Services disponible&quot;，这表明付款将以加元处理，并有一个asteriks表明：&quot;* 您要求以加元处理此发票。欲了解更多信息，请访问https://aws.amazon.com/billing/faqs/#payment_currency&quot;<p>当我登录我的AWS帐户，将我的默认电流改回美元时，我无法做到。我在下拉列表中的唯一付款选项是加元。",
+  "description_zh-Hant": "AWS突然將我所有的AWS賬戶（我管理著幾個賬戶）從美元改為加元。<p>我收到了我通常的每月電子郵件：&quot;Amazon Web Services Billing Statement Available / Relevé de facture Amazon Web Services disponible&quot;，這表明付款將以加元處理，並有一個asteriks表明：&quot;* 您要求以加元處理此發票。欲瞭解更多信息，請訪問https://aws.amazon.com/billing/faqs/#payment_currency&quot;<p>當我登錄我的AWS帳戶，將我的默認電流改回美元時，我無法做到。我在下拉列表中的唯一付款選項是加元。"
+}
