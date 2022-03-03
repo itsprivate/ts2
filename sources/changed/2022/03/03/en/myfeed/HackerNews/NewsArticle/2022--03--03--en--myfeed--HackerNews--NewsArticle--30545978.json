@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30545978",
+  "url": "https://news.ycombinator.com/item?id=30545978",
+  "headline": "RT turns to Peter Thiel's Rumble after Big Tech companies block the network",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "archagon",
+    "url": "https://news.ycombinator.com/user?id=archagon"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30545978",
+  "sameAs": "https://www.nytimes.com/live/2022/03/03/world/russia-ukraine",
+  "dateCreated": "2022-03-03T20:10:58.712Z",
+  "datePublished": "2022-03-03T19:57:00.000Z",
+  "dateModified": "2022-03-03T20:10:58.712Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "大科技公司封锁网络后，RT转向彼得-泰尔的Rumble公司",
+  "headline_zh-Hant": "大科技公司封鎖網絡後，RT轉向彼得-泰爾的Rumble公司",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
