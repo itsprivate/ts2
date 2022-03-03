@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30542613",
+  "url": "https://news.ycombinator.com/item?id=30542613",
+  "headline": "Summari – Free Text Summary Tool That Helps You Read More",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Secrethus",
+    "url": "https://news.ycombinator.com/user?id=Secrethus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30542613",
+  "sameAs": "https://www.summari.com/",
+  "dateCreated": "2022-03-03T16:12:29.307Z",
+  "datePublished": "2022-03-03T15:56:56.000Z",
+  "dateModified": "2022-03-03T16:12:29.307Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Summari - 免费的文本摘要工具，帮助你阅读更多内容",
+  "headline_zh-Hant": "Summari - 免費的文本摘要工具，幫助你閱讀更多內容",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

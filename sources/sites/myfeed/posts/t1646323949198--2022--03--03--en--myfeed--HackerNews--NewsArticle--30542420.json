@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30542420",
+  "url": "https://news.ycombinator.com/item?id=30542420",
+  "headline": "Conversational Agents: Theory and Applications",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sebg",
+    "url": "https://news.ycombinator.com/user?id=sebg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30542420",
+  "sameAs": "https://arxiv.org/abs/2202.03164",
+  "dateCreated": "2022-03-03T16:12:29.198Z",
+  "datePublished": "2022-03-03T15:44:13.000Z",
+  "dateModified": "2022-03-03T16:12:29.198Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "对话性代理。理论与应用",
+  "headline_zh-Hant": "對話性代理。理論與應用",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
