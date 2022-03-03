@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--askhn--HackerNews--NewsArticle--30542887",
+  "url": "https://news.ycombinator.com/item?id=30542887",
+  "headline": "Is GCP harder to use than AWS?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I’m a dev with 10 years of experience, I’ve mostly used aws services in the past so I kind of understand their authentication models pretty well. I feel like they did the customer centric thing and really dumbed them down. They’re just pretty straightforward to use.<p>Permissions in GCP seem like a mess, I’m trying to use python to get credentials and there is a whole python library for authentication and getting credentials (google-auth).<p>There’s also not a uniform page for every service where I can go understand authentication/permissions.<p>They do have a ton of docs, but it’s kind like a document dump.<p>Sorry for the rant! I want to know if it’s just me and whether I’m missing something!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "hopefullywrong",
+    "url": "https://news.ycombinator.com/user?id=hopefullywrong"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30542887",
+  "sameAs": "https://news.ycombinator.com/item?id=30542887",
+  "dateCreated": "2022-03-03T16:46:14.110Z",
+  "datePublished": "2022-03-03T16:15:21.000Z",
+  "dateModified": "2022-03-03T16:46:14.110Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ]
+}
