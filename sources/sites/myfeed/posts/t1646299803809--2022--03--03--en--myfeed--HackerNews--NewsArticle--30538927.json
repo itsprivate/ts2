@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--03--02--en--myfeed--HackerNews--NewsArticle--30525390",
-  "url": "https://news.ycombinator.com/item?id=30525390",
-  "headline": "Read Xkcd in the terminal with some bash magic",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30538927",
+  "url": "https://news.ycombinator.com/item?id=30538927",
+  "headline": "Show HN: Turn your Wordle score into music",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,17 +10,20 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "Liriel",
-    "url": "https://news.ycombinator.com/user?id=Liriel"
+    "name": "riskycodes",
+    "url": "https://news.ycombinator.com/user?id=riskycodes"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30525390",
-  "sameAs": "https://www.roboleary.net/2022/02/24/xkcd-in-the-terminal-with-some-bash-magic.html",
-  "dateCreated": "2022-03-02T09:29:19.413Z",
-  "datePublished": "2022-03-02T09:13:20.000Z",
-  "dateModified": "2022-03-02T09:29:19.413Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30538927",
+  "sameAs": "https://wordle-to-music.herokuapp.com/",
+  "dateCreated": "2022-03-03T09:30:03.809Z",
+  "datePublished": "2022-03-03T09:21:57.000Z",
+  "dateModified": "2022-03-03T09:30:03.809Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
@@ -34,11 +37,11 @@
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "用一些bash魔法在终端阅读Xkcd",
-  "headline_zh-Hant": "用一些bash魔法在終端閱讀Xkcd",
+  "headline_zh-Hans": "Show HN: 把你的Wordle分数变成音乐",
+  "headline_zh-Hant": "Show HN: 把你的Wordle分數變成音樂",
   "@context": [
     "https://schema.org",
     {
