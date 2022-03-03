@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30545383",
+  "url": "https://news.ycombinator.com/item?id=30545383",
+  "headline": "Honest UX Design Portfolio",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rock_artist",
+    "url": "https://news.ycombinator.com/user?id=rock_artist"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30545383",
+  "sameAs": "https://honest-ux-design-portfolio.webflow.io/",
+  "dateCreated": "2022-03-03T19:24:41.301Z",
+  "datePublished": "2022-03-03T19:15:15.000Z",
+  "dateModified": "2022-03-03T19:24:41.301Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "诚实的用户体验设计组合",
+  "headline_zh-Hant": "誠實的用戶體驗設計組合",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

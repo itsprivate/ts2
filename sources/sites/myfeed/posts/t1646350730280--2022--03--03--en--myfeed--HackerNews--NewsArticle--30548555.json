@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30548555",
+  "url": "https://news.ycombinator.com/item?id=30548555",
+  "headline": "Heat pumps can help fight global warming",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jseliger",
+    "url": "https://news.ycombinator.com/user?id=jseliger"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30548555",
+  "sameAs": "https://www.popsci.com/story/environment/heat-pumps-emissions-climate-change/",
+  "dateCreated": "2022-03-03T23:38:50.280Z",
+  "datePublished": "2022-03-03T23:33:07.000Z",
+  "dateModified": "2022-03-03T23:38:50.280Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "热泵可以帮助对抗全球变暖",
+  "headline_zh-Hant": "熱泵可以幫助對抗全球變暖",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

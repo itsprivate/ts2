@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30547037",
+  "url": "https://news.ycombinator.com/item?id=30547037",
+  "headline": "Developer tooling must spark joy",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vaghetti",
+    "url": "https://news.ycombinator.com/user?id=vaghetti"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30547037",
+  "sameAs": "https://vaghetti.dev/posts/joy/",
+  "dateCreated": "2022-03-03T21:27:52.371Z",
+  "datePublished": "2022-03-03T21:10:00.000Z",
+  "dateModified": "2022-03-03T21:27:52.371Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "开发者的工具必须引发快乐",
+  "headline_zh-Hant": "開發者的工具必須引發快樂",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

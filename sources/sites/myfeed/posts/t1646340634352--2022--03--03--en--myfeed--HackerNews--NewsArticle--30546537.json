@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30546537",
+  "url": "https://news.ycombinator.com/item?id=30546537",
+  "headline": "Organisations are unprepared to defend against ransomware that exfiltrates data",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "taubek",
+    "url": "https://news.ycombinator.com/user?id=taubek"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30546537",
+  "sameAs": "https://www.computerweekly.com/news/252513735/Backups-no-longer-effective-for-stopping-ransomware-attacks",
+  "dateCreated": "2022-03-03T20:50:34.352Z",
+  "datePublished": "2022-03-03T20:31:43.000Z",
+  "dateModified": "2022-03-03T20:50:34.352Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "组织没有准备好抵御渗出数据的勒索软件",
+  "headline_zh-Hant": "組織沒有準備好抵禦滲出數據的勒索軟件",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

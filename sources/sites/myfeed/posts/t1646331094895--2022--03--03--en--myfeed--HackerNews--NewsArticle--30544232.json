@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30544232",
+  "url": "https://news.ycombinator.com/item?id=30544232",
+  "headline": "Russia Blocks Its Last Independent Television Channel",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mudro_zboris",
+    "url": "https://news.ycombinator.com/user?id=mudro_zboris"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30544232",
+  "sameAs": "https://www.newyorker.com/news/dispatch/russia-blocks-its-last-independent-television-channel",
+  "dateCreated": "2022-03-03T18:11:34.895Z",
+  "datePublished": "2022-03-03T17:52:59.000Z",
+  "dateModified": "2022-03-03T18:11:34.895Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "俄罗斯封锁其最后一个独立电视频道",
+  "headline_zh-Hant": "俄羅斯封鎖其最後一個獨立電視頻道",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
