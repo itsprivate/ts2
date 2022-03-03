@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30542995",
+  "url": "https://news.ycombinator.com/item?id=30542995",
+  "headline": "Creating the new open-source standard to deploy ML models",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN,<p>We've just released the first open-source version of our model serving tool Inferrd. Our goal is making model deployment a breeze with:<p>•Maintenance-free environments. Just drag and drop your models, and get an API.<p>•Your data staying in your cloud. Have full control over where you send your data, and how it's processed.<p>•No more security compliance process to go through as Inferrd is self-hosted.<p>•No more pricing indexed on volume, as cloud-based solutions offer.<p>You can host Inferrd on your own cloud at github.com/inferrd or check out our managed version at Inferrd.com<p>This is the first version supporting SciKit, TensorFlow and ONNX. We're super eager for feedback to improve it and start serving more framework with more advanced features !",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "LucasLanglois",
+    "url": "https://news.ycombinator.com/user?id=LucasLanglois"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30542995",
+  "sameAs": "https://news.ycombinator.com/item?id=30542995",
+  "dateCreated": "2022-03-03T16:46:15.145Z",
+  "datePublished": "2022-03-03T16:24:04.000Z",
+  "dateModified": "2022-03-03T16:46:15.145Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "创建新的开源标准来部署ML模型",
+  "headline_zh-Hant": "創建新的開源標準來部署ML模型",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi HN,<p>我们刚刚发布了我们的模型服务工具Inferrd的第一个开源版本。我们的目标是使模型部署变得轻而易举：<p>-免维护环境。只需拖放你的模型，并获得一个API。<p>-你的数据留在你的云中。你可以完全控制你的数据发送到哪里，以及它是如何被处理的。<p>-没有更多的安全合规过程，因为Inferrd是自我托管的。<p>-没有更多的定价指数，基于云的解决方案提供。<p>你可以在你自己的云上托管Inferrd在github.com/inferrd或检查我们的管理版本在Inferrd.com<p>这是第一个版本支持SciKit，TensorFlow和ONNX。我们超级渴望得到反馈，以改善它，并开始为更多的框架提供更多的高级功能",
+  "description_zh-Hant": "Hi HN,<p>我們剛剛發佈了我們的模型服務工具Inferrd的第一個開源版本。我們的目標是使模型部署變得輕而易舉：<p>-免維護環境。只需拖放你的模型，並獲得一個API。<p>-你的數據留在你的雲中。你可以完全控制你的數據發送到哪裡，以及它是如何被處理的。<p>-沒有更多的安全合規過程，因為Inferrd是自我託管的。<p>-沒有更多的定價指數，基於雲的解決方案提供。<p>你可以在你自己的雲上託管Inferrd在github.com/inferrd或檢查我們的管理版本在Inferrd.com<p>這是第一個版本支持SciKit，TensorFlow和ONNX。我們超級渴望得到反饋，以改善它，並開始為更多的框架提供更多的高級功能"
+}
