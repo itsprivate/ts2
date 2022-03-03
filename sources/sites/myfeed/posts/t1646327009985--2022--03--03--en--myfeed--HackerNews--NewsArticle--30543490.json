@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30543490",
+  "url": "https://news.ycombinator.com/item?id=30543490",
+  "headline": "Cyberpunk publisher CD Projekt halts sales to Russia over Ukraine invasion",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "aaronbrethorst",
+    "url": "https://news.ycombinator.com/user?id=aaronbrethorst"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30543490",
+  "sameAs": "https://www.polygon.com/22959775/cyberpunk-2077-ukraine-cd-projekt-stops-sales-russia-belarus",
+  "dateCreated": "2022-03-03T17:03:29.985Z",
+  "datePublished": "2022-03-03T16:57:14.000Z",
+  "dateModified": "2022-03-03T17:03:29.985Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "赛博朋克出版商CD Projekt因乌克兰入侵停止对俄罗斯的销售",
+  "headline_zh-Hant": "賽博朋克出版商CD Projekt因烏克蘭入侵停止對俄羅斯的銷售",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
