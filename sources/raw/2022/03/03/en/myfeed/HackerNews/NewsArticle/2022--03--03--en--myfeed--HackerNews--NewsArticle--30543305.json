@@ -1,0 +1,40 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30543305",
+  "url": "https://news.ycombinator.com/item?id=30543305",
+  "headline": "Who prefers box or underscore as a cursor option?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "This morning I was configuring an app and it gave me three options for cursor styles: box, underscore and vertical bar.<p>The vertical bar has always made sense with me—it lives in-between letters, for example: when I see &quot;test|ing&quot; I know that my cursor is in-between the final &quot;t,&quot; but before &quot;i.&quot; If I type &quot;X&quot; I'll get: &quot;testXing.&quot;<p>By contrast, in this app the box cursor is like this: &quot;test[i]ng&quot; and if I type &quot;X,&quot; it's not obvious to me that I'll get &quot;testXing&quot; instead of &quot;testiXng.&quot;<p>I get that this is a matter of preference, but I'm curious to know why underscore and box would be preferable to vertical bar.<p>---<p>Here's images of the same cursor placement, but different styles:<p>- Example of vertical bar: https://user-images.githubusercontent.com/24446573/156610316-47df7923-744a-4b14-a23a-ddbac873ba59.png<p>- Example of underscore: https://user-images.githubusercontent.com/24446573/156610217-120f96f8-2f82-4577-8a02-67458d663841.png<p>- Example of box: https://user-images.githubusercontent.com/24446573/156609948-4f814ef6-9a30-4cfe-9db7-1ddbe75ec051.png",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "adnauseum",
+    "url": "https://news.ycombinator.com/user?id=adnauseum"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30543305",
+  "sameAs": "https://news.ycombinator.com/item?id=30543305",
+  "dateCreated": "2022-03-03T16:46:15.283Z",
+  "datePublished": "2022-03-03T16:43:05.000Z",
+  "dateModified": "2022-03-03T16:46:15.283Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}

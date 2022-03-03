@@ -1,0 +1,40 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30542995",
+  "url": "https://news.ycombinator.com/item?id=30542995",
+  "headline": "Creating the new open-source standard to deploy ML models",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN,<p>We've just released the first open-source version of our model serving tool Inferrd. Our goal is making model deployment a breeze with:<p>•Maintenance-free environments. Just drag and drop your models, and get an API.<p>•Your data staying in your cloud. Have full control over where you send your data, and how it's processed.<p>•No more security compliance process to go through as Inferrd is self-hosted.<p>•No more pricing indexed on volume, as cloud-based solutions offer.<p>You can host Inferrd on your own cloud at github.com/inferrd or check out our managed version at Inferrd.com<p>This is the first version supporting SciKit, TensorFlow and ONNX. We're super eager for feedback to improve it and start serving more framework with more advanced features !",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "LucasLanglois",
+    "url": "https://news.ycombinator.com/user?id=LucasLanglois"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30542995",
+  "sameAs": "https://news.ycombinator.com/item?id=30542995",
+  "dateCreated": "2022-03-03T16:46:15.145Z",
+  "datePublished": "2022-03-03T16:24:04.000Z",
+  "dateModified": "2022-03-03T16:46:15.145Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
