@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30542681",
+  "url": "https://news.ycombinator.com/item?id=30542681",
+  "headline": "Lightweight Alternative Frontent for Reuters",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lsbehe",
+    "url": "https://news.ycombinator.com/user?id=lsbehe"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30542681",
+  "sameAs": "https://boxcat.site/about",
+  "dateCreated": "2022-03-03T16:12:29.331Z",
+  "datePublished": "2022-03-03T16:01:40.000Z",
+  "dateModified": "2022-03-03T16:12:29.331Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "路透社的轻量级替代前端",
+  "headline_zh-Hant": "路透社的輕量級替代前端",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

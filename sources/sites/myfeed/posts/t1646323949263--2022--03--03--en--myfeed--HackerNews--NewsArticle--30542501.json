@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30542501",
+  "url": "https://news.ycombinator.com/item?id=30542501",
+  "headline": "Stop aggregating away the signal in your data",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "yurivish",
+    "url": "https://news.ycombinator.com/user?id=yurivish"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30542501",
+  "sameAs": "https://stackoverflow.blog/2022/03/03/stop-aggregating-away-the-signal-in-your-data/",
+  "dateCreated": "2022-03-03T16:12:29.263Z",
+  "datePublished": "2022-03-03T15:49:45.000Z",
+  "dateModified": "2022-03-03T16:12:29.263Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "不要再把你的数据中的信号汇总起来了",
+  "headline_zh-Hant": "不要再把你的數據中的信號彙總起來了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
