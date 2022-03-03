@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30542363",
+  "url": "https://news.ycombinator.com/item?id=30542363",
+  "headline": "Community effort polyglot prints different value for each language (2016)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "air7",
+    "url": "https://news.ycombinator.com/user?id=air7"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30542363",
+  "sameAs": "https://codegolf.stackexchange.com/questions/102370/add-a-language-to-a-polyglot",
+  "dateCreated": "2022-03-03T15:44:20.831Z",
+  "datePublished": "2022-03-03T15:39:10.000Z",
+  "dateModified": "2022-03-03T15:44:20.831Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "社区努力polyglot为每种语言打印不同的价值(2016)",
+  "headline_zh-Hant": "社區努力polyglot為每種語言打印不同的價值(2016)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
