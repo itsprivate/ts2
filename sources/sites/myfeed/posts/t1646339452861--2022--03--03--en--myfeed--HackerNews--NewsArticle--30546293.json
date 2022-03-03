@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30546293",
+  "url": "https://news.ycombinator.com/item?id=30546293",
+  "headline": "Vladimir Putin 'still uses obsolete Windows XP' despite hacking risk (2019)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "throwoutway",
+    "url": "https://news.ycombinator.com/user?id=throwoutway"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30546293",
+  "sameAs": "https://www.theguardian.com/world/2019/dec/17/vladimir-putin-still-uses-obsolete-windows-xp-despite-hacking-risk",
+  "dateCreated": "2022-03-03T20:30:52.861Z",
+  "datePublished": "2022-03-03T20:15:53.000Z",
+  "dateModified": "2022-03-03T20:30:52.861Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "普京 \"仍在使用过时的Windows XP\"，尽管有黑客攻击的风险（2019年）",
+  "headline_zh-Hant": "普京 \"仍在使用過時的Windows XP\"，儘管有黑客攻擊的風險（2019年）",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

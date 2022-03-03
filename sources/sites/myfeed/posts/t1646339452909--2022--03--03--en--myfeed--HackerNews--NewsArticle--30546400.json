@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--myfeed--HackerNews--NewsArticle--30546400",
+  "url": "https://news.ycombinator.com/item?id=30546400",
+  "headline": "Bank: Hey, you can get digital statements now, want to go paperless?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "walterbell",
+    "url": "https://news.ycombinator.com/user?id=walterbell"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30546400",
+  "sameAs": "https://twitter.com/hondanhon/status/1499083344193097731",
+  "dateCreated": "2022-03-03T20:30:52.909Z",
+  "datePublished": "2022-03-03T20:21:38.000Z",
+  "dateModified": "2022-03-03T20:30:52.909Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "银行。嘿，你现在可以得到数字报表了，想要无纸化吗？",
+  "headline_zh-Hant": "銀行。嘿，你現在可以得到數字報表了，想要無紙化嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
