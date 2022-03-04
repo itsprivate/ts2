@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--askhn--HackerNews--NewsArticle--30553078",
+  "url": "https://news.ycombinator.com/item?id=30553078",
+  "headline": "Ask HN: Are GitHub pull-requests governed by the original repository license?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "This is a question for our legal friends here on HN. Imagine this scenario: I have an open source project on Github with an MIT license. I've cargo-culted the<p><pre><code>   Copyright (C) 2022 My Name\n</code></pre>\nline from every MIT-licensed project I've ever seen.<p>A random contributor forks my repository and sends me a pull-request. They haven't altered the license file in any way.<p>So, Question 1: are their contributions automatically licensed under the same MIT license as the original repository? (Note that their fork, which I'm being asked to merge, contains the identical license file.)<p>Question 2: have they (almost certainly inadvertently) assigned copyright over their changes to me? (They're asking me to merge changes from a repository which contains a copyright declaration in my name.)<p>Question 3: if one, why not the other?<p>Disclaimer -- personally I hate even having to think about these kinds of questions, which is why I try to make most of my open-source code available under the Unlicense [1]. I've recently discovered the Zero-Clause BSD licence [2] which may be a better alternative as it avoids the potentially problematic concept of a 'public domain' -- I'd love to hear an informed legal analysis of their differences.<p>[1]: https://unlicense.org<p>[2]: https://opensource.org/licenses/0BSD",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "dmulholl",
+    "url": "https://news.ycombinator.com/user?id=dmulholl"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30553078",
+  "sameAs": "https://news.ycombinator.com/item?id=30553078",
+  "dateCreated": "2022-03-04T11:09:15.022Z",
+  "datePublished": "2022-03-04T10:57:17.000Z",
+  "dateModified": "2022-03-04T11:09:15.022Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: GitHub的拉取请求是否受原始仓库许可的约束？",
+  "headline_zh-Hant": "Ask HN: GitHub的拉取請求是否受原始倉庫許可的約束？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "这是给我们在HN上的法律朋友的问题。想象一下这样的情景：我在Github上有一个开源项目，采用MIT许可。I've cargo-culted the<p><pre><code> Copyright (C) 2022 My Name\n</code></pre>\nline from every MIT-licensed project I've ever seen.<p>A random contributor forks my repository and sends me a pull-request. <p>那么，问题一：他们的贡献是否自动获得与原始版本库相同的 MIT 许可？(<p>问题2：他们是否（几乎可以说是无意中）将他们的修改的版权转让给了我？ 他们要求我合并一个包含我名字的版权声明的版本库的修改。 <p>问题3：如果是其中之一，为什么不是另一个？<p>免责声明 -- 我个人甚至讨厌思考这类问题，这就是为什么我试图让我的大部分开源代码在无许可证[1]下可用。］ 我最近发现了零条款BSD许可证[2]，它可能是一个更好的选择，因为它避免了 \"公共领域 \"这一潜在的问题概念--我很想听听对它们之间的差异进行有根据的法律分析。<p>[1]：https://unlicense.org<p>[2]：https://opensource.org/licenses/0BSD",
+  "description_zh-Hant": "這是給我們在HN上的法律朋友的問題。想象一下這樣的情景：我在Github上有一個開源項目，採用MIT許可。I've cargo-culted the<p><pre><code> Copyright (C) 2022 My Name\n</code></pre>\nline from every MIT-licensed project I've ever seen.<p>A random contributor forks my repository and sends me a pull-request. <p>那麼，問題一：他們的貢獻是否自動獲得與原始版本庫相同的 MIT 許可？(<p>問題2：他們是否（幾乎可以說是無意中）將他們的修改的版權轉讓給了我？ 他們要求我合併一個包含我名字的版權聲明的版本庫的修改。 <p>問題3：如果是其中之一，為什麼不是另一個？<p>免責聲明 -- 我個人甚至討厭思考這類問題，這就是為什麼我試圖讓我的大部分開源代碼在無許可證[1]下可用。］ 我最近發現了零條款BSD許可證[2]，它可能是一個更好的選擇，因為它避免了 \"公共領域 \"這一潛在的問題概念--我很想聽聽對它們之間的差異進行有根據的法律分析。<p>[1]：https://unlicense.org<p>[2]：https://opensource.org/licenses/0BSD"
+}
