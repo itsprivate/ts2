@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30549184",
+  "url": "https://news.ycombinator.com/item?id=30549184",
+  "headline": "How the people of Russia Street, Seoul see the current war",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "graderjs",
+    "url": "https://news.ycombinator.com/user?id=graderjs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30549184",
+  "sameAs": "https://www.scmp.com/week-asia/people/article/3169080/putin-has-psychological-problems-how-people-russian-street-seoul",
+  "dateCreated": "2022-03-04T02:07:19.314Z",
+  "datePublished": "2022-03-04T00:58:31.000Z",
+  "dateModified": "2022-03-04T02:07:19.314Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "汉城俄罗斯街的人们如何看待当前的战争",
+  "headline_zh-Hant": "漢城俄羅斯街的人們如何看待當前的戰爭",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

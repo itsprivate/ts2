@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30549062",
+  "url": "https://news.ycombinator.com/item?id=30549062",
+  "headline": "Explode the Dragon Demo",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hvidevold",
+    "url": "https://news.ycombinator.com/user?id=hvidevold"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30549062",
+  "sameAs": "https://www.youtube.com/watch?v=1LpD_Z3BHyQ",
+  "dateCreated": "2022-03-04T02:07:19.239Z",
+  "datePublished": "2022-03-04T00:41:56.000Z",
+  "dateModified": "2022-03-04T02:07:19.239Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "爆炸龙的演示",
+  "headline_zh-Hant": "爆炸龍的演示",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
