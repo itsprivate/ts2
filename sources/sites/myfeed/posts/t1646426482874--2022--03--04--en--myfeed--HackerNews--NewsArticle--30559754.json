@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30559754",
+  "url": "https://news.ycombinator.com/item?id=30559754",
+  "headline": "Russia Bans Twitter",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tosh",
+    "url": "https://news.ycombinator.com/user?id=tosh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30559754",
+  "sameAs": "https://www.theguardian.com/world/live/2022/mar/04/ukraine-news-russia-war-vladimir-putin-zelenskiy-kyiv-latest-live-updates-russian-invasion-nuclear-power-plant",
+  "dateCreated": "2022-03-04T20:41:22.874Z",
+  "datePublished": "2022-03-04T20:09:41.000Z",
+  "dateModified": "2022-03-04T20:41:22.874Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "俄罗斯禁止推特",
+  "headline_zh-Hant": "俄羅斯禁止推特",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
