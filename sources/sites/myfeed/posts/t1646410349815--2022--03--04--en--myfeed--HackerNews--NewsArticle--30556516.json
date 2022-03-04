@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30556516",
+  "url": "https://news.ycombinator.com/item?id=30556516",
+  "headline": "Ukrainians wrote a song for Bayraktar TB2s",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "webmaven",
+    "url": "https://news.ycombinator.com/user?id=webmaven"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30556516",
+  "sameAs": "https://www.youtube.com/watch?v=890z0skXQzI",
+  "dateCreated": "2022-03-04T16:12:29.815Z",
+  "datePublished": "2022-03-04T16:00:05.000Z",
+  "dateModified": "2022-03-04T16:12:29.815Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "乌克兰人为Bayraktar TB2s写了一首歌",
+  "headline_zh-Hant": "烏克蘭人為Bayraktar TB2s寫了一首歌",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30556491",
+  "url": "https://news.ycombinator.com/item?id=30556491",
+  "headline": "People booking Ukrainian Airbnbs to support locals",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vincent_s",
+    "url": "https://news.ycombinator.com/user?id=vincent_s"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30556491",
+  "sameAs": "https://mashable.com/article/ukrainian-airbnb-bookings-donations",
+  "dateCreated": "2022-03-04T16:12:29.809Z",
+  "datePublished": "2022-03-04T15:57:52.000Z",
+  "dateModified": "2022-03-04T16:12:29.809Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "人们预订乌克兰的Airbnbs来支持当地人",
+  "headline_zh-Hant": "人們預訂烏克蘭的Airbnbs來支持當地人",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
