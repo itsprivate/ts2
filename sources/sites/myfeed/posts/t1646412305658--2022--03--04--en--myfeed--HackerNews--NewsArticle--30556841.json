@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30556841",
+  "url": "https://news.ycombinator.com/item?id=30556841",
+  "headline": "Alright, here is another Mud and truck maintenance post",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mariuz",
+    "url": "https://news.ycombinator.com/user?id=mariuz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30556841",
+  "sameAs": "https://twitter.com/TrentTelenko/status/1499763286392385541",
+  "dateCreated": "2022-03-04T16:45:05.658Z",
+  "datePublished": "2022-03-04T16:25:10.000Z",
+  "dateModified": "2022-03-04T16:45:05.658Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "好吧，这里是另一个泥浆和卡车维护的帖子",
+  "headline_zh-Hant": "好吧，這裡是另一個泥漿和卡車維護的帖子",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

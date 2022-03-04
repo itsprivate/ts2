@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30556724",
+  "url": "https://news.ycombinator.com/item?id=30556724",
+  "headline": "Cislunar Highway Patrol System (CHPS)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "JoeDaDude",
+    "url": "https://news.ycombinator.com/user?id=JoeDaDude"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30556724",
+  "sameAs": "https://www.youtube.com/watch?v=yOnPBE1rZNY",
+  "dateCreated": "2022-03-04T16:45:05.593Z",
+  "datePublished": "2022-03-04T16:16:07.000Z",
+  "dateModified": "2022-03-04T16:45:05.593Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Cislunar公路巡逻系统(CHPS)",
+  "headline_zh-Hant": "Cislunar公路巡邏系統(CHPS)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
