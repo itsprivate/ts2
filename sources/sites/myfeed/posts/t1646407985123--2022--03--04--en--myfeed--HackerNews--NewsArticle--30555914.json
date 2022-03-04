@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30555914",
+  "url": "https://news.ycombinator.com/item?id=30555914",
+  "headline": "Launch HN: Elementary (YC W22) – Open-source data observability",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN! \nWe’re Maayan and Or, and we are building Elementary (<a href=\"https://github.com/elementary-data/elementary\" rel=\"nofollow\">https://github.com/elementary-data/elementary</a>), open-source framework that continuously monitors your data and sends alerts when anomalies are detected.<p>Elementary can alert you, for example, when a table in Snowflake hasn't been updated as expected or when a revenue column has too many nulls. It also monitors operations in the data stack, and provides the means for analyzing impact and root cause. For example, it can alert you when your dbt runs or tests fail, including the impacted dependencies. A data lineage graph visualizes the data flow and can be used to find the source of invalid data.<p>We have both been working in the data space for over a decade, Maayan in analytics and Or in data engineering. Despite working at very different companies with different data stacks and use cases, we had the same reliability problems. Data is incomplete and inconsistent, and the abundance of technologies creates more complexity and inconsistency. Data reliability issues cause distrust, delays, and bad decisions. It's hard to achieve high data reliability, detect issues fast, understand impact and resolve quickly.<p>We also found that we had built similar solutions, and as we talked to other developers, we learned that most data teams have their own version of the same thing. They usually don’t go for a commercial observability solution unless they have major incidents and technical debt. Until that point, they prefer to build for themselves, for two reasons: to avoid the overhead of procurement and security compliance; and to customize to their own stack, data sources, business logic, etc, and have all the metadata and metrics in their stack to support additional use cases.<p>We decided to build an open-source alternative — one that can be implemented easily, host yourself, and customized. This solves the compliance and the data ownership problem. It also solves the build-your-own problem, because teams can deploy an extensive solution early on, instead of waiting till later when there are major problems.<p>Elementary stores all the logs, metadata, and metrics it collects and generates in the data warehouse, so users can easily add their own detections and logic to it. Additionally, the solution is dbt native, which means it provides a dbt package that can be easily installed in a dbt environment as well as configured directly from a dbt project. Since it's part of the existing workflow and environment, it makes it convenient for data engineers, analytics engineers, and data analysts to enhance and contribute.<p>Open source eliminates the need to pay for getting started or to grant access to a third party. A managed service and additional enterprise features will be available in the cloud in the future. Critically, though, the user's metadata will continue to reside in their environment, under their control, and they will still have full customization available.\nCurrently Elementary supports Snowflake, BigQuery and dbt. It collects metadata such as schemas, query logs and dbt artifacts. It generates and monitors data quality metrics, sends Slack alerts, and visualizes the data lineage. \nIf this is your data stack, we’d love you to give it a try!<p>We would love to hear your feedback, experiences and ideas from trying to solve data observability in your organizations. Here is an invite to our Slack community: <a href=\"https://join.slack.com/t/elementary-community/shared_invite/zt-uehfrq2f-zXeVTtXrjYRbdE_V6xq4Rg\" rel=\"nofollow\">https://join.slack.com/t/elementary-community/shared_invite/...</a>",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Maayansa",
+    "url": "https://news.ycombinator.com/user?id=Maayansa"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30555914",
+  "sameAs": "https://github.com/elementary-data/elementary",
+  "dateCreated": "2022-03-04T15:33:05.123Z",
+  "datePublished": "2022-03-04T15:12:41.000Z",
+  "dateModified": "2022-03-04T15:33:05.123Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "启动HN：初级（YC W22）--开源数据的可观察性",
+  "headline_zh-Hant": "啟動HN：初級（YC W22）--開源數據的可觀察性",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN! \n我们是 Maayan 和 Or，我们正在构建 Elementary（<a href=\"https://github.com/elementary-data/elementary\" rel=\"nofollow\">https://github.com/elementary-data/elementary</a>），这是一个开源框架，可以持续监控您的数据，并在发现异常情况时发出警报。<p>Elementary 可以向您发出警报，例如，当 Snowflake 中的某个表没有按照预期更新，或者当某个收入列有太多的空值。它还监测数据堆栈中的操作，并提供分析影响和根本原因的方法。例如，当你的dbt运行或测试失败时，它可以提醒你，包括受影响的依赖关系。<p>我们都在数据领域工作了十多年，Maayan负责分析，Or负责数据工程。尽管我们在非常不同的公司工作，拥有不同的数据栈和使用案例，但我们有相同的可靠性问题。数据是不完整和不一致的，而技术的丰富性造成了更多的复杂性和不一致性。数据的可靠性问题导致了不信任、延迟和错误的决定。要实现高数据可靠性、快速检测问题、了解影响并快速解决是很难的。<p>我们还发现，我们已经建立了类似的解决方案，当我们与其他开发人员交谈时，我们了解到大多数数据团队都有自己的版本。他们通常不会去使用商业化的可观察性解决方案，除非他们有重大事件和技术债务。在这之前，他们更愿意自己构建，原因有二：避免采购和安全合规的开销；根据自己的堆栈、数据源、业务逻辑等进行定制，并在自己的堆栈中拥有所有的元数据和度量，以支持更多的用例。<p>我们决定构建一个开源的替代方案--一个可以轻松实现、自己托管和定制的方案。这就解决了合规性和数据所有权问题。<p>Elementary 将其收集和生成的所有日志、元数据和指标存储在数据仓库中，因此用户可以轻松地将自己的检测和逻辑加入其中。此外，该解决方案是dbt原生的，这意味着它提供了一个dbt包，可以很容易地安装在dbt环境中，也可以直接从dbt项目中配置。由于它是现有工作流程和环境的一部分，它使数据工程师、分析工程师和数据分析师能够方便地进行增强和贡献。<p>开放源码消除了为入门而付费或授予第三方访问权的需要。未来将在云中提供管理服务和额外的企业功能。但关键是，用户的元数据将继续驻留在他们的环境中，在他们的控制下，他们仍将有完全的自定义功能可用。\n目前，Elementary支持Snowflake、BigQuery和dbt。它收集元数据，如模式、查询日志和 dbt 的工件。它生成和监测数据质量指标，发送Slack警报，并将数据线可视化。\n如果这是你的数据栈，我们希望你能试一试！<p>我们希望听到你在尝试解决你的组织中的数据可观察性方面的反馈、经验和想法。以下是对我们 Slack 社区的邀请。<a href=\"https://join.slack.com/t/elementary-community/shared_invite/zt-uehfrq2f-zXeVTtXrjYRbdE_V6xq4Rg\" rel=\"nofollow\">https://join.slack.com/t/elementary-community/shared_invite/...</a>",
+  "description_zh-Hant": "嗨，HN! \n我們是 Maayan 和 Or，我們正在構建 Elementary（<a href=\"https://github.com/elementary-data/elementary\" rel=\"nofollow\">https://github.com/elementary-data/elementary</a>），這是一個開源框架，可以持續監控您的數據，並在發現異常情況時發出警報。<p>Elementary 可以向您發出警報，例如，當 Snowflake 中的某個表沒有按照預期更新，或者當某個收入列有太多的空值。它還監測數據堆棧中的操作，並提供分析影響和根本原因的方法。例如，當你的dbt運行或測試失敗時，它可以提醒你，包括受影響的依賴關係。<p>我們都在數據領域工作了十多年，Maayan負責分析，Or負責數據工程。儘管我們在非常不同的公司工作，擁有不同的數據棧和使用案例，但我們有相同的可靠性問題。數據是不完整和不一致的，而技術的豐富性造成了更多的複雜性和不一致性。數據的可靠性問題導致了不信任、延遲和錯誤的決定。要實現高數據可靠性、快速檢測問題、瞭解影響並快速解決是很難的。<p>我們還發現，我們已經建立了類似的解決方案，當我們與其他開發人員交談時，我們瞭解到大多數數據團隊都有自己的版本。他們通常不會去使用商業化的可觀察性解決方案，除非他們有重大事件和技術債務。在這之前，他們更願意自己構建，原因有二：避免採購和安全合規的開銷；根據自己的堆棧、數據源、業務邏輯等進行定製，並在自己的堆棧中擁有所有的元數據和度量，以支持更多的用例。<p>我們決定構建一個開源的替代方案--一個可以輕鬆實現、自己託管和定製的方案。這就解決了合規性和數據所有權問題。<p>Elementary 將其收集和生成的所有日誌、元數據和指標存儲在數據倉庫中，因此用戶可以輕鬆地將自己的檢測和邏輯加入其中。此外，該解決方案是dbt原生的，這意味著它提供了一個dbt包，可以很容易地安裝在dbt環境中，也可以直接從dbt項目中配置。由於它是現有工作流程和環境的一部分，它使數據工程師、分析工程師和數據分析師能夠方便地進行增強和貢獻。<p>開放源碼消除了為入門而付費或授予第三方訪問權的需要。未來將在雲中提供管理服務和額外的企業功能。但關鍵是，用戶的元數據將繼續駐留在他們的環境中，在他們的控制下，他們仍將有完全的自定義功能可用。\n目前，Elementary支持Snowflake、BigQuery和dbt。它收集元數據，如模式、查詢日誌和 dbt 的工件。它生成和監測數據質量指標，發送Slack警報，並將數據線可視化。\n如果這是你的數據棧，我們希望你能試一試！<p>我們希望聽到你在嘗試解決你的組織中的數據可觀察性方面的反饋、經驗和想法。以下是對我們 Slack 社區的邀請。<a href=\"https://join.slack.com/t/elementary-community/shared_invite/zt-uehfrq2f-zXeVTtXrjYRbdE_V6xq4Rg\" rel=\"nofollow\">https://join.slack.com/t/elementary-community/shared_invite/...</a>"
+}
