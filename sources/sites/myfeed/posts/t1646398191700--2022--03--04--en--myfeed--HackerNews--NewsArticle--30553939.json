@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30553939",
+  "url": "https://news.ycombinator.com/item?id=30553939",
+  "headline": "Hacktivists Stoke Pandemonium Amid Russia’s War in Ukraine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ck2",
+    "url": "https://news.ycombinator.com/user?id=ck2"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30553939",
+  "sameAs": "https://www.wired.com/story/hacktivists-pandemonium-russia-war-ukraine/",
+  "dateCreated": "2022-03-04T12:49:51.700Z",
+  "datePublished": "2022-03-04T12:48:40.000Z",
+  "dateModified": "2022-03-04T12:49:51.700Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "黑客活动家在俄罗斯的乌克兰战争中引发骚乱",
+  "headline_zh-Hant": "黑客活動家在俄羅斯的烏克蘭戰爭中引發騷亂",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

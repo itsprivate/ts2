@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30553664",
+  "url": "https://news.ycombinator.com/item?id=30553664",
+  "headline": "Vision Language models: towards multi-modal deep learning",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "RafelMri",
+    "url": "https://news.ycombinator.com/user?id=RafelMri"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30553664",
+  "sameAs": "https://theaisummer.com/vision-language-models/",
+  "dateCreated": "2022-03-04T12:49:51.536Z",
+  "datePublished": "2022-03-04T12:19:41.000Z",
+  "dateModified": "2022-03-04T12:49:51.536Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "视觉语言模型：走向多模态深度学习",
+  "headline_zh-Hant": "視覺語言模型：走向多模態深度學習",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
