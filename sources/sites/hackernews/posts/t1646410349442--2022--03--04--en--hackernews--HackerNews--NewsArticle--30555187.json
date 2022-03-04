@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--hackernews--HackerNews--NewsArticle--30555187",
+  "url": "https://news.ycombinator.com/item?id=30555187",
+  "headline": "The U.S. added 678,000 jobs in February",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "softwarebeware",
+    "url": "https://news.ycombinator.com/user?id=softwarebeware"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30555187",
+  "sameAs": "https://text.npr.org/1084299987",
+  "dateCreated": "2022-03-04T16:12:29.442Z",
+  "datePublished": "2022-03-04T14:26:23.000Z",
+  "dateModified": "2022-03-04T16:12:29.442Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 23
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 7
+    }
+  ],
+  "headline_zh-Hans": "美国2月新增67.8万个工作岗位",
+  "headline_zh-Hant": "美國2月新增67.8萬個工作崗位",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
