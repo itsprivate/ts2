@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30559190",
+  "url": "https://news.ycombinator.com/item?id=30559190",
+  "headline": "Monitor Active War Zones for Civilian in Ukraine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Climactic",
+    "url": "https://news.ycombinator.com/user?id=Climactic"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30559190",
+  "sameAs": "https://github.com/mingzew/warzone_report",
+  "dateCreated": "2022-03-04T19:35:09.516Z",
+  "datePublished": "2022-03-04T19:24:30.000Z",
+  "dateModified": "2022-03-04T19:35:09.516Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "监测乌克兰平民的活跃战区",
+  "headline_zh-Hant": "監測烏克蘭平民的活躍戰區",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

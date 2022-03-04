@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30558318",
+  "url": "https://news.ycombinator.com/item?id=30558318",
+  "headline": "EurKEY: A multilingual keyboard layout which is intended for Europeans",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jnxx",
+    "url": "https://news.ycombinator.com/user?id=jnxx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30558318",
+  "sameAs": "https://en.wikipedia.org/wiki/EurKEY",
+  "dateCreated": "2022-03-04T18:35:05.471Z",
+  "datePublished": "2022-03-04T18:17:40.000Z",
+  "dateModified": "2022-03-04T18:35:05.471Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "EurKEY: 为欧洲人准备的多语言键盘布局",
+  "headline_zh-Hant": "EurKEY: 為歐洲人準備的多語言鍵盤佈局",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30557817",
+  "url": "https://news.ycombinator.com/item?id=30557817",
+  "headline": "It’s Not Easy Running a Geeky Business",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ohjeez",
+    "url": "https://news.ycombinator.com/user?id=ohjeez"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30557817",
+  "sameAs": "https://www.wired.com/2022/03/geeks-guide-business-owners/",
+  "dateCreated": "2022-03-04T17:50:05.089Z",
+  "datePublished": "2022-03-04T17:40:03.000Z",
+  "dateModified": "2022-03-04T17:50:05.089Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "经营极客生意并不容易",
+  "headline_zh-Hant": "經營極客生意並不容易",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
