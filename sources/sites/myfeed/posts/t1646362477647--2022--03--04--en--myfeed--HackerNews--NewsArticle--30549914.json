@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30549914",
+  "url": "https://news.ycombinator.com/item?id=30549914",
+  "headline": "In Japan, a million people have shut themselves in their rooms",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "terrycody",
+    "url": "https://news.ycombinator.com/user?id=terrycody"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30549914",
+  "sameAs": "https://www.abc.net.au/news/2022-02-17/hikikomori-seiko-goto-japan/100792330",
+  "dateCreated": "2022-03-04T02:54:37.647Z",
+  "datePublished": "2022-03-04T02:29:31.000Z",
+  "dateModified": "2022-03-04T02:54:37.647Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在日本，有一百万人把自己关在房间里",
+  "headline_zh-Hant": "在日本，有一百萬人把自己關在房間裡",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

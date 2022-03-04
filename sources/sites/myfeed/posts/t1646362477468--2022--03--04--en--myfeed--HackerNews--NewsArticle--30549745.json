@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30549745",
+  "url": "https://news.ycombinator.com/item?id=30549745",
+  "headline": "Blended Diffusion: Text-Driven Editing of Natural Images",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lnyan",
+    "url": "https://news.ycombinator.com/user?id=lnyan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30549745",
+  "sameAs": "https://omriavrahami.com/blended-diffusion-page/",
+  "dateCreated": "2022-03-04T02:54:37.468Z",
+  "datePublished": "2022-03-04T02:09:27.000Z",
+  "dateModified": "2022-03-04T02:54:37.468Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "混合型扩散。文本驱动的自然图像编辑",
+  "headline_zh-Hant": "混合型擴散。文本驅動的自然圖像編輯",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

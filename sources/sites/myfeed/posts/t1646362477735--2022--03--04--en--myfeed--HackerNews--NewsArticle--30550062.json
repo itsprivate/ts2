@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30550062",
+  "url": "https://news.ycombinator.com/item?id=30550062",
+  "headline": "Google suspends all ad sales in Russia as censorship demands grow",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "stereoradonc",
+    "url": "https://news.ycombinator.com/user?id=stereoradonc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30550062",
+  "sameAs": "https://www.reuters.com/technology/google-pauses-all-ad-sales-russia-2022-03-04/",
+  "dateCreated": "2022-03-04T02:54:37.735Z",
+  "datePublished": "2022-03-04T02:51:56.000Z",
+  "dateModified": "2022-03-04T02:54:37.735Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "谷歌暂停在俄罗斯的所有广告销售，因为审查要求越来越多",
+  "headline_zh-Hant": "谷歌暫停在俄羅斯的所有廣告銷售，因為審查要求越來越多",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
