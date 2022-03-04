@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30555087",
+  "url": "https://news.ycombinator.com/item?id=30555087",
+  "headline": "Microsoft suspends product sales and services in Russia",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "underscore_ku",
+    "url": "https://news.ycombinator.com/user?id=underscore_ku"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30555087",
+  "sameAs": "https://www.reuters.com/business/microsoft-suspends-product-sales-services-russia-2022-03-04/",
+  "dateCreated": "2022-03-04T14:27:43.595Z",
+  "datePublished": "2022-03-04T14:19:45.000Z",
+  "dateModified": "2022-03-04T14:27:43.595Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "微软暂停在俄罗斯的产品销售和服务",
+  "headline_zh-Hant": "微軟暫停在俄羅斯的產品銷售和服務",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

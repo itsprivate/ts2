@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30555085",
+  "url": "https://news.ycombinator.com/item?id=30555085",
+  "headline": "Sony and Honda Announce Tie-Up to Make Electric Cars",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "geox",
+    "url": "https://news.ycombinator.com/user?id=geox"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30555085",
+  "sameAs": "https://www.nytimes.com/2022/03/02/business/sony-honda-electric-cars.html",
+  "dateCreated": "2022-03-04T14:27:43.585Z",
+  "datePublished": "2022-03-04T14:19:39.000Z",
+  "dateModified": "2022-03-04T14:27:43.585Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "索尼和本田宣布合作生产电动汽车",
+  "headline_zh-Hant": "索尼和本田宣佈合作生產電動汽車",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
