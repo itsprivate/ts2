@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30556847",
+  "url": "https://news.ycombinator.com/item?id=30556847",
+  "headline": "Letter from Kyiv: Putin’s War on Ukraine Is ‘Pozor Rossii’",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mariuz",
+    "url": "https://news.ycombinator.com/user?id=mariuz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30556847",
+  "sameAs": "https://breakingdefense.com/2022/03/letter-from-kyiv-putins-war-on-ukraine-is-pozor-rossii/",
+  "dateCreated": "2022-03-04T16:45:05.663Z",
+  "datePublished": "2022-03-04T16:25:43.000Z",
+  "dateModified": "2022-03-04T16:45:05.663Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "来自基辅的信。普京对乌克兰的战争是 \"Pozor Rossii\"。",
+  "headline_zh-Hant": "來自基輔的信。普京對烏克蘭的戰爭是 \"Pozor Rossii\"。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

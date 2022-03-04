@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30557024",
+  "url": "https://news.ycombinator.com/item?id=30557024",
+  "headline": "Ukraine conflict: Before and after images reveal Russian destruction",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "LinuxBender",
+    "url": "https://news.ycombinator.com/user?id=LinuxBender"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30557024",
+  "sameAs": "https://www.bbc.co.uk/news/world-europe-60610840",
+  "dateCreated": "2022-03-04T16:45:05.731Z",
+  "datePublished": "2022-03-04T16:39:26.000Z",
+  "dateModified": "2022-03-04T16:45:05.731Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "乌克兰冲突。之前和之后的图片显示了俄罗斯的破坏",
+  "headline_zh-Hant": "烏克蘭衝突。之前和之後的圖片顯示了俄羅斯的破壞",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
