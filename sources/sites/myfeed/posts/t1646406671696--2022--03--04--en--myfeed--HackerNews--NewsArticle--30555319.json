@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30555319",
+  "url": "https://news.ycombinator.com/item?id=30555319",
+  "headline": "A Headless CMS with a modern editor like medium?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm searching for a Headless CMS to connect to Next.js. I have tried some platforms like contentful, strapi but none of them have a modern WYSIWYG editor like the one used in Medium.com<p>Could you suggest a headless CMS with a simple publish workflow, free, and rich modern WYSIWYG editor? What's your experience?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hmdnp",
+    "url": "https://news.ycombinator.com/user?id=hmdnp"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30555319",
+  "sameAs": "https://news.ycombinator.com/item?id=30555319",
+  "dateCreated": "2022-03-04T15:11:11.696Z",
+  "datePublished": "2022-03-04T14:34:32.000Z",
+  "dateModified": "2022-03-04T15:11:11.696Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "一个带有现代编辑器的无头CMS（如medium）？",
+  "headline_zh-Hant": "一個帶有現代編輯器的無頭CMS（如medium）？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在寻找一个可以连接到Next.js的无头CMS。我试过一些平台，如contentful、strapi，但它们都没有像Medium.com那样的现代所见即所得编辑器<p>你能推荐一个具有简单发布工作流程、免费、丰富的现代所见即所得编辑器的无头CMS吗？你有什么经验？",
+  "description_zh-Hant": "我正在尋找一個可以連接到Next.js的無頭CMS。我試過一些平臺，如contentful、strapi，但它們都沒有像Medium.com那樣的現代所見即所得編輯器<p>你能推薦一個具有簡單發佈工作流程、免費、豐富的現代所見即所得編輯器的無頭CMS嗎？你有什麼經驗？"
+}
