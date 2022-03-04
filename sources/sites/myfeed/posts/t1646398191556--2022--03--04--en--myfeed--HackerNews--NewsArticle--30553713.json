@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30553713",
+  "url": "https://news.ycombinator.com/item?id=30553713",
+  "headline": "Container signing: Why not use blockchain?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "xenocratus",
+    "url": "https://news.ycombinator.com/user?id=xenocratus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30553713",
+  "sameAs": "https://github.com/sigstore/cosign",
+  "dateCreated": "2022-03-04T12:49:51.556Z",
+  "datePublished": "2022-03-04T12:25:25.000Z",
+  "dateModified": "2022-03-04T12:49:51.556Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "集装箱签署。为什么不使用区块链？",
+  "headline_zh-Hant": "集裝箱簽署。為什麼不使用區塊鏈？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

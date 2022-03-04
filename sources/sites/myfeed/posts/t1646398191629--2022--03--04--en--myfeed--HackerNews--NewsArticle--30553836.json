@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30553836",
+  "url": "https://news.ycombinator.com/item?id=30553836",
+  "headline": "Explanation of precision and recall in Machine Learning I've ever seen",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kellymore",
+    "url": "https://news.ycombinator.com/user?id=kellymore"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30553836",
+  "sameAs": "https://blog.roboflow.com/precision-and-recall/",
+  "dateCreated": "2022-03-04T12:49:51.629Z",
+  "datePublished": "2022-03-04T12:37:07.000Z",
+  "dateModified": "2022-03-04T12:49:51.629Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我见过的机器学习中的精度和召回率的解释",
+  "headline_zh-Hant": "我見過的機器學習中的精度和召回率的解釋",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
