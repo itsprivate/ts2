@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30557288",
+  "url": "https://news.ycombinator.com/item?id=30557288",
+  "headline": "Launch HN: Phase Biolabs (YC W22) – Converting CO2 to Carbon-Neutral Chemicals",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN, I am David Ortega, a bioengineer and founder at Phase Biolabs (<a href=\"https://www.phasebiolabs.com\" rel=\"nofollow\">https://www.phasebiolabs.com</a>). We’re building technology that uses fermentation to turn CO2 emissions into carbon-neutral chemicals—specifically into sustainable, cost-competitive solvents for the pharma, cosmetics, and paint industries.<p>We’ve built a lab-scale prototype that is a 1.5L bioreactor with a microorganism inside that 'eats' carbon dioxide and hydrogen gas, converting them into chemicals as it grows. Here's a demo video I just made for HN: <a href=\"https://www.youtube.com/watch?v=RUIT3RUeUPE\" rel=\"nofollow\">https://www.youtube.com/watch?v=RUIT3RUeUPE</a>. We are currently making ethanol in the lab but unfortunately CO2-based ethanol cannot be legally sold as a beverage, so industrial solvents it is :)<p>You can do two things with carbon: you can capture it, or you can use it. Both are hard, but the latter is harder, mainly because carbon dioxide is so small.<p>Capturing CO2 is usually done by attaching it to something else, usually another molecule, which is how we can extract it from a dilute gas stream or 'pull it' out of the air. But the CO2 molecule is only temporarily transformed.<p>Using CO2 is a different ball game, usually referred to as CCU (carbon capture and utilization). For this you need to permanently convert the molecular structure itself, and since you are working with extremely tiny pieces of matter, you need extremely precise machinery.<p>The challenge with converting CO2 is doing it efficiently. It needs to happen with as little energy as possible and to be as precise as possible. If you want to convert CO2 into X, but you also produce Y, and Z, that is a problem which will show up in the cost. Our solution is bio-based CCU, but there are also electrochemical and thermochemical technologies, each with advantages and disadvantages. And there are other bio-based approaches, such as making trees more efficient (e.g. Living Carbon W20). All are valid strategies.<p>In biology, CCU is known as carbon fixation. During my PhD I was engineering microbes to convert wastes into renewable chemicals and fuels, so I began to study biochemical carbon pathways, which led me to carbon fixation. I began to realize how important carbon fixation is at a macro level (carbon cycle) and how the process works, but also that it is extremely inefficient and can be optimized. For example, the trees in your garden don’t grow very fast. This is due to photosynthesis being 2-4% efficient. I’ve always wanted to start a startup and that has always been in the back of my mind, so I did things that I enjoyed that could also help towards reaching that goal, which led me to this.<p>Advances in synthetic biology mean we can do things that weren't possible 20-30 years ago. The amount of tinkering that we can do has substantially increased (and costs have dropped), and our understanding has grown due to a rise in data and analytics. We can borrow strategies that have worked in the past in other fields and apply them in new ways.<p>Since biological carbon fixation is precise, but very inefficient, our approach is to take that precision and enhance it using synthetic biology into a process that is efficient, scalable, and productive enough for industrial application. We're using microorganisms that can naturally fix carbon, and transforming them into mini factories. Our microorganisms are 7x more energy efficient than naturally occurring plants or algae and in theory can produce almost any molecule found in nature directly from CO2.<p>Carbon fixation is catalysed by a carbon fixation (biochemical) pathway, which is simply a set of enzymes that catalyse a sequence of steps/reactions. The enzymes attach electrons and hydrogen ions onto the CO2 molecule, while removing the oxygen, one step at a time. This process can be called reverse combustion, but whereas combustion is uncontrolled and explosive (literally), carbon fixation is highly controlled. It’s a stepwise progression from a single CO2 molecule, adding hydrogen/electrons one at a time and eventually carbon (going from 1C -&gt; 2C, then 3C etc.) to get to your target product. Enzymes are the perfect molecular machines for this as precision is their speciality.<p>Our plan is to initially sell our technology to CO2 emitters so that they can reduce emissions and make money by converting a problem/cost (emissions) into new revenue. The technology scales to the size of the emitter. The cost is very different for a company that emits 50,000 tons per year vs 500,000 tons per year. We have some early estimates based on some economic modelling we’ve done.<p>We are at an early stage and have a long way to go but we have big ambitions for using CCU technology to decarbonise heavy industry, make sustainable chemicals and transition towards a circular economy.<p>Fermentation processes are well understood, easily scalable and easy to operate. We think gas fermentation can be easily deployed around the world to convert/recycle CO2 into sustainable products and Phase is aiming to use it to recycle emissions on the gigaton scale by 2040.<p>I hope this short summary provides new or renewed interest in the age-old process of fermentation, something that has been with us for millennia (my family has been making homemade wine for many years). I'd love to discuss any of these topics with you!",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "DavidPBL",
+    "url": "https://news.ycombinator.com/user?id=DavidPBL"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30557288",
+  "sameAs": "https://news.ycombinator.com/item?id=30557288",
+  "dateCreated": "2022-03-04T17:19:14.376Z",
+  "datePublished": "2022-03-04T17:00:34.000Z",
+  "dateModified": "2022-03-04T17:19:14.376Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "启动HN：Phase Biolabs (YC W22) - 将二氧化碳转化为碳中性化学品",
+  "headline_zh-Hant": "啟動HN：Phase Biolabs (YC W22) - 將二氧化碳轉化為碳中性化學品",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN，我是David Ortega，生物工程师和Phase Biolabs（<a href=\"https://www.phasebiolabs.com\" rel=\"nofollow\">https://www.phasebiolabs.com</a>）的创始人。We’re building technology that uses fermentation to turn CO2 emissions into carbon-neutral chemicals—specifically into sustainable, cost-competitive solvents for the pharma, cosmetics, and paint industries.<p>We’ve built a lab-scale prototype that is a 1.5L bioreactor with a microorganism inside that 'eats' carbon dioxide and hydrogen gas, converting them into chemicals as it grows. Here's a demo video I just made for HN: <a href=\"https://www.youtube.com/watch?v=RUIT3RUeUPE\" rel=\"nofollow\">https://www.youtube.com/watch?v=RUIT3RUeUPE</a>. 我们目前正在实验室里制造乙醇，但不幸的是，基于二氧化碳的乙醇不能作为饮料合法出售，所以只能是工业溶剂了：）<p>你可以用碳做两件事：你可以捕获它，或者你可以使用它。两者都很难，但后者更难，主要是因为二氧化碳太小了。<p>捕获二氧化碳通常是通过将其附着在其他东西上，通常是另一个分子，这就是我们如何从稀薄的气流中提取它或从空气中 \"拉 \"出它。<p>使用二氧化碳是一个不同的游戏，通常被称为CCU（碳捕获和利用）。为此，你需要永久地转换分子结构本身，而且由于你正在处理极其微小的物质，你需要极其精确的机器。它需要以尽可能少的能量发生，并尽可能地精确。如果你想将二氧化碳转化为X，但你也会产生Y和Z，这是一个问题，会在成本中显示出来。我们的解决方案是以生物为基础的CCU，但也有电化学和热化学技术，每种技术都有优点和缺点。还有其他基于生物的方法，例如使树木更有效（例如Living Carbon W20）。所有这些都是有效的策略。<p>在生物学上，CCU被称为碳固定。在我的博士期间，我正在设计微生物，将废物转化为可再生的化学品和燃料，因此我开始研究生化碳途径，这使我想到了碳固定。我开始意识到碳固定在宏观层面（碳循环）是多么重要，以及这个过程是如何运作的，但也意识到它的效率极低，可以被优化。例如，你花园里的树木生长速度并不快。这是由于光合作用的效率只有2-4%。我一直想创办一家创业公司，这一直在我的脑海里，所以我做了一些我喜欢的事情，也可以帮助实现这个目标，这让我有了这个想法。<p>合成生物学的进步意味着我们可以做一些20-30年前不可能的事情。我们可以做的修补工作的数量已经大大增加（而且成本已经下降），由于数据和分析的增加，我们的理解也在增加。我们可以借用过去在其他领域行之有效的策略，并以新的方式加以应用。<p>由于生物固碳是精确的，但效率很低，我们的方法是利用合成生物学来提高这一精度，使其成为一个高效、可扩展、有足够生产力的工业应用过程。我们正在使用能够自然固定碳的微生物，并将它们转化为小型工厂。我们的微生物比自然发生的植物或藻类的能效高7倍，理论上可以直接用二氧化碳生产自然界中的几乎任何分子。<p>碳固定是由碳固定（生化）途径催化的，这只是一组催化一系列步骤/反应的酶。酶将电子和氢离子附着在二氧化碳分子上，同时去除氧气，一次一个步骤。这个过程可以被称为逆向燃烧，但燃烧是不受控制的和爆炸性的（字面意思），而碳固定是高度控制的。它是从一个单一的二氧化碳分子开始逐步进行的，每次添加氢/电子，最终添加碳（从1C -&gt; 2C，然后3C等），以达到你的目标产品。酶是这方面的完美分子机器，因为精确性是它们的专长。<p>我们的计划是最初将我们的技术卖给二氧化碳排放者，这样他们就可以减少排放，并通过将问题/成本（排放）转化为新的收入来赚钱。该技术可根据排放者的规模进行调整。对于一个每年排放5万吨的公司和每年排放50万吨的公司来说，其成本是非常不同的。我们有一些基于我们所做的经济模型的早期估计。<p>我们处于早期阶段，有很长的路要走，但我们有很大的雄心壮志，要利用CCU技术使重工业脱碳，制造可持续的化学品并向循环经济过渡。我们认为",
+  "description_zh-Hant": "嗨，HN，我是David Ortega，生物工程師和Phase Biolabs（<a href=\"https://www.phasebiolabs.com\" rel=\"nofollow\">https://www.phasebiolabs.com</a>）的創始人。We’re building technology that uses fermentation to turn CO2 emissions into carbon-neutral chemicals—specifically into sustainable, cost-competitive solvents for the pharma, cosmetics, and paint industries.<p>We’ve built a lab-scale prototype that is a 1.5L bioreactor with a microorganism inside that 'eats' carbon dioxide and hydrogen gas, converting them into chemicals as it grows. Here's a demo video I just made for HN: <a href=\"https://www.youtube.com/watch?v=RUIT3RUeUPE\" rel=\"nofollow\">https://www.youtube.com/watch?v=RUIT3RUeUPE</a>. 我們目前正在實驗室裡製造乙醇，但不幸的是，基於二氧化碳的乙醇不能作為飲料合法出售，所以只能是工業溶劑了：）<p>你可以用碳做兩件事：你可以捕獲它，或者你可以使用它。兩者都很難，但後者更難，主要是因為二氧化碳太小了。<p>捕獲二氧化碳通常是通過將其附著在其他東西上，通常是另一個分子，這就是我們如何從稀薄的氣流中提取它或從空氣中 \"拉 \"出它。<p>使用二氧化碳是一個不同的遊戲，通常被稱為CCU（碳捕獲和利用）。為此，你需要永久地轉換分子結構本身，而且由於你正在處理極其微小的物質，你需要極其精確的機器。它需要以儘可能少的能量發生，並儘可能地精確。如果你想將二氧化碳轉化為X，但你也會產生Y和Z，這是一個問題，會在成本中顯示出來。我們的解決方案是以生物為基礎的CCU，但也有電化學和熱化學技術，每種技術都有優點和缺點。還有其他基於生物的方法，例如使樹木更有效（例如Living Carbon W20）。所有這些都是有效的策略。<p>在生物學上，CCU被稱為碳固定。在我的博士期間，我正在設計微生物，將廢物轉化為可再生的化學品和燃料，因此我開始研究生化碳途徑，這使我想到了碳固定。我開始意識到碳固定在宏觀層面（碳循環）是多麼重要，以及這個過程是如何運作的，但也意識到它的效率極低，可以被優化。例如，你花園裡的樹木生長速度並不快。這是由於光合作用的效率只有2-4%。我一直想創辦一家創業公司，這一直在我的腦海裡，所以我做了一些我喜歡的事情，也可以幫助實現這個目標，這讓我有了這個想法。<p>合成生物學的進步意味著我們可以做一些20-30年前不可能的事情。我們可以做的修補工作的數量已經大大增加（而且成本已經下降），由於數據和分析的增加，我們的理解也在增加。我們可以借用過去在其他領域行之有效的策略，並以新的方式加以應用。<p>由於生物固碳是精確的，但效率很低，我們的方法是利用合成生物學來提高這一精度，使其成為一個高效、可擴展、有足夠生產力的工業應用過程。我們正在使用能夠自然固定碳的微生物，並將它們轉化為小型工廠。我們的微生物比自然發生的植物或藻類的能效高7倍，理論上可以直接用二氧化碳生產自然界中的幾乎任何分子。<p>碳固定是由碳固定（生化）途徑催化的，這只是一組催化一系列步驟/反應的酶。酶將電子和氫離子附著在二氧化碳分子上，同時去除氧氣，一次一個步驟。這個過程可以被稱為逆向燃燒，但燃燒是不受控制的和爆炸性的（字面意思），而碳固定是高度控制的。它是從一個單一的二氧化碳分子開始逐步進行的，每次添加氫/電子，最終添加碳（從1C -&gt; 2C，然後3C等），以達到你的目標產品。酶是這方面的完美分子機器，因為精確性是它們的專長。<p>我們的計劃是最初將我們的技術賣給二氧化碳排放者，這樣他們就可以減少排放，並通過將問題/成本（排放）轉化為新的收入來賺錢。該技術可根據排放者的規模進行調整。對於一個每年排放5萬噸的公司和每年排放50萬噸的公司來說，其成本是非常不同的。我們有一些基於我們所做的經濟模型的早期估計。<p>我們處於早期階段，有很長的路要走，但我們有很大的雄心壯志，要利用CCU技術使重工業脫碳，製造可持續的化學品並向循環經濟過渡。我們認為"
+}

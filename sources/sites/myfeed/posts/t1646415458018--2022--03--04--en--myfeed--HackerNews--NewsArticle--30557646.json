@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30557646",
+  "url": "https://news.ycombinator.com/item?id=30557646",
+  "headline": "Stonehenge was an ancient time-keeping system, archaeologist says",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lhuser123",
+    "url": "https://news.ycombinator.com/user?id=lhuser123"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30557646",
+  "sameAs": "https://www.cnn.com/style/article/stonehenge-calendar-study-scn/index.html",
+  "dateCreated": "2022-03-04T17:37:38.018Z",
+  "datePublished": "2022-03-04T17:28:05.000Z",
+  "dateModified": "2022-03-04T17:37:38.018Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "考古学家称巨石阵是一个古老的计时系统",
+  "headline_zh-Hant": "考古學家稱巨石陣是一個古老的計時系統",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

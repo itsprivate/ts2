@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30558308",
+  "url": "https://news.ycombinator.com/item?id=30558308",
+  "headline": "Six Things I Learned in Six Years at GitHub",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cmmn_nighthawk",
+    "url": "https://news.ycombinator.com/user?id=cmmn_nighthawk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30558308",
+  "sameAs": "http://sophieshepherd.com/six-years/",
+  "dateCreated": "2022-03-04T18:35:05.461Z",
+  "datePublished": "2022-03-04T18:16:50.000Z",
+  "dateModified": "2022-03-04T18:35:05.461Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在GitHub工作的六年中我学到的六件事",
+  "headline_zh-Hant": "在GitHub工作的六年中我學到的六件事",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
