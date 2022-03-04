@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30549882",
+  "url": "https://news.ycombinator.com/item?id=30549882",
+  "headline": "Adding a GUI to Powershell Scripts (2014)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gscott",
+    "url": "https://news.ycombinator.com/user?id=gscott"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30549882",
+  "sameAs": "https://devblogs.microsoft.com/scripting/ive-got-a-powershell-secret-adding-a-gui-to-scripts/",
+  "dateCreated": "2022-03-04T02:54:37.601Z",
+  "datePublished": "2022-03-04T02:25:09.000Z",
+  "dateModified": "2022-03-04T02:54:37.601Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "为Powershell脚本添加GUI(2014)",
+  "headline_zh-Hant": "為Powershell腳本添加GUI(2014)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
