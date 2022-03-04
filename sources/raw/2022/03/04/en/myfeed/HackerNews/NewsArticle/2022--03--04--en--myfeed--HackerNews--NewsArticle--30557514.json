@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30557514",
+  "url": "https://news.ycombinator.com/item?id=30557514",
+  "headline": "Interactive 3D Visualization of the Shared Mobility Traffic in Berlin",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello HN!<p>Over the last year, I crawled and stored the position of all available bicycles of a large shared mobility provider in Berlin, Germany once a minute (~2.1 billion data points). Subsequently, I calculated 713,562 trip routes as they were likely taken by customers of the provider. The web app linked above provides more background information and visualizes some patterns I find interesting.<p>All 3D map layers are implemented with deck.gl (<a href=\"https://deck.gl\" rel=\"nofollow\">https://deck.gl</a>) and projected on a MapLibre base map (<a href=\"https://maplibre.org\" rel=\"nofollow\">https://maplibre.org</a>). The base map uses self-hosted OpenMapTiles vector tiles (<a href=\"https://openmaptiles.org\" rel=\"nofollow\">https://openmaptiles.org</a>). I store all data inside a Timescale/PostgreSQL database (<a href=\"https://www.timescale.com\" rel=\"nofollow\">https://www.timescale.com</a>) and perform most transformations via standard SQL. All of this is self-hosted on my bare-metal server at Hetzner (<a href=\"https://www.hetzner.com\" rel=\"nofollow\">https://www.hetzner.com</a>).<p>The source code and a short demo video is available on GitHub: <a href=\"https://github.com/laurids-reichardt/berlin-shared-mobility-map\" rel=\"nofollow\">https://github.com/laurids-reichardt/berlin-shared-mobility-...</a><p>I’d love to receive feedback and answer your questions!<p>DISCLAIMER: Searching for collaboration opportunities for my master thesis.<p>I'm currently completing my master’s degree at HTW Berlin and would like to collaborate with an innovative company on an exciting problem or business case for my master thesis. I’m open to both remote work or on-site in Berlin.<p>If you could imagine providing an exciting opportunity in the fields of data engineering or data analytics, or have a tip who might, I'd love to get in touch with you via any of the contacts listed below.<p>Alternatively, leave a comment with your e-mail or contacts, and I’ll send you a message.<p>E-Mail: violets.parr-0c@icloud.com\nGitHub: <a href=\"https://github.com/laurids-reichardt\" rel=\"nofollow\">https://github.com/laurids-reichardt</a>\nTwitter: <a href=\"https://twitter.com/laureichardt\" rel=\"nofollow\">https://twitter.com/laureichardt</a>\nLinkedIn: <a href=\"https://www.linkedin.com/in/laurids-reichardt\" rel=\"nofollow\">https://www.linkedin.com/in/laurids-reichardt</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "reichardt",
+    "url": "https://news.ycombinator.com/user?id=reichardt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30557514",
+  "sameAs": "https://www.lau-rei.de/proj/berlin-shared-mobility-map/",
+  "dateCreated": "2022-03-04T17:37:37.953Z",
+  "datePublished": "2022-03-04T17:18:31.000Z",
+  "dateModified": "2022-03-04T17:37:37.953Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
