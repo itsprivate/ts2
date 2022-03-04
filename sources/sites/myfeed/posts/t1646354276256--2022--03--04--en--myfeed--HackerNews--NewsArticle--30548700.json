@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30548700",
+  "url": "https://news.ycombinator.com/item?id=30548700",
+  "headline": "PicClick – Search eBay Faster",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "john-doe",
+    "url": "https://news.ycombinator.com/user?id=john-doe"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30548700",
+  "sameAs": "https://picclick.com/",
+  "dateCreated": "2022-03-04T00:37:56.256Z",
+  "datePublished": "2022-03-03T23:50:33.000Z",
+  "dateModified": "2022-03-04T00:37:56.256Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "PicClick - 更快地搜索eBay",
+  "headline_zh-Hant": "PicClick - 更快地搜索eBay",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
