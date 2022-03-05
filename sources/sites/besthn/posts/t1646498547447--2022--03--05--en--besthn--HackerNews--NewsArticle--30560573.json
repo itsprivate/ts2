@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30553233",
-  "url": "https://news.ycombinator.com/item?id=30553233",
-  "headline": "Nebula Dashboard: The brain of your Nebula Graph cluster",
+  "identifier": "2022--03--05--en--besthn--HackerNews--NewsArticle--30560573",
+  "url": "https://news.ycombinator.com/item?id=30560573",
+  "headline": "Making CRDTs Byzantine Fault Tolerant [pdf]",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,32 +13,32 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "CupofChineseTea",
-    "url": "https://news.ycombinator.com/user?id=CupofChineseTea"
+    "name": "gbrown_",
+    "url": "https://news.ycombinator.com/user?id=gbrown_"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30553233",
-  "sameAs": "https://nebula-graph.io/posts/introduction-about-nebula-dashboard-enterprise/",
-  "dateCreated": "2022-03-04T11:26:34.813Z",
-  "datePublished": "2022-03-04T11:19:35.000Z",
-  "dateModified": "2022-03-04T11:26:34.813Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30560573",
+  "sameAs": "https://martin.kleppmann.com/papers/bft-crdt-papoc22.pdf",
+  "dateCreated": "2022-03-05T16:42:27.447Z",
+  "datePublished": "2022-03-04T21:05:47.000Z",
+  "dateModified": "2022-03-05T16:42:27.447Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 1
+      "userInteractionCount": 250
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 31
     }
   ],
-  "headline_zh-Hans": "星云仪表板。你的星云图集群的大脑",
-  "headline_zh-Hant": "星雲儀表板。你的星雲圖集群的大腦",
+  "headline_zh-Hans": "使CRDTs具有拜占庭式的容错能力 [pdf]",
+  "headline_zh-Hant": "使CRDTs具有拜占庭式的容錯能力 [pdf]",
   "@context": [
     "https://schema.org",
     {
