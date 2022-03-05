@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--05--en--myfeed--HackerNews--NewsArticle--30572384",
+  "url": "https://news.ycombinator.com/item?id=30572384",
+  "headline": "I invented a “dash encoding”, a new encoding scheme for URL paths",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Tomte",
+    "url": "https://news.ycombinator.com/user?id=Tomte"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30572384",
+  "sameAs": "https://simonwillison.net/2022/Mar/5/dash-encoding/",
+  "dateCreated": "2022-03-05T22:10:17.927Z",
+  "datePublished": "2022-03-05T22:02:50.000Z",
+  "dateModified": "2022-03-05T22:10:17.927Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我发明了一种 \"破折号编码\"，一种用于URL路径的新编码方案",
+  "headline_zh-Hant": "我發明了一種 \"破折號編碼\"，一種用於URL路徑的新編碼方案",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
