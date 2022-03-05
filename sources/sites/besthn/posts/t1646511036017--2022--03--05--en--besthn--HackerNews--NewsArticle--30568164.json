@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--05--en--besthn--HackerNews--NewsArticle--30568164",
+  "url": "https://news.ycombinator.com/item?id=30568164",
+  "headline": "Native Matrix VoIP with Element Call",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Sami_Lehtinen",
+    "url": "https://news.ycombinator.com/user?id=Sami_Lehtinen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30568164",
+  "sameAs": "https://element.io/blog/introducing-native-matrix-voip-with-element-call/",
+  "dateCreated": "2022-03-05T20:10:36.017Z",
+  "datePublished": "2022-03-05T15:06:21.000Z",
+  "dateModified": "2022-03-05T20:10:36.017Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 264
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 71
+    }
+  ],
+  "headline_zh-Hans": "本土Matrix VoIP与Element Call",
+  "headline_zh-Hant": "本土Matrix VoIP與Element Call",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
