@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30553971",
-  "url": "https://news.ycombinator.com/item?id=30553971",
-  "headline": "Russia's second biggest oil company calls for an end to Putin's war",
+  "identifier": "2022--03--05--en--showhn--HackerNews--NewsArticle--30570118",
+  "url": "https://news.ycombinator.com/item?id=30570118",
+  "headline": "Show HN: FlexStr – An immutable, clone-efficient String replacement for Rust",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "smoyer",
-    "url": "https://news.ycombinator.com/user?id=smoyer"
+    "name": "nu11ptr",
+    "url": "https://news.ycombinator.com/user?id=nu11ptr"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30553971",
-  "sameAs": "http://lite.cnn.com/en/article/h_82d1be8846ce53d2662255ae1506b075",
-  "dateCreated": "2022-03-04T13:16:30.475Z",
-  "datePublished": "2022-03-04T12:52:18.000Z",
-  "dateModified": "2022-03-04T13:16:30.475Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30570118",
+  "sameAs": "https://github.com/nu11ptr/flexstr",
+  "dateCreated": "2022-03-05T18:11:53.365Z",
+  "datePublished": "2022-03-05T18:10:42.000Z",
+  "dateModified": "2022-03-05T18:11:53.365Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "俄罗斯第二大石油公司呼吁结束普京的战争",
-  "headline_zh-Hant": "俄羅斯第二大石油公司呼籲結束普京的戰爭",
+  "headline_zh-Hans": "Show HN: FlexStr - Rust的不可变的、克隆效率高的字符串替代品",
+  "headline_zh-Hant": "Show HN: FlexStr - Rust的不可變的、克隆效率高的字符串替代品",
   "@context": [
     "https://schema.org",
     {

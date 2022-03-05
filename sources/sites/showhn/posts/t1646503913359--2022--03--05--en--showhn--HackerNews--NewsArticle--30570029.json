@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--03--04--en--myfeed--HackerNews--NewsArticle--30553940",
-  "url": "https://news.ycombinator.com/item?id=30553940",
-  "headline": "BBC News 'dark web' Tor-mirror in Ukrainian and Russian",
+  "identifier": "2022--03--05--en--showhn--HackerNews--NewsArticle--30570029",
+  "url": "https://news.ycombinator.com/item?id=30570029",
+  "headline": "Show HN: I built a Wordle decoder that guesses your guesses",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "News-Dog",
-    "url": "https://news.ycombinator.com/user?id=News-Dog"
+    "name": "mattlock",
+    "url": "https://news.ycombinator.com/user?id=mattlock"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30553940",
-  "sameAs": "https://www.bbc.com/news/technology-50150981",
-  "dateCreated": "2022-03-04T12:49:51.706Z",
-  "datePublished": "2022-03-04T12:48:40.000Z",
-  "dateModified": "2022-03-04T12:49:51.706Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30570029",
+  "sameAs": "https://github.com/mattruzicka/wordle_decoder",
+  "dateCreated": "2022-03-05T18:11:53.359Z",
+  "datePublished": "2022-03-05T18:02:58.000Z",
+  "dateModified": "2022-03-05T18:11:53.359Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 1
+      "userInteractionCount": 2
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "BBC新闻 \"暗网 \"Tor-mirror的乌克兰语和俄语版本",
-  "headline_zh-Hant": "BBC新聞 \"暗網 \"Tor-mirror的烏克蘭語和俄語版本",
+  "headline_zh-Hans": "Show HN: 我建立了一个Wordle解码器，可以猜出你的猜测",
+  "headline_zh-Hant": "Show HN: 我建立了一個Wordle解碼器，可以猜出你的猜測",
   "@context": [
     "https://schema.org",
     {
