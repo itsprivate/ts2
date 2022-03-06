@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--06--en--showhn--HackerNews--NewsArticle--30575014",
+  "url": "https://news.ycombinator.com/item?id=30575014",
+  "headline": "Show HN: I made a website that encourages you to write more often",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "ICodeSometimes",
+    "url": "https://news.ycombinator.com/user?id=ICodeSometimes"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30575014",
+  "sameAs": "https://writemore.io/",
+  "dateCreated": "2022-03-06T04:39:07.546Z",
+  "datePublished": "2022-03-06T04:24:08.000Z",
+  "dateModified": "2022-03-06T04:39:07.546Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我做了一个网站，鼓励你多写东西",
+  "headline_zh-Hant": "Show HN: 我做了一個網站，鼓勵你多寫東西",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
