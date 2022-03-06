@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--06--en--myfeed--HackerNews--NewsArticle--30575992",
+  "url": "https://news.ycombinator.com/item?id=30575992",
+  "headline": "Tell HN: Google removes Russian news from results",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Searching for &quot;Russia Today&quot; or &quot;Sputnik News&quot; doesn't return their URLs, but does return other related links. Seems to be related to a gov request: https://lumendatabase.org/notices/26927483#",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "supergirl",
+    "url": "https://news.ycombinator.com/user?id=supergirl"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30575992",
+  "sameAs": "https://news.ycombinator.com/item?id=30575992",
+  "dateCreated": "2022-03-06T08:33:20.773Z",
+  "datePublished": "2022-03-06T08:29:51.000Z",
+  "dateModified": "2022-03-06T08:33:20.773Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：谷歌将俄罗斯新闻从结果中删除",
+  "headline_zh-Hant": "告訴HN：谷歌將俄羅斯新聞從結果中刪除",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "搜索&quot;今日俄罗斯&quot;或&quot;斯普特尼克新闻&quot;不会返回它们的网址，但会返回其他相关链接。似乎与政府的要求有关：https://lumendatabase.org/notices/26927483#",
+  "description_zh-Hant": "搜索&quot;今日俄羅斯&quot;或&quot;斯普特尼克新聞&quot;不會返回它們的網址，但會返回其他相關鏈接。似乎與政府的要求有關：https://lumendatabase.org/notices/26927483#"
+}
