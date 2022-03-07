@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--07--en--myfeed--HackerNews--NewsArticle--30589921",
+  "url": "https://news.ycombinator.com/item?id=30589921",
+  "headline": "Space pictures from the Voyager 1 and 2 missions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dylanbfox",
+    "url": "https://news.ycombinator.com/user?id=dylanbfox"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30589921",
+  "sameAs": "https://www.planetary.org/articles/best-space-pictures-nasa-voyager-missions",
+  "dateCreated": "2022-03-07T16:46:58.101Z",
+  "datePublished": "2022-03-07T16:38:20.000Z",
+  "dateModified": "2022-03-07T16:46:58.101Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "旅行者1号和2号任务的太空图片",
+  "headline_zh-Hant": "旅行者1號和2號任務的太空圖片",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
