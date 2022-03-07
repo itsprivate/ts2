@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--07--en--myfeed--HackerNews--NewsArticle--30585723",
+  "url": "https://news.ycombinator.com/item?id=30585723",
+  "headline": "Tell HN: Thailand pass applicants receive malicious code via email",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Me and my girlfriend are planning to go to Thailand. Today we got another email from the Thailand pass people (needed for entry):<p><pre><code>  There is a problem related to the request, please download the attachment and update the information.\n\n  Please prepare your documents for submission at the check-in desk and relevant agencies\n  Passport with visa (if required)\n  Thailand pass QR code (on mobile device or hard copy)\n\n  Download Document\n\n  https://bit.ly/XXXXXXXXXXX\n\n  important note. You must open the document from a PC and not from the phone\n</code></pre>\nThe link is leading to an HTML file hosted on discord, which is prompting the user to download some malicious VBS code.<p>It's easy to detect for technically apt people, but it almost fooled my girlfriend.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "MoSattler",
+    "url": "https://news.ycombinator.com/user?id=MoSattler"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30585723",
+  "sameAs": "https://news.ycombinator.com/item?id=30585723",
+  "dateCreated": "2022-03-07T09:30:00.480Z",
+  "datePublished": "2022-03-07T09:16:00.000Z",
+  "dateModified": "2022-03-07T09:30:00.480Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：泰国签证申请人通过电子邮件收到恶意代码",
+  "headline_zh-Hant": "告訴HN：泰國簽證申請人通過電子郵件收到惡意代碼",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我和我的女朋友正计划去泰国。今天我们又收到了泰国通行证人员的邮件（入境需要）：<p><pre><code>请求的相关问题，请下载附件并更新信息。\n\n  请准备好你的文件，在报到柜台和相关机构提交\n  带签证的护照（如果需要）\n  泰国通行证二维码（在移动设备上或硬拷贝）。\n\n  下载文件\n\n  https://bit.ly/XXXXXXXXXXX\n\n  重要提示。You must open the document from a PC and not from the phone\n</code></pre>\nThe link is leading to an HTML file hosted on discord, which is prompting the user to download some malicious VBS code.<p>It's easy to detect for technically apt people, but it almost fooled my girlfriend.",
+  "description_zh-Hant": "我和我的女朋友正計劃去泰國。今天我們又收到了泰國通行證人員的郵件（入境需要）：<p><pre><code>請求的相關問題，請下載附件並更新信息。\n\n  請準備好你的文件，在報到櫃檯和相關機構提交\n  帶簽證的護照（如果需要）\n  泰國通行證二維碼（在移動設備上或硬拷貝）。\n\n  下載文件\n\n  https://bit.ly/XXXXXXXXXXX\n\n  重要提示。You must open the document from a PC and not from the phone\n</code></pre>\nThe link is leading to an HTML file hosted on discord, which is prompting the user to download some malicious VBS code.<p>It's easy to detect for technically apt people, but it almost fooled my girlfriend."
+}
