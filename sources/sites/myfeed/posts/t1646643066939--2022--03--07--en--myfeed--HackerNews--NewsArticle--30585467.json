@@ -36,5 +36,23 @@
       },
       "userInteractionCount": 0
     }
+  ],
+  "headline_zh-Hans": "我帮助一家初创公司提高了客户保留率并减少了一个主要的痛点",
+  "headline_zh-Hant": "我幫助一家初創公司提高了客戶保留率並減少了一個主要的痛點",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
   ]
 }
