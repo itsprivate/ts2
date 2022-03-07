@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--07--en--myfeed--HackerNews--NewsArticle--30587667",
+  "url": "https://news.ycombinator.com/item?id=30587667",
+  "headline": "How to Use Monads Without Understanding Them",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "elbear",
+    "url": "https://news.ycombinator.com/user?id=elbear"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30587667",
+  "sameAs": "https://elbear.com/how-to-use-monads-without-understanding-them.html",
+  "dateCreated": "2022-03-07T13:52:27.923Z",
+  "datePublished": "2022-03-07T13:47:29.000Z",
+  "dateModified": "2022-03-07T13:52:27.923Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "如何在不了解单体的情况下使用它们",
+  "headline_zh-Hant": "如何在不瞭解單體的情況下使用它們",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
