@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--07--en--myfeed--HackerNews--NewsArticle--30590566",
+  "url": "https://news.ycombinator.com/item?id=30590566",
+  "headline": "Mozilla fixes two critical Firefox flaws that are being actively exploited",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "LinuxBender",
+    "url": "https://news.ycombinator.com/user?id=LinuxBender"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30590566",
+  "sameAs": "https://www.zdnet.com/article/mozilla-fixes-two-critical-firefox-flaws-that-are-being-actively-exploited/",
+  "dateCreated": "2022-03-07T17:32:32.338Z",
+  "datePublished": "2022-03-07T17:22:00.000Z",
+  "dateModified": "2022-03-07T17:32:32.338Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Mozilla修复了两个被积极利用的Firefox关键缺陷",
+  "headline_zh-Hant": "Mozilla修復了兩個被積極利用的Firefox關鍵缺陷",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

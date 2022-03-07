@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--07--en--myfeed--HackerNews--NewsArticle--30590340",
+  "url": "https://news.ycombinator.com/item?id=30590340",
+  "headline": "Web catalogue of Ukraine related nonprofit organisations",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ecopipe",
+    "url": "https://news.ycombinator.com/user?id=ecopipe"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30590340",
+  "sameAs": "https://slavaua.org",
+  "dateCreated": "2022-03-07T17:32:32.270Z",
+  "datePublished": "2022-03-07T17:08:26.000Z",
+  "dateModified": "2022-03-07T17:32:32.270Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "与乌克兰有关的非营利性组织的网络目录",
+  "headline_zh-Hant": "與烏克蘭有關的非營利性組織的網絡目錄",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
