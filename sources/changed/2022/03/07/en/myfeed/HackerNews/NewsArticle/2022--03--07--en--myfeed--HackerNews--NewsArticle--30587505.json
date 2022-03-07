@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--07--en--myfeed--HackerNews--NewsArticle--30587505",
+  "url": "https://news.ycombinator.com/item?id=30587505",
+  "headline": "Develop NLP Web App from Python Notebook",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pplonski86",
+    "url": "https://news.ycombinator.com/user?id=pplonski86"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30587505",
+  "sameAs": "https://mljar.com/blog/nlp-web-app-python-notebook/",
+  "dateCreated": "2022-03-07T13:52:27.815Z",
+  "datePublished": "2022-03-07T13:33:13.000Z",
+  "dateModified": "2022-03-07T13:52:27.815Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "从Python笔记本开发NLP网络应用",
+  "headline_zh-Hant": "從Python筆記本開發NLP網絡應用",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

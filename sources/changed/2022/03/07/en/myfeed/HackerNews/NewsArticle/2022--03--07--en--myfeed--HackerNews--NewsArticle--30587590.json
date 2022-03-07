@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--07--en--myfeed--HackerNews--NewsArticle--30587590",
+  "url": "https://news.ycombinator.com/item?id=30587590",
+  "headline": "Can We Fix San Francisco?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Bostonian",
+    "url": "https://news.ycombinator.com/user?id=Bostonian"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30587590",
+  "sameAs": "https://reason.com/2022/03/07/can-we-fix-san-francisco/",
+  "dateCreated": "2022-03-07T13:52:27.858Z",
+  "datePublished": "2022-03-07T13:40:45.000Z",
+  "dateModified": "2022-03-07T13:52:27.858Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我们能修复旧金山吗？",
+  "headline_zh-Hant": "我們能修復舊金山嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
