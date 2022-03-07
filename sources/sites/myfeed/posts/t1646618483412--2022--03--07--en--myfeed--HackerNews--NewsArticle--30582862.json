@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--07--en--myfeed--HackerNews--NewsArticle--30582862",
+  "url": "https://news.ycombinator.com/item?id=30582862",
+  "headline": "Go Chainable: .map().filter().reduce() in Go",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "davidashe",
+    "url": "https://news.ycombinator.com/user?id=davidashe"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30582862",
+  "sameAs": "https://github.com/neurocollective/go_chainable",
+  "dateCreated": "2022-03-07T02:01:23.412Z",
+  "datePublished": "2022-03-07T00:54:02.000Z",
+  "dateModified": "2022-03-07T02:01:23.412Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Go Chainable: .map().filter().reduce() in Go",
+  "headline_zh-Hant": "Go Chainable: .map().filter().reduce() in Go",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
