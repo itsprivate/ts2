@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--07--en--myfeed--HackerNews--NewsArticle--30589674",
+  "url": "https://news.ycombinator.com/item?id=30589674",
+  "headline": "YouTube Kids Cleaned Up Its Act",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "prostoalex",
+    "url": "https://news.ycombinator.com/user?id=prostoalex"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30589674",
+  "sameAs": "https://www.wsj.com/articles/how-youtube-kids-cleaned-up-its-act-11646476200",
+  "dateCreated": "2022-03-07T16:46:57.971Z",
+  "datePublished": "2022-03-07T16:23:19.000Z",
+  "dateModified": "2022-03-07T16:46:57.971Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "YouTube的孩子们清理了他们的行为",
+  "headline_zh-Hant": "YouTube的孩子們清理了他們的行為",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
