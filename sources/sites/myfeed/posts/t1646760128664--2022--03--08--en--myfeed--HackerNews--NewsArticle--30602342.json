@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30602342",
+  "url": "https://news.ycombinator.com/item?id=30602342",
+  "headline": "ShellSpec – A full-featured BDD unit testing framework for dash, bash, ksh, zsh",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "arunc",
+    "url": "https://news.ycombinator.com/user?id=arunc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30602342",
+  "sameAs": "https://shellspec.info/",
+  "dateCreated": "2022-03-08T17:22:08.664Z",
+  "datePublished": "2022-03-08T17:05:48.000Z",
+  "dateModified": "2022-03-08T17:22:08.664Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "ShellSpec - 一个全功能的BDD单元测试框架，适用于dash、bash、ksh、zsh。",
+  "headline_zh-Hant": "ShellSpec - 一個全功能的BDD單元測試框架，適用於dash、bash、ksh、zsh。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

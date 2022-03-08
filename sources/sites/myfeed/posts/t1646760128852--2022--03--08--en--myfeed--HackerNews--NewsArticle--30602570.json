@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30602570",
+  "url": "https://news.ycombinator.com/item?id=30602570",
+  "headline": "US banning all imports of Russian oil and gas",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dotcoma",
+    "url": "https://news.ycombinator.com/user?id=dotcoma"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30602570",
+  "sameAs": "https://twitter.com/POTUS/status/1501237509853962242",
+  "dateCreated": "2022-03-08T17:22:08.852Z",
+  "datePublished": "2022-03-08T17:20:21.000Z",
+  "dateModified": "2022-03-08T17:22:08.852Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "美国禁止进口所有的俄罗斯石油和天然气",
+  "headline_zh-Hant": "美國禁止進口所有的俄羅斯石油和天然氣",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
