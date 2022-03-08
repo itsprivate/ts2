@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30604568",
+  "url": "https://news.ycombinator.com/item?id=30604568",
+  "headline": "Getting a Sense of the Russian Soul",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hunglee2",
+    "url": "https://news.ycombinator.com/user?id=hunglee2"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30604568",
+  "sameAs": "https://razib.substack.com/p/getting-a-sense-of-the-russian-soul",
+  "dateCreated": "2022-03-08T19:09:13.070Z",
+  "datePublished": "2022-03-08T19:04:30.000Z",
+  "dateModified": "2022-03-08T19:09:13.070Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "感受俄罗斯的灵魂",
+  "headline_zh-Hant": "感受俄羅斯的靈魂",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
