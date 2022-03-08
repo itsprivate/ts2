@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--hackernews--HackerNews--NewsArticle--30604470",
+  "url": "https://news.ycombinator.com/item?id=30604470",
+  "headline": "Apple unveils M1 Ultra, the world’s most powerful chip for a personal computer",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "davidbarker",
+    "url": "https://news.ycombinator.com/user?id=davidbarker"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30604470",
+  "sameAs": "https://www.apple.com/newsroom/2022/03/apple-unveils-m1-ultra-the-worlds-most-powerful-chip-for-a-personal-computer/",
+  "dateCreated": "2022-03-08T19:24:38.992Z",
+  "datePublished": "2022-03-08T19:00:14.000Z",
+  "dateModified": "2022-03-08T19:24:38.992Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 22
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "苹果公司推出M1 Ultra，全球最强大的个人电脑芯片",
+  "headline_zh-Hant": "蘋果公司推出M1 Ultra，全球最強大的個人電腦芯片",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
