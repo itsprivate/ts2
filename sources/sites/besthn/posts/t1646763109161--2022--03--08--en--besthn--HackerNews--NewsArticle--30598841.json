@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--besthn--HackerNews--NewsArticle--30598841",
+  "url": "https://news.ycombinator.com/item?id=30598841",
+  "headline": "Google to Acquire Mandiant",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ideksec",
+    "url": "https://news.ycombinator.com/user?id=ideksec"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30598841",
+  "sameAs": "https://www.mandiant.com/company/press-release/mgc",
+  "dateCreated": "2022-03-08T18:11:49.161Z",
+  "datePublished": "2022-03-08T11:39:50.000Z",
+  "dateModified": "2022-03-08T18:11:49.161Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 254
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 74
+    }
+  ],
+  "headline_zh-Hans": "谷歌将收购Mandiant",
+  "headline_zh-Hant": "谷歌將收購Mandiant",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
