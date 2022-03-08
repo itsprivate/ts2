@@ -39,8 +39,13 @@ sources:
   # https://www.newyorker.com/news/daily-comment 纽约客，每日评论
   - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
     args:
-      - https://www.newyorker.com/feed/news/daily-comment
+      - https://www.newyorker.com/feed/news
     limit: 50
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - https://www.newyorker.com/feed/culture
+    limit: 50
+
   # https://www.mooreds.com/wordpress/
   - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
     args:
