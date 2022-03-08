@@ -1,5 +1,9 @@
 if: true
 sources:
+  - args:
+      - https://www.theatlantic.com/feed/all/
+    limit: 50
+    from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
   - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
     args:
       # - https://actionsflow.github.io/test-page/hn-rss.xml
