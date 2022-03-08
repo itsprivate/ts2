@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30595575",
+  "url": "https://news.ycombinator.com/item?id=30595575",
+  "headline": "YouTube Drama Channels",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "enigmatic02",
+    "url": "https://news.ycombinator.com/user?id=enigmatic02"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30595575",
+  "sameAs": "https://every.to/cybernaut/the-rise-of-youtube-drama-channels",
+  "dateCreated": "2022-03-08T01:58:56.912Z",
+  "datePublished": "2022-03-08T01:47:13.000Z",
+  "dateModified": "2022-03-08T01:58:56.912Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "YouTube戏剧频道",
+  "headline_zh-Hant": "YouTube戲劇頻道",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
