@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30602379",
+  "url": "https://news.ycombinator.com/item?id=30602379",
+  "headline": "First Pre-Sale! It's time to open the Wine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mistermeenr",
+    "url": "https://news.ycombinator.com/user?id=mistermeenr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30602379",
+  "sameAs": "https://www.indiehackers.com/product/sprintdock",
+  "dateCreated": "2022-03-08T17:22:08.680Z",
+  "datePublished": "2022-03-08T17:08:03.000Z",
+  "dateModified": "2022-03-08T17:22:08.680Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "第一次预售! 是时候打开葡萄酒了",
+  "headline_zh-Hant": "第一次預售! 是時候打開葡萄酒了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

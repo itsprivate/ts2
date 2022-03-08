@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30602438",
+  "url": "https://news.ycombinator.com/item?id=30602438",
+  "headline": "The Mount St. Helens Trespasser",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "CapitalistCartr",
+    "url": "https://news.ycombinator.com/user?id=CapitalistCartr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30602438",
+  "sameAs": "https://www.damninteresting.com/the-mount-st-helens-trespasser/",
+  "dateCreated": "2022-03-08T17:22:08.735Z",
+  "datePublished": "2022-03-08T17:12:19.000Z",
+  "dateModified": "2022-03-08T17:22:08.735Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "圣海伦山的闯入者",
+  "headline_zh-Hant": "聖海倫山的闖入者",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
