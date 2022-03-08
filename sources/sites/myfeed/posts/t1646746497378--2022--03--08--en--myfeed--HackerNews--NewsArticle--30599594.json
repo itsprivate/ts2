@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30599594",
+  "url": "https://news.ycombinator.com/item?id=30599594",
+  "headline": "After years of living in Moscow: No one should expect Russians to rise up now",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mudro_zboris",
+    "url": "https://news.ycombinator.com/user?id=mudro_zboris"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30599594",
+  "sameAs": "https://www.marketwatch.com/story/after-years-of-living-in-moscow-i-have-bad-news-no-one-should-expect-the-russian-people-to-suddenly-rise-up-against-putin-now-11646711445",
+  "dateCreated": "2022-03-08T13:34:57.378Z",
+  "datePublished": "2022-03-08T13:24:43.000Z",
+  "dateModified": "2022-03-08T13:34:57.378Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在莫斯科生活多年后。没有人应该指望俄罗斯人现在就能站起来",
+  "headline_zh-Hant": "在莫斯科生活多年後。沒有人應該指望俄羅斯人現在就能站起來",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
