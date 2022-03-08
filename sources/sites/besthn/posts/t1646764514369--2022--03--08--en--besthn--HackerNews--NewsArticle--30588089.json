@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--besthn--HackerNews--NewsArticle--30588089",
+  "url": "https://news.ycombinator.com/item?id=30588089",
+  "headline": "Show HN: All desktop software calculators are wrong, so I had to build my own",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "A new calculator software cannot really bring attention (<a href=\"https://chachatelier.fr/chalk/\" rel=\"nofollow\">https://chachatelier.fr/chalk/</a>)<p>However, I wrote a full article explaining why I had to build something &quot;new&quot; that does not behave like usual desktop calculator softwares :<p>&lt;<a href=\"https://chachatelier.fr/chalk/article/chalk.html\" rel=\"nofollow\">https://chachatelier.fr/chalk/article/chalk.html</a>&gt;<p>TL;DR\nAll &quot;small&quot; calculator softwares I know share the same design flaws. And the GUI is not the only stumbling block in their poor efficiency. Handling correctly numerical approximations - expected or not - is crucial to trust the results. It is usually not done in lightweight tools. It should. So I prove that if I could do it, OS manufacturers could as well.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "chacha21",
+    "url": "https://news.ycombinator.com/user?id=chacha21"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30588089",
+  "sameAs": "https://news.ycombinator.com/item?id=30588089",
+  "dateCreated": "2022-03-08T18:35:14.369Z",
+  "datePublished": "2022-03-07T14:20:35.000Z",
+  "dateModified": "2022-03-08T18:35:14.369Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 152
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 所有的桌面软件计算器都是错误的，所以我不得不建立自己的",
+  "headline_zh-Hant": "Show HN: 所有的桌面軟件計算器都是錯誤的，所以我不得不建立自己的",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "一个新的计算器软件不能真正带来关注（<a href=\"https://chachatelier.fr/chalk/\" rel=\"nofollow\">https://chachatelier.fr/chalk/</a>）<p>然而，我写了一篇完整的文章，解释我为什么要建立一个&quot;新&quot;的东西，它的行为与通常的桌面计算器软件不同：<p>&lt;<a href=\"https://chachatelier.fr/chalk/article/chalk.html\" rel=\"nofollow\">https://chachatelier.fr/chalk/article/chalk.html</a>&gt;<p>TL; DR\n我所知道的所有&quot;小&quot;计算器软件都有相同的设计缺陷。而且GUI并不是它们效率低下的唯一绊脚石。正确处理数字近似值--无论是否预期--对于信任结果至关重要。在轻量级工具中通常没有这样做。它应该这样做。所以我证明，如果我可以做到，操作系统制造商也可以。",
+  "description_zh-Hant": "一個新的計算器軟件不能真正帶來關注（<a href=\"https://chachatelier.fr/chalk/\" rel=\"nofollow\">https://chachatelier.fr/chalk/</a>）<p>然而，我寫了一篇完整的文章，解釋我為什麼要建立一個&quot;新&quot;的東西，它的行為與通常的桌面計算器軟件不同：<p>&lt;<a href=\"https://chachatelier.fr/chalk/article/chalk.html\" rel=\"nofollow\">https://chachatelier.fr/chalk/article/chalk.html</a>&gt;<p>TL; DR\n我所知道的所有&quot;小&quot;計算器軟件都有相同的設計缺陷。而且GUI並不是它們效率低下的唯一絆腳石。正確處理數字近似值--無論是否預期--對於信任結果至關重要。在輕量級工具中通常沒有這樣做。它應該這樣做。所以我證明，如果我可以做到，操作系統製造商也可以。"
+}
