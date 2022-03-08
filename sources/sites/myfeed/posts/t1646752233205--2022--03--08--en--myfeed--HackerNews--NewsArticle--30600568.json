@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30600568",
+  "url": "https://news.ycombinator.com/item?id=30600568",
+  "headline": "Kickstart your personal portfolio with GitHub API and blog",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "ezProfile is an easy-to-customize personal dev portfolio builder that is created with React.js. When you manage the code in a GitHub repository, it will automatically render a webpage with the owner's profile information, including a photo, bio, and public repositories. Also, it includes space to highlight your details, job history, education history, skills, and recent blog posts.<p>https://github.com/arifszn/ezprofile",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "arifszn",
+    "url": "https://news.ycombinator.com/user?id=arifszn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30600568",
+  "sameAs": "https://news.ycombinator.com/item?id=30600568",
+  "dateCreated": "2022-03-08T15:10:33.205Z",
+  "datePublished": "2022-03-08T14:57:44.000Z",
+  "dateModified": "2022-03-08T15:10:33.205Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "用GitHub API和博客启动你的个人投资组合",
+  "headline_zh-Hant": "用GitHub API和博客啟動你的個人投資組合",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "ezProfile是一个易于定制的个人开发组合构建器，是用React.js创建的。当你管理GitHub仓库中的代码时，它将自动呈现一个网页，上面有主人的个人资料信息，包括照片、简历和公共仓库。此外，它还包括突出你的详细资料、工作历史、教育历史、技能和最近的博客文章的空间。<p>https://github.com/arifszn/ezprofile",
+  "description_zh-Hant": "ezProfile是一個易於定製的個人開發組合構建器，是用React.js創建的。當你管理GitHub倉庫中的代碼時，它將自動呈現一個網頁，上面有主人的個人資料信息，包括照片、簡歷和公共倉庫。此外，它還包括突出你的詳細資料、工作歷史、教育歷史、技能和最近的博客文章的空間。<p>https://github.com/arifszn/ezprofile"
+}
