@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30601696",
+  "url": "https://news.ycombinator.com/item?id=30601696",
+  "headline": "Virtually Prototype Hardware on the Cloud",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "annielu689",
+    "url": "https://news.ycombinator.com/user?id=annielu689"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30601696",
+  "sameAs": "https://blog.saharacloud.io/betademo/",
+  "dateCreated": "2022-03-08T16:45:51.263Z",
+  "datePublished": "2022-03-08T16:23:41.000Z",
+  "dateModified": "2022-03-08T16:45:51.263Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在云上进行虚拟的硬件原型设计",
+  "headline_zh-Hant": "在雲上進行虛擬的硬件原型設計",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

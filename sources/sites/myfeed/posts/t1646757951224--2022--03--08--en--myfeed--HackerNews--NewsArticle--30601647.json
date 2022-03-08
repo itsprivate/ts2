@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30601647",
+  "url": "https://news.ycombinator.com/item?id=30601647",
+  "headline": "United Nations advises staff against using ‘war’ or ‘invasion’ regarding Ukraine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "georgecmu",
+    "url": "https://news.ycombinator.com/user?id=georgecmu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30601647",
+  "sameAs": "https://www.irishtimes.com/news/world/united-nations-advises-staff-against-using-war-or-invasion-regarding-ukraine-1.4821438",
+  "dateCreated": "2022-03-08T16:45:51.224Z",
+  "datePublished": "2022-03-08T16:19:57.000Z",
+  "dateModified": "2022-03-08T16:45:51.224Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "联合国建议工作人员不要对乌克兰使用 \"战争 \"或 \"入侵\"。",
+  "headline_zh-Hant": "聯合國建議工作人員不要對烏克蘭使用 \"戰爭 \"或 \"入侵\"。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
