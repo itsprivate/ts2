@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--09--en--askhn--HackerNews--NewsArticle--30613315",
+  "url": "https://news.ycombinator.com/item?id=30613315",
+  "headline": "How to recognise image when parts of it may be occluded?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Problem: Given a frame from a mobile camera's video stream, I need to pick a reference image (from a corpus of images) that the given frame most closely resembles.  Input: Mobile frame, Output: file name of reference image. Sort of like a mobile version of TinEye or Google image search, except that the corpus is at most a few thousand images.<p>I can constrain the problem further. I can make sure that the mobile camera is positioned at about the same angle that the reference images were taken; but the mobile used to capture the reference may not be the same as the one 'in the field'; given the differences in resolution, lighting, different types of mobile camera specs etc, the images are bound to differ.<p>Second, it is possible that some part of the image to be identified is occluded (like a hand or a paper weight).<p>This needs to work on Android (which I am new to), and I don't have much of a background in image recognition. Ideally, if there is a way to fingerprint/hash the image in a way that is resistant to occlusion, rotation etc, and perhaps even the angle it is viewed from, that would be nice.  I have thought of using Unity+Vuforia, OpenCV, perceptual hashing (phash) but I'd be very grateful for comments from experienced devs. Thank you all.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "sriram_malhar",
+    "url": "https://news.ycombinator.com/user?id=sriram_malhar"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30613315",
+  "sameAs": "https://news.ycombinator.com/item?id=30613315",
+  "dateCreated": "2022-03-09T12:02:50.164Z",
+  "datePublished": "2022-03-09T11:19:43.000Z",
+  "dateModified": "2022-03-09T12:02:50.164Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
