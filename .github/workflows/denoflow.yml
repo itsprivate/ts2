@@ -28,8 +28,8 @@ jobs:
           REDDIT_HNZHBOT_BASIC: ${{secrets.REDDIT_HNZHBOT_BASIC}}
           REDDIT_HNZHBOT_BODY: ${{secrets.REDDIT_HNZHBOT_BODY}}
         continue-on-error: true
-      - name: chown
-        run: sudo chown -R $USER:$USER ./
+      # - name: chown
+      #   run: sudo chown -R $USER:$USER ./
       - name: git config
         run: git config --global user.name "github-actions[bot]" && git config --global user.email github-actions-bot@users.noreply.github.com
       - name: git add
