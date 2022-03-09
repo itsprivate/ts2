@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30600192",
+  "url": "https://news.ycombinator.com/item?id=30600192",
+  "headline": "I'm leaving Rails core and I'm not interested in being in the alumni",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ksec",
+    "url": "https://news.ycombinator.com/user?id=ksec"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30600192",
+  "sameAs": "https://github.com/rails/website/pull/27",
+  "dateCreated": "2022-03-08T14:36:21.029Z",
+  "datePublished": "2022-03-08T14:26:46.000Z",
+  "dateModified": "2022-03-08T14:36:21.029Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "我将离开Rails核心，我对加入校友会不感兴趣",
+  "headline_zh-Hant": "我將離開Rails核心，我對加入校友會不感興趣",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

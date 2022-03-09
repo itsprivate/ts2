@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30600956",
+  "url": "https://news.ycombinator.com/item?id=30600956",
+  "headline": "The Analytics Everywhere Podcast by Maxime Beauchemin",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "skadamat",
+    "url": "https://news.ycombinator.com/user?id=skadamat"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30600956",
+  "sameAs": "https://preset.io/blog/analytics-everywhere-podcast/",
+  "dateCreated": "2022-03-08T15:44:45.793Z",
+  "datePublished": "2022-03-08T15:32:58.000Z",
+  "dateModified": "2022-03-08T15:44:45.793Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Maxime Beauchemin的The Analytics Everywhere Podcast",
+  "headline_zh-Hant": "Maxime Beauchemin的The Analytics Everywhere Podcast",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

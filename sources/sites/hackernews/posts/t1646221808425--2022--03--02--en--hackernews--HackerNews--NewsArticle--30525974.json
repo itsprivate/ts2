@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--hackernews--HackerNews--NewsArticle--30525974",
+  "url": "https://news.ycombinator.com/item?id=30525974",
+  "headline": "Don't Write Just in Plain Text (Longevity vs. Authenticity)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "yumiris",
+    "url": "https://news.ycombinator.com/user?id=yumiris"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30525974",
+  "sameAs": "https://blog.miris.design/not-just-plain-text",
+  "dateCreated": "2022-03-02T11:50:08.425Z",
+  "datePublished": "2022-03-02T10:59:46.000Z",
+  "dateModified": "2022-03-02T11:50:08.425Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "不要只写纯文本（长期性与真实性）。",
+  "headline_zh-Hant": "不要只寫純文本（長期性與真實性）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

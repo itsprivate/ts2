@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--06--en--showhn--HackerNews--NewsArticle--30581451",
+  "url": "https://news.ycombinator.com/item?id=30581451",
+  "headline": "Show HN: Lovenotwar.js a minimalist banner to stand for peace",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "javierluraschi",
+    "url": "https://news.ycombinator.com/user?id=javierluraschi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30581451",
+  "sameAs": "https://github.com/hal9ai/lovenotwar",
+  "dateCreated": "2022-03-06T21:36:54.565Z",
+  "datePublished": "2022-03-06T21:30:19.000Z",
+  "dateModified": "2022-03-06T21:36:54.565Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Lovenotwar.js 一个代表和平的极简主义旗帜",
+  "headline_zh-Hant": "Show HN: Lovenotwar.js 一個代表和平的極簡主義旗幟",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

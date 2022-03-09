@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--hackernews--HackerNews--NewsArticle--30540704",
+  "url": "https://news.ycombinator.com/item?id=30540704",
+  "headline": "New Windows 11 test build wants your credit card info",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "thesuperbigfrog",
+    "url": "https://news.ycombinator.com/user?id=thesuperbigfrog"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30540704",
+  "sameAs": "https://www.pcworld.com/article/618957/new-windows-11-test-build-wants-to-know-your-credit-card.html",
+  "dateCreated": "2022-03-03T14:28:15.897Z",
+  "datePublished": "2022-03-03T13:30:04.000Z",
+  "dateModified": "2022-03-03T14:28:15.897Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "新的Windows 11测试版本想要你的信用卡信息",
+  "headline_zh-Hant": "新的Windows 11測試版本想要你的信用卡信息",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

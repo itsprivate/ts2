@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30605029",
+  "url": "https://news.ycombinator.com/item?id=30605029",
+  "headline": "ARM1 and Apple M1 Ultra at the same scale",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "doomlaser",
+    "url": "https://news.ycombinator.com/user?id=doomlaser"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30605029",
+  "sameAs": "https://twitter.com/kenshirriff/status/1501276448291651588",
+  "dateCreated": "2022-03-08T19:24:39.232Z",
+  "datePublished": "2022-03-08T19:23:19.000Z",
+  "dateModified": "2022-03-08T19:24:39.232Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "相同规模的ARM1和苹果M1 Ultra",
+  "headline_zh-Hant": "相同規模的ARM1和蘋果M1 Ultra",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

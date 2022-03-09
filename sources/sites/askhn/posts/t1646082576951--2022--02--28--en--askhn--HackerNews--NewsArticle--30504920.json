@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--askhn--HackerNews--NewsArticle--30504920",
+  "url": "https://news.ycombinator.com/item?id=30504920",
+  "headline": "Ask HN: What are your thoughts on Prisma (ORM)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN!<p>I'm currently in the process of building out the &quot;infrastructure&quot; for my capstone project (last year project we do in school). We'll be using GraphQL and Apollo, although we're stuck on which ORM to use.<p>We've taken a look at Prisma, but honestly, I'm not sure what approach is best, SDL first or code first?<p>Would love to hear some opinions from those who have used Prisma!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "unavailableuser",
+    "url": "https://news.ycombinator.com/user?id=unavailableuser"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30504920",
+  "sameAs": "https://news.ycombinator.com/item?id=30504920",
+  "dateCreated": "2022-02-28T21:09:36.951Z",
+  "datePublished": "2022-02-28T20:48:45.000Z",
+  "dateModified": "2022-02-28T21:09:36.951Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你对Prisma（ORM）有什么看法？",
+  "headline_zh-Hant": "Ask HN: 你對Prisma（ORM）有什麼看法？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN！<p>我目前正在为我的毕业设计（我们在学校做的最后一年的项目）建立&quot;基础设施&quot;。我们将使用GraphQL和Apollo，尽管我们在使用哪种ORM上遇到了困难。<p>我们已经看了一下Prisma，但说实话，我不确定哪种方法最好，SDL优先还是代码优先？",
+  "description_zh-Hant": "嗨，HN！<p>我目前正在為我的畢業設計（我們在學校做的最後一年的項目）建立&quot;基礎設施&quot;。我們將使用GraphQL和Apollo，儘管我們在使用哪種ORM上遇到了困難。<p>我們已經看了一下Prisma，但說實話，我不確定哪種方法最好，SDL優先還是代碼優先？"
+}

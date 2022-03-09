@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30600363",
+  "url": "https://news.ycombinator.com/item?id=30600363",
+  "headline": "`work-mode` for when you use your personal computer at work",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kuberlog",
+    "url": "https://news.ycombinator.com/user?id=kuberlog"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30600363",
+  "sameAs": "https://github.com/kuberlog/work-mode",
+  "dateCreated": "2022-03-08T14:50:14.191Z",
+  "datePublished": "2022-03-08T14:40:32.000Z",
+  "dateModified": "2022-03-08T14:50:14.191Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "当你在工作中使用你的个人电脑时，\"工作模式\"。",
+  "headline_zh-Hant": "當你在工作中使用你的個人電腦時，\"工作模式\"。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

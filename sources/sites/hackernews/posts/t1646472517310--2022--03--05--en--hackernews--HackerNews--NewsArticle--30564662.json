@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--05--en--hackernews--HackerNews--NewsArticle--30564662",
+  "url": "https://news.ycombinator.com/item?id=30564662",
+  "headline": "AI Model Detects Mental Disorders Based on Web Posts",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "webmaven",
+    "url": "https://news.ycombinator.com/user?id=webmaven"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30564662",
+  "sameAs": "https://home.dartmouth.edu/news/2022/03/ai-model-detects-mental-disorders-based-web-posts",
+  "dateCreated": "2022-03-05T09:28:37.310Z",
+  "datePublished": "2022-03-05T05:41:55.000Z",
+  "dateModified": "2022-03-05T09:28:37.310Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "人工智能模型根据网络帖子检测精神疾病",
+  "headline_zh-Hant": "人工智能模型根據網絡帖子檢測精神疾病",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

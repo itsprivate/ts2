@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30602390",
+  "url": "https://news.ycombinator.com/item?id=30602390",
+  "headline": "20MB is all you need for speech-to-text",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kenarsa",
+    "url": "https://news.ycombinator.com/user?id=kenarsa"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30602390",
+  "sameAs": "https://medium.com/picovoice/20-mb-is-all-you-need-for-speech-to-text-7e701b7f6bfc",
+  "dateCreated": "2022-03-08T17:22:08.695Z",
+  "datePublished": "2022-03-08T17:09:12.000Z",
+  "dateModified": "2022-03-08T17:22:08.695Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "语音转文字所需的20MB就够了",
+  "headline_zh-Hant": "語音轉文字所需的20MB就夠了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

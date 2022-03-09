@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--06--en--hackernews--HackerNews--NewsArticle--30567090",
+  "url": "https://news.ycombinator.com/item?id=30567090",
+  "headline": "Nosferatu: The monster who still terrifies, 100 years on",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Turukawa",
+    "url": "https://news.ycombinator.com/user?id=Turukawa"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30567090",
+  "sameAs": "https://www.bbc.com/culture/article/20220303-nosferatu-the-monster-who-still-terrifies-100-years-on",
+  "dateCreated": "2022-03-06T14:50:11.262Z",
+  "datePublished": "2022-03-05T12:50:33.000Z",
+  "dateModified": "2022-03-06T14:50:11.262Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "诺斯费拉图：100年后仍然令人恐惧的怪物",
+  "headline_zh-Hant": "諾斯費拉圖：100年後仍然令人恐懼的怪物",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

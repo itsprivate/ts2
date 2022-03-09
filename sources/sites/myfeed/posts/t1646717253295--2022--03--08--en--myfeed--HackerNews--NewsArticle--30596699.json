@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30596699",
+  "url": "https://news.ycombinator.com/item?id=30596699",
+  "headline": "What Is IO Monad?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "zamalek",
+    "url": "https://news.ycombinator.com/user?id=zamalek"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30596699",
+  "sameAs": "https://www.youtube.com/watch?v=fCoQb-zqYDI",
+  "dateCreated": "2022-03-08T05:27:33.295Z",
+  "datePublished": "2022-03-08T05:19:51.000Z",
+  "dateModified": "2022-03-08T05:27:33.295Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "什么是IO单体？",
+  "headline_zh-Hant": "什麼是IO單體？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

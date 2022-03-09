@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--askhn--HackerNews--NewsArticle--30502412",
+  "url": "https://news.ycombinator.com/item?id=30502412",
+  "headline": "Ask HN: Should I use time-series DB for real-time chat app?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I’m working on a side project (Slack clone) and am not certain if using a time-series database is appropriate for a chat based app.<p>Even though messages are chronological in order (time based), people might want to start a new thread on a previous message that isn’t the most current message. So the hierarchy isn’t just the time a message was sent, but it’s also based on the message that it’s being responded too as well.<p>As such, I’m not certain if using a time series database is the appropriate use for a chat app.<p>Thoughts?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "tiffanyh",
+    "url": "https://news.ycombinator.com/user?id=tiffanyh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30502412",
+  "sameAs": "https://news.ycombinator.com/item?id=30502412",
+  "dateCreated": "2022-02-28T17:38:53.992Z",
+  "datePublished": "2022-02-28T17:27:07.000Z",
+  "dateModified": "2022-02-28T17:38:53.992Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我应该为实时聊天应用程序使用时间序列数据库吗？",
+  "headline_zh-Hant": "Ask HN: 我應該為實時聊天應用程序使用時間序列數據庫嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在做一个辅助项目（克隆 Slack），我不确定使用时间序列数据库是否适合基于聊天的应用程序。<p>尽管消息是按时间顺序排列的（基于时间），但人们可能想在以前的消息上启动一个新的线程，而这个消息并不是最新的。因此，层次结构不仅仅是消息的发送时间，它也是基于被回应的消息。<p>因此，我不确定使用时间序列数据库是否适合用于聊天应用程序。<p>有什么想法？",
+  "description_zh-Hant": "我正在做一個輔助項目（克隆 Slack），我不確定使用時間序列數據庫是否適合基於聊天的應用程序。<p>儘管消息是按時間順序排列的（基於時間），但人們可能想在以前的消息上啟動一個新的線程，而這個消息並不是最新的。因此，層次結構不僅僅是消息的發送時間，它也是基於被迴應的消息。<p>因此，我不確定使用時間序列數據庫是否適合用於聊天應用程序。<p>有什麼想法？"
+}

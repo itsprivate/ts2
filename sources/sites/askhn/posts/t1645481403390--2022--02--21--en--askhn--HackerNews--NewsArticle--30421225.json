@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--21--en--askhn--HackerNews--NewsArticle--30421225",
+  "url": "https://news.ycombinator.com/item?id=30421225",
+  "headline": "Ask HN: Cloudflare for Hosting Code Files?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm interested in using Cloudflare to serve up some code modules for others to download. I'm having some difficulty figuring out which product I should be looking at; I'm not even 100% sure that Cloudflare is where I should be looking in the first place:<p>- R2 is supposed to be their version of S3. But the materials are focused on storing large blobs, etc, which sounds like it might be overkill. I also would want my resources to end up on a CDN, and I don't know if R2 is the route you're supposed to take for that.<p>- Pages: obviously intended for serving a static site, but I'm wondering if it could be used/would make sense to use for smallish non-web text files<p>- Cloudflare CDN: it's hard to tell whether this is something you use directly, or whether it gets layered on top of other things like Pages and R2. It has some sort of API, but I couldn't find anything in the docs about how to &quot;just upload a file&quot;.<p>This isn't really my area so any help is appreciated. Just want to serve up some files, distribute them via CDN, and occasionally push up new ones from CI.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "brundolf",
+    "url": "https://news.ycombinator.com/user?id=brundolf"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30421225",
+  "sameAs": "https://news.ycombinator.com/item?id=30421225",
+  "dateCreated": "2022-02-21T22:10:03.390Z",
+  "datePublished": "2022-02-21T22:03:44.000Z",
+  "dateModified": "2022-02-21T22:10:03.390Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Cloudflare用于托管代码文件？",
+  "headline_zh-Hant": "Ask HN: Cloudflare用於託管代碼文件？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我对使用Cloudflare来提供一些代码模块供他人下载感兴趣。我很难弄清楚我应该看哪个产品；我甚至不能100%确定Cloudflare是我应该首先看的地方：<p>- R2应该是他们的S3版本。但是，这些材料主要是用来存储大型的Blobs等，这听起来可能是过犹不及。我也想让我的资源最终出现在CDN上，我不知道R2是否是你应该采取的途径。<p>- Pages：显然是为静态网站服务的，但我想知道它是否可以用于/有意义地用于小型非网络文本文件<p>- Cloudflare CDN：很难说这是否是你直接使用的东西，或者它是否被分层在其他东西上，如Pages和R2。它有某种API，但我在文档中找不到任何关于如何&quot;直接上传文件&quot;的内容。<p>这其实不是我的领域，所以感谢任何帮助。我只想提供一些文件，通过 CDN 分发这些文件，并偶尔从 CI 推送新的文件。",
+  "description_zh-Hant": "我對使用Cloudflare來提供一些代碼模塊供他人下載感興趣。我很難弄清楚我應該看哪個產品；我甚至不能100%確定Cloudflare是我應該首先看的地方：<p>- R2應該是他們的S3版本。但是，這些材料主要是用來存儲大型的Blobs等，這聽起來可能是過猶不及。我也想讓我的資源最終出現在CDN上，我不知道R2是否是你應該採取的途徑。<p>- Pages：顯然是為靜態網站服務的，但我想知道它是否可以用於/有意義地用於小型非網絡文本文件<p>- Cloudflare CDN：很難說這是否是你直接使用的東西，或者它是否被分層在其他東西上，如Pages和R2。它有某種API，但我在文檔中找不到任何關於如何&quot;直接上傳文件&quot;的內容。<p>這其實不是我的領域，所以感謝任何幫助。我只想提供一些文件，通過 CDN 分發這些文件，並偶爾從 CI 推送新的文件。"
+}

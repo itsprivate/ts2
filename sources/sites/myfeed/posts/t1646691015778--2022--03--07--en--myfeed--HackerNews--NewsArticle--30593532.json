@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--07--en--myfeed--HackerNews--NewsArticle--30593532",
+  "url": "https://news.ycombinator.com/item?id=30593532",
+  "headline": "Some questions about computer architectures",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi. Sorry for bad English, i'm from Germany. I'm developing my own instruction set architecture. I wanna ask advanced developers about possible pitfalls like slowdown or increased heat dissipation etc. in relation to arch described lower.\nSo, the main properties is: my instruction set uses SWAR approach - long common register, 256 bit wide, data is packed into bunches up to register width, and for every register-register instructions (except logical and bit twiddling) there are 4 different versions of them - 16, 32, 64 and 128 bits per unit of data, and so, 16/8/4/2 units per bunch. (It's not necessary to fill the registers completely, each register-register operation works &quot;separately&quot;, so, you just ignore higher bits, use only lower and later extract it as you need). Also, it's VLIW architecture - instructions itself are packed into bunches 256 bit wide. But here's the problem: instruction length is not fixed. (Also remember that in VLIW there are frequent NOP's, and it's big waste of memory).\nThe problem of data density is easy to solve - in my ISA there're also load/store instructions that loads or stores only small amounts of data (16, 32, 64 or 128 bit) instead of manipulating full bunches. But if i use the same approach to instruction bunches, i will need to introduce fetch meta-instructions. So, i came up with a different approach.\nFirstly, 256 bits are loaded into instruction register, starting at the address specified in the instruction pointer. First 4 bits of instruction bunch mean the amount of instructions in it. Next comes the opcode, based on which the length of instruction (with all registers/addresses/immediates) is computed. It repeat as many times as indicated in the first 4 bits of bunch. Other bits are ignored. After that, the instruction pointer increments to amount that is calculated from readed instructions, plus alignment. Bunches are aligned to fit into 16-bit memory cells. (My ISA uses 16 bit cells instead of 8).\nMy main questions: Wouldn't decoder be too complicated? Will it dissipate too much energy or not? What are the pitfalls regarding jump/interrupt instructions? And what do you personally think about this idea?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hexatron",
+    "url": "https://news.ycombinator.com/user?id=hexatron"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30593532",
+  "sameAs": "https://news.ycombinator.com/item?id=30593532",
+  "dateCreated": "2022-03-07T22:10:15.778Z",
+  "datePublished": "2022-03-07T21:26:53.000Z",
+  "dateModified": "2022-03-07T22:10:15.778Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "关于计算机结构的一些问题",
+  "headline_zh-Hant": "關於計算機結構的一些問題",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，对不起，我的英语不好，我来自德国。我正在开发自己的指令集架构。我想请教高级开发人员，关于可能存在的隐患，如减速或增加散热等，与所述的拱形结构有关的低。\n所以，主要的特性是：我的指令集使用SWAR方法--长的公共寄存器，256位宽，数据被包装成与寄存器宽度相同的束，对于每一个寄存器-寄存器指令（除了逻辑和位操作），有4个不同的版本--每单位数据有16、32、64和128位，所以，每束有16/8/4/2个单位。(没有必要完全填满寄存器，每个寄存器-寄存器操作都是单独工作的，所以，你只要忽略高位，只使用低位，以后根据需要提取）。另外，它是VLIW架构--指令本身被打包成256位宽的束。但问题是：指令的长度是不固定的。(还要记住，在VLIW中，经常有NOP，这是对内存的巨大浪费）。\n数据密度的问题很容易解决--在我的ISA中也有加载/存储指令，只加载或存储少量的数据（16、32、64或128位），而不是操作整串数据。但是，如果我对指令束使用同样的方法，我就需要引入获取元指令。所以，我想出了一个不同的方法。\n首先，256位被加载到指令寄存器中，从指令指针中指定的地址开始。指令束的前4位意味着其中的指令量。接下来是操作码，在此基础上计算出指令的长度（包括所有寄存器/地址/中介）。它重复的次数与一堆指令中的前4位一样多。其他位被忽略。在这之后，指令指针增加到从已读指令计算出来的数量，再加上对齐。丛集被对齐以适应16位内存单元。(我的ISA使用16位单元而不是8位）。\n我的主要问题是。解码器会不会太复杂？它是否会耗费太多的能量？关于跳转/中断指令，有什么隐患？你个人对这个想法有什么看法？",
+  "description_zh-Hant": "嗨，對不起，我的英語不好，我來自德國。我正在開發自己的指令集架構。我想請教高級開發人員，關於可能存在的隱患，如減速或增加散熱等，與所述的拱形結構有關的低。\n所以，主要的特性是：我的指令集使用SWAR方法--長的公共寄存器，256位寬，數據被包裝成與寄存器寬度相同的束，對於每一個寄存器-寄存器指令（除了邏輯和位操作），有4個不同的版本--每單位數據有16、32、64和128位，所以，每束有16/8/4/2個單位。(沒有必要完全填滿寄存器，每個寄存器-寄存器操作都是單獨工作的，所以，你只要忽略高位，只使用低位，以後根據需要提取）。另外，它是VLIW架構--指令本身被打包成256位寬的束。但問題是：指令的長度是不固定的。(還要記住，在VLIW中，經常有NOP，這是對內存的巨大浪費）。\n數據密度的問題很容易解決--在我的ISA中也有加載/存儲指令，只加載或存儲少量的數據（16、32、64或128位），而不是操作整串數據。但是，如果我對指令束使用同樣的方法，我就需要引入獲取元指令。所以，我想出了一個不同的方法。\n首先，256位被加載到指令寄存器中，從指令指針中指定的地址開始。指令束的前4位意味著其中的指令量。接下來是操作碼，在此基礎上計算出指令的長度（包括所有寄存器/地址/中介）。它重複的次數與一堆指令中的前4位一樣多。其他位被忽略。在這之後，指令指針增加到從已讀指令計算出來的數量，再加上對齊。叢集被對齊以適應16位內存單元。(我的ISA使用16位單元而不是8位）。\n我的主要問題是。解碼器會不會太複雜？它是否會耗費太多的能量？關於跳轉/中斷指令，有什麼隱患？你個人對這個想法有什麼看法？"
+}

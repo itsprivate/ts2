@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--06--en--hackernews--HackerNews--NewsArticle--30575738",
+  "url": "https://news.ycombinator.com/item?id=30575738",
+  "headline": "Send a text message about Ukraine to a random Russian mobile number",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kuba-orlik",
+    "url": "https://news.ycombinator.com/user?id=kuba-orlik"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30575738",
+  "sameAs": "http://1920.in/",
+  "dateCreated": "2022-03-06T07:49:53.467Z",
+  "datePublished": "2022-03-06T07:29:37.000Z",
+  "dateModified": "2022-03-06T07:49:53.467Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 11
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "向一个随机的俄罗斯手机号码发送一条关于乌克兰的短信",
+  "headline_zh-Hant": "向一個隨機的俄羅斯手機號碼發送一條關於烏克蘭的短信",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--hackernews--HackerNews--NewsArticle--30519977",
+  "url": "https://news.ycombinator.com/item?id=30519977",
+  "headline": "Wireshark Labs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mooreds",
+    "url": "https://news.ycombinator.com/user?id=mooreds"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30519977",
+  "sameAs": "https://gaia.cs.umass.edu/kurose_ross/wireshark.php",
+  "dateCreated": "2022-03-02T02:02:09.800Z",
+  "datePublished": "2022-03-01T21:04:16.000Z",
+  "dateModified": "2022-03-02T02:02:09.800Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 17
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "线鲨实验室",
+  "headline_zh-Hant": "線鯊實驗室",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--07--en--besthn--HackerNews--NewsArticle--30572581",
+  "url": "https://news.ycombinator.com/item?id=30572581",
+  "headline": "MasterCard suspends all services in Russia",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bradvl",
+    "url": "https://news.ycombinator.com/user?id=bradvl"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30572581",
+  "sameAs": "https://www.mastercard.com/news/press/2022/march/mastercard-statement-on-suspension-of-russian-operations/",
+  "dateCreated": "2022-03-07T14:50:25.947Z",
+  "datePublished": "2022-03-05T22:26:34.000Z",
+  "dateModified": "2022-03-07T14:50:25.947Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 353
+    }
+  ],
+  "headline_zh-Hans": "万事达卡暂停在俄罗斯的所有服务",
+  "headline_zh-Hant": "萬事達卡暫停在俄羅斯的所有服務",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--21--en--showhn--HackerNews--NewsArticle--30414784",
+  "url": "https://news.ycombinator.com/item?id=30414784",
+  "headline": "Show HN: TopSpace – Scroll above the top line in Emacs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "This is an Emacs minor mode I made in my spare time this past year.\nIt lets you scroll above the top line to vertically center top text in Emacs.<p>I made it out of my own necessity for the feature and it is very useful when using Emacs in full-screen with tall/large monitors. As monitors have been getting larger for many years now, I'm actually amazed that this kind of feature isn't more available in text editors or other software like internet browsers etc.<p>Let me know what you think or if you have any suggestions!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "emacs28",
+    "url": "https://news.ycombinator.com/user?id=emacs28"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30414784",
+  "sameAs": "https://github.com/trevorpogue/topspace",
+  "dateCreated": "2022-02-21T12:15:20.318Z",
+  "datePublished": "2022-02-21T11:56:13.000Z",
+  "dateModified": "2022-02-21T12:15:20.318Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: TopSpace - 在Emacs的顶行上方滚动",
+  "headline_zh-Hant": "Show HN: TopSpace - 在Emacs的頂行上方滾動",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "这是去年我利用业余时间做的一个Emacs小模式。\n它可以让你在Emacs的顶行上方滚动，使顶部文本垂直居中。<p>我做这个功能是出于我自己的需要，当在高/大显示器上全屏使用Emacs时，它非常有用。由于多年来显示器一直在变大，我实际上很惊讶这种功能在文本编辑器或其他软件（如互联网浏览器等）中没有更多的应用。<p>让我知道你的想法或如果你有任何建议",
+  "description_zh-Hant": "這是去年我利用業餘時間做的一個Emacs小模式。\n它可以讓你在Emacs的頂行上方滾動，使頂部文本垂直居中。<p>我做這個功能是出於我自己的需要，當在高/大顯示器上全屏使用Emacs時，它非常有用。由於多年來顯示器一直在變大，我實際上很驚訝這種功能在文本編輯器或其他軟件（如互聯網瀏覽器等）中沒有更多的應用。<p>讓我知道你的想法或如果你有任何建議"
+}

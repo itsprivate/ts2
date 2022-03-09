@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--askhn--HackerNews--NewsArticle--30519226",
+  "url": "https://news.ycombinator.com/item?id=30519226",
+  "headline": "Ask HN: P2P Databases?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I had an idea for a project that would be best served by publishing a database that all the clients would sync locally and query against directly.<p>I've looked around a bit and I've found BigchainDB, however it's a quite heavy load. I want to update the authoritative database and have it generate deltas that are synced to the clients via a p2p like network, rather then having anything 'mined'.<p>Is anyone aware of anything existing that would be of use?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "culpable_pickle",
+    "url": "https://news.ycombinator.com/user?id=culpable_pickle"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30519226",
+  "sameAs": "https://news.ycombinator.com/item?id=30519226",
+  "dateCreated": "2022-03-01T20:10:46.482Z",
+  "datePublished": "2022-03-01T20:02:20.000Z",
+  "dateModified": "2022-03-01T20:10:46.482Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: P2P数据库？",
+  "headline_zh-Hant": "Ask HN: P2P數據庫？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我有一个项目的想法，最好是发布一个数据库，让所有的客户在本地同步并直接查询。<p>我找了一下，我发现了BigchainDB，然而它的负载相当重。我想更新权威数据库，并让它产生三角洲，通过类似P2P的网络同步到客户端，而不是让任何东西被 \"开采\"。<p>有谁知道现有的任何有用的东西吗？",
+  "description_zh-Hant": "我有一個項目的想法，最好是發佈一個數據庫，讓所有的客戶在本地同步並直接查詢。<p>我找了一下，我發現了BigchainDB，然而它的負載相當重。我想更新權威數據庫，並讓它產生三角洲，通過類似P2P的網絡同步到客戶端，而不是讓任何東西被 \"開採\"。<p>有誰知道現有的任何有用的東西嗎？"
+}

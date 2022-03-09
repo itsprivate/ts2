@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--hackernews--HackerNews--NewsArticle--30549344",
+  "url": "https://news.ycombinator.com/item?id=30549344",
+  "headline": "Actual “latency numbers everyone should know” computed in 2020",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ZainRiz",
+    "url": "https://news.ycombinator.com/user?id=ZainRiz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30549344",
+  "sameAs": "https://www.forrestthewoods.com/blog/memory-bandwidth-napkin-math/",
+  "dateCreated": "2022-03-04T02:07:19.070Z",
+  "datePublished": "2022-03-04T01:14:12.000Z",
+  "dateModified": "2022-03-04T02:07:19.070Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 27
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "在2020年计算出的实际 \"每个人都应该知道的延迟数字\"",
+  "headline_zh-Hant": "在2020年計算出的實際 \"每個人都應該知道的延遲數字\"",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--besthn--HackerNews--NewsArticle--30466684",
+  "url": "https://news.ycombinator.com/item?id=30466684",
+  "headline": "Radiation spikes in Chernobyl",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "stiray",
+    "url": "https://news.ycombinator.com/user?id=stiray"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30466684",
+  "sameAs": "https://twitter.com/OAlexanderDK/status/1497156832170815516",
+  "dateCreated": "2022-02-25T22:10:31.572Z",
+  "datePublished": "2022-02-25T12:45:50.000Z",
+  "dateModified": "2022-02-25T22:10:31.572Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 252
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 110
+    }
+  ],
+  "headline_zh-Hans": "切尔诺贝利的辐射峰值",
+  "headline_zh-Hant": "切爾諾貝利的輻射峰值",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

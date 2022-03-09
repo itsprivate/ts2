@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--askhn--HackerNews--NewsArticle--30430349",
+  "url": "https://news.ycombinator.com/item?id=30430349",
+  "headline": "Ask HN: BitWarden Master Password No Longer Works",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "So my BitWarden master password stopped working. I am 100% confident that my password has not changed, but the developers changed the way passwords are handled.<p>In the past, my password would work on Chrome, but would fail to work on Mobile. I opened an issue and it was ignored.<p>Now my master password does not work anywhere (APART FROM THS LAPTOP and I was lucky to export my passwords.)<p>So heres a warning to all. Do not use BitWarden, they handle passwords incorrectly and you may lose all your passwords if they decide to randomly change password handling.<p>Possible Problem: They truncate passwords before sending to server? IDK at what length they truncate.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "rcconf",
+    "url": "https://news.ycombinator.com/user?id=rcconf"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30430349",
+  "sameAs": "https://news.ycombinator.com/item?id=30430349",
+  "dateCreated": "2022-02-22T17:01:49.950Z",
+  "datePublished": "2022-02-22T16:59:44.000Z",
+  "dateModified": "2022-02-22T17:01:49.950Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: BitWarden主密码不再起作用",
+  "headline_zh-Hant": "Ask HN: BitWarden主密碼不再起作用",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "所以我的BitWarden主密码停止工作。我100%相信我的密码没有改变，但开发者改变了处理密码的方式。<p>过去，我的密码在Chrome浏览器上可以使用，但在手机上却无法使用。<p>现在我的主密码在任何地方都无法使用（除了THS的笔记本电脑，我很幸运地导出了我的密码）。不要使用BitWarden，他们对密码的处理是不正确的，如果他们决定随机改变密码的处理，你可能会失去你所有的密码。不知道他们截断的长度是多少。",
+  "description_zh-Hant": "所以我的BitWarden主密碼停止工作。我100%相信我的密碼沒有改變，但開發者改變了處理密碼的方式。<p>過去，我的密碼在Chrome瀏覽器上可以使用，但在手機上卻無法使用。<p>現在我的主密碼在任何地方都無法使用（除了THS的筆記本電腦，我很幸運地導出了我的密碼）。不要使用BitWarden，他們對密碼的處理是不正確的，如果他們決定隨機改變密碼的處理，你可能會失去你所有的密碼。不知道他們截斷的長度是多少。"
+}

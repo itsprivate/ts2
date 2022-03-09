@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--besthn--HackerNews--NewsArticle--30551006",
+  "url": "https://news.ycombinator.com/item?id=30551006",
+  "headline": "Leaflet was created 11yrs ago by Vladimir Agafonkin, a Ukrainian citizen in Kyiv",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tzm",
+    "url": "https://news.ycombinator.com/user?id=tzm"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30551006",
+  "sameAs": "https://leafletjs.com/index.html",
+  "dateCreated": "2022-03-04T13:33:55.554Z",
+  "datePublished": "2022-03-04T05:27:39.000Z",
+  "dateModified": "2022-03-04T13:33:55.554Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 261
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 16
+    }
+  ],
+  "headline_zh-Hans": "传单由基辅的乌克兰公民弗拉基米尔-阿加方金在11年前创作。",
+  "headline_zh-Hant": "傳單由基輔的烏克蘭公民弗拉基米爾-阿加方金在11年前創作。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

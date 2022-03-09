@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--10--en--showhn--HackerNews--NewsArticle--30294313",
+  "url": "https://news.ycombinator.com/item?id=30294313",
+  "headline": "Show HN: Little Faker – Simple Lorem Ipsum macOS App",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "gerry_shaw",
+    "url": "https://news.ycombinator.com/user?id=gerry_shaw"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30294313",
+  "sameAs": "https://gshaw.ca/littlefaker/",
+  "dateCreated": "2022-02-10T23:35:27.127Z",
+  "datePublished": "2022-02-10T23:27:35.000Z",
+  "dateModified": "2022-02-10T23:35:27.127Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Little Faker - 简单的Lorem Ipsum macOS应用程序",
+  "headline_zh-Hant": "Show HN: Little Faker - 簡單的Lorem Ipsum macOS應用程序",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

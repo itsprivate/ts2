@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--11--en--showhn--HackerNews--NewsArticle--30300332",
+  "url": "https://news.ycombinator.com/item?id=30300332",
+  "headline": "Show HN: UnitsWASM – A WASM port of the popular GNU Units command line tool",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "yanosh_kunsh",
+    "url": "https://news.ycombinator.com/user?id=yanosh_kunsh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30300332",
+  "sameAs": "https://yanosh.net/units-wasm/",
+  "dateCreated": "2022-02-11T12:10:56.955Z",
+  "datePublished": "2022-02-11T11:53:20.000Z",
+  "dateModified": "2022-02-11T12:10:56.955Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: UnitsWASM - 一个流行的GNU Units命令行工具的WASM移植。",
+  "headline_zh-Hant": "Show HN: UnitsWASM - 一個流行的GNU Units命令行工具的WASM移植。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

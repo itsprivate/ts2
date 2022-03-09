@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--05--en--hackernews--HackerNews--NewsArticle--30552988",
+  "url": "https://news.ycombinator.com/item?id=30552988",
+  "headline": "Launch HN: Kaedim – API for 3D User Generated Content",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN, I am Konstantina from Kaedim (https://www.kaedim.com). Kaedim is using ML to transform 2D art, sketches or photos into 3D content. We make it easy to integrate 3D User Generated Content in game or metaverses, with our API.<p>Creating digital 3D objects is getting increasingly difficult and expensive. There is a very limited supply of people who are good 3D artists, and the cost of training one is very big. It usually involves years of learning difficult 3D software. However, more and more of the digital experiences around us are turning into 3D.<p>I needed this product myself. The idea for Kaedim was born from a personal frustration when, 2 years ago, I was working on a project for re-creating a cathedral in 3D software for my university degree. Before being hands-on, the concept seemed straightforward to me, “the same way you draw on a piece of paper, you can also draw in 3D, how hard can it be?”. The reality shocked me. Having completely underestimated the task I found myself needing hours to model each 3D object (chairs, tables, walls) using really complicated and steep learning curve 3D software.<p>Every time I wanted to model something new I had to start from a cube and do all the necessary operations on it to achieve the desired shape. Over and over again. Moreover, there were many times when I would bin my creations and start from scratch for better luck. The reality with 3D modelling software is that it’s almost always easier to start from scratch than to try and fix a modelled object.<p>After my personal experience of the problem, I started thinking about game devs. “Game developers have this problem at scale, they need to build whole 3D worlds with millions of objects. How do they do it?”. So we started talking to them. Only to discover, there is no secret. 3D asset production is a big bottleneck for them too. There is a very limited supply of people who are really good 3D artists, and the cost of training one is very big. It usually involves years of training on difficult 3D software.<p>Our solution is an ML algorithm that creates 3D models out of 2D images. We are constantly training on more and more data points to improve the accuracy and we have added a Quality Control step to always guarantee a standard level of quality. We then use the QC results to train our algorithms further.<p>Artists and game devs have used Kaedim so far to quickly prototype, create and iterate their 3D art, in a cost effective way. However, talking to a lot of game developers, we realised something <i>key</i>. For the same reason games like Minecraft and Roblox are very popular, more and more people want the opportunity to customise and contribute 3D content inside their favourite games/metaverses.<p>This is why we created the Kaedim API. Within your app, enable your players to upload their 2D inspiration and easily create their own 3D content for customising and populating the game.<p>Kaedim API Demo Video: https://www.youtube.com/watch?v=k976GJWQrKw<p>Documentation: https://app.archbee.io/public/m370vHO-M7WGXJQLRlIte/AU-DhH6mX0e1sb_FRXH3i#lk-useful-links<p>For signup and more information about onboardings get in touch with us here<p>Discord Server: https://discord.gg/4wN8NSUr<p>Thanks a lot for reading this! We are adding more and more features over time and would love to hear your feedback and ideas on what you’d like to see from the API.<p>If you have any cool app ideas that can be built by using Kaedim, drop them in the comments!",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "konstantina_ps",
+    "url": "https://news.ycombinator.com/user?id=konstantina_ps"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30552988",
+  "sameAs": "https://news.ycombinator.com/item?id=30552988",
+  "dateCreated": "2022-03-05T01:57:13.788Z",
+  "datePublished": "2022-03-04T10:45:10.000Z",
+  "dateModified": "2022-03-05T01:57:13.788Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 44
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 17
+    }
+  ],
+  "headline_zh-Hans": "推出HN：Kaedim - 3D用户生成内容的API",
+  "headline_zh-Hant": "推出HN：Kaedim - 3D用戶生成內容的API",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN，我是Kaedim（https://www.kaedim.com）的Konstantina。Kaedim正在使用ML将2D艺术、草图或照片转化为3D内容。通过我们的API，我们可以很容易地将3D用户生成的内容整合到游戏或元数据中。<p>创建数字3D对象越来越难，也越来越昂贵。优秀的3D艺术家的供应非常有限，而且培训一个人的成本也非常高。它通常涉及到多年学习困难的3D软件。然而，我们周围越来越多的数字体验正在变成3D。<p>我自己也需要这种产品。Kaedim的想法来自于个人的挫折，两年前，我正在为我的大学学位做一个用3D软件重新创建大教堂的项目。在动手之前，这个概念对我来说似乎很简单，\"就像你在纸上画画一样，你也可以在3D中画画，这有什么难的？\"。现实却令我震惊。由于完全低估了这项任务，我发现自己需要花费数小时的时间，使用非常复杂且学习曲线陡峭的3D软件为每个3D物体（椅子、桌子、墙壁）建模。一遍又一遍。此外，有很多次我都会把我的作品扔掉，从头开始，以获得更好的运气。三维建模软件的现实是，从头开始几乎总是比试图修复一个建模对象更容易。<p>在我对这个问题的个人经历之后，我开始思考游戏开发者。\"游戏开发者在规模上有这个问题，他们需要建立有数百万个对象的整个三维世界。他们是如何做到的？\"。所以我们开始与他们交谈。结果发现，这并不是什么秘密。3D资产制作对他们来说也是一个很大的瓶颈。真正优秀的3D艺术家的供应非常有限，而且培训一个人的成本非常大。我们的解决方案是采用ML算法，从2D图像中创建3D模型。我们不断地对越来越多的数据点进行训练，以提高精确度，我们还增加了一个质量控制步骤，以始终保证质量的标准水平。<p>到目前为止，艺术家和游戏开发者已经使用Kaedim来快速建立原型，创建和迭代他们的3D艺术，这是一种经济有效的方式。然而，在与许多游戏开发者的交谈中，我们意识到了一些<i>关键</i>。就像《Minecraft》和《Roblox》这样的游戏非常受欢迎一样，越来越多的人希望有机会在他们喜爱的游戏/metaverses中定制和贡献3D内容。<p>Kaedim API演示视频：https://www.youtube.com/watch?v=k976GJWQrKw<p>文档：https://app.archbee.io/public/m370vHO-M7WGXJQLRlIte/AU-DhH6mX0e1sb_FRXH3i#lk-useful-links<p>关于注册和更多的上机信息，请与我们联系<p>Discord服务器：https://discord.gg/4wN8NSUr<p>非常感谢您阅读此文！</p><p>在您的应用程序中，使您的玩家能够上传他们的2D灵感并轻松创建自己的3D内容以定制和填充游戏。<p>如果你有任何可以通过使用Kaedim构建的很酷的应用程序的想法，请在评论中提出！我们正在增加越来越多的功能，并希望听到你的反馈和想法，你想从API中看到什么。",
+  "description_zh-Hant": "嗨，HN，我是Kaedim（https://www.kaedim.com）的Konstantina。Kaedim正在使用ML將2D藝術、草圖或照片轉化為3D內容。通過我們的API，我們可以很容易地將3D用戶生成的內容整合到遊戲或元數據中。<p>創建數字3D對象越來越難，也越來越昂貴。優秀的3D藝術家的供應非常有限，而且培訓一個人的成本也非常高。它通常涉及到多年學習困難的3D軟件。然而，我們周圍越來越多的數字體驗正在變成3D。<p>我自己也需要這種產品。Kaedim的想法來自於個人的挫折，兩年前，我正在為我的大學學位做一個用3D軟件重新創建大教堂的項目。在動手之前，這個概念對我來說似乎很簡單，\"就像你在紙上畫畫一樣，你也可以在3D中畫畫，這有什麼難的？\"。現實卻令我震驚。由於完全低估了這項任務，我發現自己需要花費數小時的時間，使用非常複雜且學習曲線陡峭的3D軟件為每個3D物體（椅子、桌子、牆壁）建模。一遍又一遍。此外，有很多次我都會把我的作品扔掉，從頭開始，以獲得更好的運氣。三維建模軟件的現實是，從頭開始幾乎總是比試圖修復一個建模對象更容易。<p>在我對這個問題的個人經歷之後，我開始思考遊戲開發者。\"遊戲開發者在規模上有這個問題，他們需要建立有數百萬個對象的整個三維世界。他們是如何做到的？\"。所以我們開始與他們交談。結果發現，這並不是什麼秘密。3D資產製作對他們來說也是一個很大的瓶頸。真正優秀的3D藝術家的供應非常有限，而且培訓一個人的成本非常大。我們的解決方案是採用ML算法，從2D圖像中創建3D模型。我們不斷地對越來越多的數據點進行訓練，以提高精確度，我們還增加了一個質量控制步驟，以始終保證質量的標準水平。<p>到目前為止，藝術家和遊戲開發者已經使用Kaedim來快速建立原型，創建和迭代他們的3D藝術，這是一種經濟有效的方式。然而，在與許多遊戲開發者的交談中，我們意識到了一些<i>關鍵</i>。就像《Minecraft》和《Roblox》這樣的遊戲非常受歡迎一樣，越來越多的人希望有機會在他們喜愛的遊戲/metaverses中定製和貢獻3D內容。<p>Kaedim API演示視頻：https://www.youtube.com/watch?v=k976GJWQrKw<p>文檔：https://app.archbee.io/public/m370vHO-M7WGXJQLRlIte/AU-DhH6mX0e1sb_FRXH3i#lk-useful-links<p>關於註冊和更多的上機信息，請與我們聯繫<p>Discord服務器：https://discord.gg/4wN8NSUr<p>非常感謝您閱讀此文！</p><p>在您的應用程序中，使您的玩家能夠上傳他們的2D靈感並輕鬆創建自己的3D內容以定製和填充遊戲。<p>如果你有任何可以通過使用Kaedim構建的很酷的應用程序的想法，請在評論中提出！我們正在增加越來越多的功能，並希望聽到你的反饋和想法，你想從API中看到什麼。"
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30599277",
+  "url": "https://news.ycombinator.com/item?id=30599277",
+  "headline": "How Kubernetes works under the hood with Docker Desktop",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mariuz",
+    "url": "https://news.ycombinator.com/user?id=mariuz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30599277",
+  "sameAs": "https://www.docker.com/blog/how-kubernetes-works-under-the-hood-with-docker-desktop/",
+  "dateCreated": "2022-03-08T12:50:28.004Z",
+  "datePublished": "2022-03-08T12:46:11.000Z",
+  "dateModified": "2022-03-08T12:50:28.004Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Kubernetes如何在引擎盖下与Docker Desktop一起工作",
+  "headline_zh-Hant": "Kubernetes如何在引擎蓋下與Docker Desktop一起工作",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

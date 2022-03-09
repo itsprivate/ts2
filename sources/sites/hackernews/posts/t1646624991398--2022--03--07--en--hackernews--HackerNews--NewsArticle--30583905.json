@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--07--en--hackernews--HackerNews--NewsArticle--30583905",
+  "url": "https://news.ycombinator.com/item?id=30583905",
+  "headline": "Introduction to GPUs with OpenGL",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Seb-C",
+    "url": "https://news.ycombinator.com/user?id=Seb-C"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30583905",
+  "sameAs": "https://engineering.monstar-lab.com/en/post/2022/03/01/Introduction-To-GPUs-With-OpenGL/",
+  "dateCreated": "2022-03-07T03:49:51.398Z",
+  "datePublished": "2022-03-07T03:25:12.000Z",
+  "dateModified": "2022-03-07T03:49:51.398Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "使用OpenGL的GPU介绍",
+  "headline_zh-Hant": "使用OpenGL的GPU介紹",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

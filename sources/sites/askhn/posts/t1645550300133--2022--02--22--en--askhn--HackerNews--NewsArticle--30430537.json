@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--22--en--askhn--HackerNews--NewsArticle--30430537",
+  "url": "https://news.ycombinator.com/item?id=30430537",
+  "headline": "Ask HN: Is Kubernetes the only alternative for being cloud agnostic?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "My company's management desires for us to be &quot;cloud agnostic&quot; - without having a firm definition of what that actually means. Lots of people in my company think &quot;cloud agnostic&quot; means you &quot;containerize&quot; your solutions and run them on Kubernetes. Then you can pick and move your application from cloud to cloud as desired. That seems extremely limited to me. To me that thinking exemplifies the cloud as being &quot;someone else's computer&quot; rather than seeing the cloud as an application platform in and of itself.<p>What does HN think about this? Is there a way of looking at &quot;cloud agnostic&quot; that still allows you to look at the cloud as an application platform and not just as a platform for running Kubernetes? Is there another way to think about this?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "taylodl",
+    "url": "https://news.ycombinator.com/user?id=taylodl"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30430537",
+  "sameAs": "https://news.ycombinator.com/item?id=30430537",
+  "dateCreated": "2022-02-22T17:18:20.133Z",
+  "datePublished": "2022-02-22T17:13:02.000Z",
+  "dateModified": "2022-02-22T17:18:20.133Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Kubernetes是不依赖云的唯一选择吗？",
+  "headline_zh-Hant": "Ask HN: Kubernetes是不依賴雲的唯一選擇嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我公司的管理层希望我们能够成为 \"云端不可知论者\"--但对其实际含义没有明确的定义。在我的公司里，很多人认为 \"云不可知 \"意味着你把你的解决方案容器化并在Kubernetes上运行。然后你可以根据需要在云与云之间选择和移动你的应用程序。这在我看来是非常有限的。对我来说，这种想法体现了云是别人的电脑，而不是将云本身视为一个应用平台。<p>HN对此有何看法？是否有一种看待&quot;云不可知&quot;的方式，仍然允许你将云视为一个应用平台，而不仅仅是一个运行Kubernetes的平台？是否有其他方式来考虑这个问题？",
+  "description_zh-Hant": "我公司的管理層希望我們能夠成為 \"雲端不可知論者\"--但對其實際含義沒有明確的定義。在我的公司裡，很多人認為 \"雲不可知 \"意味著你把你的解決方案容器化並在Kubernetes上運行。然後你可以根據需要在雲與雲之間選擇和移動你的應用程序。這在我看來是非常有限的。對我來說，這種想法體現了雲是別人的電腦，而不是將雲本身視為一個應用平臺。<p>HN對此有何看法？是否有一種看待&quot;雲不可知&quot;的方式，仍然允許你將雲視為一個應用平臺，而不僅僅是一個運行Kubernetes的平臺？是否有其他方式來考慮這個問題？"
+}

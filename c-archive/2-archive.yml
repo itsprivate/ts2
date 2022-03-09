@@ -1,0 +1,98 @@
+if: true
+sources:
+  - from: https://deno.land/x/getfiles@v1.0.0/mod.ts
+    args:
+      - ./${{ctx.env.ENV=='dev'?'dev-':''}}sources/changed
+    key: path
+    force: true
+    filter: return ctx.item.ext === 'json'
+
+filter:
+  # from: ./test.ts
+  use: fetch
+  if: ${{ctx.env.ENV!=='dev'}}
+  args:
+    - https://www.reddit.com/api/v1/access_token
+    - method: POST
+      headers:
+        User-Agent: HackerNewsZh/0.1 by hnzhbot
+        Content-Type: application/x-www-form-urlencoded
+        Authorization: ${{ctx.env.REDDIT_HNZHBOT_BASIC}}
+      body: ${{ctx.env.REDDIT_HNZHBOT_BODY}}
+
+  run: |
+    let result = await ctx.result.json();
+    Deno.env.set("REDDIT_TOKEN", result.access_token);
+    return ctx.items.map(item=>true);
+
+steps:
+  - from: ./to-s3.ts
+    args:
+      - ${{ctx.item.path}}
+    sleep: ${{ctx.env.ENV=='dev'?0:1}}
+  - id: item
+    from: ./to-archive.ts
+    args:
+      - ${{ctx.item.path}}
+  - id: identifier
+    from: ../common/util.ts
+    use: parseIdentifier
+    args:
+      - ${{ctx.steps.item.result.identifier}}
+    run: return ctx.result.siteIdentifier;
+  - id: isPublishToReddit
+    run: return ctx.steps.identifier.result==='besthn'
+  - run: console.log("222",ctx.steps.item.result['description_zh-Hans'])
+    if: ${{ctx.steps.item.result['description_zh-Hans']}}
+  - id: formText
+    if: ${{ctx.steps.isPublishToReddit.result===true && ctx.steps.item.result['description_zh-Hans']}}
+    from: ../common/util.ts
+    use: html2markdown
+    args:
+      - ${{ctx.steps.item.result['description_zh-Hans']}}
+  - id: form
+    if: ${{ctx.steps.isPublishToReddit.result===true}}
+    run: |
+      const result = ctx.steps.item.result;
+      const formTextResult = ctx.steps.formText.result;
+      let isLink = result.discussionUrl !== result.sameAs;
+      let title = result['headline_zh-Hans'];
+      if(!title){
+        return null;
+      }
+      title = title + " ("+result['headline']+")";
+      let form =  {
+        api_type:"json",
+        sr: 'hnzh',
+        kind: isLink?'link':'self',
+        title: title
+      };
+      if(!isLink){
+        form.text =formTextResult || "";
+        if(form.text){
+          form.text = form.text +"\n\n";
+        }
+        form.text = form.text+`HN 讨论地址: ${result.discussionUrl}`;
+      }else{
+        form.url =  result.sameAs;
+      }
+      if(result.genre==='Ask HN'){
+        form.flair_id = "a6c89a00-9086-11ec-ad14-5e85c8d2ae00";
+      }else if (result.genre==='Show HN'){
+        form.flair_id = "8dd4f458-9086-11ec-bcbd-0ab658ce7a1d";
+      }
+      return form;
+  - run: console.log("form",ctx.steps.form.result);
+  - sleep: 2
+    use: fetch
+    if: ${{ ctx.steps.form.result!==null && ctx.steps.isPublishToReddit.result===true && ctx.env.ENV!=='dev'}}
+    args:
+      - https://oauth.reddit.com/api/submit
+      # Open: <https://requestbin.com/r/enyvb91j5zjv9/23eNPamD4DK4YK1rfEB1FAQOKIj> , See live webhook request. replace your webhook here
+      # - https://enyvb91j5zjv9.x.pipedream.net/
+      - headers:
+          Authorization: Bearer ${{ctx.env.REDDIT_TOKEN}}
+          User-Agent: HackerNewsZh/0.1 by hnzhbot
+          Content-Type: application/x-www-form-urlencoded
+        method: POST
+        body: "${{new URLSearchParams(ctx.steps.form.result)}}"

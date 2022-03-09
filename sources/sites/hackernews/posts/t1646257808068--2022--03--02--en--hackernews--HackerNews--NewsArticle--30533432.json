@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--hackernews--HackerNews--NewsArticle--30533432",
+  "url": "https://news.ycombinator.com/item?id=30533432",
+  "headline": "Nuclear War Survival Skills (1987) [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "baxtr",
+    "url": "https://news.ycombinator.com/user?id=baxtr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30533432",
+  "sameAs": "http://oism.org/nwss/nwss.pdf",
+  "dateCreated": "2022-03-02T21:50:08.068Z",
+  "datePublished": "2022-03-02T21:28:24.000Z",
+  "dateModified": "2022-03-02T21:50:08.068Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "核战争生存技能 (1987) [pdf]",
+  "headline_zh-Hant": "核戰爭生存技能 (1987) [pdf]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

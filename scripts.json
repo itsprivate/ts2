@@ -1,0 +1,14 @@
+{
+  "$schema": "https://deno.land/x/denon@2.4.9/schema.json",
+  "scripts": {
+    "start": {
+      "cmd": "deno run -A --unstable site/start.ts",
+      "desc": "run my start.ts file"
+    }
+  },
+  "watcher": {
+    "exts": ["js", "jsx", "ts", "tsx", "json", "html"],
+    "match": ["site/**/*.*"],
+    "skip": ["*/.git/*", "site/public/**/*.*"]
+  }
+}

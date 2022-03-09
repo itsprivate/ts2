@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--05--en--hackernews--HackerNews--NewsArticle--30570370",
+  "url": "https://news.ycombinator.com/item?id=30570370",
+  "headline": "China Is Not Russia. Taiwan Is Not Ukraine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "belter",
+    "url": "https://news.ycombinator.com/user?id=belter"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30570370",
+  "sameAs": "https://www.usip.org/publications/2022/03/china-not-russia-taiwan-not-ukraine",
+  "dateCreated": "2022-03-05T19:35:15.213Z",
+  "datePublished": "2022-03-05T18:30:03.000Z",
+  "dateModified": "2022-03-05T19:35:15.213Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "中国不是俄罗斯。台湾不是乌克兰",
+  "headline_zh-Hant": "中國不是俄羅斯。臺灣不是烏克蘭",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

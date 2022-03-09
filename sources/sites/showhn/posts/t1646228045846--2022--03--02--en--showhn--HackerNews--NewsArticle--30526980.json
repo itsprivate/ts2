@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--showhn--HackerNews--NewsArticle--30526980",
+  "url": "https://news.ycombinator.com/item?id=30526980",
+  "headline": "Show HN: Valito-Progressive validation for Python based on typehints & dataclass",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "acoconutcup",
+    "url": "https://news.ycombinator.com/user?id=acoconutcup"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30526980",
+  "sameAs": "https://github.com/acoconutcup/valito",
+  "dateCreated": "2022-03-02T13:34:05.846Z",
+  "datePublished": "2022-03-02T13:17:45.000Z",
+  "dateModified": "2022-03-02T13:34:05.846Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 基于类型提示和数据类的Python的Valito-渐进式验证",
+  "headline_zh-Hant": "Show HN: 基於類型提示和數據類的Python的Valito-漸進式驗證",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--27--en--hackernews--HackerNews--NewsArticle--30489164",
+  "url": "https://news.ycombinator.com/item?id=30489164",
+  "headline": "Turkey Closes Black Sea",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "baybal2",
+    "url": "https://news.ycombinator.com/user?id=baybal2"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30489164",
+  "sameAs": "https://www.reuters.com/world/middle-east/turkey-implement-international-pact-access-shipping-straits-due-ukraine-war-2022-02-27/",
+  "dateCreated": "2022-02-27T15:31:12.714Z",
+  "datePublished": "2022-02-27T15:17:06.000Z",
+  "dateModified": "2022-02-27T15:31:12.714Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 50
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "土耳其关闭黑海",
+  "headline_zh-Hant": "土耳其關閉黑海",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

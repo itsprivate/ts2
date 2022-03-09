@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--showhn--HackerNews--NewsArticle--30361796",
+  "url": "https://news.ycombinator.com/item?id=30361796",
+  "headline": "Show HN: HN to E-Book, Read HN on your E-Reader",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "Abishek_Muthian",
+    "url": "https://news.ycombinator.com/user?id=Abishek_Muthian"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30361796",
+  "sameAs": "https://github.com/abishekmuthian/hntoebook",
+  "dateCreated": "2022-02-16T16:41:59.561Z",
+  "datePublished": "2022-02-16T16:09:08.000Z",
+  "dateModified": "2022-02-16T16:41:59.561Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 从HN到电子书，在您的电子阅读器上阅读HN",
+  "headline_zh-Hant": "Show HN: 從HN到電子書，在您的電子閱讀器上閱讀HN",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

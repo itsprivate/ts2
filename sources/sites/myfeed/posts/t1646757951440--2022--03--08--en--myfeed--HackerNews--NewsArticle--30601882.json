@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30601882",
+  "url": "https://news.ycombinator.com/item?id=30601882",
+  "headline": "Digital Ownership",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "julien",
+    "url": "https://news.ycombinator.com/user?id=julien"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30601882",
+  "sameAs": "https://www.ouvre-boite.com/digital-ownership/",
+  "dateCreated": "2022-03-08T16:45:51.440Z",
+  "datePublished": "2022-03-08T16:35:49.000Z",
+  "dateModified": "2022-03-08T16:45:51.440Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "数字拥有权",
+  "headline_zh-Hant": "數字擁有權",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

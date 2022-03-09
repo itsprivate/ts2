@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--12--en--showhn--HackerNews--NewsArticle--30305011",
+  "url": "https://news.ycombinator.com/item?id=30305011",
+  "headline": "Show HN: Yode-Nvim – Focused Code Editing for Neovim",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "hoschi",
+    "url": "https://news.ycombinator.com/user?id=hoschi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30305011",
+  "sameAs": "https://github.com/hoschi/yode-nvim",
+  "dateCreated": "2022-02-12T12:10:30.659Z",
+  "datePublished": "2022-02-11T18:19:06.000Z",
+  "dateModified": "2022-02-12T12:10:30.659Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Yode-Nvim - 专注于Neovim的代码编辑",
+  "headline_zh-Hant": "Show HN: Yode-Nvim - 專注於Neovim的代碼編輯",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

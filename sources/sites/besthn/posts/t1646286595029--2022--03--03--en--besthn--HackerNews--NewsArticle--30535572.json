@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--besthn--HackerNews--NewsArticle--30535572",
+  "url": "https://news.ycombinator.com/item?id=30535572",
+  "headline": "My Stripe Tax Story",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kareemm",
+    "url": "https://news.ycombinator.com/user?id=kareemm"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30535572",
+  "sameAs": "https://gist.github.com/humandoing/5ec7c224691282532db0b9dc37797d7c",
+  "dateCreated": "2022-03-03T05:49:55.029Z",
+  "datePublished": "2022-03-03T00:38:43.000Z",
+  "dateModified": "2022-03-03T05:49:55.029Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 251
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 72
+    }
+  ],
+  "headline_zh-Hans": "我的Stripe税务故事",
+  "headline_zh-Hant": "我的Stripe稅務故事",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

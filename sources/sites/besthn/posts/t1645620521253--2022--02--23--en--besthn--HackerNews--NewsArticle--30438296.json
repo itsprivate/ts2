@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--23--en--besthn--HackerNews--NewsArticle--30438296",
+  "url": "https://news.ycombinator.com/item?id=30438296",
+  "headline": "The cats sitting on a fence in early builds of Windows 8",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "luu",
+    "url": "https://news.ycombinator.com/user?id=luu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30438296",
+  "sameAs": "https://devblogs.microsoft.com/oldnewthing/20220208-00/?p=106232",
+  "dateCreated": "2022-02-23T12:48:41.253Z",
+  "datePublished": "2022-02-23T06:26:02.000Z",
+  "dateModified": "2022-02-23T12:48:41.253Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 256
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 67
+    }
+  ],
+  "headline_zh-Hans": "在Windows 8早期构建中坐在栅栏上的猫咪",
+  "headline_zh-Hant": "在Windows 8早期構建中坐在柵欄上的貓咪",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

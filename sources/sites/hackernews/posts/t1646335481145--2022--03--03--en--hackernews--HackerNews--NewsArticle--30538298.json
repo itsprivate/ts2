@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--hackernews--HackerNews--NewsArticle--30538298",
+  "url": "https://news.ycombinator.com/item?id=30538298",
+  "headline": "We don't need runtime type checks",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "brentroose",
+    "url": "https://news.ycombinator.com/user?id=brentroose"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30538298",
+  "sameAs": "https://stitcher.io/blog/we-dont-need-runtime-type-checks",
+  "dateCreated": "2022-03-03T19:24:41.145Z",
+  "datePublished": "2022-03-03T07:52:26.000Z",
+  "dateModified": "2022-03-03T19:24:41.145Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "我们不需要运行时类型检查",
+  "headline_zh-Hant": "我們不需要運行時類型檢查",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

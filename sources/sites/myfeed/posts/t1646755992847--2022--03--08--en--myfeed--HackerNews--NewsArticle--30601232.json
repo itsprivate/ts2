@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30601232",
+  "url": "https://news.ycombinator.com/item?id=30601232",
+  "headline": "Add StandWithUkraine Banner to Updates",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jdefelice",
+    "url": "https://news.ycombinator.com/user?id=jdefelice"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30601232",
+  "sameAs": "https://github.com/composer/packagist/commit/86244a3695fcaaac9c5ba4257a4314eae1c6d981",
+  "dateCreated": "2022-03-08T16:13:12.847Z",
+  "datePublished": "2022-03-08T15:52:07.000Z",
+  "dateModified": "2022-03-08T16:13:12.847Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "将 \"与乌克兰站在一起 \"的旗帜添加到更新中",
+  "headline_zh-Hant": "將 \"與烏克蘭站在一起 \"的旗幟添加到更新中",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

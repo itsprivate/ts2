@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--showhn--HackerNews--NewsArticle--30526000",
+  "url": "https://news.ycombinator.com/item?id=30526000",
+  "headline": "Show HN: OAuth2.0 client_credentials flow with Smallstep TLS client auth",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jothac",
+    "url": "https://news.ycombinator.com/user?id=jothac"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30526000",
+  "sameAs": "https://medium.com/@jothisubaramaniamponnuraj/oauth-2-0-tls-client-authentication-ccce4113d30a",
+  "dateCreated": "2022-03-02T11:10:58.757Z",
+  "datePublished": "2022-03-02T11:04:23.000Z",
+  "dateModified": "2022-03-02T11:10:58.757Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: OAuth2.0客户端_凭证流程与Smallstep TLS客户端认证",
+  "headline_zh-Hant": "Show HN: OAuth2.0客戶端_憑證流程與Smallstep TLS客戶端認證",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

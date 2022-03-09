@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--05--en--hackernews--HackerNews--NewsArticle--30569329",
+  "url": "https://news.ycombinator.com/item?id=30569329",
+  "headline": "Neothesia: GPU-accelerated open-source MIDI visualization game in Rust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pizza",
+    "url": "https://news.ycombinator.com/user?id=pizza"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30569329",
+  "sameAs": "https://github.com/PolyMeilex/Neothesia",
+  "dateCreated": "2022-03-05T17:36:36.268Z",
+  "datePublished": "2022-03-05T17:07:22.000Z",
+  "dateModified": "2022-03-05T17:36:36.268Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "新世纪。Rust中的GPU加速的开源MIDI可视化游戏",
+  "headline_zh-Hant": "新世紀。Rust中的GPU加速的開源MIDI可視化遊戲",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

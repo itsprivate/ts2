@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--showhn--HackerNews--NewsArticle--30466985",
+  "url": "https://news.ycombinator.com/item?id=30466985",
+  "headline": "Show HN: Mirrord – Debug locally using mirrored traffic from Kubernetes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "aviramha",
+    "url": "https://news.ycombinator.com/user?id=aviramha"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30466985",
+  "sameAs": "https://github.com/metalbear-co/mirrord",
+  "dateCreated": "2022-02-25T13:32:27.883Z",
+  "datePublished": "2022-02-25T13:27:11.000Z",
+  "dateModified": "2022-02-25T13:32:27.883Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Mirrord - 使用来自Kubernetes的镜像流量进行本地调试",
+  "headline_zh-Hant": "Show HN: Mirrord - 使用來自Kubernetes的鏡像流量進行本地調試",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

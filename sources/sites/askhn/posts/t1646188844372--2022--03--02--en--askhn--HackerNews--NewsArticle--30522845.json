@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--askhn--HackerNews--NewsArticle--30522845",
+  "url": "https://news.ycombinator.com/item?id=30522845",
+  "headline": "Ask HN: Version Control for Non-Engineers?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've been asked about suggestions for handling the versioning of documents for a group of people who are not engineers / necessarily tech savy.  The major use case is the sharing (and editting) of documents using a tool that does not have collaborative features.  It also produces a file format that isn't one that two edits can be merged easily.<p>The &quot;sharing&quot; will basically be edit, commit, next person edit.  Versioning is important in addition to sharing an existing file.<p>The current work is done using a shared drive (like google or onedrive) and risks edits writing on top of one another.  Additionally lacking any sort of history.<p>Github / etc would likely be a bit of a learning curve.  Are there other suggestions?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "jmspring",
+    "url": "https://news.ycombinator.com/user?id=jmspring"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30522845",
+  "sameAs": "https://news.ycombinator.com/item?id=30522845",
+  "dateCreated": "2022-03-02T02:40:44.372Z",
+  "datePublished": "2022-03-02T02:12:18.000Z",
+  "dateModified": "2022-03-02T02:40:44.372Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 非工程师的版本控制？",
+  "headline_zh-Hant": "Ask HN: 非工程師的版本控制？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "有人问我关于为一群不是工程师/不一定精通技术的人处理文件版本的建议。 主要的用例是使用一个没有协作功能的工具来分享（和编辑）文件。 它所产生的文件格式也不是两个编辑可以轻易合并的。<p>&quot;共享&quot;基本上是编辑、提交、下一个人编辑。 除了分享现有的文件外，版本管理也很重要。<p>目前的工作是使用共享驱动器（如谷歌或Onedrive）完成的，并有可能将编辑写在彼此的上面。 此外，还缺乏任何形式的历史记录。<p>Github/等可能会有一点学习的难度。 有其他建议吗？",
+  "description_zh-Hant": "有人問我關於為一群不是工程師/不一定精通技術的人處理文件版本的建議。 主要的用例是使用一個沒有協作功能的工具來分享（和編輯）文件。 它所產生的文件格式也不是兩個編輯可以輕易合併的。<p>&quot;共享&quot;基本上是編輯、提交、下一個人編輯。 除了分享現有的文件外，版本管理也很重要。<p>目前的工作是使用共享驅動器（如谷歌或Onedrive）完成的，並有可能將編輯寫在彼此的上面。 此外，還缺乏任何形式的歷史記錄。<p>Github/等可能會有一點學習的難度。 有其他建議嗎？"
+}

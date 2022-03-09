@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--hackernews--HackerNews--NewsArticle--30558900",
+  "url": "https://news.ycombinator.com/item?id=30558900",
+  "headline": "Self-Driving Car Bet Between John Carmack And Jeff Atwood",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mudro_zboris",
+    "url": "https://news.ycombinator.com/user?id=mudro_zboris"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30558900",
+  "sameAs": "https://blog.codinghorror.com/the-2030-self-driving-car-bet/",
+  "dateCreated": "2022-03-04T19:22:35.998Z",
+  "datePublished": "2022-03-04T19:01:47.000Z",
+  "dateModified": "2022-03-04T19:22:35.998Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 20
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "约翰-卡马克和杰夫-阿特伍德之间的自动驾驶汽车打赌",
+  "headline_zh-Hant": "約翰-卡馬克和傑夫-阿特伍德之間的自動駕駛汽車打賭",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

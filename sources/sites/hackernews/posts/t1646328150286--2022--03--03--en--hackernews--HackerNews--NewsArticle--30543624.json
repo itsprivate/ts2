@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--hackernews--HackerNews--NewsArticle--30543624",
+  "url": "https://news.ycombinator.com/item?id=30543624",
+  "headline": "Estonian Cargo ship sinks off Odessa after explosion, crew members missing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "2-718-281-828",
+    "url": "https://news.ycombinator.com/user?id=2-718-281-828"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30543624",
+  "sameAs": "https://www.reuters.com/world/europe/cargo-ship-sinks-off-odessa-after-explosion-crew-members-missing-ship-manager-2022-03-03/",
+  "dateCreated": "2022-03-03T17:22:30.286Z",
+  "datePublished": "2022-03-03T17:07:20.000Z",
+  "dateModified": "2022-03-03T17:22:30.286Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "爱沙尼亚货船在敖德萨附近爆炸后沉没，船员失踪",
+  "headline_zh-Hant": "愛沙尼亞貨船在敖德薩附近爆炸後沉沒，船員失蹤",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

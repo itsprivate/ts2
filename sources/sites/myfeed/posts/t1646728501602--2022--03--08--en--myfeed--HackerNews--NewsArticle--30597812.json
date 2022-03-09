@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30597812",
+  "url": "https://news.ycombinator.com/item?id=30597812",
+  "headline": "Tracking Modified Selenium ChromeDriver",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sauranus",
+    "url": "https://news.ycombinator.com/user?id=sauranus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30597812",
+  "sameAs": "https://datadome.co/bot-detection/tracking-modified-selenium-chromedriver/",
+  "dateCreated": "2022-03-08T08:35:01.602Z",
+  "datePublished": "2022-03-08T08:30:08.000Z",
+  "dateModified": "2022-03-08T08:35:01.602Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "追踪修改后的Selenium ChromeDriver",
+  "headline_zh-Hant": "追蹤修改後的Selenium ChromeDriver",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30599961",
+  "url": "https://news.ycombinator.com/item?id=30599961",
+  "headline": "'It's not Call of Duty out here, this is real'",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "georgecmu",
+    "url": "https://news.ycombinator.com/user?id=georgecmu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30599961",
+  "sameAs": "https://www.dailymail.co.uk/news/article-10585449/Ex-British-soldier-went-Ukraine-fight-against-Russia-issues-warning-other.html",
+  "dateCreated": "2022-03-08T14:27:12.648Z",
+  "datePublished": "2022-03-08T14:03:50.000Z",
+  "dateModified": "2022-03-08T14:27:12.648Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "这里不是《使命召唤》，这是真实的。",
+  "headline_zh-Hant": "這裡不是《使命召喚》，這是真實的。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

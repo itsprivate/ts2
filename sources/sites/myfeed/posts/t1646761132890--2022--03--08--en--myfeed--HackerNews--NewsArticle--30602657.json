@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30602657",
+  "url": "https://news.ycombinator.com/item?id=30602657",
+  "headline": "A C++ Bindings Compiler",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi everyone!<p>Some friends and I were unhappy with how much work it was to use C++ from other languages. We were working in the optimizations industry and often had to prototype with python. Eventually, we created a tool to make it easier for C++ to talk to python (by generating pybind11). Later, javascript via WebAssembly was added as well. It's now at a point where it's very easy to just create a C++ library and use it from any of those languages without change. We're planning on slowly adding more languages as needed/requested. The next on the list are Swift and Kotlin.<p>It does not require any change to your existing public interface, but simply reads it and creates the bindings off of that. It should also work on Linux (Debian), MacOS, and Windows (Visual Studio). Here's a small demo if you'd like to test:<p>https://github.com/Tolc-Software/tolc-demo<p>And here are the repositories with the source code:<p>https://github.com/Tolc-Software/tolc - The executable<p>https://github.com/Tolc-Software/frontend.py - The python bindings generator<p>https://github.com/Tolc-Software/frontend.wasm - The WebAssembly bindings generator<p>https://github.com/Tolc-Software/Parser - The C++ parser<p>It is dual licensed with AGPL and, if someone wants, a commercial license as well.<p>Would be cool if someone finds it useful!",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "coutille",
+    "url": "https://news.ycombinator.com/user?id=coutille"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30602657",
+  "sameAs": "https://news.ycombinator.com/item?id=30602657",
+  "dateCreated": "2022-03-08T17:38:52.890Z",
+  "datePublished": "2022-03-08T17:26:27.000Z",
+  "dateModified": "2022-03-08T17:38:52.890Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一个C++绑定的编译器",
+  "headline_zh-Hant": "一個C++綁定的編譯器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家好！<p>我和一些朋友对使用其他语言的C++的工作量感到不满。我们当时在优化行业工作，经常要用python做原型。最终，我们创造了一个工具，使C++更容易与python对话（通过生成pybind11）。后来，通过WebAssembly的javascript也被加入。现在已经到了可以很容易地创建一个C++库并从任何一种语言中使用它而不需要改变的程度。我们正计划根据需要/要求慢慢地增加更多的语言。<p>它不需要对你现有的公共接口做任何改变，而只是简单地读取它并在此基础上创建绑定。它应该也能在Linux（Debian）、MacOS和Windows（Visual Studio）上运行。如果你想测试，这里有一个小的演示：<p>https://github.com/Tolc-Software/tolc-demo<p>这里是源代码的仓库：<p>https://github.com/Tolc-Software/tolc - 可执行文件<p>https://github.com/Tolc-Software/frontend.py - python绑定生成器<p>https://github.com/Tolc-Software/frontend.wasm - WebAssembly绑定生成器<p>https://github.com/Tolc-Software/Parser - C++解析器<p>它有AGPL的双重许可，如果有人愿意，也有商业许可。<p>如果有人发现它有用，那将会很酷!",
+  "description_zh-Hant": "大家好！<p>我和一些朋友對使用其他語言的C++的工作量感到不滿。我們當時在優化行業工作，經常要用python做原型。最終，我們創造了一個工具，使C++更容易與python對話（通過生成pybind11）。後來，通過WebAssembly的javascript也被加入。現在已經到了可以很容易地創建一個C++庫並從任何一種語言中使用它而不需要改變的程度。我們正計劃根據需要/要求慢慢地增加更多的語言。<p>它不需要對你現有的公共接口做任何改變，而只是簡單地讀取它並在此基礎上創建綁定。它應該也能在Linux（Debian）、MacOS和Windows（Visual Studio）上運行。如果你想測試，這裡有一個小的演示：<p>https://github.com/Tolc-Software/tolc-demo<p>這裡是源代碼的倉庫：<p>https://github.com/Tolc-Software/tolc - 可執行文件<p>https://github.com/Tolc-Software/frontend.py - python綁定生成器<p>https://github.com/Tolc-Software/frontend.wasm - WebAssembly綁定生成器<p>https://github.com/Tolc-Software/Parser - C++解析器<p>它有AGPL的雙重許可，如果有人願意，也有商業許可。<p>如果有人發現它有用，那將會很酷!"
+}

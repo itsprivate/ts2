@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30594909",
+  "url": "https://news.ycombinator.com/item?id=30594909",
+  "headline": "Why do countries welcome some refugees and shut others out?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "caaqil",
+    "url": "https://news.ycombinator.com/user?id=caaqil"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30594909",
+  "sameAs": "https://twitter.com/LAbdelaaty/status/1500885565864042502",
+  "dateCreated": "2022-03-08T00:33:37.724Z",
+  "datePublished": "2022-03-07T23:57:25.000Z",
+  "dateModified": "2022-03-08T00:33:37.724Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "为什么有些国家欢迎一些难民，而将其他国家拒之门外？",
+  "headline_zh-Hant": "為什麼有些國家歡迎一些難民，而將其他國家拒之門外？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

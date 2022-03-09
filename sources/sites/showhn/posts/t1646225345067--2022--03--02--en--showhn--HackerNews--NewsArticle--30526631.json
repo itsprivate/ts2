@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--showhn--HackerNews--NewsArticle--30526631",
+  "url": "https://news.ycombinator.com/item?id=30526631",
+  "headline": "Show HN: I created ANSWERDLE that shows the answer of Wordle",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "p1atdev",
+    "url": "https://news.ycombinator.com/user?id=p1atdev"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30526631",
+  "sameAs": "https://answerdle.net/",
+  "dateCreated": "2022-03-02T12:49:05.067Z",
+  "datePublished": "2022-03-02T12:34:40.000Z",
+  "dateModified": "2022-03-02T12:49:05.067Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我创建了显示Wordle答案的ANSWERDLE。",
+  "headline_zh-Hant": "Show HN: 我創建了顯示Wordle答案的ANSWERDLE。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

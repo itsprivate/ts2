@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--showhn--HackerNews--NewsArticle--30596286",
+  "url": "https://news.ycombinator.com/item?id=30596286",
+  "headline": "Show HN: Code Scanner – a FOSS Android app for scanning and creating codes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "czlucius",
+    "url": "https://news.ycombinator.com/user?id=czlucius"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30596286",
+  "sameAs": "https://github.com/czlucius/code-scanner",
+  "dateCreated": "2022-03-08T04:13:48.396Z",
+  "datePublished": "2022-03-08T04:00:42.000Z",
+  "dateModified": "2022-03-08T04:13:48.396Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 代码扫描器 - 一个用于扫描和创建代码的FOSS Android应用程序",
+  "headline_zh-Hant": "Show HN: 代碼掃描器 - 一個用於掃描和創建代碼的FOSS Android應用程序",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

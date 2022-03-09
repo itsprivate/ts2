@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--hackernews--HackerNews--NewsArticle--30508709",
+  "url": "https://news.ycombinator.com/item?id=30508709",
+  "headline": "Updated rules on preparedness for nuclear explosion",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ta988",
+    "url": "https://news.ycombinator.com/user?id=ta988"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30508709",
+  "sameAs": "https://www.ready.gov/nuclear-explosion",
+  "dateCreated": "2022-03-01T03:35:00.970Z",
+  "datePublished": "2022-03-01T02:45:54.000Z",
+  "dateModified": "2022-03-01T03:35:00.970Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 25
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 8
+    }
+  ],
+  "headline_zh-Hans": "关于防备核爆炸的最新规定",
+  "headline_zh-Hant": "關於防備核爆炸的最新規定",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

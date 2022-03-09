@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--besthn--HackerNews--NewsArticle--30464286",
+  "url": "https://news.ycombinator.com/item?id=30464286",
+  "headline": "Understanding the War in Ukraine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "picture",
+    "url": "https://news.ycombinator.com/user?id=picture"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30464286",
+  "sameAs": "https://acoup.blog/2022/02/25/miscellanea-understanding-the-war-in-ukraine/",
+  "dateCreated": "2022-02-25T11:09:14.408Z",
+  "datePublished": "2022-02-25T06:36:38.000Z",
+  "dateModified": "2022-02-25T11:09:14.408Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 251
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 391
+    }
+  ],
+  "headline_zh-Hans": "了解乌克兰的战争",
+  "headline_zh-Hant": "瞭解烏克蘭的戰爭",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--19--en--besthn--HackerNews--NewsArticle--30392227",
+  "url": "https://news.ycombinator.com/item?id=30392227",
+  "headline": "Grist – Open core alternative to Airtable and Google Sheets",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "paulfitz",
+    "url": "https://news.ycombinator.com/user?id=paulfitz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30392227",
+  "sameAs": "https://github.com/gristlabs/grist-core",
+  "dateCreated": "2022-02-19T02:30:33.162Z",
+  "datePublished": "2022-02-18T22:51:59.000Z",
+  "dateModified": "2022-02-19T02:30:33.162Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 183
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 20
+    }
+  ],
+  "headline_zh-Hans": "Grist--Airtable和Google Sheets的开放核心替代方案",
+  "headline_zh-Hant": "Grist--Airtable和Google Sheets的開放核心替代方案",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

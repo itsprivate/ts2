@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30600944",
+  "url": "https://news.ycombinator.com/item?id=30600944",
+  "headline": "On Attention, Addiction and Algorithms",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vitabenes",
+    "url": "https://news.ycombinator.com/user?id=vitabenes"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30600944",
+  "sameAs": "https://thomasjbevan.substack.com/p/attention-addiction-algorithms",
+  "dateCreated": "2022-03-08T15:44:45.774Z",
+  "datePublished": "2022-03-08T15:32:21.000Z",
+  "dateModified": "2022-03-08T15:44:45.774Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "关于注意力、成瘾和算法",
+  "headline_zh-Hant": "關於注意力、成癮和算法",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

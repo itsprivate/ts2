@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30604110",
+  "url": "https://news.ycombinator.com/item?id=30604110",
+  "headline": "Axios Wants Us to Read Everything in Bullet Points",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "caaqil",
+    "url": "https://news.ycombinator.com/user?id=caaqil"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30604110",
+  "sameAs": "https://www.nytimes.com/2022/03/07/business/media/axios-local.html",
+  "dateCreated": "2022-03-08T18:52:58.323Z",
+  "datePublished": "2022-03-08T18:47:30.000Z",
+  "dateModified": "2022-03-08T18:52:58.323Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Axios希望我们用子弹头阅读所有内容",
+  "headline_zh-Hant": "Axios希望我們用子彈頭閱讀所有內容",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--08--en--showhn--HackerNews--NewsArticle--30257888",
+  "url": "https://news.ycombinator.com/item?id=30257888",
+  "headline": "Show HN: Three Magic Words, a five-letter word game that isn’t Wordle",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "beepy",
+    "url": "https://news.ycombinator.com/user?id=beepy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30257888",
+  "sameAs": "https://www.threemagicwords.app/play/",
+  "dateCreated": "2022-02-08T13:19:56.242Z",
+  "datePublished": "2022-02-08T13:06:57.000Z",
+  "dateModified": "2022-02-08T13:19:56.242Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 三个神奇的字，一个不是Wordle的五个字母的文字游戏",
+  "headline_zh-Hant": "Show HN: 三個神奇的字，一個不是Wordle的五個字母的文字遊戲",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

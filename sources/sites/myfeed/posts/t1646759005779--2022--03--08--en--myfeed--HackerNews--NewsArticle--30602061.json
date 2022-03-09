@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30602061",
+  "url": "https://news.ycombinator.com/item?id=30602061",
+  "headline": "DaLI: Data Loader and Input Generator for RP2 (Open-Source US Crypto Tax Calc)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "eprbell",
+    "url": "https://news.ycombinator.com/user?id=eprbell"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30602061",
+  "sameAs": "https://github.com/eprbell/dali-rp2",
+  "dateCreated": "2022-03-08T17:03:25.779Z",
+  "datePublished": "2022-03-08T16:47:04.000Z",
+  "dateModified": "2022-03-08T17:03:25.779Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "DaLI: RP2的数据加载器和输入生成器（开源美国加密税计算）。",
+  "headline_zh-Hant": "DaLI: RP2的數據加載器和輸入生成器（開源美國加密稅計算）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

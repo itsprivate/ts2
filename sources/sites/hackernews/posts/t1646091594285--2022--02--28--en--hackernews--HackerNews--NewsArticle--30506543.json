@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--hackernews--HackerNews--NewsArticle--30506543",
+  "url": "https://news.ycombinator.com/item?id=30506543",
+  "headline": "Playdate Software Development Kit is now available for free to all",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jonah-archive",
+    "url": "https://news.ycombinator.com/user?id=jonah-archive"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30506543",
+  "sameAs": "https://play.date/dev/",
+  "dateCreated": "2022-02-28T23:39:54.285Z",
+  "datePublished": "2022-02-28T23:16:07.000Z",
+  "dateModified": "2022-02-28T23:39:54.285Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Playdate软件开发工具包现在可以免费提供给所有人",
+  "headline_zh-Hant": "Playdate軟件開發工具包現在可以免費提供給所有人",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

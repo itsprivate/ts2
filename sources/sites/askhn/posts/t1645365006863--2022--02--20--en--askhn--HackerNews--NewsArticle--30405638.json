@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--askhn--HackerNews--NewsArticle--30405638",
+  "url": "https://news.ycombinator.com/item?id=30405638",
+  "headline": "Ask HN: Custom router to detect compromoised device",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi,<p>Could someone recommend me good router&amp;fw setup which is used in infosec/pentesting situations to monitor network traffic?<p>I have a few dodgy Chinese IoT devices and would like to monitor their network activity.<p>I know DD-WRT was the custom router fw years ago, not sure if the situation has changed, but I am basically looking for a general-use high performance (low latency 5g for VR streaming) router which can also be used to monitor traffic accuratley, with a good front end and configuration properties, includong VPN etc",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "midnight_toker",
+    "url": "https://news.ycombinator.com/user?id=midnight_toker"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30405638",
+  "sameAs": "https://news.ycombinator.com/item?id=30405638",
+  "dateCreated": "2022-02-20T13:50:06.863Z",
+  "datePublished": "2022-02-20T13:48:02.000Z",
+  "dateModified": "2022-02-20T13:50:06.863Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 自定义路由器来检测被破坏的设备",
+  "headline_zh-Hant": "Ask HN: 自定義路由器來檢測被破壞的設備",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，<p>谁能给我推荐一个好的路由器和amp;fw设置，这是在信息安全/测试情况下用来监控网络流量的？<p>我有一些可疑的中国物联网设备，想监控他们的网络活动。 <p>我知道DD-WRT是几年前的定制路由器固件，不知道情况是否有变化，但我基本上在寻找一个通用的高性能（低延迟5g用于VR流）路由器，它也可以用来准确地监控流量，有一个良好的前端和配置属性，包括VPN等。",
+  "description_zh-Hant": "嗨，<p>誰能給我推薦一個好的路由器和amp;fw設置，這是在信息安全/測試情況下用來監控網絡流量的？<p>我有一些可疑的中國物聯網設備，想監控他們的網絡活動。 <p>我知道DD-WRT是幾年前的定製路由器固件，不知道情況是否有變化，但我基本上在尋找一個通用的高性能（低延遲5g用於VR流）路由器，它也可以用來準確地監控流量，有一個良好的前端和配置屬性，包括VPN等。"
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--hackernews--HackerNews--NewsArticle--30505583",
+  "url": "https://news.ycombinator.com/item?id=30505583",
+  "headline": "SSH Productivity Tips",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "xy2_",
+    "url": "https://news.ycombinator.com/user?id=xy2_"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30505583",
+  "sameAs": "https://xy2.dev/posts/ssh-productive/",
+  "dateCreated": "2022-02-28T22:10:13.095Z",
+  "datePublished": "2022-02-28T21:46:58.000Z",
+  "dateModified": "2022-02-28T22:10:13.095Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "SSH生产力技巧",
+  "headline_zh-Hant": "SSH生產力技巧",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

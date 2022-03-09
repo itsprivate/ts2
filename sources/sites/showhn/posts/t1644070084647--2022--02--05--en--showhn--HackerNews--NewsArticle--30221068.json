@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--05--en--showhn--HackerNews--NewsArticle--30221068",
+  "url": "https://news.ycombinator.com/item?id=30221068",
+  "headline": "Show HN: Turn CSVs into a PostgreSQL Endpoint or a REST API",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mildbyte",
+    "url": "https://news.ycombinator.com/user?id=mildbyte"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30221068",
+  "sameAs": "https://www.splitgraph.com/blog/csv-to-sql-upload-to-data-delivery-network-ddn",
+  "dateCreated": "2022-02-05T14:08:04.647Z",
+  "datePublished": "2022-02-05T14:05:10.000Z",
+  "dateModified": "2022-02-05T14:08:04.647Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 将CSV变成一个PostgreSQL端点或REST API",
+  "headline_zh-Hant": "Show HN: 將CSV變成一個PostgreSQL端點或REST API",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

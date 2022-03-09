@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--05--en--showhn--HackerNews--NewsArticle--30226996",
+  "url": "https://news.ycombinator.com/item?id=30226996",
+  "headline": "Show HN: Open-source app to show meetings in status bar (macOS)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "leits",
+    "url": "https://news.ycombinator.com/user?id=leits"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30226996",
+  "sameAs": "https://github.com/leits/MeetingBar",
+  "dateCreated": "2022-02-05T23:01:20.103Z",
+  "datePublished": "2022-02-05T22:37:08.000Z",
+  "dateModified": "2022-02-05T23:01:20.103Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 在状态栏中显示会议的开源应用（macOS）",
+  "headline_zh-Hant": "Show HN: 在狀態欄中顯示會議的開源應用（macOS）",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

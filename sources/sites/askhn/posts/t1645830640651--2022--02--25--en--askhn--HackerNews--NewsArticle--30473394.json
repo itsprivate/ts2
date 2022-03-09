@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--25--en--askhn--HackerNews--NewsArticle--30473394",
+  "url": "https://news.ycombinator.com/item?id=30473394",
+  "headline": "Ask HN: Can you have both accessibility and privacy?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "If you have end-to-end encryption for audio/video, how does captioning work? Is there a way to have group video conversations with E2E and captions? How should we think about this trade-off?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "laurex",
+    "url": "https://news.ycombinator.com/user?id=laurex"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30473394",
+  "sameAs": "https://news.ycombinator.com/item?id=30473394",
+  "dateCreated": "2022-02-25T23:10:40.651Z",
+  "datePublished": "2022-02-25T22:57:51.000Z",
+  "dateModified": "2022-02-25T23:10:40.651Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你能同时拥有可及性和隐私吗？",
+  "headline_zh-Hant": "Ask HN: 你能同時擁有可及性和隱私嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "如果你有端到端加密的音频/视频，那么字幕是如何工作的？是否有办法用E2E和字幕进行小组视频对话？我们应该如何考虑这种权衡？",
+  "description_zh-Hant": "如果你有端到端加密的音頻/視頻，那麼字幕是如何工作的？是否有辦法用E2E和字幕進行小組視頻對話？我們應該如何考慮這種權衡？"
+}

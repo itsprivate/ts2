@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30598753",
+  "url": "https://news.ycombinator.com/item?id=30598753",
+  "headline": "Amazon is reportedly using Chinese suppliers with ties to forced labor",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lots2learn",
+    "url": "https://news.ycombinator.com/user?id=lots2learn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30598753",
+  "sameAs": "https://www.theverge.com/2022/3/7/22965654/amazon-suppliers-forced-labor-china-uyghurs",
+  "dateCreated": "2022-03-08T11:35:05.108Z",
+  "datePublished": "2022-03-08T11:25:52.000Z",
+  "dateModified": "2022-03-08T11:35:05.108Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "据报道，亚马逊正在使用与强迫劳动有关联的中国供应商",
+  "headline_zh-Hant": "據報道，亞馬遜正在使用與強迫勞動有關聯的中國供應商",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

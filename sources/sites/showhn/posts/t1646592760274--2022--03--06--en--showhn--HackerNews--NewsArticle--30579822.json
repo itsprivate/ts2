@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--06--en--showhn--HackerNews--NewsArticle--30579822",
+  "url": "https://news.ycombinator.com/item?id=30579822",
+  "headline": "Show HN: Mind Sanctuary, mood tracking and psychological testing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "Diego-Little",
+    "url": "https://news.ycombinator.com/user?id=Diego-Little"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30579822",
+  "sameAs": "https://mindsanctuary.net/",
+  "dateCreated": "2022-03-06T18:52:40.274Z",
+  "datePublished": "2022-03-06T18:34:50.000Z",
+  "dateModified": "2022-03-06T18:52:40.274Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 心灵圣地、情绪跟踪和心理测试",
+  "headline_zh-Hant": "Show HN: 心靈聖地、情緒跟蹤和心理測試",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

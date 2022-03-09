@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--06--en--showhn--HackerNews--NewsArticle--30231835",
+  "url": "https://news.ycombinator.com/item?id=30231835",
+  "headline": "Show HN: BeerBase – an accessible worldwide open beer database",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "midzer",
+    "url": "https://news.ycombinator.com/user?id=midzer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30231835",
+  "sameAs": "https://beerba.se/",
+  "dateCreated": "2022-02-06T12:40:27.914Z",
+  "datePublished": "2022-02-06T12:16:24.000Z",
+  "dateModified": "2022-02-06T12:40:27.914Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: BeerBase - 一个可访问的全球开放啤酒数据库",
+  "headline_zh-Hant": "Show HN: BeerBase - 一個可訪問的全球開放啤酒數據庫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--26--en--besthn--HackerNews--NewsArticle--30476002",
+  "url": "https://news.ycombinator.com/item?id=30476002",
+  "headline": "Strange plant-like formation captured by Curiosity rover on Mars",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dvh",
+    "url": "https://news.ycombinator.com/user?id=dvh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30476002",
+  "sameAs": "https://mars.nasa.gov/msl-raw-images/msss/03397/mhli/3397MH0001630001201030R00_DXXX.jpg",
+  "dateCreated": "2022-02-26T18:51:06.108Z",
+  "datePublished": "2022-02-26T08:13:11.000Z",
+  "dateModified": "2022-02-26T18:51:06.108Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 254
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 97
+    }
+  ],
+  "headline_zh-Hans": "火星上的 \"好奇号 \"探测器捕捉到奇怪的植物状结构",
+  "headline_zh-Hant": "火星上的 \"好奇號 \"探測器捕捉到奇怪的植物狀結構",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

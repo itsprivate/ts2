@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30601072",
+  "url": "https://news.ycombinator.com/item?id=30601072",
+  "headline": "The Art of Asking Questions with GenQ",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gk1",
+    "url": "https://news.ycombinator.com/user?id=gk1"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30601072",
+  "sameAs": "https://www.pinecone.io/learn/genq/",
+  "dateCreated": "2022-03-08T15:44:45.851Z",
+  "datePublished": "2022-03-08T15:41:40.000Z",
+  "dateModified": "2022-03-08T15:44:45.851Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "与GenQ的提问艺术",
+  "headline_zh-Hant": "與GenQ的提問藝術",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

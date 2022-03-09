@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--18--en--showhn--HackerNews--NewsArticle--30381520",
+  "url": "https://news.ycombinator.com/item?id=30381520",
+  "headline": "Show HN: Cmru is a command runner / build tools in JavaScript",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "sigoden",
+    "url": "https://news.ycombinator.com/user?id=sigoden"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30381520",
+  "sameAs": "https://github.com/sigoden/cmru",
+  "dateCreated": "2022-02-18T02:50:40.126Z",
+  "datePublished": "2022-02-18T02:37:14.000Z",
+  "dateModified": "2022-02-18T02:50:40.126Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Cmru是一个JavaScript的命令运行器/构建工具",
+  "headline_zh-Hant": "Show HN: Cmru是一個JavaScript的命令運行器/構建工具",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

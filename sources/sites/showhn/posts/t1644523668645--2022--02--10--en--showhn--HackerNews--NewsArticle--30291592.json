@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--10--en--showhn--HackerNews--NewsArticle--30291592",
+  "url": "https://news.ycombinator.com/item?id=30291592",
+  "headline": "Show HN: A Schemaless Data Store Within Your SQL Database",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "dfragnito",
+    "url": "https://news.ycombinator.com/user?id=dfragnito"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30291592",
+  "sameAs": "https://schemafreesql.com/",
+  "dateCreated": "2022-02-10T20:07:48.645Z",
+  "datePublished": "2022-02-10T19:57:00.000Z",
+  "dateModified": "2022-02-10T20:07:48.645Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 在你的SQL数据库中的无模式数据存储",
+  "headline_zh-Hant": "Show HN: 在你的SQL數據庫中的無模式數據存儲",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

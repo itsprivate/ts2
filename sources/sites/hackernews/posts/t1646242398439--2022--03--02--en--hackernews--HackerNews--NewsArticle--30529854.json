@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--hackernews--HackerNews--NewsArticle--30529854",
+  "url": "https://news.ycombinator.com/item?id=30529854",
+  "headline": "What does a 1972 paper have to do with the Single Responsibility Principle?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "swyx",
+    "url": "https://news.ycombinator.com/user?id=swyx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30529854",
+  "sameAs": "https://wasabigeek.com/blog/what-does-a-1972-paper-have-to-do-with-the-single-responsibility-principle/",
+  "dateCreated": "2022-03-02T17:33:18.439Z",
+  "datePublished": "2022-03-02T17:20:38.000Z",
+  "dateModified": "2022-03-02T17:33:18.439Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "1972年的一份文件与单一责任原则有什么关系？",
+  "headline_zh-Hant": "1972年的一份文件與單一責任原則有什麼關係？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

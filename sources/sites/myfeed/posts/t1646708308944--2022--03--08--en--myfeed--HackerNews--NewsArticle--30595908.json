@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30595908",
+  "url": "https://news.ycombinator.com/item?id=30595908",
+  "headline": "New Linux bug gives root on all major distros, exploit released",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cebert",
+    "url": "https://news.ycombinator.com/user?id=cebert"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30595908",
+  "sameAs": "https://www.bleepingcomputer.com/news/security/new-linux-bug-gives-root-on-all-major-distros-exploit-released/",
+  "dateCreated": "2022-03-08T02:58:28.944Z",
+  "datePublished": "2022-03-08T02:50:26.000Z",
+  "dateModified": "2022-03-08T02:58:28.944Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "新的Linux漏洞让所有主要发行版都有根基，漏洞已发布",
+  "headline_zh-Hant": "新的Linux漏洞讓所有主要發行版都有根基，漏洞已發佈",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

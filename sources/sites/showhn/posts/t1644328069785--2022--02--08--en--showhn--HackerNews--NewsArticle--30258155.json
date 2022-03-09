@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--08--en--showhn--HackerNews--NewsArticle--30258155",
+  "url": "https://news.ycombinator.com/item?id=30258155",
+  "headline": "Show HN: Josson and Jossons – A query language for JSON and a template engine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "raymondchoi",
+    "url": "https://news.ycombinator.com/user?id=raymondchoi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30258155",
+  "sameAs": "https://github.com/octomix/josson",
+  "dateCreated": "2022-02-08T13:47:49.785Z",
+  "datePublished": "2022-02-08T13:33:53.000Z",
+  "dateModified": "2022-02-08T13:47:49.785Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Josson和Jossons - 一个JSON的查询语言和一个模板引擎",
+  "headline_zh-Hant": "Show HN: Josson和Jossons - 一個JSON的查詢語言和一個模板引擎",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

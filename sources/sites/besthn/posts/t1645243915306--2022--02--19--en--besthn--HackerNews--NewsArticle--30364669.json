@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--19--en--besthn--HackerNews--NewsArticle--30364669",
+  "url": "https://news.ycombinator.com/item?id=30364669",
+  "headline": "New York is using cameras with microphones to ticket loud cars",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "KoftaBob",
+    "url": "https://news.ycombinator.com/user?id=KoftaBob"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30364669",
+  "sameAs": "https://www.roadandtrack.com/news/a39105913/new-york-automated-sound-tickets/",
+  "dateCreated": "2022-02-19T04:11:55.306Z",
+  "datePublished": "2022-02-16T19:38:14.000Z",
+  "dateModified": "2022-02-19T04:11:55.306Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 360
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 448
+    }
+  ],
+  "headline_zh-Hans": "纽约正在使用带有麦克风的摄像机对吵闹的汽车开罚单",
+  "headline_zh-Hant": "紐約正在使用帶有麥克風的攝像機對吵鬧的汽車開罰單",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

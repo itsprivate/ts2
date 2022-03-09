@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--07--en--hackernews--HackerNews--NewsArticle--30592056",
+  "url": "https://news.ycombinator.com/item?id=30592056",
+  "headline": "The Frog of War",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "westcort",
+    "url": "https://news.ycombinator.com/user?id=westcort"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30592056",
+  "sameAs": "http://blogs.harvard.edu/doc/",
+  "dateCreated": "2022-03-07T19:50:11.941Z",
+  "datePublished": "2022-03-07T19:14:59.000Z",
+  "dateModified": "2022-03-07T19:50:11.941Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "战争的青蛙",
+  "headline_zh-Hant": "戰爭的青蛙",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

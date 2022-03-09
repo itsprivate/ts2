@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--askhn--HackerNews--NewsArticle--30518251",
+  "url": "https://news.ycombinator.com/item?id=30518251",
+  "headline": "Ask HN: How to proceed with less-than-perfect FOSS projects?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "A few weeks ago I have started to learn Rust. To have a nice &quot;goal&quot; project I decided to develop a CLI-based chess client in the language which should be free and open source. As I was learning enough to get the first steps behind me I opened a github public repository which I have used for development ever since. The project is still far from completion but as I am learning more about the language I can spot minor and major flaws from both design and implementation standpoints.<p>I am unsure how to proceed here, it feels like the standards for FOSS (and any public software) are so high that any less-than-perfect work will reflect badly on me, as I am a part time Software Developer in another language and consider applying for CS PhDs in the next year or so. Do you think it would be best to get rid of the project and delete it, or would it be better to keep it published while continuing to work on it, eventually fixing all flaws? Apart from that I am also not sure how useful it would be to anyone stumbling upon it right now, as it is not yet fully functional and not a good example for learners. Do you think FOSS software should only be published at a point where it bears an actual value to the user? I was publishing early in the hope that other chess enthusiasts might join the development, but I don't think that will happen for the foreseeable future.<p>Thanks for any advice!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "exorbitas",
+    "url": "https://news.ycombinator.com/user?id=exorbitas"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30518251",
+  "sameAs": "https://news.ycombinator.com/item?id=30518251",
+  "dateCreated": "2022-03-01T18:52:17.742Z",
+  "datePublished": "2022-03-01T18:48:46.000Z",
+  "dateModified": "2022-03-01T18:52:17.742Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何处理不那么完美的FOSS项目？",
+  "headline_zh-Hant": "Ask HN: 如何處理不那麼完美的FOSS項目？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "几周前，我开始学习Rust。为了有一个好的&quot;目标&quot;项目，我决定用这种语言开发一个基于CLI的国际象棋客户端，而且应该是免费和开源的。当我学习到足够多的内容时，我开了一个github公共仓库，从那时起我就开始使用这个仓库进行开发。这个项目还远未完成，但随着我对这门语言的学习，我可以从设计和实现的角度发现一些小的和大的缺陷。<p>我不确定如何继续下去，感觉FOSS（和任何公共软件）的标准很高，任何不完美的工作都会对我产生不好的影响，因为我是另一种语言的兼职软件开发人员，并考虑在未来一年左右申请CS博士。你认为最好是摆脱这个项目并将其删除，还是继续发表，同时继续工作，最终修复所有的缺陷，这样会更好？除此之外，我也不确定它对现在偶然发现的人有多大用处，因为它还没有完全发挥作用，对学习者来说不是一个好的例子。你认为自由和开放源码软件应该只在对用户有实际价值的时候发布吗？我在早期发布是希望其他象棋爱好者能加入开发，但我认为这在可预见的将来是不会发生的。<p>谢谢你的建议!",
+  "description_zh-Hant": "幾周前，我開始學習Rust。為了有一個好的&quot;目標&quot;項目，我決定用這種語言開發一個基於CLI的國際象棋客戶端，而且應該是免費和開源的。當我學習到足夠多的內容時，我開了一個github公共倉庫，從那時起我就開始使用這個倉庫進行開發。這個項目還遠未完成，但隨著我對這門語言的學習，我可以從設計和實現的角度發現一些小的和大的缺陷。<p>我不確定如何繼續下去，感覺FOSS（和任何公共軟件）的標準很高，任何不完美的工作都會對我產生不好的影響，因為我是另一種語言的兼職軟件開發人員，並考慮在未來一年左右申請CS博士。你認為最好是擺脫這個項目並將其刪除，還是繼續發表，同時繼續工作，最終修復所有的缺陷，這樣會更好？除此之外，我也不確定它對現在偶然發現的人有多大用處，因為它還沒有完全發揮作用，對學習者來說不是一個好的例子。你認為自由和開放源碼軟件應該只在對用戶有實際價值的時候發佈嗎？我在早期發佈是希望其他象棋愛好者能加入開發，但我認為這在可預見的將來是不會發生的。<p>謝謝你的建議!"
+}

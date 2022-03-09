@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--showhn--HackerNews--NewsArticle--30359096",
+  "url": "https://news.ycombinator.com/item?id=30359096",
+  "headline": "Show HN: Git-blame.nvim – a Git Blame plugin for Neovim written in Lua",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "fperson",
+    "url": "https://news.ycombinator.com/user?id=fperson"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30359096",
+  "sameAs": "https://github.com/f-person/git-blame.nvim",
+  "dateCreated": "2022-02-16T13:22:11.577Z",
+  "datePublished": "2022-02-16T12:21:06.000Z",
+  "dateModified": "2022-02-16T13:22:11.577Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Git-blame.nvim - 一个用Lua编写的Neovim的Git Blame插件",
+  "headline_zh-Hant": "Show HN: Git-blame.nvim - 一個用Lua編寫的Neovim的Git Blame插件",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

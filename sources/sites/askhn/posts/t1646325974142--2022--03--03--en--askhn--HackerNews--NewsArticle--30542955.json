@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--askhn--HackerNews--NewsArticle--30542955",
+  "url": "https://news.ycombinator.com/item?id=30542955",
+  "headline": "Ask HN: Should I give up and get a job?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm pretty discouraged, I'm 37 and I've tried numerous attempts over the last 20 years to start a software business as a solo founder and none have worked. I've been working part-time to cover the bills while I work on creating the software I hoped to turn into business. My wife and I plan to start a family in the next two years, and I need to start getting serious here for my family's future. The industry is really hot right now, and I can make great money if I just get a full-time job.<p>I'm building a programmable PostgreSQL proxy in Rust. The idea is to make it easy to consume the replication stream so it can do query caching with automatic invalidation, and so that people can build custom partitioning, caching, or real-time features on top of PostgreSQL. The proxy part is implemented, but there's still a lot of work to add the replication and caching features, and to test and polish everything to production standards - databases are serious business. The project is on github here: https://github.com/riverdb/riverdb<p>I don't even know if this is something people would want or pay for if I completed it. And then there's the task of marketing/selling it, which is way outside of my skillset.\nShould I just give up (grow up?) and get a job? Is it worth pressing on here? I'm not consuming my savings, but neither am I making financial progress, and I'm not getting any younger.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "eloff",
+    "url": "https://news.ycombinator.com/user?id=eloff"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30542955",
+  "sameAs": "https://news.ycombinator.com/item?id=30542955",
+  "dateCreated": "2022-03-03T16:46:14.142Z",
+  "datePublished": "2022-03-03T16:19:51.000Z",
+  "dateModified": "2022-03-03T16:46:14.142Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 11
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 13
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我应该放弃，找一份工作吗？",
+  "headline_zh-Hant": "Ask HN: 我應該放棄，找一份工作嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我很灰心，我今年37岁，在过去的20年里，我曾无数次尝试以个人身份创办软件企业，但都没有成功。我一直在做兼职工作来支付账单，同时努力创建我希望能转化为业务的软件。我的妻子和我计划在未来两年内建立一个家庭，为了我家庭的未来，我需要在这里开始认真工作。这个行业现在真的很热，如果我找到一份全职工作，我可以赚大钱。<p>我正在用Rust构建一个可编程的PostgreSQL代理。我们的想法是让它能够轻松地消费复制流，这样它就可以通过自动失效进行查询缓存，这样人们就可以在 PostgreSQL 的基础上建立自定义的分区、缓存或实时功能。代理部分已经实现，但还有很多工作要做，以增加复制和缓存功能，并测试和打磨一切，以达到生产标准--数据库是严肃的业务。这个项目在github上：https://github.com/riverdb/riverdb<p>我甚至不知道如果我完成了这个项目，人们是否会想要或支付这个项目。然后还有营销/销售的任务，这远远超出了我的技能范围。\n我是否应该放弃（长大？），找一份工作？值得在这里坚持下去吗？我没有消耗我的储蓄，但我也没有在财务上取得进展，而且我也不年轻了。",
+  "description_zh-Hant": "我很灰心，我今年37歲，在過去的20年裡，我曾無數次嘗試以個人身份創辦軟件企業，但都沒有成功。我一直在做兼職工作來支付賬單，同時努力創建我希望能轉化為業務的軟件。我的妻子和我計劃在未來兩年內建立一個家庭，為了我家庭的未來，我需要在這裡開始認真工作。這個行業現在真的很熱，如果我找到一份全職工作，我可以賺大錢。<p>我正在用Rust構建一個可編程的PostgreSQL代理。我們的想法是讓它能夠輕鬆地消費複製流，這樣它就可以通過自動失效進行查詢緩存，這樣人們就可以在 PostgreSQL 的基礎上建立自定義的分區、緩存或實時功能。代理部分已經實現，但還有很多工作要做，以增加複製和緩存功能，並測試和打磨一切，以達到生產標準--數據庫是嚴肅的業務。這個項目在github上：https://github.com/riverdb/riverdb<p>我甚至不知道如果我完成了這個項目，人們是否會想要或支付這個項目。然後還有營銷/銷售的任務，這遠遠超出了我的技能範圍。\n我是否應該放棄（長大？），找一份工作？值得在這裡堅持下去嗎？我沒有消耗我的儲蓄，但我也沒有在財務上取得進展，而且我也不年輕了。"
+}

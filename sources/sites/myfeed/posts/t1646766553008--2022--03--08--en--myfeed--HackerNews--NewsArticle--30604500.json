@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30604500",
+  "url": "https://news.ycombinator.com/item?id=30604500",
+  "headline": "Mac Studio",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "msoad",
+    "url": "https://news.ycombinator.com/user?id=msoad"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30604500",
+  "sameAs": "https://www.apple.com/shop/buy-mac/mac-studio",
+  "dateCreated": "2022-03-08T19:09:13.008Z",
+  "datePublished": "2022-03-08T19:01:25.000Z",
+  "dateModified": "2022-03-08T19:09:13.008Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "麦氏工作室",
+  "headline_zh-Hant": "麥氏工作室",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

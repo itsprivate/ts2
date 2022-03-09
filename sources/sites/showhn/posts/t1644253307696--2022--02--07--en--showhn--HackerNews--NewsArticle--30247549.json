@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--07--en--showhn--HackerNews--NewsArticle--30247549",
+  "url": "https://news.ycombinator.com/item?id=30247549",
+  "headline": "Show HN: Select a random steam game from your library and play it",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "phragg",
+    "url": "https://news.ycombinator.com/user?id=phragg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30247549",
+  "sameAs": "https://github.com/austinpickett/random_steam_game",
+  "dateCreated": "2022-02-07T17:01:47.696Z",
+  "datePublished": "2022-02-07T16:59:35.000Z",
+  "dateModified": "2022-02-07T17:01:47.696Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 从你的图书馆中随机选择一个蒸汽游戏并播放它",
+  "headline_zh-Hant": "Show HN: 從你的圖書館中隨機選擇一個蒸汽遊戲並播放它",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

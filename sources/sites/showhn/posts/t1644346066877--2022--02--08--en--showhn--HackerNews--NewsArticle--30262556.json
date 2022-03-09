@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--08--en--showhn--HackerNews--NewsArticle--30262556",
+  "url": "https://news.ycombinator.com/item?id=30262556",
+  "headline": "Show HN: WhenDid? – a daily pop culture game, inspired by Wordle",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mknapper1",
+    "url": "https://news.ycombinator.com/user?id=mknapper1"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30262556",
+  "sameAs": "https://www.whendid.app",
+  "dateCreated": "2022-02-08T18:47:46.877Z",
+  "datePublished": "2022-02-08T18:41:57.000Z",
+  "dateModified": "2022-02-08T18:47:46.877Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 何时做的？- 是一个每日流行文化游戏，灵感来自于Wordle",
+  "headline_zh-Hant": "Show HN: 何時做的？- 是一個每日流行文化遊戲，靈感來自於Wordle",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

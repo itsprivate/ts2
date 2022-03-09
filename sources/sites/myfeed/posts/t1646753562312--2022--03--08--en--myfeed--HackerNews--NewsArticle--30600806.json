@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30600806",
+  "url": "https://news.ycombinator.com/item?id=30600806",
+  "headline": "Ronco Spray-On Usability",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "graderjs",
+    "url": "https://news.ycombinator.com/user?id=graderjs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30600806",
+  "sameAs": "https://daringfireball.net/2004/04/spray_on_usability",
+  "dateCreated": "2022-03-08T15:32:42.312Z",
+  "datePublished": "2022-03-08T15:18:50.000Z",
+  "dateModified": "2022-03-08T15:32:42.312Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ronco 喷涂式的使用性",
+  "headline_zh-Hant": "Ronco 噴塗式的使用性",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

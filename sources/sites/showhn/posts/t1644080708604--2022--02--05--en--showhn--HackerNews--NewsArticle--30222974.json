@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--05--en--showhn--HackerNews--NewsArticle--30222974",
+  "url": "https://news.ycombinator.com/item?id=30222974",
+  "headline": "Show HN: I made app hide url in Chrome while screen share",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "theindianappguy",
+    "url": "https://news.ycombinator.com/user?id=theindianappguy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30222974",
+  "sameAs": "https://www.blurscreen.app/how-to-hide-a-url-in-chrome",
+  "dateCreated": "2022-02-05T17:05:08.604Z",
+  "datePublished": "2022-02-05T16:52:16.000Z",
+  "dateModified": "2022-02-05T17:05:08.604Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我做了一个应用，在屏幕共享时隐藏了Chrome中的网址",
+  "headline_zh-Hant": "Show HN: 我做了一個應用，在屏幕共享時隱藏了Chrome中的網址",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

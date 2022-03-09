@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30599395",
+  "url": "https://news.ycombinator.com/item?id=30599395",
+  "headline": "Effective Pandas Digital Book",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mariuz",
+    "url": "https://news.ycombinator.com/user?id=mariuz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30599395",
+  "sameAs": "https://store.metasnake.com/effective-pandas-book",
+  "dateCreated": "2022-03-08T13:17:51.475Z",
+  "datePublished": "2022-03-08T13:01:14.000Z",
+  "dateModified": "2022-03-08T13:17:51.475Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "有效的熊猫数字书",
+  "headline_zh-Hant": "有效的熊貓數字書",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

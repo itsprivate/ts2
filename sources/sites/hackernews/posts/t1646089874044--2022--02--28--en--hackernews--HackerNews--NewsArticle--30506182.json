@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--28--en--hackernews--HackerNews--NewsArticle--30506182",
+  "url": "https://news.ycombinator.com/item?id=30506182",
+  "headline": "Toyota to suspend operations Tuesday at all Japan factories",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "frxx",
+    "url": "https://news.ycombinator.com/user?id=frxx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30506182",
+  "sameAs": "https://www3.nhk.or.jp/nhkworld/en/news/20220228_47/",
+  "dateCreated": "2022-02-28T23:11:14.044Z",
+  "datePublished": "2022-02-28T22:42:23.000Z",
+  "dateModified": "2022-02-28T23:11:14.044Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 19
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "丰田将于周二暂停所有日本工厂的运营",
+  "headline_zh-Hant": "豐田將於週二暫停所有日本工廠的運營",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

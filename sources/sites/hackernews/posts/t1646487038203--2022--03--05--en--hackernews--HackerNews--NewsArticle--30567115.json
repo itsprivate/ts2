@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--05--en--hackernews--HackerNews--NewsArticle--30567115",
+  "url": "https://news.ycombinator.com/item?id=30567115",
+  "headline": "Aeroflot to Halt International Flights from March 8",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mudro_zboris",
+    "url": "https://news.ycombinator.com/user?id=mudro_zboris"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30567115",
+  "sameAs": "https://www.washingtonpost.com/politics/live-updates-hundreds-in-tokyo-protest-russian-invasion/2022/03/05/87abb49c-9c50-11ec-9987-9dceee62a3f6_story.html",
+  "dateCreated": "2022-03-05T13:30:38.203Z",
+  "datePublished": "2022-03-05T12:53:26.000Z",
+  "dateModified": "2022-03-05T13:30:38.203Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "俄航将从3月8日起停止国际航班",
+  "headline_zh-Hant": "俄航將從3月8日起停止國際航班",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

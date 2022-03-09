@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--16--en--showhn--HackerNews--NewsArticle--30358457",
+  "url": "https://news.ycombinator.com/item?id=30358457",
+  "headline": "Show HN: Simple App that picks an option out of a list",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "danmol",
+    "url": "https://news.ycombinator.com/user?id=danmol"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30358457",
+  "sameAs": "https://pick.computer/",
+  "dateCreated": "2022-02-16T11:05:54.124Z",
+  "datePublished": "2022-02-16T10:54:04.000Z",
+  "dateModified": "2022-02-16T11:05:54.124Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 简单的应用程序，从列表中选择一个选项",
+  "headline_zh-Hant": "Show HN: 簡單的應用程序，從列表中選擇一個選項",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

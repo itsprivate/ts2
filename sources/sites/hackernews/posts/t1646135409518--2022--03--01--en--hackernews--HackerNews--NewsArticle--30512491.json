@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--01--en--hackernews--HackerNews--NewsArticle--30512491",
+  "url": "https://news.ycombinator.com/item?id=30512491",
+  "headline": "Privacy in email communication: we should use encryption by default",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nicfab",
+    "url": "https://news.ycombinator.com/user?id=nicfab"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30512491",
+  "sameAs": "https://notes.nicfab.it/en/posts/privacycom/",
+  "dateCreated": "2022-03-01T11:50:09.518Z",
+  "datePublished": "2022-03-01T10:50:19.000Z",
+  "dateModified": "2022-03-01T11:50:09.518Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "电子邮件通信中的隐私：我们应该默认使用加密技术",
+  "headline_zh-Hant": "電子郵件通信中的隱私：我們應該默認使用加密技術",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

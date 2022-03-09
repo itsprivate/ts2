@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--hackernews--HackerNews--NewsArticle--30599716",
+  "url": "https://news.ycombinator.com/item?id=30599716",
+  "headline": "Breaking Through Scaling Barriers with Bigtable",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ntietz",
+    "url": "https://news.ycombinator.com/user?id=ntietz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30599716",
+  "sameAs": "https://remesh.blog/breaking-through-scaling-barriers-with-bigtable-43c2e8f75c8c",
+  "dateCreated": "2022-03-08T14:10:35.978Z",
+  "datePublished": "2022-03-08T13:39:46.000Z",
+  "dateModified": "2022-03-08T14:10:35.978Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用Bigtable突破规模化的障碍",
+  "headline_zh-Hant": "用Bigtable突破規模化的障礙",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

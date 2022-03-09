@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--09--en--showhn--HackerNews--NewsArticle--30270216",
+  "url": "https://news.ycombinator.com/item?id=30270216",
+  "headline": "Show HN: An AI that predicts how long a car will last",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "MattThorne",
+    "url": "https://news.ycombinator.com/user?id=MattThorne"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30270216",
+  "sameAs": "https://autopredict.co.uk",
+  "dateCreated": "2022-02-09T08:32:05.357Z",
+  "datePublished": "2022-02-09T08:12:41.000Z",
+  "dateModified": "2022-02-09T08:32:05.357Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 预测汽车寿命的人工智能",
+  "headline_zh-Hant": "Show HN: 預測汽車壽命的人工智能",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--20--en--showhn--HackerNews--NewsArticle--30403724",
+  "url": "https://news.ycombinator.com/item?id=30403724",
+  "headline": "Show HN: Geodatadownloader, a browser based geospatial data downloader",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mchaynes",
+    "url": "https://news.ycombinator.com/user?id=mchaynes"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30403724",
+  "sameAs": "https://github.com/mchaynes/geodatadownloader",
+  "dateCreated": "2022-02-20T06:41:39.922Z",
+  "datePublished": "2022-02-20T06:38:26.000Z",
+  "dateModified": "2022-02-20T06:41:39.922Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Geodatadownloader，一个基于浏览器的地理空间数据下载器",
+  "headline_zh-Hant": "Show HN: Geodatadownloader，一個基於瀏覽器的地理空間數據下載器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30600000",
+  "url": "https://news.ycombinator.com/item?id=30600000",
+  "headline": "Spotlight 3.0",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Akinston2",
+    "url": "https://news.ycombinator.com/user?id=Akinston2"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30600000",
+  "sameAs": "https://spotlights.substack.com/p/happy-international-womens-day",
+  "dateCreated": "2022-03-08T14:27:12.685Z",
+  "datePublished": "2022-03-08T14:07:06.000Z",
+  "dateModified": "2022-03-08T14:27:12.685Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "聚光灯3.0",
+  "headline_zh-Hant": "聚光燈3.0",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

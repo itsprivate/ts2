@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--19--en--askhn--HackerNews--NewsArticle--30401122",
+  "url": "https://news.ycombinator.com/item?id=30401122",
+  "headline": "Ask HN: C# reloadOnChange=true slows down startup on Linux by 2.2 seconds. Why?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I asked this question on stackoverflow, but nobody seems to have an answer yet. Maybe you guys could help. Using the configBuilder with reloadOnChange=true leads to a HUGE slowdown in startup time (usually &gt;1000% - in bigger apps 10 seconds and more). The line that matters is:<p><pre><code>  configBuilder.AddJsonFile(f, true, true); \n</code></pre>\nHere is the full code:<p><pre><code>  var configBuilder = new ConfigurationBuilder();\n  \n  var configFiles = new[]\n  {\n      Path.Combine(AppDomain.CurrentDomain.BaseDirectory, &quot;appsettings.json&quot;),\n      // the files below do not exist, not even the directory - just a fallback\n      Path.Combine(Environment.GetFolderPath(UserProfile, DoNotVerify), &quot;.tester/appsettings.json&quot;),\n      Path.Combine(Environment.GetFolderPath(ApplicationData, DoNotVerify), &quot;tester/appsettings.json&quot;),\n  };\n  \n  foreach (var f in configFiles)\n  {\n      // using the line below works fast like expected\n      // configBuilder.AddJsonFile(f, true, false); \n      \n      // HUGE slowdown of app startup with second parameter set to true. Why?\n      configBuilder.AddJsonFile(f, true, true); \n  }\n  \n  var config = configBuilder.Build();\n  Console.WriteLine(&quot;tester&quot;);\n\n</code></pre>\nMore details:\nhttps://stackoverflow.com/questions/71179452/c-sharp-configurationbuilder-with-reloadonchange-true-slows-down-app-startup-on",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "sandreas",
+    "url": "https://news.ycombinator.com/user?id=sandreas"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30401122",
+  "sameAs": "https://news.ycombinator.com/item?id=30401122",
+  "dateCreated": "2022-02-19T22:29:24.050Z",
+  "datePublished": "2022-02-19T22:28:05.000Z",
+  "dateModified": "2022-02-19T22:29:24.050Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: C# reloadOnChange=true使Linux上的启动速度降低了2.2秒。为什么？",
+  "headline_zh-Hant": "Ask HN: C# reloadOnChange=true使Linux上的啟動速度降低了2.2秒。為什麼？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我在stackoverflow上问了这个问题，但似乎还没有人有答案。也许你们可以帮忙。Using the configBuilder with reloadOnChange=true leads to a HUGE slowdown in startup time (usually &gt;1000% - in bigger apps 10 seconds and more). The line that matters is:<p><pre><code> configBuilder.AddJsonFile(f, true, true); \n</code></pre>\n下面是完整的代码：<p><pre><code> var configBuilder = new ConfigurationBuilder();\n  \n  var configFiles = new[]\n  {\n      Path.Combine(AppDomain.CurrentDomain.BaseDirectory, &quot;appsettings.json&quot;) 。\n      // 下面的文件不存在，甚至连目录都不存在--只是一个后备文件\n      Path.Combine(Environment.GetFolderPath(UserProfile, DoNotVerify), &quot;.tester/appsettings.json&quot;)。\n      Path.Combine(Environment.GetFolderPath(ApplicationData, DoNotVerify), &quot;tester/appsettings.json&quot;)。\n  };\n  \n  foreach (var f in configFiles)\n  {\n      // 使用下面这行字可以像预期的那样快速工作\n      // configBuilder.AddJsonFile(f, true, false)。\n      \n      // HUGE slowdown of app startup with second parameter set to true. Why?\n      configBuilder.AddJsonFile(f, true, true); \n  }\n  \n  var config = configBuilder.Build();\n  Console.WriteLine(&quot;tester&quot;);\n\n</code></pre>\nMore details:\nhttps://stackoverflow.com/questions/71179452/c-sharp-configurationbuilder-with-reloadonchange-true-slows-down-app-startup-on",
+  "description_zh-Hant": "我在stackoverflow上問了這個問題，但似乎還沒有人有答案。也許你們可以幫忙。Using the configBuilder with reloadOnChange=true leads to a HUGE slowdown in startup time (usually &gt;1000% - in bigger apps 10 seconds and more). The line that matters is:<p><pre><code> configBuilder.AddJsonFile(f, true, true); \n</code></pre>\n下面是完整的代碼：<p><pre><code> var configBuilder = new ConfigurationBuilder();\n  \n  var configFiles = new[]\n  {\n      Path.Combine(AppDomain.CurrentDomain.BaseDirectory, &quot;appsettings.json&quot;) 。\n      // 下面的文件不存在，甚至連目錄都不存在--只是一個後備文件\n      Path.Combine(Environment.GetFolderPath(UserProfile, DoNotVerify), &quot;.tester/appsettings.json&quot;)。\n      Path.Combine(Environment.GetFolderPath(ApplicationData, DoNotVerify), &quot;tester/appsettings.json&quot;)。\n  };\n  \n  foreach (var f in configFiles)\n  {\n      // 使用下面這行字可以像預期的那樣快速工作\n      // configBuilder.AddJsonFile(f, true, false)。\n      \n      // HUGE slowdown of app startup with second parameter set to true. Why?\n      configBuilder.AddJsonFile(f, true, true); \n  }\n  \n  var config = configBuilder.Build();\n  Console.WriteLine(&quot;tester&quot;);\n\n</code></pre>\nMore details:\nhttps://stackoverflow.com/questions/71179452/c-sharp-configurationbuilder-with-reloadonchange-true-slows-down-app-startup-on"
+}

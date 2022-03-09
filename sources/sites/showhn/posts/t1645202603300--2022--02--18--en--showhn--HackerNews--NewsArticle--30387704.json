@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--18--en--showhn--HackerNews--NewsArticle--30387704",
+  "url": "https://news.ycombinator.com/item?id=30387704",
+  "headline": "Show HN: Pordle, Wordle for Python packages, implemented in a single Python file",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "helixc",
+    "url": "https://news.ycombinator.com/user?id=helixc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30387704",
+  "sameAs": "https://aptx314.pyweb.io/pordle/app/",
+  "dateCreated": "2022-02-18T16:43:23.300Z",
+  "datePublished": "2022-02-18T16:23:47.000Z",
+  "dateModified": "2022-02-18T16:43:23.300Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Pordle, Wordle for Python软件包，在一个Python文件中实现",
+  "headline_zh-Hant": "Show HN: Pordle, Wordle for Python軟件包，在一個Python文件中實現",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--13--en--showhn--HackerNews--NewsArticle--30319624",
+  "url": "https://news.ycombinator.com/item?id=30319624",
+  "headline": "Show HN: I built an app to ask for and share recommendations",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "neosim",
+    "url": "https://news.ycombinator.com/user?id=neosim"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30319624",
+  "sameAs": "https://www.jointruli.com",
+  "dateCreated": "2022-02-13T06:08:30.461Z",
+  "datePublished": "2022-02-13T05:53:52.000Z",
+  "dateModified": "2022-02-13T06:08:30.461Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我建立了一个应用程序来征求和分享建议",
+  "headline_zh-Hant": "Show HN: 我建立了一個應用程序來徵求和分享建議",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

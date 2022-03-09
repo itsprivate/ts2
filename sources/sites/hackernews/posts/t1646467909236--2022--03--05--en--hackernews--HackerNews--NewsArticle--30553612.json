@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--05--en--hackernews--HackerNews--NewsArticle--30553612",
+  "url": "https://news.ycombinator.com/item?id=30553612",
+  "headline": "The Software Foundations: mathematical underpinnings of reliable software",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hegzploit",
+    "url": "https://news.ycombinator.com/user?id=hegzploit"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30553612",
+  "sameAs": "https://softwarefoundations.cis.upenn.edu/",
+  "dateCreated": "2022-03-05T08:11:49.236Z",
+  "datePublished": "2022-03-04T12:12:46.000Z",
+  "dateModified": "2022-03-05T08:11:49.236Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "软件基础：可靠软件的数学基础",
+  "headline_zh-Hant": "軟件基礎：可靠軟件的數學基礎",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

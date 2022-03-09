@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--27--en--hackernews--HackerNews--NewsArticle--30492493",
+  "url": "https://news.ycombinator.com/item?id=30492493",
+  "headline": "Russia mistakenly posted post-war article about Ukraine joining Russia",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "warconflict",
+    "url": "https://news.ycombinator.com/user?id=warconflict"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30492493",
+  "sameAs": "https://web.archive.org/web/20220226051154/https://ria.ru/20220226/rossiya-1775162336.html",
+  "dateCreated": "2022-02-27T21:28:41.831Z",
+  "datePublished": "2022-02-27T21:05:44.000Z",
+  "dateModified": "2022-02-27T21:28:41.831Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 57
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "俄罗斯错误地发布了关于乌克兰加入俄罗斯的战后文章",
+  "headline_zh-Hant": "俄羅斯錯誤地發佈了關於烏克蘭加入俄羅斯的戰後文章",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

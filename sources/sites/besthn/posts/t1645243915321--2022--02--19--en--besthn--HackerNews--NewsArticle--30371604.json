@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--19--en--besthn--HackerNews--NewsArticle--30371604",
+  "url": "https://news.ycombinator.com/item?id=30371604",
+  "headline": "AWS S3: Sometimes you should press the $100k button",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "korostelevm",
+    "url": "https://news.ycombinator.com/user?id=korostelevm"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30371604",
+  "sameAs": "https://www.cyclic.sh/posts/aws-s3-why-sometimes-you-should-press-the-100k-dollar-button",
+  "dateCreated": "2022-02-19T04:11:55.321Z",
+  "datePublished": "2022-02-17T10:32:28.000Z",
+  "dateModified": "2022-02-19T04:11:55.321Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 391
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 226
+    }
+  ],
+  "headline_zh-Hans": "AWS S3。有时你应该按下10万美元的按钮",
+  "headline_zh-Hant": "AWS S3。有時你應該按下10萬美元的按鈕",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

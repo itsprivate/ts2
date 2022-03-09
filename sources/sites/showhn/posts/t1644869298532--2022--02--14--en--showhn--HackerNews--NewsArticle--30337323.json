@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--14--en--showhn--HackerNews--NewsArticle--30337323",
+  "url": "https://news.ycombinator.com/item?id=30337323",
+  "headline": "Show HN: Kattam – The Box, A Word Puzzle Game from a dad-son team",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "ozarius",
+    "url": "https://news.ycombinator.com/user?id=ozarius"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30337323",
+  "sameAs": "https://apps.apple.com/us/app/kattam-the-box/id1605984718",
+  "dateCreated": "2022-02-14T20:08:18.532Z",
+  "datePublished": "2022-02-14T19:51:58.000Z",
+  "dateModified": "2022-02-14T20:08:18.532Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 卡塔姆--盒子，一个来自父子团队的文字拼图游戏",
+  "headline_zh-Hant": "Show HN: 卡塔姆--盒子，一個來自父子團隊的文字拼圖遊戲",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

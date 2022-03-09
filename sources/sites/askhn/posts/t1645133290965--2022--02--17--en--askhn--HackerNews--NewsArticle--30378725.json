@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--17--en--askhn--HackerNews--NewsArticle--30378725",
+  "url": "https://news.ycombinator.com/item?id=30378725",
+  "headline": "Ask HN: Why is the search at the bottom of the Hacker News?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "danielyaa5",
+    "url": "https://news.ycombinator.com/user?id=danielyaa5"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30378725",
+  "sameAs": "https://news.ycombinator.com/item?id=30378725",
+  "dateCreated": "2022-02-17T21:28:10.965Z",
+  "datePublished": "2022-02-17T21:11:05.000Z",
+  "dateModified": "2022-02-17T21:28:10.965Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么搜索在Hacker News的底部？",
+  "headline_zh-Hant": "Ask HN: 為什麼搜索在Hacker News的底部？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

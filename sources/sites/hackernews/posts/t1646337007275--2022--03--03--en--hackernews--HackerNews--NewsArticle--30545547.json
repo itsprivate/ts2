@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--03--en--hackernews--HackerNews--NewsArticle--30545547",
+  "url": "https://news.ycombinator.com/item?id=30545547",
+  "headline": "Reducing the risk of nuclear war should be a key concern of our generation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bpierre",
+    "url": "https://news.ycombinator.com/user?id=bpierre"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30545547",
+  "sameAs": "https://ourworldindata.org/nuclear-weapons-risk",
+  "dateCreated": "2022-03-03T19:50:07.275Z",
+  "datePublished": "2022-03-03T19:28:05.000Z",
+  "dateModified": "2022-03-03T19:50:07.275Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "减少核战争的风险应该是我们这一代人的主要关注点",
+  "headline_zh-Hant": "減少核戰爭的風險應該是我們這一代人的主要關注點",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
