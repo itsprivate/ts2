@@ -131,7 +131,7 @@ export default async (
   await page.waitForTimeout(1000);
 
   const result = await page.$eval(targetSentenceField, (el) => el.value);
-  console.log("_res", _res);
+  // console.log("_res", _res);
 
   _res.target.translation = result;
   _res.result = result;
