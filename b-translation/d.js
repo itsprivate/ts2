@@ -118,14 +118,14 @@ export default async (
       })
       .catch(() => {})
   );
-  await page.waitForSelector(".lmt--active_translation_request");
-  await page.waitForSelector(".lmt--active_translation_request", {
-    hidden: true,
-  });
-  // await page.waitForTimeout(4000);
+  // await page.waitForSelector(".lmt--active_translation_request");
+  // await page.waitForSelector(".lmt--active_translation_request", {
+  //   hidden: true,
+  // });
+  await page.waitForTimeout(1000);
 
   // await page.screenshot({ path: "data/buddy-screenshot3.png" });
-  // await page.waitForSelector(".lmt__rating", { visible: true });
+  await page.waitForSelector(".lmt__rating", { visible: true });
   // await page.screenshot({ path: "data/buddy-screenshot4.png" });
 
   await page.waitForTimeout(1000);
@@ -142,6 +142,7 @@ export default async (
         "textarea[dl-test=translator-source-input]"
       ).value = "")
   );
+  await page.waitForTimeout(500);
 
   return _res;
 };
