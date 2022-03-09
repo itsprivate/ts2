@@ -122,6 +122,8 @@ export default async (
   // await page.waitForSelector(".lmt--active_translation_request", {
   //   hidden: true,
   // });
+  await page.waitForTimeout(10000);
+
   await page.screenshot({ path: "data/buddy-screenshot3.png" });
   await page.waitForSelector(".lmt__rating", { visible: true });
   await page.waitForTimeout(1000);

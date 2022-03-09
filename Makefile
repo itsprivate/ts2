@@ -1,6 +1,7 @@
 .Phony: run update test local install github source tr start build cache ask show front hackernews
 # run:
 # 	DENO_DIR=./deno_dir deno run -A --unstable https://deno.land/x/denoflow@0.0.34/cli.ts run apps/*/*.yml translate.yml archive
+# TODO
 prodtest:
 	DENO_DIR=./deno_dir deno run -A --unstable https://deno.land/x/denoflow@0.0.34/cli.ts run archive
 run:
