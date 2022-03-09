@@ -61,7 +61,7 @@ export default async function (files: string[]) {
   };
   // handled files number
   let currentHandledFiles = 0;
-  for (let fileIndex = 0; fileIndex < (isDev ? 1 : files.length); fileIndex++) {
+  for (let fileIndex = 0; fileIndex < (isDev ? 2 : files.length); fileIndex++) {
     if (currentHandledFiles > 100) {
       currentHandledFiles = 1;
       // refresh page
