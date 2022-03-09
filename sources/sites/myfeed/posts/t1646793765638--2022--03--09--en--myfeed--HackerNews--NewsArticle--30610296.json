@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--09--en--myfeed--HackerNews--NewsArticle--30610296",
+  "url": "https://news.ycombinator.com/item?id=30610296",
+  "headline": "A Non-Recursive Fibonacci Sequence",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "throwoutway",
+    "url": "https://news.ycombinator.com/user?id=throwoutway"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30610296",
+  "sameAs": "https://math.stackexchange.com/questions/531882/a-non-recursive-fibonacci-sequence",
+  "dateCreated": "2022-03-09T02:42:45.638Z",
+  "datePublished": "2022-03-09T02:31:41.000Z",
+  "dateModified": "2022-03-09T02:42:45.638Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "非递归斐波纳契数列",
+  "headline_zh-Hant": "非遞歸斐波納契數列",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

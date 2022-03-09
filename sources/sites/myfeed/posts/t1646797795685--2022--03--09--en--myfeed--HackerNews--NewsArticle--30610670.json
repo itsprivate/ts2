@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--09--en--myfeed--HackerNews--NewsArticle--30610670",
+  "url": "https://news.ycombinator.com/item?id=30610670",
+  "headline": "How do you version your large files for machine learning?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Just tar your data and put it in s3? use a shared folder in NFS? or use git-like solutions, like DVC, Git LFS?<p>Undoubtedly, putting large files in s3 (or similar object store) or NFS is the most common solution. However, when it comes to version control, Git is the defacto solution. But Git is not designed for versioning large files. If we want to put large files on S3, why don’t we just use a tool that does the data versioning just on top of S3? This is the motivation why we develop the ArtiV(Artifact Versions), a version control tool for large files.<p>For more detail, I recommend you to read this blog post \nhttps://blog.infuseai.io/a-modern-approach-to-versioning-large-datasets-for-machine-learning-fca2f541dd85<p>Or check out our git repository https://github.com/InfuseAI/artiv",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "popcornylu",
+    "url": "https://news.ycombinator.com/user?id=popcornylu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30610670",
+  "sameAs": "https://news.ycombinator.com/item?id=30610670",
+  "dateCreated": "2022-03-09T03:49:55.685Z",
+  "datePublished": "2022-03-09T03:42:58.000Z",
+  "dateModified": "2022-03-09T03:49:55.685Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "你如何为你的大文件进行机器学习的版本？",
+  "headline_zh-Hant": "你如何為你的大文件進行機器學習的版本？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "是使用NFS中的共享文件夹，还是使用类似Git的解决方案，如DVC、Git LFS？<p>毫无疑问，将大文件放在s3（或类似的对象存储）或NFS中是最常见的解决方案。然而，当涉及到版本控制时，Git是事实上的解决方案。但Git不是为大文件的版本控制而设计的。如果我们想把大文件放在S3上，为什么不使用一个仅仅在S3上面做数据版本控制的工具呢？这就是我们开发ArtiV(Artifact Versions)的动机，一个针对大文件的版本控制工具。<p>更多细节，我推荐你阅读这篇博文 \nhttps://blog.infuseai.io/a-modern-approach-to-versioning-large-datasets-for-machine-learning-fca2f541dd85<p>或者查看我们的git仓库https://github.com/InfuseAI/artiv",
+  "description_zh-Hant": "是使用NFS中的共享文件夾，還是使用類似Git的解決方案，如DVC、Git LFS？<p>毫無疑問，將大文件放在s3（或類似的對象存儲）或NFS中是最常見的解決方案。然而，當涉及到版本控制時，Git是事實上的解決方案。但Git不是為大文件的版本控制而設計的。如果我們想把大文件放在S3上，為什麼不使用一個僅僅在S3上面做數據版本控制的工具呢？這就是我們開發ArtiV(Artifact Versions)的動機，一個針對大文件的版本控制工具。<p>更多細節，我推薦你閱讀這篇博文 \nhttps://blog.infuseai.io/a-modern-approach-to-versioning-large-datasets-for-machine-learning-fca2f541dd85<p>或者查看我們的git倉庫https://github.com/InfuseAI/artiv"
+}

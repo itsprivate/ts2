@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30604980",
+  "url": "https://news.ycombinator.com/item?id=30604980",
+  "headline": "Distinct biological ages of organs and systems",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vo2maxer",
+    "url": "https://news.ycombinator.com/user?id=vo2maxer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30604980",
+  "sameAs": "https://www.cell.com/cell-reports/fulltext/S2211-1247(22)00186-3",
+  "dateCreated": "2022-03-08T19:24:39.197Z",
+  "datePublished": "2022-03-08T19:21:04.000Z",
+  "dateModified": "2022-03-08T19:24:39.197Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "器官和系统的不同生物年龄",
+  "headline_zh-Hant": "器官和系統的不同生物年齡",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30608561",
+  "url": "https://news.ycombinator.com/item?id=30608561",
+  "headline": "Ukraine successfully attacked Russian vehicles in Kyiv thanks to Telegram tip",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "awb",
+    "url": "https://news.ycombinator.com/user?id=awb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30608561",
+  "sameAs": "https://www.businessinsider.com/ukraine-attack-russian-vehicles-kyiv-telegram-tip-2022-3",
+  "dateCreated": "2022-03-08T23:10:19.585Z",
+  "datePublished": "2022-03-08T23:04:17.000Z",
+  "dateModified": "2022-03-08T23:10:19.585Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "乌克兰成功攻击基辅的俄罗斯车辆，感谢Telegram提供的线索",
+  "headline_zh-Hant": "烏克蘭成功攻擊基輔的俄羅斯車輛，感謝Telegram提供的線索",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

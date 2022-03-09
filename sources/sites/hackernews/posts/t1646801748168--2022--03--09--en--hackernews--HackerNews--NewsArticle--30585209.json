@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--09--en--hackernews--HackerNews--NewsArticle--30585209",
+  "url": "https://news.ycombinator.com/item?id=30585209",
+  "headline": "Low process culture, high process culture",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "firstSpeaker",
+    "url": "https://news.ycombinator.com/user?id=firstSpeaker"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30585209",
+  "sameAs": "https://cate.blog/2022/02/28/low-process-culture-high-process-culture/",
+  "dateCreated": "2022-03-09T04:55:48.168Z",
+  "datePublished": "2022-03-07T07:49:14.000Z",
+  "dateModified": "2022-03-09T04:55:48.168Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "低过程文化，高过程文化",
+  "headline_zh-Hant": "低過程文化，高過程文化",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

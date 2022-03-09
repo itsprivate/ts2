@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30605986",
+  "url": "https://news.ycombinator.com/item?id=30605986",
+  "headline": "Squeezing a Wordle Clone onto the Game Boy",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bookofjoe",
+    "url": "https://news.ycombinator.com/user?id=bookofjoe"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30605986",
+  "sameAs": "https://hackaday.com/2022/03/01/squeezing-a-wordle-clone-onto-the-game-boy/",
+  "dateCreated": "2022-03-08T20:11:26.848Z",
+  "datePublished": "2022-03-08T20:03:23.000Z",
+  "dateModified": "2022-03-08T20:11:26.848Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "将Wordle克隆到游戏机上",
+  "headline_zh-Hant": "將Wordle克隆到遊戲機上",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

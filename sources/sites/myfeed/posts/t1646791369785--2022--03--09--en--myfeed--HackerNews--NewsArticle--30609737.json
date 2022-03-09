@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--09--en--myfeed--HackerNews--NewsArticle--30609737",
+  "url": "https://news.ycombinator.com/item?id=30609737",
+  "headline": "Ukraine Nuclear Plant Attack Shows Bigger Is Safer",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gloriana",
+    "url": "https://news.ycombinator.com/user?id=gloriana"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30609737",
+  "sameAs": "https://www.bloomberg.com/opinion/articles/2022-03-04/ukraine-nuclear-power-plant-attack-shows-why-bigger-facilities-are-safer",
+  "dateCreated": "2022-03-09T02:02:49.785Z",
+  "datePublished": "2022-03-09T01:04:59.000Z",
+  "dateModified": "2022-03-09T02:02:49.785Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "乌克兰核电站袭击事件表明更大更安全",
+  "headline_zh-Hant": "烏克蘭核電站襲擊事件表明更大更安全",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

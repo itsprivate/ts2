@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--09--en--myfeed--HackerNews--NewsArticle--30611243",
+  "url": "https://news.ycombinator.com/item?id=30611243",
+  "headline": "Librarian's lament: Digital books are not fireproof",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pabs3",
+    "url": "https://news.ycombinator.com/user?id=pabs3"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30611243",
+  "sameAs": "https://www.zdnet.com/article/digital-books-are-not-fireproof/",
+  "dateCreated": "2022-03-09T05:35:33.890Z",
+  "datePublished": "2022-03-09T05:29:59.000Z",
+  "dateModified": "2022-03-09T05:35:33.890Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "图书管理员的感叹。数字书籍不防火",
+  "headline_zh-Hant": "圖書管理員的感嘆。數字書籍不防火",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
