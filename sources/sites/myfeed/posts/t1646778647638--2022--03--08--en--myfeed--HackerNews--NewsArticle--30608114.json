@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30608114",
+  "url": "https://news.ycombinator.com/item?id=30608114",
+  "headline": "Russian central bank imposes $10k limit on foreign cash withdrawals",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "underscore_ku",
+    "url": "https://news.ycombinator.com/user?id=underscore_ku"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30608114",
+  "sameAs": "https://finance.yahoo.com/news/russian-central-bank-imposes-10-211856000.html",
+  "dateCreated": "2022-03-08T22:30:47.638Z",
+  "datePublished": "2022-03-08T22:25:41.000Z",
+  "dateModified": "2022-03-08T22:30:47.638Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "俄罗斯央行对外国现金提取实行1万美元限制",
+  "headline_zh-Hant": "俄羅斯央行對外國現金提取實行1萬美元限制",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--09--en--hackernews--HackerNews--NewsArticle--30612817",
+  "url": "https://news.ycombinator.com/item?id=30612817",
+  "headline": "Sending notifications programmatically: let me count the ways",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rl1987",
+    "url": "https://news.ycombinator.com/user?id=rl1987"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30612817",
+  "sameAs": "https://www.trickster.dev/post/sending-notifications-programmatically/",
+  "dateCreated": "2022-03-09T10:54:50.559Z",
+  "datePublished": "2022-03-09T10:07:50.000Z",
+  "dateModified": "2022-03-09T10:54:50.559Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "以编程方式发送通知：让我来数数吧",
+  "headline_zh-Hant": "以編程方式發送通知：讓我來數數吧",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

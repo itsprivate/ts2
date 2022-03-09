@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--09--en--hackernews--HackerNews--NewsArticle--30614073",
+  "url": "https://news.ycombinator.com/item?id=30614073",
+  "headline": "DDoS Amplification Record Broken (4,294,967,296:1)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "leohonexus",
+    "url": "https://news.ycombinator.com/user?id=leohonexus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30614073",
+  "sameAs": "https://www.akamai.com/blog/security/phone-home-ddos-attack-vector",
+  "dateCreated": "2022-03-09T13:57:50.413Z",
+  "datePublished": "2022-03-09T13:16:56.000Z",
+  "dateModified": "2022-03-09T13:57:50.413Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 44
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 31
+    }
+  ],
+  "headline_zh-Hans": "DDoS放大的记录被打破(4,294,967,296:1)",
+  "headline_zh-Hant": "DDoS放大的記錄被打破(4,294,967,296:1)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

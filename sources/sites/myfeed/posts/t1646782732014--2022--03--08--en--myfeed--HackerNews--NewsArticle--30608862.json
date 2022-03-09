@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30608862",
+  "url": "https://news.ycombinator.com/item?id=30608862",
+  "headline": "Color contrast checker (WCAG formula)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ColorsData",
+    "url": "https://news.ycombinator.com/user?id=ColorsData"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30608862",
+  "sameAs": "https://www.colorsdata.com/tools/color_contrast_checker",
+  "dateCreated": "2022-03-08T23:38:52.014Z",
+  "datePublished": "2022-03-08T23:33:06.000Z",
+  "dateModified": "2022-03-08T23:38:52.014Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "色彩对比检查器（WCAG公式）。",
+  "headline_zh-Hant": "色彩對比檢查器（WCAG公式）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

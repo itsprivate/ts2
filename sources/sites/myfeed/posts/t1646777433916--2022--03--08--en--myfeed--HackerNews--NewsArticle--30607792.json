@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30607792",
+  "url": "https://news.ycombinator.com/item?id=30607792",
+  "headline": "Hacking Alexa Through Alexa’s Speech",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "em3rgent0rdr",
+    "url": "https://news.ycombinator.com/user?id=em3rgent0rdr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30607792",
+  "sameAs": "https://www.schneier.com/blog/archives/2022/03/hacking-alexa-through-alexas-speech.html",
+  "dateCreated": "2022-03-08T22:10:33.916Z",
+  "datePublished": "2022-03-08T22:04:33.000Z",
+  "dateModified": "2022-03-08T22:10:33.916Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "通过Alexa的讲话黑掉Alexa",
+  "headline_zh-Hant": "通過Alexa的講話黑掉Alexa",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

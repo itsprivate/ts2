@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30607572",
+  "url": "https://news.ycombinator.com/item?id=30607572",
+  "headline": "Friends fled Ukraine raising money for relief",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gregjor",
+    "url": "https://news.ycombinator.com/user?id=gregjor"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30607572",
+  "sameAs": "https://leslyandyana.com/fundraising/",
+  "dateCreated": "2022-03-08T21:50:03.587Z",
+  "datePublished": "2022-03-08T21:48:00.000Z",
+  "dateModified": "2022-03-08T21:50:03.587Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "逃离乌克兰的朋友们为救济筹集资金",
+  "headline_zh-Hant": "逃離烏克蘭的朋友們為救濟籌集資金",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--myfeed--HackerNews--NewsArticle--30608841",
+  "url": "https://news.ycombinator.com/item?id=30608841",
+  "headline": "We do not believe Poland’s proposal is a tenable one",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "eatonphil",
+    "url": "https://news.ycombinator.com/user?id=eatonphil"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30608841",
+  "sameAs": "https://twitter.com/PentagonPresSec/status/1501336445729968129",
+  "dateCreated": "2022-03-08T23:38:51.998Z",
+  "datePublished": "2022-03-08T23:30:54.000Z",
+  "dateModified": "2022-03-08T23:38:51.998Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我们认为波兰的建议是不可行的",
+  "headline_zh-Hant": "我們認為波蘭的建議是不可行的",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

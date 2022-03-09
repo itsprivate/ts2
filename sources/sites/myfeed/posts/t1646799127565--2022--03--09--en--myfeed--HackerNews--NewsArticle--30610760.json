@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--09--en--myfeed--HackerNews--NewsArticle--30610760",
+  "url": "https://news.ycombinator.com/item?id=30610760",
+  "headline": "Russia-Ukraine War: What Happened March 8",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "News-Dog",
+    "url": "https://news.ycombinator.com/user?id=News-Dog"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30610760",
+  "sameAs": "https://text.npr.org/1085123849",
+  "dateCreated": "2022-03-09T04:12:07.565Z",
+  "datePublished": "2022-03-09T03:55:10.000Z",
+  "dateModified": "2022-03-09T04:12:07.565Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "俄乌战争：3月8日发生了什么？",
+  "headline_zh-Hant": "俄烏戰爭：3月8日發生了什麼？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
