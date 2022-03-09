@@ -21,8 +21,8 @@ import {
 } from "https://cdn.skypack.dev/jsonld?dts";
 import zhToHant from "./zh-to-hant.ts";
 const homepage = "https://www.deepl.com/translator";
-const isDev = Deno.env.get("ENV") === "dev";
-// const isDev = false;
+// const isDev = Deno.env.get("ENV") === "dev";
+const isDev = true;
 export default async function (files: string[]) {
   const results: boolean[] = [];
   let browser: Browser | null = null;
@@ -61,25 +61,28 @@ export default async function (files: string[]) {
   };
   // handled files number
   let currentHandledFiles = 0;
-  for (let fileIndex = 0; fileIndex < files.length; fileIndex++) {
-    if (!isDev) {
-      if (currentHandledFiles > 100) {
-        currentHandledFiles = 1;
-        // refresh page
-        browser = await getBrowser();
-        const pages = await browser!.pages();
+  for (
+    let fileIndex = 0;
+    fileIndex < (isDev ? files.length : files.length);
+    fileIndex++
+  ) {
+    if (currentHandledFiles > 100) {
+      currentHandledFiles = 1;
+      // refresh page
+      browser = await getBrowser();
+      const pages = await browser!.pages();
 
-        if (pages.length > 1 && page) {
-          page!.close();
-        }
-        page = null;
-        page = await getNewPage(true);
-      } else {
-        currentHandledFiles++;
-        // open puppeteer
-        page = await getNewPage(false);
+      if (pages.length > 1 && page) {
+        page!.close();
       }
+      page = null;
+      page = await getNewPage(true);
+    } else {
+      currentHandledFiles++;
+      // open puppeteer
+      page = await getNewPage(false);
     }
+
     const file = files[fileIndex];
     const parsedFilePath = parse(file);
     const identifier = parsedFilePath.name;
@@ -135,7 +138,7 @@ export async function translateItem(item: NodeObject, page: Page | null) {
           sourceLanguage,
           dTargetLanguage,
           {
-            mock: isDev || page === null,
+            mock: page === null,
           }
         );
         console.log(

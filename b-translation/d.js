@@ -118,10 +118,13 @@ export default async (
       })
       .catch(() => {})
   );
-  await page.waitForSelector(".lmt--active_translation_request");
-  await page.waitForSelector(".lmt--active_translation_request", {
-    hidden: true,
-  });
+  // await page.waitForSelector(".lmt--active_translation_request");
+  // await page.waitForSelector(".lmt--active_translation_request", {
+  //   hidden: true,
+  // });
+  await page.waitForSelector(".lmt__rating", { visible: true });
+  await page.waitForTimeout(1000);
+
   const result = await page.$eval(targetSentenceField, (el) => el.value);
   _res.target.translation = result;
   _res.result = result;
