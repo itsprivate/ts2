@@ -25,12 +25,12 @@ export default async (
      targetSentencesContainer = '.lmt__translations_as_text'*/
 
   // click  black
-  await page.screenshot({ path: "data/1.png" });
+  // await page.screenshot({ path: "data/1.png" });
 
   await page.click(sourceLangSelect);
   await page.waitForTimeout(500);
 
-  await page.screenshot({ path: "data/2.png" });
+  // await page.screenshot({ path: "data/2.png" });
 
   // const element = await page.$eval(
   //   "[dl-test=translator-source-lang]",
@@ -78,10 +78,10 @@ export default async (
   } else {
     await page.waitForSelector(targetLangMenu, { hidden: true });
   }
-  await page.screenshot({ path: "data/buddy-screenshot.png" });
+  // await page.screenshot({ path: "data/buddy-screenshot.png" });
   await page.waitForSelector(originalSentenceField);
   await page.type(originalSentenceField, sentence);
-  await page.screenshot({ path: "data/buddy-screenshot2.png" });
+  // await page.screenshot({ path: "data/buddy-screenshot2.png" });
 
   let sentences = [];
   let _res = {};
@@ -122,9 +122,9 @@ export default async (
   // await page.waitForSelector(".lmt--active_translation_request", {
   //   hidden: true,
   // });
-  await page.waitForTimeout(10000);
+  // await page.waitForTimeout(10000);
 
-  await page.screenshot({ path: "data/buddy-screenshot3.png" });
+  // await page.screenshot({ path: "data/buddy-screenshot3.png" });
   await page.waitForSelector(".lmt__rating", { visible: true });
   await page.waitForTimeout(1000);
 
