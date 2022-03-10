@@ -36,5 +36,23 @@
       },
       "userInteractionCount": 0
     }
+  ],
+  "headline_zh-Hans": "火山、瘟疫、饥荒和无尽的冬天。欢迎来到536",
+  "headline_zh-Hant": "火山、瘟疫、饑荒和無盡的冬天。歡迎來到536",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
   ]
 }
