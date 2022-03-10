@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--10--en--showhn--HackerNews--NewsArticle--30617545",
+  "url": "https://news.ycombinator.com/item?id=30617545",
+  "headline": "Show HN: Signal channel with news briefs from western publications",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jandll",
+    "url": "https://news.ycombinator.com/user?id=jandll"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30617545",
+  "sameAs": "https://signal.group/#CjQKIL63rFBQ0jeGB15PkLlMtO1Sdksio_eN78rs03T9Cz-zEhCP5WCm8rJMzT-WwjNIU5SF",
+  "dateCreated": "2022-03-10T09:09:35.815Z",
+  "datePublished": "2022-03-09T17:38:21.000Z",
+  "dateModified": "2022-03-10T09:09:35.815Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 提供西方出版物的新闻简报的信号频道",
+  "headline_zh-Hant": "Show HN: 提供西方出版物的新聞簡報的信號頻道",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

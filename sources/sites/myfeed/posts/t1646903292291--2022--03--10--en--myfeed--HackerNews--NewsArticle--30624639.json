@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--10--en--myfeed--HackerNews--NewsArticle--30624639",
+  "url": "https://news.ycombinator.com/item?id=30624639",
+  "headline": "Credentials Leaks on VirusTotal",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "News-Dog",
+    "url": "https://news.ycombinator.com/user?id=News-Dog"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30624639",
+  "sameAs": "https://isc.sans.edu/forums/diary/Credentials+Leaks+on+VirusTotal/28426",
+  "dateCreated": "2022-03-10T09:08:12.291Z",
+  "datePublished": "2022-03-10T08:40:07.000Z",
+  "dateModified": "2022-03-10T09:08:12.291Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "VirusTotal上的凭证泄露",
+  "headline_zh-Hant": "VirusTotal上的憑證洩露",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--10--en--hackernews--HackerNews--NewsArticle--30620897",
+  "url": "https://news.ycombinator.com/item?id=30620897",
+  "headline": "Show HN: 2D Game engine and editor for Windows and Linux",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello HN,<p>Just wanted to show this little 2D game engine that I've been working on for some time (around 2 years on the editor part, longer on some of the components).<p>It's quite full featured but obviously this a project of such magnitude already that the work never really ends. That being said it's definitely already at a point where games can made and published. The editor runs natively on Windows and Linux using Qt5. The games can run on both Win and Linux as well as on WASM with WebGL.<p>Feature wise there's a bunch of the stuff you'd expect.<p>Audio, graphics, scripting, animation+entity+gameplay systems, physics and UI are all there. Scripting is through sol3 + Lua, physics with Box2D. Audio, graphics, UI and game play stuff is all done by me.<p>License is currently GPL.<p>Source code is on github <a href=\"https://github.com/ensisoft/gamestudio\" rel=\"nofollow\">https://github.com/ensisoft/gamestudio</a><p>Some games are available on my site at\n<a href=\"https://ensisoft.com/games.html\" rel=\"nofollow\">https://ensisoft.com/games.html</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "ensiferum",
+    "url": "https://news.ycombinator.com/user?id=ensiferum"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30620897",
+  "sameAs": "https://github.com/ensisoft/gamestudio",
+  "dateCreated": "2022-03-10T09:08:11.282Z",
+  "datePublished": "2022-03-09T22:37:39.000Z",
+  "dateModified": "2022-03-10T09:08:11.282Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 91
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 20
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 适用于Windows和Linux的2D游戏引擎和编辑器",
+  "headline_zh-Hant": "Show HN: 適用於Windows和Linux的2D遊戲引擎和編輯器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

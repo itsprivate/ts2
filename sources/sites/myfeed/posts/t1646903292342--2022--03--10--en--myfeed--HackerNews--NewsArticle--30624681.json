@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--10--en--myfeed--HackerNews--NewsArticle--30624681",
+  "url": "https://news.ycombinator.com/item?id=30624681",
+  "headline": "Check out the Linux kernel in less than a second with gitoxide",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ByronBates",
+    "url": "https://news.ycombinator.com/user?id=ByronBates"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30624681",
+  "sameAs": "https://github.com/Byron/gitoxide/discussions/349",
+  "dateCreated": "2022-03-10T09:08:12.342Z",
+  "datePublished": "2022-03-10T08:47:25.000Z",
+  "dateModified": "2022-03-10T09:08:12.342Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用gitoxide在不到一秒的时间内检查出Linux内核",
+  "headline_zh-Hant": "用gitoxide在不到一秒的時間內檢查出Linux內核",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
