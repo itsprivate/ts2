@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--10--en--myfeed--HackerNews--NewsArticle--30624920",
+  "url": "https://news.ycombinator.com/item?id=30624920",
+  "headline": "Throwaway – single-use, 1-1, e2e encrypted messaging (in-browser)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN!<p>Keen to get your thoughts on an encrypted messaging app I've made:<p>throwaway is an in-browser messaging app. It's specifically for single-use, one-to-one, e2e encrypted messaging. This means your messages are encrypted in your browser, and they are only decrypted when they reach your recipients browser. The messages disappear permanently once both browser windows have closed. You can never recover a throwaway chat; once the window is closed, it's gone forever.<p>throwaway uses the SubtleCrypto Web API to create a public/private key pair every time it is opened/refreshed (ECDH P-521). You can invite a recipient to start a chat using the invite link; automatically generated when you land on the page. Once a recipient has clicked on the invite link, throwaway generates them a key pair too. The public keys are shared so each user can derive symmetric keys (AES-GCM 256, forward secrecy) to encrypt messages that can only be decrypted by their recipients symmetric key. The private keys and derived symmetric keys never leave the browser window they were created in.<p>All ideas/thoughts/critiques welcome, thanks!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "macondorivers",
+    "url": "https://news.ycombinator.com/user?id=macondorivers"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30624920",
+  "sameAs": "https://throwaway.sh/",
+  "dateCreated": "2022-03-10T09:46:25.235Z",
+  "datePublished": "2022-03-10T09:21:01.000Z",
+  "dateModified": "2022-03-10T09:46:25.235Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ],
+  "description_zh-Hans": "嗨，HN！<p>我想听听你对我做的一个加密消息应用的看法：<p>throwaway是一个浏览器内的消息应用。它是专门用于单次使用、一对一、e2e加密的消息传递。这意味着你的信息在你的浏览器中被加密，只有当它们到达你的收件人浏览器时才会被解密。一旦两个浏览器窗口都关闭，信息就会永久消失。您永远无法恢复扔掉的聊天；一旦窗口关闭，它就永远消失了。<p>扔掉的聊天使用SubtleCrypto Web API，在每次打开/刷新时创建一个公共/私人密钥对（ECDH P-521）。您可以使用邀请链接邀请收件人开始聊天；在您登陆页面时自动生成。一旦收件人点击了邀请链接，throwaway也会为他们生成一个密钥对。公钥是共享的，因此每个用户都可以导出对称密钥（AES-GCM 256，前向保密）来加密信息，这些信息只能由其接收者的对称密钥解密。钥匙",
+  "description_zh-Hant": "嗨，HN！<p>我想聽聽你對我做的一個加密消息應用的看法：<p>throwaway是一個瀏覽器內的消息應用。它是專門用於單次使用、一對一、e2e加密的消息傳遞。這意味著你的信息在你的瀏覽器中被加密，只有當它們到達你的收件人瀏覽器時才會被解密。一旦兩個瀏覽器窗口都關閉，信息就會永久消失。您永遠無法恢復扔掉的聊天；一旦窗口關閉，它就永遠消失了。<p>扔掉的聊天使用SubtleCrypto Web API，在每次打開/刷新時創建一個公共/私人密鑰對（ECDH P-521）。您可以使用邀請鏈接邀請收件人開始聊天；在您登陸頁面時自動生成。一旦收件人點擊了邀請鏈接，throwaway也會為他們生成一個密鑰對。公鑰是共享的，因此每個用戶都可以導出對稱密鑰（AES-GCM 256，前向保密）來加密信息，這些信息只能由其接收者的對稱密鑰解密。鑰匙"
+}
