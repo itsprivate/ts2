@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--09--en--myfeed--HackerNews--NewsArticle--30612841",
+  "url": "https://news.ycombinator.com/item?id=30612841",
+  "headline": "On this day, 5 years ago, AlphaGo beated the Go Master Mr Lee Sedol",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "luismedel",
+    "url": "https://news.ycombinator.com/user?id=luismedel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30612841",
+  "sameAs": "https://deepmind.com/research/case-studies/alphago-the-story-so-far",
+  "dateCreated": "2022-03-09T10:32:46.281Z",
+  "datePublished": "2022-03-09T10:11:46.000Z",
+  "dateModified": "2022-03-09T10:32:46.281Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "5年前的这一天，AlphaGo击败了围棋大师李世石先生。",
+  "headline_zh-Hant": "5年前的這一天，AlphaGo擊敗了圍棋大師李世石先生。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

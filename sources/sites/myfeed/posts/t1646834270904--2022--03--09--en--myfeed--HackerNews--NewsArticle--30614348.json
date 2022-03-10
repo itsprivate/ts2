@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--09--en--myfeed--HackerNews--NewsArticle--30614348",
+  "url": "https://news.ycombinator.com/item?id=30614348",
+  "headline": "War in Ukraine: Russia soon unable to pay its debts, warns agency",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "curtisblaine",
+    "url": "https://news.ycombinator.com/user?id=curtisblaine"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30614348",
+  "sameAs": "https://www.bbc.co.uk/news/business-60672085",
+  "dateCreated": "2022-03-09T13:57:50.904Z",
+  "datePublished": "2022-03-09T13:50:31.000Z",
+  "dateModified": "2022-03-09T13:57:50.904Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "乌克兰的战争。该机构警告说，俄罗斯很快就无法支付其债务",
+  "headline_zh-Hant": "烏克蘭的戰爭。該機構警告說，俄羅斯很快就無法支付其債務",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
