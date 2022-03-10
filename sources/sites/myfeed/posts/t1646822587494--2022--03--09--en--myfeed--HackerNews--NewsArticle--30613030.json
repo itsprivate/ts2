@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--09--en--myfeed--HackerNews--NewsArticle--30613030",
+  "url": "https://news.ycombinator.com/item?id=30613030",
+  "headline": "Ernest Shackleton's Endurance ship found in Antarctica after 107 years",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gscott",
+    "url": "https://news.ycombinator.com/user?id=gscott"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30613030",
+  "sameAs": "https://www.cnn.com/travel/article/ernest-shackleton-endurance-shipwreck-found-scn/index.html",
+  "dateCreated": "2022-03-09T10:43:07.494Z",
+  "datePublished": "2022-03-09T10:37:19.000Z",
+  "dateModified": "2022-03-09T10:43:07.494Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "欧内斯特-沙克尔顿的耐力号在107年后在南极洲被发现",
+  "headline_zh-Hant": "歐內斯特-沙克爾頓的耐力號在107年後在南極洲被發現",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

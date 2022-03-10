@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--09--en--myfeed--HackerNews--NewsArticle--30614384",
+  "url": "https://news.ycombinator.com/item?id=30614384",
+  "headline": "Urgent Chernobyl repairs after nuclear plant is reportedly knocked off grid",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "graderjs",
+    "url": "https://news.ycombinator.com/user?id=graderjs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30614384",
+  "sameAs": "https://www.marketwatch.com/story/chernobyl-knocked-off-the-power-grid-officials-say-01646829414",
+  "dateCreated": "2022-03-09T13:57:50.934Z",
+  "datePublished": "2022-03-09T13:54:30.000Z",
+  "dateModified": "2022-03-09T13:57:50.934Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "据报道，核电站被撞断电源后，切尔诺贝利紧急维修",
+  "headline_zh-Hant": "據報道，核電站被撞斷電源後，切爾諾貝利緊急維修",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

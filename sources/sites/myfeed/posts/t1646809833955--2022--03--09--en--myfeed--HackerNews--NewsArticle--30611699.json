@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--09--en--myfeed--HackerNews--NewsArticle--30611699",
+  "url": "https://news.ycombinator.com/item?id=30611699",
+  "headline": "The Anatomy of Interest: Women in Undergraduate Computer Science (2000)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dgellow",
+    "url": "https://news.ycombinator.com/user?id=dgellow"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30611699",
+  "sameAs": "https://www.cs.cmu.edu/afs/cs/project/gendergap/www/papers/anatomyWSQ99.html",
+  "dateCreated": "2022-03-09T07:10:33.955Z",
+  "datePublished": "2022-03-09T07:05:11.000Z",
+  "dateModified": "2022-03-09T07:10:33.955Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "兴趣的剖析。本科生计算机科学中的女性 (2000)",
+  "headline_zh-Hant": "興趣的剖析。本科生計算機科學中的女性 (2000)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

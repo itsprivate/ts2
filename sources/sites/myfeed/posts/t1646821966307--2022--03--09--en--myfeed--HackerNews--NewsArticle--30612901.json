@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--09--en--myfeed--HackerNews--NewsArticle--30612901",
+  "url": "https://news.ycombinator.com/item?id=30612901",
+  "headline": "Contactless Real-Time Heartbeat Detection via 24 GHz Doppler Radar (2020) [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pizza",
+    "url": "https://news.ycombinator.com/user?id=pizza"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30612901",
+  "sameAs": "https://pdfs.semanticscholar.org/654f/b78b8c18ce1065b96626549cbad5cd70d334.pdf",
+  "dateCreated": "2022-03-09T10:32:46.307Z",
+  "datePublished": "2022-03-09T10:21:27.000Z",
+  "dateModified": "2022-03-09T10:32:46.307Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "通过24GHz多普勒雷达进行非接触实时心跳检测(2020) [pdf]",
+  "headline_zh-Hant": "通過24GHz多普勒雷達進行非接觸實時心跳檢測(2020) [pdf]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
