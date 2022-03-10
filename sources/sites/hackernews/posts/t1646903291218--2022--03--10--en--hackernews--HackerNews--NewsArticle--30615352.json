@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--10--en--hackernews--HackerNews--NewsArticle--30615352",
+  "url": "https://news.ycombinator.com/item?id=30615352",
+  "headline": "Launch HN: Rownd (YC W22) – Add authentication and accounts to any website",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN! We’re Matt, Rachel, and Rob, the founders of Rownd (<a href=\"https://rownd.io/\" rel=\"nofollow\">https://rownd.io/</a>). We make it easy for developers to sign up users through a code snippet that adds account creation and authentication to any website or web app—like Stripe for accounts. We made a page for you to try it out: <a href=\"https://rownd.io/hacker-news\" rel=\"nofollow\">https://rownd.io/hacker-news</a>, and a video to walk you through the flow: <a href=\"https://www.youtube.com/watch?v=H7fv17HSYrc\" rel=\"nofollow\">https://www.youtube.com/watch?v=H7fv17HSYrc</a>.<p>For example, one of our customers is a film festival. The festival requires everyone who buys a movie ticket to make a user account. That's a big drag on conversion rates and requires technical upkeep. We take care of all that for the festival and make account creation and maintenance less painful for their users, which leads to more ticket sales. Further, the day of the festival, they can text “tickets” to xxxxx (our short code) and we send a specialized magic link so they can log in quickly and see their itinerary and tickets.<p>Rownd works across all your websites and apps, so (for example) if a user has subscribed to your newsletter, that data automatically gets contributed to their account for your app. No one needs to re-enter their email address!<p>Turning a website visitor into a user is hard. Turning a waitlist member or a newsletter subscriber into a user is even harder. There is a huge gap between marketing pages (landing pages, blogs, docs) and actual products (web apps and mobile apps). The culprit is the traditional sign-up/login page. Sign-in pages add friction and lose users in your product funnel.<p>Your marketing pages should transition seamlessly to your actual product, but most sign-up flows act as a giant wall: stop, enter information that the company often already has from previous interactions, verify email/phone, remember your password (hopefully it’s in the password manager!), and finally, if you’re lucky…you’re in.<p>We eliminate this gap, stitching together user accounts from your startup’s CRM, mailing lists, and database, making authentication work seamlessly across your websites and apps. If a user verifies their email or phone number anywhere (including in marketing emails), we authenticate them everywhere. Visitors and subscribers become account-holding users.<p>We give you a code snippet for websites (which you add to your footer), and an SDK for web apps, to add authentication. Our “hub” (i.e., our standard sign-in and account management widget, specially designed to look and feel trustworthy) is then visible on your pages, and the account data is available to the browser/app through a simple API. Additionally, if you already have information about that user in other sources, such as CRM/marketing tools (Hubspot, Mailchimp, Airtable, etc), we integrate it into the onboarding/authentication process. The account data is available to your website or app through our browser API, so there is no need to build a backend for user management.<p>In more detail: We create an anonymous account around any visitor to your website. When a user comes to a site that has the Rownd Hub, a unique ID is created. Any form that is attached will fire that data to our Hub as well. The registration process can take place over several days if a visitor returns periodically. The data is stored in browser memory until they either press the &quot;verify my account&quot; button or click a button or link that is tagged as a Rownd authentication button (a bit like how Discord lets users view a server, but only comment once authenticated). If you link us to relevant data in your CRM, Airtable, or database, we make “claimable accounts” that are initialized from these data sources. Users claim their accounts and sign in with our passwordless authentication (via email or phone number today, but eventually perhaps crypto wallets too!). You can also use our “instant account links” in your own email and SMS campaigns to re-engage with users and bring them back to your app or website, fully authenticated when they arrive.<p>We are a team of former IBMers that have worked together for years tackling authentication, API management, and data protection. The predecessor to Rownd was a company helping startups comply with data privacy laws. We started to notice some pain around sign-up and onboarding for our own product and were frustrated that our funnel had so many holes in it. Then we realized that other companies were facing similar problems converting their site visitors to users. So, one day during a team discussion, we said “okay, let’s solve that problem!”<p>Since we’d already built a backend for secure data storage, the account layer was essentially there. We’ve therefore focused on building the layer that streamlines user authentication, connecting data directly to the user’s browser session as well as the custom backends that most products have. In the future, we aim to allow even more seamless, opt-in authentication across different websites as our network grows. We’ve got a ton of new features in mind from mobile app support to a broader array of SDKs to enabling “sign in with crypto.” We’re excited to make this crucial part of the internet easier, more scalable, and more distributed than ever before.<p>If you’re a developer, please let us know what you think! We’d love to hear your questions, feedback, ideas, and experiences around this space. You can also try Rownd for free at <a href=\"https://rownd.io/hacker-news\" rel=\"nofollow\">https://rownd.io/hacker-news</a>. We look forward to hearing how we might help developers accelerate building products, and companies speed up growing their user base.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mhamann",
+    "url": "https://news.ycombinator.com/user?id=mhamann"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30615352",
+  "sameAs": "https://news.ycombinator.com/item?id=30615352",
+  "dateCreated": "2022-03-10T09:08:11.218Z",
+  "datePublished": "2022-03-09T15:18:13.000Z",
+  "dateModified": "2022-03-10T09:08:11.218Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 89
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 100
+    }
+  ],
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ],
+  "description_zh-Hans": "嗨，HN! 我们是Matt、Rachel和Rob，Rownd（<a href=\"https://rownd.io/\" rel=\"nofollow\">https://rownd.io/</a>）的创办人。We make it easy for developers to sign up users through a code snippet that adds account creation and authentication to any website or web app—like Stripe for accounts. We made a page for you to try it out: <a href=\"https://rownd.io/hacker-news\" rel=\"nofollow\">https://rownd.io/hacker-news</a>，并制作了一个视频来指导您完成流程。<a href=\"https://www.youtube.com/watch?v=H7fv17HSYrc\" rel=\"nofollow\">https://www.youtube.com/watch?v=H7fv17HSYrc</a>。<p>例如，我们的一个客户是一个电影节。该电影节要求每个购买电影票的人都要建立一个用户账户。这对转换率是一个很大的拖累，而且需要进行技术维护。我们为电影节处理了所有这些问题，使他们的用户在创建和维护账户方面不那么痛苦，这导致了更多的票务销售。此外，在音乐节当天，他们可以发短信 \"门票 \"到XXXX（我们的短代码），我们会发送一个专门的神奇链接，这样他们就可以快速登录并看到他们的行程和门票。<p>Rownd在你所有的网站和应用程序中工作，所以（例如）如果用户订阅了你的通讯，这些数据会自动贡献给他们的应用程序的账户。没有人需要重新输入他们的电子邮件地址！<p>将一个网站访问者变成一个用户是很难的。把等待名单上的成员或通讯订阅者变成用户就更难了。营销页面（登陆页面、博客、文档）和实际产品（网络应用和移动应用）之间存在巨大差距。罪魁祸首是传统的注册/登录页面。<p>你的营销页面应该无缝地过渡到你的实际产品，但大多数注册流程就像一堵巨大的墙：停下来，输入信息，而这些信息往往是公司在以前的互动中已经掌握的，验证电子邮件/电话，记住你的密码（希望它是在密码管理器中！），最后，如果你想在你的产品中使用你的密码，那么你就必须在你的产品中使用。 <p>我们消除了这一差距，将来自您的初创企业的CRM、邮件列表和数据库的用户账户拼接在一起，使认证在您的网站和应用程序中无缝运行。如果用户在任何地方验证了他们的电子邮件或电话号码（包括在营销电子邮件中），我们就会在任何地方对他们进行认证。<p>我们为您提供网站的代码片段（您可以将其添加到页脚）和网络应用的SDK，以添加认证。我们的 \"枢纽\"（即我们的标准登录和账户管理部件，专门设计成看起来和感觉上都值得信赖）随后在您的页面上可见，并且账户数据可通过简单的 API 提供给浏览器/应用程序。此外，如果你在其他来源已经有关于该用户的信息，如CRM/营销工具（Hubspot、Mailchimp、Airtable等），我们将其整合到入职/认证过程中。帐户数据可通过我们的浏览器API提供给您的网站或应用程序，因此不需要建立一个用户管理的后台。我们在您网站的任何访问者周围创建一个匿名账户。当一个用户来到一个有Rownd Hub的网站时，一个独特的ID就会被创建。任何附加的表格也会向我们的中心发射数据。如果访问者定期返回，注册过程可能需要几天时间。这些数据存储在浏览器内存中，直到他们按下&quot;验证我的账户&quot;按钮，或点击一个被标记为Rownd认证按钮的按钮或链接（有点像Discord让用户查看服务器，但只有在认证后才能发表评论）。如果你将我们与你的CRM、Airtable或数据库中的相关数据联系起来，我们就会制造出从这些数据源初始化的 \"可声称的账户\"。用户声称他们的账户，并通过我们的无密码认证（今天通过电子邮件或电话号码，但最终可能也会通过加密货币钱包！）登录。你也可以在你自己的电子邮件和短信活动中使用我们的 \"即时账户链接\"，以重新吸引用户，并将他们带回你的应用程序或网站，在他们到达时进行完全认证。Rownd的前身是一家帮助初创企业遵守数据隐私法的公司。我们开始注意到我们自己的产品在注册和入职方面的一些痛苦，并对我们的漏斗有如此多的漏洞而感到沮丧。然后我们意识到，其他公司在将其网站访问者转化为用户方面也面临类似的问题。因此，有一天，在一次团队讨论中，我们说：\"好吧，让我们来解决这个问题！\"<p>由于我们已经建立了一个安全数据存储的后端，账户层基本上已经存在。因此，我们专注于建立简化用户认证的层，将数据直接连接到用户的浏览器会话，以及大多数产品的定制后端。",
+  "description_zh-Hant": "嗨，HN! 我們是Matt、Rachel和Rob，Rownd（<a href=\"https://rownd.io/\" rel=\"nofollow\">https://rownd.io/</a>）的創辦人。We make it easy for developers to sign up users through a code snippet that adds account creation and authentication to any website or web app—like Stripe for accounts. We made a page for you to try it out: <a href=\"https://rownd.io/hacker-news\" rel=\"nofollow\">https://rownd.io/hacker-news</a>，並製作了一個視頻來指導您完成流程。<a href=\"https://www.youtube.com/watch?v=H7fv17HSYrc\" rel=\"nofollow\">https://www.youtube.com/watch?v=H7fv17HSYrc</a>。<p>例如，我們的一個客戶是一個電影節。該電影節要求每個購買電影票的人都要建立一個用戶賬戶。這對轉換率是一個很大的拖累，而且需要進行技術維護。我們為電影節處理了所有這些問題，使他們的用戶在創建和維護賬戶方面不那麼痛苦，這導致了更多的票務銷售。此外，在音樂節當天，他們可以發短信 \"門票 \"到XXXX（我們的短代碼），我們會發送一個專門的神奇鏈接，這樣他們就可以快速登錄並看到他們的行程和門票。<p>Rownd在你所有的網站和應用程序中工作，所以（例如）如果用戶訂閱了你的通訊，這些數據會自動貢獻給他們的應用程序的賬戶。沒有人需要重新輸入他們的電子郵件地址！<p>將一個網站訪問者變成一個用戶是很難的。把等待名單上的成員或通訊訂閱者變成用戶就更難了。營銷頁面（登陸頁面、博客、文檔）和實際產品（網絡應用和移動應用）之間存在巨大差距。罪魁禍首是傳統的註冊/登錄頁面。<p>你的營銷頁面應該無縫地過渡到你的實際產品，但大多數註冊流程就像一堵巨大的牆：停下來，輸入信息，而這些信息往往是公司在以前的互動中已經掌握的，驗證電子郵件/電話，記住你的密碼（希望它是在密碼管理器中！），最後，如果你想在你的產品中使用你的密碼，那麼你就必須在你的產品中使用。 <p>我們消除了這一差距，將來自您的初創企業的CRM、郵件列表和數據庫的用戶賬戶拼接在一起，使認證在您的網站和應用程序中無縫運行。如果用戶在任何地方驗證了他們的電子郵件或電話號碼（包括在營銷電子郵件中），我們就會在任何地方對他們進行認證。<p>我們為您提供網站的代碼片段（您可以將其添加到頁腳）和網絡應用的SDK，以添加認證。我們的 \"樞紐\"（即我們的標準登錄和賬戶管理部件，專門設計成看起來和感覺上都值得信賴）隨後在您的頁面上可見，並且賬戶數據可通過簡單的 API 提供給瀏覽器/應用程序。此外，如果你在其他來源已經有關於該用戶的信息，如CRM/營銷工具（Hubspot、Mailchimp、Airtable等），我們將其整合到入職/認證過程中。帳戶數據可通過我們的瀏覽器API提供給您的網站或應用程序，因此不需要建立一個用戶管理的後臺。我們在您網站的任何訪問者周圍創建一個匿名賬戶。當一個用戶來到一個有Rownd Hub的網站時，一個獨特的ID就會被創建。任何附加的表格也會向我們的中心發射數據。如果訪問者定期返回，註冊過程可能需要幾天時間。這些數據存儲在瀏覽器內存中，直到他們按下&quot;驗證我的賬戶&quot;按鈕，或點擊一個被標記為Rownd認證按鈕的按鈕或鏈接（有點像Discord讓用戶查看服務器，但只有在認證後才能發表評論）。如果你將我們與你的CRM、Airtable或數據庫中的相關數據聯繫起來，我們就會製造出從這些數據源初始化的 \"可聲稱的賬戶\"。用戶聲稱他們的賬戶，並通過我們的無密碼認證（今天通過電子郵件或電話號碼，但最終可能也會通過加密貨幣錢包！）登錄。你也可以在你自己的電子郵件和短信活動中使用我們的 \"即時賬戶鏈接\"，以重新吸引用戶，並將他們帶回你的應用程序或網站，在他們到達時進行完全認證。Rownd的前身是一家幫助初創企業遵守數據隱私法的公司。我們開始注意到我們自己的產品在註冊和入職方面的一些痛苦，並對我們的漏斗有如此多的漏洞而感到沮喪。然後我們意識到，其他公司在將其網站訪問者轉化為用戶方面也面臨類似的問題。因此，有一天，在一次團隊討論中，我們說：\"好吧，讓我們來解決這個問題！\"<p>由於我們已經建立了一個安全數據存儲的後端，賬戶層基本上已經存在。因此，我們專注於建立簡化用戶認證的層，將數據直接連接到用戶的瀏覽器會話，以及大多數產品的定製後端。"
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--10--en--myfeed--HackerNews--NewsArticle--30624607",
+  "url": "https://news.ycombinator.com/item?id=30624607",
+  "headline": "Nvidia repositions as a software and services company",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "samizdis",
+    "url": "https://news.ycombinator.com/user?id=samizdis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30624607",
+  "sameAs": "https://www.theregister.com/2022/03/10/nvidia_software_services/",
+  "dateCreated": "2022-03-10T09:08:12.278Z",
+  "datePublished": "2022-03-10T08:36:28.000Z",
+  "dateModified": "2022-03-10T09:08:12.278Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Nvidia重新定位为一家软件和服务公司",
+  "headline_zh-Hant": "Nvidia重新定位為一家軟件和服務公司",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
