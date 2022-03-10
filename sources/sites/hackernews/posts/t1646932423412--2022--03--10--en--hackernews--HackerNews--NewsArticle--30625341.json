@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--10--en--hackernews--HackerNews--NewsArticle--30625341",
+  "url": "https://news.ycombinator.com/item?id=30625341",
+  "headline": "CAD/CAM constraint-based geometry sketcher for Blender",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "justinclift",
+    "url": "https://news.ycombinator.com/user?id=justinclift"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30625341",
+  "sameAs": "https://github.com/hlorus/geometry_sketcher",
+  "dateCreated": "2022-03-10T17:13:43.412Z",
+  "datePublished": "2022-03-10T10:33:45.000Z",
+  "dateModified": "2022-03-10T17:13:43.412Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 112
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 39
+    }
+  ],
+  "headline_zh-Hans": "用于Blender的基于CAD/CAM约束的几何画图器",
+  "headline_zh-Hant": "用於Blender的基於CAD/CAM約束的幾何畫圖器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
