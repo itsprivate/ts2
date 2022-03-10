@@ -122,13 +122,13 @@ export default async (
   // await page.waitForSelector(".lmt--active_translation_request", {
   //   hidden: true,
   // });
-  await page.waitForTimeout(1000);
+  await page.waitForTimeout(500);
 
   // await page.screenshot({ path: "data/buddy-screenshot3.png" });
   await page.waitForSelector(".lmt__rating", { visible: true });
   // await page.screenshot({ path: "data/buddy-screenshot4.png" });
 
-  await page.waitForTimeout(1000);
+  await page.waitForTimeout(500);
 
   const result = await page.$eval(targetSentenceField, (el) => el.value);
   console.log("_res", _res);
