@@ -31,7 +31,7 @@ export default async function (files: string[]) {
     if (browser) return browser;
     browser = await puppeteer.launch({
       devtools: false,
-      headless: true, // !isDev,
+      headless: false, // !isDev,
       defaultViewport: { width: 1670, height: 1200 },
       args: ["--lang=zh-Hans,zh", "--disable-gpu"],
     });
@@ -61,8 +61,8 @@ export default async function (files: string[]) {
   };
   // handled files number
   let currentHandledFiles = 0;
-  for (let fileIndex = 0; fileIndex < (isDev ? 2 : files.length); fileIndex++) {
-    if (currentHandledFiles > 100) {
+  for (let fileIndex = 0; fileIndex < (isDev ? 4 : files.length); fileIndex++) {
+    if (currentHandledFiles >= 1) {
       currentHandledFiles = 1;
       // refresh page
       browser = await getBrowser();
@@ -74,7 +74,7 @@ export default async function (files: string[]) {
       page = null;
       page = await getNewPage(true);
     } else {
-      currentHandledFiles++;
+      currentHandledFiles = 1;
       // open puppeteer
       page = await getNewPage(false);
     }

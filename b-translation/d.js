@@ -118,17 +118,17 @@ export default async (
       })
       .catch(() => {})
   );
-  // await page.waitForSelector(".lmt--active_translation_request");
-  // await page.waitForSelector(".lmt--active_translation_request", {
-  //   hidden: true,
-  // });
-  await page.waitForTimeout(500);
+  await page.waitForSelector(".lmt--active_translation_request");
+  await page.waitForSelector(".lmt--active_translation_request", {
+    hidden: true,
+  });
+  // await page.waitForTimeout(500);
 
   // await page.screenshot({ path: "data/buddy-screenshot3.png" });
-  await page.waitForSelector(".lmt__rating", { visible: true });
+  // await page.waitForSelector(".lmt__rating", { visible: true });
   // await page.screenshot({ path: "data/buddy-screenshot4.png" });
 
-  await page.waitForTimeout(500);
+  // await page.waitForTimeout(500);
 
   const result = await page.$eval(targetSentenceField, (el) => el.value);
   console.log("_res", _res);
@@ -136,13 +136,23 @@ export default async (
   // _res.target.translation = result;
   _res.result = result;
   // page.close().catch(() => {});
-  await page.evaluate(
-    () =>
-      (document.querySelector(
-        "textarea[dl-test=translator-source-input]"
-      ).value = "")
-  );
-  await page.waitForTimeout(500);
+
+  // clean
+
+  await page.click("button[dl-test=translator-source-clear-button]");
+
+  // await page.evaluate(
+  //   () =>
+  //     (document.querySelector(
+  //       "textarea[dl-test=translator-source-input]"
+  //     ).value = "")
+  // );
+  // // focus
+
+  // await page.waitForTimeout(3000);
+
+  // await page.focus("textarea[dl-test=translator-source-input]");
+  // await page.waitForTimeout(3000);
 
   return _res;
 };
