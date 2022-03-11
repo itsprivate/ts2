@@ -121,6 +121,7 @@ export default async (
   await page.waitForSelector(".lmt--active_translation_request");
   await page.waitForSelector(".lmt--active_translation_request", {
     hidden: true,
+    timeout: 90000,
   });
   // await page.waitForTimeout(500);
 
