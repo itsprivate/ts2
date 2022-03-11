@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--11--en--showhn--HackerNews--NewsArticle--30638638",
+  "url": "https://news.ycombinator.com/item?id=30638638",
+  "headline": "Show HN: Lang: run .c .cpp .py .cljs .ts and more directly in Chrome offline",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "raoof",
+    "url": "https://news.ycombinator.com/user?id=raoof"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30638638",
+  "sameAs": "https://github.com/raoofha/.lang",
+  "dateCreated": "2022-03-11T11:35:17.286Z",
+  "datePublished": "2022-03-11T11:29:34.000Z",
+  "dateModified": "2022-03-11T11:35:17.286Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Lang: 在Chrome离线时直接运行.c .cpp .py .cljs .ts和更多。",
+  "headline_zh-Hant": "Show HN: Lang: 在Chrome離線時直接運行.c .cpp .py .cljs .ts和更多。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
