@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--11--en--myfeed--HackerNews--NewsArticle--30645639",
+  "url": "https://news.ycombinator.com/item?id=30645639",
+  "headline": "1Password is no longer on Russian App store",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Web version is still online but iOS app is no longer available.<p>No official announcement from the 1Password on that one.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "piskov",
+    "url": "https://news.ycombinator.com/user?id=piskov"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30645639",
+  "sameAs": "https://news.ycombinator.com/item?id=30645639",
+  "dateCreated": "2022-03-11T20:40:11.689Z",
+  "datePublished": "2022-03-11T20:33:33.000Z",
+  "dateModified": "2022-03-11T20:40:11.689Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "1Password不再出现在俄罗斯的应用程序商店里了",
+  "headline_zh-Hant": "1Password不再出現在俄羅斯的應用程序商店裡了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "网页版仍然在线，但iOS应用程序已不再可用。<p>1Password在这方面没有正式宣布。",
+  "description_zh-Hant": "網頁版仍然在線，但iOS應用程序已不再可用。<p>1Password在這方面沒有正式宣佈。"
+}
