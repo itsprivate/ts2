@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--11--en--myfeed--HackerNews--NewsArticle--30637026",
+  "url": "https://news.ycombinator.com/item?id=30637026",
+  "headline": "Deep Work in Interesting Times",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pabs3",
+    "url": "https://news.ycombinator.com/user?id=pabs3"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30637026",
+  "sameAs": "https://ubuntu.com/blog/deep-work-in-interesting-times",
+  "dateCreated": "2022-03-11T07:35:37.564Z",
+  "datePublished": "2022-03-11T06:41:57.000Z",
+  "dateModified": "2022-03-11T07:35:37.564Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在有趣的时代进行深入的工作",
+  "headline_zh-Hant": "在有趣的時代進行深入的工作",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
