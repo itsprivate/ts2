@@ -10,6 +10,10 @@ export default async (
       result: sentence,
     };
   }
+  // max 5000
+  if (sentence.length > 4500) {
+    sentence = sentence.substring(0, 4500);
+  }
   if (!/^(auto|[a-z]{2})$/.test(sourceLanguage))
     throw new Error("INVALID_SOURCE_LANGUAGE");
   if (!/^[a-z]{2}-[A-Z]{2}$/.test(targetLanguage))
