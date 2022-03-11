@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--11--en--myfeed--HackerNews--NewsArticle--30644618",
+  "url": "https://news.ycombinator.com/item?id=30644618",
+  "headline": "Platform for stateful frame-by-frame processing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello everyone. I'm looking for a platform to do stateful frame-by-frame(sequential) processing of data.<p>Modern stream processing engines tend to focus on parallel processing of big data. This is great when the desired results are calculated from aggregates over the entire set or subset(filtered) of the whole dataset. In contrast to this I need to process data sequentially, where a change from one row to the next has meaning and changes what has to be done next. All data is time-series data. As an example, imagine a video game generating the results according to the current situation and the inputs of the player. Spark kind of allows this with e.g. mapGroupsWithState(), but I believe it's not what it's designed for, as this case doesn't need distributing data across a cluster to do processing on(because as data needs to be processed sequentially,it should benefit from holding the state in one place and passing all data through a single point of processing close to that state). I've looked at flink but I didn't find anything related to stream processing frame-by-frame.<p>Is anything out there for solving this type of problems? I don't want to re-invent the wheel.<p>Thank you.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "robotarchitect",
+    "url": "https://news.ycombinator.com/user?id=robotarchitect"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30644618",
+  "sameAs": "https://news.ycombinator.com/item?id=30644618",
+  "dateCreated": "2022-03-11T19:24:08.857Z",
+  "datePublished": "2022-03-11T19:10:58.000Z",
+  "dateModified": "2022-03-11T19:24:08.857Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "有状态的逐帧处理平台",
+  "headline_zh-Hant": "有狀態的逐幀處理平臺",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家好。我正在寻找一个平台来对数据进行有状态的逐帧（顺序）处理。<p>现代流处理引擎倾向于关注大数据的并行处理。当所需的结果是由整个数据集或整个数据集的子集（过滤后）的聚合计算出来的时候，这很好。与此相反，我需要按顺序处理数据，从一行到下一行的变化是有意义的，会改变接下来要做的事情。所有的数据都是时间序列数据。作为一个例子，想象一个视频游戏根据当前的情况和玩家的输入来生成结果。Spark允许这样做，例如mapGroupsWithState()，但我相信这不是它的设计目的，因为这种情况不需要将数据分布在一个集群上进行处理（因为数据需要按顺序处理，它应该从将状态保存在一个地方并将所有数据通过靠近该状态的单一处理点中受益）。我看了一下flink，但我没有发现任何与流处理逐帧有关的东西。<p>有没有什么东西可以解决这类问题？我不想重新发明轮子。<p>谢谢你。",
+  "description_zh-Hant": "大家好。我正在尋找一個平臺來對數據進行有狀態的逐幀（順序）處理。<p>現代流處理引擎傾向於關注大數據的並行處理。當所需的結果是由整個數據集或整個數據集的子集（過濾後）的聚合計算出來的時候，這很好。與此相反，我需要按順序處理數據，從一行到下一行的變化是有意義的，會改變接下來要做的事情。所有的數據都是時間序列數據。作為一個例子，想象一個視頻遊戲根據當前的情況和玩家的輸入來生成結果。Spark允許這樣做，例如mapGroupsWithState()，但我相信這不是它的設計目的，因為這種情況不需要將數據分佈在一個集群上進行處理（因為數據需要按順序處理，它應該從將狀態保存在一個地方並將所有數據通過靠近該狀態的單一處理點中受益）。我看了一下flink，但我沒有發現任何與流處理逐幀有關的東西。<p>有沒有什麼東西可以解決這類問題？我不想重新發明輪子。<p>謝謝你。"
+}
