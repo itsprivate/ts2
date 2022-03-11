@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--11--en--myfeed--HackerNews--NewsArticle--30636376",
+  "url": "https://news.ycombinator.com/item?id=30636376",
+  "headline": "DynamoRIO – runtime code transformation system that works during execution",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pabs3",
+    "url": "https://news.ycombinator.com/user?id=pabs3"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30636376",
+  "sameAs": "https://dynamorio.org/",
+  "dateCreated": "2022-03-11T04:58:29.088Z",
+  "datePublished": "2022-03-11T04:55:33.000Z",
+  "dateModified": "2022-03-11T04:58:29.088Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "DynamoRIO - 在执行过程中工作的运行时代码转换系统",
+  "headline_zh-Hant": "DynamoRIO - 在執行過程中工作的運行時代碼轉換系統",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

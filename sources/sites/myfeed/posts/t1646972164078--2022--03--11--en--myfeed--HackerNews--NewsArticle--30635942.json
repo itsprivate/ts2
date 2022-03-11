@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--11--en--myfeed--HackerNews--NewsArticle--30635942",
+  "url": "https://news.ycombinator.com/item?id=30635942",
+  "headline": "NHL unveils first AI-powered stat to predict face-off winner",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jonbaer",
+    "url": "https://news.ycombinator.com/user?id=jonbaer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30635942",
+  "sameAs": "https://www.aboutamazon.com/news/aws/nhl-unveils-first-ai-powered-stat-to-predict-face-off-winner-before-puck-is-dropped",
+  "dateCreated": "2022-03-11T04:16:04.078Z",
+  "datePublished": "2022-03-11T03:52:00.000Z",
+  "dateModified": "2022-03-11T04:16:04.078Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "美国国家冰球联盟公布首个由人工智能驱动的统计数据，以预测对峙的赢家",
+  "headline_zh-Hant": "美國國家冰球聯盟公佈首個由人工智能驅動的統計數據，以預測對峙的贏家",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

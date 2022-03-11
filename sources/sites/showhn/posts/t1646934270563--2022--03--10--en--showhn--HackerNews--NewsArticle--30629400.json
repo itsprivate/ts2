@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--10--en--showhn--HackerNews--NewsArticle--30629400",
+  "url": "https://news.ycombinator.com/item?id=30629400",
+  "headline": "Show HN: API Inventory and Test Automation = ApiHome",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "sgshanks",
+    "url": "https://news.ycombinator.com/user?id=sgshanks"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30629400",
+  "sameAs": "https://cymitra.com",
+  "dateCreated": "2022-03-10T17:44:30.563Z",
+  "datePublished": "2022-03-10T17:15:03.000Z",
+  "dateModified": "2022-03-10T17:44:30.563Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: API库存和测试自动化 = ApiHome",
+  "headline_zh-Hant": "Show HN: API庫存和測試自動化 = ApiHome",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

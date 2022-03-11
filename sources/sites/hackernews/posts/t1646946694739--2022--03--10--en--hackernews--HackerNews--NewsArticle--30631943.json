@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--10--en--hackernews--HackerNews--NewsArticle--30631943",
+  "url": "https://news.ycombinator.com/item?id=30631943",
+  "headline": "Toward a better list iterator for the Linux kernel",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "chmaynard",
+    "url": "https://news.ycombinator.com/user?id=chmaynard"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30631943",
+  "sameAs": "https://lwn.net/SubscriberLink/887097/7ca69c6bfa3584c0/",
+  "dateCreated": "2022-03-10T21:11:34.739Z",
+  "datePublished": "2022-03-10T20:23:30.000Z",
+  "dateModified": "2022-03-10T21:11:34.739Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "争取为Linux内核提供更好的列表迭代器",
+  "headline_zh-Hant": "爭取為Linux內核提供更好的列表迭代器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

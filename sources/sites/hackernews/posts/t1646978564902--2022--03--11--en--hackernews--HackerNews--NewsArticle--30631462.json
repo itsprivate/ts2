@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--11--en--hackernews--HackerNews--NewsArticle--30631462",
+  "url": "https://news.ycombinator.com/item?id=30631462",
+  "headline": "Old Age and Creativity",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "drdee",
+    "url": "https://news.ycombinator.com/user?id=drdee"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30631462",
+  "sameAs": "https://inference-review.com/article/old-age-and-creativity",
+  "dateCreated": "2022-03-11T06:02:44.902Z",
+  "datePublished": "2022-03-10T19:42:16.000Z",
+  "dateModified": "2022-03-11T06:02:44.902Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "老年与创造力",
+  "headline_zh-Hant": "老年與創造力",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
