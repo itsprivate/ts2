@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--11--en--besthn--HackerNews--NewsArticle--30638590",
+  "url": "https://news.ycombinator.com/item?id=30638590",
+  "headline": "Why do Google use location for language rather than browser settings?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "smallerfish",
+    "url": "https://news.ycombinator.com/user?id=smallerfish"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30638590",
+  "sameAs": "https://smaller.fish/posts/language",
+  "dateCreated": "2022-03-11T16:45:36.795Z",
+  "datePublished": "2022-03-11T11:21:48.000Z",
+  "dateModified": "2022-03-11T16:45:36.795Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 266
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 224
+    }
+  ],
+  "headline_zh-Hans": "为什么谷歌使用语言的位置而不是浏览器设置？",
+  "headline_zh-Hant": "為什麼谷歌使用語言的位置而不是瀏覽器設置？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

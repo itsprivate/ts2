@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--11--en--myfeed--HackerNews--NewsArticle--30642168",
+  "url": "https://news.ycombinator.com/item?id=30642168",
+  "headline": "Malware Posing as Russia DDoS Tool Bites Pro-Ukraine Hackers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "LinuxBender",
+    "url": "https://news.ycombinator.com/user?id=LinuxBender"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30642168",
+  "sameAs": "https://threatpost.com/malware-posing-russia-ddos-tool-bites-pro-ukraine-hackers/178864/",
+  "dateCreated": "2022-03-11T16:45:37.331Z",
+  "datePublished": "2022-03-11T16:41:57.000Z",
+  "dateModified": "2022-03-11T16:45:37.331Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "冒充俄罗斯DDoS工具的恶意软件盯上了亲乌克兰的黑客们",
+  "headline_zh-Hant": "冒充俄羅斯DDoS工具的惡意軟件盯上了親烏克蘭的黑客們",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
