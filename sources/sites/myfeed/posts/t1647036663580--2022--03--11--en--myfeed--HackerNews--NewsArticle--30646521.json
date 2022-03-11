@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--11--en--myfeed--HackerNews--NewsArticle--30646521",
+  "url": "https://news.ycombinator.com/item?id=30646521",
+  "headline": "YouTube is now blocking Russian state-funded media worldwide",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "justnotworthit",
+    "url": "https://news.ycombinator.com/user?id=justnotworthit"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30646521",
+  "sameAs": "https://www.theverge.com/2022/3/11/22972911/youtube-rt-russian-sputnik-block-state-media-globally",
+  "dateCreated": "2022-03-11T22:11:03.580Z",
+  "datePublished": "2022-03-11T21:58:11.000Z",
+  "dateModified": "2022-03-11T22:11:03.580Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "YouTube现在在全球范围内屏蔽了俄罗斯国家资助的媒体",
+  "headline_zh-Hant": "YouTube現在在全球範圍內屏蔽了俄羅斯國家資助的媒體",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
