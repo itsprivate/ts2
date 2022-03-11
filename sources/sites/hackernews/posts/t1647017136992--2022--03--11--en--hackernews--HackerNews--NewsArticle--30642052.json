@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--11--en--hackernews--HackerNews--NewsArticle--30642052",
+  "url": "https://news.ycombinator.com/item?id=30642052",
+  "headline": "No hello – please don't just say hello in chat",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Pooge",
+    "url": "https://news.ycombinator.com/user?id=Pooge"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30642052",
+  "sameAs": "https://nohello.net/en/",
+  "dateCreated": "2022-03-11T16:45:36.992Z",
+  "datePublished": "2022-03-11T16:34:35.000Z",
+  "dateModified": "2022-03-11T16:45:36.992Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 14
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "不打招呼--请不要随便在聊天中打招呼",
+  "headline_zh-Hant": "不打招呼--請不要隨便在聊天中打招呼",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
