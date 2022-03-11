@@ -9,7 +9,7 @@ on:
     - cron: "*/15 * * * *"
 jobs:
   denoflow:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     concurrency: denoflow
     steps:
       - if: github.event_name!='workflow_dispatch'
