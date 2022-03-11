@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--10--en--hackernews--HackerNews--NewsArticle--30627558",
+  "url": "https://news.ycombinator.com/item?id=30627558",
+  "headline": "Launch HN: Kable (YC W22) – All-in-one platform for API products",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN! I’m Adam from Kable (<a href=\"https://kable.io\" rel=\"nofollow\">https://kable.io</a>). We make it easy to build great API products.<p>Kable takes care of all of the things that pull you away from your core business – API keys and authentication, usage-metering and billing, invoicing your customers, dashboards for tracking key metrics, evolving pricing to optimize revenue, surfacing usage dashboards to your customers – so you can focus on what’s most important.<p>Every API developer has to deal with important but unsexy responsibilities like “How will I securely manage API keys?” “How am I going to track which customers are using which parts of my product?” “How am I going to monitor usage of my API, and how can I make that information available to customers?” “Billing is complicated, invoicing is time-consuming, when am I going to find time to automate that?” This is the stuff we take care of.<p>I led the billing team at Hulu for five years and got a full education in the complexities of billing, payments, and accounting. Before that, I led the security team at Appian for two years, and before that I worked at WePay (YC S09), a payments API company. On a slightly weirder note...I have an obsession with API-first companies. I am fascinated by the rise of the API economy. Twilio for messaging; Stripe for payments; Algolia for search; Segment for data; the list gets longer every year. I have always been fascinated by these companies, wanted to work with them, learn from them, and serve them.<p>I spoke to hundreds of people building API companies and two themes rang more loudly than anything else: “We are doing X for now but we really want to do Y...” and “We haven’t built Z yet because we just don’t have the time.” These statements were always about the same topics, too: billing, invoicing, authentication, monitoring, analytics. Why was every startup struggling with the same things? I decided the best way to serve this community – a community I love – was to build tools for it all. Kable provides all the infrastructure you’d build in-house if you had all the time you needed.<p>The truth is, tools already exist for most of these things. So why wasn’t there wider adoption among the startup community? The answer, I learned, is pretty simple: integrating with third parties can be complicated and time-consuming. The key insight for Kable, therefore, is: it has to be <i>trivial</i>.<p>Kable can be added to any application with just three lines of code: import, configure, execute. We don’t depend on you storing external keys, nor do we require weeks-long technical integration to get onboarded. You can sign up, add us to your API, configure pricing plans, set up invoicing, and visualize your customers' usage through our dashboard – all in about 15 minutes.<p>Many of our first customers are other startups in our YC batch. They have been able to bring their products to market faster by outsourcing things like authentication. Right from launch they have clear visibility into their customers’ usage patterns. They don’t need to manually invoice their customers, and not only that, but having built on our infrastructure, they’re ready to tune their pricing models to optimize revenue without ever writing a line of billing code. With all this, startups can move faster than was previously possible.<p>Our pricing is pay-as-you-go based on the volume of events we store and the revenue we help our customers generate. That means we get to dogfood our own software for usage-based billing!<p>We’d love for you to try it out. You can sign up at <a href=\"https://kable.io\" rel=\"nofollow\">https://kable.io</a> and begin using our test environment for free. We require a credit card on file before provisioning live API keys, but the product is fully accessible to new users.<p>It’s so exciting for me to share what we’ve been working on with the HN community. You are the developers we hope to serve, and I’d love to hear your thoughts. Have you ever built an API? Ever struggled with pricing? Ever spent one too many hours setting up a dashboard? Ever thought to yourself “I wish I could just focus on my product?” We want to hear your stories. Kable was built for you, so please tell us what you think!",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "asommer12",
+    "url": "https://news.ycombinator.com/user?id=asommer12"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30627558",
+  "sameAs": "https://news.ycombinator.com/item?id=30627558",
+  "dateCreated": "2022-03-10T17:13:43.553Z",
+  "datePublished": "2022-03-10T14:52:39.000Z",
+  "dateModified": "2022-03-10T17:13:43.553Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 81
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 38
+    }
+  ],
+  "headline_zh-Hans": "启动HN：Kable (YC W22) - API产品的一体化平台",
+  "headline_zh-Hant": "啟動HN：Kable (YC W22) - API產品的一體化平臺",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN! 我是来自Kable（<a href=\"https://kable.io\" rel=\"nofollow\">https://kable.io</a>）的亚当。<p>Kable负责处理所有使您远离核心业务的事情--API密钥和认证、使用计量和计费、向客户开具发票、跟踪关键指标的仪表板、不断变化的定价以优化收入、向客户展示使用情况仪表板--因此您可以专注于最重要的事情。\"我将如何跟踪哪些客户正在使用我的产品的哪些部分？\" \"我将如何监测我的API的使用情况，以及我如何将这些信息提供给客户？\" \"计费很复杂，开具发票很耗时，我什么时候才能找到时间把它自动化？\" 这就是我们要处理的事情。<p>我在Hulu领导了五年的计费团队，在计费、支付和会计的复杂性方面得到了充分的教育。在此之前，我在Appian公司领导了两年的安全团队，在此之前我在WePay（YC S09）工作，这是一家支付API公司。在一个稍微奇怪的说明中......我对API优先的公司有一种迷恋。我为API经济的崛起而着迷。Twilio负责信息传递；Stripe负责支付；Algolia负责搜索；Segment负责数据；这个名单每年都在变长。我一直为这些公司着迷，想与他们合作，向他们学习，并为他们服务。<p>我与数百名建立API公司的人交谈，有两个主题比其他任何东西都响亮：\"我们现在正在做X，但我们真的想做Y...... \"和 \"我们还没有建立Z，因为我们只是没有时间。\" 这些说法也总是关于相同的主题：计费、发票、认证、监控、分析。为什么每家创业公司都在为同样的事情挣扎？我决定，为这个社区--一个我热爱的社区--服务的最佳方式是为这一切建立工具。Kable 提供了所有的基础设施，如果你有足够的时间，你会在内部建立这些基础设施。<p>事实上，这些东西的大部分工具已经存在。那么，为什么在创业社区中没有更广泛的采用呢？我了解到的答案很简单：与第三方的整合可能很复杂，也很费时。因此，Kable 的关键见解是：它必须是<i>微不足道的</i>。<p>Kable 只需三行代码就可以添加到任何应用程序中：导入、配置、执行。我们不依赖于你存储的外部密钥，也不需要长达数周的技术整合就能上岗。你可以注册，将我们添加到你的API中，配置定价计划，设置发票，并通过我们的仪表板可视化你的客户的使用情况--所有这些都在15分钟左右。他们通过外包认证等事项，能够更快地将其产品推向市场。从一开始，他们就能清楚地了解客户的使用模式。他们不需要手动给客户开具发票，不仅如此，在我们的基础设施上，他们已经准备好调整他们的定价模式，以优化收入，而不需要编写一行计费代码。<p>我们的定价是基于我们存储的事件量和我们帮助客户创造的收入的现收现付。这意味着我们可以对自己的软件进行狗粮式的按使用量计费！<p>我们很乐意让你尝试一下。您可以在<a href=\"https://kable.io\" rel=\"nofollow\">https://kable.io</a>上注册，开始免费使用我们的测试环境。在提供实时 API 密钥之前，我们需要将信用卡存档，但新用户完全可以使用该产品。<p>能够与 HN 社区分享我们的工作成果，我感到非常兴奋。你们是我们希望服务的开发者，我很想听听你们的想法。你有没有建立过一个API？是否曾为定价而苦恼？曾经花了太多的时间来设置一个仪表板吗？是否曾想过 \"我希望我可以专注于我的产品\"？我们想听听你的故事。Kable是为你而建的，所以请告诉我们你的想法!",
+  "description_zh-Hant": "嗨，HN! 我是來自Kable（<a href=\"https://kable.io\" rel=\"nofollow\">https://kable.io</a>）的亞當。<p>Kable負責處理所有使您遠離核心業務的事情--API密鑰和認證、使用計量和計費、向客戶開具發票、跟蹤關鍵指標的儀表板、不斷變化的定價以優化收入、向客戶展示使用情況儀表板--因此您可以專注於最重要的事情。\"我將如何跟蹤哪些客戶正在使用我的產品的哪些部分？\" \"我將如何監測我的API的使用情況，以及我如何將這些信息提供給客戶？\" \"計費很複雜，開具發票很耗時，我什麼時候才能找到時間把它自動化？\" 這就是我們要處理的事情。<p>我在Hulu領導了五年的計費團隊，在計費、支付和會計的複雜性方面得到了充分的教育。在此之前，我在Appian公司領導了兩年的安全團隊，在此之前我在WePay（YC S09）工作，這是一家支付API公司。在一個稍微奇怪的說明中......我對API優先的公司有一種迷戀。我為API經濟的崛起而著迷。Twilio負責信息傳遞；Stripe負責支付；Algolia負責搜索；Segment負責數據；這個名單每年都在變長。我一直為這些公司著迷，想與他們合作，向他們學習，併為他們服務。<p>我與數百名建立API公司的人交談，有兩個主題比其他任何東西都響亮：\"我們現在正在做X，但我們真的想做Y...... \"和 \"我們還沒有建立Z，因為我們只是沒有時間。\" 這些說法也總是關於相同的主題：計費、發票、認證、監控、分析。為什麼每家創業公司都在為同樣的事情掙扎？我決定，為這個社區--一個我熱愛的社區--服務的最佳方式是為這一切建立工具。Kable 提供了所有的基礎設施，如果你有足夠的時間，你會在內部建立這些基礎設施。<p>事實上，這些東西的大部分工具已經存在。那麼，為什麼在創業社區中沒有更廣泛的採用呢？我瞭解到的答案很簡單：與第三方的整合可能很複雜，也很費時。因此，Kable 的關鍵見解是：它必須是<i>微不足道的</i>。<p>Kable 只需三行代碼就可以添加到任何應用程序中：導入、配置、執行。我們不依賴於你存儲的外部密鑰，也不需要長達數週的技術整合就能上崗。你可以註冊，將我們添加到你的API中，配置定價計劃，設置發票，並通過我們的儀表板可視化你的客戶的使用情況--所有這些都在15分鐘左右。他們通過外包認證等事項，能夠更快地將其產品推向市場。從一開始，他們就能清楚地瞭解客戶的使用模式。他們不需要手動給客戶開具發票，不僅如此，在我們的基礎設施上，他們已經準備好調整他們的定價模式，以優化收入，而不需要編寫一行計費代碼。<p>我們的定價是基於我們存儲的事件量和我們幫助客戶創造的收入的現收現付。這意味著我們可以對自己的軟件進行狗糧式的按使用量計費！<p>我們很樂意讓你嘗試一下。您可以在<a href=\"https://kable.io\" rel=\"nofollow\">https://kable.io</a>上註冊，開始免費使用我們的測試環境。在提供實時 API 密鑰之前，我們需要將信用卡存檔，但新用戶完全可以使用該產品。<p>能夠與 HN 社區分享我們的工作成果，我感到非常興奮。你們是我們希望服務的開發者，我很想聽聽你們的想法。你有沒有建立過一個API？是否曾為定價而苦惱？曾經花了太多的時間來設置一個儀表板嗎？是否曾想過 \"我希望我可以專注於我的產品\"？我們想聽聽你的故事。Kable是為你而建的，所以請告訴我們你的想法!"
+}

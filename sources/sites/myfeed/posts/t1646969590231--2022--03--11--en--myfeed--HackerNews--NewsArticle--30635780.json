@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--11--en--myfeed--HackerNews--NewsArticle--30635780",
+  "url": "https://news.ycombinator.com/item?id=30635780",
+  "headline": "Some things I’ve learned about memory",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ptest1",
+    "url": "https://news.ycombinator.com/user?id=ptest1"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30635780",
+  "sameAs": "http://neugierig.org/software/blog/2011/05/memory.html",
+  "dateCreated": "2022-03-11T03:33:10.231Z",
+  "datePublished": "2022-03-11T03:25:58.000Z",
+  "dateModified": "2022-03-11T03:33:10.231Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我在记忆方面学到的一些东西",
+  "headline_zh-Hant": "我在記憶方面學到的一些東西",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

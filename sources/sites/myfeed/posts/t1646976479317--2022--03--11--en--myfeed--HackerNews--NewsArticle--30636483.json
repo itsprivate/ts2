@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--11--en--myfeed--HackerNews--NewsArticle--30636483",
+  "url": "https://news.ycombinator.com/item?id=30636483",
+  "headline": "AI Line Drawing Generation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ak391",
+    "url": "https://news.ycombinator.com/user?id=ak391"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30636483",
+  "sameAs": "https://huggingface.co/spaces/carolineec/informativedrawings",
+  "dateCreated": "2022-03-11T05:27:59.317Z",
+  "datePublished": "2022-03-11T05:11:33.000Z",
+  "dateModified": "2022-03-11T05:27:59.317Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "AI线图的生成",
+  "headline_zh-Hant": "AI線圖的生成",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
