@@ -2,7 +2,7 @@ if: true
 sources:
   - use: fetch
     args:
-      - https://hn.algolia.com/api/v1/search_by_date?tags=(story,show_hn)&hitsPerPage=50
+      - https://hn.algolia.com/api/v1/search_by_date?tags=(story,show_hn)&hitsPerPage=50&numericFilters=points>3
     run: return ctx.result.json();
     itemsPath: hits
     key: objectID
