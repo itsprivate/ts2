@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--12--en--myfeed--HackerNews--NewsArticle--30648315",
+  "url": "https://news.ycombinator.com/item?id=30648315",
+  "headline": "Video2X: Anime/GIF Upscaling with AI",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ggeorgovassilis",
+    "url": "https://news.ycombinator.com/user?id=ggeorgovassilis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30648315",
+  "sameAs": "https://github.com/k4yt3x/video2x",
+  "dateCreated": "2022-03-12T02:25:58.309Z",
+  "datePublished": "2022-03-12T02:06:50.000Z",
+  "dateModified": "2022-03-12T02:25:58.309Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Video2X: 用AI提高动画/GIF的比例",
+  "headline_zh-Hant": "Video2X: 用AI提高動畫/GIF的比例",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
