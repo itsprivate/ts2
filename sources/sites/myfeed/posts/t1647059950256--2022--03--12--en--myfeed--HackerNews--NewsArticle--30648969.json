@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--12--en--myfeed--HackerNews--NewsArticle--30648969",
+  "url": "https://news.ycombinator.com/item?id=30648969",
+  "headline": "Functional C [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rramadass",
+    "url": "https://news.ycombinator.com/user?id=rramadass"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30648969",
+  "sameAs": "https://ris.utwente.nl/ws/portalfiles/portal/5128727/book.pdf",
+  "dateCreated": "2022-03-12T04:39:10.256Z",
+  "datePublished": "2022-03-12T04:21:30.000Z",
+  "dateModified": "2022-03-12T04:39:10.256Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "功能性C [pdf]",
+  "headline_zh-Hant": "功能性C [pdf]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
