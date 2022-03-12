@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--12--en--myfeed--HackerNews--NewsArticle--30650385",
+  "url": "https://news.ycombinator.com/item?id=30650385",
+  "headline": "Ukraine: Spam website set up to reach millions of Russians",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gpvos",
+    "url": "https://news.ycombinator.com/user?id=gpvos"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30650385",
+  "sameAs": "https://www.bbc.com/news/technology-60697261",
+  "dateCreated": "2022-03-12T10:31:59.737Z",
+  "datePublished": "2022-03-12T10:16:13.000Z",
+  "dateModified": "2022-03-12T10:31:59.737Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "乌克兰。建立垃圾邮件网站，以接触数百万俄罗斯人",
+  "headline_zh-Hant": "烏克蘭。建立垃圾郵件網站，以接觸數百萬俄羅斯人",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
