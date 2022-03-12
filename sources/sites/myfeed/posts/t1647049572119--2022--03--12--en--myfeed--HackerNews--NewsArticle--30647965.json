@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--12--en--myfeed--HackerNews--NewsArticle--30647965",
+  "url": "https://news.ycombinator.com/item?id=30647965",
+  "headline": "An deep learning based lightweight TCN for log anomaly detection",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ngaut",
+    "url": "https://news.ycombinator.com/user?id=ngaut"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30647965",
+  "sameAs": "https://github.com/Aquariuaa/LightLog",
+  "dateCreated": "2022-03-12T01:46:12.119Z",
+  "datePublished": "2022-03-12T00:56:52.000Z",
+  "dateModified": "2022-03-12T01:46:12.119Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "基于深度学习的轻量级TCN用于日志异常检测",
+  "headline_zh-Hant": "基於深度學習的輕量級TCN用於日誌異常檢測",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
