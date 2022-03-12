@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--12--en--myfeed--HackerNews--NewsArticle--30649194",
+  "url": "https://news.ycombinator.com/item?id=30649194",
+  "headline": "Are the Colors Real?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "behnamoh",
+    "url": "https://news.ycombinator.com/user?id=behnamoh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30649194",
+  "sameAs": "https://illuminateduniverse.org/2018/04/05/are-the-colors-real/",
+  "dateCreated": "2022-03-12T05:35:04.911Z",
+  "datePublished": "2022-03-12T05:27:44.000Z",
+  "dateModified": "2022-03-12T05:35:04.911Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "这些颜色是真的吗？",
+  "headline_zh-Hant": "這些顏色是真的嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
