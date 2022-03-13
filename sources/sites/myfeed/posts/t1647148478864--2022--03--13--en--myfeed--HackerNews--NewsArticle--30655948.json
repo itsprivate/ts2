@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--13--en--myfeed--HackerNews--NewsArticle--30655948",
+  "url": "https://news.ycombinator.com/item?id=30655948",
+  "headline": "Putin's agents reportedly threaten top Google exec in Moscow with 24hr ultimatum",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "awb",
+    "url": "https://news.ycombinator.com/user?id=awb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30655948",
+  "sameAs": "https://www.businessinsider.com/russia-agents-threatened-google-exec-to-remove-voting-app-moscow-2022-3",
+  "dateCreated": "2022-03-13T05:14:38.864Z",
+  "datePublished": "2022-03-12T23:12:58.000Z",
+  "dateModified": "2022-03-13T05:14:38.864Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "据报道，普京的特工在莫斯科以24小时的最后通牒威胁谷歌的高级执行官。",
+  "headline_zh-Hant": "據報道，普京的特工在莫斯科以24小時的最後通牒威脅谷歌的高級執行官。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
