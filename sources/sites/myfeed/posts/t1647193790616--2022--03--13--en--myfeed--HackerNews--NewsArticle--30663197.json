@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--03--11--en--myfeed--HackerNews--NewsArticle--30639576",
-  "url": "https://news.ycombinator.com/item?id=30639576",
-  "headline": "Libcuckoo: A high-performance concurrent hash table",
+  "identifier": "2022--03--13--en--myfeed--HackerNews--NewsArticle--30663197",
+  "url": "https://news.ycombinator.com/item?id=30663197",
+  "headline": "Show HN: A Go Library for Website Log Analysis",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "limoce",
-    "url": "https://news.ycombinator.com/user?id=limoce"
+    "name": "stuartmscott",
+    "url": "https://news.ycombinator.com/user?id=stuartmscott"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30639576",
-  "sameAs": "https://github.com/efficient/libcuckoo",
-  "dateCreated": "2022-03-11T13:34:19.978Z",
-  "datePublished": "2022-03-11T13:27:49.000Z",
-  "dateModified": "2022-03-11T13:34:19.978Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30663197",
+  "sameAs": "https://convey.earth/conversation?id=51&ref=hn",
+  "dateCreated": "2022-03-13T17:49:50.616Z",
+  "datePublished": "2022-03-13T17:00:19.000Z",
+  "dateModified": "2022-03-13T17:49:50.616Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 1
+      "userInteractionCount": 4
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "利布库。一个高性能的并发哈希表",
-  "headline_zh-Hant": "利布庫。一個高性能的併發哈希表",
+  "headline_zh-Hans": "Show HN: 一个用于网站日志分析的围棋库",
+  "headline_zh-Hant": "Show HN: 一個用於網站日誌分析的圍棋庫",
   "@context": [
     "https://schema.org",
     {
