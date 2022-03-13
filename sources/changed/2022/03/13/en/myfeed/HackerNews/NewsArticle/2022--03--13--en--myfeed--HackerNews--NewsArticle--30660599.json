@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--13--en--myfeed--HackerNews--NewsArticle--30660599",
+  "url": "https://news.ycombinator.com/item?id=30660599",
+  "headline": "SF's first tiny home village for homeless people is open. Each home costs $15k",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gargarplex",
+    "url": "https://news.ycombinator.com/user?id=gargarplex"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30660599",
+  "sameAs": "https://www.sfchronicle.com/sf/article/San-Francisco-s-first-tiny-cabin-village-for-16984540.php",
+  "dateCreated": "2022-03-13T14:28:25.031Z",
+  "datePublished": "2022-03-13T12:19:28.000Z",
+  "dateModified": "2022-03-13T14:28:25.031Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "三藩市第一个为无家可归者提供的微型住宅村已经开放。每个房子的价格为1.5万美元",
+  "headline_zh-Hant": "三藩市第一個為無家可歸者提供的微型住宅村已經開放。每個房子的價格為1.5萬美元",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
