@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--13--en--myfeed--HackerNews--NewsArticle--30659966",
+  "url": "https://news.ycombinator.com/item?id=30659966",
+  "headline": "Facebook and Instagram let users call for death to Russian soldiers over Ukraine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "quyleanh",
+    "url": "https://news.ycombinator.com/user?id=quyleanh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30659966",
+  "sameAs": "https://www.theguardian.com/technology/2022/mar/11/facebook-and-instagram-let-users-call-for-death-to-russian-soldiers-over-ukraine",
+  "dateCreated": "2022-03-13T10:50:22.407Z",
+  "datePublished": "2022-03-13T10:30:26.000Z",
+  "dateModified": "2022-03-13T10:50:22.407Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "脸书和Instagram让用户为乌克兰问题呼吁杀死俄罗斯士兵",
+  "headline_zh-Hant": "臉書和Instagram讓用戶為烏克蘭問題呼籲殺死俄羅斯士兵",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
