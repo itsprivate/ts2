@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--13--en--hackernews--HackerNews--NewsArticle--30657213",
+  "url": "https://news.ycombinator.com/item?id=30657213",
+  "headline": "Fish Swimming (2007)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mighty-fine",
+    "url": "https://news.ycombinator.com/user?id=mighty-fine"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30657213",
+  "sameAs": "http://www.theartofnature.org/id20.html",
+  "dateCreated": "2022-03-13T19:08:50.170Z",
+  "datePublished": "2022-03-13T02:12:44.000Z",
+  "dateModified": "2022-03-13T19:08:50.170Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "游泳的鱼 (2007)",
+  "headline_zh-Hant": "游泳的魚 (2007)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
