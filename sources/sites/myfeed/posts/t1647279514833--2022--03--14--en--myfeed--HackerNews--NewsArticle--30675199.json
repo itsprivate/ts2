@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--14--en--myfeed--HackerNews--NewsArticle--30675199",
+  "url": "https://news.ycombinator.com/item?id=30675199",
+  "headline": "Putin signs law to allow online voting at elections across Russia",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ortusdux",
+    "url": "https://news.ycombinator.com/user?id=ortusdux"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30675199",
+  "sameAs": "https://www.reuters.com/world/europe/putin-signs-law-allow-online-voting-elections-across-russia-2022-03-14/",
+  "dateCreated": "2022-03-14T17:38:34.833Z",
+  "datePublished": "2022-03-14T17:22:41.000Z",
+  "dateModified": "2022-03-14T17:38:34.833Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "普京签署法律，允许在俄罗斯各地的选举中进行网上投票",
+  "headline_zh-Hant": "普京簽署法律，允許在俄羅斯各地的選舉中進行網上投票",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
