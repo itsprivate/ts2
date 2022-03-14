@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--14--en--myfeed--HackerNews--NewsArticle--30671202",
+  "url": "https://news.ycombinator.com/item?id=30671202",
+  "headline": "Matrix network planning a distributed approach to online moderation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dexwell",
+    "url": "https://news.ycombinator.com/user?id=dexwell"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30671202",
+  "sameAs": "https://element.io/blog/moderation-needs-a-radical-change/",
+  "dateCreated": "2022-03-14T15:52:26.096Z",
+  "datePublished": "2022-03-14T11:40:13.000Z",
+  "dateModified": "2022-03-14T15:52:26.096Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "矩阵式网络规划是一种分布式的在线审核方法",
+  "headline_zh-Hant": "矩陣式網絡規劃是一種分佈式的在線審核方法",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
