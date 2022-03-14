@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--14--en--myfeed--HackerNews--NewsArticle--30675861",
+  "url": "https://news.ycombinator.com/item?id=30675861",
+  "headline": "Launch HN: Lifecast (YC W22) – 3D video for VR",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN, I’m Forrest of Lifecast (<a href=\"https://www.lifecastvr.com\" rel=\"nofollow\">https://www.lifecastvr.com</a>), with my co-founder Mateusz. We make software to create 3D video for VR, robotics simulation, and virtual production. We convert any VR180 video or photo into our 6DOF VR video format, or into meshes compatible with Unreal Engine. Our 3D reconstruction is based on computer vision for dual fisheye lenses and deep learning.<p>VR video can be categorized as 3DOF (three degrees of freedom) or 6DOF (six degrees of freedom). 3DOF responds only to rotation, while 6DOF responds to both rotation and translation—meaning you get to move your head. VR games are 6DOF, but most VR videos are 3DOF. 3DOF can cause motion sickness and eye strain due to incorrect 3D rendering. 6DOF VR video fixes these problems for a more comfortable and immersive experience, but it is harder to make because it requires a 3D model of each frame of video.<p>There are some prototypes for 6DOF VR video systems in big tech, but they typically involve arrays of many cameras, so they are expensive, not very portable, and generate an impractical amount of data. Because of these challenges, 6DOF hasn't been widely adopted by VR video creators.<p>In 2015 I was working on ads at Facebook, but I was more excited about VR. I built 3D cameras out of legos and GoPros, showed some of this at a hackathon, and eventually they let me do that as my day job. I was the first engineer on Facebook's 3D VR camera team, which made Surround 360 (an open-source hardware/software 3D VR camera), and Manifold (a ball of 20+ cameras for 6DOF). After Facebook, I was a tech lead on Lyft's self-driving car project, and Google X's everyday robot project.<p>I started Lifecast because I wasn't satisfied with the progress on 6DOF VR video since I left Facebook. I learned new ideas from robotics which can improve VR video. The Oculus Quest 2 has just enough power to do something interesting with 6DOF. There have also been advances in computer vision and deep learning in the last few years that make it possible to do 6DOF better.<p>Our software makes it simple to create 6DOF VR video using any VR180 camera. It's a GUI for Mac or Windows, which takes VR180 video or photos as input, and produces Lifecast's 6DOF VR video format (more info: <a href=\"https://fbriggs.medium.com/6dof-vr-video-from-vr180-cameras-2e17805ef3bc\" rel=\"nofollow\">https://fbriggs.medium.com/6dof-vr-video-from-vr180-cameras-...</a>). VR180 video can be created with any VR180 camera; the Canon R5 is one of the best on the market right now. We make a video player for WebVR which runs on desktop, mobile or VR. Playing the videos on the Quest 2 doesn't require installing any software, just visiting a web page in the Oculus Browser.<p>In addition to our 6DOF format, the software can also output point clouds (.pcd) or triangle meshes (.obj) compatible with Unreal Engine. We are seeing interest in using this for virtual production (2D film-making in a game engine), and creating environments for robotics simulation.<p>This recent video review/tutorial does a nice job of explaining our tech: <a href=\"https://www.youtube.com/watch?v=_4a-RnTLu-I\" rel=\"nofollow\">https://www.youtube.com/watch?v=_4a-RnTLu-I</a> (video by Hugh Hou, not us). For something more interactive, the thumbnails on <a href=\"https://lifecastvr.com\" rel=\"nofollow\">https://lifecastvr.com</a> are links to demos that run in browser/VR.<p>6DOF VR video is one piece of a larger puzzle. We envision a future where people wear AR glasses with 3D cameras, and use them to record and live-stream their experience. 3DOF is not sufficient for this because it causes motion sickness if the camera moves. We have prototypes which fix motion sickness in 3D POV VR video from wearable cameras. Watching the videos in VR feels like reliving a memory. Here's a demo: <a href=\"https://lifecastvr.com/trickshot.html\" rel=\"nofollow\">https://lifecastvr.com/trickshot.html</a><p>You can download a free trial from <a href=\"https://lifecastvr.com\" rel=\"nofollow\">https://lifecastvr.com</a> after entering your email address, but do not need to create a full account. The free trial is not limited in any way other than putting a watermark on the output.<p>We’d love to hear your thoughts and experiences about VR video, virtual production and robotics!",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fbriggs",
+    "url": "https://news.ycombinator.com/user?id=fbriggs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30675861",
+  "sameAs": "https://news.ycombinator.com/item?id=30675861",
+  "dateCreated": "2022-03-14T18:33:00.710Z",
+  "datePublished": "2022-03-14T18:11:01.000Z",
+  "dateModified": "2022-03-14T18:33:00.710Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "启动HN：Lifecast（YC W22）--VR的3D视频",
+  "headline_zh-Hant": "啟動HN：Lifecast（YC W22）--VR的3D視頻",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN，我是Lifecast（<a href=\"https://www.lifecastvr.com\" rel=\"nofollow\">https://www.lifecastvr.com</a>）的Forrest，和我的联合创始人Mateusz。我们制作软件来创建用于VR、机器人模拟和虚拟生产的3D视频。我们将任何VR180视频或照片转换成我们的6DOF VR视频格式，或转换成与虚幻引擎兼容的网格。我们的3D重建是基于计算机视觉的双鱼眼镜头和深度学习。<p>VR视频可以分为3DOF（三自由度）或6DOF（六自由度）。3DOF只对旋转作出反应，而6DOF则对旋转和平移都作出反应--这意味着你可以移动你的头。VR游戏是6DOF，但大多数VR视频是3DOF。由于不正确的3D渲染，3DOF可能导致晕动症和眼睛疲劳。6DOF VR视频解决了这些问题，提供了更舒适和沉浸的体验，但它更难制作，因为它需要每一帧视频的3D模型。<p>在大科技领域有一些6DOF VR视频系统的原型，但它们通常涉及许多相机的阵列，所以它们很昂贵，不太容易携带，并产生不切实际的数据量。由于这些挑战，6DOF还没有被VR视频创作者广泛采用。<p>2015年，我在Facebook从事广告工作，但我对VR更加兴奋。我用乐高积木和GoPros制作了3D摄像机，在黑客马拉松上展示了其中的一些内容，最后他们让我把这个作为日常工作来做。我是Facebook 3D VR相机团队的第一位工程师，他们制作了Surround 360（一种开源的硬件/软件3D VR相机）和Manifold（一个由20多个相机组成的6DOF球）。在Facebook之后，我是Lyft的自动驾驶汽车项目和Google X的日常机器人项目的技术负责人。<p>我创办Lifecast是因为我对离开Facebook后6DOF VR视频的进展不满意。我从机器人学中学习到了可以改善VR视频的新想法。Oculus Quest 2有足够的能力来做一些有趣的6DOF。在过去的几年里，计算机视觉和深度学习也取得了进展，使6DOF做得更好成为可能。<p>我们的软件使使用任何VR180相机创建6DOF VR视频变得简单。这是一个适用于Mac或Windows的GUI，它将VR180视频或照片作为输入，并产生Lifecast的6DOF VR视频格式（更多信息。<a href=\"https://fbriggs.medium.com/6dof-vr-video-from-vr180-cameras-2e17805ef3bc\" rel=\"nofollow\">https://fbriggs.medium.com/6dof-vr-video-from-vr180-cameras-...</a>）。VR180视频可以用任何VR180相机制作；佳能R5是目前市场上最好的相机之一。我们为WebVR制作了一个视频播放器，可以在桌面、手机或VR上运行。在Quest 2上播放视频不需要安装任何软件，只需在Oculus浏览器中访问一个网页。<p>除了我们的6DOF格式，该软件还可以输出与虚幻引擎兼容的点云（.pcd）或三角网格（.obj）。我们看到人们对使用这个软件进行虚拟生产（在游戏引擎中制作2D电影）以及为机器人模拟创造环境感兴趣。<p>最近的这个视频评论/教程很好地解释了我们的技术。<a href=\"https://www.youtube.com/watch?v=_4a-RnTLu-I\" rel=\"nofollow\">https://www.youtube.com/watch?v=_4a-RnTLu-I</a> (video by Hugh Hou, not us). 对于更多的互动，<a href=\"https://lifecastvr.com\" rel=\"nofollow\">https://lifecastvr.com</a>上的缩略图是在浏览器/VR中运行的演示链接。<p>6DOF VR视频是一个更大的拼图的一部分。我们设想的未来是，人们戴上带有3D摄像头的AR眼镜，并使用它们来记录和直播他们的体验。3DOF对这一点是不够的，因为如果摄像机移动，它会导致晕动症。We have prototypes which fix motion sickness in 3D POV VR video from wearable cameras. Watching the videos in VR feels like reliving a memory. Here's a demo: <a href=\"https://lifecastvr.com/trickshot.html\" rel=\"nofollow\">https://lifecastvr.com/trickshot.html</a><p>您可以在输入电子邮件地址后从<a href=\"https://lifecastvr.com\" rel=\"nofollow\">https://lifecastvr.com</a>下载免费试用，但不需要创建一个完整的帐户。免费试用除了在输出物上打上水印外，没有任何限制。<p>我们很想听听你对VR视频、虚拟生产和机器人技术的想法和经验",
+  "description_zh-Hant": "嗨，HN，我是Lifecast（<a href=\"https://www.lifecastvr.com\" rel=\"nofollow\">https://www.lifecastvr.com</a>）的Forrest，和我的聯合創始人Mateusz。我們製作軟件來創建用於VR、機器人模擬和虛擬生產的3D視頻。我們將任何VR180視頻或照片轉換成我們的6DOF VR視頻格式，或轉換成與虛幻引擎兼容的網格。我們的3D重建是基於計算機視覺的雙魚眼鏡頭和深度學習。<p>VR視頻可以分為3DOF（三自由度）或6DOF（六自由度）。3DOF只對旋轉作出反應，而6DOF則對旋轉和平移都作出反應--這意味著你可以移動你的頭。VR遊戲是6DOF，但大多數VR視頻是3DOF。由於不正確的3D渲染，3DOF可能導致暈動症和眼睛疲勞。6DOF VR視頻解決了這些問題，提供了更舒適和沉浸的體驗，但它更難製作，因為它需要每一幀視頻的3D模型。<p>在大科技領域有一些6DOF VR視頻系統的原型，但它們通常涉及許多相機的陣列，所以它們很昂貴，不太容易攜帶，併產生不切實際的數據量。由於這些挑戰，6DOF還沒有被VR視頻創作者廣泛採用。<p>2015年，我在Facebook從事廣告工作，但我對VR更加興奮。我用樂高積木和GoPros製作了3D攝像機，在黑客馬拉松上展示了其中的一些內容，最後他們讓我把這個作為日常工作來做。我是Facebook 3D VR相機團隊的第一位工程師，他們製作了Surround 360（一種開源的硬件/軟件3D VR相機）和Manifold（一個由20多個相機組成的6DOF球）。在Facebook之後，我是Lyft的自動駕駛汽車項目和Google X的日常機器人項目的技術負責人。<p>我創辦Lifecast是因為我對離開Facebook後6DOF VR視頻的進展不滿意。我從機器人學中學習到了可以改善VR視頻的新想法。Oculus Quest 2有足夠的能力來做一些有趣的6DOF。在過去的幾年裡，計算機視覺和深度學習也取得了進展，使6DOF做得更好成為可能。<p>我們的軟件使使用任何VR180相機創建6DOF VR視頻變得簡單。這是一個適用於Mac或Windows的GUI，它將VR180視頻或照片作為輸入，併產生Lifecast的6DOF VR視頻格式（更多信息。<a href=\"https://fbriggs.medium.com/6dof-vr-video-from-vr180-cameras-2e17805ef3bc\" rel=\"nofollow\">https://fbriggs.medium.com/6dof-vr-video-from-vr180-cameras-...</a>）。VR180視頻可以用任何VR180相機制作；佳能R5是目前市場上最好的相機之一。我們為WebVR製作了一個視頻播放器，可以在桌面、手機或VR上運行。在Quest 2上播放視頻不需要安裝任何軟件，只需在Oculus瀏覽器中訪問一個網頁。<p>除了我們的6DOF格式，該軟件還可以輸出與虛幻引擎兼容的點雲（.pcd）或三角網格（.obj）。我們看到人們對使用這個軟件進行虛擬生產（在遊戲引擎中製作2D電影）以及為機器人模擬創造環境感興趣。<p>最近的這個視頻評論/教程很好地解釋了我們的技術。<a href=\"https://www.youtube.com/watch?v=_4a-RnTLu-I\" rel=\"nofollow\">https://www.youtube.com/watch?v=_4a-RnTLu-I</a> (video by Hugh Hou, not us). 對於更多的互動，<a href=\"https://lifecastvr.com\" rel=\"nofollow\">https://lifecastvr.com</a>上的縮略圖是在瀏覽器/VR中運行的演示鏈接。<p>6DOF VR視頻是一個更大的拼圖的一部分。我們設想的未來是，人們戴上帶有3D攝像頭的AR眼鏡，並使用它們來記錄和直播他們的體驗。3DOF對這一點是不夠的，因為如果攝像機移動，它會導致暈動症。We have prototypes which fix motion sickness in 3D POV VR video from wearable cameras. Watching the videos in VR feels like reliving a memory. Here's a demo: <a href=\"https://lifecastvr.com/trickshot.html\" rel=\"nofollow\">https://lifecastvr.com/trickshot.html</a><p>您可以在輸入電子郵件地址後從<a href=\"https://lifecastvr.com\" rel=\"nofollow\">https://lifecastvr.com</a>下載免費試用，但不需要創建一個完整的帳戶。免費試用除了在輸出物上打上水印外，沒有任何限制。<p>我們很想聽聽你對VR視頻、虛擬生產和機器人技術的想法和經驗"
+}
