@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--14--en--myfeed--HackerNews--NewsArticle--30665357",
+  "url": "https://news.ycombinator.com/item?id=30665357",
+  "headline": "Google suspends service to refugee from Mariupol(Ukraine)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "artyomxyz",
+    "url": "https://news.ycombinator.com/user?id=artyomxyz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30665357",
+  "sameAs": "https://ebanoe.it/2022/03/07/google-restrictions/",
+  "dateCreated": "2022-03-14T02:03:15.019Z",
+  "datePublished": "2022-03-13T20:24:29.000Z",
+  "dateModified": "2022-03-14T02:03:15.019Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "谷歌暂停向来自马里乌波尔的难民提供服务(乌克兰)",
+  "headline_zh-Hant": "谷歌暫停向來自馬裡烏波爾的難民提供服務(烏克蘭)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
