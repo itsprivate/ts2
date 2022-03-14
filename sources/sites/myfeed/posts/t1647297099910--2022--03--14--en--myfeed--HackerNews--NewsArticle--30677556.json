@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--14--en--myfeed--HackerNews--NewsArticle--30677556",
+  "url": "https://news.ycombinator.com/item?id=30677556",
+  "headline": "ML for logs – results from a large scale, real world study",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "https://www.zebrium.com/blog/how-cisco-uses-zebrium-ml-to-analyze-logs-for-root-cause<p>Disclosure: I’m one of the co-founders behind the ML mentioned here. However the results in the link above were generated independently by Cisco.<p>There have been a number of write-ups and papers evaluating ML for logs over the last few years – by academics, engineers, and observability vendors. But these results have typically been limited to synthetic data sets (lab generated), or very limited in scope (a handful of real world data sets).<p>The Automation and Innovation team at Cisco just published test results from a study applying ML to a large corpus of actual software incidents. The goal was to test the efficacy of the ML in picking out root cause indicators from logs that spanned the duration of the problems.<p>Each problem’s log data set was run through the Zebrium ML engine, AND was also independently root caused by an engineer with expertise in that software. To be counted as a success, the summary ML output had to contain the same log event(s) as those that were picked out by the engineer during the manual analysis. Further, each report had to be concise and clear enough that the evaluating engineer found it to be a net advantage (as compared with their familiar workflow of searching through logs).<p>The underlying software products were diverse in nature – Webex client (collaboration), DNA Center (networking), ISE (security), and UCS (infrastructure).<p>Each data set was a few GB in size (10s of millions of log events), spanned anywhere from a dozen to hundreds of log types (hence the challenge of correlating across logs), and typically contained a few days of logs. An engineer troubleshooting a software problem typically uses this history to understand the baseline of normal events, as well as spot any outlier events that might be clues to the root cause. The unsupervised ML was not pretrained – it used the same history to train on as was available in the log datasets.<p>Given the sensitivity of the data sets, the raw data is not published, but more details are expected in a follow up white paper. In any case, the results showed an accuracy rate of 95.8% for using ML for logs.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Ajs1",
+    "url": "https://news.ycombinator.com/user?id=Ajs1"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30677556",
+  "sameAs": "https://news.ycombinator.com/item?id=30677556",
+  "dateCreated": "2022-03-14T22:31:39.910Z",
+  "datePublished": "2022-03-14T20:08:38.000Z",
+  "dateModified": "2022-03-14T22:31:39.910Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "日志的ML--来自一个大规模的真实世界的研究结果",
+  "headline_zh-Hant": "日誌的ML--來自一個大規模的真實世界的研究結果",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "https://www.zebrium.com/blog/how-cisco-uses-zebrium-ml-to-analyze-logs-for-root-cause<p>披露：我是这里提到的ML背后的联合创始人之一。<p>在过去的几年中，已经有许多评估日志ML的文章和论文--由学者、工程师和可观察性供应商撰写。但这些结果通常仅限于合成数据集（实验室生成的），或者范围非常有限（少数现实世界的数据集）。<p>思科的自动化和创新团队刚刚公布了一项将ML应用于实际软件事件的大型语料库的研究的测试结果。<p>每个问题的日志数据集都通过 Zebrium ML 引擎运行，并由具有该软件专业知识的工程师独立进行根治。为了算作成功，ML输出的摘要必须包含与工程师在人工分析期间挑选出来的相同的日志事件。此外，每份报告必须简洁明了，使评估工程师认为这是一个净优势（与他们熟悉的搜索日志的工作流程相比）。<p>基础软件产品的性质各不相同--Webex客户端（协作）、DNA中心（网络）、ISE（安全）和UCS（基础设施）。 <p>每个数据集的大小为几GB（1000万个日志事件），跨越了十几种到几百种日志类型（因此，在日志之间进行关联的挑战），并且通常包含几天的日志。排除软件问题的工程师通常使用这一历史记录来了解正常事件的基线，以及发现任何可能成为根本原因线索的离群事件。无监督ML没有经过预训练--它使用了与日志数据集相同的历史来进行训练。<p>鉴于数据集的敏感性，原始数据没有公布，但预计在后续的白皮书中会有更多细节。在任何情况下，结果显示使用ML处理日志的准确率为95.8%。",
+  "description_zh-Hant": "https://www.zebrium.com/blog/how-cisco-uses-zebrium-ml-to-analyze-logs-for-root-cause<p>披露：我是這裡提到的ML背後的聯合創始人之一。<p>在過去的幾年中，已經有許多評估日誌ML的文章和論文--由學者、工程師和可觀察性供應商撰寫。但這些結果通常僅限於合成數據集（實驗室生成的），或者範圍非常有限（少數現實世界的數據集）。<p>思科的自動化和創新團隊剛剛公佈了一項將ML應用於實際軟件事件的大型語料庫的研究的測試結果。<p>每個問題的日誌數據集都通過 Zebrium ML 引擎運行，並由具有該軟件專業知識的工程師獨立進行根治。為了算作成功，ML輸出的摘要必須包含與工程師在人工分析期間挑選出來的相同的日誌事件。此外，每份報告必須簡潔明瞭，使評估工程師認為這是一個淨優勢（與他們熟悉的搜索日誌的工作流程相比）。<p>基礎軟件產品的性質各不相同--Webex客戶端（協作）、DNA中心（網絡）、ISE（安全）和UCS（基礎設施）。 <p>每個數據集的大小為幾GB（1000萬個日誌事件），跨越了十幾種到幾百種日誌類型（因此，在日誌之間進行關聯的挑戰），並且通常包含幾天的日誌。排除軟件問題的工程師通常使用這一歷史記錄來了解正常事件的基線，以及發現任何可能成為根本原因線索的離群事件。無監督ML沒有經過預訓練--它使用了與日誌數據集相同的歷史來進行訓練。<p>鑑於數據集的敏感性，原始數據沒有公佈，但預計在後續的白皮書中會有更多細節。在任何情況下，結果顯示使用ML處理日誌的準確率為95.8%。"
+}
