@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--15--en--hackernews--HackerNews--NewsArticle--30686027",
+  "url": "https://news.ycombinator.com/item?id=30686027",
+  "headline": "Launch HN: Vimmerse (YC W22) – Platform and SDKs to create and play 3D video",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello HN! We are Jill and Basel, founders of Vimmerse (<a href=\"https://vimmerse.net\" rel=\"nofollow\">https://vimmerse.net</a>)  Vimmerse is a platform and SDKs for creating and playing 3D video. We make it easy for businesses, developers, and creators to provide 3D immersive experiences for their viewers using our content creation APIs and player SDKs.<p>We have been watching video in two dimensions for too long! Most 3D content people experience today is computer generated, such as VR games. Diverse use cases can benefit from real-world 3D video, such as music performances, training, family memories, and the metaverse. Why isn’t there more real-world 3D video? Because it has been difficult and expensive to create, stream, and playback real-world, camera-captured 3D video content.<p>I am an IEEE Fellow and inventor of over 200 patents. Basel has a PhD in electrical engineering with deep experience in VR/AR/3D video. While at Intel (as Chief Media Architect and Intel Fellow), I led an MPEG standards workgroup on 360/VR video. I found that 360/VR video’s limitation to 3 Degrees of Freedom (DoF) caused discomfort or even nausea in some viewers, because we experience the real world in 6 DoF (controlling both position + orientation), not in 3DoF (just orientation).  I initiated an activity in MPEG to develop the MPEG Immersive Video (MIV) standard, which provides 6DoF. I became the lead editor of the MIV standard, and Basel was the lead editor of the test model.<p>While at Intel, we developed a MIV 3D video player for Intel GPUs and observed the greater engagement that 3D video provides to viewers. However there was no content available for the new MIV standard, and creation of 3D video content was a very difficult and expensive process. We realized that if 3D video were to become widely used, the creation and distribution processes needed to be simplified.  We founded Vimmerse with a mission to greatly expand access to 3D video.<p>Businesses can build their own services using our APIs to upload captured content and prepare 3D video on our platform. Our platform is capture agnostic, meaning it can work with any video device suitable for 3D capture, such as iPhones or Microsoft Azure Kinect depth sensors. More than 60% of iPhone 12 and 13 models sold (Pro and Pro Max) have LiDAR depth sensors, which can be used for capturing 3D video content.<p>The Vimmerse platform prepares 3D content from the uploaded capture files. Our approach is built on top of industry standard video streaming protocols and codecs, so existing video streaming servers and hardware video decoders can be utilized. The content preparation platform creates two types of output bitstreams from the uploaded captures: bullet video and 3D video. Bullet video (named after the Matrix movie’s bullet effect) is a 2D video representation of the 3D video, following a predetermined navigation path selected by the content creator. 3D video gives viewers the ability to control navigation with 6 Degrees of Freedom (6DoF), where they can pan around or step into the scene. Bullet video may be streamed (HLS) or downloaded (MP4) for playback on any device. 3D video playback may be streamed (HLS) to the Vimmerse 3D video player.<p>Services may use the Vimmerse 3D video player app, or developers can use our player SDK inside their own apps. Viewers have the ability to control navigation using any viewer input method: device motion, mouse/keyboard, touch controls, head/gesture tracking. The player SDK renders views for the selected 6DoF position and orientation.<p>We haven’t published pricing yet, but our plan is to charge for our content preparation APIs based on usage (e.g. minutes of video processed and streamed) and player SDKs based on number of units.<p>The Vimmerse website <a href=\"https://vimmerse.net\" rel=\"nofollow\">https://vimmerse.net</a> provides a no code way to test out our platform or view featured content. We invite the community to upload their own test content. Instructions for preparing content are available at <a href=\"https://blog.vimmerse.net/freeport-platform-usage-instruction/\" rel=\"nofollow\">https://blog.vimmerse.net/freeport-platform-usage-instructio...</a>. Sign up for an account to upload content, or use the guest account (login: guest, password: Guest#123). The Vimmerse 3D player for Android is available in the Google Play Store at <a href=\"https://play.google.com/store/apps/details?id=net.vimmerse.player\" rel=\"nofollow\">https://play.google.com/store/apps/details?id=net.vimmerse.p...</a>.<p>Please share your thoughts and experiences with 3D video, and your ideas for use cases that would benefit the most from 3D video. Are there any features we should add, or capture devices that you would like to have supported? Looking forward to getting your feedback.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jillboyce",
+    "url": "https://news.ycombinator.com/user?id=jillboyce"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30686027",
+  "sameAs": "https://news.ycombinator.com/item?id=30686027",
+  "dateCreated": "2022-03-15T15:10:44.613Z",
+  "datePublished": "2022-03-15T14:49:43.000Z",
+  "dateModified": "2022-03-15T15:10:44.613Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "启动HN：Vimmerse (YC W22) - 创建和播放3D视频的平台和SDKs",
+  "headline_zh-Hant": "啟動HN：Vimmerse (YC W22) - 創建和播放3D視頻的平臺和SDKs",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你好，HN! 我们是吉尔和巴塞尔，Vimmerse（<a href=\"https://vimmerse.net\" rel=\"nofollow\">https://vimmerse.net</a>）的创始人。Vimmerse是一个用于创建和播放3D视频的平台和SDK。我们利用我们的内容创建API和播放器SDK，使企业、开发人员和创作者能够轻松地为他们的观众提供3D沉浸式体验。<p>我们在二维空间观看视频的时间太长了! 今天人们体验的大多数3D内容都是计算机生成的，例如VR游戏。不同的用例可以从真实世界的3D视频中获益，例如音乐表演、培训、家庭记忆和元气大伤。为什么没有更多真实世界的3D视频？因为创建、流式传输和播放真实世界、相机拍摄的3D视频内容既困难又昂贵。 <p>我是IEEE会员，拥有200多项专利的发明人。巴塞尔拥有电子工程博士学位，在VR/AR/3D视频方面有深厚的经验。在英特尔工作时（作为首席媒体架构师和英特尔研究员），我领导了一个关于360/VR视频的MPEG标准工作组。我发现，360/VR视频的3个自由度（DoF）的限制使一些观众感到不适甚至恶心，因为我们在6个自由度（控制位置和方向）中体验真实的世界，而不是在3DoF（只是方向）中。 我在MPEG中发起了一项活动，开发MPEG沉浸式视频（MIV）标准，该标准提供6DoF。我成为MIV标准的主编，巴塞尔是测试模型的主编。<p>在英特尔工作时，我们为英特尔GPU开发了一个MIV 3D视频播放器，观察到3D视频为观众提供了更大的参与度。然而，当时并没有适用于新MIV标准的内容，而且创建3D视频内容是一个非常困难和昂贵的过程。我们意识到，如果3D视频要得到广泛的应用，就需要简化创作和传播过程。 我们创办Vimmerse的使命是大大扩展3D视频的使用范围。<p>企业可以使用我们的API建立自己的服务，在我们的平台上上传捕获的内容并准备3D视频。我们的平台与捕捉无关，这意味着它可以与任何适合3D捕捉的视频设备一起工作，如iPhone或微软Azure Kinect深度传感器。在已售出的iPhone 12和13机型（Pro和Pro Max）中，60%以上都有LiDAR深度传感器，可用于捕捉3D视频内容。<p>Vimmerse平台根据上传的捕捉文件准备3D内容。我们的方法是建立在行业标准的视频流协议和编解码器之上，因此可以利用现有的视频流服务器和硬件视频解码器。内容准备平台从上传的捕获文件中创建两种类型的输出比特流：子弹视频和3D视频。子弹视频（以《黑客帝国》电影的子弹效果命名）是3D视频的2D视频表现，遵循内容创建者选择的预定导航路径。三维视频让观众能够通过6个自由度（6DoF）来控制导航，他们可以四处平移或踏入场景。子弹视频可以通过流媒体（HLS）或下载（MP4）在任何设备上播放。3D视频播放可以流式（HLS）到Vimmerse 3D视频播放器。<p>服务可以使用Vimmerse 3D视频播放器应用程序，或者开发者可以在自己的应用程序内使用我们的播放器SDK。观众能够使用任何观众的输入方法来控制导航：设备运动、鼠标/键盘、触摸控制、头部/手势跟踪。The player SDK renders views for the selected 6DoF position and orientation.<p>We haven’t published pricing yet, but our plan is to charge for our content preparation APIs based on usage (e.g. minutes of video processed and streamed) and player SDKs based on number of units.<p>The Vimmerse website <a href=\"https://vimmerse.net\" rel=\"nofollow\">https://vimmerse.net</a> provides a no code way to test out our platform or view featured content. We invite the community to upload their own test content. Instructions for preparing content are available at <a href=\"https://blog.vimmerse.net/freeport-platform-usage-instruction/\" rel=\"nofollow\">https://blog.vimmerse.net/freeport-platform-usage-instructio...</a>. Sign up for an account to upload content, or use the guest account (login: guest, password: Guest#123). The Vimmerse 3D player for Android is available in the Google Play Store at <a href=\"https://play.google.com/store/apps/details?id=net.vimmerse.player\" rel=\"nofollow\">https://play.google.com/sto",
+  "description_zh-Hant": "你好，HN! 我們是吉爾和巴塞爾，Vimmerse（<a href=\"https://vimmerse.net\" rel=\"nofollow\">https://vimmerse.net</a>）的創始人。Vimmerse是一個用於創建和播放3D視頻的平臺和SDK。我們利用我們的內容創建API和播放器SDK，使企業、開發人員和創作者能夠輕鬆地為他們的觀眾提供3D沉浸式體驗。<p>我們在二維空間觀看視頻的時間太長了! 今天人們體驗的大多數3D內容都是計算機生成的，例如VR遊戲。不同的用例可以從真實世界的3D視頻中獲益，例如音樂表演、培訓、家庭記憶和元氣大傷。為什麼沒有更多真實世界的3D視頻？因為創建、流式傳輸和播放真實世界、相機拍攝的3D視頻內容既困難又昂貴。 <p>我是IEEE會員，擁有200多項專利的發明人。巴塞爾擁有電子工程博士學位，在VR/AR/3D視頻方面有深厚的經驗。在英特爾工作時（作為首席媒體架構師和英特爾研究員），我領導了一個關於360/VR視頻的MPEG標準工作組。我發現，360/VR視頻的3個自由度（DoF）的限制使一些觀眾感到不適甚至噁心，因為我們在6個自由度（控制位置和方向）中體驗真實的世界，而不是在3DoF（只是方向）中。 我在MPEG中發起了一項活動，開發MPEG沉浸式視頻（MIV）標準，該標準提供6DoF。我成為MIV標準的主編，巴塞爾是測試模型的主編。<p>在英特爾工作時，我們為英特爾GPU開發了一個MIV 3D視頻播放器，觀察到3D視頻為觀眾提供了更大的參與度。然而，當時並沒有適用於新MIV標準的內容，而且創建3D視頻內容是一個非常困難和昂貴的過程。我們意識到，如果3D視頻要得到廣泛的應用，就需要簡化創作和傳播過程。 我們創辦Vimmerse的使命是大大擴展3D視頻的使用範圍。<p>企業可以使用我們的API建立自己的服務，在我們的平臺上上傳捕獲的內容並準備3D視頻。我們的平臺與捕捉無關，這意味著它可以與任何適合3D捕捉的視頻設備一起工作，如iPhone或微軟Azure Kinect深度傳感器。在已售出的iPhone 12和13機型（Pro和Pro Max）中，60%以上都有LiDAR深度傳感器，可用於捕捉3D視頻內容。<p>Vimmerse平臺根據上傳的捕捉文件準備3D內容。我們的方法是建立在行業標準的視頻流協議和編解碼器之上，因此可以利用現有的視頻流服務器和硬件視頻解碼器。內容準備平臺從上傳的捕獲文件中創建兩種類型的輸出比特流：子彈視頻和3D視頻。子彈視頻（以《黑客帝國》電影的子彈效果命名）是3D視頻的2D視頻表現，遵循內容創建者選擇的預定導航路徑。三維視頻讓觀眾能夠通過6個自由度（6DoF）來控制導航，他們可以四處平移或踏入場景。子彈視頻可以通過流媒體（HLS）或下載（MP4）在任何設備上播放。3D視頻播放可以流式（HLS）到Vimmerse 3D視頻播放器。<p>服務可以使用Vimmerse 3D視頻播放器應用程序，或者開發者可以在自己的應用程序內使用我們的播放器SDK。觀眾能夠使用任何觀眾的輸入方法來控制導航：設備運動、鼠標/鍵盤、觸摸控制、頭部/手勢跟蹤。The player SDK renders views for the selected 6DoF position and orientation.<p>We haven’t published pricing yet, but our plan is to charge for our content preparation APIs based on usage (e.g. minutes of video processed and streamed) and player SDKs based on number of units.<p>The Vimmerse website <a href=\"https://vimmerse.net\" rel=\"nofollow\">https://vimmerse.net</a> provides a no code way to test out our platform or view featured content. We invite the community to upload their own test content. Instructions for preparing content are available at <a href=\"https://blog.vimmerse.net/freeport-platform-usage-instruction/\" rel=\"nofollow\">https://blog.vimmerse.net/freeport-platform-usage-instructio...</a>. Sign up for an account to upload content, or use the guest account (login: guest, password: Guest#123). The Vimmerse 3D player for Android is available in the Google Play Store at <a href=\"https://play.google.com/store/apps/details?id=net.vimmerse.player\" rel=\"nofollow\">https://play.google.com/sto"
+}
