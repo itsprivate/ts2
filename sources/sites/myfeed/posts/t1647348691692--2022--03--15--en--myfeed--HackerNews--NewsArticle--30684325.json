@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--15--en--myfeed--HackerNews--NewsArticle--30684325",
+  "url": "https://news.ycombinator.com/item?id=30684325",
+  "headline": "Container ship EVERFORWARD has run aground in the Chesapeake Bay",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bryanrasmussen",
+    "url": "https://news.ycombinator.com/user?id=bryanrasmussen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30684325",
+  "sameAs": "https://twitter.com/jsrailton/status/1503516528058195974",
+  "dateCreated": "2022-03-15T12:51:31.692Z",
+  "datePublished": "2022-03-15T12:10:24.000Z",
+  "dateModified": "2022-03-15T12:51:31.692Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "集装箱船EVERFORWARD在切萨皮克湾搁浅了",
+  "headline_zh-Hant": "集裝箱船EVERFORWARD在切薩皮克灣擱淺了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
