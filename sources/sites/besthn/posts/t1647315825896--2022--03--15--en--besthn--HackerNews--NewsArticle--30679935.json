@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--15--en--besthn--HackerNews--NewsArticle--30679935",
+  "url": "https://news.ycombinator.com/item?id=30679935",
+  "headline": "Why is it hard to buy things that work well?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "davidmckenna",
+    "url": "https://news.ycombinator.com/user?id=davidmckenna"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30679935",
+  "sameAs": "https://danluu.com/nothing-works/",
+  "dateCreated": "2022-03-15T03:43:45.896Z",
+  "datePublished": "2022-03-14T23:32:11.000Z",
+  "dateModified": "2022-03-15T03:43:45.896Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 255
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 169
+    }
+  ],
+  "headline_zh-Hans": "为什么很难买到好用的东西呢？",
+  "headline_zh-Hant": "為什麼很難買到好用的東西呢？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
