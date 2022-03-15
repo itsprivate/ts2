@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--15--en--myfeed--HackerNews--NewsArticle--30685921",
+  "url": "https://news.ycombinator.com/item?id=30685921",
+  "headline": "Launch HN: Method Financial (YC S19) – API to embed debt repayment into your app",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN, we’re Jose and Marco from Method (<a href=\"https://methodfi.com\" rel=\"nofollow\">https://methodfi.com</a>). We are building a developer-first API that makes it easy for developers to embed debt repayment into their applications. We enable your business to push money to any type of consumer debt, like student loans, credit cards, and mortgages, on behalf of your users.<p>Making payments to consumer debt on behalf of individuals is an archaic process. In most instances it involves mailing physical checks. If APIs exist at all, they are brittle. Figuring out how to do this with reasonable UX is costly, time-consuming, and involves lengthy compliance processes.<p>Fintechs have innovated to help users manage savings and investments, but so far have done little with debt, which is actually many people’s biggest anxiety. Ballooning American consumer debt means there’s a great need in this space, but fintechs attempting to enter it run into this issue of how hard it is to offer payments. That’s the problem we solve. By using our API, any company can embed debt repayment into their platform with instant access across 10,000+ financial institutions, covering 95% of all consumer debt.<p>We ran into this while building our previous startup called GradJoy. It started as a side project to manage our student loans, then turned into a PFM (personal finance manager) that\nconnected all your student loans to one app and calculated the optimal way to get you out of debt. We got into YC S19 with this. Our next step was to connect with APIs and make payments on behalf of users. As Demo Day was nearing, integrating payments was taking longer than expected. We had assumed there would be an API solution, but we were unable to find one. We asked fellow founders in the lending space and told us we had to send physical checks to student loan servicers! Given our deadline we spun that up, but ran into constant issues with checks taking forever and getting lost in the mail. Managing payments was becoming our full-time job.<p>After Demo Day we worked to get integrated directly with the financial institutions to be able to make payments online. It took forever to jump through all the costly compliance hoops and work with slow-moving organizations. Once we finally rolled out electronic payments, we got a lot of interest from other YC founders who wanted to know how we did it. A lot of them asked if they could just use our internal payment APIs. Eventually we decided to pivot to Method Financial and focus on making it easy for developers to add debt repayment to their own apps and services.<p>Our solution is a developer-first API that handles account verification, money movement and transaction confirmation via direct integration into the banking network. To initiate a payment, developers just have to send a source account (where the money is coming from), a destination account (where the money is going), a transaction amount, and in some cases additional user verification (for compliance). That’s it!<p>On the back end we are connected to 10,000+ financial institutions because of our direct relationships with the banking core providers. This gives us access to networks of intra-bank payment rails. As soon as a payment is initiated from the customer side, we verify the end-user (KYC/AML), initiate money transfer and return confirmation in real time. Settlement usually completes on the same day. No more paper checks, no multiple integrations or screen-scraping, no transaction limits, far fewer returned payments, and best of all, we deal with the compliance headaches, including all the ongoing compliance maintenance that needs taking care of.<p>So far, companies are using us to do things like provide matching student loan payments as an employee benefit, do one-click balance transfers when switching credit cards, and allow cryptocurrency users to pay down debt or pay bills. We charge per API call, and there are monthly minimums similar to Plaid.<p>Our API is live and we have a self-serve dashboard with two environments: development mode (cannot move real money) and sandbox mode (move real money—up to 20 live payments for free). After a simple KYC verification, you can enable sandbox mode and move real money at <a href=\"https://dashboard.methodfi.com\" rel=\"nofollow\">https://dashboard.methodfi.com</a>.<p>We’d love for you to try out Method. You can get development and sandbox API keys in our dashboard – no credit card required.<p>Have you built a similar payment infrastructure before? Have ideas for other potential use cases? We’d love to hear your questions, experiences, ideas and feedback! We’ll be online today to answer any questions - we’re always excited to talk about fintech, payments, APIs, etc.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "joseb",
+    "url": "https://news.ycombinator.com/user?id=joseb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30685921",
+  "sameAs": "https://news.ycombinator.com/item?id=30685921",
+  "dateCreated": "2022-03-15T15:10:44.788Z",
+  "datePublished": "2022-03-15T14:41:03.000Z",
+  "dateModified": "2022-03-15T15:10:44.788Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "启动HN：方法金融（YC S19）--将债务偿还嵌入你的应用程序的API",
+  "headline_zh-Hant": "啟動HN：方法金融（YC S19）--將債務償還嵌入你的應用程序的API",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN，我们是来自Method（<a href=\"https://methodfi.com\" rel=\"nofollow\">https://methodfi.com</a>）的Jose 和 Marco。我们正在建立一个开发者优先的API，使开发者能够轻松地将债务偿还嵌入其应用程序中。我们使您的企业能够代表您的用户向任何类型的消费债务，如学生贷款、信用卡和抵押贷款推送资金。<p>代表个人向消费债务付款是一个古老的过程。在大多数情况下，它涉及邮寄实物支票。如果有API的话，它们也是很脆弱的。<p>金融科技公司在帮助用户管理储蓄和投资方面进行了创新，但迄今为止在债务方面做得很少，而债务实际上是许多人的最大焦虑。美国消费者债务的膨胀意味着这一领域有很大的需求，但试图进入这一领域的金融科技公司却遇到了这样的问题：提供支付服务是多么困难。这就是我们要解决的问题。通过使用我们的API，任何公司都可以将债务偿还嵌入他们的平台，并可即时访问10,000多家金融机构，覆盖所有消费者债务的95%。<p>我们在建立我们以前的创业公司GradJoy时遇到了这个问题。它起初是一个管理学生贷款的副业，后来变成了一个PFM（个人财务经理），将你的所有学生贷款与你的个人账户连接起来。\n将你所有的学生贷款连接到一个应用程序，并计算出让你摆脱债务的最佳方式。我们以此进入了YC S19。我们的下一步是与API连接，代表用户进行支付。随着演示日的临近，整合支付的时间比预期的长。我们曾以为会有一个API解决方案，但我们无法找到一个。我们询问了贷款领域的其他创始人，他们告诉我们，我们必须向学生贷款服务机构发送实体支票！考虑到我们的最后期限，我们把这个问题解决了。考虑到我们的最后期限，我们开始着手进行这项工作，但不断遇到支票耗时过长和在邮件中丢失的问题。<p>演示日之后，我们努力与金融机构直接整合，以便能够进行在线支付。我们花了很长时间来跳过所有昂贵的合规圈，并与行动缓慢的组织合作。一旦我们最终推出了电子支付，其他YC创始人对我们产生了浓厚的兴趣，他们想知道我们是如何做到的。他们中的很多人问，他们是否可以直接使用我们的内部支付API。最终，我们决定转向Method Financial，并专注于使开发者能够轻松地将债务偿还添加到他们自己的应用程序和服务中。<p>我们的解决方案是一个开发者优先的API，通过直接集成到银行网络，处理账户验证、资金流动和交易确认。要启动支付，开发人员只需发送一个源账户（钱从哪里来）、一个目标账户（钱从哪里去）、一个交易金额，以及在某些情况下额外的用户验证（为了合规）。就是这样！<p>在后端，由于我们与银行核心供应商的直接关系，我们与10,000多家金融机构相连。这使我们能够进入银行内部的支付轨道网络。一旦客户方发起付款，我们就会验证最终用户（KYC/AML），启动资金转移并实时返回确认。结算通常在同一天完成。没有更多的纸质支票，没有多个集成或屏幕刮擦，没有交易限制，退回的付款少得多，最重要的是，我们处理合规问题，包括所有需要照顾的持续合规维护。<p>到目前为止，公司正在使用我们做一些事情，如提供匹配的学生贷款付款作为员工福利，在转换信用卡时进行一键式余额转移，并允许加密货币用户支付债务或支付账单。We charge per API call, and there are monthly minimums similar to Plaid.<p>Our API is live and we have a self-serve dashboard with two environments: development mode (cannot move real money) and sandbox mode (move real money—up to 20 live payments for free). After a simple KYC verification, you can enable sandbox mode and move real money at <a href=\"https://dashboard.methodfi.com\" rel=\"nofollow\">https://dashboard.methodfi.com</a>.<p>We’d love for you to try out Method. You can get development and sandbox API keys in our dashboard – no credit card required.<p>Have you built a si",
+  "description_zh-Hant": "嗨，HN，我們是來自Method（<a href=\"https://methodfi.com\" rel=\"nofollow\">https://methodfi.com</a>）的Jose 和 Marco。我們正在建立一個開發者優先的API，使開發者能夠輕鬆地將債務償還嵌入其應用程序中。我們使您的企業能夠代表您的用戶向任何類型的消費債務，如學生貸款、信用卡和抵押貸款推送資金。<p>代表個人向消費債務付款是一個古老的過程。在大多數情況下，它涉及郵寄實物支票。如果有API的話，它們也是很脆弱的。<p>金融科技公司在幫助用戶管理儲蓄和投資方面進行了創新，但迄今為止在債務方面做得很少，而債務實際上是許多人的最大焦慮。美國消費者債務的膨脹意味著這一領域有很大的需求，但試圖進入這一領域的金融科技公司卻遇到了這樣的問題：提供支付服務是多麼困難。這就是我們要解決的問題。通過使用我們的API，任何公司都可以將債務償還嵌入他們的平臺，並可即時訪問10,000多家金融機構，覆蓋所有消費者債務的95%。<p>我們在建立我們以前的創業公司GradJoy時遇到了這個問題。它起初是一個管理學生貸款的副業，後來變成了一個PFM（個人財務經理），將你的所有學生貸款與你的個人賬戶連接起來。\n將你所有的學生貸款連接到一個應用程序，並計算出讓你擺脫債務的最佳方式。我們以此進入了YC S19。我們的下一步是與API連接，代表用戶進行支付。隨著演示日的臨近，整合支付的時間比預期的長。我們曾以為會有一個API解決方案，但我們無法找到一個。我們詢問了貸款領域的其他創始人，他們告訴我們，我們必須向學生貸款服務機構發送實體支票！考慮到我們的最後期限，我們把這個問題解決了。考慮到我們的最後期限，我們開始著手進行這項工作，但不斷遇到支票耗時過長和在郵件中丟失的問題。<p>演示日之後，我們努力與金融機構直接整合，以便能夠進行在線支付。我們花了很長時間來跳過所有昂貴的合規圈，並與行動緩慢的組織合作。一旦我們最終推出了電子支付，其他YC創始人對我們產生了濃厚的興趣，他們想知道我們是如何做到的。他們中的很多人問，他們是否可以直接使用我們的內部支付API。最終，我們決定轉向Method Financial，並專注於使開發者能夠輕鬆地將債務償還添加到他們自己的應用程序和服務中。<p>我們的解決方案是一個開發者優先的API，通過直接集成到銀行網絡，處理賬戶驗證、資金流動和交易確認。要啟動支付，開發人員只需發送一個源賬戶（錢從哪裡來）、一個目標賬戶（錢從哪裡去）、一個交易金額，以及在某些情況下額外的用戶驗證（為了合規）。就是這樣！<p>在後端，由於我們與銀行核心供應商的直接關係，我們與10,000多家金融機構相連。這使我們能夠進入銀行內部的支付軌道網絡。一旦客戶方發起付款，我們就會驗證最終用戶（KYC/AML），啟動資金轉移並實時返回確認。結算通常在同一天完成。沒有更多的紙質支票，沒有多個集成或屏幕刮擦，沒有交易限制，退回的付款少得多，最重要的是，我們處理合規問題，包括所有需要照顧的持續合規維護。<p>到目前為止，公司正在使用我們做一些事情，如提供匹配的學生貸款付款作為員工福利，在轉換信用卡時進行一鍵式餘額轉移，並允許加密貨幣用戶支付債務或支付賬單。We charge per API call, and there are monthly minimums similar to Plaid.<p>Our API is live and we have a self-serve dashboard with two environments: development mode (cannot move real money) and sandbox mode (move real money—up to 20 live payments for free). After a simple KYC verification, you can enable sandbox mode and move real money at <a href=\"https://dashboard.methodfi.com\" rel=\"nofollow\">https://dashboard.methodfi.com</a>.<p>We’d love for you to try out Method. You can get development and sandbox API keys in our dashboard – no credit card required.<p>Have you built a si"
+}
