@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--15--en--myfeed--HackerNews--NewsArticle--30680645",
+  "url": "https://news.ycombinator.com/item?id=30680645",
+  "headline": "Vercel free plan will be deprecated in May 2022",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi there,<p>We are deprecating the Vercel Free plan. On May 12, 2022, you will be automatically moved to our Pro Plan.<p>Our Pro Plan is $20 per user per month, includes up to 1TB of Bandwidth, and supports the ultimate development &amp; collaboration workflow. Of course, you can always change or upgrade plans by contacting us.<p>Your projects will be transferred to Pro with zero downtime. The only way this change will affect your project is if your application depends on Serverless Functions with timeouts longer than 60 seconds, or is dependent on being deployed to multiple regions—these options are not available for new deployments on the Pro plan.<p>Keep in mind—you'll receive 1TB of bandwidth, 1TB of function execution, and 5,000 source images included in your plan. Concerned about overages? Learn more about pricing here.<p>Feel free to reply with any questions or read more about it here.<p>Happy Developing,\nThe Vercel Team",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "thangngoc89",
+    "url": "https://news.ycombinator.com/user?id=thangngoc89"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30680645",
+  "sameAs": "https://news.ycombinator.com/item?id=30680645",
+  "dateCreated": "2022-03-15T07:36:34.043Z",
+  "datePublished": "2022-03-15T01:09:39.000Z",
+  "dateModified": "2022-03-15T07:36:34.043Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Vercel免费计划将于2022年5月废止",
+  "headline_zh-Hant": "Vercel免費計劃將於2022年5月廢止",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，<p>我们正在废除Vercel免费计划。2022年5月12日，您将被自动转移到我们的专业计划。<p>我们的专业计划是每个用户每月20美元，包括高达1TB的带宽，并支持最终的开发&amp;协作工作流程。当然，你可以通过联系我们随时改变或升级计划。<p>你的项目将被转移到专业计划，而不会有任何停机时间。如果您的应用程序依赖于超时时间超过60秒的Serverless功能，或者依赖于部署到多个地区，那么这种变化将影响您的项目--这些选项不适用于Pro计划的新部署。<p>请记住，您将获得1TB的带宽、1TB的功能执行，以及计划中包含的5000个源镜像。担心超支吗？请在此了解有关定价的更多信息。<p>如有任何问题，请随时回复，或在此阅读更多相关信息。\nVercel团队",
+  "description_zh-Hant": "嗨，<p>我們正在廢除Vercel免費計劃。2022年5月12日，您將被自動轉移到我們的專業計劃。<p>我們的專業計劃是每個用戶每月20美元，包括高達1TB的帶寬，並支持最終的開發&amp;協作工作流程。當然，你可以通過聯繫我們隨時改變或升級計劃。<p>你的項目將被轉移到專業計劃，而不會有任何停機時間。如果您的應用程序依賴於超時時間超過60秒的Serverless功能，或者依賴於部署到多個地區，那麼這種變化將影響您的項目--這些選項不適用於Pro計劃的新部署。<p>請記住，您將獲得1TB的帶寬、1TB的功能執行，以及計劃中包含的5000個源鏡像。擔心超支嗎？請在此瞭解有關定價的更多信息。<p>如有任何問題，請隨時回覆，或在此閱讀更多相關信息。\nVercel團隊"
+}
