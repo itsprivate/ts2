@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--16--en--myfeed--HackerNews--NewsArticle--30702281",
+  "url": "https://news.ycombinator.com/item?id=30702281",
+  "headline": "What You Can't Say (2004)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "whatyoucantpost",
+    "url": "https://news.ycombinator.com/user?id=whatyoucantpost"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30702281",
+  "sameAs": "http://www.paulgraham.com/say.html",
+  "dateCreated": "2022-03-16T19:09:30.232Z",
+  "datePublished": "2022-03-16T18:28:15.000Z",
+  "dateModified": "2022-03-16T19:09:30.232Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 20
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "你不能说什么 (2004)",
+  "headline_zh-Hant": "你不能說什麼 (2004)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
