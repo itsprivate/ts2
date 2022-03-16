@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--16--en--myfeed--HackerNews--NewsArticle--30698215",
+  "url": "https://news.ycombinator.com/item?id=30698215",
+  "headline": "Launch HN: Sarus (YC W22) – Work on sensitive data with differential privacy",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN! Maxime, Nicolas, and Vincent here, founders of Sarus (<a href=\"https://www.sarus.tech\" rel=\"nofollow\">https://www.sarus.tech</a>). Sarus is a privacy engineering software that lets data scientists work on data without the need to access it. It works like a proxy between the practitioner and the data. All queries and data processing jobs are executed on the original data with the privacy guarantees of differential privacy.<p>When data is sensitive, getting access can be a huge pain. It means going through a long manual validation process that includes designing, and implementing an appropriate data anonymization. It takes weeks to months and some data utility may be lost to the masking requirements.<p>Sarus makes all of it irrelevant by letting analysts work on data that is never accessed. Analysts only access outputs of their data jobs, and those can be protected with appropriate privacy measures.<p>With past lives in healthtech, finance, and marketing, we’ve experienced first-hand that data governance has taken a huge part in data operations. It’s a rightful objective to protect data but it should not have to hamstring all innovation. For most data science or analytics objectives, the analyst has no interest in the information of a given individual. They look for patterns that are valid across the dataset. Access to user-level information is just an unfortunate way to get there.<p>We decided to build Sarus so that data access is no longer a requirement.<p>The Sarus API proxies all queries, compiles them into a privacy-safe version, runs them on the original data (which never moves outside of our clients’ infrastructure) and outputs the protected results to the practitioner. The protection relies on differential privacy, a mathematical definition of privacy already used by leading tech companies.\nDifferential privacy works by adding calibrated randomness to outputs so that the information of any given individual cannot be inferred. One of its main benefits is that it does not make any assumption on what is sensitive in the data or what the recipient of the output may already know or do. This is the ideal candidate for replacing all manual data governance processes by something fully automated. Each query gets rewritten by Sarus in a way that implements its core principles.<p>For the core primitives of differential privacy, we leverage the latest research (Dwork &amp; Roth 2014, Abadi 2016, Dong 2019, Koskela 2020 or Wilson 2019) and open source implementations (tensorflow-privacy, Google Differential Privacy, OpenDP,  Smartnoise). Our key contribution is to bundle everything into an API that can be queried without seeing the data in the first place. It requires proper privacy accounting (we use PLD accounting as in Koskela 2020) but also setting all the technical parameters that are required by the framework (estimating range of input data, allocating privacy budget across computation steps…). We also optimize the privacy utility trade-off by memoizing previous queries as much as possible.<p>Wait, but the first thing data scientists do is to check out the data, how do I do that now? Not a problem, the API provides synthetic data samples with the same schema and statistical distribution by default. It effectively replaces the need to see any record, and data scientists can still do feature engineering, test and debug code with it. Of course, synthetic data is not something you would want to build insights or ML models on, you’d use the API to do that on the original data.<p>How it works: the app is deployed in the cloud infrastructure (any cloud vendor is compatible). The data admin lists relevant data sources from the UI or the API, and grants learning access to practitioners by applying a privacy policy among predefined templates. The synthetic data sample is automatically generated. From there, data scientists can run their analyses with their usual tools (pandas, numpy, TF, scikit-learn, Metabase, Redash, Tableau…), whether from a python SDK or a hiveSQL connector.<p>Curious? We have released a self-serve demo for you to try it out. It lets you make a dataset available from the Sarus proxy, set up access policies and then, as a data practitioner, use it for analytics and machine learning. It is limited to a handful of datasets but should give you a good understanding of Sarus. You can sign up at <a href=\"https://demo.sarus.tech/signup\" rel=\"nofollow\">https://demo.sarus.tech/signup</a> and begin using Sarus for free, no credit card required (tutorial on <a href=\"https://www.sarus.tech/post/we-just-released-an-open-demo-try-it-out\" rel=\"nofollow\">https://www.sarus.tech/post/we-just-released-an-open-demo-tr...</a>).<p>Our model is a software license to run on our clients’ cloud. Our pricing is on a per-dataset per-month basis and starts at $600/month.<p>Please let us know what you think! We look forward to hearing your questions, feedback, ideas, and experience!",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "maximeago",
+    "url": "https://news.ycombinator.com/user?id=maximeago"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30698215",
+  "sameAs": "https://news.ycombinator.com/item?id=30698215",
+  "dateCreated": "2022-03-16T13:17:31.540Z",
+  "datePublished": "2022-03-16T13:00:57.000Z",
+  "dateModified": "2022-03-16T13:17:31.540Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 14
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "启动HN：Sarus（YC W22）--在敏感数据上的工作具有不同的隐私性",
+  "headline_zh-Hant": "啟動HN：Sarus（YC W22）--在敏感數據上的工作具有不同的隱私性",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN! 我是Maxime、Nicolas和Vincent，Sarus（<a href=\"https://www.sarus.tech\" rel=\"nofollow\">https://www.sarus.tech</a>）的创始人。Sarus是一款隐私工程软件，可以让数据科学家在不需要访问数据的情况下进行工作。它的工作方式就像从业人员和数据之间的代理。所有查询和数据处理工作都是在原始数据上执行的，并具有差异化的隐私保障。<p>当数据是敏感的时候，获得访问权可能是一个巨大的痛苦。这意味着要经历一个漫长的人工验证过程，包括设计和实施适当的数据匿名化。这需要数周至数月的时间，而且一些数据的效用可能会因为掩盖要求而丧失。<p>Sarus通过让分析师在从未被访问的数据上工作，使所有这些都变得无关紧要。分析师只访问其数据工作的输出，而这些输出可以通过适当的隐私措施加以保护。<p>由于过去在健康技术、金融和营销领域的工作，我们亲身经历了数据治理在数据运营中的巨大作用。保护数据是一个合理的目标，但它不应该束缚所有的创新。对于大多数数据科学或分析目标来说，分析师对某个人的信息没有兴趣。他们寻找的是整个数据集的有效模式。<p>我们决定建立Sarus，以便数据访问不再是一个要求。<p>Sarus API代理所有的查询，将它们编译成隐私安全版本，在原始数据上运行它们（这些数据从不在我们客户的基础设施之外移动），并将受保护的结果输出给从业人员。这种保护依赖于微分隐私，这是领先的科技公司已经使用的隐私的数学定义。\n差分隐私的工作原理是在输出中加入校准的随机性，这样就不能推断出任何特定个体的信息。它的主要好处之一是，它不对数据中的敏感内容或输出的接收者可能已经知道或做的事情作出任何假设。这是用完全自动化的东西取代所有人工数据治理过程的理想候选者。<p>对于差分隐私的核心基元，我们利用了最新的研究（Dwork &amp; Roth 2014, Abadi 2016, Dong 2019, Koskela 2020 或 Wilson 2019）和开源实现（tensorflow-privacy, Google Differential Privacy, OpenDP, Smartnoise）。我们的关键贡献是将所有东西捆绑在一个API中，可以在不看到数据的情况下首先进行查询。这需要适当的隐私核算（我们使用Koskela 2020中的PLD核算），但也需要设置框架所需的所有技术参数（估计输入数据的范围，在计算步骤中分配隐私预算...）。我们还通过尽可能地备忘以前的查询来优化隐私效用的权衡。<p>等等，但数据科学家要做的第一件事是检查数据，我现在该怎么做？这不是问题，API默认提供具有相同模式和统计分布的合成数据样本。它有效地取代了看到任何记录的需要，数据科学家仍然可以用它来做功能工程，测试和调试代码。当然，合成数据不是你想建立洞察力或ML模型的东西，你会使用API在原始数据上做这些事情。<p>如何工作：应用程序被部署在云基础设施中（任何云供应商都是兼容的）。数据管理员从用户界面或API中列出相关的数据源，并通过在预定义的模板中应用隐私政策授予从业者学习权限。合成数据样本会自动生成。从那里，数据科学家可以用他们常用的工具（pandas、numpy、TF、scikit-learn、Metabase、Redash、Tableau...）运行他们的分析，无论是从python SDK还是hiveSQL连接器。<p>好奇？我们已经发布了一个自助式的演示，供您试用。It lets you make a dataset available from the Sarus proxy, set up access policies and then, as a data practitioner, use it for analytics and machine learning. It is limited to a handful of datasets but should give you a good understanding of Sarus. You can sign up at <a href=\"https://demo.sarus.tech/signup\" rel=\"nofollow\">https://demo.sarus.tech/signup</a> and begin using Sarus ",
+  "description_zh-Hant": "嗨，HN! 我是Maxime、Nicolas和Vincent，Sarus（<a href=\"https://www.sarus.tech\" rel=\"nofollow\">https://www.sarus.tech</a>）的創始人。Sarus是一款隱私工程軟件，可以讓數據科學家在不需要訪問數據的情況下進行工作。它的工作方式就像從業人員和數據之間的代理。所有查詢和數據處理工作都是在原始數據上執行的，並具有差異化的隱私保障。<p>當數據是敏感的時候，獲得訪問權可能是一個巨大的痛苦。這意味著要經歷一個漫長的人工驗證過程，包括設計和實施適當的數據匿名化。這需要數週至數月的時間，而且一些數據的效用可能會因為掩蓋要求而喪失。<p>Sarus通過讓分析師在從未被訪問的數據上工作，使所有這些都變得無關緊要。分析師只訪問其數據工作的輸出，而這些輸出可以通過適當的隱私措施加以保護。<p>由於過去在健康技術、金融和營銷領域的工作，我們親身經歷了數據治理在數據運營中的巨大作用。保護數據是一個合理的目標，但它不應該束縛所有的創新。對於大多數數據科學或分析目標來說，分析師對某個人的信息沒有興趣。他們尋找的是整個數據集的有效模式。<p>我們決定建立Sarus，以便數據訪問不再是一個要求。<p>Sarus API代理所有的查詢，將它們編譯成隱私安全版本，在原始數據上運行它們（這些數據從不在我們客戶的基礎設施之外移動），並將受保護的結果輸出給從業人員。這種保護依賴於微分隱私，這是領先的科技公司已經使用的隱私的數學定義。\n差分隱私的工作原理是在輸出中加入校準的隨機性，這樣就不能推斷出任何特定個體的信息。它的主要好處之一是，它不對數據中的敏感內容或輸出的接收者可能已經知道或做的事情作出任何假設。這是用完全自動化的東西取代所有人工數據治理過程的理想候選者。<p>對於差分隱私的核心基元，我們利用了最新的研究（Dwork &amp; Roth 2014, Abadi 2016, Dong 2019, Koskela 2020 或 Wilson 2019）和開源實現（tensorflow-privacy, Google Differential Privacy, OpenDP, Smartnoise）。我們的關鍵貢獻是將所有東西捆綁在一個API中，可以在不看到數據的情況下首先進行查詢。這需要適當的隱私核算（我們使用Koskela 2020中的PLD核算），但也需要設置框架所需的所有技術參數（估計輸入數據的範圍，在計算步驟中分配隱私預算...）。我們還通過儘可能地備忘以前的查詢來優化隱私效用的權衡。<p>等等，但數據科學家要做的第一件事是檢查數據，我現在該怎麼做？這不是問題，API默認提供具有相同模式和統計分佈的合成數據樣本。它有效地取代了看到任何記錄的需要，數據科學家仍然可以用它來做功能工程，測試和調試代碼。當然，合成數據不是你想建立洞察力或ML模型的東西，你會使用API在原始數據上做這些事情。<p>如何工作：應用程序被部署在雲基礎設施中（任何雲供應商都是兼容的）。數據管理員從用戶界面或API中列出相關的數據源，並通過在預定義的模板中應用隱私政策授予從業者學習權限。合成數據樣本會自動生成。從那裡，數據科學家可以用他們常用的工具（pandas、numpy、TF、scikit-learn、Metabase、Redash、Tableau...）運行他們的分析，無論是從python SDK還是hiveSQL連接器。<p>好奇？我們已經發布了一個自助式的演示，供您試用。It lets you make a dataset available from the Sarus proxy, set up access policies and then, as a data practitioner, use it for analytics and machine learning. It is limited to a handful of datasets but should give you a good understanding of Sarus. You can sign up at <a href=\"https://demo.sarus.tech/signup\" rel=\"nofollow\">https://demo.sarus.tech/signup</a> and begin using Sarus "
+}
