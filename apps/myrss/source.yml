@@ -25,6 +25,10 @@ sources:
     args:
       - https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
     limit: 50
+  - args:
+      - https://noahpinion.substack.com/feed
+    from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    limit: 50
   # <https://www.nichaley.com/>
   # - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
   #   args:
