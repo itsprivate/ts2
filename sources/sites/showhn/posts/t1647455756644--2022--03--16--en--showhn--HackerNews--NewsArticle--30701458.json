@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--16--en--showhn--HackerNews--NewsArticle--30701458",
+  "url": "https://news.ycombinator.com/item?id=30701458",
+  "headline": "Show HN: An in memory KV store with encrypted persistence and automatic backups",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "asadawadia",
+    "url": "https://news.ycombinator.com/user?id=asadawadia"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30701458",
+  "sameAs": "https://github.com/asad-awadia/kvdb",
+  "dateCreated": "2022-03-16T18:35:56.644Z",
+  "datePublished": "2022-03-16T17:15:23.000Z",
+  "dateModified": "2022-03-16T18:35:56.644Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 一个具有加密持久性和自动备份功能的内存KV存储器",
+  "headline_zh-Hant": "Show HN: 一個具有加密持久性和自動備份功能的內存KV存儲器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
