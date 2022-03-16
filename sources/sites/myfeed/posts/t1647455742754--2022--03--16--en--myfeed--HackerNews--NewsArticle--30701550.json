@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--16--en--myfeed--HackerNews--NewsArticle--30701550",
+  "url": "https://news.ycombinator.com/item?id=30701550",
+  "headline": "Biden announces additional $800M in security assistance to Ukraine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "oldiphone",
+    "url": "https://news.ycombinator.com/user?id=oldiphone"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30701550",
+  "sameAs": "https://www.cnn.com/2022/03/15/politics/biden-military-assistance-ukraine/index.html",
+  "dateCreated": "2022-03-16T18:35:42.754Z",
+  "datePublished": "2022-03-16T17:24:23.000Z",
+  "dateModified": "2022-03-16T18:35:42.754Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "拜登宣布向乌克兰提供8亿美元的额外安全援助",
+  "headline_zh-Hant": "拜登宣佈向烏克蘭提供8億美元的額外安全援助",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
