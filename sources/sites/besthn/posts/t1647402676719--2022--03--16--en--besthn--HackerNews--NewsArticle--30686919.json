@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--16--en--besthn--HackerNews--NewsArticle--30686919",
+  "url": "https://news.ycombinator.com/item?id=30686919",
+  "headline": "PartialExecuter: Reducing WebAssembly size by exploring all executions in LLVM",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "WebAssembly is commonly used as part of web applications, and minimizing its size is especially important.<p>As part of the latest release of Cheerp, our C++ to WebAssembly/JavaScript compiler, we have introduced a powerful new LLVM optimization that aggressively reduce WebAssembly output size at compile time.<p>We have named this optimization 'PartialExecuter', the key idea behind it being taking advantage of known function parameters to find inner code blocks that cannot ever be possibly executed.<p>Such blocks can then be completely removed from the compiled output, significantly reducing its size.<p>What makes this pass more powerful than typical Dead Code Elimination is the ability of reasoning over all the possible executions that the code can take, while being robust to memory stores and side-effects. Moreover, PartialExecuter can even reason over loads as far as they refer to read-only memory. This latter capability is especially useful to drop code from complex functions whose behavior depend on input strings (i.e. printf).<p>We think this work may be of interest for the HN community, and we welcome feedback and questions.<p>In-depth blog post: <a href=\"https://leaningtech.com/reducing-webassembly-size-by-exploring-all-executions-in-llvm/\" rel=\"nofollow\">https://leaningtech.com/reducing-webassembly-size-by-explori...</a>",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "apignotti",
+    "url": "https://news.ycombinator.com/user?id=apignotti"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30686919",
+  "sameAs": "https://leaningtech.com/reducing-webassembly-size-by-exploring-all-executions-in-llvm/",
+  "dateCreated": "2022-03-16T03:51:16.719Z",
+  "datePublished": "2022-03-15T15:57:36.000Z",
+  "dateModified": "2022-03-16T03:51:16.719Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 81
+    }
+  ],
+  "headline_zh-Hans": "局部执行者。通过探索LLVM中的所有执行来减少WebAssembly的大小",
+  "headline_zh-Hant": "局部執行者。通過探索LLVM中的所有執行來減少WebAssembly的大小",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "<p>作为最新发布的Cheerp（我们的C++到WebAssembly/JavaScript编译器）的一部分，我们引入了一个强大的新LLVM优化，在编译时积极减少WebAssembly的输出大小。<p>我们将这种优化命名为 \"PartialExecuter\"，其背后的关键思想是利用已知的函数参数来寻找不可能执行的内部代码块。 <p>这样的代码块可以从编译后的输出中完全删除，从而大大减少其大小。<p>与典型的 \"死代码消除 \"相比，这种方法更强大，因为它能够对代码可能采取的所有执行方式进行推理，同时对内存存储和副作用具有很强的适应性。此外，PartialExecuter甚至可以推理负载，只要它们指向只读的内存。后一种能力对于从复杂的函数中删除代码特别有用，这些函数的行为取决于输入字符串（即printf）。<p>我们认为这项工作可能会引起HN社区的兴趣，我们欢迎反馈和问题。<p>深度博文。<a href=\"https://leaningtech.com/reducing-webassembly-size-by-exploring-all-executions-in-llvm/\" rel=\"nofollow\">https://leaningtech.com/reducing-webassembly-size-by-explori...</a>",
+  "description_zh-Hant": "<p>作為最新發布的Cheerp（我們的C++到WebAssembly/JavaScript編譯器）的一部分，我們引入了一個強大的新LLVM優化，在編譯時積極減少WebAssembly的輸出大小。<p>我們將這種優化命名為 \"PartialExecuter\"，其背後的關鍵思想是利用已知的函數參數來尋找不可能執行的內部代碼塊。 <p>這樣的代碼塊可以從編譯後的輸出中完全刪除，從而大大減少其大小。<p>與典型的 \"死代碼消除 \"相比，這種方法更強大，因為它能夠對代碼可能採取的所有執行方式進行推理，同時對內存存儲和副作用具有很強的適應性。此外，PartialExecuter甚至可以推理負載，只要它們指向只讀的內存。後一種能力對於從複雜的函數中刪除代碼特別有用，這些函數的行為取決於輸入字符串（即printf）。<p>我們認為這項工作可能會引起HN社區的興趣，我們歡迎反饋和問題。<p>深度博文。<a href=\"https://leaningtech.com/reducing-webassembly-size-by-exploring-all-executions-in-llvm/\" rel=\"nofollow\">https://leaningtech.com/reducing-webassembly-size-by-explori...</a>"
+}
