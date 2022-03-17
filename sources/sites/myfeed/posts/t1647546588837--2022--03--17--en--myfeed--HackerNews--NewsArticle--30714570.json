@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--17--en--myfeed--HackerNews--NewsArticle--30714570",
+  "url": "https://news.ycombinator.com/item?id=30714570",
+  "headline": "Webglc: Gpgpu for Web Browsers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ashtonsix",
+    "url": "https://news.ycombinator.com/user?id=ashtonsix"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30714570",
+  "sameAs": "https://github.com/ashtonsix/webglc",
+  "dateCreated": "2022-03-17T19:49:48.837Z",
+  "datePublished": "2022-03-17T18:50:36.000Z",
+  "dateModified": "2022-03-17T19:49:48.837Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Webglc: 用于网络浏览器的Gpgpu",
+  "headline_zh-Hant": "Webglc: 用於網絡瀏覽器的Gpgpu",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--17--en--myfeed--HackerNews--NewsArticle--30714192",
+  "url": "https://news.ycombinator.com/item?id=30714192",
+  "headline": "Default MFA Config and PrintNightmare Targetted by Russian State Hackers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ILMostro7",
+    "url": "https://news.ycombinator.com/user?id=ILMostro7"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30714192",
+  "sameAs": "https://www.cisa.gov/uscert/ncas/alerts/aa22-074a",
+  "dateCreated": "2022-03-17T19:49:48.765Z",
+  "datePublished": "2022-03-17T18:11:02.000Z",
+  "dateModified": "2022-03-17T19:49:48.765Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "默认MFA配置和PrintNightmare成为俄罗斯国家黑客的目标",
+  "headline_zh-Hant": "默認MFA配置和PrintNightmare成為俄羅斯國家黑客的目標",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
