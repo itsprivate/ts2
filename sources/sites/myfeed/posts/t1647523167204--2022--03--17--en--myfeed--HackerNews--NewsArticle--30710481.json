@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--17--en--myfeed--HackerNews--NewsArticle--30710481",
+  "url": "https://news.ycombinator.com/item?id=30710481",
+  "headline": "Launch HN: Plural – Multi-Cloud OSS Application Deployments on Kubernetes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN!<p>Sam and Michael here. We are building an open-source management platform that deploys and operates any open source infra software on kubernetes in a production-ready way: https://www.plural.sh<p>I’ve been in open source for over a decade. I spent 4 years at Red Hat before spending the next 6 years building products at MongoDB. Most recently I was the Head of Product at Unqork where we saw how difficult it was to create a deployment for our app stack and its related services.<p>Michael has spent his career at Vine, Amazon, Frame.io and Facebook where he has built and scaled systems using open source solutions for millions of users.<p>We met each other in early 2021 and got excited to tackle this problem together: making multi-cloud open source infrastructure zero effort to install and manage.<p>We’ve interviewed over 60 development and devops teams and learned that existing solutions always fell short. Either they were too complex to build or too costly to manage. In particular we heard many times that data infrastructure was a complete bear to stand up and integrate. We wanted to build a platform that would supercharge devops team’s capabilities and we wanted to give users the ability to do this all in their own cloud: aws, azure, gcp or bare metal.<p>It was important for us to work with the open source vendors. By making it trivial for users to get going with open source software, we can bring great solutions directly from vendors to the platform, and most importantly, compensate the vendors for their work.<p>Here’s a short demo video if you want to check out how it works when installing something operationally complex like Airflow:\nhttps://www.plural.sh/video-plural-product-demo<p>Plural can run on AWS, Azure, GCP and in alpha on Equinix (bare) metal, deploying applications in Kubernetes, with logging and monitoring (prometheus/grafana) enabled out of the box. We have built full dashboarding and run books for managing and scaling your cluster and a simple install interface for quickly getting going with apps like Airflow, Kubeflow, Airbyte etc.<p>Today our catalog has over 30 apps ready to solve the most interesting use cases from AI/ML &amp; data infrastructure to observability to caching. We hope our community will help us add more solutions to our catalog and we will focus on building our open source product. We will eventually create a paid edition (open core model) with enterprise-level features to address the needs of our most demanding users.<p>Try it out: https://github.com/pluralsh/plural &amp; app.plural.sh/ and let us know what you think!",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sweaver",
+    "url": "https://news.ycombinator.com/user?id=sweaver"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30710481",
+  "sameAs": "https://news.ycombinator.com/item?id=30710481",
+  "dateCreated": "2022-03-17T13:19:27.204Z",
+  "datePublished": "2022-03-17T12:39:50.000Z",
+  "dateModified": "2022-03-17T13:19:27.204Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "启动HN：Plural - Kubernetes上的多云OSS应用部署",
+  "headline_zh-Hant": "啟動HN：Plural - Kubernetes上的多雲OSS應用部署",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN！<p>我是Sam和Michael。我们正在建立一个开源的管理平台，以生产就绪的方式在kubernetes上部署和操作任何开源的基础设施软件：https://www.plural.sh<p>我从事开源工作已经超过十年了。我在Red Hat工作了4年，然后在MongoDB做了6年的产品。最近，我是Unqork的产品主管，在那里我们看到了为我们的应用堆栈及其相关服务创建部署是多么困难。<p>Michael在Vine、Amazon、Frame.io和Facebook度过了他的职业生涯，在那里他使用开源解决方案为数百万用户构建和扩展了系统。<p>我们在2021年初遇到了对方，并为共同解决这个问题感到兴奋：使多云开源基础设施的安装和管理不费吹灰之力。<p>我们已经采访了60多个开发和devops团队，得知现有解决方案总是不够。它们要么是构建太复杂，要么是管理成本太高。特别是我们多次听说，数据基础设施在建立和整合方面完全是个问题。我们希望建立一个能够提高开发团队能力的平台，我们希望让用户能够在他们自己的云中完成这些工作：aws、azure、gcp或裸机。通过使用户使用开源软件变得简单，我们可以将供应商的优秀解决方案直接带到平台上，最重要的是，我们可以对供应商的工作进行补偿。<p>如果你想看看在安装像Airflow这样操作复杂的东西时是如何工作的，这里有一个简短的演示视频。\nhttps://www.plural.sh/video-plural-product-demo<p>Plural可以在AWS、Azure、GCP上运行，并在Equinix（裸）金属上运行，在Kubernetes中部署应用程序，开箱即启用日志和监控（Prometheus/grafana）。我们已经建立了完整的仪表板和运行簿，用于管理和扩展您的集群，以及一个简单的安装界面，以便快速使用Airflow、Kubeflow、Airbyte等应用程序。<p>今天，我们的目录有30多个应用程序，准备解决最有趣的用例，从AI/ML &amp；数据基础设施到可观察性到缓存。我们希望我们的社区能够帮助我们在目录中添加更多的解决方案，我们将专注于建设我们的开源产品。我们最终将创建一个具有企业级功能的付费版本（开放核心模型），以满足我们最苛刻的用户的需求。<p>尝试一下：https://github.com/pluralsh/plural &amp; app.plural.sh/ 并让我们知道你的想法！",
+  "description_zh-Hant": "嗨，HN！<p>我是Sam和Michael。我們正在建立一個開源的管理平臺，以生產就緒的方式在kubernetes上部署和操作任何開源的基礎設施軟件：https://www.plural.sh<p>我從事開源工作已經超過十年了。我在Red Hat工作了4年，然後在MongoDB做了6年的產品。最近，我是Unqork的產品主管，在那裡我們看到了為我們的應用堆棧及其相關服務創建部署是多麼困難。<p>Michael在Vine、Amazon、Frame.io和Facebook度過了他的職業生涯，在那裡他使用開源解決方案為數百萬用戶構建和擴展了系統。<p>我們在2021年初遇到了對方，併為共同解決這個問題感到興奮：使多雲開源基礎設施的安裝和管理不費吹灰之力。<p>我們已經採訪了60多個開發和devops團隊，得知現有解決方案總是不夠。它們要麼是構建太複雜，要麼是管理成本太高。特別是我們多次聽說，數據基礎設施在建立和整合方面完全是個問題。我們希望建立一個能夠提高開發團隊能力的平臺，我們希望讓用戶能夠在他們自己的雲中完成這些工作：aws、azure、gcp或裸機。通過使用戶使用開源軟件變得簡單，我們可以將供應商的優秀解決方案直接帶到平臺上，最重要的是，我們可以對供應商的工作進行補償。<p>如果你想看看在安裝像Airflow這樣操作複雜的東西時是如何工作的，這裡有一個簡短的演示視頻。\nhttps://www.plural.sh/video-plural-product-demo<p>Plural可以在AWS、Azure、GCP上運行，並在Equinix（裸）金屬上運行，在Kubernetes中部署應用程序，開箱即啟用日誌和監控（Prometheus/grafana）。我們已經建立了完整的儀表板和運行簿，用於管理和擴展您的集群，以及一個簡單的安裝界面，以便快速使用Airflow、Kubeflow、Airbyte等應用程序。<p>今天，我們的目錄有30多個應用程序，準備解決最有趣的用例，從AI/ML &amp；數據基礎設施到可觀察性到緩存。我們希望我們的社區能夠幫助我們在目錄中添加更多的解決方案，我們將專注於建設我們的開源產品。我們最終將創建一個具有企業級功能的付費版本（開放核心模型），以滿足我們最苛刻的用戶的需求。<p>嘗試一下：https://github.com/pluralsh/plural &amp; app.plural.sh/ 並讓我們知道你的想法！"
+}
