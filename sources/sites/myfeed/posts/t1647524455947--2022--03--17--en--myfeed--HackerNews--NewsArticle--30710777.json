@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--17--en--myfeed--HackerNews--NewsArticle--30710777",
+  "url": "https://news.ycombinator.com/item?id=30710777",
+  "headline": "Baserow lets users generate Django models on the fly",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bram2w",
+    "url": "https://news.ycombinator.com/user?id=bram2w"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30710777",
+  "sameAs": "https://baserow.io/blog/how-baserow-lets-users-generate-django-models",
+  "dateCreated": "2022-03-17T13:40:55.947Z",
+  "datePublished": "2022-03-17T13:13:57.000Z",
+  "dateModified": "2022-03-17T13:40:55.947Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Baserow让用户在飞行中生成Django模型",
+  "headline_zh-Hant": "Baserow讓用戶在飛行中生成Django模型",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
