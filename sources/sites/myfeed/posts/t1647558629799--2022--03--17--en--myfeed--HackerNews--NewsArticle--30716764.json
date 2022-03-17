@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--17--en--myfeed--HackerNews--NewsArticle--30716764",
+  "url": "https://news.ycombinator.com/item?id=30716764",
+  "headline": "Dentist broke his patients’ teeth to make millions installing crowns, jury finds",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Shank",
+    "url": "https://news.ycombinator.com/user?id=Shank"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30716764",
+  "sameAs": "https://arstechnica.com/science/2022/03/dentist-guilty-of-deliberately-breaking-teeth-cashing-in-on-crown-repairs/",
+  "dateCreated": "2022-03-17T23:10:29.799Z",
+  "datePublished": "2022-03-17T22:53:56.000Z",
+  "dateModified": "2022-03-17T23:10:29.799Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "陪审团发现牙医为安装牙冠而弄坏病人的牙齿以赚取数百万美元",
+  "headline_zh-Hant": "陪審團發現牙醫為安裝牙冠而弄壞病人的牙齒以賺取數百萬美元",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
