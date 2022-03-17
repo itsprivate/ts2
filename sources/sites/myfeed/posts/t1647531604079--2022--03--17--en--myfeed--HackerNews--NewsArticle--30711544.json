@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--17--en--myfeed--HackerNews--NewsArticle--30711544",
+  "url": "https://news.ycombinator.com/item?id=30711544",
+  "headline": "Ukraine killed a Russian general after he made an unsecured call",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "daviddisco",
+    "url": "https://news.ycombinator.com/user?id=daviddisco"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30711544",
+  "sameAs": "https://www.businessinsider.com/russia-general-killed-after-ukraine-intercepted-unsecured-call-nyt-2022-3",
+  "dateCreated": "2022-03-17T15:40:04.079Z",
+  "datePublished": "2022-03-17T14:26:29.000Z",
+  "dateModified": "2022-03-17T15:40:04.079Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 11
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "乌克兰在一名俄罗斯将军打完不安全的电话后将其杀死",
+  "headline_zh-Hant": "烏克蘭在一名俄羅斯將軍打完不安全的電話後將其殺死",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

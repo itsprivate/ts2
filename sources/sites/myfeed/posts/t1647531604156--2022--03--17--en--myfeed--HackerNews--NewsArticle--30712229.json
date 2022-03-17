@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--17--en--myfeed--HackerNews--NewsArticle--30712229",
+  "url": "https://news.ycombinator.com/item?id=30712229",
+  "headline": "Launch HN: AirMyne (YC W22) – Capturing CO2 from air at industrial scale",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN, we are Sudip and Mark, founders of AirMyne (<a href=\"https://www.airmyne.com\" rel=\"nofollow\">https://www.airmyne.com</a>, but there’s nothing there yet). We’re building an industrial-scale process/plant to capture and remove CO2 from air, so it can be piped to nearby sequestration facilities and injected underground—a process that requires less energy and capital equipment than other leading solutions.<p>Companies spent over $1B on CO2 offsets last year, sourced primarily from landowners and project aggregators claiming to protect forested lands. Over the past few years, interest in more permanent forms of CO2 removal have led to the pilot-scale commercialization of novel bio-oil/biochar/biomass, direct air capture, mineralization, and ocean processes, but these are not yet available with sufficient capacity to meet demand. There is no silver bullet, but we believe removing CO2 from air with an industrial chemical process offers the most realistic and scalable path forward.<p>Capturing and sequestering CO2 from air is a huge engineering challenge. The dilute concentration of CO2 in the atmosphere (~400ppm) means a system operating at 100% capture efficiency would still need to process 2500 tons of air to capture just 1 ton of CO2. Significant energy is then required to release CO2 from the capture medium. On top of that, compressing and injecting CO2 underground requires controlling for gas leakages, dry ice blockages, and the corrosive conditions created when concentrated CO2 comes in contact with trace water vapor.<p>Our approach goes back to the fundamentals of acid/base chemistry. CO2 acts as an acid and will bind to a base, whether in the liquid phase or on a solid surface. We have developed  a process to bring air in contact with a base substrate that captures CO2 molecules while letting N2 and O2 molecules pass through. After energy is applied, CO2 is desorbed from the substrate for downstream treatment and compression. This reversible process allows for a single stage “air in, CO2 out” system where 1 ton of substrate could capture &gt;1000 tons of CO2 over its useful lifetime.<p>In the lab, we have demonstrated this approach at a gram-level scale and believe the process offers favorable energy use, planned capex/opex costs, and process complexity compared to existing solutions. (We’d love to show you a video but can’t do that yet—the chemistry &amp; physical embodiment of the system are areas where we’re developing core IP and that process still involves some secrecy at this stage.)<p>As we scale this process, we are initiating discussions with other companies who can help us inject captured CO2 deep underground so it can be sequestered for geologic time scales. Sequestration technologies have improved their compression and injection processes over the years, and an emerging regulatory landscape is starting to take shape to accelerate the deployment of CO2 injection wells and mineralization projects in the US, the EU, and around the world. We intend to colocate our CO2 capture near injection facilities to minimize transport logistics.<p>Sudip and I both come from industry. At Honeywell, Sudip invented and scaled the low-global-warming refrigerant 1234yf used in automotive air conditioning systems, as well as a variety of products used to make displays, computer chips, sensors, solar modules, and electrical components. I invented formulations at BASF now widely used in the manufacture of silicon carbide power electronics for EVs, solar inverters, and other high power electric devices. We bring a systems engineering perspective to the C02/climate problem—our focus is not only developing, but also derisking and scaling industrial systems/processes into a business case suitable for large industrial stakeholders.<p>Eliminating existing emissions is the most urgent and important challenge we face to keep the climate habitable, but removing CO2 from the atmosphere will likely be needed too. Tackling this problem head-on opens up other fascinating possibilities. By focusing on the “extreme user” case of removing dilute CO2 from air, we might develop unique innovations or insights applicable to the point-source capture of more concentrated CO2 streams such as industrial flue gases. And just as natural gas (methane) was a commercially useless molecule until oil companies started capturing it and finding a use case, we believe that if CO2 can be captured from air and made useful, it could become the feedstock for an industry of similar scope and scale.<p>We are thrilled to launch as a YC W22 company - we couldn’t ask for a more forward-looking community of folks open to buying, supporting, or otherwise engaging with climate solutions like ours. Grateful for your time and happy to take your questions! We are at hello@airmyne.com if you want to reach out.<p>p.s. dang took out all our footnotes but if you want references for any of the above, please ask!",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "markcyffka",
+    "url": "https://news.ycombinator.com/user?id=markcyffka"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30712229",
+  "sameAs": "https://news.ycombinator.com/item?id=30712229",
+  "dateCreated": "2022-03-17T15:40:04.156Z",
+  "datePublished": "2022-03-17T15:31:55.000Z",
+  "dateModified": "2022-03-17T15:40:04.156Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "启动HN：AirMyne（YC W22）--以工业规模捕获空气中的二氧化碳",
+  "headline_zh-Hant": "啟動HN：AirMyne（YC W22）--以工業規模捕獲空氣中的二氧化碳",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN，我们是Sudip和Mark，AirMyne的创始人（<a href=\"https://www.airmyne.com\" rel=\"nofollow\">https://www.airmyne.com</a>，但那里还没有什么）。我们正在建设一个工业规模的工艺/工厂，以捕捉和去除空气中的二氧化碳，这样它就可以通过管道输送到附近的封存设施并注入地下--与其他领先的解决方案相比，这个过程需要更少的能源和资本设备。<p>公司去年在二氧化碳抵消上花费了超过10亿美元，主要来自土地所有者和声称要保护林地的项目聚集者。在过去的几年里，人们对更持久的二氧化碳清除形式的兴趣导致了新型生物油/生物碳/生物质、直接空气捕集、矿化和海洋工艺的试验规模的商业化，但这些还没有足够的能力来满足需求。没有银弹，但我们相信用工业化学工艺从空气中去除二氧化碳提供了最现实和可扩展的前进道路。大气中二氧化碳的稀释浓度（约400ppm）意味着一个以100%捕获效率运行的系统仍需要处理2500吨空气来捕获1吨二氧化碳。然后需要大量的能量来从捕获介质中释放二氧化碳。此外，在地下压缩和注入二氧化碳需要控制气体泄漏、干冰堵塞以及浓缩的二氧化碳与微量水蒸气接触时产生的腐蚀条件。二氧化碳作为一种酸，将与碱结合，无论是在液态阶段还是在固态表面。我们已经开发了一个过程，使空气与基底接触，捕捉二氧化碳分子，同时让N2和O2分子通过。施加能量后，二氧化碳从基底上解吸出来，用于下游的处理和压缩。这种可逆过程允许一个单阶段的 \"空气进入，二氧化碳排出 \"系统，1吨基质可以在其使用寿命内捕获1000吨二氧化碳。<p>在实验室中，我们已经在克级规模上演示了这种方法，并相信与现有解决方案相比，该过程提供了有利的能源使用、计划的资本支出/运营成本和过程复杂性。(我们很想给你看一段视频，但现在还不能这么做--化学和amp；系统的物理体现是我们正在开发的核心知识产权的领域，该过程在这个阶段仍然涉及一些机密。 <p>随着我们扩大这个过程，我们正在启动与其他公司的讨论，他们可以帮助我们将捕获的二氧化碳注入地下深处，从而可以在地质时间尺度上进行封存。多年来，封存技术已经改进了他们的压缩和注入过程，一个新兴的监管环境正在开始形成，以加速在美国、欧盟和世界各地部署二氧化碳注入井和矿化项目。我们打算将我们的二氧化碳捕集技术放在注入设施附近，以尽量减少运输物流。在霍尼韦尔，苏迪普发明了用于汽车空调系统的低全球升温制冷剂1234yf，以及用于制造显示器、计算机芯片、传感器、太阳能模块和电气元件的各种产品，并扩大了规模。我在巴斯夫发明的配方现在广泛用于制造电动车、太阳能逆变器和其他高功率电力设备的碳化硅电力电子。我们为二氧化碳/气候问题带来了系统工程的视角--我们的重点不仅是开发，而且是将工业系统/流程的风险降低和扩大到适合大型工业利益相关者的商业案例。直面解决这个问题，为我们提供了其他迷人的可能性。通过关注从空气中清除稀释的二氧化碳的 \"极端用户 \"案例，我们可能会开发出适用于点源捕获更浓的二氧化碳流（如工业烟道气）的独特创新或见解。就像天然气（甲烷）在石油公司开始捕获它并找到用途之前是一种商业上无用的分子一样，我们相信，如果二氧化碳可以从空气中被捕获并变得有用，它可以成为以下方面的原料",
+  "description_zh-Hant": "嗨，HN，我們是Sudip和Mark，AirMyne的創始人（<a href=\"https://www.airmyne.com\" rel=\"nofollow\">https://www.airmyne.com</a>，但那裡還沒有什麼）。我們正在建設一個工業規模的工藝/工廠，以捕捉和去除空氣中的二氧化碳，這樣它就可以通過管道輸送到附近的封存設施並注入地下--與其他領先的解決方案相比，這個過程需要更少的能源和資本設備。<p>公司去年在二氧化碳抵消上花費了超過10億美元，主要來自土地所有者和聲稱要保護林地的項目聚集者。在過去的幾年裡，人們對更持久的二氧化碳清除形式的興趣導致了新型生物油/生物碳/生物質、直接空氣捕集、礦化和海洋工藝的試驗規模的商業化，但這些還沒有足夠的能力來滿足需求。沒有銀彈，但我們相信用工業化學工藝從空氣中去除二氧化碳提供了最現實和可擴展的前進道路。大氣中二氧化碳的稀釋濃度（約400ppm）意味著一個以100%捕獲效率運行的系統仍需要處理2500噸空氣來捕獲1噸二氧化碳。然後需要大量的能量來從捕獲介質中釋放二氧化碳。此外，在地下壓縮和注入二氧化碳需要控制氣體洩漏、乾冰堵塞以及濃縮的二氧化碳與微量水蒸氣接觸時產生的腐蝕條件。二氧化碳作為一種酸，將與鹼結合，無論是在液態階段還是在固態表面。我們已經開發了一個過程，使空氣與基底接觸，捕捉二氧化碳分子，同時讓N2和O2分子通過。施加能量後，二氧化碳從基底上解吸出來，用於下游的處理和壓縮。這種可逆過程允許一個單階段的 \"空氣進入，二氧化碳排出 \"系統，1噸基質可以在其使用壽命內捕獲1000噸二氧化碳。<p>在實驗室中，我們已經在克級規模上演示了這種方法，並相信與現有解決方案相比，該過程提供了有利的能源使用、計劃的資本支出/運營成本和過程複雜性。(我們很想給你看一段視頻，但現在還不能這麼做--化學和amp；系統的物理體現是我們正在開發的核心知識產權的領域，該過程在這個階段仍然涉及一些機密。 <p>隨著我們擴大這個過程，我們正在啟動與其他公司的討論，他們可以幫助我們將捕獲的二氧化碳注入地下深處，從而可以在地質時間尺度上進行封存。多年來，封存技術已經改進了他們的壓縮和注入過程，一個新興的監管環境正在開始形成，以加速在美國、歐盟和世界各地部署二氧化碳注入井和礦化項目。我們打算將我們的二氧化碳捕集技術放在注入設施附近，以儘量減少運輸物流。在霍尼韋爾，蘇迪普發明了用於汽車空調系統的低全球升溫製冷劑1234yf，以及用於製造顯示器、計算機芯片、傳感器、太陽能模塊和電氣元件的各種產品，並擴大了規模。我在巴斯夫發明的配方現在廣泛用於製造電動車、太陽能逆變器和其他高功率電力設備的碳化硅電力電子。我們為二氧化碳/氣候問題帶來了系統工程的視角--我們的重點不僅是開發，而且是將工業系統/流程的風險降低和擴大到適合大型工業利益相關者的商業案例。直面解決這個問題，為我們提供了其他迷人的可能性。通過關注從空氣中清除稀釋的二氧化碳的 \"極端用戶 \"案例，我們可能會開發出適用於點源捕獲更濃的二氧化碳流（如工業煙道氣）的獨特創新或見解。就像天然氣（甲烷）在石油公司開始捕獲它並找到用途之前是一種商業上無用的分子一樣，我們相信，如果二氧化碳可以從空氣中被捕獲並變得有用，它可以成為以下方面的原料"
+}
