@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--17--en--myfeed--HackerNews--NewsArticle--30716234",
+  "url": "https://news.ycombinator.com/item?id=30716234",
+  "headline": "Putin calls pro-Western Russians 'traitors,' threatens 'self-cleansing'",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "asats",
+    "url": "https://news.ycombinator.com/user?id=asats"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30716234",
+  "sameAs": "https://ca.news.yahoo.com/putin-calls-pro-western-russians-123441257.html",
+  "dateCreated": "2022-03-17T21:50:04.936Z",
+  "datePublished": "2022-03-17T21:46:18.000Z",
+  "dateModified": "2022-03-17T21:50:04.936Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "普京称亲西方的俄罗斯人是 \"叛徒\"，威胁要 \"自我清洗",
+  "headline_zh-Hant": "普京稱親西方的俄羅斯人是 \"叛徒\"，威脅要 \"自我清洗",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

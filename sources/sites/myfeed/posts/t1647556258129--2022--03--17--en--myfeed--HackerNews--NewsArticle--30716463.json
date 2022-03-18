@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--17--en--myfeed--HackerNews--NewsArticle--30716463",
+  "url": "https://news.ycombinator.com/item?id=30716463",
+  "headline": "Hospitals Bombed – Apartments Destroyed – Mapping Civilian-Harm in Ukraine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "News-Dog",
+    "url": "https://news.ycombinator.com/user?id=News-Dog"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30716463",
+  "sameAs": "https://www.bellingcat.com/news/2022/03/17/hospitals-bombed-and-apartments-destroyed-mapping-incidents-of-civilian-harm-in-ukraine/",
+  "dateCreated": "2022-03-17T22:30:58.129Z",
+  "datePublished": "2022-03-17T22:16:00.000Z",
+  "dateModified": "2022-03-17T22:30:58.129Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "医院被炸 - 公寓被毁 - 绘制乌克兰平民伤害图",
+  "headline_zh-Hant": "醫院被炸 - 公寓被毀 - 繪製烏克蘭平民傷害圖",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--17--en--hackernews--HackerNews--NewsArticle--30713797",
+  "url": "https://news.ycombinator.com/item?id=30713797",
+  "headline": "A journey to the center of our cells",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "arbesman",
+    "url": "https://news.ycombinator.com/user?id=arbesman"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30713797",
+  "sameAs": "https://www.newyorker.com/magazine/2022/03/07/a-journey-to-the-center-of-our-cells",
+  "dateCreated": "2022-03-17T20:40:25.584Z",
+  "datePublished": "2022-03-17T17:38:32.000Z",
+  "dateModified": "2022-03-17T20:40:25.584Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "通往我们细胞中心的旅程",
+  "headline_zh-Hant": "通往我們細胞中心的旅程",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

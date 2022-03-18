@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--18--en--myfeed--HackerNews--NewsArticle--30716749",
+  "url": "https://news.ycombinator.com/item?id=30716749",
+  "headline": "'Bizarro World'",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "DanBC",
+    "url": "https://news.ycombinator.com/user?id=DanBC"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30716749",
+  "sameAs": "https://archive.boston.com/news/globe/magazine/articles/2007/08/19/bizarro_world/",
+  "dateCreated": "2022-03-18T00:36:36.078Z",
+  "datePublished": "2022-03-17T22:52:07.000Z",
+  "dateModified": "2022-03-18T00:36:36.078Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "怪异世界",
+  "headline_zh-Hant": "怪異世界",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

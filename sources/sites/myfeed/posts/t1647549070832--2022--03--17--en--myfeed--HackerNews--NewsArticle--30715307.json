@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--17--en--myfeed--HackerNews--NewsArticle--30715307",
+  "url": "https://news.ycombinator.com/item?id=30715307",
+  "headline": "Coding in a war zone: A Ruby developer's life in Kharkiv",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Dotnaught",
+    "url": "https://news.ycombinator.com/user?id=Dotnaught"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30715307",
+  "sameAs": "https://www.theregister.com/2022/03/17/ruby_ukraine_zverok/",
+  "dateCreated": "2022-03-17T20:31:10.832Z",
+  "datePublished": "2022-03-17T20:04:11.000Z",
+  "dateModified": "2022-03-17T20:31:10.832Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在战区编码。一个红宝石开发者在哈尔科夫的生活",
+  "headline_zh-Hant": "在戰區編碼。一個紅寶石開發者在哈爾科夫的生活",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

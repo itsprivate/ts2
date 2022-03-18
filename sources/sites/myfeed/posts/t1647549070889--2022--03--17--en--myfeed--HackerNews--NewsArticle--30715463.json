@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--17--en--myfeed--HackerNews--NewsArticle--30715463",
+  "url": "https://news.ycombinator.com/item?id=30715463",
+  "headline": "Tales from Fleet security: securing laptops in a startup",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gepeto42",
+    "url": "https://news.ycombinator.com/user?id=gepeto42"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30715463",
+  "sameAs": "https://blog.fleetdm.com/tales-from-fleet-security-securing-the-startup-448ea590ea3a?gi=114d665453e8",
+  "dateCreated": "2022-03-17T20:31:10.889Z",
+  "datePublished": "2022-03-17T20:20:35.000Z",
+  "dateModified": "2022-03-17T20:31:10.889Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "来自舰队安全的故事：确保初创企业的笔记本电脑安全",
+  "headline_zh-Hant": "來自艦隊安全的故事：確保初創企業的筆記本電腦安全",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--18--en--myfeed--HackerNews--NewsArticle--30722368",
+  "url": "https://news.ycombinator.com/item?id=30722368",
+  "headline": "Cord: Central Office Re-Architected as a Datacenter",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "teleforce",
+    "url": "https://news.ycombinator.com/user?id=teleforce"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30722368",
+  "sameAs": "https://opennetworking.org/cord/",
+  "dateCreated": "2022-03-18T14:27:59.214Z",
+  "datePublished": "2022-03-18T14:03:38.000Z",
+  "dateModified": "2022-03-18T14:27:59.214Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "绳索。中央办公室被重新架构为一个数据中心",
+  "headline_zh-Hant": "繩索。中央辦公室被重新架構為一個數據中心",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

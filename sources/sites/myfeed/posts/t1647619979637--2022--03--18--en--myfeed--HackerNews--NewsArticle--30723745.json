@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--18--en--myfeed--HackerNews--NewsArticle--30723745",
+  "url": "https://news.ycombinator.com/item?id=30723745",
+  "headline": "iPod Modders Give Apple’s Abandoned Music Player New Life",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "darknavi",
+    "url": "https://news.ycombinator.com/user?id=darknavi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30723745",
+  "sameAs": "https://www.wired.com/story/ipod-modders/",
+  "dateCreated": "2022-03-18T16:12:59.637Z",
+  "datePublished": "2022-03-18T15:49:16.000Z",
+  "dateModified": "2022-03-18T16:12:59.637Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "iPod修改者赋予苹果公司被遗弃的音乐播放器新的生命",
+  "headline_zh-Hant": "iPod修改者賦予蘋果公司被遺棄的音樂播放器新的生命",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

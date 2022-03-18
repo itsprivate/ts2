@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--18--en--besthn--HackerNews--NewsArticle--30710501",
+  "url": "https://news.ycombinator.com/item?id=30710501",
+  "headline": "MaskerAid iOS App",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ilarum",
+    "url": "https://news.ycombinator.com/user?id=ilarum"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30710501",
+  "sameAs": "https://www.caseyliss.com/2022/3/3/maskeraid",
+  "dateCreated": "2022-03-18T02:54:42.036Z",
+  "datePublished": "2022-03-17T12:42:41.000Z",
+  "dateModified": "2022-03-18T02:54:42.036Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 251
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 149
+    }
+  ],
+  "headline_zh-Hans": "MaskerAid的iOS应用程序",
+  "headline_zh-Hant": "MaskerAid的iOS應用程序",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

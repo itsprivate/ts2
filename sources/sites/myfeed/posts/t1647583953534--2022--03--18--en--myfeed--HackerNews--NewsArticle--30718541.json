@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--18--en--myfeed--HackerNews--NewsArticle--30718541",
+  "url": "https://news.ycombinator.com/item?id=30718541",
+  "headline": "AI suggested 40k new possible chemical weapons in just six hours",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "voisin",
+    "url": "https://news.ycombinator.com/user?id=voisin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30718541",
+  "sameAs": "https://www.theverge.com/2022/3/17/22983197/ai-new-possible-chemical-weapons-generative-models-vx",
+  "dateCreated": "2022-03-18T06:12:33.534Z",
+  "datePublished": "2022-03-18T03:42:03.000Z",
+  "dateModified": "2022-03-18T06:12:33.534Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "AI在短短6小时内提出了4万种新的可能的化学武器",
+  "headline_zh-Hant": "AI在短短6小時內提出了4萬種新的可能的化學武器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

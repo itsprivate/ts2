@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--18--en--myfeed--HackerNews--NewsArticle--30720597",
+  "url": "https://news.ycombinator.com/item?id=30720597",
+  "headline": "Many (1400) Games on the Steam Deck, Including Doom (2016)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ekianjo",
+    "url": "https://news.ycombinator.com/user?id=ekianjo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30720597",
+  "sameAs": "https://boilingsteam.com/1400-games-on-the-steam-deck-including-doom-2016/",
+  "dateCreated": "2022-03-18T11:09:32.332Z",
+  "datePublished": "2022-03-18T10:56:17.000Z",
+  "dateModified": "2022-03-18T11:09:32.332Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "蒸汽甲板上的许多（1400个）游戏，包括《毁灭》（2016）。",
+  "headline_zh-Hant": "蒸汽甲板上的許多（1400個）遊戲，包括《毀滅》（2016）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

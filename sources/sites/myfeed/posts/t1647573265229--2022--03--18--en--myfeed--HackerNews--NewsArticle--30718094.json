@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--18--en--myfeed--HackerNews--NewsArticle--30718094",
+  "url": "https://news.ycombinator.com/item?id=30718094",
+  "headline": "GitHub still blocks repositories (in Russia) requested by Russian government",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "asdfsfkwqe",
+    "url": "https://news.ycombinator.com/user?id=asdfsfkwqe"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30718094",
+  "sameAs": "https://github.com/github/gov-takedowns/blob/master/Russia/2022/2022-02-22-Roskomnadzor/2022-02-22-Roskomnadzor.md",
+  "dateCreated": "2022-03-18T03:14:25.229Z",
+  "datePublished": "2022-03-18T02:18:54.000Z",
+  "dateModified": "2022-03-18T03:14:25.229Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "GitHub仍然阻止俄罗斯政府要求的存储库（在俄罗斯）。",
+  "headline_zh-Hant": "GitHub仍然阻止俄羅斯政府要求的存儲庫（在俄羅斯）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

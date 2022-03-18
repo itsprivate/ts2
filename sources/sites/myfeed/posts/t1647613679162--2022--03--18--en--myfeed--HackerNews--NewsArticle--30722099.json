@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--18--en--myfeed--HackerNews--NewsArticle--30722099",
+  "url": "https://news.ycombinator.com/item?id=30722099",
+  "headline": "Pale Moon v30 (milestone release)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rlv-dan",
+    "url": "https://news.ycombinator.com/user?id=rlv-dan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30722099",
+  "sameAs": "http://www.palemoon.org/releasenotes.shtml",
+  "dateCreated": "2022-03-18T14:27:59.162Z",
+  "datePublished": "2022-03-18T13:41:45.000Z",
+  "dateModified": "2022-03-18T14:27:59.162Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "苍月 v30 (里程碑式的发布)",
+  "headline_zh-Hant": "蒼月 v30 (里程碑式的發佈)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
