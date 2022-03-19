@@ -30,9 +30,9 @@ sources:
     from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
     limit: 50
   - args:
-    - https://austinkleon.substack.com/feed
-  from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
-  limit: 50  
+      - https://austinkleon.substack.com/feed
+    from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    limit: 50
   # <https://www.nichaley.com/>
   # - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
   #   args:
