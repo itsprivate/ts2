@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--19--en--showhn--HackerNews--NewsArticle--30726585",
+  "url": "https://news.ycombinator.com/item?id=30726585",
+  "headline": "Show HN: Breeze search query for recent startup press releases",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "aghilmort",
+    "url": "https://news.ycombinator.com/user?id=aghilmort"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30726585",
+  "sameAs": "https://breezethat.com/?q=after%3A2022-03-05+B2B+(NYC+OR+%22new+york%22)+%240..%24500+intitle%3A(seed+OR+%22series+a%22+OR+%22series+B%22)+-how",
+  "dateCreated": "2022-03-19T09:29:28.698Z",
+  "datePublished": "2022-03-18T19:41:41.000Z",
+  "dateModified": "2022-03-19T09:29:28.698Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 微风搜索查询最近的创业公司新闻稿",
+  "headline_zh-Hant": "Show HN: 微風搜索查詢最近的創業公司新聞稿",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

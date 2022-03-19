@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--19--en--myfeed--HackerNews--NewsArticle--30731395",
+  "url": "https://news.ycombinator.com/item?id=30731395",
+  "headline": "America Has a Free Speech Problem",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "curmudgeon22",
+    "url": "https://news.ycombinator.com/user?id=curmudgeon22"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30731395",
+  "sameAs": "https://www.nytimes.com/2022/03/18/opinion/cancel-culture-free-speech-poll.html",
+  "dateCreated": "2022-03-19T09:29:12.974Z",
+  "datePublished": "2022-03-19T05:35:27.000Z",
+  "dateModified": "2022-03-19T09:29:12.974Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "美国有一个言论自由的问题",
+  "headline_zh-Hant": "美國有一個言論自由的問題",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

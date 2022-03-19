@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--19--en--myfeed--HackerNews--NewsArticle--30732099",
+  "url": "https://news.ycombinator.com/item?id=30732099",
+  "headline": "JavaScript library updated to wipe files from Russian computers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "RapperWhoMadeIt",
+    "url": "https://news.ycombinator.com/user?id=RapperWhoMadeIt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30732099",
+  "sameAs": "https://www.theregister.com/2022/03/18/protestware_javascript_node_ipc/",
+  "dateCreated": "2022-03-19T09:29:13.136Z",
+  "datePublished": "2022-03-19T08:11:11.000Z",
+  "dateModified": "2022-03-19T09:29:13.136Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "更新JavaScript库以清除俄罗斯电脑中的文件",
+  "headline_zh-Hant": "更新JavaScript庫以清除俄羅斯電腦中的文件",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
