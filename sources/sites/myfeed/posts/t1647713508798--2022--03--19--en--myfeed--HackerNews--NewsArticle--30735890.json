@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--19--en--myfeed--HackerNews--NewsArticle--30735890",
+  "url": "https://news.ycombinator.com/item?id=30735890",
+  "headline": "Rust Keyword Arguments, Optional Arguments, and Variable-Arity",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "flerovium",
+    "url": "https://news.ycombinator.com/user?id=flerovium"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30735890",
+  "sameAs": "https://github.com/rust-lang/rfcs/issues/323",
+  "dateCreated": "2022-03-19T18:11:48.798Z",
+  "datePublished": "2022-03-19T17:48:56.000Z",
+  "dateModified": "2022-03-19T18:11:48.798Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Rust关键字参数、可选参数和变量有效性",
+  "headline_zh-Hant": "Rust關鍵字參數、可選參數和變量有效性",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
