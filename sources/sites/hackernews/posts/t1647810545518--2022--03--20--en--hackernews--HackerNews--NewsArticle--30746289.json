@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--03--10--en--hackernews--HackerNews--NewsArticle--30614623",
-  "url": "https://news.ycombinator.com/item?id=30614623",
-  "headline": "Some tiny personal programs I've written",
+  "identifier": "2022--03--20--en--hackernews--HackerNews--NewsArticle--30746289",
+  "url": "https://news.ycombinator.com/item?id=30746289",
+  "headline": "Embedded Malicious Code in node-ipc",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,32 +13,32 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "atg_abhishek",
-    "url": "https://news.ycombinator.com/user?id=atg_abhishek"
+    "name": "planb",
+    "url": "https://news.ycombinator.com/user?id=planb"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30614623",
-  "sameAs": "https://jvns.ca/blog/2022/03/08/tiny-programs/",
-  "dateCreated": "2022-03-10T09:08:11.198Z",
-  "datePublished": "2022-03-09T14:19:07.000Z",
-  "dateModified": "2022-03-10T09:08:11.198Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30746289",
+  "sameAs": "https://github.com/advisories/GHSA-97m3-w2cp-4xx6",
+  "dateCreated": "2022-03-20T21:09:05.518Z",
+  "datePublished": "2022-03-20T20:28:13.000Z",
+  "dateModified": "2022-03-20T21:09:05.518Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 697
+      "userInteractionCount": 29
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 281
+      "userInteractionCount": 6
     }
   ],
-  "headline_zh-Hans": "我写过的一些微小的个人程序",
-  "headline_zh-Hant": "我寫過的一些微小的個人程序",
+  "headline_zh-Hans": "嵌入恶意代码的node-ipc",
+  "headline_zh-Hant": "嵌入惡意代碼的node-ipc",
   "@context": [
     "https://schema.org",
     {
