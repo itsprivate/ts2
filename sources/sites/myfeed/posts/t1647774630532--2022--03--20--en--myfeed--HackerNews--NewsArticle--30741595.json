@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--20--en--myfeed--HackerNews--NewsArticle--30741595",
+  "url": "https://news.ycombinator.com/item?id=30741595",
+  "headline": "Dirty Pipe Vulnerability in Linux",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "StephanStS",
+    "url": "https://news.ycombinator.com/user?id=StephanStS"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30741595",
+  "sameAs": "https://dietpi.com/blog/?p=1379",
+  "dateCreated": "2022-03-20T11:10:30.532Z",
+  "datePublished": "2022-03-20T10:44:12.000Z",
+  "dateModified": "2022-03-20T11:10:30.532Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Linux中的脏管道漏洞",
+  "headline_zh-Hant": "Linux中的髒管道漏洞",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
