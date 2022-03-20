@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--20--en--myfeed--HackerNews--NewsArticle--30739080",
+  "url": "https://news.ycombinator.com/item?id=30739080",
+  "headline": "Kmxgit is a web interface and a Git server written in C and Elixir / Phoenix",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gslin",
+    "url": "https://news.ycombinator.com/user?id=gslin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30739080",
+  "sameAs": "https://git.kmx.io/kmx.io/kmxgit/",
+  "dateCreated": "2022-03-20T02:04:07.554Z",
+  "datePublished": "2022-03-20T01:12:03.000Z",
+  "dateModified": "2022-03-20T02:04:07.554Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Kmxgit是一个用C和Elixir/Phoenix编写的Web界面和Git服务器。",
+  "headline_zh-Hant": "Kmxgit是一個用C和Elixir/Phoenix編寫的Web界面和Git服務器。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
