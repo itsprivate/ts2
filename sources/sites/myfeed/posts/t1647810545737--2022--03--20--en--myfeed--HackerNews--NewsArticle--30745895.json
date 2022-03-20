@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--20--en--myfeed--HackerNews--NewsArticle--30745895",
+  "url": "https://news.ycombinator.com/item?id=30745895",
+  "headline": "Google, democracy and the truth about internet search",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "johndfsgdgdfg",
+    "url": "https://news.ycombinator.com/user?id=johndfsgdgdfg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30745895",
+  "sameAs": "https://www.theguardian.com/technology/2016/dec/04/google-democracy-truth-internet-search-facebook",
+  "dateCreated": "2022-03-20T21:09:05.737Z",
+  "datePublished": "2022-03-20T19:40:52.000Z",
+  "dateModified": "2022-03-20T21:09:05.737Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "谷歌、民主和互联网搜索的真相",
+  "headline_zh-Hant": "谷歌、民主和互聯網搜索的真相",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
