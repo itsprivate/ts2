@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--20--en--myfeed--HackerNews--NewsArticle--30740366",
+  "url": "https://news.ycombinator.com/item?id=30740366",
+  "headline": "Firefox now blocks Ad-filtering add-ons (uBlock Origin, AdBlock) in China",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Firefox starts blocking uBlock Origin and other ad-blocking add-ons in China on addons.mozilla.org<p>Recently [1], some users reported that uBlock Origin [2], AdGuard AdBlocker [3], AdBlock For Firefox [4], and AdNauseam [5] were restricted from being accessed by users in mainland China.<p>When users in mainland China try to access the above ad-filtering add-ons on addons.mozilla.org, the website returns 451 Unavailable For Legal Reasons instead of the normal 200 OK response, and the body of the page states &quot;This page is not available in your region&quot;.<p>The facts can be validated by reproducing the test results below.<p>Worth to note: This has nothing to do with China's &quot;great firewall&quot;. This action of blocking was solely performed by Firefox in China, because the website &quot;addons.mozilla.org&quot; is accessible in China and it's not blocked by China's &quot;great firewall&quot;. Firefox in China has a long history of arbitrarily blocking websites even for non-political or legal reasons and was actually found guilty by the Court in China back in 2018 for several such cases.<p>Sources and evidences:<p>[1] According to Blocky's test logs, restricted access initially began no earlier than March 8, 2022 and no later than March 19, 2022.\nUsers report: https://bgme.me/@bgme/107986773834355287<p>Testing results (by blocky.greatfire.org)<p>Before: https://blocky.greatfire.org/api/url_test_result/18800410?format=ooni<p>After: https://blocky.greatfire.org/api/url_test_result/18861443?format=ooni<p>The same testing results can be reproduced by testing the below URLs from a China mainland IP address or blocky.greatfire.org which uses multiple China mainland IP addresses in different cities.<p>Affected add-ons:<p>[2] https://addons.mozilla.org/zh-CN/firefox/addon/ublock-origin/<p>[3] https://addons.mozilla.org/zh-CN/firefox/addon/adguard-adblocker/<p>[4] https://addons.mozilla.org/zh-CN/firefox/addon/adblock-for-firefox/<p>[5] https://addons.mozilla.org/zh-CN/firefox/addon/adnauseam/<p>Court cases about Firefox's malpractices in China:<p>（2017）京0101民初4609号<p>（2018）京73民终433号<p>（2017）京0101民初4608号<p>（2018）京73民终397号",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ground_cat",
+    "url": "https://news.ycombinator.com/user?id=ground_cat"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30740366",
+  "sameAs": "https://news.ycombinator.com/item?id=30740366",
+  "dateCreated": "2022-03-20T05:35:15.729Z",
+  "datePublished": "2022-03-20T05:18:39.000Z",
+  "dateModified": "2022-03-20T05:35:15.729Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "火狐浏览器现在在中国阻止广告过滤插件（uBlock Origin，AdBlock）。",
+  "headline_zh-Hant": "火狐瀏覽器現在在中國阻止廣告過濾插件（uBlock Origin，AdBlock）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "火狐浏览器开始在中国的addons.mozilla.org上屏蔽uBlock Origin和其他广告过滤插件<p>最近[1]，一些用户反映uBlock Origin[2]、AdGuard AdBlocker[3]、AdBlock For Firefox[4]和AdNauseam[5]被限制在中国大陆的用户访问。<p>当中国大陆的用户试图在addons上访问上述广告过滤插件。 <p>当中国大陆的用户试图在addons.mozilla.org上访问上述广告过滤插件时，网站会返回451 Unavailable For Legal Reasons，而不是正常的200 OK响应，并且页面的主体上写着&quot;此页面在您的地区不可用&quot;。<p>通过复制下面的测试结果可以验证这些事实。<p>值得注意的是：这与中国的&quot;伟大防火墙&quot;无关。这一阻止行为完全是由中国的火狐浏览器执行的，因为在中国可以访问&quot;addons.mozilla.org&quot;网站，它并没有被中国的&quot;伟大的防火墙&quot;所阻止。火狐在中国有很长的历史，即使是出于非政治或法律原因，也会任意封锁网站，实际上早在2018年就因为几个这样的案件被中国法院认定有罪。<p>来源和证据：<p>[1] 根据Blocky的测试日志，限制访问最初不早于2022年3月8日开始，不晚于2022年3月19日。\n用户报告：https://bgme.me/@bgme/107986773834355287<p>测试结果（由blocky.greatfire.org提供）<p>之前：https://blocky.greatfire.org/api/url_test_result/18800410?format=ooni<p>之后：https://blocky.greatfire.org/api/url_test_result/18861443?format=ooni<p>从中国大陆IP地址或在不同城市使用多个中国大陆IP地址的blocky.greatfire.org测试以下URL，可再现相同的测试结果。 <p>受影响的附加组件：<p>[2] https://addons.mozilla.org/zh-CN/firefox/addon/ublock-origin/<p>[3] https://addons.mozilla.org/zh-CN/firefox/addon/adguard-adblocker/<p>[4] https://addons.mozilla.org/zh-CN/firefox/addon/adblock-for-firefox/<p>[5] https://addons。 mozilla.org/zh-CN/firefox/addon/adnauseam/<p>关于火狐在中国的不良行为的法院案例：<p>（2017）京0101民初4609号<p>（2018）京73民终433号<p>（2017）京0101民初4608号<p>（2018）京73民终397号",
+  "description_zh-Hant": "火狐瀏覽器開始在中國的addons.mozilla.org上屏蔽uBlock Origin和其他廣告過濾插件<p>最近[1]，一些用戶反映uBlock Origin[2]、AdGuard AdBlocker[3]、AdBlock For Firefox[4]和AdNauseam[5]被限制在中國大陸的用戶訪問。<p>當中國大陸的用戶試圖在addons上訪問上述廣告過濾插件。 <p>當中國大陸的用戶試圖在addons.mozilla.org上訪問上述廣告過濾插件時，網站會返回451 Unavailable For Legal Reasons，而不是正常的200 OK響應，並且頁面的主體上寫著&quot;此頁面在您的地區不可用&quot;。<p>通過複製下面的測試結果可以驗證這些事實。<p>值得注意的是：這與中國的&quot;偉大防火牆&quot;無關。這一阻止行為完全是由中國的火狐瀏覽器執行的，因為在中國可以訪問&quot;addons.mozilla.org&quot;網站，它並沒有被中國的&quot;偉大的防火牆&quot;所阻止。火狐在中國有很長的歷史，即使是出於非政治或法律原因，也會任意封鎖網站，實際上早在2018年就因為幾個這樣的案件被中國法院認定有罪。<p>來源和證據：<p>[1] 根據Blocky的測試日誌，限制訪問最初不早於2022年3月8日開始，不晚於2022年3月19日。\n用戶報告：https://bgme.me/@bgme/107986773834355287<p>測試結果（由blocky.greatfire.org提供）<p>之前：https://blocky.greatfire.org/api/url_test_result/18800410?format=ooni<p>之後：https://blocky.greatfire.org/api/url_test_result/18861443?format=ooni<p>從中國大陸IP地址或在不同城市使用多箇中國大陸IP地址的blocky.greatfire.org測試以下URL，可再現相同的測試結果。 <p>受影響的附加組件：<p>[2] https://addons.mozilla.org/zh-CN/firefox/addon/ublock-origin/<p>[3] https://addons.mozilla.org/zh-CN/firefox/addon/adguard-adblocker/<p>[4] https://addons.mozilla.org/zh-CN/firefox/addon/adblock-for-firefox/<p>[5] https://addons。 mozilla.org/zh-CN/firefox/addon/adnauseam/<p>關於火狐在中國的不良行為的法院案例：<p>（2017）京0101民初4609號<p>（2018）京73民終433號<p>（2017）京0101民初4608號<p>（2018）京73民終397號"
+}
