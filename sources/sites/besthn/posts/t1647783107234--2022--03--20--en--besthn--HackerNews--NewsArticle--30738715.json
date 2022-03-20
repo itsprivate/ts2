@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--20--en--besthn--HackerNews--NewsArticle--30738715",
+  "url": "https://news.ycombinator.com/item?id=30738715",
+  "headline": "NYC allows citizens to report idling vehicles in exchange for a cut of the fines",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "robszumski",
+    "url": "https://news.ycombinator.com/user?id=robszumski"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30738715",
+  "sameAs": "https://www.nytimes.com/2022/03/19/nyregion/clean-air-idle-car.html",
+  "dateCreated": "2022-03-20T13:31:47.234Z",
+  "datePublished": "2022-03-20T00:02:41.000Z",
+  "dateModified": "2022-03-20T13:31:47.234Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 253
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 345
+    }
+  ],
+  "headline_zh-Hans": "纽约市允许市民举报空驶车辆，以换取罚款的分成",
+  "headline_zh-Hant": "紐約市允許市民舉報空駛車輛，以換取罰款的分成",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
