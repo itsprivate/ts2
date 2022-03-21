@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--21--en--myfeed--HackerNews--NewsArticle--30755552",
+  "url": "https://news.ycombinator.com/item?id=30755552",
+  "headline": "China Tells Microsoft to Turn Off Bing Auto-Suggest",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Tempest1981",
+    "url": "https://news.ycombinator.com/user?id=Tempest1981"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30755552",
+  "sameAs": "https://www.pcmag.com/news/china-tells-microsoft-to-turn-off-bing-auto-suggest",
+  "dateCreated": "2022-03-21T16:46:24.301Z",
+  "datePublished": "2022-03-21T15:55:42.000Z",
+  "dateModified": "2022-03-21T16:46:24.301Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "中国要求微软关闭必应自动推荐功能",
+  "headline_zh-Hant": "中國要求微軟關閉必應自動推薦功能",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
