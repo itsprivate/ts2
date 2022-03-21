@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--03--19--en--myfeed--HackerNews--NewsArticle--30732772",
-  "url": "https://news.ycombinator.com/item?id=30732772",
-  "headline": "Carta Marina",
+  "identifier": "2022--03--21--en--showhn--HackerNews--NewsArticle--30758617",
+  "url": "https://news.ycombinator.com/item?id=30758617",
+  "headline": "Show HN: Node CLI to send or recieve UDP packages (in Spanish)",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "tosh",
-    "url": "https://news.ycombinator.com/user?id=tosh"
+    "name": "piuma",
+    "url": "https://news.ycombinator.com/user?id=piuma"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30732772",
-  "sameAs": "https://en.wikipedia.org/wiki/Carta_marina",
-  "dateCreated": "2022-03-19T11:49:49.165Z",
-  "datePublished": "2022-03-19T10:52:12.000Z",
-  "dateModified": "2022-03-19T11:49:49.165Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30758617",
+  "sameAs": "https://github.com/alepiumetti/packet-sender-nodejs",
+  "dateCreated": "2022-03-21T19:35:11.626Z",
+  "datePublished": "2022-03-21T19:29:32.000Z",
+  "dateModified": "2022-03-21T19:35:11.626Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "Carta Marina",
-  "headline_zh-Hant": "Carta Marina",
+  "headline_zh-Hans": "Show HN: 发送或接收UDP包的节点CLI(西班牙语)",
+  "headline_zh-Hant": "Show HN: 發送或接收UDP包的節點CLI(西班牙語)",
   "@context": [
     "https://schema.org",
     {
