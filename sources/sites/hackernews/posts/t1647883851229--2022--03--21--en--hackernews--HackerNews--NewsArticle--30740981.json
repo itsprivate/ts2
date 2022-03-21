@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--21--en--hackernews--HackerNews--NewsArticle--30740981",
+  "url": "https://news.ycombinator.com/item?id=30740981",
+  "headline": "Modular Cognition",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "the-mitr",
+    "url": "https://news.ycombinator.com/user?id=the-mitr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30740981",
+  "sameAs": "https://aeon.co/essays/how-evolution-hacked-its-way-to-intelligence-from-the-bottom-up",
+  "dateCreated": "2022-03-21T17:30:51.229Z",
+  "datePublished": "2022-03-20T08:04:48.000Z",
+  "dateModified": "2022-03-21T17:30:51.229Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "模块化认知",
+  "headline_zh-Hant": "模塊化認知",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
