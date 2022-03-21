@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--21--en--myfeed--HackerNews--NewsArticle--30751623",
+  "url": "https://news.ycombinator.com/item?id=30751623",
+  "headline": "Ukrainian mathematician Konstantin Olmezov commits suicide in Russia",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bryanrasmussen",
+    "url": "https://news.ycombinator.com/user?id=bryanrasmussen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30751623",
+  "sameAs": "https://www.ukrinform.net/rubric-society/3435402-ukrainian-mathematician-commits-suicide-in-russia-after-not-being-allowed-to-leave-country.html",
+  "dateCreated": "2022-03-21T08:36:58.540Z",
+  "datePublished": "2022-03-21T08:24:34.000Z",
+  "dateModified": "2022-03-21T08:36:58.540Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "乌克兰数学家康斯坦丁-奥尔梅佐夫在俄罗斯自杀身亡",
+  "headline_zh-Hant": "烏克蘭數學家康斯坦丁-奧爾梅佐夫在俄羅斯自殺身亡",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
