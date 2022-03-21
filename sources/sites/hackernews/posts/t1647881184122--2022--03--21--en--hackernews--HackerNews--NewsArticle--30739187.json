@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--21--en--hackernews--HackerNews--NewsArticle--30739187",
+  "url": "https://news.ycombinator.com/item?id=30739187",
+  "headline": "Using files with browsers, in reality",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jamghee",
+    "url": "https://news.ycombinator.com/user?id=jamghee"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30739187",
+  "sameAs": "https://macwright.com/2022/03/04/browsers-and-files.html",
+  "dateCreated": "2022-03-21T16:46:24.122Z",
+  "datePublished": "2022-03-20T01:33:56.000Z",
+  "dateModified": "2022-03-21T16:46:24.122Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "使用文件的浏览器，在现实中",
+  "headline_zh-Hant": "使用文件的瀏覽器，在現實中",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

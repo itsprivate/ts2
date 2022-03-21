@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--21--en--myfeed--HackerNews--NewsArticle--30755792",
+  "url": "https://news.ycombinator.com/item?id=30755792",
+  "headline": "Russia labels Meta an 'extremist organisation', says WhatsApp can stay",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "MikusR",
+    "url": "https://news.ycombinator.com/user?id=MikusR"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30755792",
+  "sameAs": "https://www.reuters.com/technology/meta-asks-russian-court-dismiss-proceedings-extremism-case-reports-2022-03-21/",
+  "dateCreated": "2022-03-21T16:46:24.331Z",
+  "datePublished": "2022-03-21T16:13:01.000Z",
+  "dateModified": "2022-03-21T16:46:24.331Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "俄罗斯给Meta贴上 \"极端主义组织 \"的标签，称WhatsApp可以留下来",
+  "headline_zh-Hant": "俄羅斯給Meta貼上 \"極端主義組織 \"的標籤，稱WhatsApp可以留下來",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
