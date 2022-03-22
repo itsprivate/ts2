@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--22--en--myfeed--HackerNews--NewsArticle--30761722",
+  "url": "https://news.ycombinator.com/item?id=30761722",
+  "headline": "'Perfect Blue' and 'Requiem for a Dream'",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ani_obsessive",
+    "url": "https://news.ycombinator.com/user?id=ani_obsessive"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30761722",
+  "sameAs": "https://animationobsessive.substack.com/p/the-real-history-of-perfect-blue",
+  "dateCreated": "2022-03-22T02:16:54.386Z",
+  "datePublished": "2022-03-22T01:04:52.000Z",
+  "dateModified": "2022-03-22T02:16:54.386Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "完美的蓝》和《梦之安魂曲",
+  "headline_zh-Hant": "完美的藍》和《夢之安魂曲",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
