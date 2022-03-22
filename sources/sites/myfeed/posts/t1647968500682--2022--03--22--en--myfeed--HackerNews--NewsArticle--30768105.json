@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--22--en--myfeed--HackerNews--NewsArticle--30768105",
+  "url": "https://news.ycombinator.com/item?id=30768105",
+  "headline": "Almost no one knows how easily you can optimize your AI models",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "The situation is fairly simple. Your model could run 10 times faster by adding a few lines to your code, but you weren't aware of it. Let me expand on that.<p>AI applications are multiplying like mushrooms, which is awesome<p>As a result, more and more people are turning to the dark side, joining the AI world, as I did<p>The problem? Developers focus only on AI, cleaning up datasets and training their models. Almost no one has a background in hardware, compilers, computing, cloud, etc<p>The result? Developers spend a lot of hours improving the accuracy and performance of their software, and all their hard work risks being undone by the wrong choice of hardware-software coupling<p>This problem bothered me for a long time, so with a couple of buddies at Nebuly (all ex MIT, ETH and EPFL), we put a lot of energy into an open-source library called nebullvm to make DL compiler technology accessible to any developer, even for those who know nothing about hardware, as I did.<p>How does it work? It speeds up your DL models by ~5-20x by testing the best DL compilers out there and selecting the optimal one to best couple your AI model with your machine (GPU, CPU, etc.). All this in just a few lines of code.<p>The library is open source and you can find it here https://github.com/nebuly-ai/nebullvm.<p>Please leave a star on GitHub for the hard work in building the library :) It's a simple act for you, a big smile for us. Thank you, and don't hesitate to contribute to the library!",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "emilec___",
+    "url": "https://news.ycombinator.com/user?id=emilec___"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30768105",
+  "sameAs": "https://news.ycombinator.com/item?id=30768105",
+  "dateCreated": "2022-03-22T17:01:40.682Z",
+  "datePublished": "2022-03-22T16:26:21.000Z",
+  "dateModified": "2022-03-22T17:01:40.682Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "几乎没有人知道你可以多么容易地优化你的AI模型",
+  "headline_zh-Hant": "幾乎沒有人知道你可以多麼容易地優化你的AI模型",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "情况相当简单。你的模型可以通过在你的代码中增加几行来运行10倍的速度，但你并没有意识到这一点。让我来扩展一下。<p>AI应用像蘑菇一样成倍增加，这很了不起<p>因此，越来越多的人转向黑暗面，加入AI世界，就像我一样<p>问题是？开发人员只专注于人工智能，清理数据集和训练他们的模型。几乎没有人有硬件、编译器、计算、云等方面的背景<p>结果呢？开发人员花了很多时间来提高他们软件的准确性和性能，而他们所有的努力工作都有可能因为错误的软硬件耦合选择而付诸东流<p>这个问题困扰了我很久，所以我们和Nebuly的几个哥们（都曾在MIT、ETH和EPFL工作过），在一个名为nebullvm的开源库中投入了大量精力，使任何开发人员都能使用DL编译器技术，甚至像我这样对硬件一无所知的人也能使用。它通过测试目前最好的DL编译器，并选择最佳的编译器来将你的AI模型与你的机器（GPU、CPU等）进行最佳匹配，从而将你的DL模型的速度提高了5-20倍。所有这些都只需要几行代码。<p>该库是开源的，你可以在这里找到它https://github.com/nebuly-ai/nebullvm。<p>请在GitHub上为建立该库的辛勤工作留下一颗星：) 这对你来说是一个简单的行为，对我们来说是一个大大的微笑。谢谢你，不要犹豫，为图书馆做出贡献吧",
+  "description_zh-Hant": "情況相當簡單。你的模型可以通過在你的代碼中增加幾行來運行10倍的速度，但你並沒有意識到這一點。讓我來擴展一下。<p>AI應用像蘑菇一樣成倍增加，這很了不起<p>因此，越來越多的人轉向黑暗面，加入AI世界，就像我一樣<p>問題是？開發人員只專注於人工智能，清理數據集和訓練他們的模型。幾乎沒有人有硬件、編譯器、計算、雲等方面的背景<p>結果呢？開發人員花了很多時間來提高他們軟件的準確性和性能，而他們所有的努力工作都有可能因為錯誤的軟硬件耦合選擇而付諸東流<p>這個問題困擾了我很久，所以我們和Nebuly的幾個哥們（都曾在MIT、ETH和EPFL工作過），在一個名為nebullvm的開源庫中投入了大量精力，使任何開發人員都能使用DL編譯器技術，甚至像我這樣對硬件一無所知的人也能使用。它通過測試目前最好的DL編譯器，並選擇最佳的編譯器來將你的AI模型與你的機器（GPU、CPU等）進行最佳匹配，從而將你的DL模型的速度提高了5-20倍。所有這些都只需要幾行代碼。<p>該庫是開源的，你可以在這裡找到它https://github.com/nebuly-ai/nebullvm。<p>請在GitHub上為建立該庫的辛勤工作留下一顆星：) 這對你來說是一個簡單的行為，對我們來說是一個大大的微笑。謝謝你，不要猶豫，為圖書館做出貢獻吧"
+}
