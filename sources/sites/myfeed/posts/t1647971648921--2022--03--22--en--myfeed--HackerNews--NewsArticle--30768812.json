@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--22--en--myfeed--HackerNews--NewsArticle--30768812",
+  "url": "https://news.ycombinator.com/item?id=30768812",
+  "headline": "Show HN: Search hundreds of vetted newsletters by topic",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "quinto_quarto",
+    "url": "https://news.ycombinator.com/user?id=quinto_quarto"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30768812",
+  "sameAs": "https://inboxworld.io/",
+  "dateCreated": "2022-03-22T17:54:08.921Z",
+  "datePublished": "2022-03-22T17:17:54.000Z",
+  "dateModified": "2022-03-22T17:54:08.921Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 按主题搜索数百份经过审查的新闻简报",
+  "headline_zh-Hant": "Show HN: 按主題搜索數百份經過審查的新聞簡報",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
