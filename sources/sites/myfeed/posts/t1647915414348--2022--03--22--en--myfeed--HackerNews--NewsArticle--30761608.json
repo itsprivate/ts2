@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--22--en--myfeed--HackerNews--NewsArticle--30761608",
+  "url": "https://news.ycombinator.com/item?id=30761608",
+  "headline": "Microsoft may have been hit by the same hackers who went after Nvidia",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Barrera",
+    "url": "https://news.ycombinator.com/user?id=Barrera"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30761608",
+  "sameAs": "https://www.windowscentral.com/microsoft-may-have-been-hit-same-hackers-who-went-after-nvidia",
+  "dateCreated": "2022-03-22T02:16:54.348Z",
+  "datePublished": "2022-03-22T00:47:04.000Z",
+  "dateModified": "2022-03-22T02:16:54.348Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "微软可能已被攻击Nvidia的黑客攻击了",
+  "headline_zh-Hant": "微軟可能已被攻擊Nvidia的黑客攻擊了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
