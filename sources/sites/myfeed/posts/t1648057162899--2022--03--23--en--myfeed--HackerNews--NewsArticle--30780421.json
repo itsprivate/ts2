@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--23--en--myfeed--HackerNews--NewsArticle--30780421",
+  "url": "https://news.ycombinator.com/item?id=30780421",
+  "headline": "iOS Screen Recordings are being blocked",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I just get a black screen when I do a screen recording?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Txoko",
+    "url": "https://news.ycombinator.com/user?id=Txoko"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30780421",
+  "sameAs": "https://news.ycombinator.com/item?id=30780421",
+  "dateCreated": "2022-03-23T17:39:22.899Z",
+  "datePublished": "2022-03-23T16:45:18.000Z",
+  "dateModified": "2022-03-23T17:39:22.899Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "iOS的屏幕录像被阻止了",
+  "headline_zh-Hant": "iOS的屏幕錄像被阻止了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "当我进行屏幕录制时，我只是得到一个黑屏？",
+  "description_zh-Hant": "當我進行屏幕錄製時，我只是得到一個黑屏？"
+}
