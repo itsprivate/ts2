@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--23--en--myfeed--HackerNews--NewsArticle--30777529",
+  "url": "https://news.ycombinator.com/item?id=30777529",
+  "headline": "Our beta users hacked our APIs for something we didn't even know we could do",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey all, I'm Dhruv and also the Co-Founder at EZiD (https://www.ezid.io/). We actually started this because all of us hated passwords and built our APIs thinking that users would only use it for simple passwordless sign up and login and we even got a few beta users who switched from Auth0 or their own custom auth methods to try us out because they believed our APIs were a lot more flexible.<p>Little did we know that our beta users were also using our APIs for other reasons such as outbound email marketing where they would embed a users email into the CTA and just like the sign-up process bypass the auth wall so they could claim any discount or promotion that was being sent to them.<p>This made us think how auth should actually be reimagined. Instead of it just being at the start, we should start thinking what kinda auth, when, and where in the user journey it should be used.<p>Here are the docs incase anyone wants to play around with it! We're still in closed beta but happy to onboard a few more users if anyone is keen to join us<p>https://foremost-cotija-b6e.notion.site/Docs-94f0a168c0914a61ab5339c32750577e<p>Our beta users have seen a user conversion go up by 175% and we are close to 1200 MAU!<p>Also, we know our website doesn't look the best and this is because we put all our effort into making sure our APIs robust and bringing on early beta users to test our product",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dhruv_tek",
+    "url": "https://news.ycombinator.com/user?id=dhruv_tek"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30777529",
+  "sameAs": "https://news.ycombinator.com/item?id=30777529",
+  "dateCreated": "2022-03-23T12:52:51.260Z",
+  "datePublished": "2022-03-23T11:58:33.000Z",
+  "dateModified": "2022-03-23T12:52:51.260Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我们的测试版用户黑掉了我们的API，我们甚至不知道我们能做什么",
+  "headline_zh-Hant": "我們的測試版用戶黑掉了我們的API，我們甚至不知道我們能做什麼",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家好，我是Dhruv，也是EZiD（https://www.ezid.io/）的联合创始人。实际上，我们开始这样做是因为我们所有人都讨厌密码，并建立了我们的API，认为用户只会将其用于简单的无密码注册和登录，我们甚至得到了一些从Auth0或他们自己的自定义认证方法转而尝试我们的测试版用户，因为他们认为我们的API更加灵活。 <p>我们并不知道，我们的测试版用户也在为其他原因使用我们的API，例如外向型电子邮件营销，他们会将用户的电子邮件嵌入到CTA中，就像注册过程中绕过认证墙一样，这样他们就可以申请任何折扣或促销活动。我们应该开始考虑什么样的认证，什么时候，以及在用户旅程的什么地方使用，而不是只在开始时使用。<p>这里是文档，如果有人想玩一玩的话！我们仍处于封闭测试阶段，但我们已经开始考虑。我们仍处于封闭测试阶段，但如果有人热衷于加入我们，我们很高兴能加入更多的用户<p>https://foremost-cotija-b6e.notion.site/Docs-94f0a168c0914a61ab5339c32750577e<p>我们的测试用户已经看到用户转换率上升了175%，我们的MAU接近1200！<p>此外，我们知道我们的网站看起来不是最好的，这是因为我们投入了所有的努力，以确保我们的API强大，并带来了早期测试用户来测试我们的产品。",
+  "description_zh-Hant": "大家好，我是Dhruv，也是EZiD（https://www.ezid.io/）的聯合創始人。實際上，我們開始這樣做是因為我們所有人都討厭密碼，並建立了我們的API，認為用戶只會將其用於簡單的無密碼註冊和登錄，我們甚至得到了一些從Auth0或他們自己的自定義認證方法轉而嘗試我們的測試版用戶，因為他們認為我們的API更加靈活。 <p>我們並不知道，我們的測試版用戶也在為其他原因使用我們的API，例如外向型電子郵件營銷，他們會將用戶的電子郵件嵌入到CTA中，就像註冊過程中繞過認證牆一樣，這樣他們就可以申請任何折扣或促銷活動。我們應該開始考慮什麼樣的認證，什麼時候，以及在用戶旅程的什麼地方使用，而不是隻在開始時使用。<p>這裡是文檔，如果有人想玩一玩的話！我們仍處於封閉測試階段，但我們已經開始考慮。我們仍處於封閉測試階段，但如果有人熱衷於加入我們，我們很高興能加入更多的用戶<p>https://foremost-cotija-b6e.notion.site/Docs-94f0a168c0914a61ab5339c32750577e<p>我們的測試用戶已經看到用戶轉換率上升了175%，我們的MAU接近1200！<p>此外，我們知道我們的網站看起來不是最好的，這是因為我們投入了所有的努力，以確保我們的API強大，並帶來了早期測試用戶來測試我們的產品。"
+}
