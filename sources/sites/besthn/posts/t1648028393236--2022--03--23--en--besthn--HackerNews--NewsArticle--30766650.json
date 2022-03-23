@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--23--en--besthn--HackerNews--NewsArticle--30766650",
+  "url": "https://news.ycombinator.com/item?id=30766650",
+  "headline": "Java 18 / JDK 18: General Availability",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "todsacerdoti",
+    "url": "https://news.ycombinator.com/user?id=todsacerdoti"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30766650",
+  "sameAs": "https://mail.openjdk.java.net/pipermail/jdk-dev/2022-March/006458.html",
+  "dateCreated": "2022-03-23T09:39:53.236Z",
+  "datePublished": "2022-03-22T14:41:15.000Z",
+  "dateModified": "2022-03-23T09:39:53.236Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 269
+    }
+  ],
+  "headline_zh-Hans": "Java 18 / JDK 18：全面上市",
+  "headline_zh-Hant": "Java 18 / JDK 18：全面上市",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
