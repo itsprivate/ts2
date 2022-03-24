@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--24--en--hackernews--HackerNews--NewsArticle--30759233",
+  "url": "https://news.ycombinator.com/item?id=30759233",
+  "headline": "Harmonikit: A Clojure library designed to provide an additive synth for overtone",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tosh",
+    "url": "https://news.ycombinator.com/user?id=tosh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30759233",
+  "sameAs": "https://github.com/richhickey/harmonikit",
+  "dateCreated": "2022-03-24T02:15:17.755Z",
+  "datePublished": "2022-03-21T20:23:47.000Z",
+  "dateModified": "2022-03-24T02:15:17.755Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 15
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "和睦相处。一个Clojure库，旨在为泛音提供一个附加的合成器",
+  "headline_zh-Hant": "和睦相處。一個Clojure庫，旨在為泛音提供一個附加的合成器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
