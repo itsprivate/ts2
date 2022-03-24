@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--24--en--myfeed--HackerNews--NewsArticle--30796929",
+  "url": "https://news.ycombinator.com/item?id=30796929",
+  "headline": "Israel blocked Ukraine from buying Pegasus spyware, fearing Russia’s anger",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "SquibblesRedux",
+    "url": "https://news.ycombinator.com/user?id=SquibblesRedux"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30796929",
+  "sameAs": "https://www.theguardian.com/world/2022/mar/23/israel-ukraine-pegasus-spyware-russia",
+  "dateCreated": "2022-03-24T23:50:03.959Z",
+  "datePublished": "2022-03-24T23:38:31.000Z",
+  "dateModified": "2022-03-24T23:50:03.959Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "以色列阻止乌克兰购买飞马间谍软件，担心俄罗斯的愤怒",
+  "headline_zh-Hant": "以色列阻止烏克蘭購買飛馬間諜軟件，擔心俄羅斯的憤怒",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
