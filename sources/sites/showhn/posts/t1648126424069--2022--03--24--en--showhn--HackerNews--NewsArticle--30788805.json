@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--03--22--en--myfeed--HackerNews--NewsArticle--30766683",
-  "url": "https://news.ycombinator.com/item?id=30766683",
-  "headline": "JavaOne Is Back",
+  "identifier": "2022--03--24--en--showhn--HackerNews--NewsArticle--30788805",
+  "url": "https://news.ycombinator.com/item?id=30788805",
+  "headline": "Show HN: git-crecord: TUI to interactively select lines to commit",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "carimura",
-    "url": "https://news.ycombinator.com/user?id=carimura"
+    "name": "andrewshadura",
+    "url": "https://news.ycombinator.com/user?id=andrewshadura"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30766683",
-  "sameAs": "https://www.oracle.com/cloudworld/javaone/",
-  "dateCreated": "2022-03-22T15:11:13.189Z",
-  "datePublished": "2022-03-22T14:44:29.000Z",
-  "dateModified": "2022-03-22T15:11:13.189Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30788805",
+  "sameAs": "https://github.com/andrewshadura/git-crecord",
+  "dateCreated": "2022-03-24T12:53:44.069Z",
+  "datePublished": "2022-03-24T12:21:14.000Z",
+  "dateModified": "2022-03-24T12:53:44.069Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 4
+      "userInteractionCount": 2
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "JavaOne回来了",
-  "headline_zh-Hant": "JavaOne回來了",
+  "headline_zh-Hans": "Show HN: git-crecord。以交互方式选择要提交的行的TUI",
+  "headline_zh-Hant": "Show HN: git-crecord。以交互方式選擇要提交的行的TUI",
   "@context": [
     "https://schema.org",
     {
