@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--24--en--myfeed--HackerNews--NewsArticle--30791003",
+  "url": "https://news.ycombinator.com/item?id=30791003",
+  "headline": "Okta hack puts thousands of businesses on high alert",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mooreds",
+    "url": "https://news.ycombinator.com/user?id=mooreds"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30791003",
+  "sameAs": "https://www.theverge.com/2022/3/22/22990637/okta-breach-single-sign-on-lapsus-hacker-group",
+  "dateCreated": "2022-03-24T15:55:27.979Z",
+  "datePublished": "2022-03-24T15:12:09.000Z",
+  "dateModified": "2022-03-24T15:55:27.979Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Okta黑客攻击使成千上万的企业处于高度警戒状态",
+  "headline_zh-Hant": "Okta黑客攻擊使成千上萬的企業處於高度警戒狀態",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
