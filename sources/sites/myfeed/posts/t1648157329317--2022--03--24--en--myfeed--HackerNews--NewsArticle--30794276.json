@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--24--en--myfeed--HackerNews--NewsArticle--30794276",
+  "url": "https://news.ycombinator.com/item?id=30794276",
+  "headline": "Finding the Hardest Spelling Bee Puzzle: Computer Analysis of NYT Word Puzzles",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mathram",
+    "url": "https://news.ycombinator.com/user?id=mathram"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30794276",
+  "sameAs": "https://christopherwolfram.com/projects/spelling-bee/",
+  "dateCreated": "2022-03-24T21:28:49.317Z",
+  "datePublished": "2022-03-24T19:24:17.000Z",
+  "dateModified": "2022-03-24T21:28:49.317Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "寻找最难的拼写大赛拼图。对《纽约时报》字谜的计算机分析",
+  "headline_zh-Hant": "尋找最難的拼寫大賽拼圖。對《紐約時報》字謎的計算機分析",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
