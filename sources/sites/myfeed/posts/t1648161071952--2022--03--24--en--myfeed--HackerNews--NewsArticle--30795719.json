@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--24--en--myfeed--HackerNews--NewsArticle--30795719",
+  "url": "https://news.ycombinator.com/item?id=30795719",
+  "headline": "The EPA plans to sunset its online archive",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Tomte",
+    "url": "https://news.ycombinator.com/user?id=Tomte"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30795719",
+  "sameAs": "https://www.theverge.com/2022/3/24/22993628/epa-online-archive-sunset-digital-records",
+  "dateCreated": "2022-03-24T22:31:11.952Z",
+  "datePublished": "2022-03-24T21:47:39.000Z",
+  "dateModified": "2022-03-24T22:31:11.952Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "美国环保局计划将其在线档案库日落西山",
+  "headline_zh-Hant": "美國環保局計劃將其在線檔案庫日落西山",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

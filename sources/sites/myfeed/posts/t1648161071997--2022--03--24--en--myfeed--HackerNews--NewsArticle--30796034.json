@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--24--en--myfeed--HackerNews--NewsArticle--30796034",
+  "url": "https://news.ycombinator.com/item?id=30796034",
+  "headline": "With U.S. Focus on Ukraine, North Korea Launches a Powerful New Missile",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "notmysql_",
+    "url": "https://news.ycombinator.com/user?id=notmysql_"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30796034",
+  "sameAs": "https://www.nytimes.com/2022/03/24/world/asia/north-korea-missile-icbm.html",
+  "dateCreated": "2022-03-24T22:31:11.997Z",
+  "datePublished": "2022-03-24T22:14:33.000Z",
+  "dateModified": "2022-03-24T22:31:11.997Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "随着美国对乌克兰的关注，朝鲜发射了一枚强大的新导弹",
+  "headline_zh-Hant": "隨著美國對烏克蘭的關注，朝鮮發射了一枚強大的新導彈",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
