@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--24--en--hackernews--HackerNews--NewsArticle--30774888",
+  "url": "https://news.ycombinator.com/item?id=30774888",
+  "headline": "Gems of Corrado Böhm",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "simplicialset",
+    "url": "https://news.ycombinator.com/user?id=simplicialset"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30774888",
+  "sameAs": "https://arxiv.org/abs/1812.02243",
+  "dateCreated": "2022-03-24T15:55:27.684Z",
+  "datePublished": "2022-03-23T04:17:23.000Z",
+  "dateModified": "2022-03-24T15:55:27.684Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "科拉多-伯姆的瑰宝",
+  "headline_zh-Hant": "科拉多-伯姆的瑰寶",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
