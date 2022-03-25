@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--25--en--hackernews--HackerNews--NewsArticle--30805015",
+  "url": "https://news.ycombinator.com/item?id=30805015",
+  "headline": "Interoperability without sacrificing privacy: Matrix and the DMA",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vanburen",
+    "url": "https://news.ycombinator.com/user?id=vanburen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30805015",
+  "sameAs": "https://matrix.org/blog/2022/03/25/interoperability-without-sacrificing-privacy-matrix-and-the-dma/",
+  "dateCreated": "2022-03-25T18:37:00.888Z",
+  "datePublished": "2022-03-25T17:35:25.000Z",
+  "dateModified": "2022-03-25T18:37:00.888Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在不牺牲隐私的情况下实现互操作性。矩阵和DMA",
+  "headline_zh-Hant": "在不犧牲隱私的情況下實現互操作性。矩陣和DMA",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
