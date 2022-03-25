@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--25--en--myfeed--HackerNews--NewsArticle--30800448",
+  "url": "https://news.ycombinator.com/item?id=30800448",
+  "headline": "How Hollywood Destroyed Michael Cimino",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "labrador",
+    "url": "https://news.ycombinator.com/user?id=labrador"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30800448",
+  "sameAs": "https://unherd.com/2022/03/how-hollywood-destroyed-michael-cimino/",
+  "dateCreated": "2022-03-25T12:16:07.309Z",
+  "datePublished": "2022-03-25T10:32:14.000Z",
+  "dateModified": "2022-03-25T12:16:07.309Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "好莱坞如何摧毁了迈克尔-西米诺",
+  "headline_zh-Hant": "好萊塢如何摧毀了邁克爾-西米諾",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
