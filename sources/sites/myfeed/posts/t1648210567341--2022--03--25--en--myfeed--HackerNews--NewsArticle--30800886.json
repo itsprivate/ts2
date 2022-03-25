@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--25--en--myfeed--HackerNews--NewsArticle--30800886",
+  "url": "https://news.ycombinator.com/item?id=30800886",
+  "headline": "JetBrains Gateway – Remote Development for JetBrains IDEs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tta",
+    "url": "https://news.ycombinator.com/user?id=tta"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30800886",
+  "sameAs": "https://www.jetbrains.com/remote-development/gateway/",
+  "dateCreated": "2022-03-25T12:16:07.341Z",
+  "datePublished": "2022-03-25T11:40:52.000Z",
+  "dateModified": "2022-03-25T12:16:07.341Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "JetBrains Gateway - JetBrains IDEs的远程开发",
+  "headline_zh-Hant": "JetBrains Gateway - JetBrains IDEs的遠程開發",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
