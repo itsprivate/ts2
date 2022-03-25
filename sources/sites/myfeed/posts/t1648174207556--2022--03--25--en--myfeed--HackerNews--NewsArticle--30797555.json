@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--25--en--myfeed--HackerNews--NewsArticle--30797555",
+  "url": "https://news.ycombinator.com/item?id=30797555",
+  "headline": "Data Pipelines at Lyft",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cheeseblubber",
+    "url": "https://news.ycombinator.com/user?id=cheeseblubber"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30797555",
+  "sameAs": "https://eng.lyft.com/orchestrating-data-pipelines-at-lyft-comparing-flyte-and-airflow-72c40d143aad?gi=dc59382113b9",
+  "dateCreated": "2022-03-25T02:10:07.556Z",
+  "datePublished": "2022-03-25T00:57:44.000Z",
+  "dateModified": "2022-03-25T02:10:07.556Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Lyft的数据管道",
+  "headline_zh-Hant": "Lyft的數據管道",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
