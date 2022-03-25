@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--25--en--myfeed--HackerNews--NewsArticle--30802846",
+  "url": "https://news.ycombinator.com/item?id=30802846",
+  "headline": "Mackenzie Scott has given $3.8B to 465 organizations since June",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "doener",
+    "url": "https://news.ycombinator.com/user?id=doener"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30802846",
+  "sameAs": "https://www.cnn.com/2022/03/23/tech/mackenzie-scott-donations/index.html",
+  "dateCreated": "2022-03-25T15:33:09.496Z",
+  "datePublished": "2022-03-25T14:50:24.000Z",
+  "dateModified": "2022-03-25T15:33:09.496Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "自6月以来，Mackenzie Scott已向465个组织捐赠了38亿美元。",
+  "headline_zh-Hant": "自6月以來，Mackenzie Scott已向465個組織捐贈了38億美元。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
