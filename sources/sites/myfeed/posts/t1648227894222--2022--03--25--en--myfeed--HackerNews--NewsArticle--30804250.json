@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--25--en--myfeed--HackerNews--NewsArticle--30804250",
+  "url": "https://news.ycombinator.com/item?id=30804250",
+  "headline": "Google has little choice to be evil or not in today’s fractured internet",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "johndfsgdgdfg",
+    "url": "https://news.ycombinator.com/user?id=johndfsgdgdfg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30804250",
+  "sameAs": "https://techcrunch.com/2020/01/02/google-has-little-choice-to-be-evil-or-not-in-todays-fractured-internet/",
+  "dateCreated": "2022-03-25T17:04:54.222Z",
+  "datePublished": "2022-03-25T16:37:34.000Z",
+  "dateModified": "2022-03-25T17:04:54.222Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "谷歌在当今断裂的互联网中，几乎没有选择做坏事或不做坏事的权利",
+  "headline_zh-Hant": "谷歌在當今斷裂的互聯網中，幾乎沒有選擇做壞事或不做壞事的權利",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
