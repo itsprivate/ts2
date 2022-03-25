@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--25--en--myfeed--HackerNews--NewsArticle--30798760",
+  "url": "https://news.ycombinator.com/item?id=30798760",
+  "headline": "Just because you know how to code, doesn't mean you should code your own website",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sebg",
+    "url": "https://news.ycombinator.com/user?id=sebg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30798760",
+  "sameAs": "https://twitter.com/seb_g/status/1507216527438884875",
+  "dateCreated": "2022-03-25T05:10:26.827Z",
+  "datePublished": "2022-03-25T04:52:58.000Z",
+  "dateModified": "2022-03-25T05:10:26.827Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "仅仅因为你知道如何编码，并不意味着你应该给自己的网站编码",
+  "headline_zh-Hant": "僅僅因為你知道如何編碼，並不意味著你應該給自己的網站編碼",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
