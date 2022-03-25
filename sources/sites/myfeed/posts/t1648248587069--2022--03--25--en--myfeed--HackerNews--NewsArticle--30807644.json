@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--25--en--myfeed--HackerNews--NewsArticle--30807644",
+  "url": "https://news.ycombinator.com/item?id=30807644",
+  "headline": "NSA on How to Harden Kubernetes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rbanffy",
+    "url": "https://news.ycombinator.com/user?id=rbanffy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30807644",
+  "sameAs": "https://thenewstack.io/nsa-on-how-to-harden-kubernetes/",
+  "dateCreated": "2022-03-25T22:49:47.069Z",
+  "datePublished": "2022-03-25T22:34:43.000Z",
+  "dateModified": "2022-03-25T22:49:47.069Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "关于如何加固Kubernetes的国家安全局",
+  "headline_zh-Hant": "關於如何加固Kubernetes的國家安全局",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
