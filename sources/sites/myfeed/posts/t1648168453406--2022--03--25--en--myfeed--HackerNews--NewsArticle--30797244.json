@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--25--en--myfeed--HackerNews--NewsArticle--30797244",
+  "url": "https://news.ycombinator.com/item?id=30797244",
+  "headline": "Gays, Jews, Geniuses",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "enigmatic02",
+    "url": "https://news.ycombinator.com/user?id=enigmatic02"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30797244",
+  "sameAs": "https://www.drorpoleg.com/gays-jews-and-geniuses/",
+  "dateCreated": "2022-03-25T00:34:13.406Z",
+  "datePublished": "2022-03-25T00:13:33.000Z",
+  "dateModified": "2022-03-25T00:34:13.406Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "同志、犹太人、天才",
+  "headline_zh-Hant": "同志、猶太人、天才",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
