@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--25--en--hackernews--HackerNews--NewsArticle--30800520",
+  "url": "https://news.ycombinator.com/item?id=30800520",
+  "headline": "The Lisp Curse (2017)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gphilip",
+    "url": "https://news.ycombinator.com/user?id=gphilip"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30800520",
+  "sameAs": "http://www.winestockwebdesign.com/Essays/Lisp_Curse.html",
+  "dateCreated": "2022-03-25T13:24:29.661Z",
+  "datePublished": "2022-03-25T10:44:20.000Z",
+  "dateModified": "2022-03-25T13:24:29.661Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "Lisp诅咒 (2017)",
+  "headline_zh-Hant": "Lisp詛咒 (2017)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
