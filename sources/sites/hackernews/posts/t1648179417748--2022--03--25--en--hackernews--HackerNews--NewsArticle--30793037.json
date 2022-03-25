@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--25--en--hackernews--HackerNews--NewsArticle--30793037",
+  "url": "https://news.ycombinator.com/item?id=30793037",
+  "headline": "On node-ipc and the importance of trusting trust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "magnio",
+    "url": "https://news.ycombinator.com/user?id=magnio"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30793037",
+  "sameAs": "https://hozy.dev/posts/trusting-trust/",
+  "dateCreated": "2022-03-25T03:36:57.748Z",
+  "datePublished": "2022-03-24T17:37:36.000Z",
+  "dateModified": "2022-03-25T03:36:57.748Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "关于节点-IPC和信任的重要性",
+  "headline_zh-Hant": "關於節點-IPC和信任的重要性",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
