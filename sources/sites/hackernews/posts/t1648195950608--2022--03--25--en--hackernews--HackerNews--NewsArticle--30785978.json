@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--25--en--hackernews--HackerNews--NewsArticle--30785978",
+  "url": "https://news.ycombinator.com/item?id=30785978",
+  "headline": "Kodak film factory tour [video]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "brudgers",
+    "url": "https://news.ycombinator.com/user?id=brudgers"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30785978",
+  "sameAs": "https://www.youtube.com/watch?v=HQKy1KJpSVc",
+  "dateCreated": "2022-03-25T08:12:30.608Z",
+  "datePublished": "2022-03-24T02:56:15.000Z",
+  "dateModified": "2022-03-25T08:12:30.608Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 14
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "柯达胶片厂参观[视频]",
+  "headline_zh-Hant": "柯達膠片廠參觀[視頻]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
