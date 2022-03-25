@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--25--en--myfeed--HackerNews--NewsArticle--30806326",
+  "url": "https://news.ycombinator.com/item?id=30806326",
+  "headline": "pg_auto_failover_health_monitor: Simple service to track Postgres service health",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ancieque",
+    "url": "https://news.ycombinator.com/user?id=ancieque"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30806326",
+  "sameAs": "https://github.com/neuroforgede/pg_auto_failover_ansible/tree/master/tools/health_monitor",
+  "dateCreated": "2022-03-25T21:10:27.910Z",
+  "datePublished": "2022-03-25T19:43:00.000Z",
+  "dateModified": "2022-03-25T21:10:27.910Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "pg_auto_failover_health_monitor。跟踪Postgres服务健康状况的简单服务",
+  "headline_zh-Hant": "pg_auto_failover_health_monitor。跟蹤Postgres服務健康狀況的簡單服務",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
