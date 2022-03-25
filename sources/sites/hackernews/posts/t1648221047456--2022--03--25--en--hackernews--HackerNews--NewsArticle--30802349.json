@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--25--en--hackernews--HackerNews--NewsArticle--30802349",
+  "url": "https://news.ycombinator.com/item?id=30802349",
+  "headline": "Epistemic legibility: being easy to argue with is a virtue",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "shrikant",
+    "url": "https://news.ycombinator.com/user?id=shrikant"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30802349",
+  "sameAs": "https://acesounderglass.com/2022/02/07/epistemic-legibility/",
+  "dateCreated": "2022-03-25T15:10:47.456Z",
+  "datePublished": "2022-03-25T14:09:40.000Z",
+  "dateModified": "2022-03-25T15:10:47.456Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "认识论的可读性：容易争论是一种美德",
+  "headline_zh-Hant": "認識論的可讀性：容易爭論是一種美德",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
