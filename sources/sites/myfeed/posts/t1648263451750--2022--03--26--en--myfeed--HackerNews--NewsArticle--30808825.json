@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--26--en--myfeed--HackerNews--NewsArticle--30808825",
+  "url": "https://news.ycombinator.com/item?id=30808825",
+  "headline": "Amazon opens Community Banana Stand at Seattle HQ to give away free fruit (2015)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cpeterso",
+    "url": "https://news.ycombinator.com/user?id=cpeterso"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30808825",
+  "sameAs": "https://www.geekwire.com/2015/amazon-opens-community-banana-stand-to-give-away-hundreds-of-free-snacks-at-seattle-hq/",
+  "dateCreated": "2022-03-26T02:57:31.750Z",
+  "datePublished": "2022-03-26T02:43:52.000Z",
+  "dateModified": "2022-03-26T02:57:31.750Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "亚马逊在西雅图总部开设社区香蕉摊，免费赠送水果（2015）。",
+  "headline_zh-Hant": "亞馬遜在西雅圖總部開設社區香蕉攤，免費贈送水果（2015）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
