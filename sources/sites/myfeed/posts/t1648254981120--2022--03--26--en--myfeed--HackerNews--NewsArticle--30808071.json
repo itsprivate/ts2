@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--26--en--myfeed--HackerNews--NewsArticle--30808071",
+  "url": "https://news.ycombinator.com/item?id=30808071",
+  "headline": "Open File Format for Spreadsheets",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I have this idea, guys I wanted to know your opinion:<p>1. My idea would be an open file format called csvsheets. csvsheets file is csv format with spreadsheet function. My idea would be how people have a database in a spreadsheet but with a freer format without much complexity.\n2. This would be nice if you don't want to rely on software company to open plain text files like Microsoft Office Excel etc. I thought about it because I think the xml format in my view compared to csv is bad. xslx is xml based is proprietary. There are of course open file formats, that's my idea of   open file format.\n3. I was thinking of using the sqlite format, but it's something that hasn't been implemented yet.<p>```\n =CONCATENAR(A1:H7,A1:H7,1), =PISO(A1:H7,A1:H7,1), =BINOMDIST(A1:H7,A1:H7,1)\n =CHIDIST(A1:H7,A1:H7,1), =CHIINV(A1:H7,A1:H7,1), =CHITEST(A1:H7,A1:H7,1)\n =CONFIANÇA(A1:H7,A1:H7,1), =FTEST(A1:H7,A1:H7,1), =LOGINV(A1:H7,A1:H7,1)\n =LOGNORMDIST(A1:H7,A1:H7,1), = DIST.NORM(A1:H7,A1:H7,1), =NORMINV(A1:H7,A1:H7,1)\n = DIST.NORM(A1:H7,A1:H7,1), =NORMSINV(A1:H7,A1:H7,1), =PERCENTIL(A1:H7,A1:H7,1)\n ...\n```\ncommand description: These are some functions, it's just an illustration of csvhseets<p>#### Ideas\n1. I don't want to depend on a software company to open simple databases like csv. Csvsheets is an interesting format and not yet implemented\n2. My idea would be implementation, but I want to know everyone's opinion here. My idea is with csvsheets is that i get business rules from spreadsheet files and easily if i need to replace with a database like postgres, mongodb, sql server, mariadb i can\n3. Csvsheets makes it easy to migrate from robust spreadsheets, that's the idea\n4. There are trades that a database of many data is made by electronic spreadsheet. My idea here is to give people freedom\n5. This format reserved in gpl 2 license which is the same as linux. I believe csvsheets format can help people who don't have the money for a robust database. There is no size for csvsheets files. The choice of csv format is that many databases are already able to read this file format\n6. In theory you can get a very fast system with csvsheets, just know csv and excel and create the rules in csv with excel formulas.\n7. The cool thing about this is the possibility of migrating the data to a larger database. The coolest is a csv file format with excel formula support. The GUI part would be done with html, css, js. There are systems like firefox os that implement this. Talk about csvsheets which is something very interesting, but I forgot to talk about how to create a csvsheets interface.\n8. Thought to implement csvsheets in rust, there is a browser made in rust called servo, the servo supports html, js, css.\n9. With the servo implementation I wanted a visual structure for the csvsheets. In summary, csvsheets is a csv format with excel formula support, a visual interface made from html, css, js.\n10. The manipulation and data structure part is the same as sql but applied to a csvsheets. The graphics part is not done by the graphical user interface, it is done by the command line.\n11. My idea is this:\n    1. Format name: CSV Spreadsheets, extension: .csvsht\n    2. Data Manipulation Language (DML), Data Definition Language (DDL), Data Control Language (DCL), Transactional Control Language (TCL) is the same as Transact-SQL for csvsht. But supports: SchemeQL, CLSQL, ScalaQL ... \n    3. Spreadsheet Extended Data Definition Language for Business Rules: Markdeep, Svgbob, asciigrid, Archetype, Textik, ASCIIFlow, textik, fsymbols ... this allows you to create business rules, open charts in csvsheets\n    4. Every csvsht file can generate an api in several programming languages: python, lisp, c, c++ ...",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vxGxKrGU",
+    "url": "https://news.ycombinator.com/user?id=vxGxKrGU"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30808071",
+  "sameAs": "https://news.ycombinator.com/item?id=30808071",
+  "dateCreated": "2022-03-26T00:36:21.120Z",
+  "datePublished": "2022-03-25T23:51:04.000Z",
+  "dateModified": "2022-03-26T00:36:21.120Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "电子表格的开放文件格式",
+  "headline_zh-Hant": "電子表格的開放文件格式",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我有这个想法，伙计们，我想知道你们的意见：<p>1。我的想法是一个开放的文件格式，称为csvsheets。csvsheets文件是具有电子表格功能的csv格式。我的想法将是人们如何在电子表格中拥有一个数据库，但有一个更自由的格式，没有太多的复杂性。\n2. 如果你不想依赖软件公司来打开纯文本文件，如Microsoft Office Excel等，这将是很好的。我想过这个问题，因为在我看来，xml格式与csv相比是不好的。xslx是基于xml的是专有的。当然也有开放的文件格式，这是我对开放文件格式的想法。\n3. 我在考虑使用sqlite格式，但这是还没有实现的东西。<p>``````。\n =concatenar(a1:h7,a1:h7,1), =piso(a1:h7,a1:h7,1), =binomdist(a1:h7,a1:h7,1)\n =chidist(a1:h7,a1:h7,1), =CHIINV(a1:h7,a1:h7,1), =chitest(a1:h7,a1:h7,1)\n =confiança(a1:h7,a1:h7,1), =ftest(a1:h7,a1:h7,1), =loginv(a1:h7,a1:h7,1)\n =lognormdist(a1:h7,a1:h7,1), = dist.norm(a1:h7,a1:h7,1), =norminv(a1:h7,a1:h7,1)\n = dist.norm(a1:h7,a1:h7,1), =normsinv(a1:h7,a1:h7,1), =percentil(a1:h7,a1:h7,1)\n ...\n```\n命令描述。这些是一些函数，它只是csvhseets的一个说明<p>#### Ideas\n1. 我不想依赖一个软件公司来打开像csv这样的简单数据库。Csvsheets是一种有趣的格式，还没有实现\n2. 我的想法是实施，但我想知道大家在这里的意见。我的想法是，通过csvsheets，我可以从电子表格文件中获得业务规则，并且如果我需要用数据库（如postgres、mongodb、sql server、mariadb）来替换，我可以很容易地做到。\n3. Csvsheets使得从强大的电子表格迁移变得容易，这就是我们的想法。\n4. 有一些行业，许多数据的数据库是由电子表格组成的。我的想法是给人们自由\n5. 这种格式保留在gpl 2许可证中，与linux相同。我相信csvsheets格式可以帮助那些没有钱建立强大数据库的人。csvsheets文件没有大小之分。选择csv格式是因为许多数据库已经能够读取这种文件格式。\n6. 理论上，你可以用csvsheets得到一个非常快的系统，只要知道csv和excel，并在csv中用excel公式创建规则。\n7. 最酷的是可以将数据迁移到更大的数据库。最酷的是一个支持excel公式的csv文件格式。GUI部分将用html、css、js完成。有像firefox os这样的系统来实现。谈谈csvsheets，这是非常有趣的东西，但我忘了谈如何创建一个csvsheets界面。\n8. 想到在rust中实现csvsheets，有一个用rust做的浏览器叫servo，servo支持html、js、css。\n9. 9.通过servo的实现，我想为csvsheets提供一个视觉结构。总之，csvsheets是一个支持excel公式的csv格式，一个由html、css、js组成的可视化界面。\n10. 操作和数据结构部分与sql相同，但应用于csvsheets。图形部分不是由图形用户界面完成的，是由命令行完成的。\n11. 我的想法是这样的。\n    1. 格式名称：CSV电子表格，扩展名：.csvsht\n    2. 数据操作语言（DML）、数据定义语言（DDL）、数据控制语言（DCL）、交易控制语言（TCL）与csvsht的Transact-SQL相同。但支持。SchemeQL, CLSQL, ScalaQL ... \n    3. 业务规则的电子表格扩展数据定义语言。Markdeep, Svgbob, asciigrid, Archetype, Textik, ASCIIFlow, textik, fsymbols ......这允许你创建业务规则，在csvsheets中打开图表\n    4. 每个csvsht文件都可以生成几种编程语言的api：python、lisp、c、c++ ...",
+  "description_zh-Hant": "我有這個想法，夥計們，我想知道你們的意見：<p>1。我的想法是一個開放的文件格式，稱為csvsheets。csvsheets文件是具有電子表格功能的csv格式。我的想法將是人們如何在電子表格中擁有一個數據庫，但有一個更自由的格式，沒有太多的複雜性。\n2. 如果你不想依賴軟件公司來打開純文本文件，如Microsoft Office Excel等，這將是很好的。我想過這個問題，因為在我看來，xml格式與csv相比是不好的。xslx是基於xml的是專有的。當然也有開放的文件格式，這是我對開放文件格式的想法。\n3. 我在考慮使用sqlite格式，但這是還沒有實現的東西。<p>``````。\n =concatenar(a1:h7,a1:h7,1), =piso(a1:h7,a1:h7,1), =binomdist(a1:h7,a1:h7,1)\n =chidist(a1:h7,a1:h7,1), =CHIINV(a1:h7,a1:h7,1), =chitest(a1:h7,a1:h7,1)\n =confiança(a1:h7,a1:h7,1), =ftest(a1:h7,a1:h7,1), =loginv(a1:h7,a1:h7,1)\n =lognormdist(a1:h7,a1:h7,1), = dist.norm(a1:h7,a1:h7,1), =norminv(a1:h7,a1:h7,1)\n = dist.norm(a1:h7,a1:h7,1), =normsinv(a1:h7,a1:h7,1), =percentil(a1:h7,a1:h7,1)\n ...\n```\n命令描述。這些是一些函數，它只是csvhseets的一個說明<p>#### Ideas\n1. 我不想依賴一個軟件公司來打開像csv這樣的簡單數據庫。Csvsheets是一種有趣的格式，還沒有實現\n2. 我的想法是實施，但我想知道大家在這裡的意見。我的想法是，通過csvsheets，我可以從電子表格文件中獲得業務規則，並且如果我需要用數據庫（如postgres、mongodb、sql server、mariadb）來替換，我可以很容易地做到。\n3. Csvsheets使得從強大的電子表格遷移變得容易，這就是我們的想法。\n4. 有一些行業，許多數據的數據庫是由電子表格組成的。我的想法是給人們自由\n5. 這種格式保留在gpl 2許可證中，與linux相同。我相信csvsheets格式可以幫助那些沒有錢建立強大數據庫的人。csvsheets文件沒有大小之分。選擇csv格式是因為許多數據庫已經能夠讀取這種文件格式。\n6. 理論上，你可以用csvsheets得到一個非常快的系統，只要知道csv和excel，並在csv中用excel公式創建規則。\n7. 最酷的是可以將數據遷移到更大的數據庫。最酷的是一個支持excel公式的csv文件格式。GUI部分將用html、css、js完成。有像firefox os這樣的系統來實現。談談csvsheets，這是非常有趣的東西，但我忘了談如何創建一個csvsheets界面。\n8. 想到在rust中實現csvsheets，有一個用rust做的瀏覽器叫servo，servo支持html、js、css。\n9. 9.通過servo的實現，我想為csvsheets提供一個視覺結構。總之，csvsheets是一個支持excel公式的csv格式，一個由html、css、js組成的可視化界面。\n10. 操作和數據結構部分與sql相同，但應用於csvsheets。圖形部分不是由圖形用戶界面完成的，是由命令行完成的。\n11. 我的想法是這樣的。\n    1. 格式名稱：CSV電子表格，擴展名：.csvsht\n    2. 數據操作語言（DML）、數據定義語言（DDL）、數據控制語言（DCL）、交易控制語言（TCL）與csvsht的Transact-SQL相同。但支持。SchemeQL, CLSQL, ScalaQL ... \n    3. 業務規則的電子表格擴展數據定義語言。Markdeep, Svgbob, asciigrid, Archetype, Textik, ASCIIFlow, textik, fsymbols ......這允許你創建業務規則，在csvsheets中打開圖表\n    4. 每個csvsht文件都可以生成幾種編程語言的api：python、lisp、c、c++ ..."
+}
