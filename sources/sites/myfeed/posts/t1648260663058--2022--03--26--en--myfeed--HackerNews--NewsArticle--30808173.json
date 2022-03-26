@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--26--en--myfeed--HackerNews--NewsArticle--30808173",
+  "url": "https://news.ycombinator.com/item?id=30808173",
+  "headline": "Russia starts military drill on disputed islands off Japan",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "belter",
+    "url": "https://news.ycombinator.com/user?id=belter"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30808173",
+  "sameAs": "https://english.kyodonews.net/news/2022/03/c0868f95954a-russia-starts-military-drill-on-disputed-islands-off-japan.html",
+  "dateCreated": "2022-03-26T02:11:03.058Z",
+  "datePublished": "2022-03-26T00:12:33.000Z",
+  "dateModified": "2022-03-26T02:11:03.058Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "俄罗斯开始在日本附近有争议的岛屿上进行军事演习",
+  "headline_zh-Hant": "俄羅斯開始在日本附近有爭議的島嶼上進行軍事演習",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
