@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--26--en--myfeed--HackerNews--NewsArticle--30811138",
+  "url": "https://news.ycombinator.com/item?id=30811138",
+  "headline": "The Toxoplasma of Rage",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Anon84",
+    "url": "https://news.ycombinator.com/user?id=Anon84"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30811138",
+  "sameAs": "https://slatestarcodex.com/2014/12/17/the-toxoplasma-of-rage/",
+  "dateCreated": "2022-03-26T12:14:23.802Z",
+  "datePublished": "2022-03-26T12:06:44.000Z",
+  "dateModified": "2022-03-26T12:14:23.802Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "愤怒的弓形虫",
+  "headline_zh-Hant": "憤怒的弓形蟲",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
