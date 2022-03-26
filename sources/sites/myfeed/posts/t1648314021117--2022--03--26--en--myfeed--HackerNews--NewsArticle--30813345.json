@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--26--en--myfeed--HackerNews--NewsArticle--30813345",
+  "url": "https://news.ycombinator.com/item?id=30813345",
+  "headline": "How to build a faster file transfer protocol",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mcharawi",
+    "url": "https://news.ycombinator.com/user?id=mcharawi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30813345",
+  "sameAs": "https://www.trytachyon.com/post/how-we-built-a-new-fast-file-transfer-protocol",
+  "dateCreated": "2022-03-26T17:00:21.117Z",
+  "datePublished": "2022-03-26T16:44:54.000Z",
+  "dateModified": "2022-03-26T17:00:21.117Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "如何建立一个更快的文件传输协议",
+  "headline_zh-Hant": "如何建立一個更快的文件傳輸協議",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
