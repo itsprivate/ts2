@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--26--en--besthn--HackerNews--NewsArticle--30803165",
+  "url": "https://news.ycombinator.com/item?id=30803165",
+  "headline": "Half of women will get a false positive 3D mammogram, study finds",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "samizdis",
+    "url": "https://news.ycombinator.com/user?id=samizdis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30803165",
+  "sameAs": "https://www.axios.com/half-of-women-will-get-a-false-positive-3d-mammogram-study-finds-5caf02eb-e5d8-4216-82b1-ac83f36523b2.html",
+  "dateCreated": "2022-03-26T17:00:20.722Z",
+  "datePublished": "2022-03-25T15:15:45.000Z",
+  "dateModified": "2022-03-26T17:00:20.722Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 149
+    }
+  ],
+  "headline_zh-Hans": "研究发现，半数妇女会得到假阳性的3D乳房X光检查结果",
+  "headline_zh-Hant": "研究發現，半數婦女會得到假陽性的3D乳房X光檢查結果",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
