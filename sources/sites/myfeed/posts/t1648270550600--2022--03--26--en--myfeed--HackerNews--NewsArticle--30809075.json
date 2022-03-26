@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--26--en--myfeed--HackerNews--NewsArticle--30809075",
+  "url": "https://news.ycombinator.com/item?id=30809075",
+  "headline": "List of Unsolved Problems in Biology",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sebg",
+    "url": "https://news.ycombinator.com/user?id=sebg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30809075",
+  "sameAs": "https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_biology",
+  "dateCreated": "2022-03-26T04:55:50.600Z",
+  "datePublished": "2022-03-26T03:42:32.000Z",
+  "dateModified": "2022-03-26T04:55:50.600Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "生物学中未解决的问题清单",
+  "headline_zh-Hant": "生物學中未解決的問題清單",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
