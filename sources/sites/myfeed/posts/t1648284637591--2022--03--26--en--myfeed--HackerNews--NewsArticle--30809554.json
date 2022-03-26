@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--26--en--myfeed--HackerNews--NewsArticle--30809554",
+  "url": "https://news.ycombinator.com/item?id=30809554",
+  "headline": "Where have all the artist addicts gone?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fortran77",
+    "url": "https://news.ycombinator.com/user?id=fortran77"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30809554",
+  "sameAs": "https://www.nytimes.com/2022/03/24/t-magazine/writers-alcohol-drugs-art.html",
+  "dateCreated": "2022-03-26T08:50:37.591Z",
+  "datePublished": "2022-03-26T05:48:24.000Z",
+  "dateModified": "2022-03-26T08:50:37.591Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "所有的艺术家瘾君子都去哪儿了？",
+  "headline_zh-Hant": "所有的藝術家癮君子都去哪兒了？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
