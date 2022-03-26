@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--26--en--hackernews--HackerNews--NewsArticle--30791425",
+  "url": "https://news.ycombinator.com/item?id=30791425",
+  "headline": "Document your mistakes and then try to block them in the future",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "zdw",
+    "url": "https://news.ycombinator.com/user?id=zdw"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30791425",
+  "sameAs": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/DocumentMistakesThenBlockThem",
+  "dateCreated": "2022-03-26T06:12:03.133Z",
+  "datePublished": "2022-03-24T15:40:53.000Z",
+  "dateModified": "2022-03-26T06:12:03.133Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "记录你的错误，然后尝试在未来阻止它们",
+  "headline_zh-Hant": "記錄你的錯誤，然後嘗試在未來阻止它們",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
