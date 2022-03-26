@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--26--en--myfeed--HackerNews--NewsArticle--30809582",
+  "url": "https://news.ycombinator.com/item?id=30809582",
+  "headline": "Wordle creator describes game’s rise, says NYT sale was “a way to walk away”",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gnicholas",
+    "url": "https://news.ycombinator.com/user?id=gnicholas"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30809582",
+  "sameAs": "https://arstechnica.com/gaming/2022/03/wordle-creator-describes-games-rise-says-nyt-sale-was-a-way-to-walk-away/",
+  "dateCreated": "2022-03-26T06:35:43.964Z",
+  "datePublished": "2022-03-26T05:52:29.000Z",
+  "dateModified": "2022-03-26T06:35:43.964Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Wordle创建者描述游戏的崛起，称《纽约时报》的出售是 \"一种走开的方式\"",
+  "headline_zh-Hant": "Wordle創建者描述遊戲的崛起，稱《紐約時報》的出售是 \"一種走開的方式\"",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
