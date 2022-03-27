@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--27--en--hackernews--HackerNews--NewsArticle--30810726",
+  "url": "https://news.ycombinator.com/item?id=30810726",
+  "headline": "Omega Swatch Speedmaster",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kwikiel",
+    "url": "https://news.ycombinator.com/user?id=kwikiel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30810726",
+  "sameAs": "https://www.swatch.com/pl-pl/bioceramic-moonswatch.html",
+  "dateCreated": "2022-03-27T22:30:36.974Z",
+  "datePublished": "2022-03-26T10:44:26.000Z",
+  "dateModified": "2022-03-27T22:30:36.974Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "欧米茄斯沃琪超霸腕表",
+  "headline_zh-Hant": "歐米茄斯沃琪超霸腕錶",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
