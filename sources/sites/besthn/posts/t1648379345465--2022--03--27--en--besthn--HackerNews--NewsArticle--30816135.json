@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--27--en--besthn--HackerNews--NewsArticle--30816135",
+  "url": "https://news.ycombinator.com/item?id=30816135",
+  "headline": "A userspace WireGuard client that exposes itself as a proxy",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "octeep",
+    "url": "https://news.ycombinator.com/user?id=octeep"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30816135",
+  "sameAs": "https://github.com/octeep/wireproxy",
+  "dateCreated": "2022-03-27T11:09:05.465Z",
+  "datePublished": "2022-03-26T23:04:02.000Z",
+  "dateModified": "2022-03-27T11:09:05.465Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 255
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 68
+    }
+  ],
+  "headline_zh-Hans": "一个用户空间的WireGuard客户端，将自己暴露为一个代理。",
+  "headline_zh-Hant": "一個用戶空間的WireGuard客戶端，將自己暴露為一個代理。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
