@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--27--en--hackernews--HackerNews--NewsArticle--30809948",
+  "url": "https://news.ycombinator.com/item?id=30809948",
+  "headline": "YouTube Video as Background in React",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "debdut",
+    "url": "https://news.ycombinator.com/user?id=debdut"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30809948",
+  "sameAs": "https://github.com/Debdut/youtube-bg-react",
+  "dateCreated": "2022-03-27T08:33:47.948Z",
+  "datePublished": "2022-03-26T07:18:52.000Z",
+  "dateModified": "2022-03-27T08:33:47.948Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在React中把YouTube视频作为背景",
+  "headline_zh-Hant": "在React中把YouTube視頻作為背景",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
