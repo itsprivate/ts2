@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--28--en--besthn--HackerNews--NewsArticle--30831485",
+  "url": "https://news.ycombinator.com/item?id=30831485",
+  "headline": "Majority in Japan backs nuclear power for first time since Fukushima",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "karaokeyoga",
+    "url": "https://news.ycombinator.com/user?id=karaokeyoga"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30831485",
+  "sameAs": "https://www.japantimes.co.jp/news/2022/03/28/national/nuke-power-poll/",
+  "dateCreated": "2022-03-28T17:03:59.868Z",
+  "datePublished": "2022-03-28T15:24:25.000Z",
+  "dateModified": "2022-03-28T17:03:59.868Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 268
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 116
+    }
+  ],
+  "headline_zh-Hans": "福岛事件后日本大多数人首次支持核电",
+  "headline_zh-Hant": "福島事件後日本大多數人首次支持核電",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
