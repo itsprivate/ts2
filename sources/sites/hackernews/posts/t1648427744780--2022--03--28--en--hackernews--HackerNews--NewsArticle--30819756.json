@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--28--en--hackernews--HackerNews--NewsArticle--30819756",
+  "url": "https://news.ycombinator.com/item?id=30819756",
+  "headline": "When I was labeled a ‘troubled’ teen, I obliged",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jasonhansel",
+    "url": "https://news.ycombinator.com/user?id=jasonhansel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30819756",
+  "sameAs": "https://www.nytimes.com/2021/01/12/well/family/teen-tough-love-programs.html",
+  "dateCreated": "2022-03-28T00:35:44.780Z",
+  "datePublished": "2022-03-27T12:34:39.000Z",
+  "dateModified": "2022-03-28T00:35:44.780Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "当我被贴上 \"问题 \"少年的标签时，我就答应了。",
+  "headline_zh-Hant": "當我被貼上 \"問題 \"少年的標籤時，我就答應了。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
