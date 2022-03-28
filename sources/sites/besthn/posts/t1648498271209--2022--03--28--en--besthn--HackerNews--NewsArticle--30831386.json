@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--28--en--besthn--HackerNews--NewsArticle--30831386",
+  "url": "https://news.ycombinator.com/item?id=30831386",
+  "headline": "‘This Game Is So Realistic It Feels Just Like Working Overtime’",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "raybb",
+    "url": "https://news.ycombinator.com/user?id=raybb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30831386",
+  "sameAs": "https://www.sixthtone.com/news/1009982/this-game-is-so-realistic%21-it-feels-just-like-working-overtime",
+  "dateCreated": "2022-03-28T20:11:11.209Z",
+  "datePublished": "2022-03-28T15:17:29.000Z",
+  "dateModified": "2022-03-28T20:11:11.209Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 256
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 126
+    }
+  ],
+  "headline_zh-Hans": "这款游戏是如此逼真，感觉就像加班一样",
+  "headline_zh-Hant": "這款遊戲是如此逼真，感覺就像加班一樣",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
