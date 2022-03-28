@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--28--en--myfeed--HackerNews--NewsArticle--30827038",
+  "url": "https://news.ycombinator.com/item?id=30827038",
+  "headline": "A *magical* AWS serverless developer experience",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ptrik",
+    "url": "https://news.ycombinator.com/user?id=ptrik"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30827038",
+  "sameAs": "https://journal.plain.com/posts/2022-02-08-a-magical-aws-serverless-developer-experience/",
+  "dateCreated": "2022-03-28T04:39:00.627Z",
+  "datePublished": "2022-03-28T04:05:13.000Z",
+  "dateModified": "2022-03-28T04:39:00.627Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一个*神奇的AWS无服务器开发者体验",
+  "headline_zh-Hant": "一個*神奇的AWS無服務器開發者體驗",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
