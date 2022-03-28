@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--28--en--showhn--HackerNews--NewsArticle--30830346",
+  "url": "https://news.ycombinator.com/item?id=30830346",
+  "headline": "Show HN: The Similar Laptop Finder. Finds the Laptop Most Similar to Yours",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mg",
+    "url": "https://news.ycombinator.com/user?id=mg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30830346",
+  "sameAs": "https://www.productchart.com/laptops/similar",
+  "dateCreated": "2022-03-28T13:43:35.209Z",
+  "datePublished": "2022-03-28T13:32:10.000Z",
+  "dateModified": "2022-03-28T13:43:35.209Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 类似的笔记本电脑搜索器。找到与你最相似的笔记本电脑",
+  "headline_zh-Hant": "Show HN: 類似的筆記本電腦搜索器。找到與你最相似的筆記本電腦",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
