@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--28--en--besthn--HackerNews--NewsArticle--30813000",
+  "url": "https://news.ycombinator.com/item?id=30813000",
+  "headline": "Raygui – A simple and easy-to-use immediate-mode GUI library",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "maydemir",
+    "url": "https://news.ycombinator.com/user?id=maydemir"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30813000",
+  "sameAs": "https://github.com/raysan5/raygui",
+  "dateCreated": "2022-03-28T02:22:25.317Z",
+  "datePublished": "2022-03-26T16:00:25.000Z",
+  "dateModified": "2022-03-28T02:22:25.317Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 107
+    }
+  ],
+  "headline_zh-Hans": "Raygui - 一个简单而易用的即时模式GUI库",
+  "headline_zh-Hant": "Raygui - 一個簡單而易用的即時模式GUI庫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
