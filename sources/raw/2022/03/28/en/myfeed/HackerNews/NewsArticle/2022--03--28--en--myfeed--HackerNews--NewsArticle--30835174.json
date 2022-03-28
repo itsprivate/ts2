@@ -1,0 +1,40 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--28--en--myfeed--HackerNews--NewsArticle--30835174",
+  "url": "https://news.ycombinator.com/item?id=30835174",
+  "headline": "Async-stripe 0.14, a rust client to accept payments",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi!<p>I am happy to announce version 0.14.0 of async-stripe (https://payments.rs) which introduces a number of new features. async-stripe is a client for the stripe API with a bring-your-own-runtime approach. It will work with whatever stack you use.<p>On a personal note, having worked on this project for over a year now, this is the first release where I feel like the ergonomics, features, and Stripe api coverage are finally getting 'good'.<p>Changelog: https://github.com/arlyon/async-stripe/releases/tag/v0.14.0<p>breaking - fluent client config: you can set the client id, stripe account, and strategy with a new builder-style api<p>improved the codegen to expand api coverage: we added `card` to the api!<p>added `Default` across the codebase: we added default in many more places<p>opt-in auto-retry functionality following the stripe retry headers: the client will retry failed requests<p>opt-in idempotency: manual verification and retry if needed<p>improve test coverage: we added tarpaulin and started tracking coverage. from now on new contributions will be expected to be tested properly, and we will be adding extensive examples<p>piles of examples: we have a whole load of shiny examples to look at, along with example-doc linking to put the examples straight alongside the code in docs.rs. very happy with the ergonomics here.<p>As mentioned, we also opted in to try out RFC 3123: https://rust-lang.github.io/rfcs/3123-rustdoc-scrape-examples.html which has been a dream. Some examples:<p>PaymentIntent::create: https://docs.rs/async-stripe/0.14.0/stripe/struct.PaymentIntent.html#method.create<p>AccountLink::create: https://docs.rs/async-stripe/0.14.0/stripe/struct.AccountLink.html#method.create<p>Customer::list: https://docs.rs/async-stripe/0.14.0/stripe/struct.Customer.html#method.list<p>Additionally, Stripe have begun to sponsor the project which, while the project is still not affiliated with Stripe, or considered a Stripe product, marks a very cool moment in the project history and my own career. With the support I've been able to get a domain, send out some swag to the contributors, and plan on running some rust workshops in London.<p>That said, we still have some challenges. For this project, compile time has always been a fundamental trade-off. a) there is a lot of generated code and b) there is an obscene amount of macro-expansion code (mainly serde). These together make for awful compile times. For 0.15, we plan to group the generated code into individual crates so that there are more compilation units. Additionally, we are thinking about how to reduce the reliance on macro expansion by potentially replacing serde with something more lightweight. If you have ideas and want to join the conversation, please hop in here: https://github.com/arlyon/async-stripe/discussions/77<p>Looking forward for any and all feedback or questions<p>Cheers<p>Alex<p>Conversation on /r/rust: https://www.reddit.com/r/rust/comments/tqid6w/announcing_asyncstripe_014_a_rust_client_to/",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "arlyon",
+    "url": "https://news.ycombinator.com/user?id=arlyon"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30835174",
+  "sameAs": "https://news.ycombinator.com/item?id=30835174",
+  "dateCreated": "2022-03-28T22:11:10.614Z",
+  "datePublished": "2022-03-28T20:28:45.000Z",
+  "dateModified": "2022-03-28T22:11:10.614Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
