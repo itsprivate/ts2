@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--showhn--HackerNews--NewsArticle--30836647",
+  "url": "https://news.ycombinator.com/item?id=30836647",
+  "headline": "Show HN: Visualize SQL Queries",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "My co-worker and I were debugging a SQL issue; having not seen SQL in two years, I embarrassed myself by confusing union vs. join. After this episode, I tried refreshing my SQL memory, but there are few websites that animate SQL for you. Most of them just have a series of images to help you visualize. There are a few tools that are quite good and robust (especially for large/complex use cases) but require installation and are too complex for my simple purpose.<p>So, just created a small tool to help visualise SQL. Most of the animations are just my understanding of how SQL works. Would love to know what you think? Do you also visualise some of the queries like that in your head? Any feedback would be gold. Btw you can also edit queries and see different results (but its a bit limited).<p>Have fun ;)",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "bvm-101",
+    "url": "https://news.ycombinator.com/user?id=bvm-101"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30836647",
+  "sameAs": "https://animatesql.com",
+  "dateCreated": "2022-03-29T21:37:45.878Z",
+  "datePublished": "2022-03-28T23:00:05.000Z",
+  "dateModified": "2022-03-29T21:37:45.878Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 视觉化的SQL查询",
+  "headline_zh-Hant": "Show HN: 視覺化的SQL查詢",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我和我的同事正在调试一个SQL问题；由于两年来没有见过SQL，我把union和join搞混了，这让我很尴尬。在这个小插曲之后，我试着刷新我的SQL记忆，但很少有网站能为你制作SQL的动画。他们中的大多数只是有一系列的图片来帮助你进行可视化。有几个工具相当不错，也很强大（特别是对于大型/复杂的用例），但需要安装，对于我的简单目的来说太复杂了。<p>所以，刚刚创建了一个小工具来帮助SQL的可视化。大部分的动画只是我对SQL工作原理的理解。很想知道你的想法？你是否也在脑海中想象出一些这样的查询？任何反馈都将是黄金。另外，你还可以编辑查询，看到不同的结果（但有点局限性）。<p>祝你玩得开心;)",
+  "description_zh-Hant": "我和我的同事正在調試一個SQL問題；由於兩年來沒有見過SQL，我把union和join搞混了，這讓我很尷尬。在這個小插曲之後，我試著刷新我的SQL記憶，但很少有網站能為你製作SQL的動畫。他們中的大多數只是有一系列的圖片來幫助你進行可視化。有幾個工具相當不錯，也很強大（特別是對於大型/複雜的用例），但需要安裝，對於我的簡單目的來說太複雜了。<p>所以，剛剛創建了一個小工具來幫助SQL的可視化。大部分的動畫只是我對SQL工作原理的理解。很想知道你的想法？你是否也在腦海中想象出一些這樣的查詢？任何反饋都將是黃金。另外，你還可以編輯查詢，看到不同的結果（但有點侷限性）。<p>祝你玩得開心;)"
+}

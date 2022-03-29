@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--myfeed--HackerNews--NewsArticle--30848424",
+  "url": "https://news.ycombinator.com/item?id=30848424",
+  "headline": "Approximating sin(x) to 5 ULP with Chebyshev polynomials (2017)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lamontcg",
+    "url": "https://news.ycombinator.com/user?id=lamontcg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30848424",
+  "sameAs": "https://web.archive.org/web/20200628195036/http://mooooo.ooo/chebyshev-sine-approximation/",
+  "dateCreated": "2022-03-29T21:37:29.750Z",
+  "datePublished": "2022-03-29T21:11:18.000Z",
+  "dateModified": "2022-03-29T21:37:29.750Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "用切比雪夫多项式逼近sin(x)到5 ULP (2017)",
+  "headline_zh-Hant": "用切比雪夫多項式逼近sin(x)到5 ULP (2017)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
