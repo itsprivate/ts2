@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--myfeed--HackerNews--NewsArticle--30845918",
+  "url": "https://news.ycombinator.com/item?id=30845918",
+  "headline": "MPMC – message broadcast with go generics",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "quinnirill",
+    "url": "https://news.ycombinator.com/user?id=quinnirill"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30845918",
+  "sameAs": "https://pkg.go.dev/github.com/jussi-kalliokoski/mpmc",
+  "dateCreated": "2022-03-29T18:12:04.455Z",
+  "datePublished": "2022-03-29T17:42:17.000Z",
+  "dateModified": "2022-03-29T18:12:04.455Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "MPMC--信息广播与go generics",
+  "headline_zh-Hant": "MPMC--信息廣播與go generics",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
