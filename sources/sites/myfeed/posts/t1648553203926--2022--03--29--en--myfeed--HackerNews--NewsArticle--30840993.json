@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--myfeed--HackerNews--NewsArticle--30840993",
+  "url": "https://news.ycombinator.com/item?id=30840993",
+  "headline": "Bill Demirkapi Fired from Zoom",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hasheddan",
+    "url": "https://news.ycombinator.com/user?id=hasheddan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30840993",
+  "sameAs": "https://twitter.com/billdemirkapi/status/1508610588200607746",
+  "dateCreated": "2022-03-29T11:26:43.926Z",
+  "datePublished": "2022-03-29T10:55:06.000Z",
+  "dateModified": "2022-03-29T11:26:43.926Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "比尔-德米尔卡皮被Zoom公司解雇",
+  "headline_zh-Hant": "比爾-德米爾卡皮被Zoom公司解僱",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
