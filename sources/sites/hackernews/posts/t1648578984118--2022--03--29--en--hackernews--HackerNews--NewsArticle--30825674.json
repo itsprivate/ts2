@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--hackernews--HackerNews--NewsArticle--30825674",
+  "url": "https://news.ycombinator.com/item?id=30825674",
+  "headline": "Arguing About the Origins of Science",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pepys",
+    "url": "https://news.ycombinator.com/user?id=pepys"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30825674",
+  "sameAs": "https://lareviewofbooks.org/article/quibbling-about-sciences-origins/",
+  "dateCreated": "2022-03-29T18:36:24.118Z",
+  "datePublished": "2022-03-28T00:37:53.000Z",
+  "dateModified": "2022-03-29T18:36:24.118Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "关于科学的起源的争论",
+  "headline_zh-Hant": "關於科學的起源的爭論",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

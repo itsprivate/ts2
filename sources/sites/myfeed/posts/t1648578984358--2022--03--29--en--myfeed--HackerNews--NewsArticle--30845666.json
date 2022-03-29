@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--myfeed--HackerNews--NewsArticle--30845666",
+  "url": "https://news.ycombinator.com/item?id=30845666",
+  "headline": "I built a real-time stock app with Python and Fast API, Next.js, and Redis Stack",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "remote-dev",
+    "url": "https://news.ycombinator.com/user?id=remote-dev"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30845666",
+  "sameAs": "https://www.youtube.com/watch?v=LaiQFZ5bXaM",
+  "dateCreated": "2022-03-29T18:36:24.358Z",
+  "datePublished": "2022-03-29T17:25:14.000Z",
+  "dateModified": "2022-03-29T18:36:24.358Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我用Python和Fast API、Next.js和Redis Stack建立了一个实时股票应用程序。",
+  "headline_zh-Hant": "我用Python和Fast API、Next.js和Redis Stack建立了一個實時股票應用程序。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
