@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--askhn--HackerNews--NewsArticle--30844214",
+  "url": "https://news.ycombinator.com/item?id=30844214",
+  "headline": "Ask HN: How do you plan back end work?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "In this context, backend = server side of web dev, and frontend = browser/client side of web dev.<p>I've worked in both individual contributor and execute level roles for nearly 20 years (still doing both to this day). In most companies where I worked, backend side of web development had trouble reconciling with business-level planning. It seems to be a backend-specific issue because of the following problems that frontend doesn't seem to have:<p><pre><code>    1. Refactors are more likely to cause big conflicts with everyone else\n    2. Tasks are more likely to be foundational, and become pre-requisites/blockers for multiple other tasks\n    3. The famous &quot;make change easy, then make the easy change&quot; in practice makes most tasks become refactoring or foundational work, which leads to points 1 and 2\n    4. Due to 3, it's very hard to predict the scope of work up front. If you try to retroactively reflect what you're actually doing (i.e. in a sprint), then chances are your board will start with 20 &quot;aspirational&quot; tickets, and end with 40 new tickets closed, none of which are in the original 20. That's because you only discovered what needs doing after you've almost done it.\n</code></pre>\nThe reason front-end doesn't usually have these issues is because it operates in small, isolated worlds, such as pages and components. Backend, by its nature, is responsible for maintaining the entire system's state. Whether it's a set of services, or a single monolith, the fact remains that it's typically a big, integrated machine.<p>Before you say that in a well-written codebase these situations shouldn't happen often, the truth is that there aren't that many well-written proprietary codebases. As time goes on, with proper guidance, codebases improve. In the mean time, we have to keep going.<p>Some might say that we must separate any refactoring or foundational work from feature building. Wouldn't it be more damaging to separate them? It makes a lot more sense for features to drive refactors. Otherwise, ironically, refactors will not be rooted in business needs, and become even more detached from business realities. Also, this doesn't work with &quot;make the change easy&quot;.<p>QUESTION: How do you plan back-end engineering work? Typical sprint planning rarely pans out. However, removing sprints from backend team is kind of like giving up on planning entirely. Feels like we need some creative thinking to deal with the backend planning problem.<p>Do you have any advice that worked for you, that allows for both business planning, and good backend engineering quality at a healthy pace?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "hakunin",
+    "url": "https://news.ycombinator.com/user?id=hakunin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30844214",
+  "sameAs": "https://news.ycombinator.com/item?id=30844214",
+  "dateCreated": "2022-03-29T16:13:11.061Z",
+  "datePublished": "2022-03-29T15:55:25.000Z",
+  "dateModified": "2022-03-29T16:13:11.061Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你如何计划后端工作？",
+  "headline_zh-Hant": "Ask HN: 你如何計劃後端工作？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在这种情况下，后端=网络开发的服务器端，而前端=网络开发的浏览器/客户端。<p>我已经在个人贡献者和执行级别的角色上工作了近20年（直到今天还在做这两种工作）。In most companies where I worked, backend side of web development had trouble reconciling with business-level planning. It seems to be a backend-specific issue because of the following problems that frontend doesn't seem to have:<p><pre><code> 1. 重构者更有可能与其他人产生大的冲突\n    2. 2. 任务更有可能是基础性的，并成为其他多个任务的先决条件/阻碍因素\n    3. 3.著名的&quot;使变化容易，然后使变化容易&quot;在实践中使大多数任务成为重构或基础性工作，这导致了第1和第2点\n    4. 由于第3点，很难预先预测工作的范围。If you try to retroactively reflect what you're actually doing (i.e. in a sprint), then chances are your board will start with 20 &quot;aspirational&quot; tickets, and end with 40 new tickets closed, none of which are in the original 20. That's because you only discovered what needs doing after you've almost done it.\n</code></pre>\n前端通常没有这些问题的原因是，它在小的、孤立的世界中运作，如页面和组件。后台，就其性质而言，负责维护整个系统的状态。无论它是一组服务，还是一个单一的单体，事实是它通常是一个大的、集成的机器。<p>在你说在一个写得很好的代码库中，这些情况不应该经常发生，事实是，没有那么多写得好的专有代码库。随着时间的推移，在适当的指导下，代码库会得到改善。<p>有人可能会说，我们必须将任何重构或基础工作与功能建设分开。把它们分开不是更有破坏性吗？让功能来驱动重构是更有意义的。否则，具有讽刺意味的是，重构将不会扎根于业务需求，而变得更加脱离业务现实。另外，这与&quot;让改变变得简单&quot;也是行不通的。<p>问题：你是如何计划后端工程工作的？典型的冲刺计划很少能实现。然而，从后端团队中删除冲刺，有点像完全放弃了计划。感觉我们需要一些创造性的思维来处理后端规划问题。<p>你有什么建议对你有用，可以让业务规划和良好的后端工程质量以健康的速度进行？",
+  "description_zh-Hant": "在這種情況下，後端=網絡開發的服務器端，而前端=網絡開發的瀏覽器/客戶端。<p>我已經在個人貢獻者和執行級別的角色上工作了近20年（直到今天還在做這兩種工作）。In most companies where I worked, backend side of web development had trouble reconciling with business-level planning. It seems to be a backend-specific issue because of the following problems that frontend doesn't seem to have:<p><pre><code> 1. 重構者更有可能與其他人產生大的衝突\n    2. 2. 任務更有可能是基礎性的，併成為其他多個任務的先決條件/阻礙因素\n    3. 3.著名的&quot;使變化容易，然後使變化容易&quot;在實踐中使大多數任務成為重構或基礎性工作，這導致了第1和第2點\n    4. 由於第3點，很難預先預測工作的範圍。If you try to retroactively reflect what you're actually doing (i.e. in a sprint), then chances are your board will start with 20 &quot;aspirational&quot; tickets, and end with 40 new tickets closed, none of which are in the original 20. That's because you only discovered what needs doing after you've almost done it.\n</code></pre>\n前端通常沒有這些問題的原因是，它在小的、孤立的世界中運作，如頁面和組件。後臺，就其性質而言，負責維護整個系統的狀態。無論它是一組服務，還是一個單一的單體，事實是它通常是一個大的、集成的機器。<p>在你說在一個寫得很好的代碼庫中，這些情況不應該經常發生，事實是，沒有那麼多寫得好的專有代碼庫。隨著時間的推移，在適當的指導下，代碼庫會得到改善。<p>有人可能會說，我們必須將任何重構或基礎工作與功能建設分開。把它們分開不是更有破壞性嗎？讓功能來驅動重構是更有意義的。否則，具有諷刺意味的是，重構將不會紮根於業務需求，而變得更加脫離業務現實。另外，這與&quot;讓改變變得簡單&quot;也是行不通的。<p>問題：你是如何計劃後端工程工作的？典型的衝刺計劃很少能實現。然而，從後端團隊中刪除衝刺，有點像完全放棄了計劃。感覺我們需要一些創造性的思維來處理後端規劃問題。<p>你有什麼建議對你有用，可以讓業務規劃和良好的後端工程質量以健康的速度進行？"
+}
