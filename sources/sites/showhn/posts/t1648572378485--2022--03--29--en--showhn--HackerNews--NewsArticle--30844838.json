@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--showhn--HackerNews--NewsArticle--30844838",
+  "url": "https://news.ycombinator.com/item?id=30844838",
+  "headline": "Show HN: The power of PostgREST in a Rust library",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "ruslan_talpa",
+    "url": "https://news.ycombinator.com/user?id=ruslan_talpa"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30844838",
+  "sameAs": "https://github.com/subzerocloud/blue-steel",
+  "dateCreated": "2022-03-29T16:46:18.485Z",
+  "datePublished": "2022-03-29T16:36:45.000Z",
+  "dateModified": "2022-03-29T16:46:18.485Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Rust库中PostgREST的力量",
+  "headline_zh-Hant": "Show HN: Rust庫中PostgREST的力量",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
