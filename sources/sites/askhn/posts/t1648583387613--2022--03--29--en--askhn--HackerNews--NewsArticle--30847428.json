@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--askhn--HackerNews--NewsArticle--30847428",
+  "url": "https://news.ycombinator.com/item?id=30847428",
+  "headline": "Ask HN: Did Stripe forget to turn off their grid before pushing?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I see vertical lines on a few of the new Stripe landing pages now that go from the header to the footer, e.g.:<p>https://stripe.com/payments/ach-direct-debit<p>It could conceivably be an intentional design decision - but it really looks to me like a developer tool didn't get turned off for aligning items on the page.<p>Screenshot here:<p>https://i.imgur.com/E5JpIh0.png",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "philip1209",
+    "url": "https://news.ycombinator.com/user?id=philip1209"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30847428",
+  "sameAs": "https://news.ycombinator.com/item?id=30847428",
+  "dateCreated": "2022-03-29T19:49:47.613Z",
+  "datePublished": "2022-03-29T19:43:38.000Z",
+  "dateModified": "2022-03-29T19:49:47.613Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 难道Stripe在推送前忘记了关闭他们的网格？",
+  "headline_zh-Hant": "Ask HN: 難道Stripe在推送前忘記了關閉他們的網格？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我在一些新的Stripe登陆页面上看到了从页眉到页脚的垂直线，例如：<p>https://stripe.com/payments/ach-direct-debit<p>可以想象这是一个有意的设计决定--但在我看来，这确实是一个没有被关闭的开发者工具，用于对齐页面上的项目。<p>屏幕截图：<p>https://i.imgur.com/E5JpIh0.png",
+  "description_zh-Hant": "我在一些新的Stripe登陸頁面上看到了從頁眉到頁腳的垂直線，例如：<p>https://stripe.com/payments/ach-direct-debit<p>可以想象這是一個有意的設計決定--但在我看來，這確實是一個沒有被關閉的開發者工具，用於對齊頁面上的項目。<p>屏幕截圖：<p>https://i.imgur.com/E5JpIh0.png"
+}
