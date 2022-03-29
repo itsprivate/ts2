@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--myfeed--HackerNews--NewsArticle--30846291",
+  "url": "https://news.ycombinator.com/item?id=30846291",
+  "headline": "Bastors: A toy TinyBASIC to Rust transpiler",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jonasdn",
+    "url": "https://news.ycombinator.com/user?id=jonasdn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30846291",
+  "sameAs": "https://github.com/jonasdn/bastors",
+  "dateCreated": "2022-03-29T18:36:24.396Z",
+  "datePublished": "2022-03-29T18:09:40.000Z",
+  "dateModified": "2022-03-29T18:36:24.396Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Bastors。一个从TinyBASIC到Rust的玩具转译器",
+  "headline_zh-Hant": "Bastors。一個從TinyBASIC到Rust的玩具轉譯器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
