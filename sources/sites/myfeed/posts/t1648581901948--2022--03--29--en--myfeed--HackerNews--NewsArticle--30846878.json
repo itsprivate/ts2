@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--myfeed--HackerNews--NewsArticle--30846878",
+  "url": "https://news.ycombinator.com/item?id=30846878",
+  "headline": "I tried GitHub Copilot and it's the best thing ever",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dwgebler",
+    "url": "https://news.ycombinator.com/user?id=dwgebler"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30846878",
+  "sameAs": "https://davegebler.com/post/php/i-tried-github-copilot-and-it-s-the-best-thing-ever",
+  "dateCreated": "2022-03-29T19:25:01.948Z",
+  "datePublished": "2022-03-29T18:58:45.000Z",
+  "dateModified": "2022-03-29T19:25:01.948Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我试过GitHub Copilot，它是有史以来最好的东西",
+  "headline_zh-Hant": "我試過GitHub Copilot，它是有史以來最好的東西",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
