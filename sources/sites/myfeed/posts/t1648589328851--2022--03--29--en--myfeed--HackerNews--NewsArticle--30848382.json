@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--myfeed--HackerNews--NewsArticle--30848382",
+  "url": "https://news.ycombinator.com/item?id=30848382",
+  "headline": "Do Kids Like Sugar?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "martyalain",
+    "url": "https://news.ycombinator.com/user?id=martyalain"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30848382",
+  "sameAs": "http://lambdaway.free.fr/lambdawalks/?view=scratch",
+  "dateCreated": "2022-03-29T21:28:48.851Z",
+  "datePublished": "2022-03-29T21:08:04.000Z",
+  "dateModified": "2022-03-29T21:28:48.851Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "孩子们喜欢吃糖吗？",
+  "headline_zh-Hant": "孩子們喜歡吃糖嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
