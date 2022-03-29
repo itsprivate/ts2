@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--myfeed--HackerNews--NewsArticle--30844005",
+  "url": "https://news.ycombinator.com/item?id=30844005",
+  "headline": "How Ukraine’s Internet is still working despite Russian bombs and cyberattacks",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mwattsun",
+    "url": "https://news.ycombinator.com/user?id=mwattsun"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30844005",
+  "sameAs": "https://www.washingtonpost.com/technology/2022/03/29/ukraine-internet-faq/",
+  "dateCreated": "2022-03-29T15:52:57.386Z",
+  "datePublished": "2022-03-29T15:37:13.000Z",
+  "dateModified": "2022-03-29T15:52:57.386Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "尽管有俄罗斯的炸弹和网络攻击，乌克兰的互联网仍在运作",
+  "headline_zh-Hant": "儘管有俄羅斯的炸彈和網絡攻擊，烏克蘭的互聯網仍在運作",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

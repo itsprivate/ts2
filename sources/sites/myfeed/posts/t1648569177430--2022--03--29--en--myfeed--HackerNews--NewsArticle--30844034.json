@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--myfeed--HackerNews--NewsArticle--30844034",
+  "url": "https://news.ycombinator.com/item?id=30844034",
+  "headline": "Are we wrong about Web3?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "LukeEF",
+    "url": "https://news.ycombinator.com/user?id=LukeEF"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30844034",
+  "sameAs": "https://terminusdb.com/blog/were-we-wrong-about-web3/",
+  "dateCreated": "2022-03-29T15:52:57.430Z",
+  "datePublished": "2022-03-29T15:39:33.000Z",
+  "dateModified": "2022-03-29T15:52:57.430Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我们对Web3的看法错了吗？",
+  "headline_zh-Hant": "我們對Web3的看法錯了嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
