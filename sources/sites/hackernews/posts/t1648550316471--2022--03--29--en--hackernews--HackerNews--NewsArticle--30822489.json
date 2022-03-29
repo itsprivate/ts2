@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--hackernews--HackerNews--NewsArticle--30822489",
+  "url": "https://news.ycombinator.com/item?id=30822489",
+  "headline": "The user experience problems of quadratic voting",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "timdaub",
+    "url": "https://news.ycombinator.com/user?id=timdaub"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30822489",
+  "sameAs": "https://timdaub.github.io/2022/03/27/the-user-experience-problems-of-quadratic-voting/",
+  "dateCreated": "2022-03-29T10:38:36.471Z",
+  "datePublished": "2022-03-27T18:08:03.000Z",
+  "dateModified": "2022-03-29T10:38:36.471Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "二次元投票的用户体验问题",
+  "headline_zh-Hant": "二次元投票的用戶體驗問題",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
