@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--hackernews--HackerNews--NewsArticle--30812156",
+  "url": "https://news.ycombinator.com/item?id=30812156",
+  "headline": "JEP 419: Foreign Function and Memory API",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ahachete",
+    "url": "https://news.ycombinator.com/user?id=ahachete"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30812156",
+  "sameAs": "https://openjdk.java.net/jeps/419",
+  "dateCreated": "2022-03-29T08:36:04.328Z",
+  "datePublished": "2022-03-26T14:33:51.000Z",
+  "dateModified": "2022-03-29T08:36:04.328Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "JEP 419: 外来函数和内存API",
+  "headline_zh-Hant": "JEP 419: 外來函數和內存API",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
