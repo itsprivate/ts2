@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--myfeed--HackerNews--NewsArticle--30849431",
+  "url": "https://news.ycombinator.com/item?id=30849431",
+  "headline": "Why is Abramovich playing peacemaker after Russia’s invasion of Ukraine?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tartoran",
+    "url": "https://news.ycombinator.com/user?id=tartoran"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30849431",
+  "sameAs": "https://www.theguardian.com/world/2022/mar/30/why-is-abramovich-playing-peacemaker-after-russias-invasion-of-ukraine",
+  "dateCreated": "2022-03-29T23:31:04.333Z",
+  "datePublished": "2022-03-29T23:01:17.000Z",
+  "dateModified": "2022-03-29T23:31:04.333Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "俄罗斯入侵乌克兰后，阿布拉莫维奇为何要扮演和平使者？",
+  "headline_zh-Hant": "俄羅斯入侵烏克蘭後，阿布拉莫維奇為何要扮演和平使者？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
