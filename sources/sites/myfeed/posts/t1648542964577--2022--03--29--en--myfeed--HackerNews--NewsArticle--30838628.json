@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--myfeed--HackerNews--NewsArticle--30838628",
+  "url": "https://news.ycombinator.com/item?id=30838628",
+  "headline": "Snapseed|Photo Editing Application",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "harveyspecter",
+    "url": "https://news.ycombinator.com/user?id=harveyspecter"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30838628",
+  "sameAs": "https://snapseedapk.com/",
+  "dateCreated": "2022-03-29T08:36:04.577Z",
+  "datePublished": "2022-03-29T04:02:15.000Z",
+  "dateModified": "2022-03-29T08:36:04.577Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Snapseed|照片编辑应用程序",
+  "headline_zh-Hant": "Snapseed|照片編輯應用程序",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
