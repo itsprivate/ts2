@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--myfeed--HackerNews--NewsArticle--30848823",
+  "url": "https://news.ycombinator.com/item?id=30848823",
+  "headline": "Tell HN: Deleting a user account from Google Workspace is a nightmare",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "So I have a Google Workspace account for my business and I wanted to migrate all email/data of an employee who left the business. Previously, as a GSuite user, all it took was a couple of clicks to achieve this. Now, I have to do the following.<p>1. Login to admin console<p>2. Select the user and reset their password. You cannot use the &quot;Automatically generate a password&quot;. This becomes important later. You instead have to specify a password which meets some security criteria<p>3. In the Security section for the user, Disable &quot;Login challenge&quot;. You now have 10 minutes to get all the next few steps done<p>4. If you have 2FA enforced in your org, download backup codes for the user<p>5. Go to home page of Admin Console, click on &quot;Data migration&quot;<p>6. Select Gmail as source<p>7. Manually type in the email address of the user you want to migrate email for.<p>8. Click on &quot;Authorize&quot;<p>9. You will be taken to a login screen where you enter the user name (again) and password which you specified in step (2)<p>10. You will be prompted with a 2FA challenge. Click on &quot;Try another way&quot; and enter a backup code you downloaded in step (4)<p>11. If you made the mistake of choosing the &quot;Automatically generate a password&quot; option in step (2), it will prompt you to choose a new password for this user. Type a new password, type it again<p>12. It takes you back to the same screen as in step (7) with the status showing &quot;Authorized&quot;.<p>13. You now enter a destination mailbox for the user.<p>14. Click on &quot;Start&quot; and wait.<p>It took me a good hour with a number of missteps, head scratching, reading docs, contacting support, chatting with them to arrive at the above sequence of steps.<p>After the above finishes, you then have to separate migrate the users docs/drive etc. separately.<p>WHO IN GOOGLE THOUGHT THIS WAS A GOOD USER EXPERIENCE??!!",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hnthrowaway3",
+    "url": "https://news.ycombinator.com/user?id=hnthrowaway3"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30848823",
+  "sameAs": "https://news.ycombinator.com/item?id=30848823",
+  "dateCreated": "2022-03-29T22:10:37.088Z",
+  "datePublished": "2022-03-29T21:48:54.000Z",
+  "dateModified": "2022-03-29T22:10:37.088Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：从谷歌工作区删除用户账户是一场噩梦",
+  "headline_zh-Hant": "告訴HN：從谷歌工作區刪除用戶賬戶是一場噩夢",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我的企业有一个Google Workspace账户，我想迁移一个离开企业的员工的所有电子邮件/数据。以前，作为GSuite的用户，只需点击几下就能实现这一目标。现在，我必须做以下工作。<p>1. 登录到管理控制台<p>2.选择用户并重置其密码。你不能使用&quot;自动生成一个密码&quot;。这在后面变得很重要。你必须指定一个符合某些安全标准的密码<p>3. 在用户的安全部分，禁用&quot;登录挑战&quot;。你现在有10分钟的时间来完成接下来的几个步骤<p>4.如果你在组织中执行了2FA，为用户下载备份代码<p>5. 进入管理控制台的主页，点击&quot;数据迁移&quot;<p>6.选择Gmail作为来源<p>7.手动输入你想迁移的用户的电子邮件地址<p>8.点击&quot;授权&quot;<p>9.你将被带到登录界面。你将被带到一个登录屏幕，在那里你输入你在步骤（2）中指定的用户名（再次）和密码<p>10。你将会被提示进行2FA挑战。点击&quot;尝试另一种方式&quot;并输入你在步骤(4)<p>11中下载的备份代码。如果你在步骤（2）中错误地选择了&quot;自动生成密码&quot;选项，它将提示你为这个用户选择一个新密码。输入一个新的密码，再输入一次<p>12. 它将带你回到与步骤（7）相同的屏幕，状态显示为&quot;授权&quot;。<p>13. 你现在为用户输入一个目标邮箱。<p>14. 点击&quot;开始&quot;，然后等待。<p>我花了一个小时的时间，经历了许多错误的步骤，挠头，阅读文档，联系支持，与他们聊天，才完成了上述步骤。<p>在完成上述步骤后，你必须分别迁移用户的文档/硬盘等。",
+  "description_zh-Hant": "我的企業有一個Google Workspace賬戶，我想遷移一個離開企業的員工的所有電子郵件/數據。以前，作為GSuite的用戶，只需點擊幾下就能實現這一目標。現在，我必須做以下工作。<p>1. 登錄到管理控制檯<p>2.選擇用戶並重置其密碼。你不能使用&quot;自動生成一個密碼&quot;。這在後面變得很重要。你必須指定一個符合某些安全標準的密碼<p>3. 在用戶的安全部分，禁用&quot;登錄挑戰&quot;。你現在有10分鐘的時間來完成接下來的幾個步驟<p>4.如果你在組織中執行了2FA，為用戶下載備份代碼<p>5. 進入管理控制檯的主頁，點擊&quot;數據遷移&quot;<p>6.選擇Gmail作為來源<p>7.手動輸入你想遷移的用戶的電子郵件地址<p>8.點擊&quot;授權&quot;<p>9.你將被帶到登錄界面。你將被帶到一個登錄屏幕，在那裡你輸入你在步驟（2）中指定的用戶名（再次）和密碼<p>10。你將會被提示進行2FA挑戰。點擊&quot;嘗試另一種方式&quot;並輸入你在步驟(4)<p>11中下載的備份代碼。如果你在步驟（2）中錯誤地選擇了&quot;自動生成密碼&quot;選項，它將提示你為這個用戶選擇一個新密碼。輸入一個新的密碼，再輸入一次<p>12. 它將帶你回到與步驟（7）相同的屏幕，狀態顯示為&quot;授權&quot;。<p>13. 你現在為用戶輸入一個目標郵箱。<p>14. 點擊&quot;開始&quot;，然後等待。<p>我花了一個小時的時間，經歷了許多錯誤的步驟，撓頭，閱讀文檔，聯繫支持，與他們聊天，才完成了上述步驟。<p>在完成上述步驟後，你必須分別遷移用戶的文檔/硬盤等。"
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--myfeed--HackerNews--NewsArticle--30848628",
+  "url": "https://news.ycombinator.com/item?id=30848628",
+  "headline": "The marine biologist whose photography pastime became a profession",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gigama",
+    "url": "https://news.ycombinator.com/user?id=gigama"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30848628",
+  "sameAs": "https://www.nature.com/immersive/d41586-022-00757-5/index.html",
+  "dateCreated": "2022-03-29T22:10:37.050Z",
+  "datePublished": "2022-03-29T21:29:58.000Z",
+  "dateModified": "2022-03-29T22:10:37.050Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "将摄影作为消遣成为职业的海洋生物学家",
+  "headline_zh-Hant": "將攝影作為消遣成為職業的海洋生物學家",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
