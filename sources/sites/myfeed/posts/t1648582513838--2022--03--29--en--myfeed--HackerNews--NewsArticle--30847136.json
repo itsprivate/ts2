@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--myfeed--HackerNews--NewsArticle--30847136",
+  "url": "https://news.ycombinator.com/item?id=30847136",
+  "headline": "Markdown Monster: The Markdown Editor for Windows",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "thunderbong",
+    "url": "https://news.ycombinator.com/user?id=thunderbong"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30847136",
+  "sameAs": "https://markdownmonster.west-wind.com/",
+  "dateCreated": "2022-03-29T19:35:13.838Z",
+  "datePublished": "2022-03-29T19:19:06.000Z",
+  "dateModified": "2022-03-29T19:35:13.838Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Markdown怪物。Windows版的马克笔编辑器",
+  "headline_zh-Hant": "Markdown怪物。Windows版的馬克筆編輯器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
