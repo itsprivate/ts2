@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--askhn--HackerNews--NewsArticle--30841341",
+  "url": "https://news.ycombinator.com/item?id=30841341",
+  "headline": "Ask HN: Why don't major VPS hosts provide OpenBSD?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "It seems to me there would be a demand for secure cloud VMs, yet most hosts only provide Windows and various forms of Linux.<p>Do they feel they would have to provide SDKs for the rest of their services on BSD, and don't want to support that?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "pbohun",
+    "url": "https://news.ycombinator.com/user?id=pbohun"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30841341",
+  "sameAs": "https://news.ycombinator.com/item?id=30841341",
+  "dateCreated": "2022-03-29T11:53:31.774Z",
+  "datePublished": "2022-03-29T11:50:48.000Z",
+  "dateModified": "2022-03-29T11:53:31.774Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么主要的VPS主机不提供OpenBSD？",
+  "headline_zh-Hant": "Ask HN: 為什麼主要的VPS主機不提供OpenBSD？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在我看来，对安全的云虚拟机会有需求，但大多数主机只提供Windows和各种形式的Linux。<p>他们是否觉得他们必须为BSD上的其他服务提供SDK，而不想支持这种做法？",
+  "description_zh-Hant": "在我看來，對安全的雲虛擬機會有需求，但大多數主機只提供Windows和各種形式的Linux。<p>他們是否覺得他們必須為BSD上的其他服務提供SDK，而不想支持這種做法？"
+}
