@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--hackernews--HackerNews--NewsArticle--30840571",
+  "url": "https://news.ycombinator.com/item?id=30840571",
+  "headline": "MirageOS v4.0.0 published: self-managed internet infrastructure with unikernels",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kirschner",
+    "url": "https://news.ycombinator.com/user?id=kirschner"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30840571",
+  "sameAs": "https://mirage.io/blog/announcing-mirage-40",
+  "dateCreated": "2022-03-29T10:11:22.057Z",
+  "datePublished": "2022-03-29T09:42:20.000Z",
+  "dateModified": "2022-03-29T10:11:22.057Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "MirageOS v4.0.0发布：带有单核的自我管理的互联网基础设施",
+  "headline_zh-Hant": "MirageOS v4.0.0發佈：帶有單核的自我管理的互聯網基礎設施",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
