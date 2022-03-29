@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--myfeed--HackerNews--NewsArticle--30843806",
+  "url": "https://news.ycombinator.com/item?id=30843806",
+  "headline": "Russia accuses US of leading cyber campaign",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Element_",
+    "url": "https://news.ycombinator.com/user?id=Element_"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30843806",
+  "sameAs": "https://thehill.com/policy/cybersecurity/600140-russia-accuses-us-of-leading-massive-cyber-campaign",
+  "dateCreated": "2022-03-29T15:52:57.322Z",
+  "datePublished": "2022-03-29T15:23:30.000Z",
+  "dateModified": "2022-03-29T15:52:57.322Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "俄罗斯指责美国主导网络运动",
+  "headline_zh-Hant": "俄羅斯指責美國主導網絡運動",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
