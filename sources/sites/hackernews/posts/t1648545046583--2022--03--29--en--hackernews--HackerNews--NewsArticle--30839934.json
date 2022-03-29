@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--hackernews--HackerNews--NewsArticle--30839934",
+  "url": "https://news.ycombinator.com/item?id=30839934",
+  "headline": "Ask HN: Anyone use GitHub Issues at their company?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've used Jira (with integration to GitHub) at every company I've worked at. However, over the last couple of years, I noticed GitHub has been investing in their project management features.<p>I've seen some open source projects leverage GitHub Issues (https://github.com/aws/aws-cdk/issues and https://github.com/vercel/next.js/issues), but it just looks really unorganized compared to Jira (possible bias because I'm new to GitHub Issues).<p>Looking to get some thoughts on GitHub vs Jira for project management. We're a startup looking specifically at the following features: bug reporting, sprint/epic management, release management (from development, to code review, to QE verification, to release), and integration with non-engineering teams (ie, letting customer support/customer success tag issues that customers have brought up).",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "brycelarkin",
+    "url": "https://news.ycombinator.com/user?id=brycelarkin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30839934",
+  "sameAs": "https://news.ycombinator.com/item?id=30839934",
+  "dateCreated": "2022-03-29T09:10:46.583Z",
+  "datePublished": "2022-03-29T07:49:18.000Z",
+  "dateModified": "2022-03-29T09:10:46.583Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 有人在他们公司使用GitHub问题吗？",
+  "headline_zh-Hant": "Ask HN: 有人在他們公司使用GitHub問題嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在我工作过的每家公司，我都使用过Jira（与GitHub集成）。<p>我看到一些开源项目利用了GitHub Issues（https://github.com/aws/aws-cdk/issues 和 https://github.com/vercel/next.js/issues），但与Jira相比，它看起来非常无序（可能是因为我是GitHub Issues的新手，所以有偏见）。<p>希望得到一些关于GitHub与Jira的项目管理的想法。我们是一家初创公司，特别关注以下功能：错误报告、冲刺/事件管理、发布管理（从开发到代码审查、到QE验证、到发布），以及与非工程团队的整合（即让客户支持/客户成功标记客户提出的问题）。",
+  "description_zh-Hant": "在我工作過的每家公司，我都使用過Jira（與GitHub集成）。<p>我看到一些開源項目利用了GitHub Issues（https://github.com/aws/aws-cdk/issues 和 https://github.com/vercel/next.js/issues），但與Jira相比，它看起來非常無序（可能是因為我是GitHub Issues的新手，所以有偏見）。<p>希望得到一些關於GitHub與Jira的項目管理的想法。我們是一家初創公司，特別關注以下功能：錯誤報告、衝刺/事件管理、發佈管理（從開發到代碼審查、到QE驗證、到發佈），以及與非工程團隊的整合（即讓客戶支持/客戶成功標記客戶提出的問題）。"
+}
