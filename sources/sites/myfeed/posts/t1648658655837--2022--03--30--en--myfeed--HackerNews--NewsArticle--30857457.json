@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30857457",
+  "url": "https://news.ycombinator.com/item?id=30857457",
+  "headline": "Vim Mode for macOS. Paid app but source is open. Vim in most situations",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "godbout",
+    "url": "https://news.ycombinator.com/user?id=godbout"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30857457",
+  "sameAs": "https://kindavim.app",
+  "dateCreated": "2022-03-30T16:44:15.837Z",
+  "datePublished": "2022-03-30T16:30:29.000Z",
+  "dateModified": "2022-03-30T16:44:15.837Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用于macOS的Vim模式。付费的应用程序，但源代码是开放的。大多数情况下的Vim",
+  "headline_zh-Hant": "用於macOS的Vim模式。付費的應用程序，但源代碼是開放的。大多數情況下的Vim",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
