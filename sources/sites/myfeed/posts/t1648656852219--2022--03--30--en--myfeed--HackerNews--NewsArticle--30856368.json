@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30856368",
+  "url": "https://news.ycombinator.com/item?id=30856368",
+  "headline": "Macedonia's first census in two decades reveals a nearly 10% population drop",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "psikomanjak",
+    "url": "https://news.ycombinator.com/user?id=psikomanjak"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30856368",
+  "sameAs": "https://www.washingtonpost.com/politics/north-macedonias-population-shrank-by-nearly-10percent-since-2002/2022/03/30/fc4e263c-b031-11ec-9dbd-0d4609d44c1c_story.html",
+  "dateCreated": "2022-03-30T16:14:12.219Z",
+  "datePublished": "2022-03-30T15:19:10.000Z",
+  "dateModified": "2022-03-30T16:14:12.219Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "马其顿二十年来的首次人口普查显示人口减少近10%。",
+  "headline_zh-Hant": "馬其頓二十年來的首次人口普查顯示人口減少近10%。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
