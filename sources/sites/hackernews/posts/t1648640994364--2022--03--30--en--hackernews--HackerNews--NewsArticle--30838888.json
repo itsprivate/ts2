@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--hackernews--HackerNews--NewsArticle--30838888",
+  "url": "https://news.ycombinator.com/item?id=30838888",
+  "headline": "Plath Traps",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lermontov",
+    "url": "https://news.ycombinator.com/user?id=lermontov"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30838888",
+  "sameAs": "https://sydneyreviewofbooks.com/review/clark-red-comet-sylvia-plath/",
+  "dateCreated": "2022-03-30T11:49:54.364Z",
+  "datePublished": "2022-03-29T04:49:33.000Z",
+  "dateModified": "2022-03-30T11:49:54.364Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Plath Traps",
+  "headline_zh-Hant": "Plath Traps",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
