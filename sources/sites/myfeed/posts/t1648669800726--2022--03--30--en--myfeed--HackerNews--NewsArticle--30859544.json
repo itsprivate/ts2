@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30859544",
+  "url": "https://news.ycombinator.com/item?id=30859544",
+  "headline": "Putin’s philosophers: Who inspired him to invade Ukraine?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bardc",
+    "url": "https://news.ycombinator.com/user?id=bardc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30859544",
+  "sameAs": "https://www.aljazeera.com/opinions/2022/3/30/putins-philosophers",
+  "dateCreated": "2022-03-30T19:50:00.726Z",
+  "datePublished": "2022-03-30T19:10:19.000Z",
+  "dateModified": "2022-03-30T19:50:00.726Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "普京的哲学家们。谁给了他入侵乌克兰的灵感？",
+  "headline_zh-Hant": "普京的哲學家們。誰給了他入侵烏克蘭的靈感？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
