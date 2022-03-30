@@ -67,6 +67,10 @@ sources:
       - https://astralcodexten.substack.com/feed
     from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
     limit: 50
+  - args:
+      - https://www.kalzumeus.com/feed/articles/
+    from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    limit: 50
 steps:
   - from: ../../common/format-rss.ts
     args:
