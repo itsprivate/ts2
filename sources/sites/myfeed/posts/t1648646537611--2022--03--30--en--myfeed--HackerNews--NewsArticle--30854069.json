@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30854069",
+  "url": "https://news.ycombinator.com/item?id=30854069",
+  "headline": "Systemd 251-rc1 Released With Experimental systemd-sysupdate Tool",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "laktak",
+    "url": "https://news.ycombinator.com/user?id=laktak"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30854069",
+  "sameAs": "https://www.phoronix.com/scan.php?page=news_item&px=systemd-251-rc1",
+  "dateCreated": "2022-03-30T13:22:17.611Z",
+  "datePublished": "2022-03-30T12:15:11.000Z",
+  "dateModified": "2022-03-30T13:22:17.611Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Systemd 251-rc1发布，含实验性systemd-sysupdate工具",
+  "headline_zh-Hant": "Systemd 251-rc1發佈，含實驗性systemd-sysupdate工具",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

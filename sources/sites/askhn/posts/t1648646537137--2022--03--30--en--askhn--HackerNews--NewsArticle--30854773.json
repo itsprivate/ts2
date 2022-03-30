@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--askhn--HackerNews--NewsArticle--30854773",
+  "url": "https://news.ycombinator.com/item?id=30854773",
+  "headline": "Ask HN: What is the best testing strategy?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "In the making of a new language, i was wondering, what testing strategies are out there? Which one(s) is/are the best? And why?<p>Follow up, What is it exactly that causes us to need tests? To me, it sounds like, the compiler just cannot understand all code. E.g. when writing data to a pointer, the compiler does not know how much space is allocated for that pointer. Is it possible to make the compiler understand, or is that crazy work?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ki_",
+    "url": "https://news.ycombinator.com/user?id=ki_"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30854773",
+  "sameAs": "https://news.ycombinator.com/item?id=30854773",
+  "dateCreated": "2022-03-30T13:22:17.137Z",
+  "datePublished": "2022-03-30T13:15:41.000Z",
+  "dateModified": "2022-03-30T13:22:17.137Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 什么是最好的测试策略？",
+  "headline_zh-Hant": "Ask HN: 什麼是最好的測試策略？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在制作一种新的语言时，我想知道，有哪些测试策略？哪种策略是最好的？为什么？<p>后续，到底是什么原因导致我们需要测试？对我来说，这听起来像是，编译器不能理解所有的代码。例如，当向一个指针写数据时，编译器不知道为这个指针分配了多少空间。有没有可能让编译器理解，或者说那是疯狂的工作？",
+  "description_zh-Hant": "在製作一種新的語言時，我想知道，有哪些測試策略？哪種策略是最好的？為什麼？<p>後續，到底是什麼原因導致我們需要測試？對我來說，這聽起來像是，編譯器不能理解所有的代碼。例如，當向一個指針寫數據時，編譯器不知道為這個指針分配了多少空間。有沒有可能讓編譯器理解，或者說那是瘋狂的工作？"
+}
