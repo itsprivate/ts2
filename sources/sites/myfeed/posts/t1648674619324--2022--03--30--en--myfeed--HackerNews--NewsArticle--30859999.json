@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30859999",
+  "url": "https://news.ycombinator.com/item?id=30859999",
+  "headline": "3 things should be on resumes: work experience, education, community experience",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rosiesherry",
+    "url": "https://news.ycombinator.com/user?id=rosiesherry"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30859999",
+  "sameAs": "https://rosie.land/posts/community-participation-for-your-cv/",
+  "dateCreated": "2022-03-30T21:10:19.324Z",
+  "datePublished": "2022-03-30T19:52:30.000Z",
+  "dateModified": "2022-03-30T21:10:19.324Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "简历上应该有3样东西：工作经验、教育、社区经验",
+  "headline_zh-Hant": "簡歷上應該有3樣東西：工作經驗、教育、社區經驗",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
