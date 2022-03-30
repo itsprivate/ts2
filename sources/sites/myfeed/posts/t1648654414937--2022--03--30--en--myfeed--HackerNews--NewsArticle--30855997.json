@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30855997",
+  "url": "https://news.ycombinator.com/item?id=30855997",
+  "headline": "We pay equal salaries, wherever you work",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "thomaspaulmann",
+    "url": "https://news.ycombinator.com/user?id=thomaspaulmann"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30855997",
+  "sameAs": "https://www.raycast.com/blog/why-we-pay-equal-salaries-wherever-you-work/",
+  "dateCreated": "2022-03-30T15:33:34.937Z",
+  "datePublished": "2022-03-30T14:51:00.000Z",
+  "dateModified": "2022-03-30T15:33:34.937Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "无论你在哪里工作，我们都支付同等的工资",
+  "headline_zh-Hant": "無論你在哪裡工作，我們都支付同等的工資",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
