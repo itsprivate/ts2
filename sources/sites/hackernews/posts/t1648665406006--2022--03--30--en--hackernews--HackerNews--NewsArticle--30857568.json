@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--hackernews--HackerNews--NewsArticle--30857568",
+  "url": "https://news.ycombinator.com/item?id=30857568",
+  "headline": "Artists Who Code, a group helping artists switch careers to tech",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "linux2647",
+    "url": "https://news.ycombinator.com/user?id=linux2647"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30857568",
+  "sameAs": "https://www.latimes.com/entertainment-arts/story/2022-03-24/artists-who-code-helping-artists-switch-careers-to-tech",
+  "dateCreated": "2022-03-30T18:36:46.006Z",
+  "datePublished": "2022-03-30T16:38:47.000Z",
+  "dateModified": "2022-03-30T18:36:46.006Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "代码艺术家，一个帮助艺术家转向技术职业的团体",
+  "headline_zh-Hant": "代碼藝術家，一個幫助藝術家轉向技術職業的團體",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
