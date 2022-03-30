@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30858804",
+  "url": "https://news.ycombinator.com/item?id=30858804",
+  "headline": "Commonly-held opinion is wrong, but read on to discover it's mostly right",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jzelinskie",
+    "url": "https://news.ycombinator.com/user?id=jzelinskie"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30858804",
+  "sameAs": "https://authzed.com/blog/your-opinion-is-wrong/",
+  "dateCreated": "2022-03-30T19:10:12.244Z",
+  "datePublished": "2022-03-30T18:16:09.000Z",
+  "dateModified": "2022-03-30T19:10:12.244Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "常见的观点是错误的，但继续阅读就会发现它大部分是正确的",
+  "headline_zh-Hant": "常見的觀點是錯誤的，但繼續閱讀就會發現它大部分是正確的",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
