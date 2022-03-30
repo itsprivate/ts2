@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30852376",
+  "url": "https://news.ycombinator.com/item?id=30852376",
+  "headline": "Nuffield Science Project",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "daverol",
+    "url": "https://news.ycombinator.com/user?id=daverol"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30852376",
+  "sameAs": "https://en.wikipedia.org/wiki/Nuffield_Science_Project",
+  "dateCreated": "2022-03-30T08:13:19.594Z",
+  "datePublished": "2022-03-30T07:35:10.000Z",
+  "dateModified": "2022-03-30T08:13:19.594Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Nuffield科学项目",
+  "headline_zh-Hant": "Nuffield科學項目",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
