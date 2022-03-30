@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30861353",
+  "url": "https://news.ycombinator.com/item?id=30861353",
+  "headline": "Airflow: Author, schedule and monitor ETL workflows",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lastdong",
+    "url": "https://news.ycombinator.com/user?id=lastdong"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30861353",
+  "sameAs": "https://airflow.apache.org/",
+  "dateCreated": "2022-03-30T23:10:40.136Z",
+  "datePublished": "2022-03-30T22:00:50.000Z",
+  "dateModified": "2022-03-30T23:10:40.136Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "气流。编写、安排和监控ETL工作流程",
+  "headline_zh-Hant": "氣流。編寫、安排和監控ETL工作流程",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
