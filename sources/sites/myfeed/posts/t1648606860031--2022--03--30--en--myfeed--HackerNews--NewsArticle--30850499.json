@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30850499",
+  "url": "https://news.ycombinator.com/item?id=30850499",
+  "headline": "Nourish: How we refuel",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "colbayosity",
+    "url": "https://news.ycombinator.com/user?id=colbayosity"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30850499",
+  "sameAs": "https://www.the-line-between.com/p/23-nourish",
+  "dateCreated": "2022-03-30T02:21:00.031Z",
+  "datePublished": "2022-03-30T01:23:42.000Z",
+  "dateModified": "2022-03-30T02:21:00.031Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "滋养：我们如何补充能量",
+  "headline_zh-Hant": "滋養：我們如何補充能量",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
