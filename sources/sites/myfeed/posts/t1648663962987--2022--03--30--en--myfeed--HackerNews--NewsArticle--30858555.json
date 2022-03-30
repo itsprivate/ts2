@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30858555",
+  "url": "https://news.ycombinator.com/item?id=30858555",
+  "headline": "I want visually distinct colors!",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "garycomtois",
+    "url": "https://news.ycombinator.com/user?id=garycomtois"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30858555",
+  "sameAs": "https://mokole.com/palette.html",
+  "dateCreated": "2022-03-30T18:12:42.987Z",
+  "datePublished": "2022-03-30T17:55:40.000Z",
+  "dateModified": "2022-03-30T18:12:42.987Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我想要视觉上有区别的颜色!",
+  "headline_zh-Hant": "我想要視覺上有區別的顏色!",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

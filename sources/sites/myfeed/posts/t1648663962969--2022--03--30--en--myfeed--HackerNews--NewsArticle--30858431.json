@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30858431",
+  "url": "https://news.ycombinator.com/item?id=30858431",
+  "headline": "Grafana Mimir, the most scalable open source TSDB in the world",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "alexellisuk",
+    "url": "https://news.ycombinator.com/user?id=alexellisuk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30858431",
+  "sameAs": "https://grafana.com/blog/2022/03/30/announcing-grafana-mimir/",
+  "dateCreated": "2022-03-30T18:12:42.969Z",
+  "datePublished": "2022-03-30T17:44:44.000Z",
+  "dateModified": "2022-03-30T18:12:42.969Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Grafana Mimir，世界上最具扩展性的开源TSDB",
+  "headline_zh-Hant": "Grafana Mimir，世界上最具擴展性的開源TSDB",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
