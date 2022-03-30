@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30853239",
+  "url": "https://news.ycombinator.com/item?id=30853239",
+  "headline": "Verizon blames ‘bad actors’ for the spam text you got from your own number",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Terretta",
+    "url": "https://news.ycombinator.com/user?id=Terretta"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30853239",
+  "sameAs": "https://www.theverge.com/2022/3/29/23001528/verizon-spam-texts-own-number-confirms-statement",
+  "dateCreated": "2022-03-30T10:50:35.005Z",
+  "datePublished": "2022-03-30T10:02:11.000Z",
+  "dateModified": "2022-03-30T10:50:35.005Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Verizon指责 \"坏人 \"从你自己的号码收到垃圾短信",
+  "headline_zh-Hant": "Verizon指責 \"壞人 \"從你自己的號碼收到垃圾短信",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
