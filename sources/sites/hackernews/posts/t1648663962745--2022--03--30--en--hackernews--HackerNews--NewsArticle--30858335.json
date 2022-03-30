@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--hackernews--HackerNews--NewsArticle--30858335",
+  "url": "https://news.ycombinator.com/item?id=30858335",
+  "headline": "SerenityOS Web Browser Passes Acid3 Test",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ingve",
+    "url": "https://news.ycombinator.com/user?id=ingve"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30858335",
+  "sameAs": "https://lunduke.substack.com/p/serenityos-web-browser-passes-acid3",
+  "dateCreated": "2022-03-30T18:12:42.745Z",
+  "datePublished": "2022-03-30T17:36:44.000Z",
+  "dateModified": "2022-03-30T18:12:42.745Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 43
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "SerenityOS网络浏览器通过了Acid3测试",
+  "headline_zh-Hant": "SerenityOS網絡瀏覽器通過了Acid3測試",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
