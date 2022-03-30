@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--hackernews--HackerNews--NewsArticle--30834327",
+  "url": "https://news.ycombinator.com/item?id=30834327",
+  "headline": "The Beatle Who Got Away",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "allthings",
+    "url": "https://news.ycombinator.com/user?id=allthings"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30834327",
+  "sameAs": "https://www.newyorker.com/culture/essay/the-beatle-who-got-away",
+  "dateCreated": "2022-03-30T03:44:17.671Z",
+  "datePublished": "2022-03-28T19:07:12.000Z",
+  "dateModified": "2022-03-30T03:44:17.671Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "逃之夭夭的披头士",
+  "headline_zh-Hant": "逃之夭夭的披頭士",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
