@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30854353",
+  "url": "https://news.ycombinator.com/item?id=30854353",
+  "headline": "Hannah Gadsby on her autism diagnosis: ... always been plagued by a sense th ...",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ColinWright",
+    "url": "https://news.ycombinator.com/user?id=ColinWright"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30854353",
+  "sameAs": "https://www.theguardian.com/stage/2022/mar/19/hannah-gadsby-autism-diagnosis-little-out-of-whack",
+  "dateCreated": "2022-03-30T13:22:17.620Z",
+  "datePublished": "2022-03-30T12:43:55.000Z",
+  "dateModified": "2022-03-30T13:22:17.620Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "汉娜-盖茨比关于她的自闭症诊断：......一直被一种感觉困扰着，那就是......。",
+  "headline_zh-Hant": "漢娜-蓋茨比關於她的自閉症診斷：......一直被一種感覺困擾著，那就是......。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
