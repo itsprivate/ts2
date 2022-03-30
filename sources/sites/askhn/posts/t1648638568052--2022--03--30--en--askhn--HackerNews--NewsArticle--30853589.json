@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--askhn--HackerNews--NewsArticle--30853589",
+  "url": "https://news.ycombinator.com/item?id=30853589",
+  "headline": "Ask HN: Architecting Billing for a SaaS",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi,<p>I’m trying to figure out how billing might work for a potential subscription-based SAAS product.<p>Questions in mind include:\n1. What to charge for? Bandwidth? Storage? Other considerations?\n2. How to collect payment? Is Stripe a good option? What else do I need on the backend?\n3. How much to charge? Expenses + desired profit? Research competition.\n4. How to charge? Establishing tiers seems to be a common practice. Free, Personal, Business, Big, Gigantic. Does this simplify billing? Or is it more of a promotional thing, and establishing a single charge rate is simpler?\n5. What other questions am I not asking?<p>Any advice or references would be appreciated.<p>Thank you!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "krcourville",
+    "url": "https://news.ycombinator.com/user?id=krcourville"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30853589",
+  "sameAs": "https://news.ycombinator.com/item?id=30853589",
+  "dateCreated": "2022-03-30T11:09:28.052Z",
+  "datePublished": "2022-03-30T11:07:08.000Z",
+  "dateModified": "2022-03-30T11:09:28.052Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 构建SaaS的计费方式",
+  "headline_zh-Hant": "Ask HN: 構建SaaS的計費方式",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，<p>我正试图弄清楚一个潜在的基于订阅的SAAS产品的计费方式。<p>心中的问题包括。\n1. 收取什么费用？带宽？存储？其他考虑因素？\n2. 如何收取付款？Stripe是一个好的选择吗？我在后端还需要什么？\n3. 收费多少？支出+预期利润？研究竞争。\n4. 4. 如何收费？建立层级似乎是一种常见的做法。免费、个人、商业、大型、巨型。这是否简化了计费？还是说这更像是一种促销活动，而建立一个单一的收费标准更简单？\n5. 还有什么问题我没有问？<p>如果有任何建议或参考，我们将不胜感激。<p>谢谢你",
+  "description_zh-Hant": "嗨，<p>我正試圖弄清楚一個潛在的基於訂閱的SAAS產品的計費方式。<p>心中的問題包括。\n1. 收取什麼費用？帶寬？存儲？其他考慮因素？\n2. 如何收取付款？Stripe是一個好的選擇嗎？我在後端還需要什麼？\n3. 收費多少？支出+預期利潤？研究競爭。\n4. 4. 如何收費？建立層級似乎是一種常見的做法。免費、個人、商業、大型、巨型。這是否簡化了計費？還是說這更像是一種促銷活動，而建立一個單一的收費標準更簡單？\n5. 還有什麼問題我沒有問？<p>如果有任何建議或參考，我們將不勝感激。<p>謝謝你"
+}
