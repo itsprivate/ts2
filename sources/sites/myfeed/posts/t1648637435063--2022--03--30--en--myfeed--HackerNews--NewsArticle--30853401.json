@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30853401",
+  "url": "https://news.ycombinator.com/item?id=30853401",
+  "headline": "Hackers Steal About $600M in One of the Biggest Crypto Heists",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "james-redwood",
+    "url": "https://news.ycombinator.com/user?id=james-redwood"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30853401",
+  "sameAs": "https://www.bloomberg.com/news/articles/2022-03-29/hackers-steal-590-million-from-ronin-in-latest-bridge-attack",
+  "dateCreated": "2022-03-30T10:50:35.063Z",
+  "datePublished": "2022-03-30T10:32:14.000Z",
+  "dateModified": "2022-03-30T10:50:35.063Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "黑客在最大的一次加密货币抢劫中窃取了约6亿美元的资金",
+  "headline_zh-Hant": "黑客在最大的一次加密貨幣搶劫中竊取了約6億美元的資金",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

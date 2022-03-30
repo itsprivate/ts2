@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30853472",
+  "url": "https://news.ycombinator.com/item?id=30853472",
+  "headline": "Brain wave signals during sleep show how risk-seeking people may be",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rajnathani",
+    "url": "https://news.ycombinator.com/user?id=rajnathani"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30853472",
+  "sameAs": "https://medicalxpress.com/news/2022-03-risk-seeking-people.html",
+  "dateCreated": "2022-03-30T10:50:35.123Z",
+  "datePublished": "2022-03-30T10:45:13.000Z",
+  "dateModified": "2022-03-30T10:50:35.123Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "睡眠中的脑电波信号显示人们可能有多大的风险追求",
+  "headline_zh-Hant": "睡眠中的腦電波信號顯示人們可能有多大的風險追求",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
