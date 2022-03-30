@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30860366",
+  "url": "https://news.ycombinator.com/item?id=30860366",
+  "headline": "Meta enables de-identified authentication at scale",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "moneil971",
+    "url": "https://news.ycombinator.com/user?id=moneil971"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30860366",
+  "sameAs": "https://engineering.fb.com/2022/03/30/security/de-identified-authentication-at-scale/",
+  "dateCreated": "2022-03-30T21:28:26.332Z",
+  "datePublished": "2022-03-30T20:27:23.000Z",
+  "dateModified": "2022-03-30T21:28:26.332Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Meta实现了大规模的去识别化认证",
+  "headline_zh-Hant": "Meta實現了大規模的去識別化認證",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
