@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30852395",
+  "url": "https://news.ycombinator.com/item?id=30852395",
+  "headline": "The invasion of Ukraine is not the first social media war, but is the most viral",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "helsinkiandrew",
+    "url": "https://news.ycombinator.com/user?id=helsinkiandrew"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30852395",
+  "sameAs": "https://www.economist.com/europe/2022/03/26/the-invasion-of-ukraine-is-not-the-first-social-media-war-but-it-is-the-most-viral",
+  "dateCreated": "2022-03-30T08:13:19.621Z",
+  "datePublished": "2022-03-30T07:38:52.000Z",
+  "dateModified": "2022-03-30T08:13:19.621Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "对乌克兰的入侵不是第一场社交媒体战争，但却是最具病毒性的战争",
+  "headline_zh-Hant": "對烏克蘭的入侵不是第一場社交媒體戰爭，但卻是最具病毒性的戰爭",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
