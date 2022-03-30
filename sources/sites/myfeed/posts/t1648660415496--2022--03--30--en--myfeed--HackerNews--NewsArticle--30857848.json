@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30857848",
+  "url": "https://news.ycombinator.com/item?id=30857848",
+  "headline": "Ukrainian software developers share their stories and photos from the war zone",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "CrankyBear",
+    "url": "https://news.ycombinator.com/user?id=CrankyBear"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30857848",
+  "sameAs": "https://www.zdnet.com/article/ukrainian-software-developers-share-their-stories-and-photos-from-the-war-zone/",
+  "dateCreated": "2022-03-30T17:13:35.496Z",
+  "datePublished": "2022-03-30T16:59:35.000Z",
+  "dateModified": "2022-03-30T17:13:35.496Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "乌克兰软件开发人员分享他们在战区的故事和照片",
+  "headline_zh-Hant": "烏克蘭軟件開發人員分享他們在戰區的故事和照片",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
