@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30854842",
+  "url": "https://news.ycombinator.com/item?id=30854842",
+  "headline": "YAML Multiline: Find the right syntax for your YAML multiline strings",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "oftenwrong",
+    "url": "https://news.ycombinator.com/user?id=oftenwrong"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30854842",
+  "sameAs": "https://yaml-multiline.info/",
+  "dateCreated": "2022-03-30T13:44:25.207Z",
+  "datePublished": "2022-03-30T13:21:19.000Z",
+  "dateModified": "2022-03-30T13:44:25.207Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "YAML多线程。为你的YAML多行字符串找到正确的语法",
+  "headline_zh-Hant": "YAML多線程。為你的YAML多行字符串找到正確的語法",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
