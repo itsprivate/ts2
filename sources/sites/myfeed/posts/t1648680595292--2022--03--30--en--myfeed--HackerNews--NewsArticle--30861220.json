@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30861220",
+  "url": "https://news.ycombinator.com/item?id=30861220",
+  "headline": "Run a MongoDB Replicaset locally for testing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Created a docker-compose file for starting a MongoDB Replicaset locally to test things against a Replicaset which you can't do against a single node instance.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ma3574",
+    "url": "https://news.ycombinator.com/user?id=ma3574"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30861220",
+  "sameAs": "https://news.ycombinator.com/item?id=30861220",
+  "dateCreated": "2022-03-30T22:49:55.292Z",
+  "datePublished": "2022-03-30T21:47:39.000Z",
+  "dateModified": "2022-03-30T22:49:55.292Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在本地运行一个MongoDB复制集进行测试",
+  "headline_zh-Hant": "在本地運行一個MongoDB複製集進行測試",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "创建了一个 docker-compose 文件，用于在本地启动 MongoDB Replicaset，以测试针对 Replicaset 的事情，这是你无法针对单个节点实例进行的。",
+  "description_zh-Hant": "創建了一個 docker-compose 文件，用於在本地啟動 MongoDB Replicaset，以測試針對 Replicaset 的事情，這是你無法針對單個節點實例進行的。"
+}
