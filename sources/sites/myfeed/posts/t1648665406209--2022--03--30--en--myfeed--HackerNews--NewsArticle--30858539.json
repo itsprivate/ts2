@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30858539",
+  "url": "https://news.ycombinator.com/item?id=30858539",
+  "headline": "Restoring and attributing ancient texts using deep neural networks",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "DougMellon",
+    "url": "https://news.ycombinator.com/user?id=DougMellon"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30858539",
+  "sameAs": "https://www.nature.com/articles/s41586-022-04448-z",
+  "dateCreated": "2022-03-30T18:36:46.209Z",
+  "datePublished": "2022-03-30T17:54:43.000Z",
+  "dateModified": "2022-03-30T18:36:46.209Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "使用深度神经网络恢复和归属古代文本",
+  "headline_zh-Hant": "使用深度神經網絡恢復和歸屬古代文本",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
