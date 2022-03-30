@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--askhn--HackerNews--NewsArticle--30860290",
+  "url": "https://news.ycombinator.com/item?id=30860290",
+  "headline": "Ask HN: Are Regression Suites Worth a Shit?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "If your tests are reliable and deterministic, it seems like they should run on change requests (PRs) as you can always scale resources more if you really need to. If they aren't reliable or deterministic, then putting them into a regression suite seems like will inevitably lead to a bloated, outdated and untrustworthy suite of tests. Does anyone do regression well?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "elpakal",
+    "url": "https://news.ycombinator.com/user?id=elpakal"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30860290",
+  "sameAs": "https://news.ycombinator.com/item?id=30860290",
+  "dateCreated": "2022-03-30T20:31:42.940Z",
+  "datePublished": "2022-03-30T20:19:53.000Z",
+  "dateModified": "2022-03-30T20:31:42.940Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 回归套房是否值得一试？",
+  "headline_zh-Hant": "Ask HN: 迴歸套房是否值得一試？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "如果你的测试是可靠的和确定的，那么它们似乎应该在变更请求（PR）上运行，因为如果你真的需要，你总是可以扩展更多资源。如果它们不可靠或不确定，那么把它们放到回归套件中，似乎将不可避免地导致一个臃肿、过时和不可信任的测试套件。有人能做好回归工作吗？",
+  "description_zh-Hant": "如果你的測試是可靠的和確定的，那麼它們似乎應該在變更請求（PR）上運行，因為如果你真的需要，你總是可以擴展更多資源。如果它們不可靠或不確定，那麼把它們放到迴歸套件中，似乎將不可避免地導致一個臃腫、過時和不可信任的測試套件。有人能做好迴歸工作嗎？"
+}

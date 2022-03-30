@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30860288",
+  "url": "https://news.ycombinator.com/item?id=30860288",
+  "headline": "Apple launches driver’s license and state ID in Wallet with Arizona",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "notmysql_",
+    "url": "https://news.ycombinator.com/user?id=notmysql_"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30860288",
+  "sameAs": "https://www.apple.com/newsroom/2022/03/apple-launches-the-first-drivers-license-and-state-id-in-wallet-with-arizona/",
+  "dateCreated": "2022-03-30T20:31:44.102Z",
+  "datePublished": "2022-03-30T20:19:51.000Z",
+  "dateModified": "2022-03-30T20:31:44.102Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "苹果公司与亚利桑那州合作推出驾照和州身份证的钱包",
+  "headline_zh-Hant": "蘋果公司與亞利桑那州合作推出駕照和州身份證的錢包",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

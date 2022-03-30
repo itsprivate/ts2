@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30860237",
+  "url": "https://news.ycombinator.com/item?id=30860237",
+  "headline": "Losers exist. Don’t hire them",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "figgychi",
+    "url": "https://news.ycombinator.com/user?id=figgychi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30860237",
+  "sameAs": "https://colinkeeley.com/blog/losers-exist-dont-hire-them",
+  "dateCreated": "2022-03-30T20:31:44.094Z",
+  "datePublished": "2022-03-30T20:15:30.000Z",
+  "dateModified": "2022-03-30T20:31:44.094Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "失败者的存在。不要雇用他们",
+  "headline_zh-Hant": "失敗者的存在。不要僱用他們",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
