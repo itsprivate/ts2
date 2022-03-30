@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30853025",
+  "url": "https://news.ycombinator.com/item?id=30853025",
+  "headline": "European electronic signature software (DocuSign alternatives)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cgraf",
+    "url": "https://news.ycombinator.com/user?id=cgraf"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30853025",
+  "sameAs": "https://european-alternatives.eu/category/electronic-signature-software",
+  "dateCreated": "2022-03-30T09:40:51.553Z",
+  "datePublished": "2022-03-30T09:25:11.000Z",
+  "dateModified": "2022-03-30T09:40:51.553Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "欧洲电子签名软件（DocuSign替代品）",
+  "headline_zh-Hant": "歐洲電子簽名軟件（DocuSign替代品）",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
