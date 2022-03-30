@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--myfeed--HackerNews--NewsArticle--30859531",
+  "url": "https://news.ycombinator.com/item?id=30859531",
+  "headline": "My company identity was stolen, cost us $500k and a two year legal battle",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kirbmart",
+    "url": "https://news.ycombinator.com/user?id=kirbmart"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30859531",
+  "sameAs": "https://www.instagram.com/stories/highlights/17918943251364695/",
+  "dateCreated": "2022-03-30T19:25:29.004Z",
+  "datePublished": "2022-03-30T19:09:08.000Z",
+  "dateModified": "2022-03-30T19:25:29.004Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "我的公司身份被盗，花了50万美金，打了两年的官司",
+  "headline_zh-Hant": "我的公司身份被盜，花了50萬美金，打了兩年的官司",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
