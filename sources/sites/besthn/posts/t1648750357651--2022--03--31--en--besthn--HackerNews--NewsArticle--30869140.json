@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--besthn--HackerNews--NewsArticle--30869140",
+  "url": "https://news.ycombinator.com/item?id=30869140",
+  "headline": "The smallest and worst HDMI display ever",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "todsacerdoti",
+    "url": "https://news.ycombinator.com/user?id=todsacerdoti"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30869140",
+  "sameAs": "https://mitxela.com/projects/ddc-oled",
+  "dateCreated": "2022-03-31T18:12:37.651Z",
+  "datePublished": "2022-03-31T16:31:17.000Z",
+  "dateModified": "2022-03-31T18:12:37.651Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 253
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 36
+    }
+  ],
+  "headline_zh-Hans": "史上最小、最差的HDMI显示器",
+  "headline_zh-Hant": "史上最小、最差的HDMI顯示器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
