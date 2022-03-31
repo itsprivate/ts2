@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--showhn--HackerNews--NewsArticle--30869131",
+  "url": "https://news.ycombinator.com/item?id=30869131",
+  "headline": "Show HN: Magma Studio – multiplayer drawing/art platform for game dev/animation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey, I'm the co-founder of Magma and coded huge chunks of the product. My other co-founder Radek coded the collaborative drawing engine in Typescript with parts in Web Assembly and also using WebGL - that's why it has a native app feel. If you have an iPad or a Wacom tablet we support pressure sensitivity (enable Windows Ink if you have issues).<p>We prepared 10 drawings that you can join. Beware that there is a 30 users (drawing at once) limit on each. You can easily create your own drawing and share the url with others to join.<p><a href=\"https://magm.ai/k36k\" rel=\"nofollow\">https://magm.ai/k36k</a><p><a href=\"https://magm.ai/exp-1\" rel=\"nofollow\">https://magm.ai/exp-1</a><p><a href=\"https://magm.ai/exp-2\" rel=\"nofollow\">https://magm.ai/exp-2</a><p><a href=\"https://magm.ai/exp-3\" rel=\"nofollow\">https://magm.ai/exp-3</a><p><a href=\"https://magm.ai/exp-4\" rel=\"nofollow\">https://magm.ai/exp-4</a><p><a href=\"https://magm.ai/exp-5\" rel=\"nofollow\">https://magm.ai/exp-5</a><p><a href=\"https://magm.ai/exp-6\" rel=\"nofollow\">https://magm.ai/exp-6</a><p><a href=\"https://magm.ai/exp-7\" rel=\"nofollow\">https://magm.ai/exp-7</a><p><a href=\"https://magm.ai/exp-8\" rel=\"nofollow\">https://magm.ai/exp-8</a><p><a href=\"https://magm.ai/exp-9\" rel=\"nofollow\">https://magm.ai/exp-9</a><p>How is it good for game dev?:\n- Brainstorming on art\n- Concept art\n- Storyboarding\n- Character development<p>Some trivia:\n- There are 16 tools already like paint, select, bucket fill, including advanced tools like custom shapes\n- We have multiple brushes to choose from. More in the Pro version. We will let you upload your own in the future.\n- You can export to Photoshop and continue working there with some more advanced post-processing\n- You can draw with a mouse, touch or stylus (preferred) - iPad, Wacom and other tablet vendors\n- We are building a team space called &quot;Artspaces&quot; with project &amp; team management. Currently teams can use an on-premise version of Magma (dockerized).<p>More technical:\n- We are one of the first commercial projects to use Deepkit - a revolutionary high performance Typescript framework <a href=\"https://deepkit.io/framework\" rel=\"nofollow\">https://deepkit.io/framework</a>\n- It works on Google Chrome, Firefox, Safari - but Google Chrome is preferred\n- We use all the cool web tech like Canvas with WebGL acceleration and a software fallback. Websockets for communication\n- 99% is built in Typescript - 1% is Webassembly and C for some optimizations. Node.JS on the backend.<p>Happy to take questions :)",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "RushPL",
+    "url": "https://news.ycombinator.com/user?id=RushPL"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30869131",
+  "sameAs": "https://magmastudio.io/",
+  "dateCreated": "2022-03-31T16:47:08.457Z",
+  "datePublished": "2022-03-31T16:30:52.000Z",
+  "dateModified": "2022-03-31T16:47:08.457Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Magma Studio - 用于游戏开发/动画的多人绘画/艺术平台",
+  "headline_zh-Hant": "Show HN: Magma Studio - 用於遊戲開發/動畫的多人繪畫/藝術平臺",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嘿，我是Magma的联合创始人，编写了大量的产品代码。我的另一位联合创始人Radek在Typescript中编码了协作式绘图引擎，其中一部分是Web Assembly，也使用了WebGL--这就是为什么它有一种本地应用程序的感觉。如果你有iPad或Wacom平板电脑，我们支持压力敏感度（如果你有问题，可以启用Windows Ink）。<p>我们准备了10张图纸，你可以加入。Beware that there is a 30 users (drawing at once) limit on each. You can easily create your own drawing and share the url with others to join.<p><a href=\"https://magm.ai/k36k\" rel=\"nofollow\">https://magm.ai/k36k</a><p><a href=\"https://magm.ai/exp-1\" rel=\"nofollow\">https://magm.ai/exp-1</a><p><a href=\"https://magm.ai/exp-2\" rel=\"nofollow\">https://magm.ai/exp-2</a><p><a href=\"https://magm.ai/exp-3\" rel=\"nofollow\">https://magm.ai/exp-3</a><p><a href=\"https://magm.ai/exp-4\" rel=\"nofollow\">https://magm. ai/exp-4</a><p><a href=\"https://magm.ai/exp-5\" rel=\"nofollow\">https://magm.ai/exp-5</a><p><a href=\"https://magm.ai/exp-6\" rel=\"nofollow\">https://magm.ai/exp-6</a><p><a href=\"https://magm.ai/exp-7\" rel=\"nofollow\">https://magm.ai/exp-7</a><p><a href=\"https://magm.ai/exp-8\" rel=\"nofollow\">https://magm.ai/exp-8</a><p><a href=\"https://magm.ai/exp-9\" rel=\"nofollow\">https://magm.ai/exp-9</a><p>How is it good for game dev?:\n- Brainstorming on art\n- 概念艺术\n- 故事板设计\n- 角色开发<p>一些小知识。\n- 已经有16种工具，如绘画、选择、桶状填充，包括高级工具，如自定义形状。\n- 我们有多种画笔可以选择。在专业版中还有更多。我们将在未来让你上传你自己的。\n- 你可以导出到Photoshop，在那里继续工作，进行一些更高级的后期处理\n- 你可以用鼠标、触摸或手写笔（首选）来画画 - iPad、Wacom和其他平板电脑供应商\n- 我们正在建立一个名为&quot;Artspaces&quot;的团队空间，具有项目&amp;团队管理。目前，团队可以使用Magma的内部版本（dockerized）。<p>更多的技术。\n- 我们是首批使用Deepkit的商业项目之一，这是一个革命性的高性能Typescript框架<a href=\"https://deepkit.io/framework\" rel=\"nofollow\">https://deepkit.io/framework</a>。\n- 它可以在谷歌浏览器、火狐浏览器、Safari浏览器上运行--但谷歌浏览器是首选。\n- 我们使用所有很酷的网络技术，如Canvas与WebGL加速和软件回退。用于通信的Websockets\n- 99%是用Typescript构建的--1%是Webassembly和C语言进行一些优化。后台使用Node.JS。<p>很高兴接受提问 :)",
+  "description_zh-Hant": "嘿，我是Magma的聯合創始人，編寫了大量的產品代碼。我的另一位聯合創始人Radek在Typescript中編碼了協作式繪圖引擎，其中一部分是Web Assembly，也使用了WebGL--這就是為什麼它有一種本地應用程序的感覺。如果你有iPad或Wacom平板電腦，我們支持壓力敏感度（如果你有問題，可以啟用Windows Ink）。<p>我們準備了10張圖紙，你可以加入。Beware that there is a 30 users (drawing at once) limit on each. You can easily create your own drawing and share the url with others to join.<p><a href=\"https://magm.ai/k36k\" rel=\"nofollow\">https://magm.ai/k36k</a><p><a href=\"https://magm.ai/exp-1\" rel=\"nofollow\">https://magm.ai/exp-1</a><p><a href=\"https://magm.ai/exp-2\" rel=\"nofollow\">https://magm.ai/exp-2</a><p><a href=\"https://magm.ai/exp-3\" rel=\"nofollow\">https://magm.ai/exp-3</a><p><a href=\"https://magm.ai/exp-4\" rel=\"nofollow\">https://magm. ai/exp-4</a><p><a href=\"https://magm.ai/exp-5\" rel=\"nofollow\">https://magm.ai/exp-5</a><p><a href=\"https://magm.ai/exp-6\" rel=\"nofollow\">https://magm.ai/exp-6</a><p><a href=\"https://magm.ai/exp-7\" rel=\"nofollow\">https://magm.ai/exp-7</a><p><a href=\"https://magm.ai/exp-8\" rel=\"nofollow\">https://magm.ai/exp-8</a><p><a href=\"https://magm.ai/exp-9\" rel=\"nofollow\">https://magm.ai/exp-9</a><p>How is it good for game dev?:\n- Brainstorming on art\n- 概念藝術\n- 故事板設計\n- 角色開發<p>一些小知識。\n- 已經有16種工具，如繪畫、選擇、桶狀填充，包括高級工具，如自定義形狀。\n- 我們有多種畫筆可以選擇。在專業版中還有更多。我們將在未來讓你上傳你自己的。\n- 你可以導出到Photoshop，在那裡繼續工作，進行一些更高級的後期處理\n- 你可以用鼠標、觸摸或手寫筆（首選）來畫畫 - iPad、Wacom和其他平板電腦供應商\n- 我們正在建立一個名為&quot;Artspaces&quot;的團隊空間，具有項目&amp;團隊管理。目前，團隊可以使用Magma的內部版本（dockerized）。<p>更多的技術。\n- 我們是首批使用Deepkit的商業項目之一，這是一個革命性的高性能Typescript框架<a href=\"https://deepkit.io/framework\" rel=\"nofollow\">https://deepkit.io/framework</a>。\n- 它可以在谷歌瀏覽器、火狐瀏覽器、Safari瀏覽器上運行--但谷歌瀏覽器是首選。\n- 我們使用所有很酷的網絡技術，如Canvas與WebGL加速和軟件回退。用於通信的Websockets\n- 99%是用Typescript構建的--1%是Webassembly和C語言進行一些優化。後臺使用Node.JS。<p>很高興接受提問 :)"
+}

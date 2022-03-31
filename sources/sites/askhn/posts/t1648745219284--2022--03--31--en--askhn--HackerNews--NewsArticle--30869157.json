@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--askhn--HackerNews--NewsArticle--30869157",
+  "url": "https://news.ycombinator.com/item?id=30869157",
+  "headline": "Ask HN: Best approach for always on TV dashboard",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We would like to set up some displays in our office to constantly display some performance dashboards. The dashboards are custom built but accessible via the web.<p>We'd like to set up about 6 of these devices and want to keep them as low maintenance as possible.<p>It feels like overkill to setup a laptop for each screen just for this purpose but we weren't sure in 2022 what the best approach from a cost and reliability perspective would be.<p>Some routes we have considered:<p><pre><code>  - Use 'Smart TVs' and rely on the built-in browser (can be janky to use)\n  - Use a Raspberry Pi connected to a monitor (hard to source new Pi's at the moment)\n  - Use an Amazon Fire Stick (they have an auto-sleep that can't seem to be disabled)\n  - Use an no-name Raspberry Pi-esque mini USB-C PC (dubious quality)\n</code></pre>\nDo any of those seem like the obvious choice or are we missing something even more straightforward?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "julesie",
+    "url": "https://news.ycombinator.com/user?id=julesie"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30869157",
+  "sameAs": "https://news.ycombinator.com/item?id=30869157",
+  "dateCreated": "2022-03-31T16:46:59.284Z",
+  "datePublished": "2022-03-31T16:32:05.000Z",
+  "dateModified": "2022-03-31T16:46:59.284Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 始终在电视仪表盘上的最佳方法",
+  "headline_zh-Hant": "Ask HN: 始終在電視儀表盤上的最佳方法",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们想在办公室设置一些显示屏，不断显示一些业绩仪表盘。<p>我们想设置大约6个这样的设备，并希望尽可能保持它们的低维护率。<p>为了这个目的，为每个屏幕设置一台笔记本电脑，感觉有点矫枉过正，但我们在2022年不确定从成本和可靠性的角度来看，最好的方法是什么。<p>我们考虑过的一些路线：<p><pre><code> - 使用 \"智能电视 \"并依靠内置浏览器（使用起来可能很麻烦）\n  - Use a Raspberry Pi connected to a monitor (hard to source new Pi's at the moment)\n  - Use an Amazon Fire Stick (they have an auto-sleep that can't seem to be disabled)\n  - Use an no-name Raspberry Pi-esque mini USB-C PC (dubious quality)\n</code></pre>\nDo any of those seem like the obvious choice or are we missing something even more straightforward?",
+  "description_zh-Hant": "我們想在辦公室設置一些顯示屏，不斷顯示一些業績儀表盤。<p>我們想設置大約6個這樣的設備，並希望儘可能保持它們的低維護率。<p>為了這個目的，為每個屏幕設置一臺筆記本電腦，感覺有點矯枉過正，但我們在2022年不確定從成本和可靠性的角度來看，最好的方法是什麼。<p>我們考慮過的一些路線：<p><pre><code> - 使用 \"智能電視 \"並依靠內置瀏覽器（使用起來可能很麻煩）\n  - Use a Raspberry Pi connected to a monitor (hard to source new Pi's at the moment)\n  - Use an Amazon Fire Stick (they have an auto-sleep that can't seem to be disabled)\n  - Use an no-name Raspberry Pi-esque mini USB-C PC (dubious quality)\n</code></pre>\nDo any of those seem like the obvious choice or are we missing something even more straightforward?"
+}
