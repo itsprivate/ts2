@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30863580",
+  "url": "https://news.ycombinator.com/item?id=30863580",
+  "headline": "Significant Solar Flare Erupts from Sun",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pizza",
+    "url": "https://news.ycombinator.com/user?id=pizza"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30863580",
+  "sameAs": "https://blogs.nasa.gov/solarcycle25/2022/03/30/significant-solar-flare-erupts-from-sun-2/",
+  "dateCreated": "2022-03-31T04:39:09.221Z",
+  "datePublished": "2022-03-31T03:36:41.000Z",
+  "dateModified": "2022-03-31T04:39:09.221Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "重要的太阳耀斑从太阳喷发出来",
+  "headline_zh-Hant": "重要的太陽耀斑從太陽噴發出來",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
