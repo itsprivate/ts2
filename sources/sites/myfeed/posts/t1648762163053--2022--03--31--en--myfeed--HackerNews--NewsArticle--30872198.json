@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30872198",
+  "url": "https://news.ycombinator.com/item?id=30872198",
+  "headline": "War with Russia? Finland has a plan for that",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jseliger",
+    "url": "https://news.ycombinator.com/user?id=jseliger"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30872198",
+  "sameAs": "https://www.ft.com/content/c5e376f9-7351-40d3-b058-1873b2ef1924",
+  "dateCreated": "2022-03-31T21:29:23.053Z",
+  "datePublished": "2022-03-31T21:05:44.000Z",
+  "dateModified": "2022-03-31T21:29:23.053Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "与俄罗斯开战？芬兰对此有一个计划",
+  "headline_zh-Hant": "與俄羅斯開戰？芬蘭對此有一個計劃",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
