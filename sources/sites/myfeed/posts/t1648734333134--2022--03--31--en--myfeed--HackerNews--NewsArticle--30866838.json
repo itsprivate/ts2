@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30866838",
+  "url": "https://news.ycombinator.com/item?id=30866838",
+  "headline": "They fled Russia with little cash. Cryptocurrency saved them",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "yamrzou",
+    "url": "https://news.ycombinator.com/user?id=yamrzou"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30866838",
+  "sameAs": "https://fortune.com/2022/03/30/russia-ukraine-war-cryptocurrency-sanctions-capital-controls-refugees-cash-oligarchs/",
+  "dateCreated": "2022-03-31T13:45:33.134Z",
+  "datePublished": "2022-03-31T13:21:07.000Z",
+  "dateModified": "2022-03-31T13:45:33.134Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "他们带着少量现金逃离了俄罗斯。加密货币拯救了他们",
+  "headline_zh-Hant": "他們帶著少量現金逃離了俄羅斯。加密貨幣拯救了他們",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30866866",
+  "url": "https://news.ycombinator.com/item?id=30866866",
+  "headline": "Proposal to Sanction Kapersky Lab Over Ukraine Invasion Splits US Administration",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jbegley",
+    "url": "https://news.ycombinator.com/user?id=jbegley"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30866866",
+  "sameAs": "https://www.wsj.com/articles/proposal-to-sanction-russian-cybersecurity-firm-over-ukraine-invasion-splits-biden-administration-11648671905",
+  "dateCreated": "2022-03-31T13:45:33.143Z",
+  "datePublished": "2022-03-31T13:24:21.000Z",
+  "dateModified": "2022-03-31T13:45:33.143Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "因入侵乌克兰而制裁卡珀斯基实验室的建议使美国政府产生分歧",
+  "headline_zh-Hant": "因入侵烏克蘭而制裁卡珀斯基實驗室的建議使美國政府產生分歧",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
