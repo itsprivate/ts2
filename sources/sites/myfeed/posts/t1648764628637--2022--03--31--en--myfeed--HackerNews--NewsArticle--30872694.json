@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30872694",
+  "url": "https://news.ycombinator.com/item?id=30872694",
+  "headline": "Russian Troops Suffer Acute Radiation Sickness After Digging Chernobyl Trenches",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "trhway",
+    "url": "https://news.ycombinator.com/user?id=trhway"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30872694",
+  "sameAs": "https://www.thedailybeast.com/russian-troops-suffer-acute-radiation-sickness-after-digging-chernobyl-trenches?source=articles&via=rss",
+  "dateCreated": "2022-03-31T22:10:28.637Z",
+  "datePublished": "2022-03-31T22:02:07.000Z",
+  "dateModified": "2022-03-31T22:10:28.637Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "俄罗斯军队在挖掘切尔诺贝利壕沟后患上急性辐射病",
+  "headline_zh-Hant": "俄羅斯軍隊在挖掘切爾諾貝利壕溝後患上急性輻射病",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
