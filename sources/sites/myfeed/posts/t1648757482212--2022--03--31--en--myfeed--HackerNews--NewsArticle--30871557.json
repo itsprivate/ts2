@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30871557",
+  "url": "https://news.ycombinator.com/item?id=30871557",
+  "headline": "Some AI Systems May Be Impossible to Compute",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "niccl",
+    "url": "https://news.ycombinator.com/user?id=niccl"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30871557",
+  "sameAs": "https://spectrum.ieee.org/deep-neural-network",
+  "dateCreated": "2022-03-31T20:11:22.212Z",
+  "datePublished": "2022-03-31T19:53:36.000Z",
+  "dateModified": "2022-03-31T20:11:22.212Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "一些人工智能系统可能是不可能计算的",
+  "headline_zh-Hant": "一些人工智能系統可能是不可能計算的",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
