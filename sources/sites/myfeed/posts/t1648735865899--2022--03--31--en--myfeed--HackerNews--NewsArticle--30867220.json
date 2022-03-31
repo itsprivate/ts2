@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30867220",
+  "url": "https://news.ycombinator.com/item?id=30867220",
+  "headline": "Spy in the GPU-Box: Covert and Side Channel Attacks on Multi-GPU Systems",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "PaulHoule",
+    "url": "https://news.ycombinator.com/user?id=PaulHoule"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30867220",
+  "sameAs": "https://arxiv.org/abs/2203.15981",
+  "dateCreated": "2022-03-31T14:11:05.899Z",
+  "datePublished": "2022-03-31T13:56:05.000Z",
+  "dateModified": "2022-03-31T14:11:05.899Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "GPU盒子里的间谍。对多GPU系统的隐蔽和旁门左道攻击",
+  "headline_zh-Hant": "GPU盒子裡的間諜。對多GPU系統的隱蔽和旁門左道攻擊",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
