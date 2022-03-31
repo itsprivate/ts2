@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30865319",
+  "url": "https://news.ycombinator.com/item?id=30865319",
+  "headline": "Does the End of Cash Mean the End of Privacy?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pseudolus",
+    "url": "https://news.ycombinator.com/user?id=pseudolus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30865319",
+  "sameAs": "https://www.nytimes.com/2022/03/30/opinion/digital-money-privacy.html",
+  "dateCreated": "2022-03-31T09:42:29.371Z",
+  "datePublished": "2022-03-31T09:27:43.000Z",
+  "dateModified": "2022-03-31T09:42:29.371Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "现金的结束是否意味着隐私的结束？",
+  "headline_zh-Hant": "現金的結束是否意味著隱私的結束？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
