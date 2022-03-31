@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--askhn--HackerNews--NewsArticle--30865070",
+  "url": "https://news.ycombinator.com/item?id=30865070",
+  "headline": "Ask HN: Best embedded report/dashboard solution for SaaS product",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We are building a SaaS product aimed at local government customers. It solves a specific set of problems that are very domain specific and there is quite a bit of complexity involved in building the core product.<p>We offer a set of really awesome features that a lot of prospects want, and we do it in a much better way than our competitors.<p>Problem is, it's government, which means a LOT of tenders and EVERY single tender has a section in the requirements a mile long where they effectively want us to include a full-featured reporting and business intelligence product... in addition to the actual product itself.<p>Obviously it would be insane for us to build this ourselves. It's a whole product on its own that we don't specialise in. So we want to buy / implement something open source.<p>We're looking at things like Bold BI, Toucan Toco, Cumul.io, etc. Almost all of them seem to need to ingest ALL of the data themselves, do crazy ass levels of manipulation and workflows on it, and then charge a boat load for us to be able to embed it in our app.<p>All we really want though is for a nice front-end that we can connect to a read-replica of our DB. We need people to be able to create queries, build tables and some basic graphs, present it in the UI on dashboards, and export it as different formats.<p>Thoughts?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "llamaLord",
+    "url": "https://news.ycombinator.com/user?id=llamaLord"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30865070",
+  "sameAs": "https://news.ycombinator.com/item?id=30865070",
+  "dateCreated": "2022-03-31T08:42:17.700Z",
+  "datePublished": "2022-03-31T08:36:25.000Z",
+  "dateModified": "2022-03-31T08:42:17.700Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 用于SaaS产品的最佳嵌入式报告/仪表盘解决方案",
+  "headline_zh-Hant": "Ask HN: 用於SaaS產品的最佳嵌入式報告/儀表盤解決方案",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们正在建立一个针对地方政府客户的SaaS产品。它解决了一系列特定领域的问题，并且在构建核心产品时涉及到相当多的复杂性。<p>我们提供了一系列非常棒的功能，这是很多潜在客户所需要的，并且我们以比我们的竞争对手更好的方式来做。 <p>问题是，这是一个政府项目，这意味着大量的招标，而每一个招标都有一英里长的需求部分，他们实际上希望我们包括一个全功能的报告和商业智能产品...除了实际的产品本身。这是一个独立的产品，我们并不擅长。所以我们想购买/实现一些开源的东西。<p>我们正在关注像Bold BI、Toucan Toco、Cumul.io等。几乎所有这些公司似乎都需要自己摄取所有的数据，对其进行疯狂的操作和工作流程，然后对我们能够将其嵌入到我们的应用程序中收取大量费用。<p>我们真正想要的是一个漂亮的前端，我们可以连接到我们的数据库的读取复制。我们需要人们能够创建查询，建立表格和一些基本的图表，在用户界面上呈现仪表盘，并以不同的格式导出。",
+  "description_zh-Hant": "我們正在建立一個針對地方政府客戶的SaaS產品。它解決了一系列特定領域的問題，並且在構建核心產品時涉及到相當多的複雜性。<p>我們提供了一系列非常棒的功能，這是很多潛在客戶所需要的，並且我們以比我們的競爭對手更好的方式來做。 <p>問題是，這是一個政府項目，這意味著大量的招標，而每一個招標都有一英里長的需求部分，他們實際上希望我們包括一個全功能的報告和商業智能產品...除了實際的產品本身。這是一個獨立的產品，我們並不擅長。所以我們想購買/實現一些開源的東西。<p>我們正在關注像Bold BI、Toucan Toco、Cumul.io等。幾乎所有這些公司似乎都需要自己攝取所有的數據，對其進行瘋狂的操作和工作流程，然後對我們能夠將其嵌入到我們的應用程序中收取大量費用。<p>我們真正想要的是一個漂亮的前端，我們可以連接到我們的數據庫的讀取複製。我們需要人們能夠創建查詢，建立表格和一些基本的圖表，在用戶界面上呈現儀表盤，並以不同的格式導出。"
+}
