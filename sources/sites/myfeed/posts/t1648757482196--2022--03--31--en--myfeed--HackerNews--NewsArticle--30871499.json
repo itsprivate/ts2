@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30871499",
+  "url": "https://news.ycombinator.com/item?id=30871499",
+  "headline": "FAST: Adaptive interface system for modern web experiences",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Fervicus",
+    "url": "https://news.ycombinator.com/user?id=Fervicus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30871499",
+  "sameAs": "https://www.fast.design/",
+  "dateCreated": "2022-03-31T20:11:22.196Z",
+  "datePublished": "2022-03-31T19:47:03.000Z",
+  "dateModified": "2022-03-31T20:11:22.196Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "FAST。现代网络体验的自适应界面系统",
+  "headline_zh-Hant": "FAST。現代網絡體驗的自適應界面系統",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

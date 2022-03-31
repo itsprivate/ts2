@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30871624",
+  "url": "https://news.ycombinator.com/item?id=30871624",
+  "headline": "Earendel (farthest known star from Earth) is discovered",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "DarkContinent",
+    "url": "https://news.ycombinator.com/user?id=DarkContinent"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30871624",
+  "sameAs": "https://en.wikipedia.org/wiki/WHL0137-LS",
+  "dateCreated": "2022-03-31T20:11:22.228Z",
+  "datePublished": "2022-03-31T20:00:53.000Z",
+  "dateModified": "2022-03-31T20:11:22.228Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "发现Earendel（离地球最远的已知恒星）。",
+  "headline_zh-Hant": "發現Earendel（離地球最遠的已知恆星）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
