@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--hackernews--HackerNews--NewsArticle--30870187",
+  "url": "https://news.ycombinator.com/item?id=30870187",
+  "headline": "Reticulum, an encrypted heterogenous mesh network protocol",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "SkyMarshal",
+    "url": "https://news.ycombinator.com/user?id=SkyMarshal"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30870187",
+  "sameAs": "https://github.com/markqvist/Reticulum",
+  "dateCreated": "2022-03-31T18:36:56.590Z",
+  "datePublished": "2022-03-31T17:49:57.000Z",
+  "dateModified": "2022-03-31T18:36:56.590Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Reticulum，一个加密的异质网状网络协议",
+  "headline_zh-Hant": "Reticulum，一個加密的異質網狀網絡協議",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
