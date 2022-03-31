@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30867346",
+  "url": "https://news.ycombinator.com/item?id=30867346",
+  "headline": "Why are there separate Program Files and Program Files (x86) directories?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "redbell",
+    "url": "https://news.ycombinator.com/user?id=redbell"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30867346",
+  "sameAs": "https://devblogs.microsoft.com/oldnewthing/20220329-00/?p=106404",
+  "dateCreated": "2022-03-31T14:38:53.716Z",
+  "datePublished": "2022-03-31T14:06:29.000Z",
+  "dateModified": "2022-03-31T14:38:53.716Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "为什么有独立的程序文件和程序文件（x86）目录？",
+  "headline_zh-Hant": "為什麼有獨立的程序文件和程序文件（x86）目錄？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
