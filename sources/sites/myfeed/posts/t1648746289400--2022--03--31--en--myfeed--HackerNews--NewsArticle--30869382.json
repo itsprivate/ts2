@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30869382",
+  "url": "https://news.ycombinator.com/item?id=30869382",
+  "headline": "Favourite hypervisor for a macOS host?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Dear fellow Mac users,<p>What’s your favourite hypervisor for a macOS host?<p>I’m currently pondering what hypervisor to use and would appreciate some input from other Mac users. What has worked well for you folks, what hasn’t worked well?<p>See below for some options that I have found.<p>Would love to hear from you regarding this matter.<p>¤ <i>PARALLELS</i> ¤<p>Good performance. Support is included in the subscription. Works with M1 CPUs. A Vagrant provider is available. Proprietary software.<p>Website: https://www.parallels.com/eu/products/desktop/<p>¤ <i>VMWARE FUSION</i> ¤<p>Supposedly stable. A Vagrant provider is available. M1 CPUs still in beta. No support included(?). Proprietary software.<p>Website: https://www.vmware.com/se/products/fusion.html<p>¤ <i>UTM</i> ¤<p>Open source. Nice clean GUI. Works with M1 CPUs. Community support available. No Vagrant provider available. Not so mature, still quite buggy.<p>Website: https://mac.getutm.app/<p>¤ <i>QEMU (with our without libvirt)</i> ¤<p>Open source. Works with M1 CPUs. Community support available. No mature Vagrant provider available.<p>Configuration is not straight-forward. Guides and documentation are mostly related to Linux hosts, much of that information is not relevant for a macOS host. HVF support is probably not mature yet.<p>Unclear how to configure networking[0].<p>Website: See https://wiki.qemu.org/Features/HVF, https://www.qemu.org/ and https://libvirt.org/<p>¤ <i>VIRTUALBOX</i> ¤<p>Open source. A Vagrant provider is available. Community support available. No M1 support.<p>I’ve found the GUI to be buggy on recent versions of macOS. And I’m not fond of using products that are owned and developed by Oracle.<p>Website: https://virtualbox.org/<p>[0] See e.g. https://listman.redhat.com/archives/libvirt-users/2022-March/013501.html",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cpach",
+    "url": "https://news.ycombinator.com/user?id=cpach"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30869382",
+  "sameAs": "https://news.ycombinator.com/item?id=30869382",
+  "dateCreated": "2022-03-31T17:04:49.400Z",
+  "datePublished": "2022-03-31T16:47:13.000Z",
+  "dateModified": "2022-03-31T17:04:49.400Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "最喜欢的macOS主机的管理程序？",
+  "headline_zh-Hant": "最喜歡的macOS主機的管理程序？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "亲爱的Mac用户，<p>你最喜欢的macOS主机的管理程序是什么？<p>我目前正在考虑使用什么管理程序，希望其他Mac用户能提供一些意见。什么东西对你们来说效果好，什么东西效果不好？<p>下面是我发现的一些选择。<p>我很想听到你们关于这个问题的意见。<p></i><p>性能良好。支持包括在订阅中。Works with M1 CPUs. A Vagrant provider is available. Proprietary software.<p>Website: https://www.parallels.com/eu/products/desktop/<p>¤ <i>VMWARE FUSION</i> ¤<p>Supposedly stable. 有一个Vagrant供应商。M1 CPU仍在测试阶段。No support included(?). Proprietary software.<p>Website: https://www.vmware.com/se/products/fusion.html<p>¤ <i>UTM</i> ¤<p>Open source. 漂亮干净的GUI。与M1 CPU一起工作。有社区支持。没有Vagrant提供者。不太成熟，仍然有相当多的错误。<p>网站：https://mac.getutm.app/<p>¤ <i>QEMU (with our without libvirt)</i> ¤<p>开放源代码。适用于M1 CPU。有社区支持。没有成熟的Vagrant提供商。<p>配置并不简单。Guides and documentation are mostly related to Linux hosts, much of that information is not relevant for a macOS host. HVF support is probably not mature yet.<p>Unclear how to configure networking[0].<p>Website: 见 https://wiki.qemu.org/Features/HVF, https://www.qemu.org/ 和 https://libvirt.org/<p>¤ <i>VIRTUALBOX</i> ¤<p>开放源代码。有一个Vagrant提供者。有社区支持。没有M1支持。<p>我发现GUI在最近版本的macOS上有问题。而且我不喜欢使用由甲骨文公司拥有和开发的产品。<p>网站：https://virtualbox.org/<p>[0] 见例如https://listman.redhat.com/archives/libvirt-users/2022-March/013501.html。",
+  "description_zh-Hant": "親愛的Mac用戶，<p>你最喜歡的macOS主機的管理程序是什麼？<p>我目前正在考慮使用什麼管理程序，希望其他Mac用戶能提供一些意見。什麼東西對你們來說效果好，什麼東西效果不好？<p>下面是我發現的一些選擇。<p>我很想聽到你們關於這個問題的意見。<p></i><p>性能良好。支持包括在訂閱中。Works with M1 CPUs. A Vagrant provider is available. Proprietary software.<p>Website: https://www.parallels.com/eu/products/desktop/<p>¤ <i>VMWARE FUSION</i> ¤<p>Supposedly stable. 有一個Vagrant供應商。M1 CPU仍在測試階段。No support included(?). Proprietary software.<p>Website: https://www.vmware.com/se/products/fusion.html<p>¤ <i>UTM</i> ¤<p>Open source. 漂亮乾淨的GUI。與M1 CPU一起工作。有社區支持。沒有Vagrant提供者。不太成熟，仍然有相當多的錯誤。<p>網站：https://mac.getutm.app/<p>¤ <i>QEMU (with our without libvirt)</i> ¤<p>開放源代碼。適用於M1 CPU。有社區支持。沒有成熟的Vagrant提供商。<p>配置並不簡單。Guides and documentation are mostly related to Linux hosts, much of that information is not relevant for a macOS host. HVF support is probably not mature yet.<p>Unclear how to configure networking[0].<p>Website: 見 https://wiki.qemu.org/Features/HVF, https://www.qemu.org/ 和 https://libvirt.org/<p>¤ <i>VIRTUALBOX</i> ¤<p>開放源代碼。有一個Vagrant提供者。有社區支持。沒有M1支持。<p>我發現GUI在最近版本的macOS上有問題。而且我不喜歡使用由甲骨文公司擁有和開發的產品。<p>網站：https://virtualbox.org/<p>[0] 見例如https://listman.redhat.com/archives/libvirt-users/2022-March/013501.html。"
+}
