@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30873042",
+  "url": "https://news.ycombinator.com/item?id=30873042",
+  "headline": "A Year of README Reviews",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "thcipriani",
+    "url": "https://news.ycombinator.com/user?id=thcipriani"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30873042",
+  "sameAs": "https://blog.liw.fi/posts/2022/03/31/readmes/",
+  "dateCreated": "2022-03-31T23:31:47.849Z",
+  "datePublished": "2022-03-31T22:41:31.000Z",
+  "dateModified": "2022-03-31T23:31:47.849Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "一年的README评论",
+  "headline_zh-Hant": "一年的README評論",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
