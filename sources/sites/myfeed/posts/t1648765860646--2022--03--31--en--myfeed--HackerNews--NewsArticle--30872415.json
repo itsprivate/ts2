@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30872415",
+  "url": "https://news.ycombinator.com/item?id=30872415",
+  "headline": "Gitlab – Static passwords set during OmniAuth-based registration (CVE-2022-1162)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "altharaz",
+    "url": "https://news.ycombinator.com/user?id=altharaz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30872415",
+  "sameAs": "https://about.gitlab.com/releases/2022/03/31/critical-security-release-gitlab-14-9-2-released/",
+  "dateCreated": "2022-03-31T22:31:00.646Z",
+  "datePublished": "2022-03-31T21:29:40.000Z",
+  "dateModified": "2022-03-31T22:31:00.646Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Gitlab - 在基于OmniAuth的注册过程中设置静态密码（CVE-2022-1162）。",
+  "headline_zh-Hant": "Gitlab - 在基於OmniAuth的註冊過程中設置靜態密碼（CVE-2022-1162）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
