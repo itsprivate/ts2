@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30865422",
+  "url": "https://news.ycombinator.com/item?id=30865422",
+  "headline": "You will notice that a time-travel option is not included on this model",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sohkamyung",
+    "url": "https://news.ycombinator.com/user?id=sohkamyung"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30865422",
+  "sameAs": "https://news.lettersofnote.com/p/you-will-notice-that-a-time-travel",
+  "dateCreated": "2022-03-31T10:12:03.662Z",
+  "datePublished": "2022-03-31T09:47:14.000Z",
+  "dateModified": "2022-03-31T10:12:03.662Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "你会注意到，这个模型上不包括时间旅行选项",
+  "headline_zh-Hant": "你會注意到，這個模型上不包括時間旅行選項",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
