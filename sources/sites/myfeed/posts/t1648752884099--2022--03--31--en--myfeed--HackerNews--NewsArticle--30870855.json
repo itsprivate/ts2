@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30870855",
+  "url": "https://news.ycombinator.com/item?id=30870855",
+  "headline": "Apple emergency update fixes zero-days used to hack iPhones, Macs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "DemiGuru",
+    "url": "https://news.ycombinator.com/user?id=DemiGuru"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30870855",
+  "sameAs": "https://www.bleepingcomputer.com/news/security/apple-emergency-update-fixes-zero-days-used-to-hack-iphones-macs/",
+  "dateCreated": "2022-03-31T18:54:44.099Z",
+  "datePublished": "2022-03-31T18:46:12.000Z",
+  "dateModified": "2022-03-31T18:54:44.099Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "苹果紧急更新修复了用于入侵iPhone和Mac的零漏洞",
+  "headline_zh-Hant": "蘋果緊急更新修復了用於入侵iPhone和Mac的零漏洞",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
