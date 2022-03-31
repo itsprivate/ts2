@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30868481",
+  "url": "https://news.ycombinator.com/item?id=30868481",
+  "headline": "How we increase our truths-per-hour",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "s16h",
+    "url": "https://news.ycombinator.com/user?id=s16h"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30868481",
+  "sameAs": "https://builds.metaview.ai/pup/",
+  "dateCreated": "2022-03-31T15:52:48.232Z",
+  "datePublished": "2022-03-31T15:45:13.000Z",
+  "dateModified": "2022-03-31T15:52:48.232Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我们如何增加我们的真理--每小时",
+  "headline_zh-Hant": "我們如何增加我們的真理--每小時",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
