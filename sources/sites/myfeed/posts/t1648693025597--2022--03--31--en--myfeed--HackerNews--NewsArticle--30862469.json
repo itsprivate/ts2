@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30862469",
+  "url": "https://news.ycombinator.com/item?id=30862469",
+  "headline": "Venmo is telling me to delete and recreate my account",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Mistri",
+    "url": "https://news.ycombinator.com/user?id=Mistri"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30862469",
+  "sameAs": "https://medium.com/@jmistri/venmo-is-telling-me-to-delete-recreate-my-account-5b87c1a5066b",
+  "dateCreated": "2022-03-31T02:17:05.597Z",
+  "datePublished": "2022-03-31T00:26:26.000Z",
+  "dateModified": "2022-03-31T02:17:05.597Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Venmo告诉我，要删除并重新创建我的账户",
+  "headline_zh-Hant": "Venmo告訴我，要刪除並重新創建我的賬戶",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

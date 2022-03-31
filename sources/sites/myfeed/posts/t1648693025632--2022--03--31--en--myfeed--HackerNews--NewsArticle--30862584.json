@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30862584",
+  "url": "https://news.ycombinator.com/item?id=30862584",
+  "headline": "Wyze knew hackers could remotely access your camera and said nothing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "aaronbrethorst",
+    "url": "https://news.ycombinator.com/user?id=aaronbrethorst"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30862584",
+  "sameAs": "https://www.theverge.com/23003418/wyze-cam-v1-vulnerability-no-patch-bitdefender-responsible-disclosure",
+  "dateCreated": "2022-03-31T02:17:05.632Z",
+  "datePublished": "2022-03-31T00:42:41.000Z",
+  "dateModified": "2022-03-31T02:17:05.632Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 15
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Wyze知道黑客可以远程访问你的相机，却什么都不说",
+  "headline_zh-Hant": "Wyze知道黑客可以遠程訪問你的相機，卻什麼都不說",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
