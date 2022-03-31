@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30865945",
+  "url": "https://news.ycombinator.com/item?id=30865945",
+  "headline": "The Tardis Monad",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "isaac21259",
+    "url": "https://news.ycombinator.com/user?id=isaac21259"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30865945",
+  "sameAs": "https://hackage.haskell.org/package/tardis-0.4.3.0/docs/Control-Monad-Tardis.html#g:2",
+  "dateCreated": "2022-03-31T13:23:07.090Z",
+  "datePublished": "2022-03-31T11:20:48.000Z",
+  "dateModified": "2022-03-31T13:23:07.090Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Tardis Monad",
+  "headline_zh-Hant": "Tardis Monad",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

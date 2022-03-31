@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30866082",
+  "url": "https://news.ycombinator.com/item?id=30866082",
+  "headline": "Open Course Pathways in Scalable Data Science and Distributed Machine Learning",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Learn Spark, Scala, SparkSQL, ML, GraphX, Deep Learning, etc. using databricks community edition or local spark-shell with openly available content.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lamastex",
+    "url": "https://news.ycombinator.com/user?id=lamastex"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30866082",
+  "sameAs": "https://news.ycombinator.com/item?id=30866082",
+  "dateCreated": "2022-03-31T13:23:07.117Z",
+  "datePublished": "2022-03-31T11:42:50.000Z",
+  "dateModified": "2022-03-31T13:23:07.117Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "可扩展数据科学和分布式机器学习的开放课程途径",
+  "headline_zh-Hant": "可擴展數據科學和分佈式機器學習的開放課程途徑",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "使用databricks社区版或本地spark-shell公开的内容学习Spark、Scala、SparkSQL、ML、GraphX、深度学习等。",
+  "description_zh-Hant": "使用databricks社區版或本地spark-shell公開的內容學習Spark、Scala、SparkSQL、ML、GraphX、深度學習等。"
+}
