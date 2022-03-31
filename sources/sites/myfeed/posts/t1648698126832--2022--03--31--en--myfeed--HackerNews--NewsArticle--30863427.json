@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30863427",
+  "url": "https://news.ycombinator.com/item?id=30863427",
+  "headline": "APL Since 1978 [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sebg",
+    "url": "https://news.ycombinator.com/user?id=sebg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30863427",
+  "sameAs": "https://dl.acm.org/doi/pdf/10.1145/3386319",
+  "dateCreated": "2022-03-31T03:42:06.832Z",
+  "datePublished": "2022-03-31T03:04:08.000Z",
+  "dateModified": "2022-03-31T03:42:06.832Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "1978年以来的APL [pdf]",
+  "headline_zh-Hant": "1978年以來的APL [pdf]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
