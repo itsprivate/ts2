@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30871062",
+  "url": "https://news.ycombinator.com/item?id=30871062",
+  "headline": "Colleges scramble to recruit students as nationwide enrollment plunges",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cfield",
+    "url": "https://news.ycombinator.com/user?id=cfield"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30871062",
+  "sameAs": "https://www.washingtonpost.com/education/2022/03/31/college-enrollment-down-recruitment-freshmen/",
+  "dateCreated": "2022-03-31T19:25:19.654Z",
+  "datePublished": "2022-03-31T19:05:34.000Z",
+  "dateModified": "2022-03-31T19:25:19.654Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "全国招生人数骤减，高校争相招收学生",
+  "headline_zh-Hant": "全國招生人數驟減，高校爭相招收學生",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
