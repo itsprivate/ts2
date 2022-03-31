@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30862255",
+  "url": "https://news.ycombinator.com/item?id=30862255",
+  "headline": "Fox News only news net to show YOY growth, leads in prime",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hhs",
+    "url": "https://news.ycombinator.com/user?id=hhs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30862255",
+  "sameAs": "https://www.mediapost.com/publications/article/372544/fox-news-only-cable-news-net-to-show-yoy-growth-l.html",
+  "dateCreated": "2022-03-31T00:36:27.801Z",
+  "datePublished": "2022-03-30T23:53:07.000Z",
+  "dateModified": "2022-03-31T00:36:27.801Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "福克斯新闻是唯一显示出同比增长的新闻网，在黄金时段领先",
+  "headline_zh-Hant": "福克斯新聞是唯一顯示出同比增長的新聞網，在黃金時段領先",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
