@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30873060",
+  "url": "https://news.ycombinator.com/item?id=30873060",
+  "headline": "San Francisco Bay Area residents are growing even more dissatisfied, poll says",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tlogan",
+    "url": "https://news.ycombinator.com/user?id=tlogan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30873060",
+  "sameAs": "https://www.sfgate.com/bayarea/article/Bay-Area-residents-unhappy-poll-says-17045784.php",
+  "dateCreated": "2022-03-31T23:11:21.620Z",
+  "datePublished": "2022-03-31T22:44:44.000Z",
+  "dateModified": "2022-03-31T23:11:21.620Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "民调显示，旧金山湾区居民的不满意程度越来越高",
+  "headline_zh-Hant": "民調顯示，舊金山灣區居民的不滿意程度越來越高",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
