@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30869008",
+  "url": "https://news.ycombinator.com/item?id=30869008",
+  "headline": "The Kudu Linux Laptop from System76",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ekianjo",
+    "url": "https://news.ycombinator.com/user?id=ekianjo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30869008",
+  "sameAs": "https://boilingsteam.com/the-kudu-laptop-what-system76-does-best/",
+  "dateCreated": "2022-03-31T16:47:00.252Z",
+  "datePublished": "2022-03-31T16:23:10.000Z",
+  "dateModified": "2022-03-31T16:47:00.252Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "System76的Kudu Linux笔记本电脑",
+  "headline_zh-Hant": "System76的Kudu Linux筆記本電腦",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

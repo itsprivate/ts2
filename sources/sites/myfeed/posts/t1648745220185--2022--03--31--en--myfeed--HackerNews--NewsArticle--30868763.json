@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--31--en--myfeed--HackerNews--NewsArticle--30868763",
+  "url": "https://news.ycombinator.com/item?id=30868763",
+  "headline": "Gauging the happiness benefit of US urban parks through Twitter",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pilingual",
+    "url": "https://news.ycombinator.com/user?id=pilingual"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30868763",
+  "sameAs": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0261056",
+  "dateCreated": "2022-03-31T16:47:00.185Z",
+  "datePublished": "2022-03-31T16:08:24.000Z",
+  "dateModified": "2022-03-31T16:47:00.185Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "通过推特衡量美国城市公园的幸福效益",
+  "headline_zh-Hant": "通過推特衡量美國城市公園的幸福效益",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
