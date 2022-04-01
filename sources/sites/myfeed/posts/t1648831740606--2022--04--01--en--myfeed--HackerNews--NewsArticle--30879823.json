@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--01--en--myfeed--HackerNews--NewsArticle--30879823",
+  "url": "https://news.ycombinator.com/item?id=30879823",
+  "headline": "Web3 'contains the seeds of a dystopian nightmare' says analyst firm",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "LinuxBender",
+    "url": "https://news.ycombinator.com/user?id=LinuxBender"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30879823",
+  "sameAs": "https://www.theregister.com/2022/04/01/forrester_web3_criticism/",
+  "dateCreated": "2022-04-01T16:49:00.606Z",
+  "datePublished": "2022-04-01T16:16:09.000Z",
+  "dateModified": "2022-04-01T16:49:00.606Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "分析公司称Web3 \"包含了一个歇斯底里的恶梦的种子",
+  "headline_zh-Hant": "分析公司稱Web3 \"包含了一個歇斯底里的惡夢的種子",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
