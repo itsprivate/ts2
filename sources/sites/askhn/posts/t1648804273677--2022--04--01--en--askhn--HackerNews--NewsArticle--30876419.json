@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--01--en--askhn--HackerNews--NewsArticle--30876419",
+  "url": "https://news.ycombinator.com/item?id=30876419",
+  "headline": "Ask HN: How do you get security advisories?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Recently I was reading logs on production machine and have seen line<p>&quot;pdns-recursor[2169088]: PowerDNS Security Update Mandatory: Upgrade now, see https://doc.powerdns.com/recursor/security-advisories/powerdns-advisory-2022-01.html&quot;<p>I do not have any automatics to get important stuff from my logs, but this is another big question.<p>I have asked myself - is there any way to get security advisories in RSS-like fashion? Especially for PowerDNS I see only two options how to get them: webpage[1] and reading logs. Both those options are not such convenient as getting newsletter or even RSS.<p>Maybe you do know any services to get security advisories in RSS reader or at least by email subscription?<p>[1]: https://doc.powerdns.com/authoritative/security-advisories/",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "jimsi",
+    "url": "https://news.ycombinator.com/user?id=jimsi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30876419",
+  "sameAs": "https://news.ycombinator.com/item?id=30876419",
+  "dateCreated": "2022-04-01T09:11:13.677Z",
+  "datePublished": "2022-04-01T09:09:00.000Z",
+  "dateModified": "2022-04-01T09:11:13.677Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你是如何获得安全建议的？",
+  "headline_zh-Hant": "Ask HN: 你是如何獲得安全建議的？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "最近我在生产机上看日志，看到一行<p>&quot;pdns-recursor[2169088]。PowerDNS安全更新是强制性的。现在就升级，见https://doc.powerdns.com/recursor/security-advisories/powerdns-advisory-2022-01.html&quot;<p>我没有任何自动程序来获取日志中的重要内容，但这是另一个大问题。<p>我问自己--有没有办法以类似RSS的方式获取安全公告？特别是对于PowerDNS来说，我只看到了两种获取方式：网页[1]和阅读日志。<p>也许你知道有什么服务可以通过RSS阅读器或至少通过电子邮件订阅来获得安全建议？<p>[1]: https://doc.powerdns.com/authoritative/security-advisories/",
+  "description_zh-Hant": "最近我在生產機上看日誌，看到一行<p>&quot;pdns-recursor[2169088]。PowerDNS安全更新是強制性的。現在就升級，見https://doc.powerdns.com/recursor/security-advisories/powerdns-advisory-2022-01.html&quot;<p>我沒有任何自動程序來獲取日誌中的重要內容，但這是另一個大問題。<p>我問自己--有沒有辦法以類似RSS的方式獲取安全公告？特別是對於PowerDNS來說，我只看到了兩種獲取方式：網頁[1]和閱讀日誌。<p>也許你知道有什麼服務可以通過RSS閱讀器或至少通過電子郵件訂閱來獲得安全建議？<p>[1]: https://doc.powerdns.com/authoritative/security-advisories/"
+}
