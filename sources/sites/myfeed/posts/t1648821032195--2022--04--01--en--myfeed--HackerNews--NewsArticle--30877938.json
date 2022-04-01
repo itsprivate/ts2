@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--01--en--myfeed--HackerNews--NewsArticle--30877938",
+  "url": "https://news.ycombinator.com/item?id=30877938",
+  "headline": "Why not build operating systems as layers?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Disclaimer: I am not a professional programmer, nor am I very well-versed in OS theory.\nNevertheless I have the following question:\nWhy do people still build OS's from scratch, and dont just use the base system and wrap it in an OS of their liking?\nFor example, mezzano a lisp OS is, it seems to me, pretty much built from scratch.\nWhy do these guys not just build a lisp OS on top of some UNIX-system, so that every call to the OS goes through that layer?\nAs an example:\nSome people complain that UNIX files are essentially just a lot of text, with not much further information.\nWhy not just write an additional layer that uses those files as the base but also stores more information about them somewhere?\nMaybe it would be too slow, or maybe some system calls cant be passed through an additional layer. Or maybe I am not seeing something immediately obvious to any professional. But I feel like I am probably going to learn something from the answer, so I will just go ahead and ask.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "an-selm",
+    "url": "https://news.ycombinator.com/user?id=an-selm"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30877938",
+  "sameAs": "https://news.ycombinator.com/item?id=30877938",
+  "dateCreated": "2022-04-01T13:50:32.195Z",
+  "datePublished": "2022-04-01T13:38:46.000Z",
+  "dateModified": "2022-04-01T13:50:32.195Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "为什么不把操作系统构建为层？",
+  "headline_zh-Hant": "為什麼不把操作系統構建為層？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "免责声明：我不是一个专业的程序员，也不是非常精通操作系统理论的人。\n然而，我有以下问题。\n为什么人们仍然从头开始构建操作系统，而不只是使用基础系统，并将其包裹在自己喜欢的操作系统中？\n例如，在我看来，mezzano是一个lisp操作系统，它几乎是从头开始建立的。\n为什么这些人不在一些UNIX系统的基础上建立一个lisp操作系统，让操作系统的每一个调用都通过这一层？\n举个例子。\n有些人抱怨说，UNIX的文件本质上只是大量的文本，没有多少进一步的信息。\n为什么不直接写一个额外的层，以这些文件为基础，同时在某个地方存储更多的信息？\n也许这太慢了，也许有些系统调用不能通过附加层来传递。或者我没有看到对任何专业人士来说都是显而易见的东西。但我觉得我可能会从答案中学到一些东西，所以我就继续问吧。",
+  "description_zh-Hant": "免責聲明：我不是一個專業的程序員，也不是非常精通操作系統理論的人。\n然而，我有以下問題。\n為什麼人們仍然從頭開始構建操作系統，而不只是使用基礎系統，並將其包裹在自己喜歡的操作系統中？\n例如，在我看來，mezzano是一個lisp操作系統，它幾乎是從頭開始建立的。\n為什麼這些人不在一些UNIX系統的基礎上建立一個lisp操作系統，讓操作系統的每一個調用都通過這一層？\n舉個例子。\n有些人抱怨說，UNIX的文件本質上只是大量的文本，沒有多少進一步的信息。\n為什麼不直接寫一個額外的層，以這些文件為基礎，同時在某個地方存儲更多的信息？\n也許這太慢了，也許有些系統調用不能通過附加層來傳遞。或者我沒有看到對任何專業人士來說都是顯而易見的東西。但我覺得我可能會從答案中學到一些東西，所以我就繼續問吧。"
+}
