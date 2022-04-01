@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--01--en--myfeed--HackerNews--NewsArticle--30878269",
+  "url": "https://news.ycombinator.com/item?id=30878269",
+  "headline": "Treasuring the Books No One Else Seems to Love",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "webmaven",
+    "url": "https://news.ycombinator.com/user?id=webmaven"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30878269",
+  "sameAs": "https://www.tor.com/2022/03/31/the-books-no-one-else-seems-to-love/",
+  "dateCreated": "2022-04-01T14:39:33.795Z",
+  "datePublished": "2022-04-01T14:14:52.000Z",
+  "dateModified": "2022-04-01T14:39:33.795Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "珍惜那些似乎没有人喜欢的书",
+  "headline_zh-Hant": "珍惜那些似乎沒有人喜歡的書",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
