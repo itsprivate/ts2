@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--01--en--myfeed--HackerNews--NewsArticle--30879909",
+  "url": "https://news.ycombinator.com/item?id=30879909",
+  "headline": "Europe votes to crack down on anonymous crypto transfers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "LinuxBender",
+    "url": "https://news.ycombinator.com/user?id=LinuxBender"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30879909",
+  "sameAs": "https://www.zdnet.com/finance/blockchain/europe-votes-to-crack-down-on-anonymous-crypto-transfers/",
+  "dateCreated": "2022-04-01T16:49:00.617Z",
+  "datePublished": "2022-04-01T16:21:28.000Z",
+  "dateModified": "2022-04-01T16:49:00.617Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "欧洲投票决定打击匿名加密货币转账",
+  "headline_zh-Hant": "歐洲投票決定打擊匿名加密貨幣轉賬",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
