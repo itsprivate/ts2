@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--01--en--myfeed--HackerNews--NewsArticle--30878583",
+  "url": "https://news.ycombinator.com/item?id=30878583",
+  "headline": "1k-year-old oaks used to create 'super forest'",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "malshe",
+    "url": "https://news.ycombinator.com/user?id=malshe"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30878583",
+  "sameAs": "https://www.bbc.com/news/science-environment-60617810",
+  "dateCreated": "2022-04-01T15:11:04.574Z",
+  "datePublished": "2022-04-01T14:49:31.000Z",
+  "dateModified": "2022-04-01T15:11:04.574Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "1千年树龄的橡树被用来创造 \"超级森林",
+  "headline_zh-Hant": "1千年樹齡的橡樹被用來創造 \"超級森林",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
