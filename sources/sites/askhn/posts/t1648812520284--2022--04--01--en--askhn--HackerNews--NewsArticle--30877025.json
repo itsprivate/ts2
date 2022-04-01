@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--01--en--askhn--HackerNews--NewsArticle--30877025",
+  "url": "https://news.ycombinator.com/item?id=30877025",
+  "headline": "Ask HN: Good, lightweight 2D animation engines for Android/iOS",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "What are our options if we want to include interactive animations in our app and want them to be as lightweight as possible. Rive seems like one option. What are other ones? We'd want something that allows for skeletal animation, but a physics engine is not essential (Unity and Blender seem like overkill.) Thank you!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ChaitanyaSai",
+    "url": "https://news.ycombinator.com/user?id=ChaitanyaSai"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30877025",
+  "sameAs": "https://news.ycombinator.com/item?id=30877025",
+  "dateCreated": "2022-04-01T11:28:40.284Z",
+  "datePublished": "2022-04-01T11:12:37.000Z",
+  "dateModified": "2022-04-01T11:28:40.284Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 适用于安卓/iOS的良好、轻量级2D动画引擎",
+  "headline_zh-Hant": "Ask HN: 適用於安卓/iOS的良好、輕量級2D動畫引擎",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "如果我们想在我们的应用程序中包含交互式动画，并希望它们尽可能的轻量级，我们有什么选择？Rive似乎是一个选择。还有什么其他的选择？我们希望能有一个允许骨骼动画的东西，但物理引擎不是必须的（Unity和Blender似乎是多余的）。",
+  "description_zh-Hant": "如果我們想在我們的應用程序中包含交互式動畫，並希望它們儘可能的輕量級，我們有什麼選擇？Rive似乎是一個選擇。還有什麼其他的選擇？我們希望能有一個允許骨骼動畫的東西，但物理引擎不是必須的（Unity和Blender似乎是多餘的）。"
+}
