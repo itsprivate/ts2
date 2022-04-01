@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--01--en--myfeed--HackerNews--NewsArticle--30882904",
+  "url": "https://news.ycombinator.com/item?id=30882904",
+  "headline": "Leaked screenshots and audio reveal the implosion inside Stripe-backed Fast",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mmayberry",
+    "url": "https://news.ycombinator.com/user?id=mmayberry"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30882904",
+  "sameAs": "https://www.businessinsider.com/leaked-screenshots-audio-stripe-fast-layoffs-2022-3",
+  "dateCreated": "2022-04-01T20:49:45.502Z",
+  "datePublished": "2022-04-01T20:23:10.000Z",
+  "dateModified": "2022-04-01T20:49:45.502Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "泄露的截图和音频揭示了由Stripe支持的Fast内部的内爆情况",
+  "headline_zh-Hant": "洩露的截圖和音頻揭示了由Stripe支持的Fast內部的內爆情況",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
