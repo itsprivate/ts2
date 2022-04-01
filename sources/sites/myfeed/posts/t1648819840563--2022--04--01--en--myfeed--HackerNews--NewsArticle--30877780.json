@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--01--en--myfeed--HackerNews--NewsArticle--30877780",
+  "url": "https://news.ycombinator.com/item?id=30877780",
+  "headline": "General Average",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pajtai",
+    "url": "https://news.ycombinator.com/user?id=pajtai"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30877780",
+  "sameAs": "https://en.wikipedia.org/wiki/General_average",
+  "dateCreated": "2022-04-01T13:30:40.563Z",
+  "datePublished": "2022-04-01T13:17:00.000Z",
+  "dateModified": "2022-04-01T13:30:40.563Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一般平均数",
+  "headline_zh-Hant": "一般平均數",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
