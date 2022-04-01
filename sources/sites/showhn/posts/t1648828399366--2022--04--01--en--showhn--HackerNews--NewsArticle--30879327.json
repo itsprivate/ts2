@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--01--en--showhn--HackerNews--NewsArticle--30879327",
+  "url": "https://news.ycombinator.com/item?id=30879327",
+  "headline": "Show HN: A plain-text file format for todos and check lists",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "After having cycled through various CLI-based todo apps, I started to realise that I actually don’t need a tool at all for managing my todos. Most of the time, my use cases are quite simple, like viewing my todo items, checking them off, or adding a new one.<p>Rather than having to memorise CLI commands for these interactions (which I’m not super good at), I figured that it’s easier for me to use my text editor directly, and have an editor plugin help me with the visual structure and some convenience functionality. So, kind-of similar to Emacs Org Mode, but without having to use Emacs. I personally use Sublime Text, and even though I enjoy it a lot, I don’t like being bound to specific tools.<p>I think the best basis for staying independent is to have a data format that’s properly specified and meaningful on its own. This puts the data first, and it allows the tools to be built on top and shared more easily.<p>This is what [x]it! is about, which is a plain-text file format for todos and check lists. I’m curious for thoughts and feedback. There is obviously not much tooling support (yet), but feel free to create something if the idea resonates with you.<p>Website with demo: https://xit.jotaen.net<p>File specification: https://github.com/jotaen/xit/blob/main/Specification.md",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jotaen",
+    "url": "https://news.ycombinator.com/user?id=jotaen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30879327",
+  "sameAs": "https://news.ycombinator.com/item?id=30879327",
+  "dateCreated": "2022-04-01T15:53:19.366Z",
+  "datePublished": "2022-04-01T15:39:56.000Z",
+  "dateModified": "2022-04-01T15:53:19.366Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 一个纯文本文件格式的工作日程和检查清单",
+  "headline_zh-Hant": "Show HN: 一個純文本文件格式的工作日程和檢查清單",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在循环使用各种基于CLI的todo应用程序之后，我开始意识到，实际上我根本不需要一个工具来管理我的todos。大多数时候，我的用例都很简单，比如查看我的待办事项，检查它们，或者添加一个新的待办事项。<p>与其为这些互动记忆CLI命令（我并不擅长），我想我更容易直接使用我的文本编辑器，并让一个编辑器插件帮助我完成视觉结构和一些便利功能。所以，有点类似于Emacs的Org模式，但不需要使用Emacs。我个人使用Sublime Text，尽管我很喜欢它，但我不喜欢被束缚在特定的工具上。<p>我认为保持独立的最佳基础是拥有一种数据格式，这种格式被适当地指定，并且本身就有意义。<p>这就是[x]it！的意义所在，它是一种纯文本的todos和check list的文件格式。我很想知道大家的想法和反馈。显然没有太多的工具支持（还没有），但如果这个想法能引起你的共鸣，你可以自由地创造一些东西。<p>带有演示的网站：https://xit.jotaen.net<p>文件规范：https://github.com/jotaen/xit/blob/main/Specification.md",
+  "description_zh-Hant": "在循環使用各種基於CLI的todo應用程序之後，我開始意識到，實際上我根本不需要一個工具來管理我的todos。大多數時候，我的用例都很簡單，比如查看我的待辦事項，檢查它們，或者添加一個新的待辦事項。<p>與其為這些互動記憶CLI命令（我並不擅長），我想我更容易直接使用我的文本編輯器，並讓一個編輯器插件幫助我完成視覺結構和一些便利功能。所以，有點類似於Emacs的Org模式，但不需要使用Emacs。我個人使用Sublime Text，儘管我很喜歡它，但我不喜歡被束縛在特定的工具上。<p>我認為保持獨立的最佳基礎是擁有一種數據格式，這種格式被適當地指定，並且本身就有意義。<p>這就是[x]it！的意義所在，它是一種純文本的todos和check list的文件格式。我很想知道大家的想法和反饋。顯然沒有太多的工具支持（還沒有），但如果這個想法能引起你的共鳴，你可以自由地創造一些東西。<p>帶有演示的網站：https://xit.jotaen.net<p>文件規範：https://github.com/jotaen/xit/blob/main/Specification.md"
+}
