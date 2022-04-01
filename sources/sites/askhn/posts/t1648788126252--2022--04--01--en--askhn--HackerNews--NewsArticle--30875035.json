@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--01--en--askhn--HackerNews--NewsArticle--30875035",
+  "url": "https://news.ycombinator.com/item?id=30875035",
+  "headline": "Ask HN: Best practice for home network design",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Corporate networks have lots of resources around good practice: partitioning, zero trust, vlans etc. But home  networks seem to me to be a giant attack surfaces, and incredibly juicy targets.<p>What constitutes modern best practice for the design and implementation of secure, performant home networks? Im thinking there must be more than NAT, tossing Alexa in the garbage and crossed fingers.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "kjellsbells",
+    "url": "https://news.ycombinator.com/user?id=kjellsbells"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30875035",
+  "sameAs": "https://news.ycombinator.com/item?id=30875035",
+  "dateCreated": "2022-04-01T04:42:06.252Z",
+  "datePublished": "2022-04-01T03:59:47.000Z",
+  "dateModified": "2022-04-01T04:42:06.252Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 家庭网络设计的最佳实践",
+  "headline_zh-Hant": "Ask HN: 家庭網絡設計的最佳實踐",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "企业网络有很多围绕良好做法的资源：分区、零信任、虚拟网络等等。但在我看来，家庭网络似乎是一个巨大的攻击面，而且是令人难以置信的多汁的目标。<p>什么构成了设计和实施安全、高性能家庭网络的现代最佳做法？我想，除了NAT、把Alexa扔进垃圾桶和掰着手指头之外，肯定还有别的办法。",
+  "description_zh-Hant": "企業網絡有很多圍繞良好做法的資源：分區、零信任、虛擬網絡等等。但在我看來，家庭網絡似乎是一個巨大的攻擊面，而且是令人難以置信的多汁的目標。<p>什麼構成了設計和實施安全、高性能家庭網絡的現代最佳做法？我想，除了NAT、把Alexa扔進垃圾桶和掰著手指頭之外，肯定還有別的辦法。"
+}
