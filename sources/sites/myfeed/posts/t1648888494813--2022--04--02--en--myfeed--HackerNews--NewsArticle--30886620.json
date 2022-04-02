@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--02--en--myfeed--HackerNews--NewsArticle--30886620",
+  "url": "https://news.ycombinator.com/item?id=30886620",
+  "headline": "Yet Another GitHub Profile Generator",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lukastyrychtr",
+    "url": "https://news.ycombinator.com/user?id=lukastyrychtr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30886620",
+  "sameAs": "https://blog.urth.org/2022/03/28/yet-another-github-profile-generator/",
+  "dateCreated": "2022-04-02T08:34:54.813Z",
+  "datePublished": "2022-04-02T08:02:29.000Z",
+  "dateModified": "2022-04-02T08:34:54.813Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "又一个GitHub配置文件生成器",
+  "headline_zh-Hant": "又一個GitHub配置文件生成器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
