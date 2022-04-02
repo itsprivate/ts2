@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--02--en--askhn--HackerNews--NewsArticle--30887223",
+  "url": "https://news.ycombinator.com/item?id=30887223",
+  "headline": "Ask HN: 3k museums submitting data. How?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm helping with a project that will see ~3k small museums submitting their collections data to a central data lake. It can be assumed that most museums struggle with technology and have little / no resource in-house. The data itself varies from an xls / CSV file to a database dump, to all flavours of thing in-between. File size: almost nothing all the way up to  maybe 100mb. The files will change regularly, so the solution will need to cater for this.<p>My questions are twofold:<p>First, what options do I have on the data collection side? Should we hook into something familiar like Dropbox or are there other seamless / easy to manage ways of requesting a local data sync? Making a form on a submission website was our first thought but data transfer is likely to be slow / impossible for some museums so some kind of desktop file-watcher seems less brittle, maybe?<p>Second: I know I haven't given nearly enough information for detail, but are there existing technologies on the receiving end that could ingest disparate, non-mapped, schema-less data of all flavours? Should we look at something like Node Red or Parabola do so some mapping, or are there other generic data receiving technologies we should be aware of that can cope with a multitude of data types, shapes, sizes?<p>I realise this isn't enough information for a complete answer but even some links / hints / ideas of what to look out for would be appreciated. Thanks, HN :-)",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "dmje",
+    "url": "https://news.ycombinator.com/user?id=dmje"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30887223",
+  "sameAs": "https://news.ycombinator.com/item?id=30887223",
+  "dateCreated": "2022-04-02T10:49:54.374Z",
+  "datePublished": "2022-04-02T10:47:35.000Z",
+  "dateModified": "2022-04-02T10:49:54.374Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 3k个博物馆提交数据。怎么会这样？",
+  "headline_zh-Hant": "Ask HN: 3k個博物館提交數據。怎麼會這樣？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在帮助一个项目，该项目将看到~3千家小型博物馆向一个中央数据湖提交他们的收藏数据。可以认为，大多数博物馆在技术上有困难，而且内部资源很少/没有。数据本身从xls/CSV文件到数据库转储，再到介于两者之间的各种类型的东西，各不相同。文件大小：几乎没有，一直到可能有100MB。这些文件将定期改变，所以解决方案需要满足这一点。<p>我的问题有两个方面：<p>首先，在数据收集方面我有哪些选择？我们是否应该与Dropbox等熟悉的东西挂钩，或者是否有其他无缝/易于管理的方法来请求本地数据同步？我们首先想到的是在提交网站上制作一个表格，但对于某些博物馆来说，数据传输可能会很慢/不可能，所以某种桌面文件观察器似乎不那么脆弱，也许？<p>第二：我知道我还没有给出足够的信息来说明问题，但在接收端是否有现有的技术可以摄取各种不同的、非映射的、无模式的数据？我们是否应该看看像Node Red或Parabola这样的映射，或者是否有其他我们应该知道的通用数据接收技术，可以应对多种数据类型、形状和大小？<p>我意识到这不是一个完整的答案的足够信息，但即使是一些链接/提示/想法，我们也会感激。谢谢，HN :-)",
+  "description_zh-Hant": "我正在幫助一個項目，該項目將看到~3千家小型博物館向一箇中央數據湖提交他們的收藏數據。可以認為，大多數博物館在技術上有困難，而且內部資源很少/沒有。數據本身從xls/CSV文件到數據庫轉儲，再到介於兩者之間的各種類型的東西，各不相同。文件大小：幾乎沒有，一直到可能有100MB。這些文件將定期改變，所以解決方案需要滿足這一點。<p>我的問題有兩個方面：<p>首先，在數據收集方面我有哪些選擇？我們是否應該與Dropbox等熟悉的東西掛鉤，或者是否有其他無縫/易於管理的方法來請求本地數據同步？我們首先想到的是在提交網站上製作一個表格，但對於某些博物館來說，數據傳輸可能會很慢/不可能，所以某種桌面文件觀察器似乎不那麼脆弱，也許？<p>第二：我知道我還沒有給出足夠的信息來說明問題，但在接收端是否有現有的技術可以攝取各種不同的、非映射的、無模式的數據？我們是否應該看看像Node Red或Parabola這樣的映射，或者是否有其他我們應該知道的通用數據接收技術，可以應對多種數據類型、形狀和大小？<p>我意識到這不是一個完整的答案的足夠信息，但即使是一些鏈接/提示/想法，我們也會感激。謝謝，HN :-)"
+}
