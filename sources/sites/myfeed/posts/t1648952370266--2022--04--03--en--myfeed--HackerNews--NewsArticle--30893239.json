@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--03--en--myfeed--HackerNews--NewsArticle--30893239",
+  "url": "https://news.ycombinator.com/item?id=30893239",
+  "headline": "No More VPN. Introducting Cloudflare Tunnel",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "technorange",
+    "url": "https://news.ycombinator.com/user?id=technorange"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30893239",
+  "sameAs": "https://www.sakowi.cz/blog/cloudflared-docker-compose-tutorial",
+  "dateCreated": "2022-04-03T02:19:30.266Z",
+  "datePublished": "2022-04-03T01:06:43.000Z",
+  "dateModified": "2022-04-03T02:19:30.266Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "不再有VPN。介绍云计算隧道",
+  "headline_zh-Hant": "不再有VPN。介紹雲計算隧道",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
