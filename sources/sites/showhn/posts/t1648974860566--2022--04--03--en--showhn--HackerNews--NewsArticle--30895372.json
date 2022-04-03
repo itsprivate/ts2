@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--03--en--showhn--HackerNews--NewsArticle--30895372",
+  "url": "https://news.ycombinator.com/item?id=30895372",
+  "headline": "Show HN: Yaade – An open-source, self-hosted, collaborative API dev environment",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jonrosner",
+    "url": "https://news.ycombinator.com/user?id=jonrosner"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30895372",
+  "sameAs": "https://github.com/EsperoTech/yaade",
+  "dateCreated": "2022-04-03T08:34:20.566Z",
+  "datePublished": "2022-04-03T08:23:46.000Z",
+  "dateModified": "2022-04-03T08:34:20.566Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Yaade - 一个开源的、自我托管的、协作的API开发环境",
+  "headline_zh-Hant": "Show HN: Yaade - 一個開源的、自我託管的、協作的API開發環境",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
