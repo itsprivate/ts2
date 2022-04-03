@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--03--en--myfeed--HackerNews--NewsArticle--30896375",
+  "url": "https://news.ycombinator.com/item?id=30896375",
+  "headline": "MailChimp compromised by an insider targeting crypto companies",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tomputer",
+    "url": "https://news.ycombinator.com/user?id=tomputer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30896375",
+  "sameAs": "https://twitter.com/Trezor/status/1510558771944333312",
+  "dateCreated": "2022-04-03T13:35:17.161Z",
+  "datePublished": "2022-04-03T12:35:53.000Z",
+  "dateModified": "2022-04-03T13:35:17.161Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "邮件公司被内部人员入侵，目标是加密货币公司",
+  "headline_zh-Hant": "郵件公司被內部人員入侵，目標是加密貨幣公司",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
