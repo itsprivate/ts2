@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--03--en--myfeed--HackerNews--NewsArticle--30897378",
+  "url": "https://news.ycombinator.com/item?id=30897378",
+  "headline": "Curtain: WIP sandboxing mechanism with pledge()/unveil() support (FreeBSD)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "conductor",
+    "url": "https://news.ycombinator.com/user?id=conductor"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30897378",
+  "sameAs": "https://lists.freebsd.org/archives/freebsd-hackers/2022-March/000923.html",
+  "dateCreated": "2022-04-03T16:12:08.360Z",
+  "datePublished": "2022-04-03T14:55:59.000Z",
+  "dateModified": "2022-04-03T16:12:08.360Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "窗帘。支持 pledge()/unveil() 的 WIP 沙箱机制 (FreeBSD)",
+  "headline_zh-Hant": "窗簾。支持 pledge()/unveil() 的 WIP 沙箱機制 (FreeBSD)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
