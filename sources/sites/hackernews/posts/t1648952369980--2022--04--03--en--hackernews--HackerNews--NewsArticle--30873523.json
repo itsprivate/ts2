@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--03--en--hackernews--HackerNews--NewsArticle--30873523",
+  "url": "https://news.ycombinator.com/item?id=30873523",
+  "headline": "Kafka the Hypochondriac",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lermontov",
+    "url": "https://news.ycombinator.com/user?id=lermontov"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30873523",
+  "sameAs": "https://aeon.co/essays/the-role-of-hypochondria-in-the-life-and-work-of-franz-kafka",
+  "dateCreated": "2022-04-03T02:19:29.980Z",
+  "datePublished": "2022-03-31T23:40:54.000Z",
+  "dateModified": "2022-04-03T02:19:29.980Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "疑病症患者卡夫卡",
+  "headline_zh-Hant": "疑病症患者卡夫卡",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
