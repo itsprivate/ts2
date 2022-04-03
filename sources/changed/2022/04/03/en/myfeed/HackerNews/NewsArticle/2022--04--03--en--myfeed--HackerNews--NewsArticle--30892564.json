@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--03--en--myfeed--HackerNews--NewsArticle--30892564",
+  "url": "https://news.ycombinator.com/item?id=30892564",
+  "headline": "Crowdsourced worldwide map of public pinball machines",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "james_pm",
+    "url": "https://news.ycombinator.com/user?id=james_pm"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30892564",
+  "sameAs": "https://pinballmap.com/",
+  "dateCreated": "2022-04-03T00:39:41.468Z",
+  "datePublished": "2022-04-02T23:19:36.000Z",
+  "dateModified": "2022-04-03T00:39:41.468Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "众包的全球公共弹球机地图",
+  "headline_zh-Hant": "眾包的全球公共彈球機地圖",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
