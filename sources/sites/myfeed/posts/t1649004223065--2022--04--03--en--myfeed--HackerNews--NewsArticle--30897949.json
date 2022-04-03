@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--03--en--myfeed--HackerNews--NewsArticle--30897949",
+  "url": "https://news.ycombinator.com/item?id=30897949",
+  "headline": "Software glitch halts trains across the Netherlands",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tannhaeuser",
+    "url": "https://news.ycombinator.com/user?id=tannhaeuser"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30897949",
+  "sameAs": "https://abcnews.go.com/International/wireStory/software-glitch-halts-trains-netherlands-83842963",
+  "dateCreated": "2022-04-03T16:43:43.065Z",
+  "datePublished": "2022-04-03T16:07:44.000Z",
+  "dateModified": "2022-04-03T16:43:43.065Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "软件故障导致荷兰各地火车停运",
+  "headline_zh-Hant": "軟件故障導致荷蘭各地火車停運",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
