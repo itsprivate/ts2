@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--03--en--askhn--HackerNews--NewsArticle--30901282",
+  "url": "https://news.ycombinator.com/item?id=30901282",
+  "headline": "Ask HN: Is using just a TOTP based authenticatation safe or a privacy issue",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello HN,\nI am envisioning a webapp with the least amount of friction to enroll a user. \nIs using a TOTP based authentication with no password a safe technique or does it have some glaring holes that I am missing.<p>Example - user enters an email and receives a TOTP based 8 digit code valid for the next 10 minutes. \nThe user enters the code and is able to view the authenticated information.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ab_testing",
+    "url": "https://news.ycombinator.com/user?id=ab_testing"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30901282",
+  "sameAs": "https://news.ycombinator.com/item?id=30901282",
+  "dateCreated": "2022-04-03T22:30:33.468Z",
+  "datePublished": "2022-04-03T22:18:36.000Z",
+  "dateModified": "2022-04-03T22:30:33.468Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 只使用基于TOTP的认证是否安全或有隐私问题？",
+  "headline_zh-Hant": "Ask HN: 只使用基於TOTP的認證是否安全或有隱私問題？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你好，HN。\n我正在设想一个网络应用程序，以最少的摩擦来注册一个用户。\n使用基于TOTP的无密码认证是否是一种安全的技术，或者它是否有一些我所忽略的明显的漏洞。<p>示例--用户输入电子邮件并收到一个基于TOTP的8位数代码，在未来10分钟内有效。\n用户输入代码，并能够查看认证的信息。",
+  "description_zh-Hant": "你好，HN。\n我正在設想一個網絡應用程序，以最少的摩擦來註冊一個用戶。\n使用基於TOTP的無密碼認證是否是一種安全的技術，或者它是否有一些我所忽略的明顯的漏洞。<p>示例--用戶輸入電子郵件並收到一個基於TOTP的8位數代碼，在未來10分鐘內有效。\n用戶輸入代碼，並能夠查看認證的信息。"
+}
