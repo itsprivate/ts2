@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--03--en--hackernews--HackerNews--NewsArticle--30895240",
+  "url": "https://news.ycombinator.com/item?id=30895240",
+  "headline": "Nicaraguan Sign Language is a sign language largely spontaneously developed",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Tomte",
+    "url": "https://news.ycombinator.com/user?id=Tomte"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30895240",
+  "sameAs": "https://en.wikipedia.org/wiki/Nicaraguan_Sign_Language",
+  "dateCreated": "2022-04-03T17:32:57.491Z",
+  "datePublished": "2022-04-03T07:52:56.000Z",
+  "dateModified": "2022-04-03T17:32:57.491Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "尼加拉瓜手语是一种主要自发形成的手语。",
+  "headline_zh-Hant": "尼加拉瓜手語是一種主要自發形成的手語。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
