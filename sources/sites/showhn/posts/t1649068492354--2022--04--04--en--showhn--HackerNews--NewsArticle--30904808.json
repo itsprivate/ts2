@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--04--01--en--myfeed--HackerNews--NewsArticle--30878716",
-  "url": "https://news.ycombinator.com/item?id=30878716",
-  "headline": "Why CAPTCHAs Will Be with Us Always",
+  "identifier": "2022--04--04--en--showhn--HackerNews--NewsArticle--30904808",
+  "url": "https://news.ycombinator.com/item?id=30904808",
+  "headline": "Show HN: A Slack bot that sends chocolates to your coworkers",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "jgrahamc",
-    "url": "https://news.ycombinator.com/user?id=jgrahamc"
+    "name": "Lior539",
+    "url": "https://news.ycombinator.com/user?id=Lior539"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30878716",
-  "sameAs": "https://www.hcaptcha.com/post/why-captchas-will-be-with-us-always",
-  "dateCreated": "2022-04-01T16:12:50.869Z",
-  "datePublished": "2022-04-01T14:59:15.000Z",
-  "dateModified": "2022-04-01T16:12:50.869Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30904808",
+  "sameAs": "https://www.chocbot.app/",
+  "dateCreated": "2022-04-04T10:34:52.354Z",
+  "datePublished": "2022-04-04T09:48:13.000Z",
+  "dateModified": "2022-04-04T10:34:52.354Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 3
     }
   ],
-  "headline_zh-Hans": "为什么验证码会一直伴随着我们？",
-  "headline_zh-Hant": "為什麼驗證碼會一直伴隨著我們？",
+  "headline_zh-Hans": "Show HN: 一个能给你的同事发送巧克力的Slack机器人",
+  "headline_zh-Hant": "Show HN: 一個能給你的同事發送巧克力的Slack機器人",
   "@context": [
     "https://schema.org",
     {
