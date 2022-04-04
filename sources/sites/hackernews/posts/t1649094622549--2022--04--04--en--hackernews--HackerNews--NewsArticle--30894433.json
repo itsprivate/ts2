@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--hackernews--HackerNews--NewsArticle--30894433",
+  "url": "https://news.ycombinator.com/item?id=30894433",
+  "headline": "A fresh take on why Octavian won the war against Antony and Cleopatra",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "diodorus",
+    "url": "https://news.ycombinator.com/user?id=diodorus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30894433",
+  "sameAs": "https://arstechnica.com/gaming/2022/04/a-fresh-take-on-why-octavian-won-the-war-against-antony-and-cleopatra/",
+  "dateCreated": "2022-04-04T17:50:22.549Z",
+  "datePublished": "2022-04-03T04:26:40.000Z",
+  "dateModified": "2022-04-04T17:50:22.549Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "对屋大维赢得与安东尼和克里奥帕特拉战争的原因的新看法",
+  "headline_zh-Hant": "對屋大維贏得與安東尼和克里奧帕特拉戰爭的原因的新看法",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
