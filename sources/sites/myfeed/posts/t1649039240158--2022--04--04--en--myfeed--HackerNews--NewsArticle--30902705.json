@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--myfeed--HackerNews--NewsArticle--30902705",
+  "url": "https://news.ycombinator.com/item?id=30902705",
+  "headline": "University Project Cataloged 1,100 Ransomware Attacks on Critical Infrastructure",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "walterbell",
+    "url": "https://news.ycombinator.com/user?id=walterbell"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30902705",
+  "sameAs": "https://www.securityweek.com/university-project-cataloged-1100-ransomware-attacks-critical-infrastructure",
+  "dateCreated": "2022-04-04T02:27:20.158Z",
+  "datePublished": "2022-04-04T02:08:04.000Z",
+  "dateModified": "2022-04-04T02:27:20.158Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "大学项目对关键基础设施的1,100次勒索软件攻击进行编目",
+  "headline_zh-Hant": "大學項目對關鍵基礎設施的1,100次勒索軟件攻擊進行編目",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

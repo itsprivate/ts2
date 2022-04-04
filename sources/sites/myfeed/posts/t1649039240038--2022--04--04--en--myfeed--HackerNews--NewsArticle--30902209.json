@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--myfeed--HackerNews--NewsArticle--30902209",
+  "url": "https://news.ycombinator.com/item?id=30902209",
+  "headline": "Go Generics for Field Level Database Encryption",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "boyter",
+    "url": "https://news.ycombinator.com/user?id=boyter"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30902209",
+  "sameAs": "https://engineering.kablamo.com.au/posts/2022/field-level-data-encryption-in-go/",
+  "dateCreated": "2022-04-04T02:27:20.038Z",
+  "datePublished": "2022-04-04T00:27:34.000Z",
+  "dateModified": "2022-04-04T02:27:20.038Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用于字段级数据库加密的Go Generics",
+  "headline_zh-Hant": "用於字段級數據庫加密的Go Generics",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

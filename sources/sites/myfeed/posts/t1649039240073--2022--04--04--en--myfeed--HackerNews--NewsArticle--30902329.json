@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--myfeed--HackerNews--NewsArticle--30902329",
+  "url": "https://news.ycombinator.com/item?id=30902329",
+  "headline": "Milk Fiber",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "wchar_t",
+    "url": "https://news.ycombinator.com/user?id=wchar_t"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30902329",
+  "sameAs": "https://en.wikipedia.org/wiki/Milk_fiber",
+  "dateCreated": "2022-04-04T02:27:20.073Z",
+  "datePublished": "2022-04-04T00:52:15.000Z",
+  "dateModified": "2022-04-04T02:27:20.073Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "牛奶纤维",
+  "headline_zh-Hant": "牛奶纖維",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
