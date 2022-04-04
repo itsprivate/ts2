@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--askhn--HackerNews--NewsArticle--30902258",
+  "url": "https://news.ycombinator.com/item?id=30902258",
+  "headline": "Ask HN: Do you have a guide on how to use feature flags?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've seen lots of posts on HN saying that feature flags are a must use. How do you use them?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "victor_e",
+    "url": "https://news.ycombinator.com/user?id=victor_e"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30902258",
+  "sameAs": "https://news.ycombinator.com/item?id=30902258",
+  "dateCreated": "2022-04-04T02:27:18.919Z",
+  "datePublished": "2022-04-04T00:38:31.000Z",
+  "dateModified": "2022-04-04T02:27:18.919Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你有关于如何使用特征旗的指南吗？",
+  "headline_zh-Hant": "Ask HN: 你有關於如何使用特徵旗的指南嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我在HN上看到很多帖子说，特征旗是必须使用的。你是如何使用它们的？",
+  "description_zh-Hant": "我在HN上看到很多帖子說，特徵旗是必須使用的。你是如何使用它們的？"
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--hackernews--HackerNews--NewsArticle--30897284",
+  "url": "https://news.ycombinator.com/item?id=30897284",
+  "headline": "Reading code from top to bottom (1999)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "julietteeb",
+    "url": "https://news.ycombinator.com/user?id=julietteeb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30897284",
+  "sameAs": "http://iq0.com/notes/deep.nesting.html",
+  "dateCreated": "2022-04-04T02:27:19.852Z",
+  "datePublished": "2022-04-03T14:43:25.000Z",
+  "dateModified": "2022-04-04T02:27:19.852Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "从上到下阅读代码 (1999)",
+  "headline_zh-Hant": "從上到下閱讀代碼 (1999)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
