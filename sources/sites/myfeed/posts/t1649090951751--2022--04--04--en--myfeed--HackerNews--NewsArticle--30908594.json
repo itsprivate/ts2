@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--myfeed--HackerNews--NewsArticle--30908594",
+  "url": "https://news.ycombinator.com/item?id=30908594",
+  "headline": "Emacs 28.1 is out",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "VitalyAnkh",
+    "url": "https://news.ycombinator.com/user?id=VitalyAnkh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30908594",
+  "sameAs": "https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html#Releases",
+  "dateCreated": "2022-04-04T16:49:11.751Z",
+  "datePublished": "2022-04-04T16:31:34.000Z",
+  "dateModified": "2022-04-04T16:49:11.751Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Emacs 28.1已经发布",
+  "headline_zh-Hant": "Emacs 28.1已經發布",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--myfeed--HackerNews--NewsArticle--30908350",
+  "url": "https://news.ycombinator.com/item?id=30908350",
+  "headline": "Ukraine war: Fortnite maker Epic Games raises $144m (£110m) to help victims",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "JohnnyRoper",
+    "url": "https://news.ycombinator.com/user?id=JohnnyRoper"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30908350",
+  "sameAs": "https://www.bbc.com/news/technology-60983344",
+  "dateCreated": "2022-04-04T16:49:11.679Z",
+  "datePublished": "2022-04-04T16:14:17.000Z",
+  "dateModified": "2022-04-04T16:49:11.679Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "乌克兰战争。堡垒之夜》制造商Epic Games筹集了1.44亿美元（1.1亿英镑）以帮助受害者",
+  "headline_zh-Hant": "烏克蘭戰爭。堡壘之夜》製造商Epic Games籌集了1.44億美元（1.1億英鎊）以幫助受害者",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
