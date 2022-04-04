@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--showhn--HackerNews--NewsArticle--30907709",
+  "url": "https://news.ycombinator.com/item?id=30907709",
+  "headline": "Show HN: Snipd syncs podcast highlights to Notion with summary and transcripts",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "gina_schalala",
+    "url": "https://news.ycombinator.com/user?id=gina_schalala"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30907709",
+  "sameAs": "https://www.notion.so/snipd/Example-Synced-podcast-highlights-database-with-Snipd-s-integration-4874d50a445e49ad9af370da3dd54574",
+  "dateCreated": "2022-04-04T15:34:37.669Z",
+  "datePublished": "2022-04-04T15:24:11.000Z",
+  "dateModified": "2022-04-04T15:34:37.669Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Snipd将播客亮点同步到Notion，并提供摘要和文字记录",
+  "headline_zh-Hant": "Show HN: Snipd將播客亮點同步到Notion，並提供摘要和文字記錄",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
