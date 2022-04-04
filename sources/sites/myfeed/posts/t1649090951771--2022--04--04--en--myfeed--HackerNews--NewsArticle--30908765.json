@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--myfeed--HackerNews--NewsArticle--30908765",
+  "url": "https://news.ycombinator.com/item?id=30908765",
+  "headline": "Now in Preview: Azure Virtual Machines with Ampere Altra Arm-Based Processors",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "timthorn",
+    "url": "https://news.ycombinator.com/user?id=timthorn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30908765",
+  "sameAs": "https://azure.microsoft.com/en-gb/blog/now-in-preview-azure-virtual-machines-with-ampere-altra-armbased-processors/",
+  "dateCreated": "2022-04-04T16:49:11.771Z",
+  "datePublished": "2022-04-04T16:43:53.000Z",
+  "dateModified": "2022-04-04T16:49:11.771Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "现在处于预览阶段。采用Ampere Altra Arm处理器的Azure虚拟机",
+  "headline_zh-Hant": "現在處於預覽階段。採用Ampere Altra Arm處理器的Azure虛擬機",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
