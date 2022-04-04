@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--myfeed--HackerNews--NewsArticle--30911826",
+  "url": "https://news.ycombinator.com/item?id=30911826",
+  "headline": "Emacs 28.1",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jhoechtl",
+    "url": "https://news.ycombinator.com/user?id=jhoechtl"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30911826",
+  "sameAs": "https://www.gnu.org/software/emacs/news/NEWS.28.1",
+  "dateCreated": "2022-04-04T21:28:54.591Z",
+  "datePublished": "2022-04-04T20:55:37.000Z",
+  "dateModified": "2022-04-04T21:28:54.591Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Emacs 28.1",
+  "headline_zh-Hant": "Emacs 28.1",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
