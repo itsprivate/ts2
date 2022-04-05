@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--05--en--myfeed--HackerNews--NewsArticle--30919079",
+  "url": "https://news.ycombinator.com/item?id=30919079",
+  "headline": "A Rust OS with Only Rust Applications",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "As a fan of Rust myself, I know that Rust offers memory safety and type safety.<p>Suppose there was an operating system written using as much safe Rust as possible, on top of which one only ran software written safe Rust...<p>How much more impervious would such an operating system be to attacks than other operating systems?<p>FWIW, I know that Redox exists.<p>And here's a ranking of common software vulnerabilities.<p>https://cwe.mitre.org/top25/archive/2021/2021_cwe_top25.html<p>Obviously, a software developer who stores passwords in plain text is just asking for trouble - even Rust can't fix that, but there are definitely issues on that list that Rust can fix like buffer overflow.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "BracketMaster",
+    "url": "https://news.ycombinator.com/user?id=BracketMaster"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30919079",
+  "sameAs": "https://news.ycombinator.com/item?id=30919079",
+  "dateCreated": "2022-04-05T14:29:11.301Z",
+  "datePublished": "2022-04-05T14:01:52.000Z",
+  "dateModified": "2022-04-05T14:29:11.301Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "一个只有Rust应用程序的Rust操作系统",
+  "headline_zh-Hant": "一個只有Rust應用程序的Rust操作系統",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "作为Rust的粉丝，我知道Rust提供了内存安全和类型安全。<p>假设有一个使用尽可能多的安全Rust编写的操作系统，在此基础上只运行安全Rust编写的软件...<p>这样一个操作系统会比其他操作系统更不容易受到攻击？<p>FWIW，我知道Redox的存在。 <p>而这里有一个常见软件漏洞的排名。<p>https://cwe.mitre.org/top25/archive/2021/2021_cwe_top25.html<p>显然，一个软件开发者如果用纯文本存储密码，那就是自找麻烦--即使是Rust也不能解决这个问题，但这个列表中肯定有Rust能解决的问题，比如缓冲区溢出。",
+  "description_zh-Hant": "作為Rust的粉絲，我知道Rust提供了內存安全和類型安全。<p>假設有一個使用盡可能多的安全Rust編寫的操作系統，在此基礎上只運行安全Rust編寫的軟件...<p>這樣一個操作系統會比其他操作系統更不容易受到攻擊？<p>FWIW，我知道Redox的存在。 <p>而這裡有一個常見軟件漏洞的排名。<p>https://cwe.mitre.org/top25/archive/2021/2021_cwe_top25.html<p>顯然，一個軟件開發者如果用純文本存儲密碼，那就是自找麻煩--即使是Rust也不能解決這個問題，但這個列表中肯定有Rust能解決的問題，比如緩衝區溢出。"
+}
