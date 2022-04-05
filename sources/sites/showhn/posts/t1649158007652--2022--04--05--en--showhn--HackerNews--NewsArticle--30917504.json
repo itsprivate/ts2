@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--05--en--showhn--HackerNews--NewsArticle--30917504",
+  "url": "https://news.ycombinator.com/item?id=30917504",
+  "headline": "Show HN: A Chrome extension for fast, contextual notetaking",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "tl;dr - I built a fast and low-frills notepad which helps me keep a flow state.<p>I spend a lot of time in the browser: in calls, managing stuff between SaaS apps, or consolidating info from multiple tabs. Usually, I'd bring up an editor and side-by-side it, or switch between my current tab and a notion tab. This extension lets you hit a hotkey and bring up a notepad in-place. It's a scratchpad for thinking in the moment - key points and questions as I'm working. If I want to hold on to the memory, I can export it to another app - if not, I'll just delete the note. It's kind of like the RAM to Notion's hard drive.<p>A couple more details:\n- It works in videos, pdfs, and most sites. Startup friends use it reviewing their Figmas. Investor friends have been using it on Docsends. I use it to pull important parts from documentation, and writing call notes. \n- A note can be used across tabs (e.g. I've used it to cross-reference product reviews)\n- It keeps a bibliography for each note. \n- It can stash its notes if you want to keep things in-house. If not, you can export to Google Docs and Notion\n- If you connect your Google Drive, you can search your drive. It's faster than the web interface.<p>Anyway, the point is to be a really fast way to manage your current thoughts. I feel like memory decays rapidly, and the faster I can record things, the lower my mental burden.<p>I've got a video showing some of this at <a href=\"https://getjotter.com/\" rel=\"nofollow\">https://getjotter.com/</a>. There's no signup needed to try it, and I'm happy to take feedback and suggestions!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "daveed",
+    "url": "https://news.ycombinator.com/user?id=daveed"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30917504",
+  "sameAs": "https://getjotter.com/",
+  "dateCreated": "2022-04-05T11:26:47.652Z",
+  "datePublished": "2022-04-05T11:08:36.000Z",
+  "dateModified": "2022-04-05T11:26:47.652Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 一个用于快速、上下文记事的Chrome扩展程序",
+  "headline_zh-Hant": "Show HN: 一個用於快速、上下文記事的Chrome擴展程序",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "<p>我花了很多时间在浏览器上：在通话中，在SaaS应用程序之间管理东西，或从多个标签中整合信息。通常情况下，我会调出一个编辑器并排使用，或者在我当前的标签和一个概念标签之间切换。这个扩展可以让你按下热键，就地调出一个记事本。它是我在工作中思考问题的抓板--关键点和问题。如果我想保留这些记忆，我可以将其导出到另一个应用程序中--如果不需要，我就会直接删除该笔记。这有点像Notion硬盘的内存。<p>更多细节。\n- 它可以在视频、pdf和大多数网站中使用。创业公司的朋友用它来审查他们的Figmas。投资者朋友在Docsends上使用它。我用它来从文件中提取重要部分，并撰写通话记录。\n- 一个笔记可以跨标签使用（例如，我用它来交叉引用产品评论）。\n- 它为每个笔记保留一个书目。\n- 如果你想保持内部的东西，它可以将其笔记藏起来。如果不是，你可以导出到Google Docs和Notion中。\n- 如果你连接你的谷歌驱动器，你可以搜索你的驱动器。这比网页界面更快。<p>无论如何，重点是要成为一个真正快速的方式来管理你当前的想法。我觉得记忆衰减得很快，我记录事情的速度越快，我的精神负担就越低。<p>我在<a href=\"https://getjotter.com/\" rel=\"nofollow\">https://getjotter.com/</a>上有一个视频展示了其中的一些内容。试试这个视频不需要注册，我很乐意接受反馈和建议。",
+  "description_zh-Hant": "<p>我花了很多時間在瀏覽器上：在通話中，在SaaS應用程序之間管理東西，或從多個標籤中整合信息。通常情況下，我會調出一個編輯器並排使用，或者在我當前的標籤和一個概念標籤之間切換。這個擴展可以讓你按下熱鍵，就地調出一個記事本。它是我在工作中思考問題的抓板--關鍵點和問題。如果我想保留這些記憶，我可以將其導出到另一個應用程序中--如果不需要，我就會直接刪除該筆記。這有點像Notion硬盤的內存。<p>更多細節。\n- 它可以在視頻、pdf和大多數網站中使用。創業公司的朋友用它來審查他們的Figmas。投資者朋友在Docsends上使用它。我用它來從文件中提取重要部分，並撰寫通話記錄。\n- 一個筆記可以跨標籤使用（例如，我用它來交叉引用產品評論）。\n- 它為每個筆記保留一個書目。\n- 如果你想保持內部的東西，它可以將其筆記藏起來。如果不是，你可以導出到Google Docs和Notion中。\n- 如果你連接你的谷歌驅動器，你可以搜索你的驅動器。這比網頁界面更快。<p>無論如何，重點是要成為一個真正快速的方式來管理你當前的想法。我覺得記憶衰減得很快，我記錄事情的速度越快，我的精神負擔就越低。<p>我在<a href=\"https://getjotter.com/\" rel=\"nofollow\">https://getjotter.com/</a>上有一個視頻展示了其中的一些內容。試試這個視頻不需要註冊，我很樂意接受反饋和建議。"
+}
