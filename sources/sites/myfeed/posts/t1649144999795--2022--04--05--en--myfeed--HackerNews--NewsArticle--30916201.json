@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--05--en--myfeed--HackerNews--NewsArticle--30916201",
+  "url": "https://news.ycombinator.com/item?id=30916201",
+  "headline": "JSON Reformat and Print",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "<p><pre><code>    sed 's/.\\{4\\}//' &lt;&lt;eof|flex -8iCrf \n     /* reformat, print json */\n    \n     int fileno (FILE *);\n     #define echo do{if(fwrite(yytext,(size_t)yyleng,1,yyout)){}}while(0)\n     #define jmp (yy_start) = 1 + 2 *\n     #define pc(x) putchar(x)\n    %option nounput noinput noyywrap\n    %s x1 \n    %%\n    \\40+ \n     /* quoted values\n      &quot;key&quot;:&quot; \n      &quot;key&quot;: &quot; \n     */\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*\\&quot; echo;jmp x1;\n     /* quoted values\n      &quot;key&quot;:[{ \n      &quot;key&quot;: [{ \n     */\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*\\[\\40*\\{ echo;pc(10);\n     /* unquoted, comma-separated array values \n      &quot;key&quot;:[ \n      &quot;key&quot;: [ \n     */\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*\\[ echo;jmp x1;\n     /* quoted values\n      &quot;key&quot;:{ \n      &quot;key&quot;: { \n     */\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*\\{ echo;pc(10);\n     /* open brace not closed brace */ \n    &lt;x1&gt;[\\]\\{\\&quot;] echo;pc(10);jmp 0;\n    &lt;x1&gt;[^\\]\\{\\&quot;\\12]* echo;\n    \\n|.\n    %%\n    int main(){ yylex();exit(0);}\n</code></pre>\neof<p><pre><code>    cc  -std=c89 -Wall -pedantic -pipe lex.yy.c -static -o yy059\n</code></pre>\nUsage: yy059 &lt; 1.json<p>This is made according to own personal JSON readability aesthetics, primarily for reading YouTube JSON.  It is used in personal YouTube search utility.  JSON from non-YouTube sources, e.g., Twitter, may contain escaped quotes.  Remove esacped quotes first, e.g.,<p><pre><code>  yy064 &lt; 1.json|yy059\n</code></pre>\nHere is yy064:<p><pre><code>    sed 's/.\\{4\\}//' &lt;&lt;eof|flex -8iCrf\n     /* json remove escaped quotes */\n    \n     int fileno (FILE *);\n     #define echo do{if(fwrite(yytext,(size_t)yyleng,1,yyout)){}}while(0)\n     #define jmp (yy_start) = 1 + 2 *\n     #define pc(x) putchar(x)\n     int setenv (const char *, const char *, int);\n    \n    %option nounput noinput noyywrap\n    %%\n    ^[\\40\\11]+\n    \\134\\42\n    %%\n    int main(){ yylex();exit(0);}\n</code></pre>\neof<p><pre><code>    cc -std=c89 -Wall -pedantic -pipe lex.yy.c -static -o yy064</code></pre>",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "1vuio0pswjnm7",
+    "url": "https://news.ycombinator.com/user?id=1vuio0pswjnm7"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30916201",
+  "sameAs": "https://news.ycombinator.com/item?id=30916201",
+  "dateCreated": "2022-04-05T07:49:59.795Z",
+  "datePublished": "2022-04-05T07:21:34.000Z",
+  "dateModified": "2022-04-05T07:49:59.795Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "JSON重新格式化和打印",
+  "headline_zh-Hant": "JSON重新格式化和打印",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "<p><pre><code> sed 's/.\\{4\\}//' &lt;&lt;eof|flex -8iCrf \n     /*重新格式化，打印json */\n    \n     int fileno (FILE *);\n     #define echo do{if(fwrite(yytext,(size_t)yyleng,1,yyout)){}}while(0)\n     #define jmp (yy_start) = 1 + 2 *.\n     #define pc(x) putchar(x)\n    %option nounput noinput noyywrap\n    %s x1 \n    %%\n    \\40+ \n     /*引号值\n      &quot;key&quot;:&quot; \n      &quot;key&quot;: &quot; \n     */\n    \\quot;[^\\quot;:\\]\\)]*\\&quot;:\\40*\\&quot; echo;jmp x1;\n     /*引号值\n      &quot;key&quot;:[{ \n      &quot;key&quot;。[{ \n     */\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*\\[\\40*\\{ echo;pc(10);\n     /* 无引号的、以逗号分隔的数组值 \n      &quot;key&quot;:[ \n      &quot;key&quot;。[ \n     */\n    \\`&quot;[^&quot;:`&]`)]*`&quot;:`&40*`[ echo;jmp x1;\n     /*引号值\n      &quot;key&quot;:{ \n      &quot;key&quot;。{ \n     */\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*\\{ echo;pc(10);\n     /*开括号不是闭括号 */ \n    &lt;x1&gt;[\\]\\&quot;] echo;pc(10);jmp 0;\n    &lt;x1&gt;[^\\]\\{\\&quot;\\12]* echo;\n    \\n|.\n    %%\n    int main(){ yylex();exit(0);}\n</code></pre>\neof<p><pre><code> cc -std=c89 -Wall -pedantic -pipe lex.yy.c -static -o yy059\n</code></pre>\nUsage: yy059 &lt; 1.json<p>This is made according to own personal JSON readability aesthetics, primarily for reading YouTube JSON.  It is used in personal YouTube search utility.  JSON from non-YouTube sources, e.g., Twitter, may contain escaped quotes.  Remove esacped quotes first, e.g.,<p><pre><code> yy064 &lt; 1.json|yy059\n</code></pre>\n这里是yy064：<p><pre><code> sed 's/.\\{4\\}/' &lt;&lt;eof|flex -8iCrf\n     /* json删除转义引号 */\n    \n     int fileno (FILE *);\n     #define echo do{if(fwrite(yytext,(size_t)yyleng,1,yyout)){}}while(0)\n     #define jmp (yy_start) = 1 + 2 *.\n     #define pc(x) putchar(x)\n     int setenv (const char *, const char *, int);\n    \n    %option nounput noinput noyywrap\n    %%\n    ^[\\40\\11]+\n    \\134\\42\n    %%\n    int main(){ yylex();exit(0);}\n</code></pre>\neof<p><pre><code> cc -std=c89 -Wall -pedantic -pipe lex.yy.c -static -o yy064</code></pre>",
+  "description_zh-Hant": "<p><pre><code> sed 's/.\\{4\\}//' &lt;&lt;eof|flex -8iCrf \n     /*重新格式化，打印json */\n    \n     int fileno (FILE *);\n     #define echo do{if(fwrite(yytext,(size_t)yyleng,1,yyout)){}}while(0)\n     #define jmp (yy_start) = 1 + 2 *.\n     #define pc(x) putchar(x)\n    %option nounput noinput noyywrap\n    %s x1 \n    %%\n    \\40+ \n     /*引號值\n      &quot;key&quot;:&quot; \n      &quot;key&quot;: &quot; \n     */\n    \\quot;[^\\quot;:\\]\\)]*\\&quot;:\\40*\\&quot; echo;jmp x1;\n     /*引號值\n      &quot;key&quot;:[{ \n      &quot;key&quot;。[{ \n     */\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*\\[\\40*\\{ echo;pc(10);\n     /* 無引號的、以逗號分隔的數組值 \n      &quot;key&quot;:[ \n      &quot;key&quot;。[ \n     */\n    \\`&quot;[^&quot;:`&]`)]*`&quot;:`&40*`[ echo;jmp x1;\n     /*引號值\n      &quot;key&quot;:{ \n      &quot;key&quot;。{ \n     */\n    \\&quot;[^\\&quot;:\\]\\)]*\\&quot;:\\40*\\{ echo;pc(10);\n     /*開括號不是閉括號 */ \n    &lt;x1&gt;[\\]\\&quot;] echo;pc(10);jmp 0;\n    &lt;x1&gt;[^\\]\\{\\&quot;\\12]* echo;\n    \\n|.\n    %%\n    int main(){ yylex();exit(0);}\n</code></pre>\neof<p><pre><code> cc -std=c89 -Wall -pedantic -pipe lex.yy.c -static -o yy059\n</code></pre>\nUsage: yy059 &lt; 1.json<p>This is made according to own personal JSON readability aesthetics, primarily for reading YouTube JSON.  It is used in personal YouTube search utility.  JSON from non-YouTube sources, e.g., Twitter, may contain escaped quotes.  Remove esacped quotes first, e.g.,<p><pre><code> yy064 &lt; 1.json|yy059\n</code></pre>\n這裡是yy064：<p><pre><code> sed 's/.\\{4\\}/' &lt;&lt;eof|flex -8iCrf\n     /* json刪除轉義引號 */\n    \n     int fileno (FILE *);\n     #define echo do{if(fwrite(yytext,(size_t)yyleng,1,yyout)){}}while(0)\n     #define jmp (yy_start) = 1 + 2 *.\n     #define pc(x) putchar(x)\n     int setenv (const char *, const char *, int);\n    \n    %option nounput noinput noyywrap\n    %%\n    ^[\\40\\11]+\n    \\134\\42\n    %%\n    int main(){ yylex();exit(0);}\n</code></pre>\neof<p><pre><code> cc -std=c89 -Wall -pedantic -pipe lex.yy.c -static -o yy064</code></pre>"
+}
