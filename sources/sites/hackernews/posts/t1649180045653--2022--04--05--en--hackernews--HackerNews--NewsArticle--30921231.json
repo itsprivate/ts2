@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--03--25--en--hackernews--HackerNews--NewsArticle--30800715",
-  "url": "https://news.ycombinator.com/item?id=30800715",
-  "headline": "Writing a Simple Operating System – From Scratch [pdf]",
+  "identifier": "2022--04--05--en--hackernews--HackerNews--NewsArticle--30921231",
+  "url": "https://news.ycombinator.com/item?id=30921231",
+  "headline": "Show HN: Warp, a Rust-based terminal for the modern age",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "agomez314",
-    "url": "https://news.ycombinator.com/user?id=agomez314"
+    "name": "zachlloyd",
+    "url": "https://news.ycombinator.com/user?id=zachlloyd"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30800715",
-  "sameAs": "https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf",
-  "dateCreated": "2022-03-25T11:49:49.684Z",
-  "datePublished": "2022-03-25T11:14:14.000Z",
-  "dateModified": "2022-03-25T11:49:49.684Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30921231",
+  "sameAs": "https://www.warp.dev?ref=showhn",
+  "dateCreated": "2022-04-05T17:34:05.653Z",
+  "datePublished": "2022-04-05T16:40:25.000Z",
+  "dateModified": "2022-04-05T17:34:05.653Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 22
+      "userInteractionCount": 98
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 4
+      "userInteractionCount": 39
     }
   ],
-  "headline_zh-Hans": "编写一个简单的操作系统--从零开始 [pdf]",
-  "headline_zh-Hant": "編寫一個簡單的操作系統--從零開始 [pdf]",
+  "headline_zh-Hans": "Show HN: Warp，一个基于Rust的现代终端",
+  "headline_zh-Hant": "Show HN: Warp，一個基於Rust的現代終端",
   "@context": [
     "https://schema.org",
     {
