@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--05--en--myfeed--HackerNews--NewsArticle--30921752",
+  "url": "https://news.ycombinator.com/item?id=30921752",
+  "headline": "Basic Income for the Arts",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bryanrasmussen",
+    "url": "https://news.ycombinator.com/user?id=bryanrasmussen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30921752",
+  "sameAs": "https://www.gov.ie/en/campaigns/09cf6-basic-income-for-the-arts-pilot-scheme/",
+  "dateCreated": "2022-04-05T17:50:06.651Z",
+  "datePublished": "2022-04-05T17:12:05.000Z",
+  "dateModified": "2022-04-05T17:50:06.651Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "艺术的基本收入",
+  "headline_zh-Hant": "藝術的基本收入",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
