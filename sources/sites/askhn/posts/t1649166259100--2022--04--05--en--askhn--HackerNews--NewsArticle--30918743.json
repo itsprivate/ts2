@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--05--en--askhn--HackerNews--NewsArticle--30918743",
+  "url": "https://news.ycombinator.com/item?id=30918743",
+  "headline": "Ask HN: How Cloud-Native should my MVP be?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We are in the MVP phase, and our team is debating how &quot;cloud-native&quot; our initial launch should be.<p>There are some things on the data ingestion side and warehousing that we've been doing on our own server and we're deciding whether to build into AWS or just forklift it later on.<p>Without getting into specifics, my question would be how important you think it is to optimize for AWS early on. I'm of the view that if a product is &quot;born in the cloud&quot; it will pay dividends down the line. I've seen things that need to be Retrofitted to the cloud later and it can be a disaster.<p>Keep in mind we are in the MVP phase, so naturally we are very limited on engineering resources and would like to reduce the amount of time spent on DevOps / infrastructure stuff.<p>Would appreciate feedback on this. Thank you HN",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "elden_bling",
+    "url": "https://news.ycombinator.com/user?id=elden_bling"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30918743",
+  "sameAs": "https://news.ycombinator.com/item?id=30918743",
+  "dateCreated": "2022-04-05T13:44:19.100Z",
+  "datePublished": "2022-04-05T13:31:37.000Z",
+  "dateModified": "2022-04-05T13:44:19.100Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我的MVP应该是怎样的云原生？",
+  "headline_zh-Hant": "Ask HN: 我的MVP應該是怎樣的雲原生？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们正处于MVP阶段，我们的团队正在讨论我们最初的发布应该是怎样的 \"云原生\"。<p>在数据摄取方面和仓储方面，我们一直在自己的服务器上做一些事情，我们正在决定是否建立在AWS上，或者以后只是用叉车来做。我认为，如果一个产品是在云中诞生的，那么它将在以后的日子里得到回报。<p>请记住，我们正处于MVP阶段，所以我们的工程资源自然非常有限，并希望减少花在DevOps/基础设施方面的时间。谢谢你，HN",
+  "description_zh-Hant": "我們正處於MVP階段，我們的團隊正在討論我們最初的發佈應該是怎樣的 \"雲原生\"。<p>在數據攝取方面和倉儲方面，我們一直在自己的服務器上做一些事情，我們正在決定是否建立在AWS上，或者以後只是用叉車來做。我認為，如果一個產品是在雲中誕生的，那麼它將在以後的日子裡得到回報。<p>請記住，我們正處於MVP階段，所以我們的工程資源自然非常有限，並希望減少花在DevOps/基礎設施方面的時間。謝謝你，HN"
+}
