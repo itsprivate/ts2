@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--05--en--askhn--HackerNews--NewsArticle--30916909",
+  "url": "https://news.ycombinator.com/item?id=30916909",
+  "headline": "Ask HN: How do (big/regulated) tech companies deploy?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I mainly worked in and within the traditional german finance sector. They are very rigid in having multiple and isolated staging environments, but this comes with many drawbacks, not only on speed. I want to make it different but miss the ideas, and I don't want to reinvent the wheel.<p>Does big tech uses staging in terms of isolated environments?\nOr do they use feature flags and canary releases, which would mean potential bugs could always slip through?\nHow do regulated companies like Stripe deal with it?\nHow do you perform end-to-end tests in the chain?<p>I would be curious how a feature finally finds its way from the dev machine to fully rolled out in production. I am thankful for resources about this topic or direct experience from the HN community.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "indale",
+    "url": "https://news.ycombinator.com/user?id=indale"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30916909",
+  "sameAs": "https://news.ycombinator.com/item?id=30916909",
+  "dateCreated": "2022-04-05T09:30:47.322Z",
+  "datePublished": "2022-04-05T09:22:38.000Z",
+  "dateModified": "2022-04-05T09:30:47.322Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 大型/受监管的）科技公司如何部署？",
+  "headline_zh-Hant": "Ask HN: 大型/受監管的）科技公司如何部署？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我主要是在传统的德国金融部门内工作。他们在拥有多个和孤立的分期环境方面非常僵化，但这带来了许多缺点，不仅是在速度上。我想让它与众不同，但又怀念那些想法，我不想重新发明轮子。<p>大型科技公司是否在隔离环境方面使用暂存？\n或者他们使用功能标志和金丝雀发布，这将意味着潜在的bug总是可以漏掉？\n像Stripe这样的监管公司是如何处理的？\n你是如何在产业链中进行端对端测试的？<p>我很好奇一个功能最终是如何从开发机器中找到它的方式，并在生产中完全推出的。我很感谢有关这一主题的资源或来自HN社区的直接经验。",
+  "description_zh-Hant": "我主要是在傳統的德國金融部門內工作。他們在擁有多個和孤立的分期環境方面非常僵化，但這帶來了許多缺點，不僅是在速度上。我想讓它與眾不同，但又懷念那些想法，我不想重新發明輪子。<p>大型科技公司是否在隔離環境方面使用暫存？\n或者他們使用功能標誌和金絲雀發佈，這將意味著潛在的bug總是可以漏掉？\n像Stripe這樣的監管公司是如何處理的？\n你是如何在產業鏈中進行端對端測試的？<p>我很好奇一個功能最終是如何從開發機器中找到它的方式，並在生產中完全推出的。我很感謝有關這一主題的資源或來自HN社區的直接經驗。"
+}
