@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--05--en--myfeed--HackerNews--NewsArticle--30916326",
+  "url": "https://news.ycombinator.com/item?id=30916326",
+  "headline": "Personal JSON search and channel retrieval",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "<p><pre><code>      yy059 reformats and prints JSON\n      yy045 removes chunked transfer encoding\n\n        stunnel -fd 0 &lt;&lt; eof\n        debug=debug \n        pid=/tmp/1.pid\n        foreground=no\n        \n        [ youtube ]\n        accept=127.0.0.127:80 \n        client=yes\n        connect=74.125.21.91:443\n        options=NO_TICKET\n        options=NO_RENEGOTIATION\n        renegotiation=no\n        sni=\n        sslVersion=TLSv1.3\n</code></pre>\neof<p>For searching YouTube:<p><pre><code>      #!/bin/sh\n\n      # usage: 1.sh query\n      # usage: yy059 &lt; 1.yts|1.sh &gt;&gt; 1.yts\n\n      _x2_(){ local x=$(printf '\\r\\n');sed &quot;s/ *//;s/$/$x/&quot;;};\n      case $# in :)\n      ;;0) # CONTINUATION_REQUEST\n      KEY=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8;\n      MIN=\\{\\&quot;context\\&quot;:{\\&quot;client\\&quot;:{\\&quot;hl\\&quot;:\\&quot;en-US\\&quot;,\\&quot;gl\\&quot;:\\&quot;US\\&quot;,\\&quot;clientName\\&quot;:\\&quot;MWEB\\&quot;,\\&quot;clientVersion\\&quot;:\\&quot;2.20210916.06.01\\&quot;}},\\&quot;continuation\\&quot;:;\n      TOKEN=$(yy059|sed -n &quot;s/$/}/;s/\\&quot;token\\&quot;:/$MIN/p&quot;|tail -1);\n      test &quot;$TOKEN&quot;||exec echo done;\n\n      _x2_ &lt;&lt;eof|nc -vvn 127.127 80|yy045 \n      POST /youtubei/v1/search?key=$KEY HTTP/1.1\n      Host: www.youtube.com\n      Content-Length: ${#TOKEN}\n      Content-Type: application/json\n      Connection: close\n   \n      $TOKEN\n</code></pre>\neof<p><pre><code>      ;;*) # REQUEST\n      S=$(echo &quot;$@&quot;|sed 's/ /+/g');\n      _x2_ &lt;&lt;eof|nc -vvn 127.127 80|yy045 \n      GET /results?search_query=$S HTTP/1.1\n      Host: www.youtube.com\n      Connection: close\n</code></pre>\neof<p><pre><code>      esac;\n</code></pre>\nFor retrieving YouTube channels, a similar script:<p><pre><code>      #!/bin/sh\n\n      # usage: 1.sh /c/name or 1.sh /channel/ID\n      # usage: yy059 &lt; 1.ytc|1.sh &gt;&gt; 1.ytc\n\n      _x2_(){ local x=$(printf '\\r\\n');sed &quot;s/ *//;s/$/$x/&quot;;};\n      case $# in :)\n      ;;0) # CONTINUATION\n      KEY=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8;\n      MIN=\\{\\&quot;context\\&quot;:{\\&quot;client\\&quot;:{\\&quot;hl\\&quot;:\\&quot;en-US\\&quot;,\\&quot;gl\\&quot;:\\&quot;US\\&quot;,\\&quot;clientName\\&quot;:\\&quot;MWEB\\&quot;,\\&quot;clientVersion\\&quot;:\\&quot;2.20210916.06.01\\&quot;}},\\&quot;continuation\\&quot;:;\n      TOKEN=$(yy059|sed -n &quot;s/$/}/;s/\\&quot;token\\&quot;:/$MIN/p&quot;|sed -n \\$p);\n      test &quot;$TOKEN&quot;||exec echo no more videos;\n\n      _x2_ &lt;&lt;eof|nc -vvn 127.127 80|yy045 \n      POST /youtubei/v1/browse?key=$KEY HTTP/1.1\n      Host: www.youtube.com\n      Content-Length: ${#TOKEN}\n      Content-Type: application/json\n      Connection: close\n   \n      $TOKEN</code></pre>\neof<p><pre><code>      ;;*) # INITIAL \n      _x2_ &lt;&lt;eof|nc -vvn 127.127 80|yy045\n      GET $1/videos HTTP/1.1\n      Host: www.youtube.com\n      Connection: close\n</code></pre>\neof<p><pre><code>      esac;\n\n</code></pre>\nNext up:<p>A JSON formatter to print the results as a table",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "1vuio0pswjnm7",
+    "url": "https://news.ycombinator.com/user?id=1vuio0pswjnm7"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30916326",
+  "sameAs": "https://news.ycombinator.com/item?id=30916326",
+  "dateCreated": "2022-04-05T08:36:01.075Z",
+  "datePublished": "2022-04-05T07:45:27.000Z",
+  "dateModified": "2022-04-05T08:36:01.075Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "个人JSON搜索和渠道检索",
+  "headline_zh-Hant": "個人JSON搜索和渠道檢索",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "<p><pre><code> yy059重新格式化并打印JSON。\n      yy045 移除分块传输的编码\n\n        stunnel -fd 0 &lt;&lt; eof\n        debug=debug \n        pid=/tmp/1.pid\n        foreground=no\n        \n        [youtube]\n        accept=127.0.0.127:80 \n        client=yes\n        connect=74.125.21.91:443\n        options=NO_TICKET\n        options=NO_RENEGOTIATION\n        renegotiation=no\n        sni=\n        sslVersion=TLSv1.3\n</code></pre>\neof<p>For searching YouTube:<p><pre><code> #!/bin/sh\n\n      # usage: 1.sh查询\n      #用法： yy059 &lt; 1.yts|1.sh &gt;&gt; 1.yts\n\n      _x2_(){ local x=$(printf '\\r\\n');sed &quot;s/ *//;s/$/$x/&quot;;}。\n      case $# in :)\n      ;;0) # continuation_request\n      KEY=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8;\n      MIN={&quot;context&quot;:{&quot;client&quot;:{&quot;hl&quot;:&quot;en-US&quot;, &quot;gl&quot;: \\`&quot;US&quot;,`&quot;clientName&quot;:`&quot;MWEB&quot;,`&quot;clientVersion&quot;:`&quot;2.20210916.06.01&quot;}, `&quot;continuation&quot;:;\n      TOKEN=$(yy059|sed -n &quot;s/$/}/;s/&quot;token&quot;:/$MIN/p&quot;|tail -1)。\n      test &quot;$TOKEN&quot;|exec echo done;\n\n      _x2_ &lt;&lt;eof|nc -vvn 127.127 80|yy045 \n      POST /youtubei/v1/search?key=$KEY HTTP/1.1\n      Host: www.youtube.com\n      Content-Length: ${#TOKEN}\n      Content-Type: application/json\n      Connection: close\n   \n      $TOKEN\n</code></pre>\neof<p><pre><code> ;;*) # REQUEST\n      S=$(echo &quot;$@&quot;|sed 's/ /+/g');\n      _x2_ &lt;&lt;eof|nc -vvn 127.127 80|yy045 \n      GET /results?search_query=$S HTTP/1.1\n      Host: www.youtube.com\n      Connection: close\n</code></pre>\neof<p><pre><code> esac;\n</code></pre>\n对于检索YouTube频道，一个类似的脚本：<p><pre><code> #！/bin/sh\n\n      #用法。1.sh /c/name 或 1.sh /channel/ID\n      #用法： yy059 &lt; 1.ytc|1.sh &gt;&gt; 1.ytc\n\n      _x2_(){ local x=$(printf '\\r\\n');sed &quot;s/ *//;s/$/$x/&quot;;}。\n      case $# in :)\n      ;;0) # 继续\n      KEY=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8;\n      MIN={&quot;context&quot;:{&quot;client&quot;:{&quot;hl&quot;:&quot;en-US&quot;, &quot;gl&quot;: \\`&quot;US&quot;,`&quot;clientName&quot;:`&quot;MWEB&quot;,`&quot;clientVersion&quot;:`&quot;2.20210916.06.01&quot;}, `&quot;continuation&quot;:;\n      TOKEN=$(yy059|sed -n &quot;s/$/}/;s/&quot;token&quot;:/$MIN/p&quot;|sed -n \\$p)。\n      test &quot;$TOKEN&quot;|exec echo no more videos;\n\n      _x2_ &lt;&lt;eof|nc -vvn 127.127 80|yy045 \n      POST /youtubei/v1/browse?key=$KEY HTTP/1.1\n      主机：www.youtube.com\n      Content-Length: ${#TOKEN}.\n      Content-Type: application/json\n      连接：关闭\n   \n      $TOKEN</code></pre>\neof<p><pre><code> ;;*) # INITIAL \n      _x2_ &lt;&lt;eof|nc -vvn 127.127 80|yy045\n      GET $1/videos HTTP/1.1\n      Host: www.youtube.com\n      Connection: close\n</code></pre>\neof<p><pre><code> esac;\n\n</code></pre>\nNext up:<p>A JSON formatter to print the results as a table",
+  "description_zh-Hant": "<p><pre><code> yy059重新格式化並打印JSON。\n      yy045 移除分塊傳輸的編碼\n\n        stunnel -fd 0 &lt;&lt; eof\n        debug=debug \n        pid=/tmp/1.pid\n        foreground=no\n        \n        [youtube]\n        accept=127.0.0.127:80 \n        client=yes\n        connect=74.125.21.91:443\n        options=NO_TICKET\n        options=NO_RENEGOTIATION\n        renegotiation=no\n        sni=\n        sslVersion=TLSv1.3\n</code></pre>\neof<p>For searching YouTube:<p><pre><code> #!/bin/sh\n\n      # usage: 1.sh查詢\n      #用法： yy059 &lt; 1.yts|1.sh &gt;&gt; 1.yts\n\n      _x2_(){ local x=$(printf '\\r\\n');sed &quot;s/ *//;s/$/$x/&quot;;}。\n      case $# in :)\n      ;;0) # continuation_request\n      KEY=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8;\n      MIN={&quot;context&quot;:{&quot;client&quot;:{&quot;hl&quot;:&quot;en-US&quot;, &quot;gl&quot;: \\`&quot;US&quot;,`&quot;clientName&quot;:`&quot;MWEB&quot;,`&quot;clientVersion&quot;:`&quot;2.20210916.06.01&quot;}, `&quot;continuation&quot;:;\n      TOKEN=$(yy059|sed -n &quot;s/$/}/;s/&quot;token&quot;:/$MIN/p&quot;|tail -1)。\n      test &quot;$TOKEN&quot;|exec echo done;\n\n      _x2_ &lt;&lt;eof|nc -vvn 127.127 80|yy045 \n      POST /youtubei/v1/search?key=$KEY HTTP/1.1\n      Host: www.youtube.com\n      Content-Length: ${#TOKEN}\n      Content-Type: application/json\n      Connection: close\n   \n      $TOKEN\n</code></pre>\neof<p><pre><code> ;;*) # REQUEST\n      S=$(echo &quot;$@&quot;|sed 's/ /+/g');\n      _x2_ &lt;&lt;eof|nc -vvn 127.127 80|yy045 \n      GET /results?search_query=$S HTTP/1.1\n      Host: www.youtube.com\n      Connection: close\n</code></pre>\neof<p><pre><code> esac;\n</code></pre>\n對於檢索YouTube頻道，一個類似的腳本：<p><pre><code> #！/bin/sh\n\n      #用法。1.sh /c/name 或 1.sh /channel/ID\n      #用法： yy059 &lt; 1.ytc|1.sh &gt;&gt; 1.ytc\n\n      _x2_(){ local x=$(printf '\\r\\n');sed &quot;s/ *//;s/$/$x/&quot;;}。\n      case $# in :)\n      ;;0) # 繼續\n      KEY=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8;\n      MIN={&quot;context&quot;:{&quot;client&quot;:{&quot;hl&quot;:&quot;en-US&quot;, &quot;gl&quot;: \\`&quot;US&quot;,`&quot;clientName&quot;:`&quot;MWEB&quot;,`&quot;clientVersion&quot;:`&quot;2.20210916.06.01&quot;}, `&quot;continuation&quot;:;\n      TOKEN=$(yy059|sed -n &quot;s/$/}/;s/&quot;token&quot;:/$MIN/p&quot;|sed -n \\$p)。\n      test &quot;$TOKEN&quot;|exec echo no more videos;\n\n      _x2_ &lt;&lt;eof|nc -vvn 127.127 80|yy045 \n      POST /youtubei/v1/browse?key=$KEY HTTP/1.1\n      主機：www.youtube.com\n      Content-Length: ${#TOKEN}.\n      Content-Type: application/json\n      連接：關閉\n   \n      $TOKEN</code></pre>\neof<p><pre><code> ;;*) # INITIAL \n      _x2_ &lt;&lt;eof|nc -vvn 127.127 80|yy045\n      GET $1/videos HTTP/1.1\n      Host: www.youtube.com\n      Connection: close\n</code></pre>\neof<p><pre><code> esac;\n\n</code></pre>\nNext up:<p>A JSON formatter to print the results as a table"
+}
