@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--05--en--myfeed--HackerNews--NewsArticle--30914052",
+  "url": "https://news.ycombinator.com/item?id=30914052",
+  "headline": "Pablo Picasso in Love and War",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "prismatic",
+    "url": "https://news.ycombinator.com/user?id=prismatic"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30914052",
+  "sameAs": "https://www.spectator.co.uk/article/pablo-picasso-in-love-and-war",
+  "dateCreated": "2022-04-05T02:17:58.917Z",
+  "datePublished": "2022-04-05T01:05:11.000Z",
+  "dateModified": "2022-04-05T02:17:58.917Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "爱情与战争中的巴勃罗-毕加索",
+  "headline_zh-Hant": "愛情與戰爭中的巴勃羅-畢加索",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
