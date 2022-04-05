@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--05--en--myfeed--HackerNews--NewsArticle--30914400",
+  "url": "https://news.ycombinator.com/item?id=30914400",
+  "headline": "Google’s former HR chief: Your boss boils you like a frog until back in office",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "RickJWagner",
+    "url": "https://news.ycombinator.com/user?id=RickJWagner"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30914400",
+  "sameAs": "https://fortune.com/2022/04/04/former-google-hr-chief-laszlo-bock-hybrid-remote-return-to-office-work/",
+  "dateCreated": "2022-04-05T02:17:58.987Z",
+  "datePublished": "2022-04-05T01:52:07.000Z",
+  "dateModified": "2022-04-05T02:17:58.987Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "谷歌的前人力资源主管。你的老板把你煮得像只青蛙，直到回到办公室为止",
+  "headline_zh-Hant": "谷歌的前人力資源主管。你的老闆把你煮得像只青蛙，直到回到辦公室為止",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
