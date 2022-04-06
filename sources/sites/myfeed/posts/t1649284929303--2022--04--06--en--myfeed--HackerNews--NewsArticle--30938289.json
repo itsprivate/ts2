@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--06--en--myfeed--HackerNews--NewsArticle--30938289",
+  "url": "https://news.ycombinator.com/item?id=30938289",
+  "headline": "The first thing Google AI did was intentionally put buffer overflows in the code",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "wslh",
+    "url": "https://news.ycombinator.com/user?id=wslh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30938289",
+  "sameAs": "https://twitter.com/ortegaalfredo/status/1511815500581556230",
+  "dateCreated": "2022-04-06T22:42:09.303Z",
+  "datePublished": "2022-04-06T22:31:22.000Z",
+  "dateModified": "2022-04-06T22:42:09.303Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "谷歌人工智能做的第一件事是故意在代码中放入缓冲区溢出",
+  "headline_zh-Hant": "谷歌人工智能做的第一件事是故意在代碼中放入緩衝區溢出",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
