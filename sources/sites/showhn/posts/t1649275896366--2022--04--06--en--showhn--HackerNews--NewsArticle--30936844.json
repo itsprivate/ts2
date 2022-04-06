@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--06--en--showhn--HackerNews--NewsArticle--30936844",
+  "url": "https://news.ycombinator.com/item?id=30936844",
+  "headline": "Show HN: I built a tool to aggregate your investments and follow other investors",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN!<p>Over the past year, we’ve been building Wealthly (<a href=\"https://wealthly.com\" rel=\"nofollow\">https://wealthly.com</a>), a tool to help you aggregate all your investments, and a community of investors who are sharing their portfolios and knowledge.<p>I started working on this idea because I had two personal frustrations:<p>1. I had a few different brokerage accounts, some retirement accounts, and a little crypto all in different places. It was hard to get a glance of everything I had. I tried all the products in the market, and they all had various issues (poor data quality, constant disconnect, didn’t support options, etc)\n2. I learned a great deal about investing from other people online, but I always wanted to see where people actually put their money. I needed the transparency because it gave me a sense of comfort and trust<p>We’ve slowly built up a small group of users who have connected close to $18M of live assets. We’re hoping that the HN community will find a tool and a community like this useful!<p>I think whenever a product like this shows up, the number one thing people get most concerned with is always security and are you scraping brokerages for data. Unfortunately we don’t have a magic bullet around this issue in the US. We use the brokerages’ official OAuth APIs whenever we can, and resort to scraping when we’re forced to with no other solutions.<p>To address the security and privacy concerns people have, we are also thinking about open sourcing our connectors, and creating a desktop app where all your data is stored locally instead of in the cloud.<p>We haven’t opened up sign ups yet, but you can join with this invite link: <a href=\"https://join.wealth.ly/4WFYJ3\" rel=\"nofollow\">https://join.wealth.ly/4WFYJ3</a>.<p>Would love to hear any feedback!<p>This is my personal portfolio: <a href=\"https://wealth.ly/@sunny\" rel=\"nofollow\">https://wealth.ly/@sunny</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "tma",
+    "url": "https://news.ycombinator.com/user?id=tma"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30936844",
+  "sameAs": "https://www.wealthly.com:443/",
+  "dateCreated": "2022-04-06T20:11:36.366Z",
+  "datePublished": "2022-04-06T20:02:19.000Z",
+  "dateModified": "2022-04-06T20:11:36.366Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我建立了一个工具来汇总你的投资并跟踪其他投资者",
+  "headline_zh-Hant": "Show HN: 我建立了一個工具來彙總你的投資並跟蹤其他投資者",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN！<p>在过去的一年里，我们一直在建立Wealthly（<a href=\"https://wealthly.com\" rel=\"nofollow\">https://wealthly.com</a>），这是一个帮助您汇总所有投资的工具，以及一个分享他们的投资组合和知识的投资者社区。<p>我开始研究这个想法是因为我有两个个人挫折：<p>1。我有几个不同的经纪账户，一些退休账户，还有一些加密货币，都在不同的地方。我很难对我所拥有的一切一目了然。我尝试了市场上的所有产品，它们都有各种问题（数据质量差，不断断开连接，不支持选项，等等）。\n2. 我从网上的其他人那里学到了很多投资知识，但我一直想看看人们到底把钱放在哪里。我需要透明度，因为它给了我一种舒适感和信任感<p>我们已经慢慢建立了一个小的用户群，他们已经连接了接近1800万美元的真实资产。我们希望HN社区会发现这样的工具和社区是有用的！<p>我认为每当这样的产品出现时，人们最关心的第一件事总是安全问题，以及你是否在搜刮经纪公司的数据。不幸的是，在美国，我们没有一个解决这个问题的灵丹妙药。<p>为了解决人们对安全和隐私的担忧，我们也在考虑开源我们的连接器，并创建一个桌面应用程序，将你的所有数据存储在本地，而不是在云端。<p>我们还没有开放注册，但你可以通过这个邀请链接加入。<a href=\"https://join.wealth.ly/4WFYJ3\" rel=\"nofollow\">https://join.wealth.ly/4WFYJ3</a>.<p>Would love to hear any feedback!<p>This is my personal portfolio: <a href=\"https://wealth.ly/@sunny\" rel=\"nofollow\">https://wealth.ly/@sunny</a>",
+  "description_zh-Hant": "嗨，HN！<p>在過去的一年裡，我們一直在建立Wealthly（<a href=\"https://wealthly.com\" rel=\"nofollow\">https://wealthly.com</a>），這是一個幫助您彙總所有投資的工具，以及一個分享他們的投資組合和知識的投資者社區。<p>我開始研究這個想法是因為我有兩個個人挫折：<p>1。我有幾個不同的經紀賬戶，一些退休賬戶，還有一些加密貨幣，都在不同的地方。我很難對我所擁有的一切一目瞭然。我嘗試了市場上的所有產品，它們都有各種問題（數據質量差，不斷斷開連接，不支持選項，等等）。\n2. 我從網上的其他人那裡學到了很多投資知識，但我一直想看看人們到底把錢放在哪裡。我需要透明度，因為它給了我一種舒適感和信任感<p>我們已經慢慢建立了一個小的用戶群，他們已經連接了接近1800萬美元的真實資產。我們希望HN社區會發現這樣的工具和社區是有用的！<p>我認為每當這樣的產品出現時，人們最關心的第一件事總是安全問題，以及你是否在搜刮經紀公司的數據。不幸的是，在美國，我們沒有一個解決這個問題的靈丹妙藥。<p>為了解決人們對安全和隱私的擔憂，我們也在考慮開源我們的連接器，並創建一個桌面應用程序，將你的所有數據存儲在本地，而不是在雲端。<p>我們還沒有開放註冊，但你可以通過這個邀請鏈接加入。<a href=\"https://join.wealth.ly/4WFYJ3\" rel=\"nofollow\">https://join.wealth.ly/4WFYJ3</a>.<p>Would love to hear any feedback!<p>This is my personal portfolio: <a href=\"https://wealth.ly/@sunny\" rel=\"nofollow\">https://wealth.ly/@sunny</a>"
+}
