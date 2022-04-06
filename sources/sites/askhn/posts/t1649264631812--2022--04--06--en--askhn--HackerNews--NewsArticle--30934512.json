@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--06--en--askhn--HackerNews--NewsArticle--30934512",
+  "url": "https://news.ycombinator.com/item?id=30934512",
+  "headline": "Ask HN: Shared Database Anti(?)-Pattern",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi, looks like another team is interested in one of our tables, they're planning to just read, so it will be 100% read-only queries (probably from replica).<p>I'm curious, how popular/acceptable/hopeless such pattern is?<p>I understand that giving someone read access to the database isn't free (we cannot change schema easily, we cannot change DB, etc) but at the same time, we don't need to create a dummy HTTP-service to just do simple queries (and spend more time on unmarshal-marshal stuff).<p>Let's assume I'm asking about Postgres but will be very happy to hear stories or thoughts about other DBs (relational, nosql, graph, wide-column, analytical, inmem, etc) and are there any difference in sharing them practically or architectural.<p>Thank you.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "cristaloleg",
+    "url": "https://news.ycombinator.com/user?id=cristaloleg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30934512",
+  "sameAs": "https://news.ycombinator.com/item?id=30934512",
+  "dateCreated": "2022-04-06T17:03:51.812Z",
+  "datePublished": "2022-04-06T16:47:35.000Z",
+  "dateModified": "2022-04-06T17:03:51.812Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 共享数据库的反(?)模式",
+  "headline_zh-Hant": "Ask HN: 共享數據庫的反(?)模式",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，看起来另一个团队对我们的一个表感兴趣，他们打算只读，所以将是100%的只读查询（可能来自副本）。<p>我很好奇，这种模式有多流行/可接受/无望？ <p>我明白，给别人读取数据库的权限并不是免费的（我们不能轻易改变模式，不能改变DB，等等），但同时，我们也不需要创建一个假的HTTP服务来只做简单的查询（花更多时间在unmarshal-marshal的东西上）。 <p>假设我问的是Postgres，但我很乐意听到关于其他DB（关系型、nosql、图形、宽列、分析型、inmem等）的故事或想法，以及在实际或架构上分享它们是否有什么不同。<p>谢谢你。",
+  "description_zh-Hant": "嗨，看起來另一個團隊對我們的一個表感興趣，他們打算只讀，所以將是100%的只讀查詢（可能來自副本）。<p>我很好奇，這種模式有多流行/可接受/無望？ <p>我明白，給別人讀取數據庫的權限並不是免費的（我們不能輕易改變模式，不能改變DB，等等），但同時，我們也不需要創建一個假的HTTP服務來只做簡單的查詢（花更多時間在unmarshal-marshal的東西上）。 <p>假設我問的是Postgres，但我很樂意聽到關於其他DB（關係型、nosql、圖形、寬列、分析型、inmem等）的故事或想法，以及在實際或架構上分享它們是否有什麼不同。<p>謝謝你。"
+}
