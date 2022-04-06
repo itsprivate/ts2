@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--06--en--showhn--HackerNews--NewsArticle--30938109",
+  "url": "https://news.ycombinator.com/item?id=30938109",
+  "headline": "Show HN: MetricFlow – open-source metric framework",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN community, I’m Nick, co-founder/CEO of Transform.co. I’m thrilled to share MetricFlow, an open-source metric creation framework: <a href=\"https://github.com/transform-data/metricflow\" rel=\"nofollow\">https://github.com/transform-data/metricflow</a><p>MetricFlow strives to make what has historically been an extremely repetitive process, writing SQL queries on core normalized data models, much more DRY. MetricFlow consolidates the definitions for joins, aggregations, filters, etc., and programmatically generates SQL to construct data marts. You can think of it like LookML, but more powerful and ergonomic (and open source!). The project has three components:<p>1. MetricFlow Spec: The specification encapsulates metric logic in a more reusable set of abstractions: data_sources, measures, dimensions, identifiers, metrics, and materializations.<p>2. DataFlow Planner: The Query Planner is a generalized SQL constructor. We take in data sources (ideally normalized data models) and generate a graph of data transformations (a flow, if you will) – joins, aggregations, filters, etc. We take that graph and render it down to db-specific SQL while optimizing it for performance and legibility.<p>3. MetricFlow Interfaces: The CLI and Python SDK rely on the flexibility of the Spec and Planner to build just about any query you could ask for on top of your data warehouse.<p>These components enable novel features that other semantic layers struggle to support today:<p>- MetricFlow enables the user to traverse the entire graph of a company’s data warehouse without confining their analysis to pre-built data models (dbt), Explores (in Looker), or Cubes (in lots of tools).<p>- The Metric abstraction allows the construction of complex metrics that traverse the graph described above to rely on multiple data sources. We support several common metric types today, and adding more is a critical part of the open-source roadmap.<p>- The Materialization abstraction allows users to define and then programmatically generate data marts that rely on a single DRY expression of the metrics and dimensions.<p>MetricFlow is open source(<a href=\"https://github.com/transform-data/metricflow\" rel=\"nofollow\">https://github.com/transform-data/metricflow</a>) and distributed through pypi (`pip install metricflow`). You can set up (`mf setup`) a set of sample configs and try out a tutorial (`mf tutorial). The docs are all here(<a href=\"https://docs.transform.co/docs/overview/metricflow-overview\" rel=\"nofollow\">https://docs.transform.co/docs/overview/metricflow-overview</a>). We’d love contributions on GitHub. We’re adding new Issues to share our roadmap in the coming days, but feel free to open your own.<p>We’re also opening up a Slack community(<a href=\"https://community.transform.co/metricflow-signup\" rel=\"nofollow\">https://community.transform.co/metricflow-signup</a>) to talk about the project and, more generally, metric tooling.<p>Let us know what you think – we’ll be here answering any questions!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "nicholashandel",
+    "url": "https://news.ycombinator.com/user?id=nicholashandel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30938109",
+  "sameAs": "https://github.com/transform-data/metricflow",
+  "dateCreated": "2022-04-06T22:31:47.959Z",
+  "datePublished": "2022-04-06T22:12:03.000Z",
+  "dateModified": "2022-04-06T22:31:47.959Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: MetricFlow - 开源的度量衡框架",
+  "headline_zh-Hant": "Show HN: MetricFlow - 開源的度量衡框架",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi HN社区，我是Transform.co的联合创始人/CEO Nick。我很高兴能与大家分享MetricFlow，一个开源的度量衡创建框架。<a href=\"https://github.com/transform-data/metricflow\" rel=\"nofollow\">https://github.com/transform-data/metricflow</a><p>MetricFlow致力于使历史上极其重复的过程，即在核心规范化数据模型上编写SQL查询，变得更加干燥。MetricFlow整合了连接、聚合、过滤器等的定义，并以编程方式生成SQL来构建数据集市。你可以把它想象成LookML，但更强大，更符合人体工程学（而且是开源的！）。该项目有三个组成部分：<p>1. MetricFlow规范。该规范将度量逻辑封装在一套更可重用的抽象中：数据源、度量、维度、标识符、度量和物化。 <p>2.数据流计划器。查询计划器是一个通用的SQL构造器。我们接收数据源（最好是规范化的数据模型），并生成数据转换图（如果你愿意的话，是一个流）--连接、聚合、过滤器等。我们采用该图并将其渲染成数据库专用的SQL，同时对其进行性能和可读性的优化。 <p>3、MetricFlow接口。CLI和Python SDK依靠Spec和Planner的灵活性，在数据仓库的基础上建立几乎任何你能要求的查询。 <p>这些组件实现了其他语义层目前难以支持的新功能：<p>- MetricFlow使用户能够遍历公司数据仓库的整个图形，而不必将他们的分析局限于预先建立的数据模型（dbt）、Explores（在Looker中）或Cubes（在许多工具中）。<p>- Metric抽象允许构建复杂的度量，遍历上述图形以依赖多个数据源。我们现在支持几种常见的度量类型，增加更多的度量类型是开源路线图的关键部分。<p>- 物化抽象允许用户定义然后以编程方式生成依赖于度量和维度的单一DRY表达的数据集市。<p>MetricFlow是开源的（<a href=\"https://github.com/transform-data/metricflow\" rel=\"nofollow\">https://github.com/transform-data/metricflow</a>）并通过pypi分发（`pip install metricflow`）。You can set up (`mf setup`) a set of sample configs and try out a tutorial (`mf tutorial). The docs are all here(<a href=\"https://docs.transform.co/docs/overview/metricflow-overview\" rel=\"nofollow\">https://docs.transform.co/docs/overview/metricflow-overview</a>). We’d love contributions on GitHub. <p>我们还将建立一个Slack社区（<a href=\"https://community.transform.co/metricflow-signup\" rel=\"nofollow\">https://community.transform.co/metricflow-signup</a>）来讨论该项目以及更广泛的公制工具。<p>让我们知道您的想法 - 我们将在这里回答任何问题",
+  "description_zh-Hant": "Hi HN社區，我是Transform.co的聯合創始人/CEO Nick。我很高興能與大家分享MetricFlow，一個開源的度量衡創建框架。<a href=\"https://github.com/transform-data/metricflow\" rel=\"nofollow\">https://github.com/transform-data/metricflow</a><p>MetricFlow致力於使歷史上極其重複的過程，即在核心規範化數據模型上編寫SQL查詢，變得更加乾燥。MetricFlow整合了連接、聚合、過濾器等的定義，並以編程方式生成SQL來構建數據集市。你可以把它想象成LookML，但更強大，更符合人體工程學（而且是開源的！）。該項目有三個組成部分：<p>1. MetricFlow規範。該規範將度量邏輯封裝在一套更可重用的抽象中：數據源、度量、維度、標識符、度量和物化。 <p>2.數據流計劃器。查詢計劃器是一個通用的SQL構造器。我們接收數據源（最好是規範化的數據模型），並生成數據轉換圖（如果你願意的話，是一個流）--連接、聚合、過濾器等。我們採用該圖並將其渲染成數據庫專用的SQL，同時對其進行性能和可讀性的優化。 <p>3、MetricFlow接口。CLI和Python SDK依靠Spec和Planner的靈活性，在數據倉庫的基礎上建立幾乎任何你能要求的查詢。 <p>這些組件實現了其他語義層目前難以支持的新功能：<p>- MetricFlow使用戶能夠遍歷公司數據倉庫的整個圖形，而不必將他們的分析侷限於預先建立的數據模型（dbt）、Explores（在Looker中）或Cubes（在許多工具中）。<p>- Metric抽象允許構建複雜的度量，遍歷上述圖形以依賴多個數據源。我們現在支持幾種常見的度量類型，增加更多的度量類型是開源路線圖的關鍵部分。<p>- 物化抽象允許用戶定義然後以編程方式生成依賴於度量和維度的單一DRY表達的數據集市。<p>MetricFlow是開源的（<a href=\"https://github.com/transform-data/metricflow\" rel=\"nofollow\">https://github.com/transform-data/metricflow</a>）並通過pypi分發（`pip install metricflow`）。You can set up (`mf setup`) a set of sample configs and try out a tutorial (`mf tutorial). The docs are all here(<a href=\"https://docs.transform.co/docs/overview/metricflow-overview\" rel=\"nofollow\">https://docs.transform.co/docs/overview/metricflow-overview</a>). We’d love contributions on GitHub. <p>我們還將建立一個Slack社區（<a href=\"https://community.transform.co/metricflow-signup\" rel=\"nofollow\">https://community.transform.co/metricflow-signup</a>）來討論該項目以及更廣泛的公制工具。<p>讓我們知道您的想法 - 我們將在這裡回答任何問題"
+}
