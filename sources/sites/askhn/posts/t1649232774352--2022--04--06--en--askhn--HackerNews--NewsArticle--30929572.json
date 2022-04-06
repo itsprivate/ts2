@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--06--en--askhn--HackerNews--NewsArticle--30929572",
+  "url": "https://news.ycombinator.com/item?id=30929572",
+  "headline": "Ask HN: How to make server side code atomic?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Imagine the following:\n1. You submit some value to the DB\n2. After that value is submitted, you need to do a POST to an email API<p>Your server could crash between steps 1 &amp; 2, resulting in the email never being sent.<p>What is the common accepted solution here? The only thing I can think of is temporal.io, but many, many pieces of software have been built before temporal.io.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "vsroy",
+    "url": "https://news.ycombinator.com/user?id=vsroy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30929572",
+  "sameAs": "https://news.ycombinator.com/item?id=30929572",
+  "dateCreated": "2022-04-06T08:12:54.352Z",
+  "datePublished": "2022-04-06T07:51:56.000Z",
+  "dateModified": "2022-04-06T08:12:54.352Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何使服务器端的代码具有原子性？",
+  "headline_zh-Hant": "Ask HN: 如何使服務器端的代碼具有原子性？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "想象一下以下情况。\n1. 你向数据库提交一些价值\n2. 在该值提交后，你需要向电子邮件 API 发送一个 POST<p>你的服务器可能在步骤 1 &amp; 2 之间崩溃，从而导致电子邮件无法发送。<p>这里普遍接受的解决方案是什么？我唯一能想到的是temporal.io，但在temporal.io之前已经有很多很多的软件被建立起来。",
+  "description_zh-Hant": "想象一下以下情況。\n1. 你向數據庫提交一些價值\n2. 在該值提交後，你需要向電子郵件 API 發送一個 POST<p>你的服務器可能在步驟 1 &amp; 2 之間崩潰，從而導致電子郵件無法發送。<p>這裡普遍接受的解決方案是什麼？我唯一能想到的是temporal.io，但在temporal.io之前已經有很多很多的軟件被建立起來。"
+}
