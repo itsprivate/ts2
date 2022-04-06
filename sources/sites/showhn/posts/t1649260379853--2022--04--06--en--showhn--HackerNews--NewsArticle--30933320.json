@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--06--en--showhn--HackerNews--NewsArticle--30933320",
+  "url": "https://news.ycombinator.com/item?id=30933320",
+  "headline": "Show HN: An open source Patreon / Substack",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello everyone!<p>I am the developer of a media centric distribution of Wagtail + Django called Rent Free Media.<p>It is basically an open source Patreon or Substack.<p>https://rentfree.media is the site and the git is linked there.  The license is AGPL for obvious reasons.<p>It generates RSS feeds from web page content, using the Django RSS feed framework, so that users can publish both their site their podcast episodes (or paid written content, if they are a Substack-type written content author) all in one edit.<p>Summary of features:<p>1. Integration with Stripe for subscription payments.<p>2. User permissions are handled via a segmentation library which is also open-source, so custom and complex pay tier rules are easily attainable.<p>3. Automatic generation of authenticated RSS links for podcast apps and news readers.<p>4. Mass and &quot;drip&quot; email marketing tools.<p>5. Remote and locally hosted files are supported for public / \nfree content.<p>6. If you like Markdown, it will make Chicago-style episode notes in iTunes, Spotify, and Google's app for podcasts ;)<p>7. Default HTML templates are Bootstrap 5, and custom CSS can be applied to block elements in the CMS without getting into the template code for simple styling of page elements.<p>8. Podcasts may be published in both series and serial format, with or without visible previews of paid episodes, with or without combined pay/premium feeds. All configurable in the CMS admin without touching the code.<p>9. JSON+LD schema data is generated automatically including breadcrumbs, per page.<p>10. Dynamic web forms, optionally with conditional form fields based on the user's entries.<p>11. Auditable / actionable download tracking of premium content on a per-user basis.<p>12. 2FA out of the box, optional for users and optionally required for admins.<p>13. AJAX comments wherever you want to put them, just include the block on a page in the CMS editor (or not).<p>14. Full text / full site search via the Postgres DB.<p>15. A simple cache is included for anonymous requests, supporting all Django cache backends.<p>As the readme on the git states, it will work locally on the Django dev server with the caveat that media files won't &quot;play&quot; without Nginx to respond to the X-Sendfile requests, and a minor SQLite complex field filter support oddity which is not breaking in terms of functionality.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "rentfree-media",
+    "url": "https://news.ycombinator.com/user?id=rentfree-media"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30933320",
+  "sameAs": "https://news.ycombinator.com/item?id=30933320",
+  "dateCreated": "2022-04-06T15:52:59.853Z",
+  "datePublished": "2022-04-06T15:35:52.000Z",
+  "dateModified": "2022-04-06T15:52:59.853Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 一个开源的Patreon/Substack",
+  "headline_zh-Hant": "Show HN: 一個開源的Patreon/Substack",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家好！<p>我是一个以媒体为中心的Wagtail+Django发行版的开发者，名为Rent Free Media。<p>它基本上是一个开源的Patreon或Substack。<p>https://rentfree.media 是网站，git链接在那里。 <p>由于明显的原因，许可证是AGPL。<p>它使用Django RSS feed框架，从网页内容中生成RSS feeds，因此用户可以在一次编辑中同时发布他们的网站和播客集（或付费的书面内容，如果他们是Substack类型的书面内容作者）。<p>功能概要：<p>1. <p>1.与Stripe集成，用于订阅付款。<p>2.用户权限通过一个细分库处理，该库也是开源的，因此定制和复杂的支付层规则很容易实现。<p>3.为播客应用程序和新闻阅读器自动生成认证的RSS链接。<p>4.大规模和&quot;drip&quot; 电子邮件营销工具。支持远程和本地托管文件的公共/免费内容。\n<p>6.如果你喜欢Markdown，它可以在iTunes、Spotify和Google的播客应用程序中制作芝加哥风格的插曲注释;)<p>7.默认的HTML模板是Bootstrap 5，并且自定义CSS可以应用于CMS中的块状元素，而无需进入模板代码以实现页面元素的简单造型。 <p>8.播客可以以系列和系列格式发布，有或没有付费集的可见预览，有或没有付费/付费的组合饲料。所有这些都可以在CMS管理中进行配置，而无需触及代码。自动生成JSON+LD模式数据，包括面包屑，每页。动态网络表格，可选择根据用户的条目设置条件表格字段。在每个用户的基础上对优质内容进行可审计/可操作的下载跟踪。开箱即用的2FA，用户可以选择，管理员可以选择要求。只要你想把AJAX评论放在任何地方，只需在CMS编辑器中的页面上包含一个块（或不包含）。通过Postgres数据库进行全文/全站搜索。<p>15. <p>正如git上的readme所说，它可以在Django开发服务器上运行，但需要注意的是，如果没有Nginx响应X-Sendfile请求，媒体文件将无法 \"播放\"，以及一个小的SQLite复杂字段过滤器支持怪异现象，在功能上并没有破坏。",
+  "description_zh-Hant": "大家好！<p>我是一個以媒體為中心的Wagtail+Django發行版的開發者，名為Rent Free Media。<p>它基本上是一個開源的Patreon或Substack。<p>https://rentfree.media 是網站，git鏈接在那裡。 <p>由於明顯的原因，許可證是AGPL。<p>它使用Django RSS feed框架，從網頁內容中生成RSS feeds，因此用戶可以在一次編輯中同時發佈他們的網站和播客集（或付費的書面內容，如果他們是Substack類型的書面內容作者）。<p>功能概要：<p>1. <p>1.與Stripe集成，用於訂閱付款。<p>2.用戶權限通過一個細分庫處理，該庫也是開源的，因此定製和複雜的支付層規則很容易實現。<p>3.為播客應用程序和新聞閱讀器自動生成認證的RSS鏈接。<p>4.大規模和&quot;drip&quot; 電子郵件營銷工具。支持遠程和本地託管文件的公共/免費內容。\n<p>6.如果你喜歡Markdown，它可以在iTunes、Spotify和Google的播客應用程序中製作芝加哥風格的插曲註釋;)<p>7.默認的HTML模板是Bootstrap 5，並且自定義CSS可以應用於CMS中的塊狀元素，而無需進入模板代碼以實現頁面元素的簡單造型。 <p>8.播客可以以系列和系列格式發佈，有或沒有付費集的可見預覽，有或沒有付費/付費的組合飼料。所有這些都可以在CMS管理中進行配置，而無需觸及代碼。自動生成JSON+LD模式數據，包括麵包屑，每頁。動態網絡表格，可選擇根據用戶的條目設置條件表格字段。在每個用戶的基礎上對優質內容進行可審計/可操作的下載跟蹤。開箱即用的2FA，用戶可以選擇，管理員可以選擇要求。只要你想把AJAX評論放在任何地方，只需在CMS編輯器中的頁面上包含一個塊（或不包含）。通過Postgres數據庫進行全文/全站搜索。<p>15. <p>正如git上的readme所說，它可以在Django開發服務器上運行，但需要注意的是，如果沒有Nginx響應X-Sendfile請求，媒體文件將無法 \"播放\"，以及一個小的SQLite複雜字段過濾器支持怪異現象，在功能上並沒有破壞。"
+}
