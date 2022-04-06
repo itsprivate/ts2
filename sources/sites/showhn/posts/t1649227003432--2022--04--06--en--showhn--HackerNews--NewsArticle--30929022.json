@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--06--en--showhn--HackerNews--NewsArticle--30929022",
+  "url": "https://news.ycombinator.com/item?id=30929022",
+  "headline": "Show HN: Bloben – self hosted web CalDAV calendar client",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello all,<p>I have been working on a self hosted CalDAV calendar client Bloben https://github.com/nibdo/bloben-app<p>This is mostly an alternative to other web clients like great AgenDAV with some additional features I wanted to use like email invites, alarms, webcalendars, etc.<p>You can play with demo (limited to read access) here: https://demo.bloben.com/api/v1/users/login-demo?username=demo&amp;password=Bg8v16a4q7gvC&amp;redirect=https://demo.bloben.com/calendar?demo=true<p>In the end it should provide separate clients also for CalDAV tasks and notes.<p>One thing I would maybe like to discuss more is adding encryption, which is obviously quite problematic when using standards like CalDAV. Initially I just added non-compatible fully encrypted calendars, but realised this might not be useful for many people using different clients.<p>Something halfway is adding an option to protect only some, say sensitive, events by encrypting fields like title, description or location. That way events will still be displayed via standard mobile apps and decrypted only in Bloben client (with link to open from description).<p>As part of this project I published also React calendar component https://github.com/nibdo/kalend<p>Thank you, if you are interested and feel free to ask me anything.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "nibdo",
+    "url": "https://news.ycombinator.com/user?id=nibdo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30929022",
+  "sameAs": "https://news.ycombinator.com/item?id=30929022",
+  "dateCreated": "2022-04-06T06:36:43.432Z",
+  "datePublished": "2022-04-06T06:23:12.000Z",
+  "dateModified": "2022-04-06T06:36:43.432Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Bloben - 自我托管的网络CalDAV日历客户端",
+  "headline_zh-Hant": "Show HN: Bloben - 自我託管的網絡CalDAV日曆客戶端",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家好，<p>我一直在做一个自我托管的CalDAV日历客户端Bloben https://github.com/nibdo/bloben-app<p>这主要是替代其他网络客户端，如伟大的AgenDAV，有一些我想使用的额外功能，如电子邮件邀请、闹钟、网络日历等。<p>你可以在这里玩演示（仅限于阅读权限）：https://demo。 bloben.com/api/v1/users/login-demo?username=demo&amp;password=Bg8v16a4q7gvC&amp;redirect=https://demo.bloben.com/calendar?demo=true<p>最后，它还应该为CalDAV任务和笔记提供单独的客户端。<p>我也许想多讨论的一件事是添加加密，这在使用CalDAV等标准时显然很成问题。最初我只是添加了不兼容的完全加密的日历，但我意识到这对许多使用不同客户端的人来说可能并不实用。<p>另一个办法是添加一个选项，通过加密标题、描述或位置等字段，只保护一些，例如敏感的事件。这样一来，事件仍然可以通过标准的移动应用程序显示，并且只在Bloben客户端上解密（有描述的链接可以打开）。<p>作为这个项目的一部分，我还发布了React日历组件https://github.com/nibdo/kalend<p>谢谢你，如果你有兴趣，可以随时问我任何问题。",
+  "description_zh-Hant": "大家好，<p>我一直在做一個自我託管的CalDAV日曆客戶端Bloben https://github.com/nibdo/bloben-app<p>這主要是替代其他網絡客戶端，如偉大的AgenDAV，有一些我想使用的額外功能，如電子郵件邀請、鬧鐘、網絡日曆等。<p>你可以在這裡玩演示（僅限於閱讀權限）：https://demo。 bloben.com/api/v1/users/login-demo?username=demo&amp;password=Bg8v16a4q7gvC&amp;redirect=https://demo.bloben.com/calendar?demo=true<p>最後，它還應該為CalDAV任務和筆記提供單獨的客戶端。<p>我也許想多討論的一件事是添加加密，這在使用CalDAV等標準時顯然很成問題。最初我只是添加了不兼容的完全加密的日曆，但我意識到這對許多使用不同客戶端的人來說可能並不實用。<p>另一個辦法是添加一個選項，通過加密標題、描述或位置等字段，只保護一些，例如敏感的事件。這樣一來，事件仍然可以通過標準的移動應用程序顯示，並且只在Bloben客戶端上解密（有描述的鏈接可以打開）。<p>作為這個項目的一部分，我還發布了React日曆組件https://github.com/nibdo/kalend<p>謝謝你，如果你有興趣，可以隨時問我任何問題。"
+}
