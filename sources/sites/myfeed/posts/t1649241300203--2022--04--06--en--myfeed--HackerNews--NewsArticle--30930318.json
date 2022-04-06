@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--06--en--myfeed--HackerNews--NewsArticle--30930318",
+  "url": "https://news.ycombinator.com/item?id=30930318",
+  "headline": "Some women shared the messages they get on Instagram. It’s not pretty",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pseudolus",
+    "url": "https://news.ycombinator.com/user?id=pseudolus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30930318",
+  "sameAs": "https://www.washingtonpost.com/technology/2022/04/06/instagram-women-harassment/",
+  "dateCreated": "2022-04-06T10:35:00.203Z",
+  "datePublished": "2022-04-06T10:05:39.000Z",
+  "dateModified": "2022-04-06T10:35:00.203Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一些妇女分享了她们在Instagram上收到的信息。这并不漂亮",
+  "headline_zh-Hant": "一些婦女分享了她們在Instagram上收到的信息。這並不漂亮",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
