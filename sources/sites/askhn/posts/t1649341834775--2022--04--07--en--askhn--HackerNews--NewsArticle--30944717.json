@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--07--en--askhn--HackerNews--NewsArticle--30944717",
+  "url": "https://news.ycombinator.com/item?id=30944717",
+  "headline": "Ask HN: Are there any useful/interesting public MQTT feeds?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've been running a self-hosted MQTT Mosquitto broker for some time now and am curious if anyone's come across any useful/interesting feeds to subscribe to? An hour's search today revealed a realtime Finnish transport monitor, but other than that, nothing.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "FerretFred",
+    "url": "https://news.ycombinator.com/user?id=FerretFred"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30944717",
+  "sameAs": "https://news.ycombinator.com/item?id=30944717",
+  "dateCreated": "2022-04-07T14:30:34.775Z",
+  "datePublished": "2022-04-07T14:15:56.000Z",
+  "dateModified": "2022-04-07T14:30:34.775Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 是否有任何有用/有趣的公共MQTT馈送？",
+  "headline_zh-Hant": "Ask HN: 是否有任何有用/有趣的公共MQTT饋送？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我一直在运行一个自我托管的MQTT Mosquitto经纪商，现在已经有一段时间了，我很好奇，如果有人遇到任何有用的/有趣的feeds可以订阅？今天一个小时的搜索发现了一个实时的芬兰运输监控，但除此之外，什么都没有。",
+  "description_zh-Hant": "我一直在運行一個自我託管的MQTT Mosquitto經紀商，現在已經有一段時間了，我很好奇，如果有人遇到任何有用的/有趣的feeds可以訂閱？今天一個小時的搜索發現了一個實時的芬蘭運輸監控，但除此之外，什麼都沒有。"
+}
