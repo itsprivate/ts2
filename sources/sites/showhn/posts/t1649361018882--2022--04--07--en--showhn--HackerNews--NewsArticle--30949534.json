@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--07--en--showhn--HackerNews--NewsArticle--30949534",
+  "url": "https://news.ycombinator.com/item?id=30949534",
+  "headline": "Show HN: Phenixio – Real-time Bitcoin payments platform [API]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi everybody,<p>I'm the founder of Phenixio - a real-time Bitcoin payments platform. We've been developing it for the last couple of years, and I am happy to announce that it is finally ready for a test drive.<p>We've built our services on top of Lightning Network. It is the Layer-2 solution for Bitcoin that makes real-time payments possible. These Bitcoin payments are almost faster than credit card processing and only take about 1-2 seconds.<p>With Phenixio, you will access this payments network without going through any protocol-level complexity. You could start accepting payments from anyone with a BTC/LN wallet and from anywhere in the world.<p>It is still early days for us, and we are looking for pilot users who can provide some valuable feedback. Our API is quite simple, so you can easily integrate Bitcoin payments with your website. I should also mention that you don't need any Bitcoin knowledge to use it.<p>Let me know if you are interested. I will give you access to our testnet API.<p>API reference: <a href=\"https://testnet.phenixio.com/api/docs/\" rel=\"nofollow\">https://testnet.phenixio.com/api/docs/</a>\nWebsite: <a href=\"https://phenixio.com\" rel=\"nofollow\">https://phenixio.com</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "yagizc",
+    "url": "https://news.ycombinator.com/user?id=yagizc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30949534",
+  "sameAs": "https://phenixio.com/",
+  "dateCreated": "2022-04-07T19:50:18.882Z",
+  "datePublished": "2022-04-07T19:49:18.000Z",
+  "dateModified": "2022-04-07T19:50:18.882Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Phenixio - 实时比特币支付平台 [API]",
+  "headline_zh-Hant": "Show HN: Phenixio - 實時比特幣支付平臺 [API]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家好，<p>我是Phenixio的创始人 - 一个实时比特币支付平台。在过去的几年里，我们一直在开发它，我很高兴地宣布，它终于可以试运行了。它是比特币的第二层解决方案，使实时支付成为可能。这些比特币支付几乎比信用卡处理更快，只需要大约1-2秒。<p>通过Phenixio，你将访问这个支付网络，而不需要通过任何协议级别的复杂性。你可以开始接受任何拥有BTC/LN钱包的人和世界上任何地方的付款。<p>这对我们来说仍然是早期阶段，我们正在寻找能够提供一些有价值的反馈的试点用户。我们的API相当简单，所以你可以很容易地将比特币支付与你的网站整合。我还应该提到，你不需要任何比特币知识来使用它。<p>如果你有兴趣，请告诉我。我将给你访问我们的测试网API。<p>API参考。<a href=\"https://testnet.phenixio.com/api/docs/\" rel=\"nofollow\">https://testnet.phenixio.com/api/docs/</a>\nWebsite: <a href=\"https://phenixio.com\" rel=\"nofollow\">https://phenixio.com</a>",
+  "description_zh-Hant": "大家好，<p>我是Phenixio的創始人 - 一個實時比特幣支付平臺。在過去的幾年裡，我們一直在開發它，我很高興地宣佈，它終於可以試運行了。它是比特幣的第二層解決方案，使實時支付成為可能。這些比特幣支付幾乎比信用卡處理更快，只需要大約1-2秒。<p>通過Phenixio，你將訪問這個支付網絡，而不需要通過任何協議級別的複雜性。你可以開始接受任何擁有BTC/LN錢包的人和世界上任何地方的付款。<p>這對我們來說仍然是早期階段，我們正在尋找能夠提供一些有價值的反饋的試點用戶。我們的API相當簡單，所以你可以很容易地將比特幣支付與你的網站整合。我還應該提到，你不需要任何比特幣知識來使用它。<p>如果你有興趣，請告訴我。我將給你訪問我們的測試網API。<p>API參考。<a href=\"https://testnet.phenixio.com/api/docs/\" rel=\"nofollow\">https://testnet.phenixio.com/api/docs/</a>\nWebsite: <a href=\"https://phenixio.com\" rel=\"nofollow\">https://phenixio.com</a>"
+}
