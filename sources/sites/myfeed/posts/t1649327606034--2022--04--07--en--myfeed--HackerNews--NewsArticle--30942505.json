@@ -36,5 +36,23 @@
       },
       "userInteractionCount": 0
     }
+  ],
+  "headline_zh-Hans": "俄罗斯在最近解放的基辅州布卡的战争罪行",
+  "headline_zh-Hant": "俄羅斯在最近解放的基輔州布卡的戰爭罪行",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
   ]
 }
