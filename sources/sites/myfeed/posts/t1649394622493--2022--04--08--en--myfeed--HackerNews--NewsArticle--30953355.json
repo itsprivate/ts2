@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--08--en--myfeed--HackerNews--NewsArticle--30953355",
+  "url": "https://news.ycombinator.com/item?id=30953355",
+  "headline": "China's digital currency comes to WeChat. Next stop: over a billion users",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "samizdis",
+    "url": "https://news.ycombinator.com/user?id=samizdis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30953355",
+  "sameAs": "https://www.theregister.com/2022/04/08/digital_yuan_wechat_integration/",
+  "dateCreated": "2022-04-08T05:10:22.493Z",
+  "datePublished": "2022-04-08T04:34:43.000Z",
+  "dateModified": "2022-04-08T05:10:22.493Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "中国的数字货币来到了微信。下一站：超过10亿用户",
+  "headline_zh-Hant": "中國的數字貨幣來到了微信。下一站：超過10億用戶",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
