@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--08--en--besthn--HackerNews--NewsArticle--30959025",
+  "url": "https://news.ycombinator.com/item?id=30959025",
+  "headline": "NotepadNext: A cross-platform reimplementation of Notepad++",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Acrobatic_Road",
+    "url": "https://news.ycombinator.com/user?id=Acrobatic_Road"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30959025",
+  "sameAs": "https://github.com/dail8859/NotepadNext",
+  "dateCreated": "2022-04-08T22:31:21.790Z",
+  "datePublished": "2022-04-08T16:14:16.000Z",
+  "dateModified": "2022-04-08T22:31:21.790Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 184
+    }
+  ],
+  "headline_zh-Hans": "记事本下一页。一个跨平台的Notepad++的重新实现",
+  "headline_zh-Hant": "記事本下一頁。一個跨平臺的Notepad++的重新實現",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
