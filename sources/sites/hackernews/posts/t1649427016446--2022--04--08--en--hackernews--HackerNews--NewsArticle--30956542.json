@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--08--en--hackernews--HackerNews--NewsArticle--30956542",
+  "url": "https://news.ycombinator.com/item?id=30956542",
+  "headline": "Mortgage rates just hit 5%. Buying a home has become a lot more expensive",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Victerius",
+    "url": "https://news.ycombinator.com/user?id=Victerius"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30956542",
+  "sameAs": "https://www.npr.org/2022/04/08/1091398386/mortgage-rates-just-hit-5-buying-a-home-has-become-a-lot-more-expensive",
+  "dateCreated": "2022-04-08T14:10:16.446Z",
+  "datePublished": "2022-04-08T13:29:43.000Z",
+  "dateModified": "2022-04-08T14:10:16.446Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 15
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "抵押贷款利率刚刚达到5%。买房已经变得更加昂贵",
+  "headline_zh-Hant": "抵押貸款利率剛剛達到5%。買房已經變得更加昂貴",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
