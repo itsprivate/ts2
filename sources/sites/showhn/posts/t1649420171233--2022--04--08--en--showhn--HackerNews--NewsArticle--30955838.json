@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--04--06--en--myfeed--HackerNews--NewsArticle--30930618",
-  "url": "https://news.ycombinator.com/item?id=30930618",
-  "headline": "A Real Working Invisibility Shield",
+  "identifier": "2022--04--08--en--showhn--HackerNews--NewsArticle--30955838",
+  "url": "https://news.ycombinator.com/item?id=30955838",
+  "headline": "Show HN: A poem inside HTTP response headers",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "T-A",
-    "url": "https://news.ycombinator.com/user?id=T-A"
+    "name": "jacobevelyn",
+    "url": "https://news.ycombinator.com/user?id=jacobevelyn"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30930618",
-  "sameAs": "https://www.kickstarter.com/projects/invisibility-shield/invisibility-shield",
-  "dateCreated": "2022-04-06T11:49:57.454Z",
-  "datePublished": "2022-04-06T10:53:37.000Z",
-  "dateModified": "2022-04-06T11:49:57.454Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30955838",
+  "sameAs": "https://ja.cob.land/http2-204-a-poem",
+  "dateCreated": "2022-04-08T12:16:11.233Z",
+  "datePublished": "2022-04-08T11:57:32.000Z",
+  "dateModified": "2022-04-08T12:16:11.233Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "一个真正有效的隐身盾牌",
-  "headline_zh-Hant": "一個真正有效的隱身盾牌",
+  "headline_zh-Hans": "Show HN: HTTP响应头中的一首诗",
+  "headline_zh-Hant": "Show HN: HTTP響應頭中的一首詩",
   "@context": [
     "https://schema.org",
     {
