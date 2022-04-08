@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--08--en--myfeed--HackerNews--NewsArticle--30954284",
+  "url": "https://news.ycombinator.com/item?id=30954284",
+  "headline": "You Only Need to Test with 5 Users (2000)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mgh2",
+    "url": "https://news.ycombinator.com/user?id=mgh2"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30954284",
+  "sameAs": "https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/",
+  "dateCreated": "2022-04-08T08:12:32.276Z",
+  "datePublished": "2022-04-08T07:28:25.000Z",
+  "dateModified": "2022-04-08T08:12:32.276Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "你只需要用5个用户进行测试（2000）。",
+  "headline_zh-Hant": "你只需要用5個用戶進行測試（2000）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
