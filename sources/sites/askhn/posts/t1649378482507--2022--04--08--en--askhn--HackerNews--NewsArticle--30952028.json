@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--08--en--askhn--HackerNews--NewsArticle--30952028",
+  "url": "https://news.ycombinator.com/item?id=30952028",
+  "headline": "Ask HN: How does Slack get a website preview without auth",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I noticed that when I paste a github link into slack it can read the contents of the repository even though the repo is private. How does Slack get through the github authentication without having access to cookies stored in my browser?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "LunaticDragon",
+    "url": "https://news.ycombinator.com/user?id=LunaticDragon"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30952028",
+  "sameAs": "https://news.ycombinator.com/item?id=30952028",
+  "dateCreated": "2022-04-08T00:41:22.507Z",
+  "datePublished": "2022-04-08T00:38:06.000Z",
+  "dateModified": "2022-04-08T00:41:22.507Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Slack如何在没有auth的情况下获得网站预览",
+  "headline_zh-Hant": "Ask HN: Slack如何在沒有auth的情況下獲得網站預覽",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我注意到，当我把github的链接粘贴到slack中时，它可以读取版本库的内容，尽管该版本库是私有的。Slack是如何通过github的认证，而又不能访问存储在我浏览器中的cookies的呢？",
+  "description_zh-Hant": "我注意到，當我把github的鏈接粘貼到slack中時，它可以讀取版本庫的內容，儘管該版本庫是私有的。Slack是如何通過github的認證，而又不能訪問存儲在我瀏覽器中的cookies的呢？"
+}
