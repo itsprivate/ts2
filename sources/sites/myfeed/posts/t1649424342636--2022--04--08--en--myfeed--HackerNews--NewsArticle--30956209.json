@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--08--en--myfeed--HackerNews--NewsArticle--30956209",
+  "url": "https://news.ycombinator.com/item?id=30956209",
+  "headline": "Lumitime – A Digital Clock with No Electronics",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "anonymfus",
+    "url": "https://news.ycombinator.com/user?id=anonymfus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30956209",
+  "sameAs": "https://www.youtube.com/watch?v=SVG9veCKogU",
+  "dateCreated": "2022-04-08T13:25:42.636Z",
+  "datePublished": "2022-04-08T12:49:14.000Z",
+  "dateModified": "2022-04-08T13:25:42.636Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Lumitime - 一个没有电子装置的数字时钟",
+  "headline_zh-Hant": "Lumitime - 一個沒有電子裝置的數字時鐘",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
