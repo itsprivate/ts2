@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--09--en--myfeed--HackerNews--NewsArticle--30971900",
+  "url": "https://news.ycombinator.com/item?id=30971900",
+  "headline": "Malware in a Popular Windows Toolbox (powershell-windows-toolbox)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Nickwasused",
+    "url": "https://news.ycombinator.com/user?id=Nickwasused"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30971900",
+  "sameAs": "https://github.com/windowtoolbox/powershell-windows-toolbox/issues/32",
+  "dateCreated": "2022-04-09T21:10:19.775Z",
+  "datePublished": "2022-04-09T20:47:51.000Z",
+  "dateModified": "2022-04-09T21:10:19.775Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "流行的Windows工具箱中的恶意软件（powerhell-windows-toolbox）。",
+  "headline_zh-Hant": "流行的Windows工具箱中的惡意軟件（powerhell-windows-toolbox）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
