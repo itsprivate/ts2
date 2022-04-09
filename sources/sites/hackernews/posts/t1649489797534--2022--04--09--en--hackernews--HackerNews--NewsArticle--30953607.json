@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--09--en--hackernews--HackerNews--NewsArticle--30953607",
+  "url": "https://news.ycombinator.com/item?id=30953607",
+  "headline": "Secret Colors: A Gentle Introduction to Cryptography",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "signa11",
+    "url": "https://news.ycombinator.com/user?id=signa11"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30953607",
+  "sameAs": "https://roundrobin.pub/pages/secret-colors-announcement",
+  "dateCreated": "2022-04-09T07:36:37.534Z",
+  "datePublished": "2022-04-08T05:26:02.000Z",
+  "dateModified": "2022-04-09T07:36:37.534Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "秘密的颜色。密码学的温和介绍",
+  "headline_zh-Hant": "秘密的顏色。密碼學的溫和介紹",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
