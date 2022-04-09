@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--09--en--hackernews--HackerNews--NewsArticle--30965610",
+  "url": "https://news.ycombinator.com/item?id=30965610",
+  "headline": "GitHub Text of government takedown notices as received",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "harporoeder",
+    "url": "https://news.ycombinator.com/user?id=harporoeder"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30965610",
+  "sameAs": "https://github.com/github/gov-takedowns",
+  "dateCreated": "2022-04-09T07:10:32.081Z",
+  "datePublished": "2022-04-09T06:07:40.000Z",
+  "dateModified": "2022-04-09T07:10:32.081Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "GitHub 所收到的政府摘录通知的文本",
+  "headline_zh-Hant": "GitHub 所收到的政府摘錄通知的文本",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
