@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--09--en--hackernews--HackerNews--NewsArticle--30970938",
+  "url": "https://news.ycombinator.com/item?id=30970938",
+  "headline": "Stanford prof calls cops on Berkeley prof who exposed her $5K/hr consulting fee",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "metadat",
+    "url": "https://news.ycombinator.com/user?id=metadat"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30970938",
+  "sameAs": "https://nypost.com/2022/04/08/stanford-prof-calls-cops-on-berkeley-prof-who-exposed-her-5k-hour-consulting-fee/",
+  "dateCreated": "2022-04-09T20:11:41.885Z",
+  "datePublished": "2022-04-09T19:00:54.000Z",
+  "dateModified": "2022-04-09T20:11:41.885Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 20
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "斯坦福大学教授报警，称伯克利大学教授曝光她每小时5千美元的咨询费",
+  "headline_zh-Hant": "斯坦福大學教授報警，稱伯克利大學教授曝光她每小時5千美元的諮詢費",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
