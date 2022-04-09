@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--04--07--en--myfeed--HackerNews--NewsArticle--30943205",
-  "url": "https://news.ycombinator.com/item?id=30943205",
-  "headline": "Help Wanted: Adjunct Professor, Must Have Doctorate. Salary: $0",
+  "identifier": "2022--04--09--en--showhn--HackerNews--NewsArticle--30968425",
+  "url": "https://news.ycombinator.com/item?id=30968425",
+  "headline": "Show HN: StreamPQ – Stream PostgreSQL query results in Python without a cursor",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "mistersquid",
-    "url": "https://news.ycombinator.com/user?id=mistersquid"
+    "name": "michalc",
+    "url": "https://news.ycombinator.com/user?id=michalc"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30943205",
-  "sameAs": "https://www.nytimes.com/2022/04/06/us/ucla-adjunct-professor-salary.html",
-  "dateCreated": "2022-04-07T12:17:47.862Z",
-  "datePublished": "2022-04-07T11:44:32.000Z",
-  "dateModified": "2022-04-07T12:17:47.862Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30968425",
+  "sameAs": "https://github.com/uktrade/streampq",
+  "dateCreated": "2022-04-09T14:50:09.481Z",
+  "datePublished": "2022-04-09T14:39:47.000Z",
+  "dateModified": "2022-04-09T14:50:09.481Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "诚聘英才。兼职教授，必须有博士学位。工资：0元",
-  "headline_zh-Hant": "誠聘英才。兼職教授，必須有博士學位。工資：0元",
+  "headline_zh-Hans": "Show HN: StreamPQ - 在Python中流式传输PostgreSQL查询结果，无需游标",
+  "headline_zh-Hant": "Show HN: StreamPQ - 在Python中流式傳輸PostgreSQL查詢結果，無需遊標",
   "@context": [
     "https://schema.org",
     {
