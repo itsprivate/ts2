@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--09--en--myfeed--HackerNews--NewsArticle--30971252",
+  "url": "https://news.ycombinator.com/item?id=30971252",
+  "headline": "The film the KLF didn’t want you to see",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cmsefton",
+    "url": "https://news.ycombinator.com/user?id=cmsefton"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30971252",
+  "sameAs": "https://www.theguardian.com/music/2022/apr/08/who-killed-the-klf-the-film-drummond-cauty-did-not-want-you-to-see",
+  "dateCreated": "2022-04-09T20:31:50.484Z",
+  "datePublished": "2022-04-09T19:34:50.000Z",
+  "dateModified": "2022-04-09T20:31:50.484Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "金氏兄弟不想让你看到的电影",
+  "headline_zh-Hant": "金氏兄弟不想讓你看到的電影",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
