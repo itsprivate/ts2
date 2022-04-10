@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--10--en--myfeed--HackerNews--NewsArticle--30973712",
+  "url": "https://news.ycombinator.com/item?id=30973712",
+  "headline": "CLRS and Knuth disagree in the definition of “complete k-ary tree”",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "In CLRS (as recently as the fourth edition), a &quot;complete k-ary tree&quot; is defined as a tree in which &quot;all leaves have the same depth and all internal nodes have degree k&quot;.<p>Knuth (as well as nearly every other source I'm aware of) uses an entirely different definition: &quot;a k-ary tree in which all levels are filled except possibly the last, and in the last level, all nodes (which must be leaves) are as far to the left as possible&quot;.<p>One consequence is that the Knuth definition allows leaves at different depths. For example, a tree with two nodes: one root and a child, is a complete binary tree according to Knuth, but not according to CLRS.<p>I emailed the authors of CLRS a few months ago before the fourth edition was released, and was told that they acknowledge the difference, but did not have space to mention it because they were up against a publisher-enforced page count.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "xdavidliu",
+    "url": "https://news.ycombinator.com/user?id=xdavidliu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30973712",
+  "sameAs": "https://news.ycombinator.com/item?id=30973712",
+  "dateCreated": "2022-04-10T02:21:25.636Z",
+  "datePublished": "2022-04-10T01:31:39.000Z",
+  "dateModified": "2022-04-10T02:21:25.636Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "CLRS和Knuth在 \"完整的k-ary树 \"的定义上存在分歧",
+  "headline_zh-Hant": "CLRS和Knuth在 \"完整的k-ary樹 \"的定義上存在分歧",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在CLRS（最近的第四版）中，&quot;完整的k-ary树&quot;被定义为&quot;所有叶子都有相同的深度，所有内部节点都有度数k&quot;的树。 <p>Knuth（以及我所知道的几乎所有其他来源）使用了一个完全不同的定义：&quot;一棵k-ary树，其中所有层次都被填满，除了可能是最后一层，而且在最后一层，所有节点（必须是叶子）都尽可能地靠左&quot;。例如，一棵树有两个节点：一个根和一个子，按照Knuth的说法是一棵完整的二叉树，但按照CLRS的说法则不是。<p>几个月前，在第四版发布之前，我给CLRS的作者发了电子邮件，他们被告知，他们承认这种差异，但没有空间来提及，因为他们要面对出版商强制要求的页数。",
+  "description_zh-Hant": "在CLRS（最近的第四版）中，&quot;完整的k-ary樹&quot;被定義為&quot;所有葉子都有相同的深度，所有內部節點都有度數k&quot;的樹。 <p>Knuth（以及我所知道的幾乎所有其他來源）使用了一個完全不同的定義：&quot;一棵k-ary樹，其中所有層次都被填滿，除了可能是最後一層，而且在最後一層，所有節點（必須是葉子）都儘可能地靠左&quot;。例如，一棵樹有兩個節點：一個根和一個子，按照Knuth的說法是一棵完整的二叉樹，但按照CLRS的說法則不是。<p>幾個月前，在第四版發佈之前，我給CLRS的作者發了電子郵件，他們被告知，他們承認這種差異，但沒有空間來提及，因為他們要面對出版商強制要求的頁數。"
+}
