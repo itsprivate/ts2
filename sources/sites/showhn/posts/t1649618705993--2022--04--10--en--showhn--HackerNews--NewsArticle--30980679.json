@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--10--en--showhn--HackerNews--NewsArticle--30980679",
+  "url": "https://news.ycombinator.com/item?id=30980679",
+  "headline": "Show HN: A Trust-DNS based dig alternative",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey, HN. I thought you might be interested in a tool I wrote over a few days. As part of a recent IETF hackathon event demonstrating dynamic DNS updates over a private and secure channel (DoT, DoH, DoQ) I needed something to demonstrate the that the software was capable of performing the tasks. This was relatively straightforward with the what I think of as excellent CLI capabilities in the Rust ecosystem with Clap, <a href=\"https://docs.rs/clap/latest/clap/\" rel=\"nofollow\">https://docs.rs/clap/latest/clap/</a>. Anyway, I thought I'd share it with the HN community in case folks find it useful.<p>The tool is vaguely like `dig`, I called it `dns`. It's similar in that it allows a single DNS message to be sent and await a response. This is by no means as comprehensive as `dig`, yet, but might be suitable as a simpler and easier to use command. For example, issuing a DoH query can be done with:<p>`dns -p https -t cloudflare-dns.com -n 1.1.1.1:443 query www.example.com. SOA `<p>And similarly a dynamic update can be performed with:<p>`dns -p tls -n ${NS_IP}:853 -t ${CERT_NAME} -z example.com. create txt.example.com. TXT 60 HELLO_WORLD`<p>For auth I still need to wire up SIG0 and TSIG support, at least SIG0 should be easy enough. I'll try and find some time to do that when I have a moment.<p>Anyway, I'll try and respond if there are any questions in this thread today.<p>Thanks-<p>-Ben",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "bluejekyll",
+    "url": "https://news.ycombinator.com/user?id=bluejekyll"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30980679",
+  "sameAs": "https://github.com/bluejekyll/trust-dns/pull/1680",
+  "dateCreated": "2022-04-10T19:25:05.993Z",
+  "datePublished": "2022-04-10T19:19:09.000Z",
+  "dateModified": "2022-04-10T19:25:05.993Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 一个基于信任-DNS的挖掘替代方案",
+  "headline_zh-Hant": "Show HN: 一個基於信任-DNS的挖掘替代方案",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嘿，HN。我想你可能会对我几天来写的一个工具感兴趣。作为最近IETF黑客马拉松活动的一部分，我需要一些东西来证明该软件能够执行这些任务，以演示通过私有和安全通道（DoT、DoH、DoQ）进行动态DNS更新。利用我认为Rust生态系统中Clap、<a href=\"https://docs.rs/clap/latest/clap/\" rel=\"nofollow\">https://docs.rs/clap/latest/clap/</a>的出色CLI功能，这一点相对简单明了。无论如何，我想我应该与HN社区分享它，以防人们发现它是有用的。<p>该工具依稀像`dig`，我称之为`dns`。它的相似之处在于，它允许发送单一的DNS消息并等待响应。这决不是像`dig`那样全面，但可能适合作为一个更简单和更容易使用的命令。例如，发布 DoH 查询可以用：<p>`dns -p https -t cloudflare-dns.com -n 1.1.1.1:443 query www.example.com. SOA `<p>而类似的动态更新可以用：<p>`dns -p tls -n ${NS_IP}:853 -t ${CERT_NAME}进行。-z example.com。创建txt.example.com。TXT 60 HELLO_WORLD`<p>对于授权，我仍然需要连接SIG0和TSIG支持，至少SIG0应该很容易。<p>无论如何，如果今天在这个线程中有任何问题，我都会试着回应。<p>谢谢-<p>-Ben",
+  "description_zh-Hant": "嘿，HN。我想你可能會對我幾天來寫的一個工具感興趣。作為最近IETF黑客馬拉松活動的一部分，我需要一些東西來證明該軟件能夠執行這些任務，以演示通過私有和安全通道（DoT、DoH、DoQ）進行動態DNS更新。利用我認為Rust生態系統中Clap、<a href=\"https://docs.rs/clap/latest/clap/\" rel=\"nofollow\">https://docs.rs/clap/latest/clap/</a>的出色CLI功能，這一點相對簡單明瞭。無論如何，我想我應該與HN社區分享它，以防人們發現它是有用的。<p>該工具依稀像`dig`，我稱之為`dns`。它的相似之處在於，它允許發送單一的DNS消息並等待響應。這決不是像`dig`那樣全面，但可能適合作為一個更簡單和更容易使用的命令。例如，發佈 DoH 查詢可以用：<p>`dns -p https -t cloudflare-dns.com -n 1.1.1.1:443 query www.example.com. SOA `<p>而類似的動態更新可以用：<p>`dns -p tls -n ${NS_IP}:853 -t ${CERT_NAME}進行。-z example.com。創建txt.example.com。TXT 60 HELLO_WORLD`<p>對於授權，我仍然需要連接SIG0和TSIG支持，至少SIG0應該很容易。<p>無論如何，如果今天在這個線程中有任何問題，我都會試著迴應。<p>謝謝-<p>-Ben"
+}
