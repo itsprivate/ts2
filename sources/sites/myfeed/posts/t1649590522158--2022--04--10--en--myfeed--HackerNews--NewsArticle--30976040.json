@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--10--en--myfeed--HackerNews--NewsArticle--30976040",
+  "url": "https://news.ycombinator.com/item?id=30976040",
+  "headline": "PSA: React 18 calls code twice in strict mode to detect unintended side effects",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tomduncalf",
+    "url": "https://news.ycombinator.com/user?id=tomduncalf"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30976040",
+  "sameAs": "https://reactjs.org/docs/strict-mode.html#detecting-unexpected-side-effects",
+  "dateCreated": "2022-04-10T11:35:22.158Z",
+  "datePublished": "2022-04-10T11:03:48.000Z",
+  "dateModified": "2022-04-10T11:35:22.158Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "PSA：React 18在严格模式下两次调用代码，以检测非故意的副作用",
+  "headline_zh-Hant": "PSA：React 18在嚴格模式下兩次調用代碼，以檢測非故意的副作用",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
