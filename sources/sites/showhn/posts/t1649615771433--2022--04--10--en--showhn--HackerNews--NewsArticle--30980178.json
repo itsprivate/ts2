@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--03--30--en--hackernews--HackerNews--NewsArticle--30853868",
-  "url": "https://news.ycombinator.com/item?id=30853868",
-  "headline": "Over 100 companies with hiring remotely now (with regions and pos. type)",
+  "identifier": "2022--04--10--en--showhn--HackerNews--NewsArticle--30980178",
+  "url": "https://news.ycombinator.com/item?id=30980178",
+  "headline": "Show HN: URL parser written in pure JavaScript",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "pat-jay",
-    "url": "https://news.ycombinator.com/user?id=pat-jay"
+    "name": "yagiznizipli",
+    "url": "https://news.ycombinator.com/user?id=yagiznizipli"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30853868",
-  "sameAs": "https://freshremote.work/companies",
-  "dateCreated": "2022-03-30T12:55:04.687Z",
-  "datePublished": "2022-03-30T11:48:45.000Z",
-  "dateModified": "2022-03-30T12:55:04.687Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=30980178",
+  "sameAs": "https://github.com/anonrig/url-js",
+  "dateCreated": "2022-04-10T18:36:11.433Z",
+  "datePublished": "2022-04-10T18:33:31.000Z",
+  "dateModified": "2022-04-10T18:36:11.433Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 34
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "超过100家公司正在进行远程招聘（包括地区和职位类型）。",
-  "headline_zh-Hant": "超過100家公司正在進行遠程招聘（包括地區和職位類型）。",
+  "headline_zh-Hans": "Show HN: 用纯JavaScript编写的URL解析器",
+  "headline_zh-Hant": "Show HN: 用純JavaScript編寫的URL解析器",
   "@context": [
     "https://schema.org",
     {
