@@ -1,0 +1,52 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--11--en--myrss--rss--NewsArticle--084295cb16c156f5c96131ffe6d75d81",
+  "url": "https://www.davidhaney.io/a-better-mime-mapping-stealer/",
+  "headline": "A Better MIME Mapping Stealer!",
+  "publisher": {
+    "@type": "Organization",
+    "name": "www.davidhaney.io",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "description": "In the interest of self-improvement and sharing knowledge, I felt that I should share an update to my last post. I discovered a slightly better way to create the GetMimeMapping delegate/method via reflection that involves less casting and overhead, and is more Object Oriented in a sense. It allows the signature of the reflected method to be Func&amp;lt;string, string&amp;gt; instead of MethodInfo. Code below, note the use of Delegate.CreateDelegate(Type, MethodInfo):",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "unknown",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "discussionUrl": "https://www.davidhaney.io/a-better-mime-mapping-stealer/",
+  "sameAs": "https://www.davidhaney.io/a-better-mime-mapping-stealer/",
+  "dateCreated": "2022-04-11T13:24:24.182Z",
+  "datePublished": "2013-02-12T12:07:12.000Z",
+  "dateModified": "2022-04-11T13:24:24.182Z",
+  "interactionStatistic": [],
+  "headline_zh-Hans": "一个更好的MIME映射窃取器!",
+  "headline_zh-Hant": "一個更好的MIME映射竊取器!",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "为了自我完善和分享知识，我觉得我应该分享我上一篇文章的更新。我发现了一个更好的方法，通过反射来创建GetMimeMapping委托/方法，这个方法涉及更少的铸造和开销，而且在某种意义上更加面向对象。它允许反射方法的签名是Func&amp;lt;string, string&amp;gt; 而不是MethodInfo。下面的代码，注意使用Delegate.CreateDelegate(Type, MethodInfo)。",
+  "description_zh-Hant": "為了自我完善和分享知識，我覺得我應該分享我上一篇文章的更新。我發現了一個更好的方法，通過反射來創建GetMimeMapping委託/方法，這個方法涉及更少的鑄造和開銷，而且在某種意義上更加面向對象。它允許反射方法的簽名是Func&amp;lt;string, string&amp;gt; 而不是MethodInfo。下面的代碼，注意使用Delegate.CreateDelegate(Type, MethodInfo)。"
+}
