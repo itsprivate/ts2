@@ -1,0 +1,52 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--11--en--myrss--rss--NewsArticle--93eca0b0fff22300a227de0a3f4fe70e",
+  "url": "https://www.davidhaney.io/compiler-tricks-inferred-types/",
+  "headline": "Compiler Tricks - Inferred Types",
+  "publisher": {
+    "@type": "Organization",
+    "name": "www.davidhaney.io",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "description": "The .NET compiler is a terrific thing… After all, it turns your C# into an executable program!\nOne nice feature of the .NET compiler, which is becoming better each release, is inferred typing. I’d like to lay out a few short examples that might help you develop your programming standards and practices.\nInferring a type when creating an array.\n// Create and initialize an array\rvar myArray = new int[] { 1, 2, 3 };\r Becomes:",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "unknown",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "discussionUrl": "https://www.davidhaney.io/compiler-tricks-inferred-types/",
+  "sameAs": "https://www.davidhaney.io/compiler-tricks-inferred-types/",
+  "dateCreated": "2022-04-11T13:46:57.333Z",
+  "datePublished": "2012-07-16T00:33:54.000Z",
+  "dateModified": "2022-04-11T13:46:57.333Z",
+  "interactionStatistic": [],
+  "headline_zh-Hans": "编译器技巧--推断类型",
+  "headline_zh-Hant": "編譯器技巧--推斷類型",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": ".NET编译器是一个了不起的东西......毕竟，它把你的C#变成了一个可执行的程序\n.NET编译器的一个很好的功能是推断类型，这个功能在每个版本都变得更好。我想列举几个简短的例子，也许能帮助你发展你的编程标准和实践。\n在创建一个数组时推断出一个类型。\n// 创建并初始化一个数组\nvar myArray = new int[] { 1, 2, 3 };\n 变成了。",
+  "description_zh-Hant": ".NET編譯器是一個了不起的東西......畢竟，它把你的C#變成了一個可執行的程序\n.NET編譯器的一個很好的功能是推斷類型，這個功能在每個版本都變得更好。我想列舉幾個簡短的例子，也許能幫助你發展你的編程標準和實踐。\n在創建一個數組時推斷出一個類型。\n// 創建並初始化一個數組\nvar myArray = new int[] { 1, 2, 3 };\n 變成了。"
+}
