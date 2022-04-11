@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--11--en--myfeed--HackerNews--NewsArticle--30995720",
+  "url": "https://news.ycombinator.com/item?id=30995720",
+  "headline": "HR chief says your boss wants to boil you slowly to get you back in the office",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "harambae",
+    "url": "https://news.ycombinator.com/user?id=harambae"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30995720",
+  "sameAs": "https://fortune.com/2022/04/04/former-google-hr-chief-laszlo-bock-hybrid-remote-return-to-office-work/",
+  "dateCreated": "2022-04-11T22:31:21.407Z",
+  "datePublished": "2022-04-11T22:06:56.000Z",
+  "dateModified": "2022-04-11T22:31:21.407Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "人力资源部门负责人说，你的老板想把你慢慢煮熟，让你回到办公室。",
+  "headline_zh-Hant": "人力資源部門負責人說，你的老闆想把你慢慢煮熟，讓你回到辦公室。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
