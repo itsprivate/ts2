@@ -1,0 +1,52 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--11--en--myrss--rss--NewsArticle--3936792c0323dfe2e24124c55b542ecf",
+  "url": "https://www.davidhaney.io/generic-comparer/",
+  "headline": "Generic Comparer",
+  "publisher": {
+    "@type": "Organization",
+    "name": "www.davidhaney.io",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "description": "Have you ever had to write a comparer for a specific type, only to be frustrated when you needed to write a second and third comparer for other types? Fear not, a generic comparer can take care of this for you!\n/// &amp;lt;summary&amp;gt;\r/// Compares two objects of any type.\r/// &amp;lt;/summary&amp;gt;\r/// &amp;lt;typeparam name=&amp;quot;T&amp;quot;&amp;gt;The type to be compared.&amp;lt;/typeparam&amp;gt;\rpublic class GenericComparer&amp;lt;T&amp;gt; : IComparer&amp;lt;T&amp;gt;\r{\r// The compare method\rprivate readonly Func&amp;lt;T, T, int&amp;gt; _compareMethod = null;\r/// &amp;lt;summary&amp;gt;\r/// The constructor.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "unknown",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "discussionUrl": "https://www.davidhaney.io/generic-comparer/",
+  "sameAs": "https://www.davidhaney.io/generic-comparer/",
+  "dateCreated": "2022-04-11T13:24:24.156Z",
+  "datePublished": "2013-04-22T14:53:17.000Z",
+  "dateModified": "2022-04-11T13:24:24.156Z",
+  "interactionStatistic": [],
+  "headline_zh-Hans": "仿制药比较器",
+  "headline_zh-Hant": "仿製藥比較器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你是否曾经为一个特定的类型写过一个比较器，但当你需要为其他类型写第二个和第三个比较器时却感到很沮丧？不要害怕，一个通用的比较器可以为你解决这个问题!\n/// &amp;lt;summary&amp;gt;\n/// 比较任何类型的两个对象。\n/// &amp;lt;/summary&amp;gt;\n//// &amp;lt;typeparam name=&amp;quot;T&amp;quot;&amp;gt;要比较的类型。&amp;lt;/typeparam&amp;gt;\npublic class GenericComparer&amp;lt;T&amp;gt; : IComparer&amp;lt;T&amp;gt;\n{\n// 比较方法\nprivate readonly Func&amp;lt;T, T, int&amp;gt; _compareMethod = null;\n// &amp;lt;summary&amp;gt;\n///构造函数。",
+  "description_zh-Hant": "你是否曾經為一個特定的類型寫過一個比較器，但當你需要為其他類型寫第二個和第三個比較器時卻感到很沮喪？不要害怕，一個通用的比較器可以為你解決這個問題!\n/// &amp;lt;summary&amp;gt;\n/// 比較任何類型的兩個對象。\n/// &amp;lt;/summary&amp;gt;\n//// &amp;lt;typeparam name=&amp;quot;T&amp;quot;&amp;gt;要比較的類型。&amp;lt;/typeparam&amp;gt;\npublic class GenericComparer&amp;lt;T&amp;gt; : IComparer&amp;lt;T&amp;gt;\n{\n// 比較方法\nprivate readonly Func&amp;lt;T, T, int&amp;gt; _compareMethod = null;\n// &amp;lt;summary&amp;gt;\n///構造函數。"
+}
