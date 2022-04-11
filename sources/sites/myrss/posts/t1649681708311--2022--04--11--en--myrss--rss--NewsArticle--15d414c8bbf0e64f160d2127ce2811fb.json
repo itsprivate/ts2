@@ -1,0 +1,52 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--11--en--myrss--rss--NewsArticle--15d414c8bbf0e64f160d2127ce2811fb",
+  "url": "https://www.davidhaney.io/automatically-generate-pocos-from-db-with-t4/",
+  "headline": "Automatically Generate POCOs From DB With T4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "www.davidhaney.io",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "description": "The T4 template engine is insanely powerful. I didn’t really realize just how powerful it was until I had a use case for it today. I stood up a database with about 40 tables in it, and planned to use an ORM to access the database. To use the ORM, I needed POCOs (Plain Old C# Objects) that represented my database. Some of these tables had 30-50 or so columns and I didn’t want to code all of this by hand – it would take literally days.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "unknown",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "discussionUrl": "https://www.davidhaney.io/automatically-generate-pocos-from-db-with-t4/",
+  "sameAs": "https://www.davidhaney.io/automatically-generate-pocos-from-db-with-t4/",
+  "dateCreated": "2022-04-11T12:55:08.311Z",
+  "datePublished": "2013-10-16T21:35:51.000Z",
+  "dateModified": "2022-04-11T12:55:08.311Z",
+  "interactionStatistic": [],
+  "headline_zh-Hans": "用T4从数据库中自动生成POCOs",
+  "headline_zh-Hant": "用T4從數據庫中自動生成POCOs",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "T4的模板引擎是非常强大的。我并没有真正意识到它有多强大，直到今天我有了一个用例。我建立了一个有40个表的数据库，并计划使用一个ORM来访问该数据库。为了使用ORM，我需要POCOs（Plain Old C# Objects）来代表我的数据库。其中一些表有30-50个左右的列，我不想用手来编写所有的代码--这简直要花上好几天。",
+  "description_zh-Hant": "T4的模板引擎是非常強大的。我並沒有真正意識到它有多強大，直到今天我有了一個用例。我建立了一個有40個表的數據庫，並計劃使用一個ORM來訪問該數據庫。為了使用ORM，我需要POCOs（Plain Old C# Objects）來代表我的數據庫。其中一些表有30-50個左右的列，我不想用手來編寫所有的代碼--這簡直要花上好幾天。"
+}

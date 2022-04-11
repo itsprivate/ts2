@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--11--en--askhn--HackerNews--NewsArticle--30987764",
+  "url": "https://news.ycombinator.com/item?id=30987764",
+  "headline": "Ask HN: How to best design a hierarchy of user accounts, orgs and products",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Im currently exploring the design of an account and role based permissions system.<p>Im trying to look for and find standard patterns (if any) for structuring user accounts, organisations, sub organisations and products.<p>It would need to handle:\n1. Role based permissions\n2. Roll up billing<p>My initial thoughts are:\n1. A user account is unique but can be a member of 1 or more organisations.\n2. An organisation could have one or more sub organisations. \n3. An organisation (or sub organisation) would be subscribed to one or more products\n4. A the product level, the user would have role based permissions to provide access to certain features.<p>How would you best design something like this from a rule / hierarchy perspective?<p>Would you apply role based permissions at every level for the user?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ko3us",
+    "url": "https://news.ycombinator.com/user?id=ko3us"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30987764",
+  "sameAs": "https://news.ycombinator.com/item?id=30987764",
+  "dateCreated": "2022-04-11T12:54:48.900Z",
+  "datePublished": "2022-04-11T12:27:30.000Z",
+  "dateModified": "2022-04-11T12:54:48.900Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何最好地设计用户账户、组织和产品的层次结构",
+  "headline_zh-Hant": "Ask HN: 如何最好地設計用戶賬戶、組織和產品的層次結構",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我目前正在探索设计一个基于账户和角色的权限系统。<p>我试图寻找和找到标准模式（如果有的话）来构建用户账户、组织、子组织和产品。<p>它需要处理。\n1. 基于角色的权限\n2. 2.滚动计费<p>我的初步想法是。\n1. 一个用户账户是唯一的，但可以是1个或多个组织的成员。\n2. 一个组织可以有一个或多个子组织。\n3. 一个组织（或子组织）将订阅一个或多个产品。\n4. 在产品层面，用户将拥有基于角色的权限，以提供对某些功能的访问。<p>从规则/层次的角度来看，你如何最好地设计这样的东西？<p>你会在每个层面为用户应用基于角色的权限吗？",
+  "description_zh-Hant": "我目前正在探索設計一個基於賬戶和角色的權限系統。<p>我試圖尋找和找到標準模式（如果有的話）來構建用戶賬戶、組織、子組織和產品。<p>它需要處理。\n1. 基於角色的權限\n2. 2.滾動計費<p>我的初步想法是。\n1. 一個用戶賬戶是唯一的，但可以是1個或多個組織的成員。\n2. 一個組織可以有一個或多個子組織。\n3. 一個組織（或子組織）將訂閱一個或多個產品。\n4. 在產品層面，用戶將擁有基於角色的權限，以提供對某些功能的訪問。<p>從規則/層次的角度來看，你如何最好地設計這樣的東西？<p>你會在每個層面為用戶應用基於角色的權限嗎？"
+}
