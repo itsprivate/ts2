@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--12--en--myfeed--HackerNews--NewsArticle--31000043",
+  "url": "https://news.ycombinator.com/item?id=31000043",
+  "headline": "Machine learning models leak personal info if training data is compromised",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "belter",
+    "url": "https://news.ycombinator.com/user?id=belter"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31000043",
+  "sameAs": "https://www.theregister.com/2022/04/12/machine_learning_poisoning/",
+  "dateCreated": "2022-04-12T10:12:18.220Z",
+  "datePublished": "2022-04-12T08:33:34.000Z",
+  "dateModified": "2022-04-12T10:12:18.220Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "如果训练数据被破坏，机器学习模型会泄露个人信息",
+  "headline_zh-Hant": "如果訓練數據被破壞，機器學習模型會洩露個人信息",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
