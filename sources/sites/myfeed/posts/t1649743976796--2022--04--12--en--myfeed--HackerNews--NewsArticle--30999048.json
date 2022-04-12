@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--12--en--myfeed--HackerNews--NewsArticle--30999048",
+  "url": "https://news.ycombinator.com/item?id=30999048",
+  "headline": "Sungard files bankruptcy with $424M in secured debts, 2nd bankruptcy in 3 years",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "donsupreme",
+    "url": "https://news.ycombinator.com/user?id=donsupreme"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30999048",
+  "sameAs": "https://www.reuters.com/legal/transactional/tech-company-sungard-files-second-bankruptcy-three-years-2022-04-11/",
+  "dateCreated": "2022-04-12T06:12:56.796Z",
+  "datePublished": "2022-04-12T05:47:19.000Z",
+  "dateModified": "2022-04-12T06:12:56.796Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Sungard带着4.24亿美元的担保债务申请破产，这是3年内的第二次破产",
+  "headline_zh-Hant": "Sungard帶著4.24億美元的擔保債務申請破產，這是3年內的第二次破產",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

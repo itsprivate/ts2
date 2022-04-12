@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--12--en--myfeed--HackerNews--NewsArticle--30998648",
+  "url": "https://news.ycombinator.com/item?id=30998648",
+  "headline": "Truflation – The real inflation index you don't need to trust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Jerry2",
+    "url": "https://news.ycombinator.com/user?id=Jerry2"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30998648",
+  "sameAs": "https://truflation.com/",
+  "dateCreated": "2022-04-12T06:12:56.784Z",
+  "datePublished": "2022-04-12T04:31:47.000Z",
+  "dateModified": "2022-04-12T06:12:56.784Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Truflation - 你不需要相信的真实通货膨胀指数",
+  "headline_zh-Hant": "Truflation - 你不需要相信的真實通貨膨脹指數",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
