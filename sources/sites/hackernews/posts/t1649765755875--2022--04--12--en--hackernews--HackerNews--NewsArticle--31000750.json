@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--12--en--hackernews--HackerNews--NewsArticle--31000750",
+  "url": "https://news.ycombinator.com/item?id=31000750",
+  "headline": "Axios-Ipsos poll: Most Americans say Covid is no longer a crisis",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cwwc",
+    "url": "https://news.ycombinator.com/user?id=cwwc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31000750",
+  "sameAs": "https://www.axios.com/axios-ipsos-poll-most-americans-say-covid-is-no-longer-a-crisis-6604f7d2-a476-48eb-8e2d-9cb94c425159.html",
+  "dateCreated": "2022-04-12T12:15:55.875Z",
+  "datePublished": "2022-04-12T10:26:59.000Z",
+  "dateModified": "2022-04-12T12:15:55.875Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "Axios-Ipsos民意调查。大多数美国人说科维德不再是一个危机",
+  "headline_zh-Hant": "Axios-Ipsos民意調查。大多數美國人說科維德不再是一個危機",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
