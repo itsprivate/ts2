@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--12--en--askhn--HackerNews--NewsArticle--31007621",
+  "url": "https://news.ycombinator.com/item?id=31007621",
+  "headline": "Ask HN: YouTube Problems Today?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "The sidebar and account page can't be accessed, videos still seem to run fine.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "jstx1",
+    "url": "https://news.ycombinator.com/user?id=jstx1"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31007621",
+  "sameAs": "https://news.ycombinator.com/item?id=31007621",
+  "dateCreated": "2022-04-12T20:11:27.972Z",
+  "datePublished": "2022-04-12T20:04:13.000Z",
+  "dateModified": "2022-04-12T20:11:27.972Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 今天YouTube出现问题？",
+  "headline_zh-Hant": "Ask HN: 今天YouTube出現問題？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "侧边栏和账户页无法访问，视频似乎仍能正常运行。",
+  "description_zh-Hant": "側邊欄和賬戶頁無法訪問，視頻似乎仍能正常運行。"
+}
