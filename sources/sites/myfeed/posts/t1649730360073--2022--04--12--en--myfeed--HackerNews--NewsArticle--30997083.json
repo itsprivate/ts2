@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--12--en--myfeed--HackerNews--NewsArticle--30997083",
+  "url": "https://news.ycombinator.com/item?id=30997083",
+  "headline": "A Social Network for Challenges",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "alain_bianchini",
+    "url": "https://news.ycombinator.com/user?id=alain_bianchini"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30997083",
+  "sameAs": "https://blog.tulin.app/launching-tulin-d11591ae713",
+  "dateCreated": "2022-04-12T02:26:00.073Z",
+  "datePublished": "2022-04-12T00:30:37.000Z",
+  "dateModified": "2022-04-12T02:26:00.073Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "迎接挑战的社会网络",
+  "headline_zh-Hant": "迎接挑戰的社會網絡",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
