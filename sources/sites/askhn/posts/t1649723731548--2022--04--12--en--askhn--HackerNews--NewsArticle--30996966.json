@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--12--en--askhn--HackerNews--NewsArticle--30996966",
+  "url": "https://news.ycombinator.com/item?id=30996966",
+  "headline": "Ask HN: Ways to represent graph of nodes with text?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Some websites present a block of text for different tags or links that are popular, and each of these words have different font sizes, what is this called? It seems to me there aren't other compact ways to represent a graph in text mode. In 2D/3D graphs are represented with connected nodes, but when there are too many nodes the result is very cluttered. The most similar presentation in text mode is the directory tree, but it isn't compact, the list will grow vertically.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ffhhj",
+    "url": "https://news.ycombinator.com/user?id=ffhhj"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30996966",
+  "sameAs": "https://news.ycombinator.com/item?id=30996966",
+  "dateCreated": "2022-04-12T00:35:31.548Z",
+  "datePublished": "2022-04-12T00:17:15.000Z",
+  "dateModified": "2022-04-12T00:35:31.548Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何用文字来表示节点图？",
+  "headline_zh-Hant": "Ask HN: 如何用文字來表示節點圖？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "有些网站为不同的标签或流行的链接呈现一个文本块，每个字都有不同的字体大小，这叫什么？在我看来，在文本模式下，没有其他紧凑的方式来表示一个图形。在二维/三维图形中，用连接的节点来表示，但当节点过多时，其结果是非常杂乱的。文本模式中最类似的表现形式是目录树，但它并不紧凑，列表会垂直增长。",
+  "description_zh-Hant": "有些網站為不同的標籤或流行的鏈接呈現一個文本塊，每個字都有不同的字體大小，這叫什麼？在我看來，在文本模式下，沒有其他緊湊的方式來表示一個圖形。在二維/三維圖形中，用連接的節點來表示，但當節點過多時，其結果是非常雜亂的。文本模式中最類似的表現形式是目錄樹，但它並不緊湊，列表會垂直增長。"
+}
