@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--12--en--hackernews--HackerNews--NewsArticle--31000450",
+  "url": "https://news.ycombinator.com/item?id=31000450",
+  "headline": "We decided to move 90% of our workload from the cloud to on-prem infrastructure",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Protostome",
+    "url": "https://news.ycombinator.com/user?id=Protostome"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31000450",
+  "sameAs": "https://medium.com/enzymit-log/why-enzymit-decided-to-build-its-own-on-prem-hpc-infrastructure-bcaeff0105a7",
+  "dateCreated": "2022-04-12T10:35:29.342Z",
+  "datePublished": "2022-04-12T09:39:19.000Z",
+  "dateModified": "2022-04-12T10:35:29.342Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 15
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "我们决定将90%的工作负载从云端转移到内部基础设施上",
+  "headline_zh-Hant": "我們決定將90%的工作負載從雲端轉移到內部基礎設施上",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
