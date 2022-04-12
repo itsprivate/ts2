@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--12--en--showhn--HackerNews--NewsArticle--31004973",
+  "url": "https://news.ycombinator.com/item?id=31004973",
+  "headline": "Show HN: Add live runnable code to your dev docs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN community,<p>I'm Vasek, co-founder, and CEO of Devbook [0]. Devbook is an SDK that you add to your docs website and then every time a user visits your dev docs, we spin up a VM just for that user. The VM is ready in about 18-20 seconds. We haven't had enough time to work on optimization but from our early tests, we are fairly confident we can get this to about 1-2 seconds.<p>In the VM you can run almost anything. Install packages, edit &amp; save files, run binaries, services, etc.<p>You as a documentation owner have full control over the VM. We give you full access to filesystem, shell, stdout, and stderr. You don't have to worry about any infrastructure management. It's just one line of code on your frontend.<p>On the backend, the VM is a Firecracker microVM [1] with our custom simple orchestrator/scheduler built on top that just gets the job done. \nWe chose Firecracker for 4 reasons:<p>* (1) the security with a combination of their jailer<p>* (2) its snapshotting capabilities<p>* (3) quick booting times<p>* (4) option to oversubscribe the underlying server resources<p>This allows you to create a whole new set of interactions between your dev docs and a developer visiting the docs. \nWe've had users building coding playgrounds [2] to show how their SDK works or adding embedded terminals to a landing page [3] to show how their CLI works.<p>The way Devbook works is that you use our frontend SDK [4] on our website. The SDK pings our backend and we boot up a VM. The VMs are ephemeral and get destroyed after a while of not getting pinged.\nYou can predefine what the VM filesystem will look like through our CLI via a simple Dockerfile [5].\nWe also have an open sourced UI library for components like terminal, file system explorer, or code editor [6].<p>The need for Devbook came from our own frustration with dev docs. It has always felt strange that dev docs contain so much code but none of it is actually runnable. You as a developer have to set up full environments to see how the API works and get a deeper understanding.<p>We are very early so we don't offer self-serve for now. A bit of manual work is still required when we are onboarding new customers. \nWe are looking for some specific use-case that would make our go-to-market strategy much easier. It feels like the product we offer is way too general. We basically say &quot;here's a whole computer, have fun&quot;.<p>I'd love to know what you think about it. I'll hang out here and I'm happy to answer your questions!<p>[0] <a href=\"https://usedevbook.com/\" rel=\"nofollow\">https://usedevbook.com/</a><p>[1] <a href=\"https://github.com/firecracker-microvm/firecracker\" rel=\"nofollow\">https://github.com/firecracker-microvm/firecracker</a><p>[2] <a href=\"https://app.banana.dev/docs/carrot?ref=navmenu\" rel=\"nofollow\">https://app.banana.dev/docs/carrot?ref=navmenu</a><p>[3] <a href=\"https://runops.io/\" rel=\"nofollow\">https://runops.io/</a><p>[4] <a href=\"https://github.com/devbookhq/sdk\" rel=\"nofollow\">https://github.com/devbookhq/sdk</a><p>[5] <a href=\"https://github.com/devbookhq/devbookctl\" rel=\"nofollow\">https://github.com/devbookhq/devbookctl</a><p>[6] <a href=\"https://github.com/devbookhq/ui\" rel=\"nofollow\">https://github.com/devbookhq/ui</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mlejva",
+    "url": "https://news.ycombinator.com/user?id=mlejva"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31004973",
+  "sameAs": "https://www.usedevbook.com/",
+  "dateCreated": "2022-04-12T16:46:56.346Z",
+  "datePublished": "2022-04-12T16:38:06.000Z",
+  "dateModified": "2022-04-12T16:46:56.346Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 在你的开发文档中添加可运行的实时代码",
+  "headline_zh-Hant": "Show HN: 在你的開發文檔中添加可運行的實時代碼",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN社区，<p>我是Vasek，Devbook[0]的联合创始人和CEO。Devbook是一个SDK，你可以把它添加到你的文档网站上，然后每次有用户访问你的开发文档时，我们就为该用户启动一个虚拟机。这个虚拟机在18-20秒内就可以完成。我们还没有足够的时间进行优化，但从我们的早期测试来看，我们相当有信心可以把这个时间缩短到1-2秒。<p>在虚拟机中你几乎可以运行任何东西。安装包、编辑&amp；保存文件、运行二进制文件、服务等。<p>作为文档所有者，您可以完全控制虚拟机。我们给你对文件系统、shell、stdout 和 stderr 的完全访问权。你不必担心任何基础设施的管理。<p>在后端，虚拟机是一个Firecracker microVM [1]，上面有我们定制的简单协调器/调度器，只是为了完成工作。\n我们选择 Firecracker 有 4 个原因：<p>* (1) 与他们的 jailer 相结合的安全性<p>* (2) 其快照能力<p>* (3) 快速启动时间<p>* (4) 可选择超量订阅底层服务器资源<p>这允许你在开发文档和访问文档的开发者之间创建一套全新的互动。\n我们已经有用户建立了编码游乐场[2]，以展示他们的SDK是如何工作的，或者将嵌入式终端添加到登陆页面[3]，以展示他们的CLI是如何工作的。<p>Devbook的工作方式是，你在我们的网站上使用我们的前端SDK[4]。该SDK对我们的后端进行ping，然后我们启动一个虚拟机。这些虚拟机是短暂的，在一段时间没有被ping后会被销毁。\n你可以通过我们的CLI，通过一个简单的Docker文件[5]，预先定义虚拟机的文件系统是什么样子。\n我们还有一个开源的UI库，用于终端、文件系统资源管理器或代码编辑器等组件[6]。<p>对Devbook的需求来自我们自己对开发文档的挫败感。我们一直觉得很奇怪，开发文档中包含了这么多的代码，但其中没有一个是真正可以运行的。作为一个开发者，你必须建立完整的环境，以了解API是如何工作的，并获得更深入的理解。<p>我们是非常早期的，所以我们现在还没有提供自助服务。当我们接纳新客户时，仍然需要一些手工工作。\n我们正在寻找一些特定的使用案例，这将使我们的市场策略更加容易。感觉我们提供的产品太笼统了。我们基本上是说&quot;这里有一整台电脑，玩得开心&quot;。<p>我很想知道你的看法。I'll hang out here and I'm happy to answer your questions!<p>[0] <a href=\"https://usedevbook.com/\" rel=\"nofollow\">https://usedevbook.com/</a><p>[1] <a href=\"https://github.com/firecracker-microvm/firecracker\" rel=\"nofollow\">https://github.com/firecracker-microvm/firecracker</a><p>[2] <a href=\"https://app.banana.dev/docs/carrot?ref=navmenu\" rel=\"nofollow\">https://app.banana.dev/docs/carrot? ref=navmenu</a><p>[3] <a href=\"https://runops.io/\" rel=\"nofollow\">https://runops.io/</a><p>[4] <a href=\"https://github.com/devbookhq/sdk\" rel=\"nofollow\">https://github.com/devbookhq/sdk</a><p>[5] <a href=\"https://github.com/devbookhq/devbookctl\" rel=\"nofollow\">https://github.com/devbookhq/devbookctl</a><p>[6] <a href=\"https://github.com/devbookhq/ui\" rel=\"nofollow\">https://github.com/devbookhq/ui</a>",
+  "description_zh-Hant": "嗨，HN社區，<p>我是Vasek，Devbook[0]的聯合創始人和CEO。Devbook是一個SDK，你可以把它添加到你的文檔網站上，然後每次有用戶訪問你的開發文檔時，我們就為該用戶啟動一個虛擬機。這個虛擬機在18-20秒內就可以完成。我們還沒有足夠的時間進行優化，但從我們的早期測試來看，我們相當有信心可以把這個時間縮短到1-2秒。<p>在虛擬機中你幾乎可以運行任何東西。安裝包、編輯&amp；保存文件、運行二進制文件、服務等。<p>作為文檔所有者，您可以完全控制虛擬機。我們給你對文件系統、shell、stdout 和 stderr 的完全訪問權。你不必擔心任何基礎設施的管理。<p>在後端，虛擬機是一個Firecracker microVM [1]，上面有我們定製的簡單協調器/調度器，只是為了完成工作。\n我們選擇 Firecracker 有 4 個原因：<p>* (1) 與他們的 jailer 相結合的安全性<p>* (2) 其快照能力<p>* (3) 快速啟動時間<p>* (4) 可選擇超量訂閱底層服務器資源<p>這允許你在開發文檔和訪問文檔的開發者之間創建一套全新的互動。\n我們已經有用戶建立了編碼遊樂場[2]，以展示他們的SDK是如何工作的，或者將嵌入式終端添加到登陸頁面[3]，以展示他們的CLI是如何工作的。<p>Devbook的工作方式是，你在我們的網站上使用我們的前端SDK[4]。該SDK對我們的後端進行ping，然後我們啟動一個虛擬機。這些虛擬機是短暫的，在一段時間沒有被ping後會被銷燬。\n你可以通過我們的CLI，通過一個簡單的Docker文件[5]，預先定義虛擬機的文件系統是什麼樣子。\n我們還有一個開源的UI庫，用於終端、文件系統資源管理器或代碼編輯器等組件[6]。<p>對Devbook的需求來自我們自己對開發文檔的挫敗感。我們一直覺得很奇怪，開發文檔中包含了這麼多的代碼，但其中沒有一個是真正可以運行的。作為一個開發者，你必須建立完整的環境，以瞭解API是如何工作的，並獲得更深入的理解。<p>我們是非常早期的，所以我們現在還沒有提供自助服務。當我們接納新客戶時，仍然需要一些手工工作。\n我們正在尋找一些特定的使用案例，這將使我們的市場策略更加容易。感覺我們提供的產品太籠統了。我們基本上是說&quot;這裡有一整臺電腦，玩得開心&quot;。<p>我很想知道你的看法。I'll hang out here and I'm happy to answer your questions!<p>[0] <a href=\"https://usedevbook.com/\" rel=\"nofollow\">https://usedevbook.com/</a><p>[1] <a href=\"https://github.com/firecracker-microvm/firecracker\" rel=\"nofollow\">https://github.com/firecracker-microvm/firecracker</a><p>[2] <a href=\"https://app.banana.dev/docs/carrot?ref=navmenu\" rel=\"nofollow\">https://app.banana.dev/docs/carrot? ref=navmenu</a><p>[3] <a href=\"https://runops.io/\" rel=\"nofollow\">https://runops.io/</a><p>[4] <a href=\"https://github.com/devbookhq/sdk\" rel=\"nofollow\">https://github.com/devbookhq/sdk</a><p>[5] <a href=\"https://github.com/devbookhq/devbookctl\" rel=\"nofollow\">https://github.com/devbookhq/devbookctl</a><p>[6] <a href=\"https://github.com/devbookhq/ui\" rel=\"nofollow\">https://github.com/devbookhq/ui</a>"
+}
