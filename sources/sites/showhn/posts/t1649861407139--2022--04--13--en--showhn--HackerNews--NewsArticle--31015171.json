@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--showhn--HackerNews--NewsArticle--31015171",
+  "url": "https://news.ycombinator.com/item?id=31015171",
+  "headline": "Show HN: Usage, Cut your AWS Bill by 50%+ in 5 Minutes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN community,<p>I’m Kaveh, founder and CEO of Usage, and am excited to show you Usage, an app that helps you slash your AWS EC2 bill by 50% in ~5min by trading reservations. As of today, Usage is in General Availability and any AWS user can use it. It works by creating a limited-access IAM role (ReadOnly + Ability to Manage Reservations) into your AWS account(s).<p>The AWS console interface has made it hard for companies to optimize their AWS spend. After years of working for different companies that use AWS, I still find it difficult to understand how much money I’m spending on AWS. I don’t know who owns what instances, how our commitments are saving us money (RIs, SPs, EDPs), and what instances can be sized down (or switched to spot).<p>At Usage, we are building a web-based app that keeps you in charge of your AWS while minimizing your bill. No code change, no moving your AWS account or instances around, and no downtime. We’ve built:<p>1) Real-Time RI/SP Recommendations: See which instances are uncovered by your SPs and/or RIs and get them covered with a single button tap. Instant savings.<p>2) RI Sell Recommendations: RIs that are no longer utilized are highlighted and sold instantly. No more worrying about unutilized RIs and no more needing to forecast your compute needs.<p>3) Consolidated View: View your EC2 instances and RI/SPs across all your AWS accounts in a single space. No more switching between AWS accounts.<p>4) Teams and Audit Log: Add as many users as you’d like to your Usage dashboard, and see who approved which recommendations.<p>We built Usage in ReactJS, Python, Java– and along the way we built our own internal accounting system to keep track of customer savings. We have plans to eventually release an open-source version of Usage.<p>Our business model is 20% of the savings we find you. We only make money when we save you money. We bill monthly and have longer-term enterprise plans available.<p>We take privacy extremely seriously. Your data is always protected both at-rest and in-transit. Additionally, Usage never collects or stores sensitive information. Usage only collects meta-data such as CPU utilization, launch time, instance configuration, region, etc. You can read our full privacy policy here: www.usage.ai/policy/\nWe are confident we can deliver a better AWS cost savings experience that is meaningfully better than other tools. If you use AWS, please give it a shot at www.usage.ai and let us know.<p>Let me know what you think! Ask me anything!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "kavehkhorram",
+    "url": "https://news.ycombinator.com/user?id=kavehkhorram"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31015171",
+  "sameAs": "https://news.ycombinator.com/item?id=31015171",
+  "dateCreated": "2022-04-13T14:50:07.139Z",
+  "datePublished": "2022-04-13T14:38:09.000Z",
+  "dateModified": "2022-04-13T14:50:07.139Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 用法，在5分钟内将你的AWS账单减少50%以上",
+  "headline_zh-Hant": "Show HN: 用法，在5分鐘內將你的AWS賬單減少50%以上",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN社区，<p>我是Usage的创始人兼首席执行官Kaveh，我很高兴向你展示Usage，一个通过交易预订帮助你在5分钟内将AWS EC2账单削减50%的应用程序。从今天起，Usage处于普遍可用状态，任何AWS用户都可以使用它。它通过在你的AWS账户中创建一个有限访问的IAM角色（只读+管理预订的能力）来工作。<p>AWS控制台界面使公司很难优化他们的AWS支出。在为不同的使用AWS的公司工作多年后，我仍然觉得很难理解我在AWS上花了多少钱。我不知道谁拥有哪些实例，我们的承诺是如何为我们省钱的（RI、SP、EDP），以及哪些实例可以缩小规模（或切换到现货）。<p>在Usage，我们正在建立一个基于网络的应用程序，让你负责你的AWS，同时最大限度地减少你的账单。无需改变代码，无需移动您的AWS帐户或实例，也无需停机。我们已经建立：<p>1) 实时RI/SP建议。查看哪些实例未被您的SP和/或RI覆盖，只需点击一个按钮就能将其覆盖。<p>2) RI销售建议。不再使用的风险投资将被突出显示并立即出售。不再担心未使用的资源分配机构，也不再需要预测你的计算需求。在一个空间中查看您所有AWS账户的EC2实例和RI/SP。不再需要在AWS账户之间切换。<p>4）团队和审计日志。<p>我们在ReactJS、Python和Java中建立了Usage，并在此过程中建立了我们自己的内部会计系统来跟踪客户的储蓄。我们计划最终发布一个开源版本的Usage.<p>我们的商业模式是我们为您提供20%的储蓄。只有当我们为您省钱时，我们才会赚钱。我们按月计费，并提供长期的企业计划。<p>我们非常重视隐私。您的数据在静态和传输过程中都会受到保护。此外，使用方法从不收集或储存敏感信息。Usage只收集元数据，如CPU利用率、启动时间、实例配置、地区等。你可以在这里阅读我们的完整隐私政策：www.usage.ai/policy/\n我们相信，我们可以提供比其他工具更有意义的AWS成本节约体验。如果你使用AWS，请在www.usage.ai，并让我们知道。<p>让我知道你的想法! 问我任何问题!",
+  "description_zh-Hant": "嗨，HN社區，<p>我是Usage的創始人兼首席執行官Kaveh，我很高興向你展示Usage，一個通過交易預訂幫助你在5分鐘內將AWS EC2賬單削減50%的應用程序。從今天起，Usage處於普遍可用狀態，任何AWS用戶都可以使用它。它通過在你的AWS賬戶中創建一個有限訪問的IAM角色（只讀+管理預訂的能力）來工作。<p>AWS控制檯界面使公司很難優化他們的AWS支出。在為不同的使用AWS的公司工作多年後，我仍然覺得很難理解我在AWS上花了多少錢。我不知道誰擁有哪些實例，我們的承諾是如何為我們省錢的（RI、SP、EDP），以及哪些實例可以縮小規模（或切換到現貨）。<p>在Usage，我們正在建立一個基於網絡的應用程序，讓你負責你的AWS，同時最大限度地減少你的賬單。無需改變代碼，無需移動您的AWS帳戶或實例，也無需停機。我們已經建立：<p>1) 實時RI/SP建議。查看哪些實例未被您的SP和/或RI覆蓋，只需點擊一個按鈕就能將其覆蓋。<p>2) RI銷售建議。不再使用的風險投資將被突出顯示並立即出售。不再擔心未使用的資源分配機構，也不再需要預測你的計算需求。在一個空間中查看您所有AWS賬戶的EC2實例和RI/SP。不再需要在AWS賬戶之間切換。<p>4）團隊和審計日誌。<p>我們在ReactJS、Python和Java中建立了Usage，並在此過程中建立了我們自己的內部會計系統來跟蹤客戶的儲蓄。我們計劃最終發佈一個開源版本的Usage.<p>我們的商業模式是我們為您提供20%的儲蓄。只有當我們為您省錢時，我們才會賺錢。我們按月計費，並提供長期的企業計劃。<p>我們非常重視隱私。您的數據在靜態和傳輸過程中都會受到保護。此外，使用方法從不收集或儲存敏感信息。Usage只收集元數據，如CPU利用率、啟動時間、實例配置、地區等。你可以在這裡閱讀我們的完整隱私政策：www.usage.ai/policy/\n我們相信，我們可以提供比其他工具更有意義的AWS成本節約體驗。如果你使用AWS，請在www.usage.ai，並讓我們知道。<p>讓我知道你的想法! 問我任何問題!"
+}
