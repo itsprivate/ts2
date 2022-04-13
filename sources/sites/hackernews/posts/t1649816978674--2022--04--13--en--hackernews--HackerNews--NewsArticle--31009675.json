@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--hackernews--HackerNews--NewsArticle--31009675",
+  "url": "https://news.ycombinator.com/item?id=31009675",
+  "headline": "Git 2.30.3 will not operate in non-owned directories",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "delsarto",
+    "url": "https://news.ycombinator.com/user?id=delsarto"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31009675",
+  "sameAs": "https://github.com/git/git/commit/8959555cee7ec045958f9b6dd62e541affb7e7d9",
+  "dateCreated": "2022-04-13T02:29:38.674Z",
+  "datePublished": "2022-04-13T00:02:29.000Z",
+  "dateModified": "2022-04-13T02:29:38.674Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 57
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 17
+    }
+  ],
+  "headline_zh-Hans": "Git 2.30.3 不会在非自有目录下运行",
+  "headline_zh-Hant": "Git 2.30.3 不會在非自有目錄下運行",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

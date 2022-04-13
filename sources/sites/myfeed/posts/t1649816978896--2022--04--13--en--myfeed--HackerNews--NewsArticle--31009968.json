@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--myfeed--HackerNews--NewsArticle--31009968",
+  "url": "https://news.ycombinator.com/item?id=31009968",
+  "headline": "NYC Just Passed a Law Requiring Employers to Post Salary Ranges in Job Ads",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pmoriarty",
+    "url": "https://news.ycombinator.com/user?id=pmoriarty"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31009968",
+  "sameAs": "https://www.inc.com/melissa-angell/new-nyc-law-will-require-employers-to-post-salaries.html",
+  "dateCreated": "2022-04-13T02:29:38.896Z",
+  "datePublished": "2022-04-13T00:48:08.000Z",
+  "dateModified": "2022-04-13T02:29:38.896Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 16
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 6
+    }
+  ],
+  "headline_zh-Hans": "纽约市刚刚通过一项法律，要求雇主在招聘广告中公布薪资范围",
+  "headline_zh-Hant": "紐約市剛剛通過一項法律，要求僱主在招聘廣告中公佈薪資範圍",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
