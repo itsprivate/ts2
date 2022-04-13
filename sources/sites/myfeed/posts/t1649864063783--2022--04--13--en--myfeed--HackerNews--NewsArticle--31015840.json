@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--myfeed--HackerNews--NewsArticle--31015840",
+  "url": "https://news.ycombinator.com/item?id=31015840",
+  "headline": "Hetzner Cloud – Data loss incident",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Data loss incident (snapshots)<p>Dear Customer,\nUnfortunately, we have to inform you that there was a data loss incident that affects a small amount of your snapshots on Hetzner Cloud.\nAll snapshots you create are stored on our highly available storage systems. The snapshot contents are distributed over multiple internal servers and data is stored in a way that allows up to two separate disks to fail without impacting data integrity.\nThis means the snapshot can still be accessed, even if two disks fail at the same time.\nDue to a recent, very unfortunate series of events in one of our clusters, multiple disks failed in short succession and caused a small number of snapshots to become unavailable.\nWe immediately tried to recover the affected snapshots but unfortunately the data is lost and we have exhausted all our options.<p>Affected snapshots in your account:\nXXXXXXXXX<p>The snapshots have been removed from our system as they are no longer accessible.\nWe sincerely hope this doesn’t cause too much trouble for you; we know losing data is the worst-case scenario. Also, we have added 20€ as Cloud Credits to your account (valid for one year). While we know that this will not bring back your data, we still hope that you will accept the gesture.\nIn response to this we will re-evaluate our snapshot cluster data replication strategies as well as our strategies for replacing disks and rebuilding redundancy after replacement.<p>Best Regards,\nHetzner Cloud",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bratao",
+    "url": "https://news.ycombinator.com/user?id=bratao"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31015840",
+  "sameAs": "https://news.ycombinator.com/item?id=31015840",
+  "dateCreated": "2022-04-13T15:34:23.783Z",
+  "datePublished": "2022-04-13T15:29:35.000Z",
+  "dateModified": "2022-04-13T15:34:23.783Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Hetzner云 - 数据丢失事件",
+  "headline_zh-Hant": "Hetzner雲 - 數據丟失事件",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "数据丢失事件（快照）<p>亲爱的客户。\n很遗憾，我们不得不通知您，发生了一起数据丢失事件，影响了您在Hetzner Cloud上的少量快照。\n您创建的所有快照都存储在我们的高可用存储系统上。快照内容分布在多个内部服务器上，数据的存储方式允许最多两个独立的磁盘发生故障而不影响数据完整性。\n这意味着快照仍然可以被访问，即使两个磁盘同时发生故障。\n由于最近在我们的一个集群中发生了一系列非常不幸的事件，多个磁盘在短时间内连续发生故障，导致少量快照不可用。\n我们立即尝试恢复受影响的快照，但不幸的是，数据已经丢失，我们已经用尽了所有的选择。<p>您账户中受影响的快照。\nXXXXXXXXX<p>这些快照已经从我们的系统中删除，因为它们不再可以被访问。\n我们真诚地希望这不会给你带来太多麻烦；我们知道丢失数据是最糟糕的情况。此外，我们已经为你的账户增加了20欧元的云计算积分（有效期为一年）。虽然我们知道这不会使你的数据恢复，但我们仍然希望你能接受这个姿态。\n作为回应，我们将重新评估我们的快照集群数据复制策略，以及更换磁盘和更换后重建冗余的策略。<p>Best Regards,\nHetzner Cloud",
+  "description_zh-Hant": "數據丟失事件（快照）<p>親愛的客戶。\n很遺憾，我們不得不通知您，發生了一起數據丟失事件，影響了您在Hetzner Cloud上的少量快照。\n您創建的所有快照都存儲在我們的高可用存儲系統上。快照內容分佈在多個內部服務器上，數據的存儲方式允許最多兩個獨立的磁盤發生故障而不影響數據完整性。\n這意味著快照仍然可以被訪問，即使兩個磁盤同時發生故障。\n由於最近在我們的一個集群中發生了一系列非常不幸的事件，多個磁盤在短時間內連續發生故障，導致少量快照不可用。\n我們立即嘗試恢復受影響的快照，但不幸的是，數據已經丟失，我們已經用盡了所有的選擇。<p>您賬戶中受影響的快照。\nXXXXXXXXX<p>這些快照已經從我們的系統中刪除，因為它們不再可以被訪問。\n我們真誠地希望這不會給你帶來太多麻煩；我們知道丟失數據是最糟糕的情況。此外，我們已經為你的賬戶增加了20歐元的雲計算積分（有效期為一年）。雖然我們知道這不會使你的數據恢復，但我們仍然希望你能接受這個姿態。\n作為迴應，我們將重新評估我們的快照集群數據複製策略，以及更換磁盤和更換後重建冗餘的策略。<p>Best Regards,\nHetzner Cloud"
+}
