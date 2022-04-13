@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--myfeed--HackerNews--NewsArticle--31012476",
+  "url": "https://news.ycombinator.com/item?id=31012476",
+  "headline": "Apple certs used to sign provisioning profiles expired, affecting store uploads",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sdflhasjd",
+    "url": "https://news.ycombinator.com/user?id=sdflhasjd"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31012476",
+  "sameAs": "https://twitter.com/JI/status/1514043544897425408",
+  "dateCreated": "2022-04-13T09:10:52.540Z",
+  "datePublished": "2022-04-13T08:50:33.000Z",
+  "dateModified": "2022-04-13T09:10:52.540Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "用于签署供应配置文件的苹果证书过期，影响商店上传",
+  "headline_zh-Hant": "用於簽署供應配置文件的蘋果證書過期，影響商店上傳",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
