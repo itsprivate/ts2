@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--04--11--en--myfeed--HackerNews--NewsArticle--30987316",
-  "url": "https://news.ycombinator.com/item?id=30987316",
-  "headline": "Elon Musk not joining Twitters Board",
+  "identifier": "2022--04--13--en--showhn--HackerNews--NewsArticle--31012822",
+  "url": "https://news.ycombinator.com/item?id=31012822",
+  "headline": "Show HN: Connect to PostgreSQL Using Firebase SDK",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "atlasunshrugged",
-    "url": "https://news.ycombinator.com/user?id=atlasunshrugged"
+    "name": "mjay23",
+    "url": "https://news.ycombinator.com/user?id=mjay23"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30987316",
-  "sameAs": "https://www.axios.com/twitter-ceo-elon-musk-decided-not-to-join-board-db2b8839-8d83-458c-975e-b7a27c78c858.html",
-  "dateCreated": "2022-04-11T12:16:43.621Z",
-  "datePublished": "2022-04-11T11:38:00.000Z",
-  "dateModified": "2022-04-11T12:16:43.621Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31012822",
+  "sameAs": "https://github.com/ruslantalpa/postfire",
+  "dateCreated": "2022-04-13T10:11:45.722Z",
+  "datePublished": "2022-04-13T09:55:07.000Z",
+  "dateModified": "2022-04-13T10:11:45.722Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 3
+      "userInteractionCount": 2
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 1
+      "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "埃隆-马斯克不加入推特公司董事会",
-  "headline_zh-Hant": "埃隆-馬斯克不加入推特公司董事會",
+  "headline_zh-Hans": "Show HN: 使用Firebase SDK连接到PostgreSQL",
+  "headline_zh-Hant": "Show HN: 使用Firebase SDK連接到PostgreSQL",
   "@context": [
     "https://schema.org",
     {
