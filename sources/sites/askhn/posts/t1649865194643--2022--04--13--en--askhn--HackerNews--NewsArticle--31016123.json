@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--askhn--HackerNews--NewsArticle--31016123",
+  "url": "https://news.ycombinator.com/item?id=31016123",
+  "headline": "Ask HN: How to extract information from mutiple (unstructured text) documents?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I need to extract certain information from research publications, such as species, biomass, geographic location, and maybe related environmental data. Assume that I will convert PDF to text and, if necessary, do OCR. But here's the catch: other species with similar data can be quite close to my target species on the same page, paragraph, sentence, or in the same table. Moreover, indicator values can be quite close or the same (e. g., biomass B = 1.2 kg/m^2), as the species are from the same Genus. For example, Mytilus has 3 species (actually more) - Mytilus edulis, Mytilus trossulus, and Mytilus galloprovincialis.\nHow would an algorithm with no prior knowledge determine that a specific value relates to my target species rather than, say, the one adjacent to it in the same table or paragraph? I'm a human, and I know what to look for as I have prior knowledge, but I cannot process hundreds or thousands of articles as quickly as a machine can.\nDoes anyone have experience in using a tool that can correctly parse such information after appropriate setup? I am aware of:\n- HN search results (https://hn.algolia.com/?q=information+extraction)\n- Apache Tika (https://tika.apache.org/)\n- Apache OpenNLP (https://opennlp.apache.org/)\n- Apache UIMA (https://uima.apache.org/external-resources.html)\n- GATE (https://gate.ac.uk/)\nBut I am not sure if any of these can do the job, as I haven't used them. I also know that there are companies that have developed similar solutions (https://www.ontotext.com/knowledgehub/case-studies/ai-content-generation-in-scientific-communication/), possibly by using GraphDB.\nIn addition, what is the best data storage solution? In one case, you extract a table from the publication, whereas in another - a single data point. It's not worth the effort of creating a separate table for a single data point.\nWhat would be the right approach, software (library) and possible workflow and data storage solution in this case?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "gpa",
+    "url": "https://news.ycombinator.com/user?id=gpa"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31016123",
+  "sameAs": "https://news.ycombinator.com/item?id=31016123",
+  "dateCreated": "2022-04-13T15:53:14.643Z",
+  "datePublished": "2022-04-13T15:49:11.000Z",
+  "dateModified": "2022-04-13T15:53:14.643Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何从多个（非结构化文本）文件中提取信息？",
+  "headline_zh-Hant": "Ask HN: 如何從多個（非結構化文本）文件中提取信息？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我需要从研究出版物中提取某些信息，如物种、生物量、地理位置，也许还有相关的环境数据。假设我将PDF转换为文本，并在必要时做OCR。但问题来了：在同一页、同一段、同一句或同一张表中，具有类似数据的其他物种可能与我的目标物种相当接近。此外，指标值可以相当接近或相同（例如，生物量B = 1.2 kg/m^2），因为这些物种来自同一个属。例如，Mytilus有3个物种（实际上更多）--Mytilus edulis、Mytilus trossulus和Mytilus galloprovincialis。\n一个没有先验知识的算法如何确定一个特定的值与我的目标物种有关，而不是在同一个表格或段落中与之相邻的物种？我是一个人，我知道要找什么，因为我有先验知识，但是我不能像机器那样快速处理成百上千的文章。\n有谁有经验使用一个经过适当设置后能正确解析此类信息的工具？我知道。\n- HN搜索结果(https://hn.algolia.com/?q=information+extraction)\n- Apache Tika (https://tika.apache.org/)\n- Apache OpenNLP (https://opennlp.apache.org/)\n- Apache UIMA (https://uima.apache.org/external-resources.html)\n- GATE (https://gate.ac.uk/)\n但我不确定这些东西是否都能完成工作，因为我没有使用过它们。我也知道有一些公司已经开发了类似的解决方案（https://www.ontotext.com/knowledgehub/case-studies/ai-content-generation-in-scientific-communication/），可能是通过使用GraphDB。\n此外，什么是最好的数据存储方案？在一种情况下，你从出版物中提取一个表，而在另一种情况下--一个单一的数据点。为单个数据点创建一个单独的表是不值得的。\n在这种情况下，什么才是正确的方法、软件（库）和可能的工作流程和数据存储解决方案？",
+  "description_zh-Hant": "我需要從研究出版物中提取某些信息，如物種、生物量、地理位置，也許還有相關的環境數據。假設我將PDF轉換為文本，並在必要時做OCR。但問題來了：在同一頁、同一段、同一句或同一張表中，具有類似數據的其他物種可能與我的目標物種相當接近。此外，指標值可以相當接近或相同（例如，生物量B = 1.2 kg/m^2），因為這些物種來自同一個屬。例如，Mytilus有3個物種（實際上更多）--Mytilus edulis、Mytilus trossulus和Mytilus galloprovincialis。\n一個沒有先驗知識的算法如何確定一個特定的值與我的目標物種有關，而不是在同一個表格或段落中與之相鄰的物種？我是一個人，我知道要找什麼，因為我有先驗知識，但是我不能像機器那樣快速處理成百上千的文章。\n有誰有經驗使用一個經過適當設置後能正確解析此類信息的工具？我知道。\n- HN搜索結果(https://hn.algolia.com/?q=information+extraction)\n- Apache Tika (https://tika.apache.org/)\n- Apache OpenNLP (https://opennlp.apache.org/)\n- Apache UIMA (https://uima.apache.org/external-resources.html)\n- GATE (https://gate.ac.uk/)\n但我不確定這些東西是否都能完成工作，因為我沒有使用過它們。我也知道有一些公司已經開發了類似的解決方案（https://www.ontotext.com/knowledgehub/case-studies/ai-content-generation-in-scientific-communication/），可能是通過使用GraphDB。\n此外，什麼是最好的數據存儲方案？在一種情況下，你從出版物中提取一個表，而在另一種情況下--一個單一的數據點。為單個數據點創建一個單獨的表是不值得的。\n在這種情況下，什麼才是正確的方法、軟件（庫）和可能的工作流程和數據存儲解決方案？"
+}
