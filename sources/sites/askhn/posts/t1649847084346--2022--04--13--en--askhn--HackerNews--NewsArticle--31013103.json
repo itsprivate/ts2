@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--askhn--HackerNews--NewsArticle--31013103",
+  "url": "https://news.ycombinator.com/item?id=31013103",
+  "headline": "Ask HN: How to View the HTML Part of an Email?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I use Thunderbird. I have configured it so that it shows me the text part of the emails I get.<p>Unfortunately, every now and then the text part is so broken that I would like to render the HTML part.<p>But it seems like Thunderbird does not offer a way to do this for a single email.<p>Looking at the source code of such an email, there is no plain HTML but some gibberish with &quot;Content-Type: multipart/alternative;&quot; or &quot;Content-Transfer-Encoding: quoted-printable&quot;.<p>Any ideas how to go about this?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "TekMol",
+    "url": "https://news.ycombinator.com/user?id=TekMol"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31013103",
+  "sameAs": "https://news.ycombinator.com/item?id=31013103",
+  "dateCreated": "2022-04-13T10:51:24.346Z",
+  "datePublished": "2022-04-13T10:44:21.000Z",
+  "dateModified": "2022-04-13T10:51:24.346Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何查看电子邮件的HTML部分？",
+  "headline_zh-Hant": "Ask HN: 如何查看電子郵件的HTML部分？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我使用Thunderbird。<p>不幸的是，每隔一段时间，文本部分就会被破坏，以至于我想呈现出HTML部分。<p>但是，Thunderbird似乎没有提供一种方法来为单封邮件做这件事。 <p>查看此类邮件的源代码，没有纯HTML，而是一些带有&quot;Content-Type: multipart/alternative;&quot;或&quot;Content-Transfer-Encoding: quoted-printable&quot;的乱码。<p>有办法解决这个问题吗？",
+  "description_zh-Hant": "我使用Thunderbird。<p>不幸的是，每隔一段時間，文本部分就會被破壞，以至於我想呈現出HTML部分。<p>但是，Thunderbird似乎沒有提供一種方法來為單封郵件做這件事。 <p>查看此類郵件的源代碼，沒有純HTML，而是一些帶有&quot;Content-Type: multipart/alternative;&quot;或&quot;Content-Transfer-Encoding: quoted-printable&quot;的亂碼。<p>有辦法解決這個問題嗎？"
+}
