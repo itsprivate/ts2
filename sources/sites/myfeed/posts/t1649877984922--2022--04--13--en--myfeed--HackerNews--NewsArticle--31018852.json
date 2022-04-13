@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--myfeed--HackerNews--NewsArticle--31018852",
+  "url": "https://news.ycombinator.com/item?id=31018852",
+  "headline": "Slack Manages the Attention of 12 Mil Daily Users via Notifications",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "serverlessmom",
+    "url": "https://news.ycombinator.com/user?id=serverlessmom"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31018852",
+  "sameAs": "https://www.courier.com/blog/slack-notifications-flowchart-strategy/",
+  "dateCreated": "2022-04-13T19:26:24.922Z",
+  "datePublished": "2022-04-13T19:07:22.000Z",
+  "dateModified": "2022-04-13T19:26:24.922Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "Slack通过通知管理每天1千2百万用户的注意力",
+  "headline_zh-Hant": "Slack通過通知管理每天1千2百萬用戶的注意力",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
