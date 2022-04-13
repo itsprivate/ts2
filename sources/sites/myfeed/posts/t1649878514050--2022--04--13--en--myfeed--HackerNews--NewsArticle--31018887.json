@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--myfeed--HackerNews--NewsArticle--31018887",
+  "url": "https://news.ycombinator.com/item?id=31018887",
+  "headline": "Young and depressed? Try Woebot The rise of mental health chatbots in the US",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pseudolus",
+    "url": "https://news.ycombinator.com/user?id=pseudolus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31018887",
+  "sameAs": "https://www.theguardian.com/us-news/2022/apr/13/chatbots-robot-therapists-youth-mental-health-crisis",
+  "dateCreated": "2022-04-13T19:35:14.050Z",
+  "datePublished": "2022-04-13T19:11:01.000Z",
+  "dateModified": "2022-04-13T19:35:14.050Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "年轻而抑郁？试试Woebot 美国心理健康聊天机器人的崛起",
+  "headline_zh-Hant": "年輕而抑鬱？試試Woebot 美國心理健康聊天機器人的崛起",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
