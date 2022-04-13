@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--askhn--HackerNews--NewsArticle--31015972",
+  "url": "https://news.ycombinator.com/item?id=31015972",
+  "headline": "Ask HN: Which password is more secure?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "If I ask my password manager to generate a 20 character password with lowercase, uppercase, symbols, and numbers... it gives me a password like:<p>`nNqP4nnvMs!HCL@*z3cm`<p>In real world use-cases, is that a more secure password than:<p>`aaaaaaaaaaaaaaaaaaaa`<p>Theoretically speaking, does it have a lower entropy than the first password? How does the entropy calculation know that the 20 'a' characters weren't randomly generated from the same set of characters that generated the first password?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "_justinfunk",
+    "url": "https://news.ycombinator.com/user?id=_justinfunk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31015972",
+  "sameAs": "https://news.ycombinator.com/item?id=31015972",
+  "dateCreated": "2022-04-13T15:53:14.631Z",
+  "datePublished": "2022-04-13T15:38:16.000Z",
+  "dateModified": "2022-04-13T15:53:14.631Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 哪种密码更安全？",
+  "headline_zh-Hant": "Ask HN: 哪種密碼更安全？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "如果我要求我的密码管理器生成一个包含小写、大写、符号和数字的20个字符的密码......它给我的密码是：<p>`nNqP4nnvMs!HCL@*z3cm`<p>在现实世界的使用案例中，这是不是比：<p>`aaaaaaaaaaaa`<p>从理论上讲，它的熵比第一个密码低吗？熵计算如何知道这20个'a'字符不是从生成第一个密码的同一组字符中随机生成的？",
+  "description_zh-Hant": "如果我要求我的密碼管理器生成一個包含小寫、大寫、符號和數字的20個字符的密碼......它給我的密碼是：<p>`nNqP4nnvMs!HCL@*z3cm`<p>在現實世界的使用案例中，這是不是比：<p>`aaaaaaaaaaaa`<p>從理論上講，它的熵比第一個密碼低嗎？熵計算如何知道這20個'a'字符不是從生成第一個密碼的同一組字符中隨機生成的？"
+}
