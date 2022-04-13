@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--besthn--HackerNews--NewsArticle--31011083",
+  "url": "https://news.ycombinator.com/item?id=31011083",
+  "headline": "Wikipedia RFC to stop accepting cryptocurrencies passes by majority vote",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "SwimSwimHungry",
+    "url": "https://news.ycombinator.com/user?id=SwimSwimHungry"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31011083",
+  "sameAs": "https://meta.wikimedia.org/wiki/Requests_for_comment/Stop_accepting_cryptocurrency_donations",
+  "dateCreated": "2022-04-13T14:10:55.062Z",
+  "datePublished": "2022-04-13T03:58:51.000Z",
+  "dateModified": "2022-04-13T14:10:55.062Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 252
+    }
+  ],
+  "headline_zh-Hans": "维基百科停止接受加密货币的RFC以多数票通过",
+  "headline_zh-Hant": "維基百科停止接受加密貨幣的RFC以多數票通過",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
