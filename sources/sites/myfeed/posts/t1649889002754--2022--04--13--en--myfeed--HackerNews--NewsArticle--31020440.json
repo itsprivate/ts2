@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--myfeed--HackerNews--NewsArticle--31020440",
+  "url": "https://news.ycombinator.com/item?id=31020440",
+  "headline": "Tell HN: DoorDash Is Down",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "DoorDash is currently unable to show any order information on their iOS app, as well as at least some previous orders.<p>Users are unable to see their order status, where their order is, or communicate with their Dasher if something goes wrong (found this out the hard way)<p>If you're a DoorDash SRE, just a heads up.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cgb223",
+    "url": "https://news.ycombinator.com/user?id=cgb223"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31020440",
+  "sameAs": "https://news.ycombinator.com/item?id=31020440",
+  "dateCreated": "2022-04-13T22:30:02.754Z",
+  "datePublished": "2022-04-13T21:21:39.000Z",
+  "dateModified": "2022-04-13T22:30:02.754Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：DoorDash倒闭了",
+  "headline_zh-Hant": "告訴HN：DoorDash倒閉了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "<p>用户无法看到他们的订单状态，他们的订单在哪里，或者在出现问题时与他们的Dasher沟通（发现这个问题很困难）<p>如果你是DoorDash的SRE，只是提个醒。",
+  "description_zh-Hant": "<p>用戶無法看到他們的訂單狀態，他們的訂單在哪裡，或者在出現問題時與他們的Dasher溝通（發現這個問題很困難）<p>如果你是DoorDash的SRE，只是提個醒。"
+}
