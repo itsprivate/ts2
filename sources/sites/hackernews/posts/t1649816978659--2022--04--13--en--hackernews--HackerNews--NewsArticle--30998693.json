@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--hackernews--HackerNews--NewsArticle--30998693",
+  "url": "https://news.ycombinator.com/item?id=30998693",
+  "headline": "Shine: A super fast fixed-point MP3 encoder",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "poser-boy",
+    "url": "https://news.ycombinator.com/user?id=poser-boy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30998693",
+  "sameAs": "https://github.com/toots/shine",
+  "dateCreated": "2022-04-13T02:29:38.659Z",
+  "datePublished": "2022-04-12T04:40:38.000Z",
+  "dateModified": "2022-04-13T02:29:38.659Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 24
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Shine: 一个超快的定点MP3编码器",
+  "headline_zh-Hant": "Shine: 一個超快的定點MP3編碼器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
