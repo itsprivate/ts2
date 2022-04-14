@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--14--en--askhn--HackerNews--NewsArticle--31027933",
+  "url": "https://news.ycombinator.com/item?id=31027933",
+  "headline": "Ask HN: Tools for exploratory analysis of 10-100GB graphs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've never had to work with any dataset bigger than L3 cache, so I'm somewhat out of my depth here. \nI have a sample of the (relational) data that's about 10GB, with another 80GB available that may or may not be mostly garbage.<p>In the end I would like to have the graph in a visual interface to zoom and pan through it, and a way to experiment with different clustering algorithms based on some proximity measure (I have an idea for what those might look like).<p>I'm not a data scientist so I have no overview of the tooling landscape here and find it difficult to filter through endless pages of marketing for vaguely ML/Big Data related products. I'm not looking for an expensive ready-made solution, I do like to hack on things after all :)",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "craggyjaggy",
+    "url": "https://news.ycombinator.com/user?id=craggyjaggy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31027933",
+  "sameAs": "https://news.ycombinator.com/item?id=31027933",
+  "dateCreated": "2022-04-14T15:11:04.417Z",
+  "datePublished": "2022-04-14T15:07:36.000Z",
+  "dateModified": "2022-04-14T15:11:04.417Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 用于探索性分析10-100GB图表的工具",
+  "headline_zh-Hant": "Ask HN: 用於探索性分析10-100GB圖表的工具",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我从来没有接触过比L3缓存更大的数据集，所以我在这里有些力不从心。\n我有一个大约10GB的（关系型）数据样本，还有一个80GB的可用数据，可能是垃圾，也可能不是。<p>最后，我希望能在一个可视化界面中获得图表，以便对其进行缩放和平移，并能根据一些接近度的测量方法来试验不同的聚类算法（我对这些算法有一个想法）。 <p>我不是一个数据科学家，所以我对这里的工具环境并不了解，而且我发现很难从无尽的ML/大数据相关产品的营销页面中进行过滤。我不是在寻找一个昂贵的现成的解决方案，毕竟我喜欢黑客的东西:)",
+  "description_zh-Hant": "我從來沒有接觸過比L3緩存更大的數據集，所以我在這裡有些力不從心。\n我有一個大約10GB的（關係型）數據樣本，還有一個80GB的可用數據，可能是垃圾，也可能不是。<p>最後，我希望能在一個可視化界面中獲得圖表，以便對其進行縮放和平移，並能根據一些接近度的測量方法來試驗不同的聚類算法（我對這些算法有一個想法）。 <p>我不是一個數據科學家，所以我對這裡的工具環境並不瞭解，而且我發現很難從無盡的ML/大數據相關產品的營銷頁面中進行過濾。我不是在尋找一個昂貴的現成的解決方案，畢竟我喜歡黑客的東西:)"
+}
