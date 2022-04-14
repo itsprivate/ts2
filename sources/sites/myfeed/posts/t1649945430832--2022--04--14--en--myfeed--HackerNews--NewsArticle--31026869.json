@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--14--en--myfeed--HackerNews--NewsArticle--31026869",
+  "url": "https://news.ycombinator.com/item?id=31026869",
+  "headline": "Bringing Steam to Chrome OS",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jsnell",
+    "url": "https://news.ycombinator.com/user?id=jsnell"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31026869",
+  "sameAs": "https://chromeos.dev/en/posts/bringing-steam-to-chromeos",
+  "dateCreated": "2022-04-14T14:10:30.832Z",
+  "datePublished": "2022-04-14T13:43:32.000Z",
+  "dateModified": "2022-04-14T14:10:30.832Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "将Steam带入Chrome OS",
+  "headline_zh-Hant": "將Steam帶入Chrome OS",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
