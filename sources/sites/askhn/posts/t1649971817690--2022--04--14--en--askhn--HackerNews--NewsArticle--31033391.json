@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--14--en--askhn--HackerNews--NewsArticle--31033391",
+  "url": "https://news.ycombinator.com/item?id=31033391",
+  "headline": "Ask HN: If you start a company today, what tech stack would you use?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Just curious to see the different answers. I find myself constantly thinking about what the best way to quickly build a good + scalable product from the get-go is. With things like Supabase, Firebase, AWS, Vercel, Netlify, Hasura, etc, I find it hard to make up my mind.<p>I'm currently defaulting to React + Next.js + Vercel for the FE, and Node.js + GraphQL + Dynamo + Lambda for the BE (All TypeScript).<p>I feel like there might be other stacks that people find better to quickly build stuff out, so just wanted to gauge that.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "aecorredor",
+    "url": "https://news.ycombinator.com/user?id=aecorredor"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31033391",
+  "sameAs": "https://news.ycombinator.com/item?id=31033391",
+  "dateCreated": "2022-04-14T21:30:17.690Z",
+  "datePublished": "2022-04-14T21:14:53.000Z",
+  "dateModified": "2022-04-14T21:30:17.690Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如果你今天开一家公司，你会使用什么技术栈？",
+  "headline_zh-Hant": "Ask HN: 如果你今天開一家公司，你會使用什麼技術棧？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "只是好奇地想看看不同的答案。我发现自己一直在思考，从一开始就快速建立一个好的+可扩展的产品的最佳方式是什么。像Supabase、Firebase、AWS、Vercel、Netlify、Hasura等，我觉得很难下定决心。<p>我目前默认FE采用React + Next.js + Vercel，BE采用Node.js + GraphQL + Dynamo + Lambda（全部采用TypeScript）。<p>我觉得可能有其他堆栈让人们觉得更适合快速构建东西，所以只是想评估一下。",
+  "description_zh-Hant": "只是好奇地想看看不同的答案。我發現自己一直在思考，從一開始就快速建立一個好的+可擴展的產品的最佳方式是什麼。像Supabase、Firebase、AWS、Vercel、Netlify、Hasura等，我覺得很難下定決心。<p>我目前默認FE採用React + Next.js + Vercel，BE採用Node.js + GraphQL + Dynamo + Lambda（全部採用TypeScript）。<p>我覺得可能有其他堆棧讓人們覺得更適合快速構建東西，所以只是想評估一下。"
+}
