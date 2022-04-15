@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--15--en--myfeed--HackerNews--NewsArticle--31036091",
+  "url": "https://news.ycombinator.com/item?id=31036091",
+  "headline": "Elon Musk Talks Twitter, Tesla and the Future at TED2022",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "memish",
+    "url": "https://news.ycombinator.com/user?id=memish"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31036091",
+  "sameAs": "https://www.youtube.com/watch?v=cdZZpaB2kDM",
+  "dateCreated": "2022-04-15T02:48:14.342Z",
+  "datePublished": "2022-04-15T02:33:06.000Z",
+  "dateModified": "2022-04-15T02:48:14.342Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "埃隆-马斯克在TED2022上谈Twitter、特斯拉和未来",
+  "headline_zh-Hant": "埃隆-馬斯克在TED2022上談Twitter、特斯拉和未來",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

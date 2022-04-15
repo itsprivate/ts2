@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--15--en--hackernews--HackerNews--NewsArticle--31012122",
+  "url": "https://news.ycombinator.com/item?id=31012122",
+  "headline": "Reading the Tea Leaves: Expert End-Users Explaining the Unexplainable",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "EvgeniyZh",
+    "url": "https://news.ycombinator.com/user?id=EvgeniyZh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31012122",
+  "sameAs": "https://thegradient.pub/reading-the-tea-leaves/",
+  "dateCreated": "2022-04-15T02:48:13.908Z",
+  "datePublished": "2022-04-13T07:43:07.000Z",
+  "dateModified": "2022-04-15T02:48:13.908Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "阅读茶叶。专家终端用户解释无法解释的事情",
+  "headline_zh-Hant": "閱讀茶葉。專家終端用戶解釋無法解釋的事情",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

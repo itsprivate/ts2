@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--15--en--askhn--HackerNews--NewsArticle--31035734",
+  "url": "https://news.ycombinator.com/item?id=31035734",
+  "headline": "Ask HN: Do people at Google not use Gmail? Why don't they improve it?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "for starters, why can't Google distinguish an actual attachment from some image someone has in their signature?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "mr-pink",
+    "url": "https://news.ycombinator.com/user?id=mr-pink"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31035734",
+  "sameAs": "https://news.ycombinator.com/item?id=31035734",
+  "dateCreated": "2022-04-15T02:48:11.378Z",
+  "datePublished": "2022-04-15T01:34:26.000Z",
+  "dateModified": "2022-04-15T02:48:11.378Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 6
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 谷歌的人不使用Gmail吗？他们为什么不改进它？",
+  "headline_zh-Hant": "Ask HN: 谷歌的人不使用Gmail嗎？他們為什麼不改進它？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "首先，为什么谷歌不能区分一个实际的附件和某人在其签名中的一些图片？",
+  "description_zh-Hant": "首先，為什麼谷歌不能區分一個實際的附件和某人在其簽名中的一些圖片？"
+}
