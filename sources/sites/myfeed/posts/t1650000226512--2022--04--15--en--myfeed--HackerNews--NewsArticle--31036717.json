@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--15--en--myfeed--HackerNews--NewsArticle--31036717",
+  "url": "https://news.ycombinator.com/item?id=31036717",
+  "headline": "Mortgage Rates Hit 5% for First Time Since 2011",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cjdrake",
+    "url": "https://news.ycombinator.com/user?id=cjdrake"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31036717",
+  "sameAs": "https://www.wsj.com/articles/mortgage-rates-hit-5-for-first-time-since-2011-11649943332",
+  "dateCreated": "2022-04-15T05:23:46.512Z",
+  "datePublished": "2022-04-15T04:58:09.000Z",
+  "dateModified": "2022-04-15T05:23:46.512Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "抵押贷款利率自2011年以来首次达到5%。",
+  "headline_zh-Hant": "抵押貸款利率自2011年以來首次達到5%。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
