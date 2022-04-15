@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--15--en--myfeed--HackerNews--NewsArticle--31035620",
+  "url": "https://news.ycombinator.com/item?id=31035620",
+  "headline": "Somatic mutation rates scale with lifespan across mammals [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jonbaer",
+    "url": "https://news.ycombinator.com/user?id=jonbaer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31035620",
+  "sameAs": "https://www.nature.com/articles/s41586-022-04618-z.pdf",
+  "dateCreated": "2022-04-15T02:48:14.271Z",
+  "datePublished": "2022-04-15T01:14:26.000Z",
+  "dateModified": "2022-04-15T02:48:14.271Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "哺乳动物的体细胞突变率与寿命成正比 [pdf]",
+  "headline_zh-Hant": "哺乳動物的體細胞突變率與壽命成正比 [pdf]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

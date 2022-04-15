@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--15--en--myfeed--HackerNews--NewsArticle--31035435",
+  "url": "https://news.ycombinator.com/item?id=31035435",
+  "headline": "Asking GPT3 to draw ASCII images produces the same drawings frequently",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pwillia7",
+    "url": "https://news.ycombinator.com/user?id=pwillia7"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31035435",
+  "sameAs": "https://old.reddit.com/r/GPT3/comments/u3v205/asking_gpt3_to_draw_ascii_images_produces_the/",
+  "dateCreated": "2022-04-15T02:48:14.243Z",
+  "datePublished": "2022-04-15T00:49:27.000Z",
+  "dateModified": "2022-04-15T02:48:14.243Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "要求GPT3绘制ASCII图像，会经常产生相同的图画",
+  "headline_zh-Hant": "要求GPT3繪製ASCII圖像，會經常產生相同的圖畫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

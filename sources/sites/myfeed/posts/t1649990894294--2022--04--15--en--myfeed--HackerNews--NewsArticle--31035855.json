@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--15--en--myfeed--HackerNews--NewsArticle--31035855",
+  "url": "https://news.ycombinator.com/item?id=31035855",
+  "headline": "FortuneSheet – Rich-featured online spreadsheet library for React",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "zyc9012",
+    "url": "https://news.ycombinator.com/user?id=zyc9012"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31035855",
+  "sameAs": "https://github.com/ruilisi/fortune-sheet",
+  "dateCreated": "2022-04-15T02:48:14.294Z",
+  "datePublished": "2022-04-15T01:55:23.000Z",
+  "dateModified": "2022-04-15T02:48:14.294Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "FortuneSheet - 功能丰富的React在线电子表格库",
+  "headline_zh-Hant": "FortuneSheet - 功能豐富的React在線電子表格庫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
