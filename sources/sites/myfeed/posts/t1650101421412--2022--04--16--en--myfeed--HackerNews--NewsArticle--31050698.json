@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--16--en--myfeed--HackerNews--NewsArticle--31050698",
+  "url": "https://news.ycombinator.com/item?id=31050698",
+  "headline": "They Expected Luxury. They Got Leaky Ceilings and Broken Elevators",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "woodruffw",
+    "url": "https://news.ycombinator.com/user?id=woodruffw"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31050698",
+  "sameAs": "https://www.nytimes.com/2022/04/15/realestate/condo-defects-new-development.html",
+  "dateCreated": "2022-04-16T09:30:21.412Z",
+  "datePublished": "2022-04-16T08:31:30.000Z",
+  "dateModified": "2022-04-16T09:30:21.412Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "他们期待着奢华。他们得到了漏水的天花板和破损的电梯",
+  "headline_zh-Hant": "他們期待著奢華。他們得到了漏水的天花板和破損的電梯",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
