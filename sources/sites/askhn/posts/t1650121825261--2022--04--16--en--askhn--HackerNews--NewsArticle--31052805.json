@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--16--en--askhn--HackerNews--NewsArticle--31052805",
+  "url": "https://news.ycombinator.com/item?id=31052805",
+  "headline": "Ask HN: Agents for Password Protected Age Keys?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Has anyone written an agent for password protected Age secret keys? Something like ssh-agent or gpg-agent? I've thought of writing one (or experimenting with existing agents), but wanted to ask HN first.<p>If you have written (or used existing agent software) with Age keys, would you please share your experiences here?<p>Thanks",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "_wldu",
+    "url": "https://news.ycombinator.com/user?id=_wldu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31052805",
+  "sameAs": "https://news.ycombinator.com/item?id=31052805",
+  "dateCreated": "2022-04-16T15:10:25.261Z",
+  "datePublished": "2022-04-16T14:56:08.000Z",
+  "dateModified": "2022-04-16T15:10:25.261Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 受密码保护的年龄密钥的代理？",
+  "headline_zh-Hant": "Ask HN: 受密碼保護的年齡密鑰的代理？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "有谁为受密码保护的Age秘钥写过代理？像 ssh-agent 或 gpg-agent 那样的？我想过要写一个（或用现有的代理进行实验），但想先问问HN。<p>如果你写过（或用过现有的代理软件）Age密钥，请你在这里分享你的经验？",
+  "description_zh-Hant": "有誰為受密碼保護的Age秘鑰寫過代理？像 ssh-agent 或 gpg-agent 那樣的？我想過要寫一個（或用現有的代理進行實驗），但想先問問HN。<p>如果你寫過（或用過現有的代理軟件）Age密鑰，請你在這裡分享你的經驗？"
+}
