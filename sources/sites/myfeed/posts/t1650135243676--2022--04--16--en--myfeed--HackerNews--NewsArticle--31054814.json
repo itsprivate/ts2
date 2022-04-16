@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--16--en--myfeed--HackerNews--NewsArticle--31054814",
+  "url": "https://news.ycombinator.com/item?id=31054814",
+  "headline": "Heroku: Compromised OAuth Tokens for GitHub",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Just got an email and link to this update from status.heroku.com. Sounds pretty dodgy. In effect, it means I'm unable to link up a new GitHub repo to Heroku and might not be able to do any updates either. Not to mention the possible security vulnerability (luckily I only use Heroku for side projects).<p>------------<p>To mitigate impact from potentially compromised OAuth tokens, we will revoke over the next several hours all existing tokens from the Heroku GitHub integration. We are also preventing new OAuth tokens from being created until further notice. Your GitHub repositories will not be affected in any way by this action.<p>Currently running Heroku applications will not be affected, but this will prevent you from deploying your apps from GitHub through the dashboard or via automation. Some other actions in the dashboard will no longer work due to this mitigation, and you will be unable to reconnect to GitHub even though you may see warning banners about reconnecting.\nAs a temporary workaround, you can use one of the other code deployment methods available in the following documentation:",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kdazzle",
+    "url": "https://news.ycombinator.com/user?id=kdazzle"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31054814",
+  "sameAs": "https://news.ycombinator.com/item?id=31054814",
+  "dateCreated": "2022-04-16T18:54:03.676Z",
+  "datePublished": "2022-04-16T18:32:19.000Z",
+  "dateModified": "2022-04-16T18:54:03.676Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Heroku: GitHub的OAuth令牌遭到破坏",
+  "headline_zh-Hant": "Heroku: GitHub的OAuth令牌遭到破壞",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "刚刚从status.heroku.com收到一封邮件和这个更新的链接。听起来很不靠谱。实际上，这意味着我无法将一个新的GitHub repo链接到Heroku，也可能无法进行任何更新。更不用说可能存在的安全漏洞了（幸运的是，我只用Heroku做辅助项目）。<p>------------<p>为了减轻可能被破坏的OAuth令牌的影响，我们将在接下来的几个小时内撤销Heroku GitHub集成的所有现有令牌。在进一步通知之前，我们也会阻止新的OAuth令牌的创建。您的GitHub仓库不会受到任何影响。<p>目前正在运行的Heroku应用程序不会受到影响，但这将使您无法通过仪表板或自动化从GitHub部署您的应用程序。仪表盘中的其他一些操作将因这一缓解措施而不再起作用，而且你将无法重新连接到GitHub，尽管你可能会看到关于重新连接的警告标语。\n作为一个临时的解决方法，你可以使用以下文档中的其他代码部署方法之一。",
+  "description_zh-Hant": "剛剛從status.heroku.com收到一封郵件和這個更新的鏈接。聽起來很不靠譜。實際上，這意味著我無法將一個新的GitHub repo鏈接到Heroku，也可能無法進行任何更新。更不用說可能存在的安全漏洞了（幸運的是，我只用Heroku做輔助項目）。<p>------------<p>為了減輕可能被破壞的OAuth令牌的影響，我們將在接下來的幾個小時內撤銷Heroku GitHub集成的所有現有令牌。在進一步通知之前，我們也會阻止新的OAuth令牌的創建。您的GitHub倉庫不會受到任何影響。<p>目前正在運行的Heroku應用程序不會受到影響，但這將使您無法通過儀表板或自動化從GitHub部署您的應用程序。儀表盤中的其他一些操作將因這一緩解措施而不再起作用，而且你將無法重新連接到GitHub，儘管你可能會看到關於重新連接的警告標語。\n作為一個臨時的解決方法，你可以使用以下文檔中的其他代碼部署方法之一。"
+}

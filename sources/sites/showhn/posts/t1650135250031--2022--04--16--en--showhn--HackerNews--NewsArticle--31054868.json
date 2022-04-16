@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--16--en--showhn--HackerNews--NewsArticle--31054868",
+  "url": "https://news.ycombinator.com/item?id=31054868",
+  "headline": "Show HN: Dynamic Debug Logging",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I made a proof of concept using Docker Compose showing dynamic debug logging in the cloud using a structured logging framework.  The PoC uses script and JSONPath to evaluate the input structured data to determine criteria for logging:<p>https://github.com/tersesystems/dynamic-debug-logging<p>I have examples of more dynamic logging stuff:<p>https://github.com/tersesystems/echopraxia-examples<p>There's a couple of other instance of dynamic logging, but it does not seem to be very well known.  For example the Linux kernel:<p>https://www.kernel.org/doc/html/v4.11/admin-guide/dynamic-debug-howto.html<p>and Pixie, using Go and eBPF:<p>https://docs.pixielabs.ai/tutorials/custom-data/dynamic-go-logging/",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "wsargent",
+    "url": "https://news.ycombinator.com/user?id=wsargent"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31054868",
+  "sameAs": "https://news.ycombinator.com/item?id=31054868",
+  "dateCreated": "2022-04-16T18:54:10.031Z",
+  "datePublished": "2022-04-16T18:38:31.000Z",
+  "dateModified": "2022-04-16T18:54:10.031Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 动态调试日志",
+  "headline_zh-Hant": "Show HN: 動態調試日誌",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我使用Docker Compose做了一个概念验证，展示了在云端使用结构化日志框架的动态调试日志。 该PoC使用脚本和JSONPath来评估输入的结构化数据，以确定日志的标准：<p>https://github.com/tersesystems/dynamic-debug-logging<p>我有更多的动态日志东西的例子：<p>https://github.com/tersesystems/echopraxia-examples<p>还有其他几个动态日志的例子，但它似乎不是很有名。 例如，Linux内核：<p>https://www.kernel.org/doc/html/v4.11/admin-guide/dynamic-debug-howto.html<p>和Pixie，使用Go和eBPF：<p>https://docs.pixielabs.ai/tutorials/custom-data/dynamic-go-logging/",
+  "description_zh-Hant": "我使用Docker Compose做了一個概念驗證，展示了在雲端使用結構化日誌框架的動態調試日誌。 該PoC使用腳本和JSONPath來評估輸入的結構化數據，以確定日誌的標準：<p>https://github.com/tersesystems/dynamic-debug-logging<p>我有更多的動態日誌東西的例子：<p>https://github.com/tersesystems/echopraxia-examples<p>還有其他幾個動態日誌的例子，但它似乎不是很有名。 例如，Linux內核：<p>https://www.kernel.org/doc/html/v4.11/admin-guide/dynamic-debug-howto.html<p>和Pixie，使用Go和eBPF：<p>https://docs.pixielabs.ai/tutorials/custom-data/dynamic-go-logging/"
+}
