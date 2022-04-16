@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--16--en--hackernews--HackerNews--NewsArticle--31047082",
+  "url": "https://news.ycombinator.com/item?id=31047082",
+  "headline": "XHTTP: An HTTP server library in a single C file",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cozis",
+    "url": "https://news.ycombinator.com/user?id=cozis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31047082",
+  "sameAs": "https://github.com/cozis/xHTTP",
+  "dateCreated": "2022-04-16T02:15:16.711Z",
+  "datePublished": "2022-04-15T23:11:48.000Z",
+  "dateModified": "2022-04-16T02:15:16.711Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "XHTTP：一个单一的C文件中的HTTP服务器库",
+  "headline_zh-Hant": "XHTTP：一個單一的C文件中的HTTP服務器庫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
