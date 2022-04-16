@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--16--en--hackernews--HackerNews--NewsArticle--31012219",
+  "url": "https://news.ycombinator.com/item?id=31012219",
+  "headline": "How to balance between delete compliance and backups",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "[ Inspired by Atlassians outage ( https://www.atlassian.com/engineering/april-2022-outage-update ) ]<p>Dear HN,<p>What are the industry best practices for data deletion? Compliance rules stipulate that data can be permanently deleted when necessary, but backup policies stipulate that data can be restored if needed.<p>In this case, Atlassian ran what they called the &quot;permanently delete&quot; capability that is required to permanently remove data when required for compliance reasons. They quickly learned that they deleted the wrong data, and started the process of restoring it from their backups.<p>How do various regulators view this? A layman interpretation says that the data was not permanently deleted, because it was still in the backups. How to balance the two requirements?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nikanj",
+    "url": "https://news.ycombinator.com/user?id=nikanj"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31012219",
+  "sameAs": "https://news.ycombinator.com/item?id=31012219",
+  "dateCreated": "2022-04-16T00:38:35.530Z",
+  "datePublished": "2022-04-13T08:03:21.000Z",
+  "dateModified": "2022-04-16T00:38:35.530Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 15
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "如何在删除合规性和备份之间取得平衡",
+  "headline_zh-Hant": "如何在刪除合規性和備份之間取得平衡",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "[Inspired by Atlassians outage ( https://www.atlassian.com/engineering/april-2022-outage-update ) ]<p>亲爱的HN，<p>数据删除的行业最佳实践是什么？<p>在这种情况下，Atlassian运行了他们所谓的&quot;永久删除&quot;功能，在因合规原因需要时，需要永久地删除数据。他们很快就知道他们删除了错误的数据，并开始了从备份中恢复数据的过程。<p>各监管机构如何看待这个问题？一个外行人的解释是，数据没有被永久删除，因为它还在备份中。如何平衡这两个要求？",
+  "description_zh-Hant": "[Inspired by Atlassians outage ( https://www.atlassian.com/engineering/april-2022-outage-update ) ]<p>親愛的HN，<p>數據刪除的行業最佳實踐是什麼？<p>在這種情況下，Atlassian運行了他們所謂的&quot;永久刪除&quot;功能，在因合規原因需要時，需要永久地刪除數據。他們很快就知道他們刪除了錯誤的數據，並開始了從備份中恢復數據的過程。<p>各監管機構如何看待這個問題？一個外行人的解釋是，數據沒有被永久刪除，因為它還在備份中。如何平衡這兩個要求？"
+}
