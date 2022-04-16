@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--16--en--askhn--HackerNews--NewsArticle--31053987",
+  "url": "https://news.ycombinator.com/item?id=31053987",
+  "headline": "Ask HN: Is this normal? Long-form transformer take home",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Mostly an ML/NLP engineer, and been interviewing a lot lately, and therefore have been doing a lot of NLP take home tests lately, some more complex than others. Certainly prefer it over any LeetCode tests, though some of these take homes are so complex, they verge on pro bono work and I often feel I should be compensated.<p>One organization recently gave me a take home with the following demands:<p>--<p>Here are 150k long-form (6000+ words) documents, and a list of labels.<p>Please use a recent transformer model as the vectorization/representation layer to train a multilabel classifier on this data set.<p>You can use CoLab and their free GPU tier, but we won't pay for any GPU/TPU time.<p>Also, please compare this solution to other algorithms (linearSVM, XGBoost) and write 1000 words about the performance tradeoffs.<p>---<p>I'm not a deep learning expert, and I assumed that transformer models are basically limited to short form text with the exception of the Longformer and Big Bird architecture, and I was under the impression that those solutions were pretty memory intense. Other solutions are limited to only looking at the first 512 characters or so. And I'm not even sure CoLab's free tier can handle this.<p>Is this too much? Part of me is really excited to try this but another part of me is already imagining the compute time/space required to run this thing.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "bpiche",
+    "url": "https://news.ycombinator.com/user?id=bpiche"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31053987",
+  "sameAs": "https://news.ycombinator.com/item?id=31053987",
+  "dateCreated": "2022-04-16T17:20:15.021Z",
+  "datePublished": "2022-04-16T17:04:14.000Z",
+  "dateModified": "2022-04-16T17:20:15.021Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 这是否正常？长形变压器带回家",
+  "headline_zh-Hant": "Ask HN: 這是否正常？長形變壓器帶回家",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "主要是一个ML/NLP工程师，最近经常面试，因此最近做了很多NLP的家庭测试，有些比其他更复杂。当然，比起任何LeetCode测试，我更喜欢这些测试，尽管有些测试非常复杂，接近于公益工作，我经常觉得我应该得到补偿。<p>一个组织最近给了我一个测试，要求如下：<p>--<p>这里有150k长篇（6000字以上）文档，以及一个标签列表。<p>请使用最近的转化器模型作为矢量化/表示层，在这个数据集上训练一个多标签分类器。 <p>你可以使用CoLab和他们的免费GPU层，但我们不会为任何GPU/TPU时间付费。<p>另外，请将这个解决方案与其他算法（线性SVM、XGBoost）进行比较，并写1000字的性能权衡。<p>----<p>我不是深度学习专家，我假设转化器模型基本上仅限于短文，只有Longformer和Big Bird架构除外，而且我的印象是这些解决方案的内存相当紧张。其他的解决方案只限于看前512个字符左右。而且我甚至不确定CoLab的免费层是否能处理这个问题。<p>这是不是太多？我的一部分真的很想试试这个，但我的另一部分已经在想象运行这个东西所需的计算时间/空间。",
+  "description_zh-Hant": "主要是一個ML/NLP工程師，最近經常面試，因此最近做了很多NLP的家庭測試，有些比其他更復雜。當然，比起任何LeetCode測試，我更喜歡這些測試，儘管有些測試非常複雜，接近於公益工作，我經常覺得我應該得到補償。<p>一個組織最近給了我一個測試，要求如下：<p>--<p>這裡有150k長篇（6000字以上）文檔，以及一個標籤列表。<p>請使用最近的轉化器模型作為矢量化/表示層，在這個數據集上訓練一個多標籤分類器。 <p>你可以使用CoLab和他們的免費GPU層，但我們不會為任何GPU/TPU時間付費。<p>另外，請將這個解決方案與其他算法（線性SVM、XGBoost）進行比較，並寫1000字的性能權衡。<p>----<p>我不是深度學習專家，我假設轉化器模型基本上僅限於短文，只有Longformer和Big Bird架構除外，而且我的印象是這些解決方案的內存相當緊張。其他的解決方案只限於看前512個字符左右。而且我甚至不確定CoLab的免費層是否能處理這個問題。<p>這是不是太多？我的一部分真的很想試試這個，但我的另一部分已經在想象運行這個東西所需的計算時間/空間。"
+}
