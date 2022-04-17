@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--17--en--myfeed--HackerNews--NewsArticle--31058486",
+  "url": "https://news.ycombinator.com/item?id=31058486",
+  "headline": "Gup – Update binaries installed by “go install”",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello, golang users!<p>gup command updates all binaries installed with &quot;go install&quot;. Binary updates are easier.\nhttps://github.com/nao1215/gup<p>gup uses goroutine for updates, it is faster than similar tools. I have completed the implementation of the required features. So I would like to hear from you all.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mimixbox",
+    "url": "https://news.ycombinator.com/user?id=mimixbox"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31058486",
+  "sameAs": "https://news.ycombinator.com/item?id=31058486",
+  "dateCreated": "2022-04-17T05:49:56.998Z",
+  "datePublished": "2022-04-17T04:24:39.000Z",
+  "dateModified": "2022-04-17T05:49:56.998Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Gup - 更新由 \"go install \"安装的二进制文件",
+  "headline_zh-Hant": "Gup - 更新由 \"go install \"安裝的二進制文件",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你好，golang用户！<p>gup命令更新所有用&quot;go install&quot;安装的二进制文件。二进制的更新更容易。\nhttps://github.com/nao1215/gup<p>gup使用goroutine进行更新，它比同类工具要快。我已经完成了所需功能的实现。所以我想听听大家的意见。",
+  "description_zh-Hant": "你好，golang用戶！<p>gup命令更新所有用&quot;go install&quot;安裝的二進制文件。二進制的更新更容易。\nhttps://github.com/nao1215/gup<p>gup使用goroutine進行更新，它比同類工具要快。我已經完成了所需功能的實現。所以我想聽聽大家的意見。"
+}
