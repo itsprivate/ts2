@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--18--en--myfeed--HackerNews--NewsArticle--31074647",
+  "url": "https://news.ycombinator.com/item?id=31074647",
+  "headline": "React State management made simple",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "GlassX<p>GlassX is a simple context based state management library for React and React Native. It provides simple hooks and classes to get you started right away. No need for initializing a context or any such thing. Just start writing and reading your state.<p>GlassX is based on Reactn by Charles Stover but is more tailored towards speed building from the ground up and polished with modern react. It has a ton of handy features with a minimal learning curve which makes it perfect for everyone.<p>https://github.com/mychidarko/glassx<p>Features\nNo boilerplate\nRight after installation, you can call GlassX.set to add items to your global state or use the useStore hook. No setup, no initializations.<p>Based on react context\nGlassX is based on context which makes it super fast and allows it to sit right in your app like a part of the react code itself.<p>TypeScript support\nGlassX is 100% written in TypeScript which gives it amazing support with most editors and allows you to create and extend types on top of it. You no longer need to stick to state management tools with sub-par type support.<p>Supports advanced features\nUnlike many other state management libraries out there, GlassX supports features like async reducers, hooks, plugins and modules which allow you to scope your state and reducers to particular portions of your app.<p>https://github.com/mychidarko/glassx",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mychi",
+    "url": "https://news.ycombinator.com/user?id=mychi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31074647",
+  "sameAs": "https://news.ycombinator.com/item?id=31074647",
+  "dateCreated": "2022-04-18T20:32:37.013Z",
+  "datePublished": "2022-04-18T18:33:44.000Z",
+  "dateModified": "2022-04-18T20:32:37.013Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "简单的React状态管理",
+  "headline_zh-Hant": "簡單的React狀態管理",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "GlassX<p>GlassX是一个简单的基于上下文的状态管理库，用于React和React Native。它提供了简单的钩子和类来让你立即开始。不需要初始化一个上下文或任何类似的东西。<p>GlassX基于Charles Stover的Reactn，但它更适合从头开始快速构建，并以现代的react为基础进行打磨。它有大量方便的功能，学习曲线最小，这使它非常适合每个人。<p>https://github.com/mychidarko/glassx<p>特点\n没有模板\n安装后，你可以调用GlassX.set将项目添加到你的全局状态或使用useStore挂钩。没有设置，没有初始化。<p>基于反应的上下文\nGlassX基于上下文，这使得它的速度超快，并允许它像反应代码本身的一部分一样直接位于你的应用程序中。\nGlassX是100%用TypeScript编写的，这使它在大多数编辑器中得到了惊人的支持，并允许你在它上面创建和扩展类型。你不再需要坚持使用对类型支持不足的状态管理工具。\n与其他许多状态管理库不同，GlassX支持异步减速器、钩子、插件和模块等功能，允许你将状态和减速器的范围扩大到应用程序的特定部分。<p>https://github.com/mychidarko/glassx",
+  "description_zh-Hant": "GlassX<p>GlassX是一個簡單的基於上下文的狀態管理庫，用於React和React Native。它提供了簡單的鉤子和類來讓你立即開始。不需要初始化一個上下文或任何類似的東西。<p>GlassX基於Charles Stover的Reactn，但它更適合從頭開始快速構建，並以現代的react為基礎進行打磨。它有大量方便的功能，學習曲線最小，這使它非常適合每個人。<p>https://github.com/mychidarko/glassx<p>特點\n沒有模板\n安裝後，你可以調用GlassX.set將項目添加到你的全局狀態或使用useStore掛鉤。沒有設置，沒有初始化。<p>基於反應的上下文\nGlassX基於上下文，這使得它的速度超快，並允許它像反應代碼本身的一部分一樣直接位於你的應用程序中。\nGlassX是100%用TypeScript編寫的，這使它在大多數編輯器中得到了驚人的支持，並允許你在它上面創建和擴展類型。你不再需要堅持使用對類型支持不足的狀態管理工具。\n與其他許多狀態管理庫不同，GlassX支持異步減速器、鉤子、插件和模塊等功能，允許你將狀態和減速器的範圍擴大到應用程序的特定部分。<p>https://github.com/mychidarko/glassx"
+}
