@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--18--en--askhn--HackerNews--NewsArticle--31076937",
+  "url": "https://news.ycombinator.com/item?id=31076937",
+  "headline": "Ask HN: How to Desktop Automate for Locked Down PC-HDMI Capture and Extra PC?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "My wife has ridiculous amount of manual tasks to do across a bunch of non integrated software every month.<p>Some of the software is out of date, there is 4 different apps/databases plus excel she needs to click through on to process a single payment, plus checking. She now has the tasked swollen to the point she has to do at least 300-400 every end of month and it is now taking many hours of her time. Mostly unpaid overtime...<p>So it is entirely able to be automated, except the PC is the most heavily locked down thing I have ever seen, you can't run portable apps, install browser extensions etc etc. Plus everything you try that is verboten sends a report back to HQ and after not many reports questions are asked.<p>Business is not interested in solving such problems, their answer is &quot;just spend an extra 20-30 hours a month riding the mouse&quot;. Well you can guess what I think of that.<p>So I think to automate this task with an external PC, HDMI capture card and maybe an Arduino or similar to generate mouse and keyboard commands, controlled by USB (serial) commands from the external automation PC.<p>Obviously with this method it is all shortcut keys and image matching for mouse co-ords to press, so Sikulux or some custom Python maybe.<p>Has anyone done this? I searched for quite a while and could not come up with any specific examples that anyone else had done anything similar.<p>I can't see why it would be a big problem ,other than setup time and some potential fragility, but payoffs would be big. I'm surprised not more people have not had similar problems, am I missing something?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "airbreather",
+    "url": "https://news.ycombinator.com/user?id=airbreather"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31076937",
+  "sameAs": "https://news.ycombinator.com/item?id=31076937",
+  "dateCreated": "2022-04-18T21:50:16.158Z",
+  "datePublished": "2022-04-18T21:39:08.000Z",
+  "dateModified": "2022-04-18T21:50:16.158Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何为被锁定的PC-HDMI捕获和额外的PC进行桌面自动化？",
+  "headline_zh-Hant": "Ask HN: 如何為被鎖定的PC-HDMI捕獲和額外的PC進行桌面自動化？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我的妻子每个月都要在一堆非集成软件中做大量的手工工作。<p>有些软件已经过时了，有4个不同的应用程序/数据库，加上excel，她需要点击来处理一笔付款，再加上检查。她现在的任务已经膨胀到每个月末至少要做300-400个，现在已经占用了她很多时间。大部分是无偿加班......<p>因此，它完全可以自动化，只是个人电脑是我见过的锁得最严的东西，你不能运行便携式应用程序，安装浏览器扩展等等等等。另外，你所尝试的一切被禁止的东西都会向总部发出报告，而且在没有多少报告之后，问题就会被提出来。<p>企业对解决这样的问题不感兴趣，他们的答案是&quot;只要每个月多花20-30个小时来操作鼠标&quot; 。<p>所以我想用一台外部PC、HDMI采集卡和一个Arduino或类似的设备来自动完成这项任务，生成鼠标和键盘命令，由外部自动化PC的USB（串行）命令控制。<p>显然，用这种方法，所有的快捷键和图像匹配的鼠标共线都要按，所以Sikulux或一些自定义的Python可能。我搜索了很久，也没有找到任何具体的例子来说明别人做过类似的事情。<p>除了设置时间和一些潜在的脆弱性，我看不出为什么会有很大的问题，但回报会很大。我很惊讶没有更多的人遇到类似的问题，难道我错过了什么？",
+  "description_zh-Hant": "我的妻子每個月都要在一堆非集成軟件中做大量的手工工作。<p>有些軟件已經過時了，有4個不同的應用程序/數據庫，加上excel，她需要點擊來處理一筆付款，再加上檢查。她現在的任務已經膨脹到每個月末至少要做300-400個，現在已經佔用了她很多時間。大部分是無償加班......<p>因此，它完全可以自動化，只是個人電腦是我見過的鎖得最嚴的東西，你不能運行便攜式應用程序，安裝瀏覽器擴展等等等等。另外，你所嘗試的一切被禁止的東西都會向總部發出報告，而且在沒有多少報告之後，問題就會被提出來。<p>企業對解決這樣的問題不感興趣，他們的答案是&quot;只要每個月多花20-30個小時來操作鼠標&quot; 。<p>所以我想用一臺外部PC、HDMI採集卡和一個Arduino或類似的設備來自動完成這項任務，生成鼠標和鍵盤命令，由外部自動化PC的USB（串行）命令控制。<p>顯然，用這種方法，所有的快捷鍵和圖像匹配的鼠標共線都要按，所以Sikulux或一些自定義的Python可能。我搜索了很久，也沒有找到任何具體的例子來說明別人做過類似的事情。<p>除了設置時間和一些潛在的脆弱性，我看不出為什麼會有很大的問題，但回報會很大。我很驚訝沒有更多的人遇到類似的問題，難道我錯過了什麼？"
+}
