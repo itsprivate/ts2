@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--18--en--besthn--HackerNews--NewsArticle--31066553",
+  "url": "https://news.ycombinator.com/item?id=31066553",
+  "headline": "‘Click to Cancel’ legislation introduced in Pennsylvania",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "barlo",
+    "url": "https://news.ycombinator.com/user?id=barlo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31066553",
+  "sameAs": "https://pahouse.com/InTheNews/NewsRelease/?id=124404",
+  "dateCreated": "2022-04-18T06:13:36.556Z",
+  "datePublished": "2022-04-18T02:10:31.000Z",
+  "dateModified": "2022-04-18T06:13:36.556Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 117
+    }
+  ],
+  "headline_zh-Hans": "宾夕法尼亚州推出 \"点击取消 \"立法",
+  "headline_zh-Hant": "賓夕法尼亞州推出 \"點擊取消 \"立法",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
