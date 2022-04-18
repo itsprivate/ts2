@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--18--en--myfeed--HackerNews--NewsArticle--31072790",
+  "url": "https://news.ycombinator.com/item?id=31072790",
+  "headline": "Google's Software Is Malware – GNU Project – Free Software Foundation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rolph",
+    "url": "https://news.ycombinator.com/user?id=rolph"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31072790",
+  "sameAs": "https://www.gnu.org/proprietary/malware-google.html",
+  "dateCreated": "2022-04-18T16:49:38.788Z",
+  "datePublished": "2022-04-18T16:21:43.000Z",
+  "dateModified": "2022-04-18T16:49:38.788Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "谷歌的软件是恶意软件 - GNU项目 - 自由软件基金会",
+  "headline_zh-Hant": "谷歌的軟件是惡意軟件 - GNU項目 - 自由軟件基金會",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
