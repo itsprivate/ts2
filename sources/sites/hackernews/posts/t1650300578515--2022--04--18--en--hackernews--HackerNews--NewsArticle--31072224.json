@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--18--en--hackernews--HackerNews--NewsArticle--31072224",
+  "url": "https://news.ycombinator.com/item?id=31072224",
+  "headline": "Google's Pathways Language Model and Chain-of-Thought",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vackosar",
+    "url": "https://news.ycombinator.com/user?id=vackosar"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31072224",
+  "sameAs": "https://vaclavkosar.com/ml/googles-pathways-language-model-and-chain-of-thought",
+  "dateCreated": "2022-04-18T16:49:38.515Z",
+  "datePublished": "2022-04-18T15:43:38.000Z",
+  "dateModified": "2022-04-18T16:49:38.515Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "谷歌的Pathways语言模型和思维链",
+  "headline_zh-Hant": "谷歌的Pathways語言模型和思維鏈",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

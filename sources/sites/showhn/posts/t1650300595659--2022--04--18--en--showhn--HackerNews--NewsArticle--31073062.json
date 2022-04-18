@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--18--en--showhn--HackerNews--NewsArticle--31073062",
+  "url": "https://news.ycombinator.com/item?id=31073062",
+  "headline": "Show HN: Automedia – a tool for managing bitrot and formats in media libraries",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mmastrac",
+    "url": "https://news.ycombinator.com/user?id=mmastrac"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31073062",
+  "sameAs": "https://github.com/mmastrac/automedia",
+  "dateCreated": "2022-04-18T16:49:55.659Z",
+  "datePublished": "2022-04-18T16:39:24.000Z",
+  "dateModified": "2022-04-18T16:49:55.659Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Automedia - 一个管理媒体库中的比特率和格式的工具",
+  "headline_zh-Hant": "Show HN: Automedia - 一個管理媒體庫中的比特率和格式的工具",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
