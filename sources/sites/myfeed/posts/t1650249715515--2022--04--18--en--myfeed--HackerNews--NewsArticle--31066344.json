@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--18--en--myfeed--HackerNews--NewsArticle--31066344",
+  "url": "https://news.ycombinator.com/item?id=31066344",
+  "headline": "My skin was irritated for years until I found out why because of lockdown",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "walterbell",
+    "url": "https://news.ycombinator.com/user?id=walterbell"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31066344",
+  "sameAs": "https://www.walesonline.co.uk/news/wales-news/skin-irritated-red-blotchy-years-23682100",
+  "dateCreated": "2022-04-18T02:41:55.515Z",
+  "datePublished": "2022-04-18T01:29:00.000Z",
+  "dateModified": "2022-04-18T02:41:55.515Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "我的皮肤被刺激了好几年，直到我找到了原因，因为禁闭了",
+  "headline_zh-Hant": "我的皮膚被刺激了好幾年，直到我找到了原因，因為禁閉了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
