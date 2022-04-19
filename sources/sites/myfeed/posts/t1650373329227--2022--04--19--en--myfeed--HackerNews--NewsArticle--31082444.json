@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--19--en--myfeed--HackerNews--NewsArticle--31082444",
+  "url": "https://news.ycombinator.com/item?id=31082444",
+  "headline": "Interesting example of how “JEP 374” affects performance",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "devjeonghwan",
+    "url": "https://news.ycombinator.com/user?id=devjeonghwan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31082444",
+  "sameAs": "https://github.com/realtimetech-solution/opack",
+  "dateCreated": "2022-04-19T13:02:09.227Z",
+  "datePublished": "2022-04-19T12:54:43.000Z",
+  "dateModified": "2022-04-19T13:02:09.227Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "关于 \"JEP374 \"如何影响性能的有趣的例子",
+  "headline_zh-Hant": "關於 \"JEP374 \"如何影響性能的有趣的例子",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
