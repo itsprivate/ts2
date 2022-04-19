@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--19--en--showhn--HackerNews--NewsArticle--31082676",
+  "url": "https://news.ycombinator.com/item?id=31082676",
+  "headline": "Show HN: JavaScript as a Database – Serverless Platform",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN!<p>I’d like to share with you my project: JSDB.<p>Two months ago I had this thought while reviewing a PR on a web application. What if I didn’t have to write code to communicate with my backend or database?<p>It would be fun to just use arrays and objects like you normally do in javascript and have things magically save.<p>That weekend I hacked together something that used proxies and classes to ‘magically’ send data to your backend when you assign or access properties in an object or array. Using the same API you already know.<p>This means you can save data like this: items[x] = {a:2,b:false} and read data like this: console.log(await items[x].a) or console.log(await items.find(o =&gt; o.a === 2))<p>While sharing it with some devs I started to get comments like this? “Wow that’s super simple. Is it secure?”<p>So I started building a platform around this idea. A platform that allows javascript developers to write full stack applications, with the least overhead possible and just writing javascript.<p>Security Rules are JS functions, files are simply assigned to an object property, triggers are JS functions etc. Everything is javascript! Check the docs: <a href=\"https://javascriptdb.com/docs\" rel=\"nofollow\">https://javascriptdb.com/docs</a><p>Why?<p>Because there are developers that can write code using arrays and objects but are not confident with backend code.<p>I would like to lower that barrier and empower every developer that knows JS to be full stack with the least effort possible.<p>For experienced developers, less boilerplate means less bugs and faster product cycles. I like to think that JSDB is positively influenced by this post from Rich Harris: <a href=\"https://svelte.dev/blog/write-less-code\" rel=\"nofollow\">https://svelte.dev/blog/write-less-code</a><p>Aren’t there other platforms that solve this problem?<p>Yes, there’s some great efforts. Supabase recently had a killer launch week and I have tons of respect for what they’ve accomplished.<p>JSDB targets the javascript lovers, the devs that rather just write javascript and would like to avoid sql if possible. By design it will only work on javascript codebases.<p>Is this production ready?<p>No! It’s still an MVP, designed to show the idea and where I’m going.\nThat's also why there are limited spots for the hosted preview alpha.<p>If this sounds interesting check this demo: <a href=\"https://youtu.be/xs30II7HNBQ\" rel=\"nofollow\">https://youtu.be/xs30II7HNBQ</a>\nDocs: <a href=\"https://javascriptdb.com/docs\" rel=\"nofollow\">https://javascriptdb.com/docs</a>\nWebsite: <a href=\"https://javascriptdb.com\" rel=\"nofollow\">https://javascriptdb.com</a>\nGithub: <a href=\"https://github.com/javascriptdb\" rel=\"nofollow\">https://github.com/javascriptdb</a><p>Looking forward to getting candid feedback :)",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jpcapdevila",
+    "url": "https://news.ycombinator.com/user?id=jpcapdevila"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31082676",
+  "sameAs": "https://javascriptdb.com",
+  "dateCreated": "2022-04-19T13:37:47.792Z",
+  "datePublished": "2022-04-19T13:17:51.000Z",
+  "dateModified": "2022-04-19T13:37:47.792Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 将JavaScript作为一个数据库--无服务器平台",
+  "headline_zh-Hant": "Show HN: 將JavaScript作為一個數據庫--無服務器平臺",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN！<p>我想与你分享我的项目。JSDB.<p>两个月前，我在审查一个网络应用的PR时有了这样的想法。<p>如果我不需要写代码来与我的后台或数据库通信，那会很有趣，就像你通常在javascript中做的那样，使用数组和对象，并让事情神奇地保存。<p>那个周末，我黑了一些东西，当你分配或访问对象或数组中的属性时，使用代理和类来 \"神奇地 \"向你的后台发送数据。<p>这意味着你可以像这样保存数据： items[x] = {a:2,b:false} 并像这样读取数据： console.log(await items[x].a) 或 console.log(await items.find(o =&gt; o.a ==2))<p>当我与一些开发人员分享它时，我开始得到这样的评论？\"哇，这真是太简单了。它安全吗？\"<p>于是我开始围绕这个想法建立一个平台。A platform that allows javascript developers to write full stack applications, with the least overhead possible and just writing javascript.<p>Security Rules are JS functions, files are simply assigned to an object property, triggers are JS functions etc. Everything is javascript! Check the docs: <a href=\"https://javascriptdb.com/docs\" rel=\"nofollow\">https://javascriptdb.com/docs</a><p>Why?<p>Because there are developers that can write code using arrays and objects but are not confident with backend code.<p>I would like to lower that barrier and empower every developer that knows JS to be full stack with the least effort possible.<p>For experienced developers, less boilerplate means less bugs and faster product cycles. I like to think that JSDB is positively influenced by this post from Rich Harris: <a href=\"https://svelte.dev/blog/write-less-code\" rel=\"nofollow\">https://svelte.dev/blog/write-less-code</a><p>Aren’t there other platforms that solve this problem?<p>Yes, there’s some great efforts. Supabase recently had a killer launch week and I have tons of respect for what they’ve accomplished.<p>JSDB targets the javascript lovers, the devs that rather just write javascript and would like to avoid sql if possible. By design it will only work on javascript codebases.<p>Is this production ready?<p>No! It’s still an MVP, designed to show the idea and where I’m going.\nThat's also why there are limited spots for the hosted preview alpha.<p>If this sounds interesting check this demo: <a href=\"https://youtu.be/xs30II7HNBQ\" rel=\"nofollow\">https://youtu.be/xs30II7HNBQ</a>\nDocs: <a href=\"https://javascriptdb.com/docs\" rel=\"nofollow\">https://javascriptdb.com/docs</a>\nWebsite: <a href=\"https://javascriptdb.com\" rel=\"nofollow\">https://javascriptdb.com</a>\nGithub: <a href=\"https://github.com/javascriptdb\" rel=\"nofollow\">https://github.com/javascriptdb</a><p>Looking forward to getting candid feedback :)",
+  "description_zh-Hant": "嗨，HN！<p>我想與你分享我的項目。JSDB.<p>兩個月前，我在審查一個網絡應用的PR時有了這樣的想法。<p>如果我不需要寫代碼來與我的後臺或數據庫通信，那會很有趣，就像你通常在javascript中做的那樣，使用數組和對象，並讓事情神奇地保存。<p>那個週末，我黑了一些東西，當你分配或訪問對象或數組中的屬性時，使用代理和類來 \"神奇地 \"向你的後臺發送數據。<p>這意味著你可以像這樣保存數據： items[x] = {a:2,b:false} 並像這樣讀取數據： console.log(await items[x].a) 或 console.log(await items.find(o =&gt; o.a ==2))<p>當我與一些開發人員分享它時，我開始得到這樣的評論？\"哇，這真是太簡單了。它安全嗎？\"<p>於是我開始圍繞這個想法建立一個平臺。A platform that allows javascript developers to write full stack applications, with the least overhead possible and just writing javascript.<p>Security Rules are JS functions, files are simply assigned to an object property, triggers are JS functions etc. Everything is javascript! Check the docs: <a href=\"https://javascriptdb.com/docs\" rel=\"nofollow\">https://javascriptdb.com/docs</a><p>Why?<p>Because there are developers that can write code using arrays and objects but are not confident with backend code.<p>I would like to lower that barrier and empower every developer that knows JS to be full stack with the least effort possible.<p>For experienced developers, less boilerplate means less bugs and faster product cycles. I like to think that JSDB is positively influenced by this post from Rich Harris: <a href=\"https://svelte.dev/blog/write-less-code\" rel=\"nofollow\">https://svelte.dev/blog/write-less-code</a><p>Aren’t there other platforms that solve this problem?<p>Yes, there’s some great efforts. Supabase recently had a killer launch week and I have tons of respect for what they’ve accomplished.<p>JSDB targets the javascript lovers, the devs that rather just write javascript and would like to avoid sql if possible. By design it will only work on javascript codebases.<p>Is this production ready?<p>No! It’s still an MVP, designed to show the idea and where I’m going.\nThat's also why there are limited spots for the hosted preview alpha.<p>If this sounds interesting check this demo: <a href=\"https://youtu.be/xs30II7HNBQ\" rel=\"nofollow\">https://youtu.be/xs30II7HNBQ</a>\nDocs: <a href=\"https://javascriptdb.com/docs\" rel=\"nofollow\">https://javascriptdb.com/docs</a>\nWebsite: <a href=\"https://javascriptdb.com\" rel=\"nofollow\">https://javascriptdb.com</a>\nGithub: <a href=\"https://github.com/javascriptdb\" rel=\"nofollow\">https://github.com/javascriptdb</a><p>Looking forward to getting candid feedback :)"
+}
