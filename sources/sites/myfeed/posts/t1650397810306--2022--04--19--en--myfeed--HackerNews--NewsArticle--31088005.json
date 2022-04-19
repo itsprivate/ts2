@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--19--en--myfeed--HackerNews--NewsArticle--31088005",
+  "url": "https://news.ycombinator.com/item?id=31088005",
+  "headline": "Tell HN: I haven’t been to a search engine website in almost a year",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I used to use DuckDuckGo.com but then switched exclusively to the CLI https://github.com/jarun/ddgr. I've been happier and more productive since.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mavsman",
+    "url": "https://news.ycombinator.com/user?id=mavsman"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31088005",
+  "sameAs": "https://news.ycombinator.com/item?id=31088005",
+  "dateCreated": "2022-04-19T19:50:10.306Z",
+  "datePublished": "2022-04-19T19:44:59.000Z",
+  "dateModified": "2022-04-19T19:50:10.306Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：我已经快一年没有上过搜索引擎的网站了",
+  "headline_zh-Hant": "告訴HN：我已經快一年沒有上過搜索引擎的網站了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我曾经使用DuckDuckGo.com，但后来完全改用CLI https://github.com/jarun/ddgr。从那时起，我更加快乐，工作效率更高。",
+  "description_zh-Hant": "我曾經使用DuckDuckGo.com，但後來完全改用CLI https://github.com/jarun/ddgr。從那時起，我更加快樂，工作效率更高。"
+}
