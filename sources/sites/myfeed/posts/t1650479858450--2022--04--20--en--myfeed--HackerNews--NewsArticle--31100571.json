@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--20--en--myfeed--HackerNews--NewsArticle--31100571",
+  "url": "https://news.ycombinator.com/item?id=31100571",
+  "headline": "NSA and CISA Recommend Actions to Reduce Exposure of Operational Technologies",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vmoore",
+    "url": "https://news.ycombinator.com/user?id=vmoore"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31100571",
+  "sameAs": "https://www.cisa.gov/uscert/ncas/alerts/aa20-205a",
+  "dateCreated": "2022-04-20T18:37:38.450Z",
+  "datePublished": "2022-04-20T17:53:53.000Z",
+  "dateModified": "2022-04-20T18:37:38.450Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "国家安全局和CISA建议采取行动，减少操作技术的暴露程度",
+  "headline_zh-Hant": "國家安全局和CISA建議採取行動，減少操作技術的暴露程度",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
