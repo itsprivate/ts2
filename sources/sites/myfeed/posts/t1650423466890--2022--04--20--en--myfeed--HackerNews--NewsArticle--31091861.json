@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--20--en--myfeed--HackerNews--NewsArticle--31091861",
+  "url": "https://news.ycombinator.com/item?id=31091861",
+  "headline": "Crispy Doom – Higher Resolution, Limit Removing Doom Engine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ecliptik",
+    "url": "https://news.ycombinator.com/user?id=ecliptik"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31091861",
+  "sameAs": "https://doomwiki.org/wiki/Crispy_Doom",
+  "dateCreated": "2022-04-20T02:57:46.890Z",
+  "datePublished": "2022-04-20T01:53:33.000Z",
+  "dateModified": "2022-04-20T02:57:46.890Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Crispy Doom - 更高的分辨率，去除限制的Doom引擎",
+  "headline_zh-Hant": "Crispy Doom - 更高的分辨率，去除限制的Doom引擎",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
