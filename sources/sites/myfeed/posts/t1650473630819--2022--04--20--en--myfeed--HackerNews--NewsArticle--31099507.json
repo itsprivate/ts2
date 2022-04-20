@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--20--en--myfeed--HackerNews--NewsArticle--31099507",
+  "url": "https://news.ycombinator.com/item?id=31099507",
+  "headline": "FaceTime Users Bombarded by Group Call Spam and Apple Can’t Stop It",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fortran77",
+    "url": "https://news.ycombinator.com/user?id=fortran77"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31099507",
+  "sameAs": "https://arstechnica.com/gadgets/2021/03/",
+  "dateCreated": "2022-04-20T16:53:50.819Z",
+  "datePublished": "2022-04-20T16:36:03.000Z",
+  "dateModified": "2022-04-20T16:53:50.819Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "FaceTime用户被群组通话垃圾邮件轰炸，苹果无法阻止",
+  "headline_zh-Hant": "FaceTime用戶被群組通話垃圾郵件轟炸，蘋果無法阻止",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
