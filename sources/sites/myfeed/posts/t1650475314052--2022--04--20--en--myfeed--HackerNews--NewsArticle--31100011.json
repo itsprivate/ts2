@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--20--en--myfeed--HackerNews--NewsArticle--31100011",
+  "url": "https://news.ycombinator.com/item?id=31100011",
+  "headline": "A university pays $400K to professor who refused to use a student's pronouns",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ilamont",
+    "url": "https://news.ycombinator.com/user?id=ilamont"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31100011",
+  "sameAs": "https://www.npr.org/2022/04/20/1093601721/shawnee-state-university-lawsuit-pronouns",
+  "dateCreated": "2022-04-20T17:21:54.052Z",
+  "datePublished": "2022-04-20T17:12:03.000Z",
+  "dateModified": "2022-04-20T17:21:54.052Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一所大学向拒绝使用学生代名词的教授支付40万美金",
+  "headline_zh-Hant": "一所大學向拒絕使用學生代名詞的教授支付40萬美金",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
