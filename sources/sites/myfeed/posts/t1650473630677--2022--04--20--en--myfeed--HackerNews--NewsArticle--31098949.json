@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--20--en--myfeed--HackerNews--NewsArticle--31098949",
+  "url": "https://news.ycombinator.com/item?id=31098949",
+  "headline": "Dynamic VLAN Using Radius Mac Authentication",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "chime",
+    "url": "https://news.ycombinator.com/user?id=chime"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31098949",
+  "sameAs": "https://anton.lindstrom.io/radius-mac/",
+  "dateCreated": "2022-04-20T16:53:50.677Z",
+  "datePublished": "2022-04-20T16:04:09.000Z",
+  "dateModified": "2022-04-20T16:53:50.677Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "使用Radius Mac认证的动态VLAN",
+  "headline_zh-Hant": "使用Radius Mac認證的動態VLAN",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
