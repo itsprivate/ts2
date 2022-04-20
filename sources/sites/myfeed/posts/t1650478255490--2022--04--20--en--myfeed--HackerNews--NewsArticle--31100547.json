@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--20--en--myfeed--HackerNews--NewsArticle--31100547",
+  "url": "https://news.ycombinator.com/item?id=31100547",
+  "headline": "Benefits as a Reflection of Values",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "steveklabnik",
+    "url": "https://news.ycombinator.com/user?id=steveklabnik"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31100547",
+  "sameAs": "https://oxide.computer/blog/benefits-as-a-reflection-of-values",
+  "dateCreated": "2022-04-20T18:10:55.490Z",
+  "datePublished": "2022-04-20T17:52:49.000Z",
+  "dateModified": "2022-04-20T18:10:55.490Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "效益是价值观的反映",
+  "headline_zh-Hant": "效益是價值觀的反映",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
