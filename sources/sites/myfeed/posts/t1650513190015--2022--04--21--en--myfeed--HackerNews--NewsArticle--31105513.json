@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--21--en--myfeed--HackerNews--NewsArticle--31105513",
+  "url": "https://news.ycombinator.com/item?id=31105513",
+  "headline": "HUDS and GUIs: an inspiration resource site featuring Future User Interfaces",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "harporoeder",
+    "url": "https://news.ycombinator.com/user?id=harporoeder"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31105513",
+  "sameAs": "https://www.hudsandguis.com",
+  "dateCreated": "2022-04-21T03:53:10.015Z",
+  "datePublished": "2022-04-21T02:39:23.000Z",
+  "dateModified": "2022-04-21T03:53:10.015Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "HUDS和GUI：一个以未来用户界面为特色的灵感资源网站",
+  "headline_zh-Hant": "HUDS和GUI：一個以未來用戶界面為特色的靈感資源網站",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
