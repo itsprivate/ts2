@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--21--en--hackernews--HackerNews--NewsArticle--31112503",
+  "url": "https://news.ycombinator.com/item?id=31112503",
+  "headline": "AppleCensorship",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "maxwell",
+    "url": "https://news.ycombinator.com/user?id=maxwell"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31112503",
+  "sameAs": "https://applecensorship.com/",
+  "dateCreated": "2022-04-21T18:40:07.046Z",
+  "datePublished": "2022-04-21T17:28:29.000Z",
+  "dateModified": "2022-04-21T18:40:07.046Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 36
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "苹果审查制度",
+  "headline_zh-Hant": "蘋果審查制度",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
