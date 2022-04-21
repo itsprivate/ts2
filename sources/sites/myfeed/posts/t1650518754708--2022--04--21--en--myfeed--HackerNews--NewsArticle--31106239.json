@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--21--en--myfeed--HackerNews--NewsArticle--31106239",
+  "url": "https://news.ycombinator.com/item?id=31106239",
+  "headline": "Subreddit with almost 2M subs tries to migrate to custom platform",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "donkarma",
+    "url": "https://news.ycombinator.com/user?id=donkarma"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31106239",
+  "sameAs": "https://old.reddit.com/r/Cringetopia/comments/u83rjx/current_state_of_the_subreddit_the_admins_will/",
+  "dateCreated": "2022-04-21T05:25:54.708Z",
+  "datePublished": "2022-04-21T05:20:17.000Z",
+  "dateModified": "2022-04-21T05:25:54.708Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "拥有近200万订阅者的子网站试图迁移到自定义平台上",
+  "headline_zh-Hant": "擁有近200萬訂閱者的子網站試圖遷移到自定義平臺上",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
