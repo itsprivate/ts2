@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--21--en--myfeed--HackerNews--NewsArticle--31110215",
+  "url": "https://news.ycombinator.com/item?id=31110215",
+  "headline": "The Cloud and the Proverbial Boiling Frog",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "zdw",
+    "url": "https://news.ycombinator.com/user?id=zdw"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31110215",
+  "sameAs": "https://michaeldehaan.substack.com/p/the-cloud-and-the-proverbial-boiling",
+  "dateCreated": "2022-04-21T15:12:04.515Z",
+  "datePublished": "2022-04-21T14:54:29.000Z",
+  "dateModified": "2022-04-21T15:12:04.515Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "云和传说中的沸腾的青蛙",
+  "headline_zh-Hant": "雲和傳說中的沸騰的青蛙",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
