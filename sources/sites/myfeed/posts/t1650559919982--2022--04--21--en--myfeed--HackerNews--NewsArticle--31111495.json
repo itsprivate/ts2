@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--21--en--myfeed--HackerNews--NewsArticle--31111495",
+  "url": "https://news.ycombinator.com/item?id=31111495",
+  "headline": "The Correct Way to Hold a Pen",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "metabagel",
+    "url": "https://news.ycombinator.com/user?id=metabagel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31111495",
+  "sameAs": "https://www.lamy.com/en/the-correct-way-to-hold-a-pen/",
+  "dateCreated": "2022-04-21T16:51:59.982Z",
+  "datePublished": "2022-04-21T16:22:54.000Z",
+  "dateModified": "2022-04-21T16:51:59.982Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "正确的握笔方式",
+  "headline_zh-Hant": "正確的握筆方式",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
