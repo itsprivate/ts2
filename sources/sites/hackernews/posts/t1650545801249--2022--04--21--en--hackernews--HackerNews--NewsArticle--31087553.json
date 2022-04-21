@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--21--en--hackernews--HackerNews--NewsArticle--31087553",
+  "url": "https://news.ycombinator.com/item?id=31087553",
+  "headline": "Vulnerabilities Affecting Girault, Bulletproofs, and PlonK",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tptacek",
+    "url": "https://news.ycombinator.com/user?id=tptacek"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31087553",
+  "sameAs": "https://blog.trailofbits.com/2022/04/13/part-1-coordinated-disclosure-of-vulnerabilities-affecting-girault-bulletproofs-and-plonk/",
+  "dateCreated": "2022-04-21T12:56:41.249Z",
+  "datePublished": "2022-04-19T19:15:37.000Z",
+  "dateModified": "2022-04-21T12:56:41.249Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "影响Girault、Bulletproofs和PlonK的漏洞",
+  "headline_zh-Hant": "影響Girault、Bulletproofs和PlonK的漏洞",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

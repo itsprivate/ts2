@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--21--en--myfeed--HackerNews--NewsArticle--31108387",
+  "url": "https://news.ycombinator.com/item?id=31108387",
+  "headline": "Two Sizes Fit Most: PostgreSQL and ClickHouse",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "diminish",
+    "url": "https://news.ycombinator.com/user?id=diminish"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31108387",
+  "sameAs": "https://thenewstack.io/two-sizes-fit-most-postgresql-and-clickhouse/",
+  "dateCreated": "2022-04-21T12:56:41.486Z",
+  "datePublished": "2022-04-21T12:06:47.000Z",
+  "dateModified": "2022-04-21T12:56:41.486Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "两种尺寸适合大多数人。PostgreSQL和ClickHouse",
+  "headline_zh-Hant": "兩種尺寸適合大多數人。PostgreSQL和ClickHouse",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
