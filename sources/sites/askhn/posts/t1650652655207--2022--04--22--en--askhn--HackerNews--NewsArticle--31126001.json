@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--22--en--askhn--HackerNews--NewsArticle--31126001",
+  "url": "https://news.ycombinator.com/item?id=31126001",
+  "headline": "Ask HN: Is there a market for an “Open” but non-free Twitter-like service?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "You pay $5 to get unlimited posts (throttled to 1kb / sec). No ads. No selling of user data. Just a free and open api (for users) with a basic (fully-modifiable) web ui.<p>To make it possible, it'd have to be a MVP - just basic twitter functionality with all posts stored in memory and accessible for only a few days. Everything else would be outsourced to the community: search, direct messaging, analytics, advanced functionality, etc.<p>It would be like a centralized mastadon, but with a b-corporate type structure.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "afpx",
+    "url": "https://news.ycombinator.com/user?id=afpx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31126001",
+  "sameAs": "https://news.ycombinator.com/item?id=31126001",
+  "dateCreated": "2022-04-22T18:37:35.207Z",
+  "datePublished": "2022-04-22T18:30:47.000Z",
+  "dateModified": "2022-04-22T18:37:35.207Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 一个 \"开放 \"但不免费的类似Twitter的服务是否有市场？",
+  "headline_zh-Hant": "Ask HN: 一個 \"開放 \"但不免費的類似Twitter的服務是否有市場？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你支付5美元就可以获得无限量的帖子（节流到1kb/秒）。没有广告。不出售用户数据。<p>要实现这一点，它必须是一个MVP--只有基本的twitter功能，所有的帖子都存储在内存中，只能在几天内访问。其他一切都将外包给社区：搜索、直接通信、分析、高级功能等。<p>这将是一个集中的mastadon，但有一个B型公司的结构。",
+  "description_zh-Hant": "你支付5美元就可以獲得無限量的帖子（節流到1kb/秒）。沒有廣告。不出售用戶數據。<p>要實現這一點，它必須是一個MVP--只有基本的twitter功能，所有的帖子都存儲在內存中，只能在幾天內訪問。其他一切都將外包給社區：搜索、直接通信、分析、高級功能等。<p>這將是一個集中的mastadon，但有一個B型公司的結構。"
+}
