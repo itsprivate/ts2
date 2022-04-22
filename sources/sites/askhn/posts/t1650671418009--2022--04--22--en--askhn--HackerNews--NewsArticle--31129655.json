@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--22--en--askhn--HackerNews--NewsArticle--31129655",
+  "url": "https://news.ycombinator.com/item?id=31129655",
+  "headline": "Ask HN: How big is your database?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Mine is ~5gb in postgres. I thought this was quite high, and looked into advanced methods to try to lower it, but I realised 5gb is a teeny tiny baby, so it had me wondering. How big is your database, what's the BIGGEST you've worked with?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "gcau",
+    "url": "https://news.ycombinator.com/user?id=gcau"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31129655",
+  "sameAs": "https://news.ycombinator.com/item?id=31129655",
+  "dateCreated": "2022-04-22T23:50:18.009Z",
+  "datePublished": "2022-04-22T23:42:20.000Z",
+  "dateModified": "2022-04-22T23:50:18.009Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你的数据库有多大？",
+  "headline_zh-Hant": "Ask HN: 你的數據庫有多大？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我的在postgres中是~5gb。我认为这很高，并研究了一些先进的方法来降低它，但我意识到5gb是一个很小的婴儿，所以它让我想知道。你的数据库有多大，你处理过的最大的数据库是什么？",
+  "description_zh-Hant": "我的在postgres中是~5gb。我認為這很高，並研究了一些先進的方法來降低它，但我意識到5gb是一個很小的嬰兒，所以它讓我想知道。你的數據庫有多大，你處理過的最大的數據庫是什麼？"
+}
