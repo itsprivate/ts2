@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--22--en--askhn--HackerNews--NewsArticle--31127290",
+  "url": "https://news.ycombinator.com/item?id=31127290",
+  "headline": "Ask HN: Twitter Lists has secret rules and is generally broken",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "WTF Twitter Lists!<p>I'm trying to make a list of accounts on Twitter using Twitter Lists. The UI in tweetdeck says you can add up to 100 accounts at a time.<p>Their anti-spaming tools clearly are creating a ton of crazy hidden rules that contradict their interface or documentation.<p>Turns out you can add only 40 at a time. But actually there's more shadow rules, because they limit you to adding that many every 15 minutes! Of course the error messages don't say this, takes experimentation.<p>Using API is even more janky. API calls say 300 &quot;requests&quot; every 15 min, but this also results in lock-outs.<p>Moreover, once you encounter a &quot;shadow lock-out&quot;, you can't add to the list at all! You can't even add to any other list!<p>Twitter, you got all these neat tools. At least be clear WHAT are the rules. and if you work at twitter, please help!! I'm trying to make cool shit for earth day!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "austinbeer",
+    "url": "https://news.ycombinator.com/user?id=austinbeer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31127290",
+  "sameAs": "https://news.ycombinator.com/item?id=31127290",
+  "dateCreated": "2022-04-22T20:11:51.587Z",
+  "datePublished": "2022-04-22T19:59:48.000Z",
+  "dateModified": "2022-04-22T20:11:51.587Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 推特列表有秘密规则，一般都会被破坏",
+  "headline_zh-Hant": "Ask HN: 推特列表有秘密規則，一般都會被破壞",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "WTF Twitter Lists！<p>我正试图用Twitter Lists制作一个Twitter上的账户列表。tweetdeck的用户界面说，你一次最多可以添加100个账户。<p>他们的反诽谤工具显然正在创造一大堆与他们的界面或文档相矛盾的疯狂的隐藏规则。<p>原来你一次只能添加40个。但实际上还有更多的影子规则，因为他们限制你每15分钟增加这么多！</p><p>他们的反垃圾邮件工具显然是在创造大量疯狂的隐藏规则，与他们的界面或文档相矛盾。当然，错误信息并没有这样说，需要实验。<p>使用API甚至更古怪。<p>此外，一旦你遇到&quot;影子锁定&quot;，你就完全不能添加到列表中了！你甚至不能添加到任何列表中。你甚至不能添加到任何其他列表！<p>Twitter，你有所有这些整洁的工具。至少要清楚规则是什么。如果你在twitter工作，请帮忙！</p> <p>Twitter，你有这么多漂亮的工具。我正在努力为地球日做一些很酷的东西!",
+  "description_zh-Hant": "WTF Twitter Lists！<p>我正試圖用Twitter Lists製作一個Twitter上的賬戶列表。tweetdeck的用戶界面說，你一次最多可以添加100個賬戶。<p>他們的反誹謗工具顯然正在創造一大堆與他們的界面或文檔相矛盾的瘋狂的隱藏規則。<p>原來你一次只能添加40個。但實際上還有更多的影子規則，因為他們限制你每15分鐘增加這麼多！</p><p>他們的反垃圾郵件工具顯然是在創造大量瘋狂的隱藏規則，與他們的界面或文檔相矛盾。當然，錯誤信息並沒有這樣說，需要實驗。<p>使用API甚至更古怪。<p>此外，一旦你遇到&quot;影子鎖定&quot;，你就完全不能添加到列表中了！你甚至不能添加到任何列表中。你甚至不能添加到任何其他列表！<p>Twitter，你有所有這些整潔的工具。至少要清楚規則是什麼。如果你在twitter工作，請幫忙！</p> <p>Twitter，你有這麼多漂亮的工具。我正在努力為地球日做一些很酷的東西!"
+}
