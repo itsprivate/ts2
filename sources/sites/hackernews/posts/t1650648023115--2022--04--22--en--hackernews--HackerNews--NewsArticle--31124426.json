@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--22--en--hackernews--HackerNews--NewsArticle--31124426",
+  "url": "https://news.ycombinator.com/item?id=31124426",
+  "headline": "Meticulous (YC S21) Is Hiring #2 Engineer in London",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN,<p>I'm Gabriel, founder of Meticulous.<p>Our mission is to make the world's code safe, performant and reliable. We're starting with a tool to catch JavaScript regressions in web applications with zero-effort from developers.<p>How it works: Insert a single line of JavaScript onto your site, and we record thousands of real user sessions. We then replay these sessions on new code to automatically catch bugs before they hit production. You can watch a 60-second demo at meticulous.ai.<p>We are a London-based YC company. Our engineering team previously worked at Dropbox, Opendoor and Google. We just raised $4m, and are backed by some of the best founders and technical leaders in Silicon Valley, including Guillermo Rauch (founder Vercel, author next.js), Jason Warner (CTO GitHub), Scott Belsky (CPO Adobe), Calvin French-Owen (founder Segment), Jared Friedman (YC partner and former CTO of Scribd) and a bunch of other incredible folks.<p>Catching JavaScript regressions is just the start. There is an entire category of products to build on top of replay. This ranges from automatic UI previews to revealing the performance impact of frontend code.<p>We want to change the way the world develops software, and influence software approaches for decades to come.<p>We are seeding a London office and hiring an onsite (a few days per week) founding engineer to join our team of two.<p>You will have autonomy in building out this technology, but here are a few problems you might work on:<p>- Build a distributed system to concurrently replay thousands of sessions, such that a developer gets a result in seconds.<p>- Speed up the replay of sessions in a way that retains determinism.<p>- Derive algorithms to detect sessions that cover differing code paths and edge cases, and ignore sessions that are too similar.<p>- Help build out a team of world-class, highly collaborative, software engineers.<p>As founding engineer, you get to shape the company, and build the culture and technology from the ground up.<p>What we look for:<p>In a sentence: Technically brilliant, delightful to work with, combined with a self-awareness and strong desire to improve. We also want to make sure everyone is highly supportive of each other; we win as a team.<p>We're currently only looking to bring on folks with mid-to-senior level skill sets. You should have strong web fundamentals and a deep love for software engineering. Maybe you enjoy programming books like Clean Code, Designing Data Intensive Applications, Pragmatic Programmer etc. or enjoy hacking on interesting side projects. You value transparency and candid feedback, and are motivated by a strong desire to become the best engineer you can be.<p>What you get:<p>Compensation: We pay £100k-£160k+ in base salary, along with top of line benefits and perks. The equity grant will be between 0.5% and 3% (a 2% grant is $600k at last valuation) with employee-friendly terms (10 year exercise window on options). You can read about our values here <a href=\"https://sumptuous-lungfish-609.notion.site/Meticulous-values-ab2b90d3324447d58f0720481081c9a6\" rel=\"nofollow\">https://sumptuous-lungfish-609.notion.site/Meticulous-values...</a><p>Learning: You will be given the space and time to up-level yourself as an engineer in terms of conferences, reading, or whatever you think will be most valuable. We will also set you up with mentorship, if you desire it, from top engineering leaders (folks running 100-engineer organizations at the world's leading tech companies).<p>If this sounds interesting, please reach out to me at gabe [at] meticulous [dot] ai with “HN” in the subject line and 2-3 sentences about what you find interesting about Meticulous and your resume/LinkedIn/GitHub.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Gabriel_h",
+    "url": "https://news.ycombinator.com/user?id=Gabriel_h"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31124426",
+  "sameAs": "https://news.ycombinator.com/item?id=31124426",
+  "dateCreated": "2022-04-22T17:20:23.115Z",
+  "datePublished": "2022-04-22T17:00:31.000Z",
+  "dateModified": "2022-04-22T17:20:23.115Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": null
+    }
+  ],
+  "headline_zh-Hans": "Meticulous (YC S21) 正在伦敦招聘2号工程师",
+  "headline_zh-Hant": "Meticulous (YC S21) 正在倫敦招聘2號工程師",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hey HN,<p>我是Gabriel，Meticulous的创始人。<p>我们的使命是让世界上的代码变得安全、高效和可靠。我们从一个工具开始，以开发人员的零努力来捕捉网络应用中的JavaScript回归。<p>它是如何工作的。在你的网站上插入一行JavaScript，我们就会记录下成千上万的真实用户会话。然后，我们在新的代码上重放这些会话，在它们进入生产之前自动捕捉错误。你可以在meticulous.ai上观看60秒的演示。<p>我们是一家位于伦敦的YC公司。我们的工程团队曾在Dropbox、Opendoor和谷歌工作。我们刚刚筹集了400万美元，并得到了硅谷一些最好的创始人和技术领袖的支持，包括Guillermo Rauch（Vercel的创始人，next.js的作者）、Jason Warner（GitHub的CTO）、Scott Belsky（Adobe的CPO）、Calvin French-Owen（Segment的创始人）、Jared Friedman（YC合伙人和Scribd的前CTO）和其他一些不可思议的人。有一整类的产品可以在回放的基础上构建。<p>我们希望改变世界开发软件的方式，并影响未来几十年的软件方法。<p>我们将在伦敦设立办事处，并招聘一名现场（每周几天）创始工程师加入我们的两人团队。<p>你将有自主权来构建这项技术，但以下是你可能从事的几个问题：<p>- 建立一个分布式系统来并发回放成千上万的会议，以便开发人员在几秒钟内得到一个结果。 <p>- 在保持确定性的前提下加快会话的重放速度。<p>- 推导算法以检测涵盖不同代码路径和边缘案例的会话，并忽略过于相似的会话。<p>- 帮助建立一支由世界级的、高度协作的软件工程师组成的团队。<p>作为创始工程师，你可以塑造公司，并从头开始建立文化和技术。<p>我们寻找：<p>一句话。在技术上出色，令人愉快的工作，同时具有自我意识和强烈的改进欲望。我们还希望确保每个人都能相互支持；我们是一个团队的胜利者。<p>我们目前只希望引进具有中高级水平技能的人。你应该有很强的网络基础知识和对软件工程的深深热爱。也许你喜欢编程书籍，如《清洁代码》、《设计数据密集型应用程序》、《务实的程序员》等，或者喜欢在有趣的副业项目上进行黑客攻击。你重视透明度和坦率的反馈，并有强烈的愿望成为最好的工程师。<p>你得到什么：<p>报酬。我们支付10万-16万英镑以上的基本工资，以及顶级的福利和津贴。股权授予将在0.5%和3%之间（2%的授予在最后的评估中是60万美元），并有对员工有利的条款（期权的10年行使窗口）。你可以在这里阅读我们的价值观<a href=\"https://sumptuous-lungfish-609.notion.site/Meticulous-values-ab2b90d3324447d58f0720481081c9a6\" rel=\"nofollow\">https://sumptuous-lungfish-609.notion.site/Meticulous-values...</a><p>学习。你将获得空间和时间，在会议、阅读或任何你认为最有价值的方面提高自己作为工程师的水平。如果你愿意，我们还将为你安排顶级工程领导人（在世界领先的科技公司中管理100名工程师组织的人）的指导。<p>如果这听起来很有趣，请通过gabe [at] meticulous [dot] ai与我联系，在主题栏中写上 \"HN\"，并写上2-3句你对Meticulous感兴趣的话以及你的简历/LinkedIn/GitHub。",
+  "description_zh-Hant": "Hey HN,<p>我是Gabriel，Meticulous的創始人。<p>我們的使命是讓世界上的代碼變得安全、高效和可靠。我們從一個工具開始，以開發人員的零努力來捕捉網絡應用中的JavaScript迴歸。<p>它是如何工作的。在你的網站上插入一行JavaScript，我們就會記錄下成千上萬的真實用戶會話。然後，我們在新的代碼上重放這些會話，在它們進入生產之前自動捕捉錯誤。你可以在meticulous.ai上觀看60秒的演示。<p>我們是一家位於倫敦的YC公司。我們的工程團隊曾在Dropbox、Opendoor和谷歌工作。我們剛剛籌集了400萬美元，並得到了硅谷一些最好的創始人和技術領袖的支持，包括Guillermo Rauch（Vercel的創始人，next.js的作者）、Jason Warner（GitHub的CTO）、Scott Belsky（Adobe的CPO）、Calvin French-Owen（Segment的創始人）、Jared Friedman（YC合夥人和Scribd的前CTO）和其他一些不可思議的人。有一整類的產品可以在回放的基礎上構建。<p>我們希望改變世界開發軟件的方式，並影響未來幾十年的軟件方法。<p>我們將在倫敦設立辦事處，並招聘一名現場（每週幾天）創始工程師加入我們的兩人團隊。<p>你將有自主權來構建這項技術，但以下是你可能從事的幾個問題：<p>- 建立一個分佈式系統來併發回放成千上萬的會議，以便開發人員在幾秒鐘內得到一個結果。 <p>- 在保持確定性的前提下加快會話的重放速度。<p>- 推導算法以檢測涵蓋不同代碼路徑和邊緣案例的會話，並忽略過於相似的會話。<p>- 幫助建立一支由世界級的、高度協作的軟件工程師組成的團隊。<p>作為創始工程師，你可以塑造公司，並從頭開始建立文化和技術。<p>我們尋找：<p>一句話。在技術上出色，令人愉快的工作，同時具有自我意識和強烈的改進慾望。我們還希望確保每個人都能相互支持；我們是一個團隊的勝利者。<p>我們目前只希望引進具有中高級水平技能的人。你應該有很強的網絡基礎知識和對軟件工程的深深熱愛。也許你喜歡編程書籍，如《清潔代碼》、《設計數據密集型應用程序》、《務實的程序員》等，或者喜歡在有趣的副業項目上進行黑客攻擊。你重視透明度和坦率的反饋，並有強烈的願望成為最好的工程師。<p>你得到什麼：<p>報酬。我們支付10萬-16萬英鎊以上的基本工資，以及頂級的福利和津貼。股權授予將在0.5%和3%之間（2%的授予在最後的評估中是60萬美元），並有對員工有利的條款（期權的10年行使窗口）。你可以在這裡閱讀我們的價值觀<a href=\"https://sumptuous-lungfish-609.notion.site/Meticulous-values-ab2b90d3324447d58f0720481081c9a6\" rel=\"nofollow\">https://sumptuous-lungfish-609.notion.site/Meticulous-values...</a><p>學習。你將獲得空間和時間，在會議、閱讀或任何你認為最有價值的方面提高自己作為工程師的水平。如果你願意，我們還將為你安排頂級工程領導人（在世界領先的科技公司中管理100名工程師組織的人）的指導。<p>如果這聽起來很有趣，請通過gabe [at] meticulous [dot] ai與我聯繫，在主題欄中寫上 \"HN\"，並寫上2-3句你對Meticulous感興趣的話以及你的簡歷/LinkedIn/GitHub。"
+}
