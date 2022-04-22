@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--22--en--hackernews--HackerNews--NewsArticle--31126854",
+  "url": "https://news.ycombinator.com/item?id=31126854",
+  "headline": "A Tesla vehicle using ‘Smart Summon’ appears to crash into a $3.5mm private jet",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "aaronbrethorst",
+    "url": "https://news.ycombinator.com/user?id=aaronbrethorst"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31126854",
+  "sameAs": "https://www.theverge.com/2022/4/22/23037654/tesla-crash-private-jet-reddit-video-smart-summon",
+  "dateCreated": "2022-04-22T20:32:46.918Z",
+  "datePublished": "2022-04-22T19:27:09.000Z",
+  "dateModified": "2022-04-22T20:32:46.918Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 26
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 12
+    }
+  ],
+  "headline_zh-Hans": "一辆使用 \"智能召唤 \"的特斯拉汽车似乎撞上了一架价值3.5万美元的私人飞机",
+  "headline_zh-Hant": "一輛使用 \"智能召喚 \"的特斯拉汽車似乎撞上了一架價值3.5萬美元的私人飛機",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
