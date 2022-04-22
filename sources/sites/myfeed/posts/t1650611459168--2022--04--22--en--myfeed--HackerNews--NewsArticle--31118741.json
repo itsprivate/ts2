@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--22--en--myfeed--HackerNews--NewsArticle--31118741",
+  "url": "https://news.ycombinator.com/item?id=31118741",
+  "headline": "Literate Programming and Lisp in Small Pieces",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "There have been various discussions of Literate Programming on HN, a technology Knuth said was one of his best ideas.<p>The book &quot;Lisp In Small Pieces&quot; by Christian Queinnec is, in my opinion, the best example of a literate program available.<p>The ideas are developed very, very carefully. The explanations in the paragraphs are clear and to-the-point. Actual code implementing the idea appears after each explanation, essentially using code like a physics book uses equations.<p>Christian introduces ideas, like environment variables or continuations, in simple steps. He also discusses alternatives, their pros and cons.<p>If you know of other literate programs please post a comment.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "daly",
+    "url": "https://news.ycombinator.com/user?id=daly"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31118741",
+  "sameAs": "https://news.ycombinator.com/item?id=31118741",
+  "dateCreated": "2022-04-22T07:10:59.168Z",
+  "datePublished": "2022-04-22T06:10:16.000Z",
+  "dateModified": "2022-04-22T07:10:59.168Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "文字编程和Lisp的小片段",
+  "headline_zh-Hant": "文字編程和Lisp的小片段",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在HN上有各种关于识字编程的讨论，Knuth说这项技术是他最好的想法之一。<p>Christian Queinnec写的&quot;Lisp In Small Pieces&quot;这本书，在我看来，是现有的识字程序的最好例子。<p>这些想法的发展非常非常仔细。段落中的解释清晰明了，直指要害。在每个解释之后都出现了实现该想法的实际代码，基本上就像物理书中使用方程一样使用代码。<p>Christian用简单的步骤介绍了一些想法，如环境变量或延续。他还讨论了替代方案及其优点和缺点。<p>如果你知道其他识字程序，请发表评论。",
+  "description_zh-Hant": "在HN上有各種關於識字編程的討論，Knuth說這項技術是他最好的想法之一。<p>Christian Queinnec寫的&quot;Lisp In Small Pieces&quot;這本書，在我看來，是現有的識字程序的最好例子。<p>這些想法的發展非常非常仔細。段落中的解釋清晰明瞭，直指要害。在每個解釋之後都出現了實現該想法的實際代碼，基本上就像物理書中使用方程一樣使用代碼。<p>Christian用簡單的步驟介紹了一些想法，如環境變量或延續。他還討論了替代方案及其優點和缺點。<p>如果你知道其他識字程序，請發表評論。"
+}
