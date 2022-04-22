@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--22--en--hackernews--HackerNews--NewsArticle--31094065",
+  "url": "https://news.ycombinator.com/item?id=31094065",
+  "headline": "Agenda-Like Chord Keyboard Using a Pico and the Microwriter Cykey Chords",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rcarmo",
+    "url": "https://news.ycombinator.com/user?id=rcarmo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31094065",
+  "sameAs": "https://github.com/CrazyRobMiles/PICO-Chord-keyboard",
+  "dateCreated": "2022-04-22T19:26:08.408Z",
+  "datePublished": "2022-04-20T08:09:08.000Z",
+  "dateModified": "2022-04-22T19:26:08.408Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "使用Pico和Microwriter Cykey和弦的类似议程的键盘",
+  "headline_zh-Hant": "使用Pico和Microwriter Cykey和絃的類似議程的鍵盤",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
