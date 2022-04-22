@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--22--en--showhn--HackerNews--NewsArticle--31124885",
+  "url": "https://news.ycombinator.com/item?id=31124885",
+  "headline": "Show HN: Visualize MIDI notes in augmented reality using iOS LiDAR devices",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Reality Synthesizer utilizes iOS 15.4's addition of the LiDAR sensor to AVFoundation to visualize MIDI notes played on a connected synthesizer. The notes are visualized in augmented reality as the music is played. The demo uses a couple Metal shaders for depth-based visuals.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "robomex",
+    "url": "https://news.ycombinator.com/user?id=robomex"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31124885",
+  "sameAs": "https://github.com/robomex/Reality-Synthesizer",
+  "dateCreated": "2022-04-22T17:47:24.240Z",
+  "datePublished": "2022-04-22T17:25:10.000Z",
+  "dateModified": "2022-04-22T17:47:24.240Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 使用iOS LiDAR设备在增强现实中实现MIDI音符的可视化",
+  "headline_zh-Hant": "Show HN: 使用iOS LiDAR設備在增強現實中實現MIDI音符的可視化",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Reality Synthesizer利用iOS 15.4对AVFoundation增加的LiDAR传感器，将连接的合成器上播放的MIDI音符可视化。随着音乐的播放，这些音符在增强现实中被可视化了。该演示使用了几个金属着色器来实现基于深度的视觉效果。",
+  "description_zh-Hant": "Reality Synthesizer利用iOS 15.4對AVFoundation增加的LiDAR傳感器，將連接的合成器上播放的MIDI音符可視化。隨著音樂的播放，這些音符在增強現實中被可視化了。該演示使用了幾個金屬著色器來實現基於深度的視覺效果。"
+}
