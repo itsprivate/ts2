@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--04--12--en--hackernews--HackerNews--NewsArticle--31000876",
-  "url": "https://news.ycombinator.com/item?id=31000876",
-  "headline": "Qt 6.3 Released",
+  "identifier": "2022--04--23--en--myfeed--HackerNews--NewsArticle--31135311",
+  "url": "https://news.ycombinator.com/item?id=31135311",
+  "headline": "Show HN: Python library for detecting and launching browsers",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "obdev",
-    "url": "https://news.ycombinator.com/user?id=obdev"
+    "name": "roniemartinez",
+    "url": "https://news.ycombinator.com/user?id=roniemartinez"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=31000876",
-  "sameAs": "https://www.qt.io/blog/qt-6.3-released",
-  "dateCreated": "2022-04-12T12:15:55.884Z",
-  "datePublished": "2022-04-12T10:48:51.000Z",
-  "dateModified": "2022-04-12T12:15:55.884Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31135311",
+  "sameAs": "https://github.com/roniemartinez/browsers",
+  "dateCreated": "2022-04-23T17:03:14.703Z",
+  "datePublished": "2022-04-23T15:49:51.000Z",
+  "dateModified": "2022-04-23T17:03:14.703Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 12
+      "userInteractionCount": 2
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "Qt 6.3发布",
-  "headline_zh-Hant": "Qt 6.3發佈",
+  "headline_zh-Hans": "Show HN: 用于检测和启动浏览器的Python库",
+  "headline_zh-Hant": "Show HN: 用於檢測和啟動瀏覽器的Python庫",
   "@context": [
     "https://schema.org",
     {
