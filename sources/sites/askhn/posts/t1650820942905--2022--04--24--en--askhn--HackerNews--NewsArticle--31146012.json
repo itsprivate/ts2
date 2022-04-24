@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--24--en--askhn--HackerNews--NewsArticle--31146012",
+  "url": "https://news.ycombinator.com/item?id=31146012",
+  "headline": "Ask HN: Android browser with reasonable private browsing mode?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi, I'm used to leaving my main browser open in private mode.  It keeps tabs open across app/os restarts, but aggressively clears cookies in a bunch of circumstances.  It also disables annoyances like autocompleting searches from browser history (since there isn't such a thing).<p>Is there something similar for Android?  Vandium and Firefox nuke my private tabs on app exit, which isn't what I want.  Basically, I want a web browser that is incapable of persisting state beyond the list of open tabs (and whatever crap they think they've persisted).  However, since it is a daily driver, I want tabs to stay open until I close them.<p>Bonus points if each TLD gets a completely separate set of &quot;persistent state&quot;.<p>Finally, I suspect I'm asking for too much, but buttons or gestures for &quot;force reload&quot; and &quot;forward&quot; would be amazing.<p>Has anyone managed to get something similar working?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "hedora",
+    "url": "https://news.ycombinator.com/user?id=hedora"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31146012",
+  "sameAs": "https://news.ycombinator.com/item?id=31146012",
+  "dateCreated": "2022-04-24T17:22:22.905Z",
+  "datePublished": "2022-04-24T17:15:00.000Z",
+  "dateModified": "2022-04-24T17:22:22.905Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 具有合理的私人浏览模式的安卓浏览器？",
+  "headline_zh-Hant": "Ask HN: 具有合理的私人瀏覽模式的安卓瀏覽器？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你好，我习惯于让我的主浏览器在私人模式下打开。 它可以在应用/操作系统重启时保持标签打开，但在很多情况下会主动清除cookies。 它也禁用了恼人的功能，如从浏览器历史记录中自动完成搜索（因为没有这样的东西）。<p>安卓系统是否有类似的东西？ Vandium和Firefox在退出应用时将我的私人标签删除，这并不是我想要的。 基本上，我希望有一个网络浏览器，除了打开的标签列表（以及他们认为已经保存的任何垃圾）之外，无法再保存其他状态。 <p>如果每个顶级域名都有一套完全独立的 \"持久状态\"，则可获得加分。<p>最后，我觉得我的要求太高了，但 \"强制重载 \"和 \"前进 \"的按钮或手势将非常棒。",
+  "description_zh-Hant": "你好，我習慣於讓我的主瀏覽器在私人模式下打開。 它可以在應用/操作系統重啟時保持標籤打開，但在很多情況下會主動清除cookies。 它也禁用了惱人的功能，如從瀏覽器歷史記錄中自動完成搜索（因為沒有這樣的東西）。<p>安卓系統是否有類似的東西？ Vandium和Firefox在退出應用時將我的私人標籤刪除，這並不是我想要的。 基本上，我希望有一個網絡瀏覽器，除了打開的標籤列表（以及他們認為已經保存的任何垃圾）之外，無法再保存其他狀態。 <p>如果每個頂級域名都有一套完全獨立的 \"持久狀態\"，則可獲得加分。<p>最後，我覺得我的要求太高了，但 \"強制重載 \"和 \"前進 \"的按鈕或手勢將非常棒。"
+}
