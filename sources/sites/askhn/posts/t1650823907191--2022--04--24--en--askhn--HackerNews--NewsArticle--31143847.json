@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--24--en--askhn--HackerNews--NewsArticle--31143847",
+  "url": "https://news.ycombinator.com/item?id=31143847",
+  "headline": "Ask HN: Migadu? Postale? Mxroute? Or any other mail services using this model?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm still looking round for an alternative to Google Workspace, when they get rid of the free tier for custom domains, in a month or so's time.<p>My needs are pretty basic; I just want a reliable email service that I can run on my own domain, with a couple of addresses for family members. I'm not bothered about all the other business-related stuff. Privacy and encryption would be preferable, but not an absolute deal-breaker. Anything I want to discuss in private goes by encrypted messenger anyway, not email.<p>One must have is IMAP support. I run a load of email addresses [not all via Gmail or Google Workspaces] so  I want to be able to keep them all in the same place [Thunderbird] and not have to fire up different apps for different accounts.<p>So far, I've checked out most of the oft-recommended options; Protonmail, Tutanota, Mailbox, Mailfence, CTemplar, Runbox, Zoho, etc. and found that there were issues with most of them --whether this was lack of IMAP support, lack of Unicode support [Hello Runbox and Zoho. It's 2022!] or just general uneasiness after reading customer reviews.<p>But, by far the biggest no-no with all of these services is that they charge for each separate email address. I have emails set up on my domain for the missus, and a couple of family members. So 4 in all. As each of these services charges per user, that effectively means quadruple the stated price for any of them. For amount of emails sent on the accounts --a handful a week at most, that ends up being prohibitively expensive, for the amount of usage.<p>Which brings me onto the 3 mentioned in the title.  Migadu[0], Postale[1] and MXroute[2] all charge by the amount of emails you send, not by the number of actual addresses you set up on the domain. Which seems a much fairer system. Especially for my use case.  So, unless anyone is aware of another option, I'm wavering between those three.<p>I still have some doubts though:<p>MIGADU --Probably the best known of this business model and the prices seem reasonable for what I want. But a quick read through their T&amp;Cs is pretty alarming.  Their Acceptable Use policy [3] pretty much says they can suspend your account without warning for a huge range of subjective reasons. Including:<p><pre><code>  &gt;Hate speech, racism, calls for violence, Nazism as well any other immoral, unethical or socially unacceptable activity will be denied service. If illegal, we will report such to the authorities.\n</code></pre>\nQuite apart from the fact that this implies that Migadu are scanning the content of every email that their users send; what the actual fuck is a bloody email server company doing, taking on the role of arbitrating what is 'Nazi', 'immoral' or 'socially unacceptable'?<p>This virtue signalling shite is really going too far these days. By all means take down accounts that are indulging in illegal activity, but otherwise just keep your noses the hell out of people's private correspondence!<p>So, thats's MIGADU ruled out.  Next up...<p>POSTALE --I didn't actually find anything too egregious on the Postale website. But that was part of the problem. I couldn't find any info about the company at all. ie. where are they based?.. where are their servers?.. etc?  Even on the company 'About' page[4], all we get is mention of an unnamed 'creator' and the only contact details are an email address. I have absolutely no idea where this company is based, or what size it is. For all I know, it could be some kid in his bedroom.  A bit dubious about entrusting my email to such an unknown entity.<p>MXROUTE --I hadn't heard of these, til I saw a few recommendations on HN. On the face of it, it seems to be a good fit. I'm not afraid of a bit of setup and configuration.  However, I have noticed people complaining about the company's 'attitude' and, reading through their FAQs they do come across as pretty abrasive --even down to making a point of not offering refunds to anyone who signs up and doesn't like the service.<p>CONT'D --&gt;",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "Normille",
+    "url": "https://news.ycombinator.com/user?id=Normille"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31143847",
+  "sameAs": "https://news.ycombinator.com/item?id=31143847",
+  "dateCreated": "2022-04-24T18:11:47.191Z",
+  "datePublished": "2022-04-24T13:36:29.000Z",
+  "dateModified": "2022-04-24T18:11:47.191Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 31
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 33
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 米加杜? 邮政？Mxroute？或任何其他使用这种模式的邮件服务？",
+  "headline_zh-Hant": "Ask HN: 米加杜? 郵政？Mxroute？或任何其他使用這種模式的郵件服務？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我仍在寻找谷歌工作空间的替代方案，当他们在一个月左右的时间内取消了自定义域名的免费层级。<p>我的需求非常基本；我只想要一个可靠的电子邮件服务，我可以在自己的域名上运行，并为家庭成员提供几个地址。我并不关心所有其他与业务有关的东西。隐私和加密是最好的，但不是绝对的破坏因素。反正我想私下讨论的事情都是通过加密的信使，而不是电子邮件。我有很多电子邮件地址[并不都是通过Gmail或Google Workspaces]，所以我希望能够把它们都放在同一个地方[Thunderbird]，而不必为不同的账户启动不同的应用程序。<p>到目前为止，我已经检查了大多数经常推荐的选项：Protonmail、Tutanota、Mailbox、Mailfence、CTemplar、Runbox、Zoho等。<p>但是，到目前为止，所有这些服务的最大问题是，他们对每个独立的电子邮件地址收费。我在我的域名上为夫人和几个家庭成员设置了电子邮件。所以总共有4个。由于这些服务都是按用户收费的，这实际上意味着任何一项服务的价格都是四倍于上述价格的。对于账户上的邮件发送量--每周最多几封，就使用量而言，这最终会让人望而却步。<p>这让我想到了标题中提到的3家。 Migadu[0]、Postale[1]和MXroute[2]都是按你发送的电子邮件数量收费，而不是按你在域名上设置的实际地址数量收费。这似乎是一个更公平的系统。特别是对于我的使用情况。 所以，除非有人知道有其他选择，否则我在这三家之间摇摆不定。<p>但我仍有一些疑虑：<p>MIGADU--可能是这种商业模式中最知名的，而且价格对于我想要的东西来说似乎很合理。但快速阅读一下他们的T&amp;Cs是相当令人震惊的。 他们的可接受使用政策[3]几乎说他们可以不经警告就以各种主观原因暂停你的账户。Including:<p><pre><code> &gt;Hate speech, racism, calls for violence, Nazism as well any other immoral, unethical or socially unacceptable activity will be denied service. If illegal, we will report such to the authorities.\n</code></pre>\n除了这意味着Migadu正在扫描其用户发送的每封电子邮件的内容之外，一个该死的电子邮件服务器公司究竟在做什么，承担起仲裁什么是 \"纳粹\"、\"不道德 \"或 \"社会不能接受 \"的角色？通过各种手段来关闭那些沉溺于非法活动的账户，但除此之外，请不要把你们的鼻子放在人们的私人信件上！<p>所以，这就是MIGADU被排除的原因。 接下来......<p>POSTALE -- 实际上，我在Postale网站上没有发现任何太恶劣的东西。但这也是问题的一部分。我根本找不到关于该公司的任何信息，即他们的总部在哪里？ 他们的服务器在哪里？ 甚至在公司的 \"关于 \"页面[4]，我们得到的只是提到一个不知名的 \"创造者\"，唯一的联系细节是一个电子邮件地址。我完全不知道这家公司的总部在哪里，或者它的规模有多大。据我所知，它可能是某个孩子在他的卧室里。 <p>MXROUTE -- 我没有听说过这些，直到我在HN上看到一些推荐。从表面上看，它似乎是一个很好的选择。我并不害怕一些设置和配置。 然而，我注意到有人抱怨该公司的 \"态度\"，而且，通过阅读他们的常见问题解答，他们确实非常粗暴，甚至对任何注册后不喜欢该服务的人不提供退款。",
+  "description_zh-Hant": "我仍在尋找谷歌工作空間的替代方案，當他們在一個月左右的時間內取消了自定義域名的免費層級。<p>我的需求非常基本；我只想要一個可靠的電子郵件服務，我可以在自己的域名上運行，併為家庭成員提供幾個地址。我並不關心所有其他與業務有關的東西。隱私和加密是最好的，但不是絕對的破壞因素。反正我想私下討論的事情都是通過加密的信使，而不是電子郵件。我有很多電子郵件地址[並不都是通過Gmail或Google Workspaces]，所以我希望能夠把它們都放在同一個地方[Thunderbird]，而不必為不同的賬戶啟動不同的應用程序。<p>到目前為止，我已經檢查了大多數經常推薦的選項：Protonmail、Tutanota、Mailbox、Mailfence、CTemplar、Runbox、Zoho等。<p>但是，到目前為止，所有這些服務的最大問題是，他們對每個獨立的電子郵件地址收費。我在我的域名上為夫人和幾個家庭成員設置了電子郵件。所以總共有4個。由於這些服務都是按用戶收費的，這實際上意味著任何一項服務的價格都是四倍於上述價格的。對於賬戶上的郵件發送量--每週最多幾封，就使用量而言，這最終會讓人望而卻步。<p>這讓我想到了標題中提到的3家。 Migadu[0]、Postale[1]和MXroute[2]都是按你發送的電子郵件數量收費，而不是按你在域名上設置的實際地址數量收費。這似乎是一個更公平的系統。特別是對於我的使用情況。 所以，除非有人知道有其他選擇，否則我在這三家之間搖擺不定。<p>但我仍有一些疑慮：<p>MIGADU--可能是這種商業模式中最知名的，而且價格對於我想要的東西來說似乎很合理。但快速閱讀一下他們的T&amp;Cs是相當令人震驚的。 他們的可接受使用政策[3]幾乎說他們可以不經警告就以各種主觀原因暫停你的賬戶。Including:<p><pre><code> &gt;Hate speech, racism, calls for violence, Nazism as well any other immoral, unethical or socially unacceptable activity will be denied service. If illegal, we will report such to the authorities.\n</code></pre>\n除了這意味著Migadu正在掃描其用戶發送的每封電子郵件的內容之外，一個該死的電子郵件服務器公司究竟在做什麼，承擔起仲裁什麼是 \"納粹\"、\"不道德 \"或 \"社會不能接受 \"的角色？通過各種手段來關閉那些沉溺於非法活動的賬戶，但除此之外，請不要把你們的鼻子放在人們的私人信件上！<p>所以，這就是MIGADU被排除的原因。 接下來......<p>POSTALE -- 實際上，我在Postale網站上沒有發現任何太惡劣的東西。但這也是問題的一部分。我根本找不到關於該公司的任何信息，即他們的總部在哪裡？ 他們的服務器在哪裡？ 甚至在公司的 \"關於 \"頁面[4]，我們得到的只是提到一個不知名的 \"創造者\"，唯一的聯繫細節是一個電子郵件地址。我完全不知道這家公司的總部在哪裡，或者它的規模有多大。據我所知，它可能是某個孩子在他的臥室裡。 <p>MXROUTE -- 我沒有聽說過這些，直到我在HN上看到一些推薦。從表面上看，它似乎是一個很好的選擇。我並不害怕一些設置和配置。 然而，我注意到有人抱怨該公司的 \"態度\"，而且，通過閱讀他們的常見問題解答，他們確實非常粗暴，甚至對任何註冊後不喜歡該服務的人不提供退款。"
+}
