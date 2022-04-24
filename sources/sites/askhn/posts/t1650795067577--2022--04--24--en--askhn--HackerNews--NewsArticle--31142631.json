@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--24--en--askhn--HackerNews--NewsArticle--31142631",
+  "url": "https://news.ycombinator.com/item?id=31142631",
+  "headline": "Ask HN: What's a global, low throughput, low latency message bus service?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm looking for a SaaS solution where I can send 10msgs a day per endpoint, but with &lt;1s latency to deliver.<p>I need the ad-hoc, independent queues to be trivially created based on a shared publisher/consumer key and I don't care about persistence - if a msg is not delivered immediately, it should be dropped. All endpoints are behind Nat, so some polling is required.<p>Is there a service that would help me here? SNS almost works, but creating/restricting individual queues ad-hoc makes it more work than I want to deal with. Can something else provide a trivial &quot;send(secret, queue name, message)&quot; and &quot;listen(secret, queue)&quot; functionality?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "viraptor",
+    "url": "https://news.ycombinator.com/user?id=viraptor"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31142631",
+  "sameAs": "https://news.ycombinator.com/item?id=31142631",
+  "dateCreated": "2022-04-24T10:11:07.577Z",
+  "datePublished": "2022-04-24T10:01:51.000Z",
+  "dateModified": "2022-04-24T10:11:07.577Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 什么是全球性、低吞吐量、低延迟的消息总线服务？",
+  "headline_zh-Hant": "Ask HN: 什麼是全球性、低吞吐量、低延遲的消息總線服務？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在寻找一个SaaS解决方案，我可以在每个端点每天发送10msgs，但要有&lt;1s的延迟才能送达。<p>我需要根据一个共享的发布者/消费者密钥来创建临时的、独立的队列，我不关心持久性--如果一个msg没有立即送达，它应该被放弃。所有的端点都在Nat后面，所以需要一些轮询。<p>是否有一个服务可以帮助我？SNS几乎是可行的，但临时创建/限制单个队列使它的工作量超过了我想处理的范围。能否有其他东西提供一个琐碎的&quot;send(secret, queue name, message)&quot; 和&quot;listen(secret, queue)&quot; 功能？",
+  "description_zh-Hant": "我正在尋找一個SaaS解決方案，我可以在每個端點每天發送10msgs，但要有&lt;1s的延遲才能送達。<p>我需要根據一個共享的發佈者/消費者密鑰來創建臨時的、獨立的隊列，我不關心持久性--如果一個msg沒有立即送達，它應該被放棄。所有的端點都在Nat後面，所以需要一些輪詢。<p>是否有一個服務可以幫助我？SNS幾乎是可行的，但臨時創建/限制單個隊列使它的工作量超過了我想處理的範圍。能否有其他東西提供一個瑣碎的&quot;send(secret, queue name, message)&quot; 和&quot;listen(secret, queue)&quot; 功能？"
+}
