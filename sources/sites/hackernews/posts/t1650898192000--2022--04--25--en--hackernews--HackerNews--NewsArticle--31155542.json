@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--25--en--hackernews--HackerNews--NewsArticle--31155542",
+  "url": "https://news.ycombinator.com/item?id=31155542",
+  "headline": "Launch HN: Echoes HQ (YC S21) – Developer-friendly activity reports",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN! I’m Arnaud, founder of Echoes HQ (<a href=\"https://echoeshq.com\" rel=\"nofollow\">https://echoeshq.com</a>). Echoes lets you connect engineering work to its intent directly from your product development tools, and uses this information to create activity reports that focus on the purpose of engineering work.<p>I've been an engineering manager for over a decade, and I know how hard it is to navigate the chaos of product development. Engineering management requires data — to inform decisions on priorities and hiring, and to communicate activity to our partners in other functions. But how software development insights are collected and used today is at odds with the developer’s experience. The data is typically gathered by enforcing heavyweight, one-size-fits-all processes, such as manual timesheets or mandatory tickets for every commit. Its use can easily turn into individual surveillance and misguided performance management. Indicators focused on efficiency of the development process alone perpetuate an outdated view of engineering as a &quot;feature factory&quot;. For all these reasons, we created Echoes. Echoes provides engineering organizations with the data they need to succeed, without compromising the developer experience.<p>Many existing solutions collect data from GitHub and issue trackers to produce insights, but Echoes differs in important ways:<p>* We care about the purpose of engineering efforts over the efficiency of the development process. Purpose is defined in Echoes a the set of outcomes your are pursuing as an organization (e.g., reducing the onboarding time for your users) and the initiatives aiming to influence these outcomes (e.g., a templating feature). Echoes publishes this configuration to your development tools of choice (e.g., as repository labels on GitHub, as a custom issue field in JIRA, or labels in Linear) and allows to tag day-to-day efforts with their intent, consistently throughout the organization. Echoes’ focus on purpose makes the reports understandable beyond engineering, and shifts the conversation away from engineering productivity to the collective prioritization choices.<p>* We strive to answer engineering managers needs without compromising on developer experience, in its broadest sense. We believe that builders should pick the tools and workflows which make them most productive and that management needs should accommodate for that, not the other way around. Echoes’ contract is that engineering efforts be tagged with their intent, but leaves tooling and workflow choices to each team. The resulting reports are team-centric and never about the individuals.<p>Check out our website (<a href=\"https://echoeshq.com\" rel=\"nofollow\">https://echoeshq.com</a>) and introductory video (<a href=\"https://www.youtube.com/watch?v=Y2ochIr4obw#t=58s\" rel=\"nofollow\">https://www.youtube.com/watch?v=Y2ochIr4obw#t=58s</a>) to learn more. We offer free trials (no credit card required) if you’d like to give it a try.<p>We look forward to hearing your feedback and answering your questions. Many thanks!",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "icecrime",
+    "url": "https://news.ycombinator.com/user?id=icecrime"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31155542",
+  "sameAs": "https://news.ycombinator.com/item?id=31155542",
+  "dateCreated": "2022-04-25T14:49:52.000Z",
+  "datePublished": "2022-04-25T14:42:14.000Z",
+  "dateModified": "2022-04-25T14:49:52.000Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "启动HN：回声总部（YC S21）--方便开发者的活动报告",
+  "headline_zh-Hant": "啟動HN：回聲總部（YC S21）--方便開發者的活動報告",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi HN! I’m Arnaud, founder of Echoes HQ (<a href=\"https://echoeshq.com\" rel=\"nofollow\">https://echoeshq.com</a>). Echoes使您能够从您的产品开发工具中直接将工程工作与其意图联系起来，并利用这些信息创建活动报告，以关注工程工作的目的。<p>我担任工程经理已经超过十年，我知道在混乱的产品开发中导航是多么困难。工程管理需要数据--为有关优先事项和招聘的决策提供信息，并向我们其他职能部门的合作伙伴传达活动。但是，今天收集和使用软件开发洞察力的方式与开发人员的经验不一致。这些数据通常是通过强制执行重量级的、一刀切的流程来收集的，比如手工考勤表或每次提交的强制票据。它的使用很容易变成个人监视和误导性的绩效管理。仅仅关注开发过程的效率的指标，会使工程作为一个 \"功能工厂 \"的过时观点长期存在。出于所有这些原因，我们创建了Echoes。<p>许多现有的解决方案从GitHub和问题跟踪器中收集数据以产生洞察力，但Echoes在一些重要方面有所不同：<p>* 我们关心工程工作的目的，而不是开发过程的效率。在Echoes中，目的被定义为你作为一个组织所追求的一系列结果（例如，减少用户的上机时间）和旨在影响这些结果的举措（例如，模板功能）。Echoes将这种配置发布到你选择的开发工具上（例如，作为GitHub上的存储库标签，作为JIRA中的自定义问题字段，或Linear中的标签），并允许在整个组织内一致地将日常工作与他们的意图进行标记。Echoes对目的的关注使报告在工程之外也能被理解，并将对话从工程生产力转移到集体的优先选择上。<p>* 我们努力满足工程经理的需求，而不影响开发人员的体验，在最广泛的意义上。We believe that builders should pick the tools and workflows which make them most productive and that management needs should accommodate for that, not the other way around. Echoes’ contract is that engineering efforts be tagged with their intent, but leaves tooling and workflow choices to each team. <p>查看我们的网站（<a href=\"https://echoeshq.com\" rel=\"nofollow\">https://echoeshq.com</a>）和介绍性视频（<a href=\"https://www.youtube.com/watch?v=Y2ochIr4obw#t=58s\" rel=\"nofollow\">https://www.youtube.com/watch?v=Y2ochIr4obw#t=58s</a>）以了解更多信息。如果您想尝试一下，我们提供免费试用（无需信用卡）。<p>我们期待着听到您的反馈并回答您的问题。非常感谢!",
+  "description_zh-Hant": "Hi HN! I’m Arnaud, founder of Echoes HQ (<a href=\"https://echoeshq.com\" rel=\"nofollow\">https://echoeshq.com</a>). Echoes使您能夠從您的產品開發工具中直接將工程工作與其意圖聯繫起來，並利用這些信息創建活動報告，以關注工程工作的目的。<p>我擔任工程經理已經超過十年，我知道在混亂的產品開發中導航是多麼困難。工程管理需要數據--為有關優先事項和招聘的決策提供信息，並向我們其他職能部門的合作伙伴傳達活動。但是，今天收集和使用軟件開發洞察力的方式與開發人員的經驗不一致。這些數據通常是通過強制執行重量級的、一刀切的流程來收集的，比如手工考勤表或每次提交的強制票據。它的使用很容易變成個人監視和誤導性的績效管理。僅僅關注開發過程的效率的指標，會使工程作為一個 \"功能工廠 \"的過時觀點長期存在。出於所有這些原因，我們創建了Echoes。<p>許多現有的解決方案從GitHub和問題跟蹤器中收集數據以產生洞察力，但Echoes在一些重要方面有所不同：<p>* 我們關心工程工作的目的，而不是開發過程的效率。在Echoes中，目的被定義為你作為一個組織所追求的一系列結果（例如，減少用戶的上機時間）和旨在影響這些結果的舉措（例如，模板功能）。Echoes將這種配置發佈到你選擇的開發工具上（例如，作為GitHub上的存儲庫標籤，作為JIRA中的自定義問題字段，或Linear中的標籤），並允許在整個組織內一致地將日常工作與他們的意圖進行標記。Echoes對目的的關注使報告在工程之外也能被理解，並將對話從工程生產力轉移到集體的優先選擇上。<p>* 我們努力滿足工程經理的需求，而不影響開發人員的體驗，在最廣泛的意義上。We believe that builders should pick the tools and workflows which make them most productive and that management needs should accommodate for that, not the other way around. Echoes’ contract is that engineering efforts be tagged with their intent, but leaves tooling and workflow choices to each team. <p>查看我們的網站（<a href=\"https://echoeshq.com\" rel=\"nofollow\">https://echoeshq.com</a>）和介紹性視頻（<a href=\"https://www.youtube.com/watch?v=Y2ochIr4obw#t=58s\" rel=\"nofollow\">https://www.youtube.com/watch?v=Y2ochIr4obw#t=58s</a>）以瞭解更多信息。如果您想嘗試一下，我們提供免費試用（無需信用卡）。<p>我們期待著聽到您的反饋並回答您的問題。非常感謝!"
+}
