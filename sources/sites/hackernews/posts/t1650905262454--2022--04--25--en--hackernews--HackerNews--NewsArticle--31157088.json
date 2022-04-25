@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--25--en--hackernews--HackerNews--NewsArticle--31157088",
+  "url": "https://news.ycombinator.com/item?id=31157088",
+  "headline": "New Lidar System Promises 3D Vision for Cameras, Cars, and Bots",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rbanffy",
+    "url": "https://news.ycombinator.com/user?id=rbanffy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31157088",
+  "sameAs": "https://spectrum.ieee.org/solid-state-lidar-2657187384",
+  "dateCreated": "2022-04-25T16:47:42.454Z",
+  "datePublished": "2022-04-25T16:25:14.000Z",
+  "dateModified": "2022-04-25T16:47:42.454Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "新的激光雷达系统有望为摄像头、汽车和机器人提供3D视觉效果",
+  "headline_zh-Hant": "新的激光雷達系統有望為攝像頭、汽車和機器人提供3D視覺效果",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
