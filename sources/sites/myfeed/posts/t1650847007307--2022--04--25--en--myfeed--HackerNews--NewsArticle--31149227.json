@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--25--en--myfeed--HackerNews--NewsArticle--31149227",
+  "url": "https://news.ycombinator.com/item?id=31149227",
+  "headline": "Is it worth being wise? (2007)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ZainRiz",
+    "url": "https://news.ycombinator.com/user?id=ZainRiz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31149227",
+  "sameAs": "http://paulgraham.com/wisdom.html",
+  "dateCreated": "2022-04-25T00:36:47.307Z",
+  "datePublished": "2022-04-24T23:26:26.000Z",
+  "dateModified": "2022-04-25T00:36:47.307Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "是否值得明智？(2007)",
+  "headline_zh-Hant": "是否值得明智？(2007)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
