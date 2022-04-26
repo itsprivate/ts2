@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--26--en--myfeed--HackerNews--NewsArticle--31167083",
+  "url": "https://news.ycombinator.com/item?id=31167083",
+  "headline": "What Twitter employees are saying about Elon Musk",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "CarCooler",
+    "url": "https://news.ycombinator.com/user?id=CarCooler"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31167083",
+  "sameAs": "https://www.theverge.com/23042020/twitter-employees-elon-musk-buyout-slack",
+  "dateCreated": "2022-04-26T13:49:53.809Z",
+  "datePublished": "2022-04-26T13:15:29.000Z",
+  "dateModified": "2022-04-26T13:49:53.809Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "推特员工对埃隆-马斯克的评价",
+  "headline_zh-Hant": "推特員工對埃隆-馬斯克的評價",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--26--en--askhn--HackerNews--NewsArticle--31167029",
+  "url": "https://news.ycombinator.com/item?id=31167029",
+  "headline": "Ask HN: LastPass - How encryption works for shared entries?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "LastPass and I'm sure many other password managers claim that they encrypt and decrypt the data ONLY on your local device and that master key is never sent to LastPass servers - https://www.lastpass.com/how-lastpass-works \nMy question is: How the password that's encrypted on my device using my own key can be decrypted by other people with whom I shared that entry with ?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "trojanski",
+    "url": "https://news.ycombinator.com/user?id=trojanski"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31167029",
+  "sameAs": "https://news.ycombinator.com/item?id=31167029",
+  "dateCreated": "2022-04-26T13:49:52.444Z",
+  "datePublished": "2022-04-26T13:09:34.000Z",
+  "dateModified": "2022-04-26T13:49:52.444Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: LastPass - 共享条目的加密是如何进行的？",
+  "headline_zh-Hant": "Ask HN: LastPass - 共享條目的加密是如何進行的？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "LastPass和我确信许多其他密码管理器声称，他们只在您的本地设备上加密和解密数据，主密钥从未被发送到LastPass服务器 - https://www.lastpass.com/how-lastpass-works \n我的问题是：在我的设备上使用我自己的密钥加密的密码，如何被其他与我分享该条目的人解密？",
+  "description_zh-Hant": "LastPass和我確信許多其他密碼管理器聲稱，他們只在您的本地設備上加密和解密數據，主密鑰從未被髮送到LastPass服務器 - https://www.lastpass.com/how-lastpass-works \n我的問題是：在我的設備上使用我自己的密鑰加密的密碼，如何被其他與我分享該條目的人解密？"
+}
