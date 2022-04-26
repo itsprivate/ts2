@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--26--en--myfeed--HackerNews--NewsArticle--31162568",
+  "url": "https://news.ycombinator.com/item?id=31162568",
+  "headline": "Innate immune suppression by SARS-CoV-2 mRNA vaccinations",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cbxyp",
+    "url": "https://news.ycombinator.com/user?id=cbxyp"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31162568",
+  "sameAs": "https://www.sciencedirect.com/science/article/pii/S027869152200206X",
+  "dateCreated": "2022-04-26T02:51:43.969Z",
+  "datePublished": "2022-04-26T00:24:08.000Z",
+  "dateModified": "2022-04-26T02:51:43.969Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "SARS-CoV-2 mRNA疫苗的先天免疫抑制作用",
+  "headline_zh-Hant": "SARS-CoV-2 mRNA疫苗的先天免疫抑制作用",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
