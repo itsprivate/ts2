@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--26--en--myfeed--HackerNews--NewsArticle--31173106",
+  "url": "https://news.ycombinator.com/item?id=31173106",
+  "headline": "SpaceX: Can meat be grown in space?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "serverlessmom",
+    "url": "https://news.ycombinator.com/user?id=serverlessmom"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31173106",
+  "sameAs": "https://www.bbc.com/news/technology-61116018",
+  "dateCreated": "2022-04-26T22:10:48.523Z",
+  "datePublished": "2022-04-26T21:00:24.000Z",
+  "dateModified": "2022-04-26T22:10:48.523Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "SpaceX公司。肉类可以在太空中生长吗？",
+  "headline_zh-Hant": "SpaceX公司。肉類可以在太空中生長嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
