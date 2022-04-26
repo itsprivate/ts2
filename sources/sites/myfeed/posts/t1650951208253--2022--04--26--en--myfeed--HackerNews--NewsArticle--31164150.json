@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--26--en--myfeed--HackerNews--NewsArticle--31164150",
+  "url": "https://news.ycombinator.com/item?id=31164150",
+  "headline": "The Twitter Ranking Algorithm",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "JonathanBeuys",
+    "url": "https://news.ycombinator.com/user?id=JonathanBeuys"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31164150",
+  "sameAs": "https://dl.acm.org/doi/pdf/10.1145/3394486.3403370",
+  "dateCreated": "2022-04-26T05:33:28.253Z",
+  "datePublished": "2022-04-26T05:07:33.000Z",
+  "dateModified": "2022-04-26T05:33:28.253Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "推特的排名算法",
+  "headline_zh-Hant": "推特的排名算法",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
