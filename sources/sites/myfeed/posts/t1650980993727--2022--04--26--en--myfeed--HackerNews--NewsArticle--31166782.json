@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--26--en--myfeed--HackerNews--NewsArticle--31166782",
+  "url": "https://news.ycombinator.com/item?id=31166782",
+  "headline": "FAA investigating plane-swap stunt that resulted in crash",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pseudolus",
+    "url": "https://news.ycombinator.com/user?id=pseudolus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31166782",
+  "sameAs": "https://www.cnn.com/2022/04/25/us/arizona-plane-swap-stunt-crash/index.html",
+  "dateCreated": "2022-04-26T13:49:53.727Z",
+  "datePublished": "2022-04-26T12:45:42.000Z",
+  "dateModified": "2022-04-26T13:49:53.727Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "美国联邦航空局正在调查导致飞机坠毁的飞机交换特技",
+  "headline_zh-Hant": "美國聯邦航空局正在調查導致飛機墜毀的飛機交換特技",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
