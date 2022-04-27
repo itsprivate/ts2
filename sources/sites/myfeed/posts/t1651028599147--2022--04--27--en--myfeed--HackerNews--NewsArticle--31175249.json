@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--27--en--myfeed--HackerNews--NewsArticle--31175249",
+  "url": "https://news.ycombinator.com/item?id=31175249",
+  "headline": "Russia Is Losing a War Against Hackers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "webmaven",
+    "url": "https://news.ycombinator.com/user?id=webmaven"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31175249",
+  "sameAs": "https://theintercept.com/2022/04/22/russia-hackers-leaked-data-ukraine-war/",
+  "dateCreated": "2022-04-27T03:03:19.147Z",
+  "datePublished": "2022-04-27T01:36:57.000Z",
+  "dateModified": "2022-04-27T03:03:19.147Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "俄罗斯正在输掉一场对抗黑客的战争",
+  "headline_zh-Hant": "俄羅斯正在輸掉一場對抗黑客的戰爭",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
