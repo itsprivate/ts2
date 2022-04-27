@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--27--en--myfeed--HackerNews--NewsArticle--31175111",
+  "url": "https://news.ycombinator.com/item?id=31175111",
+  "headline": "Twitter follower counts over the past 24-48 hours",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "TrispusAttucks",
+    "url": "https://news.ycombinator.com/user?id=TrispusAttucks"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31175111",
+  "sameAs": "https://twitter.com/TyCardon/status/1519067389110853633",
+  "dateCreated": "2022-04-27T03:03:19.121Z",
+  "datePublished": "2022-04-27T01:11:18.000Z",
+  "dateModified": "2022-04-27T03:03:19.121Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 33
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 41
+    }
+  ],
+  "headline_zh-Hans": "过去24-48小时内的推特粉丝数",
+  "headline_zh-Hant": "過去24-48小時內的推特粉絲數",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
