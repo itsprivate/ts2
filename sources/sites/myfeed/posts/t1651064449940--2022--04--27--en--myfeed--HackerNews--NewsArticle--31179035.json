@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--04--25--en--myfeed--HackerNews--NewsArticle--31153434",
-  "url": "https://news.ycombinator.com/item?id=31153434",
-  "headline": "Low-Latency, High-Throughput Garbage Collection [pdf]",
+  "identifier": "2022--04--27--en--myfeed--HackerNews--NewsArticle--31179035",
+  "url": "https://news.ycombinator.com/item?id=31179035",
+  "headline": "A thread-safe queue faster than native Golang channels",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,14 +13,14 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "todsacerdoti",
-    "url": "https://news.ycombinator.com/user?id=todsacerdoti"
+    "name": "alphadoze",
+    "url": "https://news.ycombinator.com/user?id=alphadoze"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=31153434",
-  "sameAs": "https://users.cecs.anu.edu.au/~steveb/pubs/papers/lxr-pldi-2022.pdf",
-  "dateCreated": "2022-04-25T12:57:40.991Z",
-  "datePublished": "2022-04-25T12:21:18.000Z",
-  "dateModified": "2022-04-25T12:57:40.991Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31179035",
+  "sameAs": "https://github.com/alphadose/ZenQ",
+  "dateCreated": "2022-04-27T13:00:49.940Z",
+  "datePublished": "2022-04-27T12:27:17.000Z",
+  "dateModified": "2022-04-27T13:00:49.940Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
@@ -37,8 +37,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "低延迟、高吞吐量的垃圾收集 [pdf]",
-  "headline_zh-Hant": "低延遲、高吞吐量的垃圾收集 [pdf]",
+  "headline_zh-Hans": "一个比本地Golang通道更快的线程安全队列",
+  "headline_zh-Hant": "一個比本地Golang通道更快的線程安全隊列",
   "@context": [
     "https://schema.org",
     {
