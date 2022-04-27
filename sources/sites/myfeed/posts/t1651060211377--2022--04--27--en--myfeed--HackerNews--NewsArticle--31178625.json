@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--27--en--myfeed--HackerNews--NewsArticle--31178625",
+  "url": "https://news.ycombinator.com/item?id=31178625",
+  "headline": "German car driver lobby ADAC calls for cycling",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "penner_im_auto",
+    "url": "https://news.ycombinator.com/user?id=penner_im_auto"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31178625",
+  "sameAs": "https://www.spiegel.de/wirtschaft/service/appell-zum-spritsparen-adac-ruft-zum-fahrradfahren-auf-a-d9cd1256-1391-4937-8233-522d3825c022",
+  "dateCreated": "2022-04-27T11:50:11.377Z",
+  "datePublished": "2022-04-27T11:31:45.000Z",
+  "dateModified": "2022-04-27T11:50:11.377Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "德国汽车司机游说团体ADAC呼吁开展自行车运动",
+  "headline_zh-Hant": "德國汽車司機遊說團體ADAC呼籲開展自行車運動",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
