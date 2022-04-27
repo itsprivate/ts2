@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--27--en--myfeed--HackerNews--NewsArticle--31176687",
+  "url": "https://news.ycombinator.com/item?id=31176687",
+  "headline": "Share Your Spotify Playlist on Discord",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "peter0629",
+    "url": "https://news.ycombinator.com/user?id=peter0629"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31176687",
+  "sameAs": "https://echoshare.co/discord-spotify-bot/",
+  "dateCreated": "2022-04-27T06:39:36.325Z",
+  "datePublished": "2022-04-27T05:35:36.000Z",
+  "dateModified": "2022-04-27T06:39:36.325Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在 Discord 上分享您的 Spotify 播放列表",
+  "headline_zh-Hant": "在 Discord 上分享您的 Spotify 播放列表",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
