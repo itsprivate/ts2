@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--04--24--en--myfeed--HackerNews--NewsArticle--31148674",
-  "url": "https://news.ycombinator.com/item?id=31148674",
-  "headline": "An Introduction to the Unix Shell [pdf]",
+  "identifier": "2022--04--27--en--showhn--HackerNews--NewsArticle--31174778",
+  "url": "https://news.ycombinator.com/item?id=31174778",
+  "headline": "Show HN: Oldest Search – Search for the oldest result on internet",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,17 +10,20 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "todsacerdoti",
-    "url": "https://news.ycombinator.com/user?id=todsacerdoti"
+    "name": "jarrenae",
+    "url": "https://news.ycombinator.com/user?id=jarrenae"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=31148674",
-  "sameAs": "https://cscie26.dce.harvard.edu/~dce-lib113/reference/unix/bourne_shell.pdf",
-  "dateCreated": "2022-04-24T23:30:52.387Z",
-  "datePublished": "2022-04-24T21:51:17.000Z",
-  "dateModified": "2022-04-24T23:30:52.387Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31174778",
+  "sameAs": "https://www.oldestsearch.com/",
+  "dateCreated": "2022-04-27T00:48:20.179Z",
+  "datePublished": "2022-04-27T00:18:07.000Z",
+  "dateModified": "2022-04-27T00:48:20.179Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
@@ -34,11 +37,11 @@
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 2
     }
   ],
-  "headline_zh-Hans": "壳牌公司简介 [pdf]",
-  "headline_zh-Hant": "殼牌公司簡介 [pdf]",
+  "headline_zh-Hans": "Show HN: 最古老的搜索 - 搜索互联网上最古老的结果",
+  "headline_zh-Hant": "Show HN: 最古老的搜索 - 搜索互聯網上最古老的結果",
   "@context": [
     "https://schema.org",
     {
