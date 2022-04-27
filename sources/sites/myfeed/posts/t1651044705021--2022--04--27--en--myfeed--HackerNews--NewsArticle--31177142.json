@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--27--en--myfeed--HackerNews--NewsArticle--31177142",
+  "url": "https://news.ycombinator.com/item?id=31177142",
+  "headline": "My YouTube Viewing Habits",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jger15",
+    "url": "https://news.ycombinator.com/user?id=jger15"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31177142",
+  "sameAs": "https://marginalrevolution.com/marginalrevolution/2022/04/my-youtube-viewing-habits.html",
+  "dateCreated": "2022-04-27T07:31:45.021Z",
+  "datePublished": "2022-04-27T07:07:09.000Z",
+  "dateModified": "2022-04-27T07:31:45.021Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我的YouTube观看习惯",
+  "headline_zh-Hant": "我的YouTube觀看習慣",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
