@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--27--en--askhn--HackerNews--NewsArticle--31183763",
+  "url": "https://news.ycombinator.com/item?id=31183763",
+  "headline": "Ask HN: Bank with Yubikey support?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Yesterday I got an SMS 2FA text from my bank for a login attempt that I did not trigger. I changed my password, alerted my bank, and have been checking my account balance every few minutes it seems, but luckily everything seems fine.<p>The experience got me thinking, because the SMS 2FA was seemingly the last defense saving my account from a breach. My bank doesn't offer a stronger form of 2FA—neither TOTP nor any form of U2F.<p>Meanwhile, I really love Yubikeys; I have one plugged into every laptop I own (work and personal). I use Touch ID or Face ID on sites I access frequently from mobile.<p>It seems that the one place where U2F would be really impactful is online banking, but I've struggled figuring out which banks support strong 2FA without first creating an account with the bank.<p>Does your bank offer U2F, FIDO2, WebAuthn or any other form of hardware security token mechanism for logins? Have you had otherwise positive or negative experiences with the bank overall?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "jez",
+    "url": "https://news.ycombinator.com/user?id=jez"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31183763",
+  "sameAs": "https://news.ycombinator.com/item?id=31183763",
+  "dateCreated": "2022-04-27T18:38:20.676Z",
+  "datePublished": "2022-04-27T18:20:14.000Z",
+  "dateModified": "2022-04-27T18:38:20.676Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 有Yubikey支持的银行？",
+  "headline_zh-Hant": "Ask HN: 有Yubikey支持的銀行？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "昨天我收到了我的银行发来的2FA短信，因为我没有触发一个登录尝试。我修改了密码，提醒了银行，并且似乎每隔几分钟就检查一次我的账户余额，但幸运的是，一切似乎都很好。<p>这次经历让我思考，因为短信2FA似乎是挽救我的账户免遭入侵的最后一道防线。我的银行不提供更强大的2FA形式--无论是TOTP还是任何形式的U2F。<p>同时，我真的很喜欢Yubikeys；我在我的每一台笔记本电脑上都插了一个（工作和个人）。<p>看来，U2F真正有影响的地方是网上银行，但我一直在努力寻找哪些银行支持强大的2FA，而不用先在银行创建一个账户。<p>你的银行是否提供U2F、FIDO2、WebAuthn或任何其他形式的硬件安全令牌机制用于登录？你对银行总体上有其他积极或消极的经验吗？",
+  "description_zh-Hant": "昨天我收到了我的銀行發來的2FA短信，因為我沒有觸發一個登錄嘗試。我修改了密碼，提醒了銀行，並且似乎每隔幾分鐘就檢查一次我的賬戶餘額，但幸運的是，一切似乎都很好。<p>這次經歷讓我思考，因為短信2FA似乎是挽救我的賬戶免遭入侵的最後一道防線。我的銀行不提供更強大的2FA形式--無論是TOTP還是任何形式的U2F。<p>同時，我真的很喜歡Yubikeys；我在我的每一臺筆記本電腦上都插了一個（工作和個人）。<p>看來，U2F真正有影響的地方是網上銀行，但我一直在努力尋找哪些銀行支持強大的2FA，而不用先在銀行創建一個賬戶。<p>你的銀行是否提供U2F、FIDO2、WebAuthn或任何其他形式的硬件安全令牌機制用於登錄？你對銀行總體上有其他積極或消極的經驗嗎？"
+}
