@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--27--en--myfeed--HackerNews--NewsArticle--31181794",
+  "url": "https://news.ycombinator.com/item?id=31181794",
+  "headline": "Interview with EdgeDB CEO: Yury Selivanov",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "TheMadHatter76",
+    "url": "https://news.ycombinator.com/user?id=TheMadHatter76"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31181794",
+  "sameAs": "https://www.youtube.com/watch?v=ZDGEz6oY-nw",
+  "dateCreated": "2022-04-27T16:51:26.993Z",
+  "datePublished": "2022-04-27T16:06:04.000Z",
+  "dateModified": "2022-04-27T16:51:26.993Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "采访EdgeDB首席执行官：Yury Selivanov",
+  "headline_zh-Hant": "採訪EdgeDB首席執行官：Yury Selivanov",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

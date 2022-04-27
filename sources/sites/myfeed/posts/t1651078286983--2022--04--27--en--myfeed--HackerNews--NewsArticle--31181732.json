@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--27--en--myfeed--HackerNews--NewsArticle--31181732",
+  "url": "https://news.ycombinator.com/item?id=31181732",
+  "headline": "How to setup a blog with Hugo and Deno Deploy",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lambtron",
+    "url": "https://news.ycombinator.com/user?id=lambtron"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31181732",
+  "sameAs": "https://deno.com/blog/hugo-blog-with-deno-deploy",
+  "dateCreated": "2022-04-27T16:51:26.983Z",
+  "datePublished": "2022-04-27T16:02:04.000Z",
+  "dateModified": "2022-04-27T16:51:26.983Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "如何用Hugo和Deno Deploy建立一个博客",
+  "headline_zh-Hant": "如何用Hugo和Deno Deploy建立一個博客",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
