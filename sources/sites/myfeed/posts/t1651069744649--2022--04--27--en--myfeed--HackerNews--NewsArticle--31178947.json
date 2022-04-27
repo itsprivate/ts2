@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--27--en--myfeed--HackerNews--NewsArticle--31178947",
+  "url": "https://news.ycombinator.com/item?id=31178947",
+  "headline": "The original Utah teapot(1.4L) is in stock",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "numpad0",
+    "url": "https://news.ycombinator.com/user?id=numpad0"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31178947",
+  "sameAs": "https://frieslandversand.de/teekanne-1-4l-weiss-utah-teapot",
+  "dateCreated": "2022-04-27T14:29:04.649Z",
+  "datePublished": "2022-04-27T12:14:59.000Z",
+  "dateModified": "2022-04-27T14:29:04.649Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "原有的犹他州茶壶（1.4L）有库存",
+  "headline_zh-Hant": "原有的猶他州茶壺（1.4L）有庫存",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
