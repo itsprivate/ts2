@@ -1,0 +1,40 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--28--en--myfeed--HackerNews--NewsArticle--31196852",
+  "url": "https://news.ycombinator.com/item?id=31196852",
+  "headline": "Critical Vulnerabilities in Microsoft Azure PostgreSQL",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Security researchers at Wiz discovered critical vulnerabilities in Azure Database for PostgreSQL Flexible Server (Dubbed ExtraReplica). These vulnerabilities allowed unauthorized read access to other customers’ PostgreSQL database.<p>From Microsoft's advisory: &quot;All Flexible Server Postgres servers deployed using the public access networking option were impacted with this security vulnerability. Customers using the private access networking option were not exposed to this vulnerability. The Single Server offering of Postgres was not impacted. Our analysis revealed no customer data was accessed using this vulnerability. Azure updated all Flexible Servers to fix this vulnerability. No action is required by customers. In order to further minimize exposure, we recommend that customers enable private network access when setting up their Flexible Server instances.&quot;<p>Research group blogpost: https://www.wiz.io/blog/wiz-research-discovers-extrareplica-cross-account-database-vulnerability-in-azure-postgresql/<p>Microsoft's advisory: https://msrc-blog.microsoft.com/2022/04/28/azure-database-for-postgresql-flexible-server-privilege-escalation-and-remote-code-execution",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nurnarley",
+    "url": "https://news.ycombinator.com/user?id=nurnarley"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31196852",
+  "sameAs": "https://news.ycombinator.com/item?id=31196852",
+  "dateCreated": "2022-04-28T19:26:42.054Z",
+  "datePublished": "2022-04-28T19:08:33.000Z",
+  "dateModified": "2022-04-28T19:26:42.054Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
