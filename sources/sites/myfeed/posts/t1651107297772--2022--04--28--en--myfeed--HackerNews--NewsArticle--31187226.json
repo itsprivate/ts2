@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--28--en--myfeed--HackerNews--NewsArticle--31187226",
+  "url": "https://news.ycombinator.com/item?id=31187226",
+  "headline": "Explorer: Dataframes for Elixir",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cigrainger",
+    "url": "https://news.ycombinator.com/user?id=cigrainger"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31187226",
+  "sameAs": "https://www.cigrainger.com/introducing-explorer/",
+  "dateCreated": "2022-04-28T00:54:57.772Z",
+  "datePublished": "2022-04-27T23:49:41.000Z",
+  "dateModified": "2022-04-28T00:54:57.772Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "探索者。Elixir的数据框架",
+  "headline_zh-Hant": "探索者。Elixir的數據框架",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

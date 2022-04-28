@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--28--en--myfeed--HackerNews--NewsArticle--31186294",
+  "url": "https://news.ycombinator.com/item?id=31186294",
+  "headline": "Chibi Scheme – Minimal Scheme Implementation for Use as an Extension Language",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gjvc",
+    "url": "https://news.ycombinator.com/user?id=gjvc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31186294",
+  "sameAs": "https://github.com/ashinn/chibi-scheme",
+  "dateCreated": "2022-04-28T00:54:57.712Z",
+  "datePublished": "2022-04-27T21:55:40.000Z",
+  "dateModified": "2022-04-28T00:54:57.712Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Chibi Scheme - 作为扩展语言使用的最小化Scheme实现",
+  "headline_zh-Hant": "Chibi Scheme - 作為擴展語言使用的最小化Scheme實現",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
