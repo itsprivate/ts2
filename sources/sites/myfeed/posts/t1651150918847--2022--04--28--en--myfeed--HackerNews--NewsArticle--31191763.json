@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--28--en--myfeed--HackerNews--NewsArticle--31191763",
+  "url": "https://news.ycombinator.com/item?id=31191763",
+  "headline": "Plomb Tools",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "omilu",
+    "url": "https://news.ycombinator.com/user?id=omilu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31191763",
+  "sameAs": "http://www.vannattabros.com/plomb/plombtool.html",
+  "dateCreated": "2022-04-28T13:01:58.847Z",
+  "datePublished": "2022-04-28T12:41:19.000Z",
+  "dateModified": "2022-04-28T13:01:58.847Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Plomb工具",
+  "headline_zh-Hant": "Plomb工具",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

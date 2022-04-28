@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--28--en--myfeed--HackerNews--NewsArticle--31191675",
+  "url": "https://news.ycombinator.com/item?id=31191675",
+  "headline": "Zelensky's World",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "epaga",
+    "url": "https://news.ycombinator.com/user?id=epaga"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31191675",
+  "sameAs": "https://time.com/6171277/volodymyr-zelensky-interview-ukraine-war/",
+  "dateCreated": "2022-04-28T13:01:58.776Z",
+  "datePublished": "2022-04-28T12:29:08.000Z",
+  "dateModified": "2022-04-28T13:01:58.776Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "泽伦斯基的世界",
+  "headline_zh-Hant": "澤倫斯基的世界",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
