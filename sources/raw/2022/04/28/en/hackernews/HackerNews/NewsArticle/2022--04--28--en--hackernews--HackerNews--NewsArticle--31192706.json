@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--28--en--hackernews--HackerNews--NewsArticle--31192706",
+  "url": "https://news.ycombinator.com/item?id=31192706",
+  "headline": "Is there a good framework for an interactive user manual?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I need to deliver a technical user guide for field technicians to follow for configuring some devices. The current solution is a word doc which requires some brain power to fill in appropriate values (naming, IP, etc) as you progress in the steps.<p>I'd like to replace this with some kind of self-contained HTML where they can fill in the &quot;variables&quot; at the top and have it auto-generate throughout the doc.  This is pretty simple with HTML/JS, but the code can get messy if not done right.<p>Is there some framework like ReadTheDocs where I can easily write out RsT or Markdown, inserting variables with jinja2 (as an example) that can be input in an input field, and have it dynamically render live in-browser (which I believe then rules Sphinx out)?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "core-utility",
+    "url": "https://news.ycombinator.com/user?id=core-utility"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31192706",
+  "sameAs": "https://news.ycombinator.com/item?id=31192706",
+  "dateCreated": "2022-04-28T14:37:25.772Z",
+  "datePublished": "2022-04-28T14:14:38.000Z",
+  "dateModified": "2022-04-28T14:37:25.772Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ]
+}
