@@ -1,0 +1,40 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--29--en--myfeed--HackerNews--NewsArticle--31205708",
+  "url": "https://news.ycombinator.com/item?id=31205708",
+  "headline": "Tell HN: Gmail flagged my Firefox account MFA email as “dangerous”",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I recently attempted to log into a new Firefox instance with my Firefox account. As expected, I received an email with a verification code from accounts@firefox.com to my gmail account as part of the login flow.<p>This email was flagged by gmail. Above the body of the message, gmail inserted a scary looking red banner with the following text:<p>This message seems dangerous\nSimilar messages were used to steal people's personal information. Avoid clicking links, downloading attachments, or replying with personal information.<p>A link with the text &quot;Looks safe&quot; was presented (which I did click).<p>I made sure to check all the headers in the original message, and everything looked correct.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "JeremyNT",
+    "url": "https://news.ycombinator.com/user?id=JeremyNT"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31205708",
+  "sameAs": "https://news.ycombinator.com/item?id=31205708",
+  "dateCreated": "2022-04-29T14:50:03.497Z",
+  "datePublished": "2022-04-29T14:36:12.000Z",
+  "dateModified": "2022-04-29T14:50:03.497Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
