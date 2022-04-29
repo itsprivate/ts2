@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--29--en--askhn--HackerNews--NewsArticle--31204859",
+  "url": "https://news.ycombinator.com/item?id=31204859",
+  "headline": "Why Use an URL Shortener?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "After reading about the `git.io` deprecation, I see that Github recommend using another URL shortener service.<p>But I'm wondering, why would you use such a service? I know Twitter and LinkedIn automatically shortens the URLs you post with a service they own that is completely integrated with their social network.<p>Twitter do this because the length of a tweet is limited. LinkedIn do this for tracking I guess?<p>But let's assume you're not Twitter or LinkedIn or any major social network. What are the pros to relying on such services?<p>The cons I see are:<p><pre><code>  - hide the real website behind an URL\n  - adds an extra redirection/DNS query\n  - hard to remember URL based on a hash\n</code></pre>\nScientific papers referencing shortened URLs is pretty shocking to me for those reasons. But, I must just be missing the pros, right?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "linkdd",
+    "url": "https://news.ycombinator.com/user?id=linkdd"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31204859",
+  "sameAs": "https://news.ycombinator.com/item?id=31204859",
+  "dateCreated": "2022-04-29T13:39:02.765Z",
+  "datePublished": "2022-04-29T13:32:26.000Z",
+  "dateModified": "2022-04-29T13:39:02.765Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
