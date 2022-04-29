@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--29--en--hackernews--HackerNews--NewsArticle--31204523",
+  "url": "https://news.ycombinator.com/item?id=31204523",
+  "headline": "CLI Tool for File Encryption?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I recently came across sigtool[1] which on the surface looks like a slightly more well defined tool/format for encryption than age[2].<p>And they both attempt to be simpler, more modern than gnupg[3] and easier to use than eg: openssl[4].<p>Which tool do you use/recommend for encrypting files, and why?<p>My primary use case is for backups - but interested in other use-cases as well.<p>[1] https://github.com/opencoff/sigtool<p>[2] https://github.com/FiloSottile/age<p>[3] https://gnupg.org/<p>[4] https://wiki.openssl.org/index.php/Enc",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "e12e",
+    "url": "https://news.ycombinator.com/user?id=e12e"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31204523",
+  "sameAs": "https://news.ycombinator.com/item?id=31204523",
+  "dateCreated": "2022-04-29T13:39:04.544Z",
+  "datePublished": "2022-04-29T13:00:49.000Z",
+  "dateModified": "2022-04-29T13:39:04.544Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ]
+}
