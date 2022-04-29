@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--29--en--showhn--HackerNews--NewsArticle--31202946",
+  "url": "https://news.ycombinator.com/item?id=31202946",
+  "headline": "Repro – the time-travel web inspector",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN! I'm Gary, the creator of Repro (<a href=\"https://repro.dev\" rel=\"nofollow\">https://repro.dev</a>), the time-travel web inspector for replayable, shareable bug reports. It is available as a free Chrome extension today (support for other browsers is coming soon).<p>I started building Repro as I was frustrated by the state of tools and processes for sharing feedback and bug reports during web development. Screenshots, videos and written bug reports can certainly be helpful, but they are inconsistently used and often do not give clear steps to reproduction.<p>Repro is an experiment in how far session recording can be an effective way for team members to communicate their feedback, both during development and on issues in production.<p>It's at an early stage right now - the recording includes DOM mutations, styling and user interactions, but there is much more coming: console messages, network requests, performance reporting, commenting/discussion, etc.<p>How it works:<p>When the Repro extension is running, your browsing session in the current tab is recorded into a fixed-size, in-memory buffer (no data leaves your browser until you are ready to share). When you open the Repro inspector, the recorded events are replayed - and you can pause, rewind and inspect at any time!<p>If you want to save and share a recording, you can upload it to Repro's cloud storage. Your recording is end-to-end encrypted and a unique URL is generated for you to share.<p>For more detail or to download the Repro extension, go to <a href=\"https://repro.dev\" rel=\"nofollow\">https://repro.dev</a>. I would love to hear your feedback.<p>PS. Repro is free to use and no sign-up is required, but if you would like to be more involved in shaping the future of the product and its roadmap, please consider joining our early adopter program: <a href=\"https://forms.gle/CTGhWiyekU4sdCyB9\" rel=\"nofollow\">https://forms.gle/CTGhWiyekU4sdCyB9</a>. Or feel free to email me directly - gary [at] repro [dot] dev.<p>Thanks!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "gary_chambers",
+    "url": "https://news.ycombinator.com/user?id=gary_chambers"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31202946",
+  "sameAs": "https://repro.dev",
+  "dateCreated": "2022-04-29T08:55:51.639Z",
+  "datePublished": "2022-04-29T08:54:35.000Z",
+  "dateModified": "2022-04-29T08:55:51.639Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
