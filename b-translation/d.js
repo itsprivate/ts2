@@ -85,7 +85,7 @@ export default async (
   // await page.screenshot({ path: "data/buddy-screenshot.png" });
   await page.waitForSelector(originalSentenceField);
   await page.type(originalSentenceField, sentence);
-  // await page.screenshot({ path: "data/buddy-screenshot2.png" });
+  await page.screenshot({ path: "data/buddy-screenshot2.png" });
 
   const sentences = [];
   let _res = {};
@@ -136,7 +136,7 @@ export default async (
 
   // await page.screenshot({ path: "data/buddy-screenshot3.png" });
   // await page.waitForSelector(".lmt__rating", { visible: true });
-  // await page.screenshot({ path: "data/buddy-screenshot4.png" });
+  await page.screenshot({ path: "data/buddy-screenshot4.png" });
 
   // await page.waitForTimeout(500);
 
