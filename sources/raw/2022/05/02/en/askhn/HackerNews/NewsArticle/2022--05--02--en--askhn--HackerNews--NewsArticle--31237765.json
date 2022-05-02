@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--05--02--en--askhn--HackerNews--NewsArticle--31237765",
+  "url": "https://news.ycombinator.com/item?id=31237765",
+  "headline": "What (micro)service do you use to manage email and other messaging?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "You have a system broken into components. Some custom built, some off-the-shelf. Any of them might need to send a message to a customer. How do you manage:<p>* Tracking (and auditing) who is receiving what messages.<p>* Let customers manage their preferred contact method.<p>* Manage templates and UI centrally (e.g. email templates).<p>* Track GDPR and consent.<p>* Block if consent has been revoked.<p>For example: a basic web app with a keycloak server to handle auth (registration/password reset etc.). Keycloak has a simple smtp integration and hooks to customise templates. But, naturally enough, the web app needs to send emails too.<p>Is there a more scaleable way to manage consistency and tracking than 'just do it manually'?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "barryhennessy",
+    "url": "https://news.ycombinator.com/user?id=barryhennessy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31237765",
+  "sameAs": "https://news.ycombinator.com/item?id=31237765",
+  "dateCreated": "2022-05-02T17:19:04.883Z",
+  "datePublished": "2022-05-02T17:02:12.000Z",
+  "dateModified": "2022-05-02T17:19:04.883Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
