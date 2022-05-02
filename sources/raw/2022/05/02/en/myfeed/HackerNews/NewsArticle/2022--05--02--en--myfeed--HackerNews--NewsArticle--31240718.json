@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--05--02--en--myfeed--HackerNews--NewsArticle--31240718",
+  "url": "https://news.ycombinator.com/item?id=31240718",
+  "headline": "Run WASM in Containerd",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've been working with a partner team to integrate wasm workloads with existing container toolchains with the goal of enabling wasm workloads anywhere, be it on the edge, in kubernetes, or wherever.<p>To that end, this project implements a containerd shim which runs those wasm workloads.\nIt is designed as a library to bring your own host implementation, but also includes an implementation for WASI.\nRight now the library assumes you are using wasmtime, which is embedded in.<p>It works either standalone (run with containerd directly) or in kubernetes. Kubernetes networking and storage are wired into the wasm host and the wasm can run side by side with native workloads on the same machine. Wasm pods can be exposed as a service like any other pod.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "cpuguy83",
+    "url": "https://news.ycombinator.com/user?id=cpuguy83"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31240718",
+  "sameAs": "https://github.com/cpuguy83/runwasi",
+  "dateCreated": "2022-05-02T21:09:02.258Z",
+  "datePublished": "2022-05-02T20:47:36.000Z",
+  "dateModified": "2022-05-02T21:09:02.258Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
