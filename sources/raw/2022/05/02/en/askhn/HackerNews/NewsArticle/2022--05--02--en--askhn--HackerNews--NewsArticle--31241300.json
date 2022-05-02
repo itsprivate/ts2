@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--05--02--en--askhn--HackerNews--NewsArticle--31241300",
+  "url": "https://news.ycombinator.com/item?id=31241300",
+  "headline": "Stripe is allowing an obviously fraudulent retailer to operate. Why?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "If you've searched for a PS5 for sale over the past 2 weeks, you will have seen a &quot;refurbished&quot; unit available for an unreasonably low price. I won't link it here but it's &quot;Net Discount Store.&quot;<p>It says there's &lt;60min left for the sale and counts down, but the counter just resets. This site also &quot;sells&quot; the most recent Airpod Pros for half of MRSP, and they were only released within the last few weeks.<p>Their checkout flow uses Stripe under the business name &quot;E Discount Mall,&quot; which tracing it down returns an identical site to the one above but with slightly different inventory.<p>Why is Stripe allowing this? They've been up for weeks and returning as the first result for &quot;ps5 in stock&quot; on the biggest search engine. Sadly Stripe doesn't seem to allow individuals to report businesses, saying that you must work through your credit card processor to dispute fraud. This kind of sucks because it requires you to put your funds on the line, and who knows what kind of dirty tactics will happen then.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "seattle_spring",
+    "url": "https://news.ycombinator.com/user?id=seattle_spring"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31241300",
+  "sameAs": "https://news.ycombinator.com/item?id=31241300",
+  "dateCreated": "2022-05-02T21:50:58.242Z",
+  "datePublished": "2022-05-02T21:42:12.000Z",
+  "dateModified": "2022-05-02T21:50:58.242Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
