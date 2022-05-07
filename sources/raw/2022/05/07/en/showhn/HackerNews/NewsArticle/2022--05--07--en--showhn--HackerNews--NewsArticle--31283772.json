@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--05--07--en--showhn--HackerNews--NewsArticle--31283772",
+  "url": "https://news.ycombinator.com/item?id=31283772",
+  "headline": "A tool to organize, streamline and share your music discoveries",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I love music and I'm always trying to discover new music that I can enjoy. In the past years I was using a fairly tedious process of organizing the music albums (or DJ sets, radio shows) in a few lists:<p>- Want to Listen<p>- Listened<p>- Listened (and liked)<p>I wanted to keep track of these lists, what I discovered each month/year and share all this activity and lists with my friends. For that, I was using a combination of tools that weren't made exactly for this job (Discogs+Spotify+IM apps), resulting in a cumbersome experience.<p>So a few months ago I started this hobby project, with the purpose of streamlining my process (make it as easy as possible) and making it fairly simple to share it with fellow music explorers.<p>The basic idea is that you add items to your &quot;Want to Listen&quot; list - these are music albums (or even mixes), that you want to listen. After you listened to them, you can mark them as &quot;Listened&quot; or &quot;Listened and liked&quot;. Your activity is then shared with your friends, and you have a public profile where this activity and your lists appear. You can think of it kinda like &quot;Goodreads but for music&quot;.<p>There are a few ways to add items to your lists (more to be added in the future):<p>- search by artist name or release title<p>- add using a Discogs release URL<p>- add using a Mixcloud URL<p>- add using a Spotify album URL<p>It's still in super early version, so there are a lot of missing features and for sure a lot of rough edges. I'm open to feedback and suggestions!<p>You can find it at https://digs.fm. A public profile:<p>Stack: Rail, Postgres (also powers the full-text search capability)<p>External APIs used: Discogs, Spotify, Mixcloud<p>Data provided partly by: Musicbrainz (~2.6M releases indexed currently)<p>Hosted on: Render.com (but I'll probably move it to a VPS)",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "throwaway874839",
+    "url": "https://news.ycombinator.com/user?id=throwaway874839"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31283772",
+  "sameAs": "https://news.ycombinator.com/item?id=31283772",
+  "dateCreated": "2022-05-07T22:12:27.655Z",
+  "datePublished": "2022-05-06T11:14:06.000Z",
+  "dateModified": "2022-05-07T22:12:27.655Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ]
+}

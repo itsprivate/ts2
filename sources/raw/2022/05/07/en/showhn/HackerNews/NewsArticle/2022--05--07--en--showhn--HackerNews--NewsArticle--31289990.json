@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--05--07--en--showhn--HackerNews--NewsArticle--31289990",
+  "url": "https://news.ycombinator.com/item?id=31289990",
+  "headline": "Rust-Notify – Announce blogs and send emails",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "This is a work in progress.<p>At ConnectDome, we host our blog using Notion and Next.js on Vercel (to have a custom domain without paying a premium for it).<p>And, instead of manually notifying users of a new blog, we decided to build a simple service using Rust to notify everyone on our Discord whenever there's a new blog.<p>Plus, since we would be sending emails only to our users (there's no direct way to subscribe to the blog apart from being invited to our platform. hence, only users), we realized we could just couple the email mechanism in the same service as well.<p>We are still working on the &quot;email&quot; part (using SendGrid for it since it offers startup credits). This should be done in a couple of days tho.<p>Overall, this is an open-source and a free modifiable service if you run a self-hosted blog (or render Notion on your own front-end and self-host it) and want to notify your Discord server and/or email list (initially we'd be supporting SendGrid but you can change it).",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "tr1ll10nb1ll",
+    "url": "https://news.ycombinator.com/user?id=tr1ll10nb1ll"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31289990",
+  "sameAs": "https://github.com/ConnectDome/rust-notify",
+  "dateCreated": "2022-05-07T22:12:27.787Z",
+  "datePublished": "2022-05-06T21:59:27.000Z",
+  "dateModified": "2022-05-07T22:12:27.787Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}

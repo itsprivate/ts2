@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--05--07--en--showhn--HackerNews--NewsArticle--31296227",
+  "url": "https://news.ycombinator.com/item?id=31296227",
+  "headline": "I made a browser-based RTS game",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've posted this game here before, hopefully a repost is fine as the game has changed quite a bit (improved AI, improved mapeditor, much quicker gameplay, etc).<p>Game is based on JavaScript/Canvas and WebSockets. On the browser side the map is pre-rendered (as a background image), just the mobile units/buildings and animations are dynamically rendered. The lobby server is made in node.js, but the game server is C++ for performance reasons (mainly the pathfinding). I found the C++ WebSocket libraries out there to be too difficult to use so I made my own based on the rfc. Overall I think making a game like this is quite easy with the browser performance/features nowadays. The game server and client side JavaScript are around 5000 lines of code each.<p>If you have any questions about the tech I'm happy to answer them.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "Gluten",
+    "url": "https://news.ycombinator.com/user?id=Gluten"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31296227",
+  "sameAs": "https://www.battle-of-flags.com",
+  "dateCreated": "2022-05-07T22:12:27.902Z",
+  "datePublished": "2022-05-07T16:45:54.000Z",
+  "dateModified": "2022-05-07T22:12:27.902Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 132
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 37
+    }
+  ]
+}

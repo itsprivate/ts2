@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--05--07--en--askhn--HackerNews--NewsArticle--31291133",
+  "url": "https://news.ycombinator.com/item?id=31291133",
+  "headline": "Does this exist: cmux-like TCP multiplexer in Rust?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Is there a library written in Rust providing comparable functionality to the cmux golang package?<p>&gt; cmux is a generic Go library to multiplex connections based on their payload. Using cmux, you can serve gRPC, SSH, HTTPS, HTTP, Go RPC, and pretty much any other protocol on the same TCP listener.<p>https://github.com/soheilhy/cmux",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "metadat",
+    "url": "https://news.ycombinator.com/user?id=metadat"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31291133",
+  "sameAs": "https://news.ycombinator.com/item?id=31291133",
+  "dateCreated": "2022-05-07T22:12:23.143Z",
+  "datePublished": "2022-05-07T00:42:48.000Z",
+  "dateModified": "2022-05-07T22:12:23.143Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
