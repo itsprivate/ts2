@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--05--07--en--askhn--HackerNews--NewsArticle--31298812",
+  "url": "https://news.ycombinator.com/item?id=31298812",
+  "headline": "What does your remote desktop setup look like?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "My Macbook Pro order looks to be still months away from shipping and I’ve started to consider the “light laptop as a terminal for a beefy Linux desktop” alternative. If you happen to use such a setup what does it look like and how well has it served your needs? Is there specific VNC software or a Tmux plugin you could not live without?<p>Setups that come to mind for me are<p>1. RDP/remote desktop methods. Pros: You can run everything as if using a regular computer. Persistent, all the apps and windows are kept in place and running even if you disconnect. Cons: Additional latency. On my naive xrdp attempt I could not get 4k resolution usable, plus Ubuntu kept asking for my root password for various things every minute.<p>2. VSCode remote SSH. Pros: Low latency and very easy setup. Cons: Only for command line apps and web dev. Cant resume terminal instances after a longer disconnect.<p>3. Remote terminal (ex. SSH/Mosh). Pros: Low latency with mosh. App/window persistence with Tmux. Cons: Steeper learning curve. Only for command line apps.<p>4. Fully online IDE. Pros: Very easy, similar to VSCode with SSH remote. Cons: Unregular keyboard shortcuts are needed to avoid hitting browser shortcuts. Cost usually scales with hours of use or number of projects.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "lewantmontreal",
+    "url": "https://news.ycombinator.com/user?id=lewantmontreal"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31298812",
+  "sameAs": "https://news.ycombinator.com/item?id=31298812",
+  "dateCreated": "2022-05-07T22:12:23.414Z",
+  "datePublished": "2022-05-07T21:32:48.000Z",
+  "dateModified": "2022-05-07T22:12:23.414Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ]
+}

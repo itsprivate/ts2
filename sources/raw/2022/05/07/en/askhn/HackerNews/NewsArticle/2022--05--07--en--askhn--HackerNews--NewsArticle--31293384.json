@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--05--07--en--askhn--HackerNews--NewsArticle--31293384",
+  "url": "https://news.ycombinator.com/item?id=31293384",
+  "headline": "Should I learn Docker in 2022?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "To clarify, I am not asking if I should learn <i>what</i> Docker is, but rather if I should learn &quot;Advanced Docker&quot; and how you'd go about learning it.<p>By advanced docker I mean especially the automatic deployments where CI builds the image, pushes it to a registry and then multiple instances around the world pick it up and update themselves either in AWS or any other service.<p>My main concerns are\n1) I don't know any good article on the topic (&quot;how-to&quot;, &quot;why&quot;),\n2) It feels like more and more companies are targeting CI and code distribution (Render, Fly.io, Terraform (I guess)),\n3) Docker is getting less &quot;open&quot; (https://news.ycombinator.com/item?id=17804916),\n4) New alternatives are emerging (like nixos).",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "maticzav",
+    "url": "https://news.ycombinator.com/user?id=maticzav"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31293384",
+  "sameAs": "https://news.ycombinator.com/item?id=31293384",
+  "dateCreated": "2022-05-07T22:12:23.237Z",
+  "datePublished": "2022-05-07T10:14:06.000Z",
+  "dateModified": "2022-05-07T22:12:23.237Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ]
+}
