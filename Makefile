@@ -16,7 +16,7 @@ source:
 tr:
 	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run translate.yml --database json://dev-data
 prodtr:
-	DENO_DIR=./deno_dir deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable https://deno.land/x/denoflow@0.0.34/cli.ts run translate.yml
+	DENO_DIR=./deno_dir deno run -A --unstable https://deno.land/x/denoflow@0.0.34/cli.ts run translate.yml
 install:
 	PUPPETEER_PRODUCT=chrome DENO_DIR=./deno_dir deno run -A --unstable https://deno.land/x/puppeteer@14.1.1/install.ts
 devinstall:
