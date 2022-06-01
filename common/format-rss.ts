@@ -14,7 +14,7 @@ export default async function (
   siteIdentifier: string,
   itemSourceOptions: SourceOptions
 ) {
-  console.log("item", item);
+  // console.log("item", item);
 
   const type = "NewsArticle";
   const publisherName = item?.author?.name || "RSS";
