@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--01--en--showhn--HackerNews--NewsArticle--31568260",
+  "url": "https://news.ycombinator.com/item?id=31568260",
+  "headline": "Hacker News web app with 2 UI's and some additional features",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello HN! Author here :)<p>I've finished upgrading the Hacker News reading app that I made sometime earlier.<p>Among previous features, I added some new ones - which include:<p>- the ability to bookmark any story or comment, which you can read later, and   the newly added comments are highlighted (the ones you did not see or read earlier);<p>- the ability to search through comments, and find the one that you are interested in;<p>- the ability to reply to comments (but you must be logged in at original news.ycombinator.com website to do so).<p>The app is using offical HN API to get the data, and it's client side rendered.<p>The technologies used for making this web app are: React (Router, Redux) and vanilla CSS.\nLet me know what you think about the app in the comments.<p>Thanks!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "D_Joni",
+    "url": "https://news.ycombinator.com/user?id=D_Joni"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31568260",
+  "sameAs": "https://hackrnews-dj.netlify.app",
+  "dateCreated": "2022-06-01T16:58:36.824Z",
+  "datePublished": "2022-05-31T11:20:41.000Z",
+  "dateModified": "2022-06-01T16:58:36.824Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}

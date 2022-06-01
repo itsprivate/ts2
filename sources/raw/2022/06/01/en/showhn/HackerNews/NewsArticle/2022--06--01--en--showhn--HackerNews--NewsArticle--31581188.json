@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--01--en--showhn--HackerNews--NewsArticle--31581188",
+  "url": "https://news.ycombinator.com/item?id=31581188",
+  "headline": "Launch Localstack “as a service” with automatic termination",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Greetings!<p>I've just created a service that launches a Localstack container, make it available at a personalized URL, and then shuts it down within 10 to 60 minutes.<p>I made this because Localstack is a great way to mock the AWS cloud for Local Development or in CI/CD. But, to run it, you need a Laptop with enough available memory, Docker, Python, and other CLIs.<p>Also, if you want to develop locally with an AWS account, you'll have to sign up for an account. But then, resources get created and never deleted potentially leading to an expensive bill.<p>Feel free to give it a try and let me know what you think!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "cnuss",
+    "url": "https://news.ycombinator.com/user?id=cnuss"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31581188",
+  "sameAs": "https://eph.dev",
+  "dateCreated": "2022-06-01T16:58:37.083Z",
+  "datePublished": "2022-06-01T13:00:59.000Z",
+  "dateModified": "2022-06-01T16:58:37.083Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
