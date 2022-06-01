@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--01--en--showhn--HackerNews--NewsArticle--31570876",
+  "url": "https://news.ycombinator.com/item?id=31570876",
+  "headline": "500+ Hours so far on the 4.77Mhz DOS web server",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Warning: As soon as I post this I know the machine is going to be basically DoS'ed.  It's not hard to DoS a DOS machine.  The machine may refuse to serve your request, but it will stay running, and that's the important part.<p>This is a follow-up to something I posted three weeks ago.  Ye old web server running the mTCP HTTP server on DOS has now passed 500 hours of runtime and it is still going, at least until the power glitches.  The stats so far:<p>Run-time: 505 hours\nTCP/IP connections: 34230\nObjects served: 38865\nTCP Packets sent/received: 996627, 889798\nAll packet types sent/received: 1544807, 1671011<p>I started running it as a long term test of my TCP/IP stack for DOS.  I need to eventually pull the logs from the machine to look for anomalies, but the code is certainly stable.  (I'm logging to both disk and over UDP so I can snoop in on the machine activity without having a monitor turned on.) \n While the machine is running I'm taking time to update the documentation.<p>The site is at <a href=\"http://brutmanlabs.org/\" rel=\"nofollow\">http://brutmanlabs.org/</a> .  I did not cache any files in memory, so please be patient with the initial page load.  The current server stats can be seen at <a href=\"http://brutmanlabs.org/status\" rel=\"nofollow\">http://brutmanlabs.org/status</a> .<p>Fun fact: you can &quot;hear&quot; vulnerability scans being run against the machine.  The machine beeps for each response served, and vulnerability scans generate 404s which are really quick to serve.  So a sequence of fast beeps is generally a vulnerability scan.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mbbrutman",
+    "url": "https://news.ycombinator.com/user?id=mbbrutman"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31570876",
+  "sameAs": "http://brutmanlabs.org/",
+  "dateCreated": "2022-06-01T16:58:36.864Z",
+  "datePublished": "2022-05-31T15:44:17.000Z",
+  "dateModified": "2022-06-01T16:58:36.864Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ]
+}
