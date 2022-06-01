@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--01--en--askhn--HackerNews--NewsArticle--31580842",
+  "url": "https://news.ycombinator.com/item?id=31580842",
+  "headline": "Does your org use a password keeper?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I work for a large (~10k) organization that obviously interacts with a number of different systems/applications on a daily basis. The average employee likely has 10-20 (hopefully) different sets of credentials that they must maintain and update as necessary - I can only imagine there are a variety of Password, Password1, Password12 combinations in use.<p>I'm curious if anyone has experience with an enterprise/corporate level password manager. Ideally, it would be tied to the user's AD profile so when they log in to Windows they would just need to enter their master password and it would integrate with the browser to prefill passwords just like 1Password, or BitWarden.<p>Looking at 1Password's website, it's 7.99 USD per user/month which gets very pricey with 10k users. I'm curious what other folks on HN are using. I appreciate your feedback!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ng-user",
+    "url": "https://news.ycombinator.com/user?id=ng-user"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31580842",
+  "sameAs": "https://news.ycombinator.com/item?id=31580842",
+  "dateCreated": "2022-06-01T16:58:16.073Z",
+  "datePublished": "2022-06-01T12:27:40.000Z",
+  "dateModified": "2022-06-01T16:58:16.073Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 21
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 53
+    }
+  ]
+}
