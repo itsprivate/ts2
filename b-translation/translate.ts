@@ -49,7 +49,7 @@ export default async function (files: string[]) {
       page = await browser.newPage();
     }
     await page.setUserAgent(
-      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+      "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Mobile Safari/537.36 Edg/102.0.1245.30"
     );
     // await page.setViewport({ width: 1370, height: 1200 });
     await page.goto(homepage, { waitUntil: "domcontentloaded" });
