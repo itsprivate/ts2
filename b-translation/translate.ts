@@ -12,7 +12,7 @@ import { parse } from "https://deno.land/std@0.121.0/path/mod.ts";
 import puppeteer, {
   Browser,
   Page,
-} from "https://deno.land/x/puppeteer@9.0.2/mod.ts";
+} from "https://deno.land/x/puppeteer@14.1.1/mod.ts";
 import d from "./d.js";
 // import { JsonLdDocument } from "https://denopkg.com/DefinitelyTyped/DefinitelyTyped@master/types/jsonld/index.d.ts";
 import {
