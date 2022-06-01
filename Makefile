@@ -1,4 +1,4 @@
-.Phony: run update test local install github source tr start build cache ask show front hackernews
+.Phony: run update test local install github source tr start build cache ask show front hackernews devinstall
 run:
 	DENO_DIR=./deno_dir deno run -A --unstable https://deno.land/x/denoflow@0.0.34/cli.ts run apps/*/*.yml translate.yml archive
 prodtest:
@@ -17,6 +17,8 @@ tr:
 	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run translate.yml --database json://dev-data
 install:
 	PUPPETEER_PRODUCT=chrome DENO_DIR=./deno_dir deno run -A --unstable https://deno.land/x/puppeteer@14.1.1/install.ts
+devinstall:
+	PUPPETEER_PRODUCT=chrome deno run -A --unstable https://deno.land/x/puppeteer@14.1.1/install.ts
 archive:
 	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run archive --database json://dev-data
 start:
