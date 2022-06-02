@@ -20,7 +20,7 @@ import {
   ContextDefinition,
 } from "https://cdn.skypack.dev/jsonld?dts";
 import zhToHant from "./zh-to-hant.ts";
-const homepage = "https://www.owenyoung.com/";
+const homepage = "https://www.deepl.com/en/translator";
 const isDev = Deno.env.get("ENV") === "dev";
 // const isDev = true;
 export default async function (files: string[]) {
@@ -76,28 +76,30 @@ export default async function (files: string[]) {
     // await page.setViewport({ width: 1370, height: 1200 });
     console.log("can go to page?");
     // 打开拦截请求
-    // await page.setRequestInterception(true);
-    // // 请求拦截器
-    // // 这里的作用是在所有js执行前都插入我们的js代码抹掉puppeteer的特征
-    // // @ts-ignore: js
-    // page.on("request", async (req, res2) => {
-    //   // 非js脚本返回
-    //   // 如果html中有inline的script检测html中也要改，一般没有
-    //   if (req.resourceType() !== "script") {
-    //     req.continue();
-    //     return;
-    //   }
-    //   // 获取url
-    //   const url = req.url();
-    //   const result = await fetch(url);
-    //   const text = await result.text();
-    //   const newRes =
-    //     "navigator.webdriver && delete Navigator.prototype.webdriver;" + text;
-    //   // 返回删掉了webdriver的js
-    //   req.respond({
-    //     body: newRes,
-    //   });
-    // });
+    await page.setRequestInterception(true);
+    // 请求拦截器
+    // 这里的作用是在所有js执行前都插入我们的js代码抹掉puppeteer的特征
+    // @ts-ignore: js
+    page.on("request", async (req, res2) => {
+      // 非js脚本返回
+      // 如果html中有inline的script检测html中也要改，一般没有
+      if (req.resourceType() !== "script") {
+        req.continue();
+        return;
+      }
+      // 获取url
+      const url = req.url();
+      console.log("url", url);
+
+      const result = await fetch(url);
+      const text = await result.text();
+      const newRes =
+        "navigator.webdriver && delete Navigator.prototype.webdriver;" + text;
+      // 返回删掉了webdriver的js
+      req.respond({
+        body: newRes,
+      });
+    });
     page.setExtraHTTPHeaders({ referer: "https://www.google.com/" });
 
     await page.goto(homepage, { waitUntil: "domcontentloaded" });
