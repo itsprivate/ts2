@@ -29,14 +29,14 @@ export default async (
      targetSentencesContainer = '.lmt__translations_as_text'*/
 
   // click  black
-  // await page.screenshot({ path: "data/1.png" });
+  await page.screenshot({ path: "data/1.png" });
   // console.log("click");
   await page.waitForSelector(sourceLangSelect, { visible: true });
 
   await page.click(sourceLangSelect);
   await page.waitForTimeout(500);
 
-  // await page.screenshot({ path: "data/2.png" });
+  await page.screenshot({ path: "data/2.png" });
 
   // const element = await page.$eval(
   //   "[dl-test=translator-source-lang]",
