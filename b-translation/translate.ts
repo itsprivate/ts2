@@ -140,7 +140,7 @@ export default async function (files: string[]) {
       console.log("get new page");
 
       // open puppeteer
-      page = await getNewPage(false);
+      page = await getNewPage(true);
     }
 
     const file = files[fileIndex];
