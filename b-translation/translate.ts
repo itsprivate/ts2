@@ -13,14 +13,14 @@ import puppeteer, {
   Browser,
   Page,
 } from "https://deno.land/x/puppeteer@14.1.1/mod.ts";
-import d from "./d.js";
+import d from "./d-mobile.js";
 // import { JsonLdDocument } from "https://denopkg.com/DefinitelyTyped/DefinitelyTyped@master/types/jsonld/index.d.ts";
 import {
   NodeObject,
   ContextDefinition,
 } from "https://cdn.skypack.dev/jsonld?dts";
 import zhToHant from "./zh-to-hant.ts";
-const homepage = "https://www.deepl.com/en/translator";
+const homepage = "https://www.deepl.com/en/translator-mobile";
 const isDev = Deno.env.get("ENV") === "dev";
 // const isDev = true;
 export default async function (files: string[]) {
@@ -30,15 +30,15 @@ export default async function (files: string[]) {
   const getBrowser = async () => {
     if (browser) return browser;
     browser = await puppeteer.launch({
-      devtools: false,
+      // devtools: true,
       // defaultViewport: null,
       headless: true, // !isDev,
 
       defaultViewport: {
-        width: 1440,
-        height: 800,
-        deviceScaleFactor: 2,
-        isMobile: false,
+        width: 393,
+        height: 851,
+        // deviceScaleFactor: 2,
+        isMobile: true,
       },
       args: ["--lang=zh-Hans,zh", "--disable-gpu", "--no-sandbox"],
     });
@@ -76,30 +76,30 @@ export default async function (files: string[]) {
     // await page.setViewport({ width: 1370, height: 1200 });
     console.log("can go to page?");
     // 打开拦截请求
-    await page.setRequestInterception(true);
+    // await page.setRequestInterception(true);
     // 请求拦截器
     // 这里的作用是在所有js执行前都插入我们的js代码抹掉puppeteer的特征
     // @ts-ignore: js
-    page.on("request", async (req, res2) => {
-      // 非js脚本返回
-      // 如果html中有inline的script检测html中也要改，一般没有
-      if (req.resourceType() !== "script") {
-        req.continue();
-        return;
-      }
-      // 获取url
-      const url = req.url();
-      console.log("url", url);
+    // page.on("request", async (req, res2) => {
+    //   // 非js脚本返回
+    //   // 如果html中有inline的script检测html中也要改，一般没有
+    //   if (req.resourceType() !== "script") {
+    //     req.continue();
+    //     return;
+    //   }
+    //   // 获取url
+    //   const url = req.url();
+    //   console.log("url", url);
 
-      const result = await fetch(url);
-      const text = await result.text();
-      const newRes =
-        "navigator.webdriver && delete Navigator.prototype.webdriver;" + text;
-      // 返回删掉了webdriver的js
-      req.respond({
-        body: newRes,
-      });
-    });
+    //   const result = await fetch(url);
+    //   const text = await result.text();
+    //   const newRes =
+    //     "navigator.webdriver && delete Navigator.prototype.webdriver;" + text;
+    //   // 返回删掉了webdriver的js
+    //   req.respond({
+    //     body: newRes,
+    //   });
+    // });
     page.setExtraHTTPHeaders({ referer: "https://www.google.com/" });
 
     await page.goto(homepage, { waitUntil: "domcontentloaded" });
@@ -111,17 +111,15 @@ export default async function (files: string[]) {
 
     // await sleepMs(8000);
 
-    await page.screenshot({ path: "data/buddy-screenshot9.png" });
+    // await page.screenshot({ path: "data/buddy-screenshot9.png" });
 
-    await page.waitForSelector(
-      ".lmt__language_select--target .lmt__language_select__active"
-    );
-    console.log("ss");
+    await page.waitForSelector("button[dl-test=translator-source-lang-btn]");
+    // console.log("ss");
 
-    while (await hasSelector(page, ".dl_cookieBanner--buttonSelected")) {
-      await page.click(".dl_cookieBanner--buttonSelected");
-      await sleepMs(1000);
-    }
+    // while (await hasSelector(page, ".dl_cookieBanner--buttonSelected")) {
+    //   await page.click(".dl_cookieBanner--buttonSelected");
+    //   await sleepMs(1000);
+    // }
     console.log("nnnpage");
 
     // await page.waitForTimeout(2000);
@@ -133,10 +131,10 @@ export default async function (files: string[]) {
   let currentHandledFiles = 0;
   for (
     let fileIndex = 0;
-    fileIndex < (isDev ? Math.min(4, files.length) : files.length);
+    fileIndex < (isDev ? Math.min(2, files.length) : files.length);
     fileIndex++
   ) {
-    if (currentHandledFiles >= 20) {
+    if (currentHandledFiles >= 100) {
       currentHandledFiles = 1;
       // refresh page
 
@@ -153,7 +151,7 @@ export default async function (files: string[]) {
       console.log("get new page");
 
       // open puppeteer
-      page = await getNewPage(true);
+      page = await getNewPage(false);
     }
 
     const file = files[fileIndex];
