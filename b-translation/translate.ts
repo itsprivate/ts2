@@ -57,54 +57,14 @@ export default async function (files: string[]) {
     } else {
       page = await browser.newPage();
     }
-    // console.log("page", page);
 
-    // await page.setUserAgent(
-    //   "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36"
-    // );
     await page.setUserAgent(
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
     );
-    // Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
-    // await page.setViewport({ width: 1370, height: 1200 });
-    console.log("can go to page?");
-    // 打开拦截请求
-    // await page.setRequestInterception(true);
-    // 请求拦截器
-    // 这里的作用是在所有js执行前都插入我们的js代码抹掉puppeteer的特征
-    // @ts-ignore: js
-    // page.on("request", async (req, res2) => {
-    //   // 非js脚本返回
-    //   // 如果html中有inline的script检测html中也要改，一般没有
-    //   if (req.resourceType() !== "script") {
-    //     req.continue();
-    //     return;
-    //   }
-    //   // 获取url
-    //   const url = req.url();
-    //   console.log("url", url);
 
-    //   const result = await fetch(url);
-    //   const text = await result.text();
-    //   const newRes =
-    //     "navigator.webdriver && delete Navigator.prototype.webdriver;" + text;
-    //   // 返回删掉了webdriver的js
-    //   req.respond({
-    //     body: newRes,
-    //   });
-    // });
     page.setExtraHTTPHeaders({ referer: "https://www.google.com/" });
 
     await page.goto(homepage, { waitUntil: "domcontentloaded" });
-    console.log("viewport", page.viewport());
-    console.log("urlxxx", page.url());
-
-    console.log("goto page");
-    // sleep 5
-
-    // await sleepMs(8000);
-
-    // await page.screenshot({ path: "data/buddy-screenshot9.png" });
 
     await page.waitForSelector("button[dl-test=translator-source-lang-btn]");
     // console.log("ss");
@@ -113,10 +73,6 @@ export default async function (files: string[]) {
     //   await page.click(".dl_cookieBanner--buttonSelected");
     //   await sleepMs(1000);
     // }
-    console.log("nnnpage");
-
-    // await page.waitForTimeout(2000);
-    // await page.screenshot({ path: "example.png" });
 
     return page;
   };
@@ -141,14 +97,12 @@ export default async function (files: string[]) {
       page = await getNewPage(true);
     } else {
       currentHandledFiles++;
-      console.log("get new page");
 
       // open puppeteer
       page = await getNewPage(false);
     }
 
     const file = files[fileIndex];
-    console.log("file", file);
 
     const parsedFilePath = parse(file);
     const identifier = parsedFilePath.name;

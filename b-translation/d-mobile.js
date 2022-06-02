@@ -30,7 +30,7 @@ export default async (
 
   // click  black
   // await page.screenshot({ path: "data/1.png" });
-  console.log("click");
+  // console.log("click");
   await page.waitForSelector(sourceLangSelect, { visible: true });
 
   await page.click(sourceLangSelect);
@@ -43,7 +43,7 @@ export default async (
   //   (el) => el.innerHTML
   // );
   // console.log("element", element);
-  console.log("start wait");
+  // console.log("start wait");
 
   await page.waitForSelector(sourceLangMenu, { visible: true });
   await page.waitForTimeout(500);
@@ -69,10 +69,10 @@ export default async (
     throw new Error("UNSUPPORTED_TARGET_LANGUAGE");
   }
 
-  console.log("wait original");
+  // console.log("wait original");
 
   await page.waitForSelector(originalSentenceField);
-  console.log("start type", sentence);
+  // console.log("start type", sentence);
   await page.$eval(
     originalSentenceField,
     (el, sentence) => (el.value = sentence),
@@ -84,7 +84,7 @@ export default async (
   await (await page.$(originalSentenceField)).press("Enter"); // Enter Key
 
   // await page.type(originalSentenceField, sentence);
-  console.log("here");
+  // console.log("here");
 
   // await page.screenshot({ path: "data/buddy-screenshot2.png" });
 
@@ -140,47 +140,14 @@ export default async (
     }
   );
 
-  // try {
-  //   await page.waitForSelector(".lmt__raise_alternatives_placement");
-  // } catch (e) {
-  //   console.log("can not detect .lmt__raise_alternatives_placement");
-  //   console.warn(e);
-  // }
-  // await page.waitForTimeout(500);
-
-  // await page.screenshot({ path: "data/buddy-screenshot3.png" });
-  // await page.waitForSelector(".lmt__rating", { visible: true });
-  // await page.screenshot({ path: "data/buddy-screenshot4.png" });
-
-  // await page.waitForTimeout(500);
-
   const result = await page.$eval(targetSentenceField, (el) => el.value);
-  // console.log("_res", _res);
 
-  // _res.target.translation = result;
   _res.result = result;
-  // page.close().catch(() => {});
-
-  // clean
-
-  // await page.click("button[dl-test=translator-source-clear-button]");
 
   const elements = await page.$x(
     "//span[text()='Delete source text']/parent::button"
   );
   await elements[0].click();
-  // await page.evaluate(
-  //   () =>
-  //     (document.querySelector(
-  //       "textarea[dl-test=translator-source-input]"
-  //     ).value = "")
-  // );
-  // // focus
-
-  // await page.waitForTimeout(3000);
-
-  // await page.focus("textarea[dl-test=translator-source-input]");
-  // await page.waitForTimeout(3000);
 
   return _res;
 };
