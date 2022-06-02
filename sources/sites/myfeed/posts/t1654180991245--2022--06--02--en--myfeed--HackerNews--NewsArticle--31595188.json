@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--02--en--myfeed--HackerNews--NewsArticle--31595188",
+  "url": "https://news.ycombinator.com/item?id=31595188",
+  "headline": "Basic Pitch: Spotify’s Open Source Audio-to-MIDI Converter",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nirvanis",
+    "url": "https://news.ycombinator.com/user?id=nirvanis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31595188",
+  "sameAs": "https://basicpitch.spotify.com/",
+  "dateCreated": "2022-06-02T14:43:11.245Z",
+  "datePublished": "2022-06-02T14:16:39.000Z",
+  "dateModified": "2022-06-02T14:43:11.245Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "基本音准。Spotify的开源音频到MIDI转换器\n",
+  "headline_zh-Hant": "基本音準。Spotify的開源音頻到MIDI轉換器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
