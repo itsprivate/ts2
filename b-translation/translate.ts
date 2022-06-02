@@ -67,7 +67,7 @@ export default async function (files: string[]) {
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
     );
     // Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
-    await page.setViewport({ width: 1444, height: 853 });
+    await page.setViewport({ width: 1370, height: 1200 });
     console.log("can go to page?");
     // 打开拦截请求
     // await page.setRequestInterception(true);
