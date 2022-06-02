@@ -62,7 +62,7 @@ export default async function (files: string[]) {
     await page.setUserAgent(
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36"
     );
-    await page.setViewport({ width: 1370, height: 1200 });
+    await page.setViewport({ width: 1670, height: 1200 });
     console.log("can go to page?");
     // 打开拦截请求
     // await page.setRequestInterception(true);
