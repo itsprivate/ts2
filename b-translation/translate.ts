@@ -31,8 +31,9 @@ export default async function (files: string[]) {
     if (browser) return browser;
     browser = await puppeteer.launch({
       devtools: false,
+      defaultViewport: null,
       headless: true, // !isDev,
-      defaultViewport: { width: 2080, height: 2080 },
+      // defaultViewport: { width: 2080, height: 2080 },
       args: ["--lang=zh-Hans,zh", "--disable-gpu", "--no-sandbox"],
     });
     browser.on("disconnected", () => (browser = null));
