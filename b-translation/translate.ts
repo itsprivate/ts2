@@ -90,6 +90,10 @@ export default async function (files: string[]) {
 
     await page.goto(homepage, { waitUntil: "domcontentloaded" });
     console.log("goto page");
+    // sleep 5
+
+    await sleepMs(8000);
+
     await page.screenshot({ path: "data/buddy-screenshot9.png" });
 
     await page.waitForSelector(
