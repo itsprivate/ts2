@@ -209,7 +209,7 @@ export async function translateItem(item: NodeObject, page: Page | null) {
           }
           (context as Record<string, number>)["@version"] = 1.1;
           item["@context"] = ["https://schema.org", context];
-          console.log("context", context);
+          // console.log("context", context);
         } else {
           console.error("translated error", translated);
           item["@context"] = ["https://schema.org", context];
