@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--02--en--myfeed--HackerNews--NewsArticle--31597096",
+  "url": "https://news.ycombinator.com/item?id=31597096",
+  "headline": "Project Cambria: Translate your data with lenses",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mxstbr",
+    "url": "https://news.ycombinator.com/user?id=mxstbr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31597096",
+  "sameAs": "https://www.inkandswitch.com/cambria/",
+  "dateCreated": "2022-06-02T16:43:10.526Z",
+  "datePublished": "2022-06-02T16:37:17.000Z",
+  "dateModified": "2022-06-02T16:43:10.526Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "柬埔寨项目：用镜头翻译你的数据\n",
+  "headline_zh-Hant": "柬埔寨項目：用鏡頭翻譯你的數據\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
