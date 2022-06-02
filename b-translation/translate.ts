@@ -33,7 +33,7 @@ export default async function (files: string[]) {
       devtools: false,
       headless: true, // !isDev,
       defaultViewport: { width: 1670, height: 1200 },
-      args: ["--lang=zh-Hans,zh", "--disable-gpu"],
+      args: ["--lang=zh-Hans,zh", "--disable-gpu", "--no-sandbox"],
     });
     browser.on("disconnected", () => (browser = null));
     return browser;
