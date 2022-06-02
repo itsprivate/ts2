@@ -20,7 +20,7 @@ import {
   ContextDefinition,
 } from "https://cdn.skypack.dev/jsonld?dts";
 import zhToHant from "./zh-to-hant.ts";
-const homepage = "https://www.deepl.com/en/translator";
+const homepage = "https://www.owenyoung.com/";
 const isDev = Deno.env.get("ENV") === "dev";
 // const isDev = true;
 export default async function (files: string[]) {
