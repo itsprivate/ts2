@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--02--en--askhn--HackerNews--NewsArticle--31593308",
+  "url": "https://news.ycombinator.com/item?id=31593308",
+  "headline": "Ask HN: Which programming language should I choose?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm thinking of writing an open-source library for investing / trading purposes. I already have some code scattered around my projects but it would be better to extract common stuff to a lib. Being more or less proficient in Java and Rust I consider these two languages equally.\nSo I wanted to &quot;measure&quot; what would be a better fit and I came up with the following table:<p>https://ibb.co/cL3GJT9<p>So 'Metric' is what I'm looking at when deciding. 'Weight' is my (a bit subjective) importance for the metric. 'Value' is how good language X is for this metric, and 'Score' is the metric multiplied by the value.\nSome metrics are positive, some are negative, but I made 'Value' to be 'more is better' for all of them.\nMy metrics:\nperformance - It hurts to say, but I've tested some very first task that I would like to do and Java turns out to be almost 50% quicker.\nfun - It's about my feeling when working in this language.\npopularity - I will care about adoption rate and pull requests from other developers.\nsyntax - This one is more about expressiveness and being less error-prone.\ntesting - It seems to me that Java is more mature here, for example, mutation testing is a lot better than in Rust.\ncompetition - I guess it's the reverse of popularity. I haven't found anything like this in Rust's world, but similar stuff exists in Java.<p>My question is: What did I miss? What do you think? The values above are a bit subjective and I can tweak them to show that Java's better for this.\nI'm asking here to get more objective input.\nThanks.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "lukaszwojtow",
+    "url": "https://news.ycombinator.com/user?id=lukaszwojtow"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31593308",
+  "sameAs": "https://news.ycombinator.com/item?id=31593308",
+  "dateCreated": "2022-06-02T13:54:07.402Z",
+  "datePublished": "2022-06-02T10:35:01.000Z",
+  "dateModified": "2022-06-02T13:54:07.402Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我应该选择哪种编程语言？\n",
+  "headline_zh-Hant": "Ask HN: 我應該選擇哪種編程語言？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在考虑编写一个用于投资/交易的开源库。我已经有了一些散落在我的项目中的代码，但最好是将常用的东西提取到一个库中。由于我或多或少地精通Java和Rust，我认为这两种语言是一样的。\n所以我想&quot;衡量&quot;什么会更合适，我想出了以下表格：<p>https://ibb.co/cL3GJT9<p>所以'公制'是我在决定时要看的东西。'重量'是我对该指标的（有点主观）重要性。'价值'是指语言X在这个指标上有多好，而'分数'是指标乘以价值。\n有些指标是正面的，有些是负面的，但是我把'价值'定为'越多越好'，对所有这些指标都是如此。\n我的衡量标准。\n性能 - 说起来很伤人，但我测试了一些我想做的第一个任务，结果发现Java几乎快了50%。\n乐趣 - 这是关于我用这种语言工作时的感觉。\n流行性 - 我会关心采用率和其他开发者的拉动请求。\n语法 - 这个更多的是关于表达能力和不容易出错的问题。\n测试 - 在我看来，Java在这方面更加成熟，例如，突变测试就比Rust好很多。\n竞争--我想这是流行性的反面。我在Rust的世界里没有发现这样的东西，但在Java中存在类似的东西。<p>我的问题是：我错过了什么？你觉得呢？上面的数值有点主观，我可以对它们进行调整，以显示Java在这方面的优势。\n我在这里问是为了得到更多的客观意见。\n谢谢。\n",
+  "description_zh-Hant": "我正在考慮編寫一個用於投資/交易的開源庫。我已經有了一些散落在我的項目中的代碼，但最好是將常用的東西提取到一個庫中。由於我或多或少地精通Java和Rust，我認為這兩種語言是一樣的。\n所以我想&quot;衡量&quot;什麼會更合適，我想出了以下表格：<p>https://ibb.co/cL3GJT9<p>所以'公制'是我在決定時要看的東西。'重量'是我對該指標的（有點主觀）重要性。'價值'是指語言X在這個指標上有多好，而'分數'是指標乘以價值。\n有些指標是正面的，有些是負面的，但是我把'價值'定為'越多越好'，對所有這些指標都是如此。\n我的衡量標準。\n性能 - 說起來很傷人，但我測試了一些我想做的第一個任務，結果發現Java幾乎快了50%。\n樂趣 - 這是關於我用這種語言工作時的感覺。\n流行性 - 我會關心採用率和其他開發者的拉動請求。\n語法 - 這個更多的是關於表達能力和不容易出錯的問題。\n測試 - 在我看來，Java在這方面更加成熟，例如，突變測試就比Rust好很多。\n競爭--我想這是流行性的反面。我在Rust的世界裡沒有發現這樣的東西，但在Java中存在類似的東西。<p>我的問題是：我錯過了什麼？你覺得呢？上面的數值有點主觀，我可以對它們進行調整，以顯示Java在這方面的優勢。\n我在這裡問是為了得到更多的客觀意見。\n謝謝。\n"
+}
