@@ -32,7 +32,7 @@ export default async function (files: string[]) {
     browser = await puppeteer.launch({
       // devtools: true,
       // defaultViewport: null,
-      headless: true, // !isDev,
+      headless: false, // !isDev,
 
       defaultViewport: {
         width: 393,
@@ -45,18 +45,11 @@ export default async function (files: string[]) {
     browser.on("disconnected", () => (browser = null));
     return browser;
   };
-  const sleepMs = (ms: number) => new Promise((r) => setTimeout(r, ms));
-  const hasSelector = (page: Page, selector: string) => {
-    // @ts-ignore: document
-    return page.evaluate((s) => document.querySelector(s), [selector]);
-  };
 
   const getNewPage = async (force: boolean): Promise<Page> => {
     if (page) return page;
-    console.log("newwww");
 
     browser = await getBrowser();
-    console.log("browswersss");
 
     const pages = await browser.pages();
     if (pages[0] && !force) {
@@ -131,7 +124,7 @@ export default async function (files: string[]) {
   let currentHandledFiles = 0;
   for (
     let fileIndex = 0;
-    fileIndex < (isDev ? Math.min(2, files.length) : files.length);
+    fileIndex < (isDev ? Math.min(5, files.length) : files.length);
     fileIndex++
   ) {
     if (currentHandledFiles >= 100) {

@@ -30,6 +30,8 @@ export default async (
 
   // click  black
   // await page.screenshot({ path: "data/1.png" });
+  console.log("click");
+  await page.waitForSelector(sourceLangSelect, { visible: true });
 
   await page.click(sourceLangSelect);
   await page.waitForTimeout(500);
@@ -41,6 +43,7 @@ export default async (
   //   (el) => el.innerHTML
   // );
   // console.log("element", element);
+  console.log("start wait");
 
   await page.waitForSelector(sourceLangMenu, { visible: true });
   await page.waitForTimeout(500);
@@ -57,34 +60,32 @@ export default async (
   await page.click(targetLangSelect);
   await page.waitForTimeout(1000);
 
-  // a/b test
-  const uiType = await page.evaluate(() => {
-    return {
-      smallerLangSwitch:
-        document.querySelector("div[dl-test=translator-source-lang-list]") !==
-        null,
-    };
-  });
-  const isSmallerLangSwitch = uiType.smallerLangSwitch;
-  if (isSmallerLangSwitch) {
-    await page.waitForSelector(sourceLangMenu, { visible: true });
-  } else {
-    await page.waitForSelector(targetLangMenu, { visible: true });
-  }
+  await page.waitForSelector(targetLangMenu, { visible: true });
+
   await page.waitForTimeout(1000);
   try {
     await page.click(targetLangButton);
   } catch (_) {
     throw new Error("UNSUPPORTED_TARGET_LANGUAGE");
   }
-  if (isSmallerLangSwitch) {
-    await page.waitForSelector(sourceLangMenu, { hidden: true });
-  } else {
-    await page.waitForSelector(targetLangMenu, { hidden: true });
-  }
-  // await page.screenshot({ path: "data/buddy-screenshot.png" });
+
+  console.log("wait original");
+
   await page.waitForSelector(originalSentenceField);
-  await page.type(originalSentenceField, sentence);
+  console.log("start type", sentence);
+  await page.$eval(
+    originalSentenceField,
+    (el, sentence) => (el.value = sentence),
+    sentence
+  );
+  await page.waitForTimeout(1000);
+
+  // await page.keyboard.press("Enter");
+  await (await page.$(originalSentenceField)).press("Enter"); // Enter Key
+
+  // await page.type(originalSentenceField, sentence);
+  console.log("here");
+
   // await page.screenshot({ path: "data/buddy-screenshot2.png" });
 
   const sentences = [];
