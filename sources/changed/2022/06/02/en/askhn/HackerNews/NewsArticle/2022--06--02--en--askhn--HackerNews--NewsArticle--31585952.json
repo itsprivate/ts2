@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--02--en--askhn--HackerNews--NewsArticle--31585952",
+  "url": "https://news.ycombinator.com/item?id=31585952",
+  "headline": "Ask HN: HN but for Performance",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Where do folks keep up with and ask questions about sota performance code (e.g. simd, hashmap tuning, allocators, Dan Lemire, gaming code optimizations, etc.)?<p>Stackoverflow? Particular forums?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "agencies",
+    "url": "https://news.ycombinator.com/user?id=agencies"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31585952",
+  "sameAs": "https://news.ycombinator.com/item?id=31585952",
+  "dateCreated": "2022-06-02T13:54:07.206Z",
+  "datePublished": "2022-06-01T18:21:23.000Z",
+  "dateModified": "2022-06-02T13:54:07.206Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: HN，但要看表现\n",
+  "headline_zh-Hant": "Ask HN: HN，但要看錶現\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家在哪里了解和询问有关sota性能代码的问题（如simd、hashmap调整、分配器、Dan Lemire、游戏代码优化等）？<p>Stackoverflow？特定的论坛？\n",
+  "description_zh-Hant": "大家在哪裡瞭解和詢問有關sota性能代碼的問題（如simd、hashmap調整、分配器、Dan Lemire、遊戲代碼優化等）？<p>Stackoverflow？特定的論壇？\n"
+}

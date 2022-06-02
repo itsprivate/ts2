@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--02--en--askhn--HackerNews--NewsArticle--31589252",
+  "url": "https://news.ycombinator.com/item?id=31589252",
+  "headline": "Ask HN: To what extend is multithreaded app server more performant?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I am in the process of having my first real life production app (Ruby on Rails). I have tried back and forth Puma and Phusion Passenger OSS.<p>I know the first one is mutithreaded and more performant, but Passenger is sooo easy to set up and config that I am already biased.<p>Is the different so important?<p>PD: The application is a kiosk-like remote managing for smart TVs",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "juanse",
+    "url": "https://news.ycombinator.com/user?id=juanse"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31589252",
+  "sameAs": "https://news.ycombinator.com/item?id=31589252",
+  "dateCreated": "2022-06-02T13:54:07.308Z",
+  "datePublished": "2022-06-01T23:02:21.000Z",
+  "dateModified": "2022-06-02T13:54:07.308Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 多线程的应用服务器在多大程度上具有更高的性能？\n",
+  "headline_zh-Hant": "Ask HN: 多線程的應用服務器在多大程度上具有更高的性能？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在开发我的第一个现实生活中的生产应用（Ruby on Rails）。我已经来回尝试了Puma和Phusion Passenger OSS。<p>我知道第一个是多线程的，而且性能更好，但是Passenger的设置和配置非常容易，我已经有了偏见。<p>不同的东西有那么重要吗？\n",
+  "description_zh-Hant": "我正在開發我的第一個現實生活中的生產應用（Ruby on Rails）。我已經來回嘗試了Puma和Phusion Passenger OSS。<p>我知道第一個是多線程的，而且性能更好，但是Passenger的設置和配置非常容易，我已經有了偏見。<p>不同的東西有那麼重要嗎？\n"
+}
