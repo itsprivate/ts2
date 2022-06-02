@@ -31,9 +31,15 @@ export default async function (files: string[]) {
     if (browser) return browser;
     browser = await puppeteer.launch({
       devtools: false,
-      defaultViewport: null,
+      // defaultViewport: null,
       headless: true, // !isDev,
-      // defaultViewport: { width: 2080, height: 2080 },
+
+      defaultViewport: {
+        width: 1440,
+        height: 800,
+        deviceScaleFactor: 2,
+        isMobile: false,
+      },
       args: ["--lang=zh-Hans,zh", "--disable-gpu", "--no-sandbox"],
     });
     browser.on("disconnected", () => (browser = null));
@@ -67,7 +73,7 @@ export default async function (files: string[]) {
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
     );
     // Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
-    await page.setViewport({ width: 1370, height: 1200 });
+    // await page.setViewport({ width: 1370, height: 1200 });
     console.log("can go to page?");
     // 打开拦截请求
     // await page.setRequestInterception(true);
@@ -96,6 +102,7 @@ export default async function (files: string[]) {
 
     await page.goto(homepage, { waitUntil: "domcontentloaded" });
     console.log("viewport", page.viewport());
+    console.log("urlxxx", page.url());
 
     console.log("goto page");
     // sleep 5
