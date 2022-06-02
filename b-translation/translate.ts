@@ -64,9 +64,33 @@ export default async function (files: string[]) {
     );
     await page.setViewport({ width: 1370, height: 1200 });
     console.log("can go to page?");
+    // 打开拦截请求
+    await page.setRequestInterception(true);
+    // 请求拦截器
+    // 这里的作用是在所有js执行前都插入我们的js代码抹掉puppeteer的特征
+    // @ts-ignore: js
+    page.on("request", async (req, res2) => {
+      // 非js脚本返回
+      // 如果html中有inline的script检测html中也要改，一般没有
+      if (req.resourceType() !== "script") {
+        req.continue();
+        return;
+      }
+      // 获取url
+      const url = req.url();
+      const result = await fetch(url);
+      const text = await result.text();
+      const newRes =
+        "navigator.webdriver && delete Navigator.prototype.webdriver;" + text;
+      // 返回删掉了webdriver的js
+      req.respond({
+        body: newRes,
+      });
+    });
 
     await page.goto(homepage, { waitUntil: "domcontentloaded" });
     console.log("goto page");
+    await page.screenshot({ path: "data/buddy-screenshot9.png" });
 
     await page.waitForSelector(
       ".lmt__language_select--target .lmt__language_select__active"
@@ -86,7 +110,11 @@ export default async function (files: string[]) {
   };
   // handled files number
   let currentHandledFiles = 0;
-  for (let fileIndex = 0; fileIndex < (isDev ? 4 : files.length); fileIndex++) {
+  for (
+    let fileIndex = 0;
+    fileIndex < (isDev ? Math.min(4, files.length) : files.length);
+    fileIndex++
+  ) {
     if (currentHandledFiles >= 20) {
       currentHandledFiles = 1;
       // refresh page
@@ -108,6 +136,8 @@ export default async function (files: string[]) {
     }
 
     const file = files[fileIndex];
+    console.log("file", file);
+
     const parsedFilePath = parse(file);
     const identifier = parsedFilePath.name;
     const pathIdentifier = getPathIdentifierByIdentifier(identifier);
