@@ -32,7 +32,7 @@ export default async function (files: string[]) {
     browser = await puppeteer.launch({
       // devtools: true,
       // defaultViewport: null,
-      headless: false, // !isDev,
+      headless: true, // !isDev,
 
       defaultViewport: {
         width: 393,
