@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--02--en--myfeed--HackerNews--NewsArticle--31597195",
+  "url": "https://news.ycombinator.com/item?id=31597195",
+  "headline": "Bionify – Chrome extension that helps you read any website 1.5x faster",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jhugasd",
+    "url": "https://news.ycombinator.com/user?id=jhugasd"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31597195",
+  "sameAs": "https://bionify.xyz",
+  "dateCreated": "2022-06-02T17:17:55.243Z",
+  "datePublished": "2022-06-02T16:43:26.000Z",
+  "dateModified": "2022-06-02T17:17:55.243Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Bionify - 帮助你以1.5倍的速度阅读任何网站的Chrome扩展程序\n",
+  "headline_zh-Hant": "Bionify - 幫助你以1.5倍的速度閱讀任何網站的Chrome擴展程序\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
