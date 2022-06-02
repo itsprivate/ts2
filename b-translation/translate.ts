@@ -91,6 +91,8 @@ export default async function (files: string[]) {
     page.setExtraHTTPHeaders({ referer: "https://www.google.com/" });
 
     await page.goto(homepage, { waitUntil: "domcontentloaded" });
+    console.log("viewport", page.viewport());
+
     console.log("goto page");
     // sleep 5
 
