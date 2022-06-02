@@ -66,7 +66,10 @@ export default async function (files: string[]) {
 
     await page.goto(homepage, { waitUntil: "domcontentloaded" });
 
-    await page.waitForSelector("button[dl-test=translator-source-lang-btn]");
+    await page.waitForXPath(
+      "//button[@dl-test='translator-target-lang-btn']//span[text()='English (US)']"
+    );
+    // await page.waitForSelector("button[dl-test=translator-source-lang-btn]");
     // console.log("ss");
 
     // while (await hasSelector(page, ".dl_cookieBanner--buttonSelected")) {
