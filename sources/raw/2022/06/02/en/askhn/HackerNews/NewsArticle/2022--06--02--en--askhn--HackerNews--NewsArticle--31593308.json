@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--02--en--askhn--HackerNews--NewsArticle--31593308",
+  "url": "https://news.ycombinator.com/item?id=31593308",
+  "headline": "Which programming language should I choose?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm thinking of writing an open-source library for investing / trading purposes. I already have some code scattered around my projects but it would be better to extract common stuff to a lib. Being more or less proficient in Java and Rust I consider these two languages equally.\nSo I wanted to &quot;measure&quot; what would be a better fit and I came up with the following table:<p>https://ibb.co/cL3GJT9<p>So 'Metric' is what I'm looking at when deciding. 'Weight' is my (a bit subjective) importance for the metric. 'Value' is how good language X is for this metric, and 'Score' is the metric multiplied by the value.\nSome metrics are positive, some are negative, but I made 'Value' to be 'more is better' for all of them.\nMy metrics:\nperformance - It hurts to say, but I've tested some very first task that I would like to do and Java turns out to be almost 50% quicker.\nfun - It's about my feeling when working in this language.\npopularity - I will care about adoption rate and pull requests from other developers.\nsyntax - This one is more about expressiveness and being less error-prone.\ntesting - It seems to me that Java is more mature here, for example, mutation testing is a lot better than in Rust.\ncompetition - I guess it's the reverse of popularity. I haven't found anything like this in Rust's world, but similar stuff exists in Java.<p>My question is: What did I miss? What do you think? The values above are a bit subjective and I can tweak them to show that Java's better for this.\nI'm asking here to get more objective input.\nThanks.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "lukaszwojtow",
+    "url": "https://news.ycombinator.com/user?id=lukaszwojtow"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31593308",
+  "sameAs": "https://news.ycombinator.com/item?id=31593308",
+  "dateCreated": "2022-06-02T13:54:07.402Z",
+  "datePublished": "2022-06-02T10:35:01.000Z",
+  "dateModified": "2022-06-02T13:54:07.402Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ]
+}

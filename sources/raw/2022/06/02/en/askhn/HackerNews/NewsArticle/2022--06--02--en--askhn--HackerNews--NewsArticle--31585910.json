@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--02--en--askhn--HackerNews--NewsArticle--31585910",
+  "url": "https://news.ycombinator.com/item?id=31585910",
+  "headline": "Writing automations – serverless or cron jobs?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey Hackers,\nI've got a classic conundrum on my hands: While most of my architecture is about handling events, we've got the first few requests for stuff that's happening at regular intervals, or happens a certain amount of time after an event.\nOne example is follow-up pings after signup. We want to tell the user about additional features in the few days after they first sign up, so we want to emit messages 48 and 72 hours after sign up.\nMy question is whether lightweight serverless tools feel 'ready' to do these scheduled tasks, or if you're still using cron jobs to do stuff like this.\nI should say that I'm aware of a third path that turns out to be pretty common: instead of follow up messages coming from our own stack, a signup would add someone to a 'campaign' in a CRM tool like Salesforce. That feels clunky, I'm not even an admin on our CRM, so I want to do it from inside my own tools.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "serverlessmom",
+    "url": "https://news.ycombinator.com/user?id=serverlessmom"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31585910",
+  "sameAs": "https://news.ycombinator.com/item?id=31585910",
+  "dateCreated": "2022-06-02T13:54:07.196Z",
+  "datePublished": "2022-06-01T18:18:22.000Z",
+  "dateModified": "2022-06-02T13:54:07.196Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ]
+}
