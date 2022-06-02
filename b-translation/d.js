@@ -122,23 +122,23 @@ export default async (
       })
       .catch(() => {})
   );
-  // try {
-  //   await page.waitForSelector(".lmt--active_translation_request");
-  // } catch (e) {
-  //   console.log("can not detect .lmt--active_translation_request");
-  //   console.warn(e);
-  // }
-  // await page.waitForSelector(".lmt--active_translation_request", {
-  //   hidden: true,
-  //   timeout: 90000,
-  // });
-
   try {
-    await page.waitForSelector(".lmt__raise_alternatives_placement");
+    await page.waitForSelector(".lmt--active_translation_request");
   } catch (e) {
-    console.log("can not detect .lmt__raise_alternatives_placement");
+    console.log("can not detect .lmt--active_translation_request");
     console.warn(e);
   }
+  await page.waitForSelector(".lmt--active_translation_request", {
+    hidden: true,
+    timeout: 90000,
+  });
+
+  // try {
+  //   await page.waitForSelector(".lmt__raise_alternatives_placement");
+  // } catch (e) {
+  //   console.log("can not detect .lmt__raise_alternatives_placement");
+  //   console.warn(e);
+  // }
   // await page.waitForTimeout(500);
 
   // await page.screenshot({ path: "data/buddy-screenshot3.png" });

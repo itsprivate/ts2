@@ -20,7 +20,7 @@ import {
   ContextDefinition,
 } from "https://cdn.skypack.dev/jsonld?dts";
 import zhToHant from "./zh-to-hant.ts";
-const homepage = "https://www.deepl.com/translator";
+const homepage = "https://www.deepl.com/en/translator";
 const isDev = Deno.env.get("ENV") === "dev";
 // const isDev = true;
 export default async function (files: string[]) {
@@ -38,23 +38,48 @@ export default async function (files: string[]) {
     browser.on("disconnected", () => (browser = null));
     return browser;
   };
+  const sleepMs = (ms: number) => new Promise((r) => setTimeout(r, ms));
+  const hasSelector = (page: Page, selector: string) => {
+    // @ts-ignore: document
+    return page.evaluate((s) => document.querySelector(s), [selector]);
+  };
 
   const getNewPage = async (force: boolean): Promise<Page> => {
     if (page) return page;
+    console.log("newwww");
+
     browser = await getBrowser();
+    console.log("browswersss");
+
     const pages = await browser.pages();
     if (pages[0] && !force) {
       page = pages[0];
     } else {
       page = await browser.newPage();
     }
+    // console.log("page", page);
+
     await page.setUserAgent(
       "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Mobile Safari/537.36 Edg/102.0.1245.30"
     );
     await page.setViewport({ width: 1370, height: 1200 });
-    await page.goto(homepage, { waitUntil: "domcontentloaded" });
+    console.log("can go to page?");
 
-    await page.waitForTimeout(2000);
+    await page.goto(homepage, { waitUntil: "domcontentloaded" });
+    console.log("goto page");
+
+    await page.waitForSelector(
+      ".lmt__language_select--target .lmt__language_select__active"
+    );
+    console.log("ss");
+
+    while (await hasSelector(page, ".dl_cookieBanner--buttonSelected")) {
+      await page.click(".dl_cookieBanner--buttonSelected");
+      await sleepMs(1000);
+    }
+    console.log("nnnpage");
+
+    // await page.waitForTimeout(2000);
     // await page.screenshot({ path: "example.png" });
 
     return page;
@@ -62,9 +87,10 @@ export default async function (files: string[]) {
   // handled files number
   let currentHandledFiles = 0;
   for (let fileIndex = 0; fileIndex < (isDev ? 4 : files.length); fileIndex++) {
-    if (currentHandledFiles >= 100) {
+    if (currentHandledFiles >= 20) {
       currentHandledFiles = 1;
       // refresh page
+
       browser = await getBrowser();
       const pages = await browser!.pages();
 
@@ -75,6 +101,8 @@ export default async function (files: string[]) {
       page = await getNewPage(true);
     } else {
       currentHandledFiles++;
+      console.log("get new page");
+
       // open puppeteer
       page = await getNewPage(false);
     }
