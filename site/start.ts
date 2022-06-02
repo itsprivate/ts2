@@ -2,7 +2,7 @@ import build from "./build.ts";
 import serve from "./serve.ts";
 
 export default async function main() {
-  await build("besthn");
+  await build("showhn");
   await serve();
 }
 main()
