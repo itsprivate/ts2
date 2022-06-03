@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--03--en--myfeed--HackerNews--NewsArticle--31602800",
+  "url": "https://news.ycombinator.com/item?id=31602800",
+  "headline": "Heartbreak hotels? Las Vegas chapels told to stop using Elvis for weddings",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rntn",
+    "url": "https://news.ycombinator.com/user?id=rntn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31602800",
+  "sameAs": "https://www.theguardian.com/us-news/2022/jun/02/las-vegas-chapels-stop-using-elvis-weddings",
+  "dateCreated": "2022-06-03T01:57:56.039Z",
+  "datePublished": "2022-06-03T00:56:27.000Z",
+  "dateModified": "2022-06-03T01:57:56.039Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "心碎的酒店？拉斯维加斯的教堂被告知停止使用猫王举行婚礼\n",
+  "headline_zh-Hant": "心碎的酒店？拉斯維加斯的教堂被告知停止使用貓王舉行婚禮\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
