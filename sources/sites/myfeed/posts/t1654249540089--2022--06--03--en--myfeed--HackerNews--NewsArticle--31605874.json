@@ -36,5 +36,23 @@
       },
       "userInteractionCount": 1
     }
+  ],
+  "headline_zh-Hans": "Spotify推出开源工具，解决现代音乐人的大问题\n",
+  "headline_zh-Hant": "Spotify推出開源工具，解決現代音樂人的大問題\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
   ]
 }

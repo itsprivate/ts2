@@ -2,7 +2,7 @@
   "@type": "NewsArticle",
   "identifier": "2022--06--03--en--askhn--HackerNews--NewsArticle--31606084",
   "url": "https://news.ycombinator.com/item?id=31606084",
-  "headline": "Why didn't Pony take off?",
+  "headline": "Ask HN: Why didn't Pony take off?",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -39,5 +39,33 @@
       },
       "userInteractionCount": 0
     }
-  ]
+  ],
+  "headline_zh-Hans": "Ask HN: 小马为什么不起飞？\n",
+  "headline_zh-Hant": "Ask HN: 小馬為什麼不起飛？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "它似乎提供了很多与Rust相同的东西，而Rust则非常受欢迎。Pony的哪些缺点导致它在普及和采用方面落后于Rust，而Rust则冲刺在前？\n",
+  "description_zh-Hant": "它似乎提供了很多與Rust相同的東西，而Rust則非常受歡迎。Pony的哪些缺點導致它在普及和採用方面落後於Rust，而Rust則衝刺在前？\n"
 }
