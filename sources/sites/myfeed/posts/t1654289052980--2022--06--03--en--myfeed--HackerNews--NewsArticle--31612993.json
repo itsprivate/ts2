@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--03--en--myfeed--HackerNews--NewsArticle--31612993",
+  "url": "https://news.ycombinator.com/item?id=31612993",
+  "headline": "How will CXL pooling and Kubernetes co-exist?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I have been reading more about the CXL 2.0 spec, specifically resource pooling. This feature enables servers to pool resources such as accelerators and/or memory that can be assigned to different servers depending on the workload. I have limited understanding of Kubernetes, but the basic idea to solve is being able to scale up or out depending on usage. Anyone have ideas about how CXL will change the landscape up on the stack?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "silksowed",
+    "url": "https://news.ycombinator.com/user?id=silksowed"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31612993",
+  "sameAs": "https://news.ycombinator.com/item?id=31612993",
+  "dateCreated": "2022-06-03T20:44:12.980Z",
+  "datePublished": "2022-06-03T20:05:32.000Z",
+  "dateModified": "2022-06-03T20:44:12.980Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "CXL池和Kubernetes将如何共存？\n",
+  "headline_zh-Hant": "CXL池和Kubernetes將如何共存？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我一直在阅读更多关于CXL 2.0规范的内容，特别是资源池。这个功能使服务器能够汇集资源，如加速器和/或内存，可以根据工作负载分配给不同的服务器。我对Kubernetes的理解有限，但要解决的基本想法是能够根据使用情况扩大或缩小规模。有人对CXL将如何改变堆栈上的景观有想法吗？\n",
+  "description_zh-Hant": "我一直在閱讀更多關於CXL 2.0規範的內容，特別是資源池。這個功能使服務器能夠彙集資源，如加速器和/或內存，可以根據工作負載分配給不同的服務器。我對Kubernetes的理解有限，但要解決的基本想法是能夠根據使用情況擴大或縮小規模。有人對CXL將如何改變堆棧上的景觀有想法嗎？\n"
+}
