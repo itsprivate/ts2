@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--03--en--askhn--HackerNews--NewsArticle--31609649",
+  "url": "https://news.ycombinator.com/item?id=31609649",
+  "headline": "Ask HN: Optimizing database table for user-made queries?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Let's say you have have a large-ish database table of product orders, and you'd like to allow users to query it with an API, using several different filter and sort options, and of course supporting pagination.<p>What would be the best strategy to optimize such query? Creating an index for every possible combination of options doesn't seem practical. How do large companies handle queries like [0], with 20 different filters and 10 different sort options?<p>In our particular case, we use a MySQL db in AWS RDS.<p>Tangentially, can you recommend any good books/resources with real-world usage patterns, and examples of the entire process of analyzing and solving database-related problems in growing web applications? Ideally written from the problem perspective, rather than just a reference of available db functionalities.<p>Thanks!<p>[0] https://shopify.dev/api/admin-graphql/2022-01/objects/Product#query-products",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "luke8086",
+    "url": "https://news.ycombinator.com/user?id=luke8086"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31609649",
+  "sameAs": "https://news.ycombinator.com/item?id=31609649",
+  "dateCreated": "2022-06-03T15:47:30.940Z",
+  "datePublished": "2022-06-03T15:28:20.000Z",
+  "dateModified": "2022-06-03T15:47:30.940Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为用户的查询优化数据库表？\n",
+  "headline_zh-Hant": "Ask HN: 為用戶的查詢優化數據庫表？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "假设你有一个大型的产品订单数据库表，你想让用户通过API来查询，使用几个不同的过滤器和排序选项，当然也支持分页。为每个可能的选项组合创建一个索引似乎并不实际。<p>在我们的特定案例中，我们在AWS RDS中使用了MySQL数据库。<p>切题而言，你能推荐一些好的书籍/资源，其中有真实世界的使用模式，以及在成长中的网络应用中分析和解决数据库相关问题的整个过程的例子？最好是从问题的角度来写，而不仅仅是对现有数据库功能的参考。<p>谢谢！<p>[0] https://shopify.dev/api/admin-graphql/2022-01/objects/Product#query-products\n",
+  "description_zh-Hant": "假設你有一個大型的產品訂單數據庫表，你想讓用戶通過API來查詢，使用幾個不同的過濾器和排序選項，當然也支持分頁。為每個可能的選項組合創建一個索引似乎並不實際。<p>在我們的特定案例中，我們在AWS RDS中使用了MySQL數據庫。<p>切題而言，你能推薦一些好的書籍/資源，其中有真實世界的使用模式，以及在成長中的網絡應用中分析和解決數據庫相關問題的整個過程的例子？最好是從問題的角度來寫，而不僅僅是對現有數據庫功能的參考。<p>謝謝！<p>[0] https://shopify.dev/api/admin-graphql/2022-01/objects/Product#query-products\n"
+}
