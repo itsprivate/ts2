@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--04--en--myfeed--HackerNews--NewsArticle--31617978",
+  "url": "https://news.ycombinator.com/item?id=31617978",
+  "headline": "Multiple Vulnerabilities in U-Boot",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mike_d",
+    "url": "https://news.ycombinator.com/user?id=mike_d"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31617978",
+  "sameAs": "https://research.nccgroup.com/2022/06/03/technical-advisory-multiple-vulnerabilities-in-u-boot-cve-2022-30790-cve-2022-30552/",
+  "dateCreated": "2022-06-04T08:29:35.386Z",
+  "datePublished": "2022-06-04T07:40:39.000Z",
+  "dateModified": "2022-06-04T08:29:35.386Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "U-Boot中的多个漏洞\n",
+  "headline_zh-Hant": "U-Boot中的多個漏洞\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
