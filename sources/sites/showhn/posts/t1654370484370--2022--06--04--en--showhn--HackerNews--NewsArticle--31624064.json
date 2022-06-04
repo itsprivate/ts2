@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--06--02--en--myfeed--HackerNews--NewsArticle--31597687",
-  "url": "https://news.ycombinator.com/item?id=31597687",
-  "headline": "When Cars Kill Pedestrians",
+  "identifier": "2022--06--04--en--showhn--HackerNews--NewsArticle--31624064",
+  "url": "https://news.ycombinator.com/item?id=31624064",
+  "headline": "Show HN: Adhoc remote execution in AWS Lambda",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "fortran77",
-    "url": "https://news.ycombinator.com/user?id=fortran77"
+    "name": "nathants",
+    "url": "https://news.ycombinator.com/user?id=nathants"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=31597687",
-  "sameAs": "https://www.newyorker.com/news/our-local-correspondents/when-cars-kill-pedestrians",
-  "dateCreated": "2022-06-02T17:17:55.305Z",
-  "datePublished": "2022-06-02T17:12:54.000Z",
-  "dateModified": "2022-06-02T17:17:55.305Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31624064",
+  "sameAs": "https://github.com/nathants/aws-rce",
+  "dateCreated": "2022-06-04T19:21:24.370Z",
+  "datePublished": "2022-06-04T19:12:39.000Z",
+  "dateModified": "2022-06-04T19:21:24.370Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "当汽车杀死行人时\n",
-  "headline_zh-Hant": "當汽車殺死行人時\n",
+  "headline_zh-Hans": "Show HN: AWS Lambda中的临时远程执行\n",
+  "headline_zh-Hant": "Show HN: AWS Lambda中的臨時遠程執行\n",
   "@context": [
     "https://schema.org",
     {
