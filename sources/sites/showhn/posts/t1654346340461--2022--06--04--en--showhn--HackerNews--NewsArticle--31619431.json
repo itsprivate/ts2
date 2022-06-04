@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--04--19--en--hackernews--HackerNews--NewsArticle--31083470",
-  "url": "https://news.ycombinator.com/item?id=31083470",
-  "headline": "The Tech Bubble That Never Burst",
+  "identifier": "2022--06--04--en--showhn--HackerNews--NewsArticle--31619431",
+  "url": "https://news.ycombinator.com/item?id=31619431",
+  "headline": "Show HN: Paper Prototype CSS",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "skywal_l",
-    "url": "https://news.ycombinator.com/user?id=skywal_l"
+    "name": "edent",
+    "url": "https://news.ycombinator.com/user?id=edent"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=31083470",
-  "sameAs": "https://www.nytimes.com/interactive/2022/04/19/technology/tech-startup-bubble.html",
-  "dateCreated": "2022-04-19T14:40:35.135Z",
-  "datePublished": "2022-04-19T14:18:03.000Z",
-  "dateModified": "2022-04-19T14:40:35.135Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31619431",
+  "sameAs": "https://edent.gitlab.io/paper-prototype-css/",
+  "dateCreated": "2022-06-04T12:39:00.461Z",
+  "datePublished": "2022-06-04T12:13:12.000Z",
+  "dateModified": "2022-06-04T12:39:00.461Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 12
+      "userInteractionCount": 2
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 5
+      "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "永不破灭的科技泡沫",
-  "headline_zh-Hant": "永不破滅的科技泡沫",
+  "headline_zh-Hans": "Show HN: 纸质原型CSS\n",
+  "headline_zh-Hant": "Show HN: 紙質原型CSS\n",
   "@context": [
     "https://schema.org",
     {
