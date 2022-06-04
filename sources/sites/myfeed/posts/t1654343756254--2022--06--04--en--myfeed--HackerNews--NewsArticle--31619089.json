@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--04--en--myfeed--HackerNews--NewsArticle--31619089",
+  "url": "https://news.ycombinator.com/item?id=31619089",
+  "headline": "Turkey’s inflation soars to 73%, a 23-year high, as food and energy costs rise",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "TekMol",
+    "url": "https://news.ycombinator.com/user?id=TekMol"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31619089",
+  "sameAs": "https://www.cnbc.com/2022/06/03/turkeys-inflation-soars-to-73percent-as-food-and-energy-costs-skyrocket.html",
+  "dateCreated": "2022-06-04T11:55:56.254Z",
+  "datePublished": "2022-06-04T11:22:00.000Z",
+  "dateModified": "2022-06-04T11:55:56.254Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "土耳其通货膨胀率飙升至73%，创23年新高，因为食品和能源成本上升\n",
+  "headline_zh-Hant": "土耳其通貨膨脹率飆升至73%，創23年新高，因為食品和能源成本上升\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
