@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31626729",
+  "url": "https://news.ycombinator.com/item?id=31626729",
+  "headline": "A Lesson from the Tiananmen Tank Men",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dredmorbius",
+    "url": "https://news.ycombinator.com/user?id=dredmorbius"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31626729",
+  "sameAs": "https://www.newsweek.com/lesson-tiananmen-tank-men-opinion-1712687",
+  "dateCreated": "2022-06-05T02:13:11.945Z",
+  "datePublished": "2022-06-05T00:40:46.000Z",
+  "dateModified": "2022-06-05T02:13:11.945Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "天安门坦克兵的教训\n",
+  "headline_zh-Hant": "天安門坦克兵的教訓\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
