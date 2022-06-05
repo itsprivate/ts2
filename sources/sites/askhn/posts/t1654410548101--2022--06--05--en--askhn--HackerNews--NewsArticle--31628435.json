@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--askhn--HackerNews--NewsArticle--31628435",
+  "url": "https://news.ycombinator.com/item?id=31628435",
+  "headline": "Ask HN: Why Kubernetes is called Cloud-Native?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "You still have to run and manage K8S Control Plane / master nodes for resource scheduling.<p>IMO Cloud-Native is when a cloud manages everything for you. Like S3 storage or AWS Kafka service or AWS Lambda. Managing K8S does not look like &quot;Native&quot;.<p>It looks like K8S holds the spot between Cloud (Cloud-Native) and on-premise. It gives you economy of scale in your on-premise hardware.<p>I'm missing something?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "dmpetrov",
+    "url": "https://news.ycombinator.com/user?id=dmpetrov"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31628435",
+  "sameAs": "https://news.ycombinator.com/item?id=31628435",
+  "dateCreated": "2022-06-05T06:29:08.101Z",
+  "datePublished": "2022-06-05T06:03:09.000Z",
+  "dateModified": "2022-06-05T06:29:08.101Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么Kubernetes被称为云原生？\n",
+  "headline_zh-Hant": "Ask HN: 為什麼Kubernetes被稱為雲原生？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你仍然需要运行和管理K8S控制平面/主节点来进行资源调度。<p>IMO云原生是指云为你管理一切。比如S3存储或AWS Kafka服务或AWS Lambda。管理K8S并不像&quot;Native&quot;。<p>看起来K8S在云（Cloud-Native）和内部部署之间占有一席之地。它为你的内部硬件提供了规模经济。<p>我错过了什么？\n",
+  "description_zh-Hant": "你仍然需要運行和管理K8S控制平面/主節點來進行資源調度。<p>IMO雲原生是指云為你管理一切。比如S3存儲或AWS Kafka服務或AWS Lambda。管理K8S並不像&quot;Native&quot;。<p>看起來K8S在雲（Cloud-Native）和內部部署之間佔有一席之地。它為你的內部硬件提供了規模經濟。<p>我錯過了什麼？\n"
+}
