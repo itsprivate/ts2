@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--askhn--HackerNews--NewsArticle--31629152",
+  "url": "https://news.ycombinator.com/item?id=31629152",
+  "headline": "Ask HN: Recommended OAuth scopes for GitHub personal access tokens",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "So it's that time of the month again and I'm generating a whole new set of personal access tokens for all of my dev machines.<p>Every time I get to this page(https://imgur.com/a/V9gGI0y) I just feel a sense of dread. It feels like the Github security team is asleep at the wheel when they let UI like this exist. Even the immediately linked documentation isn't immediately actionable (https://docs.github.com/en/developers/apps/building-oauth-apps/scopes-for-oauth-apps).<p>Ideally, there should be a set of scopes recommended by their security team for different workflows/applications/scenarios... but without that being available from what I can see... I've come here.<p>Hackernews what are your recommended OAuth scopes for access tokens for different scenarios? What best practices are you following to keep your account secure?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ethanwillis",
+    "url": "https://news.ycombinator.com/user?id=ethanwillis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31629152",
+  "sameAs": "https://news.ycombinator.com/item?id=31629152",
+  "dateCreated": "2022-06-05T08:59:50.962Z",
+  "datePublished": "2022-06-05T08:48:51.000Z",
+  "dateModified": "2022-06-05T08:59:50.962Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 推荐用于GitHub个人访问令牌的OAuth作用域\n",
+  "headline_zh-Hant": "Ask HN: 推薦用於GitHub個人訪問令牌的OAuth作用域\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "又到了每月的这个时候，我正在为我所有的开发机器生成一套全新的个人访问令牌。<p>每当我看到这个页面(https://imgur.com/a/V9gGI0y)时，我就感到一种恐惧的感觉。当Github的安全团队让这样的用户界面存在时，我感觉他们就像在车轮上睡觉。即使是立即链接的文档也不是立即可操作的(https://docs.github.com/en/developers/apps/building-oauth-apps/scopes-for-oauth-apps)。<p>当然，他们的安全团队应该为不同的工作流程/应用/场景推荐一套范围......但从我所看到的情况来看，没有这个范围。<p>Hackernews，你们为不同的场景推荐了哪些OAuth访问令牌的作用域？你遵循什么最佳做法来保证你的账户安全？\n",
+  "description_zh-Hant": "又到了每月的這個時候，我正在為我所有的開發機器生成一套全新的個人訪問令牌。<p>每當我看到這個頁面(https://imgur.com/a/V9gGI0y)時，我就感到一種恐懼的感覺。當Github的安全團隊讓這樣的用戶界面存在時，我感覺他們就像在車輪上睡覺。即使是立即鏈接的文檔也不是立即可操作的(https://docs.github.com/en/developers/apps/building-oauth-apps/scopes-for-oauth-apps)。<p>當然，他們的安全團隊應該為不同的工作流程/應用/場景推薦一套範圍......但從我所看到的情況來看，沒有這個範圍。<p>Hackernews，你們為不同的場景推薦了哪些OAuth訪問令牌的作用域？你遵循什麼最佳做法來保證你的賬戶安全？\n"
+}
