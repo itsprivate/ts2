@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31634153",
+  "url": "https://news.ycombinator.com/item?id=31634153",
+  "headline": "HEPA air filter in Tesla removes 99.97% of airborne particles",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kklisura",
+    "url": "https://news.ycombinator.com/user?id=kklisura"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31634153",
+  "sameAs": "https://twitter.com/Tesla/status/1533512936395784195",
+  "dateCreated": "2022-06-05T19:55:54.784Z",
+  "datePublished": "2022-06-05T19:37:58.000Z",
+  "dateModified": "2022-06-05T19:55:54.784Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "特斯拉的HEPA空气过滤器可去除99.97%的空气中的微粒\n",
+  "headline_zh-Hant": "特斯拉的HEPA空氣過濾器可去除99.97%的空氣中的微粒\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
