@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--HackerNews--NewsArticle--31646430",
+  "url": "https://news.ycombinator.com/item?id=31646430",
+  "headline": "Request: Extension to hide Apple news from HN",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Forget job ads, I want an extension that automatically hides apple marketing posts on hn.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cwillu",
+    "url": "https://news.ycombinator.com/user?id=cwillu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31646430",
+  "sameAs": "https://news.ycombinator.com/item?id=31646430",
+  "dateCreated": "2022-06-06T21:42:46.916Z",
+  "datePublished": "2022-06-06T21:19:40.000Z",
+  "dateModified": "2022-06-06T21:42:46.916Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 7
+    }
+  ],
+  "headline_zh-Hans": "要求。延长对HN隐藏苹果新闻的时间\n",
+  "headline_zh-Hant": "要求。延長對HN隱藏蘋果新聞的時間\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "忘了招聘广告吧，我想要一个能自动隐藏hn上苹果营销帖子的扩展。\n",
+  "description_zh-Hant": "忘了招聘廣告吧，我想要一個能自動隱藏hn上蘋果營銷帖子的擴展。\n"
+}
