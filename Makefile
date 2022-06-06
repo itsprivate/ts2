@@ -40,7 +40,7 @@ hackernews:
 front:
 	deno run -A --unstable site/cli.ts hackernews
 feed:
-	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run hnauthors --database json://dev-data
+	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run source-from-rss --database json://dev-data
 rss:
 	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run myrss --database json://dev-data
 faq:

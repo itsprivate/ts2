@@ -75,7 +75,7 @@ steps:
   - from: ../../common/format-rss.ts
     args:
       - ${{ctx.item}}
-      - myrss
+      - myfeed
       - ${{ctx.itemSourceOptions}}
   - from: https://deno.land/std@0.121.0/fs/mod.ts
     use: ensureFile
