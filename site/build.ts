@@ -156,9 +156,10 @@ export default async function main(siteIdentifier: string) {
                 objects: post.originalHeadline,
               },
               {
-                name: "_discussion_url",
-                objects: post.discussionUrl,
+                name: "_original_url",
+                objects: post.sameAs,
               },
+
               {
                 name: "_sensitive",
                 objects: false,
