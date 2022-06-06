@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--HackerNews--NewsArticle--31642292",
+  "url": "https://news.ycombinator.com/item?id=31642292",
+  "headline": "Video Live Streaming: Notes on RTMP, HLS, and WebRTC",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vr000m",
+    "url": "https://news.ycombinator.com/user?id=vr000m"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31642292",
+  "sameAs": "https://www.daily.co/blog/video-live-streaming/",
+  "dateCreated": "2022-06-06T16:38:16.217Z",
+  "datePublished": "2022-06-06T16:11:27.000Z",
+  "dateModified": "2022-06-06T16:38:16.217Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 17
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "视频实时流。关于RTMP、HLS和WebRTC的说明\n",
+  "headline_zh-Hant": "視頻實時流。關於RTMP、HLS和WebRTC的說明\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

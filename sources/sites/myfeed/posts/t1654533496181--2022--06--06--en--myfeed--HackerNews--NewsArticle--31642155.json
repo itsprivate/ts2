@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--HackerNews--NewsArticle--31642155",
+  "url": "https://news.ycombinator.com/item?id=31642155",
+  "headline": "Musk threatens to pull out of Twitter deal without more info on fake accounts",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gnicholas",
+    "url": "https://news.ycombinator.com/user?id=gnicholas"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31642155",
+  "sameAs": "https://www.nytimes.com/2022/06/06/business/elon-musk-twitter.html",
+  "dateCreated": "2022-06-06T16:38:16.181Z",
+  "datePublished": "2022-06-06T16:00:00.000Z",
+  "dateModified": "2022-06-06T16:38:16.181Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "马斯克威胁说，如果没有关于虚假账户的更多信息，他将退出Twitter交易\n",
+  "headline_zh-Hant": "馬斯克威脅說，如果沒有關於虛假賬戶的更多信息，他將退出Twitter交易\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

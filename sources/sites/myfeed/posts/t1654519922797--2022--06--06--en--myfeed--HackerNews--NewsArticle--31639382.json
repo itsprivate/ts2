@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--HackerNews--NewsArticle--31639382",
+  "url": "https://news.ycombinator.com/item?id=31639382",
+  "headline": "My favorite Erlang Program (2013)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "notamy",
+    "url": "https://news.ycombinator.com/user?id=notamy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31639382",
+  "sameAs": "https://joearms.github.io/published/2013-11-21-My-favorite-erlang-program.html",
+  "dateCreated": "2022-06-06T12:52:02.797Z",
+  "datePublished": "2022-06-06T12:01:44.000Z",
+  "dateModified": "2022-06-06T12:52:02.797Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我最喜欢的Erlang程序(2013)\n",
+  "headline_zh-Hant": "我最喜歡的Erlang程序(2013)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

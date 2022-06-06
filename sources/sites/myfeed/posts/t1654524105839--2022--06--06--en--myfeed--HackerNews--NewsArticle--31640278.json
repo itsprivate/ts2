@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--HackerNews--NewsArticle--31640278",
+  "url": "https://news.ycombinator.com/item?id=31640278",
+  "headline": "Tax (Vat) Calculator",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jinq",
+    "url": "https://news.ycombinator.com/user?id=jinq"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31640278",
+  "sameAs": "https://johninquest.github.io/tax-app/",
+  "dateCreated": "2022-06-06T14:01:45.839Z",
+  "datePublished": "2022-06-06T13:38:57.000Z",
+  "dateModified": "2022-06-06T14:01:45.839Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "税收（增值税）计算器\n",
+  "headline_zh-Hant": "稅收（增值稅）計算器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

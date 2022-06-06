@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--HackerNews--NewsArticle--31639232",
+  "url": "https://news.ycombinator.com/item?id=31639232",
+  "headline": "Telegram reportedly surrendered user data to authorities",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "heikrana",
+    "url": "https://news.ycombinator.com/user?id=heikrana"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31639232",
+  "sameAs": "https://www.androidpolice.com/telegram-germany-user-data-surrendered/",
+  "dateCreated": "2022-06-06T11:56:07.731Z",
+  "datePublished": "2022-06-06T11:42:01.000Z",
+  "dateModified": "2022-06-06T11:56:07.731Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "据报道，Telegram向当局交出了用户数据\n",
+  "headline_zh-Hant": "據報道，Telegram向當局交出了用戶數據\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--HackerNews--NewsArticle--31641418",
+  "url": "https://news.ycombinator.com/item?id=31641418",
+  "headline": "The Toxic Grind",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bndr",
+    "url": "https://news.ycombinator.com/user?id=bndr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31641418",
+  "sameAs": "https://vadimkravcenko.com/shorts/the-toxic-grind/",
+  "dateCreated": "2022-06-06T15:28:24.032Z",
+  "datePublished": "2022-06-06T15:04:55.000Z",
+  "dateModified": "2022-06-06T15:28:24.032Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "有毒的磨练\n",
+  "headline_zh-Hant": "有毒的磨練\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
