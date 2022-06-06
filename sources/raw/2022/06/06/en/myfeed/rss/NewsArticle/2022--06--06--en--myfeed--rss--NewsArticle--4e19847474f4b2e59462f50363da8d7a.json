@@ -1,0 +1,24 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--rss--NewsArticle--4e19847474f4b2e59462f50363da8d7a",
+  "url": "https://www.davidhaney.io/stats-vs-reference-string-equals/",
+  "headline": "Static vs Instance string.Equals",
+  "publisher": {
+    "@type": "Organization",
+    "name": "www.davidhaney.io",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "description": "As you may or may not know, static methods are usually faster than instance methods. This alone should be a good enough reason to use the static string.Equals methodin .NET, but if that doesn’t do it for you, allow me to present a simple example.\nstring a = &amp;quot;hello&amp;quot;;\rstring b = &amp;quot;hi&amp;quot;;\rbool result = a.Equals(b);\r What is the expected result of these lines? A boolean value of false, of course.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "unknown",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "discussionUrl": "https://www.davidhaney.io/stats-vs-reference-string-equals/",
+  "sameAs": "https://www.davidhaney.io/stats-vs-reference-string-equals/",
+  "dateCreated": "2022-06-06T07:41:48.376Z",
+  "datePublished": "2012-10-22T14:57:14.000Z",
+  "dateModified": "2022-06-06T07:41:48.376Z",
+  "interactionStatistic": []
+}

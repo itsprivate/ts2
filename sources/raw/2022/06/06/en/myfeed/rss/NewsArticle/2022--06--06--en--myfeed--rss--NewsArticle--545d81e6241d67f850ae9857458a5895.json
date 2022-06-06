@@ -1,0 +1,24 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--rss--NewsArticle--545d81e6241d67f850ae9857458a5895",
+  "url": "https://www.davidhaney.io/custom-asp-net-mvc-action-result-cache-attribute/",
+  "headline": "Custom ASP.NET MVC Action Result Cache Attribute",
+  "publisher": {
+    "@type": "Organization",
+    "name": "www.davidhaney.io",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "description": "If you’re working on an application built using ASP.NET MVC, you’re hopefully aware of the OutputCacheAttribute attribute which can be used to statically cache your dynamic web pages. By adding this attribute to a controller or action method, the output of the method(s) will be stored in memory. For example, if your action method renders a view, then the view page will be cached in memory. This cached view page is then available to the application for all subsequent requests (or until the item expires out of the cache), which can retrieve it from the memory rather than redoing the work to re-create the result again.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "unknown",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "discussionUrl": "https://www.davidhaney.io/custom-asp-net-mvc-action-result-cache-attribute/",
+  "sameAs": "https://www.davidhaney.io/custom-asp-net-mvc-action-result-cache-attribute/",
+  "dateCreated": "2022-06-06T07:41:48.186Z",
+  "datePublished": "2017-01-10T09:07:15.000Z",
+  "dateModified": "2022-06-06T07:41:48.186Z",
+  "interactionStatistic": []
+}
