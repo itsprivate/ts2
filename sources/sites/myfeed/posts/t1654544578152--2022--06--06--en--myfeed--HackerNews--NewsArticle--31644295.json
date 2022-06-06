@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--HackerNews--NewsArticle--31644295",
+  "url": "https://news.ycombinator.com/item?id=31644295",
+  "headline": "Banned from More Than Ten Social Media Sites, I Decided to Create My Own",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "davesailer",
+    "url": "https://news.ycombinator.com/user?id=davesailer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31644295",
+  "sameAs": "https://cheapskatesguide.org/articles/my-social-media-site.html",
+  "dateCreated": "2022-06-06T19:42:58.152Z",
+  "datePublished": "2022-06-06T18:55:47.000Z",
+  "dateModified": "2022-06-06T19:42:58.152Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "被禁止进入十多个社交媒体网站，我决定创建自己的网站\n",
+  "headline_zh-Hant": "被禁止進入十多個社交媒體網站，我決定創建自己的網站\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
