@@ -1,0 +1,52 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--rss--NewsArticle--cd4e1344ee205e87b990585b42808f40",
+  "url": "https://www.davidhaney.io/mvc4-conditional-html-attributes/",
+  "headline": "MVC4 Conditional HTML Attributes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "www.davidhaney.io",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "description": "MVC4 made one simple and yet awesome improvement to View rendering that I don’t think many people are aware of.\nHave you ever had to conditionally add an attribute to an HTML element in your MVC View based on the presence of a variable? The typical use case is applying a CSS class to a div. Most of the time that code looks something like this:\n&amp;lt;div @(myClass == null ?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "unknown",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "discussionUrl": "https://www.davidhaney.io/mvc4-conditional-html-attributes/",
+  "sameAs": "https://www.davidhaney.io/mvc4-conditional-html-attributes/",
+  "dateCreated": "2022-06-06T07:41:48.307Z",
+  "datePublished": "2013-11-27T00:34:25.000Z",
+  "dateModified": "2022-06-06T07:41:48.307Z",
+  "interactionStatistic": [],
+  "headline_zh-Hans": "MVC4的条件性HTML属性\n",
+  "headline_zh-Hant": "MVC4的條件性HTML屬性\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "MVC4对视图的渲染做了一个简单而又了不起的改进，我想很多人都没有意识到。\n你是否曾经在你的MVC视图中根据一个变量的存在而有条件地给一个HTML元素添加一个属性？典型的用例是给一个div应用一个CSS类。大多数情况下，这些代码看起来像这样。\n&amp;lt;div @(myClass == null ?\n",
+  "description_zh-Hant": "MVC4對視圖的渲染做了一個簡單而又了不起的改進，我想很多人都沒有意識到。\n你是否曾經在你的MVC視圖中根據一個變量的存在而有條件地給一個HTML元素添加一個屬性？典型的用例是給一個div應用一個CSS類。大多數情況下，這些代碼看起來像這樣。\n&amp;lt;div @(myClass == null ?\n"
+}
