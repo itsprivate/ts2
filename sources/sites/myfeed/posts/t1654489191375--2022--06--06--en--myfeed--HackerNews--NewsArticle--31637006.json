@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--HackerNews--NewsArticle--31637006",
+  "url": "https://news.ycombinator.com/item?id=31637006",
+  "headline": "Subservience to the Algorithm",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "behnamoh",
+    "url": "https://news.ycombinator.com/user?id=behnamoh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31637006",
+  "sameAs": "https://hiphish.github.io/blog/2022/01/08/subservience-to-the-algorithm/",
+  "dateCreated": "2022-06-06T04:19:51.375Z",
+  "datePublished": "2022-06-06T03:23:01.000Z",
+  "dateModified": "2022-06-06T04:19:51.375Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "对算法的顺从\n",
+  "headline_zh-Hant": "對算法的順從\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
