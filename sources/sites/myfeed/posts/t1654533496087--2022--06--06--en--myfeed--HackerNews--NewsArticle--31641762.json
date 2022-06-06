@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--HackerNews--NewsArticle--31641762",
+  "url": "https://news.ycombinator.com/item?id=31641762",
+  "headline": "Elon Musk threatens to scrap $44bn Twitter deal over 'material breach'",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "middleclick",
+    "url": "https://news.ycombinator.com/user?id=middleclick"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31641762",
+  "sameAs": "https://www.theguardian.com/technology/2022/jun/06/elon-musk-threatens-to-scrap-twitter-deal-over-material-breach",
+  "dateCreated": "2022-06-06T16:38:16.087Z",
+  "datePublished": "2022-06-06T15:31:26.000Z",
+  "dateModified": "2022-06-06T16:38:16.087Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "埃隆-马斯克威胁要取消440亿美元的推特交易，因为 \"重大违规\"。\n",
+  "headline_zh-Hant": "埃隆-馬斯克威脅要取消440億美元的推特交易，因為 \"重大違規\"。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
