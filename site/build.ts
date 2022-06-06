@@ -150,6 +150,24 @@ export default async function main(siteIdentifier: string) {
               },
             ],
             date: post.dateCreatedDate as Date,
+            extensions: [
+              {
+                name: "_original_headline",
+                objects: post.originalHeadline,
+              },
+              {
+                name: "_discussion_url",
+                objects: post.discussionUrl,
+              },
+              {
+                name: "_sensitive",
+                objects: false,
+              },
+              {
+                name: "_score",
+                objects: post.LikeAction || 0,
+              },
+            ],
           });
         });
         pages.push({
