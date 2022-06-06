@@ -1,0 +1,24 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--rss--NewsArticle--b13175964fd397f39476ac20d377e560",
+  "url": "https://www.davidhaney.io/trigger-ivalidatableobject-validate-when-modelstate-isvalid-is-false/",
+  "headline": "Trigger IValidatableObject.Validate When ModelState.IsValid is false",
+  "publisher": {
+    "@type": "Organization",
+    "name": "www.davidhaney.io",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "description": "I recently came across an ASP.NET MVC issue at work where the validation for my Model was not firing correctly. The Model implemented the IValidatableObject interface and thus the Validate method which did some specific logic to ensure the state of the Model (the ModelState). This Model also had some DataAnnotation attributes on it to validate basic input.\nLong story short, the issue I encountered was that when ModelState.IsValid == false due to failure of the DataAnnotation validation, the IValidatableObject.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "unknown",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "discussionUrl": "https://www.davidhaney.io/trigger-ivalidatableobject-validate-when-modelstate-isvalid-is-false/",
+  "sameAs": "https://www.davidhaney.io/trigger-ivalidatableobject-validate-when-modelstate-isvalid-is-false/",
+  "dateCreated": "2022-06-06T07:41:48.296Z",
+  "datePublished": "2014-02-05T15:55:40.000Z",
+  "dateModified": "2022-06-06T07:41:48.296Z",
+  "interactionStatistic": []
+}
