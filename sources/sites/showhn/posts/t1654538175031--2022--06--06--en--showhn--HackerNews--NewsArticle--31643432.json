@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--showhn--HackerNews--NewsArticle--31643432",
+  "url": "https://news.ycombinator.com/item?id=31643432",
+  "headline": "Show HN: Chesskool – Platform for Chess Improvement",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Launch day is here! \nThis has been my passion project, to recreate Duolingo for chess!<p>I always thought Duolingo had amazing &quot;hooks&quot; to help people learn new languages, so I implemented its spaced-repetition, reports and daily and weekly training reminders in a Chess learning platform for chess improvers!<p>I built it in Meteor.js and React.js. I chose Meteor to be able to add Cordova in the future.<p>The Caro-Kann course (for white) is completely free, if you guys want to try it.<p>What do you folks think?",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "gabceboli",
+    "url": "https://news.ycombinator.com/user?id=gabceboli"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31643432",
+  "sameAs": "https://www.chesskool.com",
+  "dateCreated": "2022-06-06T17:56:15.031Z",
+  "datePublished": "2022-06-06T17:45:18.000Z",
+  "dateModified": "2022-06-06T17:56:15.031Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Chesskool - 国际象棋改进平台\n",
+  "headline_zh-Hant": "Show HN: Chesskool - 國際象棋改進平臺\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "启动日到了! \n这一直是我的激情项目，为国际象棋重新创造Duolingo！<p>我一直认为Duolingo有惊人的&quot;钩&quot;来帮助人们学习新的语言，所以我在国际象棋学习平台中实现了它的间隔重复、报告以及每日和每周的训练提醒，供国际象棋提高者使用！<p>我用Meteor.js和React.js构建它。我选择Meteor是为了将来能够添加Cordova。<p>Caro-Kann课程（针对白棋）是完全免费的，如果你们想试试的话。<p>各位朋友觉得怎么样？\n",
+  "description_zh-Hant": "啟動日到了! \n這一直是我的激情項目，為國際象棋重新創造Duolingo！<p>我一直認為Duolingo有驚人的&quot;鉤&quot;來幫助人們學習新的語言，所以我在國際象棋學習平臺中實現了它的間隔重複、報告以及每日和每週的訓練提醒，供國際象棋提高者使用！<p>我用Meteor.js和React.js構建它。我選擇Meteor是為了將來能夠添加Cordova。<p>Caro-Kann課程（針對白棋）是完全免費的，如果你們想試試的話。<p>各位朋友覺得怎麼樣？\n"
+}
