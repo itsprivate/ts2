@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--besthn--HackerNews--NewsArticle--30844149",
+  "url": "https://news.ycombinator.com/item?id=30844149",
+  "headline": "Show HN: Search Engine for Blogs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN,<p>Blog discovery is a problem [0] due to the decentralized nature of online writing. Everyone writes on their own site or platform, and there’s no central place that brings everything together. Google results prioritize large media publications over blogs, so we need something else.<p>Blog Surf is an attempt to organize all of the great online writing done by individuals. I launched this project last year as a directory of personal blogs [1], but have now rebuilt it from scratch into a full-text search engine for blog posts.<p>You can search for blog posts, and filter by publish date and reading time. Blogs are manually reviewed before being added.<p>Posts are sorted by MarketRank [2], which is a measure of popularity across various online communities. Most projects that have attempted to organize blogs lack any way to measure the quality of a post, reducing their utility. With MarketRank, you can expect the top results for any query to be something you’d want to read.<p>The mental model for searching Blog Surf is “I want to see the best essays on X”<p>There’s also a directory so you can browse blogs by category, if you want a throwback to the Yahoo days.<p>If you’re a blogger yourself, you can check out the rankings page to see how your blog compares to others.<p>If you want to play around with things, we have a search API, and the full post dataset is also available for download.<p>[0] <a href=\"https://news.ycombinator.com/item?id=28591880\" rel=\"nofollow\">https://news.ycombinator.com/item?id=28591880</a><p>[1] <a href=\"https://news.ycombinator.com/item?id=26506126\" rel=\"nofollow\">https://news.ycombinator.com/item?id=26506126</a><p>[2] <a href=\"https://dkb.io/post/market-rank\" rel=\"nofollow\">https://dkb.io/post/market-rank</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "dbrereton",
+    "url": "https://news.ycombinator.com/user?id=dbrereton"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30844149",
+  "sameAs": "https://blogsurf.io",
+  "dateCreated": "2022-03-30T04:38:52.961Z",
+  "datePublished": "2022-03-29T15:50:18.000Z",
+  "dateModified": "2022-03-30T04:38:52.961Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 251
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 75
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 博客的搜索引擎",
+  "headline_zh-Hant": "Show HN: 博客的搜索引擎",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嘿，HN,<p>博客发现是一个问题[0]，因为在线写作的分散性。每个人都在自己的网站或平台上写作，没有一个中央的地方可以把所有的东西集中起来。谷歌结果优先考虑大型媒体出版物，而不是博客，所以我们需要其他东西。<p>博客冲浪是一个尝试，以组织所有由个人完成的伟大在线写作。我在去年启动了这个项目，作为个人博客的目录[1]，但现在已经从头开始将其重建为一个博客文章的全文搜索引擎。<p>你可以搜索博客文章，并通过发布日期和阅读时间进行过滤。博文在被添加之前是经过人工审核的。<p>博文按MarketRank[2]排序，MarketRank是衡量各种在线社区中受欢迎程度的标准。大多数试图组织博客的项目都缺乏衡量帖子质量的方法，从而降低了它们的效用。With MarketRank, you can expect the top results for any query to be something you’d want to read.<p>The mental model for searching Blog Surf is “I want to see the best essays on X”<p>There’s also a directory so you can browse blogs by category, if you want a throwback to the Yahoo days.<p>If you’re a blogger yourself, you can check out the rankings page to see how your blog compares to others. <p>If you want to play around with things, we have a search API, and the full post dataset is also available for download.<p>[0] <a href=\"https://news.ycombinator.com/item?id=28591880\" rel=\"nofollow\">https://news.ycombinator.com/item?id=28591880</a><p>[1] <a href=\"https://news.ycombinator.com/item?id=26506126\" rel=\"nofollow\">https://news.ycombinator.com/item?id=26506126</a><p>[2] <a href=\"https://dkb.io/post/market-rank\" rel=\"nofollow\">https://dkb.io/post/market-rank</a>",
+  "description_zh-Hant": "嘿，HN,<p>博客發現是一個問題[0]，因為在線寫作的分散性。每個人都在自己的網站或平臺上寫作，沒有一箇中央的地方可以把所有的東西集中起來。谷歌結果優先考慮大型媒體出版物，而不是博客，所以我們需要其他東西。<p>博客衝浪是一個嘗試，以組織所有由個人完成的偉大在線寫作。我在去年啟動了這個項目，作為個人博客的目錄[1]，但現在已經從頭開始將其重建為一個博客文章的全文搜索引擎。<p>你可以搜索博客文章，並通過發佈日期和閱讀時間進行過濾。博文在被添加之前是經過人工審核的。<p>博文按MarketRank[2]排序，MarketRank是衡量各種在線社區中受歡迎程度的標準。大多數試圖組織博客的項目都缺乏衡量帖子質量的方法，從而降低了它們的效用。With MarketRank, you can expect the top results for any query to be something you’d want to read.<p>The mental model for searching Blog Surf is “I want to see the best essays on X”<p>There’s also a directory so you can browse blogs by category, if you want a throwback to the Yahoo days.<p>If you’re a blogger yourself, you can check out the rankings page to see how your blog compares to others. <p>If you want to play around with things, we have a search API, and the full post dataset is also available for download.<p>[0] <a href=\"https://news.ycombinator.com/item?id=28591880\" rel=\"nofollow\">https://news.ycombinator.com/item?id=28591880</a><p>[1] <a href=\"https://news.ycombinator.com/item?id=26506126\" rel=\"nofollow\">https://news.ycombinator.com/item?id=26506126</a><p>[2] <a href=\"https://dkb.io/post/market-rank\" rel=\"nofollow\">https://dkb.io/post/market-rank</a>"
+}

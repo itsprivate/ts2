@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--showhn--HackerNews--NewsArticle--30911454",
+  "url": "https://news.ycombinator.com/item?id=30911454",
+  "headline": "Show HN: Procedurally-generated tile maps using Wave Function Collapse",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "arriu",
+    "url": "https://news.ycombinator.com/user?id=arriu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30911454",
+  "sameAs": "https://github.com/zfedoran/go-wfc",
+  "dateCreated": "2022-04-04T20:32:08.332Z",
+  "datePublished": "2022-04-04T20:14:13.000Z",
+  "dateModified": "2022-04-04T20:32:08.332Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 使用波函数折叠的程序生成的瓦片地图",
+  "headline_zh-Hant": "Show HN: 使用波函數摺疊的程序生成的瓦片地圖",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

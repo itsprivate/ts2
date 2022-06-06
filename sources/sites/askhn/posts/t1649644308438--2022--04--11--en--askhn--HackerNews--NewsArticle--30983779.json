@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--11--en--askhn--HackerNews--NewsArticle--30983779",
+  "url": "https://news.ycombinator.com/item?id=30983779",
+  "headline": "Ask HN: What to do about Gmail blocking my email?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi everyone,<p>I’m at my wits’ end. Regardless of how many hoops I have jumped through, gmail refuses to deliver my email. Everything that comes from my email server is marked as spam. My email server is correctly configured with the following:<p>* reverse DNS record<p>* starttls transmission<p>* DMARC<p>* 2048 bit DKIM key<p>* strict SPF policy<p>* clean IP reputation<p>Despite doing all of this correctly (gmail confirms I pass all of these tests) it still puts my messages into spam. I’ve used googles postmaster’s tools and the only thing they say on my domain is that they have no data. As far as I can tell I am being punished for being a low traffic / small mail host.<p>Is this legal? Is this the basis for a potential anti-trust lawsuit? If my only sin is not using a large established mail gateway, is that fair?<p>What are HN’s opinions on / workarounds for / solutions to this? I can’t be the only one dealing with this issue.<p>As a workaround I’m considering figuring out a way for postfix to use a mail gateway (like sendgrid) when the destination domain is gmail.com.<p>Thanks!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "CyberRabbi",
+    "url": "https://news.ycombinator.com/user?id=CyberRabbi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30983779",
+  "sameAs": "https://news.ycombinator.com/item?id=30983779",
+  "dateCreated": "2022-04-11T02:31:48.438Z",
+  "datePublished": "2022-04-11T02:09:22.000Z",
+  "dateModified": "2022-04-11T02:31:48.438Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Gmail屏蔽了我的邮件，该怎么办？",
+  "headline_zh-Hant": "Ask HN: Gmail屏蔽了我的郵件，該怎麼辦？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家好，<p>我现在一筹莫展。无论我跳过多少个圈，Gmail都拒绝发送我的电子邮件。所有来自我的电子邮件服务器的邮件都被标记为垃圾邮件。我的电子邮件服务器正确地配置了以下内容：<p>*反向DNS记录<p>* starttls传输<p>* DMARC<p>* 2048位DKIM密钥<p>*严格的SPF政策<p>*干净的IP信誉<p>尽管这些都做得很正确（gmail确认我通过了所有这些测试），它仍然把我的邮件放入垃圾邮件。我使用了谷歌的postmaster's tools，他们对我的域名唯一的说法是他们没有数据。就我所知，我因为是一个低流量/小邮件主机而受到惩罚。<p>这合法吗？这是否是潜在的反垄断诉讼的基础？如果我唯一的罪过是没有使用一个大型成熟的邮件网关，这公平吗？<p>HN对这个问题有什么意见/解决办法？我不可能是唯一一个处理这个问题的人。<p>作为一个变通办法，我正在考虑找出一种方法，让postfix在目标域是gmail.com时使用一个邮件网关（如sendgrid）。",
+  "description_zh-Hant": "大家好，<p>我現在一籌莫展。無論我跳過多少個圈，Gmail都拒絕發送我的電子郵件。所有來自我的電子郵件服務器的郵件都被標記為垃圾郵件。我的電子郵件服務器正確地配置了以下內容：<p>*反向DNS記錄<p>* starttls傳輸<p>* DMARC<p>* 2048位DKIM密鑰<p>*嚴格的SPF政策<p>*乾淨的IP信譽<p>儘管這些都做得很正確（gmail確認我通過了所有這些測試），它仍然把我的郵件放入垃圾郵件。我使用了谷歌的postmaster's tools，他們對我的域名唯一的說法是他們沒有數據。就我所知，我因為是一個低流量/小郵件主機而受到懲罰。<p>這合法嗎？這是否是潛在的反壟斷訴訟的基礎？如果我唯一的罪過是沒有使用一個大型成熟的郵件網關，這公平嗎？<p>HN對這個問題有什麼意見/解決辦法？我不可能是唯一一個處理這個問題的人。<p>作為一個變通辦法，我正在考慮找出一種方法，讓postfix在目標域是gmail.com時使用一個郵件網關（如sendgrid）。"
+}

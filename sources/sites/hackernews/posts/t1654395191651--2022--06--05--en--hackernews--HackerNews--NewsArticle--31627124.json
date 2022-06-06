@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--hackernews--HackerNews--NewsArticle--31627124",
+  "url": "https://news.ycombinator.com/item?id=31627124",
+  "headline": "Bees are legally fish in California, court rules",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "prostoalex",
+    "url": "https://news.ycombinator.com/user?id=prostoalex"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31627124",
+  "sameAs": "https://www.sacbee.com/news/california/article262045952.html",
+  "dateCreated": "2022-06-05T02:13:11.651Z",
+  "datePublished": "2022-06-05T01:47:17.000Z",
+  "dateModified": "2022-06-05T02:13:11.651Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "法院裁定，蜜蜂在加州是合法的鱼类\n",
+  "headline_zh-Hant": "法院裁定，蜜蜂在加州是合法的魚類\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

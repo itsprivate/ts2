@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--19--en--besthn--HackerNews--NewsArticle--30719263",
+  "url": "https://news.ycombinator.com/item?id=30719263",
+  "headline": "Down the mechanical keyboard rabbit hole",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fowlie",
+    "url": "https://news.ycombinator.com/user?id=fowlie"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30719263",
+  "sameAs": "https://fowlie.github.io/2022/02/25/keyboards-rabbit-hole/",
+  "dateCreated": "2022-03-19T11:04:01.266Z",
+  "datePublished": "2022-03-18T06:37:38.000Z",
+  "dateModified": "2022-03-19T11:04:01.266Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 451
+    }
+  ],
+  "headline_zh-Hans": "进入机械键盘的兔子洞",
+  "headline_zh-Hant": "進入機械鍵盤的兔子洞",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

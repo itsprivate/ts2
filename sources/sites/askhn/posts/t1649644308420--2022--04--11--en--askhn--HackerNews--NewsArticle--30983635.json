@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--11--en--askhn--HackerNews--NewsArticle--30983635",
+  "url": "https://news.ycombinator.com/item?id=30983635",
+  "headline": "Ask HN: Latest best practices to detect keyloggers on Windows/Mac/Linux?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Keyloggers are a particularly scary form of infiltration, because over a long enough period they can accumulate a critically damaging amount of secret stuff (passwords, messages, etc.) without the user having any clue it's happening.<p>Other than your everyday well-known antivirus techniques (e.g., looking at signatures of executables and comparing to a known list of viruses), are there any super reliable ways using low-level kernel operations to see any running executable/service that is accessing keyboard events?<p>Even if it's a big list, if you could eliminate most of the processes because they are known applications (say, by crowdsourcing a list of known safe processes), you could come up with a subset of them and decide for yourself if any look suspicious.<p>The best approach should be able to detect and stop even a custom tailored attack on a high value target, where none of the code is reused from known exploits, and every trick in the book is used to obfuscate and evade automated detection. I feel like an open source package like this that had been inspected by a lot of smart people and vetted to work reliably under Windows/Mac/Linux would be a huge benefit to global security.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "eigenvalue",
+    "url": "https://news.ycombinator.com/user?id=eigenvalue"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30983635",
+  "sameAs": "https://news.ycombinator.com/item?id=30983635",
+  "dateCreated": "2022-04-11T02:31:48.420Z",
+  "datePublished": "2022-04-11T01:45:03.000Z",
+  "dateModified": "2022-04-11T02:31:48.420Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 在Windows/Mac/Linux上检测键盘记录器的最新最佳做法？",
+  "headline_zh-Hant": "Ask HN: 在Windows/Mac/Linux上檢測鍵盤記錄器的最新最佳做法？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "键盘记录器是一种特别可怕的渗透形式，因为在足够长的时间内，它们可以积累大量的秘密内容（密码、信息等），而用户根本不知道它正在发生。<p>除了你的日常知名反病毒技术（例如。<p>除了日常知名的反病毒技术（例如，查看可执行文件的签名并与已知的病毒列表进行比较），是否有任何超级可靠的方法使用低级别的内核操作来查看正在访问键盘事件的任何正在运行的可执行文件/服务？<p>即使这是一个大列表，如果你可以消除大多数进程，因为它们是已知的应用程序（例如，通过众包已知的安全进程列表），你可以得出它们的子集，并为自己决定是否有任何看起来可疑的东西。 <p>最好的方法应该能够检测并阻止对高价值目标的定制攻击，其中没有任何代码是重复使用已知的漏洞，而且书中的每一个技巧都被用来混淆和逃避自动检测。我觉得一个像这样的开源软件包，经过很多聪明人的检查，并且经过审查，能够在Windows/Mac/Linux下可靠地工作，这对全球安全是一个巨大的好处。",
+  "description_zh-Hant": "鍵盤記錄器是一種特別可怕的滲透形式，因為在足夠長的時間內，它們可以積累大量的秘密內容（密碼、信息等），而用戶根本不知道它正在發生。<p>除了你的日常知名反病毒技術（例如。<p>除了日常知名的反病毒技術（例如，查看可執行文件的簽名並與已知的病毒列表進行比較），是否有任何超級可靠的方法使用低級別的內核操作來查看正在訪問鍵盤事件的任何正在運行的可執行文件/服務？<p>即使這是一個大列表，如果你可以消除大多數進程，因為它們是已知的應用程序（例如，通過眾包已知的安全進程列表），你可以得出它們的子集，併為自己決定是否有任何看起來可疑的東西。 <p>最好的方法應該能夠檢測並阻止對高價值目標的定製攻擊，其中沒有任何代碼是重複使用已知的漏洞，而且書中的每一個技巧都被用來混淆和逃避自動檢測。我覺得一個像這樣的開源軟件包，經過很多聰明人的檢查，並且經過審查，能夠在Windows/Mac/Linux下可靠地工作，這對全球安全是一個巨大的好處。"
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--25--en--hackernews--HackerNews--NewsArticle--31153434",
+  "url": "https://news.ycombinator.com/item?id=31153434",
+  "headline": "Low-Latency, High-Throughput Garbage Collection [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "todsacerdoti",
+    "url": "https://news.ycombinator.com/user?id=todsacerdoti"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31153434",
+  "sameAs": "https://users.cecs.anu.edu.au/~steveb/pubs/papers/lxr-pldi-2022.pdf",
+  "dateCreated": "2022-04-25T13:49:04.361Z",
+  "datePublished": "2022-04-25T12:21:18.000Z",
+  "dateModified": "2022-04-25T13:49:04.361Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "低延迟、高吞吐量的垃圾收集 [pdf]",
+  "headline_zh-Hant": "低延遲、高吞吐量的垃圾收集 [pdf]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

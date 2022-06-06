@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--22--en--besthn--HackerNews--NewsArticle--30760883",
+  "url": "https://news.ycombinator.com/item?id=30760883",
+  "headline": "Librem 5: First Impressions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jstanley",
+    "url": "https://news.ycombinator.com/user?id=jstanley"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30760883",
+  "sameAs": "https://incoherency.co.uk/blog/stories/librem5-first-impressions.html",
+  "dateCreated": "2022-03-22T11:49:49.576Z",
+  "datePublished": "2022-03-21T23:04:06.000Z",
+  "dateModified": "2022-03-22T11:49:49.576Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 155
+    }
+  ],
+  "headline_zh-Hans": "Librem 5：第一印象",
+  "headline_zh-Hant": "Librem 5：第一印象",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

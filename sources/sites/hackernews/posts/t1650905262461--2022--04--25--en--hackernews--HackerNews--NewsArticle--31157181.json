@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--25--en--hackernews--HackerNews--NewsArticle--31157181",
+  "url": "https://news.ycombinator.com/item?id=31157181",
+  "headline": "LightPC: A Resilient System Using Only Non-Volatile Memory",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "giuliomagnifico",
+    "url": "https://news.ycombinator.com/user?id=giuliomagnifico"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31157181",
+  "sameAs": "https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=20111&skey=&sval=&list_s_date=&list_e_date=&GotoPage=1",
+  "dateCreated": "2022-04-25T16:47:42.461Z",
+  "datePublished": "2022-04-25T16:31:06.000Z",
+  "dateModified": "2022-04-25T16:47:42.461Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "LightPC。仅使用非易失性存储器的弹性系统",
+  "headline_zh-Hant": "LightPC。僅使用非易失性存儲器的彈性系統",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

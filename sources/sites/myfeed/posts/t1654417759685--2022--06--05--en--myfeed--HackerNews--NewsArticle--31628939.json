@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31628939",
+  "url": "https://news.ycombinator.com/item?id=31628939",
+  "headline": "Gitea – a painless self-hosted Git service",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "thunderbong",
+    "url": "https://news.ycombinator.com/user?id=thunderbong"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31628939",
+  "sameAs": "https://gitea.io/en-us/",
+  "dateCreated": "2022-06-05T08:29:19.685Z",
+  "datePublished": "2022-06-05T08:03:13.000Z",
+  "dateModified": "2022-06-05T08:29:19.685Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Gitea - 一个无痛的自我托管的Git服务\n",
+  "headline_zh-Hant": "Gitea - 一個無痛的自我託管的Git服務\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

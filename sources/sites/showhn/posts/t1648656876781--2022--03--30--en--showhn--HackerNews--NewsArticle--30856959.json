@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--showhn--HackerNews--NewsArticle--30856959",
+  "url": "https://news.ycombinator.com/item?id=30856959",
+  "headline": "Show HN: AppTotal – Search engine and sandbox for suspicious OAuth apps",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "nivstein",
+    "url": "https://news.ycombinator.com/user?id=nivstein"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30856959",
+  "sameAs": "https://apptotal.io/",
+  "dateCreated": "2022-03-30T16:14:36.781Z",
+  "datePublished": "2022-03-30T15:57:30.000Z",
+  "dateModified": "2022-03-30T16:14:36.781Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: AppTotal - 针对可疑OAuth应用的搜索引擎和沙盒",
+  "headline_zh-Hant": "Show HN: AppTotal - 針對可疑OAuth應用的搜索引擎和沙盒",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

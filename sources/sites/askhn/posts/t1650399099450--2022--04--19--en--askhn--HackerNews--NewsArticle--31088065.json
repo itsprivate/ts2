@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--19--en--askhn--HackerNews--NewsArticle--31088065",
+  "url": "https://news.ycombinator.com/item?id=31088065",
+  "headline": "Ask HN: A Framework for Rendering Graphs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Howdy. I am beginning work on a small application to render out a list of courses, their prerequisites and any dependants in an easy to digest fashion. I spent yesterday scraping the data, and today I would like to begin work on rendering it.<p>To get started, I'd like to find a framework I can use to render out the relations between each course in a graph. I'd be fine with working in either JS or Python for this. For anybody who uses Obsidian (https://obsidian.md/), the &quot;Graph View&quot; feature is kind of what I am going for? In the sense that I would like the ability to manipulate the graph and not just pump out a static image.<p>I'll gladly look into any recommendations, I'm eager to get this over with!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "Pennamancer",
+    "url": "https://news.ycombinator.com/user?id=Pennamancer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31088065",
+  "sameAs": "https://news.ycombinator.com/item?id=31088065",
+  "dateCreated": "2022-04-19T20:11:39.450Z",
+  "datePublished": "2022-04-19T19:50:14.000Z",
+  "dateModified": "2022-04-19T20:11:39.450Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 渲染图形的框架",
+  "headline_zh-Hant": "Ask HN: 渲染圖形的框架",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你们好。我正在着手开发一个小程序，以便以一种易于消化的方式呈现出课程列表、其先决条件和任何附属物。<p>为了开始工作，我想找到一个框架，可以用它来呈现每门课程之间的关系。我可以用JS或Python来完成这个工作。对于任何使用Obsidian（https://obsidian.md/）的人来说，&quot;Graph View&quot;功能就是我想要的东西？<p>我很乐意研究任何建议，我很想把这个问题解决掉。",
+  "description_zh-Hant": "你們好。我正在著手開發一個小程序，以便以一種易於消化的方式呈現出課程列表、其先決條件和任何附屬物。<p>為了開始工作，我想找到一個框架，可以用它來呈現每門課程之間的關係。我可以用JS或Python來完成這個工作。對於任何使用Obsidian（https://obsidian.md/）的人來說，&quot;Graph View&quot;功能就是我想要的東西？<p>我很樂意研究任何建議，我很想把這個問題解決掉。"
+}

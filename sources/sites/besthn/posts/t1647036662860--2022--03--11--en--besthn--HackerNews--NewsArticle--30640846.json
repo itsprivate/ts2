@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--11--en--besthn--HackerNews--NewsArticle--30640846",
+  "url": "https://news.ycombinator.com/item?id=30640846",
+  "headline": "HeyWhatsThat – Calculate viewshed and panorama for any point on Earth",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Rygian",
+    "url": "https://news.ycombinator.com/user?id=Rygian"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30640846",
+  "sameAs": "https://www.heywhatsthat.com/",
+  "dateCreated": "2022-03-11T22:11:02.860Z",
+  "datePublished": "2022-03-11T15:12:50.000Z",
+  "dateModified": "2022-03-11T22:11:02.860Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 254
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 32
+    }
+  ],
+  "headline_zh-Hans": "HeyWhatsThat - 计算地球上任何一点的视线范围和全景图",
+  "headline_zh-Hant": "HeyWhatsThat - 計算地球上任何一點的視線範圍和全景圖",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

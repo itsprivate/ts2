@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31628028",
+  "url": "https://news.ycombinator.com/item?id=31628028",
+  "headline": "Linux on the iPhone 5s",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ddtaylor",
+    "url": "https://news.ycombinator.com/user?id=ddtaylor"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31628028",
+  "sameAs": "https://twitter.com/konradybcio/status/1532908202270105600",
+  "dateCreated": "2022-06-05T04:51:40.911Z",
+  "datePublished": "2022-06-05T04:30:09.000Z",
+  "dateModified": "2022-06-05T04:51:40.911Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "iPhone 5s上的Linux\n",
+  "headline_zh-Hant": "iPhone 5s上的Linux\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--10--en--besthn--HackerNews--NewsArticle--30628677",
+  "url": "https://news.ycombinator.com/item?id=30628677",
+  "headline": "Stripe Crypto",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "seabj0rn",
+    "url": "https://news.ycombinator.com/user?id=seabj0rn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30628677",
+  "sameAs": "https://stripe.com/use-cases/crypto",
+  "dateCreated": "2022-03-10T19:36:51.280Z",
+  "datePublished": "2022-03-10T16:24:27.000Z",
+  "dateModified": "2022-03-10T19:36:51.280Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 255
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 221
+    }
+  ],
+  "headline_zh-Hans": "Stripe Crypto",
+  "headline_zh-Hant": "Stripe Crypto",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

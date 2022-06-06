@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--besthn--HackerNews--NewsArticle--30539620",
+  "url": "https://news.ycombinator.com/item?id=30539620",
+  "headline": "Show HN: DontBeEvil.rip: Search, for developers (API, expressions, CLI)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'd like to invite everyone to try out DontBeEvil.rip, an experimental search engine for developers.<p>tl;dr<p>$ alias rip=&quot;curl -G -H 'Accept: text/plain' --url <a href=\"https://dontbeevil.rip/search\" rel=\"nofollow\">https://dontbeevil.rip/search</a> --data-urlencode &quot;<p>$ rip 'q=Heartbleed bug'<p>DontBeEvil.rip is a year long experiment to see if a small team can build a developer-focused search engine that is self-sustaining on $10 monthly subscriptions.<p>It works by only indexing high-quality resources that are relevant to developers. You won't get useless listicles because we'll never crawl them. Relevant urls are harvested from HN, StackOverflow, programmer Reddit, and a few others. Page content comes mostly from the Common Crawl project.<p>The limited, but awesome, features in this first release are:<p>- Expressions! Experience the power of Elasticsearch’s Simple Query Strings.<p>- REST API. Just change 'text/plain' to `application/json` in the above alias.<p>- CLI. Just use curl in the terminal. Simple as.<p>HackerNews, StackOverflow, Arxiv abstracts, 2M Github repos, and programmer Reddit (up to 2020) are being indexed right now. There's much more to come in the next few months.<p>I'd love to hear your questions, comments and suggestions in the comments below.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "alangibson",
+    "url": "https://news.ycombinator.com/user?id=alangibson"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30539620",
+  "sameAs": "https://news.ycombinator.com/item?id=30539620",
+  "dateCreated": "2022-03-04T10:32:44.624Z",
+  "datePublished": "2022-03-03T11:25:02.000Z",
+  "dateModified": "2022-03-04T10:32:44.624Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 118
+    }
+  ],
+  "headline_zh-Hans": "Show HN: DontBeEvil.rip。搜索，针对开发者（API、表达式、CLI）。",
+  "headline_zh-Hant": "Show HN: DontBeEvil.rip。搜索，針對開發者（API、表達式、CLI）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "I'd like to invite everyone to try out DontBeEvil.rip, an experimental search engine for developers.<p>tl;dr<p>$ alias rip=&quot;curl -G -H 'Accept: text/plain' --url <a href=\"https://dontbeevil.rip/search\" rel=\"nofollow\">https://dontbeevil. rip/search</a> --data-urlencode &quot;<p>$ rip 'q=Heartbleed bug'<p>DontBeEvil.rip is a year long experiment to see if a small team can build a developer-focused search engine that is self-sustaining on $10 monthly subscriptions.<p>It works by only indexing high-quality resources that are relevant to developers. You won't get useless listicles because we'll never crawl them. Relevant urls are harvested from HN, StackOverflow, programmer Reddit, and a few others. Page content comes mostly from the Common Crawl project.<p>The limited, but awesome, features in this first release are:<p>- Expressions! 体验Elasticsearch的简单查询字符串的力量。<p>- REST API。只需将上述别名中的 \"text/plain \"改为 \"application/json\"。<p>- CLI。只需在终端使用curl。<p>HackerNews、StackOverflow、Arxiv摘要、200万个Github仓库和程序员Reddit（截至2020年）现在都被索引了。在接下来的几个月里，还会有更多。<p>我很乐意在下面的评论中听到你的问题、评论和建议。",
+  "description_zh-Hant": "I'd like to invite everyone to try out DontBeEvil.rip, an experimental search engine for developers.<p>tl;dr<p>$ alias rip=&quot;curl -G -H 'Accept: text/plain' --url <a href=\"https://dontbeevil.rip/search\" rel=\"nofollow\">https://dontbeevil. rip/search</a> --data-urlencode &quot;<p>$ rip 'q=Heartbleed bug'<p>DontBeEvil.rip is a year long experiment to see if a small team can build a developer-focused search engine that is self-sustaining on $10 monthly subscriptions.<p>It works by only indexing high-quality resources that are relevant to developers. You won't get useless listicles because we'll never crawl them. Relevant urls are harvested from HN, StackOverflow, programmer Reddit, and a few others. Page content comes mostly from the Common Crawl project.<p>The limited, but awesome, features in this first release are:<p>- Expressions! 體驗Elasticsearch的簡單查詢字符串的力量。<p>- REST API。只需將上述別名中的 \"text/plain \"改為 \"application/json\"。<p>- CLI。只需在終端使用curl。<p>HackerNews、StackOverflow、Arxiv摘要、200萬個Github倉庫和程序員Reddit（截至2020年）現在都被索引了。在接下來的幾個月裡，還會有更多。<p>我很樂意在下面的評論中聽到你的問題、評論和建議。"
+}

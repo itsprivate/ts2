@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--05--en--showhn--HackerNews--NewsArticle--30918971",
+  "url": "https://news.ycombinator.com/item?id=30918971",
+  "headline": "Show HN: BigSearch – More than any ordinary multi-engines web searcher can do",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "This browser extension even works with websites that don't provide GET/POST interface (so-called Ajax-render websites). User can &quot;send search request&quot; to those websites just like to any working general search engine.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "gry_gh",
+    "url": "https://news.ycombinator.com/user?id=gry_gh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30918971",
+  "sameAs": "https://github.com/garywill/BigSearch",
+  "dateCreated": "2022-04-05T14:10:55.383Z",
+  "datePublished": "2022-04-05T13:52:39.000Z",
+  "dateModified": "2022-04-05T14:10:55.383Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: BigSearch - 比任何普通的多引擎网络搜索器能做的更多",
+  "headline_zh-Hant": "Show HN: BigSearch - 比任何普通的多引擎網絡搜索器能做的更多",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "这个浏览器扩展甚至适用于不提供GET/POST接口的网站（所谓的Ajax-render网站）。用户可以向这些网站发送搜索请求，就像向任何工作的普通搜索引擎发送一样。",
+  "description_zh-Hant": "這個瀏覽器擴展甚至適用於不提供GET/POST接口的網站（所謂的Ajax-render網站）。用戶可以向這些網站發送搜索請求，就像向任何工作的普通搜索引擎發送一樣。"
+}

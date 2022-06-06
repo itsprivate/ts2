@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--22--en--showhn--HackerNews--NewsArticle--31120118",
+  "url": "https://news.ycombinator.com/item?id=31120118",
+  "headline": "Show HN: Explainable semantic search, build your own query language with txtai",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "txtai",
+    "url": "https://news.ycombinator.com/user?id=txtai"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31120118",
+  "sameAs": "https://github.com/neuml/txtai",
+  "dateCreated": "2022-04-22T10:53:24.351Z",
+  "datePublished": "2022-04-22T10:49:37.000Z",
+  "dateModified": "2022-04-22T10:53:24.351Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 可解释的语义搜索，用txtai构建你自己的查询语言",
+  "headline_zh-Hant": "Show HN: 可解釋的語義搜索，用txtai構建你自己的查詢語言",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

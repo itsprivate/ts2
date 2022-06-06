@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--22--en--besthn--HackerNews--NewsArticle--30764701",
+  "url": "https://news.ycombinator.com/item?id=30764701",
+  "headline": "Predicting Best Picture winners using coughs and sneezes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "codenberg",
+    "url": "https://news.ycombinator.com/user?id=codenberg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30764701",
+  "sameAs": "https://journal-doi.org/10.731/pcbi.1007742/",
+  "dateCreated": "2022-03-22T17:54:08.452Z",
+  "datePublished": "2022-03-22T11:05:49.000Z",
+  "dateModified": "2022-03-22T17:54:08.452Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 255
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 127
+    }
+  ],
+  "headline_zh-Hans": "利用咳嗽和喷嚏预测最佳影片获奖者",
+  "headline_zh-Hant": "利用咳嗽和噴嚏預測最佳影片獲獎者",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

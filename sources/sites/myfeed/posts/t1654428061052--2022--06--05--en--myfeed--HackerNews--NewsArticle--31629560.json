@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31629560",
+  "url": "https://news.ycombinator.com/item?id=31629560",
+  "headline": "Tell HN: EAP versions of IntelliJ apps now default to a JDK17-based JBR",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gjvc",
+    "url": "https://news.ycombinator.com/user?id=gjvc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31629560",
+  "sameAs": "https://news.ycombinator.com/item?id=31629560",
+  "dateCreated": "2022-06-05T11:21:01.052Z",
+  "datePublished": "2022-06-05T10:07:19.000Z",
+  "dateModified": "2022-06-05T11:21:01.052Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：IntelliJ应用程序的EAP版本现在默认为基于JDK17的JBR\n",
+  "headline_zh-Hant": "告訴HN：IntelliJ應用程序的EAP版本現在默認為基於JDK17的JBR\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

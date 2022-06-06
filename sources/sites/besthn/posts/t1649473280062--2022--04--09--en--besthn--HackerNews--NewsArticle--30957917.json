@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--09--en--besthn--HackerNews--NewsArticle--30957917",
+  "url": "https://news.ycombinator.com/item?id=30957917",
+  "headline": "Return to Monkey Island, Coming 2022",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "endymi0n",
+    "url": "https://news.ycombinator.com/user?id=endymi0n"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30957917",
+  "sameAs": "https://returntomonkeyisland.com",
+  "dateCreated": "2022-04-09T03:01:20.062Z",
+  "datePublished": "2022-04-08T15:03:54.000Z",
+  "dateModified": "2022-04-09T03:01:20.062Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 251
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 79
+    }
+  ],
+  "headline_zh-Hans": "猴岛归来，2022年到来",
+  "headline_zh-Hant": "猴島歸來，2022年到來",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

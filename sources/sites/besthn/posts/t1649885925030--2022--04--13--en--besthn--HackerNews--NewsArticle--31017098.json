@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--besthn--HackerNews--NewsArticle--31017098",
+  "url": "https://news.ycombinator.com/item?id=31017098",
+  "headline": "You’re muted – or are you? Videoconferencing apps may listen when mic is off",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sizzle",
+    "url": "https://news.ycombinator.com/user?id=sizzle"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31017098",
+  "sameAs": "https://news.wisc.edu/youre-muted-or-are-you-videoconferencing-apps-may-listen-even-when-mic-is-off/",
+  "dateCreated": "2022-04-13T21:38:45.030Z",
+  "datePublished": "2022-04-13T16:59:20.000Z",
+  "dateModified": "2022-04-13T21:38:45.030Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 251
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 212
+    }
+  ],
+  "headline_zh-Hans": "你被静音了--还是你被静音了？视频会议应用程序可能在麦克风关闭时进行监听",
+  "headline_zh-Hant": "你被靜音了--還是你被靜音了？視頻會議應用程序可能在麥克風關閉時進行監聽",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

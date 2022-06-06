@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--21--en--showhn--HackerNews--NewsArticle--31108845",
+  "url": "https://news.ycombinator.com/item?id=31108845",
+  "headline": "Show HN: World Time – what time is in different regions of the world",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "zenull",
+    "url": "https://news.ycombinator.com/user?id=zenull"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31108845",
+  "sameAs": "https://time.fly.dev",
+  "dateCreated": "2022-04-21T13:26:57.768Z",
+  "datePublished": "2022-04-21T13:06:28.000Z",
+  "dateModified": "2022-04-21T13:26:57.768Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 世界时间 - 世界不同地区的时间是多少",
+  "headline_zh-Hant": "Show HN: 世界時間 - 世界不同地區的時間是多少",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

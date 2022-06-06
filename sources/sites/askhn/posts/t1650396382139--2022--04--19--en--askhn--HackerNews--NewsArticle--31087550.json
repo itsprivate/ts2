@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--19--en--askhn--HackerNews--NewsArticle--31087550",
+  "url": "https://news.ycombinator.com/item?id=31087550",
+  "headline": "Ask HN: My process only gets scheduled on M1 efficiency cores",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Not sure where else to post<p>I work on some CPU intensive software written in C++ and multithreaded with with OpenMP. This software has not been scaling how I would expect on my M1 Max MacBook. Notably, when I use 10 threads I see in activity monitor that the process has the expected number of threads but only seems to be getting scheduled on the the two efficiency cores for long runs. This is not ideal.<p>I’m not sure where to begin diagnosing this issue. Some relevant information:<p>* I’ve been using the llvm-13 toolchain packaged by home-brew since the toolchain included with macOS does not support openMP<p>* Simple OpenMP for loops behave how I would expect and seem to get scheduled to all cores. The issue seems to be for long-running processes.<p>* For the project in question, the runtime bottle neck of the code is the OpenMP accelerated solvers from AMGCL, and this is where I get hit with the only-getting-scheduled-on-efficiency cores issue.<p><pre><code>    \\* https://github.com/ddemidov/amgcl\n\n    \\* There doesn’t seem to be any unusual OpenMP primitives in AMGCL\n</code></pre>\n* Using OMP_NUM_THREADS to use less than 10 threads (like 2 - 6), the process sometimes gets scheduled on performance cores, but this does not seem to be a guarantee.<p>What are some tools / leads for diagnosing why my the simulation process tends to get scheduled onto efficiency cores? What are some options for changing how my process get scheduled?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ThemalSpan",
+    "url": "https://news.ycombinator.com/user?id=ThemalSpan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31087550",
+  "sameAs": "https://news.ycombinator.com/item?id=31087550",
+  "dateCreated": "2022-04-19T19:26:22.139Z",
+  "datePublished": "2022-04-19T19:15:22.000Z",
+  "dateModified": "2022-04-19T19:26:22.139Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我的进程只在M1效率核心上得到调度",
+  "headline_zh-Hant": "Ask HN: 我的進程只在M1效率核心上得到調度",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "不知道该在哪里发帖<p>我在做一些用C++编写的CPU密集型软件，用OpenMP进行多线程处理。这个软件在我的M1 Max MacBook上没有达到我所期望的扩展效果。值得注意的是，当我使用10个线程时，我在活动监视器中看到进程有预期的线程数，但似乎只在两个高效核心上进行长时间运行的调度。这并不理想。<p>我不知道该从哪里开始诊断这个问题。一些相关的信息：<p>* 我一直在使用自制的llvm-13工具链，因为macOS中包含的工具链不支持openMP<p>* 简单的OpenMP for loops的行为是我所期望的，并且似乎被安排到所有核心上。<p>* 对于这个项目来说，代码的运行时间瓶颈是来自AMGCL的OpenMP加速求解器，这就是我遇到的只在高效核心上得到调度的问题。<p><pre><code> \\* https://github.com/ddemidov/amgcl\n\n    \\* There doesn’t seem to be any unusual OpenMP primitives in AMGCL\n</code></pre>\n* 使用OMP_NUM_THREADS来使用少于10个线程（如2-6），进程有时会被安排在性能核心上，但这似乎不是一个保证。<p>有什么工具/线索来诊断为什么我的模拟进程倾向于被安排在效率核心上？有什么办法可以改变我的进程被调度的方式？",
+  "description_zh-Hant": "不知道該在哪裡發帖<p>我在做一些用C++編寫的CPU密集型軟件，用OpenMP進行多線程處理。這個軟件在我的M1 Max MacBook上沒有達到我所期望的擴展效果。值得注意的是，當我使用10個線程時，我在活動監視器中看到進程有預期的線程數，但似乎只在兩個高效核心上進行長時間運行的調度。這並不理想。<p>我不知道該從哪裡開始診斷這個問題。一些相關的信息：<p>* 我一直在使用自制的llvm-13工具鏈，因為macOS中包含的工具鏈不支持openMP<p>* 簡單的OpenMP for loops的行為是我所期望的，並且似乎被安排到所有核心上。<p>* 對於這個項目來說，代碼的運行時間瓶頸是來自AMGCL的OpenMP加速求解器，這就是我遇到的只在高效核心上得到調度的問題。<p><pre><code> \\* https://github.com/ddemidov/amgcl\n\n    \\* There doesn’t seem to be any unusual OpenMP primitives in AMGCL\n</code></pre>\n* 使用OMP_NUM_THREADS來使用少於10個線程（如2-6），進程有時會被安排在性能核心上，但這似乎不是一個保證。<p>有什麼工具/線索來診斷為什麼我的模擬進程傾向於被安排在效率核心上？有什麼辦法可以改變我的進程被調度的方式？"
+}

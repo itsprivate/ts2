@@ -1,0 +1,86 @@
+if: true
+sources:
+  - args:
+      - https://www.theatlantic.com/feed/all/
+    limit: 5
+    from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      # - https://actionsflow.github.io/test-page/hn-rss.xml
+      - https://blackgnu.net/atom.xml
+    limit: 5
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - https://www.currentaffairs.org/feed
+    limit: 5
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - https://cacm.acm.org/magazine.rss
+    limit: 5
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - https://dkb.io/rss.xml
+    limit: 5
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+    limit: 5
+  - args:
+      - https://noahpinion.substack.com/feed
+    from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    limit: 5
+  - args:
+      - https://austinkleon.substack.com/feed
+    from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    limit: 5
+  # <https://www.nichaley.com/>
+  # - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+  #   args:
+  #     - https://www.nichaley.com/rss/feed.xml
+  #   limit: 5
+  # https://www.davidhaney.io/ npm dependence guy
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - https://www.davidhaney.io/index.xml
+    limit: 5
+  # https://overreacted.io/
+  # - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+  #   args:
+  #     - https://overreacted.io/rss.xml
+  #   limit: 5
+  # https://www.newyorker.com/news/daily-comment 纽约客，每日评论
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - https://www.newyorker.com/feed/news
+    limit: 5
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - https://www.newyorker.com/feed/culture
+    limit: 5
+
+  # https://www.mooreds.com/wordpress/
+  - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    args:
+      - http://edit.mooreds.com/wordpress/feed
+    limit: 5
+  - args:
+      - https://astralcodexten.substack.com/feed
+    from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    limit: 5
+  - args:
+      - https://www.kalzumeus.com/feed/articles/
+    from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+    limit: 5
+steps:
+  - from: ../../common/format-rss.ts
+    args:
+      - ${{ctx.item}}
+      - myfeed
+      - ${{ctx.itemSourceOptions}}
+  - from: https://deno.land/std@0.121.0/fs/mod.ts
+    use: ensureFile
+    args:
+      - ${{ctx.result.path}}
+    run: |
+      console.log('Write json to: ',ctx.steps[0].result.path);
+      Deno.writeTextFileSync(ctx.steps[0].result.path, JSON.stringify(ctx.steps[0].result.item,null,2));

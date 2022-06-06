@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--22--en--besthn--HackerNews--NewsArticle--30754064",
+  "url": "https://news.ycombinator.com/item?id=30754064",
+  "headline": "Plain Text Sports",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "abzug",
+    "url": "https://news.ycombinator.com/user?id=abzug"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30754064",
+  "sameAs": "https://plaintextsports.com/",
+  "dateCreated": "2022-03-22T00:35:51.737Z",
+  "datePublished": "2022-03-21T13:47:29.000Z",
+  "dateModified": "2022-03-22T00:35:51.737Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 252
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 95
+    }
+  ],
+  "headline_zh-Hans": "纯文本体育",
+  "headline_zh-Hant": "純文本體育",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

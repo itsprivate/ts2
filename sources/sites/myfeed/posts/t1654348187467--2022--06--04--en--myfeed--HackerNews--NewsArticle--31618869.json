@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--04--en--myfeed--HackerNews--NewsArticle--31618869",
+  "url": "https://news.ycombinator.com/item?id=31618869",
+  "headline": "The Fire This Time",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Ambolia",
+    "url": "https://news.ycombinator.com/user?id=Ambolia"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31618869",
+  "sameAs": "https://www.ecosophia.net/the-fire-this-time/",
+  "dateCreated": "2022-06-04T13:09:47.467Z",
+  "datePublished": "2022-06-04T10:41:44.000Z",
+  "dateModified": "2022-06-04T13:09:47.467Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "这一次的火灾\n",
+  "headline_zh-Hant": "這一次的火災\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

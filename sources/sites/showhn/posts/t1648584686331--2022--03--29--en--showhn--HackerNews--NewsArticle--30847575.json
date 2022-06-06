@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--showhn--HackerNews--NewsArticle--30847575",
+  "url": "https://news.ycombinator.com/item?id=30847575",
+  "headline": "Show HN: Chrome Extension that slaps you if you type “Jada”",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "higgins",
+    "url": "https://news.ycombinator.com/user?id=higgins"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30847575",
+  "sameAs": "https://twitter.com/justinprojects/status/1508881721378304002",
+  "dateCreated": "2022-03-29T20:11:26.331Z",
+  "datePublished": "2022-03-29T19:57:18.000Z",
+  "dateModified": "2022-03-29T20:11:26.331Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 如果你输入 \"Jada\"，Chrome扩展程序会给你一巴掌",
+  "headline_zh-Hant": "Show HN: 如果你輸入 \"Jada\"，Chrome擴展程序會給你一巴掌",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

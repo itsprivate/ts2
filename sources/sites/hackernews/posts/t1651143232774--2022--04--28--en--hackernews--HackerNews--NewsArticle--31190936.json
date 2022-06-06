@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--28--en--hackernews--HackerNews--NewsArticle--31190936",
+  "url": "https://news.ycombinator.com/item?id=31190936",
+  "headline": "Append Reddit – Chrome extension that redoes searches with Reddit appended",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "amitlevy49",
+    "url": "https://news.ycombinator.com/user?id=amitlevy49"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31190936",
+  "sameAs": "https://chrome.google.com/webstore/detail/append-reddit/hfgllcmkdcpljffbcejhkengkfkiciob",
+  "dateCreated": "2022-04-28T10:53:52.774Z",
+  "datePublished": "2022-04-28T10:42:20.000Z",
+  "dateModified": "2022-04-28T10:53:52.774Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Append Reddit - Chrome浏览器的扩展功能，可以在搜索中附加Reddit的内容，重新进行搜索。",
+  "headline_zh-Hant": "Append Reddit - Chrome瀏覽器的擴展功能，可以在搜索中附加Reddit的內容，重新進行搜索。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

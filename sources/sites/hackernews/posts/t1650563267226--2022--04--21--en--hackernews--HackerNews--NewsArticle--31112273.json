@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--21--en--hackernews--HackerNews--NewsArticle--31112273",
+  "url": "https://news.ycombinator.com/item?id=31112273",
+  "headline": "Rust9x: Compile Rust code for Windows 95, NT and above",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "seritools",
+    "url": "https://news.ycombinator.com/user?id=seritools"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31112273",
+  "sameAs": "https://seri.tools/blog/announcing-rust9x/",
+  "dateCreated": "2022-04-21T17:47:47.226Z",
+  "datePublished": "2022-04-21T17:14:10.000Z",
+  "dateModified": "2022-04-21T17:47:47.226Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Rust9x。为Windows 95、NT及以上版本编译Rust代码",
+  "headline_zh-Hant": "Rust9x。為Windows 95、NT及以上版本編譯Rust代碼",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

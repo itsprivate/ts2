@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--28--en--besthn--HackerNews--NewsArticle--30813779",
+  "url": "https://news.ycombinator.com/item?id=30813779",
+  "headline": "Chrome 0day is being exploited now for CVE-2022-1096; update immediately",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gargarplex",
+    "url": "https://news.ycombinator.com/user?id=gargarplex"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30813779",
+  "sameAs": "https://www.forbes.com/sites/daveywinder/2022/03/26/google-confirms-emergency-security-update-for-32-billion-chrome-users-attacks-underway/",
+  "dateCreated": "2022-03-28T02:22:25.323Z",
+  "datePublished": "2022-03-26T17:45:45.000Z",
+  "dateModified": "2022-03-28T02:22:25.323Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 134
+    }
+  ],
+  "headline_zh-Hans": "CVE-2022-1096的Chrome 0day现在被利用了，立即更新",
+  "headline_zh-Hant": "CVE-2022-1096的Chrome 0day現在被利用了，立即更新",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

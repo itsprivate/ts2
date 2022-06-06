@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--19--en--besthn--HackerNews--NewsArticle--31083432",
+  "url": "https://news.ycombinator.com/item?id=31083432",
+  "headline": "Show HN: Make your PDF look scanned in browser",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Implement scanyourpdf.com in JavaScript. No backend servers needed.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "seedgou",
+    "url": "https://news.ycombinator.com/user?id=seedgou"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31083432",
+  "sameAs": "https://lookscanned.io",
+  "dateCreated": "2022-04-19T18:38:31.308Z",
+  "datePublished": "2022-04-19T14:15:23.000Z",
+  "dateModified": "2022-04-19T18:38:31.308Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 257
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 99
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 让你的PDF在浏览器中看起来是扫描的",
+  "headline_zh-Hant": "Show HN: 讓你的PDF在瀏覽器中看起來是掃描的",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "用JavaScript实现scanyourpdf.com。不需要后端服务器。",
+  "description_zh-Hant": "用JavaScript實現scanyourpdf.com。不需要後端服務器。"
+}

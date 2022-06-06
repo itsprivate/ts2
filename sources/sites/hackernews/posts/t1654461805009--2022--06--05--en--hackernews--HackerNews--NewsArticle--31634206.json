@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--hackernews--HackerNews--NewsArticle--31634206",
+  "url": "https://news.ycombinator.com/item?id=31634206",
+  "headline": "Why won't Gitlab support monthly billing?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ethanwillis",
+    "url": "https://news.ycombinator.com/user?id=ethanwillis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31634206",
+  "sameAs": "https://gitlab.com/gitlab-org/gitlab/-/issues/5595",
+  "dateCreated": "2022-06-05T20:43:25.009Z",
+  "datePublished": "2022-06-05T19:43:32.000Z",
+  "dateModified": "2022-06-05T20:43:25.009Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "为什么Gitlab不支持按月计费？\n",
+  "headline_zh-Hant": "為什麼Gitlab不支持按月計費？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

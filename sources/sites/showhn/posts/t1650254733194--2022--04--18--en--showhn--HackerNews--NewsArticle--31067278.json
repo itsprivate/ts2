@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--18--en--showhn--HackerNews--NewsArticle--31067278",
+  "url": "https://news.ycombinator.com/item?id=31067278",
+  "headline": "Show HN: Toolkit of software to backup Google Takeout at 6GB/s+ to Azure",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "After seeing all those posts about Google accounts being banned for frivolous and automated reasons, I started to use Google Takeout more and more to prepare for the worst.<p>If you aren't aware of what Google Takeout it, it is a Google service that allows you to download archives of all your data from Google.<p>I understand that this may be kind of niche, but if the size of your Google Takeout is large and prohibitive to transfer and backup, this toolkit I made may be right for you.<p>Problem is, my Takeout jobs are 1.25TB as it also includes the videos I've uploaded in my YouTube account. Without them, it's 300GB which is still a very large amount to me.<p>It got really old to be transferring 1.25TB by hand manually. It's a pain to do it even on a gigabit connection and it is also a pain to do it in a VPS. At most I got 300MB/s doing it inside a VPS but every session took an hour or three to complete and it was rather high-touch. The Google Takeout interface is hostile to automation and download links obtained from it are only valid for 15 minutes before you must re-enter your credentials. You can't queue up downloads. Not only that, you must have some temporary storage on whatever computer you have before you send it off to some final archival storage.<p>What a pain! In HN-overkill fashion, I came up with a toolkit to make this whole process much, much faster.<p>I noticed that each connection of a download from Google Takeout archive seemed to be limited to 30MB/s. However, multiple connections scaled this up well. 5 connections, 150MB/s.<p>I noticed that Azure had functionality to do &quot;server-to-server&quot; transfers of data from public URLs with different data ranges. It seems this is used for built-in transfer of resources from external object storage services such as S3 or GCS.<p>I noticed that you can send as many parallel commands to Azure as you want to do as many transfers in parallel as possible. As it was Google, I'm sure their infrastructure could handle it.<p>I noticed that there were extensions for Chromium browsers that could intercept downloads and get their &quot;final download link&quot;.<p>So I glued all this stuff together. Unfortunately, there were some issues with some bugs in Azure that prevented direct downloading of Google links and Azure only exposed their endpoints over HTTP 1.1 which greatly limits the amount of parallel downloads. I noticed that Cloudflare Workers can be used to overcome all these limitations by base64-ing the Google URLs and HTTP3-izing the Azure endpoint. Another great thing is that Cloudflare Workers does not care about charging for ingress and egress bandwidth. Also, like Google, Cloudflare has an absurd amount of bandwidth and peering.<p>With all this combined, I am able to get 6GB/s+ transfers of my 50GB archives from Google Takeout to Azure Storage and am able to back it up periodically without having to setup a VPS, find storage, find bandwidth, or really having any &quot;large&quot; computing or networking resources.<p>I use this toolkit a lot myself and it may be useful for you too if you're in the same situation as me!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "crazysim",
+    "url": "https://news.ycombinator.com/user?id=crazysim"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31067278",
+  "sameAs": "https://github.com/nelsonjchen/gtr",
+  "dateCreated": "2022-04-18T04:05:33.194Z",
+  "datePublished": "2022-04-18T04:00:27.000Z",
+  "dateModified": "2022-04-18T04:05:33.194Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 以6GB/s以上的速度将谷歌外卖备份到Azure的软件工具箱",
+  "headline_zh-Hant": "Show HN: 以6GB/s以上的速度將谷歌外賣備份到Azure的軟件工具箱",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在看到所有那些关于谷歌账户因无意义的自动原因而被禁止的帖子后，我开始越来越多地使用谷歌外卖，为最坏的情况做准备。<p>如果你不知道谷歌外卖是什么，它是一项谷歌服务，允许你从谷歌下载你所有数据的档案。 <p>我知道这可能有点小众，但如果你的Google Takeout的大小是大的，并且禁止传输和备份，我做的这个工具包可能适合你。<p>问题是，我的Takeout工作是1.25TB，因为它还包括我在YouTube账户中上传的视频。<p>手动传输1.25TB的数据已经非常老旧了。即使是在千兆位的连接上，这样做也是很痛苦的，在VPS上做也是很痛苦的。我在VPS里做的时候最多只有300MB/s，但每个会话都需要一到三个小时才能完成，而且是相当高的操作。谷歌外卖的界面对自动化很不利，从它那里获得的下载链接只在15分钟内有效，然后你必须重新输入你的凭证。你不能排队下载。不仅如此，你必须在你的任何电脑上有一些临时存储，然后再把它发送到一些最终的存档存储。以HN-overkill的方式，我想出了一个工具包，使整个过程快得多，快得多。<p>我注意到，从Google Takeout档案下载的每个连接似乎被限制在30MB/s。然而，多个连接可以很好地扩大这个规模。<p>我注意到Azure有功能可以从不同数据范围的公共URL进行&quot;服务器到服务器&quot;的数据传输。<p>我注意到，你可以向Azure发送尽可能多的并行命令，以尽可能多地进行并行传输，这似乎是用于从外部对象存储服务（如S3或GCS）的内置资源传输。由于是谷歌，我相信他们的基础设施可以处理。<p>我注意到有一些Chromium浏览器的扩展，可以拦截下载并获得他们的&quot;最终下载链接&quot;。<p>所以我把这些东西都粘在一起。不幸的是，Azure中的一些bug存在一些问题，导致无法直接下载谷歌的链接，而且Azure只通过HTTP 1.1暴露他们的端点，这大大限制了并行下载的数量。我注意到，Cloudflare Workers可以用来克服所有这些限制，方法是对谷歌的URL进行base64化，并对Azure的端点进行HTTP3化。另一个好处是，Cloudflare Workers不关心对入口和出口带宽的收费。<p>通过所有这些，我能够以6GB/s以上的速度将我的50GB档案从Google Takeout传输到Azure Storage，并且能够定期进行备份，而无需设置VPS、寻找存储、寻找带宽，或者真正拥有任何&quot;大型&quot;计算或网络资源。<p>我自己经常使用这个工具包，如果你的情况和我一样，它也可能对你有用",
+  "description_zh-Hant": "在看到所有那些關於谷歌賬戶因無意義的自動原因而被禁止的帖子後，我開始越來越多地使用谷歌外賣，為最壞的情況做準備。<p>如果你不知道谷歌外賣是什麼，它是一項谷歌服務，允許你從谷歌下載你所有數據的檔案。 <p>我知道這可能有點小眾，但如果你的Google Takeout的大小是大的，並且禁止傳輸和備份，我做的這個工具包可能適合你。<p>問題是，我的Takeout工作是1.25TB，因為它還包括我在YouTube賬戶中上傳的視頻。<p>手動傳輸1.25TB的數據已經非常老舊了。即使是在千兆位的連接上，這樣做也是很痛苦的，在VPS上做也是很痛苦的。我在VPS裡做的時候最多隻有300MB/s，但每個會話都需要一到三個小時才能完成，而且是相當高的操作。谷歌外賣的界面對自動化很不利，從它那裡獲得的下載鏈接只在15分鐘內有效，然後你必須重新輸入你的憑證。你不能排隊下載。不僅如此，你必須在你的任何電腦上有一些臨時存儲，然後再把它發送到一些最終的存檔存儲。以HN-overkill的方式，我想出了一個工具包，使整個過程快得多，快得多。<p>我注意到，從Google Takeout檔案下載的每個連接似乎被限制在30MB/s。然而，多個連接可以很好地擴大這個規模。<p>我注意到Azure有功能可以從不同數據範圍的公共URL進行&quot;服務器到服務器&quot;的數據傳輸。<p>我注意到，你可以向Azure發送儘可能多的並行命令，以儘可能多地進行並行傳輸，這似乎是用於從外部對象存儲服務（如S3或GCS）的內置資源傳輸。由於是谷歌，我相信他們的基礎設施可以處理。<p>我注意到有一些Chromium瀏覽器的擴展，可以攔截下載並獲得他們的&quot;最終下載鏈接&quot;。<p>所以我把這些東西都粘在一起。不幸的是，Azure中的一些bug存在一些問題，導致無法直接下載谷歌的鏈接，而且Azure只通過HTTP 1.1暴露他們的端點，這大大限制了並行下載的數量。我注意到，Cloudflare Workers可以用來克服所有這些限制，方法是對谷歌的URL進行base64化，並對Azure的端點進行HTTP3化。另一個好處是，Cloudflare Workers不關心對入口和出口帶寬的收費。<p>通過所有這些，我能夠以6GB/s以上的速度將我的50GB檔案從Google Takeout傳輸到Azure Storage，並且能夠定期進行備份，而無需設置VPS、尋找存儲、尋找帶寬，或者真正擁有任何&quot;大型&quot;計算或網絡資源。<p>我自己經常使用這個工具包，如果你的情況和我一樣，它也可能對你有用"
+}

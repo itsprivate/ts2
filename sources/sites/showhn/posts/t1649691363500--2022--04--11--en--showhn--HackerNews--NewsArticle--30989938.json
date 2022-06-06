@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--11--en--showhn--HackerNews--NewsArticle--30989938",
+  "url": "https://news.ycombinator.com/item?id=30989938",
+  "headline": "Show HN: An Electron CLI Integrated with Vite",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "alex114",
+    "url": "https://news.ycombinator.com/user?id=alex114"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30989938",
+  "sameAs": "https://github.com/alex8088/electron-vite",
+  "dateCreated": "2022-04-11T15:36:03.500Z",
+  "datePublished": "2022-04-11T15:13:26.000Z",
+  "dateModified": "2022-04-11T15:36:03.500Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 与Vite集成的Electron CLI",
+  "headline_zh-Hant": "Show HN: 與Vite集成的Electron CLI",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

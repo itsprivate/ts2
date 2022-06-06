@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--25--en--hackernews--HackerNews--NewsArticle--31158717",
+  "url": "https://news.ycombinator.com/item?id=31158717",
+  "headline": "Hexells – Self-Organising System of Cells Drawing Textures [WebGL]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sva_",
+    "url": "https://news.ycombinator.com/user?id=sva_"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31158717",
+  "sameAs": "https://znah.net/hexells/",
+  "dateCreated": "2022-04-25T19:11:48.625Z",
+  "datePublished": "2022-04-25T18:21:15.000Z",
+  "dateModified": "2022-04-25T19:11:48.625Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Hexells - 绘制纹理的细胞自组织系统[WebGL]",
+  "headline_zh-Hant": "Hexells - 繪製紋理的細胞自組織系統[WebGL]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

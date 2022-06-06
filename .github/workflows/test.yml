@@ -1,0 +1,48 @@
+name: test
+on:
+  # repository_dispatch:
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
+
+jobs:
+  denoflow:
+    runs-on: ubuntu-latest
+    concurrency: denoflow
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+      # - run: make install
+      - run: make prodtest
+        env:
+          SCALEWAY_ACCESS_KEY_ID: ${{secrets.SCALEWAY_ACCESS_KEY_ID}}
+          SCALEWAY_SECRET_ACCESS_KEY: ${{secrets.SCALEWAY_SECRET_ACCESS_KEY}}
+          REDDIT_HNZHBOT_BASIC: ${{secrets.REDDIT_HNZHBOT_BASIC}}
+          REDDIT_HNZHBOT_BODY: ${{secrets.REDDIT_HNZHBOT_BODY}}
+        continue-on-error: true
+      - name: chown
+        run: sudo chown -R $USER:$USER ./
+      - name: git config
+        run: git config --global user.name "github-actions[bot]" && git config --global user.email github-actions-bot@users.noreply.github.com
+      - name: git add
+        run: git add data && git add sources
+      - run: git status
+      - id: isChanged
+        run: git diff-index --cached --quiet HEAD || echo '::set-output name=changed::true'
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v3
+        if: ${{ steps.isChanged.outputs.changed == 'true' }}
+        with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
+          labels: automerge
+          add-paths: data,sources
+          commit-message: "chore: new item"
+          committer: "github-actions[bot] <github-actions-bot@users.noreply.github.com>"
+          author: "github-actions[bot] <github-actions-bot@users.noreply.github.com>"
+          branch: new-item
+          delete-branch: true
+          title: New item update

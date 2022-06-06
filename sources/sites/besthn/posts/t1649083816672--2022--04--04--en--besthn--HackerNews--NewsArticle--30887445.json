@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--besthn--HackerNews--NewsArticle--30887445",
+  "url": "https://news.ycombinator.com/item?id=30887445",
+  "headline": "Those HTML attributes you never use",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "makaimc",
+    "url": "https://news.ycombinator.com/user?id=makaimc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30887445",
+  "sameAs": "https://www.smashingmagazine.com/2022/03/html-attributes-you-never-use/",
+  "dateCreated": "2022-04-04T14:50:16.672Z",
+  "datePublished": "2022-04-02T11:38:59.000Z",
+  "dateModified": "2022-04-04T14:50:16.672Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 261
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 64
+    }
+  ],
+  "headline_zh-Hans": "那些你从不使用的HTML属性",
+  "headline_zh-Hant": "那些你從不使用的HTML屬性",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

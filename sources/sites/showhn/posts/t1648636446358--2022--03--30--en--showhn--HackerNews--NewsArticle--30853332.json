@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--showhn--HackerNews--NewsArticle--30853332",
+  "url": "https://news.ycombinator.com/item?id=30853332",
+  "headline": "Show HN: Humbo – The IMDB of Travel",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "anderspalm",
+    "url": "https://news.ycombinator.com/user?id=anderspalm"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30853332",
+  "sameAs": "https://humbo.io",
+  "dateCreated": "2022-03-30T10:34:06.358Z",
+  "datePublished": "2022-03-30T10:17:27.000Z",
+  "dateModified": "2022-03-30T10:34:06.358Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Humbo - 旅行的IMDB",
+  "headline_zh-Hant": "Show HN: Humbo - 旅行的IMDB",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

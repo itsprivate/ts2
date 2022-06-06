@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--28--en--besthn--HackerNews--NewsArticle--30802461",
+  "url": "https://news.ycombinator.com/item?id=30802461",
+  "headline": "Making a Stainless Steel Rubik's Cube",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "camtarn",
+    "url": "https://news.ycombinator.com/user?id=camtarn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30802461",
+  "sameAs": "http://lulabs.net/machining/ss-cube/",
+  "dateCreated": "2022-03-28T22:11:10.264Z",
+  "datePublished": "2022-03-25T14:18:41.000Z",
+  "dateModified": "2022-03-28T22:11:10.264Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 68
+    }
+  ],
+  "headline_zh-Hans": "制作一个不锈钢魔方",
+  "headline_zh-Hant": "製作一個不鏽鋼魔方",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

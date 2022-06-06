@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--03--en--showhn--HackerNews--NewsArticle--30894442",
+  "url": "https://news.ycombinator.com/item?id=30894442",
+  "headline": "Show HN: A clicker game about the future",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "This was supposed to be submitted to a game jam a few months ago, but I ended up missing the deadline. The theme of the jam was &quot;the future&quot;.<p>I recently tried to finish it. It's pretty unbalanced and after a certain point it gets impossible to progress, but maybe someone will find it interesting.<p>This is written in C++ and built for the web with emscripten. Link to the source is on the page. The repository also has a Qt-based editor for the tech tree.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "0xf00ff00f",
+    "url": "https://news.ycombinator.com/user?id=0xf00ff00f"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30894442",
+  "sameAs": "https://0xf00ff00f.github.io/zettawatt/",
+  "dateCreated": "2022-04-03T04:38:46.731Z",
+  "datePublished": "2022-04-03T04:28:00.000Z",
+  "dateModified": "2022-04-03T04:38:46.731Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 一个关于未来的点击游戏",
+  "headline_zh-Hant": "Show HN: 一個關於未來的點擊遊戲",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "这本应在几个月前提交给一个游戏大赛，但我最终错过了截止日期。游戏的主题是 \"未来\"。<p>我最近试图完成它。这款游戏很不平衡，到了一定程度就不可能有进展了，但也许有人会觉得很有趣。<p>这是用C++写的，用emscripten为网络构建。源代码的链接在页面上。仓库里还有一个基于Qt的技术树编辑器。",
+  "description_zh-Hant": "這本應在幾個月前提交給一個遊戲大賽，但我最終錯過了截止日期。遊戲的主題是 \"未來\"。<p>我最近試圖完成它。這款遊戲很不平衡，到了一定程度就不可能有進展了，但也許有人會覺得很有趣。<p>這是用C++寫的，用emscripten為網絡構建。源代碼的鏈接在頁面上。倉庫裡還有一個基於Qt的技術樹編輯器。"
+}

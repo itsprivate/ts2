@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--27--en--besthn--HackerNews--NewsArticle--30794332",
+  "url": "https://news.ycombinator.com/item?id=30794332",
+  "headline": "Show HN: Postgres.js – Fastest Full-Featured PostgreSQL Client for Node and Deno",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "porsager",
+    "url": "https://news.ycombinator.com/user?id=porsager"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30794332",
+  "sameAs": "https://github.com/porsager/postgres",
+  "dateCreated": "2022-03-27T05:09:54.362Z",
+  "datePublished": "2022-03-24T19:30:03.000Z",
+  "dateModified": "2022-03-27T05:09:54.362Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 80
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Postgres.js - 用于Node和Deno的最快速的全功能PostgreSQL客户端",
+  "headline_zh-Hant": "Show HN: Postgres.js - 用於Node和Deno的最快速的全功能PostgreSQL客戶端",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

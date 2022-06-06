@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--16--en--askhn--HackerNews--NewsArticle--31050277",
+  "url": "https://news.ycombinator.com/item?id=31050277",
+  "headline": "Ask HN: Bolt Business Model",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I am a little late to the party but after all of the discussion about the shutdown of Fast, I started thinking about the one click checkout business model more and companies that are still pursuing it like Bolt.<p>A common similarity between all of these one click checkout business models is the decision to offer one click checkout via a server side integration. One of the main takeaways I observed from reading about the downfall of Fast is that while a server side integration offers better security and much more control over the checkout experience and the data that is exchanged, this model has a massive cost of maintenance, integration, and sales that make margins extremely tight.<p>My question is why we have not seen any of these companies take the opposite approach and offer the service client side? It seems like an easier and more cost effective route to just complete checkout on behalf of the user, and many apps like 1Pass already offer an autofill feature so it must be feasible to some extent. I must be missing something here and I don't have enough knowledge about frontend technology to answer my own question.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "dska",
+    "url": "https://news.ycombinator.com/user?id=dska"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31050277",
+  "sameAs": "https://news.ycombinator.com/item?id=31050277",
+  "dateCreated": "2022-04-16T07:28:56.106Z",
+  "datePublished": "2022-04-16T07:10:32.000Z",
+  "dateModified": "2022-04-16T07:28:56.106Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 博尔特商业模式",
+  "headline_zh-Hant": "Ask HN: 博爾特商業模式",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "<p>所有这些一键结账商业模式之间的一个共同点是，决定通过服务器端集成提供一键结账。我从阅读Fast的衰落中观察到的主要收获之一是，虽然服务器端集成提供了更好的安全性，对结账体验和交换的数据有更多的控制，但这种模式有大量的维护、集成和销售成本，使利润率非常紧张。<p>我的问题是，为什么我们没有看到这些公司采取相反的方法，提供客户端服务？代表用户完成结账似乎是一条更容易、更有成本效益的途径，而且许多应用程序如1Pass已经提供了自动填写功能，所以它在某种程度上一定是可行的。我一定是错过了什么，我没有足够的关于前端技术的知识来回答我自己的问题。",
+  "description_zh-Hant": "<p>所有這些一鍵結賬商業模式之間的一個共同點是，決定通過服務器端集成提供一鍵結賬。我從閱讀Fast的衰落中觀察到的主要收穫之一是，雖然服務器端集成提供了更好的安全性，對結賬體驗和交換的數據有更多的控制，但這種模式有大量的維護、集成和銷售成本，使利潤率非常緊張。<p>我的問題是，為什麼我們沒有看到這些公司採取相反的方法，提供客戶端服務？代表用戶完成結賬似乎是一條更容易、更有成本效益的途徑，而且許多應用程序如1Pass已經提供了自動填寫功能，所以它在某種程度上一定是可行的。我一定是錯過了什麼，我沒有足夠的關於前端技術的知識來回答我自己的問題。"
+}

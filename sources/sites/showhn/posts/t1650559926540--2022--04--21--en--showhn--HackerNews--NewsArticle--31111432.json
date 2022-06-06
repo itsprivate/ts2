@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--21--en--showhn--HackerNews--NewsArticle--31111432",
+  "url": "https://news.ycombinator.com/item?id=31111432",
+  "headline": "Show HN: Dassana. JSON-native,schema-less logging solution built atop ClickHouse",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello HN, \nI’m Gaurav. Founder &amp; CEO of Dassana. We are coming out of stealth today and would like to invite the community to give us a try. https://lake.dassana.io/<p>First, a bit of a backstory. I grew up with grep to search log files. The kind of person whose grep was aliased to <i>grep -i</i>. Then came along Splunk. It was a game-changer. For every single start-up I started (there are a few) I used Splunk and quite often we will run out of our ingestion quota. SumoLogic wasn’t cheaper either so we looked into DataDog. It was good until we started running issues with aggregate queries (facets etc), rehydration takes forever and the overall query experience is not fun (it wasn’t fun with Splunk and SumoLogic either).<p>All these experiences over the last two decades led me to wish for a simple solution where I can just throw a bunch of JSON/CSV data and query it with simple SQL. These days most logs are structured to begin with and the complexity of parsing logs to extract fields etc has moved to log shippers such as fluentd, logstash etc.<p>Enter HackerNews and ClickHouse.<p>I first learned about ClickHouse from HackerNews and was completely floored by its performance. Given its performance and storage savings due to columnar storage, it was an obvious choice to build a logging solution on top of it. As we started doing POC with it, it was obvious that it is a perfect solution for us if we could solve the problem of schema management. Over the last six months or so, that’s what we have working on. We designed a storage scheme that flattens the JSON objects and exposes an SQL interface that takes a SQL and converts it to our schemaless table query.<p>Being JSON native, we allow querying specific JSON objects in arrays. This is something that is not possible with many logging vendors and if you use something like Athena good luck figuring out the query- it is possible but quite complicated. Here is sample query - select count(distinct eventName) from aws_cloudtrail where awsRegion=us-east-1<p>Also, there are no indices, fields, facets etc in Dassana. You just send JSON/CSV logs and you query them with 0 latency. And yes, we do support distributed joins among different data sources (we call them apps). And like any other distributed system, it has limitations but it generally works great for almost all log-related use cases.<p>One amazing side effect of what we built is that we can offer a unique pricing model that is a perfect match for logging data. Generally speaking, log queries tend to be specific. There is always some sort of a predicate- a user name, hostname, an IP address. But these queries run over large volumes of data. As such, these queries run insanely fast on our system and we are able to charge separately for queries and reduce the cost of ingestion dramatically. In general, we expect our solution to be about 10x cheaper (and 10x faster) than other logging systems.<p>When not to use Dassana? Not suitable for unstructured data. We don’t offer full-text-search (FTS) yet. We are more like a database for logs than a lucence index for text files. With more and more people starting to use structured logs, this problem with either go away on its own but as I said, we do plan to offer FTS in the future. Note that you can already use log shippers such as fluent, vector,logstash etc to give structure to logs.<p>What’s next?\n1. Grafana plugin. Here is a sneak preview- https://drive.google.com/file/d/1JKnX5Aa6cp_pYnMiFzAojA24bjUn28WM/view?usp=sharing<p>2. Alerting/Slack notifications. You will be able to save queries and get Slack notifications when results match.<p>3. JDBC driver.<p>4. TBD. You tell us what to build. Email me and I will personally follow up with you: \ngk 8 dassana dot input/output<p>I will be online all day today happy to answer any question. Feel free to reach out by email too.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "gauravphoenix",
+    "url": "https://news.ycombinator.com/user?id=gauravphoenix"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31111432",
+  "sameAs": "https://news.ycombinator.com/item?id=31111432",
+  "dateCreated": "2022-04-21T16:52:06.540Z",
+  "datePublished": "2022-04-21T16:16:45.000Z",
+  "dateModified": "2022-04-21T16:52:06.540Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 达萨纳。建立在ClickHouse之上的JSON原生无模式日志解决方案",
+  "headline_zh-Hant": "Show HN: 達薩納。建立在ClickHouse之上的JSON原生無模式日誌解決方案",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你好，HN。\n我是Gaurav。Dassana的创始人&amp; CEO。We are coming out of stealth today and would like to invite the community to give us a try. https://lake.dassana.io/<p>First, a bit of a backstory. I grew up with grep to search log files. The kind of person whose grep was aliased to <i>grep -i</i>. 后来，Splunk出现了。它改变了游戏规则。在我开始的每一次创业中（有一些），我都会使用Splunk，而且我们经常会用完我们的摄取配额。SumoLogic的价格也不便宜，所以我们研究了DataDog。在我们开始运行聚合查询（切面等）问题之前，它是很好的，补水需要很长时间，而且整体查询体验并不有趣（使用Splunk和SumoLogic也不有趣）。<p>过去20年的所有这些经验使我希望有一个简单的解决方案，我可以只扔一堆JSON/CSV数据并使用简单的SQL查询。这些天来，大多数日志都是结构化的，解析日志以提取字段等的复杂性已经转移到了fluentd、logstash等日志运输工具上。<p>进入HackerNews和ClickHouse。<p>我第一次从HackerNews了解到ClickHouse，并被其性能完全打动。鉴于它的性能和列式存储带来的存储节省，在它上面建立一个日志解决方案是一个明显的选择。当我们开始用它做POC时，很明显，如果我们能解决模式管理的问题，它对我们来说是一个完美的解决方案。在过去的六个月左右，这就是我们所做的工作。我们设计了一个存储方案，对JSON对象进行了扁平化处理，并提供了一个SQL接口，该接口接受一个SQL，并将其转换为我们的无模式表查询。这是许多日志供应商不可能做到的，如果你使用像Athena这样的东西，那么祝你好运，它是可能的，但相当复杂。以下是查询示例 - select count(distinct eventName) from aws_cloudtrail where awsRegion=us-east-1<p>另外，Dassana中没有索引、字段、面等。你只需发送JSON/CSV日志，并以0延迟的方式查询它们。是的，我们确实支持不同数据源之间的分布式连接（我们称之为应用）。像其他分布式系统一样，它也有局限性，但一般来说，它对几乎所有与日志相关的用例都很有效。<p>我们所建立的一个惊人的副作用是，我们可以提供一个独特的定价模型，与日志数据完美匹配。一般来说，日志查询往往是具体的。总是有某种预测--用户名、主机名、IP 地址。但这些查询是在大量的数据上运行的。因此，这些查询在我们的系统上运行得非常快，我们能够对查询单独收费，并大大降低摄取的成本。一般来说，我们预计我们的解决方案比其他日志系统便宜约10倍（和10倍的速度）。<p>什么时候不使用Dassana？不适合非结构化数据。我们还不提供全文检索（FTS）。我们更像是日志的数据库，而不是文本文件的Lucence索引。随着越来越多的人开始使用结构化的日志，这个问题或者会自行消失，但正如我所说，我们确实计划在未来提供FTS。请注意，你已经可以使用log shippers，如fluent、vector、logstash等来赋予日志以结构。\n1. Grafana插件。这里有一个预览--https://drive.google.com/file/d/1JKnX5Aa6cp_pYnMiFzAojA24bjUn28WM/view?usp=sharing<p>2.警报/懈怠通知。你将能够保存查询并在结果匹配时获得Slack通知。<p>3.JDBC驱动。<p>4.待定。你告诉我们要建立什么。给我发电子邮件，我将亲自跟进你。\ngk 8 dassana dot input/output<p>我今天一整天都会在线，乐意回答任何问题。也可随时通过电子邮件联系。",
+  "description_zh-Hant": "你好，HN。\n我是Gaurav。Dassana的創始人&amp; CEO。We are coming out of stealth today and would like to invite the community to give us a try. https://lake.dassana.io/<p>First, a bit of a backstory. I grew up with grep to search log files. The kind of person whose grep was aliased to <i>grep -i</i>. 後來，Splunk出現了。它改變了遊戲規則。在我開始的每一次創業中（有一些），我都會使用Splunk，而且我們經常會用完我們的攝取配額。SumoLogic的價格也不便宜，所以我們研究了DataDog。在我們開始運行聚合查詢（切面等）問題之前，它是很好的，補水需要很長時間，而且整體查詢體驗並不有趣（使用Splunk和SumoLogic也不有趣）。<p>過去20年的所有這些經驗使我希望有一個簡單的解決方案，我可以只扔一堆JSON/CSV數據並使用簡單的SQL查詢。這些天來，大多數日誌都是結構化的，解析日誌以提取字段等的複雜性已經轉移到了fluentd、logstash等日誌運輸工具上。<p>進入HackerNews和ClickHouse。<p>我第一次從HackerNews瞭解到ClickHouse，並被其性能完全打動。鑑於它的性能和列式存儲帶來的存儲節省，在它上面建立一個日誌解決方案是一個明顯的選擇。當我們開始用它做POC時，很明顯，如果我們能解決模式管理的問題，它對我們來說是一個完美的解決方案。在過去的六個月左右，這就是我們所做的工作。我們設計了一個存儲方案，對JSON對象進行了扁平化處理，並提供了一個SQL接口，該接口接受一個SQL，並將其轉換為我們的無模式表查詢。這是許多日誌供應商不可能做到的，如果你使用像Athena這樣的東西，那麼祝你好運，它是可能的，但相當複雜。以下是查詢示例 - select count(distinct eventName) from aws_cloudtrail where awsRegion=us-east-1<p>另外，Dassana中沒有索引、字段、面等。你只需發送JSON/CSV日誌，並以0延遲的方式查詢它們。是的，我們確實支持不同數據源之間的分佈式連接（我們稱之為應用）。像其他分佈式系統一樣，它也有侷限性，但一般來說，它對幾乎所有與日誌相關的用例都很有效。<p>我們所建立的一個驚人的副作用是，我們可以提供一個獨特的定價模型，與日誌數據完美匹配。一般來說，日誌查詢往往是具體的。總是有某種預測--用戶名、主機名、IP 地址。但這些查詢是在大量的數據上運行的。因此，這些查詢在我們的系統上運行得非常快，我們能夠對查詢單獨收費，並大大降低攝取的成本。一般來說，我們預計我們的解決方案比其他日誌系統便宜約10倍（和10倍的速度）。<p>什麼時候不使用Dassana？不適合非結構化數據。我們還不提供全文檢索（FTS）。我們更像是日誌的數據庫，而不是文本文件的Lucence索引。隨著越來越多的人開始使用結構化的日誌，這個問題或者會自行消失，但正如我所說，我們確實計劃在未來提供FTS。請注意，你已經可以使用log shippers，如fluent、vector、logstash等來賦予日誌以結構。\n1. Grafana插件。這裡有一個預覽--https://drive.google.com/file/d/1JKnX5Aa6cp_pYnMiFzAojA24bjUn28WM/view?usp=sharing<p>2.警報/懈怠通知。你將能夠保存查詢並在結果匹配時獲得Slack通知。<p>3.JDBC驅動。<p>4.待定。你告訴我們要建立什麼。給我發電子郵件，我將親自跟進你。\ngk 8 dassana dot input/output<p>我今天一整天都會在線，樂意回答任何問題。也可隨時通過電子郵件聯繫。"
+}

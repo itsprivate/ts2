@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--21--en--askhn--HackerNews--NewsArticle--31114129",
+  "url": "https://news.ycombinator.com/item?id=31114129",
+  "headline": "Ask HN: Examples of Well-Documented UIs?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "As the developer of Mito [1], I rely heavily on Plotly [2] and pandas [3] documentation. They both have great documentation, IMO,  because they have tons of examples with copy and pasteable code. Examples are great because:\n1. they're easily parsable as the reader of the docs\n2. they don't just tell me what to do, but they actually give me a starting place<p>I want to create docs for Mito that is as helpful as Plotly &amp; Panda's docs. However, Mito is a spreadsheet, which means examples (screenshots) don't have the same characteristics as code examples: \n1. they take up a lot of space on the page, making it difficult to scan through a page of docs for one that is relevant to the user's present problem. \n2. you can't use the screenshot as a starting place, like you can with code examples. Instead, you need to replicate the screenshot in your own spreadsheet by following the same steps detailed in the screenshot.<p>Both 1 and 2 come together to additionally mean that what you can convey in a code example takes several screenshots to explain, especially when the user needs to pass through a sequence of clicks. For example, to create a graph in Mito, you need to first click on the graph button in the Mito toolbar, then click some more buttons in the taskpane that opens up. This makes using the documentation pretty frictiony.<p>In addition, screenshots are hard to maintain as we're constantly evolving our UI.<p>What are best practices for documenting a UI? What products do it best?<p>[1] https://www.trymito.io/\n[2] https://plotly.com/python/bar-charts/\n[3] https://pandas.pydata.org/docs/reference/api/pandas.pivot_table.html",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "aarondia",
+    "url": "https://news.ycombinator.com/user?id=aarondia"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31114129",
+  "sameAs": "https://news.ycombinator.com/item?id=31114129",
+  "dateCreated": "2022-04-21T19:36:11.420Z",
+  "datePublished": "2022-04-21T19:28:20.000Z",
+  "dateModified": "2022-04-21T19:36:11.420Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 记录良好的用户界面的例子？",
+  "headline_zh-Hant": "Ask HN: 記錄良好的用戶界面的例子？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "作为Mito[1]的开发者，我非常依赖Plotly[2]和pandas[3]文档。在我看来，它们都有很好的文档，因为它们有大量的例子和可复制、可粘贴的代码。实例之所以伟大，是因为\n1. 作为文档的读者，它们很容易被解析\n2.它们不只是告诉我怎么做，而是给我一个起点<p>我想为Mito创建像Plotly &amp; Panda的文档一样有用的文档。然而，Mito是一个电子表格，这意味着例子（屏幕截图）不具有与代码例子相同的特点。\n1.它们在页面上占据了大量的空间，使人很难在一页文档中扫描出与用户当前问题相关的内容。\n2.你不能像使用代码例子那样，把屏幕截图作为一个起点。相反，你需要在自己的电子表格中按照截图中详述的相同步骤来复制截图。<p>1和2结合在一起，另外意味着你可以在一个代码例子中传达的东西需要几个截图来解释，特别是当用户需要通过一系列的点击。例如，要在Mito中创建一个图形，你需要先点击Mito工具栏中的图形按钮，然后再点击打开的任务栏中的一些按钮。<p>此外，屏幕截图很难维护，因为我们在不断发展我们的用户界面。<p>记录用户界面的最佳做法是什么？哪些产品做得最好？<p>[1] https://www.trymito.io/\n[2] https://plotly.com/python/bar-charts/\n[3] https://pandas.pydata.org/docs/reference/api/pandas.pivot_table.html",
+  "description_zh-Hant": "作為Mito[1]的開發者，我非常依賴Plotly[2]和pandas[3]文檔。在我看來，它們都有很好的文檔，因為它們有大量的例子和可複製、可粘貼的代碼。實例之所以偉大，是因為\n1. 作為文檔的讀者，它們很容易被解析\n2.它們不只是告訴我怎麼做，而是給我一個起點<p>我想為Mito創建像Plotly &amp; Panda的文檔一樣有用的文檔。然而，Mito是一個電子表格，這意味著例子（屏幕截圖）不具有與代碼例子相同的特點。\n1.它們在頁面上佔據了大量的空間，使人很難在一頁文檔中掃描出與用戶當前問題相關的內容。\n2.你不能像使用代碼例子那樣，把屏幕截圖作為一個起點。相反，你需要在自己的電子表格中按照截圖中詳述的相同步驟來複制截圖。<p>1和2結合在一起，另外意味著你可以在一個代碼例子中傳達的東西需要幾個截圖來解釋，特別是當用戶需要通過一系列的點擊。例如，要在Mito中創建一個圖形，你需要先點擊Mito工具欄中的圖形按鈕，然後再點擊打開的任務欄中的一些按鈕。<p>此外，屏幕截圖很難維護，因為我們在不斷髮展我們的用戶界面。<p>記錄用戶界面的最佳做法是什麼？哪些產品做得最好？<p>[1] https://www.trymito.io/\n[2] https://plotly.com/python/bar-charts/\n[3] https://pandas.pydata.org/docs/reference/api/pandas.pivot_table.html"
+}

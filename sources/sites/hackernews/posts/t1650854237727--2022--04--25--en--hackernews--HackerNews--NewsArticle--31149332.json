@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--25--en--hackernews--HackerNews--NewsArticle--31149332",
+  "url": "https://news.ycombinator.com/item?id=31149332",
+  "headline": "Show HN: I'm making a dynamic language in Rust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "An implementation of a dynamic programming language in Rust. Includes: Parser/Compiler, REPL, Virtual Machine, Bytecode Disassembler<p>This started out as a learning project to teach myself Rust. It has grown into a decently substantial piece of software and I've learned quite a bit in the process!<p>Some neat things:<p>+ A garbage collector that can store dynamically sized types without any double-indirection (i.e. I have my own Box implementation with manual alloc/dealloc)<p>+ The smart pointer used to reference GCed data is a thin pointer. The ptr metadata needed for DSTs is stored in the GC allocation itself, so that the GC smart pointer is just a single usize wide. This allows me to keep the core value enum Variant down to 16 bytes (8 bytes for data, the enum discriminant, and some padding).<p>+ The GC also supports weak references!<p>+ Statically dispatched type object model using a newtype wrapper and Rust's declarative macros. Ok, what that means is that I have a MetaObject trait that I can use to easily add new data types and define the behavior for specific types. Similar idea to Python's PyTypeObject though very different in implementation. However, I don't resort to dynamic dispatch or trait objects despite working with dynamically type data. Instead, I have a newtype wrapper over the core value enum Variant that statically dispatches to each of the enum branches! And then a few macros that minimize the boilerplate required if I want to add a new branch to Variant or a new method to MetaObject (just a single line in each case).<p>+ Different string representations! This was inspired by the flexstr crate. Strings that are short enough to fit inside a Variant are &quot;inlined&quot; directly in the value. Longer strings are either GCed or interned in a thread-local string table. All identifiers are interned.<p>+ An efficient implementation of closures inspired by Lua's upvalues.<p>The language is still pretty WIP. I'm planning to add an import system, a small standard library, and a few other things<p>(Yes, the name might not be the best, being also used by a well-known ReST docs generator, I'll take suggestions. I do like the name though, both as a reference to the mythological creature and the cat :D)",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "harpiaharpyja",
+    "url": "https://news.ycombinator.com/user?id=harpiaharpyja"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31149332",
+  "sameAs": "https://github.com/mwerezak/sphinx-lang",
+  "dateCreated": "2022-04-25T02:37:17.727Z",
+  "datePublished": "2022-04-24T23:46:30.000Z",
+  "dateModified": "2022-04-25T02:37:17.727Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 58
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 6
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我正在用Rust制作一种动态语言",
+  "headline_zh-Hant": "Show HN: 我正在用Rust製作一種動態語言",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Rust中动态编程语言的实现。包括。Parser/Compiler, REPL, Virtual Machine, Bytecode Disassembler<p>这开始是一个学习项目，教我自己Rust。它已经成长为一个相当可观的软件，在这个过程中我学到了不少东西！<p>一些整洁的东西：<p>+ 一个可以存储动态大小的类型的垃圾收集器，没有任何双重方向（即我有自己的Box实现，手动分配/删除）<p>+ 用来引用GCed数据的智能指针是一个薄指针。DST所需的ptr元数据被存储在GC分配本身中，所以GC智能指针只有一个usize宽。这使得我可以将核心值enum Variant减少到16个字节（8个字节用于数据、enum判别符和一些填充）。<p>+ GC也支持弱引用！<p>+ 使用newtype包装器和Rust的声明式宏进行静态调度的类型对象模型。好吧，这意味着我有一个MetaObject特质，我可以用它来轻松添加新的数据类型，并为特定类型定义行为。这个想法与Python的PyTypeObject类似，尽管在实现上有很大的不同。然而，尽管我在处理动态类型的数据时，并没有采用动态调度或特质对象。相反，我在核心值枚举Variant上有一个新类型的包装器，静态地派发到每个枚举分支上 然后，如果我想给Variant添加一个新的分支或给MetaObject添加一个新的方法（在每种情况下只需一行），一些宏可以最大限度地减少所需的模板。这是受flexstr crate的启发。短到足以容纳在Variant中的字符串会直接在值中内联。较长的字符串要么被GC化，要么被内置于线程本地的字符串表格中。<p>+ 受Lua的upvalues启发，对闭包进行了有效的实现。<p>该语言仍是相当的WIP。我计划添加一个导入系统，一个小的标准库，以及其他一些东西<p>（是的，这个名字可能不是最好的，它也被一个著名的ReST文档生成器所使用，我接受建议。不过我很喜欢这个名字，既是对神话中的生物的参考，也是对猫的参考 :D)",
+  "description_zh-Hant": "Rust中動態編程語言的實現。包括。Parser/Compiler, REPL, Virtual Machine, Bytecode Disassembler<p>這開始是一個學習項目，教我自己Rust。它已經成長為一個相當可觀的軟件，在這個過程中我學到了不少東西！<p>一些整潔的東西：<p>+ 一個可以存儲動態大小的類型的垃圾收集器，沒有任何雙重方向（即我有自己的Box實現，手動分配/刪除）<p>+ 用來引用GCed數據的智能指針是一個薄指針。DST所需的ptr元數據被存儲在GC分配本身中，所以GC智能指針只有一個usize寬。這使得我可以將核心值enum Variant減少到16個字節（8個字節用於數據、enum判別符和一些填充）。<p>+ GC也支持弱引用！<p>+ 使用newtype包裝器和Rust的聲明式宏進行靜態調度的類型對象模型。好吧，這意味著我有一個MetaObject特質，我可以用它來輕鬆添加新的數據類型，併為特定類型定義行為。這個想法與Python的PyTypeObject類似，儘管在實現上有很大的不同。然而，儘管我在處理動態類型的數據時，並沒有採用動態調度或特質對象。相反，我在核心值枚舉Variant上有一個新類型的包裝器，靜態地派發到每個枚舉分支上 然後，如果我想給Variant添加一個新的分支或給MetaObject添加一個新的方法（在每種情況下只需一行），一些宏可以最大限度地減少所需的模板。這是受flexstr crate的啟發。短到足以容納在Variant中的字符串會直接在值中內聯。較長的字符串要麼被GC化，要麼被內置於線程本地的字符串表格中。<p>+ 受Lua的upvalues啟發，對閉包進行了有效的實現。<p>該語言仍是相當的WIP。我計劃添加一個導入系統，一個小的標準庫，以及其他一些東西<p>（是的，這個名字可能不是最好的，它也被一個著名的ReST文檔生成器所使用，我接受建議。不過我很喜歡這個名字，既是對神話中的生物的參考，也是對貓的參考 :D)"
+}

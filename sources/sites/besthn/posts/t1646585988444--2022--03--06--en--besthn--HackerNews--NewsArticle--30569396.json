@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--06--en--besthn--HackerNews--NewsArticle--30569396",
+  "url": "https://news.ycombinator.com/item?id=30569396",
+  "headline": "Retrieving your browsing history through a CAPTCHA",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "varun_ch",
+    "url": "https://news.ycombinator.com/user?id=varun_ch"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30569396",
+  "sameAs": "https://varun.ch/history",
+  "dateCreated": "2022-03-06T16:59:48.444Z",
+  "datePublished": "2022-03-05T17:12:39.000Z",
+  "dateModified": "2022-03-06T16:59:48.444Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 252
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 45
+    }
+  ],
+  "headline_zh-Hans": "通过CAPTCHA检索你的浏览历史",
+  "headline_zh-Hant": "通過CAPTCHA檢索你的瀏覽歷史",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

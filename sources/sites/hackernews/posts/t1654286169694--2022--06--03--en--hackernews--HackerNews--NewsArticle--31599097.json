@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--03--en--hackernews--HackerNews--NewsArticle--31599097",
+  "url": "https://news.ycombinator.com/item?id=31599097",
+  "headline": "DeWitt Clause, or can you benchmark %database% and get away with it",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "arjunnarayan",
+    "url": "https://news.ycombinator.com/user?id=arjunnarayan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31599097",
+  "sameAs": "https://cube.dev/blog/dewitt-clause-or-can-you-benchmark-a-database",
+  "dateCreated": "2022-06-03T19:56:09.694Z",
+  "datePublished": "2022-06-02T18:56:36.000Z",
+  "dateModified": "2022-06-03T19:56:09.694Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "DeWitt条款，或者你能以%数据库%为基准而不受影响吗？\n",
+  "headline_zh-Hant": "DeWitt條款，或者你能以%數據庫%為基準而不受影響嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

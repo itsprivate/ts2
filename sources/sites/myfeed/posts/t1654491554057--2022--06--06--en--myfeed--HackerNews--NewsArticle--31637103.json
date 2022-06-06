@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--HackerNews--NewsArticle--31637103",
+  "url": "https://news.ycombinator.com/item?id=31637103",
+  "headline": "The First True Smart Contact Lens – Mojo Vision",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "arcontethegreat",
+    "url": "https://news.ycombinator.com/user?id=arcontethegreat"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31637103",
+  "sameAs": "https://www.mojo.vision/mojo-lens",
+  "dateCreated": "2022-06-06T04:59:14.057Z",
+  "datePublished": "2022-06-06T03:49:43.000Z",
+  "dateModified": "2022-06-06T04:59:14.057Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "第一款真正的智能隐形眼镜 - Mojo Vision\n",
+  "headline_zh-Hant": "第一款真正的智能隱形眼鏡 - Mojo Vision\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--11--en--askhn--HackerNews--NewsArticle--30995647",
+  "url": "https://news.ycombinator.com/item?id=30995647",
+  "headline": "Ask HN: What Makes a Good Changelog?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "When you have to update your project's dependencies, you (presumably) look at the changelogs for each package to see if you can safely update. This experience varies wildly based on how well changes are tracked and documented (if at all). I'm looking to suss out what separates a great changelog from a mediocre one.<p><pre><code>  - What bits of a changelog are most helpful / important? \n  - What's not helpful, but usually included?\n  - How should the document balance skimmability / comprehensiveness / readability?\n  - What projects have the most helpful changelogs?\n\n</code></pre>\nThank you!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "Xavdidtheshadow",
+    "url": "https://news.ycombinator.com/user?id=Xavdidtheshadow"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30995647",
+  "sameAs": "https://news.ycombinator.com/item?id=30995647",
+  "dateCreated": "2022-04-11T22:10:37.619Z",
+  "datePublished": "2022-04-11T22:01:02.000Z",
+  "dateModified": "2022-04-11T22:10:37.619Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 什么是好的更新日志？",
+  "headline_zh-Hant": "Ask HN: 什麼是好的更新日誌？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "当你必须更新你的项目的依赖关系时，你（大概）会看一下每个软件包的更新日志，看看你是否可以安全地更新。This experience varies wildly based on how well changes are tracked and documented (if at all). I'm looking to suss out what separates a great changelog from a mediocre one.<p><pre><code> - What bits of a changelog are most helpful / important? \n  - 哪些是没有用的，但通常包括在内？\n  - How should the document balance skimmability / comprehensiveness / readability?\n  - What projects have the most helpful changelogs?\n\n</code></pre>\nThank you!",
+  "description_zh-Hant": "當你必須更新你的項目的依賴關係時，你（大概）會看一下每個軟件包的更新日誌，看看你是否可以安全地更新。This experience varies wildly based on how well changes are tracked and documented (if at all). I'm looking to suss out what separates a great changelog from a mediocre one.<p><pre><code> - What bits of a changelog are most helpful / important? \n  - 哪些是沒有用的，但通常包括在內？\n  - How should the document balance skimmability / comprehensiveness / readability?\n  - What projects have the most helpful changelogs?\n\n</code></pre>\nThank you!"
+}

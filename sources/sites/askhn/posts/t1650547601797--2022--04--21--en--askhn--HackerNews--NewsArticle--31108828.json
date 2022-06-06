@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--21--en--askhn--HackerNews--NewsArticle--31108828",
+  "url": "https://news.ycombinator.com/item?id=31108828",
+  "headline": "Ask HN: How are pull requests integrated in a repo with high commit frequency?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "So let's assume we open a pull request, merged current main into our feature branch and are running tests. The full acceptance test suite takes 5 minutes to complete.\nMeanwhile, in those 5 minutes, 10 other commits have been made. If we merge now, we can't be sure that we won't break stuff right?<p>So after merging the pull request, are you supposed to perform another set of regression tests? Hard to find info about that",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "dist1ll",
+    "url": "https://news.ycombinator.com/user?id=dist1ll"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31108828",
+  "sameAs": "https://news.ycombinator.com/item?id=31108828",
+  "dateCreated": "2022-04-21T13:26:41.797Z",
+  "datePublished": "2022-04-21T13:04:43.000Z",
+  "dateModified": "2022-04-21T13:26:41.797Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 在提交频率较高的repo中，如何整合拉动请求？",
+  "headline_zh-Hant": "Ask HN: 在提交頻率較高的repo中，如何整合拉動請求？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "因此，让我们假设我们打开了一个拉动请求，将当前的main合并到我们的特性分支中，并正在运行测试。完整的验收测试套件需要5分钟来完成。\n同时，在这5分钟里，又有10个提交完成。如果我们现在合并，我们不能确定我们不会破坏东西，对吗？<p>那么在合并拉动请求之后，你应该再进行一组回归测试吗？很难找到这方面的信息",
+  "description_zh-Hant": "因此，讓我們假設我們打開了一個拉動請求，將當前的main合併到我們的特性分支中，並正在運行測試。完整的驗收測試套件需要5分鐘來完成。\n同時，在這5分鐘裡，又有10個提交完成。如果我們現在合併，我們不能確定我們不會破壞東西，對嗎？<p>那麼在合併拉動請求之後，你應該再進行一組迴歸測試嗎？很難找到這方面的信息"
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--23--en--hackernews--HackerNews--NewsArticle--31136262",
+  "url": "https://news.ycombinator.com/item?id=31136262",
+  "headline": "Google, Western Digital, Seagate quietly an open source root of trust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "marcodiego",
+    "url": "https://news.ycombinator.com/user?id=marcodiego"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31136262",
+  "sameAs": "https://github.com/lowRISC/opentitan",
+  "dateCreated": "2022-04-23T18:11:55.368Z",
+  "datePublished": "2022-04-23T17:27:26.000Z",
+  "dateModified": "2022-04-23T18:11:55.368Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "谷歌、西部数据、希捷悄悄地建立了一个开源的信任根基",
+  "headline_zh-Hant": "谷歌、西部數據、希捷悄悄地建立了一個開源的信任根基",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

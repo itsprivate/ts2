@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--03--en--hackernews--HackerNews--NewsArticle--31605302",
+  "url": "https://news.ycombinator.com/item?id=31605302",
+  "headline": "Comparing Ceph, Linstor, Mayastor and Vitastor Storage Performance in Kubernetes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kvaps",
+    "url": "https://news.ycombinator.com/user?id=kvaps"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31605302",
+  "sameAs": "https://blog.flant.com/kubernetes-storage-performance-linstor-ceph-mayastor-vitastor/",
+  "dateCreated": "2022-06-03T08:30:32.206Z",
+  "datePublished": "2022-06-03T07:30:39.000Z",
+  "dateModified": "2022-06-03T08:30:32.206Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "比较Kubernetes中的Ceph、Linstor、Mayastor和Vitastor存储性能\n",
+  "headline_zh-Hant": "比較Kubernetes中的Ceph、Linstor、Mayastor和Vitastor存儲性能\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

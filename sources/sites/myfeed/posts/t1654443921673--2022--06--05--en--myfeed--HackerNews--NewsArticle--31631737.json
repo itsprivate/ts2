@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31631737",
+  "url": "https://news.ycombinator.com/item?id=31631737",
+  "headline": "Bemuse: Online, web-based rhythm game",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "memorable",
+    "url": "https://news.ycombinator.com/user?id=memorable"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31631737",
+  "sameAs": "https://bemuse.ninja",
+  "dateCreated": "2022-06-05T15:45:21.673Z",
+  "datePublished": "2022-06-05T15:17:17.000Z",
+  "dateModified": "2022-06-05T15:45:21.673Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Bemuse。在线，基于网络的节奏游戏\n",
+  "headline_zh-Hant": "Bemuse。在線，基於網絡的節奏遊戲\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

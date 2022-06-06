@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--24--en--hackernews--HackerNews--NewsArticle--31145583",
+  "url": "https://news.ycombinator.com/item?id=31145583",
+  "headline": "Fedora 36: A brave new (DRM/KMS only) world",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fcambus",
+    "url": "https://news.ycombinator.com/user?id=fcambus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31145583",
+  "sameAs": "https://blog.dowhile0.org/2022/04/22/fedora-36-a-brave-new-drm-kms-only-world/",
+  "dateCreated": "2022-04-24T17:03:01.393Z",
+  "datePublished": "2022-04-24T16:25:39.000Z",
+  "dateModified": "2022-04-24T17:03:01.393Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 16
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Fedora 36: 一个勇敢的新世界(只有DRM/KMS)",
+  "headline_zh-Hant": "Fedora 36: 一個勇敢的新世界(只有DRM/KMS)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

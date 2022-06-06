@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--03--en--hackernews--HackerNews--NewsArticle--31559294",
+  "url": "https://news.ycombinator.com/item?id=31559294",
+  "headline": "I Write Letters to CEOs (2018)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ddtaylor",
+    "url": "https://news.ycombinator.com/user?id=ddtaylor"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31559294",
+  "sameAs": "https://www.johnwdefeo.com/articles/why-i-write-letters-to-ceos",
+  "dateCreated": "2022-06-03T17:34:11.917Z",
+  "datePublished": "2022-05-30T14:25:07.000Z",
+  "dateModified": "2022-06-03T17:34:11.917Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "我给CEO写信(2018)\n",
+  "headline_zh-Hant": "我給CEO寫信(2018)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

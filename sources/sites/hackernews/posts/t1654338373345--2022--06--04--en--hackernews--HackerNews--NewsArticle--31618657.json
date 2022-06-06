@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--04--en--hackernews--HackerNews--NewsArticle--31618657",
+  "url": "https://news.ycombinator.com/item?id=31618657",
+  "headline": "WhatsApp threatened to leave the Netherlands due to controversial backdoor law",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "_han",
+    "url": "https://news.ycombinator.com/user?id=_han"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31618657",
+  "sameAs": "https://www.nrc.nl/nieuws/2022/06/03/whatsapp-dreigde-te-vertrekken-om-aftapplicht-a4132175",
+  "dateCreated": "2022-06-04T10:26:13.345Z",
+  "datePublished": "2022-06-04T10:01:45.000Z",
+  "dateModified": "2022-06-04T10:26:13.345Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "由于有争议的后门法，WhatsApp威胁要离开荷兰\n",
+  "headline_zh-Hant": "由於有爭議的後門法，WhatsApp威脅要離開荷蘭\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

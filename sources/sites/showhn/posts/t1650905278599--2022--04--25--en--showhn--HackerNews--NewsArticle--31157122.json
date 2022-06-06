@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--25--en--showhn--HackerNews--NewsArticle--31157122",
+  "url": "https://news.ycombinator.com/item?id=31157122",
+  "headline": "Show HN: I Made a Magic Trick:)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "croshan",
+    "url": "https://news.ycombinator.com/user?id=croshan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31157122",
+  "sameAs": "https://cyrusroshan.com/hosted-projects/magic-card-paste/",
+  "dateCreated": "2022-04-25T16:47:58.599Z",
+  "datePublished": "2022-04-25T16:26:54.000Z",
+  "dateModified": "2022-04-25T16:47:58.599Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我做了一个魔术:)",
+  "headline_zh-Hant": "Show HN: 我做了一個魔術:)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

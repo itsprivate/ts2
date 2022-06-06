@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--besthn--HackerNews--NewsArticle--30899352",
+  "url": "https://news.ycombinator.com/item?id=30899352",
+  "headline": "YC-backed uBiome is basically Theranos-lite",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "donsupreme",
+    "url": "https://news.ycombinator.com/user?id=donsupreme"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30899352",
+  "sameAs": "https://twitter.com/Carnage4Life/status/1510683233347796992",
+  "dateCreated": "2022-04-04T14:10:33.914Z",
+  "datePublished": "2022-04-03T18:27:57.000Z",
+  "dateModified": "2022-04-04T14:10:33.914Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 149
+    }
+  ],
+  "headline_zh-Hans": "由YC支持的uBiome基本上是Theranos的精简版",
+  "headline_zh-Hant": "由YC支持的uBiome基本上是Theranos的精簡版",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

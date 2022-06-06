@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--besthn--HackerNews--NewsArticle--30604375",
+  "url": "https://news.ycombinator.com/item?id=30604375",
+  "headline": "Apple announces 27-inch 5K Studio Display",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sparshgupta",
+    "url": "https://news.ycombinator.com/user?id=sparshgupta"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30604375",
+  "sameAs": "https://www.apple.com/studio-display/",
+  "dateCreated": "2022-03-08T22:30:46.776Z",
+  "datePublished": "2022-03-08T18:56:42.000Z",
+  "dateModified": "2022-03-08T22:30:46.776Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 251
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 258
+    }
+  ],
+  "headline_zh-Hans": "苹果发布27英寸5K工作室显示器",
+  "headline_zh-Hant": "蘋果發佈27英寸5K工作室顯示器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

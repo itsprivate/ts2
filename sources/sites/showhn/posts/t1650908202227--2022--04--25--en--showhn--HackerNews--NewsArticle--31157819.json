@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--25--en--showhn--HackerNews--NewsArticle--31157819",
+  "url": "https://news.ycombinator.com/item?id=31157819",
+  "headline": "Show HN: Like Netlify, but on Any Cloud",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN!\nWe just released Prepress, which is like Netlify but from your own cloud account on all major cloud providers. On top of the basics of building the static site, deploying it to your cloud storage and taking care of the DNS and SSL certs, we also have a CEL based rule engine sitting in front of the site which allows you to configure and redirect traffic with great flexibility. We've also included LiveLogs which shows live and enriched traffic logs to the site.<p>Prepress includes free teams, ACL and git integration (Github, Gitlab or self hosted) without any charge.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "ksajadi",
+    "url": "https://news.ycombinator.com/user?id=ksajadi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31157819",
+  "sameAs": "https://www.cloud66.com/frameworks/static-sites/",
+  "dateCreated": "2022-04-25T17:36:42.227Z",
+  "datePublished": "2022-04-25T17:11:27.000Z",
+  "dateModified": "2022-04-25T17:36:42.227Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 像Netlify一样，但在任何云上",
+  "headline_zh-Hant": "Show HN: 像Netlify一樣，但在任何雲上",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN!\n我们刚刚发布了Prepress，它就像Netlify一样，但是从你自己在所有主要云供应商上的云账户。除了建立静态网站，将其部署到你的云存储，并照顾DNS和SSL证书的基本要素外，我们还有一个基于CEL的规则引擎坐在网站前面，允许你配置和重定向流量，具有很大的灵活性。<p>Prepress包括免费的团队、ACL和git集成（Github、Gitlab或自我托管），没有任何费用。",
+  "description_zh-Hant": "嗨，HN!\n我們剛剛發佈了Prepress，它就像Netlify一樣，但是從你自己在所有主要雲供應商上的雲賬戶。除了建立靜態網站，將其部署到你的雲存儲，並照顧DNS和SSL證書的基本要素外，我們還有一個基於CEL的規則引擎坐在網站前面，允許你配置和重定向流量，具有很大的靈活性。<p>Prepress包括免費的團隊、ACL和git集成（Github、Gitlab或自我託管），沒有任何費用。"
+}

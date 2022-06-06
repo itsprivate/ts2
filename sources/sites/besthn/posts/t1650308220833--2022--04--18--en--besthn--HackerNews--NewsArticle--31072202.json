@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--18--en--besthn--HackerNews--NewsArticle--31072202",
+  "url": "https://news.ycombinator.com/item?id=31072202",
+  "headline": "TurboTax’s fight against free tax filing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "xweb",
+    "url": "https://news.ycombinator.com/user?id=xweb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31072202",
+  "sameAs": "https://slate.com/technology/2022/04/turbotax-free-file-online-ftc.html",
+  "dateCreated": "2022-04-18T18:57:00.833Z",
+  "datePublished": "2022-04-18T15:42:03.000Z",
+  "dateModified": "2022-04-18T18:57:00.833Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 268
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 118
+    }
+  ],
+  "headline_zh-Hans": "TurboTax对免费报税的斗争",
+  "headline_zh-Hant": "TurboTax對免費報稅的鬥爭",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

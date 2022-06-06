@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--askhn--HackerNews--NewsArticle--31012832",
+  "url": "https://news.ycombinator.com/item?id=31012832",
+  "headline": "Ask HN: How does your team manage environment variables?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Our team is manually sharing .env files which is bad both from a security and a logistical perspective. Does HN have any tools or advise on how this is usually managed in larger orgs?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "p-ross",
+    "url": "https://news.ycombinator.com/user?id=p-ross"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31012832",
+  "sameAs": "https://news.ycombinator.com/item?id=31012832",
+  "dateCreated": "2022-04-13T10:11:30.908Z",
+  "datePublished": "2022-04-13T09:56:39.000Z",
+  "dateModified": "2022-04-13T10:11:30.908Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你的团队是如何管理环境变量的？",
+  "headline_zh-Hant": "Ask HN: 你的團隊是如何管理環境變量的？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们的团队正在手动共享.env文件，这从安全和后勤的角度来看都是不好的。HN是否有任何工具或建议，在较大的组织中通常是如何管理的？",
+  "description_zh-Hant": "我們的團隊正在手動共享.env文件，這從安全和後勤的角度來看都是不好的。HN是否有任何工具或建議，在較大的組織中通常是如何管理的？"
+}

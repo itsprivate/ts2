@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31635046",
+  "url": "https://news.ycombinator.com/item?id=31635046",
+  "headline": "GitHub does not let you report more than two abusive accounts at a time",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "TonyTrapp",
+    "url": "https://news.ycombinator.com/user?id=TonyTrapp"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31635046",
+  "sameAs": "https://twitter.com/tumult/status/1533368759234138112",
+  "dateCreated": "2022-06-05T21:42:23.660Z",
+  "datePublished": "2022-06-05T21:35:44.000Z",
+  "dateModified": "2022-06-05T21:42:23.660Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "GitHub不允许你一次报告两个以上的滥用账户\n",
+  "headline_zh-Hant": "GitHub不允許你一次報告兩個以上的濫用賬戶\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

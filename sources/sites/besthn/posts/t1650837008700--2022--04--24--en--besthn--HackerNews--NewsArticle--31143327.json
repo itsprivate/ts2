@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--24--en--besthn--HackerNews--NewsArticle--31143327",
+  "url": "https://news.ycombinator.com/item?id=31143327",
+  "headline": "Textualize – A framework for building Text User Interface applications",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "wey-gu",
+    "url": "https://news.ycombinator.com/user?id=wey-gu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31143327",
+  "sameAs": "https://www.textualize.io/",
+  "dateCreated": "2022-04-24T21:50:08.700Z",
+  "datePublished": "2022-04-24T12:15:36.000Z",
+  "dateModified": "2022-04-24T21:50:08.700Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 254
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 53
+    }
+  ],
+  "headline_zh-Hans": "文本化 - 构建文本用户界面应用程序的框架",
+  "headline_zh-Hant": "文本化 - 構建文本用戶界面應用程序的框架",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

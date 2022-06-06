@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--02--en--showhn--HackerNews--NewsArticle--31590090",
+  "url": "https://news.ycombinator.com/item?id=31590090",
+  "headline": "Show HN: spotify-player – A command driven Spotify player",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "aome510",
+    "url": "https://news.ycombinator.com/user?id=aome510"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31590090",
+  "sameAs": "https://github.com/aome510/spotify-player",
+  "dateCreated": "2022-06-02T13:54:27.919Z",
+  "datePublished": "2022-06-02T00:58:49.000Z",
+  "dateModified": "2022-06-02T13:54:27.919Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: spotify-player - 一个命令驱动的Spotify播放器\n",
+  "headline_zh-Hant": "Show HN: spotify-player - 一個命令驅動的Spotify播放器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

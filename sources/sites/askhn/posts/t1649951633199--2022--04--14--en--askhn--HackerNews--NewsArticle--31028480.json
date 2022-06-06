@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--14--en--askhn--HackerNews--NewsArticle--31028480",
+  "url": "https://news.ycombinator.com/item?id=31028480",
+  "headline": "Ask HN: Which way for storing client's RSA public key is correct?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "For end to end encryption, client should pass his own RSA public key to server after every re-login. Client should have a dynamic RSA public key. Client may have the same credential but with different RSA public keys. Client will generate a RSA key pair randomly after start the app for the first time.<p>In other words, client will login from different devices at the same time.<p>For now all user sessions are stored in Redis server using Django(Python) framework as backend. Other user info are stored in PostgreSQL database.<p>I am thinking about 2 approaches for exchanging public keys between client and server.<p>*client sends his login credentials and public key to the server, then server will verify the credentials, then*<p>1. Server add client's present pub key into his login session (redis server). Server will read client's pub key from Redis server to encrypt data. Later on, server will pass the encrypted to client.<p>2. Server add client's present pub key into PostgreSQL database with some columns, such as foreign_key to user_id, client_pub_key, valid_until, created_at. All the RSA key validation will be handled by the Django(Python) server. (I'm worried querying client RSA keys everytime from database will drag down the performance)<p>Which one do you think is modern, secure and fast for End-to-End encryption for user login from multiple devices?<p>Some better designs?<p>Appreciate your comments!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "airswimmer",
+    "url": "https://news.ycombinator.com/user?id=airswimmer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31028480",
+  "sameAs": "https://news.ycombinator.com/item?id=31028480",
+  "dateCreated": "2022-04-14T15:53:53.199Z",
+  "datePublished": "2022-04-14T15:45:44.000Z",
+  "dateModified": "2022-04-14T15:53:53.199Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 哪种存储客户的RSA公钥的方式是正确的？",
+  "headline_zh-Hant": "Ask HN: 哪種存儲客戶的RSA公鑰的方式是正確的？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "对于端到端加密，客户应该在每次重新登录后将自己的RSA公钥传给服务器。客户端应该有一个动态的RSA公钥。客户端可能有相同的凭证，但有不同的RSA公钥。客户端将在第一次启动应用程序后随机生成一对RSA密钥。<p>换句话说，客户端将同时从不同的设备登录。<p>目前，所有的用户会话都存储在Redis服务器上，使用Django（Python）框架作为后台。其他用户信息存储在PostgreSQL数据库中。<p>我正在考虑在客户端和服务器之间交换公钥的2种方法。<p>*客户端发送他的登录凭证和公钥给服务器，然后服务器将验证凭证，然后*<p>1. 服务器将客户目前的公钥加入他的登录会话（redis服务器）。服务器将从Redis服务器读取客户的公钥来加密数据。<p>2.服务器将客户的pub密钥添加到PostgreSQL数据库中，其中有一些列，如foreign_key to user_id, client_pub_key, valid_until, created_at。所有的RSA密钥验证将由Django(Python)服务器处理。(我担心每次从数据库中查询客户端的RSA密钥会拖累性能)<p>你认为哪一个是现代、安全和快速的端到端加密，用于用户从多个设备登录？<p>一些更好的设计？<p>感谢你的评论",
+  "description_zh-Hant": "對於端到端加密，客戶應該在每次重新登錄後將自己的RSA公鑰傳給服務器。客戶端應該有一個動態的RSA公鑰。客戶端可能有相同的憑證，但有不同的RSA公鑰。客戶端將在第一次啟動應用程序後隨機生成一對RSA密鑰。<p>換句話說，客戶端將同時從不同的設備登錄。<p>目前，所有的用戶會話都存儲在Redis服務器上，使用Django（Python）框架作為後臺。其他用戶信息存儲在PostgreSQL數據庫中。<p>我正在考慮在客戶端和服務器之間交換公鑰的2種方法。<p>*客戶端發送他的登錄憑證和公鑰給服務器，然後服務器將驗證憑證，然後*<p>1. 服務器將客戶目前的公鑰加入他的登錄會話（redis服務器）。服務器將從Redis服務器讀取客戶的公鑰來加密數據。<p>2.服務器將客戶的pub密鑰添加到PostgreSQL數據庫中，其中有一些列，如foreign_key to user_id, client_pub_key, valid_until, created_at。所有的RSA密鑰驗證將由Django(Python)服務器處理。(我擔心每次從數據庫中查詢客戶端的RSA密鑰會拖累性能)<p>你認為哪一個是現代、安全和快速的端到端加密，用於用戶從多個設備登錄？<p>一些更好的設計？<p>感謝你的評論"
+}

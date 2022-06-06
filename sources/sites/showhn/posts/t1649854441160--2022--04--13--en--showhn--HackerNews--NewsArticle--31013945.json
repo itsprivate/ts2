@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--showhn--HackerNews--NewsArticle--31013945",
+  "url": "https://news.ycombinator.com/item?id=31013945",
+  "headline": "Show HN: GitNoter – Store notes to your GitHub repository",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "vivekweb2013",
+    "url": "https://news.ycombinator.com/user?id=vivekweb2013"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31013945",
+  "sameAs": "https://gitnoter.com",
+  "dateCreated": "2022-04-13T12:54:01.160Z",
+  "datePublished": "2022-04-13T12:44:01.000Z",
+  "dateModified": "2022-04-13T12:54:01.160Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: GitNoter - 为你的GitHub仓库存储笔记",
+  "headline_zh-Hant": "Show HN: GitNoter - 為你的GitHub倉庫存儲筆記",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

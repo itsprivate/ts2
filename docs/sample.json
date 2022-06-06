@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "headline": {
+      "@container": "@language"
+    },
+    "description": {
+      "@container": "@language"
+    }
+  },
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://google.com/article"
+  },
+  "headline": {
+    "en": "test",
+    "zh": "test"
+  },
+  "description": {
+    "en": "test",
+    "zh": "test"
+  },
+  "identifier": "https://google.com/article",
+  "keywords": ["Test"],
+  "image": [
+    "https://example.com/photos/1x1/photo.jpg",
+    "https://example.com/photos/4x3/photo.jpg",
+    "https://example.com/photos/16x9/photo.jpg"
+  ],
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": "https://schema.org/LikeAction",
+      "userInteractionCount": "14300"
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": "https://schema.org/ViewAction",
+      "userInteractionCount": "14300"
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": "https://schema.org/DislikeAction",
+      "userInteractionCount": "14300"
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": "https://schema.org/CommentAction",
+      "userInteractionCount": "14300"
+    }
+  ],
+  "discussionUrl": "",
+  "dateCreated": "",
+  "datePublished": "2015-02-05T08:00:00+08:00",
+  "dateModified": "2015-02-05T09:20:00+08:00",
+  "author": {
+    "@type": "Person",
+    "name": "John Doe",
+    "url": "http://example.com/profile/johndoe123"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Google",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://google.com/logo.jpg"
+    }
+  },
+  "typicalAgeRange": "18-"
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--20--en--besthn--HackerNews--NewsArticle--30743141",
+  "url": "https://news.ycombinator.com/item?id=30743141",
+  "headline": "Decrypting your own HTTPS traffic with Wireshark",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rl1987",
+    "url": "https://news.ycombinator.com/user?id=rl1987"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30743141",
+  "sameAs": "https://www.trickster.dev/post/decrypting-your-own-https-traffic-with-wireshark/",
+  "dateCreated": "2022-03-20T20:49:48.148Z",
+  "datePublished": "2022-03-20T14:58:19.000Z",
+  "dateModified": "2022-03-20T20:49:48.148Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 253
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 60
+    }
+  ],
+  "headline_zh-Hans": "用Wireshark解密你自己的HTTPS流量",
+  "headline_zh-Hant": "用Wireshark解密你自己的HTTPS流量",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

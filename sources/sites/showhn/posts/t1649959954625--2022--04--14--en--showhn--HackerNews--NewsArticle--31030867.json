@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--14--en--showhn--HackerNews--NewsArticle--31030867",
+  "url": "https://news.ycombinator.com/item?id=31030867",
+  "headline": "Show HN: Fast,Compiled deep-learning based modules for inferencing on CPUs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN,I am Anubhav from RamanLabs.We have been developing dedicated modules based on deep-learning for purposes like face-detection,object-detection,pose-estimation etc.<p>We hope to make it easy for developers,hobbyists to integrate such functionalities into their existing app/pipeline at the cost of a few milliseconds.All our modules run end to end in super-realtime even on consumer-grade CPUs[0].\nFor now we provide only Python  based API.<p>We provide Demo for each of the  modules to allow testing for your desired data distribution.We also have a blog[1] where we hope to add more technical details about  the framework used to develop these modules.<p>The framework used to develop these modules is completely written in Nim language.We wrap existing ops implementations from libraries like ONEDNN and write our own code where we cannot find one or existing implementation is not good enough,mainly for preprocessing and postprocessing code.Having full access to framework code and being written in a high level language allows us to port newer architectures and optimize them quickly.<p>We would love to hear your feedback on our attempt.<p>[0] Quad-core Cpu with AVX2 instructions.\n[1] &lt;<a href=\"https://ramanlabs.in/static/blog/index.html\" rel=\"nofollow\">https://ramanlabs.in/static/blog/index.html</a>&gt;",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "eagledotRL",
+    "url": "https://news.ycombinator.com/user?id=eagledotRL"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31030867",
+  "sameAs": "https://ramanlabs.in/static/products.html",
+  "dateCreated": "2022-04-14T18:12:34.625Z",
+  "datePublished": "2022-04-14T18:08:19.000Z",
+  "dateModified": "2022-04-14T18:12:34.625Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 快速，基于深度学习的模块在CPU上进行推理的编译",
+  "headline_zh-Hant": "Show HN: 快速，基於深度學習的模塊在CPU上進行推理的編譯",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN，我是RamanLabs的Anubhav。我们一直在开发基于深度学习的专用模块，用于人脸检测、物体检测、姿势估计等目的。<p>我们希望能让开发者、业余爱好者以几毫秒的代价轻松地将这些功能整合到他们现有的应用程序/管道中。我们所有的模块都是在超级实时的情况下运行的，即使在消费级CPU[0]。\n目前，我们只提供基于Python的API。<p>我们为每个模块提供了Demo，以便对你所需的数据分布进行测试。我们还有一个博客[1]，我们希望在那里添加更多关于开发这些模块的框架的技术细节。 We wrap existing ops implementations from libraries like ONEDNN and write our own code where we cannot find one or existing implementation is not good enough,mainly for preprocessing and postprocessing code.Having full access to framework code and being written in a high level language allows us to port newer architectures and optimize them quickly.<p>We would love to hear your feedback on our attempt.<p>[0] Quad-core Cpu with AVX2 instructions.\n[1] &lt;<a href=\"https://ramanlabs.in/static/blog/index.html\" rel=\"nofollow\">https://ramanlabs.in/static/blog/index.html</a>&gt;",
+  "description_zh-Hant": "嗨，HN，我是RamanLabs的Anubhav。我們一直在開發基於深度學習的專用模塊，用於人臉檢測、物體檢測、姿勢估計等目的。<p>我們希望能讓開發者、業餘愛好者以幾毫秒的代價輕鬆地將這些功能整合到他們現有的應用程序/管道中。我們所有的模塊都是在超級實時的情況下運行的，即使在消費級CPU[0]。\n目前，我們只提供基於Python的API。<p>我們為每個模塊提供了Demo，以便對你所需的數據分佈進行測試。我們還有一個博客[1]，我們希望在那裡添加更多關於開發這些模塊的框架的技術細節。 We wrap existing ops implementations from libraries like ONEDNN and write our own code where we cannot find one or existing implementation is not good enough,mainly for preprocessing and postprocessing code.Having full access to framework code and being written in a high level language allows us to port newer architectures and optimize them quickly.<p>We would love to hear your feedback on our attempt.<p>[0] Quad-core Cpu with AVX2 instructions.\n[1] &lt;<a href=\"https://ramanlabs.in/static/blog/index.html\" rel=\"nofollow\">https://ramanlabs.in/static/blog/index.html</a>&gt;"
+}

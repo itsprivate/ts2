@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--26--en--besthn--HackerNews--NewsArticle--31166346",
+  "url": "https://news.ycombinator.com/item?id=31166346",
+  "headline": "LineageOS 19",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "doener",
+    "url": "https://news.ycombinator.com/user?id=doener"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31166346",
+  "sameAs": "https://lineageos.org/Changelog-26/",
+  "dateCreated": "2022-04-26T15:11:12.289Z",
+  "datePublished": "2022-04-26T11:53:30.000Z",
+  "dateModified": "2022-04-26T15:11:12.289Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 267
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 127
+    }
+  ],
+  "headline_zh-Hans": "洛克斯堡大学",
+  "headline_zh-Hant": "洛克斯堡大學",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

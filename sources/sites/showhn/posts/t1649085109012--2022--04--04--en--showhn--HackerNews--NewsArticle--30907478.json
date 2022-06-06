@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--showhn--HackerNews--NewsArticle--30907478",
+  "url": "https://news.ycombinator.com/item?id=30907478",
+  "headline": "Show HN: Fast DNS lookups with record deep linking and endpoint selection",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jmorf",
+    "url": "https://news.ycombinator.com/user?id=jmorf"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30907478",
+  "sameAs": "https://ldns.com/",
+  "dateCreated": "2022-04-04T15:11:49.012Z",
+  "datePublished": "2022-04-04T15:03:43.000Z",
+  "dateModified": "2022-04-04T15:11:49.012Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 通过记录深度链接和端点选择实现快速DNS查询",
+  "headline_zh-Hant": "Show HN: 通過記錄深度鏈接和端點選擇實現快速DNS查詢",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

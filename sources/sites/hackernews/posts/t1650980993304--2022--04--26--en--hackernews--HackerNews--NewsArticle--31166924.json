@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--26--en--hackernews--HackerNews--NewsArticle--31166924",
+  "url": "https://news.ycombinator.com/item?id=31166924",
+  "headline": "Show HN: FlyCode – Git-Based Copy and Translations Editor for Web Apps",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "JakeVacovec",
+    "url": "https://news.ycombinator.com/user?id=JakeVacovec"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31166924",
+  "sameAs": "https://www.flycode.com/developers",
+  "dateCreated": "2022-04-26T13:49:53.304Z",
+  "datePublished": "2022-04-26T13:00:01.000Z",
+  "dateModified": "2022-04-26T13:49:53.304Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 75
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 6
+    }
+  ],
+  "headline_zh-Hans": "Show HN: FlyCode - 基于Git的网络应用程序复制和翻译编辑器",
+  "headline_zh-Hant": "Show HN: FlyCode - 基於Git的網絡應用程序複製和翻譯編輯器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

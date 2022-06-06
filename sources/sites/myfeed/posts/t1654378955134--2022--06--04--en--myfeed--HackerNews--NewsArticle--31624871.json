@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--04--en--myfeed--HackerNews--NewsArticle--31624871",
+  "url": "https://news.ycombinator.com/item?id=31624871",
+  "headline": "Zoxide – smart, fuzzy-matching cd alternative written in Rust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Curiositry",
+    "url": "https://news.ycombinator.com/user?id=Curiositry"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31624871",
+  "sameAs": "https://github.com/ajeetdsouza/zoxide",
+  "dateCreated": "2022-06-04T21:42:35.134Z",
+  "datePublished": "2022-06-04T20:44:50.000Z",
+  "dateModified": "2022-06-04T21:42:35.134Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Zoxide - 用Rust编写的智能、模糊匹配的cd替代方案\n",
+  "headline_zh-Hant": "Zoxide - 用Rust編寫的智能、模糊匹配的cd替代方案\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

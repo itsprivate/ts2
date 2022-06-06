@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--19--en--besthn--HackerNews--NewsArticle--30725933",
+  "url": "https://news.ycombinator.com/item?id=30725933",
+  "headline": "If Google sucks then why is everyone still using it?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "abhinavsharma",
+    "url": "https://news.ycombinator.com/user?id=abhinavsharma"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30725933",
+  "sameAs": "https://abhinavsharma.com/blog/google-alternatives",
+  "dateCreated": "2022-03-19T15:42:59.097Z",
+  "datePublished": "2022-03-18T18:43:47.000Z",
+  "dateModified": "2022-03-19T15:42:59.097Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 394
+    }
+  ],
+  "headline_zh-Hans": "如果谷歌很糟糕，那么为什么每个人都还在使用它？",
+  "headline_zh-Hant": "如果谷歌很糟糕，那麼為什麼每個人都還在使用它？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

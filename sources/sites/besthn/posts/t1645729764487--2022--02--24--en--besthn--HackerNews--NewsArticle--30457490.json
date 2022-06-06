@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--24--en--besthn--HackerNews--NewsArticle--30457490",
+  "url": "https://news.ycombinator.com/item?id=30457490",
+  "headline": "Ukraine is a major producer of neon gas, critical for lasers used in chipmaking",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "swores",
+    "url": "https://news.ycombinator.com/user?id=swores"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30457490",
+  "sameAs": "https://www.reuters.com/breakingviews/ukraine-war-flashes-neon-warning-lights-chips-2022-02-24/",
+  "dateCreated": "2022-02-24T19:09:24.487Z",
+  "datePublished": "2022-02-24T17:22:04.000Z",
+  "dateModified": "2022-02-24T19:09:24.487Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 274
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 110
+    }
+  ],
+  "headline_zh-Hans": "乌克兰是霓虹灯气体的主要生产国，对用于芯片制造的激光器至关重要。",
+  "headline_zh-Hant": "烏克蘭是霓虹燈氣體的主要生產國，對用於芯片製造的激光器至關重要。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

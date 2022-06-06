@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--03--en--askhn--HackerNews--NewsArticle--31606084",
+  "url": "https://news.ycombinator.com/item?id=31606084",
+  "headline": "Ask HN: Why didn't Pony take off?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "It seems to offer a lot of the same things Rust offers, and Rust is immensely popular. What failings of Pony caused it to fall behind in popularity and adoption while Rust sprinted ahead?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "MathCodeLove",
+    "url": "https://news.ycombinator.com/user?id=MathCodeLove"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31606084",
+  "sameAs": "https://news.ycombinator.com/item?id=31606084",
+  "dateCreated": "2022-06-03T09:45:39.504Z",
+  "datePublished": "2022-06-03T09:28:13.000Z",
+  "dateModified": "2022-06-03T09:45:39.504Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 小马为什么不起飞？\n",
+  "headline_zh-Hant": "Ask HN: 小馬為什麼不起飛？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "它似乎提供了很多与Rust相同的东西，而Rust则非常受欢迎。Pony的哪些缺点导致它在普及和采用方面落后于Rust，而Rust则冲刺在前？\n",
+  "description_zh-Hant": "它似乎提供了很多與Rust相同的東西，而Rust則非常受歡迎。Pony的哪些缺點導致它在普及和採用方面落後於Rust，而Rust則衝刺在前？\n"
+}

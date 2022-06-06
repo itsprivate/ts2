@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--besthn--HackerNews--NewsArticle--31008275",
+  "url": "https://news.ycombinator.com/item?id=31008275",
+  "headline": "Never hose out a Honda Element",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gkop",
+    "url": "https://news.ycombinator.com/user?id=gkop"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31008275",
+  "sameAs": "https://fifthelementcamping.com/never-hose-it-out",
+  "dateCreated": "2022-04-13T04:41:35.273Z",
+  "datePublished": "2022-04-12T21:10:51.000Z",
+  "dateModified": "2022-04-13T04:41:35.273Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 251
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 147
+    }
+  ],
+  "headline_zh-Hans": "不要把本田元素的软管拿出来",
+  "headline_zh-Hant": "不要把本田元素的軟管拿出來",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

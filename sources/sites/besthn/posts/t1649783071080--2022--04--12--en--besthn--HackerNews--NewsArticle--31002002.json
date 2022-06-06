@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--12--en--besthn--HackerNews--NewsArticle--31002002",
+  "url": "https://news.ycombinator.com/item?id=31002002",
+  "headline": "Consumer prices rose 8.5% in March – highest since 1981",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "arbuge",
+    "url": "https://news.ycombinator.com/user?id=arbuge"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31002002",
+  "sameAs": "https://www.cnbc.com/2022/04/12/consumer-prices-rose-8point5percent-in-march-slightly-hotter-than-expected.html",
+  "dateCreated": "2022-04-12T17:04:31.080Z",
+  "datePublished": "2022-04-12T12:56:17.000Z",
+  "dateModified": "2022-04-12T17:04:31.080Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 261
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 363
+    }
+  ],
+  "headline_zh-Hans": "3月消费者价格上涨8.5%--1981年以来最高",
+  "headline_zh-Hant": "3月消費者價格上漲8.5%--1981年以來最高",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

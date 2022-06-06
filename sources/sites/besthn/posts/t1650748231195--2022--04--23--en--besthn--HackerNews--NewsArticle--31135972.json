@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--23--en--besthn--HackerNews--NewsArticle--31135972",
+  "url": "https://news.ycombinator.com/item?id=31135972",
+  "headline": "Apple says they're removing my game because it's more than 2 years old",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "keleftheriou",
+    "url": "https://news.ycombinator.com/user?id=keleftheriou"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31135972",
+  "sameAs": "https://twitter.com/protopop/status/1517701619374338050",
+  "dateCreated": "2022-04-23T21:10:31.195Z",
+  "datePublished": "2022-04-23T16:55:46.000Z",
+  "dateModified": "2022-04-23T21:10:31.195Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 257
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 124
+    }
+  ],
+  "headline_zh-Hans": "苹果公司说他们要删除我的游戏，因为它已经超过2年了",
+  "headline_zh-Hant": "蘋果公司說他們要刪除我的遊戲，因為它已經超過2年了",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

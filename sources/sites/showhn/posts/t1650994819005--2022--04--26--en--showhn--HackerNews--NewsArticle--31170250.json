@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--26--en--showhn--HackerNews--NewsArticle--31170250",
+  "url": "https://news.ycombinator.com/item?id=31170250",
+  "headline": "Show HN: Melodle – Guess the melody in 6 tries (Wordle offshoot)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "enyo",
+    "url": "https://news.ycombinator.com/user?id=enyo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31170250",
+  "sameAs": "https://melodle.yesmeno.com",
+  "dateCreated": "2022-04-26T17:40:19.005Z",
+  "datePublished": "2022-04-26T17:17:39.000Z",
+  "dateModified": "2022-04-26T17:40:19.005Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Melodle - 在6次尝试中猜测旋律（Wordle分支）。",
+  "headline_zh-Hant": "Show HN: Melodle - 在6次嘗試中猜測旋律（Wordle分支）。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

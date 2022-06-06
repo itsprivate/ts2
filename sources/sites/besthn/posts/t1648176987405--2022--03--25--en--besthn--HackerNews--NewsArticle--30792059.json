@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--25--en--besthn--HackerNews--NewsArticle--30792059",
+  "url": "https://news.ycombinator.com/item?id=30792059",
+  "headline": "A Way Out for A.out",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bitcharmer",
+    "url": "https://news.ycombinator.com/user?id=bitcharmer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30792059",
+  "sameAs": "https://lwn.net/SubscriberLink/888741/5e43489d7ebeda7f/",
+  "dateCreated": "2022-03-25T02:56:27.405Z",
+  "datePublished": "2022-03-24T16:23:18.000Z",
+  "dateModified": "2022-03-25T02:56:27.405Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 251
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 62
+    }
+  ],
+  "headline_zh-Hans": "A.out的出路",
+  "headline_zh-Hant": "A.out的出路",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

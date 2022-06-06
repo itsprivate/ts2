@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--27--en--hackernews--HackerNews--NewsArticle--31175300",
+  "url": "https://news.ycombinator.com/item?id=31175300",
+  "headline": "The SSO Wall of Shame",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "redninja83",
+    "url": "https://news.ycombinator.com/user?id=redninja83"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31175300",
+  "sameAs": "https://sso.tax/",
+  "dateCreated": "2022-04-27T11:28:53.328Z",
+  "datePublished": "2022-04-27T01:43:31.000Z",
+  "dateModified": "2022-04-27T11:28:53.328Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 46
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 6
+    }
+  ],
+  "headline_zh-Hans": "SSO的耻辱墙",
+  "headline_zh-Hant": "SSO的恥辱牆",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

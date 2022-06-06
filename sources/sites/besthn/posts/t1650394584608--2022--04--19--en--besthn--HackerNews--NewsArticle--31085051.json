@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--19--en--besthn--HackerNews--NewsArticle--31085051",
+  "url": "https://news.ycombinator.com/item?id=31085051",
+  "headline": "De-AMP: Cutting out Google and enhancing privacy",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "w0ts0n",
+    "url": "https://news.ycombinator.com/user?id=w0ts0n"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31085051",
+  "sameAs": "https://brave.com/privacy-updates/18-de-amp/",
+  "dateCreated": "2022-04-19T18:56:24.608Z",
+  "datePublished": "2022-04-19T16:07:58.000Z",
+  "dateModified": "2022-04-19T18:56:24.608Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 270
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 133
+    }
+  ],
+  "headline_zh-Hans": "去掉AMP。剔除谷歌，增强隐私",
+  "headline_zh-Hant": "去掉AMP。剔除谷歌，增強隱私",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

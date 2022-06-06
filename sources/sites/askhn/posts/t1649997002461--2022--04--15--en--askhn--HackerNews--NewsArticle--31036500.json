@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--15--en--askhn--HackerNews--NewsArticle--31036500",
+  "url": "https://news.ycombinator.com/item?id=31036500",
+  "headline": "Ask HN: I'm looking for a specific blog post about game programming, any help?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "It's one of my all time favorite posts, but somehow I can't find it. My memory is hazy but if I had to paraphrase I'm pretty sure it started off something like this:<p>Every time I see a game with a changelog like this, I cringe:<p><pre><code>    Peasants who become queens no longer continue to beg for bread\n    Horses no longer stay frozen after entering and exiting the pause menu\n    NPCs no longer attempt to open doors that have been removed\n    Fixed bug where NPCs were unable to see in dark rooms even after lighting a candle.\n</code></pre>\nWhat's happening here is that the game has a huge state, and different parts of the state are being modified all over the place. This means that when extending the state in part A, you need to understand the entire codebase to know every state update that now needs to be changed. What you need to do is centralize all the code that modifies the state into one giant function, and this function should takes an enum describing the thing that triggered the change and modify the state accordingly.<p>... I think it went something like that, anyway. Any help?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ChadNauseam",
+    "url": "https://news.ycombinator.com/user?id=ChadNauseam"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31036500",
+  "sameAs": "https://news.ycombinator.com/item?id=31036500",
+  "dateCreated": "2022-04-15T04:30:02.461Z",
+  "datePublished": "2022-04-15T03:56:35.000Z",
+  "dateModified": "2022-04-15T04:30:02.461Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我在寻找一篇关于游戏编程的具体博文，有什么帮助吗？",
+  "headline_zh-Hant": "Ask HN: 我在尋找一篇關於遊戲編程的具體博文，有什麼幫助嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "这是我一直以来最喜欢的帖子之一，但不知为何我找不到它了。我的记忆很模糊，但如果要我转述的话，我很肯定它的开头是这样的：<p>每当我看到一个游戏有这样的变化记录时，我都会感到害怕：<p><pre><code>成为女王的农民不再继续乞讨面包了\n    Horses no longer stay frozen after entering and exiting the pause menu\n    NPCs no longer attempt to open doors that have been removed\n    Fixed bug where NPCs were unable to see in dark rooms even after lighting a candle.\n</code></pre>\nWhat's happening here is that the game has a huge state, and different parts of the state are being modified all over the place. 这意味着在扩展A部分的状态时，你需要了解整个代码库，知道现在需要改变的每一个状态更新。你需要做的是将所有修改状态的代码集中到一个巨大的函数中，这个函数应该采取一个枚举来描述触发变化的事情，并相应地修改状态。<p>... 我想应该是这样的，无论如何。有什么帮助吗？",
+  "description_zh-Hant": "這是我一直以來最喜歡的帖子之一，但不知為何我找不到它了。我的記憶很模糊，但如果要我轉述的話，我很肯定它的開頭是這樣的：<p>每當我看到一個遊戲有這樣的變化記錄時，我都會感到害怕：<p><pre><code>成為女王的農民不再繼續乞討麵包了\n    Horses no longer stay frozen after entering and exiting the pause menu\n    NPCs no longer attempt to open doors that have been removed\n    Fixed bug where NPCs were unable to see in dark rooms even after lighting a candle.\n</code></pre>\nWhat's happening here is that the game has a huge state, and different parts of the state are being modified all over the place. 這意味著在擴展A部分的狀態時，你需要了解整個代碼庫，知道現在需要改變的每一個狀態更新。你需要做的是將所有修改狀態的代碼集中到一個巨大的函數中，這個函數應該採取一個枚舉來描述觸發變化的事情，並相應地修改狀態。<p>... 我想應該是這樣的，無論如何。有什麼幫助嗎？"
+}

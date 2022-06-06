@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--24--en--hackernews--HackerNews--NewsArticle--31141415",
+  "url": "https://news.ycombinator.com/item?id=31141415",
+  "headline": "The temptation of writing shell scripts, illustrated",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "zdw",
+    "url": "https://news.ycombinator.com/user?id=zdw"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31141415",
+  "sameAs": "https://utcc.utoronto.ca/~cks/space/blog/programming/ShellScriptTemptation",
+  "dateCreated": "2022-04-24T06:56:07.209Z",
+  "datePublished": "2022-04-24T04:59:27.000Z",
+  "dateModified": "2022-04-24T06:56:07.209Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "写 shell 脚本的诱惑，图解",
+  "headline_zh-Hant": "寫 shell 腳本的誘惑，圖解",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

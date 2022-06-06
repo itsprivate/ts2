@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--02--en--besthn--HackerNews--NewsArticle--30517626",
+  "url": "https://news.ycombinator.com/item?id=30517626",
+  "headline": "Show HN: I made a web game called Almost Pong",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN!<p>I made many small web games in the past with Unity or Phaser. But this time I wanted to make something completely on my own. So I coded a basic game framework in plain JavaScript, and used it to make Almost Pong.<p>This was a really fun project that taught me a lot about JavaScript, and I plan to make more minimalist games with this framework. Interesting fact: Almost Pong doesn't load any assets, all sprites and sounds are generated with code.<p>Happy to answer questions, and please let me know if you have any feedback on the game. Thanks!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "lessmilk",
+    "url": "https://news.ycombinator.com/user?id=lessmilk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30517626",
+  "sameAs": "https://www.lessmilk.com/almost-pong/",
+  "dateCreated": "2022-03-02T07:35:43.085Z",
+  "datePublished": "2022-03-01T18:09:25.000Z",
+  "dateModified": "2022-03-02T07:35:43.085Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 270
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 56
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我做了一个网页游戏，叫作 \"Almost Pong\"。",
+  "headline_zh-Hant": "Show HN: 我做了一個網頁遊戲，叫作 \"Almost Pong\"。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN！<p>我过去用Unity或Phaser做了很多小的网页游戏。但这次我想完全靠自己来做一些东西。所以我用普通的JavaScript编写了一个基本的游戏框架，并用它来制作Almost Pong。<p>这是一个非常有趣的项目，让我学到了很多关于JavaScript的知识，我计划用这个框架制作更多的简约游戏。有趣的是：Almost Pong没有加载任何资产，所有的精灵和声音都是用代码生成的。<p>很高兴回答问题，如果你对这个游戏有任何反馈，请告诉我。谢谢!",
+  "description_zh-Hant": "嗨，HN！<p>我過去用Unity或Phaser做了很多小的網頁遊戲。但這次我想完全靠自己來做一些東西。所以我用普通的JavaScript編寫了一個基本的遊戲框架，並用它來製作Almost Pong。<p>這是一個非常有趣的項目，讓我學到了很多關於JavaScript的知識，我計劃用這個框架製作更多的簡約遊戲。有趣的是：Almost Pong沒有加載任何資產，所有的精靈和聲音都是用代碼生成的。<p>很高興回答問題，如果你對這個遊戲有任何反饋，請告訴我。謝謝!"
+}

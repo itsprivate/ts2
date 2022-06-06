@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--17--en--besthn--HackerNews--NewsArticle--31051662",
+  "url": "https://news.ycombinator.com/item?id=31051662",
+  "headline": "Netflix End of Series 1",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "heinrichhartman",
+    "url": "https://news.ycombinator.com/user?id=heinrichhartman"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31051662",
+  "sameAs": "https://www.brendangregg.com/blog/2022-04-15/netflix-farewell-1.html",
+  "dateCreated": "2022-04-17T02:21:41.385Z",
+  "datePublished": "2022-04-16T12:09:27.000Z",
+  "dateModified": "2022-04-17T02:21:41.385Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 68
+    }
+  ],
+  "headline_zh-Hans": "Netflix第一系列结束",
+  "headline_zh-Hant": "Netflix第一系列結束",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

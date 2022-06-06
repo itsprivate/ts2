@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--18--en--besthn--HackerNews--NewsArticle--31065143",
+  "url": "https://news.ycombinator.com/item?id=31065143",
+  "headline": "The best engineering interview question I've ever gotten",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "db48x",
+    "url": "https://news.ycombinator.com/user?id=db48x"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31065143",
+  "sameAs": "https://quuxplusone.github.io/blog/2022/01/06/memcached-interview/",
+  "dateCreated": "2022-04-18T03:35:14.064Z",
+  "datePublished": "2022-04-17T22:34:08.000Z",
+  "dateModified": "2022-04-18T03:35:14.064Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 274
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 175
+    }
+  ],
+  "headline_zh-Hans": "我所收到的最好的工程面试问题",
+  "headline_zh-Hant": "我所收到的最好的工程面試問題",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--20--en--showhn--HackerNews--NewsArticle--31098854",
+  "url": "https://news.ycombinator.com/item?id=31098854",
+  "headline": "Show HN: Cog – Docker for Machine Learning",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "bfirsh",
+    "url": "https://news.ycombinator.com/user?id=bfirsh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31098854",
+  "sameAs": "https://github.com/replicate/cog",
+  "dateCreated": "2022-04-20T16:13:32.338Z",
+  "datePublished": "2022-04-20T15:58:40.000Z",
+  "dateModified": "2022-04-20T16:13:32.338Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Cog - 用于机器学习的Docker",
+  "headline_zh-Hant": "Show HN: Cog - 用於機器學習的Docker",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

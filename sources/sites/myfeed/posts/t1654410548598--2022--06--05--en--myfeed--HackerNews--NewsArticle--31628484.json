@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31628484",
+  "url": "https://news.ycombinator.com/item?id=31628484",
+  "headline": "My notes on working of CPU profiler",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sch00lb0y",
+    "url": "https://news.ycombinator.com/user?id=sch00lb0y"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31628484",
+  "sameAs": "https://inspektor.cloud/blog/how-profiler-works/",
+  "dateCreated": "2022-06-05T06:29:08.598Z",
+  "datePublished": "2022-06-05T06:15:40.000Z",
+  "dateModified": "2022-06-05T06:29:08.598Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我对CPU分析器工作的说明\n",
+  "headline_zh-Hant": "我對CPU分析器工作的說明\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

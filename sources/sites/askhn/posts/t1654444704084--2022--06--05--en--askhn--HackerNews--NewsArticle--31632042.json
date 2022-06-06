@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--askhn--HackerNews--NewsArticle--31632042",
+  "url": "https://news.ycombinator.com/item?id=31632042",
+  "headline": "Ask HN: Why does Google send a request every time you type into the console",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Why and how does Google send a network request every time you type into the browser console?<p>Try the following:\n- go to google.com\n- open the inspect element console\n- go to the &quot;network&quot; tab and clear it\n- go to the &quot;console&quot; tab and start typing\n- see the requests made by you typing into the browser console in the &quot;network&quot; tab",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "elisaado",
+    "url": "https://news.ycombinator.com/user?id=elisaado"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31632042",
+  "sameAs": "https://news.ycombinator.com/item?id=31632042",
+  "dateCreated": "2022-06-05T15:58:24.084Z",
+  "datePublished": "2022-06-05T15:49:06.000Z",
+  "dateModified": "2022-06-05T15:58:24.084Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么每次你在控制台输入时，谷歌都会发送一个请求\n",
+  "headline_zh-Hant": "Ask HN: 為什麼每次你在控制檯輸入時，谷歌都會發送一個請求\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "为什么以及如何在你每次输入浏览器控制台时，谷歌都会发送一个网络请求？<p>尝试以下方法。\n- 转到google.com\n- 打开检查元素控制台\n- 进入&quot;网络&quot;标签并清除它\n- 进入&quot;控制台&quot;选项卡并开始打字\n- 看看你在浏览器控制台的&quot;网络&quot;标签中输入的请求。\n",
+  "description_zh-Hant": "為什麼以及如何在你每次輸入瀏覽器控制檯時，谷歌都會發送一個網絡請求？<p>嘗試以下方法。\n- 轉到google.com\n- 打開檢查元素控制檯\n- 進入&quot;網絡&quot;標籤並清除它\n- 進入&quot;控制檯&quot;選項卡並開始打字\n- 看看你在瀏覽器控制檯的&quot;網絡&quot;標籤中輸入的請求。\n"
+}

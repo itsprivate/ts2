@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--03--en--besthn--HackerNews--NewsArticle--30896403",
+  "url": "https://news.ycombinator.com/item?id=30896403",
+  "headline": "What happens if you try to download and install Firefox on Windows",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tosh",
+    "url": "https://news.ycombinator.com/user?id=tosh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30896403",
+  "sameAs": "https://twitter.com/plexus/status/1510568329303445507",
+  "dateCreated": "2022-04-03T17:42:24.693Z",
+  "datePublished": "2022-04-03T12:40:15.000Z",
+  "dateModified": "2022-04-03T17:42:24.693Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 260
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 185
+    }
+  ],
+  "headline_zh-Hans": "如果你试图在Windows上下载和安装Firefox，会发生什么？",
+  "headline_zh-Hant": "如果你試圖在Windows上下載和安裝Firefox，會發生什麼？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--HackerNews--NewsArticle--31637166",
+  "url": "https://news.ycombinator.com/item?id=31637166",
+  "headline": "App will not connect unless I enable location (2021)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rsync",
+    "url": "https://news.ycombinator.com/user?id=rsync"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31637166",
+  "sameAs": "https://en.community.sonos.com/controllers-software-228995/app-will-not-connect-unless-i-enable-location-6846060",
+  "dateCreated": "2022-06-06T04:59:14.079Z",
+  "datePublished": "2022-06-06T04:07:14.000Z",
+  "dateModified": "2022-06-06T04:59:14.079Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "除非我启用位置，否则应用程序将无法连接（2021年）。\n",
+  "headline_zh-Hant": "除非我啟用位置，否則應用程序將無法連接（2021年）。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

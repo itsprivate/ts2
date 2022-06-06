@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--05--en--besthn--HackerNews--NewsArticle--30917474",
+  "url": "https://news.ycombinator.com/item?id=30917474",
+  "headline": "One App – Two Worlds: This Is TikTok in Russia and Ukraine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mmgu",
+    "url": "https://news.ycombinator.com/user?id=mmgu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30917474",
+  "sameAs": "https://www.nrk.no/osloogviken/xl/tiktok-doesn_t-show-the-war-in-ukraine-to-russian-users-1.15921522",
+  "dateCreated": "2022-04-05T13:21:40.898Z",
+  "datePublished": "2022-04-05T11:03:23.000Z",
+  "dateModified": "2022-04-05T13:21:40.898Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 301
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 73
+    }
+  ],
+  "headline_zh-Hans": "一个应用--两个世界：这就是俄罗斯和乌克兰的TikTok",
+  "headline_zh-Hant": "一個應用--兩個世界：這就是俄羅斯和烏克蘭的TikTok",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

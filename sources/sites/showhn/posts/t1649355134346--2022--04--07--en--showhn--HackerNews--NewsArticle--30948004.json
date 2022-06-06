@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--07--en--showhn--HackerNews--NewsArticle--30948004",
+  "url": "https://news.ycombinator.com/item?id=30948004",
+  "headline": "Show HN: A Story-Based Brainwallet",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "block_dagger",
+    "url": "https://news.ycombinator.com/user?id=block_dagger"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30948004",
+  "sameAs": "https://storykey-demo.com/",
+  "dateCreated": "2022-04-07T18:12:14.346Z",
+  "datePublished": "2022-04-07T17:52:26.000Z",
+  "dateModified": "2022-04-07T18:12:14.346Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 一个基于故事的脑钱包",
+  "headline_zh-Hant": "Show HN: 一個基於故事的腦錢包",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

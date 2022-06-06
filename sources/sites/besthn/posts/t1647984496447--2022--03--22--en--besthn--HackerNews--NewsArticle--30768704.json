@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--22--en--besthn--HackerNews--NewsArticle--30768704",
+  "url": "https://news.ycombinator.com/item?id=30768704",
+  "headline": "Nvidia Grace CPU",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "intull",
+    "url": "https://news.ycombinator.com/user?id=intull"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30768704",
+  "sameAs": "https://www.nvidia.com/en-us/data-center/grace-cpu/",
+  "dateCreated": "2022-03-22T21:28:16.447Z",
+  "datePublished": "2022-03-22T17:08:44.000Z",
+  "dateModified": "2022-03-22T21:28:16.447Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 70
+    }
+  ],
+  "headline_zh-Hans": "Nvidia Grace CPU",
+  "headline_zh-Hant": "Nvidia Grace CPU",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

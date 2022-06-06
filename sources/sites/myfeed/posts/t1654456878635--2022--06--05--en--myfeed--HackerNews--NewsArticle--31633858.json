@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31633858",
+  "url": "https://news.ycombinator.com/item?id=31633858",
+  "headline": "LeekWars, program your AI to destroy your leek enemies",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pil0u",
+    "url": "https://news.ycombinator.com/user?id=pil0u"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31633858",
+  "sameAs": "https://leekwars.com/",
+  "dateCreated": "2022-06-05T19:21:18.635Z",
+  "datePublished": "2022-06-05T19:01:38.000Z",
+  "dateModified": "2022-06-05T19:21:18.635Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "韭菜战争，为你的人工智能编程，消灭你的韭菜敌人\n",
+  "headline_zh-Hant": "韭菜戰爭，為你的人工智能編程，消滅你的韭菜敵人\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

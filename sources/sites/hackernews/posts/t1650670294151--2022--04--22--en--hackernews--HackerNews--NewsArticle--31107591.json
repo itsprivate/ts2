@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--22--en--hackernews--HackerNews--NewsArticle--31107591",
+  "url": "https://news.ycombinator.com/item?id=31107591",
+  "headline": "JavaScript Garbage Collection with WebAssembly Is Possible Today",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "PainfullyNormal",
+    "url": "https://news.ycombinator.com/user?id=PainfullyNormal"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31107591",
+  "sameAs": "https://jott.live/markdown/js_gc_in_wasm",
+  "dateCreated": "2022-04-22T23:31:34.151Z",
+  "datePublished": "2022-04-21T10:00:46.000Z",
+  "dateModified": "2022-04-22T23:31:34.151Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "使用WebAssembly的JavaScript垃圾收集今天是可能的",
+  "headline_zh-Hant": "使用WebAssembly的JavaScript垃圾收集今天是可能的",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

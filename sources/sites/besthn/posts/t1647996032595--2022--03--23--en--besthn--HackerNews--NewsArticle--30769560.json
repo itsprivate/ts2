@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--23--en--besthn--HackerNews--NewsArticle--30769560",
+  "url": "https://news.ycombinator.com/item?id=30769560",
+  "headline": "Hyper-realistic digital humans in Unity",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Naracion",
+    "url": "https://news.ycombinator.com/user?id=Naracion"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30769560",
+  "sameAs": "https://unity.com/demos/enemies",
+  "dateCreated": "2022-03-23T00:40:32.595Z",
+  "datePublished": "2022-03-22T18:22:04.000Z",
+  "dateModified": "2022-03-23T00:40:32.595Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 274
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 158
+    }
+  ],
+  "headline_zh-Hans": "Unity中超现实的数字人",
+  "headline_zh-Hant": "Unity中超現實的數字人",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

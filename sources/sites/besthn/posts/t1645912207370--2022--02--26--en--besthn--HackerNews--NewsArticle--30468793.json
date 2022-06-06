@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--26--en--besthn--HackerNews--NewsArticle--30468793",
+  "url": "https://news.ycombinator.com/item?id=30468793",
+  "headline": "Explain the first 10 lines of Twitter's source code to me",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ohjeez",
+    "url": "https://news.ycombinator.com/user?id=ohjeez"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30468793",
+  "sameAs": "https://css-tricks.com/explain-the-first-10-lines-of-twitter-source-code/",
+  "dateCreated": "2022-02-26T21:50:07.370Z",
+  "datePublished": "2022-02-25T16:11:51.000Z",
+  "dateModified": "2022-02-26T21:50:07.370Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 283
+    }
+  ],
+  "headline_zh-Hans": "向我解释一下Twitter的源代码的前10行",
+  "headline_zh-Hant": "向我解釋一下Twitter的源代碼的前10行",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

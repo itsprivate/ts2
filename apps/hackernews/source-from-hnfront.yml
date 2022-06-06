@@ -1,0 +1,24 @@
+if: true
+sources:
+  - use: fetch
+    args:
+      - https://hn.algolia.com/api/v1/search_by_date?tags=front_page&hitsPerPage=50
+    run: return ctx.result.json();
+    itemsPath: hits
+    key: objectID
+    # force: true
+    # limit:
+    # filter: return ctx.item._tags.includes("front_page") && !ctx.item._tags.includes("show_hn") && !ctx.item._tags.includes("ask_hn");
+    reverse: true
+steps:
+  - from: ../../common/format.ts
+    args:
+      - ${{ctx.item}}
+      - hackernews
+  - from: https://deno.land/std@0.121.0/fs/mod.ts
+    use: ensureFile
+    args:
+      - ${{ctx.result.path}}
+    run: |
+      console.log('Write json to: ',ctx.steps[0].result.path);
+      Deno.writeTextFileSync(ctx.steps[0].result.path, JSON.stringify(ctx.steps[0].result.item,null,2));

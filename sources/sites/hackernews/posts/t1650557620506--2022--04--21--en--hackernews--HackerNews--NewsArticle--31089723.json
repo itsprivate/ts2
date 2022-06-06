@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--21--en--hackernews--HackerNews--NewsArticle--31089723",
+  "url": "https://news.ycombinator.com/item?id=31089723",
+  "headline": "SCRU128: Sortable, Clock and Random number-based Unique identifier",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "andrenth",
+    "url": "https://news.ycombinator.com/user?id=andrenth"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31089723",
+  "sameAs": "https://github.com/scru128/spec",
+  "dateCreated": "2022-04-21T16:13:40.506Z",
+  "datePublished": "2022-04-19T21:48:02.000Z",
+  "dateModified": "2022-04-21T16:13:40.506Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "SCRU128: 可排序、基于时钟和随机数的唯一标识符",
+  "headline_zh-Hant": "SCRU128: 可排序、基於時鐘和隨機數的唯一標識符",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

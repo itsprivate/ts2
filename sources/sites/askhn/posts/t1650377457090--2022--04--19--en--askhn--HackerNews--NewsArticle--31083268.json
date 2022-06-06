@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--19--en--askhn--HackerNews--NewsArticle--31083268",
+  "url": "https://news.ycombinator.com/item?id=31083268",
+  "headline": "Ask HN: What is the best way to split a giant Git repo?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I am building a big project for Deno/Node (compatible with both) and the project has different parts I would like to split into their own repos. I have never built a project as complex as this (nowhere near alpha release but 10K LOC as of right now). It is a passion and learning project of mine.<p>I'm looking for a way to split the monorepo into &quot;packages&quot; so that it's easier to work on one area at a time, and also allows other devs in the future to work on it without having to git clone the whole repo.<p>I would also like to know if there's a magic way to keep releases, version tags and such in sync between all the repos, so in the end it looks like a monorepo but allows for better modularity.<p>Turning it into a modular codebase is kind of important, because the project is able self-update modules (it has its own small package manager separate from NPM that downloads and installs tarballs)<p>What is your approach to the mono/multirepo problem? Any advice, personal experiences you can share? Better to use git subtree or submodule?<p>Thanks in advance, fellow hackers!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "martibravo",
+    "url": "https://news.ycombinator.com/user?id=martibravo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31083268",
+  "sameAs": "https://news.ycombinator.com/item?id=31083268",
+  "dateCreated": "2022-04-19T14:10:57.090Z",
+  "datePublished": "2022-04-19T14:04:31.000Z",
+  "dateModified": "2022-04-19T14:10:57.090Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 拆分一个巨大的Git repo的最好方法是什么？",
+  "headline_zh-Hant": "Ask HN: 拆分一個巨大的Git repo的最好方法是什麼？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在为Deno/Node建立一个大项目（与两者兼容），该项目有不同的部分，我想把它们分成各自的仓库。我从来没有建立过一个像这样复杂的项目（现在还没有接近alpha发布，但到现在为止有10K LOC）。<p>我正在寻找一种方法，将单一版本分割成&quot;包&quot;，这样就可以更容易地一次完成一个区域的工作，同时也可以让其他开发者在未来的工作中不必git克隆整个repo。 <p>我还想知道是否有一种神奇的方法来保持所有版本库之间的发布、版本标签等同步，所以最后它看起来像一个单版本，但允许更好的模块化。<p>将它变成一个模块化的代码库有点重要，因为该项目能够自我更新模块（它有自己的小型包管理器，独立于NPM，下载和安装tarballs）<p>你对单/多版本的问题有什么办法？有什么建议、个人经验可以分享吗？使用git subtree或submodule更好吗？<p>提前感谢，黑客朋友们",
+  "description_zh-Hant": "我正在為Deno/Node建立一個大項目（與兩者兼容），該項目有不同的部分，我想把它們分成各自的倉庫。我從來沒有建立過一個像這樣複雜的項目（現在還沒有接近alpha發佈，但到現在為止有10K LOC）。<p>我正在尋找一種方法，將單一版本分割成&quot;包&quot;，這樣就可以更容易地一次完成一個區域的工作，同時也可以讓其他開發者在未來的工作中不必git克隆整個repo。 <p>我還想知道是否有一種神奇的方法來保持所有版本庫之間的發佈、版本標籤等同步，所以最後它看起來像一個單版本，但允許更好的模塊化。<p>將它變成一個模塊化的代碼庫有點重要，因為該項目能夠自我更新模塊（它有自己的小型包管理器，獨立於NPM，下載和安裝tarballs）<p>你對單/多版本的問題有什麼辦法？有什麼建議、個人經驗可以分享嗎？使用git subtree或submodule更好嗎？<p>提前感謝，黑客朋友們"
+}

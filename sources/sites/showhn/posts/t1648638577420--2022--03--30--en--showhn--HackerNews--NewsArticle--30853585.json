@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--30--en--showhn--HackerNews--NewsArticle--30853585",
+  "url": "https://news.ycombinator.com/item?id=30853585",
+  "headline": "Show HN: Add a Gradient Background to a Pic",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "okumurahata",
+    "url": "https://news.ycombinator.com/user?id=okumurahata"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30853585",
+  "sameAs": "https://remount.it",
+  "dateCreated": "2022-03-30T11:09:37.420Z",
+  "datePublished": "2022-03-30T11:05:08.000Z",
+  "dateModified": "2022-03-30T11:09:37.420Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 为图片添加渐变背景",
+  "headline_zh-Hant": "Show HN: 為圖片添加漸變背景",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

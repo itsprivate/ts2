@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--hackernews--HackerNews--NewsArticle--31634693",
+  "url": "https://news.ycombinator.com/item?id=31634693",
+  "headline": "Fatherless sons have more testosterone",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jkuria",
+    "url": "https://news.ycombinator.com/user?id=jkuria"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31634693",
+  "sameAs": "https://www.economist.com/science-and-technology/2022/06/01/fatherless-sons-have-more-testosterone",
+  "dateCreated": "2022-06-05T23:24:28.278Z",
+  "datePublished": "2022-06-05T20:49:29.000Z",
+  "dateModified": "2022-06-05T23:24:28.278Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "没有父亲的儿子有更多的睾丸激素\n",
+  "headline_zh-Hant": "沒有父親的兒子有更多的睪丸激素\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

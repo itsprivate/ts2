@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--25--en--hackernews--HackerNews--NewsArticle--31153062",
+  "url": "https://news.ycombinator.com/item?id=31153062",
+  "headline": "Apple’s Private Relay can cause the system to ignore firewall rules",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vitplister",
+    "url": "https://news.ycombinator.com/user?id=vitplister"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31153062",
+  "sameAs": "https://mullvad.net/en/blog/2022/4/25/apples-private-relay-can-cause-the-system-to-ignore-firewall-rules/",
+  "dateCreated": "2022-04-25T14:10:55.403Z",
+  "datePublished": "2022-04-25T11:30:09.000Z",
+  "dateModified": "2022-04-25T14:10:55.403Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 22
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "苹果的私人中继可能导致系统忽略防火墙规则",
+  "headline_zh-Hant": "蘋果的私人中繼可能導致系統忽略防火牆規則",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

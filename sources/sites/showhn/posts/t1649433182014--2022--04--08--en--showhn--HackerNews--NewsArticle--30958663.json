@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--08--en--showhn--HackerNews--NewsArticle--30958663",
+  "url": "https://news.ycombinator.com/item?id=30958663",
+  "headline": "Show HN: I translated my web app in 107 languages",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "seinecle",
+    "url": "https://news.ycombinator.com/user?id=seinecle"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30958663",
+  "sameAs": "https://nocodefunctions.com/blog/translated-web-app-in-107-languages-i18n/",
+  "dateCreated": "2022-04-08T15:53:02.014Z",
+  "datePublished": "2022-04-08T15:44:10.000Z",
+  "dateModified": "2022-04-08T15:53:02.014Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我把我的网络应用程序翻译成107种语言",
+  "headline_zh-Hant": "Show HN: 我把我的網絡應用程序翻譯成107種語言",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

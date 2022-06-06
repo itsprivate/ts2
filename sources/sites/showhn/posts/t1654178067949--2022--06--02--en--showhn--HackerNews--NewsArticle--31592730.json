@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--02--en--showhn--HackerNews--NewsArticle--31592730",
+  "url": "https://news.ycombinator.com/item?id=31592730",
+  "headline": "Show HN: Replay/Debug/Test Cron Events with Cron:Sequencer",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "leejo",
+    "url": "https://news.ycombinator.com/user?id=leejo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31592730",
+  "sameAs": "https://leejo.github.io/2022/06/02/cron_sequencer/",
+  "dateCreated": "2022-06-02T13:54:27.949Z",
+  "datePublished": "2022-06-02T08:40:31.000Z",
+  "dateModified": "2022-06-02T13:54:27.949Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 用Cron:Sequencer重放/调试/测试Cron事件\n",
+  "headline_zh-Hant": "Show HN: 用Cron:Sequencer重放/調試/測試Cron事件\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

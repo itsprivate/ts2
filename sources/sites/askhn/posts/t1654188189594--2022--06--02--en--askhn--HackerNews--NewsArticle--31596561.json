@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--02--en--askhn--HackerNews--NewsArticle--31596561",
+  "url": "https://news.ycombinator.com/item?id=31596561",
+  "headline": "Ask HN: Are there any high-level TUI tools?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've been using LazyGit [1] for a while and its made me realize how much easier a terminal ui can make things. It often makes me wish there was a TUI for the specific workflows I have when working in a given repo. Are there any programs that take some config file and produce a TUI as output? Eg. you have a file with a list of commands and aliases and it produces the corresponding TUI? Or are there any libraries which take minimal effort to add TUI elements to?<p>[1] https://github.com/jesseduffield/lazygit",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "monroewalker",
+    "url": "https://news.ycombinator.com/user?id=monroewalker"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31596561",
+  "sameAs": "https://news.ycombinator.com/item?id=31596561",
+  "dateCreated": "2022-06-02T16:43:09.594Z",
+  "datePublished": "2022-06-02T16:04:14.000Z",
+  "dateModified": "2022-06-02T16:43:09.594Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 是否有任何高级别的TUI工具？\n",
+  "headline_zh-Hant": "Ask HN: 是否有任何高級別的TUI工具？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我使用LazyGit[1]已经有一段时间了，它让我意识到终端UI可以让事情变得更加简单。它经常让我希望有一个TUI，用于我在特定 repo中工作时的特定工作流程。是否有任何程序可以接收一些配置文件并产生一个TUI作为输出？例如，你有一个带有命令和别名列表的文件，它就会产生相应的TUI？或者是否有任何库可以花最少的精力来添加TUI元素？<p>[1] https://github.com/jesseduffield/lazygit\n",
+  "description_zh-Hant": "我使用LazyGit[1]已經有一段時間了，它讓我意識到終端UI可以讓事情變得更加簡單。它經常讓我希望有一個TUI，用於我在特定 repo中工作時的特定工作流程。是否有任何程序可以接收一些配置文件併產生一個TUI作為輸出？例如，你有一個帶有命令和別名列表的文件，它就會產生相應的TUI？或者是否有任何庫可以花最少的精力來添加TUI元素？<p>[1] https://github.com/jesseduffield/lazygit\n"
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--08--en--besthn--HackerNews--NewsArticle--30583059",
+  "url": "https://news.ycombinator.com/item?id=30583059",
+  "headline": "Four-year-old Israeli child tests positive for polio, first case since 1989",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "wslh",
+    "url": "https://news.ycombinator.com/user?id=wslh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30583059",
+  "sameAs": "https://www.jpost.com/breaking-news/article-700510",
+  "dateCreated": "2022-03-08T20:11:26.194Z",
+  "datePublished": "2022-03-07T01:17:57.000Z",
+  "dateModified": "2022-03-08T20:11:26.194Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 217
+    }
+  ],
+  "headline_zh-Hans": "以色列4岁儿童小儿麻痹症检测呈阳性，为1989年以来首例",
+  "headline_zh-Hant": "以色列4歲兒童小兒麻痺症檢測呈陽性，為1989年以來首例",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

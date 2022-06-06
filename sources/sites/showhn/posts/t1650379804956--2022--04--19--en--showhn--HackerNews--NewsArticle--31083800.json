@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--19--en--showhn--HackerNews--NewsArticle--31083800",
+  "url": "https://news.ycombinator.com/item?id=31083800",
+  "headline": "Show HN: An open-source r/place canvas for realtime painting",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "Meldiron",
+    "url": "https://news.ycombinator.com/user?id=Meldiron"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31083800",
+  "sameAs": "https://almost-reddit-place.vercel.app/",
+  "dateCreated": "2022-04-19T14:50:04.956Z",
+  "datePublished": "2022-04-19T14:41:53.000Z",
+  "dateModified": "2022-04-19T14:50:04.956Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 一个用于实时绘画的开源r/place画布",
+  "headline_zh-Hant": "Show HN: 一個用於實時繪畫的開源r/place畫布",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

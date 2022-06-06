@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--04--en--myfeed--HackerNews--NewsArticle--31620466",
+  "url": "https://news.ycombinator.com/item?id=31620466",
+  "headline": "Show HN: Reader mode extension with inline Hacker News comments",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey! This is a reader mode browser extension I built that hides noisy page elements rather than extracting and re-rendering their text content. The idea is to not make all articles look the same [0], have them still render graphs, and ideally to work in more cases.<p>There are a few &quot;tricks&quot;: patching the site CSSOM to apply simpler mobile styles even at desktop width, cleaning up parents of DOM text nodes, blocklists for class names that contain words like &quot;sidebar&quot;, plus manual CSS patches for popular sites.<p>I got carried away and also added a dark mode, page outlines, privates notes &amp; inline Hacker News comments. [1] \nThe last feature works by parsing every top-level HN comment with a quote in it (formatted with &gt; or &quot;&quot;) within a few minutes, and anchoring these quotes in the story article HTML. So when you open a link you'll directly see the parts people are talking about here. [2]<p>The extension code is all on GitHub: <a href=\"https://github.com/lindylearn/unclutter\" rel=\"nofollow\">https://github.com/lindylearn/unclutter</a><p>---<p>[0] Unclutter vs the Firefox reader mode: <a href=\"https://github.com/lindylearn/unclutter/blob/main/docs/comparison.md\" rel=\"nofollow\">https://github.com/lindylearn/unclutter/blob/main/docs/compa...</a><p>[1] The linked website show some examples for these.<p>[2] It's also fun to try this on some of the &quot;HN classics&quot; that got 30+ quote comments over the years. The list at hn.lindylearn.io/best shows the number of &quot;annotations&quot; a link has beneath its title.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "phgn",
+    "url": "https://news.ycombinator.com/user?id=phgn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31620466",
+  "sameAs": "https://unclutter.lindylearn.io",
+  "dateCreated": "2022-06-04T14:21:38.057Z",
+  "datePublished": "2022-06-04T14:06:33.000Z",
+  "dateModified": "2022-06-04T14:21:38.057Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 读者模式扩展，内嵌Hacker News评论\n",
+  "headline_zh-Hant": "Show HN: 讀者模式擴展，內嵌Hacker News評論\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hey! This is a reader mode browser extension I built that hides noisy page elements rather than extracting and re-rendering their text content. The idea is to not make all articles look the same [0], have them still render graphs, and ideally to work in more cases. <p>There are a few &quot;tricks&quot;: patching the site CSSOM to apply simpler mobile styles even at desktop width, cleaning up parents of DOM text nodes, blocklists for class names that contain words like &quot;sidebar&quot;, plus manual CSS patches for popular sites.<p>I got carried away and also added a dark mode, page outlines, privates notes &amp; inline Hacker News comments. [1] \nThe last feature works by parsing every top-level HN comment with a quote in it (formatted with &gt; or &quot;&quot;) within a few minutes, and anchoring these quotes in the story article HTML. So when you open a link you'll directly see the parts people are talking about here. [2]<p>The extension code is all on GitHub: <a href=\"https://github.com/lindylearn/unclutter\" rel=\"nofollow\">https://github.com/lindylearn/unclutter</a><p>---<p>[0] Unclutter vs the Firefox reader mode: <a href=\"https://github.com/lindylearn/unclutter/blob/main/docs/comparison.md\" rel=\"nofollow\">https://github.com/lindylearn/unclutter/blob/main/docs/compa...</a><p>[1] The linked website show some examples for these.<p>[2] It's also fun to try this on some of the &quot;HN classics&quot; that got 30+ quote comments over the years. The list at hn.lindylearn.io/best shows the number of &quot;annotations&quot; a link has beneath its title.\n",
+  "description_zh-Hant": "Hey! This is a reader mode browser extension I built that hides noisy page elements rather than extracting and re-rendering their text content. The idea is to not make all articles look the same [0], have them still render graphs, and ideally to work in more cases. <p>There are a few &quot;tricks&quot;: patching the site CSSOM to apply simpler mobile styles even at desktop width, cleaning up parents of DOM text nodes, blocklists for class names that contain words like &quot;sidebar&quot;, plus manual CSS patches for popular sites.<p>I got carried away and also added a dark mode, page outlines, privates notes &amp; inline Hacker News comments. [1] \nThe last feature works by parsing every top-level HN comment with a quote in it (formatted with &gt; or &quot;&quot;) within a few minutes, and anchoring these quotes in the story article HTML. So when you open a link you'll directly see the parts people are talking about here. [2]<p>The extension code is all on GitHub: <a href=\"https://github.com/lindylearn/unclutter\" rel=\"nofollow\">https://github.com/lindylearn/unclutter</a><p>---<p>[0] Unclutter vs the Firefox reader mode: <a href=\"https://github.com/lindylearn/unclutter/blob/main/docs/comparison.md\" rel=\"nofollow\">https://github.com/lindylearn/unclutter/blob/main/docs/compa...</a><p>[1] The linked website show some examples for these.<p>[2] It's also fun to try this on some of the &quot;HN classics&quot; that got 30+ quote comments over the years. The list at hn.lindylearn.io/best shows the number of &quot;annotations&quot; a link has beneath its title.\n"
+}

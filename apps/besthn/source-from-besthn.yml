@@ -1,0 +1,24 @@
+if: true
+sources:
+  - use: fetch
+    args:
+      - http://hn.algolia.com/api/v1/search_by_date?tags=(story,poll,show_hn,ask_hn)&numericFilters=points>=250&hitsPerPage=50
+      # - http://hn.algolia.com/api/v1/search_by_date?tags=(ask_hn)&numericFilters=points>=80&hitsPerPage=50
+    run: return ctx.result.json();
+    itemsPath: hits
+    key: objectID
+    # limit: 1
+    # force: true
+    reverse: true
+steps:
+  - from: ../../common/format.ts
+    args:
+      - ${{ctx.item}}
+      - besthn
+  - from: https://deno.land/std@0.121.0/fs/mod.ts
+    use: ensureFile
+    args:
+      - ${{ctx.result.path}}
+    run: |
+      console.log('Write json to: ',ctx.steps[0].result.path);
+      Deno.writeTextFileSync(ctx.steps[0].result.path, JSON.stringify(ctx.steps[0].result.item,null,2));

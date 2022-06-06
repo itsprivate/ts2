@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--18--en--besthn--HackerNews--NewsArticle--31070141",
+  "url": "https://news.ycombinator.com/item?id=31070141",
+  "headline": "Americans are drowning in spam",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "elsewhen",
+    "url": "https://news.ycombinator.com/user?id=elsewhen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31070141",
+  "sameAs": "https://www.axios.com/spam-texts-calls-email-social-media-2af7cd73-6d7a-4f80-8026-1e5706cf3854.html",
+  "dateCreated": "2022-04-18T16:49:38.345Z",
+  "datePublished": "2022-04-18T13:18:03.000Z",
+  "dateModified": "2022-04-18T16:49:38.345Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 327
+    }
+  ],
+  "headline_zh-Hans": "美国人正淹没在垃圾邮件中",
+  "headline_zh-Hant": "美國人正淹沒在垃圾郵件中",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

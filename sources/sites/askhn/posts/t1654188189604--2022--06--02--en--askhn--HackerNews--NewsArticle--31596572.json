@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--02--en--askhn--HackerNews--NewsArticle--31596572",
+  "url": "https://news.ycombinator.com/item?id=31596572",
+  "headline": "Ask HN: Do you prefer Svelte or SolidJS?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello,<p>I want to find enthusiastic OSS frontend developers for my JSON data store project[1], which is able to retain the full revision history of a database resource (binary JSON) through small sized copy-on-write snapshots of the main index tree of tries and a novel sliding snapshot algorithm.<p>As I'm a fan of compilers (http://brackit.io) I think either working on the current frontend with Svelte[2], which is currently really dated and uses Sapper or a new frontend using SolidJS would be great.<p>What are the advantages/disadvantages of both frameworks in your opinion? I'm a backend software engineer, but maybe SolidJS is more familiar to frontend devs because of JSX and at least in benchmarks it seems to be faster. But maybe the differences except for the different syntaxes aren't that big.<p>I envision visualizations for comparing revisions of resources or subtrees therein and also to visualize time travel queries. A screenshot of the old frontend: https://github.com/sirixdb/sirix/blob/master/Screenshot%20from%202020-09-28%2018-50-58.png<p>Let me know which framework you'd prefer for the task at hand and what are the advantages/disadvantages in your opinion for both of them in general.<p>If you want to help, it's even better. Let me know :-)<p>[1] https://sirix.io || https://github.com/sirixdb/sirix\n[2] https://github.com/sirixdb/sirix-svelte-frontend",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "lichtenberger",
+    "url": "https://news.ycombinator.com/user?id=lichtenberger"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31596572",
+  "sameAs": "https://news.ycombinator.com/item?id=31596572",
+  "dateCreated": "2022-06-02T16:43:09.604Z",
+  "datePublished": "2022-06-02T16:04:55.000Z",
+  "dateModified": "2022-06-02T16:43:09.604Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你喜欢Svelte还是SolidJS？\n",
+  "headline_zh-Hant": "Ask HN: 你喜歡Svelte還是SolidJS？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你好，<p>我想为我的 JSON 数据存储项目[1]寻找热情的 OSS 前端开发人员，该项目能够通过尝试的主索引树的小尺寸写时拷贝快照和新颖的滑动快照算法，保留数据库资源（二进制 JSON）的完整修订历史。 <p>由于我是一个编译器的粉丝（http://brackit.io），我认为要么在目前使用Svelte[2]的前端上下功夫，目前确实过时了，并且使用了Sapper，要么使用SolidJS的新前端将是非常好的。<p>在您看来，这两个框架有什么优势/劣势？我是一名后端软件工程师，但也许SolidJS对于前端开发人员来说更熟悉，因为有JJS，而且至少在基准测试中它似乎更快。但是，除了不同的语法之外，也许差别并不大。<p>我设想了可视化的方式来比较资源或其中的子树的修订情况，也设想了可视化的时间旅行查询。旧的前端截图：https://github.com/sirixdb/sirix/blob/master/Screenshot%20from%202020-09-28%2018-50-58.png<p>让我知道你更喜欢哪个框架来完成手头的任务，以及在你看来这两个框架总体上有什么优势/劣势。<p>如果你想帮忙，那就更好了。让我知道 :-)<p>[1] https://sirix.io || https://github.com/sirixdb/sirix\n[2] https://github.com/sirixdb/sirix-svelte-frontend\n",
+  "description_zh-Hant": "你好，<p>我想為我的 JSON 數據存儲項目[1]尋找熱情的 OSS 前端開發人員，該項目能夠通過嘗試的主索引樹的小尺寸寫時拷貝快照和新穎的滑動快照算法，保留數據庫資源（二進制 JSON）的完整修訂歷史。 <p>由於我是一個編譯器的粉絲（http://brackit.io），我認為要麼在目前使用Svelte[2]的前端上下功夫，目前確實過時了，並且使用了Sapper，要麼使用SolidJS的新前端將是非常好的。<p>在您看來，這兩個框架有什麼優勢/劣勢？我是一名後端軟件工程師，但也許SolidJS對於前端開發人員來說更熟悉，因為有JJS，而且至少在基準測試中它似乎更快。但是，除了不同的語法之外，也許差別並不大。<p>我設想了可視化的方式來比較資源或其中的子樹的修訂情況，也設想了可視化的時間旅行查詢。舊的前端截圖：https://github.com/sirixdb/sirix/blob/master/Screenshot%20from%202020-09-28%2018-50-58.png<p>讓我知道你更喜歡哪個框架來完成手頭的任務，以及在你看來這兩個框架總體上有什麼優勢/劣勢。<p>如果你想幫忙，那就更好了。讓我知道 :-)<p>[1] https://sirix.io || https://github.com/sirixdb/sirix\n[2] https://github.com/sirixdb/sirix-svelte-frontend\n"
+}

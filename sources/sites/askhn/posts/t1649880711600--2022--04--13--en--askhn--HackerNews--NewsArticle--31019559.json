@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--askhn--HackerNews--NewsArticle--31019559",
+  "url": "https://news.ycombinator.com/item?id=31019559",
+  "headline": "Ask HN: Which data warehouse would you choose for your infrastructure in 2022?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We're evaluating multiple providers (Snowflake, BigQuery, AWS Redshift, Azure). What are good criteria you would recommend thinking about? Also, anecdotes of your personal pain points with using these providers would be helpful! Examples of criteria might include:<p>* support for querying unstructured data<p>* scalability and performance<p>* pricing models (storage / compute)",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "bhaprayan",
+    "url": "https://news.ycombinator.com/user?id=bhaprayan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31019559",
+  "sameAs": "https://news.ycombinator.com/item?id=31019559",
+  "dateCreated": "2022-04-13T20:11:51.600Z",
+  "datePublished": "2022-04-13T20:02:33.000Z",
+  "dateModified": "2022-04-13T20:11:51.600Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 2022年，你会选择哪种数据仓库作为你的基础设施？",
+  "headline_zh-Hant": "Ask HN: 2022年，你會選擇哪種數據倉庫作為你的基礎設施？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们正在评估多个供应商（Snowflake, BigQuery, AWS Redshift, Azure）。你会建议考虑哪些好的标准？此外，你个人使用这些供应商的痛点的轶事将是有帮助的! 标准的例子可能包括：<p>*支持查询非结构化数据<p>*可扩展性和性能<p>*定价模式（存储/计算）",
+  "description_zh-Hant": "我們正在評估多個供應商（Snowflake, BigQuery, AWS Redshift, Azure）。你會建議考慮哪些好的標準？此外，你個人使用這些供應商的痛點的軼事將是有幫助的! 標準的例子可能包括：<p>*支持查詢非結構化數據<p>*可擴展性和性能<p>*定價模式（存儲/計算）"
+}

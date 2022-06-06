@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--12--en--askhn--HackerNews--NewsArticle--30998363",
+  "url": "https://news.ycombinator.com/item?id=30998363",
+  "headline": "Ask HN: Code signing open source windows applications?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've spent a month building an open source application for windows [1] mostly assuming that windows worked as it did the last time I built a desktop app (circa 2003). Obviously, things have changed and we now live in new world of Authenticode signed applications! Exciting!<p>In no particular order:<p>1. This seems extremely hostile to open source. I have to outlay ~90 AUD per year for the cheapest possible code signing? When I'm not making any money off my product??<p>2. It looks like have some movement towards a service that will do code signing much in the same way Lets Encrypt offers free certificates in the form of https://www.sigstore.dev/ - has anybody used this? any other options available in the near future that might also solve this?<p>3. Finally, I'm about ready to give up and just eat the cost. Any suggestions on what provider to use? (I'm based in Australia)<p>[1] https://github.com/Rodeoclash/vodon-pro",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "Rodeoclash",
+    "url": "https://news.ycombinator.com/user?id=Rodeoclash"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30998363",
+  "sameAs": "https://news.ycombinator.com/item?id=30998363",
+  "dateCreated": "2022-04-12T04:00:12.196Z",
+  "datePublished": "2022-04-12T03:46:18.000Z",
+  "dateModified": "2022-04-12T04:00:12.196Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 对开放源代码的windows应用程序进行代码签名？",
+  "headline_zh-Hant": "Ask HN: 對開放源代碼的windows應用程序進行代碼簽名？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我花了一个月的时间为windows[1]构建一个开源的应用程序，主要是假设windows和我上次构建一个桌面应用程序时（大约在2003年）一样工作。显然，事情已经发生了变化，我们现在生活在Authenticode签名的应用程序的新世界里 令人激动！<p>不分先后：<p>1. 这似乎对开放源代码极为不利。我必须每年为最便宜的代码签名支付约90澳元的费用？<p>2.它看起来像一个服务的运动，它将做代码签名，就像Lets Encrypt提供免费证书的形式https://www.sigstore.dev/ - 有人使用这个吗？在不久的将来，任何其他选项也可能解决这个问题？<p>3.最后，我几乎准备放弃，只是吃成本。对使用什么供应商有什么建议吗？(我在澳大利亚)<p>[1] https://github.com/Rodeoclash/vodon-pro",
+  "description_zh-Hant": "我花了一個月的時間為windows[1]構建一個開源的應用程序，主要是假設windows和我上次構建一個桌面應用程序時（大約在2003年）一樣工作。顯然，事情已經發生了變化，我們現在生活在Authenticode簽名的應用程序的新世界裡 令人激動！<p>不分先後：<p>1. 這似乎對開放源代碼極為不利。我必須每年為最便宜的代碼簽名支付約90澳元的費用？<p>2.它看起來像一個服務的運動，它將做代碼簽名，就像Lets Encrypt提供免費證書的形式https://www.sigstore.dev/ - 有人使用這個嗎？在不久的將來，任何其他選項也可能解決這個問題？<p>3.最後，我幾乎準備放棄，只是吃成本。對使用什麼供應商有什麼建議嗎？(我在澳大利亞)<p>[1] https://github.com/Rodeoclash/vodon-pro"
+}

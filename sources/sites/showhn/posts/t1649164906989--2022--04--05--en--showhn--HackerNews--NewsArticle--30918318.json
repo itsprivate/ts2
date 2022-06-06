@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--05--en--showhn--HackerNews--NewsArticle--30918318",
+  "url": "https://news.ycombinator.com/item?id=30918318",
+  "headline": "Show HN: Rust test harness that measures energy consumption",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "thijsr",
+    "url": "https://news.ycombinator.com/user?id=thijsr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30918318",
+  "sameAs": "https://github.com/ThijsRay/coppers",
+  "dateCreated": "2022-04-05T13:21:46.989Z",
+  "datePublished": "2022-04-05T12:51:51.000Z",
+  "dateModified": "2022-04-05T13:21:46.989Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 测量能源消耗的Rust测试线束",
+  "headline_zh-Hant": "Show HN: 測量能源消耗的Rust測試線束",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

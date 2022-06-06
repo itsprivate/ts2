@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--23--en--hackernews--HackerNews--NewsArticle--31133451",
+  "url": "https://news.ycombinator.com/item?id=31133451",
+  "headline": "Brooklyn Public Library Offers Access to Banned Ebooks to Teens Across the U.S.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "eatonphil",
+    "url": "https://news.ycombinator.com/user?id=eatonphil"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31133451",
+  "sameAs": "https://bookriot.com/unbanned-books/",
+  "dateCreated": "2022-04-23T16:12:57.897Z",
+  "datePublished": "2022-04-23T11:51:54.000Z",
+  "dateModified": "2022-04-23T16:12:57.897Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 32
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 11
+    }
+  ],
+  "headline_zh-Hans": "布鲁克林公共图书馆向全美青少年提供获取被禁电子书的机会",
+  "headline_zh-Hant": "布魯克林公共圖書館向全美青少年提供獲取被禁電子書的機會",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

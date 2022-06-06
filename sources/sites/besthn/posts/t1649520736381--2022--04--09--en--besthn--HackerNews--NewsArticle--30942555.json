@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--09--en--besthn--HackerNews--NewsArticle--30942555",
+  "url": "https://news.ycombinator.com/item?id=30942555",
+  "headline": "Reliably Send an HTTP Request as a User Leaves a Page",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fagnerbrack",
+    "url": "https://news.ycombinator.com/user?id=fagnerbrack"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30942555",
+  "sameAs": "https://css-tricks.com/send-an-http-request-on-page-exit/",
+  "dateCreated": "2022-04-09T16:12:16.381Z",
+  "datePublished": "2022-04-07T09:54:14.000Z",
+  "dateModified": "2022-04-09T16:12:16.381Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 252
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 166
+    }
+  ],
+  "headline_zh-Hans": "在用户离开页面时可靠地发送HTTP请求",
+  "headline_zh-Hant": "在用戶離開頁面時可靠地發送HTTP請求",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

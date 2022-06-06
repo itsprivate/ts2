@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--23--en--hackernews--HackerNews--NewsArticle--31135094",
+  "url": "https://news.ycombinator.com/item?id=31135094",
+  "headline": "EULAs Aren’t Inherently Evil – Proprietary done right can beat free and open",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mdb31",
+    "url": "https://news.ycombinator.com/user?id=mdb31"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31135094",
+  "sameAs": "https://writing.kemitchell.com/2022/04/22/EULAs-Arent-Inherently-Evil",
+  "dateCreated": "2022-04-23T17:03:14.552Z",
+  "datePublished": "2022-04-23T15:30:19.000Z",
+  "dateModified": "2022-04-23T17:03:14.552Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "EULA并不是天生的邪恶 - 专有制的正确做法可以击败自由和开放",
+  "headline_zh-Hant": "EULA並不是天生的邪惡 - 專有制的正確做法可以擊敗自由和開放",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

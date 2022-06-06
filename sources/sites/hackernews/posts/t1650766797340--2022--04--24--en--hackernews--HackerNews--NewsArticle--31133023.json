@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--24--en--hackernews--HackerNews--NewsArticle--31133023",
+  "url": "https://news.ycombinator.com/item?id=31133023",
+  "headline": "History of roff",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bdeshi",
+    "url": "https://news.ycombinator.com/user?id=bdeshi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31133023",
+  "sameAs": "https://man7.org/linux/man-pages/man7/roff.7.html#History",
+  "dateCreated": "2022-04-24T02:19:57.340Z",
+  "datePublished": "2022-04-23T10:40:49.000Z",
+  "dateModified": "2022-04-24T02:19:57.340Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "罗夫的历史",
+  "headline_zh-Hant": "羅夫的歷史",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

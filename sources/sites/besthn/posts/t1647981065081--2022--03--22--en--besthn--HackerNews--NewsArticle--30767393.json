@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--22--en--besthn--HackerNews--NewsArticle--30767393",
+  "url": "https://news.ycombinator.com/item?id=30767393",
+  "headline": "Ask HN: Who operates at scale without containers?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "In other words, who runs operations at a scale where distributed systems are absolutely necessary, without using any sort of container runtime or container orchestration tool?<p>If so, what does their technology stack look like? Are you aware of any good blog posts?<p>edit : While I do appreciate all the replies, I'd like to know if there are any organizations out there who operate at web scale without relying on the specific practice of shipping software with heaps of dependencies. Whether that be in a container or in a single-use VM. Thank you in advance and sorry for the confusion.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "disintegore",
+    "url": "https://news.ycombinator.com/user?id=disintegore"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30767393",
+  "sameAs": "https://news.ycombinator.com/item?id=30767393",
+  "dateCreated": "2022-03-22T20:31:05.081Z",
+  "datePublished": "2022-03-22T15:37:32.000Z",
+  "dateModified": "2022-03-22T20:31:05.081Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 262
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 210
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 谁会在没有集装箱的情况下进行大规模运营？",
+  "headline_zh-Hant": "Ask HN: 誰會在沒有集裝箱的情況下進行大規模運營？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "换句话说，谁在运行分布式系统绝对必要的规模时，没有使用任何种类的容器运行时间或容器协调工具？<p>如果是这样，他们的技术栈是什么样的？你知道有什么好的博文吗？<p>编辑：虽然我很感谢所有的回复，但我想知道是否有任何组织在网络规模上运营，而不依赖于运送具有大量依赖性的软件的具体做法。无论是在容器中还是在一次性使用的虚拟机中。提前感谢你，并对你的困惑感到抱歉。",
+  "description_zh-Hant": "換句話說，誰在運行分佈式系統絕對必要的規模時，沒有使用任何種類的容器運行時間或容器協調工具？<p>如果是這樣，他們的技術棧是什麼樣的？你知道有什麼好的博文嗎？<p>編輯：雖然我很感謝所有的回覆，但我想知道是否有任何組織在網絡規模上運營，而不依賴於運送具有大量依賴性的軟件的具體做法。無論是在容器中還是在一次性使用的虛擬機中。提前感謝你，並對你的困惑感到抱歉。"
+}

@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--27--en--showhn--HackerNews--NewsArticle--31179765",
+  "url": "https://news.ycombinator.com/item?id=31179765",
+  "headline": "Show HN: TPI – Terraform provider for ML and self-recovering spot-instances",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "dmpetrov",
+    "url": "https://news.ycombinator.com/user?id=dmpetrov"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31179765",
+  "sameAs": "https://github.com/iterative/terraform-provider-iterative",
+  "dateCreated": "2022-04-27T13:58:37.484Z",
+  "datePublished": "2022-04-27T13:41:24.000Z",
+  "dateModified": "2022-04-27T13:58:37.484Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Show HN: TPI - 用于ML和自我恢复现货的Terraform供应商",
+  "headline_zh-Hant": "Show HN: TPI - 用於ML和自我恢復現貨的Terraform供應商",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

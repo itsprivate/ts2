@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--11--en--showhn--HackerNews--NewsArticle--30992587",
+  "url": "https://news.ycombinator.com/item?id=30992587",
+  "headline": "Show HN: Multiplayer Demo Built with Elixir",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN, I’m an engineer at Supabase [0] and one of the creators of this demo. My team and I have been working hard to bring developers the next version of Supabase Realtime.<p>The current version of Realtime [1] is a Change Data Capture (CDC) server for a PostgreSQL database that broadcasts changes via WebSockets to authorized subscribers. It’s written in Elixir/Phoenix.<p>The server utilizes PostgreSQL’s logical replication functionality, which writes database changes to Write-Ahead Logging (WAL) segment files, and a replication slot, responsible for managing and retaining WAL files.<p>Database changes are polled from WAL by the server using PostgreSQL’s replication function pg_logical_slot_get_changes and changes converted to JSON objects using the wal2json [2] extension by setting it as the output plugin.<p>Security is enforced through two checks - each check ensures only authorized client subscribers are sent database changes. The first check validates a JWT that is sent by clients subscribing to database changes. This JWT must contain an existing database role and optional claims, both of which can be referenced in Row Level Security (RLS) policies. Every valid client subscription is then inserted into the realtime.subscription table with an assigned UUID, database role, and claims. The second check calls the realtime.apply_rls SQL function from Write Ahead Log Realtime Unified Security (WALRUS) utility lib [3]. This function takes the database changes, executes a prepared statement to verify if the database role and claims have SELECT permissions on the changes, and outputs an array of authorized UUIDs. Then, the server finds all the subscribers whose UUIDs are in that array and broadcasts the changes to them.<p>The next version of Supabase Realtime will offer three features: Broadcast, Presence, and Extensions.<p>Broadcast, our Pub/Sub offering, can be used to pass ephemeral data from client to client such as cursor movements. This runs on a distributed cluster of nodes built on top of Phoenix PubSub + Channels.<p>Presence, can be used for tracking online/offline users and their state. This is built into Phoenix, and uses replicated state across a cluster using an Observe-Remove-Set-Without-Tombstones (ORSWOT) CRDT [4] which prefers adds over removes when resolving conflicts.<p>Extensions, are a way for the community to add additional functionality to take advantage of the WebSocket infrastructure. We have converted the existing Change Data Capture system to an extension that supports connecting to multiple customer databases (multi-tenancy). Other possible extensions include listening to other databases like MySQL and getting stock market events server-side [5], then broadcasting them to connected clients.<p>This demo is built using a Supabase project, Supabase Realtime, and Next.js and deployed on 20 Fly [6] nodes located around the world. You can find an introduction and walkthrough of the demo here [5].<p>Supabase Realtime is entirely open source and you can find the demo code here [7]. Once we have stabilized the release we will add it to the self-hosted offering [8]. This demo is a way to highlight the upcoming features and gather feedback/ideas.<p>Feel free to ask me anything and let me know what you think!<p>[0] <a href=\"https://supabase.com\" rel=\"nofollow\">https://supabase.com</a><p>[1] <a href=\"https://github.com/supabase/realtime\" rel=\"nofollow\">https://github.com/supabase/realtime</a><p>[2] <a href=\"https://github.com/eulerto/wal2json\" rel=\"nofollow\">https://github.com/eulerto/wal2json</a><p>[3] <a href=\"https://github.com/supabase/walrus\" rel=\"nofollow\">https://github.com/supabase/walrus</a><p>[4] <a href=\"https://gsd.di.uminho.pt/members/cbm/ps/delta-crdt-draft16may2014.pdf\" rel=\"nofollow\">https://gsd.di.uminho.pt/members/cbm/ps/delta-crdt-draft16ma...</a><p>[5] <a href=\"https://supabase.com/blog/2022/04/01/supabase-realtime-with-multiplayer-features\" rel=\"nofollow\">https://supabase.com/blog/2022/04/01/supabase-realtime-with-...</a><p>[6] <a href=\"https://fly.io\" rel=\"nofollow\">https://fly.io</a><p>[7] <a href=\"https://github.com/supabase/realtime/tree/multiplayer\" rel=\"nofollow\">https://github.com/supabase/realtime/tree/multiplayer</a><p>[8] <a href=\"https://github.com/supabase/supabase/tree/master/docker\" rel=\"nofollow\">https://github.com/supabase/supabase/tree/master/docker</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "wenbo",
+    "url": "https://news.ycombinator.com/user?id=wenbo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30992587",
+  "sameAs": "https://multiplayer.dev",
+  "dateCreated": "2022-04-11T18:39:57.041Z",
+  "datePublished": "2022-04-11T18:15:06.000Z",
+  "dateModified": "2022-04-11T18:39:57.041Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 20
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 用Elixir构建的多人游戏演示",
+  "headline_zh-Hant": "Show HN: 用Elixir構建的多人遊戲演示",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嘿，HN，我是Supabase[0]的一名工程师，也是这个演示的创造者之一。我和我的团队一直在努力为开发者带来Supabase Realtime的下一个版本。<p>当前版本的Realtime[1]是PostgreSQL数据库的变更数据捕获（CDC）服务器，通过WebSockets向授权用户广播变更。它是用Elixir/Phoenix编写的。<p>该服务器利用PostgreSQL的逻辑复制功能，将数据库的变化写入WAL（Write-Ahead Logging）段文件，以及一个复制槽，负责管理和保留WAL文件。 <p>数据库变化由服务器使用PostgreSQL的复制功能pg_logical_slot_get_changes从WAL轮询，并通过将wal2json[2]扩展设置为输出插件将变化转换为JSON对象。<p>安全性通过两个检查来执行 - 每个检查确保只有授权的客户订阅者被发送数据库变化。第一个检查是验证由订阅数据库变更的客户端发送的JWT。这个JWT必须包含一个现有的数据库角色和可选的索赔，这两者都可以在行级安全（RLS）策略中被引用。然后，每个有效的客户端订阅都会被插入到realtime.subscription表中，并分配一个UUID、数据库角色和索赔。第二项检查从Write Ahead Log Realtime Unified Security (WALRUS) utility lib [3]调用realtime.apply_rls SQL函数。这个函数接收数据库变化，执行一个准备好的语句来验证数据库角色和权利要求是否对变化有SELECT权限，并输出一个授权UUIDs数组。然后，服务器找到其UUID在该数组中的所有用户，并向他们广播变化。<p>Supabase Realtime的下一个版本将提供三个功能。<p>广播，即我们的Pub/Sub产品，可用于从客户端到客户端传递短暂的数据，如光标移动。它运行在建立在Phoenix PubSub + Channels之上的分布式节点集群上。<p>Presence，可用于跟踪在线/离线用户及其状态。这是在Phoenix中内置的，并使用观察-删除-设置-无墓碑（ORSWOT）CRDT[4]在集群中复制状态，在解决冲突时更倾向于增加而不是删除。<p>扩展，是社区增加额外功能以利用WebSocket基础设施的一种方式。我们已将现有的变更数据捕获系统转换为支持连接到多个客户数据库（多租户）的扩展。其他可能的扩展包括监听MySQL等其他数据库，并在服务器端获取股市事件[5]，然后将其广播给连接的客户端。<p>该演示使用Supabase项目、Supabase Realtime和Next.js构建，并部署在位于世界各地的20个Fly[6]节点。你可以在这里找到该演示的介绍和演练[5]。<p>Supabase Realtime是完全开源的，你可以在这里找到演示代码[7]。一旦我们稳定了这个版本，我们将把它添加到自我托管的产品中[8]。This demo is a way to highlight the upcoming features and gather feedback/ideas.<p>Feel free to ask me anything and let me know what you think!<p>[0] <a href=\"https://supabase.com\" rel=\"nofollow\">https://supabase.com</a><p>[1] <a href=\"https://github.com/supabase/realtime\" rel=\"nofollow\">https://github. com/supabase/realtime</a><p>[2] <a href=\"https://github.com/eulerto/wal2json\" rel=\"nofollow\">https://github.com/eulerto/wal2json</a><p>[3] <a href=\"https://github.com/supabase/walrus\" rel=\"nofollow\">https://github.com/supabase/walrus</a><p>[4] <a href=\"https://gsd.di.uminho.pt/members/cbm/ps/delta-crdt-draft16may2014. pdf\" rel=\"nofollow\">https://gsd.di.uminho.pt/members/cbm/ps/delta-crdt-draft16ma...</a><p>[5] <a href=\"https://supabase.com/blog/2022/04/01/supabase-realtime-with-multiplayer-features\" rel=\"nofollow\">https://supabase.com/blog/2022/04/01/supabase-realtime-with-...</a><p>[6] <a href=\"https://fly.io\" rel=\"nofollow\">https://fly.io</a><p>[7] <a href=\"https://github.com/supabase/realtime/tree/multiplayer\" rel=\"nofollow\">https://github.com/supabase/realtime/tree/multiplayer</a><p>[8] <a href=\"https://github.com/supabase/supabase/tree/master/docker\" rel=\"nofollow\">https://github.com/supabase/supabase/tree/master/docker</a>",
+  "description_zh-Hant": "嘿，HN，我是Supabase[0]的一名工程師，也是這個演示的創造者之一。我和我的團隊一直在努力為開發者帶來Supabase Realtime的下一個版本。<p>當前版本的Realtime[1]是PostgreSQL數據庫的變更數據捕獲（CDC）服務器，通過WebSockets向授權用戶廣播變更。它是用Elixir/Phoenix編寫的。<p>該服務器利用PostgreSQL的邏輯複製功能，將數據庫的變化寫入WAL（Write-Ahead Logging）段文件，以及一個複製槽，負責管理和保留WAL文件。 <p>數據庫變化由服務器使用PostgreSQL的複製功能pg_logical_slot_get_changes從WAL輪詢，並通過將wal2json[2]擴展設置為輸出插件將變化轉換為JSON對象。<p>安全性通過兩個檢查來執行 - 每個檢查確保只有授權的客戶訂閱者被髮送數據庫變化。第一個檢查是驗證由訂閱數據庫變更的客戶端發送的JWT。這個JWT必須包含一個現有的數據庫角色和可選的索賠，這兩者都可以在行級安全（RLS）策略中被引用。然後，每個有效的客戶端訂閱都會被插入到realtime.subscription表中，並分配一個UUID、數據庫角色和索賠。第二項檢查從Write Ahead Log Realtime Unified Security (WALRUS) utility lib [3]調用realtime.apply_rls SQL函數。這個函數接收數據庫變化，執行一個準備好的語句來驗證數據庫角色和權利要求是否對變化有SELECT權限，並輸出一個授權UUIDs數組。然後，服務器找到其UUID在該數組中的所有用戶，並向他們廣播變化。<p>Supabase Realtime的下一個版本將提供三個功能。<p>廣播，即我們的Pub/Sub產品，可用於從客戶端到客戶端傳遞短暫的數據，如光標移動。它運行在建立在Phoenix PubSub + Channels之上的分佈式節點集群上。<p>Presence，可用於跟蹤在線/離線用戶及其狀態。這是在Phoenix中內置的，並使用觀察-刪除-設置-無墓碑（ORSWOT）CRDT[4]在集群中複製狀態，在解決衝突時更傾向於增加而不是刪除。<p>擴展，是社區增加額外功能以利用WebSocket基礎設施的一種方式。我們已將現有的變更數據捕獲系統轉換為支持連接到多個客戶數據庫（多租戶）的擴展。其他可能的擴展包括監聽MySQL等其他數據庫，並在服務器端獲取股市事件[5]，然後將其廣播給連接的客戶端。<p>該演示使用Supabase項目、Supabase Realtime和Next.js構建，並部署在位於世界各地的20個Fly[6]節點。你可以在這裡找到該演示的介紹和演練[5]。<p>Supabase Realtime是完全開源的，你可以在這裡找到演示代碼[7]。一旦我們穩定了這個版本，我們將把它添加到自我託管的產品中[8]。This demo is a way to highlight the upcoming features and gather feedback/ideas.<p>Feel free to ask me anything and let me know what you think!<p>[0] <a href=\"https://supabase.com\" rel=\"nofollow\">https://supabase.com</a><p>[1] <a href=\"https://github.com/supabase/realtime\" rel=\"nofollow\">https://github. com/supabase/realtime</a><p>[2] <a href=\"https://github.com/eulerto/wal2json\" rel=\"nofollow\">https://github.com/eulerto/wal2json</a><p>[3] <a href=\"https://github.com/supabase/walrus\" rel=\"nofollow\">https://github.com/supabase/walrus</a><p>[4] <a href=\"https://gsd.di.uminho.pt/members/cbm/ps/delta-crdt-draft16may2014. pdf\" rel=\"nofollow\">https://gsd.di.uminho.pt/members/cbm/ps/delta-crdt-draft16ma...</a><p>[5] <a href=\"https://supabase.com/blog/2022/04/01/supabase-realtime-with-multiplayer-features\" rel=\"nofollow\">https://supabase.com/blog/2022/04/01/supabase-realtime-with-...</a><p>[6] <a href=\"https://fly.io\" rel=\"nofollow\">https://fly.io</a><p>[7] <a href=\"https://github.com/supabase/realtime/tree/multiplayer\" rel=\"nofollow\">https://github.com/supabase/realtime/tree/multiplayer</a><p>[8] <a href=\"https://github.com/supabase/supabase/tree/master/docker\" rel=\"nofollow\">https://github.com/supabase/supabase/tree/master/docker</a>"
+}

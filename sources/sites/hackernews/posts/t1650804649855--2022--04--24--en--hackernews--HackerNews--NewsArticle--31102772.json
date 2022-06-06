@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--24--en--hackernews--HackerNews--NewsArticle--31102772",
+  "url": "https://news.ycombinator.com/item?id=31102772",
+  "headline": "A Greek Green Man (2014)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "diodorus",
+    "url": "https://news.ycombinator.com/user?id=diodorus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31102772",
+  "sameAs": "https://blogs.getty.edu/iris/a-greek-green-man/",
+  "dateCreated": "2022-04-24T12:50:49.855Z",
+  "datePublished": "2022-04-20T20:44:54.000Z",
+  "dateModified": "2022-04-24T12:50:49.855Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "希腊的绿衣人 (2014)",
+  "headline_zh-Hant": "希臘的綠衣人 (2014)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

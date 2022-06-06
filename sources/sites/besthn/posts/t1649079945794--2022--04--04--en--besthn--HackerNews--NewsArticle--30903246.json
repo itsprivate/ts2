@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--besthn--HackerNews--NewsArticle--30903246",
+  "url": "https://news.ycombinator.com/item?id=30903246",
+  "headline": "Apple's whitelist of the 250k auto-completable domains in iOS",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "varenc",
+    "url": "https://news.ycombinator.com/user?id=varenc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30903246",
+  "sameAs": "https://cdn.smoot.apple.com/static/autofill_tld_whitelist_url",
+  "dateCreated": "2022-04-04T13:45:45.794Z",
+  "datePublished": "2022-04-04T04:10:35.000Z",
+  "dateModified": "2022-04-04T13:45:45.794Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 256
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 120
+    }
+  ],
+  "headline_zh-Hans": "苹果公司对iOS中25万个可自动完成的域名的白名单",
+  "headline_zh-Hant": "蘋果公司對iOS中25萬個可自動完成的域名的白名單",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

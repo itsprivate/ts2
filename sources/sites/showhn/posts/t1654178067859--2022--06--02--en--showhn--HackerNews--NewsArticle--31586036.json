@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--02--en--showhn--HackerNews--NewsArticle--31586036",
+  "url": "https://news.ycombinator.com/item?id=31586036",
+  "headline": "Show HN: An API to track, plot and call webhooks for moving objects",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "alem",
+    "url": "https://news.ycombinator.com/user?id=alem"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31586036",
+  "sameAs": "https://geohook.io/",
+  "dateCreated": "2022-06-02T13:54:27.859Z",
+  "datePublished": "2022-06-01T18:27:14.000Z",
+  "dateModified": "2022-06-02T13:54:27.859Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 一个用于跟踪、绘制和调用移动物体的webhooks的API\n",
+  "headline_zh-Hant": "Show HN: 一個用於跟蹤、繪製和調用移動物體的webhooks的API\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

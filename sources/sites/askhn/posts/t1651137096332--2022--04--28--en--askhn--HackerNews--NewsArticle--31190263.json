@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--28--en--askhn--HackerNews--NewsArticle--31190263",
+  "url": "https://news.ycombinator.com/item?id=31190263",
+  "headline": "Ask HN: How do you save data structures on disk?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Structures like linked list, trie, binary trees, stacks, etc.<p>One approach is to convert them to json and serialize it and save it as a string or binary file. But then if you are dealing with TB of data, or just large amount of data, now your program needs to load the entire thing in ram/memory first.<p>So Second approach I think could be like regular databases, on-disk. Are there on-disk data structures? Can you make any data structure to exist on disk.<p>Suppose I have a huge decision tree, terabytes of data. How can I use it without loading the entire thing in memory.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "techsin101",
+    "url": "https://news.ycombinator.com/user?id=techsin101"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31190263",
+  "sameAs": "https://news.ycombinator.com/item?id=31190263",
+  "dateCreated": "2022-04-28T09:11:36.332Z",
+  "datePublished": "2022-04-28T09:08:56.000Z",
+  "dateModified": "2022-04-28T09:11:36.332Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你如何在磁盘上保存数据结构？",
+  "headline_zh-Hant": "Ask HN: 你如何在磁盤上保存數據結構？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "<p>一种方法是将它们转换为json，并将其序列化，然后将其保存为字符串或二进制文件。但是，如果你要处理的是TB级的数据，或者只是大量的数据，现在你的程序需要先在RAM/内存中加载整个东西。<p>因此，第二种方法我认为可以像普通数据库一样，在磁盘上。是否有磁盘上的数据结构？你能使任何数据结构存在于磁盘上吗？<p>假设我有一个巨大的决策树，有数千兆字节的数据。我怎样才能在不把整个东西装入内存的情况下使用它。",
+  "description_zh-Hant": "<p>一種方法是將它們轉換為json，並將其序列化，然後將其保存為字符串或二進制文件。但是，如果你要處理的是TB級的數據，或者只是大量的數據，現在你的程序需要先在RAM/內存中加載整個東西。<p>因此，第二種方法我認為可以像普通數據庫一樣，在磁盤上。是否有磁盤上的數據結構？你能使任何數據結構存在於磁盤上嗎？<p>假設我有一個巨大的決策樹，有數千兆字節的數據。我怎樣才能在不把整個東西裝入內存的情況下使用它。"
+}

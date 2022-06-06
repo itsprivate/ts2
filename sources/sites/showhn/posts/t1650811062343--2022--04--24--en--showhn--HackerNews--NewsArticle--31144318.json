@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--24--en--showhn--HackerNews--NewsArticle--31144318",
+  "url": "https://news.ycombinator.com/item?id=31144318",
+  "headline": "Show HN: WorkOrPay: Set goals. Form contracts. Pay the penalty if you fail",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "khromem",
+    "url": "https://news.ycombinator.com/user?id=khromem"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31144318",
+  "sameAs": "https://www.workorpay.com/",
+  "dateCreated": "2022-04-24T14:37:42.343Z",
+  "datePublished": "2022-04-24T14:28:06.000Z",
+  "dateModified": "2022-04-24T14:37:42.343Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 工作或薪酬。设定目标。签订合同。如果你失败了，就支付罚款",
+  "headline_zh-Hant": "Show HN: 工作或薪酬。設定目標。簽訂合同。如果你失敗了，就支付罰款",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

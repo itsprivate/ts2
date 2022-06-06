@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--27--en--showhn--HackerNews--NewsArticle--30824146",
+  "url": "https://news.ycombinator.com/item?id=30824146",
+  "headline": "Show HN: Free Hosted JupyerLab with GPU",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi,<p>This is Dan and Genevieve from Burstable AI. We've iterated and made a 45 degree pivot, taking what we learned from developing burst (<a href=\"https://news.ycombinator.com/item?id=28191459\" rel=\"nofollow\">https://news.ycombinator.com/item?id=28191459</a>) to introduce a cloud service that provides access to a GPU-enabled machine using Jupyterlab to provide notebooks, shell access, and a code/text editor. GPU access is measured and the first 50 hours are free.<p>This is *not* a platform to do crypto mining or run weeks of model training for free. We are focused on the R &amp; D phase of modern AI/ML, where developers/scientists are iterating, testing, and measuring results. We are running a beta program with a few seats left to get feedback and constructive directions for how to make Cloudburst a killer environment for modern exploratory AI/ML research, whether you are a high-school student hacking on the weekend, a small team at a startup, or a consultant building ML pipelines for SmB's (or some other user story we haven't thought of yet).<p>Presently, signup is through your github account. If you have questions, please email us at beta@cloudburst.host.<p>Thanks to all our beta folks!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "danbmil99",
+    "url": "https://news.ycombinator.com/user?id=danbmil99"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30824146",
+  "sameAs": "https://cloudburst.host",
+  "dateCreated": "2022-03-27T21:10:00.965Z",
+  "datePublished": "2022-03-27T21:06:50.000Z",
+  "dateModified": "2022-03-27T21:10:00.965Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 免费托管的带GPU的JupyerLab",
+  "headline_zh-Hant": "Show HN: 免費託管的帶GPU的JupyerLab",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，<p>这是来自Burstable AI的Dan和Genevieve。我们已经进行了迭代，并进行了45度的转折，利用我们从开发burst（<a href=\"https://news.ycombinator.com/item?id=28191459\" rel=\"nofollow\">https://news.ycombinator.com/item?id=28191459</a>）中学到的知识，推出了一项云服务，提供对支持GPU的机器的访问，使用Jupyterlab来提供笔记本、shell访问和代码/文本编辑器。<p>这并不是一个用来进行加密货币挖掘或免费运行数周模型训练的平台。我们专注于现代人工智能/ML的R &amp; D阶段，开发人员/科学家正在迭代、测试和测量结果。我们正在运行一个测试项目，还剩几个名额，以获得反馈和建设性的方向，使Cloudburst成为现代探索性人工智能/ML研究的杀手级环境，无论你是周末黑客的高中生、创业公司的小团队，还是为SmB构建ML管道的顾问（或者其他我们还没有想到的用户故事）。如果你有问题，请给我们发电子邮件：beta@cloudburst.host。<p>感谢我们所有的测试人员!",
+  "description_zh-Hant": "嗨，<p>這是來自Burstable AI的Dan和Genevieve。我們已經進行了迭代，並進行了45度的轉折，利用我們從開發burst（<a href=\"https://news.ycombinator.com/item?id=28191459\" rel=\"nofollow\">https://news.ycombinator.com/item?id=28191459</a>）中學到的知識，推出了一項雲服務，提供對支持GPU的機器的訪問，使用Jupyterlab來提供筆記本、shell訪問和代碼/文本編輯器。<p>這並不是一個用來進行加密貨幣挖掘或免費運行數週模型訓練的平臺。我們專注於現代人工智能/ML的R &amp; D階段，開發人員/科學家正在迭代、測試和測量結果。我們正在運行一個測試項目，還剩幾個名額，以獲得反饋和建設性的方向，使Cloudburst成為現代探索性人工智能/ML研究的殺手級環境，無論你是週末黑客的高中生、創業公司的小團隊，還是為SmB構建ML管道的顧問（或者其他我們還沒有想到的用戶故事）。如果你有問題，請給我們發電子郵件：beta@cloudburst.host。<p>感謝我們所有的測試人員!"
+}

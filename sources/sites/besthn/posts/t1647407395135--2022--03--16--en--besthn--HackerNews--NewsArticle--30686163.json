@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--16--en--besthn--HackerNews--NewsArticle--30686163",
+  "url": "https://news.ycombinator.com/item?id=30686163",
+  "headline": "TinyRenderer – how OpenGL works: software rendering in 500 lines of code",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "graderjs",
+    "url": "https://news.ycombinator.com/user?id=graderjs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30686163",
+  "sameAs": "https://github.com/ssloy/tinyrenderer/wiki",
+  "dateCreated": "2022-03-16T05:09:55.135Z",
+  "datePublished": "2022-03-15T14:59:56.000Z",
+  "dateModified": "2022-03-16T05:09:55.135Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 256
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 30
+    }
+  ],
+  "headline_zh-Hans": "TinyRenderer - OpenGL的工作原理：500行代码的软件渲染",
+  "headline_zh-Hant": "TinyRenderer - OpenGL的工作原理：500行代碼的軟件渲染",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

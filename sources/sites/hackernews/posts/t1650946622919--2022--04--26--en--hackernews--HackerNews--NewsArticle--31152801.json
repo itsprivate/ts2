@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--26--en--hackernews--HackerNews--NewsArticle--31152801",
+  "url": "https://news.ycombinator.com/item?id=31152801",
+  "headline": "Functional programming with bananas, lenses, envelopes and barbed wire [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "RafelMri",
+    "url": "https://news.ycombinator.com/user?id=RafelMri"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31152801",
+  "sameAs": "https://ris.utwente.nl/ws/portalfiles/portal/6142049/meijer91functional.pdf",
+  "dateCreated": "2022-04-26T04:17:02.919Z",
+  "datePublished": "2022-04-25T10:52:29.000Z",
+  "dateModified": "2022-04-26T04:17:02.919Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用香蕉、镜片、信封和铁丝网进行函数式编程 [pdf]",
+  "headline_zh-Hant": "用香蕉、鏡片、信封和鐵絲網進行函數式編程 [pdf]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

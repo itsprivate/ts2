@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--03--en--showhn--HackerNews--NewsArticle--31611483",
+  "url": "https://news.ycombinator.com/item?id=31611483",
+  "headline": "Show HN: Cryptid Zero Trust Authentication and Authorization, Open Source Oberon",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Oberon makes it possible for a service provider to issue capability tokens to clients in such a way that the service provider never sees the value of the capability token. This prevents the service provider from being able to impersonate the client.\nOberon relies upon zero-knowledge proof presentation of the capability token so that the token is never transmitted norrevealed. Instead of the client sending the token to the service—as is done with API tokens today—the client sends a zero-knowledge proof proving that they have a valid capability token issued by the service provider; this is called proof-of-knowledge.<p>GitHub: https://github.com/cryptidtech/oberoncryptid<p>Get cryptid: https://www.cryptid.tech]",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jratkevic",
+    "url": "https://news.ycombinator.com/user?id=jratkevic"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31611483",
+  "sameAs": "https://news.ycombinator.com/item?id=31611483",
+  "dateCreated": "2022-06-03T17:56:12.985Z",
+  "datePublished": "2022-06-03T17:47:59.000Z",
+  "dateModified": "2022-06-03T17:56:12.985Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Cryptid零信任认证和授权，开源的Oberon\n",
+  "headline_zh-Hant": "Show HN: Cryptid零信任認證和授權，開源的Oberon\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Oberon使服务提供者有可能以这样一种方式向客户发放能力令牌，即服务提供者永远看不到能力令牌的价值。这就防止了服务提供者能够冒充客户。\nOberon依赖于能力令牌的零知识证明，因此令牌不会被传输或泄露。客户端不是向服务发送令牌--就像今天的API令牌那样--而是发送一个零知识证明，证明他们有一个由服务提供者签发的有效能力令牌；这被称为知识证明。<p>GitHub: https://github.com/cryptidtech/oberoncryptid<p>Get cryptid: https://www.cryptid.tech]\n",
+  "description_zh-Hant": "Oberon使服務提供者有可能以這樣一種方式向客戶發放能力令牌，即服務提供者永遠看不到能力令牌的價值。這就防止了服務提供者能夠冒充客戶。\nOberon依賴於能力令牌的零知識證明，因此令牌不會被傳輸或洩露。客戶端不是向服務發送令牌--就像今天的API令牌那樣--而是發送一個零知識證明，證明他們有一個由服務提供者簽發的有效能力令牌；這被稱為知識證明。<p>GitHub: https://github.com/cryptidtech/oberoncryptid<p>Get cryptid: https://www.cryptid.tech]\n"
+}

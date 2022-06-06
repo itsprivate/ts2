@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31627243",
+  "url": "https://news.ycombinator.com/item?id=31627243",
+  "headline": "US confirms military hackers have conducted cyber operations to support Ukraine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fortran77",
+    "url": "https://news.ycombinator.com/user?id=fortran77"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31627243",
+  "sameAs": "https://www.cnn.com/2022/06/02/politics/us-hackers-ukraine-support/index.html",
+  "dateCreated": "2022-06-05T05:23:39.233Z",
+  "datePublished": "2022-06-05T02:09:25.000Z",
+  "dateModified": "2022-06-05T05:23:39.233Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "美国证实军方黑客为支持乌克兰进行了网络行动\n",
+  "headline_zh-Hant": "美國證實軍方黑客為支持烏克蘭進行了網絡行動\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

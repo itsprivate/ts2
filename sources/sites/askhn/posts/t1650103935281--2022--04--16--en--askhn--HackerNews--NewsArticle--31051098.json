@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--16--en--askhn--HackerNews--NewsArticle--31051098",
+  "url": "https://news.ycombinator.com/item?id=31051098",
+  "headline": "Ask HN: I want to open source a my SaaS project. What should I know?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "My current side project is closed source, and I want to make it open as I believe it can benefit from some community love (also I'm not making money off it, so not much to lose!).<p>Besides the usual things like good documentation,  purging secrets, easy dev/deployment process, what else should I know?<p>Also, its currently hosted on Gitlab, I like the CI/CD better. Is it worth switching to Github for the starzzz?<p>Background: Ive managed large OSS packages, but nothing SAAS-like.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "yuppiepuppie",
+    "url": "https://news.ycombinator.com/user?id=yuppiepuppie"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31051098",
+  "sameAs": "https://news.ycombinator.com/item?id=31051098",
+  "dateCreated": "2022-04-16T10:12:15.281Z",
+  "datePublished": "2022-04-16T09:59:05.000Z",
+  "dateModified": "2022-04-16T10:12:15.281Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我想为我的SaaS项目开源。我应该知道什么？",
+  "headline_zh-Hant": "Ask HN: 我想為我的SaaS項目開源。我應該知道什麼？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我目前的副业是闭源的，我想把它开放出来，因为我相信它可以从一些社区的爱中受益（同时我也没有靠它赚钱，所以没有什么损失！）。<p>除了像好的文档、清除秘密、简单的开发/部署过程这些通常的东西之外，我还应该知道什么？<p>另外，它目前托管在Gitlab，我更喜欢CI/CD。是否值得转到Github上，以获得明星效应？<p>背景。我曾经管理过大型的OSS包，但没有类似SAAS的东西。",
+  "description_zh-Hant": "我目前的副業是閉源的，我想把它開放出來，因為我相信它可以從一些社區的愛中受益（同時我也沒有靠它賺錢，所以沒有什麼損失！）。<p>除了像好的文檔、清除秘密、簡單的開發/部署過程這些通常的東西之外，我還應該知道什麼？<p>另外，它目前託管在Gitlab，我更喜歡CI/CD。是否值得轉到Github上，以獲得明星效應？<p>背景。我曾經管理過大型的OSS包，但沒有類似SAAS的東西。"
+}

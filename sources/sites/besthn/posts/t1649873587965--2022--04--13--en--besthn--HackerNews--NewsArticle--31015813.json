@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--besthn--HackerNews--NewsArticle--31015813",
+  "url": "https://news.ycombinator.com/item?id=31015813",
+  "headline": "Inside the longest Atlassian outage of all time",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "andyjohnson0",
+    "url": "https://news.ycombinator.com/user?id=andyjohnson0"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31015813",
+  "sameAs": "https://newsletter.pragmaticengineer.com/p/scoop-atlassian",
+  "dateCreated": "2022-04-13T18:13:07.965Z",
+  "datePublished": "2022-04-13T15:27:38.000Z",
+  "dateModified": "2022-04-13T18:13:07.965Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 298
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 212
+    }
+  ],
+  "headline_zh-Hans": "史上最长的Atlassian中断事件的内幕",
+  "headline_zh-Hant": "史上最長的Atlassian中斷事件的內幕",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

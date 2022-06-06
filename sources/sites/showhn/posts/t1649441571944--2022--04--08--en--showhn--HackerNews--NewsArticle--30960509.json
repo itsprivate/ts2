@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--08--en--showhn--HackerNews--NewsArticle--30960509",
+  "url": "https://news.ycombinator.com/item?id=30960509",
+  "headline": "Show HN: Zaplib – Speedup your webapp with Rust+Wasm",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "stevekrouse",
+    "url": "https://news.ycombinator.com/user?id=stevekrouse"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30960509",
+  "sameAs": "https://zaplib.com/docs/",
+  "dateCreated": "2022-04-08T18:12:51.944Z",
+  "datePublished": "2022-04-08T18:06:18.000Z",
+  "dateModified": "2022-04-08T18:12:51.944Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Zaplib - 用Rust+Wasm加速你的webapp",
+  "headline_zh-Hant": "Show HN: Zaplib - 用Rust+Wasm加速你的webapp",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

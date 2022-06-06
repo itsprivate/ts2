@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--28--en--showhn--HackerNews--NewsArticle--30830925",
+  "url": "https://news.ycombinator.com/item?id=30830925",
+  "headline": "Show HN: FP-bindgen – bindings generator for full-stack WASM plugins",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "miesie",
+    "url": "https://news.ycombinator.com/user?id=miesie"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30830925",
+  "sameAs": "https://github.com/fiberplane/fp-bindgen",
+  "dateCreated": "2022-03-28T14:38:58.367Z",
+  "datePublished": "2022-03-28T14:36:37.000Z",
+  "dateModified": "2022-03-28T14:38:58.367Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: FP-bindgen - 全栈式WASM插件的绑定生成器",
+  "headline_zh-Hant": "Show HN: FP-bindgen - 全棧式WASM插件的綁定生成器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

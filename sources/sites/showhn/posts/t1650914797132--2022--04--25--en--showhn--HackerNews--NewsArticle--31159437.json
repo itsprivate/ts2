@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--25--en--showhn--HackerNews--NewsArticle--31159437",
+  "url": "https://news.ycombinator.com/item?id=31159437",
+  "headline": "Show HN: Top Commented News from CBC",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "holts-shoe",
+    "url": "https://news.ycombinator.com/user?id=holts-shoe"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31159437",
+  "sameAs": "https://topnewscbc.herokuapp.com",
+  "dateCreated": "2022-04-25T19:26:37.132Z",
+  "datePublished": "2022-04-25T19:22:56.000Z",
+  "dateModified": "2022-04-25T19:26:37.132Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 加拿大广播公司的热门评论新闻",
+  "headline_zh-Hant": "Show HN: 加拿大廣播公司的熱門評論新聞",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

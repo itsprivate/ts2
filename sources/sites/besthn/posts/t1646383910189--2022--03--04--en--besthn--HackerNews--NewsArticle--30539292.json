@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--04--en--besthn--HackerNews--NewsArticle--30539292",
+  "url": "https://news.ycombinator.com/item?id=30539292",
+  "headline": "How I See Numbers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "igpay",
+    "url": "https://news.ycombinator.com/user?id=igpay"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30539292",
+  "sameAs": "https://www.csun.io/2022/03/03/how-i-see-numbers.html",
+  "dateCreated": "2022-03-04T08:51:50.189Z",
+  "datePublished": "2022-03-03T10:24:28.000Z",
+  "dateModified": "2022-03-04T08:51:50.189Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 252
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 160
+    }
+  ],
+  "headline_zh-Hans": "我如何看待数字",
+  "headline_zh-Hant": "我如何看待數字",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

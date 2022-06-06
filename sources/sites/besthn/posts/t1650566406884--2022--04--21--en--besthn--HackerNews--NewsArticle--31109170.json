@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--21--en--besthn--HackerNews--NewsArticle--31109170",
+  "url": "https://news.ycombinator.com/item?id=31109170",
+  "headline": "Column – a chartered bank for developers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "whockey",
+    "url": "https://news.ycombinator.com/user?id=whockey"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31109170",
+  "sameAs": "https://column.com",
+  "dateCreated": "2022-04-21T18:40:06.884Z",
+  "datePublished": "2022-04-21T13:33:51.000Z",
+  "dateModified": "2022-04-21T18:40:06.884Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 256
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 119
+    }
+  ],
+  "headline_zh-Hans": "专栏--开发商的特许银行",
+  "headline_zh-Hant": "專欄--開發商的特許銀行",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

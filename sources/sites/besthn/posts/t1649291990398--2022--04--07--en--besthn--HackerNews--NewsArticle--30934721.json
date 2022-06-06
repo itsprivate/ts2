@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--07--en--besthn--HackerNews--NewsArticle--30934721",
+  "url": "https://news.ycombinator.com/item?id=30934721",
+  "headline": "The existence of true one-way functions depends on Kolmogorov complexity",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "theafh",
+    "url": "https://news.ycombinator.com/user?id=theafh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30934721",
+  "sameAs": "https://www.quantamagazine.org/researchers-identify-master-problem-underlying-all-cryptography-20220406/",
+  "dateCreated": "2022-04-07T00:39:50.398Z",
+  "datePublished": "2022-04-06T17:01:46.000Z",
+  "dateModified": "2022-04-07T00:39:50.398Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 105
+    }
+  ],
+  "headline_zh-Hans": "真正的单向函数的存在取决于Kolmogorov复杂性",
+  "headline_zh-Hant": "真正的單向函數的存在取決於Kolmogorov複雜性",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

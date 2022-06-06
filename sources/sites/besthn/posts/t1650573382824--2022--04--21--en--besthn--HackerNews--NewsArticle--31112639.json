@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--21--en--besthn--HackerNews--NewsArticle--31112639",
+  "url": "https://news.ycombinator.com/item?id=31112639",
+  "headline": "Apple Discontinues macOS Server",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sharjeelsayed",
+    "url": "https://news.ycombinator.com/user?id=sharjeelsayed"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31112639",
+  "sameAs": "https://support.apple.com/en-us/HT208312",
+  "dateCreated": "2022-04-21T20:36:22.824Z",
+  "datePublished": "2022-04-21T17:37:34.000Z",
+  "dateModified": "2022-04-21T20:36:22.824Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 259
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 163
+    }
+  ],
+  "headline_zh-Hans": "苹果停用macOS服务器",
+  "headline_zh-Hant": "蘋果停用macOS服務器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--28--en--hackernews--HackerNews--NewsArticle--31190586",
+  "url": "https://news.ycombinator.com/item?id=31190586",
+  "headline": "Implementing a decentralized cluster membership with failure detection in rust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "evanxg852000",
+    "url": "https://news.ycombinator.com/user?id=evanxg852000"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31190586",
+  "sameAs": "https://quickwit.io/blog/chitchat/",
+  "dateCreated": "2022-04-28T10:35:18.595Z",
+  "datePublished": "2022-04-28T09:50:07.000Z",
+  "dateModified": "2022-04-28T10:35:18.595Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在Rust中实现具有故障检测功能的分散式集群成员制",
+  "headline_zh-Hant": "在Rust中實現具有故障檢測功能的分散式集群成員制",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

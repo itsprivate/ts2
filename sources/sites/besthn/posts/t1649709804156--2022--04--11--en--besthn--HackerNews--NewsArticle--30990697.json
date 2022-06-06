@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--11--en--besthn--HackerNews--NewsArticle--30990697",
+  "url": "https://news.ycombinator.com/item?id=30990697",
+  "headline": "Atlassian: We estimate the rebuilding effort to last for up to 2 more weeks",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tosh",
+    "url": "https://news.ycombinator.com/user?id=tosh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30990697",
+  "sameAs": "https://twitter.com/kjartanmuller/status/1513462616030683138",
+  "dateCreated": "2022-04-11T20:43:24.156Z",
+  "datePublished": "2022-04-11T16:03:19.000Z",
+  "dateModified": "2022-04-11T20:43:24.156Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 115
+    }
+  ],
+  "headline_zh-Hans": "阿特拉斯：我们估计重建工作将持续2周之久。",
+  "headline_zh-Hant": "阿特拉斯：我們估計重建工作將持續2周之久。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

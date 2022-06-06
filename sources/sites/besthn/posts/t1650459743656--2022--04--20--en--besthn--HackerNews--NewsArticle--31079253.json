@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--20--en--besthn--HackerNews--NewsArticle--31079253",
+  "url": "https://news.ycombinator.com/item?id=31079253",
+  "headline": "Debian and firmware",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pabs3",
+    "url": "https://news.ycombinator.com/user?id=pabs3"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31079253",
+  "sameAs": "https://blog.einval.com/2022/04/19#firmware-what-do-we-do",
+  "dateCreated": "2022-04-20T13:02:23.656Z",
+  "datePublished": "2022-04-19T02:34:00.000Z",
+  "dateModified": "2022-04-20T13:02:23.656Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 176
+    }
+  ],
+  "headline_zh-Hans": "蝶变和固件",
+  "headline_zh-Hant": "蝶變和固件",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

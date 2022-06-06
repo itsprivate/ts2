@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--19--en--showhn--HackerNews--NewsArticle--31083639",
+  "url": "https://news.ycombinator.com/item?id=31083639",
+  "headline": "Show HN: A micro IRC inside every email",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Over 50% of work is born inside an email. We believe you don't have to context-switch onto other productivity tools (Slack, Jira) to finish a task.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "HonestIsNow",
+    "url": "https://news.ycombinator.com/user?id=HonestIsNow"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31083639",
+  "sameAs": "https://www.honest.is/beta",
+  "dateCreated": "2022-04-19T14:30:51.943Z",
+  "datePublished": "2022-04-19T14:29:34.000Z",
+  "dateModified": "2022-04-19T14:30:51.943Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 每封电子邮件中都有一个微型IRC",
+  "headline_zh-Hant": "Show HN: 每封電子郵件中都有一個微型IRC",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "超过50%的工作是在电子邮件中产生的。我们相信，你不必为完成一项任务而切换到其他生产力工具（Slack、Jira）。",
+  "description_zh-Hant": "超過50%的工作是在電子郵件中產生的。我們相信，你不必為完成一項任務而切換到其他生產力工具（Slack、Jira）。"
+}

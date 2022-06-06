@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--24--en--besthn--HackerNews--NewsArticle--30792057",
+  "url": "https://news.ycombinator.com/item?id=30792057",
+  "headline": "Crows know what they know and can ponder the content of their own minds",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "SubiculumCode",
+    "url": "https://news.ycombinator.com/user?id=SubiculumCode"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30792057",
+  "sameAs": "https://www.statnews.com/2020/09/24/crows-possess-higher-intelligence-long-thought-primarily-human/",
+  "dateCreated": "2022-03-24T21:28:48.930Z",
+  "datePublished": "2022-03-24T16:23:05.000Z",
+  "dateModified": "2022-03-24T21:28:48.930Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 251
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 125
+    }
+  ],
+  "headline_zh-Hans": "乌鸦知道自己知道什么，可以思考自己的思想内容",
+  "headline_zh-Hant": "烏鴉知道自己知道什麼，可以思考自己的思想內容",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

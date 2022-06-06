@@ -1,0 +1,52 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--11--en--myrss--rss--NewsArticle--edd7d89e914c919203dff3d98da3b678",
+  "url": "https://www.davidhaney.io/but-it-didnt-happen-in-dev-or-qa/",
+  "headline": "But it Didn't Happen in DEV or QA!",
+  "publisher": {
+    "@type": "Organization",
+    "name": "www.davidhaney.io",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "description": "Most of us have been there: you’ve written a fantastic application that performs perfectly in your Development and/or QA environments, but in Production something goes wrong. Your application spins out of control, utilizing 100% of your CPU. Maybe it simply stops responding as if it were deadlocked. Or maybe it simply crashes randomly. What now?\nLogic tells you that you have a problem in the code somewhere that is only encountered in a Production-like environment… and if you could JUST get into the Production box, install Visual Studio (or at least the Remote Debugger), and debug the application, you’d be able to solve the problem.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "unknown",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "discussionUrl": "https://www.davidhaney.io/but-it-didnt-happen-in-dev-or-qa/",
+  "sameAs": "https://www.davidhaney.io/but-it-didnt-happen-in-dev-or-qa/",
+  "dateCreated": "2022-04-11T13:24:24.205Z",
+  "datePublished": "2012-12-02T17:22:20.000Z",
+  "dateModified": "2022-04-11T13:24:24.205Z",
+  "interactionStatistic": [],
+  "headline_zh-Hans": "但它并没有发生在开发或QA中!",
+  "headline_zh-Hant": "但它並沒有發生在開發或QA中!",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们中的大多数人都有过这样的经历：你写了一个神奇的应用程序，在你的开发和/或QA环境中表现完美，但在生产中却出了问题。你的应用程序失去了控制，占用了你100%的CPU。也许它只是简单地停止响应，好像它被锁死了。或者它只是随机地崩溃了。现在怎么办？\n逻辑告诉你，你的代码中有一个问题，只有在类似生产环境中才会遇到......如果你能进入生产环境，安装Visual Studio（或至少是远程调试器），并调试应用程序，你就能解决这个问题了。",
+  "description_zh-Hant": "我們中的大多數人都有過這樣的經歷：你寫了一個神奇的應用程序，在你的開發和/或QA環境中表現完美，但在生產中卻出了問題。你的應用程序失去了控制，佔用了你100%的CPU。也許它只是簡單地停止響應，好像它被鎖死了。或者它只是隨機地崩潰了。現在怎麼辦？\n邏輯告訴你，你的代碼中有一個問題，只有在類似生產環境中才會遇到......如果你能進入生產環境，安裝Visual Studio（或至少是遠程調試器），並調試應用程序，你就能解決這個問題了。"
+}

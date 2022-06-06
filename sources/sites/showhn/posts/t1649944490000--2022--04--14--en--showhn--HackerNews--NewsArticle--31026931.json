@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--14--en--showhn--HackerNews--NewsArticle--31026931",
+  "url": "https://news.ycombinator.com/item?id=31026931",
+  "headline": "Show HN: A different way to practice machine learning",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We built a site that posts one machine learning question every day.<p>Each question presents a problem. Usually, a real problem that you and I have or will face at some point in our careers. Questions are multi-choice, and we show you a full explanation after you answer them.<p>No bullshit: you load the page, answer the question, and leave. The next day, rinse and repeat.<p>We are using AWS in the backend. The questions are stored in a simple DynamoDB table. The React app fetches the questions from an API and tracks some basic stats, like the accuracy of the answers. Very basic functionality, but after the huge reception, we are already working on a few features like sessions and email subscriptions.<p>We have many ideas around a database of high-quality machine learning questions. We are already planning to extend the site in different ways.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "vladoh",
+    "url": "https://news.ycombinator.com/user?id=vladoh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31026931",
+  "sameAs": "https://today.bnomial.com?reg=hackernews",
+  "dateCreated": "2022-04-14T13:54:50.000Z",
+  "datePublished": "2022-04-14T13:47:47.000Z",
+  "dateModified": "2022-04-14T13:54:50.000Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 练习机器学习的不同方式",
+  "headline_zh-Hant": "Show HN: 練習機器學習的不同方式",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们建立了一个网站，每天发布一个机器学习问题。<p>每个问题都提出了一个问题。通常，这是一个你我在职业生涯的某个阶段已经或将要面临的真实问题。问题是多选的，在你回答问题后，我们会给你一个完整的解释。<p>没有废话：你加载页面，回答问题，然后离开。第二天，冲洗和重复。<p>我们在后台使用AWS。问题被存储在一个简单的DynamoDB表中。React应用程序从一个API中获取问题，并跟踪一些基本的统计数据，如答案的准确性。非常基本的功能，但在受到巨大欢迎后，我们已经在开发一些功能，如会话和电子邮件订阅。<p>我们有许多围绕高质量机器学习问题数据库的想法。我们已经在计划以不同的方式扩展该网站。",
+  "description_zh-Hant": "我們建立了一個網站，每天發佈一個機器學習問題。<p>每個問題都提出了一個問題。通常，這是一個你我在職業生涯的某個階段已經或將要面臨的真實問題。問題是多選的，在你回答問題後，我們會給你一個完整的解釋。<p>沒有廢話：你加載頁面，回答問題，然後離開。第二天，沖洗和重複。<p>我們在後臺使用AWS。問題被存儲在一個簡單的DynamoDB表中。React應用程序從一個API中獲取問題，並跟蹤一些基本的統計數據，如答案的準確性。非常基本的功能，但在受到巨大歡迎後，我們已經在開發一些功能，如會話和電子郵件訂閱。<p>我們有許多圍繞高質量機器學習問題數據庫的想法。我們已經在計劃以不同的方式擴展該網站。"
+}

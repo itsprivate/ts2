@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--09--en--showhn--HackerNews--NewsArticle--30969960",
+  "url": "https://news.ycombinator.com/item?id=30969960",
+  "headline": "Show HN: It's like Sharktank, but for the rest of us",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "nikolainiklaus",
+    "url": "https://news.ycombinator.com/user?id=nikolainiklaus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30969960",
+  "sameAs": "https://microbets.co/",
+  "dateCreated": "2022-04-09T17:33:44.314Z",
+  "datePublished": "2022-04-09T17:23:49.000Z",
+  "dateModified": "2022-04-09T17:33:44.314Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 这就像鲨鱼坦克，但对我们其他人来说，这就是鲨鱼坦克。",
+  "headline_zh-Hant": "Show HN: 這就像鯊魚坦克，但對我們其他人來說，這就是鯊魚坦克。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

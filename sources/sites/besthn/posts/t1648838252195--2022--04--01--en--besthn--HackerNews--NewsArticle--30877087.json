@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--01--en--besthn--HackerNews--NewsArticle--30877087",
+  "url": "https://news.ycombinator.com/item?id=30877087",
+  "headline": "Hackers Leak Lichess Source Code",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "yewenjie",
+    "url": "https://news.ycombinator.com/user?id=yewenjie"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30877087",
+  "sameAs": "https://lichess.org/blog/YkYNyREAAB8Amiit/hackers-leak-lichess-source-code",
+  "dateCreated": "2022-04-01T18:37:32.195Z",
+  "datePublished": "2022-04-01T11:24:38.000Z",
+  "dateModified": "2022-04-01T18:37:32.195Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 251
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 40
+    }
+  ],
+  "headline_zh-Hans": "黑客泄露Lichess源代码",
+  "headline_zh-Hant": "黑客洩露Lichess源代碼",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

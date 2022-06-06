@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--27--en--askhn--HackerNews--NewsArticle--31181606",
+  "url": "https://news.ycombinator.com/item?id=31181606",
+  "headline": "Ask HN: Best way to generate product analytics SQL?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've always used Amplitude / Mixpanel, but lately there's some queries that I just can't get out of it.<p>- Conversion funnels, grouped by user properties identified later in the funnel.\n- Highly specific cohort retention\n- Automating reporting into Google Sheets across weekly/monthly/quarterly.<p>Feels like I finally need to bite the bullet and learn SQL after pushing it off for a decade.<p>Anyone have links to services that generate SQL queries for common product analytics queries? I'm finding various blog posts, and a lot of enterprise-targeted BI tools.<p>Is there any tool that, given a schema, pops out queries? Like June.so for product analytics SQL queries.<p>Rakam looks similar to what I want, but it got bought, and seems to be EOL.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "colinplamondon",
+    "url": "https://news.ycombinator.com/user?id=colinplamondon"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31181606",
+  "sameAs": "https://news.ycombinator.com/item?id=31181606",
+  "dateCreated": "2022-04-27T16:13:29.620Z",
+  "datePublished": "2022-04-27T15:55:43.000Z",
+  "dateModified": "2022-04-27T16:13:29.620Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 产生产品分析SQL的最佳方式？",
+  "headline_zh-Hant": "Ask HN: 產生產品分析SQL的最佳方式？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我一直在使用Amplitude / Mixpanel，但最近有一些查询，我就是无法从它那里得到。<p>- 转换漏斗，按漏斗中后期确定的用户属性分组。\n- 高度具体的群组保留\n- <p>感觉我在推迟了十年之后，终于需要咬紧牙关学习SQL了。<p>谁有链接可以为常见的产品分析查询生成SQL查询的服务？我找到了各种博客文章，以及很多针对企业的BI工具。<p>是否有任何工具可以在给定模式后跳出查询？像June.so这样的产品分析SQL查询工具。<p>Rakam看起来与我想要的相似，但它被收购了，而且似乎已经失效了。",
+  "description_zh-Hant": "我一直在使用Amplitude / Mixpanel，但最近有一些查詢，我就是無法從它那裡得到。<p>- 轉換漏斗，按漏斗中後期確定的用戶屬性分組。\n- 高度具體的群組保留\n- <p>感覺我在推遲了十年之後，終於需要咬緊牙關學習SQL了。<p>誰有鏈接可以為常見的產品分析查詢生成SQL查詢的服務？我找到了各種博客文章，以及很多針對企業的BI工具。<p>是否有任何工具可以在給定模式後跳出查詢？像June.so這樣的產品分析SQL查詢工具。<p>Rakam看起來與我想要的相似，但它被收購了，而且似乎已經失效了。"
+}

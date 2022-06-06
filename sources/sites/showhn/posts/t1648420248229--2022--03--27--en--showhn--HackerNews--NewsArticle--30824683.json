@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--27--en--showhn--HackerNews--NewsArticle--30824683",
+  "url": "https://news.ycombinator.com/item?id=30824683",
+  "headline": "Show HN: KeepAlive.finance – Keep your inactive credit cards alive",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I made this for my own use and figured I might as well share it in case anyone else was looking for something like this.\nIt's just a basic stripe subscription that charges your card $1 every 6 months with the sole purpose of  preventing the credit card company from closing your account.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "cameronehrlich",
+    "url": "https://news.ycombinator.com/user?id=cameronehrlich"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30824683",
+  "sameAs": "https://keepalive.finance",
+  "dateCreated": "2022-03-27T22:30:48.229Z",
+  "datePublished": "2022-03-27T22:13:24.000Z",
+  "dateModified": "2022-03-27T22:30:48.229Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: KeepAlive.finance - 保持你的不活跃信用卡的活力",
+  "headline_zh-Hant": "Show HN: KeepAlive.finance - 保持你的不活躍信用卡的活力",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我做了这个供自己使用，并认为我不妨分享它，以防其他人正在寻找这样的东西。\n这只是一个基本的stripe订阅，每6个月向你的卡收取1美元，唯一的目的是防止信用卡公司关闭你的账户。",
+  "description_zh-Hant": "我做了這個供自己使用，並認為我不妨分享它，以防其他人正在尋找這樣的東西。\n這只是一個基本的stripe訂閱，每6個月向你的卡收取1美元，唯一的目的是防止信用卡公司關閉你的賬戶。"
+}

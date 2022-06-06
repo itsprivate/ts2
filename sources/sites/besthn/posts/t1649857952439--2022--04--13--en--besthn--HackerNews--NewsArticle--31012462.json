@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--13--en--besthn--HackerNews--NewsArticle--31012462",
+  "url": "https://news.ycombinator.com/item?id=31012462",
+  "headline": "Insider Trading at Coinbase",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Shadonototra",
+    "url": "https://news.ycombinator.com/user?id=Shadonototra"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31012462",
+  "sameAs": "https://twitter.com/cobie/status/1513874972552355846",
+  "dateCreated": "2022-04-13T13:52:32.439Z",
+  "datePublished": "2022-04-13T08:48:03.000Z",
+  "dateModified": "2022-04-13T13:52:32.439Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 148
+    }
+  ],
+  "headline_zh-Hans": "Coinbase的内幕交易",
+  "headline_zh-Hant": "Coinbase的內幕交易",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

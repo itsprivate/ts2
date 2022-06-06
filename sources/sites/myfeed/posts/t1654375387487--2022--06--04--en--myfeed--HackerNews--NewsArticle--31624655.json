@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--04--en--myfeed--HackerNews--NewsArticle--31624655",
+  "url": "https://news.ycombinator.com/item?id=31624655",
+  "headline": "Dalit 101",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "colinprince",
+    "url": "https://news.ycombinator.com/user?id=colinprince"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31624655",
+  "sameAs": "https://thelit.substack.com/p/dalit-101",
+  "dateCreated": "2022-06-04T20:43:07.487Z",
+  "datePublished": "2022-06-04T20:19:39.000Z",
+  "dateModified": "2022-06-04T20:43:07.487Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "达利特人101\n",
+  "headline_zh-Hant": "達利特人101\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

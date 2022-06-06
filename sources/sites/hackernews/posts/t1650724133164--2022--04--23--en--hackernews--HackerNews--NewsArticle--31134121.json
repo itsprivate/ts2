@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--23--en--hackernews--HackerNews--NewsArticle--31134121",
+  "url": "https://news.ycombinator.com/item?id=31134121",
+  "headline": "DevOps for the Sinclair Spectrum",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nickt",
+    "url": "https://news.ycombinator.com/user?id=nickt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31134121",
+  "sameAs": "http://www.markround.com/blog/2021/12/21/devops-for-the-sinclair-spectrum-part-1/",
+  "dateCreated": "2022-04-23T14:28:53.164Z",
+  "datePublished": "2022-04-23T13:34:32.000Z",
+  "dateModified": "2022-04-23T14:28:53.164Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "圣克莱尔光谱的DevOps",
+  "headline_zh-Hant": "聖克萊爾光譜的DevOps",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

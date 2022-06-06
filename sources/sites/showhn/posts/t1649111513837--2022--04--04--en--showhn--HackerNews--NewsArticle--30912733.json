@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--showhn--HackerNews--NewsArticle--30912733",
+  "url": "https://news.ycombinator.com/item?id=30912733",
+  "headline": "Show HN: Imagine a search engine where you can sanction results by country",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "taxonomyman",
+    "url": "https://news.ycombinator.com/user?id=taxonomyman"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30912733",
+  "sameAs": "https://sanction.millionshort.com/?hn0",
+  "dateCreated": "2022-04-04T22:31:53.837Z",
+  "datePublished": "2022-04-04T22:21:24.000Z",
+  "dateModified": "2022-04-04T22:31:53.837Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 想象一下，在一个搜索引擎中，你可以通过国家来制裁结果",
+  "headline_zh-Hant": "Show HN: 想象一下，在一個搜索引擎中，你可以通過國家來制裁結果",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

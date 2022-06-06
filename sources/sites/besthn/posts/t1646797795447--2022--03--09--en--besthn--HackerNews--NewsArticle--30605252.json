@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--09--en--besthn--HackerNews--NewsArticle--30605252",
+  "url": "https://news.ycombinator.com/item?id=30605252",
+  "headline": "Static torrent website with peer-to-peer queries over BitTorrent on 2M records",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "voigt",
+    "url": "https://news.ycombinator.com/user?id=voigt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30605252",
+  "sameAs": "https://boredcaveman.xyz/post/0x2_static-torrent-website-p2p-queries.html",
+  "dateCreated": "2022-03-09T03:49:55.447Z",
+  "datePublished": "2022-03-08T19:32:09.000Z",
+  "dateModified": "2022-03-09T03:49:55.447Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 43
+    }
+  ],
+  "headline_zh-Hans": "静态洪流网站，通过BitTorrent对200万条记录进行点对点查询",
+  "headline_zh-Hant": "靜態洪流網站，通過BitTorrent對200萬條記錄進行點對點查詢",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

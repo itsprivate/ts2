@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--06--en--besthn--HackerNews--NewsArticle--30929101",
+  "url": "https://news.ycombinator.com/item?id=30929101",
+  "headline": "I need to stop being boring",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "patrickz",
+    "url": "https://news.ycombinator.com/user?id=patrickz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30929101",
+  "sameAs": "https://patzhong.com/stop-being-boring/",
+  "dateCreated": "2022-04-06T21:38:50.426Z",
+  "datePublished": "2022-04-06T06:39:23.000Z",
+  "dateModified": "2022-04-06T21:38:50.426Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 202
+    }
+  ],
+  "headline_zh-Hans": "我需要停止无聊",
+  "headline_zh-Hant": "我需要停止無聊",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

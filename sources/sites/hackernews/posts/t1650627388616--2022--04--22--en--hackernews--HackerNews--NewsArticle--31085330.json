@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--22--en--hackernews--HackerNews--NewsArticle--31085330",
+  "url": "https://news.ycombinator.com/item?id=31085330",
+  "headline": "Quantenkoffer: Quantum Physics Science Kit",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "abrax3141",
+    "url": "https://news.ycombinator.com/user?id=abrax3141"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31085330",
+  "sameAs": "http://www.quantenkoffer.com/en/",
+  "dateCreated": "2022-04-22T11:36:28.616Z",
+  "datePublished": "2022-04-19T16:25:29.000Z",
+  "dateModified": "2022-04-22T11:36:28.616Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "量子科普。量子物理学科学套件",
+  "headline_zh-Hant": "量子科普。量子物理學科學套件",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

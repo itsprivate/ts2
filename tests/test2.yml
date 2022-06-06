@@ -1,0 +1,52 @@
+sources:
+  - from: https://deno.land/x/getfiles@v1.0.0/mod.ts
+    args:
+      - ./${{ctx.env.ENV=='dev'?'dev-':''}}sources/changed
+    key: path
+    force: true
+    # limit: 1
+    filter: return ctx.item.ext === 'json'
+steps:
+  - id: item
+    use: Deno.readTextFile
+    args:
+      - ${{ctx.item.realPath}}
+    run: return JSON.parse(ctx.result);
+  - id: form
+    run: |
+      console.log("result",ctx.steps.item.result);
+      const result = ctx.steps.item.result;
+      let isLink = result.discussionUrl !== result.url;
+      let title = result['headline_zh-Hans'];
+      if(!title){
+        return null;
+      }
+      let form =  {
+        sr: 'hnzh',
+        kind: isLink?'link':'self',
+        title: title
+      };
+      if(!isLink){
+        form.text = result['description_zh-Hans'] || "";
+        form.text += `\n\nHN 讨论地址: ${result.discussionUrl}`;
+      }
+      if(result.genre==='Ask HN'){
+        form.flair_id = "a6c89a00-9086-11ec-ad14-5e85c8d2ae00";
+      }else if (result.genre==='Show HN'){
+        form.flair_id = "8dd4f458-9086-11ec-bcbd-0ab658ce7a1d";
+      }
+      return form;
+  - use: fetch
+    if: ${{ctx.steps.form.result!==null}}
+    # Open: <https://requestbin.com/r/enyvb91j5zjv9/23eNPamD4DK4YK1rfEB1FAQOKIj> , See live webhook request. replace your webhook here
+    env:
+      DISCORD_WEBHOOK: https://enyvb91j5zjv9.x.pipedream.net/
+      REDDIT_TOKEN: ttttttttttt
+    args:
+      - ${{ctx.env.DISCORD_WEBHOOK}}
+      - headers:
+          Authorization: Bearer ${{ctx.env.REDDIT_TOKEN}}
+          User-Agent: HackerNewsZh/0.1 by hnzhbot
+          Content-Type: application/x-www-form-urlencoded
+        method: POST
+        body: "${{new URLSearchParams(ctx.steps.form.result)}}"

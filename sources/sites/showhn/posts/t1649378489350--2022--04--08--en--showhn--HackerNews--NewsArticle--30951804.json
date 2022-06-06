@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--08--en--showhn--HackerNews--NewsArticle--30951804",
+  "url": "https://news.ycombinator.com/item?id=30951804",
+  "headline": "Show HN: Himalayas.app – find remote jobs by time zone, tech stack, and more",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN! We built Himalayas to make it easier to find remote jobs based on where you live and the tools you like working with.<p>Each company on the site has a profile that outlines their tech stack, employee benefits, and other info about what they do. You can see ours here: <a href=\"https://himalayas.app/companies/himalayas\" rel=\"nofollow\">https://himalayas.app/companies/himalayas</a><p>We built the site with Rails + Tailwind on top of Render, our search is powered by OpenSearch on AWS, and we use Redis for caching :)<p>Happy to answer any questions you have!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "AbiTyasTunggal",
+    "url": "https://news.ycombinator.com/user?id=AbiTyasTunggal"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30951804",
+  "sameAs": "https://himalayas.app/",
+  "dateCreated": "2022-04-08T00:41:29.350Z",
+  "datePublished": "2022-04-08T00:01:30.000Z",
+  "dateModified": "2022-04-08T00:41:29.350Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Himalayas.app - 按时区、技术栈等寻找远程工作",
+  "headline_zh-Hant": "Show HN: Himalayas.app - 按時區、技術棧等尋找遠程工作",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN! 我们建立喜马拉雅的目的是根据你居住的地方和你喜欢的工作工具，让你更容易找到远程工作。<p>网站上的每家公司都有一个简介，概述了他们的技术栈、员工福利和其他有关他们工作的信息。你可以在这里看到我们的资料。<a href=\"https://himalayas.app/companies/himalayas\" rel=\"nofollow\">https://himalayas.app/companies/himalayas</a><p>我们用Rails + Tailwind在Render之上建立了网站，我们的搜索由AWS上的OpenSearch提供，我们使用Redis进行缓存：）<p>很高兴回答你的任何问题",
+  "description_zh-Hant": "嗨，HN! 我們建立喜馬拉雅的目的是根據你居住的地方和你喜歡的工作工具，讓你更容易找到遠程工作。<p>網站上的每家公司都有一個簡介，概述了他們的技術棧、員工福利和其他有關他們工作的信息。你可以在這裡看到我們的資料。<a href=\"https://himalayas.app/companies/himalayas\" rel=\"nofollow\">https://himalayas.app/companies/himalayas</a><p>我們用Rails + Tailwind在Render之上建立了網站，我們的搜索由AWS上的OpenSearch提供，我們使用Redis進行緩存：）<p>很高興回答你的任何問題"
+}

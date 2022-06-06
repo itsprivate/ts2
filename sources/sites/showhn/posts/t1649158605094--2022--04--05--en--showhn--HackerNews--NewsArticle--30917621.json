@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--05--en--showhn--HackerNews--NewsArticle--30917621",
+  "url": "https://news.ycombinator.com/item?id=30917621",
+  "headline": "Show HN: LeFun.fun – an online board game platform with games built in React",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "slmx",
+    "url": "https://news.ycombinator.com/user?id=slmx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30917621",
+  "sameAs": "https://lefun.fun/",
+  "dateCreated": "2022-04-05T11:36:45.094Z",
+  "datePublished": "2022-04-05T11:25:56.000Z",
+  "dateModified": "2022-04-05T11:36:45.094Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: LeFun.fun - 一个用React构建的在线棋牌游戏平台。",
+  "headline_zh-Hant": "Show HN: LeFun.fun - 一個用React構建的在線棋牌遊戲平臺。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

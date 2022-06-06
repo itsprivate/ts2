@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--29--en--besthn--HackerNews--NewsArticle--30844002",
+  "url": "https://news.ycombinator.com/item?id=30844002",
+  "headline": "USWDS: The United States Web Design System",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jakelazaroff",
+    "url": "https://news.ycombinator.com/user?id=jakelazaroff"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30844002",
+  "sameAs": "https://designsystem.digital.gov/",
+  "dateCreated": "2022-03-29T22:10:36.450Z",
+  "datePublished": "2022-03-29T15:37:09.000Z",
+  "dateModified": "2022-03-29T22:10:36.450Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 262
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 89
+    }
+  ],
+  "headline_zh-Hans": "USWDS: 美国的网页设计系统",
+  "headline_zh-Hant": "USWDS: 美國的網頁設計系統",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

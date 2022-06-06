@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--22--en--besthn--HackerNews--NewsArticle--31121319",
+  "url": "https://news.ycombinator.com/item?id=31121319",
+  "headline": "Magic-trace – High-resolution traces of what a process is doing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cgaebel",
+    "url": "https://news.ycombinator.com/user?id=cgaebel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31121319",
+  "sameAs": "https://github.com/janestreet/magic-trace",
+  "dateCreated": "2022-04-22T16:50:46.526Z",
+  "datePublished": "2022-04-22T13:30:03.000Z",
+  "dateModified": "2022-04-22T16:50:46.526Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 261
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 41
+    }
+  ],
+  "headline_zh-Hans": "Magic-trace - 高分辨率跟踪一个进程正在做什么",
+  "headline_zh-Hant": "Magic-trace - 高分辨率跟蹤一個進程正在做什麼",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

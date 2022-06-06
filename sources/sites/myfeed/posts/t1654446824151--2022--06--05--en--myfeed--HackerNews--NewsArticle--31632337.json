@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31632337",
+  "url": "https://news.ycombinator.com/item?id=31632337",
+  "headline": "The Internet Used to Be Smaller and Nicer. Let’s Get It Back",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "prostoalex",
+    "url": "https://news.ycombinator.com/user?id=prostoalex"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31632337",
+  "sameAs": "https://www.wsj.com/articles/the-internet-used-to-be-smaller-and-nicer-lets-get-it-back-11654261200",
+  "dateCreated": "2022-06-05T16:33:44.151Z",
+  "datePublished": "2022-06-05T16:21:24.000Z",
+  "dateModified": "2022-06-05T16:33:44.151Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "互联网曾经是更小、更美好的。让我们把它找回来\n",
+  "headline_zh-Hant": "互聯網曾經是更小、更美好的。讓我們把它找回來\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

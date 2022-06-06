@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--25--en--besthn--HackerNews--NewsArticle--30792902",
+  "url": "https://news.ycombinator.com/item?id=30792902",
+  "headline": "The Feynman Lectures on Physics (1964)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "simplicialset",
+    "url": "https://news.ycombinator.com/user?id=simplicialset"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30792902",
+  "sameAs": "https://feynmanlectures.caltech.edu/",
+  "dateCreated": "2022-03-25T05:50:07.472Z",
+  "datePublished": "2022-03-24T17:27:31.000Z",
+  "dateModified": "2022-03-25T05:50:07.472Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 54
+    }
+  ],
+  "headline_zh-Hans": "费曼物理学讲座》（1964年）",
+  "headline_zh-Hant": "費曼物理學講座》（1964年）",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

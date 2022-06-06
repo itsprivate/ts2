@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--02--en--showhn--HackerNews--NewsArticle--31586076",
+  "url": "https://news.ycombinator.com/item?id=31586076",
+  "headline": "Show HN: A collection of sysadmin utilities, in a single binary",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "stevekemp",
+    "url": "https://news.ycombinator.com/user?id=stevekemp"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31586076",
+  "sameAs": "https://github.com/skx/sysbox",
+  "dateCreated": "2022-06-02T13:54:27.867Z",
+  "datePublished": "2022-06-01T18:29:34.000Z",
+  "dateModified": "2022-06-02T13:54:27.867Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 在一个单一的二进制文件中收集系统管理员的实用程序\n",
+  "headline_zh-Hant": "Show HN: 在一個單一的二進制文件中收集系統管理員的實用程序\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

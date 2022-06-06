@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--21--en--showhn--HackerNews--NewsArticle--31109806",
+  "url": "https://news.ycombinator.com/item?id=31109806",
+  "headline": "Show HN: Get co-author info quickly from GitHub usernames and issue/PR URLs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "introt",
+    "url": "https://news.ycombinator.com/user?id=introt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31109806",
+  "sameAs": "https://gist.github.com/introt/ad30bcbdf789aed5bba43082741c7769",
+  "dateCreated": "2022-04-21T14:30:36.005Z",
+  "datePublished": "2022-04-21T14:23:51.000Z",
+  "dateModified": "2022-04-21T14:30:36.005Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 从GitHub用户名和issue/PR URLs快速获取合著者信息",
+  "headline_zh-Hant": "Show HN: 從GitHub用戶名和issue/PR URLs快速獲取合著者信息",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

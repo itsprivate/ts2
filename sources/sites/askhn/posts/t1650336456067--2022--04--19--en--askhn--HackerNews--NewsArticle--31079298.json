@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--19--en--askhn--HackerNews--NewsArticle--31079298",
+  "url": "https://news.ycombinator.com/item?id=31079298",
+  "headline": "Ask HN: Anyone else seeing an uptick in fraudulent declined credit/debit cards?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "This happened to me on a debit card a couple weeks ago, then to a bunch of colleagues more recently with Brex cards. All alerted that fraudulent attempts were made to use the cards at online merchants (Spotify, Shopify, etc.), i.e. card not present transactions, but some detail (cvv, expiration, etc.) of the card didn't match.<p>I hadn't used that debit card in over a year, and when I called my bank to cancel my debit card, they said that the Spotify charges were common attempts where bad guys just try card numbers to then see if the card was valid.<p>I've often wondered, there aren't THAT many digits of randomization in a payment card number (6 digits are the bin number, 1 is the luhn checksum), so I don't think it would be that hard, for example, to have a bot network just try tons of numbers at various online merchants.<p>Is this just paranoia, or has anyone else seen an uptick in these kinds of card-denied transactions?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "hn_throwaway_99",
+    "url": "https://news.ycombinator.com/user?id=hn_throwaway_99"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31079298",
+  "sameAs": "https://news.ycombinator.com/item?id=31079298",
+  "dateCreated": "2022-04-19T02:47:36.067Z",
+  "datePublished": "2022-04-19T02:43:32.000Z",
+  "dateModified": "2022-04-19T02:47:36.067Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 还有人看到信用卡/借记卡欺诈性拒付的情况增加了吗？",
+  "headline_zh-Hant": "Ask HN: 還有人看到信用卡/借記卡欺詐性拒付的情況增加了嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "几个星期前，我的借记卡发生了这种情况，然后是最近一群同事的Brex卡。<p>我有一年多没有使用那张借记卡了，当我给银行打电话取消我的借记卡时，他们说Spotify的收费是常见的尝试，坏人只是尝试卡号，然后看看卡是否有效。 <p>我经常在想，支付卡号码中没有那么多的随机数字（6位是bin号码，1位是luhn校验），所以我认为这并不难，例如，有一个僵尸网络只是在各种在线商家尝试大量的号码。",
+  "description_zh-Hant": "幾個星期前，我的借記卡發生了這種情況，然後是最近一群同事的Brex卡。<p>我有一年多沒有使用那張借記卡了，當我給銀行打電話取消我的借記卡時，他們說Spotify的收費是常見的嘗試，壞人只是嘗試卡號，然後看看卡是否有效。 <p>我經常在想，支付卡號碼中沒有那麼多的隨機數字（6位是bin號碼，1位是luhn校驗），所以我認為這並不難，例如，有一個殭屍網絡只是在各種在線商家嘗試大量的號碼。"
+}

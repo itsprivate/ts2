@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--04--en--hackernews--HackerNews--NewsArticle--31617198",
+  "url": "https://news.ycombinator.com/item?id=31617198",
+  "headline": "Linux Laptop – HP Dev One Is Available",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "auraham",
+    "url": "https://news.ycombinator.com/user?id=auraham"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31617198",
+  "sameAs": "https://hpdevone.com/#specs",
+  "dateCreated": "2022-06-04T05:41:21.510Z",
+  "datePublished": "2022-06-04T05:09:34.000Z",
+  "dateModified": "2022-06-04T05:41:21.510Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 27
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 7
+    }
+  ],
+  "headline_zh-Hans": "Linux笔记本电脑--HP Dev One问世\n",
+  "headline_zh-Hant": "Linux筆記本電腦--HP Dev One問世\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

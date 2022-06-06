@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--22--en--hackernews--HackerNews--NewsArticle--31113011",
+  "url": "https://news.ycombinator.com/item?id=31113011",
+  "headline": "An overview of version control in programming",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ashvardanian",
+    "url": "https://news.ycombinator.com/user?id=ashvardanian"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31113011",
+  "sameAs": "https://lemire.me/blog/2022/04/21/an-overview-of-version-control-in-programming/",
+  "dateCreated": "2022-04-22T21:29:30.344Z",
+  "datePublished": "2022-04-21T18:02:56.000Z",
+  "dateModified": "2022-04-22T21:29:30.344Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 22
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "编程中的版本控制概述",
+  "headline_zh-Hant": "編程中的版本控制概述",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--28--en--showhn--HackerNews--NewsArticle--30831251",
+  "url": "https://news.ycombinator.com/item?id=30831251",
+  "headline": "Show HN: Python package to create image embeddings without PyTorch/TensorFlow",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "minimaxir",
+    "url": "https://news.ycombinator.com/user?id=minimaxir"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30831251",
+  "sameAs": "https://github.com/minimaxir/imgbeddings",
+  "dateCreated": "2022-03-28T15:11:00.367Z",
+  "datePublished": "2022-03-28T15:07:40.000Z",
+  "dateModified": "2022-03-28T15:11:00.367Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 在没有PyTorch/TensorFlow的情况下创建图像嵌入的Python包",
+  "headline_zh-Hant": "Show HN: 在沒有PyTorch/TensorFlow的情況下創建圖像嵌入的Python包",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

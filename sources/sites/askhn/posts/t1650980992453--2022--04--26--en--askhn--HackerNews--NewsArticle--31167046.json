@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--26--en--askhn--HackerNews--NewsArticle--31167046",
+  "url": "https://news.ycombinator.com/item?id=31167046",
+  "headline": "Ask HN: Can I make my whole web service completely transparent?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Say, I am building a service which I want to gain natural 100% trust from anyone who uses it or for any reason is skeptical about it.<p>As a parallel example, I as a user can 100% trust, e.g. lodash library to use in my projects. It's open-source, popular, traceable by the large community and there is literally no place for any backdoor, hidden tracking and so on.<p>So, what if I want my service with all its infrastructure, data in databases, incoming and outgoing connections to be 100% transparent, open to be investigated and audited?<p>Disregard the problem of data privacy and sensitivity - assume that there is no such data.<p>Problems I see:<p>- When I create a commit/push to the codebase, then run CI, how do I as the owner can prove that exactly this build goes to production without any backdoor being added to it when deployed?<p>- As a user how do I know there is no hidden process running tracking events, data writes in background while I am performing some action?<p>- As a user how do I know the monitoring/audit tools provided by the owner are not fake and show exactly the state of the service?<p>- Is it even possible in reality to create it the way when an arbitrary user, having some level of expertise and some level of access to the system (in order not to bring harm) could say that the system is completely clear in all its incentives, data and processes?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "cosmorocket",
+    "url": "https://news.ycombinator.com/user?id=cosmorocket"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31167046",
+  "sameAs": "https://news.ycombinator.com/item?id=31167046",
+  "dateCreated": "2022-04-26T13:49:52.453Z",
+  "datePublished": "2022-04-26T13:11:50.000Z",
+  "dateModified": "2022-04-26T13:49:52.453Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我可以使我的整个网络服务完全透明吗？",
+  "headline_zh-Hant": "Ask HN: 我可以使我的整個網絡服務完全透明嗎？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "<p>作为一个平行的例子，我作为一个用户可以100%地信任，例如在我的项目中使用lodash库。<p>那么，如果我希望我的服务及其所有的基础设施、数据库中的数据、传入和传出的连接都是100%透明的，可以被调查和审计呢？ <p>不考虑数据的隐私和敏感性问题--假设没有这样的数据。<p>我看到的问题是：<p>- 当我创建一个提交/推送到代码库，然后运行CI，作为所有者，我如何证明这个构建在部署时没有任何后门被加入到生产中？ <p>- 作为一个用户，我怎么知道在我执行某些操作的时候，没有隐藏的进程在后台运行跟踪事件和数据写入？<p>- 作为一个用户，我怎么知道所有者提供的监控/审计工具不是假的，并准确显示服务的状态？<p>- 在现实中是否有可能创建这样的方式，当一个任意的用户，拥有某种程度的专业知识和某种程度的对系统的访问（为了不带来伤害）可以说系统的所有激励、数据和进程都是完全清晰的？",
+  "description_zh-Hant": "<p>作為一個平行的例子，我作為一個用戶可以100%地信任，例如在我的項目中使用lodash庫。<p>那麼，如果我希望我的服務及其所有的基礎設施、數據庫中的數據、傳入和傳出的連接都是100%透明的，可以被調查和審計呢？ <p>不考慮數據的隱私和敏感性問題--假設沒有這樣的數據。<p>我看到的問題是：<p>- 當我創建一個提交/推送到代碼庫，然後運行CI，作為所有者，我如何證明這個構建在部署時沒有任何後門被加入到生產中？ <p>- 作為一個用戶，我怎麼知道在我執行某些操作的時候，沒有隱藏的進程在後臺運行跟蹤事件和數據寫入？<p>- 作為一個用戶，我怎麼知道所有者提供的監控/審計工具不是假的，並準確顯示服務的狀態？<p>- 在現實中是否有可能創建這樣的方式，當一個任意的用戶，擁有某種程度的專業知識和某種程度的對系統的訪問（為了不帶來傷害）可以說系統的所有激勵、數據和進程都是完全清晰的？"
+}

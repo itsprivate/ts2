@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--02--en--besthn--HackerNews--NewsArticle--31587316",
+  "url": "https://news.ycombinator.com/item?id=31587316",
+  "headline": "No, DALL-E doesn’t have a secret language",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "doener",
+    "url": "https://news.ycombinator.com/user?id=doener"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31587316",
+  "sameAs": "https://twitter.com/benjamin_hilton/status/1531780892972175361",
+  "dateCreated": "2022-06-02T16:43:09.869Z",
+  "datePublished": "2022-06-01T20:08:28.000Z",
+  "dateModified": "2022-06-02T16:43:09.869Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 251
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 130
+    }
+  ],
+  "headline_zh-Hans": "不，DALL-E没有秘密语言\n",
+  "headline_zh-Hant": "不，DALL-E沒有秘密語言\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

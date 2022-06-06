@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--19--en--besthn--HackerNews--NewsArticle--30707711",
+  "url": "https://news.ycombinator.com/item?id=30707711",
+  "headline": "How NAT traversal works (2020)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "robocat",
+    "url": "https://news.ycombinator.com/user?id=robocat"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30707711",
+  "sameAs": "https://tailscale.com/blog/how-nat-traversal-works/",
+  "dateCreated": "2022-03-19T17:14:19.415Z",
+  "datePublished": "2022-03-17T04:35:58.000Z",
+  "dateModified": "2022-03-19T17:14:19.415Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 252
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 14
+    }
+  ],
+  "headline_zh-Hans": "NAT穿越是如何工作的 (2020)",
+  "headline_zh-Hant": "NAT穿越是如何工作的 (2020)",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

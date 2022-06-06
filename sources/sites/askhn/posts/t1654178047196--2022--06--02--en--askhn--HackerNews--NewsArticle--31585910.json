@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--02--en--askhn--HackerNews--NewsArticle--31585910",
+  "url": "https://news.ycombinator.com/item?id=31585910",
+  "headline": "Ask HN: Writing automations – serverless or cron jobs?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey Hackers,\nI've got a classic conundrum on my hands: While most of my architecture is about handling events, we've got the first few requests for stuff that's happening at regular intervals, or happens a certain amount of time after an event.\nOne example is follow-up pings after signup. We want to tell the user about additional features in the few days after they first sign up, so we want to emit messages 48 and 72 hours after sign up.\nMy question is whether lightweight serverless tools feel 'ready' to do these scheduled tasks, or if you're still using cron jobs to do stuff like this.\nI should say that I'm aware of a third path that turns out to be pretty common: instead of follow up messages coming from our own stack, a signup would add someone to a 'campaign' in a CRM tool like Salesforce. That feels clunky, I'm not even an admin on our CRM, so I want to do it from inside my own tools.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "serverlessmom",
+    "url": "https://news.ycombinator.com/user?id=serverlessmom"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31585910",
+  "sameAs": "https://news.ycombinator.com/item?id=31585910",
+  "dateCreated": "2022-06-02T13:54:07.196Z",
+  "datePublished": "2022-06-01T18:18:22.000Z",
+  "dateModified": "2022-06-02T13:54:07.196Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 编写自动化程序--无服务器或cron作业？\n",
+  "headline_zh-Hant": "Ask HN: 編寫自動化程序--無服務器或cron作業？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嘿，黑客们。\n我手上有一个典型的难题。虽然我的大部分架构都是关于处理事件的，但我们已经得到了前几个请求，这些请求是定期发生的，或在事件发生后的一定时间内发生的。\n一个例子是注册后的后续平移。我们想在用户首次注册后的几天内告诉他们更多的功能，所以我们想在注册后48小时和72小时内发出消息。\n我的问题是，轻量级的无服务器工具是否觉得已经 \"准备好 \"做这些计划任务，或者你是否仍在使用cron jobs来做这样的事情。\n我应该说，我知道有第三条路径，原来是很常见的：注册后的跟进信息不是来自我们自己的堆栈，而是将某人添加到CRM工具（如Salesforce）的 \"活动 \"中。这感觉很笨拙，我甚至不是我们的CRM的管理员，所以我想从我自己的工具里面做。\n",
+  "description_zh-Hant": "嘿，黑客們。\n我手上有一個典型的難題。雖然我的大部分架構都是關於處理事件的，但我們已經得到了前幾個請求，這些請求是定期發生的，或在事件發生後的一定時間內發生的。\n一個例子是註冊後的後續平移。我們想在用戶首次註冊後的幾天內告訴他們更多的功能，所以我們想在註冊後48小時和72小時內發出消息。\n我的問題是，輕量級的無服務器工具是否覺得已經 \"準備好 \"做這些計劃任務，或者你是否仍在使用cron jobs來做這樣的事情。\n我應該說，我知道有第三條路徑，原來是很常見的：註冊後的跟進信息不是來自我們自己的堆棧，而是將某人添加到CRM工具（如Salesforce）的 \"活動 \"中。這感覺很笨拙，我甚至不是我們的CRM的管理員，所以我想從我自己的工具裡面做。\n"
+}

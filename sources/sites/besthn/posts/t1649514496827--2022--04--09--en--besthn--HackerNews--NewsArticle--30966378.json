@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--09--en--besthn--HackerNews--NewsArticle--30966378",
+  "url": "https://news.ycombinator.com/item?id=30966378",
+  "headline": "An Account of the Shanghai Lockdown",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "user_named",
+    "url": "https://news.ycombinator.com/user?id=user_named"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30966378",
+  "sameAs": "https://jaapgrolleman.com/shanghais-stunning-fall-from-grace/",
+  "dateCreated": "2022-04-09T14:28:16.827Z",
+  "datePublished": "2022-04-09T09:04:28.000Z",
+  "dateModified": "2022-04-09T14:28:16.827Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 268
+    }
+  ],
+  "headline_zh-Hans": "关于上海封锁的叙述",
+  "headline_zh-Hant": "關於上海封鎖的敘述",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31634084",
+  "url": "https://news.ycombinator.com/item?id=31634084",
+  "headline": "One-end encryption, stronger than end-to-end",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rdpintqogeogsaa",
+    "url": "https://news.ycombinator.com/user?id=rdpintqogeogsaa"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31634084",
+  "sameAs": "https://github.com/veorq/oee",
+  "dateCreated": "2022-06-05T19:55:54.770Z",
+  "datePublished": "2022-06-05T19:28:32.000Z",
+  "dateModified": "2022-06-05T19:55:54.770Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "单端加密，比端到端更强\n",
+  "headline_zh-Hant": "單端加密，比端到端更強\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

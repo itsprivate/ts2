@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--28--en--showhn--HackerNews--NewsArticle--30836801",
+  "url": "https://news.ycombinator.com/item?id=30836801",
+  "headline": "Show HN: An updating EV Lease List for San Francisco, Los Angeles and Seattle",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "nikodunk",
+    "url": "https://news.ycombinator.com/user?id=nikodunk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30836801",
+  "sameAs": "https://app.electrade.app",
+  "dateCreated": "2022-03-28T23:30:31.454Z",
+  "datePublished": "2022-03-28T23:20:32.000Z",
+  "dateModified": "2022-03-28T23:30:31.454Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 旧金山、洛杉矶和西雅图的最新电动车租赁清单",
+  "headline_zh-Hant": "Show HN: 舊金山、洛杉磯和西雅圖的最新電動車租賃清單",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

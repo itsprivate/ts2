@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--27--en--besthn--HackerNews--NewsArticle--31173484",
+  "url": "https://news.ycombinator.com/item?id=31173484",
+  "headline": "How to write a Git commit message (2014)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "baristaGeek",
+    "url": "https://news.ycombinator.com/user?id=baristaGeek"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31173484",
+  "sameAs": "https://cbea.ms/git-commit/",
+  "dateCreated": "2022-04-27T17:21:07.666Z",
+  "datePublished": "2022-04-26T21:35:44.000Z",
+  "dateModified": "2022-04-27T17:21:07.666Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 157
+    }
+  ],
+  "headline_zh-Hans": "如何写好Git提交信息（2014年）",
+  "headline_zh-Hant": "如何寫好Git提交信息（2014年）",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

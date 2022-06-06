@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--12--en--besthn--HackerNews--NewsArticle--30649814",
+  "url": "https://news.ycombinator.com/item?id=30649814",
+  "headline": "Modern movies teach us awful lessons [video]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jdkee",
+    "url": "https://news.ycombinator.com/user?id=jdkee"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30649814",
+  "sameAs": "https://www.youtube.com/watch?v=Dnuqp4_K7ik",
+  "dateCreated": "2022-03-12T17:00:06.516Z",
+  "datePublished": "2022-03-12T08:00:46.000Z",
+  "dateModified": "2022-03-12T17:00:06.516Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 254
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 274
+    }
+  ],
+  "headline_zh-Hans": "现代电影给我们带来了可怕的教训[视频]",
+  "headline_zh-Hant": "現代電影給我們帶來了可怕的教訓[視頻]",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--03--en--hackernews--HackerNews--NewsArticle--31604299",
+  "url": "https://news.ycombinator.com/item?id=31604299",
+  "headline": "Software Automatic Mouth – Tiny Speech Synthesizer",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "userbinator",
+    "url": "https://news.ycombinator.com/user?id=userbinator"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31604299",
+  "sameAs": "https://github.com/s-macke/SAM",
+  "dateCreated": "2022-06-03T23:43:02.144Z",
+  "datePublished": "2022-06-03T04:28:15.000Z",
+  "dateModified": "2022-06-03T23:43:02.144Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "软件自动口令--微小的语音合成器\n",
+  "headline_zh-Hant": "軟件自動口令--微小的語音合成器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

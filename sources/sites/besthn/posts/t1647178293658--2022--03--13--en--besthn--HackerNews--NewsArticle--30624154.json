@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--03--13--en--besthn--HackerNews--NewsArticle--30624154",
+  "url": "https://news.ycombinator.com/item?id=30624154",
+  "headline": "Why offer an Onion Address rather than just encourage browsing-over-Tor?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kettunen",
+    "url": "https://news.ycombinator.com/user?id=kettunen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30624154",
+  "sameAs": "https://alecmuffett.com/article/16007",
+  "dateCreated": "2022-03-13T13:31:33.658Z",
+  "datePublished": "2022-03-10T07:32:40.000Z",
+  "dateModified": "2022-03-13T13:31:33.658Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 131
+    }
+  ],
+  "headline_zh-Hans": "为什么要提供洋葱地址，而不是仅仅鼓励在Tor上浏览？",
+  "headline_zh-Hant": "為什麼要提供洋蔥地址，而不是僅僅鼓勵在Tor上瀏覽？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

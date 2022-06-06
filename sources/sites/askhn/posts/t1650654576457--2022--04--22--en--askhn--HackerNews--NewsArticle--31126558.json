@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--22--en--askhn--HackerNews--NewsArticle--31126558",
+  "url": "https://news.ycombinator.com/item?id=31126558",
+  "headline": "Ask HN: Is there a market for an “Open” but non-free(beer) Twitter-like service?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "You pay $5 to get unlimited posts (throttled to 1kb / sec). No ads. No selling of user data. Just a free and open API (for users) with a basic (fully-modifiable) web UI. No censorship (except for laws enforced by hosting country).<p>To make it possible, it'd have to be a MVP - just basic twitter functionality with all posts stored in memory and accessible for only a few days. Just basic, high-performance, low-latency micro-blogging with an extendable API. Everything else would be outsourced to the community: search, direct messaging, analytics, history, advanced functionality, etc.<p>It would be like a centralized mastodon, but with a b-corporation type structure.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "afpx",
+    "url": "https://news.ycombinator.com/user?id=afpx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31126558",
+  "sameAs": "https://news.ycombinator.com/item?id=31126558",
+  "dateCreated": "2022-04-22T19:09:36.457Z",
+  "datePublished": "2022-04-22T19:05:42.000Z",
+  "dateModified": "2022-04-22T19:09:36.457Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 类似Twitter的 \"开放 \"但非免费（啤酒）的服务是否有市场？",
+  "headline_zh-Hant": "Ask HN: 類似Twitter的 \"開放 \"但非免費（啤酒）的服務是否有市場？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你支付5美元就可以获得无限量的帖子（节流到1kb/秒）。没有广告。不出售用户数据。只是一个免费和开放的API（对用户），有一个基本的（完全可修改的）网络用户界面。没有审查制度（除了托管国执行的法律）。<p>为了使其成为可能，它必须是一个MVP--只是基本的twitter功能，所有的帖子都存储在内存中，只能在几天内访问。只是基本的、高性能的、低延迟的微博客，并有可扩展的API。其他一切都将外包给社区：搜索、直接通信、分析、历史、高级功能等。<p>这将是一个集中的乳牛，但有一个B-公司类型的结构。",
+  "description_zh-Hant": "你支付5美元就可以獲得無限量的帖子（節流到1kb/秒）。沒有廣告。不出售用戶數據。只是一個免費和開放的API（對用戶），有一個基本的（完全可修改的）網絡用戶界面。沒有審查制度（除了託管國執行的法律）。<p>為了使其成為可能，它必須是一個MVP--只是基本的twitter功能，所有的帖子都存儲在內存中，只能在幾天內訪問。只是基本的、高性能的、低延遲的微博客，並有可擴展的API。其他一切都將外包給社區：搜索、直接通信、分析、歷史、高級功能等。<p>這將是一個集中的乳牛，但有一個B-公司類型的結構。"
+}

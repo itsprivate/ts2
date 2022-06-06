@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--25--en--showhn--HackerNews--NewsArticle--31156807",
+  "url": "https://news.ycombinator.com/item?id=31156807",
+  "headline": "Show HN: Communick, a professionally-managed Fediverse and Matrix provider",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "rglullis",
+    "url": "https://news.ycombinator.com/user?id=rglullis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31156807",
+  "sameAs": "https://communick.com",
+  "dateCreated": "2022-04-25T16:47:58.588Z",
+  "datePublished": "2022-04-25T16:05:19.000Z",
+  "dateModified": "2022-04-25T16:47:58.588Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Communick，一个专业管理的Fediverse和Matrix供应商",
+  "headline_zh-Hant": "Show HN: Communick，一個專業管理的Fediverse和Matrix供應商",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

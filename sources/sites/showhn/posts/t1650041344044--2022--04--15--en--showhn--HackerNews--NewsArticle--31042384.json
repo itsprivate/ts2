@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--15--en--showhn--HackerNews--NewsArticle--31042384",
+  "url": "https://news.ycombinator.com/item?id=31042384",
+  "headline": "Show HN: I wrote a short book on web applications with PHP for beginners",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "krasotkin",
+    "url": "https://news.ycombinator.com/user?id=krasotkin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31042384",
+  "sameAs": "https://bryanhoffman.github.io/",
+  "dateCreated": "2022-04-15T16:49:04.044Z",
+  "datePublished": "2022-04-15T16:43:03.000Z",
+  "dateModified": "2022-04-15T16:49:04.044Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我为初学者写了一本关于用PHP开发Web应用程序的短书",
+  "headline_zh-Hant": "Show HN: 我為初學者寫了一本關於用PHP開發Web應用程序的短書",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

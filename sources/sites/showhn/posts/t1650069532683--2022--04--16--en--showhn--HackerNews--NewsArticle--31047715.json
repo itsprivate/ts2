@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--16--en--showhn--HackerNews--NewsArticle--31047715",
+  "url": "https://news.ycombinator.com/item?id=31047715",
+  "headline": "Show HN: VocabSieve, a tool for vocabulary acquisition through text",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I made this tool for learning vocabulary while reading. All the other alternatives I've seen are either proprietary, too difficult to set up, or lack features I need.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "alwayslikethis",
+    "url": "https://news.ycombinator.com/user?id=alwayslikethis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31047715",
+  "sameAs": "https://github.com/FreeLanguageTools/vocabsieve",
+  "dateCreated": "2022-04-16T00:38:52.683Z",
+  "datePublished": "2022-04-16T00:31:36.000Z",
+  "dateModified": "2022-04-16T00:38:52.683Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: VocabSieve，一个通过文本获取词汇的工具",
+  "headline_zh-Hant": "Show HN: VocabSieve，一個通過文本獲取詞彙的工具",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我做这个工具是为了在阅读时学习词汇。我看到的所有其他替代品要么是专有的，要么是太难设置的，要么是缺乏我需要的功能。",
+  "description_zh-Hant": "我做這個工具是為了在閱讀時學習詞彙。我看到的所有其他替代品要麼是專有的，要麼是太難設置的，要麼是缺乏我需要的功能。"
+}

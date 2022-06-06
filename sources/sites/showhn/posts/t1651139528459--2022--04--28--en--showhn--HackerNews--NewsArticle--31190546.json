@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--28--en--showhn--HackerNews--NewsArticle--31190546",
+  "url": "https://news.ycombinator.com/item?id=31190546",
+  "headline": "Show HN: Unified Interface for Data Services",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "shadev",
+    "url": "https://news.ycombinator.com/user?id=shadev"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31190546",
+  "sameAs": "https://github.com/heapland/heapland",
+  "dateCreated": "2022-04-28T09:52:08.459Z",
+  "datePublished": "2022-04-28T09:45:25.000Z",
+  "dateModified": "2022-04-28T09:52:08.459Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 数据服务的统一接口",
+  "headline_zh-Hant": "Show HN: 數據服務的統一接口",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

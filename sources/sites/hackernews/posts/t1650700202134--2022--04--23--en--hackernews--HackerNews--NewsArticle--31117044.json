@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--23--en--hackernews--HackerNews--NewsArticle--31117044",
+  "url": "https://news.ycombinator.com/item?id=31117044",
+  "headline": "Intelligent Agent: How Pattie Maes Almost Invented Social Media",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Hooke",
+    "url": "https://news.ycombinator.com/user?id=Hooke"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31117044",
+  "sameAs": "https://hiddenheroes.netguru.com/pattie-maes",
+  "dateCreated": "2022-04-23T07:50:02.134Z",
+  "datePublished": "2022-04-22T00:58:46.000Z",
+  "dateModified": "2022-04-23T07:50:02.134Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "智能代理：帕蒂-梅斯如何几乎发明了社交媒体",
+  "headline_zh-Hant": "智能代理：帕蒂-梅斯如何幾乎發明了社交媒體",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

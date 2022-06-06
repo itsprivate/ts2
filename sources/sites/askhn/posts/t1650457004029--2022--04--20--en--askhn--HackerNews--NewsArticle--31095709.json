@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--20--en--askhn--HackerNews--NewsArticle--31095709",
+  "url": "https://news.ycombinator.com/item?id=31095709",
+  "headline": "Ask HN: What gives Cloudflare the right to takedown apps revealing site real IP?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I stumbled across an interesting app called “CrimeFlare” and what it does is reveal the real IP website’s using Cloudflare’s Ddos Mitigation Service.<p>CloudFlare had it taken down. https://github.com/zidansec/CrimeFlare<p>I’m assuming it does this by scanning the public internet in it’s entirely, indexing the domains. (A household fiber connection can scan the entire IPv4 space in a mere matter of weeks)<p>This is obviously a huge threat to CloudFlare’s entire business model and it totally makes sense that they want to bury this.<p>I just fail to understand what grounds they have to take something like this down. Internet IPs are public knowledge and these websites are publicly accessible. Just because Cloudflare built a billion dollar buisness exploiting the fact that sites “real” IPs can be hidden through obscurity, doesn’t mean they should be able to censor/takedown apps that expose the flaw in their business plan!<p>Anyways, I intend to create a new internet-wide scanning system in order to revive the functionality of  CrimeFlare just to prove a point that security through obscurity is no security and all, and that CloudFlare doesn’t have the right to take something like this down!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "5ESS",
+    "url": "https://news.ycombinator.com/user?id=5ESS"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31095709",
+  "sameAs": "https://news.ycombinator.com/item?id=31095709",
+  "dateCreated": "2022-04-20T12:16:44.029Z",
+  "datePublished": "2022-04-20T12:10:09.000Z",
+  "dateModified": "2022-04-20T12:16:44.029Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 是什么让Cloudflare有权查封暴露网站真实IP的应用程序？",
+  "headline_zh-Hant": "Ask HN: 是什麼讓Cloudflare有權查封暴露網站真實IP的應用程序？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我偶然发现了一个有趣的应用程序，名为 \"CrimeFlare\"，它的作用是揭示使用Cloudflare的Ddos缓解服务的真实IP网站。<p>CloudFlare已将其拿下。https://github.com/zidansec/CrimeFlare<p>我假设它是通过完全扫描公共互联网，对域名进行索引。(一个家庭的光纤连接可以在短短几周内扫描整个IPv4空间）<p>这显然是对CloudFlare整个商业模式的巨大威胁，他们想埋葬它是完全合理的。<p>我只是不明白他们有什么理由把这样的东西拿下来。互联网 IP 是公共知识，这些网站可以公开访问。仅仅因为Cloudflare利用网站的 \"真实 \"IP可以通过隐蔽性隐藏的事实建立了一个价值10亿美元的企业，并不意味着他们应该能够审查/取缔暴露其商业计划中的缺陷的应用程序！<p>无论如何，我打算创建一个新的全互联网扫描系统，以恢复CrimeFlare的功能，只是为了证明一个观点：通过隐蔽性的安全是不安全的，而且CloudFlare没有权利取下这样的东西",
+  "description_zh-Hant": "我偶然發現了一個有趣的應用程序，名為 \"CrimeFlare\"，它的作用是揭示使用Cloudflare的Ddos緩解服務的真實IP網站。<p>CloudFlare已將其拿下。https://github.com/zidansec/CrimeFlare<p>我假設它是通過完全掃描公共互聯網，對域名進行索引。(一個家庭的光纖連接可以在短短几周內掃描整個IPv4空間）<p>這顯然是對CloudFlare整個商業模式的巨大威脅，他們想埋葬它是完全合理的。<p>我只是不明白他們有什麼理由把這樣的東西拿下來。互聯網 IP 是公共知識，這些網站可以公開訪問。僅僅因為Cloudflare利用網站的 \"真實 \"IP可以通過隱蔽性隱藏的事實建立了一個價值10億美元的企業，並不意味著他們應該能夠審查/取締暴露其商業計劃中的缺陷的應用程序！<p>無論如何，我打算創建一個新的全互聯網掃描系統，以恢復CrimeFlare的功能，只是為了證明一個觀點：通過隱蔽性的安全是不安全的，而且CloudFlare沒有權利取下這樣的東西"
+}

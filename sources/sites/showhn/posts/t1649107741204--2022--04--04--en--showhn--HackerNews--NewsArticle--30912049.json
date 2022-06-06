@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--showhn--HackerNews--NewsArticle--30912049",
+  "url": "https://news.ycombinator.com/item?id=30912049",
+  "headline": "Show HN: Tricorder – Automation the KISS way, no YAML involved, written in Rust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "linkdd",
+    "url": "https://news.ycombinator.com/user?id=linkdd"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30912049",
+  "sameAs": "https://linkdd.github.io/tricorder/",
+  "dateCreated": "2022-04-04T21:29:01.204Z",
+  "datePublished": "2022-04-04T21:18:33.000Z",
+  "dateModified": "2022-04-04T21:29:01.204Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Tricorder - 自动化的KISS方式，不涉及YAML，用Rust编写",
+  "headline_zh-Hant": "Show HN: Tricorder - 自動化的KISS方式，不涉及YAML，用Rust編寫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

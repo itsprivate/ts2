@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--26--en--hackernews--HackerNews--NewsArticle--31150209",
+  "url": "https://news.ycombinator.com/item?id=31150209",
+  "headline": "Default Arguments and Label-Based Overloading",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "todsacerdoti",
+    "url": "https://news.ycombinator.com/user?id=todsacerdoti"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31150209",
+  "sameAs": "https://belkadan.com/blog/2022/04/Default-Arguments-and-Label-based-Overloading/",
+  "dateCreated": "2022-04-26T13:49:53.272Z",
+  "datePublished": "2022-04-25T02:21:22.000Z",
+  "dateModified": "2022-04-26T13:49:53.272Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "默认参数和基于标签的重载",
+  "headline_zh-Hant": "默認參數和基於標籤的重載",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

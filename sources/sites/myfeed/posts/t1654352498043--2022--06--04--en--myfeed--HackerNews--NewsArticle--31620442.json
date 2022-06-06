@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--04--en--myfeed--HackerNews--NewsArticle--31620442",
+  "url": "https://news.ycombinator.com/item?id=31620442",
+  "headline": "Police want your happy childhood pictures to train AI to detect child abuse",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "LinuxBender",
+    "url": "https://news.ycombinator.com/user?id=LinuxBender"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31620442",
+  "sameAs": "https://www.theregister.com/2022/06/03/police_australia_ai/",
+  "dateCreated": "2022-06-04T14:21:38.043Z",
+  "datePublished": "2022-06-04T14:04:12.000Z",
+  "dateModified": "2022-06-04T14:21:38.043Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "警方希望通过你的快乐童年照片来训练AI检测虐待儿童行为\n",
+  "headline_zh-Hant": "警方希望通過你的快樂童年照片來訓練AI檢測虐待兒童行為\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

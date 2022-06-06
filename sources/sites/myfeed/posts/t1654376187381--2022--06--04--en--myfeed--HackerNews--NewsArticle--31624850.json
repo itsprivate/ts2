@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--04--en--myfeed--HackerNews--NewsArticle--31624850",
+  "url": "https://news.ycombinator.com/item?id=31624850",
+  "headline": "Housing Demand and Remote Work",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "throw0101c",
+    "url": "https://news.ycombinator.com/user?id=throw0101c"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31624850",
+  "sameAs": "https://www.nber.org/papers/w30041",
+  "dateCreated": "2022-06-04T20:56:27.381Z",
+  "datePublished": "2022-06-04T20:43:06.000Z",
+  "dateModified": "2022-06-04T20:56:27.381Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "住房需求和远程工作\n",
+  "headline_zh-Hant": "住房需求和遠程工作\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

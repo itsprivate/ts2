@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--besthn--HackerNews--NewsArticle--31624930",
+  "url": "https://news.ycombinator.com/item?id=31624930",
+  "headline": "Do not combine footers and infinite scrolling",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "harryvederci",
+    "url": "https://news.ycombinator.com/user?id=harryvederci"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31624930",
+  "sameAs": "https://willfennel.com/posts/2022/06/04/do-not-combine-footers-and-infinite-scrolling.html",
+  "dateCreated": "2022-06-05T13:11:43.075Z",
+  "datePublished": "2022-06-04T20:50:50.000Z",
+  "dateModified": "2022-06-05T13:11:43.075Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 253
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 117
+    }
+  ],
+  "headline_zh-Hans": "不要把页脚和无限滚动结合起来\n",
+  "headline_zh-Hant": "不要把頁腳和無限滾動結合起來\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--14--en--showhn--HackerNews--NewsArticle--31032601",
+  "url": "https://news.ycombinator.com/item?id=31032601",
+  "headline": "Show HN: Hacker News reader focused on readability",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "hsblhsn",
+    "url": "https://news.ycombinator.com/user?id=hsblhsn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31032601",
+  "sameAs": "https://hn.hsblhsn.me?traffic_source=show_hn",
+  "dateCreated": "2022-04-14T20:12:30.826Z",
+  "datePublished": "2022-04-14T20:09:22.000Z",
+  "dateModified": "2022-04-14T20:12:30.826Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 注重可读性的Hacker News阅读器",
+  "headline_zh-Hant": "Show HN: 注重可讀性的Hacker News閱讀器",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

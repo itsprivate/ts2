@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--02--27--en--besthn--HackerNews--NewsArticle--30480862",
+  "url": "https://news.ycombinator.com/item?id=30480862",
+  "headline": "GitHub’s database of security advisories is now open source",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "greysteil",
+    "url": "https://news.ycombinator.com/user?id=greysteil"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30480862",
+  "sameAs": "https://github.blog/2022-02-22-github-advisory-database-now-open-to-community-contributions/",
+  "dateCreated": "2022-02-27T06:34:56.347Z",
+  "datePublished": "2022-02-26T19:22:43.000Z",
+  "dateModified": "2022-02-27T06:34:56.347Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 251
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 37
+    }
+  ],
+  "headline_zh-Hans": "GitHub的安全顾问数据库现已开放源代码",
+  "headline_zh-Hant": "GitHub的安全顧問數據庫現已開放源代碼",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

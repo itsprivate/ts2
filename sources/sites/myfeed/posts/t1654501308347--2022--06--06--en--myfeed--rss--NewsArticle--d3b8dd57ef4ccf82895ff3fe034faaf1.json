@@ -1,0 +1,52 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--06--en--myfeed--rss--NewsArticle--d3b8dd57ef4ccf82895ff3fe034faaf1",
+  "url": "https://www.davidhaney.io/determine-mime-type-from-file-name/",
+  "headline": "Determine MIME Type from File Name",
+  "publisher": {
+    "@type": "Organization",
+    "name": "www.davidhaney.io",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "description": "I recently had a need, in an ASP.NET MVC3 application, to read raw HTML, CSS, JS, and image files from disk and return them to the user… A sort of “pass-through” if you will. Normally I’d have simply routed to a custom HTTP handler per file type or just allowed MVC3 to map existing files to supply its own .NET HTTP handlers and do all of this work for me, but in this case I needed the mapped “directory” to switch behind the scenes based on Session settings… So I ultimately had to feed these files through a Controller and Action Method to gain access to the Session.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "unknown",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "discussionUrl": "https://www.davidhaney.io/determine-mime-type-from-file-name/",
+  "sameAs": "https://www.davidhaney.io/determine-mime-type-from-file-name/",
+  "dateCreated": "2022-06-06T07:41:48.347Z",
+  "datePublished": "2013-02-11T15:15:46.000Z",
+  "dateModified": "2022-06-06T07:41:48.347Z",
+  "interactionStatistic": [],
+  "headline_zh-Hans": "根据文件名确定MIME类型\n",
+  "headline_zh-Hant": "根據文件名確定MIME類型\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "最近，我在一个ASP.NET MVC3应用程序中需要从磁盘上读取原始的HTML、CSS、JS和图像文件，并将它们返回给用户......如果你愿意，这是一种 \"直通\"。通常情况下，我会简单地将每个文件类型路由到一个自定义的HTTP处理程序，或者只是让MVC3映射现有的文件来提供它自己的.NET HTTP处理程序，并为我做所有这些工作，但在这种情况下，我需要映射的 \"目录 \"在幕后根据会话设置进行切换...所以我最终不得不通过一个控制器和动作方法来获取对会话的访问。\n",
+  "description_zh-Hant": "最近，我在一個ASP.NET MVC3應用程序中需要從磁盤上讀取原始的HTML、CSS、JS和圖像文件，並將它們返回給用戶......如果你願意，這是一種 \"直通\"。通常情況下，我會簡單地將每個文件類型路由到一個自定義的HTTP處理程序，或者只是讓MVC3映射現有的文件來提供它自己的.NET HTTP處理程序，併為我做所有這些工作，但在這種情況下，我需要映射的 \"目錄 \"在幕後根據會話設置進行切換...所以我最終不得不通過一個控制器和動作方法來獲取對會話的訪問。\n"
+}

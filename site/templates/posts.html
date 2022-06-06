@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="{{language}}" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="{{{themeColor}}}" />
+    {{#jsonLD}}
+    <title>{{name}} - {{description}}</title>
+    <meta itemprop="name" content="{{{name}}}" />
+    <meta itemprop="image" content="{{{image}}}" />
+    <meta
+      itemprop="description"
+      name="description"
+      content="{{{description}}}"
+    />
+    <meta property="og:url" content="{{{pageUrl}}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{{name}}}" />
+    <meta property="og:image" content="{{{image}}}" />
+    <meta property="og:image:alt" content="{{{name}}} Logo" />
+    <meta property="og:description" content="{{{description}}}" />
+    <meta property="og:site_name" content="{{{name}}}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@buzzingcc" />
+    <meta name="twitter:url" content="{{{pageUrl}}}" />
+    <meta name="twitter:title" content="{{{name}}}" />
+    <meta name="twitter:description" content="{{{description}}}" />
+    <meta name="twitter:image" content="{{{image}}}" />
+    <meta name="twitter:image:alt" content="{{{name}}} Logo" />
+    {{/jsonLD}}
+    <meta property="og:locale" content="{{{language}}}" />
+
+    <link
+      rel="alternate"
+      href="{{{rssUrl}}}"
+      type="application/rss+xml"
+      title="RSS"
+    />
+    <link
+      rel="alternate"
+      href="{{{atomUrl}}}"
+      type="application/atom+xml"
+      title="Atom 1.0"
+    />
+
+    <script type="application/ld+json">
+      {{{jsonLDString}}}
+    </script>
+    <link rel="manifest" href="{{{manifestUrl}}}" crossorigin="anonymous" />
+    <link
+      rel="icon"
+      href="/favicon-32x32.png?v=2ef7ada74a965bcb65a38c81f47158be"
+      type="image/png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@v1.4.4/css/pico.min.css"
+    />
+    <style>
+      @charset "UTF-8";
+
+      /* Tufte CSS styles */
+      html {
+        font-size: 15px;
+      }
+
+      body {
+        background-color: #fffff8;
+        color: #111;
+        min-height: 100vh;
+      }
+      a {
+        text-decoration: none;
+      }
+
+      small {
+        color: var(--secondary);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <h1>
+                <a href="{{{rootUrl}}}" class="contrast"
+                  >{{#jsonLD}}{{name}}{{/jsonLD}}</a
+                >
+              </h1>
+            </li>
+          </ul>
+
+          <ul style="font-size: 16px">
+            <li>
+              <a href="{{{rssUrl}}}" class="secondary">RSS</a>
+            </li>
+            {{#languages}}
+            <li>
+              <a
+                href="{{{url}}}"
+                class="{{#active}}contrast{{/active}}{{^active}}secondary{{/active}}"
+                >{{name}}</a
+              >
+            </li>
+            {{/languages}}
+          </ul>
+        </nav>
+      </header>
+      <ul>
+        {{#posts}}
+        <li>
+          <a href="{{{url}}}" class="secondary"
+            ><small>{{dateCreated}}</small></a
+          >
+          &nbsp;
+          <a href="{{{sameAs}}}" class="contrast"
+            ><span style="font-size: 16px">{{originalHeadline}}</span
+            ><small>
+              <cite class="secondary">&nbsp;({{headline}} - {{hostName}})</cite>
+            </small></a
+          >
+          {{#LikeAction}}
+          <span
+            ><svg
+              style="height: 10px; width: 10px; margin-right: 4px"
+              viewBox="0 0 10 8"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g>
+                <path
+                  d="M4.152 1.3568C4.54367 0.730128 5.45633 0.730129 5.848 1.3568L9.04375 6.47C9.46003 7.13605 8.98119 8 8.19575 8H1.80425C1.01881 8 0.539969 7.13605 0.956249 6.47L4.152 1.3568Z"
+                ></path>
+              </g></svg></span
+          ><small>{{LikeAction}}</small>&nbsp; {{/LikeAction}}
+          {{#CommentAction}}
+          <a href="{{{discussionUrl}}}" class="secondary"
+            >{{#publisher}}<small>💬&nbsp;{{CommentAction}}</small>{{/publisher}}</a
+          >
+          &nbsp; {{/CommentAction}}{{^CommentAction}}
+          <a href="{{{discussionUrl}}}" class="secondary"
+            >{{#publisher}}<small>💬&nbsp;{{CommentAction}}</small>{{/publisher}}</a
+          >
+          &nbsp; {{/CommentAction}} {{#author}}
+          <a href="{{#url}}{{{url}}}{{/url}}">
+            <small>✍️&nbsp;{{#name}} {{name}} {{/name}}</small>
+          </a>
+
+          {{/author}} {{#description}}
+          <p>{{description}}</p>
+          {{/description}}
+        </li>
+        {{/posts}}
+      </ul>
+    </main>
+    <footer style="text-align: center">
+      <small>姊妹站点: </small>
+      <a href="https://www.buzzing.cc"><small>Buzzing</small></a
+      >&nbsp; <small>背后的人❤️:</small
+      ><a href="https://twitter.com/OwenYoung_zh"><small>Owen</small></a
+      >&nbsp;
+    </footer>
+  </body>
+</html>

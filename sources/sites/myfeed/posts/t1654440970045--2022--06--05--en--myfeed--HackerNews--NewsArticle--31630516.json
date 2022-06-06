@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31630516",
+  "url": "https://news.ycombinator.com/item?id=31630516",
+  "headline": "No-Brainer SCM with Fossil",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "secwang",
+    "url": "https://news.ycombinator.com/user?id=secwang"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31630516",
+  "sameAs": "http://www.fredshack.com/docs/fossil.html",
+  "dateCreated": "2022-06-05T14:56:10.045Z",
+  "datePublished": "2022-06-05T12:48:57.000Z",
+  "dateModified": "2022-06-05T14:56:10.045Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "使用Fossil的单片机不费吹灰之力\n",
+  "headline_zh-Hant": "使用Fossil的單片機不費吹灰之力\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

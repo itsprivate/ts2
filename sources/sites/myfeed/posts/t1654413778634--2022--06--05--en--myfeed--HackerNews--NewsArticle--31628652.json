@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31628652",
+  "url": "https://news.ycombinator.com/item?id=31628652",
+  "headline": "Narrative Chart: let your charts tell stories with a few lines",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sdq",
+    "url": "https://news.ycombinator.com/user?id=sdq"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31628652",
+  "sameAs": "https://github.com/narchart/narrative-chart",
+  "dateCreated": "2022-06-05T07:22:58.634Z",
+  "datePublished": "2022-06-05T06:48:36.000Z",
+  "dateModified": "2022-06-05T07:22:58.634Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "叙事性图表：让你的图表用几行字来讲述故事\n",
+  "headline_zh-Hant": "敘事性圖表：讓你的圖表用幾行字來講述故事\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

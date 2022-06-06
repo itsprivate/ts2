@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--12--en--askhn--HackerNews--NewsArticle--31003868",
+  "url": "https://news.ycombinator.com/item?id=31003868",
+  "headline": "Ask HN: What can you install on a work computer?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I don't have a whole lot of experience yet working for companies, and I'm trying to plan ahead for what my tool flow might be like when I do and what the approval process might be like for installing tools.<p>I'm sure the exact procedure varies from place to place, but let's say for example that the work computer is Linux and I want to build &amp; run the latest emacs on it. But to do that I first need to install libsXYZ.deb/rpm. Do I need approval first to install emacs, as well as for each lib that is installed (even if I can install them without using sudo)?<p>Do I need approval for every proceeding emacs minor mode, Linux lib, Python package, etc. that are installed? I currently tend to install many open source tools and libs to aid me and that would seem like a hassle getting approval for each one. That also seems like it would slow down debugging what packages are missing when resolving Linux dependency issues etc.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "emacs28",
+    "url": "https://news.ycombinator.com/user?id=emacs28"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31003868",
+  "sameAs": "https://news.ycombinator.com/item?id=31003868",
+  "dateCreated": "2022-04-12T15:35:23.921Z",
+  "datePublished": "2022-04-12T15:20:43.000Z",
+  "dateModified": "2022-04-12T15:35:23.921Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你可以在工作电脑上安装什么？",
+  "headline_zh-Hant": "Ask HN: 你可以在工作電腦上安裝什麼？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我还没有为公司工作的大量经验，我想提前计划一下我的工具流程在我工作时可能是什么样的，以及安装工具的审批过程可能是什么样的。<p>我确信具体的程序因地而异，但举例来说，工作电脑是Linux，我想在上面建立&amp；运行最新的emacs。但要做到这一点，我首先需要安装libsXYZ.deb/rpm。我是否需要首先批准安装emacs，以及安装的每一个lib（即使我可以不使用sudo来安装它们）？<p>我是否需要批准每一个安装的emacs小模式、Linux lib、Python包等的程序？我目前倾向于安装许多开源工具和库来帮助我，这似乎是一个麻烦，为每个人获得批准。在解决Linux的依赖性问题时，这似乎也会减慢调试缺少哪些软件包的速度等等。",
+  "description_zh-Hant": "我還沒有為公司工作的大量經驗，我想提前計劃一下我的工具流程在我工作時可能是什麼樣的，以及安裝工具的審批過程可能是什麼樣的。<p>我確信具體的程序因地而異，但舉例來說，工作電腦是Linux，我想在上面建立&amp；運行最新的emacs。但要做到這一點，我首先需要安裝libsXYZ.deb/rpm。我是否需要首先批准安裝emacs，以及安裝的每一個lib（即使我可以不使用sudo來安裝它們）？<p>我是否需要批准每一個安裝的emacs小模式、Linux lib、Python包等的程序？我目前傾向於安裝許多開源工具和庫來幫助我，這似乎是一個麻煩，為每個人獲得批准。在解決Linux的依賴性問題時，這似乎也會減慢調試缺少哪些軟件包的速度等等。"
+}

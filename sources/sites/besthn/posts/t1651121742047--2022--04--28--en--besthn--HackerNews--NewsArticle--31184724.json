@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--28--en--besthn--HackerNews--NewsArticle--31184724",
+  "url": "https://news.ycombinator.com/item?id=31184724",
+  "headline": "North Koreans are jailbreaking phones to access forbidden media",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "8bitsrule",
+    "url": "https://news.ycombinator.com/user?id=8bitsrule"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31184724",
+  "sameAs": "https://www.wired.com/story/north-korean-phone-jailbreakers/",
+  "dateCreated": "2022-04-28T04:55:42.047Z",
+  "datePublished": "2022-04-27T19:35:52.000Z",
+  "dateModified": "2022-04-28T04:55:42.047Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 251
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 130
+    }
+  ],
+  "headline_zh-Hans": "朝鲜人正在对手机进行越狱以获取被禁止的媒体",
+  "headline_zh-Hant": "朝鮮人正在對手機進行越獄以獲取被禁止的媒體",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

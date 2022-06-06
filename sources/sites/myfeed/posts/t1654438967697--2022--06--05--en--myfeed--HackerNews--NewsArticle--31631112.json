@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31631112",
+  "url": "https://news.ycombinator.com/item?id=31631112",
+  "headline": "Critical bug could have let hackers commandeer millions of Android devices",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ksec",
+    "url": "https://news.ycombinator.com/user?id=ksec"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31631112",
+  "sameAs": "https://arstechnica.com/information-technology/2022/04/critical-bug-could-have-let-hackers-commandeer-millions-of-android-devices/",
+  "dateCreated": "2022-06-05T14:22:47.697Z",
+  "datePublished": "2022-06-05T14:06:47.000Z",
+  "dateModified": "2022-06-05T14:22:47.697Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "关键漏洞可能让黑客霸占了数百万台安卓设备\n",
+  "headline_zh-Hant": "關鍵漏洞可能讓黑客霸佔了數百萬臺安卓設備\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

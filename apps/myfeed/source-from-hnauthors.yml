@@ -1,0 +1,904 @@
+if: true
+sources:
+  - use: fetch
+    args:
+      - https://hn.algolia.com/api/v1/search_by_date?tags=(story,show_hn)&hitsPerPage=50&numericFilters=points>1
+    run: return ctx.result.json();
+    itemsPath: hits
+    key: objectID
+    # force: true
+    # limit: 1
+    filter: return !ctx.item._tags.includes("ask_hn");
+    reverse: true
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_olalonde
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_andreyazimov
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_bbx
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_dang
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_hubraumhugo
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_tracyhenry
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_vasanthv
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_tptacek
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_jacquesm
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_ingve
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_danso
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_patio11
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_rbanffy
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_ColinWright
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_pseudolus
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_prostoalex
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_rayiner
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_Animats
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_tosh
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_ChuckMcM
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_JumpCrisscross
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_Tomte
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_dragonwriter
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_steveklabnik
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_luu
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_jgrahamc
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_pjmlp
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_pjc50
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_uptown
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_edw519
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_coldtea
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_jerf
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_nostrademons
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_anigbrowl
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_zdw
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_jseliger
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_shawndumas
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_todsacerdoti
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_jrockway
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_dnetesn
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_jonbaer
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_aaronbrethorst
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_walterbell
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_userbinator
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_davidw
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_llambda
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_fogus
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_jedberg
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_cperciva
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_adamnemecek
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_DanBC
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_signa11
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_stavros
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_coloneltcb
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_toomuchtodo
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_evo_9
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_masklinn
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_robin_reala
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_minimaxir
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_sohkamyung
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_WalterBright
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_wallflower
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_dredmorbius
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_bane
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_sp332
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_wglb
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_nkurz
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_tyingq
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_icebraining
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_protomyth
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_pmoriarty
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_btilly
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_ceejayoz
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_cwan
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_saagarjha
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_PragmaticPulp
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_wpietri
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_derefr
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_lisper
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_DiabloD3
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_petercooper
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_DanielBMarkham
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_Retric
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_brudgers
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_bpierre
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_mpweiher
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_Anon84
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_Someone1234
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author__delirium
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_pavel_lishin
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_pcwalton
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_nostromo
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_JoshTriplett
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_doener
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_tzs
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_ilamont
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_adventured
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_DoreenMichele
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_sethbannon
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_rdtsc
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_bookofjoe
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_rdl
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_edward
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_stcredzero
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_hn_throwaway_99
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_Garbage
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_dsr12
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_dieulot
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_linuz90
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+  # - use: fetch
+  #   args:
+  #     - http://hn.algolia.com/api/v1/search_by_date?tags=story,author_jsomers
+  #   run: return ctx.result.json();
+  #   itemsPath: hits
+  #   key: objectID
+  #   sleep: 1
+  #   limit: 3
+steps:
+  - from: ../../common/format.ts
+    args:
+      - ${{ctx.item}}
+      - myfeed
+  - from: https://deno.land/std@0.121.0/fs/mod.ts
+    use: ensureFile
+    args:
+      - ${{ctx.result.path}}
+    run: |
+      console.log('Write json to: ',ctx.steps[0].result.path);
+      Deno.writeTextFileSync(ctx.steps[0].result.path, JSON.stringify(ctx.steps[0].result.item,null,2));

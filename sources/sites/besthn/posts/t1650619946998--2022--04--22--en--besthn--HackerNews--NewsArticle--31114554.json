@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--22--en--besthn--HackerNews--NewsArticle--31114554",
+  "url": "https://news.ycombinator.com/item?id=31114554",
+  "headline": "Python’s “type hints” are a bit of a disappointment to me",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "zdw",
+    "url": "https://news.ycombinator.com/user?id=zdw"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31114554",
+  "sameAs": "https://www.uninformativ.de/blog/postings/2022-04-21/0/POSTING-en.html",
+  "dateCreated": "2022-04-22T09:32:26.998Z",
+  "datePublished": "2022-04-21T20:05:35.000Z",
+  "dateModified": "2022-04-22T09:32:26.998Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 253
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 362
+    }
+  ],
+  "headline_zh-Hans": "Python的 \"类型提示 \"让我感到有点失望",
+  "headline_zh-Hant": "Python的 \"類型提示 \"讓我感到有點失望",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

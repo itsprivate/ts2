@@ -1,0 +1,52 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--11--en--myrss--rss--NewsArticle--16c5f97a1c2a736e8f9fee34ea650ebe",
+  "url": "https://www.davidhaney.io/custom-output-caching-with-mvc3-and-net-4-0-done-right/",
+  "headline": "Custom Output Caching with MVC3 and .NET 4.0 - Done Properly!",
+  "publisher": {
+    "@type": "Organization",
+    "name": "www.davidhaney.io",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "description": "I came across a need at work today to re-implement some of the Output Caching for our MVC3 application which runs under .NET 4.0. I wanted to use standard Output Caching (via the OutputCacheAttributeclass, why re-invent the well-working wheel?) but due to some of our requirements I needed more control over how my objects were cached. More specifically, I needed to cache them with a custom Cache Dependency. With a little bit of Google-Fu, I was delighted to learn of the Output Cache Provider functionality introduced in ASP.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "unknown",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "discussionUrl": "https://www.davidhaney.io/custom-output-caching-with-mvc3-and-net-4-0-done-right/",
+  "sameAs": "https://www.davidhaney.io/custom-output-caching-with-mvc3-and-net-4-0-done-right/",
+  "dateCreated": "2022-04-11T14:10:54.782Z",
+  "datePublished": "2012-06-20T00:47:52.000Z",
+  "dateModified": "2022-04-11T14:10:54.782Z",
+  "interactionStatistic": [],
+  "headline_zh-Hans": "使用MVC3和.NET 4.0的自定义输出缓存--做得很好",
+  "headline_zh-Hant": "使用MVC3和.NET 4.0的自定義輸出緩存--做得很好",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "今天我在工作中遇到了一个需求，为我们在.NET 4.0下运行的MVC3应用程序重新实现了一些输出缓存。我想使用标准的输出缓存（通过OutputCacheAttributeclass，为什么要重新发明工作良好的轮子呢），但由于我们的一些要求，我需要对我的对象如何被缓存有更多的控制。更确切地说，我需要用一个自定义的缓存依赖来缓存它们。通过一点点的Google-Fu，我很高兴地了解到ASP.NET中引入的Output Cache Provider功能。",
+  "description_zh-Hant": "今天我在工作中遇到了一個需求，為我們在.NET 4.0下運行的MVC3應用程序重新實現了一些輸出緩存。我想使用標準的輸出緩存（通過OutputCacheAttributeclass，為什麼要重新發明工作良好的輪子呢），但由於我們的一些要求，我需要對我的對象如何被緩存有更多的控制。更確切地說，我需要用一個自定義的緩存依賴來緩存它們。通過一點點的Google-Fu，我很高興地瞭解到ASP.NET中引入的Output Cache Provider功能。"
+}

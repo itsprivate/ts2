@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--27--en--hackernews--HackerNews--NewsArticle--31176071",
+  "url": "https://news.ycombinator.com/item?id=31176071",
+  "headline": "Code licensed under the AGPL must not be used at Google",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "assttoasstmgr",
+    "url": "https://news.ycombinator.com/user?id=assttoasstmgr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31176071",
+  "sameAs": "https://opensource.google/documentation/reference/using/agpl-policy",
+  "dateCreated": "2022-04-27T05:00:42.073Z",
+  "datePublished": "2022-04-27T03:46:10.000Z",
+  "dateModified": "2022-04-27T05:00:42.073Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 28
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 30
+    }
+  ],
+  "headline_zh-Hans": "在AGPL下许可的代码不得在谷歌使用。",
+  "headline_zh-Hant": "在AGPL下許可的代碼不得在谷歌使用。",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

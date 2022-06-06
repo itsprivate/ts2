@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--10--en--besthn--HackerNews--NewsArticle--30972694",
+  "url": "https://news.ycombinator.com/item?id=30972694",
+  "headline": "Super Simple Storage Service",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jamespwilliams",
+    "url": "https://news.ycombinator.com/user?id=jamespwilliams"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30972694",
+  "sameAs": "http://www.supersimplestorageservice.com/",
+  "dateCreated": "2022-04-10T03:12:43.734Z",
+  "datePublished": "2022-04-09T22:21:16.000Z",
+  "dateModified": "2022-04-10T03:12:43.734Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 253
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 87
+    }
+  ],
+  "headline_zh-Hans": "超级简单存储服务",
+  "headline_zh-Hant": "超級簡單存儲服務",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

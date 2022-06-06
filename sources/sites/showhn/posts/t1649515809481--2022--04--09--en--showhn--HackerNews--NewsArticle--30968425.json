@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--09--en--showhn--HackerNews--NewsArticle--30968425",
+  "url": "https://news.ycombinator.com/item?id=30968425",
+  "headline": "Show HN: StreamPQ – Stream PostgreSQL query results in Python without a cursor",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "michalc",
+    "url": "https://news.ycombinator.com/user?id=michalc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30968425",
+  "sameAs": "https://github.com/uktrade/streampq",
+  "dateCreated": "2022-04-09T14:50:09.481Z",
+  "datePublished": "2022-04-09T14:39:47.000Z",
+  "dateModified": "2022-04-09T14:50:09.481Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: StreamPQ - 在Python中流式传输PostgreSQL查询结果，无需游标",
+  "headline_zh-Hant": "Show HN: StreamPQ - 在Python中流式傳輸PostgreSQL查詢結果，無需遊標",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--01--en--besthn--HackerNews--NewsArticle--30868849",
+  "url": "https://news.ycombinator.com/item?id=30868849",
+  "headline": "Supabase Edge Functions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lightslit",
+    "url": "https://news.ycombinator.com/user?id=lightslit"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30868849",
+  "sameAs": "https://supabase.com/blog/2022/03/31/supabase-edge-functions",
+  "dateCreated": "2022-04-01T06:38:01.942Z",
+  "datePublished": "2022-03-31T16:13:50.000Z",
+  "dateModified": "2022-04-01T06:38:01.942Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 250
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 55
+    }
+  ],
+  "headline_zh-Hans": "Supabase边缘功能",
+  "headline_zh-Hant": "Supabase邊緣功能",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

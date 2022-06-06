@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--26--en--hackernews--HackerNews--NewsArticle--31171288",
+  "url": "https://news.ycombinator.com/item?id=31171288",
+  "headline": "Why Pessimism Sounds Smart",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "feross",
+    "url": "https://news.ycombinator.com/user?id=feross"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31171288",
+  "sameAs": "https://rootsofprogress.org/why-pessimism-sounds-smart",
+  "dateCreated": "2022-04-26T18:57:56.352Z",
+  "datePublished": "2022-04-26T18:32:42.000Z",
+  "dateModified": "2022-04-26T18:57:56.352Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "为什么悲观主义听起来很聪明",
+  "headline_zh-Hant": "為什麼悲觀主義聽起來很聰明",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--22--en--askhn--HackerNews--NewsArticle--31119448",
+  "url": "https://news.ycombinator.com/item?id=31119448",
+  "headline": "Ask HN: How to proceed with advanced personal project",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "So I created a platform that allows users to create interactive audio books / meditations. To be honest I just really wanted to build something that came to my mind during the pandemic and as such ignored releasing it to the world and instead focused on tech / redesigns. It's been an on/off  project for a couple years now.<p>The idea is that it:<p>1) Provides a studio to create interactive meditations / audio experiences. Currently supporting sounds, images and narrations.\n2) Provides a journey player to allow multiple templates to be joined in a decision tree and hence have an interactive experience. Currently navigation can happen through buttons on the screen or via voice commands (which is a little dodgy given I use browser APIs).\n3) Provides an audio player and sprites in the frontend, which allows you to mix and match narrations/sounds/images on any articles to customise the experience. You can also equalise sound levels for narrations/other sounds. Finally, and most importantly IMO, you can add plugins to support things like vibration mats, lighting, etc. \n4) Captures user session content, such as the users pulse during a meditation, user journals when answering questions, and again plugins to allow you to capture more data.<p>The main issue I have now is sort of the sunken cost fallacy. On one side I'm still sort of passionate about it, but I really don't have the know how to get this to market, and I feel like I should just take a step away and work on something else with all the knowledge gained and focus on a smaller idea. On the other, it's a pretty advanced platform and I feel some form of keeping it alive would be amazing. I just don't want to opensource it given the insane amount of work that entails (from my previous OS experiences).<p>Just felt like mentioning, and seeing if anyone has any input or different perspectives?<p>The website / app is at enjamon.com",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "yasserf",
+    "url": "https://news.ycombinator.com/user?id=yasserf"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31119448",
+  "sameAs": "https://news.ycombinator.com/item?id=31119448",
+  "dateCreated": "2022-04-22T08:54:33.258Z",
+  "datePublished": "2022-04-22T08:37:31.000Z",
+  "dateModified": "2022-04-22T08:54:33.258Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何进行先进的个人项目",
+  "headline_zh-Hant": "Ask HN: 如何進行先進的個人項目",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "所以我创建了一个平台，允许用户创建互动的音频书籍/冥想。说实话，我只是真的想建立一些在大流行期间出现在我脑海中的东西，因此忽略了向世界发布它，而是专注于技术/重新设计。<p>我们的想法是：<p>1）提供一个工作室来创建互动式的冥想/音频体验。目前支持声音、图像和叙述。\n2）提供一个旅程播放器，允许多个模板在决策树中加入，从而有一个互动的体验。目前，导航可以通过屏幕上的按钮或通过语音命令进行（鉴于我使用浏览器的API，这有点不妥）。\n3）在前端提供一个音频播放器和精灵，允许你在任何文章上混合和匹配叙述/声音/图像来定制体验。你也可以为解说/其他声音均衡声音水平。最后，也是最重要的一点，你可以添加插件来支持振动垫、灯光等。\n4）捕捉用户会话内容，如用户在冥想期间的脉搏，用户在回答问题时的日志，以及再次允许你捕捉更多数据的插件。<p>我现在的主要问题是某种沉没成本谬论。一方面，我仍然对它充满热情，但我真的不知道如何把它推向市场，我觉得我应该离开一步，用获得的所有知识从事其他工作，专注于一个较小的想法。另一方面，这是一个相当先进的平台，我觉得以某种形式保持它的生命力将是惊人的。我只是不想把它开源，因为这需要大量的工作（从我以前的操作系统经验来看）。<p>只是想提一下，看看是否有人有任何意见或不同的观点？<p>网站/应用程序在enjamon.com",
+  "description_zh-Hant": "所以我創建了一個平臺，允許用戶創建互動的音頻書籍/冥想。說實話，我只是真的想建立一些在大流行期間出現在我腦海中的東西，因此忽略了向世界發佈它，而是專注於技術/重新設計。<p>我們的想法是：<p>1）提供一個工作室來創建互動式的冥想/音頻體驗。目前支持聲音、圖像和敘述。\n2）提供一個旅程播放器，允許多個模板在決策樹中加入，從而有一個互動的體驗。目前，導航可以通過屏幕上的按鈕或通過語音命令進行（鑑於我使用瀏覽器的API，這有點不妥）。\n3）在前端提供一個音頻播放器和精靈，允許你在任何文章上混合和匹配敘述/聲音/圖像來定製體驗。你也可以為解說/其他聲音均衡聲音水平。最後，也是最重要的一點，你可以添加插件來支持振動墊、燈光等。\n4）捕捉用戶會話內容，如用戶在冥想期間的脈搏，用戶在回答問題時的日誌，以及再次允許你捕捉更多數據的插件。<p>我現在的主要問題是某種沉沒成本謬論。一方面，我仍然對它充滿熱情，但我真的不知道如何把它推向市場，我覺得我應該離開一步，用獲得的所有知識從事其他工作，專注於一個較小的想法。另一方面，這是一個相當先進的平臺，我覺得以某種形式保持它的生命力將是驚人的。我只是不想把它開源，因為這需要大量的工作（從我以前的操作系統經驗來看）。<p>只是想提一下，看看是否有人有任何意見或不同的觀點？<p>網站/應用程序在enjamon.com"
+}

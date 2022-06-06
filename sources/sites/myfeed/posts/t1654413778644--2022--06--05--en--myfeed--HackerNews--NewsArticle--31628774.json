@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31628774",
+  "url": "https://news.ycombinator.com/item?id=31628774",
+  "headline": "Every photo I took of a NATO building disappeared from my camera roll",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "moconnor",
+    "url": "https://news.ycombinator.com/user?id=moconnor"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31628774",
+  "sameAs": "https://twitter.com/ethorkel/status/1533202626904350721",
+  "dateCreated": "2022-06-05T07:22:58.644Z",
+  "datePublished": "2022-06-05T07:19:58.000Z",
+  "dateModified": "2022-06-05T07:22:58.644Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我拍摄的每张北约建筑的照片都从我的相机卷中消失了\n",
+  "headline_zh-Hant": "我拍攝的每張北約建築的照片都從我的相機卷中消失了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

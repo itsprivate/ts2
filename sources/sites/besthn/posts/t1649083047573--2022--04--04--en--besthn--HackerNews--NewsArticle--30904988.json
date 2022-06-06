@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--04--en--besthn--HackerNews--NewsArticle--30904988",
+  "url": "https://news.ycombinator.com/item?id=30904988",
+  "headline": "Elon Musk owns 9.2% of Twitter",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tosh",
+    "url": "https://news.ycombinator.com/user?id=tosh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30904988",
+  "sameAs": "https://www.sec.gov/Archives/edgar/data/0001494730/000110465922041911/tm2211482d1_sc13g.htm",
+  "dateCreated": "2022-04-04T14:37:27.573Z",
+  "datePublished": "2022-04-04T10:25:48.000Z",
+  "dateModified": "2022-04-04T14:37:27.573Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 255
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 301
+    }
+  ],
+  "headline_zh-Hans": "埃隆-马斯克拥有9.2%的Twitter股份",
+  "headline_zh-Hant": "埃隆-馬斯克擁有9.2%的Twitter股份",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

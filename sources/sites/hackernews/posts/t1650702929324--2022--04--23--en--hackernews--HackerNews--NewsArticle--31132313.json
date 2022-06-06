@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--23--en--hackernews--HackerNews--NewsArticle--31132313",
+  "url": "https://news.ycombinator.com/item?id=31132313",
+  "headline": "Element – Introducing Threads in Beta",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "unicornporn",
+    "url": "https://news.ycombinator.com/user?id=unicornporn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31132313",
+  "sameAs": "https://element.io/blog/introducing-threads-in-beta/",
+  "dateCreated": "2022-04-23T08:35:29.324Z",
+  "datePublished": "2022-04-23T07:53:45.000Z",
+  "dateModified": "2022-04-23T08:35:29.324Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "元素--在测试中引入线程",
+  "headline_zh-Hant": "元素--在測試中引入線程",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

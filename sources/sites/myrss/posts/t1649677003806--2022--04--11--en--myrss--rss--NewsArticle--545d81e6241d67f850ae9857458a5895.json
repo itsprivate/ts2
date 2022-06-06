@@ -1,0 +1,52 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--11--en--myrss--rss--NewsArticle--545d81e6241d67f850ae9857458a5895",
+  "url": "https://www.davidhaney.io/custom-asp-net-mvc-action-result-cache-attribute/",
+  "headline": "Custom ASP.NET MVC Action Result Cache Attribute",
+  "publisher": {
+    "@type": "Organization",
+    "name": "www.davidhaney.io",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "description": "If you’re working on an application built using ASP.NET MVC, you’re hopefully aware of the OutputCacheAttribute attribute which can be used to statically cache your dynamic web pages. By adding this attribute to a controller or action method, the output of the method(s) will be stored in memory. For example, if your action method renders a view, then the view page will be cached in memory. This cached view page is then available to the application for all subsequent requests (or until the item expires out of the cache), which can retrieve it from the memory rather than redoing the work to re-create the result again.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "unknown",
+    "url": "https://www.davidhaney.io/index.xml"
+  },
+  "discussionUrl": "https://www.davidhaney.io/custom-asp-net-mvc-action-result-cache-attribute/",
+  "sameAs": "https://www.davidhaney.io/custom-asp-net-mvc-action-result-cache-attribute/",
+  "dateCreated": "2022-04-11T11:36:43.806Z",
+  "datePublished": "2017-01-10T09:07:15.000Z",
+  "dateModified": "2022-04-11T11:36:43.806Z",
+  "interactionStatistic": [],
+  "headline_zh-Hans": "自定义ASP.NET MVC动作结果缓存属性",
+  "headline_zh-Hant": "自定義ASP.NET MVC動作結果緩存屬性",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "如果你正在使用ASP.NET MVC构建一个应用程序，你可能知道OutputCacheAttribute属性，它可以用来静态地缓存你的动态网页。通过在控制器或动作方法中添加这个属性，该方法的输出将被存储在内存中。例如，如果你的动作方法渲染了一个视图，那么该视图页面将被缓存在内存中。然后，这个缓存的视图页面对应用程序的所有后续请求都是可用的（或者直到该项目从缓存中过期），它可以从内存中检索，而不是重新做工作，再次重新创建结果。",
+  "description_zh-Hant": "如果你正在使用ASP.NET MVC構建一個應用程序，你可能知道OutputCacheAttribute屬性，它可以用來靜態地緩存你的動態網頁。通過在控制器或動作方法中添加這個屬性，該方法的輸出將被存儲在內存中。例如，如果你的動作方法渲染了一個視圖，那麼該視圖頁面將被緩存在內存中。然後，這個緩存的視圖頁面對應用程序的所有後續請求都是可用的（或者直到該項目從緩存中過期），它可以從內存中檢索，而不是重新做工作，再次重新創建結果。"
+}

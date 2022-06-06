@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--23--en--showhn--HackerNews--NewsArticle--31138311",
+  "url": "https://news.ycombinator.com/item?id=31138311",
+  "headline": "Show HN: Def – A zsh plugin for default folder behavior",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "thevinter",
+    "url": "https://news.ycombinator.com/user?id=thevinter"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31138311",
+  "sameAs": "https://github.com/thevinter/def",
+  "dateCreated": "2022-04-23T20:49:53.021Z",
+  "datePublished": "2022-04-23T20:42:36.000Z",
+  "dateModified": "2022-04-23T20:49:53.021Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Def - 一个用于默认文件夹行为的zsh插件",
+  "headline_zh-Hant": "Show HN: Def - 一個用於默認文件夾行為的zsh插件",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

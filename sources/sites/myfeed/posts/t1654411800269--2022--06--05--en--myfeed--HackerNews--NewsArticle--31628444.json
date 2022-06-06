@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--05--en--myfeed--HackerNews--NewsArticle--31628444",
+  "url": "https://news.ycombinator.com/item?id=31628444",
+  "headline": "WebAssembly 101: A developer’s first steps (2017)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ddtaylor",
+    "url": "https://news.ycombinator.com/user?id=ddtaylor"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31628444",
+  "sameAs": "https://blog.openbloc.com/webassembly-first-steps/",
+  "dateCreated": "2022-06-05T06:50:00.269Z",
+  "datePublished": "2022-06-05T06:05:09.000Z",
+  "dateModified": "2022-06-05T06:50:00.269Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "WebAssembly 101：开发者的第一步（2017年）\n",
+  "headline_zh-Hant": "WebAssembly 101：開發者的第一步（2017年）\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

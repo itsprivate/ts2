@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--07--en--showhn--HackerNews--NewsArticle--30942074",
+  "url": "https://news.ycombinator.com/item?id=30942074",
+  "headline": "Show HN: Glicol(Graph-Oriented Live Coding Language) and DSP Lib Written in Rust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "chaosprint",
+    "url": "https://news.ycombinator.com/user?id=chaosprint"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=30942074",
+  "sameAs": "https://github.com/chaosprint/glicol",
+  "dateCreated": "2022-04-07T08:53:07.139Z",
+  "datePublished": "2022-04-07T08:35:20.000Z",
+  "dateModified": "2022-04-07T08:53:07.139Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Glicol（面向图形的实时编码语言）和用Rust编写的DSP库",
+  "headline_zh-Hant": "Show HN: Glicol（面向圖形的實時編碼語言）和用Rust編寫的DSP庫",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

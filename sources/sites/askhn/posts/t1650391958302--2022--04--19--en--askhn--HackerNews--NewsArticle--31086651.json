@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--19--en--askhn--HackerNews--NewsArticle--31086651",
+  "url": "https://news.ycombinator.com/item?id=31086651",
+  "headline": "Ask HN: A Dumb Database?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I have two scenarios where I want to store certain values outside of my main database and I'm looking for a SaaS solution.<p>1: When a user joins my website, I want to show them a Welcome popup. Once they see this popup, I want to mark has_seen_welcome_popup to true. Next time they log in, I'll know not to show it to them. This is just one example. I may want to have a dozen of these sort of values defined per user.<p>2: Let's say I have a banner on the landing page that says &quot;40% off&quot; and I want to change that to &quot;30% off.&quot; Instead of making a code change, I want to make this change in some sort of UI in the SaaS and have it update automatically.<p>---<p>Basically just need a place to store little things that I don't really want to store in the main database. And some nice UI where I can toggle those values as an admin without touching the prod DB.<p>My initial thought is to use Airtable but I'm not sure if there is something more purpose-built for this sort of scenario.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "kashnote",
+    "url": "https://news.ycombinator.com/user?id=kashnote"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31086651",
+  "sameAs": "https://news.ycombinator.com/item?id=31086651",
+  "dateCreated": "2022-04-19T18:12:38.302Z",
+  "datePublished": "2022-04-19T18:08:28.000Z",
+  "dateModified": "2022-04-19T18:12:38.302Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 愚蠢的数据库？",
+  "headline_zh-Hant": "Ask HN: 愚蠢的數據庫？",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我有两种情况，我想在我的主数据库之外存储某些值，我正在寻找一个SaaS解决方案。<p>1：当一个用户加入我的网站时，我想向他们显示一个欢迎弹出窗口。一旦他们看到这个弹出窗口，我想把has_seen_welcome_popup标记为true。下次他们登录时，我就知道不给他们看了。这只是一个例子。<p>2：假设我在登陆页面上有一个横幅，上面写着&quot;40%的折扣&quot;，我想把它改为&quot;30%的折扣&quot;，而不是进行代码修改，我想在SaaS的某种UI中进行这种修改，并让它自动更新。<p>---<p>基本上只需要一个地方来存储一些我不太愿意存储在主数据库中的东西。<p>我最初的想法是使用Airtable，但我不确定是否有更多专门为这种情况而设计的东西。",
+  "description_zh-Hant": "我有兩種情況，我想在我的主數據庫之外存儲某些值，我正在尋找一個SaaS解決方案。<p>1：當一個用戶加入我的網站時，我想向他們顯示一個歡迎彈出窗口。一旦他們看到這個彈出窗口，我想把has_seen_welcome_popup標記為true。下次他們登錄時，我就知道不給他們看了。這只是一個例子。<p>2：假設我在登陸頁面上有一個橫幅，上面寫著&quot;40%的折扣&quot;，我想把它改為&quot;30%的折扣&quot;，而不是進行代碼修改，我想在SaaS的某種UI中進行這種修改，並讓它自動更新。<p>---<p>基本上只需要一個地方來存儲一些我不太願意存儲在主數據庫中的東西。<p>我最初的想法是使用Airtable，但我不確定是否有更多專門為這種情況而設計的東西。"
+}

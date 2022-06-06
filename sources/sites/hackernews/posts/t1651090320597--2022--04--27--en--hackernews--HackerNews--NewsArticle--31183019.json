@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--04--27--en--hackernews--HackerNews--NewsArticle--31183019",
+  "url": "https://news.ycombinator.com/item?id=31183019",
+  "headline": "Boeing looked for flaws in its Dreamliner and couldn’t stop finding them",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dangle1",
+    "url": "https://news.ycombinator.com/user?id=dangle1"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31183019",
+  "sameAs": "https://www.wsj.com/articles/boeing-dreamliner-delays-faa-defects-11651067545",
+  "dateCreated": "2022-04-27T20:12:00.597Z",
+  "datePublished": "2022-04-27T17:27:09.000Z",
+  "dateModified": "2022-04-27T20:12:00.597Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 37
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 13
+    }
+  ],
+  "headline_zh-Hans": "波音公司寻找其梦想飞机的缺陷，并无法停止发现它们",
+  "headline_zh-Hant": "波音公司尋找其夢想飛機的缺陷，並無法停止發現它們",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
