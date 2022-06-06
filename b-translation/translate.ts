@@ -18,7 +18,7 @@ import d from "./d-mobile.js";
 import {
   NodeObject,
   ContextDefinition,
-} from "https://cdn.skypack.dev/jsonld?dts";
+} from "https://cdn.skypack.dev/jsonld@5.2.0?dts";
 import zhToHant from "./zh-to-hant.ts";
 const homepage = "https://www.deepl.com/en/translator-mobile";
 const isDev = Deno.env.get("ENV") === "dev";

@@ -1,8 +1,8 @@
 import getFiles from "https://deno.land/x/getfiles@v1.0.0/mod.ts";
-import { renderFile } from "https://deno.land/x/mustache_ts/mustache.ts";
+import { renderFile } from "https://deno.land/x/mustache_ts@v0.4.1.1/mustache.ts";
 import { ensureDir } from "https://deno.land/std@0.121.0/fs/mod.ts";
 import { dirname } from "https://deno.land/std@0.121.0/path/mod.ts";
-import { Feed } from "https://esm.sh/feed";
+import { Feed } from "https://esm.sh/feed@4.2.2";
 import { copy } from "https://deno.land/std@0.121.0/fs/copy.ts";
 
 import { getSitePath, getAppPath, formatDate } from "./util.ts";
@@ -97,6 +97,7 @@ export default async function main(siteIdentifier: string) {
         jsonLD: siteConfig,
         language: language,
         themeColor: themeColor,
+
         languages: languages.map((lang) => {
           return {
             active: lang === language,

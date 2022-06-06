@@ -26,7 +26,9 @@ archive:
 start:
 	denon start
 dev:
-	ENV=dev denon start
+	ENV=dev denon start -- myfeed
+devhn:
+	ENV=dev denon start -- hackernews
 build:
 	deno run -A --unstable site/build.ts showhn
 cache:
