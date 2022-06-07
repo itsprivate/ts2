@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--07--en--myfeed--HackerNews--NewsArticle--31652171",
+  "url": "https://news.ycombinator.com/item?id=31652171",
+  "headline": "Functional Programming in Rust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "olalonde",
+    "url": "https://news.ycombinator.com/user?id=olalonde"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31652171",
+  "sameAs": "https://kerkour.com/rust-functional-programming",
+  "dateCreated": "2022-06-07T12:51:03.468Z",
+  "datePublished": "2022-06-07T10:32:40.000Z",
+  "dateModified": "2022-06-07T12:51:03.468Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Rust中的功能编程\n",
+  "headline_zh-Hant": "Rust中的功能編程\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

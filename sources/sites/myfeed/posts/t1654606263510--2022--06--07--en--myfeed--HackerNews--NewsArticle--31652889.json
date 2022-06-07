@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--07--en--myfeed--HackerNews--NewsArticle--31652889",
+  "url": "https://news.ycombinator.com/item?id=31652889",
+  "headline": "Atlassian Confluence Server CVE-2022-26134 being actively expoited in the wild",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "f0e4c2f7",
+    "url": "https://news.ycombinator.com/user?id=f0e4c2f7"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31652889",
+  "sameAs": "https://www.greynoise.io/blog/observed-in-the-wild-atlassian-confluence-server-cve-2022-26134",
+  "dateCreated": "2022-06-07T12:51:03.510Z",
+  "datePublished": "2022-06-07T12:02:00.000Z",
+  "dateModified": "2022-06-07T12:51:03.510Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "Atlassian Confluence服务器CVE-2022-26134在野外被积极曝光\n",
+  "headline_zh-Hant": "Atlassian Confluence服務器CVE-2022-26134在野外被積極曝光\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
