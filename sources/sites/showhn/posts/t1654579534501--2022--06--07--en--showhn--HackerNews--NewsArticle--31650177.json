@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--04--22--en--hackernews--HackerNews--NewsArticle--31102872",
-  "url": "https://news.ycombinator.com/item?id=31102872",
-  "headline": "Faster GDB startup",
+  "identifier": "2022--06--07--en--showhn--HackerNews--NewsArticle--31650177",
+  "url": "https://news.ycombinator.com/item?id=31650177",
+  "headline": "Show HN: A home built heads up display to provide captions to what you hear",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "thestoicattack",
-    "url": "https://news.ycombinator.com/user?id=thestoicattack"
+    "name": "etewiah",
+    "url": "https://news.ycombinator.com/user?id=etewiah"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=31102872",
-  "sameAs": "https://tromey.com/blog/?p=1084",
-  "dateCreated": "2022-04-22T07:30:18.105Z",
-  "datePublished": "2022-04-20T20:54:35.000Z",
-  "dateModified": "2022-04-22T07:30:18.105Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31650177",
+  "sameAs": "https://github.com/bsaleh03/CaptionIt",
+  "dateCreated": "2022-06-07T05:25:34.501Z",
+  "datePublished": "2022-06-07T05:23:51.000Z",
+  "dateModified": "2022-06-07T05:25:34.501Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 17
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "更快的GDB启动",
-  "headline_zh-Hant": "更快的GDB啟動",
+  "headline_zh-Hans": "Show HN: 一个家用抬头显示器，为你听到的内容提供字幕\n",
+  "headline_zh-Hant": "Show HN: 一個家用抬頭顯示器，為你聽到的內容提供字幕\n",
   "@context": [
     "https://schema.org",
     {
