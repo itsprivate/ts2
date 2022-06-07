@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--07--en--myfeed--HackerNews--NewsArticle--31658527",
+  "url": "https://news.ycombinator.com/item?id=31658527",
+  "headline": "Converting an Image into ASCII Art Masterpiece (2017)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Tomte",
+    "url": "https://news.ycombinator.com/user?id=Tomte"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31658527",
+  "sameAs": "https://www.jonathan-petitcolas.com/2017/12/28/converting-image-to-ascii-art.html",
+  "dateCreated": "2022-06-07T19:25:10.809Z",
+  "datePublished": "2022-06-07T18:48:14.000Z",
+  "dateModified": "2022-06-07T19:25:10.809Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "将图像转换为ASCII艺术杰作 (2017)\n",
+  "headline_zh-Hant": "將圖像轉換為ASCII藝術傑作 (2017)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
