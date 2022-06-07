@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--07--en--myfeed--HackerNews--NewsArticle--31659245",
+  "url": "https://news.ycombinator.com/item?id=31659245",
+  "headline": "The biggest four-day work week pilot begins",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Vaslo",
+    "url": "https://news.ycombinator.com/user?id=Vaslo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31659245",
+  "sameAs": "https://www.cnn.com/2022/06/06/business/four-day-week-trial-uk/index.html",
+  "dateCreated": "2022-06-07T19:55:59.356Z",
+  "datePublished": "2022-06-07T19:50:24.000Z",
+  "dateModified": "2022-06-07T19:55:59.356Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "最大的四天工作周试点开始\n",
+  "headline_zh-Hant": "最大的四天工作周試點開始\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
