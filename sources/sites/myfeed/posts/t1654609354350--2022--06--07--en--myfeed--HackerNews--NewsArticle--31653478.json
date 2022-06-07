@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--07--en--myfeed--HackerNews--NewsArticle--31653478",
+  "url": "https://news.ycombinator.com/item?id=31653478",
+  "headline": "Show HN: Boot.dev – Learn computer science, not the latest hotness",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "wagslane",
+    "url": "https://news.ycombinator.com/user?id=wagslane"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31653478",
+  "sameAs": "https://boot.dev",
+  "dateCreated": "2022-06-07T13:42:34.350Z",
+  "datePublished": "2022-06-07T12:51:50.000Z",
+  "dateModified": "2022-06-07T13:42:34.350Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Boot.dev - 学习计算机科学，而不是学习最新的热门事物\n",
+  "headline_zh-Hant": "Show HN: Boot.dev - 學習計算機科學，而不是學習最新的熱門事物\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
