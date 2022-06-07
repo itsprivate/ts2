@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--07--en--showhn--HackerNews--NewsArticle--31656007",
+  "url": "https://news.ycombinator.com/item?id=31656007",
+  "headline": "Show HN: Harmonic, HN Client for Android",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "aarobot",
+    "url": "https://news.ycombinator.com/user?id=aarobot"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31656007",
+  "sameAs": "https://play.google.com/store/apps/details?id=com.simon.harmonichackernews&hl=en_US&gl=US",
+  "dateCreated": "2022-06-07T17:10:56.062Z",
+  "datePublished": "2022-06-07T15:44:21.000Z",
+  "dateModified": "2022-06-07T17:10:56.062Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Harmonic，Android的HN客户端\n",
+  "headline_zh-Hant": "Show HN: Harmonic，Android的HN客戶端\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

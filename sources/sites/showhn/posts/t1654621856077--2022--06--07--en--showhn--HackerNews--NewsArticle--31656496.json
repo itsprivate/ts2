@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--07--en--showhn--HackerNews--NewsArticle--31656496",
+  "url": "https://news.ycombinator.com/item?id=31656496",
+  "headline": "Show HN: Interval, CLIs in browser with no front end code",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN,<p>I'm Alex, founder of Interval [0]. We’re bringing internal tools written like CLIs to the browser to make them more powerful, through a Node.js SDK which attaches them to a hosted dashboard without any frontend code. Large companies have full teams that work on internal dashboards and tooling. Interval brings that infrastructure to anyone.<p>In our previous project we had ~65 CLI scripts for tasks like provisioning user accounts, moderating content, and migrating data. These were quick to write and powerful. They also turned into an ongoing timesuck. Non-technical coworkers needed to bother an engineer every time to run one. Some of them were powerful enough to be footguns, and because we had to rewrite validation every time, we were always a bit scared of them.<p>We wanted to bring the power and speed of cranking out CLI scripts into the world of modern software development: testable, easy to expose to colleagues via a URL, and works with Everything Else by default. That’s why we made Interval.<p>We built:<p>- A Node.js + TypeScript SDK – this embeds in your backend codebase and provides APIs for defining tools + collecting input + displaying output. These APIs are simple awaitable functions that return parsed, validated, and soundly-typed user input. You put your Interval actions in source control, test them, run CI/etc exactly like you do for all your other backend code.<p>- A hosted UI, which handles I/O for the scripts in a less brittle way than command line arguments do, while also taking care of auth, permissions, and audit logs.<p>This lets you take your CLI commands out of an engineer’s terminal and share them with the whole company. Give support the ability to ban spammers but not drop the prod DB. Require two people for sensitive actions. Echo commands to a Slack channel. It’s a powerful set of primitives out of the box and lets you do anything else you want in the code you’re already writing, without making you have to spin up a second company just to support your internal tools.<p>Under the hood, your CLIs and the hosted dashboard talk through a 2-way message passing system. We felt this approach was the best of both worlds:<p>- UIs are hosted by Interval: We build, host, and maintain the part most people don't care about for internal tools.<p>- Backends are self-hosted: We can't see your business logic, secrets, etc.<p>We're in public beta today. I hope you like it and I'm happy to answer any questions/feedback in the comments.<p>[0]: <a href=\"https://interval.com\" rel=\"nofollow\">https://interval.com</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "alexarena",
+    "url": "https://news.ycombinator.com/user?id=alexarena"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31656496",
+  "sameAs": "https://interval.com/",
+  "dateCreated": "2022-06-07T17:10:56.077Z",
+  "datePublished": "2022-06-07T16:14:01.000Z",
+  "dateModified": "2022-06-07T17:10:56.077Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 间隔，浏览器中的CLI，没有前端代码\n",
+  "headline_zh-Hant": "Show HN: 間隔，瀏覽器中的CLI，沒有前端代碼\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN,<p>我是Alex，Interval [0]的创始人。我们通过 Node.js SDK 将像 CLI 一样的内部工具带到浏览器上，使其功能更加强大，该 SDK 将这些工具附加到托管仪表盘上，而无需任何前端代码。大公司有完整的团队从事内部仪表盘和工具的开发。<p>在我们之前的项目中，我们有大约65个CLI脚本，用于配置用户账户、管理内容和迁移数据等任务。这些脚本编写得很快，而且功能强大。它们也变成了一个持续的麻烦。非技术性的同事每次都需要麻烦工程师来运行这些脚本。<p>我们希望将编写CLI脚本的力量和速度带入现代软件开发领域：可测试、易于通过URL向同事展示，并且默认与Everything Else一起工作。这就是我们制作Interval的原因。<p>我们构建了：<p>- Node.js + TypeScript SDK - 它嵌入到您的后台代码库中，并提供用于定义工具、收集输入和显示输出的API。这些API是简单的可等待函数，可返回经过解析、验证和正确键入的用户输入。<p>- 托管 UI，它以比命令行参数更少的方式处理脚本的 I/O，同时还负责处理认证、权限和审计日志。<p>这使您可以将 CLI 命令从工程师的终端中取出，并与整个公司共享。Give support the ability to ban spammers but not drop the prod DB. Require two people for sensitive actions. Echo commands to a Slack channel. It’s a powerful set of primitives out of the box and lets you do anything else you want in the code you’re already writing, without making you have to spin up a second company just to support your internal tools.<p>Under the hood, your CLIs and the hosted dashboard talk through a 2-way message passing system. We felt this approach was the best of both worlds:<p>- UIs are hosted by Interval: We build, host, and maintain the part most people don't care about for internal tools.<p>- Backends are self-hosted: We can't see your business logic, secrets, etc.<p>We're in public beta today. I hope you like it and I'm happy to answer any questions/feedback in the comments.<p>[0]: <a href=\"https://interval.com\" rel=\"nofollow\">https://interval.com</a>\n",
+  "description_zh-Hant": "嗨，HN,<p>我是Alex，Interval [0]的創始人。我們通過 Node.js SDK 將像 CLI 一樣的內部工具帶到瀏覽器上，使其功能更加強大，該 SDK 將這些工具附加到託管儀表盤上，而無需任何前端代碼。大公司有完整的團隊從事內部儀表盤和工具的開發。<p>在我們之前的項目中，我們有大約65個CLI腳本，用於配置用戶賬戶、管理內容和遷移數據等任務。這些腳本編寫得很快，而且功能強大。它們也變成了一個持續的麻煩。非技術性的同事每次都需要麻煩工程師來運行這些腳本。<p>我們希望將編寫CLI腳本的力量和速度帶入現代軟件開發領域：可測試、易於通過URL向同事展示，並且默認與Everything Else一起工作。這就是我們製作Interval的原因。<p>我們構建了：<p>- Node.js + TypeScript SDK - 它嵌入到您的後臺代碼庫中，並提供用於定義工具、收集輸入和顯示輸出的API。這些API是簡單的可等待函數，可返回經過解析、驗證和正確鍵入的用戶輸入。<p>- 託管 UI，它以比命令行參數更少的方式處理腳本的 I/O，同時還負責處理認證、權限和審計日誌。<p>這使您可以將 CLI 命令從工程師的終端中取出，並與整個公司共享。Give support the ability to ban spammers but not drop the prod DB. Require two people for sensitive actions. Echo commands to a Slack channel. It’s a powerful set of primitives out of the box and lets you do anything else you want in the code you’re already writing, without making you have to spin up a second company just to support your internal tools.<p>Under the hood, your CLIs and the hosted dashboard talk through a 2-way message passing system. We felt this approach was the best of both worlds:<p>- UIs are hosted by Interval: We build, host, and maintain the part most people don't care about for internal tools.<p>- Backends are self-hosted: We can't see your business logic, secrets, etc.<p>We're in public beta today. I hope you like it and I'm happy to answer any questions/feedback in the comments.<p>[0]: <a href=\"https://interval.com\" rel=\"nofollow\">https://interval.com</a>\n"
+}

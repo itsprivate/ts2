@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--07--en--myfeed--HackerNews--NewsArticle--31656172",
+  "url": "https://news.ycombinator.com/item?id=31656172",
+  "headline": "DIY Lego Terminal",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tosh",
+    "url": "https://news.ycombinator.com/user?id=tosh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31656172",
+  "sameAs": "https://twitter.com/ancient_james/status/1534002794726031360",
+  "dateCreated": "2022-06-07T17:10:36.057Z",
+  "datePublished": "2022-06-07T15:54:59.000Z",
+  "dateModified": "2022-06-07T17:10:36.057Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "DIY乐高终端\n",
+  "headline_zh-Hant": "DIY樂高終端\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
