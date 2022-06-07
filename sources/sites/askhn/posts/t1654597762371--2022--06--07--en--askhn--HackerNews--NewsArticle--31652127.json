@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--07--en--askhn--HackerNews--NewsArticle--31652127",
+  "url": "https://news.ycombinator.com/item?id=31652127",
+  "headline": "Ask HN: Registrars least likely to screw up?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've been pondering on and off again how best to avoid ending up in some kafkaesque algorithmic loop where your gmail account, domain name, etc. are suddenly blocked by the registrar for unspecified reasons with little to no way to resolve the situation, as has happened to &quot;many&quot; here.<p>I thought Cloudflare would be pretty good, out of the non-enterprise priced options, but even there someone had a really worrying incident recently: https://news.ycombinator.com/item?id=31573854<p>I'm inclined to think that the buck always stops somewhere, and no place is really safe in this regard, but is there really no way to have some reasonable safeguards for these?\nThe individual domains may be of little value to a registrar, but they're potentially enormously valuable to their owners, and the apparent asymmetry of incentives concerns me.<p>Are we just forced to generate noise on HN to resolve such cases or are there any reasonable alternatives out there that offer guarantees about only resorting to blocking/deleting domain in extreme cases, and provide the means to escalate without HN outcry?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ekns",
+    "url": "https://news.ycombinator.com/user?id=ekns"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31652127",
+  "sameAs": "https://news.ycombinator.com/item?id=31652127",
+  "dateCreated": "2022-06-07T10:29:22.371Z",
+  "datePublished": "2022-06-07T10:24:34.000Z",
+  "dateModified": "2022-06-07T10:29:22.371Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 登记员最不可能搞砸的是什么？\n",
+  "headline_zh-Hant": "Ask HN: 登記員最不可能搞砸的是什麼？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我一直在反复思考，如何才能最好地避免最终陷入某种卡夫卡式的算法循环，即你的 Gmail 帐户、域名等突然被注册商以不明原因封锁，而且几乎没有办法解决这种情况，就像这里发生在许多人身上的情况。 <p>我以为Cloudflare会很好，在非企业价格的选项中，但即使在那里，最近也有人发生了非常令人担忧的事件：https://news.ycombinator.com/item?id=31573854<p>我倾向于认为，责任总是在某个地方，在这方面没有地方是真正安全的，但真的没有办法对这些有一些合理的保障措施吗？\n<p>我们是否只是被迫在HN上制造噪音来解决这种情况，或者是否有任何合理的替代方案，可以保证只在极端情况下采取封锁/删除域名的措施，并提供没有HN呼声的升级手段？\n",
+  "description_zh-Hant": "我一直在反覆思考，如何才能最好地避免最終陷入某種卡夫卡式的算法循環，即你的 Gmail 帳戶、域名等突然被註冊商以不明原因封鎖，而且幾乎沒有辦法解決這種情況，就像這裡發生在許多人身上的情況。 <p>我以為Cloudflare會很好，在非企業價格的選項中，但即使在那裡，最近也有人發生了非常令人擔憂的事件：https://news.ycombinator.com/item?id=31573854<p>我傾向於認為，責任總是在某個地方，在這方面沒有地方是真正安全的，但真的沒有辦法對這些有一些合理的保障措施嗎？\n<p>我們是否只是被迫在HN上製造噪音來解決這種情況，或者是否有任何合理的替代方案，可以保證只在極端情況下采取封鎖/刪除域名的措施，並提供沒有HN呼聲的升級手段？\n"
+}

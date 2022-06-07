@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--07--en--myfeed--HackerNews--NewsArticle--31651886",
+  "url": "https://news.ycombinator.com/item?id=31651886",
+  "headline": "More cyclists are being killed by cars. Advocates say US streets are the problem",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pseudolus",
+    "url": "https://news.ycombinator.com/user?id=pseudolus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31651886",
+  "sameAs": "https://www.npr.org/2022/05/25/1099566472/more-cyclists-are-being-killed-by-cars-advocates-say-u-s-streets-are-the-problem",
+  "dateCreated": "2022-06-07T10:29:22.847Z",
+  "datePublished": "2022-06-07T09:46:40.000Z",
+  "dateModified": "2022-06-07T10:29:22.847Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "更多骑自行车的人被汽车撞死。倡导者们说美国的街道是问题所在\n",
+  "headline_zh-Hant": "更多騎自行車的人被汽車撞死。倡導者們說美國的街道是問題所在\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
