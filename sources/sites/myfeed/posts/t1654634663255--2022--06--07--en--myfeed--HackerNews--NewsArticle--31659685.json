@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--07--en--myfeed--HackerNews--NewsArticle--31659685",
+  "url": "https://news.ycombinator.com/item?id=31659685",
+  "headline": "Programming Language Keywords",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "SethMLarson",
+    "url": "https://news.ycombinator.com/user?id=SethMLarson"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31659685",
+  "sameAs": "https://nige.tech/keywords.html",
+  "dateCreated": "2022-06-07T20:44:23.255Z",
+  "datePublished": "2022-06-07T20:28:18.000Z",
+  "dateModified": "2022-06-07T20:44:23.255Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "编程语言关键词\n",
+  "headline_zh-Hant": "編程語言關鍵詞\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
