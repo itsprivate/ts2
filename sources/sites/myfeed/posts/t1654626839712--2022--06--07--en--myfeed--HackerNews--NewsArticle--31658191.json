@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--07--en--myfeed--HackerNews--NewsArticle--31658191",
+  "url": "https://news.ycombinator.com/item?id=31658191",
+  "headline": "52-year-old early retiree left the U.S. for Portugal with his family",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "belltaco",
+    "url": "https://news.ycombinator.com/user?id=belltaco"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31658191",
+  "sameAs": "https://www.cnbc.com/2022/06/06/this-52-year-old-retired-early-and-left-the-us-for-portugal-with-family-and-spends-2450-a-month.html",
+  "dateCreated": "2022-06-07T18:33:59.712Z",
+  "datePublished": "2022-06-07T18:20:20.000Z",
+  "dateModified": "2022-06-07T18:33:59.712Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "52岁的早期退休人员带着家人离开美国前往葡萄牙\n",
+  "headline_zh-Hant": "52歲的早期退休人員帶著家人離開美國前往葡萄牙\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
