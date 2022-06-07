@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--07--en--myfeed--HackerNews--NewsArticle--31657180",
+  "url": "https://news.ycombinator.com/item?id=31657180",
+  "headline": "Reverse engineering AHD DVR boards, possible?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Did anyone succeed in reverse engineering and/or reflashing with custom open firmware those cheap AHD capable DVR boards based on the NT9832x and similar SoCs?<p>You can find them for sale online from Chinese vendors by searching &quot;AHD DVR board&quot;. Basically they are CCTV DVR devices without the enclosure.<p>Here's one: https://www.ebay.com/itm/275089522569<p>They all employ some tight closed Linux firmware, and as many other tight closed networked Chinese products have been caught phoning home, it is completely unsafe to let them open to the outside through the internal LAN; some also use old kernels (3.x) that could expose vulnerabilities, therefore a firewall becomes a must. Many of them also attempt to force users to install proprietary apps on phones or use Microsoft browsers to administer them via their web page. They, and their users, would benefit immensely from an Open Source treatment.<p>Security aside, those still are interesting device nonetheless for having some nice capabilities that would turn useful for other projects; all those very fast ADCs could be used for SDR, SATA ports for storage, etc.<p>I spent some time searching around, as I did unsuccessfully with older models years ago, but as before found nothing more than a few posts, all in Chinese, referring to some vendor SDK but no hints on how to get it, which probably means it's buried under a pile of NDAs.<p>https://blog.csdn.net/layuetian2011/article/details/114830208<p>https://cxybb.com/article/layuetian2011/113877640<p>So did anyone have any hacking experience with them?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "squarefoot",
+    "url": "https://news.ycombinator.com/user?id=squarefoot"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31657180",
+  "sameAs": "https://news.ycombinator.com/item?id=31657180",
+  "dateCreated": "2022-06-07T17:40:34.262Z",
+  "datePublished": "2022-06-07T16:59:37.000Z",
+  "dateModified": "2022-06-07T17:40:34.262Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "逆向工程AHD DVR板，可能吗？\n",
+  "headline_zh-Hant": "逆向工程AHD DVR板，可能嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "有没有人成功地逆向工程和/或用定制的开放固件重新刷新那些基于NT9832x和类似SoC的廉价AHD功能DVR板？<p>你可以通过搜索&quot;AHD DVR板&quot;找到它们在中国供应商的网上销售。基本上它们是没有外壳的CCTV DVR设备。<p>这里有一个：https://www.ebay.com/itm/275089522569<p>它们都采用了一些严格封闭的Linux固件，正如许多其他严格封闭的网络的中国产品被发现打电话回家一样，让它们通过内部局域网向外开放是完全不安全的；有些还使用旧的内核（3.x），可能暴露出漏洞，因此防火墙成为一个必须。他们中的许多人还试图强迫用户在手机上安装专有的应用程序，或使用微软浏览器通过他们的网页来管理他们。<p>撇开安全问题不谈，这些设备仍然很有趣，因为它们具有一些对其他项目有用的功能；所有这些非常快的ADC可用于SDR，SATA端口用于存储，等等。 <p>我花了一些时间四处搜索，就像我几年前对旧型号的产品所做的那样，但和以前一样，只发现了一些帖子，都是中文，提到了一些供应商的SDK，但没有提示如何获得它，这可能意味着它被埋在一堆NDA之下。<p>https://blog.csdn.net/layuetian2011/article/details/114830208<p>https://cxybb.com/article/layuetian2011/113877640<p>那么有人对它们有任何黑客经验？\n",
+  "description_zh-Hant": "有沒有人成功地逆向工程和/或用定製的開放固件重新刷新那些基於NT9832x和類似SoC的廉價AHD功能DVR板？<p>你可以通過搜索&quot;AHD DVR板&quot;找到它們在中國供應商的網上銷售。基本上它們是沒有外殼的CCTV DVR設備。<p>這裡有一個：https://www.ebay.com/itm/275089522569<p>它們都採用了一些嚴格封閉的Linux固件，正如許多其他嚴格封閉的網絡的中國產品被發現打電話回家一樣，讓它們通過內部局域網向外開放是完全不安全的；有些還使用舊的內核（3.x），可能暴露出漏洞，因此防火牆成為一個必須。他們中的許多人還試圖強迫用戶在手機上安裝專有的應用程序，或使用微軟瀏覽器通過他們的網頁來管理他們。<p>撇開安全問題不談，這些設備仍然很有趣，因為它們具有一些對其他項目有用的功能；所有這些非常快的ADC可用於SDR，SATA端口用於存儲，等等。 <p>我花了一些時間四處搜索，就像我幾年前對舊型號的產品所做的那樣，但和以前一樣，只發現了一些帖子，都是中文，提到了一些供應商的SDK，但沒有提示如何獲得它，這可能意味著它被埋在一堆NDA之下。<p>https://blog.csdn.net/layuetian2011/article/details/114830208<p>https://cxybb.com/article/layuetian2011/113877640<p>那麼有人對它們有任何黑客經驗？\n"
+}
