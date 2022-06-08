@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--08--en--myfeed--HackerNews--NewsArticle--31666476",
+  "url": "https://news.ycombinator.com/item?id=31666476",
+  "headline": "Deploying Transformers on the Apple Neural Engine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vletal",
+    "url": "https://news.ycombinator.com/user?id=vletal"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31666476",
+  "sameAs": "https://machinelearning.apple.com/research/neural-engine-transformers",
+  "dateCreated": "2022-06-08T13:46:44.221Z",
+  "datePublished": "2022-06-08T12:48:21.000Z",
+  "dateModified": "2022-06-08T13:46:44.221Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在苹果神经引擎上部署变形金刚\n",
+  "headline_zh-Hant": "在蘋果神經引擎上部署變形金剛\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
