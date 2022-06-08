@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--08--en--askhn--HackerNews--NewsArticle--31668014",
+  "url": "https://news.ycombinator.com/item?id=31668014",
+  "headline": "Ask HN: Did Nat Kill FTP?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I tried recently to set up a FTP server on GCP (using vsftpd), and I couldn't get it work due to the server being behind a NAT and returning its internal IP address.<p>Considering that NAT are everywhere, is it still possible to run a FTP server these days without running constantly into that kind of issues? Or did NAT effectively kill FTP?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "fdeage",
+    "url": "https://news.ycombinator.com/user?id=fdeage"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31668014",
+  "sameAs": "https://news.ycombinator.com/item?id=31668014",
+  "dateCreated": "2022-06-08T15:26:24.054Z",
+  "datePublished": "2022-06-08T14:37:50.000Z",
+  "dateModified": "2022-06-08T15:26:24.054Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 纳特杀死了FTP吗？\n",
+  "headline_zh-Hant": "Ask HN: 納特殺死了FTP嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我最近试图在GCP上建立一个FTP服务器（使用vsftpd），但由于服务器在NAT后面并返回其内部IP地址，我无法让它工作。<p>考虑到NAT无处不在，现在是否还有可能运行一个FTP服务器而不经常遇到这种问题？还是说NAT已经有效地扼杀了FTP？\n",
+  "description_zh-Hant": "我最近試圖在GCP上建立一個FTP服務器（使用vsftpd），但由於服務器在NAT後面並返回其內部IP地址，我無法讓它工作。<p>考慮到NAT無處不在，現在是否還有可能運行一個FTP服務器而不經常遇到這種問題？還是說NAT已經有效地扼殺了FTP？\n"
+}

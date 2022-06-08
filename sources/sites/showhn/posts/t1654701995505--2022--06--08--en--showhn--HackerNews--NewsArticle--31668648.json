@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--08--en--showhn--HackerNews--NewsArticle--31668648",
+  "url": "https://news.ycombinator.com/item?id=31668648",
+  "headline": "Show HN: A game fully contained in a link",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN, I made <a href=\"https://linkians.com\" rel=\"nofollow\">https://linkians.com</a> which is a game where all the action and state is contained in the url. The game involves taking care of little pets (emojis) that live in your url bar. Kind of like tamagotchi or sims. Feed them, play with them, and watch out for enemies!<p>There's no server, just emojis in the url and client-side logic. Any linkians url using the supported emojis is a valid game state so you can save your game, or type out your own url and send it to a friend.<p>I'd appreciate any feedback.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "escot",
+    "url": "https://news.ycombinator.com/user?id=escot"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31668648",
+  "sameAs": "https://linkians.com",
+  "dateCreated": "2022-06-08T15:26:35.505Z",
+  "datePublished": "2022-06-08T15:19:17.000Z",
+  "dateModified": "2022-06-08T15:26:35.505Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 完全包含在一个链接中的游戏\n",
+  "headline_zh-Hant": "Show HN: 完全包含在一個鏈接中的遊戲\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嘿，HN，我做了<a href=\"https://linkians.com\" rel=\"nofollow\">https://linkians.com</a>，这是一个游戏，所有的动作和状态都包含在url中。这个游戏涉及照顾住在你的网址栏里的小宠物（表情符号）。有点像tamagotchi或sims。喂它们，和它们一起玩，并注意敌人！<p>没有服务器，只有url中的表情符号和客户端的逻辑。任何使用支持的表情符号的链接网址都是有效的游戏状态，所以你可以保存你的游戏，或者输入你自己的网址并发送给朋友。\n",
+  "description_zh-Hant": "嘿，HN，我做了<a href=\"https://linkians.com\" rel=\"nofollow\">https://linkians.com</a>，這是一個遊戲，所有的動作和狀態都包含在url中。這個遊戲涉及照顧住在你的網址欄裡的小寵物（表情符號）。有點像tamagotchi或sims。餵它們，和它們一起玩，並注意敵人！<p>沒有服務器，只有url中的表情符號和客戶端的邏輯。任何使用支持的表情符號的鏈接網址都是有效的遊戲狀態，所以你可以保存你的遊戲，或者輸入你自己的網址併發送給朋友。\n"
+}
