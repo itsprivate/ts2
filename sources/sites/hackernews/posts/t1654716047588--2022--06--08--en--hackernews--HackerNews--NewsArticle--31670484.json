@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--08--en--hackernews--HackerNews--NewsArticle--31670484",
+  "url": "https://news.ycombinator.com/item?id=31670484",
+  "headline": "Porting Doom to a/UX",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "soopurman",
+    "url": "https://news.ycombinator.com/user?id=soopurman"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31670484",
+  "sameAs": "https://katelibc.medium.com/porting-doom-to-a-ux-8cecab02b531",
+  "dateCreated": "2022-06-08T19:20:47.588Z",
+  "datePublished": "2022-06-08T17:07:47.000Z",
+  "dateModified": "2022-06-08T19:20:47.588Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "将Doom移植到a/UX\n",
+  "headline_zh-Hant": "將Doom移植到a/UX\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

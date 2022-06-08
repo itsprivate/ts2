@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--08--en--myfeed--HackerNews--NewsArticle--31671602",
+  "url": "https://news.ycombinator.com/item?id=31671602",
+  "headline": "Lisp: Building Abstractions with Procedures (SICP)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "wrycoder",
+    "url": "https://news.ycombinator.com/user?id=wrycoder"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31671602",
+  "sameAs": "https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-9.html#%_chap_1",
+  "dateCreated": "2022-06-08T19:20:47.708Z",
+  "datePublished": "2022-06-08T18:05:26.000Z",
+  "dateModified": "2022-06-08T19:20:47.708Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Lisp：用程序构建抽象 (SICP)\n",
+  "headline_zh-Hant": "Lisp：用程序構建抽象 (SICP)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
