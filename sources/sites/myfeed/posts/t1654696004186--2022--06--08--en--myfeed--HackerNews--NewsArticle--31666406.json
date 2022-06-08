@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--08--en--myfeed--HackerNews--NewsArticle--31666406",
+  "url": "https://news.ycombinator.com/item?id=31666406",
+  "headline": "Use compiler flags for stack protection in GCC and Clang",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pjmlp",
+    "url": "https://news.ycombinator.com/user?id=pjmlp"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31666406",
+  "sameAs": "https://developers.redhat.com/articles/2022/06/02/use-compiler-flags-stack-protection-gcc-and-clang",
+  "dateCreated": "2022-06-08T13:46:44.186Z",
+  "datePublished": "2022-06-08T12:42:24.000Z",
+  "dateModified": "2022-06-08T13:46:44.186Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在GCC和Clang中使用编译器标志进行堆栈保护\n",
+  "headline_zh-Hant": "在GCC和Clang中使用編譯器標誌進行堆棧保護\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
