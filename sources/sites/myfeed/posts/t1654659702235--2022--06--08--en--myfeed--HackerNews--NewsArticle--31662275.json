@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--08--en--myfeed--HackerNews--NewsArticle--31662275",
+  "url": "https://news.ycombinator.com/item?id=31662275",
+  "headline": "C implementation of Tic-Tac-Toe in a single call to printf (2020)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ddtaylor",
+    "url": "https://news.ycombinator.com/user?id=ddtaylor"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31662275",
+  "sameAs": "https://github.com/carlini/printf-tac-toe",
+  "dateCreated": "2022-06-08T03:41:42.235Z",
+  "datePublished": "2022-06-08T01:40:08.000Z",
+  "dateModified": "2022-06-08T03:41:42.235Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在对printf的一次调用中实现Tic-Tac-Toe的C语言实现(2020)\n",
+  "headline_zh-Hant": "在對printf的一次調用中實現Tic-Tac-Toe的C語言實現(2020)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
