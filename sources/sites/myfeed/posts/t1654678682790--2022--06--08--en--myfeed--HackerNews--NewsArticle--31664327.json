@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--08--en--myfeed--HackerNews--NewsArticle--31664327",
+  "url": "https://news.ycombinator.com/item?id=31664327",
+  "headline": "Making libcurl init more thread-safe",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "TangerineDream",
+    "url": "https://news.ycombinator.com/user?id=TangerineDream"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31664327",
+  "sameAs": "https://daniel.haxx.se/blog/2022/06/08/making-libcurl-init-more-thread-safe/",
+  "dateCreated": "2022-06-08T08:58:02.790Z",
+  "datePublished": "2022-06-08T07:22:07.000Z",
+  "dateModified": "2022-06-08T08:58:02.790Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "让libcurl init更加线程安全\n",
+  "headline_zh-Hant": "讓libcurl init更加線程安全\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

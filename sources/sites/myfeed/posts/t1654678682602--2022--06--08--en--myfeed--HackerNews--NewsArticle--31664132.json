@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--08--en--myfeed--HackerNews--NewsArticle--31664132",
+  "url": "https://news.ycombinator.com/item?id=31664132",
+  "headline": "Memory-Level Parallelism: Intel Ice Lake versus Amazon Graviton 3",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ingve",
+    "url": "https://news.ycombinator.com/user?id=ingve"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31664132",
+  "sameAs": "https://lemire.me/blog/2022/06/07/memory-level-parallelism-intel-ice-lake-versus-amazon-graviton-3/",
+  "dateCreated": "2022-06-08T08:58:02.602Z",
+  "datePublished": "2022-06-08T06:47:22.000Z",
+  "dateModified": "2022-06-08T08:58:02.602Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "内存级并行性：英特尔冰湖与亚马逊Graviton 3的比较\n",
+  "headline_zh-Hant": "內存級並行性：英特爾冰湖與亞馬遜Graviton 3的比較\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
