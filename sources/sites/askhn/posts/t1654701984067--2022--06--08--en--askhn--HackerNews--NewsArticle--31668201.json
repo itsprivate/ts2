@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--08--en--askhn--HackerNews--NewsArticle--31668201",
+  "url": "https://news.ycombinator.com/item?id=31668201",
+  "headline": "Ask HN: How do RSS readers handle items missing pubDates?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm writing an RSS reader, and I noticed that items often miss publication dates. Regardless, other readers seem to be able to gather them anyway, I'm guessing through the actual site.<p>Is this generally done through web scraping, archival information, web crawler data, or something else entirely?<p>I'm asking because I would hate to resort to those types of methods as they are generally heavy on resources and unstable.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "pipeline_peak",
+    "url": "https://news.ycombinator.com/user?id=pipeline_peak"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31668201",
+  "sameAs": "https://news.ycombinator.com/item?id=31668201",
+  "dateCreated": "2022-06-08T15:26:24.067Z",
+  "datePublished": "2022-06-08T14:51:13.000Z",
+  "dateModified": "2022-06-08T15:26:24.067Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: RSS阅读器如何处理缺少pubDate的项目？\n",
+  "headline_zh-Hant": "Ask HN: RSS閱讀器如何處理缺少pubDate的項目？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在编写一个RSS阅读器，我注意到项目经常错过出版日期。不管怎么说，其他读者似乎还是能够收集到它们，我猜是通过实际的网站。<p>这一般是通过网络刮擦、档案信息、网络爬虫数据，还是其他完全不同的方式？<p>我问这个问题是因为我不愿意采用这些类型的方法，因为它们一般都是重资源且不稳定的。\n",
+  "description_zh-Hant": "我正在編寫一個RSS閱讀器，我注意到項目經常錯過出版日期。不管怎麼說，其他讀者似乎還是能夠收集到它們，我猜是通過實際的網站。<p>這一般是通過網絡刮擦、檔案信息、網絡爬蟲數據，還是其他完全不同的方式？<p>我問這個問題是因為我不願意採用這些類型的方法，因為它們一般都是重資源且不穩定的。\n"
+}

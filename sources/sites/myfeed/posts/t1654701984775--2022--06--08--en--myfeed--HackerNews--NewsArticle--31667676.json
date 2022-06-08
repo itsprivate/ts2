@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--08--en--myfeed--HackerNews--NewsArticle--31667676",
+  "url": "https://news.ycombinator.com/item?id=31667676",
+  "headline": "ID.me's growth led to frantic hiring, ill-equipped staff and security lapses",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "caseysoftware",
+    "url": "https://news.ycombinator.com/user?id=caseysoftware"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31667676",
+  "sameAs": "https://www.businessinsider.com/id-me-customer-service-workers-hiring-secuirty-privacy-stress-data-2022-6",
+  "dateCreated": "2022-06-08T15:26:24.775Z",
+  "datePublished": "2022-06-08T14:15:01.000Z",
+  "dateModified": "2022-06-08T15:26:24.775Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "ID.me的增长导致了疯狂的招聘、设备不全的员工和安全方面的漏洞\n",
+  "headline_zh-Hant": "ID.me的增長導致了瘋狂的招聘、設備不全的員工和安全方面的漏洞\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

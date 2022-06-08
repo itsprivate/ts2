@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--08--en--hackernews--HackerNews--NewsArticle--31667067",
+  "url": "https://news.ycombinator.com/item?id=31667067",
+  "headline": "Beautiful Soup",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "memorable",
+    "url": "https://news.ycombinator.com/user?id=memorable"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31667067",
+  "sameAs": "https://www.crummy.com/software/BeautifulSoup/",
+  "dateCreated": "2022-06-08T15:26:24.512Z",
+  "datePublished": "2022-06-08T13:32:13.000Z",
+  "dateModified": "2022-06-08T15:26:24.512Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 45
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 14
+    }
+  ],
+  "headline_zh-Hans": "美丽的汤\n",
+  "headline_zh-Hant": "美麗的湯\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
