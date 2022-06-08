@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--08--en--askhn--HackerNews--NewsArticle--31669496",
+  "url": "https://news.ycombinator.com/item?id=31669496",
+  "headline": "Ask HN: Advice for cross-platform dev environments for Python Extensions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've been dipping my toes into extending Python with C/C++. I've experimented with ctypes, raw native Python C (#include &lt;python.h&gt;), and now I'm trying Pybind11.<p>My experience has been that setting up a development environment for this sort of thing is hell.<p>In the JetBrains line, PyCharm doesn't support C/C++ development, and CLion has limited Python support (I can't use Jupyter Notebooks in CLion for instance), and you can't use both IDEs on the same repo (Plus CLion is not free).<p>For Visual Studio, I'm actually pretty impressed with the python capabilities. Using the default MSBuild system, I can create a project that outputs a pyd file, and add a project with a Python file that has a reference to the pyd output directory, which works seamlessly. But the second I want to make it cross platform by using CMake, I can't add a reference to the output directory from the C++ project to the Python script. I thought to just append the output directory to the path, but then I can't differentiate between debug/release. And I'm sure mixed language debugging would be limited in CMake mode.<p>I haven't yet tried VS Code.<p>Does anyone have any tips or advice or best practices for setting up a cross platform C/C++ Python development environment?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "annowiki",
+    "url": "https://news.ycombinator.com/user?id=annowiki"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31669496",
+  "sameAs": "https://news.ycombinator.com/item?id=31669496",
+  "dateCreated": "2022-06-08T16:37:55.239Z",
+  "datePublished": "2022-06-08T16:10:13.000Z",
+  "dateModified": "2022-06-08T16:37:55.239Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 对Python扩展的跨平台开发环境的建议\n",
+  "headline_zh-Hant": "Ask HN: 對Python擴展的跨平臺開發環境的建議\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我一直在尝试用C/C++来扩展Python。我已经试验过 ctypes、原始的本地 Python C (#include &lt;python.h&gt;)，现在我正在尝试 Pybind11。<p>我的经验是，为这种事情建立一个开发环境是地狱。 <p>在JetBrains产品线中，PyCharm不支持C/C++开发，而CLion对Python的支持也很有限（例如，我不能在CLion中使用Jupyter Notebooks），而且你不能在同一个Repo上使用两个IDE（另外CLion也不是免费的）。<p>对于Visual Studio，我实际上对其Python功能印象深刻。使用默认的MSBuild系统，我可以创建一个输出pyd文件的项目，并添加一个具有pyd输出目录引用的Python文件的项目，这可以无缝地工作。但是当我想通过使用CMake使其跨平台时，我就不能把对C++项目的输出目录的引用添加到Python脚本中。我想直接把输出目录追加到路径中，但这样我就无法区分调试/发布。而且我确信在CMake模式下，混合语言的调试会受到限制。<p>我还没有尝试过VS Code。<p>对于建立跨平台的C/C++ Python开发环境，谁有什么提示、建议或最佳实践？\n",
+  "description_zh-Hant": "我一直在嘗試用C/C++來擴展Python。我已經試驗過 ctypes、原始的本地 Python C (#include &lt;python.h&gt;)，現在我正在嘗試 Pybind11。<p>我的經驗是，為這種事情建立一個開發環境是地獄。 <p>在JetBrains產品線中，PyCharm不支持C/C++開發，而CLion對Python的支持也很有限（例如，我不能在CLion中使用Jupyter Notebooks），而且你不能在同一個Repo上使用兩個IDE（另外CLion也不是免費的）。<p>對於Visual Studio，我實際上對其Python功能印象深刻。使用默認的MSBuild系統，我可以創建一個輸出pyd文件的項目，並添加一個具有pyd輸出目錄引用的Python文件的項目，這可以無縫地工作。但是當我想通過使用CMake使其跨平臺時，我就不能把對C++項目的輸出目錄的引用添加到Python腳本中。我想直接把輸出目錄追加到路徑中，但這樣我就無法區分調試/發佈。而且我確信在CMake模式下，混合語言的調試會受到限制。<p>我還沒有嘗試過VS Code。<p>對於建立跨平臺的C/C++ Python開發環境，誰有什麼提示、建議或最佳實踐？\n"
+}
