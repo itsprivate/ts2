@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--08--en--askhn--HackerNews--NewsArticle--31663997",
+  "url": "https://news.ycombinator.com/item?id=31663997",
+  "headline": "Ask HN: How can an external app track WhatsApp online status/last seen?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I saw a WA tracker app today, that reminded me of time when I found WhatsDog[1]. You enter a number in the app and it tracks user's online status in the background. It used to work.<p>Back then (4-5 years ago), I remember de-compiling to understand the tech but couldn't find anything.<p>How does this work/used to work? \nMy guess is that they would be using the loophole where anyone can see if the user is online (even if the user hasn't saved your number[2]) and replicating requests like WhatsApp web client. Doesn't sound a good/scalable solution to me.<p>[1] https://whatsdog.en.uptodown.com/android\nThere are many more (https://play.google.com/store/search?q=whatsapp%20tracker&amp;c=apps&amp;hl=en_IN&amp;gl=US), some would be definitely fake.\n[2] https://www.indiatoday.in/technology/news/story/whatsapp-has-status-flaw-stalkers-are-using-it-to-track-women-online-using-automated-apps-1791129-2021-04-15",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "abskscdv",
+    "url": "https://news.ycombinator.com/user?id=abskscdv"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31663997",
+  "sameAs": "https://news.ycombinator.com/item?id=31663997",
+  "dateCreated": "2022-06-08T06:31:04.966Z",
+  "datePublished": "2022-06-08T06:26:34.000Z",
+  "dateModified": "2022-06-08T06:31:04.966Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 外部应用程序如何跟踪WhatsApp的在线状态/最后一次看到？\n",
+  "headline_zh-Hant": "Ask HN: 外部應用程序如何跟蹤WhatsApp的在線狀態/最後一次看到？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我今天看到了一个WA追踪器应用，这让我想起了我发现WhatsDog[1]的时候。你在应用程序中输入一个数字，它就会在后台跟踪用户的在线状态。<p>那时（4-5年前），我记得去编译以了解技术，但什么也找不到。<p>这如何工作/曾经工作？\n我的猜测是，他们会利用任何人都可以看到用户是否在线的漏洞（即使用户没有保存你的号码[2]），并复制像WhatsApp网络客户端的请求。对我来说，这听起来不是一个好的/可扩展的解决方案。<p>[1] https://whatsdog.en.uptodown.com/android\n还有很多（https://play.google.com/store/search?q=whatsapp%20tracker&amp;c=apps&amp;hl=en_IN&amp;gl=US），有些肯定会是假的。\n[2] https://www.indiatoday.in/technology/news/story/whatsapp-has-status-flaw-stalkers-are-using-it-to-track-women-online-using-automated-apps-1791129-2021-04-15\n",
+  "description_zh-Hant": "我今天看到了一個WA追蹤器應用，這讓我想起了我發現WhatsDog[1]的時候。你在應用程序中輸入一個數字，它就會在後臺跟蹤用戶的在線狀態。<p>那時（4-5年前），我記得去編譯以瞭解技術，但什麼也找不到。<p>這如何工作/曾經工作？\n我的猜測是，他們會利用任何人都可以看到用戶是否在線的漏洞（即使用戶沒有保存你的號碼[2]），並複製像WhatsApp網絡客戶端的請求。對我來說，這聽起來不是一個好的/可擴展的解決方案。<p>[1] https://whatsdog.en.uptodown.com/android\n還有很多（https://play.google.com/store/search?q=whatsapp%20tracker&amp;c=apps&amp;hl=en_IN&amp;gl=US），有些肯定會是假的。\n[2] https://www.indiatoday.in/technology/news/story/whatsapp-has-status-flaw-stalkers-are-using-it-to-track-women-online-using-automated-apps-1791129-2021-04-15\n"
+}
