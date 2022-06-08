@@ -14,11 +14,7 @@ import puppeteer, {
   Page,
 } from "https://deno.land/x/puppeteer@14.1.1/mod.ts";
 import d from "./d-mobile.js";
-// import { JsonLdDocument } from "https://denopkg.com/DefinitelyTyped/DefinitelyTyped@master/types/jsonld/index.d.ts";
-import {
-  NodeObject,
-  ContextDefinition,
-} from "https://cdn.skypack.dev/jsonld@5.2.0?dts";
+import { NodeObject, ContextDefinition } from "https://esm.sh/jsonld@5.2.0?dts";
 import zhToHant from "./zh-to-hant.ts";
 const homepage = "https://www.deepl.com/en/translator-mobile";
 const isDev = Deno.env.get("ENV") === "dev";
@@ -69,13 +65,6 @@ export default async function (files: string[]) {
     await page.waitForXPath(
       "//button[@dl-test='translator-target-lang-btn']//span[text()='English (US)']"
     );
-    // await page.waitForSelector("button[dl-test=translator-source-lang-btn]");
-    // console.log("ss");
-
-    // while (await hasSelector(page, ".dl_cookieBanner--buttonSelected")) {
-    //   await page.click(".dl_cookieBanner--buttonSelected");
-    //   await sleepMs(1000);
-    // }
 
     return page;
   };

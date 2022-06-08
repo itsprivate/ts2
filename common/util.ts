@@ -1,12 +1,10 @@
-import { Organization, Thing, WithContext } from "https://esm.sh/schema-dts";
+import { Thing, WithContext } from "https://esm.sh/schema-dts";
 import { resolve, join } from "https://deno.land/std@0.121.0/path/mod.ts";
-import { ROOT_DOMAIN, SEPARATOR } from "./constant.ts";
+import { SEPARATOR } from "./constant.ts";
 import { ensureFile } from "https://deno.land/std@0.121.0/fs/mod.ts";
 import schema from "../common/schema-org.js";
-// import TurndownService from "https://esm.sh/turndown@7.1.1";
-import TurndownService from "https://cdn.skypack.dev/turndown@7.1.1";
 
-import { DOMParser } from "https://deno.land/x/deno_dom@v0.1.21-alpha/deno-dom-wasm.ts";
+import htmlToMarkdown from "https://esm.sh/@wcj/html-to-markdown@1.0.1";
 
 const isDev = Deno.env.get("ENV") === "dev";
 
@@ -205,19 +203,9 @@ export function getFinalHeadline(
   }
 }
 
-export const html2markdown = (html: string): string => {
-  console.log("html", html);
+export const html2markdown = (html: string): Promise<string> => {
   if (!html) {
-    return html;
+    return Promise.resolve(html);
   }
-
-  const turndownService = new TurndownService();
-  const parser = new DOMParser();
-  const doc = parser.parseFromString(html, "text/html");
-  if (!doc) {
-    console.error(`failed to parse doc`, html);
-    return html;
-  }
-  const markdown = turndownService.turndown(doc);
-  return markdown;
+  return htmlToMarkdown({ html: html });
 };
