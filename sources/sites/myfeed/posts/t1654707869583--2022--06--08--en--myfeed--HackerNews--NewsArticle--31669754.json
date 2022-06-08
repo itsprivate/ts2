@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--08--en--myfeed--HackerNews--NewsArticle--31669754",
+  "url": "https://news.ycombinator.com/item?id=31669754",
+  "headline": "Deriving Search Relevance Judgments from an A/B Test",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "softwaredoug",
+    "url": "https://news.ycombinator.com/user?id=softwaredoug"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31669754",
+  "sameAs": "https://softwaredoug.com/blog/2022/06/08/deriving-relevance-judgments-from-an-a-b-test.html",
+  "dateCreated": "2022-06-08T17:04:29.583Z",
+  "datePublished": "2022-06-08T16:25:44.000Z",
+  "dateModified": "2022-06-08T17:04:29.583Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "从A/B测试中推导出搜索相关性判断\n",
+  "headline_zh-Hant": "從A/B測試中推導出搜索相關性判斷\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
