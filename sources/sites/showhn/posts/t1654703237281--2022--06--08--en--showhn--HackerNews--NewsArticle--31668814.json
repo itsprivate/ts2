@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--06--06--en--myfeed--HackerNews--NewsArticle--31643680",
-  "url": "https://news.ycombinator.com/item?id=31643680",
-  "headline": "Apple’s new MacBook Air features the M2 chip",
+  "identifier": "2022--06--08--en--showhn--HackerNews--NewsArticle--31668814",
+  "url": "https://news.ycombinator.com/item?id=31668814",
+  "headline": "Show HN: Read Wikipedia privately using homomorphic encryption",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "emdashcomma",
-    "url": "https://news.ycombinator.com/user?id=emdashcomma"
+    "name": "blintz",
+    "url": "https://news.ycombinator.com/user?id=blintz"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=31643680",
-  "sameAs": "https://www.theverge.com/2022/6/6/23148515/apple-new-macbook-air-m2-features-specs-price-release-date",
-  "dateCreated": "2022-06-06T18:34:21.309Z",
-  "datePublished": "2022-06-06T18:04:46.000Z",
-  "dateModified": "2022-06-06T18:34:21.309Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31668814",
+  "sameAs": "https://spiralwiki.com/",
+  "dateCreated": "2022-06-08T15:47:17.281Z",
+  "datePublished": "2022-06-08T15:29:33.000Z",
+  "dateModified": "2022-06-08T15:47:17.281Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 3
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "苹果新的MacBook Air采用M2芯片\n",
-  "headline_zh-Hant": "蘋果新的MacBook Air採用M2芯片\n",
+  "headline_zh-Hans": "Show HN: 使用同态加密法私下阅读维基百科\n",
+  "headline_zh-Hant": "Show HN: 使用同態加密法私下閱讀維基百科\n",
   "@context": [
     "https://schema.org",
     {
