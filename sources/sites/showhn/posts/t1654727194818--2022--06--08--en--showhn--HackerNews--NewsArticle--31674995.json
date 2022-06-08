@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--08--en--showhn--HackerNews--NewsArticle--31674995",
+  "url": "https://news.ycombinator.com/item?id=31674995",
+  "headline": "Show HN: GPT-3 generated articles about AI",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Here's a fun little project I did today on a whim. I happen to have access to the OpenAI API, so I used their playground feature to generate AI headlines with their taglines. I fed it this prompt:<p>'Last week's top AI news: \n* Caltech unit creates AI helping drones to withstand violent winds - &quot;Caltech researchers are developing a drone with rapidly reacting artificial intelligence (AI) capacities that allow it to adapt in flight to extreme wind similar to tornado or hurricane conditions.&quot;<p>* How Deep Squeak, an AI program with a weird name, is detecting whales - &quot;Artificial Intelligence is booming. And now an AI program is being used to search for whales.&quot; &quot;<p>Plug alert: this text sourced from the latest edition of the Last Week in AI newsletter (https://lastweekin.ai/) which I co-run. So here's what it got just generating text given that prompt:<p>* Google’s DeepMind creates AI that can beat humans at hide-and-seek - &quot;A new artificial intelligence program developed by Google’s DeepMind can beat humans at hide-and-seek, according to a new paper.&quot;<p>* Carnegie Mellon Researchers Develop AI System That Can Help You Write Better Emails - &quot;Researchers at Carnegie Mellon University have developed an artificial intelligence system that can help you write better emails.&quot;<p>* New AI System Can Help You Find a Job You’ll Love - &quot;A new artificial intelligence system developed by researchers at the University of Toronto can help you find a job you’ll love, according to a new study.&quot;<p>Perhaps unsurprisingly, quite good. Though, I was surprised to find it repeats itself super quickly. Would have thought GPT-3 had solved this very basic language model problem... It also seems to repeat actual news stories from the past, such as:<p>* Google DeepMind's AlphaGo Zero AI can teach itself Go and other games in hours - &quot;DeepMind has created an artificial intelligence system that can not only defeat humans at the game of Go, but also teach itself to play from scratch within hours.&quot;<p>I also tried prompting it with just &quot;Last week's top AI news&quot; and got the following:<p>1. Google's DeepMind has created a new algorithm that can predict how proteins will fold.<p>2. Facebook's artificial intelligence research lab has developed a new system that can automatically generate 3D models of objects from 2D images.<p>3. IBM has announced that its Watson AI platform will now be available to developers on the IBM Cloud.<p>Again, repeating facts from the past. Lastly, how about &quot;This week's trending AI papers&quot; as a prompt. Also not bad:<p>1. &quot;Deep Learning for Recommender Systems&quot;<p>2. &quot;A Neural Network Approach to Context-Aware Query Suggestion&quot;<p>3. &quot;Learning Deep Representations of Fine-Grained Visual Concepts&quot;<p>A while back I fine-tuned GPT-2 on 100 weeks' worth of AI news (and released the dataset+colab notebook, see https://www.skynettoday.com/digests/ai-news-analysis), and got some comparatively more amusing stuff:<p>&quot;Researchers develop a traffic light for self-driving cars  - A pair of new papers from University of Tokyo Institute of  Technology researchers and the World Health Organization claim to have  addressed one of the great challenges of artificial intelligence:  traffic lights.<p>How I used NLP's GPT-3 to write the AI I Created  - When it comes to creating AI, there are 2 main choices I have:-  write a clean code or- just use the output from the original app to  clean code.<p>Meet Microsoft's first AI-powered coffee machine - Jeff Dean, chair of Microsoft’s artificial intelligence (AI)  division, recently sat down with WIRED senior writer Will Knight to  discuss the value of building products that do a lot of good, but don’t  always do much of anything else.&quot;<p>That's about it, nothing too fancy but kind of fun. Feel free to suggest other little experiments to try!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "andreyk",
+    "url": "https://news.ycombinator.com/user?id=andreyk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31674995",
+  "sameAs": "https://news.ycombinator.com/item?id=31674995",
+  "dateCreated": "2022-06-08T22:26:34.818Z",
+  "datePublished": "2022-06-08T22:07:10.000Z",
+  "dateModified": "2022-06-08T22:26:34.818Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: GPT-3产生的关于AI的文章\n",
+  "headline_zh-Hant": "Show HN: GPT-3產生的關於AI的文章\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "这是我今天一时兴起做的一个有趣的小项目。我碰巧可以访问OpenAI的API，所以我使用了他们的游乐场功能来生成带有标语的AI头条。我给它输入了这样的提示：<p>'上周的顶级人工智能新闻。\n* 加州理工学院的研究小组创造了帮助无人机抵御狂风的人工智能--&quot;加州理工学院的研究人员正在开发一种具有快速反应的人工智能（AI）能力的无人机，使其能够在飞行中适应类似于龙卷风或飓风条件下的极端风力。&quot;<p>* Deep Squeak，一个有着奇怪名字的AI程序，是如何探测鲸鱼的--&quot;人工智能正在蓬勃发展。现在，一个人工智能程序被用来搜索鲸鱼。&quot;&quot;<p>插播提醒：这段文字来自于我共同经营的最新一期《上周人工智能》通讯（https://lastweekin.ai/）。所以这里是它得到的只是生成文本的提示：<p>*谷歌的DeepMind创造的人工智能可以在捉迷藏方面击败人类--&quot;根据一篇新论文，谷歌的DeepMind开发的新人工智能程序可以在捉迷藏方面击败人类。 &quot;<p>* 卡内基梅隆大学的研究人员开发的人工智能系统可以帮助你写出更好的电子邮件 - &quot;卡内基梅隆大学的研究人员开发了一个人工智能系统，可以帮助你写出更好的电子邮件。 &quot;<p>*新的人工智能系统可以帮助你找到一份你喜欢的工作 - &quot;根据一项新的研究，多伦多大学的研究人员开发的新的人工智能系统可以帮助你找到一份你喜欢的工作。虽然，我惊讶地发现它的重复速度超快。本以为GPT-3已经解决了这个非常基本的语言模型问题...... 它似乎也在重复过去的实际新闻故事，例如：<p>*谷歌DeepMind的AlphaGo Zero人工智能可以在数小时内自学围棋和其他游戏--&quot;DeepMind创造了一个人工智能系统，不仅可以在围棋游戏中击败人类，还可以在数小时内从头开始教自己下棋。&quot;<p>我还试着只用&quot;上周的热门AI新闻&quot;来提示它，得到如下：<p>1. 谷歌的DeepMind创造了一种新的算法，可以预测蛋白质将如何折叠。<p>2.Facebook的人工智能研究实验室开发了一个新的系统，可以从2D图像中自动生成物体的3D模型。<p>3.IBM宣布，其Watson人工智能平台现在将提供给IBM云上的开发人员。<p>再次，重复过去的事实。最后，把&quot;本周流行的人工智能论文&quot;作为提示如何。也不错：<p>1.&quot;Deep Learning for Recommender Systems&quot;<p>2.&quot;A Neural Network Approach to Context-Aware Query Suggestion&quot;<p>3.&quot;Learning Deep Representations of Fine-Grained Visual Concepts&quot;<p>前段时间我对100周的AI新闻进行了GPT-2的微调（并发布了数据集+实验室笔记本，见https://www.skynettoday. com/digests/ai-news-analysis），并得到了一些相对更有趣的东西：<p>&quot;研究人员为自动驾驶汽车开发了一个交通灯--东京理工大学研究人员和世界卫生组织的一对新论文声称已经解决了人工智能的巨大挑战之一：交通灯。 <p>我是如何使用NLP的GPT-3来编写我创建的人工智能的 - 当涉及到创建人工智能时，我有2个主要的选择：-编写一个干净的代码或者-直接使用原始应用的输出来清理代码。 <p>认识微软的第一台人工智能咖啡机--微软人工智能（AI）部门的主席杰夫-迪恩最近与WIRED高级作家威尔-奈特坐下来，讨论构建产品的价值，这些产品做了很多好事，但并不总是做很多其他事情。&quot;<p>大概就是这样，没有太多花哨的东西，但有点有趣。欢迎提出其他可以尝试的小实验!\n",
+  "description_zh-Hant": "這是我今天一時興起做的一個有趣的小項目。我碰巧可以訪問OpenAI的API，所以我使用了他們的遊樂場功能來生成帶有標語的AI頭條。我給它輸入了這樣的提示：<p>'上週的頂級人工智能新聞。\n* 加州理工學院的研究小組創造了幫助無人機抵禦狂風的人工智能--&quot;加州理工學院的研究人員正在開發一種具有快速反應的人工智能（AI）能力的無人機，使其能夠在飛行中適應類似於龍捲風或颶風條件下的極端風力。&quot;<p>* Deep Squeak，一個有著奇怪名字的AI程序，是如何探測鯨魚的--&quot;人工智能正在蓬勃發展。現在，一個人工智能程序被用來搜索鯨魚。&quot;&quot;<p>插播提醒：這段文字來自於我共同經營的最新一期《上週人工智能》通訊（https://lastweekin.ai/）。所以這裡是它得到的只是生成文本的提示：<p>*谷歌的DeepMind創造的人工智能可以在捉迷藏方面擊敗人類--&quot;根據一篇新論文，谷歌的DeepMind開發的新人工智能程序可以在捉迷藏方面擊敗人類。 &quot;<p>* 卡內基梅隆大學的研究人員開發的人工智能系統可以幫助你寫出更好的電子郵件 - &quot;卡內基梅隆大學的研究人員開發了一個人工智能系統，可以幫助你寫出更好的電子郵件。 &quot;<p>*新的人工智能系統可以幫助你找到一份你喜歡的工作 - &quot;根據一項新的研究，多倫多大學的研究人員開發的新的人工智能系統可以幫助你找到一份你喜歡的工作。雖然，我驚訝地發現它的重複速度超快。本以為GPT-3已經解決了這個非常基本的語言模型問題...... 它似乎也在重複過去的實際新聞故事，例如：<p>*谷歌DeepMind的AlphaGo Zero人工智能可以在數小時內自學圍棋和其他遊戲--&quot;DeepMind創造了一個人工智能系統，不僅可以在圍棋遊戲中擊敗人類，還可以在數小時內從頭開始教自己下棋。&quot;<p>我還試著只用&quot;上週的熱門AI新聞&quot;來提示它，得到如下：<p>1. 谷歌的DeepMind創造了一種新的算法，可以預測蛋白質將如何摺疊。<p>2.Facebook的人工智能研究實驗室開發了一個新的系統，可以從2D圖像中自動生成物體的3D模型。<p>3.IBM宣佈，其Watson人工智能平臺現在將提供給IBM雲上的開發人員。<p>再次，重複過去的事實。最後，把&quot;本週流行的人工智能論文&quot;作為提示如何。也不錯：<p>1.&quot;Deep Learning for Recommender Systems&quot;<p>2.&quot;A Neural Network Approach to Context-Aware Query Suggestion&quot;<p>3.&quot;Learning Deep Representations of Fine-Grained Visual Concepts&quot;<p>前段時間我對100周的AI新聞進行了GPT-2的微調（併發布了數據集+實驗室筆記本，見https://www.skynettoday. com/digests/ai-news-analysis），並得到了一些相對更有趣的東西：<p>&quot;研究人員為自動駕駛汽車開發了一個交通燈--東京理工大學研究人員和世界衛生組織的一對新論文聲稱已經解決了人工智能的巨大挑戰之一：交通燈。 <p>我是如何使用NLP的GPT-3來編寫我創建的人工智能的 - 當涉及到創建人工智能時，我有2個主要的選擇：-編寫一個乾淨的代碼或者-直接使用原始應用的輸出來清理代碼。 <p>認識微軟的第一臺人工智能咖啡機--微軟人工智能（AI）部門的主席傑夫-迪恩最近與WIRED高級作家威爾-奈特坐下來，討論構建產品的價值，這些產品做了很多好事，但並不總是做很多其他事情。&quot;<p>大概就是這樣，沒有太多花哨的東西，但有點有趣。歡迎提出其他可以嘗試的小實驗!\n"
+}
