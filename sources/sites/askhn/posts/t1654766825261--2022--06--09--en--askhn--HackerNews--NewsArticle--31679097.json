@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--09--en--askhn--HackerNews--NewsArticle--31679097",
+  "url": "https://news.ycombinator.com/item?id=31679097",
+  "headline": "Ask HN: How do you keep personal modifications to a public repo private?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "When I work on a someone else's public repo I might add a little extra\nscaffolding around it like:<p>* Scripts to install/configure any prerequisites for my distro\n* Scripts to launch a VM/container to work inside\n* Editor/IDE config files to setup the project's linting/testing etc<p>It's not useful to anyone else, it should stay on my machine. But I:<p>* Don't want to change the repos .gitignore\n* Still want to use source control on these files<p>Are there any tools out there to help? How do you solve this?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ian_hn",
+    "url": "https://news.ycombinator.com/user?id=ian_hn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31679097",
+  "sameAs": "https://news.ycombinator.com/item?id=31679097",
+  "dateCreated": "2022-06-09T09:27:05.261Z",
+  "datePublished": "2022-06-09T09:06:06.000Z",
+  "dateModified": "2022-06-09T09:27:05.261Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你如何保持对公共回购的个人修改的私密性？\n",
+  "headline_zh-Hant": "Ask HN: 你如何保持對公共回購的個人修改的私密性？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "当我在别人的公共 repo 上工作时，我可能会在其周围添加一些额外的\n<p>* 脚本来安装/配置我的发行版的任何先决条件。\n* 启动虚拟机/容器的脚本，以便在里面工作\n* 编辑器/IDE配置文件来设置项目的提示/测试等<p>它对其他人没有用，它应该留在我的机器上。但我：<p>* 不想改变repos .gitignore\n*仍然想对这些文件使用源码控制<p>有什么工具可以帮助吗？你如何解决这个问题？\n",
+  "description_zh-Hant": "當我在別人的公共 repo 上工作時，我可能會在其周圍添加一些額外的\n<p>* 腳本來安裝/配置我的發行版的任何先決條件。\n* 啟動虛擬機/容器的腳本，以便在裡面工作\n* 編輯器/IDE配置文件來設置項目的提示/測試等<p>它對其他人沒有用，它應該留在我的機器上。但我：<p>* 不想改變repos .gitignore\n*仍然想對這些文件使用源碼控制<p>有什麼工具可以幫助嗎？你如何解決這個問題？\n"
+}
