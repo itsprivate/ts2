@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--09--en--myfeed--HackerNews--NewsArticle--31683214",
+  "url": "https://news.ycombinator.com/item?id=31683214",
+  "headline": "Vivaldi Mail 1.0: A powerful email client built right into the browser",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "marban",
+    "url": "https://news.ycombinator.com/user?id=marban"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31683214",
+  "sameAs": "https://vivaldi.com/press/releases/vivaldi-mail-1-0-calendar-feed-reader-launches/",
+  "dateCreated": "2022-06-09T16:40:59.673Z",
+  "datePublished": "2022-06-09T16:25:28.000Z",
+  "dateModified": "2022-06-09T16:40:59.673Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Vivaldi Mail 1.0: 一个直接内置于浏览器的强大的电子邮件客户端\n",
+  "headline_zh-Hant": "Vivaldi Mail 1.0: 一個直接內置於瀏覽器的強大的電子郵件客戶端\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

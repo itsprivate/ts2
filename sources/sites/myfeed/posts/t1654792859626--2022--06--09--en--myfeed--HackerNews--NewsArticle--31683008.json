@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--09--en--myfeed--HackerNews--NewsArticle--31683008",
+  "url": "https://news.ycombinator.com/item?id=31683008",
+  "headline": "Software Companies Die (1995) [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Something1234",
+    "url": "https://news.ycombinator.com/user?id=Something1234"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31683008",
+  "sameAs": "https://homepages.uc.edu/~thomam/Articles/HowSoftwareCompaniesDie.pdf",
+  "dateCreated": "2022-06-09T16:40:59.626Z",
+  "datePublished": "2022-06-09T16:10:55.000Z",
+  "dateModified": "2022-06-09T16:40:59.626Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "软件公司的死亡 (1995) [pdf]\n",
+  "headline_zh-Hant": "軟件公司的死亡 (1995) [pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
