@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--09--en--myfeed--HackerNews--NewsArticle--31687452",
+  "url": "https://news.ycombinator.com/item?id=31687452",
+  "headline": "Apple rumors point to a 15-inch MacBook Air and 12-inch laptop",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "manasvi_gupta",
+    "url": "https://news.ycombinator.com/user?id=manasvi_gupta"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31687452",
+  "sameAs": "https://www.theverge.com/2022/6/9/23161540/apple-macbook-air-ipad-pro-m2-max-rumors",
+  "dateCreated": "2022-06-09T23:57:31.738Z",
+  "datePublished": "2022-06-09T21:58:10.000Z",
+  "dateModified": "2022-06-09T23:57:31.738Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "苹果传言指向15英寸MacBook Air和12英寸笔记本电脑\n",
+  "headline_zh-Hant": "蘋果傳言指向15英寸MacBook Air和12英寸筆記本電腦\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
