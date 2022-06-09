@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--09--en--myfeed--HackerNews--NewsArticle--31676237",
+  "url": "https://news.ycombinator.com/item?id=31676237",
+  "headline": "Ukraine Situation Report",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tomohawk",
+    "url": "https://news.ycombinator.com/user?id=tomohawk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31676237",
+  "sameAs": "https://www.thedrive.com/the-war-zone/ukraine-situation-report-russia-claims-destruction-of-western-supplied-m109-howitzers",
+  "dateCreated": "2022-06-09T02:06:23.491Z",
+  "datePublished": "2022-06-09T00:26:48.000Z",
+  "dateModified": "2022-06-09T02:06:23.491Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "乌克兰局势报告\n",
+  "headline_zh-Hant": "烏克蘭局勢報告\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
