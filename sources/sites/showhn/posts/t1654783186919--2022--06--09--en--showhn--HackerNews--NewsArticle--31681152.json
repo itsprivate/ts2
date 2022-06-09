@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--04--24--en--hackernews--HackerNews--NewsArticle--31143274",
-  "url": "https://news.ycombinator.com/item?id=31143274",
-  "headline": "Everyone should learn the slide rule (2021)",
+  "identifier": "2022--06--09--en--showhn--HackerNews--NewsArticle--31681152",
+  "url": "https://news.ycombinator.com/item?id=31681152",
+  "headline": "Show HN: Interactive Audio with Python and Jupyter",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "leonry",
-    "url": "https://news.ycombinator.com/user?id=leonry"
+    "name": "benbovy",
+    "url": "https://news.ycombinator.com/user?id=benbovy"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=31143274",
-  "sameAs": "https://scottlocklin.wordpress.com/2021/06/20/why-everyone-should-learn-the-slide-rule/",
-  "dateCreated": "2022-04-24T15:10:44.164Z",
-  "datePublished": "2022-04-24T12:06:46.000Z",
-  "dateModified": "2022-04-24T15:10:44.164Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31681152",
+  "sameAs": "https://github.com/benbovy/ipytone",
+  "dateCreated": "2022-06-09T13:59:46.919Z",
+  "datePublished": "2022-06-09T13:54:36.000Z",
+  "dateModified": "2022-06-09T13:59:46.919Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 6
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "每个人都应该学习滑尺 (2021)",
-  "headline_zh-Hant": "每個人都應該學習滑尺 (2021)",
+  "headline_zh-Hans": "Show HN: 使用Python和Jupyter的交互式音频\n",
+  "headline_zh-Hant": "Show HN: 使用Python和Jupyter的交互式音頻\n",
   "@context": [
     "https://schema.org",
     {
