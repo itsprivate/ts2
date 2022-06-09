@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--09--en--myfeed--HackerNews--NewsArticle--31678060",
+  "url": "https://news.ycombinator.com/item?id=31678060",
+  "headline": "YouTube deleted lectures on Chinese philosophy due to copyright mistake",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "captainmuon",
+    "url": "https://news.ycombinator.com/user?id=captainmuon"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31678060",
+  "sameAs": "https://twitter.com/BryanVanNorden/status/1534520346560323585",
+  "dateCreated": "2022-06-09T06:53:07.294Z",
+  "datePublished": "2022-06-09T06:15:59.000Z",
+  "dateModified": "2022-06-09T06:53:07.294Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "由于版权错误，YouTube删除了关于中国哲学的讲座\n",
+  "headline_zh-Hant": "由於版權錯誤，YouTube刪除了關於中國哲學的講座\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
