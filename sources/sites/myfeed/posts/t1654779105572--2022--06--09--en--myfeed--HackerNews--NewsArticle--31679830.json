@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--09--en--myfeed--HackerNews--NewsArticle--31679830",
+  "url": "https://news.ycombinator.com/item?id=31679830",
+  "headline": "Apple’s Kind of a Bank Now",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "matthewsinclair",
+    "url": "https://news.ycombinator.com/user?id=matthewsinclair"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31679830",
+  "sameAs": "https://www.theverge.com/2022/6/8/23160400/apple-kind-of-bank-now-pay-later-bnpl-financial-services",
+  "dateCreated": "2022-06-09T12:51:45.572Z",
+  "datePublished": "2022-06-09T11:20:26.000Z",
+  "dateModified": "2022-06-09T12:51:45.572Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "苹果现在成了银行的一种\n",
+  "headline_zh-Hant": "蘋果現在成了銀行的一種\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
