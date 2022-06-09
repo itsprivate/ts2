@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--09--en--askhn--HackerNews--NewsArticle--31676209",
+  "url": "https://news.ycombinator.com/item?id=31676209",
+  "headline": "Ask HN: What stops me from making an “NFT” with PayPal?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Seems to me I could do the following:  stand up a web site where people can register and then buy the &quot;rights&quot; to an image on the site.<p>If people want to trade an image they might agree that A pays B $200.  I make A pay $230,  pay $200 to B,  pay $15 to the payment processor,  etc.<p>That updates the record in mysql or DynamoDB and now B has bragging rights that they own the image.  I am sure the cost of running that database conventionally is less than doing it on Etherium.<p>Why not?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "PaulHoule",
+    "url": "https://news.ycombinator.com/user?id=PaulHoule"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31676209",
+  "sameAs": "https://news.ycombinator.com/item?id=31676209",
+  "dateCreated": "2022-06-09T02:06:22.888Z",
+  "datePublished": "2022-06-09T00:22:49.000Z",
+  "dateModified": "2022-06-09T02:06:22.888Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 是什么阻止我向PayPal提出 \"NFT\"？\n",
+  "headline_zh-Hant": "Ask HN: 是什麼阻止我向PayPal提出 \"NFT\"？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在我看来，我可以这样做：建立一个网站，人们可以注册，然后在网站上购买图片的&quot;权利&quot;。<p>如果人们想交易一张图片，他们可能会同意A支付B 200美元。 我让A支付230美元，向B支付200美元，向支付处理器支付15美元，等等。<p>这就更新了mysql或DynamoDB中的记录，现在B可以吹嘘他们拥有这张图片。 我相信，以传统方式运行该数据库的成本比在以太坊上运行要低。\n",
+  "description_zh-Hant": "在我看來，我可以這樣做：建立一個網站，人們可以註冊，然後在網站上購買圖片的&quot;權利&quot;。<p>如果人們想交易一張圖片，他們可能會同意A支付B 200美元。 我讓A支付230美元，向B支付200美元，向支付處理器支付15美元，等等。<p>這就更新了mysql或DynamoDB中的記錄，現在B可以吹噓他們擁有這張圖片。 我相信，以傳統方式運行該數據庫的成本比在以太坊上運行要低。\n"
+}
