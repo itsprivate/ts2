@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--10--en--myfeed--HackerNews--NewsArticle--31688665",
+  "url": "https://news.ycombinator.com/item?id=31688665",
+  "headline": "My Story with the Apache Software Foundation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jjzhiyuan",
+    "url": "https://news.ycombinator.com/user?id=jjzhiyuan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31688665",
+  "sameAs": "https://juzhiyuan.me/blog/apache-software-foundation",
+  "dateCreated": "2022-06-10T02:11:48.538Z",
+  "datePublished": "2022-06-10T00:35:17.000Z",
+  "dateModified": "2022-06-10T02:11:48.538Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我与阿帕奇软件基金会的故事\n",
+  "headline_zh-Hant": "我與阿帕奇軟件基金會的故事\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
