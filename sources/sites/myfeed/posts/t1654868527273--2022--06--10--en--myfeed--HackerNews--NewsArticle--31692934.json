@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--10--en--myfeed--HackerNews--NewsArticle--31692934",
+  "url": "https://news.ycombinator.com/item?id=31692934",
+  "headline": "Why Google’s Crux Results Are Not Reproducible with Your Real-User Monitoring",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "DivineTraube",
+    "url": "https://news.ycombinator.com/user?id=DivineTraube"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31692934",
+  "sameAs": "https://medium.baqend.com/why-googles-crux-results-are-not-reproducible-with-your-real-user-monitoring-498736f82493?gi=5683934a9dc9",
+  "dateCreated": "2022-06-10T13:42:07.273Z",
+  "datePublished": "2022-06-10T12:10:15.000Z",
+  "dateModified": "2022-06-10T13:42:07.273Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "为什么谷歌的Crux结果不能用你的真实用户监测来重现？\n",
+  "headline_zh-Hant": "為什麼谷歌的Crux結果不能用你的真實用戶監測來重現？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

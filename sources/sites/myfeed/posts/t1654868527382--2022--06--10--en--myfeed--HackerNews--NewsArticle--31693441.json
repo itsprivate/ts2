@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--10--en--myfeed--HackerNews--NewsArticle--31693441",
+  "url": "https://news.ycombinator.com/item?id=31693441",
+  "headline": "Vim",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bsnaydin",
+    "url": "https://news.ycombinator.com/user?id=bsnaydin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31693441",
+  "sameAs": "https://medium.com/teknasyon-engineering/vim-a314885936df",
+  "dateCreated": "2022-06-10T13:42:07.382Z",
+  "datePublished": "2022-06-10T12:59:15.000Z",
+  "dateModified": "2022-06-10T13:42:07.382Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "维姆\n",
+  "headline_zh-Hant": "維姆\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
