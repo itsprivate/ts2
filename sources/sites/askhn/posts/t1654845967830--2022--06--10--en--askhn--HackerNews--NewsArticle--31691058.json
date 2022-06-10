@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--10--en--askhn--HackerNews--NewsArticle--31691058",
+  "url": "https://news.ycombinator.com/item?id=31691058",
+  "headline": "Ask HN: Working with Twitter Decahose",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I have been following this  discussion [1] &amp; challenges on using datahose came up in few places. That leads me to earnestly ask:<p>We are a brand new research group with just a few hands. This Twitter data is enormous (45-50GB/day for E Asia in JSON). \nWe have limited experience &amp; hence saving it out as daily logs in flat JSON files<p>For people using decahose, what kind of system architecture have you put in place for storing &amp; searching such data. We explored AWS DynamoDB &amp; MongoDB datalake but the cost seemed just too high. Feedback &amp; suggestions needed.<p>[1] Twitter plans to comply with Musk’s demands for data : https://news.ycombinator.com/item?id=31686055",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "srvmshr",
+    "url": "https://news.ycombinator.com/user?id=srvmshr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31691058",
+  "sameAs": "https://news.ycombinator.com/item?id=31691058",
+  "dateCreated": "2022-06-10T07:26:07.830Z",
+  "datePublished": "2022-06-10T07:13:57.000Z",
+  "dateModified": "2022-06-10T07:26:07.830Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 与Twitter Decahose合作\n",
+  "headline_zh-Hant": "Ask HN: 與Twitter Decahose合作\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我一直在关注这个讨论[1]&amp；在一些地方出现了关于使用datahose的挑战。这让我很想问：<p>我们是一个全新的研究小组，只有几个人。这些Twitter数据是巨大的（东亚地区每天45-50GB的JSON数据）。\n我们的经验有限，因此将其保存为平面JSON文件中的每日日志<p>对于使用decahose的人，你有什么样的系统架构来存储和搜索这些数据。我们探索了AWS DynamoDB和MongoDB数据库，但成本似乎太高。需要反馈和建议。<p>[1] Twitter计划遵守马斯克的数据要求：https://news.ycombinator.com/item?id=31686055\n",
+  "description_zh-Hant": "我一直在關注這個討論[1]&amp；在一些地方出現了關於使用datahose的挑戰。這讓我很想問：<p>我們是一個全新的研究小組，只有幾個人。這些Twitter數據是巨大的（東亞地區每天45-50GB的JSON數據）。\n我們的經驗有限，因此將其保存為平面JSON文件中的每日日誌<p>對於使用decahose的人，你有什麼樣的系統架構來存儲和搜索這些數據。我們探索了AWS DynamoDB和MongoDB數據庫，但成本似乎太高。需要反饋和建議。<p>[1] Twitter計劃遵守馬斯克的數據要求：https://news.ycombinator.com/item?id=31686055\n"
+}
