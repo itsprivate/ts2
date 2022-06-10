@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--10--en--myfeed--HackerNews--NewsArticle--31699032",
+  "url": "https://news.ycombinator.com/item?id=31699032",
+  "headline": "Non-Stationary A/B Tests",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "reckel",
+    "url": "https://news.ycombinator.com/user?id=reckel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31699032",
+  "sameAs": "https://www.amazon.science/publications/non-stationary-a-b-tests",
+  "dateCreated": "2022-06-10T20:56:25.192Z",
+  "datePublished": "2022-06-10T20:29:38.000Z",
+  "dateModified": "2022-06-10T20:56:25.192Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "非固定的A/B测试\n",
+  "headline_zh-Hant": "非固定的A/B測試\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
