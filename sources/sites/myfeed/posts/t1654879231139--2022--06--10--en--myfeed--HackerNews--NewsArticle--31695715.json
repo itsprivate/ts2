@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--10--en--myfeed--HackerNews--NewsArticle--31695715",
+  "url": "https://news.ycombinator.com/item?id=31695715",
+  "headline": "AV Linux: an operating system for multimedia content creators",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pmoriarty",
+    "url": "https://news.ycombinator.com/user?id=pmoriarty"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31695715",
+  "sameAs": "https://en.wikipedia.org/wiki/AV_Linux",
+  "dateCreated": "2022-06-10T16:40:31.139Z",
+  "datePublished": "2022-06-10T15:42:40.000Z",
+  "dateModified": "2022-06-10T16:40:31.139Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "AV Linux：一个为多媒体内容创作者服务的操作系统\n",
+  "headline_zh-Hant": "AV Linux：一個為多媒體內容創作者服務的操作系統\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
