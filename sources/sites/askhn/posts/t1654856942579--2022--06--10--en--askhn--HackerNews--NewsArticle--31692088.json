@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--10--en--askhn--HackerNews--NewsArticle--31692088",
+  "url": "https://news.ycombinator.com/item?id=31692088",
+  "headline": "Ask HN: Safeties of Password Managers on Compromised Devices",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I‘ve been thinking about password managers a lot lately. More specifically about what malware could do (and not do) on a compromised machine using a password managers (e.g., 1Password).<p>I’m no operating systems expert and would love to know how far an program with or without root access could go reading the password managers data. This might differ on different host OS (Linux vs macOS vs Windows).<p>Let us assume a standard master-key plus master-password setup. We also assume a hosted data service by the provider (i.e, they encryptedly store everything, except master-key and master-password).<p>Obviously a malware could access the clipboard and thus get each password copied to the clipboard. But how far does it go? Can we access password in-memory when the vault is unlocked? etc.<p>Can malware access the master-key?\nCan malware access the master-password? How? Only via keyloggers?\nCan malware access all passwords when vault is unlocked?\nCan malware access anything in RAM?\nWhat could malware do when sniffing network connections?<p>Thanks for indulging me! Would be great to get some understanding from experts in OS or password managers.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "janniks",
+    "url": "https://news.ycombinator.com/user?id=janniks"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31692088",
+  "sameAs": "https://news.ycombinator.com/item?id=31692088",
+  "dateCreated": "2022-06-10T10:29:02.579Z",
+  "datePublished": "2022-06-10T10:12:25.000Z",
+  "dateModified": "2022-06-10T10:29:02.579Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 密码管理器在被破坏的设备上的安全性\n",
+  "headline_zh-Hant": "Ask HN: 密碼管理器在被破壞的設備上的安全性\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我最近一直在思考密码管理器的问题。更确切地说，在使用密码管理器（如 1Password）的受损机器上，恶意软件可以做什么（或不做什么）。<p>我不是操作系统专家，但我很想知道一个有或没有root权限的程序可以在多大程度上读取密码管理器的数据。这在不同的主机操作系统（Linux vs macOS vs Windows）上可能有所不同。<p>让我们假设一个标准的主密钥和主密码设置。我们还假设供应商提供托管数据服务（即他们加密存储一切，除了主密钥和主密码）。<p>显然，恶意软件可以访问剪贴板，从而将每个密码复制到剪贴板。但它能走多远呢？当保险库被解锁时，我们可以在内存中访问密码吗？等等。<p>恶意软件可以访问主密钥吗？\n恶意软件可以访问主密码吗？如何做到？只能通过键盘记录器吗？\n当保险库被解锁时，恶意软件可以访问所有密码吗？\n恶意软件可以访问RAM中的任何东西吗？\n嗅探网络连接时，恶意软件可以做什么？<p>谢谢你的宽容！我想从专家那里得到一些理解。如果能从操作系统或密码管理器的专家那里得到一些理解，那就太好了。\n",
+  "description_zh-Hant": "我最近一直在思考密碼管理器的問題。更確切地說，在使用密碼管理器（如 1Password）的受損機器上，惡意軟件可以做什麼（或不做什麼）。<p>我不是操作系統專家，但我很想知道一個有或沒有root權限的程序可以在多大程度上讀取密碼管理器的數據。這在不同的主機操作系統（Linux vs macOS vs Windows）上可能有所不同。<p>讓我們假設一個標準的主密鑰和主密碼設置。我們還假設供應商提供託管數據服務（即他們加密存儲一切，除了主密鑰和主密碼）。<p>顯然，惡意軟件可以訪問剪貼板，從而將每個密碼複製到剪貼板。但它能走多遠呢？當保險庫被解鎖時，我們可以在內存中訪問密碼嗎？等等。<p>惡意軟件可以訪問主密鑰嗎？\n惡意軟件可以訪問主密碼嗎？如何做到？只能通過鍵盤記錄器嗎？\n當保險庫被解鎖時，惡意軟件可以訪問所有密碼嗎？\n惡意軟件可以訪問RAM中的任何東西嗎？\n嗅探網絡連接時，惡意軟件可以做什麼？<p>謝謝你的寬容！我想從專家那裡得到一些理解。如果能從操作系統或密碼管理器的專家那裡得到一些理解，那就太好了。\n"
+}
