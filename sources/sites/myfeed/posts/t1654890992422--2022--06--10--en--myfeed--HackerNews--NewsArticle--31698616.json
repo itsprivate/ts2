@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--10--en--myfeed--HackerNews--NewsArticle--31698616",
+  "url": "https://news.ycombinator.com/item?id=31698616",
+  "headline": "WHO dismissed Covid-19 'lab leak' theory. Now it wants more digging",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "IdEntities",
+    "url": "https://news.ycombinator.com/user?id=IdEntities"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31698616",
+  "sameAs": "https://www.nbcnews.com/news/world/covid-19-urges-investigation-chinese-wuhan-lab-leak-theory-rcna32910",
+  "dateCreated": "2022-06-10T19:56:32.422Z",
+  "datePublished": "2022-06-10T19:47:11.000Z",
+  "dateModified": "2022-06-10T19:56:32.422Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "世卫组织驳回了Covid-19 \"实验室泄漏 \"理论。现在它希望进行更多的挖掘\n",
+  "headline_zh-Hant": "世衛組織駁回了Covid-19 \"實驗室洩漏 \"理論。現在它希望進行更多的挖掘\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
