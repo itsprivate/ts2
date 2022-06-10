@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--10--en--showhn--HackerNews--NewsArticle--31696384",
+  "url": "https://news.ycombinator.com/item?id=31696384",
+  "headline": "Show HN: Mood Surf – A topic-based discovery engine for Twitter threads",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN! We’ve created Mood Surf, a discovery engine to explore topics that intrigue you. We miss the days you could stumble upon weird, wonderful, human-authored pages on the Web. Twitter threads are similarly niche and personal but so much good content gets lost in the algorithmic timeline.<p>So we built Mood Surf to explore the conversations that you might not have found otherwise. Click “Shuffle” to jump into a random corner topic space. Click “Dive Deeper” to go down the rabbit hole of similar threads.<p>Technical details:<p>We ran graph analysis on the tech/startup-adjacent subset of Twitter graph to find the top contributors within a given niche. We extracted each user’s threads and embedded them using sentence transformers [0]. The “dive deeper” functionality is powered by approximate nearest neighbor lookup using Pinecone [1]<p>We hope you like the product — share with us any feedback you have!<p>— The folks at Re:Search<p>[0] <a href=\"https://www.sbert.net/\" rel=\"nofollow\">https://www.sbert.net/</a>\n[1] <a href=\"https://pinecone.io/\" rel=\"nofollow\">https://pinecone.io/</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "researchers",
+    "url": "https://news.ycombinator.com/user?id=researchers"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31696384",
+  "sameAs": "https://mood.surf/",
+  "dateCreated": "2022-06-10T16:40:39.209Z",
+  "datePublished": "2022-06-10T16:35:39.000Z",
+  "dateModified": "2022-06-10T16:40:39.209Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Mood Surf - 一个基于话题的Twitter线程发现引擎\n",
+  "headline_zh-Hant": "Show HN: Mood Surf - 一個基於話題的Twitter線程發現引擎\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hey HN! We’ve created Mood Surf, a discovery engine to explore topics that intrigue you. We miss the days you could stumble upon weird, wonderful, human-authored pages on the Web. Twitter threads are similarly niche and personal but so much good content gets lost in the algorithmic timeline.<p>So we built Mood Surf to explore the conversations that you might not have found otherwise. Click “Shuffle” to jump into a random corner topic space. Click “Dive Deeper” to go down the rabbit hole of similar threads.<p>Technical details:<p>We ran graph analysis on the tech/startup-adjacent subset of Twitter graph to find the top contributors within a given niche. We extracted each user’s threads and embedded them using sentence transformers [0]. The “dive deeper” functionality is powered by approximate nearest neighbor lookup using Pinecone [1]<p>We hope you like the product — share with us any feedback you have!<p>— The folks at Re:Search<p>[0] <a href=\"https://www.sbert.net/\" rel=\"nofollow\">https://www.sbert.net/</a>\n[1] <a href=\"https://pinecone.io/\" rel=\"nofollow\">https://pinecone.io/</a>\n",
+  "description_zh-Hant": "Hey HN! We’ve created Mood Surf, a discovery engine to explore topics that intrigue you. We miss the days you could stumble upon weird, wonderful, human-authored pages on the Web. Twitter threads are similarly niche and personal but so much good content gets lost in the algorithmic timeline.<p>So we built Mood Surf to explore the conversations that you might not have found otherwise. Click “Shuffle” to jump into a random corner topic space. Click “Dive Deeper” to go down the rabbit hole of similar threads.<p>Technical details:<p>We ran graph analysis on the tech/startup-adjacent subset of Twitter graph to find the top contributors within a given niche. We extracted each user’s threads and embedded them using sentence transformers [0]. The “dive deeper” functionality is powered by approximate nearest neighbor lookup using Pinecone [1]<p>We hope you like the product — share with us any feedback you have!<p>— The folks at Re:Search<p>[0] <a href=\"https://www.sbert.net/\" rel=\"nofollow\">https://www.sbert.net/</a>\n[1] <a href=\"https://pinecone.io/\" rel=\"nofollow\">https://pinecone.io/</a>\n"
+}
