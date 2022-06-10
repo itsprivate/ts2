@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--10--en--askhn--HackerNews--NewsArticle--31695411",
+  "url": "https://news.ycombinator.com/item?id=31695411",
+  "headline": "Ask HN: What are you working on this weekend?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Just curious what everyone is working on this weekend.<p>For me, I am working with Unreal Engine this weekend. Unreal allows you to select Actors (the objects in the game), but if you optimize to display a lot of items (Instanced Static Meshes), it doesn't easily allow you to select a subset with a rectangle. This weekend, I am determined to find a way to select a subset of these Instance Static Meshes.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "WhiteOwlEd",
+    "url": "https://news.ycombinator.com/user?id=WhiteOwlEd"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31695411",
+  "sameAs": "https://news.ycombinator.com/item?id=31695411",
+  "dateCreated": "2022-06-10T15:28:58.834Z",
+  "datePublished": "2022-06-10T15:21:17.000Z",
+  "dateModified": "2022-06-10T15:28:58.834Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 这个周末你在做什么？\n",
+  "headline_zh-Hant": "Ask HN: 這個週末你在做什麼？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "只是好奇这个周末大家都在做什么。<p>对我来说，这个周末我在用虚幻引擎工作。虚幻引擎允许您选择演员（游戏中的对象），但是如果您优化显示大量的项目（Instanced Static Meshes），它不容易允许您用一个矩形选择一个子集。这个周末，我决心找到一种方法来选择这些Instance Static Meshes的一个子集。\n",
+  "description_zh-Hant": "只是好奇這個週末大家都在做什麼。<p>對我來說，這個週末我在用虛幻引擎工作。虛幻引擎允許您選擇演員（遊戲中的對象），但是如果您優化顯示大量的項目（Instanced Static Meshes），它不容易允許您用一個矩形選擇一個子集。這個週末，我決心找到一種方法來選擇這些Instance Static Meshes的一個子集。\n"
+}
