@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--11--en--askhn--HackerNews--NewsArticle--31701378",
+  "url": "https://news.ycombinator.com/item?id=31701378",
+  "headline": "Ask HN: What's the state of high level containerization?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Right now, containerization is powered by kernel features. This requires virtualization on non Linux machines and is a bit cumbersome as a result.<p>I have been hearing stories of the concept of &quot;high level containerization&quot; which promises OS-agnostic container functionality through application-level abstraction.<p>Some have cited &quot;web assembly&quot; as offering that capacity, I have heard Deno describing intent to provide such capabilities.<p>Are there any projects out there today that can be used for this purpose?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "apatheticonion",
+    "url": "https://news.ycombinator.com/user?id=apatheticonion"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31701378",
+  "sameAs": "https://news.ycombinator.com/item?id=31701378",
+  "dateCreated": "2022-06-11T03:31:53.046Z",
+  "datePublished": "2022-06-11T02:19:25.000Z",
+  "dateModified": "2022-06-11T03:31:53.046Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 高层容器化的状况如何？\n",
+  "headline_zh-Hant": "Ask HN: 高層容器化的狀況如何？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "现在，容器化是由内核功能驱动的。这需要在非 Linux 机器上进行虚拟化，因此有点麻烦。<p>我一直听到关于 \"高级别容器化 \"概念的故事，它承诺通过应用程序级别的抽象实现与操作系统无关的容器功能。<p>有些人引用了 \"网络组件 \"来提供这种能力，我听到 Deno 描述了提供这种能力的意图。\n",
+  "description_zh-Hant": "現在，容器化是由內核功能驅動的。這需要在非 Linux 機器上進行虛擬化，因此有點麻煩。<p>我一直聽到關於 \"高級別容器化 \"概念的故事，它承諾通過應用程序級別的抽象實現與操作系統無關的容器功能。<p>有些人引用了 \"網絡組件 \"來提供這種能力，我聽到 Deno 描述了提供這種能力的意圖。\n"
+}
