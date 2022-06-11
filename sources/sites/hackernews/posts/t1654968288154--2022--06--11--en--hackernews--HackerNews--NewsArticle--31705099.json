@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--11--en--hackernews--HackerNews--NewsArticle--31705099",
+  "url": "https://news.ycombinator.com/item?id=31705099",
+  "headline": "Ask HN: Would you be interested in POM generator for Selenium?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I have some plans to implement a POM and script generator for Selenium which includes multiples selectors and uses some AI selectors.<p>It will work this way: \n- Go to the page you want the POM for\n- Open the chrome extension \n- Click on generate POM\n- We will generate POM\n- You can add/remove some sections<p>Some other benefits might come with it is Email and PDF testing for Selenium.<p>Curious what you think about this?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "mesadb",
+    "url": "https://news.ycombinator.com/user?id=mesadb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31705099",
+  "sameAs": "https://news.ycombinator.com/item?id=31705099",
+  "dateCreated": "2022-06-11T17:24:48.154Z",
+  "datePublished": "2022-06-11T15:18:05.000Z",
+  "dateModified": "2022-06-11T17:24:48.154Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你对Selenium的POM发生器感兴趣吗？\n",
+  "headline_zh-Hant": "Ask HN: 你對Selenium的POM發生器感興趣嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我有一些计划，要为Selenium实现一个POM和脚本生成器，其中包括多个选择器并使用一些AI选择器。\n- 转到你想要POM的页面\n- 打开chrome扩展程序 \n- 点击生成POM\n- 我们将生成POM\n- 你可以添加/删除一些部分<p>它可能会带来一些其他的好处，如Selenium的电子邮件和PDF测试。<p>很好奇你怎么看？\n",
+  "description_zh-Hant": "我有一些計劃，要為Selenium實現一個POM和腳本生成器，其中包括多個選擇器並使用一些AI選擇器。\n- 轉到你想要POM的頁面\n- 打開chrome擴展程序 \n- 點擊生成POM\n- 我們將生成POM\n- 你可以添加/刪除一些部分<p>它可能會帶來一些其他的好處，如Selenium的電子郵件和PDF測試。<p>很好奇你怎麼看？\n"
+}
