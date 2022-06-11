@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--11--en--myfeed--HackerNews--NewsArticle--31700704",
+  "url": "https://news.ycombinator.com/item?id=31700704",
+  "headline": "L.A.'s coast was once a DDT dumping ground (2020)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "SpectralTheory",
+    "url": "https://news.ycombinator.com/user?id=SpectralTheory"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31700704",
+  "sameAs": "https://www.latimes.com/projects/la-coast-ddt-dumping-ground/",
+  "dateCreated": "2022-06-11T02:06:08.600Z",
+  "datePublished": "2022-06-11T00:07:53.000Z",
+  "dateModified": "2022-06-11T02:06:08.600Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 43
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 17
+    }
+  ],
+  "headline_zh-Hans": "洛杉矶的海岸曾经是DDT的倾销地 (2020)\n",
+  "headline_zh-Hant": "洛杉磯的海岸曾經是DDT的傾銷地 (2020)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

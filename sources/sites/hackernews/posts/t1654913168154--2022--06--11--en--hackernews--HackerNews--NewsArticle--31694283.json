@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--11--en--hackernews--HackerNews--NewsArticle--31694283",
+  "url": "https://news.ycombinator.com/item?id=31694283",
+  "headline": "Not Just a Fence: The Story of a Stainless Steel Status Symbol",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "prismatic",
+    "url": "https://news.ycombinator.com/user?id=prismatic"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31694283",
+  "sameAs": "https://www.nytimes.com/2022/06/10/realestate/nyc-asian-fence-status.html",
+  "dateCreated": "2022-06-11T02:06:08.154Z",
+  "datePublished": "2022-06-10T13:56:57.000Z",
+  "dateModified": "2022-06-11T02:06:08.154Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 15
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "不仅仅是篱笆。一个不锈钢地位象征的故事\n",
+  "headline_zh-Hant": "不僅僅是籬笆。一個不鏽鋼地位象徵的故事\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
