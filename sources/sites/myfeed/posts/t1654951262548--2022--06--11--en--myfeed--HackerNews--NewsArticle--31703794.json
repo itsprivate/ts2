@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--11--en--myfeed--HackerNews--NewsArticle--31703794",
+  "url": "https://news.ycombinator.com/item?id=31703794",
+  "headline": "Tiny human brain grown in lab has eye-like structures that 'see' light",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "elorant",
+    "url": "https://news.ycombinator.com/user?id=elorant"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31703794",
+  "sameAs": "https://www.newscientist.com/article/2287207-tiny-human-brain-grown-in-lab-has-eye-like-structures-that-see-light/",
+  "dateCreated": "2022-06-11T12:41:02.548Z",
+  "datePublished": "2022-06-11T11:48:46.000Z",
+  "dateModified": "2022-06-11T12:41:02.548Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "在实验室中生长的微小人脑具有类似眼睛的结构，可以 \"看到 \"光线\n",
+  "headline_zh-Hant": "在實驗室中生長的微小人腦具有類似眼睛的結構，可以 \"看到 \"光線\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
