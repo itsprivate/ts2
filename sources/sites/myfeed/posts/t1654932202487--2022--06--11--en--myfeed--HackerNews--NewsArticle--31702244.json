@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--11--en--myfeed--HackerNews--NewsArticle--31702244",
+  "url": "https://news.ycombinator.com/item?id=31702244",
+  "headline": "Aiotense - Time Processing Tool",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Let's diversify our hacker news with this publication about aiotense.<p>GitHub - https://github.com/Animatea/aiotense\nDocumentation - https://animatea.github.io/aiotense/<p>aiotense is a tool that converts a string like &quot;1day1minute 20seconds&quot; into number of seconds or timedelta objects.\n- If you need case insensitivity, you can use resolvers. \n- Custom parsing sequence - custom resolvers.\n- Need to convert result to string? You can write your own converter by inheriting `aiotense.application.ports.converters.AbstractConverter`.\n- Need to cache the result? Write your own parser by inheriting `aiotense.application.ports.parsers.AbstractParser`.<p>aiotense has been designed with maximum flexibility, practicality and user friendliness in mind. I hope our project helped you or you were just interested in seeing it.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Animatea",
+    "url": "https://news.ycombinator.com/user?id=Animatea"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31702244",
+  "sameAs": "https://news.ycombinator.com/item?id=31702244",
+  "dateCreated": "2022-06-11T07:23:22.487Z",
+  "datePublished": "2022-06-11T05:41:34.000Z",
+  "dateModified": "2022-06-11T07:23:22.487Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Aiotense - 时间处理工具\n",
+  "headline_zh-Hant": "Aiotense - 時間處理工具\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "让我们通过这个关于aiotense的出版物来丰富我们的黑客新闻。<p>GitHub - https://github.com/Animatea/aiotense\n文档 - https://animatea.github.io/aiotense/<p>aiotense是一个将&quot;1day1minute 20seconds&quot;这样的字符串转换为秒数或timedelta对象的工具。\n- 如果你需要大小写不敏感，你可以使用解析器。\n- 自定义解析序列--自定义解析器。\n- 需要将结果转换为字符串吗？你可以通过继承`aiotense.application.ports.converters.AbstractConverter`编写你自己的转换器。\n- 需要缓存结果吗？通过继承`aiotense.application.ports.parsers.AbstractParser`来编写你自己的分析器。<p>aiotense的设计考虑到了最大的灵活性、实用性和用户友好性。我希望我们的项目对你有帮助，或者你只是对看到它感兴趣。\n",
+  "description_zh-Hant": "讓我們通過這個關於aiotense的出版物來豐富我們的黑客新聞。<p>GitHub - https://github.com/Animatea/aiotense\n文檔 - https://animatea.github.io/aiotense/<p>aiotense是一個將&quot;1day1minute 20seconds&quot;這樣的字符串轉換為秒數或timedelta對象的工具。\n- 如果你需要大小寫不敏感，你可以使用解析器。\n- 自定義解析序列--自定義解析器。\n- 需要將結果轉換為字符串嗎？你可以通過繼承`aiotense.application.ports.converters.AbstractConverter`編寫你自己的轉換器。\n- 需要緩存結果嗎？通過繼承`aiotense.application.ports.parsers.AbstractParser`來編寫你自己的分析器。<p>aiotense的設計考慮到了最大的靈活性、實用性和用戶友好性。我希望我們的項目對你有幫助，或者你只是對看到它感興趣。\n"
+}
