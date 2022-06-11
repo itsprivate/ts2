@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--11--en--askhn--HackerNews--NewsArticle--31705850",
+  "url": "https://news.ycombinator.com/item?id=31705850",
+  "headline": "Ask HN: Python library for regex with “extent-of-match”",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "From CS Theory, all regular expressions can be converted to deterministic finite automata.  I would like a python library that tells me the precise point at which a string &quot;loses hope&quot; of matching a regular expression.  Eg.<p>Given a regular expression like  aba*<p>And a string like abbab<p>I want an output that says the match failed at\nan index of 2.<p>meaning that the first ab match (or more technically, are the prefix of a match), but the remaining bab &quot;kill&quot; the possibility of a match.<p>Anyone know of a python library that does this?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "georgeam",
+    "url": "https://news.ycombinator.com/user?id=georgeam"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31705850",
+  "sameAs": "https://news.ycombinator.com/item?id=31705850",
+  "dateCreated": "2022-06-11T17:01:01.505Z",
+  "datePublished": "2022-06-11T16:41:50.000Z",
+  "dateModified": "2022-06-11T17:01:01.505Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 带有 \"匹配范围 \"的Rgex Python库\n",
+  "headline_zh-Hant": "Ask HN: 帶有 \"匹配範圍 \"的Rgex Python庫\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "从CS理论来看，所有的正则表达式都可以被转换为确定性的有限自动机。 我想要一个python库，它可以告诉我一个字符串与正则表达式匹配的精确点，即失去希望。 例如：<p>给定一个正则表达式如aba*<p>和一个字符串如abbab<p>我想要一个输出，告诉我匹配失败的索引是2。\n<p>意思是说，第一个ab是匹配的（或者更准确地说，是匹配的前缀），但是剩下的bab&quot;杀死&quot;了匹配的可能性。<p>有谁知道有哪个python库可以做到这一点？\n",
+  "description_zh-Hant": "從CS理論來看，所有的正則表達式都可以被轉換為確定性的有限自動機。 我想要一個python庫，它可以告訴我一個字符串與正則表達式匹配的精確點，即失去希望。 例如：<p>給定一個正則表達式如aba*<p>和一個字符串如abbab<p>我想要一個輸出，告訴我匹配失敗的索引是2。\n<p>意思是說，第一個ab是匹配的（或者更準確地說，是匹配的前綴），但是剩下的bab&quot;殺死&quot;了匹配的可能性。<p>有誰知道有哪個python庫可以做到這一點？\n"
+}
