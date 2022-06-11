@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--11--en--myfeed--HackerNews--NewsArticle--31703630",
+  "url": "https://news.ycombinator.com/item?id=31703630",
+  "headline": "‘Fantastic giant tortoise,’ believed extinct, confirmed alive in the Galápagos",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rntn",
+    "url": "https://news.ycombinator.com/user?id=rntn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31703630",
+  "sameAs": "https://www.princeton.edu/news/2022/06/09/fantastic-giant-tortoise-believed-extinct-confirmed-alive-galapagos",
+  "dateCreated": "2022-06-11T11:41:10.425Z",
+  "datePublished": "2022-06-11T11:12:43.000Z",
+  "dateModified": "2022-06-11T11:41:10.425Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "被认为已经灭绝的 \"神奇巨龟 \"被证实在加拉帕戈斯还活着\n",
+  "headline_zh-Hant": "被認為已經滅絕的 \"神奇巨龜 \"被證實在加拉帕戈斯還活著\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
