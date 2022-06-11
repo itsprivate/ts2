@@ -4,6 +4,10 @@ sources:
       - https://www.theatlantic.com/feed/all/
     limit: 5
     from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+  - args:
+      - https://werd.io/feed/
+    limit: 5
+    from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
   - from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
     args:
       # - https://actionsflow.github.io/test-page/hn-rss.xml
