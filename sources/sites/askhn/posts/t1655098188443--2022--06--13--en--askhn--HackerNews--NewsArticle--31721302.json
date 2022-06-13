@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--askhn--HackerNews--NewsArticle--31721302",
+  "url": "https://news.ycombinator.com/item?id=31721302",
+  "headline": "Ask HN: Resources for technical managers on FERPA compliance for EdTech dev",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I am leading the development of a student information system product.<p>There is a disagreement with my product team and a different department on if our access control is FERPA compliant. I am building a document and making my case to our legal department.<p>Does anyone know of any resources that give examples of what is and what is not FERPA compliant, specifically related to EdTech?  Specifically for software that only school administrators will be using?<p>The verbiage in the law is vague, and the only examples I see are so far removed from the particular nuance of what we are debating.  The examples I can find are like “football coach telling the team his running back isn’t playing because he’s failing math”.  But our sticking point is an extremely nuanced level of access based off a permutation not supported in our inheritance structure. It is literally the only case out of 200 that our architecture doesn’t support without massive changes.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "throwawayHN378",
+    "url": "https://news.ycombinator.com/user?id=throwawayHN378"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31721302",
+  "sameAs": "https://news.ycombinator.com/item?id=31721302",
+  "dateCreated": "2022-06-13T05:29:48.443Z",
+  "datePublished": "2022-06-13T04:51:36.000Z",
+  "dateModified": "2022-06-13T05:29:48.443Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为技术经理提供的关于教育科技开发的FERPA合规性的资源\n",
+  "headline_zh-Hant": "Ask HN: 為技術經理提供的關於教育科技開發的FERPA合規性的資源\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在领导一个学生信息系统产品的开发。<p>我的产品团队和一个不同的部门在我们的访问控制是否符合FERPA方面存在分歧。我正在编写一份文件，并向我们的法律部门陈述我的观点。<p>有谁知道有什么资源可以举例说明哪些是符合FERPA的，哪些是不符合的，特别是与教育科技有关的？ <p>法律中的措辞很模糊，而我看到的唯一的例子与我们正在辩论的具体细微差别相去甚远。 我能找到的例子就像 \"足球教练告诉球队他的跑卫不上场，因为他数学不及格\"。 但我们的症结是基于我们的继承结构中不支持的排列组合的极其细微的访问水平。从字面上看，这是200种情况中唯一的一种，我们的架构在不做大规模修改的情况下是不支持的。\n",
+  "description_zh-Hant": "我正在領導一個學生信息系統產品的開發。<p>我的產品團隊和一個不同的部門在我們的訪問控制是否符合FERPA方面存在分歧。我正在編寫一份文件，並向我們的法律部門陳述我的觀點。<p>有誰知道有什麼資源可以舉例說明哪些是符合FERPA的，哪些是不符合的，特別是與教育科技有關的？ <p>法律中的措辭很模糊，而我看到的唯一的例子與我們正在辯論的具體細微差別相去甚遠。 我能找到的例子就像 \"足球教練告訴球隊他的跑衛不上場，因為他數學不及格\"。 但我們的癥結是基於我們的繼承結構中不支持的排列組合的極其細微的訪問水平。從字面上看，這是200種情況中唯一的一種，我們的架構在不做大規模修改的情況下是不支持的。\n"
+}
