@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--myfeed--HackerNews--NewsArticle--31731240",
+  "url": "https://news.ycombinator.com/item?id=31731240",
+  "headline": "A talk about the cyberwar in Ukraine: “Ctrl-Z”",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mikkohypponen",
+    "url": "https://news.ycombinator.com/user?id=mikkohypponen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31731240",
+  "sameAs": "https://www.youtube.com/watch?v=Yjogm9ejcPQ",
+  "dateCreated": "2022-06-13T21:25:44.855Z",
+  "datePublished": "2022-06-13T20:19:43.000Z",
+  "dateModified": "2022-06-13T21:25:44.855Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "关于乌克兰网络战争的谈话。\"Ctrl-Z\"\n",
+  "headline_zh-Hant": "關於烏克蘭網絡戰爭的談話。\"Ctrl-Z\"\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
