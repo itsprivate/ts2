@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--06--11--en--myfeed--HackerNews--NewsArticle--31706109",
-  "url": "https://news.ycombinator.com/item?id=31706109",
-  "headline": "GNU Stow",
+  "identifier": "2022--06--13--en--showhn--HackerNews--NewsArticle--31730621",
+  "url": "https://news.ycombinator.com/item?id=31730621",
+  "headline": "Show HN: Quartz.rs Minimalistic scheduling library for Rust",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "pmoriarty",
-    "url": "https://news.ycombinator.com/user?id=pmoriarty"
+    "name": "mitghi",
+    "url": "https://news.ycombinator.com/user?id=mitghi"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=31706109",
-  "sameAs": "https://www.gnu.org/software/stow/",
-  "dateCreated": "2022-06-11T17:56:03.030Z",
-  "datePublished": "2022-06-11T17:12:24.000Z",
-  "dateModified": "2022-06-11T17:56:03.030Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31730621",
+  "sameAs": "https://github.com/mitghi/quartz.rs",
+  "dateCreated": "2022-06-13T19:42:12.601Z",
+  "datePublished": "2022-06-13T19:37:42.000Z",
+  "dateModified": "2022-06-13T19:42:12.601Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "GNU Stow\n",
-  "headline_zh-Hant": "GNU Stow\n",
+  "headline_zh-Hans": "Show HN: Quartz.rs Rust的最小化调度库\n",
+  "headline_zh-Hant": "Show HN: Quartz.rs Rust的最小化調度庫\n",
   "@context": [
     "https://schema.org",
     {
