@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--12--en--showhn--HackerNews--NewsArticle--31714709",
+  "url": "https://news.ycombinator.com/item?id=31714709",
+  "headline": "Show HN: Can I DevTools?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "pankajparashar",
+    "url": "https://news.ycombinator.com/user?id=pankajparashar"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31714709",
+  "sameAs": "https://www.canidev.tools/",
+  "dateCreated": "2022-06-12T14:42:00.052Z",
+  "datePublished": "2022-06-12T14:22:38.000Z",
+  "dateModified": "2022-06-12T14:42:00.052Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我可以使用DevTools吗？\n",
+  "headline_zh-Hant": "Show HN: 我可以使用DevTools嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

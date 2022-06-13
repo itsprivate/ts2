@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--12--en--myfeed--HackerNews--NewsArticle--31715050",
+  "url": "https://news.ycombinator.com/item?id=31715050",
+  "headline": "Daily Journaling Helped Me Level Up as a Developer",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ingve",
+    "url": "https://news.ycombinator.com/user?id=ingve"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31715050",
+  "sameAs": "https://spin.atomicobject.com/2022/06/12/daily-journaling-developer/",
+  "dateCreated": "2022-06-12T15:58:44.925Z",
+  "datePublished": "2022-06-12T15:08:26.000Z",
+  "dateModified": "2022-06-12T15:58:44.925Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "每天写日记帮助我提升开发水平\n",
+  "headline_zh-Hant": "每天寫日記幫助我提升開發水平\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

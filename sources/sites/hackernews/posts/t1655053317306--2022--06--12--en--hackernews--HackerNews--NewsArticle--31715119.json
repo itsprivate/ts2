@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--12--en--hackernews--HackerNews--NewsArticle--31715119",
+  "url": "https://news.ycombinator.com/item?id=31715119",
+  "headline": "New UUID Formats from IETF",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "swyx",
+    "url": "https://news.ycombinator.com/user?id=swyx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31715119",
+  "sameAs": "https://www.ietf.org/id/draft-peabody-dispatch-new-uuid-format-03.html",
+  "dateCreated": "2022-06-12T17:01:57.306Z",
+  "datePublished": "2022-06-12T15:17:32.000Z",
+  "dateModified": "2022-06-12T17:01:57.306Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 20
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "IETF的新UUID格式\n",
+  "headline_zh-Hant": "IETF的新UUID格式\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

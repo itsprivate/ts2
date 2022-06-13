@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--12--en--myfeed--HackerNews--NewsArticle--31715506",
+  "url": "https://news.ycombinator.com/item?id=31715506",
+  "headline": "Ntex – Framework for composable networking services",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "maydemir",
+    "url": "https://news.ycombinator.com/user?id=maydemir"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31715506",
+  "sameAs": "https://github.com/ntex-rs/ntex",
+  "dateCreated": "2022-06-12T17:42:24.896Z",
+  "datePublished": "2022-06-12T16:00:32.000Z",
+  "dateModified": "2022-06-12T17:42:24.896Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ntex - 可组合网络服务的框架\n",
+  "headline_zh-Hant": "Ntex - 可組合網絡服務的框架\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

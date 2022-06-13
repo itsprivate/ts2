@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--12--en--myfeed--HackerNews--NewsArticle--31714499",
+  "url": "https://news.ycombinator.com/item?id=31714499",
+  "headline": "Is LaMDA Sentient?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "katz_",
+    "url": "https://news.ycombinator.com/user?id=katz_"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31714499",
+  "sameAs": "https://www.documentcloud.org/documents/22058315-is-lamda-sentient-an-interview",
+  "dateCreated": "2022-06-12T14:41:51.992Z",
+  "datePublished": "2022-06-12T13:52:33.000Z",
+  "dateModified": "2022-06-12T14:41:51.992Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "LaMDA是有知觉的吗？\n",
+  "headline_zh-Hant": "LaMDA是有知覺的嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

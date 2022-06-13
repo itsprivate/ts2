@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--12--en--myfeed--HackerNews--NewsArticle--31718272",
+  "url": "https://news.ycombinator.com/item?id=31718272",
+  "headline": "Common Rust Lifetime Misconceptions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "srik",
+    "url": "https://news.ycombinator.com/user?id=srik"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31718272",
+  "sameAs": "https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md",
+  "dateCreated": "2022-06-12T21:42:23.926Z",
+  "datePublished": "2022-06-12T21:06:04.000Z",
+  "dateModified": "2022-06-12T21:42:23.926Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "常见的锈蚀寿命错误概念\n",
+  "headline_zh-Hant": "常見的鏽蝕壽命錯誤概念\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

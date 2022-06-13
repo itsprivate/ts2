@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--myfeed--HackerNews--NewsArticle--31725804",
+  "url": "https://news.ycombinator.com/item?id=31725804",
+  "headline": "Logging Work to Get Paid",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bhandel",
+    "url": "https://news.ycombinator.com/user?id=bhandel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31725804",
+  "sameAs": "https://www.tatatap.com/blog/tools-for-indie-pros-part-1/",
+  "dateCreated": "2022-06-13T14:48:36.679Z",
+  "datePublished": "2022-06-13T14:08:35.000Z",
+  "dateModified": "2022-06-13T14:48:36.679Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "记录工作以获得报酬\n",
+  "headline_zh-Hant": "記錄工作以獲得報酬\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

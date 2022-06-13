@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--12--en--myfeed--HackerNews--NewsArticle--31711839",
+  "url": "https://news.ycombinator.com/item?id=31711839",
+  "headline": "The Mystery of the Missing Input",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "elvis70",
+    "url": "https://news.ycombinator.com/user?id=elvis70"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31711839",
+  "sameAs": "https://qufb.gitlab.io/writeups/2022/06/10/The-Mystery-Of-The-Missing-Input",
+  "dateCreated": "2022-06-12T07:23:08.251Z",
+  "datePublished": "2022-06-12T05:53:09.000Z",
+  "dateModified": "2022-06-12T07:23:08.251Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "失踪的输入之谜\n",
+  "headline_zh-Hant": "失蹤的輸入之謎\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--myfeed--HackerNews--NewsArticle--31730952",
+  "url": "https://news.ycombinator.com/item?id=31730952",
+  "headline": "Google places an engineer on leave after claiming its AI is sentient",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "CharlesW",
+    "url": "https://news.ycombinator.com/user?id=CharlesW"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31730952",
+  "sameAs": "https://www.engadget.com/google-ai-lamda-blake-lemoine-212412967.html",
+  "dateCreated": "2022-06-13T20:29:29.213Z",
+  "datePublished": "2022-06-13T19:58:31.000Z",
+  "dateModified": "2022-06-13T20:29:29.213Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "谷歌称其人工智能是有知觉的，让一名工程师休假\n",
+  "headline_zh-Hant": "谷歌稱其人工智能是有知覺的，讓一名工程師休假\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

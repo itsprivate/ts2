@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--12--en--hackernews--HackerNews--NewsArticle--31713360",
+  "url": "https://news.ycombinator.com/item?id=31713360",
+  "headline": "The Y Combinator in Go with generics",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mfrw",
+    "url": "https://news.ycombinator.com/user?id=mfrw"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31713360",
+  "sameAs": "https://eli.thegreenplace.net/2022/the-y-combinator-in-go-with-generics/",
+  "dateCreated": "2022-06-12T11:41:12.795Z",
+  "datePublished": "2022-06-12T10:10:03.000Z",
+  "dateModified": "2022-06-12T11:41:12.795Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Go中的Y Combinator与泛型\n",
+  "headline_zh-Hant": "Go中的Y Combinator與泛型\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--12--en--myfeed--HackerNews--NewsArticle--31715894",
+  "url": "https://news.ycombinator.com/item?id=31715894",
+  "headline": "Perl v5.36.0 has been released",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "protomyth",
+    "url": "https://news.ycombinator.com/user?id=protomyth"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31715894",
+  "sameAs": "https://rjbs.cloud/blog/2022/05/perl-5.36/",
+  "dateCreated": "2022-06-12T17:25:24.131Z",
+  "datePublished": "2022-06-12T16:42:57.000Z",
+  "dateModified": "2022-06-12T17:25:24.131Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Perl v5.36.0已发布\n",
+  "headline_zh-Hant": "Perl v5.36.0已發佈\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

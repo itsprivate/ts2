@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--11--en--myfeed--HackerNews--NewsArticle--31709646",
+  "url": "https://news.ycombinator.com/item?id=31709646",
+  "headline": "Are AI Becoming Sentient?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "soupynoodles",
+    "url": "https://news.ycombinator.com/user?id=soupynoodles"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31709646",
+  "sameAs": "https://twitter.com/tomgara/status/1535716256585859073",
+  "dateCreated": "2022-06-11T23:56:21.485Z",
+  "datePublished": "2022-06-11T23:48:07.000Z",
+  "dateModified": "2022-06-11T23:56:21.485Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "人工智能正在成为有知觉的人吗？\n",
+  "headline_zh-Hant": "人工智能正在成為有知覺的人嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

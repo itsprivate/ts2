@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--myfeed--HackerNews--NewsArticle--31725359",
+  "url": "https://news.ycombinator.com/item?id=31725359",
+  "headline": "Fixing the Technical Interview",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sphuff",
+    "url": "https://news.ycombinator.com/user?id=sphuff"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31725359",
+  "sameAs": "https://sphuff.dev/fixing-the-technical-interview/",
+  "dateCreated": "2022-06-13T13:43:51.949Z",
+  "datePublished": "2022-06-13T13:36:06.000Z",
+  "dateModified": "2022-06-13T13:43:51.949Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "解决技术面试的问题\n",
+  "headline_zh-Hant": "解決技術面試的問題\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--myfeed--HackerNews--NewsArticle--31729888",
+  "url": "https://news.ycombinator.com/item?id=31729888",
+  "headline": "Overview over how hyperlink operates (or: why is it so fast?)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "todsacerdoti",
+    "url": "https://news.ycombinator.com/user?id=todsacerdoti"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31729888",
+  "sameAs": "https://github.com/untitaker/hyperlink/blob/570273312cba2f60b161eb60e38ba3822f598ba2/docs/architecture.md",
+  "dateCreated": "2022-06-13T19:41:51.713Z",
+  "datePublished": "2022-06-13T18:51:24.000Z",
+  "dateModified": "2022-06-13T19:41:51.713Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "概述超链接是如何运作的（或：为什么它这么快？）\n",
+  "headline_zh-Hant": "概述超鏈接是如何運作的（或：為什麼它這麼快？）\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

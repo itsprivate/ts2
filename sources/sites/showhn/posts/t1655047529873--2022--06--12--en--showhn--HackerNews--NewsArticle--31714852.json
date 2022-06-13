@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--12--en--showhn--HackerNews--NewsArticle--31714852",
+  "url": "https://news.ycombinator.com/item?id=31714852",
+  "headline": "Show HN: My 404 page is a text adventure",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "encse",
+    "url": "https://news.ycombinator.com/user?id=encse"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31714852",
+  "sameAs": "https://csokavar.hu/this_page_doesnt_exists",
+  "dateCreated": "2022-06-12T15:25:29.873Z",
+  "datePublished": "2022-06-12T14:41:09.000Z",
+  "dateModified": "2022-06-12T15:25:29.873Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我的404页面是一个文本冒险\n",
+  "headline_zh-Hant": "Show HN: 我的404頁面是一個文本冒險\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

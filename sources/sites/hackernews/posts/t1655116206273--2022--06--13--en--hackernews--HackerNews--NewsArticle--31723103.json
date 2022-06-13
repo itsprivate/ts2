@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--hackernews--HackerNews--NewsArticle--31723103",
+  "url": "https://news.ycombinator.com/item?id=31723103",
+  "headline": "Comparison of Data Lake Table Formats (Iceberg, Hudi and Delta Lake)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "anhldbk",
+    "url": "https://news.ycombinator.com/user?id=anhldbk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31723103",
+  "sameAs": "https://www.dremio.com/subsurface/comparison-of-data-lake-table-formats-iceberg-hudi-and-delta-lake/",
+  "dateCreated": "2022-06-13T10:30:06.273Z",
+  "datePublished": "2022-06-13T09:41:00.000Z",
+  "dateModified": "2022-06-13T10:30:06.273Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "数据湖表格格式的比较（冰山湖、胡迪湖和三角洲湖）。\n",
+  "headline_zh-Hant": "數據湖表格格式的比較（冰山湖、胡迪湖和三角洲湖）。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

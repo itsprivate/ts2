@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--hackernews--HackerNews--NewsArticle--31730604",
+  "url": "https://news.ycombinator.com/item?id=31730604",
+  "headline": "Photos of Chickens, Taken by Chickens",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kapsteur",
+    "url": "https://news.ycombinator.com/user?id=kapsteur"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31730604",
+  "sameAs": "https://chicken.photos/",
+  "dateCreated": "2022-06-13T19:56:22.187Z",
+  "datePublished": "2022-06-13T19:36:56.000Z",
+  "dateModified": "2022-06-13T19:56:22.187Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 24
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 8
+    }
+  ],
+  "headline_zh-Hans": "小鸡的照片，小鸡拍摄的照片\n",
+  "headline_zh-Hant": "小雞的照片，小雞拍攝的照片\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

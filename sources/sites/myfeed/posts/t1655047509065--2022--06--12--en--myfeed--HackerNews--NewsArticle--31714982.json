@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--12--en--myfeed--HackerNews--NewsArticle--31714982",
+  "url": "https://news.ycombinator.com/item?id=31714982",
+  "headline": "ProleText, encoding HTML before Markdown (and a modern reimplementation)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "classichasclass",
+    "url": "https://news.ycombinator.com/user?id=classichasclass"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31714982",
+  "sameAs": "http://oldvcr.blogspot.com/2022/06/prior-art-dept-proletext-encoding-html.html",
+  "dateCreated": "2022-06-12T15:25:09.065Z",
+  "datePublished": "2022-06-12T15:00:24.000Z",
+  "dateModified": "2022-06-12T15:25:09.065Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "ProleText，在Markdown之前对HTML进行编码（以及现代的重新实现）。\n",
+  "headline_zh-Hant": "ProleText，在Markdown之前對HTML進行編碼（以及現代的重新實現）。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--12--en--myfeed--HackerNews--NewsArticle--31714128",
+  "url": "https://news.ycombinator.com/item?id=31714128",
+  "headline": "The economy is pretty terrible, but some people are still winning",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fairytalemtg",
+    "url": "https://news.ycombinator.com/user?id=fairytalemtg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31714128",
+  "sameAs": "https://fortune.com/2022/06/12/winners-losers-todays-economy-inflation/",
+  "dateCreated": "2022-06-12T13:37:26.623Z",
+  "datePublished": "2022-06-12T12:56:34.000Z",
+  "dateModified": "2022-06-12T13:37:26.623Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "经济相当糟糕，但有些人仍在获胜\n",
+  "headline_zh-Hant": "經濟相當糟糕，但有些人仍在獲勝\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

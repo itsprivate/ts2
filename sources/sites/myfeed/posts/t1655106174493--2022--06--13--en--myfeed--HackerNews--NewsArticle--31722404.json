@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--myfeed--HackerNews--NewsArticle--31722404",
+  "url": "https://news.ycombinator.com/item?id=31722404",
+  "headline": "How Redis expires keys? A deep dive into how TTL works internally in Redis",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pankajtanwar",
+    "url": "https://news.ycombinator.com/user?id=pankajtanwar"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31722404",
+  "sameAs": "https://www.pankajtanwar.in/blog/how-redis-expires-keys-a-deep-dive-into-how-ttl-works-internally-in-redis",
+  "dateCreated": "2022-06-13T07:42:54.493Z",
+  "datePublished": "2022-06-13T07:38:20.000Z",
+  "dateModified": "2022-06-13T07:42:54.493Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Redis是如何对密钥进行过期的？深入了解TTL在Redis内部是如何工作的\n",
+  "headline_zh-Hant": "Redis是如何對密鑰進行過期的？深入瞭解TTL在Redis內部是如何工作的\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--besthn--HackerNews--NewsArticle--31721584",
+  "url": "https://news.ycombinator.com/item?id=31721584",
+  "headline": "LaMDA is not sentient",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "eatonphil",
+    "url": "https://news.ycombinator.com/user?id=eatonphil"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31721584",
+  "sameAs": "https://garymarcus.substack.com/p/nonsense-on-stilts",
+  "dateCreated": "2022-06-13T17:40:32.804Z",
+  "datePublished": "2022-06-13T05:36:07.000Z",
+  "dateModified": "2022-06-13T17:40:32.804Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 261
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 416
+    }
+  ],
+  "headline_zh-Hans": "LaMDA是没有知觉的\n",
+  "headline_zh-Hant": "LaMDA是沒有知覺的\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

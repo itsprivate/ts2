@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--myfeed--HackerNews--NewsArticle--31722835",
+  "url": "https://news.ycombinator.com/item?id=31722835",
+  "headline": "Creating a full text search engine in PostgreSQL 14",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "samgaw",
+    "url": "https://news.ycombinator.com/user?id=samgaw"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31722835",
+  "sameAs": "https://bigmachine.io/2022/06/12/creating-a-full-text-search-engine-in-postgresql-2022/",
+  "dateCreated": "2022-06-13T09:59:09.145Z",
+  "datePublished": "2022-06-13T08:47:04.000Z",
+  "dateModified": "2022-06-13T09:59:09.145Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在PostgreSQL中创建一个全文检索引擎 14\n",
+  "headline_zh-Hant": "在PostgreSQL中創建一個全文檢索引擎 14\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--12--en--myfeed--HackerNews--NewsArticle--31713955",
+  "url": "https://news.ycombinator.com/item?id=31713955",
+  "headline": "Wolf warrior diplomacy (汉语) describes an aggressive style of coercive diplomacy",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dontbenebby",
+    "url": "https://news.ycombinator.com/user?id=dontbenebby"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31713955",
+  "sameAs": "https://en.wikipedia.org/wiki/Wolf_warrior_diplomacy",
+  "dateCreated": "2022-06-12T12:39:46.076Z",
+  "datePublished": "2022-06-12T12:20:46.000Z",
+  "dateModified": "2022-06-12T12:39:46.076Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "狼性外交(Wolf warrior diplomacy)描述了一种侵略性的胁迫性外交风格。\n",
+  "headline_zh-Hant": "狼性外交(Wolf warrior diplomacy)描述了一種侵略性的脅迫性外交風格。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

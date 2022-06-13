@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--myfeed--HackerNews--NewsArticle--31723089",
+  "url": "https://news.ycombinator.com/item?id=31723089",
+  "headline": "AMD Unveils Siena, a Lower Cost EPYC Family with Up to 64 Zen 4 Cores",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rbanffy",
+    "url": "https://news.ycombinator.com/user?id=rbanffy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31723089",
+  "sameAs": "https://www.anandtech.com/show/17440/amd-unveils-siena-a-lower-cost-epyc-family-with-up-to-64-zen-4-cores",
+  "dateCreated": "2022-06-13T10:30:06.402Z",
+  "datePublished": "2022-06-13T09:39:02.000Z",
+  "dateModified": "2022-06-13T10:30:06.402Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "AMD发布Siena--成本更低的EPYC系列，最多有64个Zen 4内核\n",
+  "headline_zh-Hant": "AMD發佈Siena--成本更低的EPYC系列，最多有64個Zen 4內核\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

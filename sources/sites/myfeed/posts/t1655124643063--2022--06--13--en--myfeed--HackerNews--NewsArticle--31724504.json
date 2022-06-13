@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--myfeed--HackerNews--NewsArticle--31724504",
+  "url": "https://news.ycombinator.com/item?id=31724504",
+  "headline": "Binance has paused Bitcoin withdrawals “due to a stuck on-chain transaction”",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ceejayoz",
+    "url": "https://news.ycombinator.com/user?id=ceejayoz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31724504",
+  "sameAs": "https://twitter.com/binance/status/1536322033222664194",
+  "dateCreated": "2022-06-13T12:50:43.063Z",
+  "datePublished": "2022-06-13T12:26:47.000Z",
+  "dateModified": "2022-06-13T12:50:43.063Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Binance \"因链上交易卡住 \"而暂停了比特币的提取\n",
+  "headline_zh-Hant": "Binance \"因鏈上交易卡住 \"而暫停了比特幣的提取\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
