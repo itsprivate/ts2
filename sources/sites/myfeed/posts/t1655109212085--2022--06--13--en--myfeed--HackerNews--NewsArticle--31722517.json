@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--myfeed--HackerNews--NewsArticle--31722517",
+  "url": "https://news.ycombinator.com/item?id=31722517",
+  "headline": "The browser stores passwords and sensitive data in clear text in memory",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "TowerTall",
+    "url": "https://news.ycombinator.com/user?id=TowerTall"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31722517",
+  "sameAs": "https://www.ghacks.net/2022/06/12/your-browser-stores-passwords-and-sensitive-data-in-clear-text-in-memory/",
+  "dateCreated": "2022-06-13T08:33:32.085Z",
+  "datePublished": "2022-06-13T07:56:35.000Z",
+  "dateModified": "2022-06-13T08:33:32.085Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "浏览器在内存中以明文形式存储密码和敏感数据\n",
+  "headline_zh-Hant": "瀏覽器在內存中以明文形式存儲密碼和敏感數據\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
