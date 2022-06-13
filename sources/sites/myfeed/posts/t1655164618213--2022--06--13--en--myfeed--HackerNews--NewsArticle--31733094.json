@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--myfeed--HackerNews--NewsArticle--31733094",
+  "url": "https://news.ycombinator.com/item?id=31733094",
+  "headline": "DigitalOcean Was Down",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dangrossman",
+    "url": "https://news.ycombinator.com/user?id=dangrossman"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31733094",
+  "sameAs": "https://cloud.digitalocean.com/login",
+  "dateCreated": "2022-06-13T23:56:58.213Z",
+  "datePublished": "2022-06-13T23:42:26.000Z",
+  "dateModified": "2022-06-13T23:56:58.213Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 6
+    }
+  ],
+  "headline_zh-Hans": "数字海洋公司倒闭了\n",
+  "headline_zh-Hant": "數字海洋公司倒閉了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
