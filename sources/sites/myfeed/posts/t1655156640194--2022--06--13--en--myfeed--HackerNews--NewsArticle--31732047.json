@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--myfeed--HackerNews--NewsArticle--31732047",
+  "url": "https://news.ycombinator.com/item?id=31732047",
+  "headline": "The Boudin recall crashed MUNI’s $400M bond. The same consulting firm led both",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "uberdru",
+    "url": "https://news.ycombinator.com/user?id=uberdru"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31732047",
+  "sameAs": "https://missionlocal.org/2022/06/chesa-boudin-recall-muni-prop-a-400-million/",
+  "dateCreated": "2022-06-13T21:44:00.194Z",
+  "datePublished": "2022-06-13T21:32:31.000Z",
+  "dateModified": "2022-06-13T21:44:00.194Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Boudin的召回事件使MUNI的4亿美元债券崩溃。同一家咨询公司同时领导了\n",
+  "headline_zh-Hant": "Boudin的召回事件使MUNI的4億美元債券崩潰。同一家諮詢公司同時領導了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
