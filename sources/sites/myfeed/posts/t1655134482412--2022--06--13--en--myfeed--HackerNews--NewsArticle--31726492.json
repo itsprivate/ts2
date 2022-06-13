@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--myfeed--HackerNews--NewsArticle--31726492",
+  "url": "https://news.ycombinator.com/item?id=31726492",
+  "headline": "I signed up to BetCoBit and lost my money",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "andrejb",
+    "url": "https://news.ycombinator.com/user?id=andrejb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31726492",
+  "sameAs": "https://metamorphingmachine.neocities.org/my-first-try-at-cryptocurrency-did-not-go-well.html",
+  "dateCreated": "2022-06-13T15:34:42.412Z",
+  "datePublished": "2022-06-13T14:57:09.000Z",
+  "dateModified": "2022-06-13T15:34:42.412Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我注册了BetCoBit并失去了我的钱\n",
+  "headline_zh-Hant": "我註冊了BetCoBit並失去了我的錢\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
