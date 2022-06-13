@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--askhn--HackerNews--NewsArticle--31719562",
+  "url": "https://news.ycombinator.com/item?id=31719562",
+  "headline": "Ask HN: Does Apple secretly want to prevent gaming on macOS?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I can't believe this, but compared to Linux, macOS actually provides worse gaming experience (at least for me). On Linux you have Proton to help with Windows games, but it cannot run natively on macOS due to macOS missing several APIs:<p>- eventfd syscall is Linux-specific, without good alternative on macOS<p>- Apple does not support Vulkan, which is needed for DXVK<p>- Apple deprecated OpenGL support, which is needed for WineD3D<p>- macOS is missing support for Python 3 OOTB<p>- etc.<p>It just looks as if they _want_ to avoid success at all costs. Is there any reason that a megacorp would make such decisions?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "behnamoh",
+    "url": "https://news.ycombinator.com/user?id=behnamoh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31719562",
+  "sameAs": "https://news.ycombinator.com/item?id=31719562",
+  "dateCreated": "2022-06-13T02:22:10.173Z",
+  "datePublished": "2022-06-13T00:19:58.000Z",
+  "dateModified": "2022-06-13T02:22:10.173Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 25
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 52
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 苹果公司是否暗地里想阻止macOS上的游戏？\n",
+  "headline_zh-Hant": "Ask HN: 蘋果公司是否暗地裡想阻止macOS上的遊戲？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我不敢相信，但与Linux相比，macOS实际上提供了更糟糕的游戏体验（至少对我来说）。在Linux上，你有Proton来帮助Windows游戏，但它不能在macOS上原生运行，因为macOS缺少几个API：<p>- eventfd syscall是Linux特有的，在macOS上没有好的替代品<p>- 苹果不支持Vulkan，这是DXVK需要的<p>- 苹果取消了OpenGL支持，这是WineD3D需要的<p>- macOS缺少Python 3 OOTB支持<p>- 等等。 <p>这看起来好像他们想不惜一切代价避免成功。一个巨型公司有什么理由会做出这样的决定呢？\n",
+  "description_zh-Hant": "我不敢相信，但與Linux相比，macOS實際上提供了更糟糕的遊戲體驗（至少對我來說）。在Linux上，你有Proton來幫助Windows遊戲，但它不能在macOS上原生運行，因為macOS缺少幾個API：<p>- eventfd syscall是Linux特有的，在macOS上沒有好的替代品<p>- 蘋果不支持Vulkan，這是DXVK需要的<p>- 蘋果取消了OpenGL支持，這是WineD3D需要的<p>- macOS缺少Python 3 OOTB支持<p>- 等等。 <p>這看起來好像他們想不惜一切代價避免成功。一個巨型公司有什麼理由會做出這樣的決定呢？\n"
+}
