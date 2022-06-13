@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--myfeed--HackerNews--NewsArticle--31720407",
+  "url": "https://news.ycombinator.com/item?id=31720407",
+  "headline": "MirageOS: A programming framework for building type-safe, modular systems",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lnyan",
+    "url": "https://news.ycombinator.com/user?id=lnyan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31720407",
+  "sameAs": "https://mirage.io/",
+  "dateCreated": "2022-06-13T06:34:30.946Z",
+  "datePublished": "2022-06-13T02:37:58.000Z",
+  "dateModified": "2022-06-13T06:34:30.946Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "MirageOS：用于构建类型安全的模块化系统的编程框架\n",
+  "headline_zh-Hant": "MirageOS：用於構建類型安全的模塊化系統的編程框架\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--03--02--en--besthn--HackerNews--NewsArticle--30518094",
-  "url": "https://news.ycombinator.com/item?id=30518094",
-  "headline": "How generics are implemented in Go 1.18",
+  "identifier": "2022--06--13--en--showhn--HackerNews--NewsArticle--31721737",
+  "url": "https://news.ycombinator.com/item?id=31721737",
+  "headline": "Show HN: Display P3 exclusive Pantone colors",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "komuW",
-    "url": "https://news.ycombinator.com/user?id=komuW"
+    "name": "vvin",
+    "url": "https://news.ycombinator.com/user?id=vvin"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=30518094",
-  "sameAs": "https://github.com/golang/proposal/blob/master/design/generics-implementation-dictionaries-go1.18.md",
-  "dateCreated": "2022-03-02T07:10:22.708Z",
-  "datePublished": "2022-03-01T18:39:13.000Z",
-  "dateModified": "2022-03-02T07:10:22.708Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31721737",
+  "sameAs": "https://pantone-display-p3-colors.vercel.app",
+  "dateCreated": "2022-06-13T06:34:39.063Z",
+  "datePublished": "2022-06-13T06:00:26.000Z",
+  "dateModified": "2022-06-13T06:34:39.063Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 254
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 104
+      "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "Go 1.18中是如何实现泛型的？",
-  "headline_zh-Hant": "Go 1.18中是如何實現泛型的？",
+  "headline_zh-Hans": "Show HN: 显示P3专属的Pantone颜色\n",
+  "headline_zh-Hant": "Show HN: 顯示P3專屬的Pantone顏色\n",
   "@context": [
     "https://schema.org",
     {
