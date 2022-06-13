@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--myfeed--HackerNews--NewsArticle--31730940",
+  "url": "https://news.ycombinator.com/item?id=31730940",
+  "headline": "From Clojure to Ruby",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "olieidel",
+    "url": "https://news.ycombinator.com/user?id=olieidel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31730940",
+  "sameAs": "https://www.eidel.io/2022/06/10/from-clojure-to-ruby/",
+  "dateCreated": "2022-06-13T21:25:44.846Z",
+  "datePublished": "2022-06-13T19:57:32.000Z",
+  "dateModified": "2022-06-13T21:25:44.846Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "从Clojure到Ruby\n",
+  "headline_zh-Hant": "從Clojure到Ruby\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

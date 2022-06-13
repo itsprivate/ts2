@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--13--en--myfeed--HackerNews--NewsArticle--31731257",
+  "url": "https://news.ycombinator.com/item?id=31731257",
+  "headline": "Build your own gravity driven mechanical clock escapement",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tbensky",
+    "url": "https://news.ycombinator.com/user?id=tbensky"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31731257",
+  "sameAs": "https://github.com/tbensky/ProjectClock",
+  "dateCreated": "2022-06-13T21:25:44.866Z",
+  "datePublished": "2022-06-13T20:20:51.000Z",
+  "dateModified": "2022-06-13T21:25:44.866Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "建造你自己的重力驱动机械钟擒纵机构\n",
+  "headline_zh-Hant": "建造你自己的重力驅動機械鐘擒縱機構\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
