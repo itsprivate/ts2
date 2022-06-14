@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--14--en--myfeed--HackerNews--NewsArticle--31740384",
+  "url": "https://news.ycombinator.com/item?id=31740384",
+  "headline": "Tesla Rival Declares Devastating News",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "brk",
+    "url": "https://news.ycombinator.com/user?id=brk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31740384",
+  "sameAs": "https://www.thestreet.com/investing/tesla-rival-declares-bankruptcy",
+  "dateCreated": "2022-06-14T15:28:52.800Z",
+  "datePublished": "2022-06-14T14:51:07.000Z",
+  "dateModified": "2022-06-14T15:28:52.800Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "特斯拉的竞争对手宣布了毁灭性的消息\n",
+  "headline_zh-Hant": "特斯拉的競爭對手宣佈了毀滅性的消息\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
