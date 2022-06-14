@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--14--en--myfeed--HackerNews--NewsArticle--31733513",
+  "url": "https://news.ycombinator.com/item?id=31733513",
+  "headline": "Writing is a single-player game",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bspear",
+    "url": "https://news.ycombinator.com/user?id=bspear"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31733513",
+  "sameAs": "https://www.otherlife.co/singleplayer/",
+  "dateCreated": "2022-06-14T02:25:31.283Z",
+  "datePublished": "2022-06-14T00:47:23.000Z",
+  "dateModified": "2022-06-14T02:25:31.283Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 14
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "写作是一个单人游戏\n",
+  "headline_zh-Hant": "寫作是一個單人遊戲\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--14--en--myfeed--HackerNews--NewsArticle--31733427",
+  "url": "https://news.ycombinator.com/item?id=31733427",
+  "headline": "A $1M lottery’s winning numbers: 13, 14, 15, 16, 17, 18, 19",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "celias",
+    "url": "https://news.ycombinator.com/user?id=celias"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31733427",
+  "sameAs": "https://www.washingtonpost.com/dc-md-va/2022/06/13/virginia-lottery-winning-numbers-million-probability/",
+  "dateCreated": "2022-06-14T02:25:31.254Z",
+  "datePublished": "2022-06-14T00:32:30.000Z",
+  "dateModified": "2022-06-14T02:25:31.254Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一张100万美元彩票的中奖号码。13, 14, 15, 16, 17, 18, 19\n",
+  "headline_zh-Hant": "一張100萬美元彩票的中獎號碼。13, 14, 15, 16, 17, 18, 19\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
