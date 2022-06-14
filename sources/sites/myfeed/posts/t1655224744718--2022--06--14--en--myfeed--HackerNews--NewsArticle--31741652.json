@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--14--en--myfeed--HackerNews--NewsArticle--31741652",
+  "url": "https://news.ycombinator.com/item?id=31741652",
+  "headline": "Secure SSH on EC2: What are the real threats?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "e-Minguez",
+    "url": "https://news.ycombinator.com/user?id=e-Minguez"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31741652",
+  "sameAs": "https://sysdig.com/blog/aws-secure-ssh-ec2-threats/",
+  "dateCreated": "2022-06-14T16:39:04.718Z",
+  "datePublished": "2022-06-14T16:20:13.000Z",
+  "dateModified": "2022-06-14T16:39:04.718Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "EC2上的安全SSH。真正的威胁是什么？\n",
+  "headline_zh-Hant": "EC2上的安全SSH。真正的威脅是什麼？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

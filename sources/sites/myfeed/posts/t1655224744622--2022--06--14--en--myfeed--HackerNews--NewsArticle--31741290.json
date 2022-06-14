@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--14--en--myfeed--HackerNews--NewsArticle--31741290",
+  "url": "https://news.ycombinator.com/item?id=31741290",
+  "headline": "You Have Only So Much Time. Are You Using It Right?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "prostoalex",
+    "url": "https://news.ycombinator.com/user?id=prostoalex"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31741290",
+  "sameAs": "https://www.wsj.com/articles/you-have-only-so-much-time-are-you-using-it-right-11655043558",
+  "dateCreated": "2022-06-14T16:39:04.622Z",
+  "datePublished": "2022-06-14T15:56:22.000Z",
+  "dateModified": "2022-06-14T16:39:04.622Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 10
+    }
+  ],
+  "headline_zh-Hans": "你只有这么多时间。你是否正确使用它？\n",
+  "headline_zh-Hant": "你只有這麼多時間。你是否正確使用它？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
