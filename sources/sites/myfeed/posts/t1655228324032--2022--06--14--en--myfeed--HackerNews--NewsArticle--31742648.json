@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--14--en--myfeed--HackerNews--NewsArticle--31742648",
+  "url": "https://news.ycombinator.com/item?id=31742648",
+  "headline": "The Helios Microkernel: Written in Hare",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pcr910303",
+    "url": "https://news.ycombinator.com/user?id=pcr910303"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31742648",
+  "sameAs": "https://drewdevault.com/2022/06/13/helios.html",
+  "dateCreated": "2022-06-14T17:38:44.032Z",
+  "datePublished": "2022-06-14T17:15:25.000Z",
+  "dateModified": "2022-06-14T17:38:44.032Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Helios微内核。用Hare编写\n",
+  "headline_zh-Hant": "Helios微內核。用Hare編寫\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
