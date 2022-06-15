@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--15--en--askhn--HackerNews--NewsArticle--31756567",
+  "url": "https://news.ycombinator.com/item?id=31756567",
+  "headline": "Ask HN: Would you deal with CSPs when building audio- Chrome Extensions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Some background:\nWe are a seed stage startup, we built a chrome extension that allows u to record audio messages anywhere, it gets transcribed, some ml stuff. Then u can share the link, if the other person also has the CE they can play it wherever they find the link. Of course, we also have a web app that does normal messaging app stuff. \nRegister for testing: https://app.getvoiceline.com/6b29fbc80d<p>Question: We have some problems with CSP violations. Some pages like StackOverflow don’t even prompt the user for microphone permissions.<p>Others, like Twitter, allow specific media sources. As long as they still allow blobs, we can work around that by sending the blob as a stringified message over the chrome messaging and rebuilding it in the DOM to then play it. Github and Gitlab are much more restrictive.\nIMO google should allow chrome extensions to change certain aspects of the CSPs, after all, you want to transform your browser experience with the extensions.\nIt works well on the major co-working tools like gsuite or notion, but we would really like to bring it to more engineers and the websites they use.<p>Did any of you deal with similar constraints before?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "s_mausi",
+    "url": "https://news.ycombinator.com/user?id=s_mausi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31756567",
+  "sameAs": "https://news.ycombinator.com/item?id=31756567",
+  "dateCreated": "2022-06-15T17:56:02.486Z",
+  "datePublished": "2022-06-15T17:47:36.000Z",
+  "dateModified": "2022-06-15T17:56:02.486Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 在构建音频时，你会和CSP打交道吗--Chrome扩展程序\n",
+  "headline_zh-Hant": "Ask HN: 在構建音頻時，你會和CSP打交道嗎--Chrome擴展程序\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "一些背景。\n我们是一个种子期的创业公司，我们建立了一个铬扩展，允许你在任何地方录制音频信息，它被转录，一些毫升的东西。然后，你可以分享链接，如果对方也有CE，他们可以在任何他们找到链接的地方播放它。当然，我们也有一个网络应用，可以做正常的信息应用的事情。\n注册测试：https://app.getvoiceline.com/6b29fbc80d<p>问题。我们有一些违反CSP的问题。有些页面，如StackOverflow，甚至没有提示用户麦克风的权限。<p>其他的，如Twitter，允许特定的媒体来源。只要他们仍然允许blob，我们就可以通过在chrome消息传递中把blob作为字符串化的消息发送，并在DOM中重建它，然后播放它来解决这个问题。Github和Gitlab的限制就多了。\nIMO谷歌应该允许chrome扩展程序改变CSP的某些方面，毕竟，你想通过扩展程序改变你的浏览器体验。\n它在gsuite或notion等主要的联合办公工具上运行良好，但我们真的希望把它带给更多的工程师和他们使用的网站。<p>你们中有人曾经处理过类似的限制吗？\n",
+  "description_zh-Hant": "一些背景。\n我們是一個種子期的創業公司，我們建立了一個鉻擴展，允許你在任何地方錄製音頻信息，它被轉錄，一些毫升的東西。然後，你可以分享鏈接，如果對方也有CE，他們可以在任何他們找到鏈接的地方播放它。當然，我們也有一個網絡應用，可以做正常的信息應用的事情。\n註冊測試：https://app.getvoiceline.com/6b29fbc80d<p>問題。我們有一些違反CSP的問題。有些頁面，如StackOverflow，甚至沒有提示用戶麥克風的權限。<p>其他的，如Twitter，允許特定的媒體來源。只要他們仍然允許blob，我們就可以通過在chrome消息傳遞中把blob作為字符串化的消息發送，並在DOM中重建它，然後播放它來解決這個問題。Github和Gitlab的限制就多了。\nIMO谷歌應該允許chrome擴展程序改變CSP的某些方面，畢竟，你想通過擴展程序改變你的瀏覽器體驗。\n它在gsuite或notion等主要的聯合辦公工具上運行良好，但我們真的希望把它帶給更多的工程師和他們使用的網站。<p>你們中有人曾經處理過類似的限制嗎？\n"
+}
