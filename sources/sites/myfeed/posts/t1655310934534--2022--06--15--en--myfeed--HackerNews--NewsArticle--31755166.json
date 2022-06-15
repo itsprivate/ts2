@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--15--en--myfeed--HackerNews--NewsArticle--31755166",
+  "url": "https://news.ycombinator.com/item?id=31755166",
+  "headline": "CogView2: Faster & Better Text-to-Image Generation via Hierarchical Transformer",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lnyan",
+    "url": "https://news.ycombinator.com/user?id=lnyan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31755166",
+  "sameAs": "https://arxiv.org/abs/2204.14217",
+  "dateCreated": "2022-06-15T16:35:34.534Z",
+  "datePublished": "2022-06-15T16:10:35.000Z",
+  "dateModified": "2022-06-15T16:35:34.534Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "CogView2：通过分层变换器更快、更好地生成文本-图像\n",
+  "headline_zh-Hant": "CogView2：通過分層變換器更快、更好地生成文本-圖像\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

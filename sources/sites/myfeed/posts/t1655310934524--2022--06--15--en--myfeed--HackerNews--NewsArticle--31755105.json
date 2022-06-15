@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--15--en--myfeed--HackerNews--NewsArticle--31755105",
+  "url": "https://news.ycombinator.com/item?id=31755105",
+  "headline": "TPM sniffing attacks on non-Bitlocker targets [re: LUKS FDE with discrete TPM]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mrkoot",
+    "url": "https://news.ycombinator.com/user?id=mrkoot"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31755105",
+  "sameAs": "https://www.secura.com/blog/tpm-sniffing-attacks-against-non-bitlocker-targets",
+  "dateCreated": "2022-06-15T16:35:34.524Z",
+  "datePublished": "2022-06-15T16:06:35.000Z",
+  "dateModified": "2022-06-15T16:35:34.524Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "对非Bitlocker目标的TPM嗅探攻击 [re: LUKS FDE with discrete TPM]\n",
+  "headline_zh-Hant": "對非Bitlocker目標的TPM嗅探攻擊 [re: LUKS FDE with discrete TPM]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--15--en--myfeed--HackerNews--NewsArticle--31754924",
+  "url": "https://news.ycombinator.com/item?id=31754924",
+  "headline": "Facial recognition IDs missing kids with 99.85% accuracy",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "malchow",
+    "url": "https://news.ycombinator.com/user?id=malchow"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31754924",
+  "sameAs": "https://www.freethink.com/technology/facial-recognition-technology",
+  "dateCreated": "2022-06-15T16:35:34.471Z",
+  "datePublished": "2022-06-15T15:55:11.000Z",
+  "dateModified": "2022-06-15T16:35:34.471Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "面部识别识别出失踪儿童，准确率达99.85%。\n",
+  "headline_zh-Hant": "面部識別識別出失蹤兒童，準確率達99.85%。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
