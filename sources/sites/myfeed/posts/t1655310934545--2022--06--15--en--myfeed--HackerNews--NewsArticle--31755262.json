@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--15--en--myfeed--HackerNews--NewsArticle--31755262",
+  "url": "https://news.ycombinator.com/item?id=31755262",
+  "headline": "Heroku 22 Stack",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nikodunk",
+    "url": "https://news.ycombinator.com/user?id=nikodunk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31755262",
+  "sameAs": "https://devcenter.heroku.com/articles/heroku-22-stack",
+  "dateCreated": "2022-06-15T16:35:34.545Z",
+  "datePublished": "2022-06-15T16:17:53.000Z",
+  "dateModified": "2022-06-15T16:35:34.545Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Heroku 22堆栈\n",
+  "headline_zh-Hant": "Heroku 22堆棧\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
