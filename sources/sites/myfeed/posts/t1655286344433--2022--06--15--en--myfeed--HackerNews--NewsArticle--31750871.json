@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--15--en--myfeed--HackerNews--NewsArticle--31750871",
+  "url": "https://news.ycombinator.com/item?id=31750871",
+  "headline": "What are the 5 hottest dbt Repositories one should star on GitHub 2022?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": " What are the 5 hottest dbt Repositories one should star on Github 2022?<p>dbt is a software framework that sits in the middle of the ELT process. It represents the transformative layer after loading data from an original source. Dbt combines SQL with software engineering principles.<p>Here are my top5!<p>-  Lightdash (https://github.com/lightdash/lightdash): Lightdash converts dbt models and makes it possible to define and easily visualize additional metrics via a visual interface.<p>- ⏎ re_data (https://github.com/re-data/re-data): Re-Data is an abstraction layer that helps users monitor dbt projects and their underlying data. For example, you get alerts when a test failed or a data anomaly occurs in a dbt project.<p>-  evidence (https://github.com/evidence-dev/evidence): Evidence is another tool for lightweight BI reporting. With Evidence, you can build simple reports in &quot;medium style&quot; using SQL queries and Markdown.<p>-  Kuwala (https://github.com/kuwala-io/kuwala): With Kuwala, a BI analyst can intuitively build advanced data workflows using a drag-drop interface on top of the modern data stack without coding. Behind the Scenes, the dbt models are generated so that a more experienced engineer can customize the pipelines at any time.<p>- fal ai (https://github.com/fal-ai/fal): Fal helps to run Python scripts directly from the dbt project. For example, you can load dbt models directly into the Python context which helps to apply Data Science libraries like SKlearn and Prophet in the dbt models.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "floriankuwala",
+    "url": "https://news.ycombinator.com/user?id=floriankuwala"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31750871",
+  "sameAs": "https://news.ycombinator.com/item?id=31750871",
+  "dateCreated": "2022-06-15T09:45:44.433Z",
+  "datePublished": "2022-06-15T09:40:32.000Z",
+  "dateModified": "2022-06-15T09:45:44.433Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "什么是GitHub 2022年最热门的5个dbt存储库？\n",
+  "headline_zh-Hant": "什麼是GitHub 2022年最熱門的5個dbt存儲庫？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": " 什么是Github上最热门的5个dbt存储库？<p>dbt是一个软件框架，位于ELT过程的中间。它代表了从原始来源加载数据后的转换层。Dbt结合了SQL和软件工程原理。<p>这里是我的前5名！<p>- Lightdash（https://github.com/lightdash/lightdash）。Lightdash可以转换Dbt模型，并使其有可能通过一个可视化界面来定义和轻松可视化额外的指标。<p>- ⏎ re_data（https://github.com/re-data/re-data）。Re-Data是一个抽象层，帮助用户监控dbt项目及其基础数据。例如，当一个dbt项目中出现测试失败或数据异常时，你会得到提醒。<p>- 证据（https://github.com/evidence-dev/evidence）。Evidence是另一个轻量级BI报告的工具。通过Evidence，你可以使用SQL查询和Markdown，以&quot;中等风格&quot;建立简单的报告。<p>- Kuwala（https://github.com/kuwala-io/kuwala）。通过Kuwala，商业智能分析师可以在现代数据堆栈的基础上使用拖放界面直观地构建高级数据工作流，而无需编码。在幕后，生成dbt模型，以便更有经验的工程师可以随时定制管道。<p>- fal ai（https://github.com/fal-ai/fal）。Fal有助于直接从dbt项目中运行Python脚本。例如，你可以直接将dbt模型加载到Python环境中，这有助于在dbt模型中应用SKlearn和Prophet等数据科学库。\n",
+  "description_zh-Hant": " 什麼是Github上最熱門的5個dbt存儲庫？<p>dbt是一個軟件框架，位於ELT過程的中間。它代表了從原始來源加載數據後的轉換層。Dbt結合了SQL和軟件工程原理。<p>這裡是我的前5名！<p>- Lightdash（https://github.com/lightdash/lightdash）。Lightdash可以轉換Dbt模型，並使其有可能通過一個可視化界面來定義和輕鬆可視化額外的指標。<p>- ⏎ re_data（https://github.com/re-data/re-data）。Re-Data是一個抽象層，幫助用戶監控dbt項目及其基礎數據。例如，當一個dbt項目中出現測試失敗或數據異常時，你會得到提醒。<p>- 證據（https://github.com/evidence-dev/evidence）。Evidence是另一個輕量級BI報告的工具。通過Evidence，你可以使用SQL查詢和Markdown，以&quot;中等風格&quot;建立簡單的報告。<p>- Kuwala（https://github.com/kuwala-io/kuwala）。通過Kuwala，商業智能分析師可以在現代數據堆棧的基礎上使用拖放界面直觀地構建高級數據工作流，而無需編碼。在幕後，生成dbt模型，以便更有經驗的工程師可以隨時定製管道。<p>- fal ai（https://github.com/fal-ai/fal）。Fal有助於直接從dbt項目中運行Python腳本。例如，你可以直接將dbt模型加載到Python環境中，這有助於在dbt模型中應用SKlearn和Prophet等數據科學庫。\n"
+}
