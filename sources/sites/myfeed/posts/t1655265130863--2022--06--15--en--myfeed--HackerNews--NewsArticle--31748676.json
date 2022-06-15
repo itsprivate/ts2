@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--15--en--myfeed--HackerNews--NewsArticle--31748676",
+  "url": "https://news.ycombinator.com/item?id=31748676",
+  "headline": "From Stage 3 Colon Cancer to No Cancer Detected in 4 Months [video]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "LinuxBender",
+    "url": "https://news.ycombinator.com/user?id=LinuxBender"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31748676",
+  "sameAs": "https://www.youtube.com/watch?v=YzPrxku1x5Y",
+  "dateCreated": "2022-06-15T03:52:10.863Z",
+  "datePublished": "2022-06-15T03:06:32.000Z",
+  "dateModified": "2022-06-15T03:52:10.863Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "4个月内从结肠癌3期到未发现癌症 [视频]\n",
+  "headline_zh-Hant": "4個月內從結腸癌3期到未發現癌症 [視頻]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
