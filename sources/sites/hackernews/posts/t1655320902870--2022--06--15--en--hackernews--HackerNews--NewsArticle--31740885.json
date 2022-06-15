@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--15--en--hackernews--HackerNews--NewsArticle--31740885",
+  "url": "https://news.ycombinator.com/item?id=31740885",
+  "headline": "Are V8 isolates the future of computing?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I was reading this article on Cloudflare workers https://blog.cloudflare.com/cloud-computing-without-containers/ and seemed like isolates have significant advantage over serverless technology like lambda etc.<p>What are the downsides of v8? Is it poor security isolation?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pranay01",
+    "url": "https://news.ycombinator.com/user?id=pranay01"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31740885",
+  "sameAs": "https://news.ycombinator.com/item?id=31740885",
+  "dateCreated": "2022-06-15T19:21:42.870Z",
+  "datePublished": "2022-06-14T15:27:15.000Z",
+  "dateModified": "2022-06-15T19:21:42.870Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 11
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "V8隔离器是计算的未来吗？\n",
+  "headline_zh-Hant": "V8隔離器是計算的未來嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我在Cloudflare工人https://blog.cloudflare.com/cloud-computing-without-containers/，似乎隔离技术比lambda等无服务器技术有显著优势。<p>v8有什么缺点？它的安全隔离性差吗？\n",
+  "description_zh-Hant": "我在Cloudflare工人https://blog.cloudflare.com/cloud-computing-without-containers/，似乎隔離技術比lambda等無服務器技術有顯著優勢。<p>v8有什麼缺點？它的安全隔離性差嗎？\n"
+}
