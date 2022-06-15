@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--15--en--askhn--HackerNews--NewsArticle--31750842",
+  "url": "https://news.ycombinator.com/item?id=31750842",
+  "headline": "Ask HN: How to anonymize/alias emails submitted in forms?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I have a form where the user enters an email on which they want to be contacted. However, I am not legally allowed to collect anything that could potentially identify the user.<p>I am looking for a solution that would automatically generate a random email alias on form submission, so that I would be replying to xyz123@aliasprovider.com and they'd receive it on their john.doe@ibm.com, without me ever seeing their real email address.<p>This should be a solution that works fully on client side (without need to install browser plugins or perform any action), maybe hits 3rd party API or mail server, and their address is impossible to retrieve on my side.<p>Thank you for any advice!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "josefrichter",
+    "url": "https://news.ycombinator.com/user?id=josefrichter"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31750842",
+  "sameAs": "https://news.ycombinator.com/item?id=31750842",
+  "dateCreated": "2022-06-15T09:45:43.925Z",
+  "datePublished": "2022-06-15T09:33:49.000Z",
+  "dateModified": "2022-06-15T09:45:43.925Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何对表格中提交的电子邮件进行匿名/别名处理？\n",
+  "headline_zh-Hant": "Ask HN: 如何對錶格中提交的電子郵件進行匿名/別名處理？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我有一个表单，用户在其中输入了他们希望被联系到的电子邮件。<p>我正在寻找一种解决方案，可以在表单提交时自动生成一个随机的电子邮件别名，这样我就可以在xyz123@aliasprovider.com，而他们会在自己的john.doe@ibm.com，而我不会看到他们的真实电子邮件地址。<p>这应该是一个完全在客户端工作的解决方案（不需要安装浏览器插件或执行任何操作），也许可以击中第三方API或邮件服务器，而且他们的地址在我这边不可能被检索到。\n",
+  "description_zh-Hant": "我有一個表單，用戶在其中輸入了他們希望被聯繫到的電子郵件。<p>我正在尋找一種解決方案，可以在表單提交時自動生成一個隨機的電子郵件別名，這樣我就可以在xyz123@aliasprovider.com，而他們會在自己的john.doe@ibm.com，而我不會看到他們的真實電子郵件地址。<p>這應該是一個完全在客戶端工作的解決方案（不需要安裝瀏覽器插件或執行任何操作），也許可以擊中第三方API或郵件服務器，而且他們的地址在我這邊不可能被檢索到。\n"
+}
