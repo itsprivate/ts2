@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--15--en--myfeed--HackerNews--NewsArticle--31756888",
+  "url": "https://news.ycombinator.com/item?id=31756888",
+  "headline": "Netflix's Real-Life “Squid Game”: Most cash and largest cast in history",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "metadat",
+    "url": "https://news.ycombinator.com/user?id=metadat"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31756888",
+  "sameAs": "https://techcrunch.com/2022/06/15/netflixs-real-life-squid-game-competition-will-feature-the-biggest-cash-prize-and-largest-cast-in-reality-tv-history/",
+  "dateCreated": "2022-06-15T18:35:54.219Z",
+  "datePublished": "2022-06-15T18:08:26.000Z",
+  "dateModified": "2022-06-15T18:35:54.219Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Netflix的真实生活中的 \"鱿鱼游戏\"。历史上最多的现金和最大的演员\n",
+  "headline_zh-Hant": "Netflix的真實生活中的 \"魷魚遊戲\"。歷史上最多的現金和最大的演員\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
