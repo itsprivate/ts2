@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--15--en--myfeed--HackerNews--NewsArticle--31756901",
+  "url": "https://news.ycombinator.com/item?id=31756901",
+  "headline": "Netflix is turning Squid Game into a real-life game show, surprising no one",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "metadat",
+    "url": "https://news.ycombinator.com/user?id=metadat"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31756901",
+  "sameAs": "https://www.theverge.com/2022/6/14/23167772/squid-game-the-challenge-netflix",
+  "dateCreated": "2022-06-15T18:35:54.224Z",
+  "datePublished": "2022-06-15T18:09:17.000Z",
+  "dateModified": "2022-06-15T18:35:54.224Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Netflix正在将 \"鱿鱼游戏 \"变成一个真实的游戏节目，没有人感到惊讶。\n",
+  "headline_zh-Hant": "Netflix正在將 \"魷魚遊戲 \"變成一個真實的遊戲節目，沒有人感到驚訝。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
