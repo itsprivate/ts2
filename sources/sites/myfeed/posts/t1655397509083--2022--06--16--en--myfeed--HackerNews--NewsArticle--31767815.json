@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--16--en--myfeed--HackerNews--NewsArticle--31767815",
+  "url": "https://news.ycombinator.com/item?id=31767815",
+  "headline": "US sending $1B more military aid to outgunned Ukraine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "donsupreme",
+    "url": "https://news.ycombinator.com/user?id=donsupreme"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31767815",
+  "sameAs": "https://apnews.com/article/russia-ukraine-zelenskyy-sweden-finland-jens-stoltenberg-1feb3640d59b05aceca62766d7d4f74d",
+  "dateCreated": "2022-06-16T16:38:29.083Z",
+  "datePublished": "2022-06-16T16:18:25.000Z",
+  "dateModified": "2022-06-16T16:38:29.083Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "美国向兵力不足的乌克兰增送10亿美元的军事援助\n",
+  "headline_zh-Hant": "美國向兵力不足的烏克蘭增送10億美元的軍事援助\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
