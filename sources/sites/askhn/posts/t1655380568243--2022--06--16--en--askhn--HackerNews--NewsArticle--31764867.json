@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--16--en--askhn--HackerNews--NewsArticle--31764867",
+  "url": "https://news.ycombinator.com/item?id=31764867",
+  "headline": "Ask HN: Why is Chromium a memory hog? Why can't we fix it?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hoping someone with some architectural knowledge of Chromium can jump in here. I am mainly asking out of curiosity, as other browsers don't seem to suffer from memory bloat in the same order of magnitude.<p>So, what is it about Chromium that causes it to suck up so much memory? What is difficult about fixing this?<p>As a further niche, I'm also interested in this from Electron's PoV.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "rco8786",
+    "url": "https://news.ycombinator.com/user?id=rco8786"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31764867",
+  "sameAs": "https://news.ycombinator.com/item?id=31764867",
+  "dateCreated": "2022-06-16T11:56:08.243Z",
+  "datePublished": "2022-06-16T11:47:41.000Z",
+  "dateModified": "2022-06-16T11:56:08.243Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么Chromium是个内存大户？为什么我们不能修复它？\n",
+  "headline_zh-Hant": "Ask HN: 為什麼Chromium是個內存大戶？為什麼我們不能修復它？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "希望对Chromium有一些架构知识的人能够在这里插话。我主要是出于好奇才问的，因为其他浏览器似乎并没有受到相同数量级的内存膨胀的困扰。<p>那么，Chromium到底是什么原因导致它占用了这么多内存？<p>作为一个进一步的利基，我也想从Electron的角度来了解这个问题。\n",
+  "description_zh-Hant": "希望對Chromium有一些架構知識的人能夠在這裡插話。我主要是出於好奇才問的，因為其他瀏覽器似乎並沒有受到相同數量級的內存膨脹的困擾。<p>那麼，Chromium到底是什麼原因導致它佔用了這麼多內存？<p>作為一個進一步的利基，我也想從Electron的角度來了解這個問題。\n"
+}
