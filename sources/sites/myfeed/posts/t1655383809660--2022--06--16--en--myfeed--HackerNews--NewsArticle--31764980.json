@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--16--en--myfeed--HackerNews--NewsArticle--31764980",
+  "url": "https://news.ycombinator.com/item?id=31764980",
+  "headline": "Helios-NG: An open-source cluster OS that links the Atari ST and Commodore Amiga",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lproven",
+    "url": "https://news.ycombinator.com/user?id=lproven"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31764980",
+  "sameAs": "https://www.theregister.com/2021/12/06/heliosng/",
+  "dateCreated": "2022-06-16T12:50:09.660Z",
+  "datePublished": "2022-06-16T11:59:49.000Z",
+  "dateModified": "2022-06-16T12:50:09.660Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Helios-NG：一个开源的集群操作系统，连接Atari ST和Commodore Amiga。\n",
+  "headline_zh-Hant": "Helios-NG：一個開源的集群操作系統，連接Atari ST和Commodore Amiga。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
