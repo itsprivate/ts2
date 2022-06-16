@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--16--en--askhn--HackerNews--NewsArticle--31762650",
+  "url": "https://news.ycombinator.com/item?id=31762650",
+  "headline": "Ask HN: NextJS /API vs. Heroku",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I recently migrated my apps to NextJS (which used to be React SPA) and the perf is incredible.<p>I'm considering ditching my Heroku dyno and building the API on NextJS directly.<p>Have you been there? Is it worth it?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "marclou",
+    "url": "https://news.ycombinator.com/user?id=marclou"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31762650",
+  "sameAs": "https://news.ycombinator.com/item?id=31762650",
+  "dateCreated": "2022-06-16T05:33:41.782Z",
+  "datePublished": "2022-06-16T05:17:55.000Z",
+  "dateModified": "2022-06-16T05:33:41.782Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 下一页JS /API与Heroku的关系\n",
+  "headline_zh-Hant": "Ask HN: 下一頁JS /API與Heroku的關係\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我最近将我的应用程序迁移到了NextJS（以前是React SPA），其性能令人难以置信。<p>我正在考虑放弃我的Heroku dyno，直接在NextJS上构建API。<p>你去过那里吗？这值得吗？\n",
+  "description_zh-Hant": "我最近將我的應用程序遷移到了NextJS（以前是React SPA），其性能令人難以置信。<p>我正在考慮放棄我的Heroku dyno，直接在NextJS上構建API。<p>你去過那裡嗎？這值得嗎？\n"
+}
