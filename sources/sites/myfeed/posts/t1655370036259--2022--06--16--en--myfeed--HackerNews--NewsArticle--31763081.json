@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--16--en--myfeed--HackerNews--NewsArticle--31763081",
+  "url": "https://news.ycombinator.com/item?id=31763081",
+  "headline": "Crowdwise: Chrome extension to show discussions of page from HN and Reddit",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "thunderbong",
+    "url": "https://news.ycombinator.com/user?id=thunderbong"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31763081",
+  "sameAs": "https://github.com/UseCrowdWise/crowdwise",
+  "dateCreated": "2022-06-16T09:00:36.259Z",
+  "datePublished": "2022-06-16T06:37:31.000Z",
+  "dateModified": "2022-06-16T09:00:36.259Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Crowdwise: Chrome扩展显示来自HN和Reddit的页面讨论情况\n",
+  "headline_zh-Hant": "Crowdwise: Chrome擴展顯示來自HN和Reddit的頁面討論情況\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
