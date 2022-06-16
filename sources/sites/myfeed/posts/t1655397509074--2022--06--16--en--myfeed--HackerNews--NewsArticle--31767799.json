@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--16--en--myfeed--HackerNews--NewsArticle--31767799",
+  "url": "https://news.ycombinator.com/item?id=31767799",
+  "headline": "Memory safe, fast, configurable, minimal hello world written in Rust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "siraben",
+    "url": "https://news.ycombinator.com/user?id=siraben"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31767799",
+  "sameAs": "https://github.com/mTvare6/hello-world.rs",
+  "dateCreated": "2022-06-16T16:38:29.074Z",
+  "datePublished": "2022-06-16T16:17:16.000Z",
+  "dateModified": "2022-06-16T16:38:29.074Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用Rust编写的内存安全、快速、可配置、最小的Hello World\n",
+  "headline_zh-Hant": "用Rust編寫的內存安全、快速、可配置、最小的Hello World\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--16--en--myfeed--HackerNews--NewsArticle--31767091",
+  "url": "https://news.ycombinator.com/item?id=31767091",
+  "headline": "Random Rounding Numerical Stability Analysis",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "colinprince",
+    "url": "https://news.ycombinator.com/user?id=colinprince"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31767091",
+  "sameAs": "http://www.iboview.org/random_rounding/",
+  "dateCreated": "2022-06-16T16:38:28.782Z",
+  "datePublished": "2022-06-16T15:19:32.000Z",
+  "dateModified": "2022-06-16T16:38:28.782Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "随机四舍五入的数值稳定性分析\n",
+  "headline_zh-Hant": "隨機四捨五入的數值穩定性分析\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
