@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--16--en--myfeed--HackerNews--NewsArticle--31769976",
+  "url": "https://news.ycombinator.com/item?id=31769976",
+  "headline": "Tell HN: The Tech news section of CNN's website still references Google Plus",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I started using a desktop RSS aggregator again recently and have been slowing adding to my OPML list (based in part on posts to HN).  Seeing a CNN Tech story posted I went to CNN's website, clicked on the &quot;Tech&quot; section, and opened source view where I saw this anachronism:<p>&lt;link rel=&quot;publisher&quot; href=&quot;https://plus.google.com/+cnn/posts&quot; /&gt;<p>I am sure they are not alone in this regard but I find it funny that CNN's web team hasn't removed this code after all these years.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mikece",
+    "url": "https://news.ycombinator.com/user?id=mikece"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31769976",
+  "sameAs": "https://news.ycombinator.com/item?id=31769976",
+  "dateCreated": "2022-06-16T19:41:13.147Z",
+  "datePublished": "2022-06-16T19:32:58.000Z",
+  "dateModified": "2022-06-16T19:41:13.147Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：CNN网站的科技新闻部分仍然提到Google Plus\n",
+  "headline_zh-Hant": "告訴HN：CNN網站的科技新聞部分仍然提到Google Plus\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我最近又开始使用桌面RSS聚合器，并一直在缓慢地添加到我的OPML列表中（部分是基于HN的帖子）。 看到CNN发布的一个技术故事，我去了CNN的网站，点击了&quot;技术&quot;部分，打开源视图，我看到了这个不合时宜的东西：<p>&lt;link rel=&quot;publisher&quot; href=&quot;https://plus.google.com/+cnn/posts&quot; /&gt;<p>我相信在这方面他们并不孤单，但我发现CNN的网络团队这么多年都没有删除这个代码，真是有趣。\n",
+  "description_zh-Hant": "我最近又開始使用桌面RSS聚合器，並一直在緩慢地添加到我的OPML列表中（部分是基於HN的帖子）。 看到CNN發佈的一個技術故事，我去了CNN的網站，點擊了&quot;技術&quot;部分，打開源視圖，我看到了這個不合時宜的東西：<p>&lt;link rel=&quot;publisher&quot; href=&quot;https://plus.google.com/+cnn/posts&quot; /&gt;<p>我相信在這方面他們並不孤單，但我發現CNN的網絡團隊這麼多年都沒有刪除這個代碼，真是有趣。\n"
+}
