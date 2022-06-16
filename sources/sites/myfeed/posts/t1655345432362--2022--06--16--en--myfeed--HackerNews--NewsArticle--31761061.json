@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--16--en--myfeed--HackerNews--NewsArticle--31761061",
+  "url": "https://news.ycombinator.com/item?id=31761061",
+  "headline": "I wanted burritos. Facebook Search sent me to a dead restaurant 45m away",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "amauboussin",
+    "url": "https://news.ycombinator.com/user?id=amauboussin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31761061",
+  "sameAs": "https://www.surgehq.ai//blog/measuring-facebook-search-its-ai-sent-me-45m-away-for-burritos",
+  "dateCreated": "2022-06-16T02:10:32.362Z",
+  "datePublished": "2022-06-16T00:10:30.000Z",
+  "dateModified": "2022-06-16T02:10:32.362Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 20
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 16
+    }
+  ],
+  "headline_zh-Hans": "我想吃卷饼。脸书搜索把我送到了45米外的一家死气沉沉的餐厅\n",
+  "headline_zh-Hant": "我想吃捲餅。臉書搜索把我送到了45米外的一家死氣沉沉的餐廳\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--16--en--myfeed--HackerNews--NewsArticle--31761130",
+  "url": "https://news.ycombinator.com/item?id=31761130",
+  "headline": "“Truly disappointing that Microsoft would subvert an active open-source project”",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ghuntley",
+    "url": "https://news.ycombinator.com/user?id=ghuntley"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31761130",
+  "sameAs": "https://twitter.com/migueldeicaza/status/1537175065380495367",
+  "dateCreated": "2022-06-16T02:10:32.393Z",
+  "datePublished": "2022-06-16T00:21:03.000Z",
+  "dateModified": "2022-06-16T02:10:32.393Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "\"微软会颠覆一个活跃的开源项目，真是令人失望\"\n",
+  "headline_zh-Hant": "\"微軟會顛覆一個活躍的開源項目，真是令人失望\"\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
