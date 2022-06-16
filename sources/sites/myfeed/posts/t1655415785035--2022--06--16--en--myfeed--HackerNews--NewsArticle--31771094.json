@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--16--en--myfeed--HackerNews--NewsArticle--31771094",
+  "url": "https://news.ycombinator.com/item?id=31771094",
+  "headline": "SpaceX workers call Elon Mullosk an ‘embarrassment’ in leaked open letter",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "metadat",
+    "url": "https://news.ycombinator.com/user?id=metadat"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31771094",
+  "sameAs": "https://www.sfgate.com/bayarea/article/SpaceX-leaked-letter-Elon-Musk-17246720.php",
+  "dateCreated": "2022-06-16T21:43:05.035Z",
+  "datePublished": "2022-06-16T21:18:49.000Z",
+  "dateModified": "2022-06-16T21:43:05.035Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "SpaceX员工在泄露的公开信中称埃隆-穆洛斯克为 \"尴尬\"。\n",
+  "headline_zh-Hant": "SpaceX員工在洩露的公開信中稱埃隆-穆洛斯克為 \"尷尬\"。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
