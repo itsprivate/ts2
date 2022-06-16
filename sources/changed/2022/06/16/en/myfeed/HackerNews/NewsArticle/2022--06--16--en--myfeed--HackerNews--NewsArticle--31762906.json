@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--16--en--myfeed--HackerNews--NewsArticle--31762906",
+  "url": "https://news.ycombinator.com/item?id=31762906",
+  "headline": "Building a Tool to Search Graduation Photos with Facial Recognition",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jer0me",
+    "url": "https://news.ycombinator.com/user?id=jer0me"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31762906",
+  "sameAs": "https://blog.jeromepaulos.com/posts/graduation-photo-search",
+  "dateCreated": "2022-06-16T07:24:35.610Z",
+  "datePublished": "2022-06-16T06:08:56.000Z",
+  "dateModified": "2022-06-16T07:24:35.610Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "建立一个用面部识别搜索毕业照片的工具\n",
+  "headline_zh-Hant": "建立一個用面部識別搜索畢業照片的工具\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
