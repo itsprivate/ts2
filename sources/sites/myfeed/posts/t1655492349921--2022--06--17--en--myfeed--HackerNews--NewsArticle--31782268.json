@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--17--en--myfeed--HackerNews--NewsArticle--31782268",
+  "url": "https://news.ycombinator.com/item?id=31782268",
+  "headline": "SpaceX fires at least 5 employees over internal letter criticizing CEO Elon Musk",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "amrrs",
+    "url": "https://news.ycombinator.com/user?id=amrrs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31782268",
+  "sameAs": "https://www.cnbc.com/2022/06/17/spacex-fires-employees-after-internal-letter-criticizes-ceo-elon-musk.html",
+  "dateCreated": "2022-06-17T18:59:09.921Z",
+  "datePublished": "2022-06-17T18:23:37.000Z",
+  "dateModified": "2022-06-17T18:59:09.921Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "SpaceX因批评CEO埃隆-马斯克的内部信解雇了至少5名员工\n",
+  "headline_zh-Hant": "SpaceX因批評CEO埃隆-馬斯克的內部信解僱了至少5名員工\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
