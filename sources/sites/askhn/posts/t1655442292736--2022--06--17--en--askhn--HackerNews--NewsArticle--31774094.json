@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--17--en--askhn--HackerNews--NewsArticle--31774094",
+  "url": "https://news.ycombinator.com/item?id=31774094",
+  "headline": "Ask HN: Reasonable scope for a beginner web dev?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi, I'm a fresh graduate with a BSc in Comp sci, and I am wondering how reasonable the project I'm considering taking on as a commission is. I'm a relatively experienced programmer, but newish to web development.<p>The project is a simple ecommerce site:<p>-A couple of static pages<p>-A product listing, and the ability to add to a cart with various custom options/dropdowns<p>-Ability to edit cart<p>-Ability to place order for delivery or pickup<p>-Process payment using stripe.<p>No shipping, no need to worry about stock, as it is a food establishment. It seems pretty doable to me but Im worried about wasting the client's time, so I would like some input on how reasonable this would be for me to build in Django and React.<p>I don't need perfection, both I and the client will be satisfied with something that loads fast, looks nice, and doesn't lose orders. Though I have also found it difficult to research common pitfalls building such a site, as all I get are results related to the marketing side of ecommerce. Thoughts?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "tannershmoog",
+    "url": "https://news.ycombinator.com/user?id=tannershmoog"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31774094",
+  "sameAs": "https://news.ycombinator.com/item?id=31774094",
+  "dateCreated": "2022-06-17T05:04:52.736Z",
+  "datePublished": "2022-06-17T04:21:50.000Z",
+  "dateModified": "2022-06-17T05:04:52.736Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 对于一个初级的网络开发人员来说，合理的范围是什么？\n",
+  "headline_zh-Hant": "Ask HN: 對於一個初級的網絡開發人員來說，合理的範圍是什麼？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你好，我是一名刚毕业的学生，拥有计算机科学学士学位，我想知道我考虑作为委托人承担的项目的合理性如何。我是一个比较有经验的程序员，但对网络开发比较陌生。<p>该项目是一个简单的电子商务网站：<p>-几个静态页面<p>-产品列表，以及添加到具有各种自定义选项/下拉菜单的购物车的能力<p>-编辑购物车的能力<p>-下订单送货或取货的能力<p>-使用stripe处理付款。<p>没有运输，不需要担心库存，因为它是一个食品机构。在我看来，这似乎是可行的，但我担心会浪费客户的时间，所以我希望得到一些意见，看看我在Django和React中构建这个网站的合理性如何。虽然我也发现很难研究建立这样一个网站的常见隐患，因为我得到的都是与电子商务的营销方面有关的结果。有什么想法？\n",
+  "description_zh-Hant": "你好，我是一名剛畢業的學生，擁有計算機科學學士學位，我想知道我考慮作為委託人承擔的項目的合理性如何。我是一個比較有經驗的程序員，但對網絡開發比較陌生。<p>該項目是一個簡單的電子商務網站：<p>-幾個靜態頁面<p>-產品列表，以及添加到具有各種自定義選項/下拉菜單的購物車的能力<p>-編輯購物車的能力<p>-下訂單送貨或取貨的能力<p>-使用stripe處理付款。<p>沒有運輸，不需要擔心庫存，因為它是一個食品機構。在我看來，這似乎是可行的，但我擔心會浪費客戶的時間，所以我希望得到一些意見，看看我在Django和React中構建這個網站的合理性如何。雖然我也發現很難研究建立這樣一個網站的常見隱患，因為我得到的都是與電子商務的營銷方面有關的結果。有什麼想法？\n"
+}
