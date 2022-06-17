@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--17--en--askhn--HackerNews--NewsArticle--31785094",
+  "url": "https://news.ycombinator.com/item?id=31785094",
+  "headline": "Ask HN: What are the best tools/books/blogs for cloud solution patterns?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm looking for some practical, reusable cloud solutions. I'm a backend developer; however, sometimes, I have to create a new service using AWS services. Terraform is good in general.<p>My main problem is I sometimes miss a small detail which causes a production issue. It happened 2-3 times in the past few years.<p>Is there any good tool or practical book/blog to help me? I found a couple of Terraform generator solutions, but those are basic. \nMost blog posts I've checked describe the high-level concepts and don't go into details.<p>Any suggestions? Thanks in advance.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "blue0bird",
+    "url": "https://news.ycombinator.com/user?id=blue0bird"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31785094",
+  "sameAs": "https://news.ycombinator.com/item?id=31785094",
+  "dateCreated": "2022-06-17T22:24:59.485Z",
+  "datePublished": "2022-06-17T22:14:34.000Z",
+  "dateModified": "2022-06-17T22:24:59.485Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 有哪些关于云解决方案模式的最佳工具/书籍/博客？\n",
+  "headline_zh-Hant": "Ask HN: 有哪些關於雲解決方案模式的最佳工具/書籍/博客？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在寻找一些实用的、可重复使用的云计算解决方案。我是一名后端开发人员；但是，有时我必须使用AWS服务创建一个新的服务。一般来说，Terraform是不错的。<p>我的主要问题是我有时会错过一个小细节，导致生产问题。在过去的几年里，这种情况发生了2-3次。<p>有没有什么好的工具或实用的书/博客来帮助我？我找到了几个Terraform生成器的解决方案，但那些都是基本的。\n我检查过的大多数博客文章都是描述高层次的概念，并没有深入到细节。<p>有什么建议吗？提前感谢。\n",
+  "description_zh-Hant": "我正在尋找一些實用的、可重複使用的雲計算解決方案。我是一名後端開發人員；但是，有時我必須使用AWS服務創建一個新的服務。一般來說，Terraform是不錯的。<p>我的主要問題是我有時會錯過一個小細節，導致生產問題。在過去的幾年裡，這種情況發生了2-3次。<p>有沒有什麼好的工具或實用的書/博客來幫助我？我找到了幾個Terraform生成器的解決方案，但那些都是基本的。\n我檢查過的大多數博客文章都是描述高層次的概念，並沒有深入到細節。<p>有什麼建議嗎？提前感謝。\n"
+}
