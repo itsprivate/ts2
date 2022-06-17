@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--17--en--myfeed--HackerNews--NewsArticle--31771861",
+  "url": "https://news.ycombinator.com/item?id=31771861",
+  "headline": "Handling Concurrency Without Locks – Haki Benita",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rbanffy",
+    "url": "https://news.ycombinator.com/user?id=rbanffy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31771861",
+  "sameAs": "https://hakibenita.com/django-concurrency",
+  "dateCreated": "2022-06-17T02:11:49.313Z",
+  "datePublished": "2022-06-16T22:36:55.000Z",
+  "dateModified": "2022-06-17T02:11:49.313Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "处理没有锁的并发性 - Haki Benita\n",
+  "headline_zh-Hant": "處理沒有鎖的併發性 - Haki Benita\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
