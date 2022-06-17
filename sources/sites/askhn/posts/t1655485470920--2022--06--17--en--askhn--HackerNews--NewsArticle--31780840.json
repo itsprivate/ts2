@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--17--en--askhn--HackerNews--NewsArticle--31780840",
+  "url": "https://news.ycombinator.com/item?id=31780840",
+  "headline": "Ask HN: Do you sync SKUs between Stripe and your main (ERP) system?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We are a small business (~35 employees), selling physical goods (natural stone slabs). We have a separate ERP that has our SKUs, inventory management and accounting modules. The ERP does not have an API.<p>To take CC payments, I'm considering Stripe.<p>Since our catalog changes frequently, i'm wondering if it's a good idea to keep your products synced between the two systems? Or just create a product (e.g. Stone) and use that for all invoices?<p>How do you manage your SKUs if you're using Stripe (or any other CC processor)?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "dhruvkar",
+    "url": "https://news.ycombinator.com/user?id=dhruvkar"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31780840",
+  "sameAs": "https://news.ycombinator.com/item?id=31780840",
+  "dateCreated": "2022-06-17T17:04:30.920Z",
+  "datePublished": "2022-06-17T16:43:12.000Z",
+  "dateModified": "2022-06-17T17:04:30.920Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 您是否在Stripe和您的主（ERP）系统之间同步SKU？\n",
+  "headline_zh-Hant": "Ask HN: 您是否在Stripe和您的主（ERP）系統之間同步SKU？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们是一家小型企业（约35名员工），销售实物商品（天然石板）。我们有一个独立的ERP，它有我们的SKU、库存管理和会计模块。<p>为了接受CC付款，我正在考虑使用Stripe。<p>由于我们的目录经常变化，我想知道让你的产品在两个系统之间保持同步是否是一个好主意？或者只是创建一个产品（如Stone），并将其用于所有的发票？<p>如果你使用Stripe（或任何其他CC处理器），你如何管理你的SKU？\n",
+  "description_zh-Hant": "我們是一家小型企業（約35名員工），銷售實物商品（天然石板）。我們有一個獨立的ERP，它有我們的SKU、庫存管理和會計模塊。<p>為了接受CC付款，我正在考慮使用Stripe。<p>由於我們的目錄經常變化，我想知道讓你的產品在兩個系統之間保持同步是否是一個好主意？或者只是創建一個產品（如Stone），並將其用於所有的發票？<p>如果你使用Stripe（或任何其他CC處理器），你如何管理你的SKU？\n"
+}
