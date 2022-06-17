@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--17--en--myfeed--HackerNews--NewsArticle--31780250",
+  "url": "https://news.ycombinator.com/item?id=31780250",
+  "headline": "Please use text/plain for email (2016)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jsfcoding",
+    "url": "https://news.ycombinator.com/user?id=jsfcoding"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31780250",
+  "sameAs": "https://drewdevault.com/2016/04/11/Please-use-text-plain-for-emails.html",
+  "dateCreated": "2022-06-17T16:41:49.585Z",
+  "datePublished": "2022-06-17T16:05:49.000Z",
+  "dateModified": "2022-06-17T16:41:49.585Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "请使用文本/平原格式的电子邮件（2016年）。\n",
+  "headline_zh-Hant": "請使用文本/平原格式的電子郵件（2016年）。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
