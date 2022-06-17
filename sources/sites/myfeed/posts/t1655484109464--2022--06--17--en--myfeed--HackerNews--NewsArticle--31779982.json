@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--17--en--myfeed--HackerNews--NewsArticle--31779982",
+  "url": "https://news.ycombinator.com/item?id=31779982",
+  "headline": "Has OWASP ZAP helped you? Now you can help OWASP ZAP",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "psiinon",
+    "url": "https://news.ycombinator.com/user?id=psiinon"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31779982",
+  "sameAs": "https://www.zaproxy.org/blog/2022-06-17-help-needed-fund-zap-development/",
+  "dateCreated": "2022-06-17T16:41:49.464Z",
+  "datePublished": "2022-06-17T15:49:44.000Z",
+  "dateModified": "2022-06-17T16:41:49.464Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "OWASP ZAP帮助过你吗？现在你可以帮助OWASP ZAP\n",
+  "headline_zh-Hant": "OWASP ZAP幫助過你嗎？現在你可以幫助OWASP ZAP\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
