@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--18--en--hackernews--HackerNews--NewsArticle--31794175",
+  "url": "https://news.ycombinator.com/item?id=31794175",
+  "headline": "Show HN: I have created something new to make your browsing experience enjoyable",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mcdv",
+    "url": "https://news.ycombinator.com/user?id=mcdv"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31794175",
+  "sameAs": "https://productivitytoolset.com",
+  "dateCreated": "2022-06-18T22:23:37.733Z",
+  "datePublished": "2022-06-18T21:56:12.000Z",
+  "dateModified": "2022-06-18T22:23:37.733Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我创造了一些新的东西，使你的浏览体验很愉快\n",
+  "headline_zh-Hant": "Show HN: 我創造了一些新的東西，使你的瀏覽體驗很愉快\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
