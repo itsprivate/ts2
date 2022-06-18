@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--18--en--myfeed--HackerNews--NewsArticle--31789312",
+  "url": "https://news.ycombinator.com/item?id=31789312",
+  "headline": "A list of RSS related stuff",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "aboutrss",
+    "url": "https://news.ycombinator.com/user?id=aboutrss"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31789312",
+  "sameAs": "https://github.com/AboutRSS/ALL-about-RSS",
+  "dateCreated": "2022-06-18T13:12:39.560Z",
+  "datePublished": "2022-06-18T12:43:06.000Z",
+  "dateModified": "2022-06-18T13:12:39.560Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "与RSS有关的东西的清单\n",
+  "headline_zh-Hant": "與RSS有關的東西的清單\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
