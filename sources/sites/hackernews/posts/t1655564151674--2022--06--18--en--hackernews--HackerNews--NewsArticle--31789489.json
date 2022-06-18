@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--06--07--en--hackernews--HackerNews--NewsArticle--31654257",
-  "url": "https://news.ycombinator.com/item?id=31654257",
-  "headline": "Joy: A maximalist web framework for Lisp aficionados",
+  "identifier": "2022--06--18--en--hackernews--HackerNews--NewsArticle--31789489",
+  "url": "https://news.ycombinator.com/item?id=31789489",
+  "headline": "Show HN: Nimwave – build TUIs for the terminal, web, and desktop",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "memorable",
-    "url": "https://news.ycombinator.com/user?id=memorable"
+    "name": "sekao",
+    "url": "https://news.ycombinator.com/user?id=sekao"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=31654257",
-  "sameAs": "https://joy.swlkr.com/",
-  "dateCreated": "2022-06-07T17:10:35.759Z",
-  "datePublished": "2022-06-07T13:48:26.000Z",
-  "dateModified": "2022-06-07T17:10:35.759Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31789489",
+  "sameAs": "https://github.com/ansiwave/nimwave",
+  "dateCreated": "2022-06-18T14:55:51.674Z",
+  "datePublished": "2022-06-18T13:06:37.000Z",
+  "dateModified": "2022-06-18T14:55:51.674Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 63
+      "userInteractionCount": 5
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 27
+      "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "喜悦：为Lisp爱好者提供的极简主义网络框架\n",
-  "headline_zh-Hant": "喜悅：為Lisp愛好者提供的極簡主義網絡框架\n",
+  "headline_zh-Hans": "Show HN: Nimwave - 为终端、网络和桌面建立TUIs\n",
+  "headline_zh-Hant": "Show HN: Nimwave - 為終端、網絡和桌面建立TUIs\n",
   "@context": [
     "https://schema.org",
     {
