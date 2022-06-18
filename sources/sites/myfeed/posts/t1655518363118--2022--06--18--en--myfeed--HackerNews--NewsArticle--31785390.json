@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--18--en--myfeed--HackerNews--NewsArticle--31785390",
+  "url": "https://news.ycombinator.com/item?id=31785390",
+  "headline": "What Happened at MF Global?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pigtailgirl",
+    "url": "https://news.ycombinator.com/user?id=pigtailgirl"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31785390",
+  "sameAs": "https://www.investopedia.com/financial-edge/0312/what-happened-at-mf-global.aspx",
+  "dateCreated": "2022-06-18T02:12:43.118Z",
+  "datePublished": "2022-06-17T22:41:45.000Z",
+  "dateModified": "2022-06-18T02:12:43.118Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在MF Global发生了什么？\n",
+  "headline_zh-Hant": "在MF Global發生了什麼？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
