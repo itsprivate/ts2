@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--18--en--askhn--HackerNews--NewsArticle--31791524",
+  "url": "https://news.ycombinator.com/item?id=31791524",
+  "headline": "Ask HN: UX tips for displaying large numbers formatted",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "For example, in the input field the user enters the raw value as so:<p>[123456789]<p>And the formatted equivalent would be:<p>123,456,789<p>What is a good UX pattern for showing the user the thousands separators?<p>I've seen some forms where the commas / spaces are dynamically inserted in the input field (but then users end up trying to type in the commas / spaces manually).<p>We currently display a formatted preview of the raw input directly next to the input field (and this preview is refreshed onkeyup).<p>Just wondering what other good UX patterns you've seen that cater for this?<p>Thanks ^_^",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "herodoturtle",
+    "url": "https://news.ycombinator.com/user?id=herodoturtle"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31791524",
+  "sameAs": "https://news.ycombinator.com/item?id=31791524",
+  "dateCreated": "2022-06-18T17:01:48.638Z",
+  "datePublished": "2022-06-18T16:46:57.000Z",
+  "dateModified": "2022-06-18T17:01:48.638Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 显示大数字格式的用户体验提示\n",
+  "headline_zh-Hant": "Ask HN: 顯示大數字格式的用戶體驗提示\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "例如，在输入字段中，用户输入的原始值是这样的：<p>[123456789]<p>而格式化的对应值是：<p>123,456,789<p>什么是向用户显示千位分隔符的良好用户体验模式？<p>我见过一些表单，其中逗号/空格被动态地插入输入字段（但用户最终会尝试手动输入逗号/空格）。 <p>我们目前在输入字段旁边直接显示原始输入的格式化预览（该预览在按键时被刷新）。<p>我只是想知道你还见过哪些好的用户体验模式可以满足这个要求？<p>谢谢 ^_^\n",
+  "description_zh-Hant": "例如，在輸入字段中，用戶輸入的原始值是這樣的：<p>[123456789]<p>而格式化的對應值是：<p>123,456,789<p>什麼是向用戶顯示千位分隔符的良好用戶體驗模式？<p>我見過一些表單，其中逗號/空格被動態地插入輸入字段（但用戶最終會嘗試手動輸入逗號/空格）。 <p>我們目前在輸入字段旁邊直接顯示原始輸入的格式化預覽（該預覽在按鍵時被刷新）。<p>我只是想知道你還見過哪些好的用戶體驗模式可以滿足這個要求？<p>謝謝 ^_^\n"
+}
