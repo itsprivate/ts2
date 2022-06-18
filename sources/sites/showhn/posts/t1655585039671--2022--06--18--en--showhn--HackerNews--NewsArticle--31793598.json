@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--06--16--en--myfeed--HackerNews--NewsArticle--31768705",
-  "url": "https://news.ycombinator.com/item?id=31768705",
-  "headline": "CVE-2022-23088: Exploiting a Heap Overflow in the FreeBSD Wi-Fi Stack",
+  "identifier": "2022--06--18--en--showhn--HackerNews--NewsArticle--31793598",
+  "url": "https://news.ycombinator.com/item?id=31793598",
+  "headline": "Show HN: Tickler: Go library to enqueue and process jobs in background",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "todsacerdoti",
-    "url": "https://news.ycombinator.com/user?id=todsacerdoti"
+    "name": "harunsasmaz",
+    "url": "https://news.ycombinator.com/user?id=harunsasmaz"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=31768705",
-  "sameAs": "https://www.thezdi.com/blog/2022/6/15/cve-2022-23088-exploiting-a-heap-overflow-in-the-freebsd-wi-fi-stack",
-  "dateCreated": "2022-06-16T17:38:52.796Z",
-  "datePublished": "2022-06-16T17:30:28.000Z",
-  "dateModified": "2022-06-16T17:38:52.796Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31793598",
+  "sameAs": "https://github.com/GoodJobTech/tickler",
+  "dateCreated": "2022-06-18T20:43:59.671Z",
+  "datePublished": "2022-06-18T20:36:49.000Z",
+  "dateModified": "2022-06-18T20:43:59.671Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 3
+      "userInteractionCount": 2
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "cve-2022-23088: 利用FreeBSD Wi-Fi堆栈中的堆溢进行攻击\n",
-  "headline_zh-Hant": "cve-2022-23088: 利用FreeBSD Wi-Fi堆棧中的堆溢進行攻擊\n",
+  "headline_zh-Hans": "Show HN: Tickler: 在后台排队和处理工作的Go库\n",
+  "headline_zh-Hant": "Show HN: Tickler: 在後臺排隊和處理工作的Go庫\n",
   "@context": [
     "https://schema.org",
     {
