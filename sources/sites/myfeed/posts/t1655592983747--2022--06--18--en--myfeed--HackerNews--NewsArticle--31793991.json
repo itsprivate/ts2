@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--18--en--myfeed--HackerNews--NewsArticle--31793991",
+  "url": "https://news.ycombinator.com/item?id=31793991",
+  "headline": "Clair – Vulnerability Static Analysis for Containers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tutunak",
+    "url": "https://news.ycombinator.com/user?id=tutunak"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31793991",
+  "sameAs": "https://github.com/quay/clair",
+  "dateCreated": "2022-06-18T22:56:23.747Z",
+  "datePublished": "2022-06-18T21:28:40.000Z",
+  "dateModified": "2022-06-18T22:56:23.747Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Clair - 容器的漏洞静态分析\n",
+  "headline_zh-Hant": "Clair - 容器的漏洞靜態分析\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
