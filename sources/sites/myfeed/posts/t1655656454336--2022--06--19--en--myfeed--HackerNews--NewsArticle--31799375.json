@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--19--en--myfeed--HackerNews--NewsArticle--31799375",
+  "url": "https://news.ycombinator.com/item?id=31799375",
+  "headline": "Just so you know, Codespaces doesn’t work well on an iPad",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I do almost all of my dev work in GitHub codespaces, and I thought I’d be able to use it just fine on an iPad Pro, which would be a convenient laptop replacement for vacationing. But it doesn’t really work that well.<p>1) The connection with the server is closed every time you switch to a different app, so you have to wait like 10 seconds for the site to reconnect when you switch back.<p>2) Unlike VSCode, even if you use a non-standard keyboard layout, all the keyboard shortcuts assume QWERTY. So when pressing cmd-shift-p, you have to actually press where p would be on a qwerty keyboard, which totally messes up my muscle memory.<p>3) The iPad has this really useful feature where a password bar appears at the bottom of the screen when you’re in a password field, which you can use to quickly open your password manager. Unfortunately, this bar is permanently visible whenever you’re in a text field in Codespaces, and it covers up the whole bottom 5% of the screen even if that’s where you’re typing. When you have the integrated terminal open, you’re almost always typing at the bottom of the screen, so it’s impossible to see the command you’re typing.<p>I’m kind of disappointed, but these three things make codespaces next to unusable for me on my iPad.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ChadNauseam",
+    "url": "https://news.ycombinator.com/user?id=ChadNauseam"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31799375",
+  "sameAs": "https://news.ycombinator.com/item?id=31799375",
+  "dateCreated": "2022-06-19T16:34:14.336Z",
+  "datePublished": "2022-06-19T13:50:25.000Z",
+  "dateModified": "2022-06-19T16:34:14.336Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "只是让你知道，Codespaces在iPad上不好用。\n",
+  "headline_zh-Hant": "只是讓你知道，Codespaces在iPad上不好用。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我几乎所有的开发工作都是在GitHub代码空间中进行的，我以为我可以在iPad Pro上很好地使用它，这将是度假时方便的笔记本电脑替代品。<p>1）每次你切换到不同的应用程序时，与服务器的连接就会被关闭，所以当你切换回来时，你必须等待10秒钟，让网站重新连接。<p>2）与VSCode不同，即使你使用非标准的键盘布局，所有的键盘快捷键都假定为QWERTY。因此，当按下cmd-shift-p时，你必须实际按下qwerty键盘上p的位置，这完全扰乱了我的肌肉记忆。<p>3) iPad有一个非常有用的功能，当你在一个密码字段时，屏幕底部会出现一个密码栏，你可以用它来快速打开你的密码管理器。不幸的是，只要你在Codespaces的一个文本字段中，这个栏就会永久可见，而且它覆盖了整个屏幕底部的5%，即使那是你正在输入的地方。当你打开集成终端时，你几乎总是在屏幕的底部打字，所以不可能看到你正在输入的命令。<p>我有点失望，但这三件事使代码空间对我的iPad来说几乎无法使用。\n",
+  "description_zh-Hant": "我幾乎所有的開發工作都是在GitHub代碼空間中進行的，我以為我可以在iPad Pro上很好地使用它，這將是度假時方便的筆記本電腦替代品。<p>1）每次你切換到不同的應用程序時，與服務器的連接就會被關閉，所以當你切換回來時，你必須等待10秒鐘，讓網站重新連接。<p>2）與VSCode不同，即使你使用非標準的鍵盤佈局，所有的鍵盤快捷鍵都假定為QWERTY。因此，當按下cmd-shift-p時，你必須實際按下qwerty鍵盤上p的位置，這完全擾亂了我的肌肉記憶。<p>3) iPad有一個非常有用的功能，當你在一個密碼字段時，屏幕底部會出現一個密碼欄，你可以用它來快速打開你的密碼管理器。不幸的是，只要你在Codespaces的一個文本字段中，這個欄就會永久可見，而且它覆蓋了整個屏幕底部的5%，即使那是你正在輸入的地方。當你打開集成終端時，你幾乎總是在屏幕的底部打字，所以不可能看到你正在輸入的命令。<p>我有點失望，但這三件事使代碼空間對我的iPad來說幾乎無法使用。\n"
+}
