@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--19--en--hackernews--HackerNews--NewsArticle--31796311",
+  "url": "https://news.ycombinator.com/item?id=31796311",
+  "headline": "So, you call yourself the fastest key/value store? It's 5X, 10X and 25X faster",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "It seems that several projects claim that they have built the &quot;world's fastest key/value store&quot; or sometimes the phrase used is even more outrageous.\nThe following projects are in question:<p>- Redis: https://github.com/redis/redis<p>- KeyDB: https://github.com/snapchat/keydb<p>- Dragonfly: https://github.com/dragonflydb/dragonfly<p>- Skytable: https://github.com/skytable/skytable<p>1. Redis:\nI'll start with Redis which I'd like to call the &quot;original&quot; key/value store because it is the oldest and most widely used of all. Being a long-time follower of Redis, I do know it's single-threaded (and uses io-threads since 6.0) and hence it achieves lesser throughput than the other stores listed above which are multi-threaded, at least to some extent. The best parts about Redis: it's the most feature complete of all the systems here, and is the oldest. (not saying old necessarily means better).<p>2. KeyDB:\nThe second is KeyDB. IIRC, I saw it in a blog post which said that it is a &quot;multithreaded fork of Redis that is 5X faster&quot;[1]. I really liked the idea because I was previously running several instances of Redis on the same node and proxying them like a &quot;single-node cluster.&quot; Why? To increase CPU utilization. A single KeyDB instance could replace the unwanted proxying funkiness, so I ditched Redis for KeyDB. Has been a fine experience so far, except for some occasional crashes.<p>3. Dragonfly:\nJust found it on HN and seems to be relatively new. Dragonfly claims that it is 25X faster than Redis[2] and has the slogan &quot;Probably, the fastest in-memory store in the universe!&quot;. Doesn't support all the Redis commands yet, but I find it interesting mainly because of performance. Also, it's good to know why it is faster because it clearly outlines the underlying architecture[2]. The other three stores don't say much about it. Also promises lower memory usage which I like.<p>4. Skytable:\nFound it while looking for projects written in Rust. Claims to be &quot;insanely fast.&quot; Skytable's &quot;experimental benchmarks&quot; claim that it is something around 10X faster than Redis and some 2X-3X faster than KeyDB[3]. I hadn't heard of Skytable and it doesn't seem to be as widely used (unless I'm missing something?). I find it interesting because of the planned features[4] and performance. Only Skytable natively runs on Windows out of the four.<p>5. My thoughts:\nRedis needs no introduction and is arguably super stable for use on production systems (using widely in our systems). KeyDB seems to be &quot;stable enough&quot; and it seems to be good for prod since Snapchat uses it already[5] (and so do we!). I found no Dragonfly v/s Skytable benchmarks.\nThe best part about Redis, KeyDB and Skytable is that they don't make any &quot;crazy assumptions&quot; about the system they run on. What do I mean?<p>Dragonfly expects you to have the latest hardware[6] and the latest kernel[7] on all your servers. I find this outrageous because not all servers run 5.10 and a majority of them are still using long-running branches on 4.x. I'd argue if the other three stores started assuming the latest features, they'd be far faster than what they are today. Finally, both Dragonfly and Skytable are still early in their development so it may not be fair to compare their features against Redis and KeyDB who have been around for far longer. Also, all projects other than Skytable have companies behind them (unless I'm missing something).<p>Edit: I have run the benchmarks myself for each store. Redis and KeyDB benchmarks seem to be very consistent, Skytable is a little inconsistent at times but I was NOT able to reproduce the 25X speed that Dragonfly claims.<p>What are your thoughts? Have you tried benchmarking any of them locally or in the cloud?<p>References:<p>[1]: https://docs.keydb.dev/blog/2019/10/07/blog-post<p>[2]: https://github.com/dragonflydb/dragonfly<p>[3]: https://github.com/ohsayan/sky-benches<p>[4]: https://github.com/skytable/skytable/issues/203<p>[5]: https://docs.keydb.dev/news/2022/05/12/keydb-joins-snap<p>[6]: https://github.com/dragonflydb/dragonfly/issues/124<p>[7]: https://github.com/dragonflydb/dragonfly/issues/96",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "johnwoods",
+    "url": "https://news.ycombinator.com/user?id=johnwoods"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31796311",
+  "sameAs": "https://news.ycombinator.com/item?id=31796311",
+  "dateCreated": "2022-06-19T05:33:05.135Z",
+  "datePublished": "2022-06-19T05:05:07.000Z",
+  "dateModified": "2022-06-19T05:33:05.135Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "那么，你称自己是最快的键/值存储？它的速度是5倍、10倍和25倍\n",
+  "headline_zh-Hant": "那麼，你稱自己是最快的鍵/值存儲？它的速度是5倍、10倍和25倍\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "似乎有几个项目声称他们已经建立了&quot;世界上最快的键/值存储&quot;或者有时使用的短语更离谱。\n以下项目存在问题：<p>- Redis: https://github.com/redis/redis<p>- KeyDB: https://github.com/snapchat/keydb<p>- Dragonfly: https://github.com/dragonflydb/dragonfly<p>- Skytable: https://github.com/skytable/skytable<p>1. Redis。\n我将从Redis开始，我想把它称为&quot;原始&quot;键/值存储，因为它是所有存储中最古老和最广泛使用的。作为Redis的长期追随者，我知道它是单线程的（从6.0开始使用io-threads），因此它的吞吐量比上面列出的其他多线程的存储要小，至少在某种程度上是如此。Redis最好的地方是：它是这里所有系统中功能最完整的，而且是最古老的。 <p>2、KeyDB。\n第二个是KeyDB。我记得，我在一篇博文中看到过它，说它是Redis的一个&quot;多线程分叉，速度是5倍&quot;[1]。我非常喜欢这个想法，因为我以前在同一个节点上运行多个Redis实例，并像一个&quot;单节点集群&quot;那样代理它们。为了提高CPU的利用率。一个单一的KeyDB实例可以取代不需要的代理功能，所以我放弃了Redis，改用KeyDB。到目前为止，除了一些偶尔的崩溃之外，这是很好的体验。 <p>3.蜻蜓。\n刚刚在HN上发现了它，似乎是比较新的。Dragonfly声称它比Redis[2]快25倍，并有一个口号&quot;可能是宇宙中最快的内存存储！&quot;。它还不支持所有的Redis命令，但我觉得它很有趣，主要是因为性能。另外，知道它为什么更快也很好，因为它清楚地概述了底层架构[2]。其他三个存储空间对它的介绍不多。它还承诺降低内存使用率，我很喜欢。<p>4.Skytable。\n在寻找用Rust编写的项目时发现了它。声称速度快得惊人。Skytable的实验基准声称它比Redis快10倍左右，比KeyDB快2-3倍[3]。我没有听说过Skytable，它似乎没有被广泛使用（除非我错过了什么？） 我觉得它很有趣，因为它有计划的功能[4]和性能。在这四种软件中，只有Skytable是在Windows上运行的。我的想法。\nRedis不需要介绍，可以说在生产系统中使用是超级稳定的（在我们的系统中广泛使用）。KeyDB似乎足够稳定，而且它似乎很适合prod，因为Snapchat已经使用了它[5]（我们也是！）。我没有发现Dragonfly v/s Skytable的基准测试。\nRedis、KeyDB和Skytable最好的部分是，它们不对它们运行的系统做任何&quot;疯狂的假设&quot;。我的意思是？<p>Dragonfly希望你的所有服务器都有最新的硬件[6]和最新的内核[7]。我觉得这很离谱，因为并不是所有的服务器都运行5.10，其中大部分仍在使用4.x上的长期运行的分支。我认为，如果其他三个商店开始假设最新的功能，它们会比现在快得多。最后，Dragonfly和Skytable都还处于开发初期，所以将它们的功能与Redis和KeyDB进行比较可能并不公平，因为后者存在的时间要长得多。此外，除Skytable外，所有项目都有公司在背后支持（除非我错过了什么）。<p>编辑：我自己为每个商店运行了基准。Redis和KeyDB的基准似乎非常一致，Skytable有时有点不一致，但我无法再现Dragonfly声称的25倍速度。你是否尝试过在本地或云端对它们进行基准测试？<p>参考文献：<p>[1]: https://docs.keydb.dev/blog/2019/10/07/blog-post<p>[2]: https://github.com/dragonflydb/dragonfly<p>[3]: https://github.com/ohsayan/sky-benches<p>[4]: https://github.com/skytable/skytable/issues/203<p>[5]: https://docs.keydb.dev/news/2022/05/12/keydb-joins-snap<p>[6]: https://github.com/dragonflydb/dragonfly/issues/124<p>[7]: https://github.com/dragonflydb/dragonfly/issues/96\n",
+  "description_zh-Hant": "似乎有幾個項目聲稱他們已經建立了&quot;世界上最快的鍵/值存儲&quot;或者有時使用的短語更離譜。\n以下項目存在問題：<p>- Redis: https://github.com/redis/redis<p>- KeyDB: https://github.com/snapchat/keydb<p>- Dragonfly: https://github.com/dragonflydb/dragonfly<p>- Skytable: https://github.com/skytable/skytable<p>1. Redis。\n我將從Redis開始，我想把它稱為&quot;原始&quot;鍵/值存儲，因為它是所有存儲中最古老和最廣泛使用的。作為Redis的長期追隨者，我知道它是單線程的（從6.0開始使用io-threads），因此它的吞吐量比上面列出的其他多線程的存儲要小，至少在某種程度上是如此。Redis最好的地方是：它是這裡所有系統中功能最完整的，而且是最古老的。 <p>2、KeyDB。\n第二個是KeyDB。我記得，我在一篇博文中看到過它，說它是Redis的一個&quot;多線程分叉，速度是5倍&quot;[1]。我非常喜歡這個想法，因為我以前在同一個節點上運行多個Redis實例，並像一個&quot;單節點集群&quot;那樣代理它們。為了提高CPU的利用率。一個單一的KeyDB實例可以取代不需要的代理功能，所以我放棄了Redis，改用KeyDB。到目前為止，除了一些偶爾的崩潰之外，這是很好的體驗。 <p>3.蜻蜓。\n剛剛在HN上發現了它，似乎是比較新的。Dragonfly聲稱它比Redis[2]快25倍，並有一個口號&quot;可能是宇宙中最快的內存存儲！&quot;。它還不支持所有的Redis命令，但我覺得它很有趣，主要是因為性能。另外，知道它為什麼更快也很好，因為它清楚地概述了底層架構[2]。其他三個存儲空間對它的介紹不多。它還承諾降低內存使用率，我很喜歡。<p>4.Skytable。\n在尋找用Rust編寫的項目時發現了它。聲稱速度快得驚人。Skytable的實驗基準聲稱它比Redis快10倍左右，比KeyDB快2-3倍[3]。我沒有聽說過Skytable，它似乎沒有被廣泛使用（除非我錯過了什麼？） 我覺得它很有趣，因為它有計劃的功能[4]和性能。在這四種軟件中，只有Skytable是在Windows上運行的。我的想法。\nRedis不需要介紹，可以說在生產系統中使用是超級穩定的（在我們的系統中廣泛使用）。KeyDB似乎足夠穩定，而且它似乎很適合prod，因為Snapchat已經使用了它[5]（我們也是！）。我沒有發現Dragonfly v/s Skytable的基準測試。\nRedis、KeyDB和Skytable最好的部分是，它們不對它們運行的系統做任何&quot;瘋狂的假設&quot;。我的意思是？<p>Dragonfly希望你的所有服務器都有最新的硬件[6]和最新的內核[7]。我覺得這很離譜，因為並不是所有的服務器都運行5.10，其中大部分仍在使用4.x上的長期運行的分支。我認為，如果其他三個商店開始假設最新的功能，它們會比現在快得多。最後，Dragonfly和Skytable都還處於開發初期，所以將它們的功能與Redis和KeyDB進行比較可能並不公平，因為後者存在的時間要長得多。此外，除Skytable外，所有項目都有公司在背後支持（除非我錯過了什麼）。<p>編輯：我自己為每個商店運行了基準。Redis和KeyDB的基準似乎非常一致，Skytable有時有點不一致，但我無法再現Dragonfly聲稱的25倍速度。你是否嘗試過在本地或雲端對它們進行基準測試？<p>參考文獻：<p>[1]: https://docs.keydb.dev/blog/2019/10/07/blog-post<p>[2]: https://github.com/dragonflydb/dragonfly<p>[3]: https://github.com/ohsayan/sky-benches<p>[4]: https://github.com/skytable/skytable/issues/203<p>[5]: https://docs.keydb.dev/news/2022/05/12/keydb-joins-snap<p>[6]: https://github.com/dragonflydb/dragonfly/issues/124<p>[7]: https://github.com/dragonflydb/dragonfly/issues/96\n"
+}
