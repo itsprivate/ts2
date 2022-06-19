@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--19--en--askhn--HackerNews--NewsArticle--31797206",
+  "url": "https://news.ycombinator.com/item?id=31797206",
+  "headline": "Ask HN: How to do rolling deployments without Kubernetes?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Every month, there seems to be a new post stating ~&quot;don't use Kubernetes yet&quot;, but what should we use instead if we cannot have downtime?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "jsdevtom",
+    "url": "https://news.ycombinator.com/user?id=jsdevtom"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31797206",
+  "sameAs": "https://news.ycombinator.com/item?id=31797206",
+  "dateCreated": "2022-06-19T07:56:13.238Z",
+  "datePublished": "2022-06-19T07:51:21.000Z",
+  "dateModified": "2022-06-19T07:56:13.238Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何在没有Kubernetes的情况下进行滚动部署？\n",
+  "headline_zh-Hant": "Ask HN: 如何在沒有Kubernetes的情況下進行滾動部署？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "每个月，似乎都有一个新的帖子说~&quot;先别用Kubernetes&quot;，但如果我们不能有停机时间，应该用什么来代替？\n",
+  "description_zh-Hant": "每個月，似乎都有一個新的帖子說~&quot;先別用Kubernetes&quot;，但如果我們不能有停機時間，應該用什麼來代替？\n"
+}
