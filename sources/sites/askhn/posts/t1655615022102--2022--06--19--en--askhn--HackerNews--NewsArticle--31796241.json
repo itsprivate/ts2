@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--19--en--askhn--HackerNews--NewsArticle--31796241",
+  "url": "https://news.ycombinator.com/item?id=31796241",
+  "headline": "Ask HN: Is 4-dimensional depth buffering feasible with modern APIs?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "A recent post (https://news.ycombinator.com/item?id=31750981) shows an implementation of 2-Dimensional Voronoi diagrams, by rendering a number of cones, collapsing along the z-axis, and using the GPU's z-culling as a de facto optimiser (it even bakes in free inter-cell anti-aliasing).<p>(This also allows weighted voronoi to be implemented simply by changing the gradient of the cones.)<p>I'm treating this as an analogue to 2-dimensional light-cones with a depth axis treated as the dimension of time. The z-axis collapse leaves everything within the domain of the first cone to intersect any given [x, y] 2-Dimensional location.<p>If we get depth culling in 4-dimensions, we can take a space [x, y, z, Ω] and treat our Ω dimension as the dimension of time (as we did for z in 2-dimensions).<p>And that would give us 3D voronois (with a lot of skipped stuff about volumetric rendering).<p>We can alter the gradients of the 4D cones, then we have weighted 3D voronois.<p>I think that this could be used for an interesting voxel experiment.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "yarg",
+    "url": "https://news.ycombinator.com/user?id=yarg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31796241",
+  "sameAs": "https://news.ycombinator.com/item?id=31796241",
+  "dateCreated": "2022-06-19T05:03:42.102Z",
+  "datePublished": "2022-06-19T04:46:53.000Z",
+  "dateModified": "2022-06-19T05:03:42.102Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 4维深度缓冲在现代API中是可行的吗？\n",
+  "headline_zh-Hant": "Ask HN: 4維深度緩衝在現代API中是可行的嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "最近的一篇文章（https://news.ycombinator.com/item?id=31750981）展示了一个二维Voronoi图的实现，通过渲染一些圆锥体，沿Z轴折叠，并使用GPU的Z-culling作为事实上的优化器（它甚至在细胞间自由抗锯齿）。<p>（这也允许通过改变圆锥体的梯度来实现加权Voronoi。）<p>我将其视为二维光锥的类似物，深度轴被视为时间维。Z轴的塌陷使得第一个锥体领域内的一切都与任何给定的[x, y]二维位置相交。<p>如果我们得到四维的深度剔除，我们可以采取一个空间[x, y, z, Ω]，并将我们的Ω维度作为时间维度（正如我们在二维的z维度所做的那样）。 <p>这将给我们带来3D voronois（跳过很多关于体积渲染的东西）。<p>我们可以改变4D锥体的梯度，然后我们就有了加权的3D voronois。<p>我认为这可以用于有趣的体素实验。\n",
+  "description_zh-Hant": "最近的一篇文章（https://news.ycombinator.com/item?id=31750981）展示了一個二維Voronoi圖的實現，通過渲染一些圓錐體，沿Z軸摺疊，並使用GPU的Z-culling作為事實上的優化器（它甚至在細胞間自由抗鋸齒）。<p>（這也允許通過改變圓錐體的梯度來實現加權Voronoi。）<p>我將其視為二維光錐的類似物，深度軸被視為時間維。Z軸的塌陷使得第一個錐體領域內的一切都與任何給定的[x, y]二維位置相交。<p>如果我們得到四維的深度剔除，我們可以採取一個空間[x, y, z, Ω]，並將我們的Ω維度作為時間維度（正如我們在二維的z維度所做的那樣）。 <p>這將給我們帶來3D voronois（跳過很多關於體積渲染的東西）。<p>我們可以改變4D錐體的梯度，然後我們就有了加權的3D voronois。<p>我認為這可以用於有趣的體素實驗。\n"
+}
