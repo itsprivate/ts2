@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--19--en--myfeed--HackerNews--NewsArticle--31801189",
+  "url": "https://news.ycombinator.com/item?id=31801189",
+  "headline": "Effortless Authentication for Your Web Application",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey folks, Michael here.<p>I have been working in this project on and of for about a year and a half and I finally got it into a state where I can share it. I initially started this project to learn Rust and afterwards decided to make it useful for others.<p>Vulpo Auth is an authentication server that you can host yourself. The goal was to make it as easy as possible for you to get started and have a complete authentication solution without you having to configure anything. Project Website: https://auth.vulpo.dev<p>The Project contains:\n  - Auth Server (Rust)\n  - Admin Dashboard\n  - JS and react SDK\n  - Prebuilt Web UI (currently react) (https://auth.vulpo.dev/ui)\n  - rust SDK for rocket<p>Some of the features:\n  - Email and Password Auth\n  - Passwordless Auth\n  - Google Auth\n  - Translateable Email Templates\n  - Enable/Disable Sign In or Sign Up\n  - Password Reset Flow\n  - Update Email Flow<p>There is still a lot to do, the code base is full of experimental ideas and there a bunch of things to clean up, but first I want to focus on writing documentation and guides before adding more features.<p>Besides the missing documentation, what are you missing?",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "fragile_frogs",
+    "url": "https://news.ycombinator.com/user?id=fragile_frogs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31801189",
+  "sameAs": "https://news.ycombinator.com/item?id=31801189",
+  "dateCreated": "2022-06-19T18:28:35.619Z",
+  "datePublished": "2022-06-19T17:08:01.000Z",
+  "dateModified": "2022-06-19T18:28:35.619Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
