@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--20--en--myfeed--HackerNews--NewsArticle--31804005",
+  "url": "https://news.ycombinator.com/item?id=31804005",
+  "headline": "“From Russia with Love”: A Putin Ally Mines Gold and Plays Favorites in Sudan",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "senorqa",
+    "url": "https://news.ycombinator.com/user?id=senorqa"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31804005",
+  "sameAs": "https://www.nytimes.com/2022/06/05/world/africa/wagner-russia-sudan-gold-putin.html",
+  "dateCreated": "2022-06-20T02:10:47.391Z",
+  "datePublished": "2022-06-19T22:07:14.000Z",
+  "dateModified": "2022-06-20T02:10:47.391Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "\"来自俄罗斯的爱\"。普京的盟友在苏丹开采黄金和玩乐\n",
+  "headline_zh-Hant": "\"來自俄羅斯的愛\"。普京的盟友在蘇丹開採黃金和玩樂\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
