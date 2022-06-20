@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--20--en--askhn--HackerNews--NewsArticle--31810532",
+  "url": "https://news.ycombinator.com/item?id=31810532",
+  "headline": "Ask HN: Has serverless matured enough for creating user facing APIs?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Love everyone's opinion here on if the serverless functions (Like lambda functions from AWS, GCP cloud functions) have reached a position to create scalable apis to handle User apps with Millions of DAU?\nAlso if you can share your views along:\n1. Databases support available to Lambda (Due to connection exhaust issue.)\n2. Learning curve for new database technologies like dynamo db\n3. Some of these db technologies are vendor lock in. only available from AWS, like Dynamodb, Rds proxy\n4. Do you consider a cold start an issue big enough to not move into Serverless?\n5. Your choice between traditional microservices using docker and ECS/ Cloud Run or Kubernetes VS Lambda functions to create user facing apis?\n6. Cost comparision of both technologies on scale?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ankush38u",
+    "url": "https://news.ycombinator.com/user?id=ankush38u"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31810532",
+  "sameAs": "https://news.ycombinator.com/item?id=31810532",
+  "dateCreated": "2022-06-20T14:25:34.511Z",
+  "datePublished": "2022-06-20T14:09:28.000Z",
+  "dateModified": "2022-06-20T14:25:34.511Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 无服务器是否已经成熟到足以创建面向用户的API？\n",
+  "headline_zh-Hant": "Ask HN: 無服務器是否已經成熟到足以創建面向用戶的API？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我想听听大家对无服务器函数（如AWS的lambda函数，GCP的云函数）是否已经达到了创建可扩展的apis来处理百万DAU的用户应用的水平？\n另外，如果你能分享你的观点。\n1. Lambda对数据库的支持（由于连接耗尽的问题）。\n2. 2.像dynamo db这样的新数据库技术的学习曲线\n3. 一些数据库技术被供应商锁定，只能从AWS获得，如Dynamodb，Rds代理。\n4. 你认为冷启动的问题大到可以不进入Serverless吗？\n5. 您在使用docker和ECS/Cloud Run或Kubernetes VS Lambda函数创建面向用户的apis的传统微服务中的选择？\n6. 这两种技术在规模上的成本比较？\n",
+  "description_zh-Hant": "我想聽聽大家對無服務器函數（如AWS的lambda函數，GCP的雲函數）是否已經達到了創建可擴展的apis來處理百萬DAU的用戶應用的水平？\n另外，如果你能分享你的觀點。\n1. Lambda對數據庫的支持（由於連接耗盡的問題）。\n2. 2.像dynamo db這樣的新數據庫技術的學習曲線\n3. 一些數據庫技術被供應商鎖定，只能從AWS獲得，如Dynamodb，Rds代理。\n4. 你認為冷啟動的問題大到可以不進入Serverless嗎？\n5. 您在使用docker和ECS/Cloud Run或Kubernetes VS Lambda函數創建面向用戶的apis的傳統微服務中的選擇？\n6. 這兩種技術在規模上的成本比較？\n"
+}
