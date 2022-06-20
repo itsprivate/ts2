@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--20--en--askhn--HackerNews--NewsArticle--31814748",
+  "url": "https://news.ycombinator.com/item?id=31814748",
+  "headline": "Ask HN: Global Internet or AWS Outage?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "At ~10:40 am EDT, we noticed our AWS site to site VPN tunnels were flapping up and down. These included VPNs in multiple AWS regions with connections across multiple ISPs. Downdetector.com and Thousandeyes.com showed an increase in issues for several services around that time.<p>A few hours later, some tunnels haven't returned to to service and we're experiencing slow connections.<p>I can not find a single status posting or report confirming an outage.<p>Is any one else experiencing issues today?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "thedougd",
+    "url": "https://news.ycombinator.com/user?id=thedougd"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31814748",
+  "sameAs": "https://news.ycombinator.com/item?id=31814748",
+  "dateCreated": "2022-06-20T19:42:45.658Z",
+  "datePublished": "2022-06-20T19:40:01.000Z",
+  "dateModified": "2022-06-20T19:42:45.658Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 全球互联网或AWS停运？\n",
+  "headline_zh-Hant": "Ask HN: 全球互聯網或AWS停運？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在美国东部时间上午10点40分左右，我们注意到我们的AWS站点到站点的VPN隧道在上下跳动。这些包括在多个AWS地区的VPN，并有多个ISP的连接。Downdetector.com和Thousandeyes.com显示，在那个时候，几个服务的问题有所增加。<p>几个小时后，一些隧道还没有恢复服务，我们正经历着缓慢的连接。<p>我找不到一个确认故障的状态贴或报告。<p>今天还有人遇到问题吗？\n",
+  "description_zh-Hant": "在美國東部時間上午10點40分左右，我們注意到我們的AWS站點到站點的VPN隧道在上下跳動。這些包括在多個AWS地區的VPN，並有多個ISP的連接。Downdetector.com和Thousandeyes.com顯示，在那個時候，幾個服務的問題有所增加。<p>幾個小時後，一些隧道還沒有恢復服務，我們正經歷著緩慢的連接。<p>我找不到一個確認故障的狀態貼或報告。<p>今天還有人遇到問題嗎？\n"
+}
