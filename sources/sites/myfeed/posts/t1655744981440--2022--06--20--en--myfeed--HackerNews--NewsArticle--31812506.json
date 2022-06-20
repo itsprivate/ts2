@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--20--en--myfeed--HackerNews--NewsArticle--31812506",
+  "url": "https://news.ycombinator.com/item?id=31812506",
+  "headline": "Sshfs Is Orphaned",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hakunin",
+    "url": "https://news.ycombinator.com/user?id=hakunin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31812506",
+  "sameAs": "https://github.com/libfuse/sshfs/commit/c91eb9a9a992f1a36c49a8e6f1146e45b5e1c8e7",
+  "dateCreated": "2022-06-20T17:09:41.440Z",
+  "datePublished": "2022-06-20T16:45:33.000Z",
+  "dateModified": "2022-06-20T17:09:41.440Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Sshfs是孤儿\n",
+  "headline_zh-Hant": "Sshfs是孤兒\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
