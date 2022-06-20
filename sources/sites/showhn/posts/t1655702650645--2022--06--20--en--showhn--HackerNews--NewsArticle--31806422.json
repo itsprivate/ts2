@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--06--17--en--myfeed--HackerNews--NewsArticle--31779464",
-  "url": "https://news.ycombinator.com/item?id=31779464",
-  "headline": "Software Engineering: The Soft Parts",
+  "identifier": "2022--06--20--en--showhn--HackerNews--NewsArticle--31806422",
+  "url": "https://news.ycombinator.com/item?id=31806422",
+  "headline": "Show HN: A more powerful Crontab based on Kubernetes",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "lewisjoe",
-    "url": "https://news.ycombinator.com/user?id=lewisjoe"
+    "name": "haosdent",
+    "url": "https://news.ycombinator.com/user?id=haosdent"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=31779464",
-  "sameAs": "https://addyosmani.com/blog/software-engineering-soft-parts/",
-  "dateCreated": "2022-06-17T15:48:08.525Z",
-  "datePublished": "2022-06-17T15:17:53.000Z",
-  "dateModified": "2022-06-17T15:48:08.525Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31806422",
+  "sameAs": "https://github.com/furiko-io/furiko",
+  "dateCreated": "2022-06-20T05:24:10.645Z",
+  "datePublished": "2022-06-20T04:55:03.000Z",
+  "dateModified": "2022-06-20T05:24:10.645Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "软件工程。软体部分\n",
-  "headline_zh-Hant": "軟件工程。軟體部分\n",
+  "headline_zh-Hans": "Show HN: 一个基于Kubernetes的更强大的Crontab\n",
+  "headline_zh-Hant": "Show HN: 一個基於Kubernetes的更強大的Crontab\n",
   "@context": [
     "https://schema.org",
     {
