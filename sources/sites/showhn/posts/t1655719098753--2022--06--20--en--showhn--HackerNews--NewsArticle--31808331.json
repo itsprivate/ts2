@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--06--09--en--hackernews--HackerNews--NewsArticle--31665012",
-  "url": "https://news.ycombinator.com/item?id=31665012",
-  "headline": "Surprising Things You Didn't Know About HTTP",
+  "identifier": "2022--06--20--en--showhn--HackerNews--NewsArticle--31808331",
+  "url": "https://news.ycombinator.com/item?id=31808331",
+  "headline": "Show HN: A minimal example of DNS amplification attacks",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "vinnyglennon",
-    "url": "https://news.ycombinator.com/user?id=vinnyglennon"
+    "name": "metahost",
+    "url": "https://news.ycombinator.com/user?id=metahost"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=31665012",
-  "sameAs": "https://webdevguild.com/blog/10-things-http/?ck_subscriber_id=1253041713",
-  "dateCreated": "2022-06-09T10:48:33.065Z",
-  "datePublished": "2022-06-08T09:24:58.000Z",
-  "dateModified": "2022-06-09T10:48:33.065Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31808331",
+  "sameAs": "https://blog.sayan.page/dns-amplification-go/",
+  "dateCreated": "2022-06-20T09:58:18.753Z",
+  "datePublished": "2022-06-20T09:56:38.000Z",
+  "dateModified": "2022-06-20T09:58:18.753Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 10
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 6
+      "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "你所不知道的关于HTTP的令人惊讶的事情\n",
-  "headline_zh-Hant": "你所不知道的關於HTTP的令人驚訝的事情\n",
+  "headline_zh-Hans": "Show HN: 一个最小的DNS扩增攻击的例子\n",
+  "headline_zh-Hant": "Show HN: 一個最小的DNS擴增攻擊的例子\n",
   "@context": [
     "https://schema.org",
     {
