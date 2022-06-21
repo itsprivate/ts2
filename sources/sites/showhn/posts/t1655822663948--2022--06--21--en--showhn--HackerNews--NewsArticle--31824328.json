@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--06--19--en--myfeed--HackerNews--NewsArticle--31797988",
-  "url": "https://news.ycombinator.com/item?id=31797988",
-  "headline": "How fast are you clicking checkbox? Here some Olympics",
+  "identifier": "2022--06--21--en--showhn--HackerNews--NewsArticle--31824328",
+  "url": "https://news.ycombinator.com/item?id=31824328",
+  "headline": "Show HN: High performance custom element virtual scroller",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "Gedxx",
-    "url": "https://news.ycombinator.com/user?id=Gedxx"
+    "name": "Havelock",
+    "url": "https://news.ycombinator.com/user?id=Havelock"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=31797988",
-  "sameAs": "https://checkboxolympics.com/",
-  "dateCreated": "2022-06-19T11:41:34.146Z",
-  "datePublished": "2022-06-19T10:17:53.000Z",
-  "dateModified": "2022-06-19T11:41:34.146Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31824328",
+  "sameAs": "https://github.com/holmberd/virtual-scroller",
+  "dateCreated": "2022-06-21T14:44:23.948Z",
+  "datePublished": "2022-06-21T14:28:25.000Z",
+  "dateModified": "2022-06-21T14:44:23.948Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 1
+      "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "你点击复选框的速度有多快？这里有一些奥运会\n",
-  "headline_zh-Hant": "你點擊複選框的速度有多快？這裡有一些奧運會\n",
+  "headline_zh-Hans": "Show HN: 高性能的自定义元素虚拟滚动器\n",
+  "headline_zh-Hant": "Show HN: 高性能的自定義元素虛擬滾動器\n",
   "@context": [
     "https://schema.org",
     {
