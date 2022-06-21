@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--myfeed--HackerNews--NewsArticle--31818437",
+  "url": "https://news.ycombinator.com/item?id=31818437",
+  "headline": "I Scanned the Websites I Visit with Blacklight, and It’s Horrifying. Now What?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "memorable",
+    "url": "https://news.ycombinator.com/user?id=memorable"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31818437",
+  "sameAs": "https://themarkup.org/the-breakdown/2020/09/22/i-scanned-the-websites-i-visit-with-blacklight-and-its-horrifying-now-what",
+  "dateCreated": "2022-06-21T02:12:16.394Z",
+  "datePublished": "2022-06-21T01:01:14.000Z",
+  "dateModified": "2022-06-21T02:12:16.394Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我用黑光灯扫描了我访问的网站，这太可怕了。现在怎么办？\n",
+  "headline_zh-Hant": "我用黑光燈掃描了我訪問的網站，這太可怕了。現在怎麼辦？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

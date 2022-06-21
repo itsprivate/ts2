@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--hackernews--HackerNews--NewsArticle--31817242",
+  "url": "https://news.ycombinator.com/item?id=31817242",
+  "headline": "A study of real-world data races in Golang",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mlerner",
+    "url": "https://news.ycombinator.com/user?id=mlerner"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31817242",
+  "sameAs": "https://dl.acm.org/doi/pdf/10.1145/3519939.3523720",
+  "dateCreated": "2022-06-21T02:12:16.079Z",
+  "datePublished": "2022-06-20T22:50:58.000Z",
+  "dateModified": "2022-06-21T02:12:16.079Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 22
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "对Golang中真实世界的数据竞赛的研究\n",
+  "headline_zh-Hant": "對Golang中真實世界的數據競賽的研究\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
