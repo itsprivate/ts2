@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--myfeed--HackerNews--NewsArticle--31820829",
+  "url": "https://news.ycombinator.com/item?id=31820829",
+  "headline": "Chines censorship wants to prereview all comments on social media before publish",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "MasterYoda",
+    "url": "https://news.ycombinator.com/user?id=MasterYoda"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31820829",
+  "sameAs": "https://www.technologyreview.com/2022/06/18/1054452/china-censors-social-media-comments/",
+  "dateCreated": "2022-06-21T07:28:42.724Z",
+  "datePublished": "2022-06-21T06:53:08.000Z",
+  "dateModified": "2022-06-21T07:28:42.724Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "中国的审查制度希望在发布前预先审查社交媒体上的所有评论\n",
+  "headline_zh-Hant": "中國的審查制度希望在發佈前預先審查社交媒體上的所有評論\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

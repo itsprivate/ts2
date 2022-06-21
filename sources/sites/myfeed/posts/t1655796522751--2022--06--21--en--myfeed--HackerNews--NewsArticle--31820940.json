@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--myfeed--HackerNews--NewsArticle--31820940",
+  "url": "https://news.ycombinator.com/item?id=31820940",
+  "headline": "Cloudflare DNS Down – affecting many services",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ko3us",
+    "url": "https://news.ycombinator.com/user?id=ko3us"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31820940",
+  "sameAs": "https://www.cloudflarestatus.com/incidents/xvs51y9qs9dj",
+  "dateCreated": "2022-06-21T07:28:42.751Z",
+  "datePublished": "2022-06-21T07:00:15.000Z",
+  "dateModified": "2022-06-21T07:28:42.751Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Cloudflare DNS停机 - 影响许多服务\n",
+  "headline_zh-Hant": "Cloudflare DNS停機 - 影響許多服務\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
