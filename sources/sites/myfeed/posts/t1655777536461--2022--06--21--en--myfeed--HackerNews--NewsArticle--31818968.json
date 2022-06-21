@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--myfeed--HackerNews--NewsArticle--31818968",
+  "url": "https://news.ycombinator.com/item?id=31818968",
+  "headline": "“hi18n”, a TypeScript-first internationalization library — getting started guide",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "qnighy",
+    "url": "https://news.ycombinator.com/user?id=qnighy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31818968",
+  "sameAs": "https://medium.com/wantedly-engineering/hi18n-a-typescript-first-internationalization-library-getting-started-guide-ddbc34c5153b",
+  "dateCreated": "2022-06-21T02:12:16.461Z",
+  "datePublished": "2022-06-21T02:08:55.000Z",
+  "dateModified": "2022-06-21T02:12:16.461Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "\"hi18n\"，一个TypeScript优先的国际化库--入门指南\n",
+  "headline_zh-Hant": "\"hi18n\"，一個TypeScript優先的國際化庫--入門指南\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
