@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--myfeed--HackerNews--NewsArticle--31825683",
+  "url": "https://news.ycombinator.com/item?id=31825683",
+  "headline": "I started a Twitter for shitty upwork proposals",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "broccolli4eva",
+    "url": "https://news.ycombinator.com/user?id=broccolli4eva"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31825683",
+  "sameAs": "https://twitter.com/badatupwork",
+  "dateCreated": "2022-06-21T16:42:13.951Z",
+  "datePublished": "2022-06-21T16:17:35.000Z",
+  "dateModified": "2022-06-21T16:42:13.951Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "我为低劣的Upwork提案开了一个Twitter\n",
+  "headline_zh-Hant": "我為低劣的Upwork提案開了一個Twitter\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

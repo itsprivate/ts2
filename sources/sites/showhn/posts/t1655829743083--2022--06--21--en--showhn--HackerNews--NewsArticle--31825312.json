@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--showhn--HackerNews--NewsArticle--31825312",
+  "url": "https://news.ycombinator.com/item?id=31825312",
+  "headline": "Show HN: My personal DIY bookmarks app to replace Pinboard",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "blakewatson",
+    "url": "https://news.ycombinator.com/user?id=blakewatson"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31825312",
+  "sameAs": "https://github.com/blakewatson/bookmarks",
+  "dateCreated": "2022-06-21T16:42:23.083Z",
+  "datePublished": "2022-06-21T15:49:06.000Z",
+  "dateModified": "2022-06-21T16:42:23.083Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我的个人DIY书签应用，取代Pinboard\n",
+  "headline_zh-Hant": "Show HN: 我的個人DIY書籤應用，取代Pinboard\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

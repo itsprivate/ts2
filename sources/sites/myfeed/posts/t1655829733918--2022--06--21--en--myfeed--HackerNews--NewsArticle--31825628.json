@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--myfeed--HackerNews--NewsArticle--31825628",
+  "url": "https://news.ycombinator.com/item?id=31825628",
+  "headline": "Indoor Farming Is a ‘No-Brainer.’ Except for the Carbon Footprint",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jelliclesfarm",
+    "url": "https://news.ycombinator.com/user?id=jelliclesfarm"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31825628",
+  "sameAs": "https://www.nytimes.com/2022/06/21/opinion/environment/climate-change-greenhouses-drought-indoor-farming.html",
+  "dateCreated": "2022-06-21T16:42:13.918Z",
+  "datePublished": "2022-06-21T16:12:36.000Z",
+  "dateModified": "2022-06-21T16:42:13.918Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "室内养殖是一个 \"不费吹灰之力\"。除了碳足迹问题\n",
+  "headline_zh-Hant": "室內養殖是一個 \"不費吹灰之力\"。除了碳足跡問題\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
