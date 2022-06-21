@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--myfeed--HackerNews--NewsArticle--31818979",
+  "url": "https://news.ycombinator.com/item?id=31818979",
+  "headline": "Splitting CSV files at 3GB/s",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "eatonphil",
+    "url": "https://news.ycombinator.com/user?id=eatonphil"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31818979",
+  "sameAs": "https://www.tinybird.co/blog-posts/simd",
+  "dateCreated": "2022-06-21T03:45:27.503Z",
+  "datePublished": "2022-06-21T02:10:39.000Z",
+  "dateModified": "2022-06-21T03:45:27.503Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "以3GB/s的速度分割CSV文件\n",
+  "headline_zh-Hant": "以3GB/s的速度分割CSV文件\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

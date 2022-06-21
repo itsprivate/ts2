@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--myfeed--HackerNews--NewsArticle--31818980",
+  "url": "https://news.ycombinator.com/item?id=31818980",
+  "headline": "Covid-19 Vaccines Candidates in Clinical Trials",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Trouble_007",
+    "url": "https://news.ycombinator.com/user?id=Trouble_007"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31818980",
+  "sameAs": "https://covid19.trackvaccines.org/vaccines/",
+  "dateCreated": "2022-06-21T03:45:27.509Z",
+  "datePublished": "2022-06-21T02:10:41.000Z",
+  "dateModified": "2022-06-21T03:45:27.509Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "正在进行临床试验的Covid-19候选疫苗\n",
+  "headline_zh-Hant": "正在進行臨床試驗的Covid-19候選疫苗\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
