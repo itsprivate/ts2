@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--myfeed--HackerNews--NewsArticle--31822653",
+  "url": "https://news.ycombinator.com/item?id=31822653",
+  "headline": "OnePlus GPL Violation Update",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "After delaying Android 12 kernel source code release for 6+ months, OnePlus released the source with missing touchscreen, camera and audio drivers:<p>https://github.com/OnePlusOSS/android_vendor_qcom_opensource_audio_kernel_sm8250/issues/1<p>OnePlus is still violating the  GPL License",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "brethil",
+    "url": "https://news.ycombinator.com/user?id=brethil"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31822653",
+  "sameAs": "https://news.ycombinator.com/item?id=31822653",
+  "dateCreated": "2022-06-21T11:29:57.376Z",
+  "datePublished": "2022-06-21T11:24:48.000Z",
+  "dateModified": "2022-06-21T11:29:57.376Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "OnePlus违反GPL的更新\n",
+  "headline_zh-Hant": "OnePlus違反GPL的更新\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在推迟了6个多月发布Android 12内核源代码后，OnePlus发布了缺少触摸屏、相机和音频驱动的源代码：<p>https://github.com/OnePlusOSS/android_vendor_qcom_opensource_audio_kernel_sm8250/issues/1<p>OnePlus仍在违反GPL许可协议\n",
+  "description_zh-Hant": "在推遲了6個多月發佈Android 12內核源代碼後，OnePlus發佈了缺少觸摸屏、相機和音頻驅動的源代碼：<p>https://github.com/OnePlusOSS/android_vendor_qcom_opensource_audio_kernel_sm8250/issues/1<p>OnePlus仍在違反GPL許可協議\n"
+}
