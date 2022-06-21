@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--myfeed--HackerNews--NewsArticle--31825952",
+  "url": "https://news.ycombinator.com/item?id=31825952",
+  "headline": "Lisp is Not an Acceptable Lisp (2006)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "capableweb",
+    "url": "https://news.ycombinator.com/user?id=capableweb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31825952",
+  "sameAs": "http://steve-yegge.blogspot.com/2006/04/lisp-is-not-acceptable-lisp.html",
+  "dateCreated": "2022-06-21T16:42:14.043Z",
+  "datePublished": "2022-06-21T16:37:58.000Z",
+  "dateModified": "2022-06-21T16:42:14.043Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Lisp不是一个可接受的Lisp (2006)\n",
+  "headline_zh-Hant": "Lisp不是一個可接受的Lisp (2006)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

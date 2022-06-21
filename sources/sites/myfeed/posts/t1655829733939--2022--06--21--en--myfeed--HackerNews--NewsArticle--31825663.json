@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--myfeed--HackerNews--NewsArticle--31825663",
+  "url": "https://news.ycombinator.com/item?id=31825663",
+  "headline": "WordSet: Stolen Without Compensation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ingve",
+    "url": "https://news.ycombinator.com/user?id=ingve"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31825663",
+  "sameAs": "http://www.os2museum.com/wp/wordset-stolen-without-compensation/",
+  "dateCreated": "2022-06-21T16:42:13.939Z",
+  "datePublished": "2022-06-21T16:15:57.000Z",
+  "dateModified": "2022-06-21T16:42:13.939Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "字集。无偿被盗\n",
+  "headline_zh-Hant": "字集。無償被盜\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
