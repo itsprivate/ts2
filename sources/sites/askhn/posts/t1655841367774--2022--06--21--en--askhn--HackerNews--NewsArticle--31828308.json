@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--askhn--HackerNews--NewsArticle--31828308",
+  "url": "https://news.ycombinator.com/item?id=31828308",
+  "headline": "Ask HN: Version control systems written on Lisp (any Lisp realisation)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I started learning Lisp recently because I believe it helps me realize an idea about public storage of some open source code. What I need right now is a list of FOSS implementations of version control systems written in Lisp, because I need to read that code and make some decions about my personal VCS research. If you have some experience with any VCS written in any Lisp, or can recommend any VCS to me as an example of decent Lisp code, welcome.<p>Sorry for not making any try to search what I need before asking the question here, all I did was read the first few paragraphs of SICP and solved some of the exercises from the book using the Racket compiler. I have never run anyone's Lisp code from Internets and since I have a desire to get started, I want to start with something worth learning. I am tolerant to any Lisp environment, not only Racket, and installing a lot of Lisps is expected to be part of my research. And I would love to see either large and well-known projects, or small projects just for fun, created for educational purposes, or reimplementations of the well-known svn/git approach or some lesser-known great ideas.<p>My OS is the latest version of Debian, if that matters, and I am not an expert at installing non-repository software, so I prefer software that is not too hard to install.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "eimrine",
+    "url": "https://news.ycombinator.com/user?id=eimrine"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31828308",
+  "sameAs": "https://news.ycombinator.com/item?id=31828308",
+  "dateCreated": "2022-06-21T19:56:07.774Z",
+  "datePublished": "2022-06-21T19:49:07.000Z",
+  "dateModified": "2022-06-21T19:56:07.774Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 以Lisp编写的版本控制系统（任何Lisp的实现）。\n",
+  "headline_zh-Hant": "Ask HN: 以Lisp編寫的版本控制系統（任何Lisp的實現）。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我最近开始学习Lisp，因为我相信它能帮助我实现一个关于一些开放源代码的公共存储的想法。我现在需要的是一个用Lisp编写的版本控制系统的FOSS实现列表，因为我需要阅读这些代码并对我个人的VCS研究做出一些决定。如果你对用任何Lisp编写的VCS有一些经验，或者可以向我推荐任何VCS，作为体面的Lisp代码的例子，欢迎。<p>很抱歉在这里提出问题之前没有尝试搜索我需要的东西，我所做的只是读了SICP的前几段，并使用Racket编译器解决了书中的一些练习。我从来没有从互联网上运行过任何人的Lisp代码，既然我有一个开始的愿望，我想从值得学习的东西开始。我对任何Lisp环境都很宽容，不仅仅是Racket，安装大量的Lisp预计将是我研究的一部分。而且我很想看到大型的知名项目，或者只是为了好玩，为了教育目的而创建的小项目，或者是众所周知的svn/git方法的重新实现，或者是一些鲜为人知的伟大想法。<p>我的操作系统是最新版本的Debian，如果这很重要的话，而且我不是安装非仓库软件的专家，所以我更喜欢那些不难安装的软件。\n",
+  "description_zh-Hant": "我最近開始學習Lisp，因為我相信它能幫助我實現一個關於一些開放源代碼的公共存儲的想法。我現在需要的是一個用Lisp編寫的版本控制系統的FOSS實現列表，因為我需要閱讀這些代碼並對我個人的VCS研究做出一些決定。如果你對用任何Lisp編寫的VCS有一些經驗，或者可以向我推薦任何VCS，作為體面的Lisp代碼的例子，歡迎。<p>很抱歉在這裡提出問題之前沒有嘗試搜索我需要的東西，我所做的只是讀了SICP的前幾段，並使用Racket編譯器解決了書中的一些練習。我從來沒有從互聯網上運行過任何人的Lisp代碼，既然我有一個開始的願望，我想從值得學習的東西開始。我對任何Lisp環境都很寬容，不僅僅是Racket，安裝大量的Lisp預計將是我研究的一部分。而且我很想看到大型的知名項目，或者只是為了好玩，為了教育目的而創建的小項目，或者是眾所周知的svn/git方法的重新實現，或者是一些鮮為人知的偉大想法。<p>我的操作系統是最新版本的Debian，如果這很重要的話，而且我不是安裝非倉庫軟件的專家，所以我更喜歡那些不難安裝的軟件。\n"
+}
