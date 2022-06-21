@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--myfeed--HackerNews--NewsArticle--31821149",
+  "url": "https://news.ycombinator.com/item?id=31821149",
+  "headline": "Work begins with sirens. Developers of S.T.A.L.K.E.R.2 speak about war and game",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lpalchynska",
+    "url": "https://news.ycombinator.com/user?id=lpalchynska"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31821149",
+  "sameAs": "https://ain.capital/2022/06/17/developers-of-stalker-2-speak-about-war-and-the-game/",
+  "dateCreated": "2022-06-21T07:28:42.758Z",
+  "datePublished": "2022-06-21T07:19:15.000Z",
+  "dateModified": "2022-06-21T07:28:42.758Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "工作在警报声中开始。S.T.A.L.K.E.R.2的开发者谈论战争和游戏\n",
+  "headline_zh-Hant": "工作在警報聲中開始。S.T.A.L.K.E.R.2的開發者談論戰爭和遊戲\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

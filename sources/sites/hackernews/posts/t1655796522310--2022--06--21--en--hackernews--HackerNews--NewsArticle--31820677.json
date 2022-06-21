@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--hackernews--HackerNews--NewsArticle--31820677",
+  "url": "https://news.ycombinator.com/item?id=31820677",
+  "headline": "Need some advice, feeling depressed about the direction of our industry",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "First post here. It's 2 AM and can't sleep. I'm 40 and the majority of my experience has been in Java. Spring, Spring Boot, Hibernate, what you'd expect. I'm pretty much at the top of my game (which I know is specifically Java, but bare with me).<p>We all know technology constantly changes and progresses, and I've always thought that's fine, I'll be happy to learn whatever replaces Java because it will be better, right? I've seen Go coming along, Kotlin too. But I've been hit like a brick in the face to realize where we're headed. AWS. The cloud. I'll get to the point. I hate it. I've seen it happen personally at two companies now. The transition to the cloud. Where we throw away everything we've spent years learning to reinvent the wheel. We throw away relational databases for MongoDB. I love SQL. I'm good at it. But no one cares. MongoDB is &quot;in&quot; now. I'm good at Java. Years of experience and I finally feel good in my abilities and speed with the frameworks, ORM's, best practices, etc. We're just throwing it out like it's nothing. For AWS products. Lambdas written in Typescript (why Typescript, I don't know, the same reason I don't know why MongoDB). Files of YAML configuration, and Kubernetes and a lot of other things I don't care about, just to create the same CRUD apps we've always been creating.<p>I've been buying power tools and learning how to use them. I've started taping and patching drywall. I've cut down trees. I want tools that won't change every 5 years. I want tools that I can master and will be relevant in 50 years. Maybe I'm too old to be a carpenter, or tradesman. I just need some advice. The worst thing is, developers are embracing this AWS trend and seem to love it. No one seems to mind. Software engineers are cursed. Just when we've established a best practice and it's a solved problem, we throw it out and reinvent a new way to do it.<p>Please let me know if I'm not alone, or if it's just me and I need to adapt or get out of the way. I will predict this though: AWS is a mistake. It's not fun. It's not &quot;software engineering&quot; and it won't be here in 10, 15, 20 years. All your mastery of Kubernetes will be for nothing. It will be tossed aside like trash. And the worst part is when that day comes everyone will act like it was never that great all along. They'll also embrace the next trend like it's the greatest thing ever. Because software engineers are cursed.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "clouded",
+    "url": "https://news.ycombinator.com/user?id=clouded"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31820677",
+  "sameAs": "https://news.ycombinator.com/item?id=31820677",
+  "dateCreated": "2022-06-21T07:28:42.310Z",
+  "datePublished": "2022-06-21T06:40:31.000Z",
+  "dateModified": "2022-06-21T07:28:42.310Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 26
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 24
+    }
+  ],
+  "headline_zh-Hans": "需要一些建议，对我们行业的发展方向感到沮丧\n",
+  "headline_zh-Hant": "需要一些建議，對我們行業的發展方向感到沮喪\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "第一次在这里发帖。现在是凌晨2点，睡不着。我40岁了，我的大部分经验都是在Java方面。Spring、Spring Boot、Hibernate，你所期望的。<p>我们都知道技术在不断变化和进步，我一直认为这很好，我很乐意学习取代Java的任何东西，因为它将是更好的，对吗？我已经看到Go的出现，Kotlin也是如此。但我像一块砖头砸在脸上，才意识到我们要去哪里。AWS。云。我会说到重点的。我讨厌它。我已经在两家公司亲眼目睹了这种情况的发生。向云的过渡。我们扔掉了我们花了多年时间学习的一切，重新发明轮子。我们为了MongoDB而丢弃了关系型数据库。我喜欢SQL。我很擅长它。但是没有人在乎。MongoDB是现在的&quot;in&quot;。我很擅长Java。多年的经验使我终于对自己的能力和对框架、ORM、最佳实践等的速度感到满意。我们只是把它扔出去，就像什么都没有一样。对于AWS的产品。用Typescript写的Lambdas（为什么是Typescript，我不知道，就像我不知道为什么是MongoDB一样）。YamL配置文件，以及Kubernetes和许多其他我不关心的东西，只是为了创建我们一直在创建的相同的CRUD应用程序。<p>我一直在购买电动工具并学习如何使用它们。我已经开始绑扎和修补干墙。我砍过树。我想要的工具不会每5年换一次。我想要的是我能掌握的、50年后还能用的工具。也许我太老了，不能成为一个木匠，或商人。我只是需要一些建议。最糟糕的是，开发人员正在拥抱这种AWS趋势，似乎很喜欢它。似乎没有人介意。软件工程师是被诅咒的。就在我们已经建立了一个最佳实践，并且问题已经解决的时候，我们却把它扔掉，重新发明了一种新的方法。<p>请让我知道，如果我不是一个人，或者只是我，我需要适应或摆脱这种情况。不过我还是要预测一下。AWS是一个错误。它并不有趣。它不是&quot;软件工程&quot;，它在10年、15年、20年内都不会出现。你对Kubernetes的所有掌握将是徒劳的。它将像垃圾一样被扔到一边。最糟糕的是，当那一天到来时，每个人都会表现得好像它从来就没有那么伟大过。他们也会拥抱下一个趋势，好像它是有史以来最伟大的事情。因为软件工程师是被诅咒的。\n",
+  "description_zh-Hant": "第一次在這裡發帖。現在是凌晨2點，睡不著。我40歲了，我的大部分經驗都是在Java方面。Spring、Spring Boot、Hibernate，你所期望的。<p>我們都知道技術在不斷變化和進步，我一直認為這很好，我很樂意學習取代Java的任何東西，因為它將是更好的，對嗎？我已經看到Go的出現，Kotlin也是如此。但我像一塊磚頭砸在臉上，才意識到我們要去哪裡。AWS。雲。我會說到重點的。我討厭它。我已經在兩家公司親眼目睹了這種情況的發生。向雲的過渡。我們扔掉了我們花了多年時間學習的一切，重新發明輪子。我們為了MongoDB而丟棄了關係型數據庫。我喜歡SQL。我很擅長它。但是沒有人在乎。MongoDB是現在的&quot;in&quot;。我很擅長Java。多年的經驗使我終於對自己的能力和對框架、ORM、最佳實踐等的速度感到滿意。我們只是把它扔出去，就像什麼都沒有一樣。對於AWS的產品。用Typescript寫的Lambdas（為什麼是Typescript，我不知道，就像我不知道為什麼是MongoDB一樣）。YamL配置文件，以及Kubernetes和許多其他我不關心的東西，只是為了創建我們一直在創建的相同的CRUD應用程序。<p>我一直在購買電動工具並學習如何使用它們。我已經開始綁紮和修補幹牆。我砍過樹。我想要的工具不會每5年換一次。我想要的是我能掌握的、50年後還能用的工具。也許我太老了，不能成為一個木匠，或商人。我只是需要一些建議。最糟糕的是，開發人員正在擁抱這種AWS趨勢，似乎很喜歡它。似乎沒有人介意。軟件工程師是被詛咒的。就在我們已經建立了一個最佳實踐，並且問題已經解決的時候，我們卻把它扔掉，重新發明了一種新的方法。<p>請讓我知道，如果我不是一個人，或者只是我，我需要適應或擺脫這種情況。不過我還是要預測一下。AWS是一個錯誤。它並不有趣。它不是&quot;軟件工程&quot;，它在10年、15年、20年內都不會出現。你對Kubernetes的所有掌握將是徒勞的。它將像垃圾一樣被扔到一邊。最糟糕的是，當那一天到來時，每個人都會表現得好像它從來就沒有那麼偉大過。他們也會擁抱下一個趨勢，好像它是有史以來最偉大的事情。因為軟件工程師是被詛咒的。\n"
+}
