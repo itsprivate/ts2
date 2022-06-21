@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--hackernews--HackerNews--NewsArticle--31819489",
+  "url": "https://news.ycombinator.com/item?id=31819489",
+  "headline": "Neuroscientists create maps of the brain after traumatic brain injury",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gmays",
+    "url": "https://news.ycombinator.com/user?id=gmays"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31819489",
+  "sameAs": "https://www.som.uci.edu/news_releases/neuroscientists_create_maps_of_brain_after_TBI.asp",
+  "dateCreated": "2022-06-21T04:23:15.195Z",
+  "datePublished": "2022-06-21T03:22:04.000Z",
+  "dateModified": "2022-06-21T04:23:15.195Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "神经科学家绘制脑外伤后的大脑地图\n",
+  "headline_zh-Hant": "神經科學家繪製腦外傷後的大腦地圖\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
