@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--21--en--myfeed--HackerNews--NewsArticle--31823828",
+  "url": "https://news.ycombinator.com/item?id=31823828",
+  "headline": "US War Crimes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "aydnina",
+    "url": "https://news.ycombinator.com/user?id=aydnina"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31823828",
+  "sameAs": "https://twitter.com/Dragonvibee/status/1538893819889868800",
+  "dateCreated": "2022-06-21T13:49:30.419Z",
+  "datePublished": "2022-06-21T13:41:19.000Z",
+  "dateModified": "2022-06-21T13:49:30.419Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "美国的战争罪行\n",
+  "headline_zh-Hant": "美國的戰爭罪行\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
