@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--22--en--myfeed--HackerNews--NewsArticle--31836269",
+  "url": "https://news.ycombinator.com/item?id=31836269",
+  "headline": "My Favorite Off-the-Shelf Data Science Repos, What Are Yours?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Here are my top off-the-shelf data science models for Marketing. Would be interested which other marketing data science tools you use?<p>Product Recommendation on Your Website with Metarank (https://github.com/metarank/metarank)<p>Metarank is a tool that helps you easily build an advanced recommendation engine for your products or content on your website. To get started you only need historical performance data of your products (e.g. number of clicks) and additional metadata like product rating, genre, ingredients or price. In a YAML file, you define the features and the model parameters (e.g. number of iterations, modeling technique). The API service integrates with Apache Flink and can be easily integrated into Kubernetes clusters.<p>User Journey Analysis on your Website with Retentioneering (https://github.com/retentioneering/retentioneering-tools)<p>Retentioneering helps you to understand the user journey on your website. Retentioneering is a Python library that allows you to easily connect your Google Analytics data (in Bigquery). You define user-id, event-type and time stamp. From this data input a comprehensive graph network is created with gains and losses as you know it from a customer journey. In addition, customer segments are created that have a similar customer journey. This reduces the complexity of a purely descriptive view of the data.<p>Marketing Mix Modeling with Robyn (https://github.com/facebookexperimental/Robyn)<p>Less third-party cookie means less attribution models. The answer to this is Marketing Mix Modeling. Marketing mix models are regression models that use statistical probability to calculate the effect size of marketing channels and other independent variables. The advantage is that business context can be modeled much more realistically. For example, Google Searches for the own brand can be integrated to determine the share of the own brand strength in the revenue. Likewise, offline advertising measures can be modeled with other metrics in this context (e.g. offline advertising with GRPs). Robyn takes into account adstock effects, ROAS calculation and multicollinarity in the marketing channels. In addition, with simple functionality, budgets can be optimized using the predictions and results from marketing tests can be integrated into the model for calibration.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "floriankuwala",
+    "url": "https://news.ycombinator.com/user?id=floriankuwala"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31836269",
+  "sameAs": "https://news.ycombinator.com/item?id=31836269",
+  "dateCreated": "2022-06-22T14:56:55.566Z",
+  "datePublished": "2022-06-22T14:17:12.000Z",
+  "dateModified": "2022-06-22T14:56:55.566Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我最喜欢的现成的数据科学资料库，你的是什么？\n",
+  "headline_zh-Hant": "我最喜歡的現成的數據科學資料庫，你的是什麼？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "以下是我最喜欢的市场营销的现成数据科学模型。我想知道你还使用哪些营销数据科学工具？<p>用Metarank对你的网站进行产品推荐（https://github.com/metarank/metarank）<p>Metarank是一个工具，可以帮助你为你的产品或网站上的内容轻松建立一个高级推荐引擎。要开始使用，你只需要你的产品的历史性能数据（如点击次数）和额外的元数据，如产品评级、流派、成分或价格。在YAML文件中，你可以定义特征和模型参数（如迭代次数、建模技术）。该API服务与Apache Flink集成，可以很容易地集成到Kubernetes集群中。<p>使用Retentioneering对你的网站进行用户旅程分析（https://github.com/retentioneering/retentioneering-tools）<p>Retentioneering帮助你了解你网站上的用户旅程。Retentioneering是一个Python库，允许你轻松地连接你的谷歌分析数据（在Bigquery中）。你定义用户ID、事件类型和时间戳。从这些数据输入中，一个全面的图形网络被创建，其中包括你所知道的客户旅程中的收益和损失。此外，还创建了具有类似客户旅程的客户群。这减少了对数据的纯粹描述性看法的复杂性。<p>营销组合建模与Robyn（https://github.com/facebookexperimental/Robyn）<p>少了第三方cookie意味着少了归因模型。这方面的答案是营销组合模型。营销组合模型是使用统计概率来计算营销渠道和其他独立变量的效果大小的回归模型。其优点是可以更真实地对商业环境进行建模。例如，对自有品牌的谷歌搜索可以被整合，以确定自有品牌实力在收入中的份额。同样，线下广告措施也可以在此背景下与其他指标一起建模（例如，线下广告与GRPs）。Robyn考虑到了广告库存效应、ROAS计算和营销渠道的多线性。此外，通过简单的功能，预算可以使用预测值进行优化，营销测试的结果可以集成到模型中进行校准。\n",
+  "description_zh-Hant": "以下是我最喜歡的市場營銷的現成數據科學模型。我想知道你還使用哪些營銷數據科學工具？<p>用Metarank對你的網站進行產品推薦（https://github.com/metarank/metarank）<p>Metarank是一個工具，可以幫助你為你的產品或網站上的內容輕鬆建立一個高級推薦引擎。要開始使用，你只需要你的產品的歷史性能數據（如點擊次數）和額外的元數據，如產品評級、流派、成分或價格。在YAML文件中，你可以定義特徵和模型參數（如迭代次數、建模技術）。該API服務與Apache Flink集成，可以很容易地集成到Kubernetes集群中。<p>使用Retentioneering對你的網站進行用戶旅程分析（https://github.com/retentioneering/retentioneering-tools）<p>Retentioneering幫助你瞭解你網站上的用戶旅程。Retentioneering是一個Python庫，允許你輕鬆地連接你的谷歌分析數據（在Bigquery中）。你定義用戶ID、事件類型和時間戳。從這些數據輸入中，一個全面的圖形網絡被創建，其中包括你所知道的客戶旅程中的收益和損失。此外，還創建了具有類似客戶旅程的客戶群。這減少了對數據的純粹描述性看法的複雜性。<p>營銷組合建模與Robyn（https://github.com/facebookexperimental/Robyn）<p>少了第三方cookie意味著少了歸因模型。這方面的答案是營銷組合模型。營銷組合模型是使用統計概率來計算營銷渠道和其他獨立變量的效果大小的迴歸模型。其優點是可以更真實地對商業環境進行建模。例如，對自有品牌的谷歌搜索可以被整合，以確定自有品牌實力在收入中的份額。同樣，線下廣告措施也可以在此背景下與其他指標一起建模（例如，線下廣告與GRPs）。Robyn考慮到了廣告庫存效應、ROAS計算和營銷渠道的多線性。此外，通過簡單的功能，預算可以使用預測值進行優化，營銷測試的結果可以集成到模型中進行校準。\n"
+}
