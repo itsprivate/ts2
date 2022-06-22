@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--22--en--myfeed--HackerNews--NewsArticle--31830499",
+  "url": "https://news.ycombinator.com/item?id=31830499",
+  "headline": "Codex CLI: Turn natural language commands into bash/ZShell/PowerShell equivalent",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "petercooper",
+    "url": "https://news.ycombinator.com/user?id=petercooper"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31830499",
+  "sameAs": "https://github.com/microsoft/Codex-CLI",
+  "dateCreated": "2022-06-22T02:26:47.850Z",
+  "datePublished": "2022-06-21T23:55:46.000Z",
+  "dateModified": "2022-06-22T02:26:47.850Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "Codex CLI：将自然语言命令变成bash/ZShell/PowerShell的等价物\n",
+  "headline_zh-Hant": "Codex CLI：將自然語言命令變成bash/ZShell/PowerShell的等價物\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

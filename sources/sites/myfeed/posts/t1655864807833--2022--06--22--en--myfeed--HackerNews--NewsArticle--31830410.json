@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--22--en--myfeed--HackerNews--NewsArticle--31830410",
+  "url": "https://news.ycombinator.com/item?id=31830410",
+  "headline": "Show HN: A simple website to show how NFTs are stored",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "evetheattacker",
+    "url": "https://news.ycombinator.com/user?id=evetheattacker"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31830410",
+  "sameAs": "https://he1en.github.io/nftstorage/",
+  "dateCreated": "2022-06-22T02:26:47.833Z",
+  "datePublished": "2022-06-21T23:41:56.000Z",
+  "dateModified": "2022-06-22T02:26:47.833Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 一个简单的网站，展示了NFT的存储方式\n",
+  "headline_zh-Hant": "Show HN: 一個簡單的網站，展示了NFT的存儲方式\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

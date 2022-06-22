@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--22--en--myfeed--HackerNews--NewsArticle--31830075",
+  "url": "https://news.ycombinator.com/item?id=31830075",
+  "headline": "100 Year old music conservatory shuts down (McGill University)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kadenwolff",
+    "url": "https://news.ycombinator.com/user?id=kadenwolff"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31830075",
+  "sameAs": "https://www.mcgill.ca/music/channels/news/title-mcgill-conservatory-announcement",
+  "dateCreated": "2022-06-22T02:26:47.804Z",
+  "datePublished": "2022-06-21T22:59:31.000Z",
+  "dateModified": "2022-06-22T02:26:47.804Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "拥有100年历史的音乐学院关闭了（麦吉尔大学）\n",
+  "headline_zh-Hant": "擁有100年曆史的音樂學院關閉了（麥吉爾大學）\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
