@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--22--en--myfeed--HackerNews--NewsArticle--31831708",
+  "url": "https://news.ycombinator.com/item?id=31831708",
+  "headline": "Boids Algorithm Demonstration",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kevmo314",
+    "url": "https://news.ycombinator.com/user?id=kevmo314"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31831708",
+  "sameAs": "https://eater.net/boids",
+  "dateCreated": "2022-06-22T05:36:21.876Z",
+  "datePublished": "2022-06-22T03:27:47.000Z",
+  "dateModified": "2022-06-22T05:36:21.876Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Boids算法演示\n",
+  "headline_zh-Hant": "Boids算法演示\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
