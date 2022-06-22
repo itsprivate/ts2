@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--22--en--askhn--HackerNews--NewsArticle--31838476",
+  "url": "https://news.ycombinator.com/item?id=31838476",
+  "headline": "Ask HN: How do I efficiently track record count for big (distributed) DBs?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've run in to this interesting question multiple times mostly during systems design interviews, but I'm never quite sure what's the &quot;best&quot; way to address this since I've not encountered it in any of my real world projects, unfortunately. This is usually in the context of high demand items such as limited time promotional vouchers, concert tickets, limited stock items, etc. that customers will for sure be rushing to buy, and will sell out in a relatively short period of time.<p>My naive solution to this is to basically count the number of reservations made (basically, do something like an SQL count of all the rows) and subtract it from some constant limit, which can be safely copied across multiple instances of the reservation/ticketing service. However, for millions of rows, this may be potentially slow and having to do this for thousands of requests per second could be fairly inefficient. Adding some caching in front of a (probably sharded/distributed) database might help, but due to the numbers being updated very quickly, I'm not sure the cache will help that much.<p>One alternative I can think of is maybe setup a lightweight(?) store (something like Redis perhaps, though I don't have first hand experience with it) to keep track of the count. This will introduce problems related to eventual consistency, but I think it could work. This can be durable store, or we can make it semi-durable and just do a count query if we ever need to restore the service. I always ask if it's possible for us to handle overbooking because there's a chance this could occur. Strong consistency guarantees will prevent this, but at the cost of slower performance.<p>Another alternative I can think of is adding a sequence number to the reservation records, and query the max instead. I'm not sure if this performs better than count or they're pretty similar in performance.<p>Any insights or pointers on this?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "extra_rice",
+    "url": "https://news.ycombinator.com/user?id=extra_rice"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31838476",
+  "sameAs": "https://news.ycombinator.com/item?id=31838476",
+  "dateCreated": "2022-06-22T17:15:11.507Z",
+  "datePublished": "2022-06-22T16:49:08.000Z",
+  "dateModified": "2022-06-22T17:15:11.507Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何有效地跟踪大型（分布式）数据库的记录数？\n",
+  "headline_zh-Hant": "Ask HN: 如何有效地跟蹤大型（分佈式）數據庫的記錄數？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我曾多次遇到这个有趣的问题，主要是在系统设计的面试中，但我一直不太确定什么是解决这个问题的&quot;最佳&quot;方式，因为我没有在任何实际项目中遇到过，很遗憾。这通常是在高需求项目的背景下，例如限时促销券、音乐会门票、有限的库存项目等，客户肯定会急于购买，并且会在相对较短的时间内售罄。<p>我对此的天真解决方案是，基本上计算预订的数量（基本上，做一些类似于所有行的SQL计数），并从某个常数限制中减去，这可以在预订/售票服务的多个实例中安全复制。然而，对于数以百万计的行来说，这可能是很慢的，而且对于每秒数千次的请求来说，必须这样做，效率可能相当低。在（可能是分片/分布式）数据库前添加一些缓存可能会有帮助，但由于数字更新非常快，我不确定缓存会有多大帮助。<p>我能想到的一个替代方案是也许设置一个轻量级（？）存储（也许是类似Redis的东西，尽管我没有这方面的第一手经验）来跟踪计数。这将引入与最终一致性有关的问题，但我认为它可以发挥作用。这可以是一个持久的存储，或者我们可以使它成为半持久的，如果我们需要恢复服务，只需进行计数查询。我总是问我们是否有可能处理超额预订，因为有可能会发生这种情况。强大的一致性保证可以防止这种情况，但代价是性能变慢。<p>我能想到的另一个替代方案是在预订记录中添加一个序列号，然后查询最大值。我不确定这是否比count表现得更好，或者它们在性能上很相似。<p>对此有什么见解或指导吗？\n",
+  "description_zh-Hant": "我曾多次遇到這個有趣的問題，主要是在系統設計的面試中，但我一直不太確定什麼是解決這個問題的&quot;最佳&quot;方式，因為我沒有在任何實際項目中遇到過，很遺憾。這通常是在高需求項目的背景下，例如限時促銷券、音樂會門票、有限的庫存項目等，客戶肯定會急於購買，並且會在相對較短的時間內售罄。<p>我對此的天真解決方案是，基本上計算預訂的數量（基本上，做一些類似於所有行的SQL計數），並從某個常數限制中減去，這可以在預訂/售票服務的多個實例中安全複製。然而，對於數以百萬計的行來說，這可能是很慢的，而且對於每秒數千次的請求來說，必須這樣做，效率可能相當低。在（可能是分片/分佈式）數據庫前添加一些緩存可能會有幫助，但由於數字更新非常快，我不確定緩存會有多大幫助。<p>我能想到的一個替代方案是也許設置一個輕量級（？）存儲（也許是類似Redis的東西，儘管我沒有這方面的第一手經驗）來跟蹤計數。這將引入與最終一致性有關的問題，但我認為它可以發揮作用。這可以是一個持久的存儲，或者我們可以使它成為半持久的，如果我們需要恢復服務，只需進行計數查詢。我總是問我們是否有可能處理超額預訂，因為有可能會發生這種情況。強大的一致性保證可以防止這種情況，但代價是性能變慢。<p>我能想到的另一個替代方案是在預訂記錄中添加一個序列號，然後查詢最大值。我不確定這是否比count表現得更好，或者它們在性能上很相似。<p>對此有什麼見解或指導嗎？\n"
+}
