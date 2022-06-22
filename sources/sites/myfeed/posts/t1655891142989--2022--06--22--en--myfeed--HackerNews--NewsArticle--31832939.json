@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--22--en--myfeed--HackerNews--NewsArticle--31832939",
+  "url": "https://news.ycombinator.com/item?id=31832939",
+  "headline": "Microsoft promises to tighten access to AI it now deems too risky for some devs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rntn",
+    "url": "https://news.ycombinator.com/user?id=rntn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31832939",
+  "sameAs": "https://www.theregister.com/2022/06/21/microsoft_api_ai_algorithms/",
+  "dateCreated": "2022-06-22T09:45:42.989Z",
+  "datePublished": "2022-06-22T07:18:09.000Z",
+  "dateModified": "2022-06-22T09:45:42.989Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "微软承诺收紧对人工智能的访问，它现在认为对一些开发者来说风险太大\n",
+  "headline_zh-Hant": "微軟承諾收緊對人工智能的訪問，它現在認為對一些開發者來說風險太大\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
