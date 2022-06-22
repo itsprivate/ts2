@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--22--en--myfeed--HackerNews--NewsArticle--31837576",
+  "url": "https://news.ycombinator.com/item?id=31837576",
+  "headline": "I illustrated my sci-fi story via Midjourney AI",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "qnd",
+    "url": "https://news.ycombinator.com/user?id=qnd"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31837576",
+  "sameAs": "https://delphizero.com/essays/prologue",
+  "dateCreated": "2022-06-22T16:38:23.742Z",
+  "datePublished": "2022-06-22T15:46:06.000Z",
+  "dateModified": "2022-06-22T16:38:23.742Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "我通过Midjourney AI为我的科幻故事绘制插图\n",
+  "headline_zh-Hant": "我通過Midjourney AI為我的科幻故事繪製插圖\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
