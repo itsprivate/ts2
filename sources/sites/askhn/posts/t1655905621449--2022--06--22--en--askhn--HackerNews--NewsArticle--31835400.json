@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--22--en--askhn--HackerNews--NewsArticle--31835400",
+  "url": "https://news.ycombinator.com/item?id=31835400",
+  "headline": "Ask HN: Spam Emails Attributed to Microsoft",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "For about the past six months, I have received more than 100 spam messages that Spamcop attributes to Microsoft IP addresses and reports to abuse@messaging.microsoft.com, junk@office365.microsoft.com and spamloop@frontbridge.com<p>The spam sender adds a template to an old, legitimate email message which includes two links to images and two links that redirect to sites such as http://emailtrust.xyz, https://impalos.com, https://www.seedleafitem.com and https://yuzuapples.com.<p>When I analyze the headers at https://toolbox.googleapps.com/apps/messageheader/analyzeheader, they often show a delay of hundreds of days from a Microsoft IP to my Verizon.net/AOL/Yahoo server.<p>So I'm asking is Microsoft at fault? How are the spammers able to do this? Can it be prevented?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "memcg",
+    "url": "https://news.ycombinator.com/user?id=memcg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31835400",
+  "sameAs": "https://news.ycombinator.com/item?id=31835400",
+  "dateCreated": "2022-06-22T13:47:01.449Z",
+  "datePublished": "2022-06-22T12:51:21.000Z",
+  "dateModified": "2022-06-22T13:47:01.449Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 归因于微软的垃圾邮件\n",
+  "headline_zh-Hant": "Ask HN: 歸因於微軟的垃圾郵件\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大约在过去的六个月里，我收到了100多封垃圾邮件，Spamcop将其归于微软的IP地址，并报告给abuse@messaging.microsoft.com, junk@office365.microsoft.com 和 spamloop@frontbridge.com<p>垃圾邮件发件人在旧的合法电子邮件中添加了一个模板，其中包括两个图片链接和两个重定向到网站的链接，如http://emailtrust. xyz、https://impalos.com、https://www.seedleafitem.com 和 https://yuzuapples.com。<p>当我分析https://toolbox.googleapps.com/apps/messageheader/analyzeheader 的标题时，它们经常显示从微软的IP到我的Verizon.net/AOL/Yahoo服务器有数百天的延迟。<p>所以我想问微软是否有错？垃圾邮件制造者是如何做到这一点的？可以防止吗？\n",
+  "description_zh-Hant": "大約在過去的六個月裡，我收到了100多封垃圾郵件，Spamcop將其歸於微軟的IP地址，並報告給abuse@messaging.microsoft.com, junk@office365.microsoft.com 和 spamloop@frontbridge.com<p>垃圾郵件發件人在舊的合法電子郵件中添加了一個模板，其中包括兩個圖片鏈接和兩個重定向到網站的鏈接，如http://emailtrust. xyz、https://impalos.com、https://www.seedleafitem.com 和 https://yuzuapples.com。<p>當我分析https://toolbox.googleapps.com/apps/messageheader/analyzeheader 的標題時，它們經常顯示從微軟的IP到我的Verizon.net/AOL/Yahoo服務器有數百天的延遲。<p>所以我想問微軟是否有錯？垃圾郵件製造者是如何做到這一點的？可以防止嗎？\n"
+}
