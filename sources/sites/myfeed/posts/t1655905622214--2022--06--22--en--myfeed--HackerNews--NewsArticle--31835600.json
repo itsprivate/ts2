@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--22--en--myfeed--HackerNews--NewsArticle--31835600",
+  "url": "https://news.ycombinator.com/item?id=31835600",
+  "headline": "Bitcoin-DCA: Automated self-hosted Bitcoin DCA tool for multiple Exchanges",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mijndert",
+    "url": "https://news.ycombinator.com/user?id=mijndert"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31835600",
+  "sameAs": "https://github.com/Jorijn/bitcoin-dca",
+  "dateCreated": "2022-06-22T13:47:02.214Z",
+  "datePublished": "2022-06-22T13:12:19.000Z",
+  "dateModified": "2022-06-22T13:47:02.214Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Bitcoin-DCA: 用于多个交易所的自动自我托管的比特币DCA工具\n",
+  "headline_zh-Hant": "Bitcoin-DCA: 用於多個交易所的自動自我託管的比特幣DCA工具\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
