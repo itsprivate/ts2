@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--23--en--myfeed--HackerNews--NewsArticle--31849201",
+  "url": "https://news.ycombinator.com/item?id=31849201",
+  "headline": "I Spent over 1000 Hours Reading the Best Business Books to have ONE Book for us.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "itisbillionbaby",
+    "url": "https://news.ycombinator.com/user?id=itisbillionbaby"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31849201",
+  "sameAs": "https://www.liteelephant.com",
+  "dateCreated": "2022-06-23T14:26:35.060Z",
+  "datePublished": "2022-06-23T13:57:25.000Z",
+  "dateModified": "2022-06-23T14:26:35.060Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "我花了1000多个小时阅读最好的商业书籍，为我们准备了一本书。\n",
+  "headline_zh-Hant": "我花了1000多個小時閱讀最好的商業書籍，為我們準備了一本書。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
