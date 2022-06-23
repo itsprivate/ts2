@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--23--en--askhn--HackerNews--NewsArticle--31856078",
+  "url": "https://news.ycombinator.com/item?id=31856078",
+  "headline": "Ask HN: Anyone Here Use Bazel for Front End (Vue, TypeScript) Monorepos?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN!<p>I have been doing over  month long of research in terms of figuring out the best way to manage a growing monorepo. We are trying to consolidate much of our frontend code base into a monorepo, managed by pnpm workspaces, to consolidate dependency management and take advantage of tool (as well as other code sharing benefits) of monorepos that are a good fit for us.<p>To that end, I'm looking to understand if anyone has used Bazel extensively for managing monorepos.<p>I want to understand how easy it is to configure Bazel, how easy it is to <i>use</i> Bazel, especially newer developers (particularly self discovery of the toolset), how easy it is to maintain it, and how much burden the tool has placed on developers. We really are looking for a tool that is <i>largely</i> self sufficient for the purpose.<p>Main features we care about:<p>- Maintainability: is it is to maintain (updates etc)<p>- Extensibility: how extensible is it? more importantly, how <i>easily</i> can it be extended?<p>- Built in watch mode that understands its dependency graph for each task, and can run them simultaneously<p>- Works with pnpm / npm workspaces natively<p>- Stream based output: e.g. if running multiple tasks it interleaves them appropriately, even better if they're labeled and color coded<p>- Dependency graph tracking. IE: if I run build for a package, it understands that it may have dependencies that need to be built first.<p>- Able to run tasks arbitrarily on a &quot;per package&quot; process, potentially<p>Now, after mentioning all that, I realize, by reading the docs, in theory Bazel supports all this and has <i>lots of feature headroom for growing features over time</i> which I like, however, I've read mixed things about it, but not all of the sources I've read so far are &quot;up to date&quot; (some articles about people adopting Bazel are years old now) and I wanted to get a more accurate picture of what is going on here.<p>Alternatively, I'm open minded to looking at a different set of tools<p>For context I've done alot of research and experimentation with the follow:<p>- nx[0]<p>- rush[1]<p>- wireit[2]<p>- turbo[3]<p>We've settled on, for now `wireit` in part because it has a really good watch mode feature that `nx` does not (nx doesn't have a built in watch mode for your task runner, it relies on the plugin / script to handle it, which was really problematic). However, wireit isn't extensible, and I'm not looking to have to manage sub task &quot;phasing&quot; with something like `gulp`. This was an issue with rushjs as well (but rushjs has its own challenges and opinions). While rush is starting to expose a direct `rush-sdk` API, its not really documented and I'm not sure about its stability or best way to go about making rush plugins. They also have a competing task runner called `heft` that I'm not sure about in the light of the `rush-sdk` and its use cases (if someone from the rush team sees this and can clarify about the long term vision and where they're at with it now, I'm all ears)<p>tl;dr: I've tried tons of tools, and Bazel seems to check all the boxes, but I'm afraid the complexity will kill us, since we don't have a dedicated <i>tool engineer</i> to oversee it, it has to malleable enough that we can maintain it bit by bit over time<p>[0]: https://nx.dev/<p>[1]: https://rushjs.io/<p>[2]: https://github.com/google/wireit<p>[3]: https://turborepo.org/docs",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "no_wizard",
+    "url": "https://news.ycombinator.com/user?id=no_wizard"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31856078",
+  "sameAs": "https://news.ycombinator.com/item?id=31856078",
+  "dateCreated": "2022-06-23T22:57:35.355Z",
+  "datePublished": "2022-06-23T22:50:58.000Z",
+  "dateModified": "2022-06-23T22:57:35.355Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 有谁在这里用Bazel做前端（Vue，TypeScript）的单体？\n",
+  "headline_zh-Hant": "Ask HN: 有誰在這裡用Bazel做前端（Vue，TypeScript）的單體？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi HN!<p>I have been doing over month long of research in terms of figuring out the best way to manage a growing monorepo. We are trying to consolidate much of our frontend code base into a monorepo, managed by pnpm workspaces, to consolidate dependency management and take advantage of tool (as well as other code sharing benefits) of monorepos that are a good fit for us.<p>To that end, I'm looking to understand if anyone has used Bazel extensively for managing monorepos. <p>I want to understand how easy it is to configure Bazel, how easy it is to <i>use</i> Bazel, especially newer developers (particularly self discovery of the toolset), how easy it is to maintain it, and how much burden the tool has placed on developers. We really are looking for a tool that is <i>largely</i> self sufficient for the purpose.<p>Main features we care about:<p>- Maintainability: is it is to maintain (updates etc)<p>- Extensibility: how extensible is it? more importantly, how <i>easily</i> can it be extended? <p>- Built in watch mode that understands its dependency graph for each task, and can run them simultaneously<p>- Works with pnpm / npm workspaces natively<p>- Stream based output: e.g. if running multiple tasks it interleaves them appropriately, even better if they're labeled and color coded<p>- Dependency graph tracking. IE: if I run build for a package, it understands that it may have dependencies that need to be built first. <p>- Able to run tasks arbitrarily on a &quot;per package&quot; process, potentially<p>Now, after mentioning all that, I realize, by reading the docs, in theory Bazel supports all this and has <i>lots of feature headroom for growing features over time</i> which I like, however, I've read mixed things about it, but not all of the sources I've read so far are &quot; up to date&quot; (some articles about people adopting Bazel are years old now) and I wanted to get a more accurate picture of what is going on here. <p>Alternatively, I'm open minded to looking at a different set of tools<p>For context I've done alot of research and experimentation with the follow: <p>- nx[0]<p>- rush[1]<p>- wireit[2]<p>- turbo[3]<p>We've settled on, for now `wireit` in part because it has a really good watch mode feature that `nx` does not (nx doesn't have a built in watch mode for your task runner, it relies on the plugin / script to handle it, which was really problematic). However, wireit isn't extensible, and I'm not looking to have to manage sub task &quot;phasing&quot; with something like `gulp`. This was an issue with rushjs as well (but rushjs has its own challenges and opinions). While rush is starting to expose a direct `rush-sdk` API, its not really documented and I'm not sure about its stability or best way to go about making rush plugins. They also have a competing task runner called `heft` that I'm not sure about in the light of the `rush-sdk` and its use cases (if someone from the rush team sees this and can clarify about the long term vision and where they're at with it now, I'm all ears)<p>tl;dr: 我试过很多工具，Bazel似乎能满足所有要求，但我担心它的复杂性会扼杀我们，因为我们没有专门的<i>工具工程师</i>来监督它，它必须有足够的可塑性，我们可以随着时间的推移一点一点地维护它<p>[0]: https://nx. dev/<p>[1]: https://rushjs.io/<p>[2]: https://github.com/google/wireit<p>[3]: https://turborepo.org/docs\n",
+  "description_zh-Hant": "Hi HN!<p>I have been doing over month long of research in terms of figuring out the best way to manage a growing monorepo. We are trying to consolidate much of our frontend code base into a monorepo, managed by pnpm workspaces, to consolidate dependency management and take advantage of tool (as well as other code sharing benefits) of monorepos that are a good fit for us.<p>To that end, I'm looking to understand if anyone has used Bazel extensively for managing monorepos. <p>I want to understand how easy it is to configure Bazel, how easy it is to <i>use</i> Bazel, especially newer developers (particularly self discovery of the toolset), how easy it is to maintain it, and how much burden the tool has placed on developers. We really are looking for a tool that is <i>largely</i> self sufficient for the purpose.<p>Main features we care about:<p>- Maintainability: is it is to maintain (updates etc)<p>- Extensibility: how extensible is it? more importantly, how <i>easily</i> can it be extended? <p>- Built in watch mode that understands its dependency graph for each task, and can run them simultaneously<p>- Works with pnpm / npm workspaces natively<p>- Stream based output: e.g. if running multiple tasks it interleaves them appropriately, even better if they're labeled and color coded<p>- Dependency graph tracking. IE: if I run build for a package, it understands that it may have dependencies that need to be built first. <p>- Able to run tasks arbitrarily on a &quot;per package&quot; process, potentially<p>Now, after mentioning all that, I realize, by reading the docs, in theory Bazel supports all this and has <i>lots of feature headroom for growing features over time</i> which I like, however, I've read mixed things about it, but not all of the sources I've read so far are &quot; up to date&quot; (some articles about people adopting Bazel are years old now) and I wanted to get a more accurate picture of what is going on here. <p>Alternatively, I'm open minded to looking at a different set of tools<p>For context I've done alot of research and experimentation with the follow: <p>- nx[0]<p>- rush[1]<p>- wireit[2]<p>- turbo[3]<p>We've settled on, for now `wireit` in part because it has a really good watch mode feature that `nx` does not (nx doesn't have a built in watch mode for your task runner, it relies on the plugin / script to handle it, which was really problematic). However, wireit isn't extensible, and I'm not looking to have to manage sub task &quot;phasing&quot; with something like `gulp`. This was an issue with rushjs as well (but rushjs has its own challenges and opinions). While rush is starting to expose a direct `rush-sdk` API, its not really documented and I'm not sure about its stability or best way to go about making rush plugins. They also have a competing task runner called `heft` that I'm not sure about in the light of the `rush-sdk` and its use cases (if someone from the rush team sees this and can clarify about the long term vision and where they're at with it now, I'm all ears)<p>tl;dr: 我試過很多工具，Bazel似乎能滿足所有要求，但我擔心它的複雜性會扼殺我們，因為我們沒有專門的<i>工具工程師</i>來監督它，它必須有足夠的可塑性，我們可以隨著時間的推移一點一點地維護它<p>[0]: https://nx. dev/<p>[1]: https://rushjs.io/<p>[2]: https://github.com/google/wireit<p>[3]: https://turborepo.org/docs\n"
+}
