@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--23--en--myfeed--HackerNews--NewsArticle--31849287",
+  "url": "https://news.ycombinator.com/item?id=31849287",
+  "headline": "Someone taught an AI to play DnD, and it loves Magic Missile",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Binnsy",
+    "url": "https://news.ycombinator.com/user?id=Binnsy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31849287",
+  "sameAs": "https://www.wargamer.com/dnd/ai-player",
+  "dateCreated": "2022-06-23T14:44:07.477Z",
+  "datePublished": "2022-06-23T14:04:29.000Z",
+  "dateModified": "2022-06-23T14:44:07.477Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "有人教人工智能玩DnD，它喜欢魔幻导弹\n",
+  "headline_zh-Hant": "有人教人工智能玩DnD，它喜歡魔幻導彈\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
