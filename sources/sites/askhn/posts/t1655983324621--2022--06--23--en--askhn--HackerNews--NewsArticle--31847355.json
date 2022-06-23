@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--23--en--askhn--HackerNews--NewsArticle--31847355",
+  "url": "https://news.ycombinator.com/item?id=31847355",
+  "headline": "Ask HN: How Many hours would you rate this test",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Normally I am pretty ok in doing tests, but I was told this was a 3 hour test. I believe I am reasonably good at the technologies used. I believe it is probably a day or maybe two days.<p>Build a styled select drop down component in React, you are not allowed to use a component library.<p>Code should production ready. They will check both usability and technical aspects of solution. Include unit tests and keyboard navigation.<p>Of course should include readme instructing how to run and reasons for things etc.<p>The drop down is not going to just work with a select box but is going to have to be HTML mimicking select because the entries in the select all have styled fonts and different icons before each entry etc.<p>Up Down arrow on right end of select to show when select box Open Closed.<p>Left hand of entry in dropdown has icon, right entry has two lines of person being searched for - top line name bottom line job title.<p>on click event in search field, see full list of managers in dropdown, otherwise hidden.<p>two people are shown at a time, the rest can be scrolled to.<p>you should be able to search to filter and get people in this dropdown.<p>People are filtered on both first and last name.<p>filtering is case insensitive.<p>Filtering can happen across names so if you search for nras, bryan rasmussen should show up.<p>Bonus - when user clicks selection the dropdown closes and the name is in the select box.<p>Bonus - Selections navigable with up down keys.<p>On Blur: drop down closes but the last entered value is still in the search box.<p>on Focus: dropdown shown with available people matching the filter in the search field.<p>Data to populate field is in a json format that should be requested not hard coded in solution.<p>actually thinking about it again, and needing to be production ready, the search rules etc. probably 3 days.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "bryanrasmussen",
+    "url": "https://news.ycombinator.com/user?id=bryanrasmussen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31847355",
+  "sameAs": "https://news.ycombinator.com/item?id=31847355",
+  "dateCreated": "2022-06-23T11:22:04.621Z",
+  "datePublished": "2022-06-23T10:56:27.000Z",
+  "dateModified": "2022-06-23T11:22:04.621Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你对这项测试的评价是多少个小时？\n",
+  "headline_zh-Hant": "Ask HN: 你對這項測試的評價是多少個小時？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "通常情况下，我在做测试时是很好的，但有人告诉我这是一个3小时的测试。我相信我对所使用的技术还算不错。我相信这可能是一天或两天的时间。<p>在React中建立一个有风格的选择下拉组件，你不允许使用组件库。<p>代码应该制作完成。他们将检查解决方案的可用性和技术方面。包括单元测试和键盘导航。<p>当然应该包括readme，指导如何运行和事情的原因等。<p>下拉并不只是用一个选择框，而是要用HTML模仿选择，因为选择中的条目都有风格的字体和每个条目前的不同图标等。 <p>在选择框的右端有向上向下的箭头，以便在选择框打开关闭时显示。<p>下拉菜单中的条目左边有图标，右边的条目有两行被搜索的人--上行是名字，下行是职位。<p>在搜索栏中点击事件，在下拉菜单中看到完整的经理列表，否则是隐藏的。<p>一次显示两个人，其余的可以滚动到。 <p>你应该能够通过搜索来过滤并获得这个下拉列表中的人。<p>人的名字和姓氏都会被过滤。<p>过滤是不分大小写的。<p>过滤可以跨名字进行，所以如果你搜索nras，bryan rasmussen应该会显示出来。<p>奖励 - 当用户点击选择时，下拉列表关闭，名字在选择框中。 <p>在模糊状态下：下拉菜单关闭，但最后输入的值仍在搜索框中。<p>在聚焦状态下：下拉菜单显示与搜索字段中的过滤器相匹配的可用人员。<p>填充字段的数据为json格式，应请求而不是在解决方案中硬编码。<p>实际上，再次思考它，需要为生产做好准备，搜索规则等，可能需要3天。\n",
+  "description_zh-Hant": "通常情況下，我在做測試時是很好的，但有人告訴我這是一個3小時的測試。我相信我對所使用的技術還算不錯。我相信這可能是一天或兩天的時間。<p>在React中建立一個有風格的選擇下拉組件，你不允許使用組件庫。<p>代碼應該製作完成。他們將檢查解決方案的可用性和技術方面。包括單元測試和鍵盤導航。<p>當然應該包括readme，指導如何運行和事情的原因等。<p>下拉並不只是用一個選擇框，而是要用HTML模仿選擇，因為選擇中的條目都有風格的字體和每個條目前的不同圖標等。 <p>在選擇框的右端有向上向下的箭頭，以便在選擇框打開關閉時顯示。<p>下拉菜單中的條目左邊有圖標，右邊的條目有兩行被搜索的人--上行是名字，下行是職位。<p>在搜索欄中點擊事件，在下拉菜單中看到完整的經理列表，否則是隱藏的。<p>一次顯示兩個人，其餘的可以滾動到。 <p>你應該能夠通過搜索來過濾並獲得這個下拉列表中的人。<p>人的名字和姓氏都會被過濾。<p>過濾是不分大小寫的。<p>過濾可以跨名字進行，所以如果你搜索nras，bryan rasmussen應該會顯示出來。<p>獎勵 - 當用戶點擊選擇時，下拉列表關閉，名字在選擇框中。 <p>在模糊狀態下：下拉菜單關閉，但最後輸入的值仍在搜索框中。<p>在聚焦狀態下：下拉菜單顯示與搜索字段中的過濾器相匹配的可用人員。<p>填充字段的數據為json格式，應請求而不是在解決方案中硬編碼。<p>實際上，再次思考它，需要為生產做好準備，搜索規則等，可能需要3天。\n"
+}
