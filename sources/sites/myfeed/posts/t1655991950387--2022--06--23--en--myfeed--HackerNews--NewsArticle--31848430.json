@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--23--en--myfeed--HackerNews--NewsArticle--31848430",
+  "url": "https://news.ycombinator.com/item?id=31848430",
+  "headline": "A TensorFlow Re-Implementation of CheXNet – Localization of Thoracic Diseases",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "TL:DR; need help making heatmaps!\nRepository: https://dagshub.com/nirbarazida/Pneumonia-Classification\nColab Notebook: https://colab.research.google.com/drive/1U3F5ETJeisBnlmamR4EqigS7shIbL2L1<p>Hey everyone -<p>I've been working to reproduce [CheXNet](https://arxiv.org/pdf/1711.05225.pdf) - a fantastic paper describing research on a model capable of radiologist-grade pathology classification!<p>CheXNet uses Class Activation Mappings (CAMs for short) to generate heatmaps that identify what parts of the image the model uses to base its classification. In my case, I'm facing a bit of a struggle reproducing them - most of our classifications are derived from the diaphragm, instead of regions within the lung. Curiously, we are attaining a reasonable AUROC, with .773 on training and .749 on validation data - the paper reports .8062 AUROC.<p>My current model is being trained on a subsample of the main dataset, and I'm basically looking to this as a way to validate the architecture. I'd love to know if anyone has experienced similar issues and solved them, and could have any input here as well.<p>If you have a moment to spare - I'd be super grateful for some help from the hackernews community in solving the inaccurate localization issue! [https://dagshub.com/nirbarazida/Pneumonia-Classification/issues/58]<p>An incorrect localization, despite a correct classification: https://dagshub.com/nirbarazida/Pneumonia-Classification/raw/4c1414d3cd5cf8c693a4f7931843495bd4d96751/evaluating/heatmap_eval/00005532_000_Cardiomegaly.png",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "codeinassembly",
+    "url": "https://news.ycombinator.com/user?id=codeinassembly"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31848430",
+  "sameAs": "https://news.ycombinator.com/item?id=31848430",
+  "dateCreated": "2022-06-23T13:45:50.387Z",
+  "datePublished": "2022-06-23T12:59:36.000Z",
+  "dateModified": "2022-06-23T13:45:50.387Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "CheXNet的TensorFlow再实现--胸腔疾病的定位\n",
+  "headline_zh-Hant": "CheXNet的TensorFlow再實現--胸腔疾病的定位\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "TL:DR; 需要帮助制作热图!\n储存库：https://dagshub.com/nirbarazida/Pneumonia-Classification\nColab Notebook: https://colab.research.google.com/drive/1U3F5ETJeisBnlmamR4EqigS7shIbL2L1<p>大家好--<p>我一直在努力复制[CheXNet](https://arxiv.org/pdf/1711.05225.pdf)--一篇描述能够进行放射科医生级别的病理分类的模型研究的精彩论文！<p>CheXNet使用类激活映射（简称CAM）来生成热图，确定模型使用图像的哪些部分作为其分类基础。在我的案例中，我在复制它们时面临着一些困难--我们的大部分分类都来自于横膈膜，而不是肺部的区域。奇怪的是，我们获得了合理的AUROC，训练数据为0.773，验证数据为0.749--论文中报告的AUROC为0.8062。<p>我目前的模型是在主数据集的一个子样本上训练的，我基本上希望以此作为验证架构的一种方式。我很想知道是否有人遇到过类似的问题并解决了它们，在这里也可以有任何意见。<p>如果你有时间的话--我将会非常感谢黑客新闻社区在解决不准确的本地化问题上提供的一些帮助 [https://dagshub.com/nirbarazida/Pneumonia-Classification/issues/58]<p>一个不正确的定位，尽管有正确的分类：https://dagshub.com/nirbarazida/Pneumonia-Classification/raw/4c1414d3cd5cf8c693a4f7931843495bd4d96751/evaluating/heatmap_eval/00005532_000_Cardiomegaly.png\n",
+  "description_zh-Hant": "TL:DR; 需要幫助製作熱圖!\n儲存庫：https://dagshub.com/nirbarazida/Pneumonia-Classification\nColab Notebook: https://colab.research.google.com/drive/1U3F5ETJeisBnlmamR4EqigS7shIbL2L1<p>大家好--<p>我一直在努力複製[CheXNet](https://arxiv.org/pdf/1711.05225.pdf)--一篇描述能夠進行放射科醫生級別的病理分類的模型研究的精彩論文！<p>CheXNet使用類激活映射（簡稱CAM）來生成熱圖，確定模型使用圖像的哪些部分作為其分類基礎。在我的案例中，我在複製它們時面臨著一些困難--我們的大部分分類都來自於橫膈膜，而不是肺部的區域。奇怪的是，我們獲得了合理的AUROC，訓練數據為0.773，驗證數據為0.749--論文中報告的AUROC為0.8062。<p>我目前的模型是在主數據集的一個子樣本上訓練的，我基本上希望以此作為驗證架構的一種方式。我很想知道是否有人遇到過類似的問題並解決了它們，在這裡也可以有任何意見。<p>如果你有時間的話--我將會非常感謝黑客新聞社區在解決不準確的本地化問題上提供的一些幫助 [https://dagshub.com/nirbarazida/Pneumonia-Classification/issues/58]<p>一個不正確的定位，儘管有正確的分類：https://dagshub.com/nirbarazida/Pneumonia-Classification/raw/4c1414d3cd5cf8c693a4f7931843495bd4d96751/evaluating/heatmap_eval/00005532_000_Cardiomegaly.png\n"
+}
