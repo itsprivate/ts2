@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--23--en--myfeed--HackerNews--NewsArticle--31850279",
+  "url": "https://news.ycombinator.com/item?id=31850279",
+  "headline": "Inspired by Golang and C, but improves by abstraction for productivity",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "philonoist",
+    "url": "https://news.ycombinator.com/user?id=philonoist"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31850279",
+  "sameAs": "https://github.com/spicelang",
+  "dateCreated": "2022-06-23T15:29:59.978Z",
+  "datePublished": "2022-06-23T15:15:46.000Z",
+  "dateModified": "2022-06-23T15:29:59.978Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "灵感来自于Golang和C，但通过抽象化来提高生产力\n",
+  "headline_zh-Hant": "靈感來自於Golang和C，但通過抽象化來提高生產力\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
