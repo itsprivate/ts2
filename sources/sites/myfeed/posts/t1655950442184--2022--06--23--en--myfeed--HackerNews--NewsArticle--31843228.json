@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--23--en--myfeed--HackerNews--NewsArticle--31843228",
+  "url": "https://news.ycombinator.com/item?id=31843228",
+  "headline": "Iron-Based Hydrogen Storage",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "socialdemocrat",
+    "url": "https://news.ycombinator.com/user?id=socialdemocrat"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31843228",
+  "sameAs": "https://www.wevolver.com/article/iron-based-hydrogen-storage",
+  "dateCreated": "2022-06-23T02:14:02.184Z",
+  "datePublished": "2022-06-22T23:27:01.000Z",
+  "dateModified": "2022-06-23T02:14:02.184Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "铁基氢气储存\n",
+  "headline_zh-Hant": "鐵基氫氣儲存\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
