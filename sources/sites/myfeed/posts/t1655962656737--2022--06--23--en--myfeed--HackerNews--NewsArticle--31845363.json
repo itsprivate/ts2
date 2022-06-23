@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--23--en--myfeed--HackerNews--NewsArticle--31845363",
+  "url": "https://news.ycombinator.com/item?id=31845363",
+  "headline": "Tell HN: Wikipedia Seems to Be Down",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I keep getting 503. Is it just me?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "2143",
+    "url": "https://news.ycombinator.com/user?id=2143"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31845363",
+  "sameAs": "https://news.ycombinator.com/item?id=31845363",
+  "dateCreated": "2022-06-23T05:37:36.737Z",
+  "datePublished": "2022-06-23T05:12:31.000Z",
+  "dateModified": "2022-06-23T05:37:36.737Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 9
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：维基百科似乎瘫痪了\n",
+  "headline_zh-Hant": "告訴HN：維基百科似乎癱瘓了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我一直得到503。这只是我的问题吗？\n",
+  "description_zh-Hant": "我一直得到503。這只是我的問題嗎？\n"
+}
