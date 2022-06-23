@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--23--en--askhn--HackerNews--NewsArticle--31846219",
+  "url": "https://news.ycombinator.com/item?id=31846219",
+  "headline": "Ask HN: Can I trigger events off of outbound HTTP requests from an EC2 instance?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Imagine an old app. Let's say, hypothetically, that it is 9 or 10 years old, it has enormous amounts of tech debt. It makes thousands of API calls to 3rd party APIs, and stores some of the data in the database. The code is brittle, and full of bugs. We are afraid to touch it, because it is so old and badly written. If we wanted to start logging every outbound API call, we could re-write the code, but that would take a year or two. I'm trying to get the job done in a day or two. I'm wondering, is there a way to route the outbound request, through some AWS service, such that I can trigger some event for each outbound request? If I could route every outbound request through some proxy, then the proxy could record every outbound request, and I wouldn't have to touch the code. But how exactly could I arrange to put such a proxy between the EC2 instance and the outside world?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "lkrubner",
+    "url": "https://news.ycombinator.com/user?id=lkrubner"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31846219",
+  "sameAs": "https://news.ycombinator.com/item?id=31846219",
+  "dateCreated": "2022-06-23T07:56:27.056Z",
+  "datePublished": "2022-06-23T07:49:16.000Z",
+  "dateModified": "2022-06-23T07:56:27.056Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我可以从EC2实例的出站HTTP请求中触发事件吗？\n",
+  "headline_zh-Hant": "Ask HN: 我可以從EC2實例的出站HTTP請求中觸發事件嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "想象一下一个老的应用程序。假设它有9或10年的历史，它有大量的技术债务。它对第三方API进行了数以千计的API调用，并在数据库中存储了一些数据。代码很脆，而且充满了错误。我们不敢碰它，因为它太老了，写得太差了。如果我们想开始记录每一个向外的API调用，我们可以重写代码，但这将需要一两年的时间。我正试图在一两天内完成这项工作。我在想，是否有办法通过AWS的一些服务来路由出站请求，这样我就可以为每个出站请求触发一些事件？如果我可以将每个出站请求通过一些代理进行路由，那么代理就可以记录每个出站请求，而我就不用去碰这些代码。但我究竟如何安排在EC2实例和外界之间放置这样一个代理？\n",
+  "description_zh-Hant": "想象一下一個老的應用程序。假設它有9或10年的歷史，它有大量的技術債務。它對第三方API進行了數以千計的API調用，並在數據庫中存儲了一些數據。代碼很脆，而且充滿了錯誤。我們不敢碰它，因為它太老了，寫得太差了。如果我們想開始記錄每一個向外的API調用，我們可以重寫代碼，但這將需要一兩年的時間。我正試圖在一兩天內完成這項工作。我在想，是否有辦法通過AWS的一些服務來路由出站請求，這樣我就可以為每個出站請求觸發一些事件？如果我可以將每個出站請求通過一些代理進行路由，那麼代理就可以記錄每個出站請求，而我就不用去碰這些代碼。但我究竟如何安排在EC2實例和外界之間放置這樣一個代理？\n"
+}
