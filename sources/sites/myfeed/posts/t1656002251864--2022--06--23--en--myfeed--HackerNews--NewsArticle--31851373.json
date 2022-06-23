@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--23--en--myfeed--HackerNews--NewsArticle--31851373",
+  "url": "https://news.ycombinator.com/item?id=31851373",
+  "headline": "Copilot just got company: Amazon announced Codewhisperer",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "varinf",
+    "url": "https://news.ycombinator.com/user?id=varinf"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31851373",
+  "sameAs": "https://aws.amazon.com/blogs/aws/now-in-preview-amazon-codewhisperer-ml-powered-coding-companion/",
+  "dateCreated": "2022-06-23T16:37:31.864Z",
+  "datePublished": "2022-06-23T16:24:44.000Z",
+  "dateModified": "2022-06-23T16:37:31.864Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Copilot刚刚有了公司。亚马逊宣布Codewhisperer\n",
+  "headline_zh-Hant": "Copilot剛剛有了公司。亞馬遜宣佈Codewhisperer\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
