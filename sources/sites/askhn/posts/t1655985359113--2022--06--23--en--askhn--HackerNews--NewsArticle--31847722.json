@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--23--en--askhn--HackerNews--NewsArticle--31847722",
+  "url": "https://news.ycombinator.com/item?id=31847722",
+  "headline": "Ask HN: Why is Java AOT compilation (using graalvm native-image) slow?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I followed the guide here https://quarkus.io/guides/building-native-image to set up a minimal quarkus webservice graalvm native image. Ran command 'time quarkus build --native' to compile the example. The compile time on my laptop was 2 minutes, 12 seconds, the resulting image size was 38Mb.<p>I then followed the guide here https://go.dev/doc/tutorial/web-service-gin to set up a minimal golang webservice native image. Ran 'time go build' to compile the executable. It took 1.006 seconds on my laptop and produced a 16Mb executable.<p>What is the underlying technical reason why graalvm native-image is so much slower to compile than golang build? From a high level it seems to me that they are both accomplishing more or less the same thing. Are there choices in the java language design itself that make it hard to compile AOT?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "vancan1ty",
+    "url": "https://news.ycombinator.com/user?id=vancan1ty"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31847722",
+  "sameAs": "https://news.ycombinator.com/item?id=31847722",
+  "dateCreated": "2022-06-23T11:55:59.113Z",
+  "datePublished": "2022-06-23T11:46:50.000Z",
+  "dateModified": "2022-06-23T11:55:59.113Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么Java AOT编译（使用graalvm native-image）很慢？\n",
+  "headline_zh-Hant": "Ask HN: 為什麼Java AOT編譯（使用graalvm native-image）很慢？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我按照这里的指南https://quarkus.io/guides/building-native-image，建立了一个最小的quarkus webservice graalvm native image。运行命令 \"time quarkus build --native \"来编译这个例子。在我的笔记本电脑上的编译时间是2分12秒，得到的镜像大小是38Mb。<p>然后我按照这里的指南https://go.dev/doc/tutorial/web-service-gin，建立了一个最小的golang webservice本地镜像。运行 \"time go build \"来编译可执行文件。<p>Gralvm native-image的编译速度比golang build慢得多，其根本技术原因是什么？在我看来，它们或多或少都是在完成同样的事情。在java语言的设计中，是否有一些选择使其难以编译AOT？\n",
+  "description_zh-Hant": "我按照這裡的指南https://quarkus.io/guides/building-native-image，建立了一個最小的quarkus webservice graalvm native image。運行命令 \"time quarkus build --native \"來編譯這個例子。在我的筆記本電腦上的編譯時間是2分12秒，得到的鏡像大小是38Mb。<p>然後我按照這裡的指南https://go.dev/doc/tutorial/web-service-gin，建立了一個最小的golang webservice本地鏡像。運行 \"time go build \"來編譯可執行文件。<p>Gralvm native-image的編譯速度比golang build慢得多，其根本技術原因是什麼？在我看來，它們或多或少都是在完成同樣的事情。在java語言的設計中，是否有一些選擇使其難以編譯AOT？\n"
+}
