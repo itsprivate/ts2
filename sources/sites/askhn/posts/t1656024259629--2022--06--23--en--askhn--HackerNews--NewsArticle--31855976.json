@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--23--en--askhn--HackerNews--NewsArticle--31855976",
+  "url": "https://news.ycombinator.com/item?id=31855976",
+  "headline": "Ask HN: Do we need Web Browsers?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Mind you my rent has been paid via web work the past 4/5ish years. I'm your average Joe Schlomo - the JS slinger.<p>However, it has dawned upon me - do we really need web browsers. yeah they abstract a lot of things and make things compatible between different computers.<p>But if we take a step back - browsers simply display text, play videos + other shit (which could be made native). [majority of the time]<p>if the majority of the time, we're displaying text on the web - why not curl then pipe the returned text stream to our favorite text reader/ editor. Then if I have notes, I wanna make on the page - I can simply edit and save a local copy. Thereby skipping the 30 million + lines of code shipped with Chrome/Firefox.<p>To me it seems really inefficient that we've millions of code lines sitting between passing two text files between 2 computers. Hell even videos/audio.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "dzonga",
+    "url": "https://news.ycombinator.com/user?id=dzonga"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31855976",
+  "sameAs": "https://news.ycombinator.com/item?id=31855976",
+  "dateCreated": "2022-06-23T22:44:19.629Z",
+  "datePublished": "2022-06-23T22:40:11.000Z",
+  "dateModified": "2022-06-23T22:44:19.629Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我们需要网络浏览器吗？\n",
+  "headline_zh-Hant": "Ask HN: 我們需要網絡瀏覽器嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在过去的4/5年左右的时间里，我的房租都是通过网络工作支付的。<p>然而，我突然意识到--我们真的需要网络浏览器吗？是的，它们抽象了很多东西，使不同的计算机之间能够兼容。<p>但是，如果我们退一步来说--浏览器只是显示文本、播放视频和其他狗屎（可以做成本地的）。[<p>如果大多数时候，我们都是在网络上显示文本--为什么不使用curl，然后将返回的文本流导入我们最喜欢的文本阅读器/编辑器。然后，如果我想在页面上做笔记，我可以简单地编辑并保存一个本地副本。<p>对我来说，在两台电脑之间传递两个文本文件时，我们有数百万的代码行，这似乎是非常低效的。甚至视频/音频也是如此。\n",
+  "description_zh-Hant": "在過去的4/5年左右的時間裡，我的房租都是通過網絡工作支付的。<p>然而，我突然意識到--我們真的需要網絡瀏覽器嗎？是的，它們抽象了很多東西，使不同的計算機之間能夠兼容。<p>但是，如果我們退一步來說--瀏覽器只是顯示文本、播放視頻和其他狗屎（可以做成本地的）。[<p>如果大多數時候，我們都是在網絡上顯示文本--為什麼不使用curl，然後將返回的文本流導入我們最喜歡的文本閱讀器/編輯器。然後，如果我想在頁面上做筆記，我可以簡單地編輯並保存一個本地副本。<p>對我來說，在兩臺電腦之間傳遞兩個文本文件時，我們有數百萬的代碼行，這似乎是非常低效的。甚至視頻/音頻也是如此。\n"
+}
