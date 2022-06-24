@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--24--en--askhn--HackerNews--NewsArticle--31870110",
+  "url": "https://news.ycombinator.com/item?id=31870110",
+  "headline": "Ask HN: Resources to learn high-performance C++/Rust?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm a programmer that's mostly worked with Python so far in my career. At various points, I've run into performance bottlenecks that others have solved by writing high-performance libraries in C++ and Rust, mainly for things like data iterators and network servers.<p>What are some good resources to learn how to write high-performance and low-latency code that can interface with popular languages like Python in 2022? There are a lot of open-source libraries I can analyze and study, but often I feel like the techniques and optimizations they use go way over my head.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "o10449366",
+    "url": "https://news.ycombinator.com/user?id=o10449366"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31870110",
+  "sameAs": "https://news.ycombinator.com/item?id=31870110",
+  "dateCreated": "2022-06-24T22:24:42.124Z",
+  "datePublished": "2022-06-24T22:10:51.000Z",
+  "dateModified": "2022-06-24T22:24:42.124Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 学习高性能C++/Rust的资源？\n",
+  "headline_zh-Hant": "Ask HN: 學習高性能C++/Rust的資源？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我是一名程序员，在我的职业生涯中，到目前为止主要是使用Python工作。在不同的阶段，我遇到了性能瓶颈，别人通过用C++和Rust编写高性能的库来解决这些问题，主要是针对数据迭代器和网络服务器等。<p>有什么好的资源可以学习如何在2022年编写高性能和低延迟的代码，与Python等流行语言对接？有很多我可以分析和研究的开源库，但我经常觉得他们使用的技术和优化远远超出我的想象。\n",
+  "description_zh-Hant": "我是一名程序員，在我的職業生涯中，到目前為止主要是使用Python工作。在不同的階段，我遇到了性能瓶頸，別人通過用C++和Rust編寫高性能的庫來解決這些問題，主要是針對數據迭代器和網絡服務器等。<p>有什麼好的資源可以學習如何在2022年編寫高性能和低延遲的代碼，與Python等流行語言對接？有很多我可以分析和研究的開源庫，但我經常覺得他們使用的技術和優化遠遠超出我的想象。\n"
+}
