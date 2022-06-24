@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--24--en--myfeed--HackerNews--NewsArticle--31856920",
+  "url": "https://news.ycombinator.com/item?id=31856920",
+  "headline": "Book Review: San Fransicko",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "echen",
+    "url": "https://news.ycombinator.com/user?id=echen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31856920",
+  "sameAs": "https://astralcodexten.substack.com/p/book-review-san-fransicko",
+  "dateCreated": "2022-06-24T02:18:20.456Z",
+  "datePublished": "2022-06-24T01:20:23.000Z",
+  "dateModified": "2022-06-24T02:18:20.456Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "书评。圣弗兰西科\n",
+  "headline_zh-Hant": "書評。聖弗蘭西科\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
