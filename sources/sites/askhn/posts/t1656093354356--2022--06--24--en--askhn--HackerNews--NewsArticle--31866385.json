@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--24--en--askhn--HackerNews--NewsArticle--31866385",
+  "url": "https://news.ycombinator.com/item?id=31866385",
+  "headline": "Ask HN: What is the best way to Upload Images to AWS S3?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I am building a full stack Nodejs, Express.js and React application with a file upload functionality.<p>What will be the best approach to upload the file?<p>1. Upload the file from frontend to S3?\n2. First upload the file to backend and then upload the file from backend to S3?<p>What will be the best option? In my opinion the first approach is better as it doesn't require extra load on backend if the file is larger, but I am not sure about the security issues to keep the AWS credentials in the frontend code.<p>Any suggestions are welcome :)",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "fuadnafiz98",
+    "url": "https://news.ycombinator.com/user?id=fuadnafiz98"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31866385",
+  "sameAs": "https://news.ycombinator.com/item?id=31866385",
+  "dateCreated": "2022-06-24T17:55:54.356Z",
+  "datePublished": "2022-06-24T17:41:12.000Z",
+  "dateModified": "2022-06-24T17:55:54.356Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 向AWS S3上传图片的最佳方式是什么？\n",
+  "headline_zh-Hant": "Ask HN: 向AWS S3上傳圖片的最佳方式是什麼？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在构建一个具有文件上传功能的全堆栈Nodejs、Express.js和React应用程序。<p>什么是上传文件的最佳方法？<p>1. 从前台上传文件到S3？\n2. 先把文件上传到后台，然后再从后台把文件上传到S3？<p>什么是最好的选择？在我看来，第一种方法更好，因为如果文件比较大的话，它不需要在后台增加额外的负载，但我不确定在前端代码中保留AWS凭证的安全问题。）\n",
+  "description_zh-Hant": "我正在構建一個具有文件上傳功能的全堆棧Nodejs、Express.js和React應用程序。<p>什麼是上傳文件的最佳方法？<p>1. 從前臺上傳文件到S3？\n2. 先把文件上傳到後臺，然後再從後臺把文件上傳到S3？<p>什麼是最好的選擇？在我看來，第一種方法更好，因為如果文件比較大的話，它不需要在後臺增加額外的負載，但我不確定在前端代碼中保留AWS憑證的安全問題。）\n"
+}
