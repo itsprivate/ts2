@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--24--en--myfeed--HackerNews--NewsArticle--31861908",
+  "url": "https://news.ycombinator.com/item?id=31861908",
+  "headline": "Browser Database Comparison",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "harporoeder",
+    "url": "https://news.ycombinator.com/user?id=harporoeder"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31861908",
+  "sameAs": "http://nolanlawson.github.io/database-comparison/",
+  "dateCreated": "2022-06-24T14:24:06.223Z",
+  "datePublished": "2022-06-24T13:59:55.000Z",
+  "dateModified": "2022-06-24T14:24:06.223Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "浏览器数据库比较\n",
+  "headline_zh-Hant": "瀏覽器數據庫比較\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
