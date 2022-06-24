@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--24--en--myfeed--HackerNews--NewsArticle--31856803",
+  "url": "https://news.ycombinator.com/item?id=31856803",
+  "headline": "$100M stolen from the Harmony bridge",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "guiambros",
+    "url": "https://news.ycombinator.com/user?id=guiambros"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31856803",
+  "sameAs": "https://twitter.com/FreddieRaynolds/status/1540111719435059201",
+  "dateCreated": "2022-06-24T02:18:20.437Z",
+  "datePublished": "2022-06-24T00:55:45.000Z",
+  "dateModified": "2022-06-24T02:18:20.437Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "和谐桥上的1亿美元被盗\n",
+  "headline_zh-Hant": "和諧橋上的1億美元被盜\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--24--en--myfeed--HackerNews--NewsArticle--31857128",
+  "url": "https://news.ycombinator.com/item?id=31857128",
+  "headline": "Use selective-await to reduce 99% of JavaScript async call overhead",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "etherdream",
+    "url": "https://news.ycombinator.com/user?id=etherdream"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31857128",
+  "sameAs": "https://github.com/EtherDream/QuickReader",
+  "dateCreated": "2022-06-24T02:18:20.571Z",
+  "datePublished": "2022-06-24T02:10:58.000Z",
+  "dateModified": "2022-06-24T02:18:20.571Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "使用选择性await来减少99%的JavaScript异步调用开销\n",
+  "headline_zh-Hant": "使用選擇性await來減少99%的JavaScript異步調用開銷\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
