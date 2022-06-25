@@ -1,6 +1,10 @@
 if: true
 sources:
   - args:
+      - https://flak.tedunangst.com/rss
+    limit: 5
+    from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
+  - args:
       - https://www.theatlantic.com/feed/all/
     limit: 5
     from: https://deno.land/x/denoflow@0.0.34/sources/rss.ts
