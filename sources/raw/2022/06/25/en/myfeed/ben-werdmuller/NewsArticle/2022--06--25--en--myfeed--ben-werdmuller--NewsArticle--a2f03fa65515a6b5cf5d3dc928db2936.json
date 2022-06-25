@@ -1,0 +1,24 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--25--en--myfeed--ben-werdmuller--NewsArticle--a2f03fa65515a6b5cf5d3dc928db2936",
+  "url": "https://werd.io/2022/fido-passkeys-are-an-existential-threat-to-fintech-startups",
+  "headline": "FIDO passkeys are an existential threat to fintech startups",
+  "publisher": {
+    "@type": "Organization",
+    "name": "werd.io",
+    "url": "https://werd.io/feed/"
+  },
+  "description": "<div class=\"e-content entry-content\">\n<p><a href=\"https://fidoalliance.org/\"><img src=\"https://werd.io/file/62af5402590f411431386ca2\" alt=\"\" width=\"600\" height=\"400\"></a></p><p><a href=\"https://fidoalliance.org/\">FIDO</a> is a new authentication technology intended to supersede passwords. <a href=\"https://www.cnet.com/tech/mobile/its-time-to-learn-about-passkeys-the-no-password-login-tech/\">Here, passwords are replaced with a biometric input</a>: for example, FaceID or TouchID on Apple devices. iOS, Android, macOS, and Windows are all getting this soon <a href=\"https://fidoalliance.org/apple-google-and-microsoft-commit-to-expanded-support-for-fido-standard-to-accelerate-availability-of-passwordless-sign-ins/\">due to an alliance between Apple, Google, and Microsoft</a>.</p><p>I think it’s unequivocally great: an open standard that provides better security for end users while simultaneously providing a better user experience. Yay!</p><p>But spare a thought for the fintech industry. It’s an open secret that the US financial industry widely uses screen scraping to enable data sharing integrations between entities. As a sector, it’s been incredibly slow to adopt open APIs and other mechanisms that would protect user safety.</p><p>Last year, <a href=\"https://www.protocol.com/fintech/payroll-data-plaid-fintech\">Protocol wrote about screen scraping’s widespread use to integrate payroll systems</a>:</p><blockquote><p>Davis of Atomic said the company has used screen scraping \"when user-permissioned APIs are not available.\" One example is when Atomic needs to connect with state unemployment systems, which typically don't have API connectivity. A Plaid spokesman said the company uses \"a combination of API access and screen scraping at the direction of customers.\"</p></blockquote><p>Technically, it’s not a great solution: by definition, screen scraping requires storing a user’s financial system passwords in clear text. Nonetheless, you can bet that every system that integrates with payroll systems, and almost every system that integrates with banks (at a minimum), uses the technique. The US has badly needed <a href=\"https://standards.openbanking.org.uk/api-specifications/\">open banking style standards</a> for years.</p><p>FIDO is likely to bring an end to this practice: <a href=\"https://loginid.io/blog/fido-for-finance\">when financial services use FIDO passkeys for authentication, screen scraping becomes impossible</a>. Based on their historical precedent implementing new technologies, it may take years before financial services adopt the standard for authentication. But when they do, it will become impossible for third parties to access those systems without the service provider’s consent.</p><p>At this point, one of two things will happen: a set of open APIs for integration will appear and begin to reach adoption, or a whole generation of startups will die. It might be both!</p><p>If I was a fintech startup, I’d be establishing a set of open source APIs, forming an alliance with other fintech companies and financial institutions, and doing whatever I could to get traditional financial companies to adopt it before they transition away from password authentication. If I was a fintech investor, I’d be bankrolling this endeavor. If I was the government, I would be enacting strong legislation to force the industry forward (which may require lobbying from companies, investors, and consumers alike). Because otherwise, greater security and a better user experience for consumers looks a lot like an existential threat.</p></div>",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Ben Werdmüller",
+    "url": "https://werd.io/feed/"
+  },
+  "discussionUrl": "https://werd.io/2022/fido-passkeys-are-an-existential-threat-to-fintech-startups",
+  "sameAs": "https://werd.io/2022/fido-passkeys-are-an-existential-threat-to-fintech-startups",
+  "dateCreated": "2022-06-25T16:34:56.603Z",
+  "datePublished": "2022-06-19T16:51:27.000Z",
+  "dateModified": "2022-06-25T16:34:56.603Z",
+  "interactionStatistic": []
+}
