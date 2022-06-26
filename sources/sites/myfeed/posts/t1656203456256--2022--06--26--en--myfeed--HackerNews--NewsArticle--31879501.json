@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--26--en--myfeed--HackerNews--NewsArticle--31879501",
+  "url": "https://news.ycombinator.com/item?id=31879501",
+  "headline": "On NetHack's 35th Anniversary, It's Displayed at Museum of Modern Art",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sohkamyung",
+    "url": "https://news.ycombinator.com/user?id=sohkamyung"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31879501",
+  "sameAs": "https://games.slashdot.org/story/22/06/25/1927234/on-nethacks-35th-anniversary-its-displayed-at-museum-of-modern-art",
+  "dateCreated": "2022-06-26T00:30:56.256Z",
+  "datePublished": "2022-06-25T23:10:14.000Z",
+  "dateModified": "2022-06-26T00:30:56.256Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "在NetHack 35周年之际，它在现代艺术博物馆展出了。\n",
+  "headline_zh-Hant": "在NetHack 35週年之際，它在現代藝術博物館展出了。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

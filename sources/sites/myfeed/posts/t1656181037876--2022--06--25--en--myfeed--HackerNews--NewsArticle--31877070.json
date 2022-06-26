@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--25--en--myfeed--HackerNews--NewsArticle--31877070",
+  "url": "https://news.ycombinator.com/item?id=31877070",
+  "headline": "Re-AOL: An AOL server emulator",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gaws",
+    "url": "https://news.ycombinator.com/user?id=gaws"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31877070",
+  "sameAs": "https://reaol.org/",
+  "dateCreated": "2022-06-25T18:17:17.876Z",
+  "datePublished": "2022-06-25T17:32:26.000Z",
+  "dateModified": "2022-06-25T18:17:17.876Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Re-AOL。一个AOL服务器仿真器\n",
+  "headline_zh-Hant": "Re-AOL。一個AOL服務器仿真器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--25--en--myfeed--HackerNews--NewsArticle--31876703",
+  "url": "https://news.ycombinator.com/item?id=31876703",
+  "headline": "Dad-3DHeads: 3D Head Alignment from a Single Image",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "homarp",
+    "url": "https://news.ycombinator.com/user?id=homarp"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31876703",
+  "sameAs": "https://github.com/PinataFarms/DAD-3DHeads",
+  "dateCreated": "2022-06-25T18:17:17.839Z",
+  "datePublished": "2022-06-25T16:44:50.000Z",
+  "dateModified": "2022-06-25T18:17:17.839Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Dad-3DHeads: 单一图像的三维头颅对准\n",
+  "headline_zh-Hant": "Dad-3DHeads: 單一圖像的三維頭顱對準\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
