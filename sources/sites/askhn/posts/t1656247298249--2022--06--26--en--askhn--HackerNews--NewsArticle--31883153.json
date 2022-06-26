@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--26--en--askhn--HackerNews--NewsArticle--31883153",
+  "url": "https://news.ycombinator.com/item?id=31883153",
+  "headline": "Ask HN: If you were to start a new company, what tech stack would you recommend?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Context: A company has asked me to join as CTO and everything is prototype stage and needs to be rewritten from ground up.<p>the current stack is Java (spring) on the Atlassian Suite (bitbucket, jira, confluence) - there's no love for that platform within the teams I'd take over, but I'm curious to know how others do it and what they'd recommend.<p>Personal Bias':<p>SCM/CI: Gitlab<p>Documentation: <i>I</i> prefer `docs/` in the repo's themselves, but there is a need for something more architectural; maybe mediawiki is fine?<p>Task Management: Notion or Monday<p>PL: Golang + some python glue<p>Build system: Bazel (if anything)<p>Structured DB layer: Cockroach<p>------<p>But I'm extremely open to other ideas.<p>I know everything should start with &quot;what problem am I trying to solve&quot; but there has to be some sensible defaults here? right?<p>I'm trying to not choose tools that make people miserable, I only have experience with tools that make people miserable. The scale is pretty small.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "dijit",
+    "url": "https://news.ycombinator.com/user?id=dijit"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31883153",
+  "sameAs": "https://news.ycombinator.com/item?id=31883153",
+  "dateCreated": "2022-06-26T12:41:38.249Z",
+  "datePublished": "2022-06-26T11:55:44.000Z",
+  "dateModified": "2022-06-26T12:41:38.249Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如果你要创办一家新公司，你会推荐什么技术栈？\n",
+  "headline_zh-Hant": "Ask HN: 如果你要創辦一家新公司，你會推薦什麼技術棧？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Context: A company has asked me to join as CTO and everything is prototype stage and needs to be rewritten from ground up.<p>the current stack is Java (spring) on the Atlassian Suite (bitbucket, jira, confluence) - there's no love for that platform within the teams I'd take over, but I'm curious to know how others do it and what they'd recommend.<p>Personal Bias':<p>SCM/CI: Gitlab<p>Documentation: <i>I</i> prefer `docs/` in the repo's themselves, but there is a need for something more architectural; maybe mediawiki is fine?<p>Task Management: Notion or Monday<p>PL: Golang + some python glue<p>Build system: Bazel (if anything)<p>Structured DB layer: Cockroach<p>------<p>But I'm extremely open to other ideas.<p>I know everything should start with &quot;what problem am I trying to solve&quot; but there has to be some sensible defaults here? right?<p>I'm trying to not choose tools that make people miserable, I only have experience with tools that make people miserable. The scale is pretty small.\n",
+  "description_zh-Hant": "Context: A company has asked me to join as CTO and everything is prototype stage and needs to be rewritten from ground up.<p>the current stack is Java (spring) on the Atlassian Suite (bitbucket, jira, confluence) - there's no love for that platform within the teams I'd take over, but I'm curious to know how others do it and what they'd recommend.<p>Personal Bias':<p>SCM/CI: Gitlab<p>Documentation: <i>I</i> prefer `docs/` in the repo's themselves, but there is a need for something more architectural; maybe mediawiki is fine?<p>Task Management: Notion or Monday<p>PL: Golang + some python glue<p>Build system: Bazel (if anything)<p>Structured DB layer: Cockroach<p>------<p>But I'm extremely open to other ideas.<p>I know everything should start with &quot;what problem am I trying to solve&quot; but there has to be some sensible defaults here? right?<p>I'm trying to not choose tools that make people miserable, I only have experience with tools that make people miserable. The scale is pretty small.\n"
+}
