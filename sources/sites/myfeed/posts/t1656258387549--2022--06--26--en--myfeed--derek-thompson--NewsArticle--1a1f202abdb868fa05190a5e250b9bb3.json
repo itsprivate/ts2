@@ -20,5 +20,33 @@
   "dateCreated": "2022-06-26T15:46:27.549Z",
   "datePublished": "2022-06-26T15:30:56.000Z",
   "dateModified": "2022-06-26T15:46:27.549Z",
-  "interactionStatistic": []
+  "interactionStatistic": [],
+  "headline_zh-Hans": "现在的航空旅行是一场灾难。这就是原因。\n",
+  "headline_zh-Hant": "現在的航空旅行是一場災難。這就是原因。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "美国似乎患有慢性 \"无用功综合症\"。\n",
+  "description_zh-Hant": "美國似乎患有慢性 \"無用功綜合症\"。\n"
 }
