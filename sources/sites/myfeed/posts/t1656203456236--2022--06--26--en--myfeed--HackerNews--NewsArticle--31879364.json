@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--26--en--myfeed--HackerNews--NewsArticle--31879364",
+  "url": "https://news.ycombinator.com/item?id=31879364",
+  "headline": "All-In Podcast: Palmer Luckey on Anduril",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "guiambros",
+    "url": "https://news.ycombinator.com/user?id=guiambros"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31879364",
+  "sameAs": "https://www.youtube.com/watch?v=nK0NfL2M5L4",
+  "dateCreated": "2022-06-26T00:30:56.236Z",
+  "datePublished": "2022-06-25T22:47:38.000Z",
+  "dateModified": "2022-06-26T00:30:56.236Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "All-In播客。帕尔默-勒基谈安杜里尔\n",
+  "headline_zh-Hant": "All-In播客。帕爾默-勒基談安杜里爾\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

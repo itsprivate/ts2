@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--26--en--hackernews--HackerNews--NewsArticle--31858077",
+  "url": "https://news.ycombinator.com/item?id=31858077",
+  "headline": "Revisiting the principles of data-oriented programming",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "viebel",
+    "url": "https://news.ycombinator.com/user?id=viebel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31858077",
+  "sameAs": "https://blog.klipse.tech/dop/2022/06/22/principles-of-dop.html",
+  "dateCreated": "2022-06-26T00:30:55.686Z",
+  "datePublished": "2022-06-24T05:23:30.000Z",
+  "dateModified": "2022-06-26T00:30:55.686Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 38
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 12
+    }
+  ],
+  "headline_zh-Hans": "重新审视面向数据编程的原则\n",
+  "headline_zh-Hant": "重新審視面向數據編程的原則\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
