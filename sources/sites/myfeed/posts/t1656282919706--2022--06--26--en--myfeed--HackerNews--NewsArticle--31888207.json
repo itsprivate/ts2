@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--26--en--myfeed--HackerNews--NewsArticle--31888207",
+  "url": "https://news.ycombinator.com/item?id=31888207",
+  "headline": "Unlicense Yourself: Set Your Code Free",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "MatthiasPortzel",
+    "url": "https://news.ycombinator.com/user?id=MatthiasPortzel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31888207",
+  "sameAs": "https://unlicense.org/",
+  "dateCreated": "2022-06-26T22:35:19.706Z",
+  "datePublished": "2022-06-26T21:31:41.000Z",
+  "dateModified": "2022-06-26T22:35:19.706Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "解除自己的许可证。让你的代码自由\n",
+  "headline_zh-Hant": "解除自己的許可證。讓你的代碼自由\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
