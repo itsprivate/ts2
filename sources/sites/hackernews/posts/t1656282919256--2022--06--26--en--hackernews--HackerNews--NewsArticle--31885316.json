@@ -36,5 +36,23 @@
       },
       "userInteractionCount": 14
     }
+  ],
+  "headline_zh-Hans": "从拉斯维加斯学习。可持续发展与易受影响\n",
+  "headline_zh-Hant": "從拉斯維加斯學習。可持續發展與易受影響\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
   ]
 }
