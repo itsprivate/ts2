@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--27--en--myfeed--HackerNews--NewsArticle--31896423",
+  "url": "https://news.ycombinator.com/item?id=31896423",
+  "headline": "How to verify domain ownership for a new user?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Are there products or ways to verify that a user's email address and their corporate URL are connected?<p>Here's the use case:\n1. User signs up for a product\n2. User submits their email and company's website\n3. We need to verify if that company website is associated with that email.<p>We thought it could be as simple as $email == $URL<p>BUT we're seeing many cases where the email sending domain is different than the company's URL<p>How might one do this?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sn0w_crash",
+    "url": "https://news.ycombinator.com/user?id=sn0w_crash"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31896423",
+  "sameAs": "https://news.ycombinator.com/item?id=31896423",
+  "dateCreated": "2022-06-27T16:40:09.141Z",
+  "datePublished": "2022-06-27T15:59:30.000Z",
+  "dateModified": "2022-06-27T16:40:09.141Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "如何为一个新用户验证域名所有权？\n",
+  "headline_zh-Hant": "如何為一個新用戶驗證域名所有權？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "是否有产品或方法来验证用户的电子邮件地址和他们的企业网址是否相连？<p>这里是用例。\n1. 用户注册了一个产品\n2. 用户提交他们的电子邮件和公司的网站\n3. 我们需要验证该公司的网站是否与该电子邮件相关联。<p>我们认为这可能是简单的$email == $URL<p>但我们看到许多情况下，电子邮件发送域与公司的URL不同<p>如何做到这一点？\n",
+  "description_zh-Hant": "是否有產品或方法來驗證用戶的電子郵件地址和他們的企業網址是否相連？<p>這裡是用例。\n1. 用戶註冊了一個產品\n2. 用戶提交他們的電子郵件和公司的網站\n3. 我們需要驗證該公司的網站是否與該電子郵件相關聯。<p>我們認為這可能是簡單的$email == $URL<p>但我們看到許多情況下，電子郵件發送域與公司的URL不同<p>如何做到這一點？\n"
+}
