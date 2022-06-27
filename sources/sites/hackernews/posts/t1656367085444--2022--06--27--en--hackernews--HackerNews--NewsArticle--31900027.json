@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--27--en--hackernews--HackerNews--NewsArticle--31900027",
+  "url": "https://news.ycombinator.com/item?id=31900027",
+  "headline": "The Last Thing Rust Needs (2019)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nazgulsenpai",
+    "url": "https://news.ycombinator.com/user?id=nazgulsenpai"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31900027",
+  "sameAs": "https://h2co3.github.io/rust2019/",
+  "dateCreated": "2022-06-27T21:58:05.444Z",
+  "datePublished": "2022-06-27T20:03:52.000Z",
+  "dateModified": "2022-06-27T21:58:05.444Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "锈蚀需要的最后一件事 (2019)\n",
+  "headline_zh-Hant": "鏽蝕需要的最後一件事 (2019)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
