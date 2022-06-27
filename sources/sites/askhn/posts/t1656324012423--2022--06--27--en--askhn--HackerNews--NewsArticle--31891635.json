@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--27--en--askhn--HackerNews--NewsArticle--31891635",
+  "url": "https://news.ycombinator.com/item?id=31891635",
+  "headline": "Ask HN: Bing blocking FOSS docs website, how do I find out why?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I found out a few weeks ago that Bing has removed the documentation site for the open source project benthos (https://www.benthos.dev) from search results. I set up their webmaster tools and tried to get answers that way but all I get is a vague &quot;URL cannot appear on Bing&quot; answer, I then opened a support ticket and they still haven't answered after three weeks.<p>When I open a search (https://www.bing.com/search?q=benthos.dev) at the bottom there is a &quot;Some results have been removed&quot; link that lead me down a rabbit hole. There's a reports hub with some documents regarding site take downs but I can't find anything specific.<p>I'm not sure what I can do now other than wait and hope the support ticket eventually gets answered. If I could narrow it down to even just a copyright claim versus harmful content maybe I could work out where the problem is.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "jeffail",
+    "url": "https://news.ycombinator.com/user?id=jeffail"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31891635",
+  "sameAs": "https://news.ycombinator.com/item?id=31891635",
+  "dateCreated": "2022-06-27T10:00:12.423Z",
+  "datePublished": "2022-06-27T07:37:19.000Z",
+  "dateModified": "2022-06-27T10:00:12.423Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Bing屏蔽了FOSS的文档网站，我怎样才能找到原因？\n",
+  "headline_zh-Hant": "Ask HN: Bing屏蔽了FOSS的文檔網站，我怎樣才能找到原因？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "几周前，我发现Bing将开源项目benthos的文档网站（https://www.benthos.dev）从搜索结果中删除了。我设置了他们的网站管理员工具，并试图通过这种方式获得答案，但我得到的只是一个模糊的&quot;URL不能出现在Bing上&quot;的答案，然后我开了一张支持票，三周后他们仍然没有回答。<p>当我打开一个搜索（https://www.bing.com/search?q=benthos.dev）时，底部有一个&quot;一些结果已被删除&quot;的链接，将我带入一个兔子洞。<p>我不确定我现在能做什么，除了等待和希望支持票最终得到答复。如果我可以把范围缩小到版权要求和有害内容，也许我可以找出问题所在。\n",
+  "description_zh-Hant": "幾周前，我發現Bing將開源項目benthos的文檔網站（https://www.benthos.dev）從搜索結果中刪除了。我設置了他們的網站管理員工具，並試圖通過這種方式獲得答案，但我得到的只是一個模糊的&quot;URL不能出現在Bing上&quot;的答案，然後我開了一張支持票，三週後他們仍然沒有回答。<p>當我打開一個搜索（https://www.bing.com/search?q=benthos.dev）時，底部有一個&quot;一些結果已被刪除&quot;的鏈接，將我帶入一個兔子洞。<p>我不確定我現在能做什麼，除了等待和希望支持票最終得到答覆。如果我可以把範圍縮小到版權要求和有害內容，也許我可以找出問題所在。\n"
+}
