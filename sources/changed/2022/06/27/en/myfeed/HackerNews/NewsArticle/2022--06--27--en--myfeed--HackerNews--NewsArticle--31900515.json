@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--27--en--myfeed--HackerNews--NewsArticle--31900515",
+  "url": "https://news.ycombinator.com/item?id=31900515",
+  "headline": "Stateful Workloads on Kubernetes Are a Thing, but There Is a Twist",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sylvainkalache",
+    "url": "https://news.ycombinator.com/user?id=sylvainkalache"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31900515",
+  "sameAs": "https://thenewstack.io/stateful-workloads-on-kubernetes-are-a-thing-but-there-is-a-twist/",
+  "dateCreated": "2022-06-27T21:25:53.511Z",
+  "datePublished": "2022-06-27T20:42:06.000Z",
+  "dateModified": "2022-06-27T21:25:53.511Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Kubernetes上的有状态的工作负载是一个事情，但有一个转折点\n",
+  "headline_zh-Hant": "Kubernetes上的有狀態的工作負載是一個事情，但有一個轉折點\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
