@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--27--en--askhn--HackerNews--NewsArticle--31895285",
+  "url": "https://news.ycombinator.com/item?id=31895285",
+  "headline": "Ask HN: Speedtest.net shows random public ips",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi all,<p>I just looked at speedtest requests from my browser and seems like i keep getting random public ip addresses when i do speed tests. Am i the only one who noticed this or can anyone confirm if there is a problem.<p>I am getting paranoid if there is a malware in my home network stack somewhere. I am running the tests from switzerland and have already analyized my pi.hole requests and dont see anything weird so far. I only use legal software and official windows/os x devices.<p>Thanks a for your help.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "mnadkvlb",
+    "url": "https://news.ycombinator.com/user?id=mnadkvlb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31895285",
+  "sameAs": "https://news.ycombinator.com/item?id=31895285",
+  "dateCreated": "2022-06-27T14:56:59.608Z",
+  "datePublished": "2022-06-27T14:46:13.000Z",
+  "dateModified": "2022-06-27T14:56:59.608Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Speedtest.net显示随机的公共ip\n",
+  "headline_zh-Hant": "Ask HN: Speedtest.net顯示隨機的公共ip\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家好，<p>我刚刚查看了我的浏览器的速度测试请求，当我做速度测试时，似乎我一直得到随机的公共IP地址。我是唯一一个注意到这一点的人，还是有人能确认是否有问题。<p>我开始怀疑我的家庭网络堆栈中是否有恶意软件。我在瑞士进行测试，并且已经分析了我的pi.hole请求，到目前为止还没有看到任何奇怪的东西。我只使用合法的软件和官方的windows/os x设备。<p>感谢您的帮助。\n",
+  "description_zh-Hant": "大家好，<p>我剛剛查看了我的瀏覽器的速度測試請求，當我做速度測試時，似乎我一直得到隨機的公共IP地址。我是唯一一個注意到這一點的人，還是有人能確認是否有問題。<p>我開始懷疑我的家庭網絡堆棧中是否有惡意軟件。我在瑞士進行測試，並且已經分析了我的pi.hole請求，到目前為止還沒有看到任何奇怪的東西。我只使用合法的軟件和官方的windows/os x設備。<p>感謝您的幫助。\n"
+}
