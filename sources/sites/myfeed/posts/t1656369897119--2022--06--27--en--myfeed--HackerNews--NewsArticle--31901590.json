@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--27--en--myfeed--HackerNews--NewsArticle--31901590",
+  "url": "https://news.ycombinator.com/item?id=31901590",
+  "headline": "Chlorine gas leak kills 10 injures 251 more after storage tank falls onto a ship",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "basicplus2",
+    "url": "https://news.ycombinator.com/user?id=basicplus2"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31901590",
+  "sameAs": "https://www.abc.net.au/news/2022-06-28/chlorine-gas-leak-kills-injures-people-at-aqaba-jordan-port/101188482",
+  "dateCreated": "2022-06-27T22:44:57.119Z",
+  "datePublished": "2022-06-27T22:17:18.000Z",
+  "dateModified": "2022-06-27T22:44:57.119Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "氯气泄漏导致10人死亡，另有251人因储罐坠落到船上而受伤\n",
+  "headline_zh-Hant": "氯氣洩漏導致10人死亡，另有251人因儲罐墜落到船上而受傷\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
