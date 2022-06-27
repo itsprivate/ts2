@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--27--en--myfeed--HackerNews--NewsArticle--31891149",
+  "url": "https://news.ycombinator.com/item?id=31891149",
+  "headline": "Stop Worrying and Love Graphs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "szemy2",
+    "url": "https://news.ycombinator.com/user?id=szemy2"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31891149",
+  "sameAs": "https://www.appliedexploration.com/p/graph-neural-networks-future-of-ai",
+  "dateCreated": "2022-06-27T10:00:12.998Z",
+  "datePublished": "2022-06-27T06:13:20.000Z",
+  "dateModified": "2022-06-27T10:00:12.998Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "停止担忧，爱上图表\n",
+  "headline_zh-Hant": "停止擔憂，愛上圖表\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

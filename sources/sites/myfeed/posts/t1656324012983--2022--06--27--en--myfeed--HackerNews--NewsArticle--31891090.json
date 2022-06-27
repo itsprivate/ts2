@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--27--en--myfeed--HackerNews--NewsArticle--31891090",
+  "url": "https://news.ycombinator.com/item?id=31891090",
+  "headline": "Notes on OpenSSL remote memory corruption by Guido Vranken",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pentestercrab",
+    "url": "https://news.ycombinator.com/user?id=pentestercrab"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31891090",
+  "sameAs": "https://guidovranken.com/2022/06/27/notes-on-openssl-remote-memory-corruption/",
+  "dateCreated": "2022-06-27T10:00:12.983Z",
+  "datePublished": "2022-06-27T06:03:16.000Z",
+  "dateModified": "2022-06-27T10:00:12.983Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 33
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "关于OpenSSL远程内存损坏的说明 作者：Guido Vranken\n",
+  "headline_zh-Hant": "關於OpenSSL遠程內存損壞的說明 作者：Guido Vranken\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--27--en--hackernews--HackerNews--NewsArticle--31834256",
+  "url": "https://news.ycombinator.com/item?id=31834256",
+  "headline": "Going Critical (2019)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ranko",
+    "url": "https://news.ycombinator.com/user?id=ranko"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31834256",
+  "sameAs": "https://meltingasphalt.com/interactive/going-critical/",
+  "dateCreated": "2022-06-27T10:00:12.712Z",
+  "datePublished": "2022-06-22T10:45:04.000Z",
+  "dateModified": "2022-06-27T10:00:12.712Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 25
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "走向关键 (2019)\n",
+  "headline_zh-Hant": "走向關鍵 (2019)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

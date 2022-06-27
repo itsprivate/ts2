@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--27--en--myfeed--HackerNews--NewsArticle--31892025",
+  "url": "https://news.ycombinator.com/item?id=31892025",
+  "headline": "Tell HN: Critical issue in Aurora PostgreSQL Serverless v2",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We have identified a critical stability update for Aurora PostgreSQL Serverless v2 instances running versions 13.6, 13.7, and 14.3. We have also identified a critical issue in Aurora PostgreSQL Serverless v2 clusters running versions 13.7 and 14.3. These issues can cause database restarts or failovers under specific conditions. We have developed fixes and are deploying the fixes in two patches. The patches will be automatically applied to the affected instances and clusters in upcoming maintenance windows over the next 3 weeks causing two restarts of your database. One patch will show as a security and stability update and one patch will show as a database update. They will be scheduled sequentially.<p>How to Determine Which Instances are Running These Versions?<p>- In the Amazon RDS console, you can see details about a database cluster, including the Aurora PostgreSQL version of instances in the cluster, by choosing Databases from the console’s navigation pane.<p>- To view DB cluster information by using the AWS CLI, use the describe-db-clusters command.<p>- To view DB cluster information using the Amazon RDS API, use the DescribeDBClusters operation. You can also query a database directly to get the version number by querying the aurora_version() system function i.e., “SELECT * FROM aurora_version();“.<p>Should you have any questions or concerns, the AWS Support Team is available on the community forums and via Premium Support [1].<p>[1] https://aws.amazon.com/support",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "garritfra",
+    "url": "https://news.ycombinator.com/user?id=garritfra"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31892025",
+  "sameAs": "https://news.ycombinator.com/item?id=31892025",
+  "dateCreated": "2022-06-27T10:00:13.152Z",
+  "datePublished": "2022-06-27T08:45:44.000Z",
+  "dateModified": "2022-06-27T10:00:13.152Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：Aurora PostgreSQL Serverless v2的关键问题\n",
+  "headline_zh-Hant": "告訴HN：Aurora PostgreSQL Serverless v2的關鍵問題\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们已经为运行13.6、13.7和14.3版本的Aurora PostgreSQL Serverless v2实例确定了一个关键的稳定性更新。我们还在运行13.7和14.3版本的Aurora PostgreSQL Serverless v2集群中发现了一个关键问题。这些问题在特定条件下会导致数据库重启或故障转移。我们已经开发了修复程序，并在两个补丁中部署了这些修复程序。这些补丁将在未来3周的维护窗口中自动应用于受影响的实例和集群，导致数据库的两次重启。一个补丁将显示为安全和稳定性更新，一个补丁将显示为数据库更新。<p>如何确定哪些实例正在运行这些版本？<p>- 在Amazon RDS控制台中，你可以从控制台的导航窗格中选择数据库来查看数据库集群的详细信息，包括集群中实例的Aurora PostgreSQL版本。<p>- 要使用AWS CLI查看数据库集群信息，请使用describe-db-clusters命令。你也可以通过查询aurora_version()系统函数，即 \"SELECT * FROM aurora_version();\"，直接查询数据库以获得版本号。<p>如果你有任何问题或疑虑，AWS支持团队可在社区论坛和通过高级支持[1]。<p>[1] https://aws.amazon.com/support\n",
+  "description_zh-Hant": "我們已經為運行13.6、13.7和14.3版本的Aurora PostgreSQL Serverless v2實例確定了一個關鍵的穩定性更新。我們還在運行13.7和14.3版本的Aurora PostgreSQL Serverless v2集群中發現了一個關鍵問題。這些問題在特定條件下會導致數據庫重啟或故障轉移。我們已經開發了修復程序，並在兩個補丁中部署了這些修復程序。這些補丁將在未來3周的維護窗口中自動應用於受影響的實例和集群，導致數據庫的兩次重啟。一個補丁將顯示為安全和穩定性更新，一個補丁將顯示為數據庫更新。<p>如何確定哪些實例正在運行這些版本？<p>- 在Amazon RDS控制檯中，你可以從控制檯的導航窗格中選擇數據庫來查看數據庫集群的詳細信息，包括集群中實例的Aurora PostgreSQL版本。<p>- 要使用AWS CLI查看數據庫集群信息，請使用describe-db-clusters命令。你也可以通過查詢aurora_version()系統函數，即 \"SELECT * FROM aurora_version();\"，直接查詢數據庫以獲得版本號。<p>如果你有任何問題或疑慮，AWS支持團隊可在社區論壇和通過高級支持[1]。<p>[1] https://aws.amazon.com/support\n"
+}
