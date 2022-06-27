@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--27--en--myfeed--HackerNews--NewsArticle--31898479",
+  "url": "https://news.ycombinator.com/item?id=31898479",
+  "headline": "Rga: Ripgrep, but also search in PDFs, E-Books, Office documents, zip, etc",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sva_",
+    "url": "https://news.ycombinator.com/user?id=sva_"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31898479",
+  "sameAs": "https://github.com/phiresky/ripgrep-all",
+  "dateCreated": "2022-06-27T18:34:46.135Z",
+  "datePublished": "2022-06-27T18:17:30.000Z",
+  "dateModified": "2022-06-27T18:34:46.135Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Rga。Ripgrep，但也可以在PDF、电子书、Office文档、zip等中搜索\n",
+  "headline_zh-Hant": "Rga。Ripgrep，但也可以在PDF、電子書、Office文檔、zip等中搜索\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
