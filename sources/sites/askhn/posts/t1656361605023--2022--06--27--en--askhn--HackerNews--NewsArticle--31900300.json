@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--27--en--askhn--HackerNews--NewsArticle--31900300",
+  "url": "https://news.ycombinator.com/item?id=31900300",
+  "headline": "Ask HN: How does T-Mobile gather app usage data it then sells to third parties?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "There's been some talk about T-Mobile selling app usage data to third parties:<p>https://www.adexchanger.com/mobile/t-mobile-rebrands-its-ad-biz-and-navigates-the-perilous-line-between-programmatic-and-privacy/<p>https://www.phonearena.com/news/t-mobile-app-insights-selling-user-data_id140978<p>The question is: how is this data gathered? Is it via a hidden service in the OS? Or by monitoring network traffic? The privacy policy osn't if much help in this regard:<p>https://www.t-mobile.com/privacy-center/our-practices/advertising-solutions-privacy-notice<p>Even though it claims to describe &quot;how we collect, use, and share personal data&quot;, it does not at all answer the question of &quot;how do they collect the data&quot;.<p>So... how do they collect the data?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "kuba-orlik",
+    "url": "https://news.ycombinator.com/user?id=kuba-orlik"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31900300",
+  "sameAs": "https://news.ycombinator.com/item?id=31900300",
+  "dateCreated": "2022-06-27T20:26:45.023Z",
+  "datePublished": "2022-06-27T20:25:57.000Z",
+  "dateModified": "2022-06-27T20:26:45.023Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: T-Mobile如何收集应用程序的使用数据，然后出售给第三方？\n",
+  "headline_zh-Hant": "Ask HN: T-Mobile如何收集應用程序的使用數據，然後出售給第三方？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "有一些关于T-Mobile向第三方出售应用程序使用数据的讨论：<p>https://www.adexchanger.com/mobile/t-mobile-rebrands-its-ad-biz-and-navigates-the-perilous-line-between-programmatic-and-privacy/<p>https://www.phonearena.com/news/t-mobile-app-insights-selling-user-data_id140978<p>问题是：这些数据是如何收集的？是通过操作系统中的一个隐藏服务？还是通过监控网络流量？隐私政策在这方面没有什么帮助：<p>https://www.t-mobile.com/privacy-center/our-practices/advertising-solutions-privacy-notice<p>即使它声称描述了&quot;我们如何收集、使用和分享个人数据&quot;，它根本没有回答&quot;他们如何收集数据&quot;的问题。<p>那么...他们如何收集数据？\n",
+  "description_zh-Hant": "有一些關於T-Mobile向第三方出售應用程序使用數據的討論：<p>https://www.adexchanger.com/mobile/t-mobile-rebrands-its-ad-biz-and-navigates-the-perilous-line-between-programmatic-and-privacy/<p>https://www.phonearena.com/news/t-mobile-app-insights-selling-user-data_id140978<p>問題是：這些數據是如何收集的？是通過操作系統中的一個隱藏服務？還是通過監控網絡流量？隱私政策在這方面沒有什麼幫助：<p>https://www.t-mobile.com/privacy-center/our-practices/advertising-solutions-privacy-notice<p>即使它聲稱描述了&quot;我們如何收集、使用和分享個人數據&quot;，它根本沒有回答&quot;他們如何收集數據&quot;的問題。<p>那麼...他們如何收集數據？\n"
+}

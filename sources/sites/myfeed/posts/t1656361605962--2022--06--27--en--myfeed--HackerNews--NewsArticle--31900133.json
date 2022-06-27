@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--27--en--myfeed--HackerNews--NewsArticle--31900133",
+  "url": "https://news.ycombinator.com/item?id=31900133",
+  "headline": "As Gas Prices Surge, Stations Now Hold Up to $175 of Your Money When You Swipe",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bookofjoe",
+    "url": "https://news.ycombinator.com/user?id=bookofjoe"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31900133",
+  "sameAs": "https://www.wsj.com/articles/as-gas-prices-surge-stations-now-hold-up-to-175-of-your-money-when-you-swipe-11656277411",
+  "dateCreated": "2022-06-27T20:26:45.962Z",
+  "datePublished": "2022-06-27T20:12:00.000Z",
+  "dateModified": "2022-06-27T20:26:45.962Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "随着油价的飙升，现在加油站在你刷卡时最多可扣留175美元的钱\n",
+  "headline_zh-Hant": "隨著油價的飆升，現在加油站在你刷卡時最多可扣留175美元的錢\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
