@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--27--en--myfeed--HackerNews--NewsArticle--31897889",
+  "url": "https://news.ycombinator.com/item?id=31897889",
+  "headline": "Whist, a new cloud-hybrid browser",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dcposch",
+    "url": "https://news.ycombinator.com/user?id=dcposch"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31897889",
+  "sameAs": "https://www.whist.com/",
+  "dateCreated": "2022-06-27T17:42:06.682Z",
+  "datePublished": "2022-06-27T17:36:12.000Z",
+  "dateModified": "2022-06-27T17:42:06.682Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Whist，一个新的云混合浏览器\n",
+  "headline_zh-Hant": "Whist，一個新的雲混合瀏覽器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
