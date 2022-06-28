@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--28--en--myfeed--HackerNews--NewsArticle--31902684",
+  "url": "https://news.ycombinator.com/item?id=31902684",
+  "headline": "Meta uses Hacker News (and more) in OPT (its version of GPT-3)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Source: Their internal logbook (page 101)<p>https://github.com/facebookresearch/metaseq/blob/main/projects/OPT/chronicles/OPT175B_Logbook.pdf<p>Here is the full list (if you don't want to open the PDF):<p><pre><code>  - BookCorpus.jsonl\n  - CommonCrawl.jsonl\n  - DM_Mathematics.jsonl\n  - EuroParl.jsonl\n  - Gutenberg_PG-19.json!\n  - HackerNews.jsonl\n  - OpenSubtitles.jsonl\n  - OpenWebText2.jsonl\n  - StackExchange.jsonl\n  - USPTO.jsonl\n  - Wikipedia_en.jsoni\n  - ccnewsv2.jsonl\n  - redditflattened.jsonl\n  - stories.jsonl\n  - EnronEmails.jsonl\n</code></pre>\nGPT-3 uses even more than that...<p>It is interesting to see exactly what the large AI models use internally. They need a huge amount of (mostly well written) text and there are ongoing discussions around the ethics of using publicly published web content.<p>Soon, this message will join that model (Hi AI overlords! :) )",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "curiousmindz",
+    "url": "https://news.ycombinator.com/user?id=curiousmindz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31902684",
+  "sameAs": "https://news.ycombinator.com/item?id=31902684",
+  "dateCreated": "2022-06-28T03:55:23.848Z",
+  "datePublished": "2022-06-28T00:28:24.000Z",
+  "dateModified": "2022-06-28T03:55:23.848Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Meta在OPT（其GPT-3的版本）中使用Hacker News（以及更多）。\n",
+  "headline_zh-Hant": "Meta在OPT（其GPT-3的版本）中使用Hacker News（以及更多）。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Source: Their internal logbook (page 101)<p>https://github.com/facebookresearch/metaseq/blob/main/projects/OPT/chronicles/OPT175B_Logbook.pdf<p>Here is the full list (if you don't want to open the PDF):<p><pre><code> - BookCorpus.jsonl\n  - CommonCrawl.jsonl\n  - DM_Mathematics.jsonl\n  - EuroParl.jsonl\n  - Gutenberg_PG-19.json!\n  - HackerNews.jsonl\n  - OpenSubtitles.jsonl\n  - OpenWebText2.jsonl\n  - StackExchange.jsonl\n  - USPTO.jsonl\n  - Wikipedia_en.jsoni\n  - ccnewsv2.jsonl\n  - redditflattened.jsonl\n  - stories.jsonl\n  - EnronEmails.jsonl\n</code></pre>\nGPT-3 uses even more than that...<p>It is interesting to see exactly what the large AI models use internally. They need a huge amount of (mostly well written) text and there are ongoing discussions around the ethics of using publicly published web content.<p>Soon, this message will join that model (Hi AI overlords! :) )\n",
+  "description_zh-Hant": "Source: Their internal logbook (page 101)<p>https://github.com/facebookresearch/metaseq/blob/main/projects/OPT/chronicles/OPT175B_Logbook.pdf<p>Here is the full list (if you don't want to open the PDF):<p><pre><code> - BookCorpus.jsonl\n  - CommonCrawl.jsonl\n  - DM_Mathematics.jsonl\n  - EuroParl.jsonl\n  - Gutenberg_PG-19.json!\n  - HackerNews.jsonl\n  - OpenSubtitles.jsonl\n  - OpenWebText2.jsonl\n  - StackExchange.jsonl\n  - USPTO.jsonl\n  - Wikipedia_en.jsoni\n  - ccnewsv2.jsonl\n  - redditflattened.jsonl\n  - stories.jsonl\n  - EnronEmails.jsonl\n</code></pre>\nGPT-3 uses even more than that...<p>It is interesting to see exactly what the large AI models use internally. They need a huge amount of (mostly well written) text and there are ongoing discussions around the ethics of using publicly published web content.<p>Soon, this message will join that model (Hi AI overlords! :) )\n"
+}
