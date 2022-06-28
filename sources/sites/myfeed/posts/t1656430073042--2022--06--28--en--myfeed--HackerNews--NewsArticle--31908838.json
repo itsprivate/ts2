@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--28--en--myfeed--HackerNews--NewsArticle--31908838",
+  "url": "https://news.ycombinator.com/item?id=31908838",
+  "headline": "PyPI June 27 incident – Post Mortem",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "remram",
+    "url": "https://news.ycombinator.com/user?id=remram"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31908838",
+  "sameAs": "https://status.python.org/incidents/l16ylxktn4r9",
+  "dateCreated": "2022-06-28T15:27:53.042Z",
+  "datePublished": "2022-06-28T15:18:14.000Z",
+  "dateModified": "2022-06-28T15:27:53.042Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "PyPI 6月27日事件--事后总结\n",
+  "headline_zh-Hant": "PyPI 6月27日事件--事後總結\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
