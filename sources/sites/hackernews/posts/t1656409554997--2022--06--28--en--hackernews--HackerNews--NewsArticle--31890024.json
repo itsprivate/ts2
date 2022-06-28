@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--28--en--hackernews--HackerNews--NewsArticle--31890024",
+  "url": "https://news.ycombinator.com/item?id=31890024",
+  "headline": "Multi-gitter – CLI to update multiple Git repositories in bulk",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "smcleod",
+    "url": "https://news.ycombinator.com/user?id=smcleod"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31890024",
+  "sameAs": "https://github.com/lindell/multi-gitter",
+  "dateCreated": "2022-06-28T09:45:54.997Z",
+  "datePublished": "2022-06-27T02:37:12.000Z",
+  "dateModified": "2022-06-28T09:45:54.997Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Multi-gitter - 批量更新多个Git存储库的CLI\n",
+  "headline_zh-Hant": "Multi-gitter - 批量更新多個Git存儲庫的CLI\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
