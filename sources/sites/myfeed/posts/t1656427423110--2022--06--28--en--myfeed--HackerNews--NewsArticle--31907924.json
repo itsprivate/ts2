@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--28--en--myfeed--HackerNews--NewsArticle--31907924",
+  "url": "https://news.ycombinator.com/item?id=31907924",
+  "headline": "Two memory-tiering patch sets for Linux",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "chmaynard",
+    "url": "https://news.ycombinator.com/user?id=chmaynard"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31907924",
+  "sameAs": "https://lwn.net/SubscriberLink/898766/510e27af1d4861e0/",
+  "dateCreated": "2022-06-28T14:43:43.110Z",
+  "datePublished": "2022-06-28T14:13:09.000Z",
+  "dateModified": "2022-06-28T14:43:43.110Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用于Linux的两个内存分层补丁集\n",
+  "headline_zh-Hant": "用於Linux的兩個內存分層補丁集\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
