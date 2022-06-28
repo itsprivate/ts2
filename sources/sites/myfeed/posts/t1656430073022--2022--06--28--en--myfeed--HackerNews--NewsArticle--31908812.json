@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--28--en--myfeed--HackerNews--NewsArticle--31908812",
+  "url": "https://news.ycombinator.com/item?id=31908812",
+  "headline": "What's Happening to GlassFish",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mgoforth",
+    "url": "https://news.ycombinator.com/user?id=mgoforth"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31908812",
+  "sameAs": "https://omnifish.ee/2022/06/28/oh-what-did-you-do-to-glassfish/",
+  "dateCreated": "2022-06-28T15:27:53.022Z",
+  "datePublished": "2022-06-28T15:15:54.000Z",
+  "dateModified": "2022-06-28T15:27:53.022Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "玻璃鱼 \"发生了什么\n",
+  "headline_zh-Hant": "玻璃魚 \"發生了什麼\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
