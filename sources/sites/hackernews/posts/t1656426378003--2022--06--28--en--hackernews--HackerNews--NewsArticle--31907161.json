@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--28--en--hackernews--HackerNews--NewsArticle--31907161",
+  "url": "https://news.ycombinator.com/item?id=31907161",
+  "headline": "Universal Media Server. A DLNA, UPnP and HTTP(s) Media Server",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "proxysna",
+    "url": "https://news.ycombinator.com/user?id=proxysna"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31907161",
+  "sameAs": "https://www.universalmediaserver.com/",
+  "dateCreated": "2022-06-28T14:26:18.003Z",
+  "datePublished": "2022-06-28T13:05:48.000Z",
+  "dateModified": "2022-06-28T14:26:18.003Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "通用媒体服务器。一个DLNA、UPnP和HTTP（s）媒体服务器\n",
+  "headline_zh-Hant": "通用媒體服務器。一個DLNA、UPnP和HTTP（s）媒體服務器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
