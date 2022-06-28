@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--28--en--myfeed--HackerNews--NewsArticle--31909916",
+  "url": "https://news.ycombinator.com/item?id=31909916",
+  "headline": "Graphs of cool long term trends",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "LordNibbler",
+    "url": "https://news.ycombinator.com/user?id=LordNibbler"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31909916",
+  "sameAs": "https://agolajko.com/cool_graphs.html",
+  "dateCreated": "2022-06-28T17:13:03.006Z",
+  "datePublished": "2022-06-28T16:36:46.000Z",
+  "dateModified": "2022-06-28T17:13:03.006Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "凉爽的长期趋势的图表\n",
+  "headline_zh-Hant": "涼爽的長期趨勢的圖表\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
