@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--28--en--myfeed--HackerNews--NewsArticle--31907054",
+  "url": "https://news.ycombinator.com/item?id=31907054",
+  "headline": "Reddit is down globally",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Their homepage (https://www.reddit.com) is showing &quot;Our CDN was unable to reach our servers&quot;. Interestingly, redditstatus.com is showing all green.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "leohonexus",
+    "url": "https://news.ycombinator.com/user?id=leohonexus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31907054",
+  "sameAs": "https://news.ycombinator.com/item?id=31907054",
+  "dateCreated": "2022-06-28T13:46:30.021Z",
+  "datePublished": "2022-06-28T12:56:04.000Z",
+  "dateModified": "2022-06-28T13:46:30.021Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 7
+    }
+  ],
+  "headline_zh-Hans": "Reddit在全球范围内瘫痪了\n",
+  "headline_zh-Hant": "Reddit在全球範圍內癱瘓了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "他们的主页（https://www.reddit.com）显示&quot;我们的CDN无法到达我们的服务器&quot;。有趣的是，redditstatus.com显示全部为绿色。\n",
+  "description_zh-Hant": "他們的主頁（https://www.reddit.com）顯示&quot;我們的CDN無法到達我們的服務器&quot;。有趣的是，redditstatus.com顯示全部為綠色。\n"
+}
