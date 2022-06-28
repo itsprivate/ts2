@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--28--en--myfeed--HackerNews--NewsArticle--31905098",
+  "url": "https://news.ycombinator.com/item?id=31905098",
+  "headline": "Mystery rocket crashed into the moon – and no one (on Earth) is owning up",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "matthewsinclair",
+    "url": "https://news.ycombinator.com/user?id=matthewsinclair"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31905098",
+  "sameAs": "https://www.smh.com.au/world/north-america/a-mystery-rocket-crashed-into-the-moon-and-no-one-on-earth-is-owning-up-20220628-p5ax4x.html",
+  "dateCreated": "2022-06-28T08:35:44.898Z",
+  "datePublished": "2022-06-28T07:24:50.000Z",
+  "dateModified": "2022-06-28T08:35:44.898Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "神秘火箭坠入月球--没有人（在地球上）承认这一点\n",
+  "headline_zh-Hant": "神秘火箭墜入月球--沒有人（在地球上）承認這一點\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
