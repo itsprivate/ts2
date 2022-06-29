@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--29--en--myfeed--HackerNews--NewsArticle--31926635",
+  "url": "https://news.ycombinator.com/item?id=31926635",
+  "headline": "ProxiTok – open-source alternative front end for TikTok made using PHP",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "LeonTheremin",
+    "url": "https://news.ycombinator.com/user?id=LeonTheremin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31926635",
+  "sameAs": "https://github.com/pablouser1/ProxiTok",
+  "dateCreated": "2022-06-29T23:25:57.161Z",
+  "datePublished": "2022-06-29T22:47:30.000Z",
+  "dateModified": "2022-06-29T23:25:57.161Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "ProxiTok - 使用PHP制作的TikTok的开源替代前端\n",
+  "headline_zh-Hant": "ProxiTok - 使用PHP製作的TikTok的開源替代前端\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
