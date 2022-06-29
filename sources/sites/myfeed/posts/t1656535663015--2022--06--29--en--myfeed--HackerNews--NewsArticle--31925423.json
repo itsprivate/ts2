@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--29--en--myfeed--HackerNews--NewsArticle--31925423",
+  "url": "https://news.ycombinator.com/item?id=31925423",
+  "headline": "Can a Corporation “Own” a Color?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cpeterso",
+    "url": "https://news.ycombinator.com/user?id=cpeterso"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31925423",
+  "sameAs": "https://thehustle.co/can-a-corporation-trademark-a-color/",
+  "dateCreated": "2022-06-29T20:47:43.015Z",
+  "datePublished": "2022-06-29T20:37:03.000Z",
+  "dateModified": "2022-06-29T20:47:43.015Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "公司可以 \"拥有 \"一种颜色吗？\n",
+  "headline_zh-Hant": "公司可以 \"擁有 \"一種顏色嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
