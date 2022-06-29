@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--29--en--myfeed--HackerNews--NewsArticle--31919549",
+  "url": "https://news.ycombinator.com/item?id=31919549",
+  "headline": "Co-worker does not exist: FBI warns of deepfakes interviewing for tech jobs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Futurebot",
+    "url": "https://news.ycombinator.com/user?id=Futurebot"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31919549",
+  "sameAs": "https://techcrunch.com/2022/06/28/this-coworker-does-not-exist-fbi-warns-of-deepfakes-interviewing-for-tech-jobs/",
+  "dateCreated": "2022-06-29T13:46:13.419Z",
+  "datePublished": "2022-06-29T13:04:35.000Z",
+  "dateModified": "2022-06-29T13:46:13.419Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "同事并不存在。联邦调查局警告说，面试科技工作的深层假货\n",
+  "headline_zh-Hant": "同事並不存在。聯邦調查局警告說，面試科技工作的深層假貨\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

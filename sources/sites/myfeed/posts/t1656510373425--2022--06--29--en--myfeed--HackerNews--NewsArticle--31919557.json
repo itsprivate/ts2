@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--29--en--myfeed--HackerNews--NewsArticle--31919557",
+  "url": "https://news.ycombinator.com/item?id=31919557",
+  "headline": "John Horton Conway’s Doomsday Rule",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "wrycoder",
+    "url": "https://news.ycombinator.com/user?id=wrycoder"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31919557",
+  "sameAs": "https://en.wikipedia.org/wiki/Doomsday_rule",
+  "dateCreated": "2022-06-29T13:46:13.425Z",
+  "datePublished": "2022-06-29T13:05:27.000Z",
+  "dateModified": "2022-06-29T13:46:13.425Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "约翰-霍顿-康威的末日规则\n",
+  "headline_zh-Hant": "約翰-霍頓-康威的末日規則\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
