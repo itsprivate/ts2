@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--29--en--myfeed--HackerNews--NewsArticle--31922284",
+  "url": "https://news.ycombinator.com/item?id=31922284",
+  "headline": "Building a Secure Software Supply Chain with GNU Guix",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mpweiher",
+    "url": "https://news.ycombinator.com/user?id=mpweiher"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31922284",
+  "sameAs": "https://programming-journal.org/2023/7/1/",
+  "dateCreated": "2022-06-29T16:57:26.399Z",
+  "datePublished": "2022-06-29T16:20:54.000Z",
+  "dateModified": "2022-06-29T16:57:26.399Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用GNU Guix建立一个安全的软件供应链\n",
+  "headline_zh-Hant": "用GNU Guix建立一個安全的軟件供應鏈\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
