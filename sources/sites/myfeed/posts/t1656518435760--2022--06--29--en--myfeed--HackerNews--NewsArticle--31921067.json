@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--29--en--myfeed--HackerNews--NewsArticle--31921067",
+  "url": "https://news.ycombinator.com/item?id=31921067",
+  "headline": "Send an Open Source Developer on Vacation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jelder",
+    "url": "https://news.ycombinator.com/user?id=jelder"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31921067",
+  "sameAs": "https://tuple.app/sends-you-on-vacation/",
+  "dateCreated": "2022-06-29T16:00:35.760Z",
+  "datePublished": "2022-06-29T14:56:56.000Z",
+  "dateModified": "2022-06-29T16:00:35.760Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "送一位开源开发者去度假\n",
+  "headline_zh-Hant": "送一位開源開發者去度假\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

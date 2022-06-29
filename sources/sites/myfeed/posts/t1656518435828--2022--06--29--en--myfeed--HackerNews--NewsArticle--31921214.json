@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--29--en--myfeed--HackerNews--NewsArticle--31921214",
+  "url": "https://news.ycombinator.com/item?id=31921214",
+  "headline": "I built the most distributed serverless infrastrucutre in the world",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've built what we believe to be the most distributed Kubernetes (public) infrastructure, spread over 350 datacenters worldwide. We are not using standard federation, we faced multiple challenges not supported by K8. We looked at this from a different angle than your typical run-of-the-mill k8 deployment since we host multiplayer game servers. Those can’t scale like web apps (stateful connections), and require low latency which prevents steering through many proxies. Our goal was to allow on-demand, in a real-time environment, requests to deploy an application (game servers, or anything really) anywhere on this distributed network. We use this technic to get pods in the best location to lower latency which is critical in multiplayer games. We’ve shown latency reduction by 50% in average for majority of the traffic. We leverage edge computing which is why we called the startup Edgegap. Feel free to ask me anything.<p>I'm guessing some private infrastructure may have more locations, but they're most likely private like food chain or something like that. None of them are public, and they're typically built to run only 1 set of applications (aka the apps from the food chain).",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mduperre",
+    "url": "https://news.ycombinator.com/user?id=mduperre"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31921214",
+  "sameAs": "https://news.ycombinator.com/item?id=31921214",
+  "dateCreated": "2022-06-29T16:00:35.828Z",
+  "datePublished": "2022-06-29T15:06:04.000Z",
+  "dateModified": "2022-06-29T16:00:35.828Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我建立了世界上分布最广的无服务器基础设施\n",
+  "headline_zh-Hant": "我建立了世界上分佈最廣的無服務器基礎設施\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我已经建立了我们认为是分布最广的Kubernetes（公共）基础设施，分布在全球350个数据中心。我们没有使用标准的联盟，我们面临着K8不支持的多种挑战。我们从不同的角度来看待这个问题，而不是典型的运行中的K8部署，因为我们托管了多人游戏服务器。这些服务器不能像网络应用程序那样扩展（有状态的连接），而且需要低延迟，这使得我们不能通过许多代理来引导。我们的目标是允许在实时环境中按需请求在这个分布式网络上的任何地方部署应用程序（游戏服务器，或任何东西）。我们使用这种技术使豆荚处于最佳位置，以降低延迟，这在多人游戏中是至关重要的。我们已经表明，大多数流量的延迟平均减少了50%。我们利用边缘计算，这就是为什么我们把创业公司称为Edgegap。欢迎向我提出任何问题。<p>我猜测一些私人基础设施可能有更多的位置，但它们很可能是私人的，如食物链或类似的东西。它们都不是公开的，而且它们通常只为运行一组应用程序（也就是食物链上的应用程序）而构建。\n",
+  "description_zh-Hant": "我已經建立了我們認為是分佈最廣的Kubernetes（公共）基礎設施，分佈在全球350個數據中心。我們沒有使用標準的聯盟，我們面臨著K8不支持的多種挑戰。我們從不同的角度來看待這個問題，而不是典型的運行中的K8部署，因為我們託管了多人遊戲服務器。這些服務器不能像網絡應用程序那樣擴展（有狀態的連接），而且需要低延遲，這使得我們不能通過許多代理來引導。我們的目標是允許在實時環境中按需請求在這個分佈式網絡上的任何地方部署應用程序（遊戲服務器，或任何東西）。我們使用這種技術使豆莢處於最佳位置，以降低延遲，這在多人遊戲中是至關重要的。我們已經表明，大多數流量的延遲平均減少了50%。我們利用邊緣計算，這就是為什麼我們把創業公司稱為Edgegap。歡迎向我提出任何問題。<p>我猜測一些私人基礎設施可能有更多的位置，但它們很可能是私人的，如食物鏈或類似的東西。它們都不是公開的，而且它們通常只為運行一組應用程序（也就是食物鏈上的應用程序）而構建。\n"
+}
