@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--29--en--myfeed--HackerNews--NewsArticle--31920232",
+  "url": "https://news.ycombinator.com/item?id=31920232",
+  "headline": "Does Pair Programming Replace Code Reviews?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "RealPureFan",
+    "url": "https://news.ycombinator.com/user?id=RealPureFan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31920232",
+  "sameAs": "https://mergeboard.com/blog/7-pair-programming-code-reviews/",
+  "dateCreated": "2022-06-29T15:01:57.519Z",
+  "datePublished": "2022-06-29T14:02:50.000Z",
+  "dateModified": "2022-06-29T15:01:57.519Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "结对编程是否取代了代码评审？\n",
+  "headline_zh-Hant": "結對編程是否取代了代碼評審？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
