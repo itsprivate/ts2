@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--29--en--myfeed--HackerNews--NewsArticle--31916912",
+  "url": "https://news.ycombinator.com/item?id=31916912",
+  "headline": "The Outrage Dividend",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "d4a",
+    "url": "https://news.ycombinator.com/user?id=d4a"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31916912",
+  "sameAs": "https://rys.io/en/159.html",
+  "dateCreated": "2022-06-29T07:26:30.861Z",
+  "datePublished": "2022-06-29T05:52:31.000Z",
+  "dateModified": "2022-06-29T07:26:30.861Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "愤怒的红利\n",
+  "headline_zh-Hant": "憤怒的紅利\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
