@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--29--en--myfeed--HackerNews--NewsArticle--31918151",
+  "url": "https://news.ycombinator.com/item?id=31918151",
+  "headline": "Smart Browser Address Bar",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "thunderbong",
+    "url": "https://news.ycombinator.com/user?id=thunderbong"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31918151",
+  "sameAs": "https://ilyabirman.net/addressbar/",
+  "dateCreated": "2022-06-29T10:31:08.319Z",
+  "datePublished": "2022-06-29T09:53:36.000Z",
+  "dateModified": "2022-06-29T10:31:08.319Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "智能浏览器地址栏\n",
+  "headline_zh-Hant": "智能瀏覽器地址欄\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
