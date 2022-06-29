@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--29--en--hackernews--HackerNews--NewsArticle--31906391",
+  "url": "https://news.ycombinator.com/item?id=31906391",
+  "headline": "Golden Gate Bridge construction – and indignation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "notlukesky",
+    "url": "https://news.ycombinator.com/user?id=notlukesky"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31906391",
+  "sameAs": "https://www.sfgate.com/bayarea/place/article/Golden-Gate-Bridge-construction-and-indignation-3554707.php",
+  "dateCreated": "2022-06-29T15:01:57.268Z",
+  "datePublished": "2022-06-28T11:30:36.000Z",
+  "dateModified": "2022-06-29T15:01:57.268Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 15
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 7
+    }
+  ],
+  "headline_zh-Hans": "金门大桥建设--和愤慨\n",
+  "headline_zh-Hant": "金門大橋建設--和憤慨\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
