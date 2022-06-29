@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--29--en--myfeed--HackerNews--NewsArticle--31919532",
+  "url": "https://news.ycombinator.com/item?id=31919532",
+  "headline": "Follow Hacker News on Twitter. Updated Hourly",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "iloverss",
+    "url": "https://news.ycombinator.com/user?id=iloverss"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31919532",
+  "sameAs": "https://twitter.com/Top3HackerNews",
+  "dateCreated": "2022-06-29T13:46:13.392Z",
+  "datePublished": "2022-06-29T13:02:34.000Z",
+  "dateModified": "2022-06-29T13:46:13.392Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "在Twitter上关注Hacker News。每小时更新一次\n",
+  "headline_zh-Hant": "在Twitter上關注Hacker News。每小時更新一次\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
