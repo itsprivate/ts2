@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--29--en--myfeed--HackerNews--NewsArticle--31918550",
+  "url": "https://news.ycombinator.com/item?id=31918550",
+  "headline": "The greatest movie that never was",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "akolbe",
+    "url": "https://news.ycombinator.com/user?id=akolbe"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31918550",
+  "sameAs": "https://www.dailydot.com/upstream/wikipedia-hoax-yuri-gadyukin-nitrate-movie/",
+  "dateCreated": "2022-06-29T11:23:23.975Z",
+  "datePublished": "2022-06-29T11:01:18.000Z",
+  "dateModified": "2022-06-29T11:23:23.975Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "从未出现过的最伟大的电影\n",
+  "headline_zh-Hant": "從未出現過的最偉大的電影\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

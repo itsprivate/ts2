@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--29--en--myfeed--HackerNews--NewsArticle--31918625",
+  "url": "https://news.ycombinator.com/item?id=31918625",
+  "headline": "ClearBuds: Wireless Binaural Earbuds",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vvoyer",
+    "url": "https://news.ycombinator.com/user?id=vvoyer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31918625",
+  "sameAs": "https://clearbuds.cs.washington.edu/",
+  "dateCreated": "2022-06-29T11:23:23.990Z",
+  "datePublished": "2022-06-29T11:13:03.000Z",
+  "dateModified": "2022-06-29T11:23:23.990Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "ClearBuds。无线双耳式耳塞\n",
+  "headline_zh-Hant": "ClearBuds。無線雙耳式耳塞\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
