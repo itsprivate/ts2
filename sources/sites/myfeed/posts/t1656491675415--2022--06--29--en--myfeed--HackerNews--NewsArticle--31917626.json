@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--29--en--myfeed--HackerNews--NewsArticle--31917626",
+  "url": "https://news.ycombinator.com/item?id=31917626",
+  "headline": "YOLOv6: Redefine state-of-the-art for object detection",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "npRandom",
+    "url": "https://news.ycombinator.com/user?id=npRandom"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31917626",
+  "sameAs": "https://dagshub.com/blog/yolov6/#",
+  "dateCreated": "2022-06-29T08:34:35.415Z",
+  "datePublished": "2022-06-29T08:14:05.000Z",
+  "dateModified": "2022-06-29T08:34:35.415Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "YOLOv6: 重新定义物体检测的最先进技术\n",
+  "headline_zh-Hant": "YOLOv6: 重新定義物體檢測的最先進技術\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
