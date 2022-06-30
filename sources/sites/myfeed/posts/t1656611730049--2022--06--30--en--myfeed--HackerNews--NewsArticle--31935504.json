@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31935504",
+  "url": "https://news.ycombinator.com/item?id=31935504",
+  "headline": "State of the Forge Federation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rapnie",
+    "url": "https://news.ycombinator.com/user?id=rapnie"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31935504",
+  "sameAs": "https://forgefriends.org/blog/2022/06/30/2022-06-state-forge-federation/",
+  "dateCreated": "2022-06-30T17:55:30.049Z",
+  "datePublished": "2022-06-30T17:11:53.000Z",
+  "dateModified": "2022-06-30T17:55:30.049Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "锻造联合会的状况\n",
+  "headline_zh-Hant": "鍛造聯合會的狀況\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
