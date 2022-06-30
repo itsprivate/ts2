@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31931403",
+  "url": "https://news.ycombinator.com/item?id=31931403",
+  "headline": "Indian police arrest two men accused of decapitating Hindu man on camera",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "haltingproblem",
+    "url": "https://news.ycombinator.com/user?id=haltingproblem"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31931403",
+  "sameAs": "https://www.abc.net.au/news/2022-06-29/hindu-man-decapitated-in-india/101192510",
+  "dateCreated": "2022-06-30T12:52:57.546Z",
+  "datePublished": "2022-06-30T12:12:27.000Z",
+  "dateModified": "2022-06-30T12:52:57.546Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "印度警方逮捕两名被指控在镜头前斩首印度教男子的男子\n",
+  "headline_zh-Hant": "印度警方逮捕兩名被指控在鏡頭前斬首印度教男子的男子\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

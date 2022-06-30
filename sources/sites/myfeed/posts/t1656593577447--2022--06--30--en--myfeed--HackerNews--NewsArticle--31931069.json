@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31931069",
+  "url": "https://news.ycombinator.com/item?id=31931069",
+  "headline": "H&M showed bogus environmental scores for its clothing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "NickRandom",
+    "url": "https://news.ycombinator.com/user?id=NickRandom"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31931069",
+  "sameAs": "https://qz.com/2180075/hm-showed-bogus-environmental-higg-index-scores-for-its-clothing/",
+  "dateCreated": "2022-06-30T12:52:57.447Z",
+  "datePublished": "2022-06-30T11:27:01.000Z",
+  "dateModified": "2022-06-30T12:52:57.447Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "H&M为其服装显示虚假的环境分数\n",
+  "headline_zh-Hant": "H&M為其服裝顯示虛假的環境分數\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

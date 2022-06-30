@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31930970",
+  "url": "https://news.ycombinator.com/item?id=31930970",
+  "headline": "Who can identify Pfizer employees in this video?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "2-718-281-828",
+    "url": "https://news.ycombinator.com/user?id=2-718-281-828"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31930970",
+  "sameAs": "https://twitter.com/i/status/1538157487102230528",
+  "dateCreated": "2022-06-30T12:52:57.426Z",
+  "datePublished": "2022-06-30T11:12:20.000Z",
+  "dateModified": "2022-06-30T12:52:57.426Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "谁能在这段视频中认出辉瑞的员工？\n",
+  "headline_zh-Hant": "誰能在這段視頻中認出輝瑞的員工？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
