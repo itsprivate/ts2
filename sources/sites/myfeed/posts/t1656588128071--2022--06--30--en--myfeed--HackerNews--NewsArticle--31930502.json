@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31930502",
+  "url": "https://news.ycombinator.com/item?id=31930502",
+  "headline": "NATO Launches Innovation Fund",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "T-A",
+    "url": "https://news.ycombinator.com/user?id=T-A"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31930502",
+  "sameAs": "https://www.nato.int/cps/en/natohq/news_197494.htm",
+  "dateCreated": "2022-06-30T11:22:08.071Z",
+  "datePublished": "2022-06-30T10:00:50.000Z",
+  "dateModified": "2022-06-30T11:22:08.071Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "北约启动创新基金\n",
+  "headline_zh-Hant": "北約啟動創新基金\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
