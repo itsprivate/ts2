@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31936402",
+  "url": "https://news.ycombinator.com/item?id=31936402",
+  "headline": "TAOBench: An End-to-End Benchmark for Social Networking Workloads [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "c4pt0r",
+    "url": "https://news.ycombinator.com/user?id=c4pt0r"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31936402",
+  "sameAs": "https://www.vldb.org/pvldb/vol15/p1965-cheng.pdf",
+  "dateCreated": "2022-06-30T19:00:30.410Z",
+  "datePublished": "2022-06-30T18:20:36.000Z",
+  "dateModified": "2022-06-30T19:00:30.410Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "TAOBench: 社交网络工作负载的端到端基准 [pdf]\n",
+  "headline_zh-Hant": "TAOBench: 社交網絡工作負載的端到端基準 [pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
