@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31928562",
+  "url": "https://news.ycombinator.com/item?id=31928562",
+  "headline": "Octology: The Ontology of 8",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "popcalc",
+    "url": "https://news.ycombinator.com/user?id=popcalc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31928562",
+  "sameAs": "https://github.com/pip/Octology",
+  "dateCreated": "2022-06-30T04:48:53.470Z",
+  "datePublished": "2022-06-30T03:50:03.000Z",
+  "dateModified": "2022-06-30T04:48:53.470Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Octology。8的本体论\n",
+  "headline_zh-Hant": "Octology。8的本體論\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
