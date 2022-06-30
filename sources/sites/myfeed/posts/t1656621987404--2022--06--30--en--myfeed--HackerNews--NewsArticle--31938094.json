@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31938094",
+  "url": "https://news.ycombinator.com/item?id=31938094",
+  "headline": "I’ve Made Desktop Pets for macOS",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Curzel",
+    "url": "https://news.ycombinator.com/user?id=Curzel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31938094",
+  "sameAs": "https://github.com/curzel-it/pet-therapy",
+  "dateCreated": "2022-06-30T20:46:27.404Z",
+  "datePublished": "2022-06-30T20:24:54.000Z",
+  "dateModified": "2022-06-30T20:46:27.404Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我为macOS制作的桌面宠物\n",
+  "headline_zh-Hant": "我為macOS製作的桌面寵物\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
