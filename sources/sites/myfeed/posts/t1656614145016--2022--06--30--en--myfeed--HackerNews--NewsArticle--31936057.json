@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31936057",
+  "url": "https://news.ycombinator.com/item?id=31936057",
+  "headline": "Just found Amazon logs details about kids",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "After requesting a Amazon Data Download I found the folder stats&quot; folder Devices.Kindle.FreeTime.zip  (the account had a Kindle HD tablet) inside it are logs on kids. \nDoing a grep search across the entire directory of all downloads returns<p>&quot;log_timestamp&quot;,\n&quot;child_num&quot;,\n&quot;min_age&quot;,\n&quot;max_age&quot;<p>&quot;event_source&quot;,\n&quot;is_prime&quot;,\n&quot;is_free_trial&quot;,\n&quot;child_count&quot;,\n&quot;log_timestamp_TIMEZONE&quot;<p>&quot;asin_or_character_title&quot;,\n&quot;content_location&quot;,\n&quot;tap_row_index&quot;,\n&quot;tap_column_index&quot;\n,&quot;media_type&quot;,\n&quot;tab_name&quot;,\n&quot;tap_datetime&quot;,\n&quot;marketplace_id&quot;,\n&quot;child_number&quot;,\n&quot;child_gender&quot;,\n&quot;child_age&quot;,\n&quot;device_orientation&quot;\n,&quot;country_of_residence&quot;\n,&quot;media_item_id&quot;\n&quot;asin&quot;\n,&quot;media_type&quot;\n,&quot;content_stream_end_time&quot;\n,&quot;time_spent_in_seconds&quot;\n,&quot;content_close_reason&quot;\n,&quot;child number&quot;\n,&quot;child_gender&quot;\n,&quot;child_age&quot;\n,&quot;device_orientation&quot;\n,&quot;country_of_residence&quot;\n,&quot;marketplace_id&quot;,&quot;app_package_version&quot;\n,&quot;is_device_online&quot;\n,&quot;item_id&quot;\n,&quot;title&quot;,&quot;operating_system&quot;\n,&quot;system_locale&quot;\n,&quot;tap_row_index&quot;\n,&quot;page type&quot;\n,\n&quot;tap_column_index&quot;<p>They also track when you click play pause or skip on audio, how long it was played, what you like and dislike, provide a negative or positive value on tracks and record every single tap. (seriously look at! Kindle.Devices.HomePage.Actions.Ereader.csv ) also logged is the time you add or delete a wifi network (Profile Delete Confirmation)  and just hundreds and hundreds of logs.<p>amazon also saves a recording and audio transcript of everything you ask with a corresponding ID to the recording.<p>Take a look at Amazon history if you have an account. Request your data and go through it on linux it's pretty mind-blowing.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Thisisthefuture",
+    "url": "https://news.ycombinator.com/user?id=Thisisthefuture"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31936057",
+  "sameAs": "https://news.ycombinator.com/item?id=31936057",
+  "dateCreated": "2022-06-30T18:35:45.016Z",
+  "datePublished": "2022-06-30T17:53:41.000Z",
+  "dateModified": "2022-06-30T18:35:45.016Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "刚刚发现亚马逊日志中关于孩子的细节\n",
+  "headline_zh-Hant": "剛剛發現亞馬遜日誌中關於孩子的細節\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在申请亚马逊数据下载后，我发现文件夹stats&quot;文件夹Devices.Kindle.FreeTime.zip（该账户有一个Kindle HD平板电脑）里面有孩子的日志。\n在所有下载的整个目录中做grep搜索，返回<p>&quot;log_timestamp&quot;。\n&quot;child_num&quot;。\n&quot;min_age&quot;。\n&quot;max_age&quot;<p>&quot;event_source&quot;。\n&quot;is_prime&quot;。\n&quot;is_free_trial&quot;。\n&quot;child_count&quot;。\n&quot;log_timestamp_TIMEZONE&quot;<p>&quot;asin_or_character_title&quot;。\n&quot;content_location&quot;。\n&quot;tap_row_index&quot;。\n&quot;tap_column_index&quot;\n,&quot;media_type&quot;。\n&quot;tab_name&quot;。\n&quot;tap_datetime&quot;。\n&quot;marketplace_id&quot;。\n&quot;child_number&quot;,\n&quot;child_gender&quot;,\n&quot;儿童年龄&quot;。\n&quot;设备方向&quot;\n,&quot;居住国&quot;\n,&quot;media_item_id&quot;\n`&quot;asin&quot;\n,&quot;media_type&quot;\n,&quot;content_stream_end_time&quot;\n,&quot;time_spent_in_seconds&quot;\n,&quot;content_close_reason&quot;\n,&quot;孩子数量&quot;\n,&quot;child_gender&quot;\n,&quot;儿童年龄&quot;\n,&quot;设备方向&quot;\n,&quot;居住国&quot;\n,&quot;marketplace_id&quot;,&quot;app_package_version&quot;\n,&quot;is_device_online&quot;\n,&quot; item_id&quot;\n,&quot;title&quot;,&quot;operating_system&quot;\n,&quot;system_locale&quot;\n,&quot;tap_row_index&quot;\n,&quot;页面类型&quot;\n,\n&quot;tap_column_index&quot;<p>他们还追踪你何时点击播放暂停或跳过音频，播放了多长时间，你喜欢什么和不喜欢什么，在轨道上提供一个负值或正值，并记录每一次点击。(认真看看！Kindle.Devices.HomePage.Actions.Ereader.csv )还记录了你添加或删除wifi网络的时间(Profile Delete Confirmation)，还有就是成百上千的记录。<p>amazon还保存了你问的所有问题的录音和音频记录，并对录音进行了相应的ID。<p>如果你有一个账户，看看亚马逊历史。请求你的数据，并在linux上浏览它，这是相当令人震惊的。\n",
+  "description_zh-Hant": "在申請亞馬遜數據下載後，我發現文件夾stats&quot;文件夾Devices.Kindle.FreeTime.zip（該賬戶有一個Kindle HD平板電腦）裡面有孩子的日誌。\n在所有下載的整個目錄中做grep搜索，返回<p>&quot;log_timestamp&quot;。\n&quot;child_num&quot;。\n&quot;min_age&quot;。\n&quot;max_age&quot;<p>&quot;event_source&quot;。\n&quot;is_prime&quot;。\n&quot;is_free_trial&quot;。\n&quot;child_count&quot;。\n&quot;log_timestamp_TIMEZONE&quot;<p>&quot;asin_or_character_title&quot;。\n&quot;content_location&quot;。\n&quot;tap_row_index&quot;。\n&quot;tap_column_index&quot;\n,&quot;media_type&quot;。\n&quot;tab_name&quot;。\n&quot;tap_datetime&quot;。\n&quot;marketplace_id&quot;。\n&quot;child_number&quot;,\n&quot;child_gender&quot;,\n&quot;兒童年齡&quot;。\n&quot;設備方向&quot;\n,&quot;居住國&quot;\n,&quot;media_item_id&quot;\n`&quot;asin&quot;\n,&quot;media_type&quot;\n,&quot;content_stream_end_time&quot;\n,&quot;time_spent_in_seconds&quot;\n,&quot;content_close_reason&quot;\n,&quot;孩子數量&quot;\n,&quot;child_gender&quot;\n,&quot;兒童年齡&quot;\n,&quot;設備方向&quot;\n,&quot;居住國&quot;\n,&quot;marketplace_id&quot;,&quot;app_package_version&quot;\n,&quot;is_device_online&quot;\n,&quot; item_id&quot;\n,&quot;title&quot;,&quot;operating_system&quot;\n,&quot;system_locale&quot;\n,&quot;tap_row_index&quot;\n,&quot;頁面類型&quot;\n,\n&quot;tap_column_index&quot;<p>他們還追蹤你何時點擊播放暫停或跳過音頻，播放了多長時間，你喜歡什麼和不喜歡什麼，在軌道上提供一個負值或正值，並記錄每一次點擊。(認真看看！Kindle.Devices.HomePage.Actions.Ereader.csv )還記錄了你添加或刪除wifi網絡的時間(Profile Delete Confirmation)，還有就是成百上千的記錄。<p>amazon還保存了你問的所有問題的錄音和音頻記錄，並對錄音進行了相應的ID。<p>如果你有一個賬戶，看看亞馬遜歷史。請求你的數據，並在linux上瀏覽它，這是相當令人震驚的。\n"
+}
