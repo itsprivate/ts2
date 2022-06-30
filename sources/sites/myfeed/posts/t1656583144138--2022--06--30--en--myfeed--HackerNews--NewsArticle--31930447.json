@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31930447",
+  "url": "https://news.ycombinator.com/item?id=31930447",
+  "headline": "Why do some PDFs download and others are viewable in browser?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fauria",
+    "url": "https://news.ycombinator.com/user?id=fauria"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31930447",
+  "sameAs": "https://bugbounty.club/2022/06/30/why-do-some-pdfs-download-and-others-are-viewable-in-browser.html",
+  "dateCreated": "2022-06-30T09:59:04.138Z",
+  "datePublished": "2022-06-30T09:51:27.000Z",
+  "dateModified": "2022-06-30T09:59:04.138Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "为什么有些PDF文件可以下载，而有些则可以在浏览器中查看？\n",
+  "headline_zh-Hant": "為什麼有些PDF文件可以下載，而有些則可以在瀏覽器中查看？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
