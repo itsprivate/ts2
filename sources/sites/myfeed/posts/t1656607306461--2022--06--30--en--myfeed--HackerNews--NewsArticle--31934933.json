@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31934933",
+  "url": "https://news.ycombinator.com/item?id=31934933",
+  "headline": "'Toxic' open source GitHub discussions analyzed in study",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kiyanwang",
+    "url": "https://news.ycombinator.com/user?id=kiyanwang"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31934933",
+  "sameAs": "https://www.theregister.com/2022/06/29/toxic_interaction_github_open_source/",
+  "dateCreated": "2022-06-30T16:41:46.461Z",
+  "datePublished": "2022-06-30T16:30:22.000Z",
+  "dateModified": "2022-06-30T16:41:46.461Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "研究中分析了 \"有毒的 \"开源GitHub讨论\n",
+  "headline_zh-Hant": "研究中分析了 \"有毒的 \"開源GitHub討論\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
