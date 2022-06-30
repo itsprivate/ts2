@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--hackernews--HackerNews--NewsArticle--31927930",
+  "url": "https://news.ycombinator.com/item?id=31927930",
+  "headline": "We are unable to refund mistaken purchases, and/or if you don't like the game",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "meken",
+    "url": "https://news.ycombinator.com/user?id=meken"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31927930",
+  "sameAs": "https://www.nintendo.co.uk/Support/Nintendo-Switch/Refund-for-Downloaded-Game-or-DLC-Wrong-Game-Didn-t-Like-Game-Accidental-Purchase--1379023.html",
+  "dateCreated": "2022-06-30T03:53:17.144Z",
+  "datePublished": "2022-06-30T01:54:51.000Z",
+  "dateModified": "2022-06-30T03:53:17.144Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 18
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 16
+    }
+  ],
+  "headline_zh-Hans": "我们无法退还错误的购买，和/或如果你不喜欢这个游戏。\n",
+  "headline_zh-Hant": "我們無法退還錯誤的購買，和/或如果你不喜歡這個遊戲。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
