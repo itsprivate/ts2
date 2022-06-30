@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31931050",
+  "url": "https://news.ycombinator.com/item?id=31931050",
+  "headline": "A better robots.txt standard; heres my suggestion",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We need a better robots.txt standard  … that tech companies (and bot writers) should be required to adhere to; Here's my simple suggestion;<p>Stopping a huge amount of bad bot behaviour surely could be a really simple thing to do? .. I believe it is, and here’s how …<p>* Bots should have to start a session by requesting robots.txt before any interaction with a website;\nthat robots file should optionally include a correlationID / sessionID for the duration of any bot scraping, so that subsequent requests arriving from new IP addresses can be correlated back to the same bot session.<p>This would dramatically assist in identifying good vs bad &quot;bot&quot; behaviour. Especially considering that &quot;good&quot; /polite bot behaviour, by definition is hard to monitor, since requests may come in a few seconds apart from each other, and paused and resumed over time to deliberately avoid swamping/over working servers.<p>The result is that really good bots ... are hard to tag as Good bots.<p>* All bots shouid also have a standardised API ( which should be advertised in their request headers ) where you can make a callback to the API on a well known branded domain relating to the search engine/bot / service, where you can submit a token GUID that the bot can be required to present during all future crawls.<p>...since crawls would be done over https, this would be a simple enough mechanism to easily identify bot impersonators without requiring the bots to be limited to making requests from a known DNS domain.<p>... with a token becoming effective within a reasonable period of say 3 to 5 minutes. i.e. enough time for any distributed cache to be updatable and any bot running an existing crawl should not start a crawl session lasting longer than the same period, or if it does should check the token-is-required cache within a period no longer than the same 3 to 5 minutes. whatever is deemed pratical at today's cloud scale.<p>What do you think?<p>p.s. my thoughts are based on my experience of code I've written for running on the cheap, on edge computing “CloudFlare workers”; which presents an interesting challenge of how to do this without access to distributed caching etc. (yes they do exist at edge, but can't be used without increasing latency or costs being worse than the traffic you’re trying to block. So it's just about what can easily be done on the cheap;  to block say 80% of bad traffic for like 1% of effort) My code doesn’t have to be perfect, just effective.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "snowcode",
+    "url": "https://news.ycombinator.com/user?id=snowcode"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31931050",
+  "sameAs": "https://news.ycombinator.com/item?id=31931050",
+  "dateCreated": "2022-06-30T11:41:58.293Z",
+  "datePublished": "2022-06-30T11:23:55.000Z",
+  "dateModified": "2022-06-30T11:41:58.293Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一个更好的robots.txt标准；这是我的建议\n",
+  "headline_zh-Hant": "一個更好的robots.txt標準；這是我的建議\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们需要一个更好的robots.txt标准......技术公司（和机器人作者）应该被要求遵守；这是我的简单建议；<p>阻止大量的不良机器人行为肯定是一件非常简单的事情？......我相信是这样的，下面是如何做到的......<p>* 机器人在与网站进行任何互动之前，必须通过请求 robots.txt 来开始一个会话。\n该机器人文件应包括一个相关的ID/会话ID，以便随后从新的IP地址到达的请求可以被关联到同一个机器人会话。特别是考虑到&quot;好&quot;/polite机器人的行为，从定义上讲是很难监测的，因为请求可能会在几秒钟内相继出现，并随着时间的推移暂停和恢复，以故意避免淹没/过度工作的服务器。<p>结果是，真正好的机器人...很难被标记为好机器人。 <p>* 所有的机器人也应该有一个标准化的API（应该在他们的请求头中公布），在那里你可以在一个与搜索引擎/机器人/服务有关的知名品牌域名上对API进行回调，在那里你可以提交一个令牌GUID，机器人可以被要求在所有未来的抓取过程中出示。<p>...由于抓取将通过https完成，这将是一个足够简单的机制，可以轻松识别机器人的假冒者，而不要求机器人只限于从一个已知的DNS域进行请求。 <p>......令牌在3到5分钟的合理时间内生效。也就是说，有足够的时间让任何分布式缓存得到更新，任何运行现有抓取的机器人不应开始持续超过同一时间的抓取会话，或者如果它这样做，应在不超过同一3到5分钟的时间内检查令牌是必要的缓存，无论在今天的云规模上被认为是合理的。 <p>我的想法是基于我在边缘计算 \"CloudFlare workers \"上编写的廉价代码的经验；这带来了一个有趣的挑战，即如何在没有分布式缓存等的情况下做到这一点（是的，它们确实存在于边缘，但不能在不增加延迟或成本比你试图阻止的流量更糟糕的情况下使用。因此，这只是关于什么可以很容易地以廉价的方式完成；以1%的努力来阻止80%的坏流量）我的代码不需要完美，只是有效。\n",
+  "description_zh-Hant": "我們需要一個更好的robots.txt標準......技術公司（和機器人作者）應該被要求遵守；這是我的簡單建議；<p>阻止大量的不良機器人行為肯定是一件非常簡單的事情？......我相信是這樣的，下面是如何做到的......<p>* 機器人在與網站進行任何互動之前，必須通過請求 robots.txt 來開始一個會話。\n該機器人文件應包括一個相關的ID/會話ID，以便隨後從新的IP地址到達的請求可以被關聯到同一個機器人會話。特別是考慮到&quot;好&quot;/polite機器人的行為，從定義上講是很難監測的，因為請求可能會在幾秒鐘內相繼出現，並隨著時間的推移暫停和恢復，以故意避免淹沒/過度工作的服務器。<p>結果是，真正好的機器人...很難被標記為好機器人。 <p>* 所有的機器人也應該有一個標準化的API（應該在他們的請求頭中公佈），在那裡你可以在一個與搜索引擎/機器人/服務有關的知名品牌域名上對API進行回調，在那裡你可以提交一個令牌GUID，機器人可以被要求在所有未來的抓取過程中出示。<p>...由於抓取將通過https完成，這將是一個足夠簡單的機制，可以輕鬆識別機器人的假冒者，而不要求機器人只限於從一個已知的DNS域進行請求。 <p>......令牌在3到5分鐘的合理時間內生效。也就是說，有足夠的時間讓任何分佈式緩存得到更新，任何運行現有抓取的機器人不應開始持續超過同一時間的抓取會話，或者如果它這樣做，應在不超過同一3到5分鐘的時間內檢查令牌是必要的緩存，無論在今天的雲規模上被認為是合理的。 <p>我的想法是基於我在邊緣計算 \"CloudFlare workers \"上編寫的廉價代碼的經驗；這帶來了一個有趣的挑戰，即如何在沒有分佈式緩存等的情況下做到這一點（是的，它們確實存在於邊緣，但不能在不增加延遲或成本比你試圖阻止的流量更糟糕的情況下使用。因此，這只是關於什麼可以很容易地以廉價的方式完成；以1%的努力來阻止80%的壞流量）我的代碼不需要完美，只是有效。\n"
+}
