@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31938350",
+  "url": "https://news.ycombinator.com/item?id=31938350",
+  "headline": "Police sweep Google searches to find suspects; facing its first legal challenge",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ceejayoz",
+    "url": "https://news.ycombinator.com/user?id=ceejayoz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31938350",
+  "sameAs": "https://www.nbcnews.com/news/us-news/police-google-reverse-keyword-searches-rcna35749",
+  "dateCreated": "2022-06-30T20:59:21.884Z",
+  "datePublished": "2022-06-30T20:43:40.000Z",
+  "dateModified": "2022-06-30T20:59:21.884Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "警方扫荡谷歌搜索以寻找嫌疑人；面临首次法律挑战\n",
+  "headline_zh-Hant": "警方掃蕩谷歌搜索以尋找嫌疑人；面臨首次法律挑戰\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
