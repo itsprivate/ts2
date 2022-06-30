@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31928864",
+  "url": "https://news.ycombinator.com/item?id=31928864",
+  "headline": "We discovered severe thermal throttling with Apple's new M2 MacBook Pro",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "shaklee3",
+    "url": "https://news.ycombinator.com/user?id=shaklee3"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31928864",
+  "sameAs": "https://twitter.com/VadimYuryev/status/1542188250697039872",
+  "dateCreated": "2022-06-30T05:31:16.411Z",
+  "datePublished": "2022-06-30T05:03:05.000Z",
+  "dateModified": "2022-06-30T05:31:16.411Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我们发现苹果新的M2 MacBook Pro有严重的热节流现象\n",
+  "headline_zh-Hant": "我們發現蘋果新的M2 MacBook Pro有嚴重的熱節流現象\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
