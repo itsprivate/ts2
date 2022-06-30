@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31937373",
+  "url": "https://news.ycombinator.com/item?id=31937373",
+  "headline": "It's Asteroid Day, an international asteroid-awareness event",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "defective",
+    "url": "https://news.ycombinator.com/user?id=defective"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31937373",
+  "sameAs": "https://asteroidday.org/about/",
+  "dateCreated": "2022-06-30T20:28:09.074Z",
+  "datePublished": "2022-06-30T19:30:34.000Z",
+  "dateModified": "2022-06-30T20:28:09.074Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "今天是小行星日，一个国际小行星意识的活动\n",
+  "headline_zh-Hant": "今天是小行星日，一個國際小行星意識的活動\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
