@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31931506",
+  "url": "https://news.ycombinator.com/item?id=31931506",
+  "headline": "Unilever Sells Ben and Jerry's Ice-Cream Business in Israel",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "atlasunshrugged",
+    "url": "https://news.ycombinator.com/user?id=atlasunshrugged"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31931506",
+  "sameAs": "https://www.wsj.com/articles/unilever-to-sell-ben-jerrys-in-israel-after-ice-cream-maker-vowed-not-to-sell-in-jewish-settlements-11656512040",
+  "dateCreated": "2022-06-30T13:44:07.351Z",
+  "datePublished": "2022-06-30T12:26:30.000Z",
+  "dateModified": "2022-06-30T13:44:07.351Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "联合利华出售以色列的本和杰瑞冰淇淋业务\n",
+  "headline_zh-Hant": "聯合利華出售以色列的本和傑瑞冰淇淋業務\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
