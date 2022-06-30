@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31929014",
+  "url": "https://news.ycombinator.com/item?id=31929014",
+  "headline": "I analyzed the most popular office chairs on Reddit",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hubraumhugo",
+    "url": "https://news.ycombinator.com/user?id=hubraumhugo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31929014",
+  "sameAs": "https://looria.com/reddit/OfficeChairs/products",
+  "dateCreated": "2022-06-30T06:33:07.770Z",
+  "datePublished": "2022-06-30T05:40:27.000Z",
+  "dateModified": "2022-06-30T06:33:07.770Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我分析了Reddit上最受欢迎的办公椅\n",
+  "headline_zh-Hant": "我分析了Reddit上最受歡迎的辦公椅\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
