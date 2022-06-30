@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31928633",
+  "url": "https://news.ycombinator.com/item?id=31928633",
+  "headline": "Fern – An Alternative to OpenAPI",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "discr3t3",
+    "url": "https://news.ycombinator.com/user?id=discr3t3"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31928633",
+  "sameAs": "https://github.com/fern-api/fern",
+  "dateCreated": "2022-06-30T04:48:53.493Z",
+  "datePublished": "2022-06-30T04:07:33.000Z",
+  "dateModified": "2022-06-30T04:48:53.493Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Fern - OpenAPI的替代品\n",
+  "headline_zh-Hant": "Fern - OpenAPI的替代品\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
