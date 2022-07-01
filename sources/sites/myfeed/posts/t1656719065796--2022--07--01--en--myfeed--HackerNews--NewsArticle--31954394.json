@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--01--en--myfeed--HackerNews--NewsArticle--31954394",
+  "url": "https://news.ycombinator.com/item?id=31954394",
+  "headline": "Meditations on Moloch",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dayve",
+    "url": "https://news.ycombinator.com/user?id=dayve"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31954394",
+  "sameAs": "https://slatestarcodex.com/2014/07/30/meditations-on-moloch/",
+  "dateCreated": "2022-07-01T23:44:25.796Z",
+  "datePublished": "2022-07-01T23:30:27.000Z",
+  "dateModified": "2022-07-01T23:44:25.796Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "关于摩洛神的沉思\n",
+  "headline_zh-Hant": "關於摩洛神的沉思\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
