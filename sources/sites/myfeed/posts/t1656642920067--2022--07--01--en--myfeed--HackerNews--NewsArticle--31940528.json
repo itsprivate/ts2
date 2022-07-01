@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--01--en--myfeed--HackerNews--NewsArticle--31940528",
+  "url": "https://news.ycombinator.com/item?id=31940528",
+  "headline": "Why Decouple Authorization?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "EgeAytin",
+    "url": "https://news.ycombinator.com/user?id=EgeAytin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31940528",
+  "sameAs": "https://www.permify.co/post/why-decouple-authorizations",
+  "dateCreated": "2022-07-01T02:35:20.067Z",
+  "datePublished": "2022-07-01T00:19:04.000Z",
+  "dateModified": "2022-07-01T02:35:20.067Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "为什么要对授权进行解耦？\n",
+  "headline_zh-Hant": "為什麼要對授權進行解耦？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
