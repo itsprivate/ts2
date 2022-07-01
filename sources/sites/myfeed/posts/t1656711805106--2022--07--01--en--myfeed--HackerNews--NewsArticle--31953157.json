@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--01--en--myfeed--HackerNews--NewsArticle--31953157",
+  "url": "https://news.ycombinator.com/item?id=31953157",
+  "headline": "A 6-foot man earning $62K per year is as desirable as a 5'6“ man who earns $237K",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cwwc",
+    "url": "https://news.ycombinator.com/user?id=cwwc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31953157",
+  "sameAs": "https://twitter.com/robkhenderson/status/1542952695987830785",
+  "dateCreated": "2022-07-01T21:43:25.106Z",
+  "datePublished": "2022-07-01T21:24:12.000Z",
+  "dateModified": "2022-07-01T21:43:25.106Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一个年薪6.2万美元的6英尺男人和一个年薪23.7万美元的5英尺6英寸男人一样令人向往。\n",
+  "headline_zh-Hant": "一個年薪6.2萬美元的6英尺男人和一個年薪23.7萬美元的5英尺6英寸男人一樣令人嚮往。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

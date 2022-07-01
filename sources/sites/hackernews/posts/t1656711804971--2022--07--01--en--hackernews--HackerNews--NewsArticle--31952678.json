@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--06--30--en--myfeed--HackerNews--NewsArticle--31927653",
-  "url": "https://news.ycombinator.com/item?id=31927653",
-  "headline": "Architecting and implementing infrastructure SaaS – the hard parts",
+  "identifier": "2022--07--01--en--hackernews--HackerNews--NewsArticle--31952678",
+  "url": "https://news.ycombinator.com/item?id=31952678",
+  "headline": "Show HN: Redbean 2.0 in Docker",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "gwen-shapira",
-    "url": "https://news.ycombinator.com/user?id=gwen-shapira"
+    "name": "kissgyorgy",
+    "url": "https://news.ycombinator.com/user?id=kissgyorgy"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=31927653",
-  "sameAs": "https://docs.thenile.dev/blog/saas-is-hard",
-  "dateCreated": "2022-06-30T02:23:36.298Z",
-  "datePublished": "2022-06-30T01:11:49.000Z",
-  "dateModified": "2022-06-30T02:23:36.298Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=31952678",
+  "sameAs": "https://github.com/kissgyorgy/redbean-docker",
+  "dateCreated": "2022-07-01T21:43:24.971Z",
+  "datePublished": "2022-07-01T20:50:22.000Z",
+  "dateModified": "2022-07-01T21:43:24.971Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 4
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 3
     }
   ],
-  "headline_zh-Hans": "架构和实施基础设施SaaS--困难的部分\n",
-  "headline_zh-Hant": "架構和實施基礎設施SaaS--困難的部分\n",
+  "headline_zh-Hans": "Show HN: Docker中的Redbean 2.0\n",
+  "headline_zh-Hant": "Show HN: Docker中的Redbean 2.0\n",
   "@context": [
     "https://schema.org",
     {
