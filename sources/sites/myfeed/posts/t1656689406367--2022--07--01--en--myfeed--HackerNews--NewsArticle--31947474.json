@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--01--en--myfeed--HackerNews--NewsArticle--31947474",
+  "url": "https://news.ycombinator.com/item?id=31947474",
+  "headline": "How to Understand France",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "simonebrunozzi",
+    "url": "https://news.ycombinator.com/user?id=simonebrunozzi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31947474",
+  "sameAs": "https://tomaspueyo.medium.com/how-to-understand-france-3d9c0ccf023d",
+  "dateCreated": "2022-07-01T15:30:06.367Z",
+  "datePublished": "2022-07-01T15:10:46.000Z",
+  "dateModified": "2022-07-01T15:30:06.367Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "如何理解法国\n",
+  "headline_zh-Hant": "如何理解法國\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

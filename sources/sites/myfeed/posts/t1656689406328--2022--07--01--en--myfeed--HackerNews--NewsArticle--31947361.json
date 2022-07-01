@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--01--en--myfeed--HackerNews--NewsArticle--31947361",
+  "url": "https://news.ycombinator.com/item?id=31947361",
+  "headline": "The Mark II is a state-of-the-art privacy-respecting smart speaker",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kristianpaul",
+    "url": "https://news.ycombinator.com/user?id=kristianpaul"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31947361",
+  "sameAs": "https://mycroft.ai/product/mark-ii/",
+  "dateCreated": "2022-07-01T15:30:06.328Z",
+  "datePublished": "2022-07-01T15:03:55.000Z",
+  "dateModified": "2022-07-01T15:30:06.328Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Mark II是一款最先进的尊重隐私的智能扬声器\n",
+  "headline_zh-Hant": "Mark II是一款最先進的尊重隱私的智能揚聲器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

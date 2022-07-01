@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--01--en--myfeed--HackerNews--NewsArticle--31947222",
+  "url": "https://news.ycombinator.com/item?id=31947222",
+  "headline": "Deepnote ClickHouse Integration",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tylerhannan",
+    "url": "https://news.ycombinator.com/user?id=tylerhannan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31947222",
+  "sameAs": "https://deepnote.com/blog/clickhouse-cl4zs29ikocet0blrv08ishlj",
+  "dateCreated": "2022-07-01T15:30:06.295Z",
+  "datePublished": "2022-07-01T14:55:00.000Z",
+  "dateModified": "2022-07-01T15:30:06.295Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Deepnote ClickHouse整合\n",
+  "headline_zh-Hant": "Deepnote ClickHouse整合\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
