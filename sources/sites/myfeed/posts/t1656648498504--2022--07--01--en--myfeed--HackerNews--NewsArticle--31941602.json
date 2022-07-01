@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--01--en--myfeed--HackerNews--NewsArticle--31941602",
+  "url": "https://news.ycombinator.com/item?id=31941602",
+  "headline": "Compounded Luck",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gmays",
+    "url": "https://news.ycombinator.com/user?id=gmays"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31941602",
+  "sameAs": "https://seths.blog/2022/06/compounded-luck/",
+  "dateCreated": "2022-07-01T04:08:18.504Z",
+  "datePublished": "2022-07-01T02:41:07.000Z",
+  "dateModified": "2022-07-01T04:08:18.504Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "複合式運氣\n",
+  "headline_zh-Hant": "複合式運氣\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
