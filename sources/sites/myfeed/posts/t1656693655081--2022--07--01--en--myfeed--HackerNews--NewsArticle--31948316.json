@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--01--en--myfeed--HackerNews--NewsArticle--31948316",
+  "url": "https://news.ycombinator.com/item?id=31948316",
+  "headline": "Generating graphs that look like stock charts",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "smitop",
+    "url": "https://news.ycombinator.com/user?id=smitop"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31948316",
+  "sameAs": "https://observablehq.com/@smitop/prices-noise",
+  "dateCreated": "2022-07-01T16:40:55.081Z",
+  "datePublished": "2022-07-01T15:57:58.000Z",
+  "dateModified": "2022-07-01T16:40:55.081Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "生成看起来像股票图表的图形\n",
+  "headline_zh-Hant": "生成看起來像股票圖表的圖形\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
