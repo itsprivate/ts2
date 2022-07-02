@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--02--en--myfeed--HackerNews--NewsArticle--31957921",
+  "url": "https://news.ycombinator.com/item?id=31957921",
+  "headline": "Learning Flutter State Management",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "There's so many state management patterns out there and lots of opinions. If you want to learn and conquer Flutter state management then have a look at this book:<p>https://jykdesigns.gumroad.com/l/ogyzu<p>It looks at the ins and outs of what you get internal to Flutter but then delves into some more complex patterns and ways to structure your code so that it makes sense.<p>Starting with simple setState, it then shows you different ways of passing state across your app to embedding state in your path. Later topics use MVVM patterns with GetIt and MobX.\nThere's also an advanced topic on using streams to listen for updates from timers or even external events from Firestore.<p>A good start for someone with a little bit of Flutter but struggling with messy state management.<p>Over 90+ pages and code examples building each example from the last.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jykdesigns",
+    "url": "https://news.ycombinator.com/user?id=jykdesigns"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31957921",
+  "sameAs": "https://news.ycombinator.com/item?id=31957921",
+  "dateCreated": "2022-07-02T11:21:41.936Z",
+  "datePublished": "2022-07-02T10:56:19.000Z",
+  "dateModified": "2022-07-02T11:21:41.936Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "学习Flutter状态管理\n",
+  "headline_zh-Hant": "學習Flutter狀態管理\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "现在有很多的状态管理模式，也有很多的观点。如果你想学习并征服Flutter的状态管理，那么请看看这本书：<p>https://jykdesigns.gumroad.com/l/ogyzu<p>它着眼于Flutter内部的来龙去脉，但随后深入到一些更复杂的模式和结构化代码的方法，以便使其有意义。<p>从简单的setState开始，它随后向你展示了在你的应用程序中传递状态的不同方法，以嵌入状态的路径。后面的主题使用MVVM模式与GetIt和MobX。\n还有一个高级主题是使用流来监听计时器的更新，甚至是来自Firestore的外部事件。<p>对于那些对Flutter有一点了解，但在混乱的状态管理中挣扎的人来说，这是一个良好的开始。\n",
+  "description_zh-Hant": "現在有很多的狀態管理模式，也有很多的觀點。如果你想學習並征服Flutter的狀態管理，那麼請看看這本書：<p>https://jykdesigns.gumroad.com/l/ogyzu<p>它著眼於Flutter內部的來龍去脈，但隨後深入到一些更復雜的模式和結構化代碼的方法，以便使其有意義。<p>從簡單的setState開始，它隨後向你展示了在你的應用程序中傳遞狀態的不同方法，以嵌入狀態的路徑。後面的主題使用MVVM模式與GetIt和MobX。\n還有一個高級主題是使用流來監聽計時器的更新，甚至是來自Firestore的外部事件。<p>對於那些對Flutter有一點了解，但在混亂的狀態管理中掙扎的人來說，這是一個良好的開始。\n"
+}
