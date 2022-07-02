@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--02--en--myfeed--HackerNews--NewsArticle--31960393",
+  "url": "https://news.ycombinator.com/item?id=31960393",
+  "headline": "Use a VPN While Traveling?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "A while back there was an HN discussion[1] in which I asked whether there's a consensus that it makes sense to use a VPN while traveling and using public wi-fi in places like airports. The answer I received was pretty consistently that there's no point.<p>But the NSA has released a document that says: &quot;Accessing public Wi-Fi hotspots may be convenient to catch up on work or check email, but public Wi-Fi is often not configured securely. Using these networks may make users’ data and devices more vulnerable to compromise, as cyber actors employ malicious access points (Masquerading [T1036]1), redirect to malicious websites, inject malicious proxies, and eavesdrop on network traffic (Network Sniffing [T1040]).&quot;[2]<p>So, I'm still unsure about it. For instance, suppose I accidentally use a malicious public wi-fi service masquerading as the one supplied by an airport. I try to go to https://www.somewebsite.com. Would the malicious wi-fi service be able to supply a phishing version of www.somewebsite.com that also uses https? If not, why not?<p>[1] https://news.ycombinator.com/item?id=28643650#28643995\n[2] https://media.defense.gov/2021/Jul/29/2002815141/-1/-1/0/CSI_SECURING_WIRELESS_DEVICES_IN_PUBLIC.PDF",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "garyrob",
+    "url": "https://news.ycombinator.com/user?id=garyrob"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31960393",
+  "sameAs": "https://news.ycombinator.com/item?id=31960393",
+  "dateCreated": "2022-07-02T17:02:44.941Z",
+  "datePublished": "2022-07-02T16:31:30.000Z",
+  "dateModified": "2022-07-02T17:02:44.941Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在旅行中使用VPN？\n",
+  "headline_zh-Hant": "在旅行中使用VPN？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "前不久，在HN的一次讨论中[1]，我问大家是否有共识，即在旅行和使用机场等地的公共Wi-Fi时使用VPN是合理的。但美国国家安全局发布了一份文件，其中说：\"访问公共Wi-Fi热点可能会方便你赶上工作或检查电子邮件，但公共Wi-Fi的配置往往不安全。使用这些网络可能会使用户的数据和设备更容易受到损害，因为网络行为者采用恶意接入点（伪装[T1036]1），重定向到恶意网站，注入恶意代理，并窃听网络流量（网络嗅探[T1040]）.&quot;[2]<p>因此，我仍然不确定。例如，假设我不小心使用了一个伪装成由机场提供的恶意公共Wi-Fi服务。我试图去https://www.somewebsite.com。恶意的Wi-Fi服务是否能够提供一个同样使用https的钓鱼版www.somewebsite.com？如果不能，为什么？<p>[1] https://news.ycombinator.com/item?id=28643650#28643995\n[2] https://media.defense.gov/2021/Jul/29/2002815141/-1/-1/0/CSI_SECURING_WIRELESS_DEVICES_IN_PUBLIC.PDF\n",
+  "description_zh-Hant": "前不久，在HN的一次討論中[1]，我問大家是否有共識，即在旅行和使用機場等地的公共Wi-Fi時使用VPN是合理的。但美國國家安全局發佈了一份文件，其中說：\"訪問公共Wi-Fi熱點可能會方便你趕上工作或檢查電子郵件，但公共Wi-Fi的配置往往不安全。使用這些網絡可能會使用戶的數據和設備更容易受到損害，因為網絡行為者採用惡意接入點（偽裝[T1036]1），重定向到惡意網站，注入惡意代理，並竊聽網絡流量（網絡嗅探[T1040]）.&quot;[2]<p>因此，我仍然不確定。例如，假設我不小心使用了一個偽裝成由機場提供的惡意公共Wi-Fi服務。我試圖去https://www.somewebsite.com。惡意的Wi-Fi服務是否能夠提供一個同樣使用https的釣魚版www.somewebsite.com？如果不能，為什麼？<p>[1] https://news.ycombinator.com/item?id=28643650#28643995\n[2] https://media.defense.gov/2021/Jul/29/2002815141/-1/-1/0/CSI_SECURING_WIRELESS_DEVICES_IN_PUBLIC.PDF\n"
+}
