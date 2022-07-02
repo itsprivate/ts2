@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--02--en--myfeed--HackerNews--NewsArticle--31954996",
+  "url": "https://news.ycombinator.com/item?id=31954996",
+  "headline": "The Need for a Body",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "stanislavb",
+    "url": "https://news.ycombinator.com/user?id=stanislavb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31954996",
+  "sameAs": "https://kk.org/thetechnium/the-need-for-a-body/",
+  "dateCreated": "2022-07-02T02:21:43.204Z",
+  "datePublished": "2022-07-02T01:05:58.000Z",
+  "dateModified": "2022-07-02T02:21:43.204Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "对身体的需求\n",
+  "headline_zh-Hant": "對身體的需求\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

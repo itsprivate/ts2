@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--02--en--myfeed--HackerNews--NewsArticle--31954611",
+  "url": "https://news.ycombinator.com/item?id=31954611",
+  "headline": "Is there a language/framework can describe a model and generate checking rules?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We have a fairly complex embedded system. I have been writing a Python script to analyze its register dump and narrow down the problem areas. But it is quite tedious writing such script, because I have to write a lot of code such as, the 1st bit of register 1 must equal to the 3rd bit of register 2; another example, register 3 plus register 4 must be no more than register 5 when register 6 is greater than 100.<p>I am thinking to write a DSL, Domain Specific Language, to describe the system specification and that DSL will generate Python code which does the checking.<p>Before I do this, is there a ready tool/framework/technology/language I can leverage?<p>Someone mentioned TLA+, my first glimpse tells me it is not for my need. Like to hear your suggestions.<p>Thanks.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "linq936",
+    "url": "https://news.ycombinator.com/user?id=linq936"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31954611",
+  "sameAs": "https://news.ycombinator.com/item?id=31954611",
+  "dateCreated": "2022-07-02T02:21:43.068Z",
+  "datePublished": "2022-07-02T00:01:12.000Z",
+  "dateModified": "2022-07-02T02:21:43.068Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "是否有一种语言/框架可以描述一个模型并生成检查规则？\n",
+  "headline_zh-Hant": "是否有一種語言/框架可以描述一個模型並生成檢查規則？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们有一个相当复杂的嵌入式系统。我一直在写一个Python脚本来分析其寄存器转储并缩小问题区域。但写这样的脚本是相当乏味的，因为我必须写很多代码，比如，寄存器1的第1位必须等于寄存器2的第3位；再比如，当寄存器6大于100时，寄存器3加寄存器4必须不超过寄存器5。 <p>我想写一个DSL，即特定领域语言，来描述系统规范，DSL将生成Python代码来进行检查。<p>在我这样做之前，是否有现成的工具/框架/技术/语言可以利用？<p>有人提到TLA+，我的第一印象告诉我它不适合我的需要。想听听你的建议。<p>谢谢。\n",
+  "description_zh-Hant": "我們有一個相當複雜的嵌入式系統。我一直在寫一個Python腳本來分析其寄存器轉儲並縮小問題區域。但寫這樣的腳本是相當乏味的，因為我必須寫很多代碼，比如，寄存器1的第1位必須等於寄存器2的第3位；再比如，當寄存器6大於100時，寄存器3加寄存器4必須不超過寄存器5。 <p>我想寫一個DSL，即特定領域語言，來描述系統規範，DSL將生成Python代碼來進行檢查。<p>在我這樣做之前，是否有現成的工具/框架/技術/語言可以利用？<p>有人提到TLA+，我的第一印象告訴我它不適合我的需要。想聽聽你的建議。<p>謝謝。\n"
+}
