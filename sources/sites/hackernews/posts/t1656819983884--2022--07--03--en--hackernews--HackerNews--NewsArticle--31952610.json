@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--03--en--hackernews--HackerNews--NewsArticle--31952610",
+  "url": "https://news.ycombinator.com/item?id=31952610",
+  "headline": "Wordalle – Guess the prompt used to generate a set of images from DalleMini",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "itaygabb",
+    "url": "https://news.ycombinator.com/user?id=itaygabb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31952610",
+  "sameAs": "https://huggingface.co/spaces/huggingface-projects/wordalle",
+  "dateCreated": "2022-07-03T03:46:23.884Z",
+  "datePublished": "2022-07-01T20:45:39.000Z",
+  "dateModified": "2022-07-03T03:46:23.884Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Wordalle - 猜测用于从DalleMini生成一组图像的提示语\n",
+  "headline_zh-Hant": "Wordalle - 猜測用於從DalleMini生成一組圖像的提示語\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

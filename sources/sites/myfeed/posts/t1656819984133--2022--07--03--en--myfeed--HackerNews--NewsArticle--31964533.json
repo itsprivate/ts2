@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--03--en--myfeed--HackerNews--NewsArticle--31964533",
+  "url": "https://news.ycombinator.com/item?id=31964533",
+  "headline": "The Devil's Dictionary",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nobody9999",
+    "url": "https://news.ycombinator.com/user?id=nobody9999"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31964533",
+  "sameAs": "https://www.gutenberg.org/files/972/972-h/972-h.htm",
+  "dateCreated": "2022-07-03T03:46:24.133Z",
+  "datePublished": "2022-07-03T02:33:11.000Z",
+  "dateModified": "2022-07-03T03:46:24.133Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "恶魔的字典\n",
+  "headline_zh-Hant": "惡魔的字典\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

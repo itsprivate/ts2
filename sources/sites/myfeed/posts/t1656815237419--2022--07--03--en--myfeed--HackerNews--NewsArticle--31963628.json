@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--03--en--myfeed--HackerNews--NewsArticle--31963628",
+  "url": "https://news.ycombinator.com/item?id=31963628",
+  "headline": "Squirrel Tales: Sightings from the 2018 Central Park Squirrel Census",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jstrieb",
+    "url": "https://news.ycombinator.com/user?id=jstrieb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31963628",
+  "sameAs": "https://sormiston.github.io/SquirrelTales/",
+  "dateCreated": "2022-07-03T02:27:17.419Z",
+  "datePublished": "2022-07-02T23:53:00.000Z",
+  "dateModified": "2022-07-03T02:27:17.419Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "松鼠的故事。2018年中央公园松鼠普查的目击情况\n",
+  "headline_zh-Hant": "松鼠的故事。2018年中央公園松鼠普查的目擊情況\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
