@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--03--en--hackernews--HackerNews--NewsArticle--31944680",
+  "url": "https://news.ycombinator.com/item?id=31944680",
+  "headline": "Minerva: Solving Quantitative Reasoning Problems with Language Models",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "espadrine",
+    "url": "https://news.ycombinator.com/user?id=espadrine"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31944680",
+  "sameAs": "https://minerva-demo.github.io/",
+  "dateCreated": "2022-07-03T03:46:23.855Z",
+  "datePublished": "2022-07-01T10:56:24.000Z",
+  "dateModified": "2022-07-03T03:46:23.855Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Minerva: 用语言模型解决定量推理问题\n",
+  "headline_zh-Hant": "Minerva: 用語言模型解決定量推理問題\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

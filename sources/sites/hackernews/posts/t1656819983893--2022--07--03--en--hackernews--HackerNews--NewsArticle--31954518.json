@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--03--en--hackernews--HackerNews--NewsArticle--31954518",
+  "url": "https://news.ycombinator.com/item?id=31954518",
+  "headline": "Improving distributed caching performance and efficiency at Pinterest",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jparise",
+    "url": "https://news.ycombinator.com/user?id=jparise"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31954518",
+  "sameAs": "https://medium.com/pinterest-engineering/improving-distributed-caching-performance-and-efficiency-at-pinterest-92484b5fe39b",
+  "dateCreated": "2022-07-03T03:46:23.893Z",
+  "datePublished": "2022-07-01T23:49:09.000Z",
+  "dateModified": "2022-07-03T03:46:23.893Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "提高Pinterest的分布式缓存性能和效率\n",
+  "headline_zh-Hant": "提高Pinterest的分佈式緩存性能和效率\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
