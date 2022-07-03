@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--03--en--myfeed--HackerNews--NewsArticle--31968620",
+  "url": "https://news.ycombinator.com/item?id=31968620",
+  "headline": "Twitter’s use of your personal information for tailored advertising",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "byhemechi",
+    "url": "https://news.ycombinator.com/user?id=byhemechi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31968620",
+  "sameAs": "https://help.twitter.com/en/personal-info-and-ads",
+  "dateCreated": "2022-07-03T17:55:46.928Z",
+  "datePublished": "2022-07-03T15:52:50.000Z",
+  "dateModified": "2022-07-03T17:55:46.928Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "推特使用你的个人信息进行有针对性的广告宣传\n",
+  "headline_zh-Hant": "推特使用你的個人信息進行有針對性的廣告宣傳\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
