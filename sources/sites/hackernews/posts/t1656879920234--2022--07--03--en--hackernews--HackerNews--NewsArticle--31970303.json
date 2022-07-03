@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--03--en--hackernews--HackerNews--NewsArticle--31970303",
+  "url": "https://news.ycombinator.com/item?id=31970303",
+  "headline": "HNNotify.xyz: Subscribe to Your Hacker News Feed",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "metadat",
+    "url": "https://news.ycombinator.com/user?id=metadat"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31970303",
+  "sameAs": "https://hnnotify.xyz/",
+  "dateCreated": "2022-07-03T20:25:20.234Z",
+  "datePublished": "2022-07-03T19:32:09.000Z",
+  "dateModified": "2022-07-03T20:25:20.234Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "HNNotify.xyz: 订阅你的黑客新闻提要\n",
+  "headline_zh-Hant": "HNNotify.xyz: 訂閱你的黑客新聞提要\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
