@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--04--en--myfeed--HackerNews--NewsArticle--31972318",
+  "url": "https://news.ycombinator.com/item?id=31972318",
+  "headline": "All That Is Not Good",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "benbreen",
+    "url": "https://news.ycombinator.com/user?id=benbreen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31972318",
+  "sameAs": "https://www.historytoday.com/archive/out-margins/all-not-good",
+  "dateCreated": "2022-07-04T02:31:25.277Z",
+  "datePublished": "2022-07-04T00:40:01.000Z",
+  "dateModified": "2022-07-04T02:31:25.277Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "所有不好的东西\n",
+  "headline_zh-Hant": "所有不好的東西\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
