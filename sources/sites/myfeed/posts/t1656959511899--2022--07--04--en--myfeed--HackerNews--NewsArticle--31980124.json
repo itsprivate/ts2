@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--04--en--myfeed--HackerNews--NewsArticle--31980124",
+  "url": "https://news.ycombinator.com/item?id=31980124",
+  "headline": "If Pokemon battles were carried out in SQL (Comic)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nassimsoftware",
+    "url": "https://news.ycombinator.com/user?id=nassimsoftware"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31980124",
+  "sameAs": "https://nassimcomics.substack.com/p/if-pokemon-battles-were-carried-out",
+  "dateCreated": "2022-07-04T18:31:51.899Z",
+  "datePublished": "2022-07-04T18:10:04.000Z",
+  "dateModified": "2022-07-04T18:31:51.899Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "如果口袋妖怪的战斗是用SQL语言进行的 (Comic)\n",
+  "headline_zh-Hant": "如果口袋妖怪的戰鬥是用SQL語言進行的 (Comic)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
