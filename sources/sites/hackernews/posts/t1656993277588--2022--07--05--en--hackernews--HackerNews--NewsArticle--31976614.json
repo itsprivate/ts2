@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--05--en--hackernews--HackerNews--NewsArticle--31976614",
+  "url": "https://news.ycombinator.com/item?id=31976614",
+  "headline": "TwinBASIC: A modern BASIC aiming for 100% compatibility with VB6/VBA",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ptx",
+    "url": "https://news.ycombinator.com/user?id=ptx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31976614",
+  "sameAs": "https://twinbasic.com/",
+  "dateCreated": "2022-07-05T03:54:37.588Z",
+  "datePublished": "2022-07-04T13:08:20.000Z",
+  "dateModified": "2022-07-05T03:54:37.588Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 7
+    }
+  ],
+  "headline_zh-Hans": "TwinBASIC：一个现代BASIC，旨在与VB6/VBA 100%兼容\n",
+  "headline_zh-Hant": "TwinBASIC：一個現代BASIC，旨在與VB6/VBA 100%兼容\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
