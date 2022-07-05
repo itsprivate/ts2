@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--05--en--myfeed--HackerNews--NewsArticle--31982971",
+  "url": "https://news.ycombinator.com/item?id=31982971",
+  "headline": "Data on Chinese citizens allegedly siphoned from police DB, offered for sale",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "FatalLogic",
+    "url": "https://news.ycombinator.com/user?id=FatalLogic"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31982971",
+  "sameAs": "https://twitter.com/WilliamYang120/status/1544000854939750400",
+  "dateCreated": "2022-07-05T02:25:20.609Z",
+  "datePublished": "2022-07-05T00:07:43.000Z",
+  "dateModified": "2022-07-05T02:25:20.609Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "据称中国公民的数据被从警方的数据库中抽走并被出售\n",
+  "headline_zh-Hant": "據稱中國公民的數據被從警方的數據庫中抽走並被出售\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
