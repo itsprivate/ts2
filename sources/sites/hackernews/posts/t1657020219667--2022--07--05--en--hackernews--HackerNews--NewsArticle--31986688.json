@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--05--en--hackernews--HackerNews--NewsArticle--31986688",
+  "url": "https://news.ycombinator.com/item?id=31986688",
+  "headline": "Amazon spending $465M on season 1 of The Lord of the Rings series",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "matthewsinclair",
+    "url": "https://news.ycombinator.com/user?id=matthewsinclair"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31986688",
+  "sameAs": "https://winteriscoming.net/2021/04/19/amazon-spending-465-million-the-lord-of-the-rings-series-season-1/",
+  "dateCreated": "2022-07-05T11:23:39.667Z",
+  "datePublished": "2022-07-05T10:57:24.000Z",
+  "dateModified": "2022-07-05T11:23:39.667Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "亚马逊花费4.65亿美元购买《指环王》系列第一季\n",
+  "headline_zh-Hant": "亞馬遜花費4.65億美元購買《指環王》系列第一季\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
