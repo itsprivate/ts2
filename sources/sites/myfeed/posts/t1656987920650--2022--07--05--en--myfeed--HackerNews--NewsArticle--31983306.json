@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--05--en--myfeed--HackerNews--NewsArticle--31983306",
+  "url": "https://news.ycombinator.com/item?id=31983306",
+  "headline": "Opinion: Structural editing is superior to the Vim grammar",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I tried switching from jetbrains to various modal editors (neovim, doom-emacs, kakoune, helix).\nThe fast startup time and continuity when working in a terminal environment was very appealing,\nas was the promise of increased code editing effeciency.<p>I liked the fast startup time and having the same keybindings to edit system config files but\nI am not impressed with VIM style text editing. First of all programmers don't really edit text,\nwe edit code. VIM's grammar does not acknowledge this. It is centered around lines, words etc.\nCode is a tree. In my opinion, you want to keybinds which traverse this tree, expand/shrink selections etc.<p>Of course I can install tree-sitter and setup structual editing based bindings but am I really\nusing VIM at this point? I don't think the VIM grammar is the future of code editing.\nI think it is a bit overrated. I think editor designers should work on developing a grammar/keybinds\nthat center around structural/tree based editing.\nI have found that IDE's tend to acknowledge this tree based\n&quot;reality&quot; better than VIM.<p>I think this concept could even be applied to source control ie. git stores an tree-sitter like\nrepresentation of code instead of text. Your text editor handles formatting.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rishflab",
+    "url": "https://news.ycombinator.com/user?id=rishflab"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31983306",
+  "sameAs": "https://news.ycombinator.com/item?id=31983306",
+  "dateCreated": "2022-07-05T02:25:20.650Z",
+  "datePublished": "2022-07-05T01:17:43.000Z",
+  "dateModified": "2022-07-05T02:25:20.650Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "观点。结构性编辑优于Vim的语法\n",
+  "headline_zh-Hant": "觀點。結構性編輯優於Vim的語法\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我试着从jetbrains切换到各种模式编辑器（neovim, doom-emacs, kakoune, helix）。\n在终端环境中工作时，快速的启动时间和连续性是非常吸引人的。\n<p>我喜欢快速的启动时间和使用相同的键位来编辑系统配置文件，但我对VIM的印象并不好。\n但我对 VIM 风格的文本编辑没有留下深刻印象。首先，程序员并不真正编辑文本。\n我们编辑代码。VIM的语法并不承认这一点。它以行、词等为中心。\n代码是一棵树。在我看来，你需要的是能够遍历这棵树的按键，展开/收缩选择等。<p>当然，我可以安装tree-sitter并设置基于结构化编辑的绑定，但我真的在使用\n在这一点上，我真的在使用 VIM 吗？我不认为VIM的语法是代码编辑的未来。\n我认为它有点被高估了。我认为编辑器的设计者应该致力于开发一种语法/密钥绑定\n围绕着结构/树的编辑。\n我发现，IDE倾向于承认这种基于树的\n<p>我认为这个概念甚至可以应用于源码控制，即git存储了一个类似树状的代码表示，而不是文本。\n代替文本的代码表示。你的文本编辑器处理格式化。\n",
+  "description_zh-Hant": "我試著從jetbrains切換到各種模式編輯器（neovim, doom-emacs, kakoune, helix）。\n在終端環境中工作時，快速的啟動時間和連續性是非常吸引人的。\n<p>我喜歡快速的啟動時間和使用相同的鍵位來編輯系統配置文件，但我對VIM的印象並不好。\n但我對 VIM 風格的文本編輯沒有留下深刻印象。首先，程序員並不真正編輯文本。\n我們編輯代碼。VIM的語法並不承認這一點。它以行、詞等為中心。\n代碼是一棵樹。在我看來，你需要的是能夠遍歷這棵樹的按鍵，展開/收縮選擇等。<p>當然，我可以安裝tree-sitter並設置基於結構化編輯的綁定，但我真的在使用\n在這一點上，我真的在使用 VIM 嗎？我不認為VIM的語法是代碼編輯的未來。\n我認為它有點被高估了。我認為編輯器的設計者應該致力於開發一種語法/密鑰綁定\n圍繞著結構/樹的編輯。\n我發現，IDE傾向於承認這種基於樹的\n<p>我認為這個概念甚至可以應用於源碼控制，即git存儲了一個類似樹狀的代碼表示，而不是文本。\n代替文本的代碼表示。你的文本編輯器處理格式化。\n"
+}
