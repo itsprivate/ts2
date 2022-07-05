@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--05--en--hackernews--HackerNews--NewsArticle--31983769",
+  "url": "https://news.ycombinator.com/item?id=31983769",
+  "headline": "Browsh is a fully-modern text-based browser",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rahimnathwani",
+    "url": "https://news.ycombinator.com/user?id=rahimnathwani"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31983769",
+  "sameAs": "https://www.brow.sh/",
+  "dateCreated": "2022-07-05T03:54:37.646Z",
+  "datePublished": "2022-07-05T02:44:59.000Z",
+  "dateModified": "2022-07-05T03:54:37.646Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 15
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "Browsh是一个完全现代化的基于文本的浏览器\n",
+  "headline_zh-Hant": "Browsh是一個完全現代化的基於文本的瀏覽器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

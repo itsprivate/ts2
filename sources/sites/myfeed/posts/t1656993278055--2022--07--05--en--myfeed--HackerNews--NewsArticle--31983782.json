@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--05--en--myfeed--HackerNews--NewsArticle--31983782",
+  "url": "https://news.ycombinator.com/item?id=31983782",
+  "headline": "Sadly, we can't check the app permissions on Google Play anymore",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "oledeveloper",
+    "url": "https://news.ycombinator.com/user?id=oledeveloper"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31983782",
+  "sameAs": "https://www.bluespace.tech/blog/google-play-permissions-list/",
+  "dateCreated": "2022-07-05T03:54:38.055Z",
+  "datePublished": "2022-07-05T02:46:53.000Z",
+  "dateModified": "2022-07-05T03:54:38.055Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 31
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "遗憾的是，我们不能再在Google Play上检查应用程序的权限了\n",
+  "headline_zh-Hant": "遺憾的是，我們不能再在Google Play上檢查應用程序的權限了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
