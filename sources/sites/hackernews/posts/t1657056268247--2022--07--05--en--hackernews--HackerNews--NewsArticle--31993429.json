@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--05--en--hackernews--HackerNews--NewsArticle--31993429",
+  "url": "https://news.ycombinator.com/item?id=31993429",
+  "headline": "Bun: Fast JavaScript runtime, transpiler, and npm client written in Zig",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "firloop",
+    "url": "https://news.ycombinator.com/user?id=firloop"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31993429",
+  "sameAs": "https://bun.sh/?launch",
+  "dateCreated": "2022-07-05T21:24:28.247Z",
+  "datePublished": "2022-07-05T20:41:53.000Z",
+  "dateModified": "2022-07-05T21:24:28.247Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 100
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 19
+    }
+  ],
+  "headline_zh-Hans": "Bun: 用Zig编写的快速JavaScript运行时、转码器和npm客户端\n",
+  "headline_zh-Hant": "Bun: 用Zig編寫的快速JavaScript運行時、轉碼器和npm客戶端\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
