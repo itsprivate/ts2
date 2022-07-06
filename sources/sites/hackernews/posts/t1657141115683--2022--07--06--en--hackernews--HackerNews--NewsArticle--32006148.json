@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--06--en--hackernews--HackerNews--NewsArticle--32006148",
+  "url": "https://news.ycombinator.com/item?id=32006148",
+  "headline": "An Apple Original Podcast on Ted Kaczynski the Unabomber",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Austin_Conlon",
+    "url": "https://news.ycombinator.com/user?id=Austin_Conlon"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32006148",
+  "sameAs": "https://podcasts.apple.com/us/podcast/project-unabom/id1627613321",
+  "dateCreated": "2022-07-06T20:58:35.683Z",
+  "datePublished": "2022-07-06T20:09:44.000Z",
+  "dateModified": "2022-07-06T20:58:35.683Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "苹果公司原创播客，讲述 \"炸弹人 \"特德-卡钦斯基的故事\n",
+  "headline_zh-Hant": "蘋果公司原創播客，講述 \"炸彈人 \"特德-卡欽斯基的故事\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
