@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--06--en--myfeed--HackerNews--NewsArticle--31995157",
+  "url": "https://news.ycombinator.com/item?id=31995157",
+  "headline": "Marriott confirms latest data breach, possibly exposing information",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "WaitWaitWha",
+    "url": "https://news.ycombinator.com/user?id=WaitWaitWha"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31995157",
+  "sameAs": "https://www.cyberscoop.com/marriott-data-breach-baltimore/",
+  "dateCreated": "2022-07-06T02:35:35.003Z",
+  "datePublished": "2022-07-05T23:48:08.000Z",
+  "dateModified": "2022-07-06T02:35:35.003Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "万豪集团确认最新的数据泄露，可能暴露了信息\n",
+  "headline_zh-Hant": "萬豪集團確認最新的數據洩露，可能暴露了信息\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
