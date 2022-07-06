@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--06--en--hackernews--HackerNews--NewsArticle--32002830",
+  "url": "https://news.ycombinator.com/item?id=32002830",
+  "headline": "First True Exascale Supercomputer",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "AliCollins",
+    "url": "https://news.ycombinator.com/user?id=AliCollins"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32002830",
+  "sameAs": "https://www.top500.org/lists/top500/2022/06/",
+  "dateCreated": "2022-07-06T16:39:40.669Z",
+  "datePublished": "2022-07-06T15:57:28.000Z",
+  "dateModified": "2022-07-06T16:39:40.669Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 13
+    }
+  ],
+  "headline_zh-Hans": "第一台真正的超大规模超级计算机\n",
+  "headline_zh-Hant": "第一臺真正的超大規模超級計算機\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
