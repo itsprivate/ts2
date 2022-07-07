@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--07--en--myfeed--HackerNews--NewsArticle--32008586",
+  "url": "https://news.ycombinator.com/item?id=32008586",
+  "headline": "I analyzed hospital price lists so you didn't have to",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "PainfullyNormal",
+    "url": "https://news.ycombinator.com/user?id=PainfullyNormal"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32008586",
+  "sameAs": "https://www.dolthub.com/blog/2022-07-01-hospitals-compliance/",
+  "dateCreated": "2022-07-07T02:31:17.310Z",
+  "datePublished": "2022-07-07T00:25:18.000Z",
+  "dateModified": "2022-07-07T02:31:17.310Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 141
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 93
+    }
+  ],
+  "headline_zh-Hans": "我分析了医院的价格表，所以你不必分析。\n",
+  "headline_zh-Hant": "我分析了醫院的價格表，所以你不必分析。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

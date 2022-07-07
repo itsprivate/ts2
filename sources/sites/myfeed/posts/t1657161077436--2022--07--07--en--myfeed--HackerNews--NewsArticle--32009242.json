@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--07--en--myfeed--HackerNews--NewsArticle--32009242",
+  "url": "https://news.ycombinator.com/item?id=32009242",
+  "headline": "Welcome to Software Foundations (Video Lectures from Michael Clarkson)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "blackerby",
+    "url": "https://news.ycombinator.com/user?id=blackerby"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32009242",
+  "sameAs": "https://www.youtube.com/watch?v=BGg-gxhsV4E",
+  "dateCreated": "2022-07-07T02:31:17.436Z",
+  "datePublished": "2022-07-07T02:15:23.000Z",
+  "dateModified": "2022-07-07T02:31:17.436Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "欢迎来到软件基础（Michael Clarkson的视频讲座）\n",
+  "headline_zh-Hant": "歡迎來到軟件基礎（Michael Clarkson的視頻講座）\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

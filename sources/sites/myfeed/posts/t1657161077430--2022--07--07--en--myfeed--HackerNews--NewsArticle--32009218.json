@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--07--en--myfeed--HackerNews--NewsArticle--32009218",
+  "url": "https://news.ycombinator.com/item?id=32009218",
+  "headline": "SoK: Blockchain Governance",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Anon84",
+    "url": "https://news.ycombinator.com/user?id=Anon84"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32009218",
+  "sameAs": "https://arxiv.org/abs/2201.07188",
+  "dateCreated": "2022-07-07T02:31:17.430Z",
+  "datePublished": "2022-07-07T02:11:52.000Z",
+  "dateModified": "2022-07-07T02:31:17.430Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "SoK: 区块链治理\n",
+  "headline_zh-Hant": "SoK: 區塊鏈治理\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
