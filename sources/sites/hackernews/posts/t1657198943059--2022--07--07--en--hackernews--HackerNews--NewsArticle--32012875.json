@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--07--en--hackernews--HackerNews--NewsArticle--32012875",
+  "url": "https://news.ycombinator.com/item?id=32012875",
+  "headline": "Why do people not notice our enormous, prominent, clear and contrasting banner?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mmillin",
+    "url": "https://news.ycombinator.com/user?id=mmillin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32012875",
+  "sameAs": "https://ux.stackexchange.com/questions/120541/why-do-people-not-notice-our-enormous-prominent-clear-and-contrasting-purple-b",
+  "dateCreated": "2022-07-07T13:02:23.059Z",
+  "datePublished": "2022-07-07T11:59:47.000Z",
+  "dateModified": "2022-07-07T13:02:23.059Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 27
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 12
+    }
+  ],
+  "headline_zh-Hans": "为什么人们没有注意到我们巨大的、突出的、清晰的、对比强烈的横幅？\n",
+  "headline_zh-Hant": "為什麼人們沒有注意到我們巨大的、突出的、清晰的、對比強烈的橫幅？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
