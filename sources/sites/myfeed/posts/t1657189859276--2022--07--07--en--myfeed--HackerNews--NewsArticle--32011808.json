@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--07--en--myfeed--HackerNews--NewsArticle--32011808",
+  "url": "https://news.ycombinator.com/item?id=32011808",
+  "headline": "First Academic Paper by Apache ShardingSphere Accepted by ICDE",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Recently, “Apache ShardingSphere: A Holistic and Pluggable Platform for Data Sharding”, co-authored by the Apache ShardingSphere community, SphereEx Lab and the Department of Computer Science of Chongqing University, has been accepted by The International Conference on Data Engineering (ICDE), one of the top international conferences on data engineering and databases. This conference paper is the first one focusing on data sharding in the database industry.<p>ICDE is a top-level academic conference on databases and data mining, as well as the flagship conference of the Institute of Electrical and Electronics Engineers (IEEE), the world’s largest technical professional organization for the advancement of technology. ICDE, ACM SIGMOD Conference and International Conference on Very Large Data Bases are known as the top three data management and database conferences in the world.<p>This paper's publication represents the culmination of 5-year of R&amp;D and implementation testing for Apache ShardingSphere guided by its Database Plus development concept. The acceptance of this paper stands as a testament of the acknowledgment of Database Plus, Apache ShardingSphere’s enhanced computing engine and plugin-oriented architecture by the academic community.<p>Thanks to the acceptance of this paper, our community is proud to announce that our efforts have led to innovative breakthroughs in core database technologies.<p>In this paper, the co-authors propose that: considering that today relational databases that are not scalable and efficient enough to solve high concurrency problems still dominate online transaction processing and that NewSQL databases could lead to additional training costs, the database middleware Apache ShardingSphere becomes a very friendly and efficient way to connect and manage multiple databases.<p>Why Did We Choose to Improve the Database Ecosystem Rather Than Creating a New Database?<p>The aim of Apache ShardingSphere is to better utilize the computing and storage capabilities of relational databases in distributed scenarios, rather than implementing a new type of relational database.<p>So far, as relational databases are still the best choice for complete transactions, they are often used to handle online transaction processing. However, the relational database is designed for a single machine. In other words, at the initial stage developers did not take big data into account. In short, relational databases are less scalable to efficiently solve high concurrency problems.<p>In this context, NewSQL came into being. However, New means this type of database is developed from scratch. Although it is suitable for current application scenarios, it has not been tested in enough real production environments, and for enterprise maintainers, it has a steep learning curve.<p>Apache ShardingSphere just released its official version 5.1.0. With this update, Apache ShardingSphere has also shifted its positioning to Database Plus with the desire to build the standard and ecosystem above different databases. Apart from enhanced capabilities, the Database Plus architecture also opens up a highly scalable database ecosystem for developers and users.\nConclusion<p>Apache ShardingSphere has been adopted and tested by hundreds of enterprises, from the Internet, gaming, banking, insurance &amp; securities, manufacturing, telecommunications, new retail sectors to the public sector, etc., and has been tested in multiple production scenarios.<p>With its first paper being included in ICDE, Apache ShardingSphere’s concept has now been recognized by the academic community. The paper will provide new solutions for the development of the database industry and the improvement of data processing efficiency.\nWe hope this paper and Apache ShardingSphere’s exploration can inspire developers and scholars inthe database field to build databases into a data service platform that is closer to enterprise business scenarios.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Yamy",
+    "url": "https://news.ycombinator.com/user?id=Yamy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32011808",
+  "sameAs": "https://news.ycombinator.com/item?id=32011808",
+  "dateCreated": "2022-07-07T10:30:59.276Z",
+  "datePublished": "2022-07-07T09:44:44.000Z",
+  "dateModified": "2022-07-07T10:30:59.276Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Apache ShardingSphere的第一篇学术论文被ICDE接受\n",
+  "headline_zh-Hant": "Apache ShardingSphere的第一篇學術論文被ICDE接受\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "近日，由Apache ShardingSphere社区、SphereEx实验室和重庆大学计算机系共同撰写的《Apache ShardingSphere: 由Apache ShardingSphere社区、SphereEx实验室和重庆大学计算机系共同撰写的 \"Apache ShardingSphere: A Holistic and Pluggable Platform for Data Sharding \"被数据工程和数据库领域的顶级国际会议之一--国际数据工程会议（ICDE）接受。该会议论文是第一篇关注数据库行业的数据分片的论文。<p>ICDE是数据库和数据挖掘的顶级学术会议，也是世界上最大的技术专业组织电气和电子工程师协会（IEEE）的旗舰会议，旨在促进技术进步。ICDE、ACM SIGMOD会议和国际超大型数据库会议被称为世界三大数据管理和数据库会议。<p>本文的发表代表了Apache ShardingSphere在其Database Plus开发理念指导下，经过5年的研发和实施测试的成果。<p>这篇论文的接受是学术界对Database Plus、Apache ShardingSphere的增强型计算引擎和面向插件的架构的认可。<p>由于这篇论文的接受，我们的社区很自豪地宣布，我们的努力导致了核心数据库技术的创新突破。 <p>在这篇论文中，共同作者提出：考虑到如今不具备可扩展性和高效性的关系型数据库仍然主导着在线交易处理，以及NewSQL数据库可能导致额外的培训成本，数据库中间件Apache ShardingSphere成为一种非常友好和高效的连接和管理多个数据库的方式。 <p>为什么我们选择改进数据库生态系统，而不是创建一个新的数据库？<p>Apache ShardingSphere的目的是在分布式场景中更好地利用关系型数据库的计算和存储能力，而不是实现一种新型的关系型数据库。<p>到目前为止，由于关系型数据库仍然是完整交易的最佳选择，它们经常被用来处理在线交易处理。然而，关系型数据库是为单机设计的。换句话说，在最初阶段，开发人员并没有考虑到大数据。简而言之，关系型数据库的可扩展性较差，无法有效解决高并发问题。<p>在这种情况下，NewSQL应运而生。然而，New意味着这种类型的数据库是从头开始开发的。虽然它适合当前的应用场景，但它还没有经过足够多的实际生产环境的测试，对于企业维护人员来说，它的学习曲线很陡峭。<p>Apache ShardingSphere刚刚发布了5.1.0的正式版本。通过这次更新，Apache ShardingSphere也将其定位转移到Database Plus，希望在不同的数据库之上建立标准和生态系统。除了增强功能之外，Database Plus架构还为开发者和用户开辟了一个高度可扩展的数据库生态系统。\n结论<p>Apache ShardingSphere已经被数百家企业采用和测试，从互联网、游戏、银行、保险&amp；证券、制造、电信、新零售行业到公共部门等，并在多个生产场景中进行了测试。<p>随着其第一篇论文被ICDE收录，Apache ShardingSphere的概念现在已经被学术界认可。该论文将为数据库行业的发展和数据处理效率的提高提供新的解决方案。\n我们希望这篇论文和Apache ShardingSphere的探索能够启发数据库领域的开发者和学者，将数据库打造成一个更贴近企业业务场景的数据服务平台。\n",
+  "description_zh-Hant": "近日，由Apache ShardingSphere社區、SphereEx實驗室和重慶大學計算機系共同撰寫的《Apache ShardingSphere: 由Apache ShardingSphere社區、SphereEx實驗室和重慶大學計算機系共同撰寫的 \"Apache ShardingSphere: A Holistic and Pluggable Platform for Data Sharding \"被數據工程和數據庫領域的頂級國際會議之一--國際數據工程會議（ICDE）接受。該會議論文是第一篇關注數據庫行業的數據分片的論文。<p>ICDE是數據庫和數據挖掘的頂級學術會議，也是世界上最大的技術專業組織電氣和電子工程師協會（IEEE）的旗艦會議，旨在促進技術進步。ICDE、ACM SIGMOD會議和國際超大型數據庫會議被稱為世界三大數據管理和數據庫會議。<p>本文的發表代表了Apache ShardingSphere在其Database Plus開發理念指導下，經過5年的研發和實施測試的成果。<p>這篇論文的接受是學術界對Database Plus、Apache ShardingSphere的增強型計算引擎和麵向插件的架構的認可。<p>由於這篇論文的接受，我們的社區很自豪地宣佈，我們的努力導致了核心數據庫技術的創新突破。 <p>在這篇論文中，共同作者提出：考慮到如今不具備可擴展性和高效性的關係型數據庫仍然主導著在線交易處理，以及NewSQL數據庫可能導致額外的培訓成本，數據庫中間件Apache ShardingSphere成為一種非常友好和高效的連接和管理多個數據庫的方式。 <p>為什麼我們選擇改進數據庫生態系統，而不是創建一個新的數據庫？<p>Apache ShardingSphere的目的是在分佈式場景中更好地利用關係型數據庫的計算和存儲能力，而不是實現一種新型的關係型數據庫。<p>到目前為止，由於關係型數據庫仍然是完整交易的最佳選擇，它們經常被用來處理在線交易處理。然而，關係型數據庫是為單機設計的。換句話說，在最初階段，開發人員並沒有考慮到大數據。簡而言之，關係型數據庫的可擴展性較差，無法有效解決高併發問題。<p>在這種情況下，NewSQL應運而生。然而，New意味著這種類型的數據庫是從頭開始開發的。雖然它適合當前的應用場景，但它還沒有經過足夠多的實際生產環境的測試，對於企業維護人員來說，它的學習曲線很陡峭。<p>Apache ShardingSphere剛剛發佈了5.1.0的正式版本。通過這次更新，Apache ShardingSphere也將其定位轉移到Database Plus，希望在不同的數據庫之上建立標準和生態系統。除了增強功能之外，Database Plus架構還為開發者和用戶開闢了一個高度可擴展的數據庫生態系統。\n結論<p>Apache ShardingSphere已經被數百家企業採用和測試，從互聯網、遊戲、銀行、保險&amp；證券、製造、電信、新零售行業到公共部門等，並在多個生產場景中進行了測試。<p>隨著其第一篇論文被ICDE收錄，Apache ShardingSphere的概念現在已經被學術界認可。該論文將為數據庫行業的發展和數據處理效率的提高提供新的解決方案。\n我們希望這篇論文和Apache ShardingSphere的探索能夠啟發數據庫領域的開發者和學者，將數據庫打造成一個更貼近企業業務場景的數據服務平臺。\n"
+}
