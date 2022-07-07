@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--07--en--myfeed--HackerNews--NewsArticle--32019696",
+  "url": "https://news.ycombinator.com/item?id=32019696",
+  "headline": "You Don’t Buy Bitcoin–Bitcoin Buys You",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "behnamoh",
+    "url": "https://news.ycombinator.com/user?id=behnamoh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32019696",
+  "sameAs": "https://medium.com/@parttimeben/bitcoin-is-reverse-money-which-makes-it-a-scam-566098b1ff1",
+  "dateCreated": "2022-07-07T22:26:25.868Z",
+  "datePublished": "2022-07-07T21:28:41.000Z",
+  "dateModified": "2022-07-07T22:26:25.868Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "你不买比特币--比特币买你\n",
+  "headline_zh-Hant": "你不買比特幣--比特幣買你\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

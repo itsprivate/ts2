@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--07--en--myfeed--HackerNews--NewsArticle--32020141",
+  "url": "https://news.ycombinator.com/item?id=32020141",
+  "headline": "iPhone QuickPath (swipe) keyboard will not type 'abortion' until you do",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fprog",
+    "url": "https://news.ycombinator.com/user?id=fprog"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32020141",
+  "sameAs": "https://vimeo.com/727931779",
+  "dateCreated": "2022-07-07T22:26:25.964Z",
+  "datePublished": "2022-07-07T22:04:46.000Z",
+  "dateModified": "2022-07-07T22:26:25.964Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "iPhone的QuickPath（滑动）键盘不会打出 \"堕胎\"，直到你打出。\n",
+  "headline_zh-Hant": "iPhone的QuickPath（滑動）鍵盤不會打出 \"墮胎\"，直到你打出。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
