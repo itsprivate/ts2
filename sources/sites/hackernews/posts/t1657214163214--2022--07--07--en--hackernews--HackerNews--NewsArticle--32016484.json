@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--07--en--hackernews--HackerNews--NewsArticle--32016484",
+  "url": "https://news.ycombinator.com/item?id=32016484",
+  "headline": "A Facebook account is no longer required to use Meta VR devices",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pesenti",
+    "url": "https://news.ycombinator.com/user?id=pesenti"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32016484",
+  "sameAs": "https://www.oculus.com/blog/meta-accounts/",
+  "dateCreated": "2022-07-07T17:16:03.214Z",
+  "datePublished": "2022-07-07T17:00:47.000Z",
+  "dateModified": "2022-07-07T17:16:03.214Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 6
+    }
+  ],
+  "headline_zh-Hans": "使用Meta VR设备不再需要Facebook账户了\n",
+  "headline_zh-Hant": "使用Meta VR設備不再需要Facebook賬戶了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
