@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--07--en--myfeed--HackerNews--NewsArticle--32013675",
+  "url": "https://news.ycombinator.com/item?id=32013675",
+  "headline": "UK Prime Minister Boris Johnson Resigns",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "chewymouse",
+    "url": "https://news.ycombinator.com/user?id=chewymouse"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32013675",
+  "sameAs": "https://www.npr.org/2022/07/07/1110226702/boris-johnson-resignation-prime-minister-uk",
+  "dateCreated": "2022-07-07T13:58:36.360Z",
+  "datePublished": "2022-07-07T13:15:43.000Z",
+  "dateModified": "2022-07-07T13:58:36.360Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 16
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "英国首相鲍里斯-约翰逊辞职\n",
+  "headline_zh-Hant": "英國首相鮑里斯-約翰遜辭職\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
