@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--07--en--myfeed--HackerNews--NewsArticle--32008418",
+  "url": "https://news.ycombinator.com/item?id=32008418",
+  "headline": "GameStop jumps in extended trading after announcing 4-for-1 stock split",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "thesecretceo",
+    "url": "https://news.ycombinator.com/user?id=thesecretceo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32008418",
+  "sameAs": "https://www.cnbc.com/2022/07/06/gamestop-jumps-5percent-in-extended-trading-after-announcing-4-for-1-stock-split.html",
+  "dateCreated": "2022-07-07T02:31:17.279Z",
+  "datePublished": "2022-07-07T00:00:04.000Z",
+  "dateModified": "2022-07-07T02:31:17.279Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "GameStop在宣布4比1的股票分割后在延长交易中跳升\n",
+  "headline_zh-Hant": "GameStop在宣佈4比1的股票分割後在延長交易中跳升\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
