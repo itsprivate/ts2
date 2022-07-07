@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--07--en--besthn--HackerNews--NewsArticle--32002555",
+  "url": "https://news.ycombinator.com/item?id=32002555",
+  "headline": "Show HN: PDFs that are readable by human eyes only",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi, OP here. A friend was involved in a custody battle and was afraid his ex was going to leak all of his discovery documents on the internet and he asked if there was something I could do to make it harder for bots/crawlers to find sensitive information. Originally I was going to turn all of his docs to image based PDFs, but those get large fast and are easy to OCR.<p>So I found a post musing about altering fonts/glyphs so that it <i>looks</i> like english, but the actual character being seen by the pdf reader is a non-english character. As such, when you try to OCR these files, it doesn't see any images and can't convert it.<p>I figured it had some potential uses and maybe you fine folks can identify other use cases. I'll be monitoring this post most of the day.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "viggity",
+    "url": "https://news.ycombinator.com/user?id=viggity"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32002555",
+  "sameAs": "https://humaneyesonly.com",
+  "dateCreated": "2022-07-07T19:21:45.928Z",
+  "datePublished": "2022-07-06T15:38:58.000Z",
+  "dateModified": "2022-07-07T19:21:45.928Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 200
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 125
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 只能由人眼阅读的PDF文件\n",
+  "headline_zh-Hant": "Show HN: 只能由人眼閱讀的PDF文件\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi, OP here. A friend was involved in a custody battle and was afraid his ex was going to leak all of his discovery documents on the internet and he asked if there was something I could do to make it harder for bots/crawlers to find sensitive information. Originally I was going to turn all of his docs to image based PDFs, but those get large fast and are easy to OCR.<p>So I found a post musing about altering fonts/glyphs so that it <i>looks</i> like english, but the actual character being seen by the pdf reader is a non-english character. As such, when you try to OCR these files, it doesn't see any images and can't convert it.<p>I figured it had some potential uses and maybe you fine folks can identify other use cases. I'll be monitoring this post most of the day.\n",
+  "description_zh-Hant": "Hi, OP here. A friend was involved in a custody battle and was afraid his ex was going to leak all of his discovery documents on the internet and he asked if there was something I could do to make it harder for bots/crawlers to find sensitive information. Originally I was going to turn all of his docs to image based PDFs, but those get large fast and are easy to OCR.<p>So I found a post musing about altering fonts/glyphs so that it <i>looks</i> like english, but the actual character being seen by the pdf reader is a non-english character. As such, when you try to OCR these files, it doesn't see any images and can't convert it.<p>I figured it had some potential uses and maybe you fine folks can identify other use cases. I'll be monitoring this post most of the day.\n"
+}
