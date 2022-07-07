@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--07--en--myfeed--HackerNews--NewsArticle--32014712",
+  "url": "https://news.ycombinator.com/item?id=32014712",
+  "headline": "When a quarter of the class identifies as trans",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bkohlmann",
+    "url": "https://news.ycombinator.com/user?id=bkohlmann"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32014712",
+  "sameAs": "https://pitt.substack.com/p/headline-when-a-quarter-of-the-class",
+  "dateCreated": "2022-07-07T15:25:42.502Z",
+  "datePublished": "2022-07-07T14:40:52.000Z",
+  "dateModified": "2022-07-07T15:25:42.502Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "当班上有四分之一的人被认定为变性人时\n",
+  "headline_zh-Hant": "當班上有四分之一的人被認定為變性人時\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

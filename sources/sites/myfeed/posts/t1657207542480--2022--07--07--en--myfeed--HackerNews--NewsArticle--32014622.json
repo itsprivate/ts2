@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--07--en--myfeed--HackerNews--NewsArticle--32014622",
+  "url": "https://news.ycombinator.com/item?id=32014622",
+  "headline": "July 8 99% of the world's population in sunlight simultaneously?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Shagdog",
+    "url": "https://news.ycombinator.com/user?id=Shagdog"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32014622",
+  "sameAs": "https://earthsky.org/earth/99-percent-worlds-population-receive-sunlight/",
+  "dateCreated": "2022-07-07T15:25:42.480Z",
+  "datePublished": "2022-07-07T14:32:59.000Z",
+  "dateModified": "2022-07-07T15:25:42.480Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "7月8日世界上99%的人口同时在阳光下？\n",
+  "headline_zh-Hant": "7月8日世界上99%的人口同時在陽光下？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

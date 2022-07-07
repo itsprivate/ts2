@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--07--en--myfeed--HackerNews--NewsArticle--32014776",
+  "url": "https://news.ycombinator.com/item?id=32014776",
+  "headline": "F* – Microsoft's programming language with a superset of features over F#",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "philonoist",
+    "url": "https://news.ycombinator.com/user?id=philonoist"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32014776",
+  "sameAs": "https://github.com/FStarLang/FStar",
+  "dateCreated": "2022-07-07T15:25:42.529Z",
+  "datePublished": "2022-07-07T14:46:29.000Z",
+  "dateModified": "2022-07-07T15:25:42.529Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "F* - 微软的编程语言，具有比F#更多的功能。\n",
+  "headline_zh-Hant": "F* - 微軟的編程語言，具有比F#更多的功能。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
