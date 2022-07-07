@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--07--en--myfeed--HackerNews--NewsArticle--32010722",
+  "url": "https://news.ycombinator.com/item?id=32010722",
+  "headline": "I’ve watched 150 video game trailers. Here’s what you need to know",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "galkk",
+    "url": "https://news.ycombinator.com/user?id=galkk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32010722",
+  "sameAs": "https://twitter.com/berkesayil/status/1541899749938417667",
+  "dateCreated": "2022-07-07T07:26:07.256Z",
+  "datePublished": "2022-07-07T06:56:05.000Z",
+  "dateModified": "2022-07-07T07:26:07.256Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "我已经看了150个视频游戏的预告片。以下是你需要了解的情况\n",
+  "headline_zh-Hant": "我已經看了150個視頻遊戲的預告片。以下是你需要了解的情況\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
