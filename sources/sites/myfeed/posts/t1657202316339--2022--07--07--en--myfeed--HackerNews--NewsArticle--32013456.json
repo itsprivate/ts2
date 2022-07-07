@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--07--en--myfeed--HackerNews--NewsArticle--32013456",
+  "url": "https://news.ycombinator.com/item?id=32013456",
+  "headline": "Mushroom Bricks Are Up to Twice as Strong as Concrete",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "chapulin",
+    "url": "https://news.ycombinator.com/user?id=chapulin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32013456",
+  "sameAs": "https://www.youtube.com/watch?v=N6qjhj3kr9o",
+  "dateCreated": "2022-07-07T13:58:36.339Z",
+  "datePublished": "2022-07-07T12:55:36.000Z",
+  "dateModified": "2022-07-07T13:58:36.339Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "蘑菇砖的强度高达混凝土的两倍\n",
+  "headline_zh-Hant": "蘑菇磚的強度高達混凝土的兩倍\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
