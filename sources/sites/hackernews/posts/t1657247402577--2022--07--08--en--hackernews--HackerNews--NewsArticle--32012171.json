@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--08--en--hackernews--HackerNews--NewsArticle--32012171",
+  "url": "https://news.ycombinator.com/item?id=32012171",
+  "headline": "Body Margin 8px",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "marban",
+    "url": "https://news.ycombinator.com/user?id=marban"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32012171",
+  "sameAs": "https://www.miriamsuzanne.com/2022/07/04/body-margin-8px/?ref=heydesigner",
+  "dateCreated": "2022-07-08T02:30:02.577Z",
+  "datePublished": "2022-07-07T10:27:16.000Z",
+  "dateModified": "2022-07-08T02:30:02.577Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 59
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 6
+    }
+  ],
+  "headline_zh-Hans": "身体边距8px\n",
+  "headline_zh-Hant": "身體邊距8px\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
