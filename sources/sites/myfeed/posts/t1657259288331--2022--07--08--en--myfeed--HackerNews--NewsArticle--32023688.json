@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--08--en--myfeed--HackerNews--NewsArticle--32023688",
+  "url": "https://news.ycombinator.com/item?id=32023688",
+  "headline": "WeChat closes Bloomberg’s financial news account",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "marban",
+    "url": "https://news.ycombinator.com/user?id=marban"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32023688",
+  "sameAs": "https://www.scmp.com/tech/big-tech/article/3184481/wechat-closes-bloombergs-financial-news-account-becoming-latest",
+  "dateCreated": "2022-07-08T05:48:08.331Z",
+  "datePublished": "2022-07-08T05:36:38.000Z",
+  "dateModified": "2022-07-08T05:48:08.331Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "微信关闭彭博社的金融新闻账户\n",
+  "headline_zh-Hant": "微信關閉彭博社的金融新聞賬戶\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
