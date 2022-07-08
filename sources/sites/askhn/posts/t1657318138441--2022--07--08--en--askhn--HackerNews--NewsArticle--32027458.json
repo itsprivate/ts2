@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--08--en--askhn--HackerNews--NewsArticle--32027458",
+  "url": "https://news.ycombinator.com/item?id=32027458",
+  "headline": "Ask HN: ELI5 – What happened to HN for it to go down today?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "chirau",
+    "url": "https://news.ycombinator.com/user?id=chirau"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32027458",
+  "sameAs": "https://news.ycombinator.com/item?id=32027458",
+  "dateCreated": "2022-07-08T22:08:58.441Z",
+  "datePublished": "2022-07-08T21:32:26.000Z",
+  "dateModified": "2022-07-08T22:08:58.441Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: ELI5 - HN发生了什么事，以至于它今天倒下了？\n",
+  "headline_zh-Hant": "Ask HN: ELI5 - HN發生了什麼事，以至於它今天倒下了？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
