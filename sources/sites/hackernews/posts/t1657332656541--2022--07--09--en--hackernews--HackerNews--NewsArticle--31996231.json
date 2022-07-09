@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--09--en--hackernews--HackerNews--NewsArticle--31996231",
+  "url": "https://news.ycombinator.com/item?id=31996231",
+  "headline": "A Madman’s Guide to Wagner",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Caiero",
+    "url": "https://news.ycombinator.com/user?id=Caiero"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=31996231",
+  "sameAs": "https://thecritic.co.uk/a-madmans-guide-to-wagner/",
+  "dateCreated": "2022-07-09T02:10:56.541Z",
+  "datePublished": "2022-07-06T03:03:26.000Z",
+  "dateModified": "2022-07-09T02:10:56.541Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "疯子的瓦格纳指南\n",
+  "headline_zh-Hant": "瘋子的瓦格納指南\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
