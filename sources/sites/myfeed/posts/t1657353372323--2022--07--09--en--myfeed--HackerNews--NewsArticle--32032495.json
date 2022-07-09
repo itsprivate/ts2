@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--09--en--myfeed--HackerNews--NewsArticle--32032495",
+  "url": "https://news.ycombinator.com/item?id=32032495",
+  "headline": "Shinzo Abe's Death Celebrated in China: 'Open Champagne '",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "throwaway_1928",
+    "url": "https://news.ycombinator.com/user?id=throwaway_1928"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32032495",
+  "sameAs": "https://www.newsweek.com/shinzo-abes-death-celebrated-china-1723012",
+  "dateCreated": "2022-07-09T07:56:12.323Z",
+  "datePublished": "2022-07-09T06:40:07.000Z",
+  "dateModified": "2022-07-09T07:56:12.323Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "中国庆祝安倍晋三去世：\"开香槟\"。\n",
+  "headline_zh-Hant": "中國慶祝安倍晉三去世：\"開香檳\"。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
