@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--09--en--besthn--HackerNews--NewsArticle--32035569",
+  "url": "https://news.ycombinator.com/item?id=32035569",
+  "headline": "Elon’s Out",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jaxonrice",
+    "url": "https://news.ycombinator.com/user?id=jaxonrice"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32035569",
+  "sameAs": "https://www.bloomberg.com/opinion/articles/2022-07-09/elon-s-out",
+  "dateCreated": "2022-07-09T23:25:45.598Z",
+  "datePublished": "2022-07-09T14:46:09.000Z",
+  "dateModified": "2022-07-09T23:25:45.598Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 203
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 267
+    }
+  ],
+  "headline_zh-Hans": "埃隆出局\n",
+  "headline_zh-Hant": "埃隆出局\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
