@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--09--en--myfeed--HackerNews--NewsArticle--32038215",
+  "url": "https://news.ycombinator.com/item?id=32038215",
+  "headline": "Tell HN: Wikipedia blocks T-Mobile's entire IPv6 address space",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Wikipedia, the free encyclopedia anyone* can edit, blocks T-Mobile's entire IPv6 address space of 2607:fb90/32 from anonymous editing and account creation and has for years.[1] For reference, that is 79,228,162,514,264,337,593,543,950,336 or 2^96 IPv6 addresses. Most T-Mobile customers use native IPv6 without knowing it, so they have de facto blocked an entire nationwide ISP. Since they now sell home internet, this is not just limited to mobiles anymore. Wikipedia has published a sob story[2] where they justify these actions, claiming it's so difficult to ban IPv6 users because the addresses dynamically change when the device is restarted and the address space is so large, and T-Mobile's use of proxy acceleration, they are left with no choice but to ban the entire ISP's customer base, all 110 million of them. Their &quot;advice&quot; is to have a friend on another ISP create an account for you on a desktop computer. Why even allow access over IPv6 at all at that point, if they can't deal with the management of it? This is all especially hilarious and hypocritical given this quote:<p>&quot;The Wikimedia Foundation believes that the principle of net neutrality is critical to the future of the open Internet.&quot;<p>[1] https://en.wikipedia.org/w/index.php?title=Special:Log&amp;page=User%3A2607%3AFB90%3A0%3A0%3A0%3A0%3A0%3A0%2F32&amp;type=block<p>[2] https://en.wikipedia.org/wiki/Wikipedia:Advice_to_T-Mobile_IPv6_users",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "assttoasstmgr",
+    "url": "https://news.ycombinator.com/user?id=assttoasstmgr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32038215",
+  "sameAs": "https://news.ycombinator.com/item?id=32038215",
+  "dateCreated": "2022-07-09T19:21:09.348Z",
+  "datePublished": "2022-07-09T19:00:00.000Z",
+  "dateModified": "2022-07-09T19:21:09.348Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：维基百科屏蔽了T-Mobile的整个IPv6地址空间\n",
+  "headline_zh-Hant": "告訴HN：維基百科屏蔽了T-Mobile的整個IPv6地址空間\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "维基百科，任何人*都可以编辑的自由百科全书，阻止了T-Mobile的整个IPv6地址空间2607:fb90/32的匿名编辑和账户创建，并且多年来一直如此。 [1] 作为参考，这是79,228,162,514,264,337,593,543,950,336或2^96 IPv6地址。大多数T-Mobile客户在不知情的情况下使用原生IPv6，所以他们事实上封锁了整个国家的ISP。由于他们现在出售家庭互联网，这已经不仅仅局限于手机。维基百科发表了一个可悲的故事[2]，他们为这些行为辩护，声称禁止IPv6用户是非常困难的，因为地址在设备重启时动态变化，地址空间非常大，加上T-Mobile使用代理加速，他们别无选择，只能禁止整个ISP的客户群，所有1.1亿人。他们的建议是，让另一个ISP的朋友在台式电脑上为你创建一个账户。如果他们不能处理好管理问题，为什么还要允许通过IPv6访问？鉴于这句话，这一切都特别搞笑和虚伪：<p>&quot;维基媒体基金会认为网络中立原则对开放互联网的未来至关重要。&quot;<p>[1] https://en.wikipedia.org/w/index.php?title=Special:Log&amp;page=User%3A2607%3AFB90%3A0%3A0%3A0%2F32&amp;type=block<p>[2] https://en.wikipedia.org/wiki/Wikipedia:Advice_to_T-Mobile_IPv6_users\n",
+  "description_zh-Hant": "維基百科，任何人*都可以編輯的自由百科全書，阻止了T-Mobile的整個IPv6地址空間2607:fb90/32的匿名編輯和賬戶創建，並且多年來一直如此。 [1] 作為參考，這是79,228,162,514,264,337,593,543,950,336或2^96 IPv6地址。大多數T-Mobile客戶在不知情的情況下使用原生IPv6，所以他們事實上封鎖了整個國家的ISP。由於他們現在出售家庭互聯網，這已經不僅僅侷限於手機。維基百科發表了一個可悲的故事[2]，他們為這些行為辯護，聲稱禁止IPv6用戶是非常困難的，因為地址在設備重啟時動態變化，地址空間非常大，加上T-Mobile使用代理加速，他們別無選擇，只能禁止整個ISP的客戶群，所有1.1億人。他們的建議是，讓另一個ISP的朋友在臺式電腦上為你創建一個賬戶。如果他們不能處理好管理問題，為什麼還要允許通過IPv6訪問？鑑於這句話，這一切都特別搞笑和虛偽：<p>&quot;維基媒體基金會認為網絡中立原則對開放互聯網的未來至關重要。&quot;<p>[1] https://en.wikipedia.org/w/index.php?title=Special:Log&amp;page=User%3A2607%3AFB90%3A0%3A0%3A0%2F32&amp;type=block<p>[2] https://en.wikipedia.org/wiki/Wikipedia:Advice_to_T-Mobile_IPv6_users\n"
+}
