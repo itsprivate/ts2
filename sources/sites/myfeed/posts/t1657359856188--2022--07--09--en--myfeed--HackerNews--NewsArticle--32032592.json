@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--09--en--myfeed--HackerNews--NewsArticle--32032592",
+  "url": "https://news.ycombinator.com/item?id=32032592",
+  "headline": "Readme Driven Development",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pcr910303",
+    "url": "https://news.ycombinator.com/user?id=pcr910303"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32032592",
+  "sameAs": "https://tom.preston-werner.com/2010/08/23/readme-driven-development.html",
+  "dateCreated": "2022-07-09T09:44:16.188Z",
+  "datePublished": "2022-07-09T07:03:12.000Z",
+  "dateModified": "2022-07-09T09:44:16.188Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "自述程序驱动的开发\n",
+  "headline_zh-Hant": "自述程序驅動的開發\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
