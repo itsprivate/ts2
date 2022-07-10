@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--10--en--besthn--HackerNews--NewsArticle--32036224",
+  "url": "https://news.ycombinator.com/item?id=32036224",
+  "headline": "Using GPT-3 to explain how code works",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "simonw",
+    "url": "https://news.ycombinator.com/user?id=simonw"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32036224",
+  "sameAs": "https://simonwillison.net/2022/Jul/9/gpt-3-explain-code/",
+  "dateCreated": "2022-07-10T03:48:04.140Z",
+  "datePublished": "2022-07-09T15:53:35.000Z",
+  "dateModified": "2022-07-10T03:48:04.140Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 209
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 58
+    }
+  ],
+  "headline_zh-Hans": "使用GPT-3来解释代码的工作原理\n",
+  "headline_zh-Hant": "使用GPT-3來解釋代碼的工作原理\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
