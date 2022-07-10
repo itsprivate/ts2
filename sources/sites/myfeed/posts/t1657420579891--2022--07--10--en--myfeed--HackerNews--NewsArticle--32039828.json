@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--10--en--myfeed--HackerNews--NewsArticle--32039828",
+  "url": "https://news.ycombinator.com/item?id=32039828",
+  "headline": "Tell HN: Information Security Audit / Consulting is largely a scam industry",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "In light of a recent thread about SOC 2 certification (https://news.ycombinator.com/item?id=32018066), I wanted to share my perspective as an auditor/consultant on the other side of the table and inform people just how grim it looks from the inside. Before I get dunked on, yes - there are probably smaller niche firms worth every penny.<p>Shortly after starting in this line of work, it became clear that the services we sell are disingenuous. Here are some examples of why:<p>* My main argument: there is a HIGH likelihood that information security consulting is the first job out of college for the auditor leading you through the engagement. Beyond surface-level knowledge about multi-factor authentication being important and knowing that “Splunk is where the logs go,” your assessor is probably just nodding their head, asking canned questions from a spreadsheet, and not fully comprehending what you are telling them.<p>* We are told to describe ourselves as information security experts. I am not an expert. Every time I have to describe myself as the expert, I die a little inside. If I am the expert in the room yet still a recent college graduate, there is a glaring problem here.<p>* The middle manager of my department did not know the difference between a public and a private IP address when we reviewed DRL evidence together.<p>* The person leading your engagement may have a slight idea about what is going on, but they probably are tied to five other engagements and are not genuinely motivated to find problems because they are already underwater.<p>I can’t say that information security consulting is all bad. On several occasions, I have helped companies remove the clueless CEO from Domain Admins or explain why adding MFA to Cisco AnyConnect was a good idea for them. I should also mention that these types of positions are great for learning the inner workings of large companies that you might want to work at later on, how to passably write a report, and how to present information to executives.<p>Maybe I am preaching to the choir here. Interested to hear others' perspectives.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cyberexpert42",
+    "url": "https://news.ycombinator.com/user?id=cyberexpert42"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32039828",
+  "sameAs": "https://news.ycombinator.com/item?id=32039828",
+  "dateCreated": "2022-07-10T02:36:19.891Z",
+  "datePublished": "2022-07-09T22:20:23.000Z",
+  "dateModified": "2022-07-10T02:36:19.891Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：信息安全审计/咨询在很大程度上是一个骗局行业\n",
+  "headline_zh-Hant": "告訴HN：信息安全審計/諮詢在很大程度上是一個騙局行業\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "鉴于最近一个关于SOC 2认证的话题（https://news.ycombinator.com/item?id=32018066），我想分享我作为一个审计师/咨询师在桌子另一边的观点，并告诉人们从内部看它是多么的严峻。在我被淹没之前，是的--可能有一些较小的利基公司值得每一分钱。<p>在开始从事这一行后不久，我们就发现我们所销售的服务是虚伪的。以下是一些原因的例子：<p>* 我的主要论点：信息安全咨询很有可能是带领你参与工作的审计师大学毕业后的第一份工作。除了对多因素认证的重要性和知道 \"Splunk是记录的地方 \"的表面知识外，你的评估员可能只是点点头，从电子表格中问一些罐头问题，并没有完全理解你告诉他们的内容。我不是一个专家。每当我不得不把自己描述成专家时，我的内心就会有一点死灰。如果我是房间里的专家，但仍然是一个刚毕业的大学生，这里就有一个明显的问题。<p>* 当我们一起审查DRL证据时，我部门的中层经理不知道公共和私人IP地址之间的区别。<p>* 领导你的人可能对发生的事情有一点想法，但他们可能被其他五个项目所束缚，并没有真正的动力去发现问题，因为他们已经在水下了。有几次，我曾帮助公司将无知的首席执行官从域名管理员中移除，或者解释为什么将MFA添加到Cisco AnyConnect对他们来说是个好主意。我还应该提到，这些类型的职位对于学习你以后可能想要工作的大公司的内部运作、如何合格地写一份报告以及如何向高管介绍信息都是很好的。<p>也许我在这里是对唱诗班说教。我很想听听别人的观点。\n",
+  "description_zh-Hant": "鑑於最近一個關於SOC 2認證的話題（https://news.ycombinator.com/item?id=32018066），我想分享我作為一個審計師/諮詢師在桌子另一邊的觀點，並告訴人們從內部看它是多麼的嚴峻。在我被淹沒之前，是的--可能有一些較小的利基公司值得每一分錢。<p>在開始從事這一行後不久，我們就發現我們所銷售的服務是虛偽的。以下是一些原因的例子：<p>* 我的主要論點：信息安全諮詢很有可能是帶領你參與工作的審計師大學畢業後的第一份工作。除了對多因素認證的重要性和知道 \"Splunk是記錄的地方 \"的表面知識外，你的評估員可能只是點點頭，從電子表格中問一些罐頭問題，並沒有完全理解你告訴他們的內容。我不是一個專家。每當我不得不把自己描述成專家時，我的內心就會有一點死灰。如果我是房間裡的專家，但仍然是一個剛畢業的大學生，這裡就有一個明顯的問題。<p>* 當我們一起審查DRL證據時，我部門的中層經理不知道公共和私人IP地址之間的區別。<p>* 領導你的人可能對發生的事情有一點想法，但他們可能被其他五個項目所束縛，並沒有真正的動力去發現問題，因為他們已經在水下了。有幾次，我曾幫助公司將無知的首席執行官從域名管理員中移除，或者解釋為什麼將MFA添加到Cisco AnyConnect對他們來說是個好主意。我還應該提到，這些類型的職位對於學習你以後可能想要工作的大公司的內部運作、如何合格地寫一份報告以及如何向高管介紹信息都是很好的。<p>也許我在這裡是對唱詩班說教。我很想聽聽別人的觀點。\n"
+}
