@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--10--en--hackernews--HackerNews--NewsArticle--32044431",
+  "url": "https://news.ycombinator.com/item?id=32044431",
+  "headline": "95% of employees say IT issues decrease workplace productivity, morale",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "CharlesW",
+    "url": "https://news.ycombinator.com/user?id=CharlesW"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32044431",
+  "sameAs": "https://venturebeat.com/2022/07/06/report-95-of-employees-say-it-issues-decrease-workplace-productivity-and-morale/",
+  "dateCreated": "2022-07-10T13:39:46.268Z",
+  "datePublished": "2022-07-10T13:16:29.000Z",
+  "dateModified": "2022-07-10T13:39:46.268Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "95%的员工说IT问题降低了工作场所的生产力和士气\n",
+  "headline_zh-Hant": "95%的員工說IT問題降低了工作場所的生產力和士氣\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
