@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--10--en--myfeed--HackerNews--NewsArticle--32039950",
+  "url": "https://news.ycombinator.com/item?id=32039950",
+  "headline": "The Emu War of 1932",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kdamica",
+    "url": "https://news.ycombinator.com/user?id=kdamica"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32039950",
+  "sameAs": "https://en.wikipedia.org/wiki/Emu_War",
+  "dateCreated": "2022-07-10T02:36:19.899Z",
+  "datePublished": "2022-07-09T22:33:27.000Z",
+  "dateModified": "2022-07-10T02:36:19.899Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "1932年的鸸鹋战争\n",
+  "headline_zh-Hant": "1932年的鴯鶓戰爭\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

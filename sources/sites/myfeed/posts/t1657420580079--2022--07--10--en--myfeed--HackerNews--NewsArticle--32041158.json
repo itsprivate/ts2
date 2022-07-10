@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--10--en--myfeed--HackerNews--NewsArticle--32041158",
+  "url": "https://news.ycombinator.com/item?id=32041158",
+  "headline": "Blot is a blogging platform with no interface. It turns a folder into a website",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "memorable",
+    "url": "https://news.ycombinator.com/user?id=memorable"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32041158",
+  "sameAs": "https://blot.im/",
+  "dateCreated": "2022-07-10T02:36:20.079Z",
+  "datePublished": "2022-07-10T01:55:41.000Z",
+  "dateModified": "2022-07-10T02:36:20.079Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Blot是一个没有界面的博客平台。它将一个文件夹变成一个网站\n",
+  "headline_zh-Hant": "Blot是一個沒有界面的博客平臺。它將一個文件夾變成一個網站\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
