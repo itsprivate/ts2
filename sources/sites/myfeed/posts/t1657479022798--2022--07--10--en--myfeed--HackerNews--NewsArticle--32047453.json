@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--10--en--myfeed--HackerNews--NewsArticle--32047453",
+  "url": "https://news.ycombinator.com/item?id=32047453",
+  "headline": "FreeYourMusic helps make your music playlists truly yours, everywhere you stream",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bartoszhernas",
+    "url": "https://news.ycombinator.com/user?id=bartoszhernas"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32047453",
+  "sameAs": "https://thenextweb.com/news/freeyourmusic-helps-make-your-music-playlists-truly-yours-everywhere-you-stream",
+  "dateCreated": "2022-07-10T18:50:22.798Z",
+  "datePublished": "2022-07-10T18:30:25.000Z",
+  "dateModified": "2022-07-10T18:50:22.798Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "FreeYourMusic有助于使你的音乐播放列表真正属于你，在任何地方你都可以流媒体。\n",
+  "headline_zh-Hant": "FreeYourMusic有助於使你的音樂播放列表真正屬於你，在任何地方你都可以流媒體。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

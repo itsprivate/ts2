@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--10--en--myfeed--HackerNews--NewsArticle--32047491",
+  "url": "https://news.ycombinator.com/item?id=32047491",
+  "headline": "Tesla got torched by Elon Musk's pursuit of Twitter",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "davidbarker",
+    "url": "https://news.ycombinator.com/user?id=davidbarker"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32047491",
+  "sameAs": "https://www.axios.com/2022/07/09/tesla-torched-elon-musk-twitter",
+  "dateCreated": "2022-07-10T18:50:22.804Z",
+  "datePublished": "2022-07-10T18:34:22.000Z",
+  "dateModified": "2022-07-10T18:50:22.804Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "特斯拉被埃隆-马斯克追求推特的行为搞得焦头烂额\n",
+  "headline_zh-Hant": "特斯拉被埃隆-馬斯克追求推特的行為搞得焦頭爛額\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
