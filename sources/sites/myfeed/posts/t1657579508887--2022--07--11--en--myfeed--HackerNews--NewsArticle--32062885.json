@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--11--en--myfeed--HackerNews--NewsArticle--32062885",
+  "url": "https://news.ycombinator.com/item?id=32062885",
+  "headline": "James Webb Space Telescope (JWST) first full-color image",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kklisura",
+    "url": "https://news.ycombinator.com/user?id=kklisura"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32062885",
+  "sameAs": "https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_deep_field_smacs0723-1280.jpg",
+  "dateCreated": "2022-07-11T22:45:08.887Z",
+  "datePublished": "2022-07-11T22:27:26.000Z",
+  "dateModified": "2022-07-11T22:45:08.887Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "詹姆斯-韦伯太空望远镜（JWST）首张全彩图像\n",
+  "headline_zh-Hant": "詹姆斯-韋伯太空望遠鏡（JWST）首張全綵圖像\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
