@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--11--en--myfeed--HackerNews--NewsArticle--32060944",
+  "url": "https://news.ycombinator.com/item?id=32060944",
+  "headline": "Why do public certificates expire?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "A cert is in valid day 0 and day 0 + 1. Why is it valid day 730 but not day 730 + 1?<p>(No smart-asses, you now what I mean)",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "AtNightWeCode",
+    "url": "https://news.ycombinator.com/user?id=AtNightWeCode"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32060944",
+  "sameAs": "https://news.ycombinator.com/item?id=32060944",
+  "dateCreated": "2022-07-11T20:37:40.399Z",
+  "datePublished": "2022-07-11T19:54:59.000Z",
+  "dateModified": "2022-07-11T20:37:40.399Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "为什么公共证书会过期？\n",
+  "headline_zh-Hant": "為什麼公共證書會過期？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "一个证书在第0天和第0+1天都是有效的。为什么它在第730天有效，而不是第730+1天？<p>（不要自作聪明，你知道我的意思）\n",
+  "description_zh-Hant": "一個證書在第0天和第0+1天都是有效的。為什麼它在第730天有效，而不是第730+1天？<p>（不要自作聰明，你知道我的意思）\n"
+}
