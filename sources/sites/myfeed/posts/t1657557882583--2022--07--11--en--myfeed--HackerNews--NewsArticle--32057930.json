@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--11--en--myfeed--HackerNews--NewsArticle--32057930",
+  "url": "https://news.ycombinator.com/item?id=32057930",
+  "headline": "Covid Booster Dose Less Than 20% Effective @ 9 Mo.s According to New Study [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cwwc",
+    "url": "https://news.ycombinator.com/user?id=cwwc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32057930",
+  "sameAs": "https://www.medrxiv.org/content/10.1101/2022.07.04.22277225v1.full.pdf",
+  "dateCreated": "2022-07-11T16:44:42.583Z",
+  "datePublished": "2022-07-11T16:03:05.000Z",
+  "dateModified": "2022-07-11T16:44:42.583Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "根据新的研究，Covid增效剂在9个月内有效的不到20% [pdf]\n",
+  "headline_zh-Hant": "根據新的研究，Covid增效劑在9個月內有效的不到20% [pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

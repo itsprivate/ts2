@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--11--en--myfeed--HackerNews--NewsArticle--32057941",
+  "url": "https://news.ycombinator.com/item?id=32057941",
+  "headline": "Food-seeking behavior is triggered by skin ultraviolet exposure in males",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "swores",
+    "url": "https://news.ycombinator.com/user?id=swores"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32057941",
+  "sameAs": "https://www.nature.com/articles/s42255-022-00587-9",
+  "dateCreated": "2022-07-11T16:44:42.589Z",
+  "datePublished": "2022-07-11T16:03:41.000Z",
+  "dateModified": "2022-07-11T16:44:42.589Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "男性的皮肤紫外线照射会引发寻食行为\n",
+  "headline_zh-Hant": "男性的皮膚紫外線照射會引發尋食行為\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
