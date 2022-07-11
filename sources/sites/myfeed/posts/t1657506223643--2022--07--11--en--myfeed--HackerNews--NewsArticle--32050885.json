@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--11--en--myfeed--HackerNews--NewsArticle--32050885",
+  "url": "https://news.ycombinator.com/item?id=32050885",
+  "headline": "Hashed and Hierarchical Timing Wheels",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "edding4500",
+    "url": "https://news.ycombinator.com/user?id=edding4500"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32050885",
+  "sameAs": "https://paulcavallaro.com/blog/hashed-and-hierarchical-timing-wheels/",
+  "dateCreated": "2022-07-11T02:23:43.643Z",
+  "datePublished": "2022-07-11T00:45:00.000Z",
+  "dateModified": "2022-07-11T02:23:43.643Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "散列式和分层式定时轮子\n",
+  "headline_zh-Hant": "散列式和分層式定時輪子\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
