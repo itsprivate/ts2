@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--11--en--myfeed--HackerNews--NewsArticle--32055742",
+  "url": "https://news.ycombinator.com/item?id=32055742",
+  "headline": "SolidJS's truly reactive state management, in React",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "davidatbu",
+    "url": "https://news.ycombinator.com/user?id=davidatbu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32055742",
+  "sameAs": "https://github.com/solidjs/react-solid-state",
+  "dateCreated": "2022-07-11T14:26:39.445Z",
+  "datePublished": "2022-07-11T13:17:56.000Z",
+  "dateModified": "2022-07-11T14:26:39.445Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "SolidJS的真正反应式状态管理，在React中\n",
+  "headline_zh-Hant": "SolidJS的真正反應式狀態管理，在React中\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
