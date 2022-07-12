@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--12--en--besthn--HackerNews--NewsArticle--32069418",
+  "url": "https://news.ycombinator.com/item?id=32069418",
+  "headline": "Tell HN: We are trying to get tail calls into the WebAssembly standard",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "WebAssembly is a modern bytecode supported by all browsers and designed to be a compiler target for a wide variety of programming languages.<p>To effectively support some forms of Functional Programming support for tail-calls has been proposed as an extension to the WebAssembly standard.<p>This proposal has reached Phase3 of the standardization process years ago, but has since stalled.<p>Phase3 is known as &quot;the implementation phase&quot; and the prerequisite for advancing the proposal to Phase4 is to have support in two different browser engines. V8/Chrome support has been available for a long time, so another engine is required.<p>To unblock this situation we have contributed full support for WebAssembly Tail Calls to JavaScript/WebKit/Safari. The PR is available here:<p><a href=\"https://github.com/WebKit/WebKit/pull/2065\" rel=\"nofollow\">https://github.com/WebKit/WebKit/pull/2065</a><p>An in-depth article about the challenges of implementing this feature is also available. This is intended both as documentation for our contribution, but also as a general explainer about how tails calls actually work, with a particular focus on stack space management.<p><a href=\"https://leaningtech.com/fantastic-tail-calls-and-how-to-implement-them/\" rel=\"nofollow\">https://leaningtech.com/fantastic-tail-calls-and-how-to-impl...</a>",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "apignotti",
+    "url": "https://news.ycombinator.com/user?id=apignotti"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32069418",
+  "sameAs": "https://news.ycombinator.com/item?id=32069418",
+  "dateCreated": "2022-07-12T17:56:09.868Z",
+  "datePublished": "2022-07-12T13:14:23.000Z",
+  "dateModified": "2022-07-12T17:56:09.868Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 202
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 85
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：我们正在努力将尾部调用纳入WebAssembly标准。\n",
+  "headline_zh-Hant": "告訴HN：我們正在努力將尾部調用納入WebAssembly標準。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "WebAssembly is a modern bytecode supported by all browsers and designed to be a compiler target for a wide variety of programming languages.<p>To effectively support some forms of Functional Programming support for tail-calls has been proposed as an extension to the WebAssembly standard.<p>This proposal has reached Phase3 of the standardization process years ago, but has since stalled.<p>Phase3 is known as &quot;the implementation phase&quot; and the prerequisite for advancing the proposal to Phase4 is to have support in two different browser engines. V8/Chrome support has been available for a long time, so another engine is required.<p>To unblock this situation we have contributed full support for WebAssembly Tail Calls to JavaScript/WebKit/Safari. The PR is available here:<p><a href=\"https://github.com/WebKit/WebKit/pull/2065\" rel=\"nofollow\">https://github.com/WebKit/WebKit/pull/2065</a><p>An in-depth article about the challenges of implementing this feature is also available. This is intended both as documentation for our contribution, but also as a general explainer about how tails calls actually work, with a particular focus on stack space management.<p><a href=\"https://leaningtech.com/fantastic-tail-calls-and-how-to-implement-them/\" rel=\"nofollow\">https://leaningtech.com/fantastic-tail-calls-and-how-to-impl...</a>\n",
+  "description_zh-Hant": "WebAssembly is a modern bytecode supported by all browsers and designed to be a compiler target for a wide variety of programming languages.<p>To effectively support some forms of Functional Programming support for tail-calls has been proposed as an extension to the WebAssembly standard.<p>This proposal has reached Phase3 of the standardization process years ago, but has since stalled.<p>Phase3 is known as &quot;the implementation phase&quot; and the prerequisite for advancing the proposal to Phase4 is to have support in two different browser engines. V8/Chrome support has been available for a long time, so another engine is required.<p>To unblock this situation we have contributed full support for WebAssembly Tail Calls to JavaScript/WebKit/Safari. The PR is available here:<p><a href=\"https://github.com/WebKit/WebKit/pull/2065\" rel=\"nofollow\">https://github.com/WebKit/WebKit/pull/2065</a><p>An in-depth article about the challenges of implementing this feature is also available. This is intended both as documentation for our contribution, but also as a general explainer about how tails calls actually work, with a particular focus on stack space management.<p><a href=\"https://leaningtech.com/fantastic-tail-calls-and-how-to-implement-them/\" rel=\"nofollow\">https://leaningtech.com/fantastic-tail-calls-and-how-to-impl...</a>\n"
+}
