@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--07--10--en--myfeed--HackerNews--NewsArticle--32045007",
-  "url": "https://news.ycombinator.com/item?id=32045007",
-  "headline": "Why Bluetooth remains an 'unusually painful' technology after two decades",
+  "identifier": "2022--07--12--en--showhn--HackerNews--NewsArticle--32070831",
+  "url": "https://news.ycombinator.com/item?id=32070831",
+  "headline": "Show HN: MockIPFS – a mock node and MitM proxy for IPFS testing and debugging",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "hdivider",
-    "url": "https://news.ycombinator.com/user?id=hdivider"
+    "name": "pimterry",
+    "url": "https://news.ycombinator.com/user?id=pimterry"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32045007",
-  "sameAs": "https://lite.cnn.com/en/article/h_e8a1a4949647674095be98b3234d2291",
-  "dateCreated": "2022-07-10T14:44:12.128Z",
-  "datePublished": "2022-07-10T14:20:11.000Z",
-  "dateModified": "2022-07-10T14:44:12.128Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32070831",
+  "sameAs": "https://github.com/httptoolkit/mockipfs",
+  "dateCreated": "2022-07-12T14:57:11.921Z",
+  "datePublished": "2022-07-12T14:51:04.000Z",
+  "dateModified": "2022-07-12T14:57:11.921Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "为什么蓝牙在20年后仍然是一项 \"异常痛苦 \"的技术？\n",
-  "headline_zh-Hant": "為什麼藍牙在20年後仍然是一項 \"異常痛苦 \"的技術？\n",
+  "headline_zh-Hans": "Show HN: MockIPFS - 一个用于IPFS测试和调试的模拟节点和MitM代理\n",
+  "headline_zh-Hant": "Show HN: MockIPFS - 一個用於IPFS測試和調試的模擬節點和MitM代理\n",
   "@context": [
     "https://schema.org",
     {
