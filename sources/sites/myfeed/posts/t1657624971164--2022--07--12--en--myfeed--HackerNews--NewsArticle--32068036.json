@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--12--en--myfeed--HackerNews--NewsArticle--32068036",
+  "url": "https://news.ycombinator.com/item?id=32068036",
+  "headline": "Hacking the Anker PowerPort for Backpacking",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tosh",
+    "url": "https://news.ycombinator.com/user?id=tosh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32068036",
+  "sameAs": "https://www.youtube.com/watch?v=rXOPWHV_V8M",
+  "dateCreated": "2022-07-12T11:22:51.164Z",
+  "datePublished": "2022-07-12T10:50:39.000Z",
+  "dateModified": "2022-07-12T11:22:51.164Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "黑客攻击Anker PowerPort的背负方式\n",
+  "headline_zh-Hant": "黑客攻擊Anker PowerPort的揹負方式\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
