@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--12--en--myfeed--HackerNews--NewsArticle--32064404",
+  "url": "https://news.ycombinator.com/item?id=32064404",
+  "headline": "Slower Memory Zeroing Through Parallelism",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ghuntley",
+    "url": "https://news.ycombinator.com/user?id=ghuntley"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32064404",
+  "sameAs": "https://randomascii.wordpress.com/2022/07/11/slower-memory-zeroing-through-parallelism/",
+  "dateCreated": "2022-07-12T02:32:14.443Z",
+  "datePublished": "2022-07-12T01:19:20.000Z",
+  "dateModified": "2022-07-12T02:32:14.443Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "通过平行化实现更慢的内存清零\n",
+  "headline_zh-Hant": "通過平行化實現更慢的內存清零\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

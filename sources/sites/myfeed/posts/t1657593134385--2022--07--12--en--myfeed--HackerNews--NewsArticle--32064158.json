@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--12--en--myfeed--HackerNews--NewsArticle--32064158",
+  "url": "https://news.ycombinator.com/item?id=32064158",
+  "headline": "I found freedom from addiction to the hellsites",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "alexdobrenko",
+    "url": "https://news.ycombinator.com/user?id=alexdobrenko"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32064158",
+  "sameAs": "https://botharetrue.substack.com/p/how-i-found-freedom-from-hellsite",
+  "dateCreated": "2022-07-12T02:32:14.385Z",
+  "datePublished": "2022-07-12T00:43:00.000Z",
+  "dateModified": "2022-07-12T02:32:14.385Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我找到了摆脱对地狱生活的沉迷的自由\n",
+  "headline_zh-Hant": "我找到了擺脫對地獄生活的沉迷的自由\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
