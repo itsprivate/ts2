@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--12--en--myfeed--HackerNews--NewsArticle--32075715",
+  "url": "https://news.ycombinator.com/item?id=32075715",
+  "headline": "Enable HTTPS keepAlive in Node.js to increase request speed by up to 70%",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "No clue how I am learning this only now, but better later than never: HTTPS `keepAlive` is not enabled by default in Node.js, and it has severe performance implications to network-intense applications.<p>Just to illustrate the impact, assuming that your server is hosted in `us-central1` and it is talking to a service in `us-east1`, just the network latency is ~20ms. Since a TCP handshake is a 3-packet event, this means that ~60ms are going to be allocated just to establish TLS handshake.<p>You can test that with a simple script:<p>```ts\nconst got = require('got');<p>const main = async () =&gt; {\n  const response0 = await got('https://posthog.com/');<p><pre><code>  console.log(response0.timings.phases);\n\n  const response1 = await got('https://posthog.com/');\n\n  console.log(response1.timings.phases);</code></pre>\n};<p>main();\n```<p>In this scenario, the above will produce:<p>```ts\n{\n  wait: 1,\n  dns: 20,\n  tcp: 72,\n  tls: 74,\n  request: 0,\n  firstByte: 79,\n  download: 222,\n  total: 468\n}\n{\n  wait: 0,\n  dns: 1,\n  tcp: 67,\n  tls: 69,\n  request: 1,\n  firstByte: 73,\n  download: 234,\n  total: 445\n}\n```<p>However, watch the `total` time if we enable `keepAlive`:<p>```ts\nconst got = require('got');\nconst https = require('https');<p>https.globalAgent = new https.Agent({ keepAlive:true });<p>const main = async () =&gt; {\n  const response0 = await got('https://posthog.com/');<p><pre><code>  console.log(response0.timings.phases);\n\n  const response1 = await got('https://posthog.com/');\n\n  console.log(response1.timings.phases);</code></pre>\n};<p>main();\n```<p>```ts\n{\n  wait: 1,\n  dns: 27,\n  tcp: 77,\n  tls: 75,\n  request: 0,\n  firstByte: 75,\n  download: 220,\n  total: 475\n}\n{\n  wait: 0,\n  dns: 0,\n  tcp: 0,\n  tls: 0,\n  request: 0,\n  firstByte: 77,\n  download: 83,\n  total: 160\n}\n```<p>The second request is 70% faster than the first request!<p>If your application relies on making many HTTPS calls, then simply enabling `keepAlive` is going to result in a significant performance improvement.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gajus",
+    "url": "https://news.ycombinator.com/user?id=gajus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32075715",
+  "sameAs": "https://news.ycombinator.com/item?id=32075715",
+  "dateCreated": "2022-07-12T21:25:32.831Z",
+  "datePublished": "2022-07-12T21:08:51.000Z",
+  "dateModified": "2022-07-12T21:25:32.831Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在Node.js中启用HTTPS keepAlive，使请求速度提高70%。\n",
+  "headline_zh-Hant": "在Node.js中啟用HTTPS keepAlive，使請求速度提高70%。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "No clue how I am learning this only now, but better later than never: HTTPS `keepAlive` is not enabled by default in Node.js, and it has severe performance implications to network-intense applications.<p>Just to illustrate the impact, assuming that your server is hosted in `us-central1` and it is talking to a service in `us-east1`, just the network latency is ~20ms. Since a TCP handshake is a 3-packet event, this means that ~60ms are going to be allocated just to establish TLS handshake.<p>You can test that with a simple script:<p>```ts\nconst got = require('got');<p>const main = async () =&gt; {\n  const response0 = await got('https://posthog.com/');<p><pre><code> console.log(response0.timings.phases);\n\n  const response1 = await got('https://posthog.com/');\n\n  console.log(response1.timings.phases);</code></pre>\n};<p>main();\n```<p>In this scenario, the above will produce:<p>```ts\n{\n  wait: 1,\n  dns: 20,\n  tcp: 72,\n  tls: 74,\n  request: 0,\n  firstByte: 79,\n  download: 222,\n  total: 468\n}\n{\n  wait: 0,\n  dns: 1,\n  tcp: 67,\n  tls: 69,\n  request: 1,\n  firstByte: 73,\n  download: 234,\n  total: 445\n}\n```<p>However, watch the `total` time if we enable `keepAlive`:<p>```ts\nconst got = require('got');\nconst https = require('https');<p>https.globalAgent = new https.Agent({ keepAlive:true });<p>const main = async () =&gt; {\n  const response0 = await got('https://posthog.com/');<p><pre><code> console.log(response0.timings.phases);\n\n  const response1 = await got('https://posthog.com/');\n\n  console.log(response1.timings.phases);</code></pre>\n};<p>main();\n```<p>```ts\n{\n  wait: 1,\n  dns: 27,\n  tcp: 77,\n  tls: 75,\n  request: 0,\n  firstByte: 75,\n  download: 220,\n  total: 475\n}\n{\n  wait: 0,\n  dns: 0,\n  tcp: 0,\n  tls。0,\n  request: 0,\n  firstByte: 77,\n  下载。83,\n  总数: 160\n}\n````<p>第二个请求比第一个请求快了70%！<p>如果你的应用程序依赖于进行许多HTTPS调用，那么简单地启用`keepAlive'就会带来显著的性能改善。\n",
+  "description_zh-Hant": "No clue how I am learning this only now, but better later than never: HTTPS `keepAlive` is not enabled by default in Node.js, and it has severe performance implications to network-intense applications.<p>Just to illustrate the impact, assuming that your server is hosted in `us-central1` and it is talking to a service in `us-east1`, just the network latency is ~20ms. Since a TCP handshake is a 3-packet event, this means that ~60ms are going to be allocated just to establish TLS handshake.<p>You can test that with a simple script:<p>```ts\nconst got = require('got');<p>const main = async () =&gt; {\n  const response0 = await got('https://posthog.com/');<p><pre><code> console.log(response0.timings.phases);\n\n  const response1 = await got('https://posthog.com/');\n\n  console.log(response1.timings.phases);</code></pre>\n};<p>main();\n```<p>In this scenario, the above will produce:<p>```ts\n{\n  wait: 1,\n  dns: 20,\n  tcp: 72,\n  tls: 74,\n  request: 0,\n  firstByte: 79,\n  download: 222,\n  total: 468\n}\n{\n  wait: 0,\n  dns: 1,\n  tcp: 67,\n  tls: 69,\n  request: 1,\n  firstByte: 73,\n  download: 234,\n  total: 445\n}\n```<p>However, watch the `total` time if we enable `keepAlive`:<p>```ts\nconst got = require('got');\nconst https = require('https');<p>https.globalAgent = new https.Agent({ keepAlive:true });<p>const main = async () =&gt; {\n  const response0 = await got('https://posthog.com/');<p><pre><code> console.log(response0.timings.phases);\n\n  const response1 = await got('https://posthog.com/');\n\n  console.log(response1.timings.phases);</code></pre>\n};<p>main();\n```<p>```ts\n{\n  wait: 1,\n  dns: 27,\n  tcp: 77,\n  tls: 75,\n  request: 0,\n  firstByte: 75,\n  download: 220,\n  total: 475\n}\n{\n  wait: 0,\n  dns: 0,\n  tcp: 0,\n  tls。0,\n  request: 0,\n  firstByte: 77,\n  下載。83,\n  總數: 160\n}\n````<p>第二個請求比第一個請求快了70%！<p>如果你的應用程序依賴於進行許多HTTPS調用，那麼簡單地啟用`keepAlive'就會帶來顯著的性能改善。\n"
+}
