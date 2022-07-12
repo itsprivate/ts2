@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--12--en--myfeed--HackerNews--NewsArticle--32071554",
+  "url": "https://news.ycombinator.com/item?id=32071554",
+  "headline": "Chinese people mean something different when they send you a smiley emoji (2017)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Tomte",
+    "url": "https://news.ycombinator.com/user?id=Tomte"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32071554",
+  "sameAs": "https://qz.com/944693/chinese-people-mean-something-very-different-when-they-send-you-a-smiley-emoji/",
+  "dateCreated": "2022-07-12T16:38:23.985Z",
+  "datePublished": "2022-07-12T15:42:00.000Z",
+  "dateModified": "2022-07-12T16:38:23.985Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "中国人给你发笑脸表情符号的意思不一样 (2017)\n",
+  "headline_zh-Hant": "中國人給你發笑臉表情符號的意思不一樣 (2017)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
