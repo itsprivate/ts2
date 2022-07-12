@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--12--en--myfeed--HackerNews--NewsArticle--32063474",
+  "url": "https://news.ycombinator.com/item?id=32063474",
+  "headline": "SimpleX Chat – a messaging platform without user identifiers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "atoponce",
+    "url": "https://news.ycombinator.com/user?id=atoponce"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32063474",
+  "sameAs": "https://github.com/simplex-chat/simplex-chat",
+  "dateCreated": "2022-07-12T02:32:14.293Z",
+  "datePublished": "2022-07-11T23:21:37.000Z",
+  "dateModified": "2022-07-12T02:32:14.293Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "SimpleX Chat - 一个没有用户标识符的信息传递平台\n",
+  "headline_zh-Hant": "SimpleX Chat - 一個沒有用戶標識符的信息傳遞平臺\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
