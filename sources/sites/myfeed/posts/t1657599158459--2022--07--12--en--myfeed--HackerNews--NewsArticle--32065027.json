@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--12--en--myfeed--HackerNews--NewsArticle--32065027",
+  "url": "https://news.ycombinator.com/item?id=32065027",
+  "headline": "7-Eleven shootings: 2 dead, 3 wounded at 4 separate Southern California stores",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mardiyah",
+    "url": "https://news.ycombinator.com/user?id=mardiyah"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32065027",
+  "sameAs": "https://abc7chicago.com/7-eleven-shootings-711-7-eleven-shooting-free-slurpee-day/12043766/",
+  "dateCreated": "2022-07-12T04:12:38.459Z",
+  "datePublished": "2022-07-12T02:54:22.000Z",
+  "dateModified": "2022-07-12T04:12:38.459Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "7-Eleven枪击案：南加州4家店2死3伤\n",
+  "headline_zh-Hant": "7-Eleven槍擊案：南加州4家店2死3傷\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
