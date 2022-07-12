@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--07--10--en--myfeed--HackerNews--NewsArticle--32043177",
-  "url": "https://news.ycombinator.com/item?id=32043177",
-  "headline": "Hello world or “Why another blog”",
+  "identifier": "2022--07--12--en--showhn--HackerNews--NewsArticle--32068579",
+  "url": "https://news.ycombinator.com/item?id=32068579",
+  "headline": "Show HN: Fastify DX, a full stack framework based on Fastify and Vite",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "quercialabs",
-    "url": "https://news.ycombinator.com/user?id=quercialabs"
+    "name": "jgalvez",
+    "url": "https://news.ycombinator.com/user?id=jgalvez"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32043177",
-  "sameAs": "https://quercialabs.com/blog/hello-world/",
-  "dateCreated": "2022-07-10T09:45:02.584Z",
-  "datePublished": "2022-07-10T09:37:49.000Z",
-  "dateModified": "2022-07-10T09:45:02.584Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32068579",
+  "sameAs": "https://github.com/fastify/fastify-dx",
+  "dateCreated": "2022-07-12T12:06:14.115Z",
+  "datePublished": "2022-07-12T11:59:26.000Z",
+  "dateModified": "2022-07-12T12:06:14.115Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "你好，世界或 \"为什么是另一个博客\"\n",
-  "headline_zh-Hant": "你好，世界或 \"為什麼是另一個博客\"\n",
+  "headline_zh-Hans": "Show HN: Fastify DX，一个基于Fastify和Vite的全栈框架\n",
+  "headline_zh-Hant": "Show HN: Fastify DX，一個基於Fastify和Vite的全棧框架\n",
   "@context": [
     "https://schema.org",
     {
