@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--13--en--myfeed--HackerNews--NewsArticle--32083449",
+  "url": "https://news.ycombinator.com/item?id=32083449",
+  "headline": "GPU Puzzles",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kiliantics",
+    "url": "https://news.ycombinator.com/user?id=kiliantics"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32083449",
+  "sameAs": "https://github.com/srush/GPU-Puzzles",
+  "dateCreated": "2022-07-13T15:29:30.705Z",
+  "datePublished": "2022-07-13T14:43:54.000Z",
+  "dateModified": "2022-07-13T15:29:30.705Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "GPU谜题\n",
+  "headline_zh-Hant": "GPU謎題\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
