@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--13--en--myfeed--HackerNews--NewsArticle--32081436",
+  "url": "https://news.ycombinator.com/item?id=32081436",
+  "headline": "Can We Survive Technology? By John von Neumann [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mhb",
+    "url": "https://news.ycombinator.com/user?id=mhb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32081436",
+  "sameAs": "http://geosci.uchicago.edu/~kite/doc/von_Neumann_1955.pdf",
+  "dateCreated": "2022-07-13T13:51:35.978Z",
+  "datePublished": "2022-07-13T11:56:25.000Z",
+  "dateModified": "2022-07-13T13:51:35.978Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我们能在技术中生存吗？John von Neumann [pdf]\n",
+  "headline_zh-Hant": "我們能在技術中生存嗎？John von Neumann [pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
