@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--13--en--myfeed--HackerNews--NewsArticle--32085941",
+  "url": "https://news.ycombinator.com/item?id=32085941",
+  "headline": "China’s Suspected IP Thieves Targeted by Twins’ Utah Startup",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "thesuperbigfrog",
+    "url": "https://news.ycombinator.com/user?id=thesuperbigfrog"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32085941",
+  "sameAs": "https://www.bloomberg.com/news/articles/2022-07-12/startup-searches-china-s-internet-for-signs-of-intellectual-property-theft",
+  "dateCreated": "2022-07-13T18:31:12.855Z",
+  "datePublished": "2022-07-13T17:29:30.000Z",
+  "dateModified": "2022-07-13T18:31:12.855Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "中国疑似知识产权窃贼被双胞胎兄弟的犹他州创业公司盯上了\n",
+  "headline_zh-Hant": "中國疑似知識產權竊賊被雙胞胎兄弟的猶他州創業公司盯上了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
