@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--13--en--myfeed--HackerNews--NewsArticle--32084208",
+  "url": "https://news.ycombinator.com/item?id=32084208",
+  "headline": "The ADHD Evidence Project",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "coldblues",
+    "url": "https://news.ycombinator.com/user?id=coldblues"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32084208",
+  "sameAs": "https://www.adhdevidence.org/",
+  "dateCreated": "2022-07-13T16:39:16.443Z",
+  "datePublished": "2022-07-13T15:40:18.000Z",
+  "dateModified": "2022-07-13T16:39:16.443Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "多动症证据项目\n",
+  "headline_zh-Hant": "多動症證據項目\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
