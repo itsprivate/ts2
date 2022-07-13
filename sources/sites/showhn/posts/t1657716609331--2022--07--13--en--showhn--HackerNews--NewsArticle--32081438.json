@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--07--11--en--myfeed--HackerNews--NewsArticle--32058119",
-  "url": "https://news.ycombinator.com/item?id=32058119",
-  "headline": "An interactive wrapper around `jq`",
+  "identifier": "2022--07--13--en--showhn--HackerNews--NewsArticle--32081438",
+  "url": "https://news.ycombinator.com/item?id=32081438",
+  "headline": "Show HN: Atorable, a peer-to-peer solution for high demand content",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,17 +10,20 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "feross",
-    "url": "https://news.ycombinator.com/user?id=feross"
+    "name": "sergethompson",
+    "url": "https://news.ycombinator.com/user?id=sergethompson"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32058119",
-  "sameAs": "https://github.com/jcsalterego/jqq",
-  "dateCreated": "2022-07-11T16:44:42.653Z",
-  "datePublished": "2022-07-11T16:17:00.000Z",
-  "dateModified": "2022-07-11T16:44:42.653Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32081438",
+  "sameAs": "https://www.atorable.com",
+  "dateCreated": "2022-07-13T12:50:09.331Z",
+  "datePublished": "2022-07-13T11:56:41.000Z",
+  "dateModified": "2022-07-13T12:50:09.331Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
@@ -34,11 +37,11 @@
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "一个围绕`jq`的交互式包装器\n",
-  "headline_zh-Hant": "一個圍繞`jq`的交互式包裝器\n",
+  "headline_zh-Hans": "Show HN: Atorable，一个针对高需求内容的点对点解决方案\n",
+  "headline_zh-Hant": "Show HN: Atorable，一個針對高需求內容的點對點解決方案\n",
   "@context": [
     "https://schema.org",
     {
