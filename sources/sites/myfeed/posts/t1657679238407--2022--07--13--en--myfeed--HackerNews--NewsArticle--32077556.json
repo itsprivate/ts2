@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--13--en--myfeed--HackerNews--NewsArticle--32077556",
+  "url": "https://news.ycombinator.com/item?id=32077556",
+  "headline": "Legend (Open Source Financial Data Platform)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "snicker7",
+    "url": "https://news.ycombinator.com/user?id=snicker7"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32077556",
+  "sameAs": "https://legend.finos.org/docs/overview/legend-overview",
+  "dateCreated": "2022-07-13T02:27:18.407Z",
+  "datePublished": "2022-07-13T00:24:14.000Z",
+  "dateModified": "2022-07-13T02:27:18.407Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "联想（开源金融数据平台）\n",
+  "headline_zh-Hant": "聯想（開源金融數據平臺）\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
