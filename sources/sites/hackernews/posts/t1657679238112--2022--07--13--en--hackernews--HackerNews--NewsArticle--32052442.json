@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--13--en--hackernews--HackerNews--NewsArticle--32052442",
+  "url": "https://news.ycombinator.com/item?id=32052442",
+  "headline": "Bay Area Vintage Base Ball",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kaycebasques",
+    "url": "https://news.ycombinator.com/user?id=kaycebasques"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32052442",
+  "sameAs": "https://www.bavbb.com",
+  "dateCreated": "2022-07-13T02:27:18.112Z",
+  "datePublished": "2022-07-11T05:07:46.000Z",
+  "dateModified": "2022-07-13T02:27:18.112Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 16
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "湾区复古垒球\n",
+  "headline_zh-Hant": "灣區復古壘球\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
