@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--14--en--myfeed--HackerNews--NewsArticle--32096757",
+  "url": "https://news.ycombinator.com/item?id=32096757",
+  "headline": "The blind programmers who created screen readers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "miki123211",
+    "url": "https://news.ycombinator.com/user?id=miki123211"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32096757",
+  "sameAs": "https://www.theverge.com/23203911/screen-readers-history-blind-henter-curran-teh-nvda",
+  "dateCreated": "2022-07-14T15:30:57.720Z",
+  "datePublished": "2022-07-14T14:49:07.000Z",
+  "dateModified": "2022-07-14T15:30:57.720Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "创造屏幕阅读器的盲人程序员\n",
+  "headline_zh-Hant": "創造屏幕閱讀器的盲人程序員\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
