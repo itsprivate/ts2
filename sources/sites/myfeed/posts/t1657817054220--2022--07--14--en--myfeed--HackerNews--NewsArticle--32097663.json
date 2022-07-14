@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--14--en--myfeed--HackerNews--NewsArticle--32097663",
+  "url": "https://news.ycombinator.com/item?id=32097663",
+  "headline": "PostgreSQL Views and Materialized Views and How They Influenced TimescaleDB",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "od0",
+    "url": "https://news.ycombinator.com/user?id=od0"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32097663",
+  "sameAs": "https://www.timescale.com/blog/how-postgresql-views-and-materialized-views-work-and-how-they-influenced-timescaledb-continuous-aggregates/",
+  "dateCreated": "2022-07-14T16:44:14.220Z",
+  "datePublished": "2022-07-14T15:52:46.000Z",
+  "dateModified": "2022-07-14T16:44:14.220Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 42
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "PostgreSQL的视图和物化视图以及它们是如何影响TimescaleDB的\n",
+  "headline_zh-Hant": "PostgreSQL的視圖和物化視圖以及它們是如何影響TimescaleDB的\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
