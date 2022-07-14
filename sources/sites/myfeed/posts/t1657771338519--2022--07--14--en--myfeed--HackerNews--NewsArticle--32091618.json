@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--14--en--myfeed--HackerNews--NewsArticle--32091618",
+  "url": "https://news.ycombinator.com/item?id=32091618",
+  "headline": "Please go away, Tim Berners-Lee (2019)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "alessivs",
+    "url": "https://news.ycombinator.com/user?id=alessivs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32091618",
+  "sameAs": "https://matthewbutterick.com/chron/please-go-away-tim-berners-lee.html",
+  "dateCreated": "2022-07-14T04:02:18.519Z",
+  "datePublished": "2022-07-14T03:23:18.000Z",
+  "dateModified": "2022-07-14T04:02:18.519Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "请走开，蒂姆-伯纳斯-李（2019）。\n",
+  "headline_zh-Hant": "請走開，蒂姆-伯納斯-李（2019）。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
