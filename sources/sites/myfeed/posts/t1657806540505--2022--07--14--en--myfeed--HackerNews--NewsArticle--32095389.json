@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--14--en--myfeed--HackerNews--NewsArticle--32095389",
+  "url": "https://news.ycombinator.com/item?id=32095389",
+  "headline": "We all just fell for Amazon’s made-up holiday yet again",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "HieronymusBosch",
+    "url": "https://news.ycombinator.com/user?id=HieronymusBosch"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32095389",
+  "sameAs": "https://www.vox.com/the-goods/2022/7/14/23203964/amazon-prime-day-2022-deals-capitalism-discounts",
+  "dateCreated": "2022-07-14T13:49:00.505Z",
+  "datePublished": "2022-07-14T12:50:24.000Z",
+  "dateModified": "2022-07-14T13:49:00.505Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我们又一次被亚马逊捏造的假期骗了\n",
+  "headline_zh-Hant": "我們又一次被亞馬遜捏造的假期騙了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
