@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--14--en--hackernews--HackerNews--NewsArticle--32097424",
+  "url": "https://news.ycombinator.com/item?id=32097424",
+  "headline": "Nyxt 3 Pre-release 1 (a Lisp powered web browser)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "arthureroberer",
+    "url": "https://news.ycombinator.com/user?id=arthureroberer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32097424",
+  "sameAs": "https://nyxt.atlas.engineer/article/release-3-pre-release-1.org",
+  "dateCreated": "2022-07-14T16:44:13.975Z",
+  "datePublished": "2022-07-14T15:37:04.000Z",
+  "dateModified": "2022-07-14T16:44:13.975Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 30
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Nyxt 3预发布1（一个由Lisp驱动的网络浏览器）。\n",
+  "headline_zh-Hant": "Nyxt 3預發佈1（一個由Lisp驅動的網絡瀏覽器）。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
