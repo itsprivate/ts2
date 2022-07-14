@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--14--en--myfeed--HackerNews--NewsArticle--32099491",
+  "url": "https://news.ycombinator.com/item?id=32099491",
+  "headline": "Nixpacks takes a source directory and produces an OCI compliant image",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sveer",
+    "url": "https://news.ycombinator.com/user?id=sveer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32099491",
+  "sameAs": "https://nixpacks.com/docs/getting-started",
+  "dateCreated": "2022-07-14T18:32:17.590Z",
+  "datePublished": "2022-07-14T18:07:17.000Z",
+  "dateModified": "2022-07-14T18:32:17.590Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Nixpacks接收一个源目录并生成一个符合OCI标准的图像\n",
+  "headline_zh-Hant": "Nixpacks接收一個源目錄並生成一個符合OCI標準的圖像\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

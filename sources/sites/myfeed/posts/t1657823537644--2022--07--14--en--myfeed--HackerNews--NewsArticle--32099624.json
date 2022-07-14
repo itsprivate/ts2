@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--14--en--myfeed--HackerNews--NewsArticle--32099624",
+  "url": "https://news.ycombinator.com/item?id=32099624",
+  "headline": "Stitch Fix's Machine Learning Platform",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mlplat",
+    "url": "https://news.ycombinator.com/user?id=mlplat"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32099624",
+  "sameAs": "https://multithreaded.stitchfix.com/blog/2022/07/14/deployment-for-free/",
+  "dateCreated": "2022-07-14T18:32:17.644Z",
+  "datePublished": "2022-07-14T18:18:16.000Z",
+  "dateModified": "2022-07-14T18:32:17.644Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Stitch Fix的机器学习平台\n",
+  "headline_zh-Hant": "Stitch Fix的機器學習平臺\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
