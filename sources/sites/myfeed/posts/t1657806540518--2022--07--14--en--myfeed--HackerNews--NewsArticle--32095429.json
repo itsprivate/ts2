@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--14--en--myfeed--HackerNews--NewsArticle--32095429",
+  "url": "https://news.ycombinator.com/item?id=32095429",
+  "headline": "Former CIA software engineer convicted of leaking documents to WikiLeaks",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dxs",
+    "url": "https://news.ycombinator.com/user?id=dxs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32095429",
+  "sameAs": "https://english.elpais.com/usa/2022-07-14/former-cia-software-engineer-joshua-schulte-convicted-of-leaking-documents-to-wikileaks.html",
+  "dateCreated": "2022-07-14T13:49:00.518Z",
+  "datePublished": "2022-07-14T12:53:13.000Z",
+  "dateModified": "2022-07-14T13:49:00.518Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "前中情局软件工程师被判犯有向维基解密泄露文件罪\n",
+  "headline_zh-Hant": "前中情局軟件工程師被判犯有向維基解密洩露文件罪\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

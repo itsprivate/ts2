@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--14--en--myfeed--HackerNews--NewsArticle--32095639",
+  "url": "https://news.ycombinator.com/item?id=32095639",
+  "headline": "Boson: A hobby interpreted programming language written in Rust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Narasimha1997",
+    "url": "https://news.ycombinator.com/user?id=Narasimha1997"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32095639",
+  "sameAs": "https://github.com/Narasimha1997/boson-lang",
+  "dateCreated": "2022-07-14T13:49:00.588Z",
+  "datePublished": "2022-07-14T13:12:20.000Z",
+  "dateModified": "2022-07-14T13:49:00.588Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Boson: 用Rust编写的爱好解释型编程语言\n",
+  "headline_zh-Hant": "Boson: 用Rust編寫的愛好解釋型編程語言\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
