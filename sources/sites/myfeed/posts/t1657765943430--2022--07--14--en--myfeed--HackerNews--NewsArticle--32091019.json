@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--14--en--myfeed--HackerNews--NewsArticle--32091019",
+  "url": "https://news.ycombinator.com/item?id=32091019",
+  "headline": "A self-aware robot taught itself how to use its body",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "geox",
+    "url": "https://news.ycombinator.com/user?id=geox"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32091019",
+  "sameAs": "https://www.popsci.com/science/self-aware-robot-learning/",
+  "dateCreated": "2022-07-14T02:32:23.430Z",
+  "datePublished": "2022-07-14T01:45:32.000Z",
+  "dateModified": "2022-07-14T02:32:23.430Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一个有自我意识的机器人教自己如何使用它的身体\n",
+  "headline_zh-Hant": "一個有自我意識的機器人教自己如何使用它的身體\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
