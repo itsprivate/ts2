@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--14--en--myfeed--HackerNews--NewsArticle--32090220",
+  "url": "https://news.ycombinator.com/item?id=32090220",
+  "headline": "Netflix partners with Microsoft on ad-supported subscription plan",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cebert",
+    "url": "https://news.ycombinator.com/user?id=cebert"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32090220",
+  "sameAs": "https://www.cnbc.com/2022/07/13/netflix-partners-with-microsoft-on-ad-supported-subscription-plan.html",
+  "dateCreated": "2022-07-14T02:32:23.242Z",
+  "datePublished": "2022-07-13T23:53:35.000Z",
+  "dateModified": "2022-07-14T02:32:23.242Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Netflix与微软合作推出广告支持的订阅计划\n",
+  "headline_zh-Hant": "Netflix與微軟合作推出廣告支持的訂閱計劃\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

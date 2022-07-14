@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--14--en--myfeed--HackerNews--NewsArticle--32090818",
+  "url": "https://news.ycombinator.com/item?id=32090818",
+  "headline": "Stackoverflow wiki: Skater Obfuscator protects .NET 6 assemblies",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "almaxton",
+    "url": "https://news.ycombinator.com/user?id=almaxton"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32090818",
+  "sameAs": "https://stackoverflow.com/questions/71005311/net-6-obfuscation/72592876#72592876",
+  "dateCreated": "2022-07-14T02:32:23.381Z",
+  "datePublished": "2022-07-14T01:16:20.000Z",
+  "dateModified": "2022-07-14T02:32:23.381Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Stackoverflow wiki: Skater Obfuscator保护.NET 6程序集\n",
+  "headline_zh-Hant": "Stackoverflow wiki: Skater Obfuscator保護.NET 6程序集\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
