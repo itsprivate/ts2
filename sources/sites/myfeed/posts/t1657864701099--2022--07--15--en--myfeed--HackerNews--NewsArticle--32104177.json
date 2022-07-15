@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--15--en--myfeed--HackerNews--NewsArticle--32104177",
+  "url": "https://news.ycombinator.com/item?id=32104177",
+  "headline": "China's economy contracts in Q2, global risks darken outlook",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "testrun",
+    "url": "https://news.ycombinator.com/user?id=testrun"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32104177",
+  "sameAs": "https://www.reuters.com/world/china/chinas-q2-gdp-growth-slows-sharply-04-yy-missing-fcast-2022-07-15/",
+  "dateCreated": "2022-07-15T05:58:21.099Z",
+  "datePublished": "2022-07-15T03:04:15.000Z",
+  "dateModified": "2022-07-15T05:58:21.099Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "中国第二季度经济收缩，全球风险使前景暗淡\n",
+  "headline_zh-Hant": "中國第二季度經濟收縮，全球風險使前景暗淡\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

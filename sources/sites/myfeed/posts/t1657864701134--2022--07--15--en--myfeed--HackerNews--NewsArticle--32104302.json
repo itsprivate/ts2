@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--15--en--myfeed--HackerNews--NewsArticle--32104302",
+  "url": "https://news.ycombinator.com/item?id=32104302",
+  "headline": "Denoising Diffusion at 1 second per output image",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hwers",
+    "url": "https://news.ycombinator.com/user?id=hwers"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32104302",
+  "sameAs": "https://developer.nvidia.com/blog/improving-diffusion-models-as-an-alternative-to-gans-part-2/",
+  "dateCreated": "2022-07-15T05:58:21.134Z",
+  "datePublished": "2022-07-15T03:29:11.000Z",
+  "dateModified": "2022-07-15T05:58:21.134Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "每张输出图像1秒时的去噪漫射\n",
+  "headline_zh-Hant": "每張輸出圖像1秒時的去噪漫射\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

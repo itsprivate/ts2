@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--15--en--besthn--HackerNews--NewsArticle--32100035",
+  "url": "https://news.ycombinator.com/item?id=32100035",
+  "headline": "Lisp in 99 lines of C and how to write one yourself [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jstanley",
+    "url": "https://news.ycombinator.com/user?id=jstanley"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32100035",
+  "sameAs": "https://github.com/Robert-van-Engelen/tinylisp/blob/main/tinylisp.pdf",
+  "dateCreated": "2022-07-15T05:58:20.808Z",
+  "datePublished": "2022-07-14T18:52:56.000Z",
+  "dateModified": "2022-07-15T05:58:20.808Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 213
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 47
+    }
+  ],
+  "headline_zh-Hans": "99行C语言中的Lisp以及如何自己写一个[pdf]\n",
+  "headline_zh-Hant": "99行C語言中的Lisp以及如何自己寫一個[pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
