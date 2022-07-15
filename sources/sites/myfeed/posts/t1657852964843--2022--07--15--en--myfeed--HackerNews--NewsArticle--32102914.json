@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--15--en--myfeed--HackerNews--NewsArticle--32102914",
+  "url": "https://news.ycombinator.com/item?id=32102914",
+  "headline": "MGI to sell DNA sequencers in the US after lifted ban",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sinab",
+    "url": "https://news.ycombinator.com/user?id=sinab"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32102914",
+  "sameAs": "https://en.mgi-tech.com/news/caseinfo/75/",
+  "dateCreated": "2022-07-15T02:42:44.843Z",
+  "datePublished": "2022-07-15T00:07:37.000Z",
+  "dateModified": "2022-07-15T02:42:44.843Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "解除禁令后MGI将在美国销售DNA测序仪\n",
+  "headline_zh-Hant": "解除禁令後MGI將在美國銷售DNA測序儀\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

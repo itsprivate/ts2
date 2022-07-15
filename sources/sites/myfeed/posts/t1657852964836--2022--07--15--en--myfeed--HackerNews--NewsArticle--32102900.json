@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--15--en--myfeed--HackerNews--NewsArticle--32102900",
+  "url": "https://news.ycombinator.com/item?id=32102900",
+  "headline": "A blog post about EUR, USD and Yen",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "abriosi",
+    "url": "https://news.ycombinator.com/user?id=abriosi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32102900",
+  "sameAs": "https://blog.bitmex.com/samurai-knight-yankee/",
+  "dateCreated": "2022-07-15T02:42:44.836Z",
+  "datePublished": "2022-07-15T00:05:48.000Z",
+  "dateModified": "2022-07-15T02:42:44.836Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一篇关于欧元、美元和日元的博文\n",
+  "headline_zh-Hant": "一篇關於歐元、美元和日元的博文\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
