@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--15--en--myfeed--HackerNews--NewsArticle--32110250",
+  "url": "https://news.ycombinator.com/item?id=32110250",
+  "headline": "London braces for first-ever extreme heat red warning",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pseudolus",
+    "url": "https://news.ycombinator.com/user?id=pseudolus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32110250",
+  "sameAs": "https://www.cnn.com/2022/07/15/world/uk-heat-red-warning-record-climate/index.html",
+  "dateCreated": "2022-07-15T17:14:41.629Z",
+  "datePublished": "2022-07-15T16:59:47.000Z",
+  "dateModified": "2022-07-15T17:14:41.629Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "伦敦准备迎接有史以来第一个极端高温红色预警\n",
+  "headline_zh-Hant": "倫敦準備迎接有史以來第一個極端高溫紅色預警\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
