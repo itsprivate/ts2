@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--15--en--myfeed--HackerNews--NewsArticle--32112744",
+  "url": "https://news.ycombinator.com/item?id=32112744",
+  "headline": "Amid global hellscape, Bill Gates to tank his wealth ranking, gives away $20B",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sanqui",
+    "url": "https://news.ycombinator.com/user?id=sanqui"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32112744",
+  "sameAs": "https://arstechnica.com/tech-policy/2022/07/bill-gates-says-giving-away-all-his-wealth-wont-solve-much-but-worth-it/",
+  "dateCreated": "2022-07-15T21:24:21.863Z",
+  "datePublished": "2022-07-15T20:58:33.000Z",
+  "dateModified": "2022-07-15T21:24:21.863Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "在全球地狱般的景象中，比尔-盖茨将降低其财富排名，赠送200亿美元\n",
+  "headline_zh-Hant": "在全球地獄般的景象中，比爾-蓋茨將降低其財富排名，贈送200億美元\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
