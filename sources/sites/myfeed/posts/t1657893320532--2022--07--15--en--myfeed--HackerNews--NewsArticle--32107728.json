@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--15--en--myfeed--HackerNews--NewsArticle--32107728",
+  "url": "https://news.ycombinator.com/item?id=32107728",
+  "headline": "Tailwind Toucan: A quick interactive intro to TailwindCSS",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "plondon514",
+    "url": "https://news.ycombinator.com/user?id=plondon514"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32107728",
+  "sameAs": "https://codeamigo.dev/lessons/start/243",
+  "dateCreated": "2022-07-15T13:55:20.532Z",
+  "datePublished": "2022-07-15T13:05:54.000Z",
+  "dateModified": "2022-07-15T13:55:20.532Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "尾风Toucan。尾风CSS的快速互动介绍\n",
+  "headline_zh-Hant": "尾風Toucan。尾風CSS的快速互動介紹\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
