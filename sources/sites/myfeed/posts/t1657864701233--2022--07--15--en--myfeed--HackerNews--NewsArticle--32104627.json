@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--15--en--myfeed--HackerNews--NewsArticle--32104627",
+  "url": "https://news.ycombinator.com/item?id=32104627",
+  "headline": "US electric bikes set to pass 1M sales annually, globally tracking to $40B",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jseliger",
+    "url": "https://news.ycombinator.com/user?id=jseliger"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32104627",
+  "sameAs": "https://electrek.co/2022/02/08/us-electric-bicycle-sales-tracking-towards-1-million-annually-global-market-heading-to-40b-with-a-b/",
+  "dateCreated": "2022-07-15T05:58:21.233Z",
+  "datePublished": "2022-07-15T04:31:51.000Z",
+  "dateModified": "2022-07-15T05:58:21.233Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "美国电动自行车年销售量将超过100万辆，全球追踪到400亿美元\n",
+  "headline_zh-Hant": "美國電動自行車年銷售量將超過100萬輛，全球追蹤到400億美元\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
