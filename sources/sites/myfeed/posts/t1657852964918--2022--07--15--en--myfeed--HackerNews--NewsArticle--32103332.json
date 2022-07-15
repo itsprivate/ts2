@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--15--en--myfeed--HackerNews--NewsArticle--32103332",
+  "url": "https://news.ycombinator.com/item?id=32103332",
+  "headline": "Is It a Bird? Is It a Plane? No, It’s a Flying Ferry",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "RafelMri",
+    "url": "https://news.ycombinator.com/user?id=RafelMri"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32103332",
+  "sameAs": "https://www.wired.com/story/flying-ferry-stockholm/",
+  "dateCreated": "2022-07-15T02:42:44.918Z",
+  "datePublished": "2022-07-15T00:59:17.000Z",
+  "dateModified": "2022-07-15T02:42:44.918Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "这是一只鸟吗？是飞机吗？不，它是一个飞行渡轮\n",
+  "headline_zh-Hant": "這是一隻鳥嗎？是飛機嗎？不，它是一個飛行渡輪\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
