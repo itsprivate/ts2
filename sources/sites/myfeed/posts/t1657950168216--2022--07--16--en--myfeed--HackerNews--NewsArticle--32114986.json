@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--16--en--myfeed--HackerNews--NewsArticle--32114986",
+  "url": "https://news.ycombinator.com/item?id=32114986",
+  "headline": "Events are dead, long live page views",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "julee04",
+    "url": "https://news.ycombinator.com/user?id=julee04"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32114986",
+  "sameAs": "https://1stgeneration.substack.com/p/events-are-dead-long-live-page-views",
+  "dateCreated": "2022-07-16T05:42:48.216Z",
+  "datePublished": "2022-07-16T03:26:36.000Z",
+  "dateModified": "2022-07-16T05:42:48.216Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "活动已死，页面浏览万岁\n",
+  "headline_zh-Hant": "活動已死，頁面瀏覽萬歲\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
