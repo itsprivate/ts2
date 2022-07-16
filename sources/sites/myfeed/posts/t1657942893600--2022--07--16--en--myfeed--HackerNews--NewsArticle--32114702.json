@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--16--en--myfeed--HackerNews--NewsArticle--32114702",
+  "url": "https://news.ycombinator.com/item?id=32114702",
+  "headline": "20 years ago, a dramatic North Hollywood shootout changed the course of the LAPD",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "paulpauper",
+    "url": "https://news.ycombinator.com/user?id=paulpauper"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32114702",
+  "sameAs": "https://www.latimes.com/local/lanow/la-me-ln-north-hollywood-shootout-revisited-20170223-htmlstory.html",
+  "dateCreated": "2022-07-16T03:41:33.600Z",
+  "datePublished": "2022-07-16T02:13:43.000Z",
+  "dateModified": "2022-07-16T03:41:33.600Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "20年前，一场戏剧性的北好莱坞枪战改变了洛杉矶警察局的进程\n",
+  "headline_zh-Hant": "20年前，一場戲劇性的北好萊塢槍戰改變了洛杉磯警察局的進程\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

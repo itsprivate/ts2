@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--16--en--myfeed--HackerNews--NewsArticle--32114898",
+  "url": "https://news.ycombinator.com/item?id=32114898",
+  "headline": "Cruise robotaxi service under review following anonymous letter",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kylievogt",
+    "url": "https://news.ycombinator.com/user?id=kylievogt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32114898",
+  "sameAs": "https://techcrunch.com/2022/07/14/cruise-robotaxi-under-review-following-anonymous-letter/",
+  "dateCreated": "2022-07-16T03:41:33.685Z",
+  "datePublished": "2022-07-16T03:04:33.000Z",
+  "dateModified": "2022-07-16T03:41:33.685Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "收到匿名信后，邮轮机器人出租车服务正在接受审查\n",
+  "headline_zh-Hant": "收到匿名信後，郵輪機器人出租車服務正在接受審查\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
