@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--16--en--myfeed--HackerNews--NewsArticle--32116151",
+  "url": "https://news.ycombinator.com/item?id=32116151",
+  "headline": "Has someone formalized some rules for a Turing test?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "e.g. if I'm the Judge, am I allowed to ask &quot;are you an AI&quot;?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tassadalf",
+    "url": "https://news.ycombinator.com/user?id=tassadalf"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32116151",
+  "sameAs": "https://news.ycombinator.com/item?id=32116151",
+  "dateCreated": "2022-07-16T08:31:04.774Z",
+  "datePublished": "2022-07-16T08:15:56.000Z",
+  "dateModified": "2022-07-16T08:31:04.774Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "是否有人将图灵测试的一些规则正式化？\n",
+  "headline_zh-Hant": "是否有人將圖靈測試的一些規則正式化？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "例如，如果我是法官，我是否可以问&quot;你是AI&quot;？\n",
+  "description_zh-Hant": "例如，如果我是法官，我是否可以問&quot;你是AI&quot;？\n"
+}
