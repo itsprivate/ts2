@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--16--en--myfeed--HackerNews--NewsArticle--32115791",
+  "url": "https://news.ycombinator.com/item?id=32115791",
+  "headline": "Comcast: Simulating shitty network connections so you can build better systems",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "olalonde",
+    "url": "https://news.ycombinator.com/user?id=olalonde"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32115791",
+  "sameAs": "https://github.com/tylertreat/comcast",
+  "dateCreated": "2022-07-16T07:41:41.685Z",
+  "datePublished": "2022-07-16T06:47:46.000Z",
+  "dateModified": "2022-07-16T07:41:41.685Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "康卡斯特。模拟低劣的网络连接，以便你能建立更好的系统\n",
+  "headline_zh-Hant": "康卡斯特。模擬低劣的網絡連接，以便你能建立更好的系統\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
