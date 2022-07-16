@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--16--en--myfeed--HackerNews--NewsArticle--32114889",
+  "url": "https://news.ycombinator.com/item?id=32114889",
+  "headline": "The US military wants to understand the Linux kernel",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mgl",
+    "url": "https://news.ycombinator.com/user?id=mgl"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32114889",
+  "sameAs": "https://www.technologyreview.com/2022/07/14/1055894/us-military-sofware-linux-kernel-open-source/",
+  "dateCreated": "2022-07-16T03:41:33.677Z",
+  "datePublished": "2022-07-16T03:02:06.000Z",
+  "dateModified": "2022-07-16T03:41:33.677Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "美国军方希望了解Linux内核\n",
+  "headline_zh-Hant": "美國軍方希望瞭解Linux內核\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--16--en--myfeed--HackerNews--NewsArticle--32114368",
+  "url": "https://news.ycombinator.com/item?id=32114368",
+  "headline": "How to do distributed locking (2016)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mooreds",
+    "url": "https://news.ycombinator.com/user?id=mooreds"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32114368",
+  "sameAs": "https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html",
+  "dateCreated": "2022-07-16T03:41:33.532Z",
+  "datePublished": "2022-07-16T01:01:10.000Z",
+  "dateModified": "2022-07-16T03:41:33.532Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "如何进行分布式锁定(2016)\n",
+  "headline_zh-Hant": "如何進行分佈式鎖定(2016)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
