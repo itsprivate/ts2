@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--17--en--myfeed--HackerNews--NewsArticle--32123383",
+  "url": "https://news.ycombinator.com/item?id=32123383",
+  "headline": "Tor Browser now bypasses internet censorship automatically",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Pakdef",
+    "url": "https://news.ycombinator.com/user?id=Pakdef"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32123383",
+  "sameAs": "https://www.bleepingcomputer.com/news/security/tor-browser-now-bypasses-internet-censorship-automatically/",
+  "dateCreated": "2022-07-17T02:30:37.225Z",
+  "datePublished": "2022-07-17T00:55:10.000Z",
+  "dateModified": "2022-07-17T02:30:37.225Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Tor浏览器现在可自动绕过互联网审查制度\n",
+  "headline_zh-Hant": "Tor瀏覽器現在可自動繞過互聯網審查制度\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
