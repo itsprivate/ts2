@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--17--en--myfeed--HackerNews--NewsArticle--32125822",
+  "url": "https://news.ycombinator.com/item?id=32125822",
+  "headline": "Resources to learn Docker/containerization of an monolithic web-application",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey :)<p>I developed a software which is a plain simple monolithic web application. Pretty basic: ASP.NET with angular and SQL Server as a database. Currently I use one windows server for each customer. I do this to make sure, that no software bug accidently shows data of customer A to customer B (privacy is the most important priority).<p>I am considering containerizing the application. From what I have heard, the handling and updating of the software is easier.<p>Do you know of any good resources to learn more about this topic? I am still missing the conceptual basics.<p>I appreciate any help you can give me! Regards!",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "DDerTyp",
+    "url": "https://news.ycombinator.com/user?id=DDerTyp"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32125822",
+  "sameAs": "https://news.ycombinator.com/item?id=32125822",
+  "dateCreated": "2022-07-17T11:41:36.898Z",
+  "datePublished": "2022-07-17T11:06:17.000Z",
+  "dateModified": "2022-07-17T11:41:36.898Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "学习Docker/单体网络应用容器化的资源\n",
+  "headline_zh-Hant": "學習Docker/單體網絡應用容器化的資源\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嘿 :)<p>我开发了一个软件，这是一个简单的单体网络应用。非常基本：ASP.NET与angular和SQL Server作为数据库。目前我为每个客户使用一台windows服务器。我这样做是为了确保不会有软件错误意外地将客户A的数据显示给客户B（隐私是最重要的优先事项）。据我所知，软件的处理和更新比较容易。<p>你知道有什么好的资源可以让我更多地了解这个话题吗？我仍然缺少概念上的基础知识。<p>我感谢你能给我的任何帮助 谢谢!\n",
+  "description_zh-Hant": "嘿 :)<p>我開發了一個軟件，這是一個簡單的單體網絡應用。非常基本：ASP.NET與angular和SQL Server作為數據庫。目前我為每個客戶使用一臺windows服務器。我這樣做是為了確保不會有軟件錯誤意外地將客戶A的數據顯示給客戶B（隱私是最重要的優先事項）。據我所知，軟件的處理和更新比較容易。<p>你知道有什麼好的資源可以讓我更多地瞭解這個話題嗎？我仍然缺少概念上的基礎知識。<p>我感謝你能給我的任何幫助 謝謝!\n"
+}
