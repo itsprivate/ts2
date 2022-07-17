@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--17--en--myfeed--HackerNews--NewsArticle--32124650",
+  "url": "https://news.ycombinator.com/item?id=32124650",
+  "headline": "I just clicked on an api.equifax.com link in a text message",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I was filling out a rental application on on-site.com and a modal popped up telling me I had been texted a link and had 5 minutes to resend the link. I got a text from 32858 and it was of the form https://api.equifax.com/business/secure-mfa/v2/authentications/verification-tokens/&lt;long hexstring&gt;/verify. I clicked on it and it took me to a page that just had the text, &quot;Authentication completed. Return to your application,&quot; or something like that. I don't remember what the domain was.<p>I couldn't find anything online about this, so I'm wondering, is this legit? Or is this somehow an elaborate ploy to steal my identity? What's also weird is that the website didn't change after I clicked on the link, but at some point I saw a back button on the page which closed the modal, and now I'm wondering if that button was there the whole time. Also, if I tap on the link again, I get redirected to secureauth.io/expired, but I can find no information about that domain online. My co-applicant never had the modal pop up and never got a text.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "barnabees",
+    "url": "https://news.ycombinator.com/user?id=barnabees"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32124650",
+  "sameAs": "https://news.ycombinator.com/item?id=32124650",
+  "dateCreated": "2022-07-17T07:55:42.413Z",
+  "datePublished": "2022-07-17T05:15:00.000Z",
+  "dateModified": "2022-07-17T07:55:42.413Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "我刚刚在短信中点击了一个api.equifax.com的链接\n",
+  "headline_zh-Hant": "我剛剛在短信中點擊了一個api.equifax.com的鏈接\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我在site.com上填写租房申请，弹出一个模式，告诉我有人给我发了一个链接的短信，我有5分钟时间重新发送这个链接。我收到了一条来自32858的短信，它的形式是https://api.equifax.com/business/secure-mfa/v2/authentications/verification-tokens/&lt;long hexstring&gt;/verify。我点击了它，它把我带到了一个页面，上面只有这样的文字：&quot;认证完成。返回到你的应用程序，&quot;或类似的内容。我不记得这个域名是什么。<p>我在网上找不到任何关于这个的信息，所以我在想，这是否合法？还是说这是一个精心设计的窃取我身份的伎俩？同样奇怪的是，在我点击链接后，网站并没有改变，但在某一时刻，我看到页面上有一个返回按钮，关闭了模态，现在我在想，这个按钮是不是一直都在那里。另外，如果我再次点开链接，我就会被重定向到secureauth.io/expired，但我在网上找不到关于这个域名的信息。我的共同申请者从来没有弹出过模式，也没有收到过短信。\n",
+  "description_zh-Hant": "我在site.com上填寫租房申請，彈出一個模式，告訴我有人給我發了一個鏈接的短信，我有5分鐘時間重新發送這個鏈接。我收到了一條來自32858的短信，它的形式是https://api.equifax.com/business/secure-mfa/v2/authentications/verification-tokens/&lt;long hexstring&gt;/verify。我點擊了它，它把我帶到了一個頁面，上面只有這樣的文字：&quot;認證完成。返回到你的應用程序，&quot;或類似的內容。我不記得這個域名是什麼。<p>我在網上找不到任何關於這個的信息，所以我在想，這是否合法？還是說這是一個精心設計的竊取我身份的伎倆？同樣奇怪的是，在我點擊鏈接後，網站並沒有改變，但在某一時刻，我看到頁面上有一個返回按鈕，關閉了模態，現在我在想，這個按鈕是不是一直都在那裡。另外，如果我再次點開鏈接，我就會被重定向到secureauth.io/expired，但我在網上找不到關於這個域名的信息。我的共同申請者從來沒有彈出過模式，也沒有收到過短信。\n"
+}
