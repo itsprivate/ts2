@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--18--en--myfeed--HackerNews--NewsArticle--32134061",
+  "url": "https://news.ycombinator.com/item?id=32134061",
+  "headline": "As a 76-year-old let me say: Joe Biden is too old to run again Robert Reich",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "andrewfromx",
+    "url": "https://news.ycombinator.com/user?id=andrewfromx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32134061",
+  "sameAs": "https://www.theguardian.com/commentisfree/2022/jul/17/as-a-76-year-old-let-me-say-joe-biden-is-too-old-to-run-again",
+  "dateCreated": "2022-07-18T03:58:54.218Z",
+  "datePublished": "2022-07-18T02:54:06.000Z",
+  "dateModified": "2022-07-18T03:58:54.218Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "作为一个76岁的老人，让我说。乔-拜登太老了，不能再参选了 罗伯特-赖希\n",
+  "headline_zh-Hant": "作為一個76歲的老人，讓我說。喬-拜登太老了，不能再參選了 羅伯特-賴希\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
