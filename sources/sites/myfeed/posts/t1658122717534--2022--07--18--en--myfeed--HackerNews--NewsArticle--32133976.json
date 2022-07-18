@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--18--en--myfeed--HackerNews--NewsArticle--32133976",
+  "url": "https://news.ycombinator.com/item?id=32133976",
+  "headline": "The Art, Science, and Engineering of Programming",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vikrantrathore",
+    "url": "https://news.ycombinator.com/user?id=vikrantrathore"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32133976",
+  "sameAs": "https://programming-journal.org/",
+  "dateCreated": "2022-07-18T05:38:37.534Z",
+  "datePublished": "2022-07-18T02:43:16.000Z",
+  "dateModified": "2022-07-18T05:38:37.534Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "编程的艺术、科学和工程\n",
+  "headline_zh-Hant": "編程的藝術、科學和工程\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
