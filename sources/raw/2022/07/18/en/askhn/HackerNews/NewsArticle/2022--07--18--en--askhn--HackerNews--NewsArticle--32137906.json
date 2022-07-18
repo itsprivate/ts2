@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--18--en--askhn--HackerNews--NewsArticle--32137906",
+  "url": "https://news.ycombinator.com/item?id=32137906",
+  "headline": "How do you make sure a back end matches API-spec?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello everyone,<p>I've sort of come to the conclusion that I prefer writing API-specification (Open API in this case) before starting to write the application itself.<p>The reason mainly being that if one writes the specification first, one has to think through the api, its error codes an so forth. There is nothing wrong with going the other way, namely generating the specification from the code. However, I have this intuition that there will always be edge cases where you will end up having to manually write parts of the specification anyways.<p>This means that there is a great risk that the specification drifts from the implementation as the application/specification matures. The reason being is that one has to manually make sure that the specification matches the application, which is bound to be error prone!<p>My question is basically, how would you approach this problem? Do you know any tools that can help one make sure the specification matches the application? I've looked through some of the &quot;Open API tools&quot; [1], but none of them seem to really fully solve the problem.<p>Thank you for your time :D<p>[1] https://openapi.tools/",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "dachrillz",
+    "url": "https://news.ycombinator.com/user?id=dachrillz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32137906",
+  "sameAs": "https://news.ycombinator.com/item?id=32137906",
+  "dateCreated": "2022-07-18T13:52:35.544Z",
+  "datePublished": "2022-07-18T13:10:01.000Z",
+  "dateModified": "2022-07-18T13:52:35.544Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
