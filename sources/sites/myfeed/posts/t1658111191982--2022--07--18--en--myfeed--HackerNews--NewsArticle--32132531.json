@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--18--en--myfeed--HackerNews--NewsArticle--32132531",
+  "url": "https://news.ycombinator.com/item?id=32132531",
+  "headline": "The importance of Stupidity in Scientific Research [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "yodon",
+    "url": "https://news.ycombinator.com/user?id=yodon"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32132531",
+  "sameAs": "https://web.stanford.edu/~fukamit/schwartz-2008.pdf",
+  "dateCreated": "2022-07-18T02:26:31.982Z",
+  "datePublished": "2022-07-17T23:17:44.000Z",
+  "dateModified": "2022-07-18T02:26:31.982Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "科学研究中愚蠢的重要性 [pdf]\n",
+  "headline_zh-Hant": "科學研究中愚蠢的重要性 [pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--18--en--myfeed--HackerNews--NewsArticle--32133290",
+  "url": "https://news.ycombinator.com/item?id=32133290",
+  "headline": "Torvalds: Linux kernel team has sorted Retbleed chip flaw",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "samizdis",
+    "url": "https://news.ycombinator.com/user?id=samizdis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32133290",
+  "sameAs": "https://www.theregister.com/2022/07/17/linux_5_19_rc7/",
+  "dateCreated": "2022-07-18T02:26:32.054Z",
+  "datePublished": "2022-07-18T00:56:46.000Z",
+  "dateModified": "2022-07-18T02:26:32.054Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "托瓦尔兹：Linux内核团队已经解决了Retbleed芯片缺陷问题\n",
+  "headline_zh-Hant": "託瓦爾茲：Linux內核團隊已經解決了Retbleed芯片缺陷問題\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
