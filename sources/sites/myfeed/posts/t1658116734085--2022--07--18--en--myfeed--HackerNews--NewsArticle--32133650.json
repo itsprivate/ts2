@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--18--en--myfeed--HackerNews--NewsArticle--32133650",
+  "url": "https://news.ycombinator.com/item?id=32133650",
+  "headline": "websocat: Command-line client for WebSocket like netcat or curl",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pcr910303",
+    "url": "https://news.ycombinator.com/user?id=pcr910303"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32133650",
+  "sameAs": "https://github.com/vi/websocat",
+  "dateCreated": "2022-07-18T03:58:54.085Z",
+  "datePublished": "2022-07-18T01:54:28.000Z",
+  "dateModified": "2022-07-18T03:58:54.085Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "websocat。像netcat或curl一样的WebSocket的命令行客户端\n",
+  "headline_zh-Hant": "websocat。像netcat或curl一樣的WebSocket的命令行客戶端\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
