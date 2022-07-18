@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--18--en--myfeed--HackerNews--NewsArticle--32133381",
+  "url": "https://news.ycombinator.com/item?id=32133381",
+  "headline": "We Don’t Trust Apple’s HomeKit Secure Video–and You Shouldn’t Either",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "digianarchist",
+    "url": "https://news.ycombinator.com/user?id=digianarchist"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32133381",
+  "sameAs": "https://www.nytimes.com/wirecutter/blog/apple-homekit-secure-video-review/",
+  "dateCreated": "2022-07-18T02:26:32.089Z",
+  "datePublished": "2022-07-18T01:10:14.000Z",
+  "dateModified": "2022-07-18T02:26:32.089Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我们不相信苹果的HomeKit安全视频--你也不应该相信\n",
+  "headline_zh-Hant": "我們不相信蘋果的HomeKit安全視頻--你也不應該相信\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
