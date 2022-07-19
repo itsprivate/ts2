@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--19--en--askhn--HackerNews--NewsArticle--32153868",
+  "url": "https://news.ycombinator.com/item?id=32153868",
+  "headline": "How to “compile” HTML+CSS for minimal page size?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "From the perspective of static site generation, is there a tool to compile HTML+CSS in order to minimize download size?<p>I'm imagining something which takes the following HTML+CSS:<p><pre><code>    &lt;style&gt;\n    h1{color:red;}\n    h2{color:blue;}\n    .custom{display:none;}\n    .custom2{display:inline;}\n    &lt;/style&gt;\n    ...\n    &lt;h2&gt;Hello&lt;/h2&gt;\n    &lt;div class=&quot;custom&quot;&gt;\n     &lt;p&gt;lorem ipsum&lt;/p&gt;\n     &lt;p&gt;dolor sit amet&lt;/p&gt;\n    &lt;/div&gt;\n</code></pre>\nAnd transforms it into this:<p><pre><code>    &lt;h2 style=&quot;color:blue&quot;&gt;Hello&lt;/h2&gt;\n    &lt;div style=&quot;display:none&quot;&gt;\n     &lt;p&gt;lorem ipsum&lt;/p&gt;\n     &lt;p&gt;dolor sit amet&lt;/p&gt;\n    &lt;/div&gt;\n</code></pre>\nHowever, it should not always inline the css styles, because sometimes that would cause the result to be larger than the original, like this:<p><pre><code>    &lt;style&gt;\n    h1{color:red;}\n    h2{color:blue;}\n    .custom{display:none;}\n    .custom2{display:inline;background-color:yellow;}\n    &lt;/style&gt;\n    ...\n    &lt;h2&gt;Hello&lt;/h2&gt;\n    &lt;div class=&quot;custom2&quot;&gt;\n     &lt;p class=&quot;custom2&quot;&gt;lorem ipsum&lt;/p&gt;\n     &lt;p class=&quot;custom2&quot;&gt;dolor sit amet&lt;/p&gt;\n    &lt;/div&gt;\n</code></pre>\nHere, &lt;p class=&quot;custom2&quot;&gt; is shorter than &lt;p style=&quot;display:inline;background-color:yellow;&quot;&gt;, so it should remain unchanged.<p>I'm not talking about tools like https://htmlcompressor.com/compressor/ which only remove whitespace, or gzip compression. What I want is something that understands the semantics of HTML+CSS and can intelligently inline iff that reduces the size of the resulting HTML file.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "hoosieree",
+    "url": "https://news.ycombinator.com/user?id=hoosieree"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32153868",
+  "sameAs": "https://news.ycombinator.com/item?id=32153868",
+  "dateCreated": "2022-07-19T16:41:04.109Z",
+  "datePublished": "2022-07-19T16:14:44.000Z",
+  "dateModified": "2022-07-19T16:41:04.109Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
