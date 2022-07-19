@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--19--en--askhn--HackerNews--NewsArticle--32147060",
+  "url": "https://news.ycombinator.com/item?id=32147060",
+  "headline": "Can web pages force Casting to other screens?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've had a person report and send me a video that Chrome would begin casting what seemed to be a Instagram web page to a smart tv on the same wi-fi network, while his screen was sitting idle on a Chrome blank page. Unfortunately it was a shared wi-fi and he doesn't know where that TV is. This is inferred from a popup[0] appearing out of the Cast icon(?) next to Chrome's three-dots menu. I've instructed him to disable casting via chrome's flags, and am trying to understand whether private information could have leaked from this and how that happened. My guess for now would be &quot;Web Presentation API&quot; alongside a Instagram page misbehavior, in that case I imagine someone may have seen that web page and that alone, but am unsure as I'm not knowledgeable on the Web protocols. Or, in a worse scenario, someone in that wi-fi managed to force this action.<p>[0] https://i.imgur.com/2VBbu0v.png",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "lvass",
+    "url": "https://news.ycombinator.com/user?id=lvass"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32147060",
+  "sameAs": "https://news.ycombinator.com/item?id=32147060",
+  "dateCreated": "2022-07-19T04:14:25.573Z",
+  "datePublished": "2022-07-19T03:02:47.000Z",
+  "dateModified": "2022-07-19T04:14:25.573Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
