@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--19--en--showhn--HackerNews--NewsArticle--32152542",
+  "url": "https://news.ycombinator.com/item?id=32152542",
+  "headline": "TrackObject – Drag-and-drop computer vision object tracking",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN! We're the creators of Sieve API (<a href=\"https://www.sievedata.com\" rel=\"nofollow\">https://www.sievedata.com</a>) and we recently built this fun site that folks can play around with. Frontend is built with NextJS + Tailwind UI and backend is our API.<p>It uses ffmpeg in the browser to transcode an uploaded video, chop it to 5 seconds, and then send it to our API endpoint which detects and tracks objects in the video. You can then &quot;select&quot; any object and track it over the video.<p>We thought it'd be a fun thing for the community to play around with while also showing the power of video object tracking!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mvoodarla",
+    "url": "https://news.ycombinator.com/user?id=mvoodarla"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32152542",
+  "sameAs": "https://www.trackobject.xyz/",
+  "dateCreated": "2022-07-19T15:30:21.503Z",
+  "datePublished": "2022-07-19T15:06:31.000Z",
+  "dateModified": "2022-07-19T15:30:21.503Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
