@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--19--en--askhn--HackerNews--NewsArticle--32148063",
+  "url": "https://news.ycombinator.com/item?id=32148063",
+  "headline": "My website just disappeared from DNS. What can I do?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "My website -- http://xordle.xyz -- has just disappeared from DNS. It's been working fine for months.<p>My registrar is Google Domains; there's no errors reported in the DNS settings or anywhere else. But Google's own DNS query at https://dns.google/query?name=xordle.xyz returns a status code 3 -- NXDOMAIN, or no such domain.<p>I tried transferring to a different registrar but it can't be transferred on account of it &quot;not existing&quot;. I tried using Google Support; they weren't helpful in the slightest.<p>Do I have any options aside from just getting a new domain name if it doesn't resolve itself quickly?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "furyofantares",
+    "url": "https://news.ycombinator.com/user?id=furyofantares"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32148063",
+  "sameAs": "https://news.ycombinator.com/item?id=32148063",
+  "dateCreated": "2022-07-19T06:34:36.944Z",
+  "datePublished": "2022-07-19T06:05:08.000Z",
+  "dateModified": "2022-07-19T06:34:36.944Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ]
+}
