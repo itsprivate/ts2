@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--19--en--myfeed--HackerNews--NewsArticle--32151245",
+  "url": "https://news.ycombinator.com/item?id=32151245",
+  "headline": "Automatically detect visual bugs on responsive websites",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN!<p>My friend and I just launched the initial version of Responsiveye (https://responsiveye.com) - the first tool that automatically detects visual bugs on responsive websites.<p>Whenever we worked on a web app that was visually intensive and had many users we had trouble with visual bugs slipping through the QA. That is likely because visual testing is very repetitive. For every CSS change, QA needs to scale the browser window many times to check every single element and how it behaves on different screen sizes.<p>I tried a couple of tools to help us with this but all solutions I found focused on visual regression testing which comes with a lot of maintenance.<p>That is where the idea for Responsiveye came from.<p>We were wary if the full automatization of testing was achievable technically but it ended up working quite well. We are still in the alpha stage but we would love to get your feedback and scan your website for visual bugs.<p>You can submit your website for testing (no signup required) on https://responsiveye.com/ and also see examples of websites of well known companies that we found bugs on (Adobe, Dell, etc).<p>If you find this helpful, please let us know and sign up to get access to the latest updates - we are planning to have more bug detections on a weekly basis.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "zvonimirs",
+    "url": "https://news.ycombinator.com/user?id=zvonimirs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32151245",
+  "sameAs": "https://news.ycombinator.com/item?id=32151245",
+  "dateCreated": "2022-07-19T14:24:33.464Z",
+  "datePublished": "2022-07-19T13:39:51.000Z",
+  "dateModified": "2022-07-19T14:24:33.464Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 7
+    }
+  ]
+}
