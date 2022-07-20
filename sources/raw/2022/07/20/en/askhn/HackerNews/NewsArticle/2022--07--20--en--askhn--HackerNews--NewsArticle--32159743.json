@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--20--en--askhn--HackerNews--NewsArticle--32159743",
+  "url": "https://news.ycombinator.com/item?id=32159743",
+  "headline": "Help me understand if my site is secure",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN,<p>I have been working on a new website to replace a site that I used to use multiple times a day. Sometime last week passwordsgenerator.net went down and has not come back online. Though I know there are a million ways to do this, and some that are probably faster than passwordsgenerator, the tool became a part of my day to day workflow when clients require I provision new unique keys (often!).<p>Like a good dev, in the wake of its absence, I decided just to build my own replacement. www.copypassword.com was born over the weekend while I was holed up battling a rough couple days with Covid and im stoked on how its come out. Traffic is light but not negligible and I am using my own tool just as much as I was using passwordsgenerator.<p>I've decided why stop here? Maybe I can replace another tool that I use all of the time which is pwpush.com - the tool that I would formerly pair with passwordsgenerator to quickly spin up a unique password and send it to a client. I figure I can easily just combine the two tools under one roof and away we go.<p>So I got to building and I wanted to make things as secure as possible. Unlike pwpush I am not storing passwords in a db to delete later. The application works as follows:<p>1. User generates a password\n2. On clicking &quot;Copy Secure Share Link&quot; the password is sent to a server side function via NextJS API route.\n3. The password is then encrypted (AES) with a secret key that lives in a server side environment variable + the timestamp for when the encryption is done (rounded to the nearest hour).\n4. The resulting hash is then used in the URL that gets shared i.e. &quot;copypassword.com/share-pass/{hash}&quot; \n5. When the url is visited (after having been shared), the hash in the url is sent to a server side function via NextJS api routes and decrypted. The decryption works by rounding the current time to the nearest hour, combining it with the secret key and looping backwards 24 hours until a successful decryption is performed. If no successful decryption occurs, we know that the password has expired.<p>So my question for you HN....is this secure? I am no cryptography expert, just a humble dev trying to turn 2 tools into 1.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "Sawpaw19",
+    "url": "https://news.ycombinator.com/user?id=Sawpaw19"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32159743",
+  "sameAs": "https://news.ycombinator.com/item?id=32159743",
+  "dateCreated": "2022-07-20T02:26:30.181Z",
+  "datePublished": "2022-07-20T00:22:46.000Z",
+  "dateModified": "2022-07-20T02:26:30.181Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ]
+}
