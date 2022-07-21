@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--21--en--myfeed--HackerNews--NewsArticle--32178678",
+  "url": "https://news.ycombinator.com/item?id=32178678",
+  "headline": "Show HN: I made a website that helps you turn your life into a game and a story",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "darrendliang",
+    "url": "https://news.ycombinator.com/user?id=darrendliang"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32178678",
+  "sameAs": "https://www.gamestory.me/",
+  "dateCreated": "2022-07-21T13:48:24.978Z",
+  "datePublished": "2022-07-21T12:49:57.000Z",
+  "dateModified": "2022-07-21T13:48:24.978Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我做了一个网站，帮助你把你的生活变成一个游戏和一个故事\n",
+  "headline_zh-Hant": "Show HN: 我做了一個網站，幫助你把你的生活變成一個遊戲和一個故事\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

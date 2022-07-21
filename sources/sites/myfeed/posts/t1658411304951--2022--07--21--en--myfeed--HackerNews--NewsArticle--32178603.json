@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--21--en--myfeed--HackerNews--NewsArticle--32178603",
+  "url": "https://news.ycombinator.com/item?id=32178603",
+  "headline": "Tell HN: You can't create a top folder named “Calendar” in Office365 Outlook",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "My employer is moving from GMail to Office365, so I'm trying to recreate my folder structure in Outlook. The first folder I tried to create was &quot;Calendar&quot;. But creating it didn't work. No error message, it simply didn't get created. At first I thought creating folders doesn't work, but then I tried creating folders with other names, and they worked. Also, creating this folder inside another folder works, but not at the top-level.<p>It turns out you can't create a top-level folder called &quot;Calendar&quot;, or whatever you call &quot;Calendar&quot; in the language you have set for the UI. If the UI language is Polish e.g., then you can create &quot;Calendar&quot;, but not &quot;Kalendarz&quot;.<p>I just thought it's a funny bug, so I'm sharing it here.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "yakubin",
+    "url": "https://news.ycombinator.com/user?id=yakubin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32178603",
+  "sameAs": "https://news.ycombinator.com/item?id=32178603",
+  "dateCreated": "2022-07-21T13:48:24.951Z",
+  "datePublished": "2022-07-21T12:41:19.000Z",
+  "dateModified": "2022-07-21T13:48:24.951Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：你不能在Office365 Outlook中创建一个名为 \"日历 \"的顶级文件夹\n",
+  "headline_zh-Hant": "告訴HN：你不能在Office365 Outlook中創建一個名為 \"日曆 \"的頂級文件夾\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我的雇主正在从GMail转移到Office365，所以我正试图在Outlook中重新创建我的文件夹结构。我试图创建的第一个文件夹是&quot;日历&quot;。但是，创建它并不成功。没有错误信息，它只是没有被创建。起初我以为创建文件夹不起作用，但后来我试着用其他名字创建文件夹，它们也起作用了。<p>事实证明，你不能创建一个名为&quot;Calendar&quot;的顶层文件夹，或者在你为用户界面设置的语言中叫&quot;Calendar&quot;的任何东西。如果用户界面语言是波兰语，那么你可以创建&quot;Calendar&quot;，但不能创建&quot;Kalendarz&quot;。<p>我只是认为这是一个有趣的错误，所以我在这里分享它。\n",
+  "description_zh-Hant": "我的僱主正在從GMail轉移到Office365，所以我正試圖在Outlook中重新創建我的文件夾結構。我試圖創建的第一個文件夾是&quot;日曆&quot;。但是，創建它並不成功。沒有錯誤信息，它只是沒有被創建。起初我以為創建文件夾不起作用，但後來我試著用其他名字創建文件夾，它們也起作用了。<p>事實證明，你不能創建一個名為&quot;Calendar&quot;的頂層文件夾，或者在你為用戶界面設置的語言中叫&quot;Calendar&quot;的任何東西。如果用戶界面語言是波蘭語，那麼你可以創建&quot;Calendar&quot;，但不能創建&quot;Kalendarz&quot;。<p>我只是認為這是一個有趣的錯誤，所以我在這裡分享它。\n"
+}
