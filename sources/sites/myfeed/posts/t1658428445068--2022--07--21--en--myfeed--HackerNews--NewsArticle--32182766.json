@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--21--en--myfeed--HackerNews--NewsArticle--32182766",
+  "url": "https://news.ycombinator.com/item?id=32182766",
+  "headline": "A Data Platform for React",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "A few month ago my roommates and I started building Rubbrband(https://rubbrband.com). It's a platform that helps you monitor and modify your users' Redux states, LocalStorage, and browser cache all from your browser.<p>Why did we start working on this?<p>We want to make the data layer on the client-side less siloed from developers. This is obviously hard because each client's device is remote and is typically part of one-way communication.<p>Essentially we're building the set of tools that we each wanted as developers building web apps that go into production. One of the main issues we found is that most frontend bugs we've found came from some sort of a data state issue, which got extremely frustrating when the code went into production since you'd have to talk to the customer, get on a call, etc... We wanted a simple way to monitor the user's app, contextualize it in the grander scheme of the data models and application structure, and ideally push out an OTA update that would patch bugs.<p>What's included<p>- A simple React library to monitor Redux, and LocalStorage states<p>- Monitoring user's LocalStorage and Redux states in a clean dashboard, tied together with User data<p>- Client-side and Server-side API for serverless caching, with support for GoLang and Node.js<p>I'd love to get feedback on what you think<p>Mainly I'm interested in these questions:<p>- Does this solve a pain point that you face as a Frontend developer?<p>- What features would you want to see built out?<p>Thanks a ton!",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "oaknutspiano",
+    "url": "https://news.ycombinator.com/user?id=oaknutspiano"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32182766",
+  "sameAs": "https://news.ycombinator.com/item?id=32182766",
+  "dateCreated": "2022-07-21T18:34:05.068Z",
+  "datePublished": "2022-07-21T18:14:54.000Z",
+  "dateModified": "2022-07-21T18:34:05.068Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一个用于React的数据平台\n",
+  "headline_zh-Hant": "一個用於React的數據平臺\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "几个月前，我和我的室友们开始构建Rubbrband(https://rubbrband.com)。这是一个帮助你从浏览器中监控和修改用户的Redux状态、LocalStorage和浏览器缓存的平台。<p>我们为什么要开始做这个工作？<p>我们想让客户端的数据层不再与开发者隔绝。这显然是困难的，因为每个客户端的设备都是远程的，而且通常是单向通信的一部分。<p>本质上，我们正在构建一套我们每个人都想要的工具，作为开发人员，我们正在构建投入生产的 Web 应用。我们发现的一个主要问题是，我们发现的大多数前端错误都来自于某种数据状态问题，这在代码投入生产时变得非常令人沮丧，因为你必须与客户交谈，接通电话，等等。我们希望有一个简单的方法来监控用户的应用程序，在数据模型和应用程序结构的宏伟计划中对其进行上下文处理，最好是推送一个能够修补错误的OTA更新。<p>包含的内容<p>- 一个简单的React库来监控Redux和LocalStorage的状态<p>- 在一个干净的仪表板上监控用户的LocalStorage和Redux状态，与用户数据绑在一起<p>- 用于无服务器缓存的客户端和服务器端API，支持GoLang和Node。 <p>我希望得到您的反馈<p>主要是我对这些问题感兴趣：<p>- 这是否解决了您作为前端开发者所面临的痛点？<p>- 您希望看到哪些功能被构建出来？\n",
+  "description_zh-Hant": "幾個月前，我和我的室友們開始構建Rubbrband(https://rubbrband.com)。這是一個幫助你從瀏覽器中監控和修改用戶的Redux狀態、LocalStorage和瀏覽器緩存的平臺。<p>我們為什麼要開始做這個工作？<p>我們想讓客戶端的數據層不再與開發者隔絕。這顯然是困難的，因為每個客戶端的設備都是遠程的，而且通常是單向通信的一部分。<p>本質上，我們正在構建一套我們每個人都想要的工具，作為開發人員，我們正在構建投入生產的 Web 應用。我們發現的一個主要問題是，我們發現的大多數前端錯誤都來自於某種數據狀態問題，這在代碼投入生產時變得非常令人沮喪，因為你必須與客戶交談，接通電話，等等。我們希望有一個簡單的方法來監控用戶的應用程序，在數據模型和應用程序結構的宏偉計劃中對其進行上下文處理，最好是推送一個能夠修補錯誤的OTA更新。<p>包含的內容<p>- 一個簡單的React庫來監控Redux和LocalStorage的狀態<p>- 在一個乾淨的儀表板上監控用戶的LocalStorage和Redux狀態，與用戶數據綁在一起<p>- 用於無服務器緩存的客戶端和服務器端API，支持GoLang和Node。 <p>我希望得到您的反饋<p>主要是我對這些問題感興趣：<p>- 這是否解決了您作為前端開發者所面臨的痛點？<p>- 您希望看到哪些功能被構建出來？\n"
+}
