@@ -16,7 +16,7 @@ export default async (
   }
   if (!/^(auto|[a-z]{2})$/.test(sourceLanguage))
     throw new Error("INVALID_SOURCE_LANGUAGE");
-  if (!/^[a-z]{2}-[A-Z]{2}$/.test(targetLanguage))
+  if (!/^[a-z]{2}$/.test(targetLanguage))
     throw new Error("INVALID_TARGET_LANGUAGE");
   const sourceLangSelect = "button[dl-test=translator-source-lang-btn]",
     targetLangSelect = "button[dl-test=translator-target-lang-btn]",

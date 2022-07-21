@@ -229,7 +229,7 @@ export async function translateItem(item: NodeObject, page: Page | null) {
 
 function toDLanguage(lang: string) {
   if (lang === "zh-Hans") {
-    return "zh-ZH";
+    return "zh";
   } else {
     return lang;
   }

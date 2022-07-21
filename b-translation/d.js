@@ -71,7 +71,7 @@ export default async (
   } else {
     await page.waitForSelector(targetLangMenu, { visible: true });
   }
-  await page.waitForTimeout(1000);
+  await page.waitForTimeout(3000);
   try {
     await page.click(targetLangButton);
   } catch (_) {
