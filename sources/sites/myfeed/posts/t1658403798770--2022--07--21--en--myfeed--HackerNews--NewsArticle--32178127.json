@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--21--en--myfeed--HackerNews--NewsArticle--32178127",
+  "url": "https://news.ycombinator.com/item?id=32178127",
+  "headline": "Tesla Has Sold 75% of Its Bitcoin, Despite Elon Musk's Crypto Enthusiasm",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "avishibiscus",
+    "url": "https://news.ycombinator.com/user?id=avishibiscus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32178127",
+  "sameAs": "https://www.cnet.com/personal-finance/tesla-has-sold-75-of-its-bitcoin-despite-elon-musks-crypto-enthusiasm/",
+  "dateCreated": "2022-07-21T11:43:18.770Z",
+  "datePublished": "2022-07-21T11:33:26.000Z",
+  "dateModified": "2022-07-21T11:43:18.770Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "尽管埃隆-马斯克热衷于加密货币，但特斯拉已售出75%的比特币\n",
+  "headline_zh-Hant": "儘管埃隆-馬斯克熱衷於加密貨幣，但特斯拉已售出75%的比特幣\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
