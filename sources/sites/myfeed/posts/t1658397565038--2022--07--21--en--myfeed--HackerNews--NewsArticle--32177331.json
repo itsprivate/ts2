@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--21--en--myfeed--HackerNews--NewsArticle--32177331",
+  "url": "https://news.ycombinator.com/item?id=32177331",
+  "headline": "OpenBB Terminal",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "noyesno",
+    "url": "https://news.ycombinator.com/user?id=noyesno"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32177331",
+  "sameAs": "https://openbb.co/products/terminal",
+  "dateCreated": "2022-07-21T09:59:25.038Z",
+  "datePublished": "2022-07-21T09:34:15.000Z",
+  "dateModified": "2022-07-21T09:59:25.038Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "开放式博客终端\n",
+  "headline_zh-Hant": "開放式博客終端\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
