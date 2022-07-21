@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--21--en--showhn--HackerNews--NewsArticle--32177498",
+  "url": "https://news.ycombinator.com/item?id=32177498",
+  "headline": "Show HN: Active learning as a service for easy data selection",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We are thinking about building a framework that can be used for unlabeled data selection (using active learning) to reduce human labeling budgets. And hope it can be easily used as a service, currently we are adding more SOTA active learning algorithms and there is a demo for you to play with!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "huangyz0918",
+    "url": "https://news.ycombinator.com/user?id=huangyz0918"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32177498",
+  "sameAs": "https://github.com/MLSysOps/alaas",
+  "dateCreated": "2022-07-21T10:32:09.601Z",
+  "datePublished": "2022-07-21T10:03:43.000Z",
+  "dateModified": "2022-07-21T10:32:09.601Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 主动学习作为一种服务，便于数据选择\n",
+  "headline_zh-Hant": "Show HN: 主動學習作為一種服務，便於數據選擇\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们正在考虑建立一个框架，可以用于未标注数据的选择（使用主动学习），以减少人工标注的预算。并希望它可以很容易地作为一项服务使用，目前我们正在增加更多的SOTA主动学习算法，并有一个演示供你玩耍!\n",
+  "description_zh-Hant": "我們正在考慮建立一個框架，可以用於未標註數據的選擇（使用主動學習），以減少人工標註的預算。並希望它可以很容易地作為一項服務使用，目前我們正在增加更多的SOTA主動學習算法，並有一個演示供你玩耍!\n"
+}
