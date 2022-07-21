@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--21--en--showhn--HackerNews--NewsArticle--32182674",
+  "url": "https://news.ycombinator.com/item?id=32182674",
+  "headline": "Show HN: In-browser analytics within JAMSTACK",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I have a product called SQL Frames that provides in-browser analytics. I was exploring how to integrate this into JAMSTACK. I learned about how to create docusaurus plugin and React components to make it easy to integrate SQL Frames. For example, after installing docusaurus, all it takes is &quot;npm install @sqlframes/docusaurus-plugin@latest @sqlframes/docusaurus-components@latest&quot; (extra configuration to specify a license key if desired) jamstackanalytics.com is just a preview website to show what kind of analytics UX is possible with JAMSTACK and in-browser analytics. The primary target for this technology is internal teams that need analytics and rapid data exploration capabilities and iterate fast without waiting for changes to data models in the backend. Docusaurus is one JAMSTACK candidate but I want to explore others as well. Looking for feedback on the idea, UX at the preview site and what other JAMSTACK are good choices to expand on.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "dirslashls",
+    "url": "https://news.ycombinator.com/user?id=dirslashls"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32182674",
+  "sameAs": "https://jamstackanalytics.com/",
+  "dateCreated": "2022-07-21T18:34:14.029Z",
+  "datePublished": "2022-07-21T18:05:48.000Z",
+  "dateModified": "2022-07-21T18:34:14.029Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: JAMSTACK内的浏览器分析功能\n",
+  "headline_zh-Hant": "Show HN: JAMSTACK內的瀏覽器分析功能\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我有一个叫SQL Frames的产品，它提供浏览器内的分析。我正在探索如何将其整合到JAMSTACK中。我了解到如何创建docusaurus插件和React组件，以使其易于集成SQL Frames。例如，安装docusaurus后，只需要&quot;npm install @sqlframes/docusaurus-plugin@latest @sqlframes/docusaurus-components@latest&quot;（如果需要的话，额外的配置可以指定一个许可证密钥） jamstackanalytics.com只是一个预览网站，展示JAMSTACK和浏览器内分析的用户体验是什么样的。这项技术的主要目标是内部团队，他们需要分析和快速的数据探索能力，并快速迭代，无需等待后台数据模型的变化。Docusaurus是JAMSTACK的一个候选人，但我也想探索其他的。希望得到关于这个想法的反馈，预览网站的用户体验，以及哪些其他JAMSTACK是可以扩展的好选择。\n",
+  "description_zh-Hant": "我有一個叫SQL Frames的產品，它提供瀏覽器內的分析。我正在探索如何將其整合到JAMSTACK中。我瞭解到如何創建docusaurus插件和React組件，以使其易於集成SQL Frames。例如，安裝docusaurus後，只需要&quot;npm install @sqlframes/docusaurus-plugin@latest @sqlframes/docusaurus-components@latest&quot;（如果需要的話，額外的配置可以指定一個許可證密鑰） jamstackanalytics.com只是一個預覽網站，展示JAMSTACK和瀏覽器內分析的用戶體驗是什麼樣的。這項技術的主要目標是內部團隊，他們需要分析和快速的數據探索能力，並快速迭代，無需等待後臺數據模型的變化。Docusaurus是JAMSTACK的一個候選人，但我也想探索其他的。希望得到關於這個想法的反饋，預覽網站的用戶體驗，以及哪些其他JAMSTACK是可以擴展的好選擇。\n"
+}
