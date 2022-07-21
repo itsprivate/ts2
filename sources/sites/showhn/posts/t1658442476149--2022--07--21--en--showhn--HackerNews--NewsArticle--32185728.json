@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--21--en--showhn--HackerNews--NewsArticle--32185728",
+  "url": "https://news.ycombinator.com/item?id=32185728",
+  "headline": "Show HN: Scribe, a Go library for writing, running, and generating CI pipelines",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi there. This is a passion project of mine I started after spending many painful hours working on CI pipelines. The general idea is that I wanted to stop making flimsy scripts in build &amp; release pipelines and start writing software.<p>I'm happy to answer any questions. Please let me know what you think of the idea and if there's anything you'd like to see.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "kminehart",
+    "url": "https://news.ycombinator.com/user?id=kminehart"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32185728",
+  "sameAs": "https://github.com/grafana/scribe",
+  "dateCreated": "2022-07-21T22:27:56.149Z",
+  "datePublished": "2022-07-21T21:58:49.000Z",
+  "dateModified": "2022-07-21T22:27:56.149Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Scribe，一个用于编写、运行和生成CI管道的Go库\n",
+  "headline_zh-Hant": "Show HN: Scribe，一個用於編寫、運行和生成CI管道的Go庫\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家好。这是我的一个激情项目，在花了许多痛苦的时间在CI管道上工作后开始的。总的想法是，我想停止在build &amp中制作脆弱的脚本；发布管道并开始编写软件。请让我知道你对这个想法的看法，如果有什么你想看到的。\n",
+  "description_zh-Hant": "大家好。這是我的一個激情項目，在花了許多痛苦的時間在CI管道上工作後開始的。總的想法是，我想停止在build &amp中製作脆弱的腳本；發佈管道並開始編寫軟件。請讓我知道你對這個想法的看法，如果有什麼你想看到的。\n"
+}
