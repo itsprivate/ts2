@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--21--en--myfeed--HackerNews--NewsArticle--32178548",
+  "url": "https://news.ycombinator.com/item?id=32178548",
+  "headline": "Jailer: A tool for database subsetting, schema and data browsing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "aredoubleyou",
+    "url": "https://news.ycombinator.com/user?id=aredoubleyou"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32178548",
+  "sameAs": "https://wisser.github.io/Jailer/data-browsing4.html",
+  "dateCreated": "2022-07-21T12:54:28.972Z",
+  "datePublished": "2022-07-21T12:34:31.000Z",
+  "dateModified": "2022-07-21T12:54:28.972Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Jailer: 一个用于数据库子集、模式和数据浏览的工具\n",
+  "headline_zh-Hant": "Jailer: 一個用於數據庫子集、模式和數據瀏覽的工具\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
