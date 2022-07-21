@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--21--en--myfeed--HackerNews--NewsArticle--32175212",
+  "url": "https://news.ycombinator.com/item?id=32175212",
+  "headline": "Choose Money First",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gmays",
+    "url": "https://news.ycombinator.com/user?id=gmays"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32175212",
+  "sameAs": "https://siliconvict.com/articles/1-choose-money-first",
+  "dateCreated": "2022-07-21T03:54:11.043Z",
+  "datePublished": "2022-07-21T02:50:57.000Z",
+  "dateModified": "2022-07-21T03:54:11.043Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "选择金钱至上\n",
+  "headline_zh-Hant": "選擇金錢至上\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
