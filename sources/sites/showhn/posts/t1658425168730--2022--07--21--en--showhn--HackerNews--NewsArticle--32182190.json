@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--21--en--showhn--HackerNews--NewsArticle--32182190",
+  "url": "https://news.ycombinator.com/item?id=32182190",
+  "headline": "Show HN: Sudopad V2 – Now you can save your pads and create private boards",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Imba has been a great language choice so far. It makes everything easy.<p>Now I have added authentication using Supabase, so you can login through Google oAuth or a magic link which allows you to have multiple pads and control if they are publicly viewable / editable or not.<p>Since Supabase doesn't have anon authentication, it is better to use rpc functions instead of adding policies. That way be default row level security blocks everything and rpc functions control who has access. That way I can prevent &quot;select *&quot; queries.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "ishanr",
+    "url": "https://news.ycombinator.com/user?id=ishanr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32182190",
+  "sameAs": "https://sudopad.com/settings",
+  "dateCreated": "2022-07-21T17:39:28.730Z",
+  "datePublished": "2022-07-21T17:27:34.000Z",
+  "dateModified": "2022-07-21T17:39:28.730Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Sudopad V2 - 现在您可以保存您的垫子并创建私人板块\n",
+  "headline_zh-Hant": "Show HN: Sudopad V2 - 現在您可以保存您的墊子並創建私人板塊\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "到目前为止，Imba一直是一个很好的语言选择。<p>现在我已经添加了使用Supabase的认证，所以你可以通过Google oAuth或一个神奇的链接登录，它允许你有多个垫子，并控制它们是否可公开查看/可编辑。<p>由于Supabase没有匿名认证，最好使用rpc函数而不是添加策略。这样一来，默认的行级安全就可以阻止一切，而rpc函数则可以控制谁可以访问。这样我就可以防止&quot;选择*&quot;查询。\n",
+  "description_zh-Hant": "到目前為止，Imba一直是一個很好的語言選擇。<p>現在我已經添加了使用Supabase的認證，所以你可以通過Google oAuth或一個神奇的鏈接登錄，它允許你有多個墊子，並控制它們是否可公開查看/可編輯。<p>由於Supabase沒有匿名認證，最好使用rpc函數而不是添加策略。這樣一來，默認的行級安全就可以阻止一切，而rpc函數則可以控制誰可以訪問。這樣我就可以防止&quot;選擇*&quot;查詢。\n"
+}

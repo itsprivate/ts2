@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--21--en--myfeed--HackerNews--NewsArticle--32182044",
+  "url": "https://news.ycombinator.com/item?id=32182044",
+  "headline": "Chinese-Made GPS Tracker Highly Vulnerable",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "HeyLaughingBoy",
+    "url": "https://news.ycombinator.com/user?id=HeyLaughingBoy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32182044",
+  "sameAs": "https://www.ien.com/safety/news/22340490/chinesemade-gps-tracker-highly-vulnerable",
+  "dateCreated": "2022-07-21T17:39:16.029Z",
+  "datePublished": "2022-07-21T17:17:27.000Z",
+  "dateModified": "2022-07-21T17:39:16.029Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "中国制造的GPS追踪器极易受到攻击\n",
+  "headline_zh-Hant": "中國製造的GPS追蹤器極易受到攻擊\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
