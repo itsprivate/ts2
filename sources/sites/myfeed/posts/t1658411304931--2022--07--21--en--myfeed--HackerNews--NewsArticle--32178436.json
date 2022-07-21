@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--21--en--myfeed--HackerNews--NewsArticle--32178436",
+  "url": "https://news.ycombinator.com/item?id=32178436",
+  "headline": "Encrypting Strings at Compile Time",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "esoretihw",
+    "url": "https://news.ycombinator.com/user?id=esoretihw"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32178436",
+  "sameAs": "https://gist.github.com/EvanMcBroom/ace2a9af19fb5e7b2451b1cd4c07bf96",
+  "dateCreated": "2022-07-21T13:48:24.931Z",
+  "datePublished": "2022-07-21T12:18:40.000Z",
+  "dateModified": "2022-07-21T13:48:24.931Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在编译时对字符串进行加密\n",
+  "headline_zh-Hant": "在編譯時對字符串進行加密\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
