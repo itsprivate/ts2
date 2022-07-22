@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--22--en--myfeed--HackerNews--NewsArticle--32191387",
+  "url": "https://news.ycombinator.com/item?id=32191387",
+  "headline": "Twitter data breach exposes emails and phone numbers on sale for $30K",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rvz",
+    "url": "https://news.ycombinator.com/user?id=rvz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32191387",
+  "sameAs": "https://9to5mac.com/2022/07/22/twitter-data-breach/",
+  "dateCreated": "2022-07-22T13:45:14.220Z",
+  "datePublished": "2022-07-22T12:54:12.000Z",
+  "dateModified": "2022-07-22T13:45:14.220Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "推特数据泄露暴露电子邮件和电话号码，售价3万美元\n",
+  "headline_zh-Hant": "推特數據洩露暴露電子郵件和電話號碼，售價3萬美元\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

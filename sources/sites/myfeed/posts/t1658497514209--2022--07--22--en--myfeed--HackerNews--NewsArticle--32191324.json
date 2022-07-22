@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--22--en--myfeed--HackerNews--NewsArticle--32191324",
+  "url": "https://news.ycombinator.com/item?id=32191324",
+  "headline": "Turn-by-turntables: How drivers got from A to B in the early 1900s (2020)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Tomte",
+    "url": "https://news.ycombinator.com/user?id=Tomte"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32191324",
+  "sameAs": "https://arstechnica.com/cars/2020/01/turn-by-turntables-how-drivers-got-from-point-a-to-point-b-in-the-early-1900s/",
+  "dateCreated": "2022-07-22T13:45:14.209Z",
+  "datePublished": "2022-07-22T12:46:03.000Z",
+  "dateModified": "2022-07-22T13:45:14.209Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "逐个转弯。20世纪初司机如何从A地到B地 (2020)\n",
+  "headline_zh-Hant": "逐個轉彎。20世紀初司機如何從A地到B地 (2020)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
