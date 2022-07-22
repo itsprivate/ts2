@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--04--23--en--besthn--HackerNews--NewsArticle--31128903",
-  "url": "https://news.ycombinator.com/item?id=31128903",
-  "headline": "Hacker News Guidelines",
+  "identifier": "2022--07--22--en--showhn--HackerNews--NewsArticle--32198455",
+  "url": "https://news.ycombinator.com/item?id=32198455",
+  "headline": "Show HN: Display an image like a CRT monitor",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "tomrod",
-    "url": "https://news.ycombinator.com/user?id=tomrod"
+    "name": "atum47",
+    "url": "https://news.ycombinator.com/user?id=atum47"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=31128903",
-  "sameAs": "https://news.ycombinator.com/newsguidelines.html",
-  "dateCreated": "2022-04-23T09:49:58.719Z",
-  "datePublished": "2022-04-22T22:17:44.000Z",
-  "dateModified": "2022-04-23T09:49:58.719Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32198455",
+  "sameAs": "https://victorribeiro.com/CRT/",
+  "dateCreated": "2022-07-22T23:46:18.442Z",
+  "datePublished": "2022-07-22T23:38:40.000Z",
+  "dateModified": "2022-07-22T23:46:18.442Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 251
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 212
+      "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "黑客新闻准则",
-  "headline_zh-Hant": "黑客新聞準則",
+  "headline_zh-Hans": "Show HN: 像CRT显示器一样显示一个图像\n",
+  "headline_zh-Hant": "Show HN: 像CRT顯示器一樣顯示一個圖像\n",
   "@context": [
     "https://schema.org",
     {
