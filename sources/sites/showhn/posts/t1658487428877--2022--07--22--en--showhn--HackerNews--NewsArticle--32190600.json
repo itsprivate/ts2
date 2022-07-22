@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--22--en--showhn--HackerNews--NewsArticle--32190600",
+  "url": "https://news.ycombinator.com/item?id=32190600",
+  "headline": "Show HN: humble-cli – A CLI tool to download Humble Bundle purchases",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "humble-cli allows you to list all your Humble Bundle purchases, see their details, and download them from the comfort of your terminal.<p>It can also limit downloads based on their size and format.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "smbl64",
+    "url": "https://news.ycombinator.com/user?id=smbl64"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32190600",
+  "sameAs": "https://github.com/smbl64/humble-cli",
+  "dateCreated": "2022-07-22T10:57:08.877Z",
+  "datePublished": "2022-07-22T10:52:58.000Z",
+  "dateModified": "2022-07-22T10:57:08.877Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: humble-cli - 一个下载Humble Bundle购买的CLI工具\n",
+  "headline_zh-Hant": "Show HN: humble-cli - 一個下載Humble Bundle購買的CLI工具\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "humble-cli允许你列出你所有购买的Humble Bundle产品，查看它们的细节，并从你的终端下载它们。<p>它还可以根据它们的大小和格式限制下载。\n",
+  "description_zh-Hant": "humble-cli允許你列出你所有購買的Humble Bundle產品，查看它們的細節，並從你的終端下載它們。<p>它還可以根據它們的大小和格式限制下載。\n"
+}
