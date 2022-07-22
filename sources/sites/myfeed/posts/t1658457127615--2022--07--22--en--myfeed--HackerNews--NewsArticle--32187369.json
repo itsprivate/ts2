@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--22--en--myfeed--HackerNews--NewsArticle--32187369",
+  "url": "https://news.ycombinator.com/item?id=32187369",
+  "headline": "Russian chess robot breaks 9-yr old opponent's finger",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kofejnik",
+    "url": "https://news.ycombinator.com/user?id=kofejnik"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32187369",
+  "sameAs": "https://twitter.com/russian_market/status/1550156267162927125",
+  "dateCreated": "2022-07-22T02:32:07.615Z",
+  "datePublished": "2022-07-22T01:22:51.000Z",
+  "dateModified": "2022-07-22T02:32:07.615Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "俄罗斯国际象棋机器人打断9岁对手的手指\n",
+  "headline_zh-Hant": "俄羅斯國際象棋機器人打斷9歲對手的手指\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

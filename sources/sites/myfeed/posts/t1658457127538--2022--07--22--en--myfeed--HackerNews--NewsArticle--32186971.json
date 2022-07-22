@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--22--en--myfeed--HackerNews--NewsArticle--32186971",
+  "url": "https://news.ycombinator.com/item?id=32186971",
+  "headline": "‘I’m Calling About Your Auto Warranty’: FCC Says No More, Orders Spam Block",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "JumpCrisscross",
+    "url": "https://news.ycombinator.com/user?id=JumpCrisscross"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32186971",
+  "sameAs": "https://www.bloomberg.com/news/articles/2022-07-21/spam-auto-warranty-robocalls-blocked-by-fcc-in-latest-order",
+  "dateCreated": "2022-07-22T02:32:07.538Z",
+  "datePublished": "2022-07-22T00:21:27.000Z",
+  "dateModified": "2022-07-22T02:32:07.538Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "我在为你的汽车保修打电话\"。美国联邦通信委员会（FCC）说，不能再这样下去了，要下令阻止垃圾邮件。\n",
+  "headline_zh-Hant": "我在為你的汽車保修打電話\"。美國聯邦通信委員會（FCC）說，不能再這樣下去了，要下令阻止垃圾郵件。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
