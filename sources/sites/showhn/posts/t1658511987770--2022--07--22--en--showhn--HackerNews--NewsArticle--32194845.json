@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--07--18--en--myfeed--HackerNews--NewsArticle--32135134",
-  "url": "https://news.ycombinator.com/item?id=32135134",
-  "headline": "Building a SaaS Product in 1 Week",
+  "identifier": "2022--07--22--en--showhn--HackerNews--NewsArticle--32194845",
+  "url": "https://news.ycombinator.com/item?id=32194845",
+  "headline": "Show HN: A Quine Commit",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "greenSunglass",
-    "url": "https://news.ycombinator.com/user?id=greenSunglass"
+    "name": "broothie",
+    "url": "https://news.ycombinator.com/user?id=broothie"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32135134",
-  "sameAs": "https://pqvst.com/2022/07/14/one-week-build-instantrentalalerts/",
-  "dateCreated": "2022-07-18T06:34:42.615Z",
-  "datePublished": "2022-07-18T05:50:58.000Z",
-  "dateModified": "2022-07-18T06:34:42.615Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32194845",
+  "sameAs": "https://github.com/broothie/quine-commit/commit/df2128c",
+  "dateCreated": "2022-07-22T17:46:27.770Z",
+  "datePublished": "2022-07-22T17:42:25.000Z",
+  "dateModified": "2022-07-22T17:46:27.770Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 3
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "在1周内建立一个SaaS产品\n",
-  "headline_zh-Hant": "在1周內建立一個SaaS產品\n",
+  "headline_zh-Hans": "Show HN: 奎因承诺\n",
+  "headline_zh-Hant": "Show HN: 奎因承諾\n",
   "@context": [
     "https://schema.org",
     {
