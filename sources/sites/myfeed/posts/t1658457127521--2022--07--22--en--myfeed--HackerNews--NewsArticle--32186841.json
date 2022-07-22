@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--22--en--myfeed--HackerNews--NewsArticle--32186841",
+  "url": "https://news.ycombinator.com/item?id=32186841",
+  "headline": "Unhiding iCloud Private Relay users with a selective DNS sinkhole",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kellermatth",
+    "url": "https://news.ycombinator.com/user?id=kellermatth"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32186841",
+  "sameAs": "https://m-keller.com/2022-07-21-icloud-private-relay-dns-leak.html",
+  "dateCreated": "2022-07-22T02:32:07.521Z",
+  "datePublished": "2022-07-22T00:02:42.000Z",
+  "dateModified": "2022-07-22T02:32:07.521Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用选择性的DNS天坑来隐藏iCloud私人中继用户\n",
+  "headline_zh-Hant": "用選擇性的DNS天坑來隱藏iCloud私人中繼用戶\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

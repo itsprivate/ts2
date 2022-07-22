@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--22--en--myfeed--HackerNews--NewsArticle--32187505",
+  "url": "https://news.ycombinator.com/item?id=32187505",
+  "headline": "Google's framework for programming quantum computers turns 1.0",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vtomole",
+    "url": "https://news.ycombinator.com/user?id=vtomole"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32187505",
+  "sameAs": "https://opensource.googleblog.com/2022/07/Cirq-Turns-1.0.html",
+  "dateCreated": "2022-07-22T02:32:07.645Z",
+  "datePublished": "2022-07-22T01:47:13.000Z",
+  "dateModified": "2022-07-22T02:32:07.645Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "谷歌的量子计算机编程框架变为1.0\n",
+  "headline_zh-Hant": "谷歌的量子計算機編程框架變為1.0\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
