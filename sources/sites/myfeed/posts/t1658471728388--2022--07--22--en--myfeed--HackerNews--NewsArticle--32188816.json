@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--07--08--en--hackernews--HackerNews--NewsArticle--32025402",
-  "url": "https://news.ycombinator.com/item?id=32025402",
-  "headline": "Twitter lays off 30% of its talent acquisition team",
+  "identifier": "2022--07--22--en--myfeed--HackerNews--NewsArticle--32188816",
+  "url": "https://news.ycombinator.com/item?id=32188816",
+  "headline": "CVE-2022-31163: Arbitrary file execution in TZinfo (Ruby)",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,32 +13,32 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "brunojppb",
-    "url": "https://news.ycombinator.com/user?id=brunojppb"
+    "name": "Ichaelus",
+    "url": "https://news.ycombinator.com/user?id=Ichaelus"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32025402",
-  "sameAs": "https://techcrunch.com/2022/07/07/twitter-layoffs-talent-acquisition/",
-  "dateCreated": "2022-07-08T11:23:28.389Z",
-  "datePublished": "2022-07-08T10:49:28.000Z",
-  "dateModified": "2022-07-08T11:23:28.389Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32188816",
+  "sameAs": "https://github.com/tzinfo/tzinfo/security/advisories/GHSA-5cm2-9h8c-rvfx",
+  "dateCreated": "2022-07-22T06:35:28.388Z",
+  "datePublished": "2022-07-22T05:25:47.000Z",
+  "dateModified": "2022-07-22T06:35:28.388Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 8
+      "userInteractionCount": 7
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "推特解雇30%的人才招聘团队\n",
-  "headline_zh-Hant": "推特解僱30%的人才招聘團隊\n",
+  "headline_zh-Hans": "cve-2022-31163: TZinfo中的任意文件执行 (Ruby)\n",
+  "headline_zh-Hant": "cve-2022-31163: TZinfo中的任意文件執行 (Ruby)\n",
   "@context": [
     "https://schema.org",
     {
