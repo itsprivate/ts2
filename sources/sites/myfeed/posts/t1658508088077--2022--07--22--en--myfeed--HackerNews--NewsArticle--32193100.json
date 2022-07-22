@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--22--en--myfeed--HackerNews--NewsArticle--32193100",
+  "url": "https://news.ycombinator.com/item?id=32193100",
+  "headline": "Serverless Authorisation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kiyanwang",
+    "url": "https://news.ycombinator.com/user?id=kiyanwang"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32193100",
+  "sameAs": "https://leejamesgilmore.medium.com/serverless-authorisation-e5bd9288f0ff",
+  "dateCreated": "2022-07-22T16:41:28.077Z",
+  "datePublished": "2022-07-22T15:34:54.000Z",
+  "dateModified": "2022-07-22T16:41:28.077Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "无服务器授权\n",
+  "headline_zh-Hant": "無服務器授權\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

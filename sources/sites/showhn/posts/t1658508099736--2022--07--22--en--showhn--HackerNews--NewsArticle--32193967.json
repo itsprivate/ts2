@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--22--en--showhn--HackerNews--NewsArticle--32193967",
+  "url": "https://news.ycombinator.com/item?id=32193967",
+  "headline": "Show HN: Open API and GraphQL Fuzzing via GitHub Actions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Schemathesis is a specification-centric API fuzzing tool for Open API and GraphQL-based applications.<p>I've been building Schemathesis GitHub app for a while and now it is ready to use. You run it as a part of your workflow, then it comes to PRs and adds little reports about API fuzzing results.<p>Folks, I'd appreciate your feedback about the tool or its GitHub integration :)",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "dmitry_dygalo",
+    "url": "https://news.ycombinator.com/user?id=dmitry_dygalo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32193967",
+  "sameAs": "https://github.com/schemathesis/schemathesis/releases/tag/v3.16.0",
+  "dateCreated": "2022-07-22T16:41:39.736Z",
+  "datePublished": "2022-07-22T16:37:01.000Z",
+  "dateModified": "2022-07-22T16:41:39.736Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 通过GitHub行动进行开放API和GraphQL模糊测试\n",
+  "headline_zh-Hant": "Show HN: 通過GitHub行動進行開放API和GraphQL模糊測試\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Schemathesis是一个以规范为中心的API模糊测试工具，适用于开放API和基于GraphQL的应用程序。<p>我已经构建Schemathesis GitHub应用程序一段时间了，现在它已经可以使用了。你把它作为工作流程的一部分来运行，然后它就会出现在PR上，并添加关于API模糊处理结果的小报告。<p>朋友们，我很感谢你们对该工具或其GitHub集成的反馈:)\n",
+  "description_zh-Hant": "Schemathesis是一個以規範為中心的API模糊測試工具，適用於開放API和基於GraphQL的應用程序。<p>我已經構建Schemathesis GitHub應用程序一段時間了，現在它已經可以使用了。你把它作為工作流程的一部分來運行，然後它就會出現在PR上，並添加關於API模糊處理結果的小報告。<p>朋友們，我很感謝你們對該工具或其GitHub集成的反饋:)\n"
+}
