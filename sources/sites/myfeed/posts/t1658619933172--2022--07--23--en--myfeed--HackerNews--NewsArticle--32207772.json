@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--23--en--myfeed--HackerNews--NewsArticle--32207772",
+  "url": "https://news.ycombinator.com/item?id=32207772",
+  "headline": "Spent $3000+ at 3-star Michelin, worth it?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jerryjerryjerry",
+    "url": "https://news.ycombinator.com/user?id=jerryjerryjerry"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32207772",
+  "sameAs": "https://www.insider.com/what-its-like-eating-at-3-star-michelin-restaurant-alinea-chicago-2022",
+  "dateCreated": "2022-07-23T23:45:33.172Z",
+  "datePublished": "2022-07-23T21:32:44.000Z",
+  "dateModified": "2022-07-23T23:45:33.172Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "在三星级米其林餐厅花了3000多美元，值得吗？\n",
+  "headline_zh-Hant": "在三星級米其林餐廳花了3000多美元，值得嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
