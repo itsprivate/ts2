@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--23--en--showhn--HackerNews--NewsArticle--32208258",
+  "url": "https://news.ycombinator.com/item?id=32208258",
+  "headline": "Show HN: A (Naive) Secure Captive Portal. Thoughts?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I cobbled this together as part of a wlan project a few years ago. I am not an Ubuntu / networking stack native and there was a decent amount of research involved to solve across platforms, browsers, etc. Following a HN discussion[1] last week I thought it might be worth extracting the relevant juicy bits into a gist.<p>Separate to this was an OS-specific landing page flow that explained how to &quot;accept&quot; the captive portal (with overlays / pointers in the correct part of the screen). I haven't included this but might add some screenshots per device when I get a chance.<p>Thoughts / criticisms / improvements most appreciated.<p>[1] <a href=\"https://news.ycombinator.com/item?id=32092104\" rel=\"nofollow\">https://news.ycombinator.com/item?id=32092104</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "somishere",
+    "url": "https://news.ycombinator.com/user?id=somishere"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32208258",
+  "sameAs": "https://gist.github.com/theprojectsomething/a8406ba6be3ed3335fb3a2e5efea4b41",
+  "dateCreated": "2022-07-23T22:45:41.410Z",
+  "datePublished": "2022-07-23T22:38:23.000Z",
+  "dateModified": "2022-07-23T22:45:41.410Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 一个（天真的）安全的俘虏式门户。有什么想法？\n",
+  "headline_zh-Hant": "Show HN: 一個（天真的）安全的俘虜式門戶。有什麼想法？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "I cobbled this together as part of a wlan project a few years ago. I am not an Ubuntu / networking stack native and there was a decent amount of research involved to solve across platforms, browsers, etc. Following a HN discussion[1] last week I thought it might be worth extracting the relevant juicy bits into a gist.<p>Separate to this was an OS-specific landing page flow that explained how to &quot;accept&quot; the captive portal (with overlays / pointers in the correct part of the screen). I haven't included this but might add some screenshots per device when I get a chance.<p>Thoughts / criticisms / improvements most appreciated.<p>[1] <a href=\"https://news.ycombinator.com/item?id=32092104\" rel=\"nofollow\">https://news.ycombinator.com/item?id=32092104</a>\n",
+  "description_zh-Hant": "I cobbled this together as part of a wlan project a few years ago. I am not an Ubuntu / networking stack native and there was a decent amount of research involved to solve across platforms, browsers, etc. Following a HN discussion[1] last week I thought it might be worth extracting the relevant juicy bits into a gist.<p>Separate to this was an OS-specific landing page flow that explained how to &quot;accept&quot; the captive portal (with overlays / pointers in the correct part of the screen). I haven't included this but might add some screenshots per device when I get a chance.<p>Thoughts / criticisms / improvements most appreciated.<p>[1] <a href=\"https://news.ycombinator.com/item?id=32092104\" rel=\"nofollow\">https://news.ycombinator.com/item?id=32092104</a>\n"
+}
