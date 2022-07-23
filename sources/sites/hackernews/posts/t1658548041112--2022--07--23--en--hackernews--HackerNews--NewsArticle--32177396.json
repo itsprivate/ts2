@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--23--en--hackernews--HackerNews--NewsArticle--32177396",
+  "url": "https://news.ycombinator.com/item?id=32177396",
+  "headline": "You're not wrong. The need for quantum computers remains ever so small",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hunglee2",
+    "url": "https://news.ycombinator.com/user?id=hunglee2"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32177396",
+  "sameAs": "https://www.theregister.com/2022/07/21/quantum_computing/",
+  "dateCreated": "2022-07-23T03:47:21.112Z",
+  "datePublished": "2022-07-21T09:48:47.000Z",
+  "dateModified": "2022-07-23T03:47:21.112Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 20
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 7
+    }
+  ],
+  "headline_zh-Hans": "你没有错。对量子计算机的需求仍然是如此之小\n",
+  "headline_zh-Hant": "你沒有錯。對量子計算機的需求仍然是如此之小\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
