@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--23--en--myfeed--HackerNews--NewsArticle--32202463",
+  "url": "https://news.ycombinator.com/item?id=32202463",
+  "headline": "Veloren 0.13 – multiplayer voxel RPG written in Rust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "agluszak",
+    "url": "https://news.ycombinator.com/user?id=agluszak"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32202463",
+  "sameAs": "https://veloren.net/release-0-13/",
+  "dateCreated": "2022-07-23T11:56:02.887Z",
+  "datePublished": "2022-07-23T11:49:07.000Z",
+  "dateModified": "2022-07-23T11:56:02.887Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Veloren 0.13 - 用Rust编写的多人体素RPG游戏\n",
+  "headline_zh-Hant": "Veloren 0.13 - 用Rust編寫的多人體素RPG遊戲\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
