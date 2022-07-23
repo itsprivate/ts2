@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--23--en--myfeed--HackerNews--NewsArticle--32199494",
+  "url": "https://news.ycombinator.com/item?id=32199494",
+  "headline": "Atlanta startup turns regular hairstylists into mobile stylists",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "PierreDubois",
+    "url": "https://news.ycombinator.com/user?id=PierreDubois"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32199494",
+  "sameAs": "https://www.dash-stylists.com",
+  "dateCreated": "2022-07-23T02:28:31.646Z",
+  "datePublished": "2022-07-23T02:04:46.000Z",
+  "dateModified": "2022-07-23T02:28:31.646Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "亚特兰大创业公司将普通发型师变成移动造型师\n",
+  "headline_zh-Hant": "亞特蘭大創業公司將普通髮型師變成移動造型師\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
