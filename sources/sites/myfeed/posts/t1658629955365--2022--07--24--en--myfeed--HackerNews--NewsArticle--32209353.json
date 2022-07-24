@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--24--en--myfeed--HackerNews--NewsArticle--32209353",
+  "url": "https://news.ycombinator.com/item?id=32209353",
+  "headline": "Package for analyzing Telegram chats and finding parasite words of your friends",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "andylvua",
+    "url": "https://news.ycombinator.com/user?id=andylvua"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32209353",
+  "sameAs": "https://github.com/andylvua/bibaandboba",
+  "dateCreated": "2022-07-24T02:32:35.365Z",
+  "datePublished": "2022-07-24T01:32:26.000Z",
+  "dateModified": "2022-07-24T02:32:35.365Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "用于分析Telegram聊天记录和寻找朋友的寄生词的软件包\n",
+  "headline_zh-Hant": "用於分析Telegram聊天記錄和尋找朋友的寄生詞的軟件包\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
