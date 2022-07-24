@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--24--en--besthn--HackerNews--NewsArticle--32200371",
+  "url": "https://news.ycombinator.com/item?id=32200371",
+  "headline": "FBI investigation determined Huawei equipment could disrupt US nuclear comms",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tusslewake",
+    "url": "https://news.ycombinator.com/user?id=tusslewake"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32200371",
+  "sameAs": "https://www.cnn.com/2022/07/23/politics/fbi-investigation-huawei-china-defense-department-communications-nuclear/index.html",
+  "dateCreated": "2022-07-24T16:35:58.474Z",
+  "datePublished": "2022-07-23T04:29:07.000Z",
+  "dateModified": "2022-07-24T16:35:58.474Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 201
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 79
+    }
+  ],
+  "headline_zh-Hans": "联邦调查局调查确定华为设备可能破坏美国核通讯\n",
+  "headline_zh-Hant": "聯邦調查局調查確定華為設備可能破壞美國核通訊\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
