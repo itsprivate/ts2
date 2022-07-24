@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--07--22--en--myfeed--HackerNews--NewsArticle--32191301",
-  "url": "https://news.ycombinator.com/item?id=32191301",
-  "headline": "Binn – a compact, fast, and easy to use binary data serialization format",
+  "identifier": "2022--07--24--en--showhn--HackerNews--NewsArticle--32217690",
+  "url": "https://news.ycombinator.com/item?id=32217690",
+  "headline": "Show HN: Python-automated lightweight BGP lab in GNS3",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "tsujp",
-    "url": "https://news.ycombinator.com/user?id=tsujp"
+    "name": "GSGBen",
+    "url": "https://news.ycombinator.com/user?id=GSGBen"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32191301",
-  "sameAs": "https://github.com/liteserver/binn",
-  "dateCreated": "2022-07-22T13:45:14.191Z",
-  "datePublished": "2022-07-22T12:42:23.000Z",
-  "dateModified": "2022-07-22T13:45:14.191Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32217690",
+  "sameAs": "https://github.com/GSGBen/gns3-bgp-frr",
+  "dateCreated": "2022-07-24T21:24:49.837Z",
+  "datePublished": "2022-07-24T21:02:53.000Z",
+  "dateModified": "2022-07-24T21:24:49.837Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "Binn - 一个紧凑、快速、易于使用的二进制数据序列化格式\n",
-  "headline_zh-Hant": "Binn - 一個緊湊、快速、易於使用的二進制數據序列化格式\n",
+  "headline_zh-Hans": "Show HN: GNS3中的Python-自动轻量级BGP实验室\n",
+  "headline_zh-Hant": "Show HN: GNS3中的Python-自動輕量級BGP實驗室\n",
   "@context": [
     "https://schema.org",
     {

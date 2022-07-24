@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--24--en--showhn--HackerNews--NewsArticle--32217718",
+  "url": "https://news.ycombinator.com/item?id=32217718",
+  "headline": "Show HN: Redirect clicks using a formula",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Part of my day job requires me to review a report monthly. The URL for July's report looks something like this:<p>fancyreport.com?from=2022-07-01&amp;to=2022-07-31<p>Typing this URL manually every month was just enough pain for me to put up a simple script on somedomainiown.com/magic that redirected me to the report for the current month by automatically filling in the &quot;from&quot; and &quot;to&quot; values in the URL. This way, I could bookmark one link and always open the latest report with one click.<p>At some point, I figured I should put this behind a UI so that I could share it with my colleagues and maybe HN too. A couple of weeks of hacking, and here we are with an MVP the little imposter inside me finally accepted to post online.<p>P.S. the &quot;formule&quot; implementation gets the job done for me, but is pretty rudimentary. Would love to know if you have a specific use case that'd benefit from other parameters or a more advanced formula system.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "matt413",
+    "url": "https://news.ycombinator.com/user?id=matt413"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32217718",
+  "sameAs": "https://www.nimblelinks.com/redirect-formula",
+  "dateCreated": "2022-07-24T21:24:49.845Z",
+  "datePublished": "2022-07-24T21:05:26.000Z",
+  "dateModified": "2022-07-24T21:24:49.845Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 使用一个公式重定向点击\n",
+  "headline_zh-Hant": "Show HN: 使用一個公式重定向點擊\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我日常工作的一部分要求我每月审查一份报告。7月份报告的URL看起来像这样：<p>fancyreport.com?from=2022-07-01&amp;to=2022-07-31<p>每个月手动输入这个URL是足够痛苦的，我在somedomainiown.com/magic上建立了一个简单的脚本，通过自动填写URL中的&quot;from&quot;和&quot;to&quot;值将我重定向到当前月份的报告。这样一来，我就可以把一个链接作为书签，并且总是一键打开最新的报告。<p>在某个时候，我想我应该把这个东西放在用户界面后面，这样我就可以与我的同事，也许还有HN分享它。经过几周的黑客攻击，我们终于得到了一个MVP，我内心的小冒失鬼终于接受了这个MVP，并将其发布到网上。<p>P.S. &quot;formule&quot;的实现对我来说已经完成了工作，但还很粗糙。我很想知道，如果你有一个特定的用例，可以从其他参数或更高级的公式系统中受益。\n",
+  "description_zh-Hant": "我日常工作的一部分要求我每月審查一份報告。7月份報告的URL看起來像這樣：<p>fancyreport.com?from=2022-07-01&amp;to=2022-07-31<p>每個月手動輸入這個URL是足夠痛苦的，我在somedomainiown.com/magic上建立了一個簡單的腳本，通過自動填寫URL中的&quot;from&quot;和&quot;to&quot;值將我重定向到當前月份的報告。這樣一來，我就可以把一個鏈接作為書籤，並且總是一鍵打開最新的報告。<p>在某個時候，我想我應該把這個東西放在用戶界面後面，這樣我就可以與我的同事，也許還有HN分享它。經過幾周的黑客攻擊，我們終於得到了一個MVP，我內心的小冒失鬼終於接受了這個MVP，並將其發佈到網上。<p>P.S. &quot;formule&quot;的實現對我來說已經完成了工作，但還很粗糙。我很想知道，如果你有一個特定的用例，可以從其他參數或更高級的公式系統中受益。\n"
+}
