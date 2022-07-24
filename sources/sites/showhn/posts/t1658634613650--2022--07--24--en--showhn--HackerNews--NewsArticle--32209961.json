@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--07--21--en--myfeed--HackerNews--NewsArticle--32184031",
-  "url": "https://news.ycombinator.com/item?id=32184031",
-  "headline": "The End of Localhost",
+  "identifier": "2022--07--24--en--showhn--HackerNews--NewsArticle--32209961",
+  "url": "https://news.ycombinator.com/item?id=32209961",
+  "headline": "Show HN: Complete trace of the link of a distributed transaction",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "LukeBalizet",
-    "url": "https://news.ycombinator.com/user?id=LukeBalizet"
+    "name": "dksl",
+    "url": "https://news.ycombinator.com/user?id=dksl"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32184031",
-  "sameAs": "https://www.swyx.io/the-end-of-localhost/",
-  "dateCreated": "2022-07-21T19:56:05.025Z",
-  "datePublished": "2022-07-21T19:49:22.000Z",
-  "dateModified": "2022-07-21T19:56:05.025Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32209961",
+  "sameAs": "https://cectc.github.io/dbpack-doc/#/en-us/sql_tracing",
+  "dateCreated": "2022-07-24T03:50:13.650Z",
+  "datePublished": "2022-07-24T03:10:26.000Z",
+  "dateModified": "2022-07-24T03:50:13.650Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "地方政府的终结\n",
-  "headline_zh-Hant": "地方政府的終結\n",
+  "headline_zh-Hans": "Show HN: 分布式交易链接的完整跟踪\n",
+  "headline_zh-Hant": "Show HN: 分佈式交易鏈接的完整跟蹤\n",
   "@context": [
     "https://schema.org",
     {
