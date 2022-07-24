@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--24--en--askhn--HackerNews--NewsArticle--32218900",
+  "url": "https://news.ycombinator.com/item?id=32218900",
+  "headline": "Ask HN: Why aren't there any tools that detect memory leaks in JavaScript (web)?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Why is it that Javascript (in the browser) doesn't have any tools that would allow developers to perform memory leaks detection? Chrome has a heap profiler that can take memory snapshots, but it feels nothing like tools like Valgrind.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "develatio",
+    "url": "https://news.ycombinator.com/user?id=develatio"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32218900",
+  "sameAs": "https://news.ycombinator.com/item?id=32218900",
+  "dateCreated": "2022-07-24T23:46:15.219Z",
+  "datePublished": "2022-07-24T23:34:06.000Z",
+  "dateModified": "2022-07-24T23:46:15.219Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么没有任何工具可以检测JavaScript（网络）中的内存泄漏？\n",
+  "headline_zh-Hant": "Ask HN: 為什麼沒有任何工具可以檢測JavaScript（網絡）中的內存洩漏？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "为什么Javascript（在浏览器中）没有任何工具可以让开发者进行内存泄漏检测？Chrome有一个堆分析器，可以进行内存快照，但感觉与Valgrind等工具完全不同。\n",
+  "description_zh-Hant": "為什麼Javascript（在瀏覽器中）沒有任何工具可以讓開發者進行內存洩漏檢測？Chrome有一個堆分析器，可以進行內存快照，但感覺與Valgrind等工具完全不同。\n"
+}
