@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--07--10--en--hackernews--HackerNews--NewsArticle--32045779",
-  "url": "https://news.ycombinator.com/item?id=32045779",
-  "headline": "Triangle Grids in Games",
+  "identifier": "2022--07--24--en--hackernews--HackerNews--NewsArticle--32212235",
+  "url": "https://news.ycombinator.com/item?id=32212235",
+  "headline": "Show HN: Kvass, a personal key-value store",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "jsnell",
-    "url": "https://news.ycombinator.com/user?id=jsnell"
+    "name": "maxmunzel",
+    "url": "https://news.ycombinator.com/user?id=maxmunzel"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32045779",
-  "sameAs": "https://kvachev.com/blog/posts/triangular-grid/",
-  "dateCreated": "2022-07-10T16:34:27.559Z",
-  "datePublished": "2022-07-10T15:48:20.000Z",
-  "dateModified": "2022-07-10T16:34:27.559Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32212235",
+  "sameAs": "https://github.com/maxmunzel/kvass",
+  "dateCreated": "2022-07-24T11:42:28.218Z",
+  "datePublished": "2022-07-24T11:05:49.000Z",
+  "dateModified": "2022-07-24T11:42:28.218Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 3
+      "userInteractionCount": 5
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "游戏中的三角形网格\n",
-  "headline_zh-Hant": "遊戲中的三角形網格\n",
+  "headline_zh-Hans": "Show HN: Kvass，一个个人键值存储器\n",
+  "headline_zh-Hant": "Show HN: Kvass，一個個人鍵值存儲器\n",
   "@context": [
     "https://schema.org",
     {
