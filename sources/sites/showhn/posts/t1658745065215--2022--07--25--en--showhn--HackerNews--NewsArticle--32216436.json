@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--07--11--en--hackernews--HackerNews--NewsArticle--32053083",
-  "url": "https://news.ycombinator.com/item?id=32053083",
-  "headline": "Guile Steel: a proposal for a systems Lisp",
+  "identifier": "2022--07--25--en--showhn--HackerNews--NewsArticle--32216436",
+  "url": "https://news.ycombinator.com/item?id=32216436",
+  "headline": "Show HN: Pipes puzzle (a.k.a. Net) on a hexagonal grid",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "pabs3",
-    "url": "https://news.ycombinator.com/user?id=pabs3"
+    "name": "gereleth",
+    "url": "https://news.ycombinator.com/user?id=gereleth"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32053083",
-  "sameAs": "https://dustycloud.org/blog/guile-steel-proposal/",
-  "dateCreated": "2022-07-11T13:51:33.647Z",
-  "datePublished": "2022-07-11T06:54:51.000Z",
-  "dateModified": "2022-07-11T13:51:33.647Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32216436",
+  "sameAs": "https://hexapipes.vercel.app/hexagonal/5/1",
+  "dateCreated": "2022-07-25T10:31:05.215Z",
+  "datePublished": "2022-07-24T18:50:58.000Z",
+  "dateModified": "2022-07-25T10:31:05.215Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 23
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 6
+      "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "Guile Steel：一个关于系统Lisp的建议\n",
-  "headline_zh-Hant": "Guile Steel：一個關於系統Lisp的建議\n",
+  "headline_zh-Hans": "Show HN: 六边形网格上的管道拼图（又称网）。\n",
+  "headline_zh-Hant": "Show HN: 六邊形網格上的管道拼圖（又稱網）。\n",
   "@context": [
     "https://schema.org",
     {
