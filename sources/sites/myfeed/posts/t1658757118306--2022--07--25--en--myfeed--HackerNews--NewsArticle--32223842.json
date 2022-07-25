@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--25--en--myfeed--HackerNews--NewsArticle--32223842",
+  "url": "https://news.ycombinator.com/item?id=32223842",
+  "headline": "Toxic road dust: a literature review",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "WebbWeaver",
+    "url": "https://news.ycombinator.com/user?id=WebbWeaver"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32223842",
+  "sameAs": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968206/",
+  "dateCreated": "2022-07-25T13:51:58.306Z",
+  "datePublished": "2022-07-25T13:19:19.000Z",
+  "dateModified": "2022-07-25T13:51:58.306Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "有毒的道路灰尘：文献回顾\n",
+  "headline_zh-Hant": "有毒的道路灰塵：文獻回顧\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
