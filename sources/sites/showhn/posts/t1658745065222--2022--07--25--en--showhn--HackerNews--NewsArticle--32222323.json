@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--25--en--showhn--HackerNews--NewsArticle--32222323",
+  "url": "https://news.ycombinator.com/item?id=32222323",
+  "headline": "Show HN: CrossFit Timers with Svelte, TailwindCSS and Firebase",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "As a java backend developer decided to practice some front end work (Each backend developer dreams to become FrontEnd developer :-D )<p>I сhoosed Svelte+TailwindCSS to get more familiar with frameworks as I planning to use it on my next project(probably SvelteKit+TailwindCSS and SSR on Firebase function).<p>But to get started, decided to begin with something simple, pure Svelte+TailwindCSS and Firebase hosting.<p>And as my morning routine starts with some workout, decided to implement CrossFit timers.<p>This simple project allow me to understand more deeply:\n  - work with components and cross-component communication \n  - work with local storage (custom store), so you can save yours timers to local storage\n  - PWA capabilities, you can install it on your device and it can work in offline mode.\n  - get familiar with utility classes and configuration of Tailwind\n  - deploy it to Firebase hosting<p>Few words about product's features: Four different timers available (Tabata, EMOM, AMRAP, RFT); possibility to save your timer; you can share your timers e.g. between your devices or with your friends or audience(for this purpose, custom URL parser/generator was implemented as Svelte doesn't support routing unlike SvelteKit/Sapper); PWA and Offline mode.<p>Conclusion/Impression: \nIt's pleasure to work with Svelte, it allows you write well structured code, all concepts are understandable and easy to apply, pre built animations and transition, flexibility<p>With TailwindCSS you can quickly prototype UI components with any complexity with 99% of cases, otherwise extensions are available.<p>Firebase allowed me to deploy the app in few clicks and, as it just hosting, free quotes are available.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "robocoder",
+    "url": "https://news.ycombinator.com/user?id=robocoder"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32222323",
+  "sameAs": "https://crossfit-timers.com/?t=amrap&p=10&c=10&n=HackerNews&r=1200&d=Just+example+of+sharable+timer.",
+  "dateCreated": "2022-07-25T10:31:05.222Z",
+  "datePublished": "2022-07-25T09:42:12.000Z",
+  "dateModified": "2022-07-25T10:31:05.222Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 使用Svelte、TailwindCSS和Firebase的CrossFit计时器\n",
+  "headline_zh-Hant": "Show HN: 使用Svelte、TailwindCSS和Firebase的CrossFit計時器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "作为一个java后端开发者，我决定练习一些前端工作（每个后端开发者都梦想成为前端开发者:-D）<p>我使用Svelte+TailwindCSS来熟悉框架，因为我打算在我的下一个项目中使用它（可能是SvelteKit+TailwindCSS和Firebase功能的SSR）。 <p>但是为了开始，我决定从一些简单的东西开始，纯粹的Svelte+TailwindCSS和Firebase主机。<p>由于我的晨练开始于一些锻炼，所以决定实现CrossFit计时器。\n  - 与组件和跨组件通信的工作 \n  - 使用本地存储（自定义存储），所以你可以将你的计时器保存在本地存储中。\n  - PWA功能，你可以把它安装在你的设备上，它可以在离线模式下工作。\n  - 熟悉Tailwind的实用类和配置\n  - 将其部署到Firebase主机<p>关于产品功能的几句话。有四种不同的计时器（Tabata、EMOM、AMRAP、RFT）；可以保存你的计时器；你可以在你的设备之间或与你的朋友或观众分享你的计时器（为此，实现了自定义URL解析器/生成器，因为Svelte不像SvelteKit/Apper那样支持路由）；PWA和离线模式。\n使用Svelte很愉快，它可以让你写出结构良好的代码，所有的概念都可以理解并易于应用，预建的动画和过渡，灵活性<p>使用TailwindCSS，你可以在99%的情况下快速制作任何复杂的UI组件原型，否则可以使用扩展。<p>Firebase允许我在几个点击中部署应用程序，由于它只是托管，可以提供免费报价。\n",
+  "description_zh-Hant": "作為一個java後端開發者，我決定練習一些前端工作（每個後端開發者都夢想成為前端開發者:-D）<p>我使用Svelte+TailwindCSS來熟悉框架，因為我打算在我的下一個項目中使用它（可能是SvelteKit+TailwindCSS和Firebase功能的SSR）。 <p>但是為了開始，我決定從一些簡單的東西開始，純粹的Svelte+TailwindCSS和Firebase主機。<p>由於我的晨練開始於一些鍛鍊，所以決定實現CrossFit計時器。\n  - 與組件和跨組件通信的工作 \n  - 使用本地存儲（自定義存儲），所以你可以將你的計時器保存在本地存儲中。\n  - PWA功能，你可以把它安裝在你的設備上，它可以在離線模式下工作。\n  - 熟悉Tailwind的實用類和配置\n  - 將其部署到Firebase主機<p>關於產品功能的幾句話。有四種不同的計時器（Tabata、EMOM、AMRAP、RFT）；可以保存你的計時器；你可以在你的設備之間或與你的朋友或觀眾分享你的計時器（為此，實現了自定義URL解析器/生成器，因為Svelte不像SvelteKit/Apper那樣支持路由）；PWA和離線模式。\n使用Svelte很愉快，它可以讓你寫出結構良好的代碼，所有的概念都可以理解並易於應用，預建的動畫和過渡，靈活性<p>使用TailwindCSS，你可以在99%的情況下快速製作任何複雜的UI組件原型，否則可以使用擴展。<p>Firebase允許我在幾個點擊中部署應用程序，由於它只是託管，可以提供免費報價。\n"
+}
