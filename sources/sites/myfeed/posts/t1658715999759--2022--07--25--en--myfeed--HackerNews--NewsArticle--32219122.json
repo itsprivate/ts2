@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--25--en--myfeed--HackerNews--NewsArticle--32219122",
+  "url": "https://news.ycombinator.com/item?id=32219122",
+  "headline": "Vitamin D supplementation worsens Alzheimer's progression",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nojs",
+    "url": "https://news.ycombinator.com/user?id=nojs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32219122",
+  "sameAs": "https://onlinelibrary.wiley.com/doi/full/10.1111/acel.13670",
+  "dateCreated": "2022-07-25T02:26:39.759Z",
+  "datePublished": "2022-07-25T00:08:00.000Z",
+  "dateModified": "2022-07-25T02:26:39.759Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "补充维生素D会使阿尔茨海默病的进展恶化\n",
+  "headline_zh-Hant": "補充維生素D會使阿爾茨海默病的進展惡化\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
