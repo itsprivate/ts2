@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--25--en--myfeed--HackerNews--NewsArticle--32223725",
+  "url": "https://news.ycombinator.com/item?id=32223725",
+  "headline": "He Built a Home to Survive a Civil War. Tragedy Found Him Anyway",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mooreds",
+    "url": "https://news.ycombinator.com/user?id=mooreds"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32223725",
+  "sameAs": "https://www.nytimes.com/2022/07/21/us/kentucky-bunker-civil-war.html",
+  "dateCreated": "2022-07-25T13:51:58.272Z",
+  "datePublished": "2022-07-25T13:07:40.000Z",
+  "dateModified": "2022-07-25T13:51:58.272Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "他建房是为了在内战中生存。悲剧还是找到了他\n",
+  "headline_zh-Hant": "他建房是為了在內戰中生存。悲劇還是找到了他\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

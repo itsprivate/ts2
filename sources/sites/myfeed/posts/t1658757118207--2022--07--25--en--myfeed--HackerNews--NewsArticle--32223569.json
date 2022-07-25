@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--25--en--myfeed--HackerNews--NewsArticle--32223569",
+  "url": "https://news.ycombinator.com/item?id=32223569",
+  "headline": "A chess-playing robot broke its seven-year-old opponent's finger",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "endo_bunker",
+    "url": "https://news.ycombinator.com/user?id=endo_bunker"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32223569",
+  "sameAs": "https://www.engadget.com/a-chess-playing-robot-broke-a-seven-year-old-prodigys-finger-100733917.html",
+  "dateCreated": "2022-07-25T13:51:58.207Z",
+  "datePublished": "2022-07-25T12:48:10.000Z",
+  "dateModified": "2022-07-25T13:51:58.207Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一个下棋的机器人折断了它七岁的对手的手指\n",
+  "headline_zh-Hant": "一個下棋的機器人折斷了它七歲的對手的手指\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--25--en--hackernews--HackerNews--NewsArticle--32222846",
+  "url": "https://news.ycombinator.com/item?id=32222846",
+  "headline": "Keet by Holepunch – P2P Video and Text",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "irusensei",
+    "url": "https://news.ycombinator.com/user?id=irusensei"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32222846",
+  "sameAs": "https://keet.io/",
+  "dateCreated": "2022-07-25T13:51:52.805Z",
+  "datePublished": "2022-07-25T11:04:22.000Z",
+  "dateModified": "2022-07-25T13:51:52.805Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Keet by Holepunch - P2P视频和文本\n",
+  "headline_zh-Hant": "Keet by Holepunch - P2P視頻和文本\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
