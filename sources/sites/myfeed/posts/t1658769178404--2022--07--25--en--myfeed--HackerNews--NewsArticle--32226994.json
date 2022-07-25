@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--25--en--myfeed--HackerNews--NewsArticle--32226994",
+  "url": "https://news.ycombinator.com/item?id=32226994",
+  "headline": "YunoHost – easily manage a server for your friends, association or enterprise",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "thunderbong",
+    "url": "https://news.ycombinator.com/user?id=thunderbong"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32226994",
+  "sameAs": "https://yunohost.org/#/",
+  "dateCreated": "2022-07-25T17:12:58.404Z",
+  "datePublished": "2022-07-25T16:44:42.000Z",
+  "dateModified": "2022-07-25T17:12:58.404Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "YunoHost - 为你的朋友、协会或企业轻松地管理一个服务器\n",
+  "headline_zh-Hant": "YunoHost - 為你的朋友、協會或企業輕鬆地管理一個服務器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
