@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--25--en--myfeed--HackerNews--NewsArticle--32228267",
+  "url": "https://news.ycombinator.com/item?id=32228267",
+  "headline": "Tell HN: PayPal Charges 10.57% in Fee (USD-INR)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "For a user payment of USD282.89, we have received an INR 19,973.10<p>We have multiple payment gateways on our platform<p>1. PayPal - Accepts most cards. But hefty 10.57% in FEE<p>2. Stripe - Often reject INR Transactions as INR payments require 3D authentication<p>3. RazorPay - Disabled international transactions for 6 months. Forced to link PayPal on Day 1.<p>RazorPay comparatively takes less transaction fee that the other 2. But they don't allow international transactions in the first 6 months.<p>Any suggestions of good payment gateways, for Indian registered company, for International Transactions?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "saradhi",
+    "url": "https://news.ycombinator.com/user?id=saradhi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32228267",
+  "sameAs": "https://news.ycombinator.com/item?id=32228267",
+  "dateCreated": "2022-07-25T18:33:28.482Z",
+  "datePublished": "2022-07-25T17:53:27.000Z",
+  "dateModified": "2022-07-25T18:33:28.482Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：PayPal收取10.57%的费用（美元-印度卢比）\n",
+  "headline_zh-Hant": "告訴HN：PayPal收取10.57%的費用（美元-印度盧比）\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "对于用户支付的282.89美元，我们已经收到了19,973.10印度卢比<p>我们的平台上有多个支付网关<p>1. PayPal - 接受大多数卡。2.Stripe - 经常拒绝印度卢比交易，因为印度卢比付款需要3D认证<p>3.RazorPay - 6个月内禁止国际交易。<p>相对而言，RazorPay收取的交易费比其他两家少。但他们不允许在前6个月进行国际交易。<p>对于印度注册公司的国际交易，有什么好的支付网关建议吗？\n",
+  "description_zh-Hant": "對於用戶支付的282.89美元，我們已經收到了19,973.10印度盧比<p>我們的平臺上有多個支付網關<p>1. PayPal - 接受大多數卡。2.Stripe - 經常拒絕印度盧比交易，因為印度盧比付款需要3D認證<p>3.RazorPay - 6個月內禁止國際交易。<p>相對而言，RazorPay收取的交易費比其他兩家少。但他們不允許在前6個月進行國際交易。<p>對於印度註冊公司的國際交易，有什麼好的支付網關建議嗎？\n"
+}
