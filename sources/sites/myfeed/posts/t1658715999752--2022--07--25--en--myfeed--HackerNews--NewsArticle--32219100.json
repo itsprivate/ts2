@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--25--en--myfeed--HackerNews--NewsArticle--32219100",
+  "url": "https://news.ycombinator.com/item?id=32219100",
+  "headline": "Russian Chess Robot Breaks Child's Finger",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "xbar",
+    "url": "https://news.ycombinator.com/user?id=xbar"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32219100",
+  "sameAs": "https://www.foxnews.com/world/russian-chess-robot-breaks-childs-finger-moscow-match",
+  "dateCreated": "2022-07-25T02:26:39.752Z",
+  "datePublished": "2022-07-25T00:04:27.000Z",
+  "dateModified": "2022-07-25T02:26:39.752Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "俄罗斯国际象棋机器人折断儿童的手指\n",
+  "headline_zh-Hant": "俄羅斯國際象棋機器人折斷兒童的手指\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

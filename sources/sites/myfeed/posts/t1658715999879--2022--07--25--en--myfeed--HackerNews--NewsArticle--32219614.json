@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--25--en--myfeed--HackerNews--NewsArticle--32219614",
+  "url": "https://news.ycombinator.com/item?id=32219614",
+  "headline": "Chess robot breaks finger of 7-year-old opponent",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dwighttk",
+    "url": "https://news.ycombinator.com/user?id=dwighttk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32219614",
+  "sameAs": "https://www.theguardian.com/sport/2022/jul/24/chess-robot-grabs-and-breaks-finger-of-seven-year-old-opponent-moscow",
+  "dateCreated": "2022-07-25T02:26:39.879Z",
+  "datePublished": "2022-07-25T01:29:12.000Z",
+  "dateModified": "2022-07-25T02:26:39.879Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "国际象棋机器人打断7岁对手的手指\n",
+  "headline_zh-Hant": "國際象棋機器人打斷7歲對手的手指\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

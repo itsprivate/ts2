@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--25--en--myfeed--HackerNews--NewsArticle--32218976",
+  "url": "https://news.ycombinator.com/item?id=32218976",
+  "headline": "Earthly Switches to Open-Source",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "telotortium",
+    "url": "https://news.ycombinator.com/user?id=telotortium"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32218976",
+  "sameAs": "https://earthly.dev/blog/earthly-open-source/",
+  "dateCreated": "2022-07-25T02:26:39.740Z",
+  "datePublished": "2022-07-24T23:44:44.000Z",
+  "dateModified": "2022-07-25T02:26:39.740Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "大地公司转向开放源代码\n",
+  "headline_zh-Hant": "大地公司轉向開放源代碼\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
