@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--25--en--askhn--HackerNews--NewsArticle--32220007",
+  "url": "https://news.ycombinator.com/item?id=32220007",
+  "headline": "Ask HN: Experience with Elastic Cloud?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm looking into using Elastic Cloud on GCP to host a cluster containing about 300TB of log data (35 days retention, about 15k shards total if that matters).<p>Does anyone have real world experience to share on how Elastic Cloud works/feels/scales at that volume and beyond?<p>I also intend to use Frozen Tier to offload data older than 24h to an object storage. Does it really work as well as Elastic docs say?<p>Thanks!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "FBISurveillance",
+    "url": "https://news.ycombinator.com/user?id=FBISurveillance"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32220007",
+  "sameAs": "https://news.ycombinator.com/item?id=32220007",
+  "dateCreated": "2022-07-25T04:00:36.624Z",
+  "datePublished": "2022-07-25T02:36:02.000Z",
+  "dateModified": "2022-07-25T04:00:36.624Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 有弹性云的经验吗？\n",
+  "headline_zh-Hant": "Ask HN: 有彈性雲的經驗嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在考虑使用GCP上的Elastic Cloud来托管一个包含约300TB日志数据的集群（保留35天，如果这很重要的话，共约15k个碎片）。<p>有谁有实际经验可以分享Elastic Cloud在这个容量及以上的情况下是如何工作/感觉/扩展的？<p>我还打算使用Frozen Tier将超过24小时的数据卸载到对象存储。它真的像Elastic文档中说的那样好用吗？<p>谢谢!\n",
+  "description_zh-Hant": "我正在考慮使用GCP上的Elastic Cloud來託管一個包含約300TB日誌數據的集群（保留35天，如果這很重要的話，共約15k個碎片）。<p>有誰有實際經驗可以分享Elastic Cloud在這個容量及以上的情況下是如何工作/感覺/擴展的？<p>我還打算使用Frozen Tier將超過24小時的數據卸載到對象存儲。它真的像Elastic文檔中說的那樣好用嗎？<p>謝謝!\n"
+}
