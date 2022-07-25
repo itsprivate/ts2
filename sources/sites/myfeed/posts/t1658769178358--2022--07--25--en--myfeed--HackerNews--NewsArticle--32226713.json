@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--25--en--myfeed--HackerNews--NewsArticle--32226713",
+  "url": "https://news.ycombinator.com/item?id=32226713",
+  "headline": "I will never understand why Google doesn't flag forms which ask for passwords",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ilamont",
+    "url": "https://news.ycombinator.com/user?id=ilamont"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32226713",
+  "sameAs": "https://twitter.com/daokedao1234/status/1551601114780315648",
+  "dateCreated": "2022-07-25T17:12:58.358Z",
+  "datePublished": "2022-07-25T16:28:20.000Z",
+  "dateModified": "2022-07-25T17:12:58.358Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我永远不明白为什么谷歌不对要求提供密码的表格进行标记。\n",
+  "headline_zh-Hant": "我永遠不明白為什麼谷歌不對要求提供密碼的表格進行標記。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
