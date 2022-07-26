@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--26--en--showhn--HackerNews--NewsArticle--32235765",
+  "url": "https://news.ycombinator.com/item?id=32235765",
+  "headline": "Show HN: Similar – dedup similar lines in Unix pipelines",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "similar is an unix pipeline dropin that deduplicates similar lines. It is inspired by Grafana's log deduplication feature and brings this to the command line. It's intended use is along with other text-utils like grep, sort and uniq.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "cxcv",
+    "url": "https://news.ycombinator.com/user?id=cxcv"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32235765",
+  "sameAs": "https://github.com/benschweizer/similar",
+  "dateCreated": "2022-07-26T08:51:04.668Z",
+  "datePublished": "2022-07-26T08:32:58.000Z",
+  "dateModified": "2022-07-26T08:51:04.668Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 类似--在Unix管道中扣除类似的行数\n",
+  "headline_zh-Hant": "Show HN: 類似--在Unix管道中扣除類似的行數\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "similar是一个unix管道的dropin，可以重复复制相似的行。它的灵感来自于Grafana的日志重复数据删除功能，并将其带到了命令行中。它的用途是与其他文本工具如grep、sort和uniq一起使用。\n",
+  "description_zh-Hant": "similar是一個unix管道的dropin，可以重複複製相似的行。它的靈感來自於Grafana的日誌重複數據刪除功能，並將其帶到了命令行中。它的用途是與其他文本工具如grep、sort和uniq一起使用。\n"
+}
