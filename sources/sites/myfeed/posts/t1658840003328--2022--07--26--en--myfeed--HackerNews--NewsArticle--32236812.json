@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--26--en--myfeed--HackerNews--NewsArticle--32236812",
+  "url": "https://news.ycombinator.com/item?id=32236812",
+  "headline": "My experience building a study tool for poker players",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "whoami_nr",
+    "url": "https://news.ycombinator.com/user?id=whoami_nr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32236812",
+  "sameAs": "https://rnikhil.com/2022/06/15/gtoinspector-startup.html",
+  "dateCreated": "2022-07-26T12:53:23.328Z",
+  "datePublished": "2022-07-26T11:21:34.000Z",
+  "dateModified": "2022-07-26T12:53:23.328Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我为扑克玩家建立学习工具的经验\n",
+  "headline_zh-Hant": "我為撲克玩家建立學習工具的經驗\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
