@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--26--en--myfeed--HackerNews--NewsArticle--32237683",
+  "url": "https://news.ycombinator.com/item?id=32237683",
+  "headline": "Slack Is Down",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I think it is although the status page isn't saying. Twitter is saying it is:\nSending a request - url: https://www.slack.com/api/apps.connections.open,\nerror: The read operation timed out)<p>EDIT: Status page now showing they are having an issue",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "roomey",
+    "url": "https://news.ycombinator.com/user?id=roomey"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32237683",
+  "sameAs": "https://news.ycombinator.com/item?id=32237683",
+  "dateCreated": "2022-07-26T13:47:37.063Z",
+  "datePublished": "2022-07-26T13:03:40.000Z",
+  "dateModified": "2022-07-26T13:47:37.063Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 19
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 7
+    }
+  ],
+  "headline_zh-Hans": "Slack停机了\n",
+  "headline_zh-Hant": "Slack停機了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我认为它是，尽管状态页没有说。推特上说它是。\n正在发送一个请求 - 网址：https://www.slack.com/api/apps.connections.open。\n错误。读取操作超时）<p>编辑：状态页现在显示他们有一个问题。\n",
+  "description_zh-Hant": "我認為它是，儘管狀態頁沒有說。推特上說它是。\n正在發送一個請求 - 網址：https://www.slack.com/api/apps.connections.open。\n錯誤。讀取操作超時）<p>編輯：狀態頁現在顯示他們有一個問題。\n"
+}

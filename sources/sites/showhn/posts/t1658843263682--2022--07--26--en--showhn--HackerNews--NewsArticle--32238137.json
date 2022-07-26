@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--26--en--showhn--HackerNews--NewsArticle--32238137",
+  "url": "https://news.ycombinator.com/item?id=32238137",
+  "headline": "Show HN: Semdle – a novel AI /NLP powered, semantic-based word game",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Semdle, is a novel Artificial Intelligence (NLP) powered, semantic-based word game. It's like Wordle, but with a twist - you have to guess words with higher semantic score (closest in meaning) to find the hidden word.<p>What is semantic and example?\nSemantics is the study of meaning in language. It can be applied to entire texts or to single words. For example, &quot;destination&quot; and &quot;last stop&quot; technically mean the same thing, but students of semantics analyze their subtle shades of meaning.<p>How to Play\n~ Guess the hidden word in 20 tries.\n~ One hint word is provided at the start of game to get you started.\n~ Each guess must be a valid English word. Hit the enter button to submit.\n~ For each guess, a semantic similarity score shows how close your guess was to the hidden word.\n~ Use additional 4 hints as needed.<p>Challenge and fun aspects \n~ The game uses GPT-3 APIs from OpenAI to compute the dynamic semantic score for each guess word. The hints too are generated dynamically using GPT-3 prompts.\n~ There are infinite paths to successfully completing the game. As such, the game play is unique to each player.\n~ The game play allows implicit multiple strategies for players to discover and apply.\n~ The skill is to use limited hints, and guess words with higher semantic score to reach the goal.\n~ The game score can be computed and shared based on combination of number of tries and hints used (not yet implemented in beta).<p>This is currently in beta and I would love to get constructive feedback. So go ahead and give it a try - and feel free to share it with friends!<p><a href=\"http://167.71.1.193/\" rel=\"nofollow\">http://167.71.1.193/</a><p>Cheers!\nSandeep Khomne",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "celeritas78",
+    "url": "https://news.ycombinator.com/user?id=celeritas78"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32238137",
+  "sameAs": "http://167.71.1.193/",
+  "dateCreated": "2022-07-26T13:47:43.682Z",
+  "datePublished": "2022-07-26T13:41:20.000Z",
+  "dateModified": "2022-07-26T13:47:43.682Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Semdle - 一个新颖的人工智能/NLP驱动的、基于语义的文字游戏\n",
+  "headline_zh-Hant": "Show HN: Semdle - 一個新穎的人工智能/NLP驅動的、基於語義的文字遊戲\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Semdle，是一个新颖的人工智能（NLP）驱动的、基于语义的文字游戏。它就像Wordle，但有一个转折--你必须猜出语义分数较高的单词（意思最接近），以找到隐藏的单词。<p>什么是语义和例子？\n语义学是对语言中意义的研究。它可以应用于整个文本或单个单词。例如，&quot;目的地&quot;和&quot;最后一站&quot;在技术上的意思是一样的，但是语义学的学生会分析其微妙的含义。<p>如何玩？\n~ 猜测隐藏的单词，需要20次尝试。\n~ 游戏开始时提供一个提示词，让你开始。\n~ 每个猜测必须是一个有效的英语单词。按下回车键即可提交。\n~ 对于每个猜测，语义相似度得分显示了你的猜测与隐藏单词的接近程度。\n~ 根据需要使用额外的4个提示。<p>挑战和乐趣方面 \n~ 游戏使用OpenAI的GPT-3 APIs来计算每个猜测词的动态语义分数。提示也是使用GPT-3提示动态生成的。\n~ 有无限的路径可以成功完成游戏。因此，游戏的玩法对每个玩家来说都是独一无二的。\n~ 游戏玩法允许隐含多种策略，供玩家发现和应用。\n~ The skill is to use limited hints, and guess words with higher semantic score to reach the goal.\n~ The game score can be computed and shared based on combination of number of tries and hints used (not yet implemented in beta).<p>This is currently in beta and I would love to get constructive feedback. So go ahead and give it a try - and feel free to share it with friends!<p><a href=\"http://167.71.1.193/\" rel=\"nofollow\">http://167.71.1.193/</a><p>Cheers!\nSandeep Khomne\n",
+  "description_zh-Hant": "Semdle，是一個新穎的人工智能（NLP）驅動的、基於語義的文字遊戲。它就像Wordle，但有一個轉折--你必須猜出語義分數較高的單詞（意思最接近），以找到隱藏的單詞。<p>什麼是語義和例子？\n語義學是對語言中意義的研究。它可以應用於整個文本或單個單詞。例如，&quot;目的地&quot;和&quot;最後一站&quot;在技術上的意思是一樣的，但是語義學的學生會分析其微妙的含義。<p>如何玩？\n~ 猜測隱藏的單詞，需要20次嘗試。\n~ 遊戲開始時提供一個提示詞，讓你開始。\n~ 每個猜測必須是一個有效的英語單詞。按下回車鍵即可提交。\n~ 對於每個猜測，語義相似度得分顯示了你的猜測與隱藏單詞的接近程度。\n~ 根據需要使用額外的4個提示。<p>挑戰和樂趣方面 \n~ 遊戲使用OpenAI的GPT-3 APIs來計算每個猜測詞的動態語義分數。提示也是使用GPT-3提示動態生成的。\n~ 有無限的路徑可以成功完成遊戲。因此，遊戲的玩法對每個玩家來說都是獨一無二的。\n~ 遊戲玩法允許隱含多種策略，供玩家發現和應用。\n~ The skill is to use limited hints, and guess words with higher semantic score to reach the goal.\n~ The game score can be computed and shared based on combination of number of tries and hints used (not yet implemented in beta).<p>This is currently in beta and I would love to get constructive feedback. So go ahead and give it a try - and feel free to share it with friends!<p><a href=\"http://167.71.1.193/\" rel=\"nofollow\">http://167.71.1.193/</a><p>Cheers!\nSandeep Khomne\n"
+}
