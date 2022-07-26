@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--26--en--myfeed--HackerNews--NewsArticle--32240257",
+  "url": "https://news.ycombinator.com/item?id=32240257",
+  "headline": "Those who can escape Shanghai",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tomohawk",
+    "url": "https://news.ycombinator.com/user?id=tomohawk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32240257",
+  "sameAs": "https://taipeitimes.com/News/editorials/archives/2022/07/26/2003782424",
+  "dateCreated": "2022-07-26T16:37:27.430Z",
+  "datePublished": "2022-07-26T16:16:29.000Z",
+  "dateModified": "2022-07-26T16:37:27.430Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "能够逃离上海的人\n",
+  "headline_zh-Hant": "能夠逃離上海的人\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
