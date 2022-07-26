@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--26--en--besthn--HackerNews--NewsArticle--32232974",
+  "url": "https://news.ycombinator.com/item?id=32232974",
+  "headline": "VRchat bans mods, embraces EAC",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cowtools",
+    "url": "https://news.ycombinator.com/user?id=cowtools"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32232974",
+  "sameAs": "https://hello.vrchat.com/blog/vrchat-security-update",
+  "dateCreated": "2022-07-26T13:47:35.609Z",
+  "datePublished": "2022-07-26T00:52:33.000Z",
+  "dateModified": "2022-07-26T13:47:35.609Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 204
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 226
+    }
+  ],
+  "headline_zh-Hans": "VRchat禁止Mods，拥抱EAC\n",
+  "headline_zh-Hant": "VRchat禁止Mods，擁抱EAC\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
