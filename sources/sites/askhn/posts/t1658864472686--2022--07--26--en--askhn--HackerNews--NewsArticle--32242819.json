@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--26--en--askhn--HackerNews--NewsArticle--32242819",
+  "url": "https://news.ycombinator.com/item?id=32242819",
+  "headline": "Ask HN: How well does Cloudflare analytics work?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN!<p>Has anyone used Cloudflare's web analytics[1] product? Specifically, I'm referring to the analytics product which requires you to switch over to Cloudflare managing your DNS.<p>How accurate are these DNS level analytics?<p>I've added client-side javascript based analytics tools to my site (specifically: Heap, Google Analytics), and there's a huge difference in the data. Cloudflare says I've got over 1k hits, and heap says I'm at 10. I'm not sure what to believe! Could the difference be due to web crawlers, adblockers, or something else?<p>Thanks!<p>1: https://www.cloudflare.com/web-analytics/",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "pranshum",
+    "url": "https://news.ycombinator.com/user?id=pranshum"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32242819",
+  "sameAs": "https://news.ycombinator.com/item?id=32242819",
+  "dateCreated": "2022-07-26T19:41:12.686Z",
+  "datePublished": "2022-07-26T19:30:53.000Z",
+  "dateModified": "2022-07-26T19:41:12.686Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Cloudflare分析的效果如何？\n",
+  "headline_zh-Hant": "Ask HN: Cloudflare分析的效果如何？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嘿，HN！<p>有人使用过 Cloudflare 的网络分析[1]产品吗？具体而言，我指的是分析产品，它要求你切换到 Cloudflare 管理你的 DNS。<p>这些 DNS 级别的分析有多准确？<p>我在我的网站上添加了基于 javascript 的客户端分析工具（特别是：Heap、Google Analytics），数据上有很大差异。Cloudflare说我有超过1千次点击，而Heap说我有10次。我不知道该相信什么! 这种差异可能是由于网络爬虫、广告拦截器或其他原因造成的吗？<p>谢谢！<p>1：https://www.cloudflare.com/web-analytics/\n",
+  "description_zh-Hant": "嘿，HN！<p>有人使用過 Cloudflare 的網絡分析[1]產品嗎？具體而言，我指的是分析產品，它要求你切換到 Cloudflare 管理你的 DNS。<p>這些 DNS 級別的分析有多準確？<p>我在我的網站上添加了基於 javascript 的客戶端分析工具（特別是：Heap、Google Analytics），數據上有很大差異。Cloudflare說我有超過1千次點擊，而Heap說我有10次。我不知道該相信什麼! 這種差異可能是由於網絡爬蟲、廣告攔截器或其他原因造成的嗎？<p>謝謝！<p>1：https://www.cloudflare.com/web-analytics/\n"
+}
