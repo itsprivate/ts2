@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--26--en--myfeed--HackerNews--NewsArticle--32241684",
+  "url": "https://news.ycombinator.com/item?id=32241684",
+  "headline": "I'm paying your flight if you join me in the Himalaya to teach you TypeScript",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "wwoessi",
+    "url": "https://news.ycombinator.com/user?id=wwoessi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32241684",
+  "sameAs": "https://www.indiehackers.com/post/im-paying-your-flight-if-you-join-me-in-the-himalaya-to-teach-you-typescript-b13b635f5b",
+  "dateCreated": "2022-07-26T18:32:05.862Z",
+  "datePublished": "2022-07-26T18:06:49.000Z",
+  "dateModified": "2022-07-26T18:32:05.862Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "如果你和我一起去喜马拉雅教你TypeScript，我将支付你的机票费用\n",
+  "headline_zh-Hant": "如果你和我一起去喜馬拉雅教你TypeScript，我將支付你的機票費用\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
