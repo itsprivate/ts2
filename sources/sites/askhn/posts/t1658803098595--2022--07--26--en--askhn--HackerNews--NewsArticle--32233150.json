@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--26--en--askhn--HackerNews--NewsArticle--32233150",
+  "url": "https://news.ycombinator.com/item?id=32233150",
+  "headline": "Ask HN: Where to find test Stripe data?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello,<p>I'm working on an analytics tool for Stripe. Where can I find test Stripe datasets? I don't mind it being fake data, but it needs to follow real relationships to some extent. I have a small store that has some data, but it's not nearly big enough to generalize.<p>I did find https://github.com/stripe-samples/test-data and use that, but it's very limited.<p>Appreciate your help!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "sent-hil",
+    "url": "https://news.ycombinator.com/user?id=sent-hil"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32233150",
+  "sameAs": "https://news.ycombinator.com/item?id=32233150",
+  "dateCreated": "2022-07-26T02:38:18.595Z",
+  "datePublished": "2022-07-26T01:20:33.000Z",
+  "dateModified": "2022-07-26T02:38:18.595Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 哪里可以找到测试的Stripe数据？\n",
+  "headline_zh-Hant": "Ask HN: 哪裡可以找到測試的Stripe數據？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你好，<p>我正在为Stripe开发一个分析工具。我在哪里可以找到测试的Stripe数据集？我不介意它是假数据，但它需要在一定程度上遵循真实的关系。我有一个小商店，有一些数据，但它还不够大，无法概括。<p>我确实找到了https://github.com/stripe-samples/test-data，并使用它，但它非常有限。<p>感谢您的帮助!\n",
+  "description_zh-Hant": "你好，<p>我正在為Stripe開發一個分析工具。我在哪裡可以找到測試的Stripe數據集？我不介意它是假數據，但它需要在一定程度上遵循真實的關係。我有一個小商店，有一些數據，但它還不夠大，無法概括。<p>我確實找到了https://github.com/stripe-samples/test-data，並使用它，但它非常有限。<p>感謝您的幫助!\n"
+}
