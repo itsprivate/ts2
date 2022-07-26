@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--26--en--myfeed--HackerNews--NewsArticle--32238769",
+  "url": "https://news.ycombinator.com/item?id=32238769",
+  "headline": "Researchers unpack unkillable UEFI rootkit that survives OS reinstalls",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mesofile",
+    "url": "https://news.ycombinator.com/user?id=mesofile"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32238769",
+  "sameAs": "https://arstechnica.com/information-technology/2022/07/researchers-unpack-unkillable-uefi-rootkit-that-survives-os-reinstalls/",
+  "dateCreated": "2022-07-26T14:46:42.661Z",
+  "datePublished": "2022-07-26T14:29:48.000Z",
+  "dateModified": "2022-07-26T14:46:42.661Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "研究人员解开了无法杀死的UEFI rootkit，它可以在重新安装操作系统后继续存在。\n",
+  "headline_zh-Hant": "研究人員解開了無法殺死的UEFI rootkit，它可以在重新安裝操作系統後繼續存在。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
