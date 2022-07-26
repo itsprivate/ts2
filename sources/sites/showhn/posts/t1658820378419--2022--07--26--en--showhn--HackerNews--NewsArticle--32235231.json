@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--26--en--showhn--HackerNews--NewsArticle--32235231",
+  "url": "https://news.ycombinator.com/item?id=32235231",
+  "headline": "Show HN: Virtink – Lightweight Virtualization Add-On for Kubernetes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Virtink is a Kubernetes add-on for running Cloud Hypervisor virtual machines. By using Cloud Hypervisor as the underlying hypervisor, Virtink enables a lightweight and secure way to run fully virtualized workloads in a canonical Kubernetes cluster.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "fengye87",
+    "url": "https://news.ycombinator.com/user?id=fengye87"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32235231",
+  "sameAs": "https://github.com/smartxworks/virtink",
+  "dateCreated": "2022-07-26T07:26:18.419Z",
+  "datePublished": "2022-07-26T06:59:44.000Z",
+  "dateModified": "2022-07-26T07:26:18.419Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Virtink - Kubernetes的轻量级虚拟化插件\n",
+  "headline_zh-Hant": "Show HN: Virtink - Kubernetes的輕量級虛擬化插件\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Virtink是一个Kubernetes插件，用于运行Cloud Hypervisor虚拟机。通过使用Cloud Hypervisor作为底层管理程序，Virtink实现了一种轻量级和安全的方式，在典型的Kubernetes集群中运行完全虚拟化的工作负载。\n",
+  "description_zh-Hant": "Virtink是一個Kubernetes插件，用於運行Cloud Hypervisor虛擬機。通過使用Cloud Hypervisor作為底層管理程序，Virtink實現了一種輕量級和安全的方式，在典型的Kubernetes集群中運行完全虛擬化的工作負載。\n"
+}
