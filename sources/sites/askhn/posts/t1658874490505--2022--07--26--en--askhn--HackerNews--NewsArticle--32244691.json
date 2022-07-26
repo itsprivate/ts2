@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--26--en--askhn--HackerNews--NewsArticle--32244691",
+  "url": "https://news.ycombinator.com/item?id=32244691",
+  "headline": "Ask HN: How to avoid patent infringement/patent trolls?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I know, IANAL/get a lawyer but I'm a poor solo dev in the US trying to bootstrap, those overhead costs are just too much when talking to an IP attorney can go for $200+ an hour. It seems that all my peers never worry about patents but every time I'm on HN, I always read horror stories that leave me anxious. Most of the cases seem to have a good ending but they always seem to take years like that GNOME patent troll case.<p>What are the best practices to avoid patent infringement/being a target of a patent troll?<p>I been reading lots of NOLO law books, I got 10 books from the library right now about IP law, Patent, Copyright, how to do Legal Research and so on. I know there stuff like EFF https://www.eff.org to help. There's Google Patent or USPTO search to look for prior art and stuff from 20 years ago is expiring* (I know it's not that simple but just want to be brief).<p>But I just feel anxious about the whole thing, it really has made me stop coding/sharing code/building stuff. It's just so time consuming when the old me would just jump into a fresh project and just start building instead. I see my old friends from college blatantly copying UI designs when they don't realize most of them are under Design Patents and they're at risk. Maybe I'm being dramatic but it seems that patent trolls are on the rise against even small players, so many new software patents are being filed at a rate more than you can reasonable keep up with, and in the coming recession it might be even more profitable to be litigious against small time devs. It feels like a necessity to cover your bases while you can.<p>I know there's no way to be completely safe, but there must be a some approach to at least reduce the majority of your risk. To do things the right way. What should a dev do to reduce their risk? (Right now I'm reading into Single Member LLCs so that I could offset the risk to that in case of a lawsuit but I'm just learning stuff right now, everything is fuzzy and more complicated than I can try to describe in a few paragraphs).<p>&quot;That reminds me to remark, in passing, that the very first official thing I did, in my administration-and it was on the first day of it, too-was to start a patent office; for I knew that a country without a patent office and good patent laws was just a crab, and couldn't travel any way but sideways or backways.&quot;\n—Mark Twain<p>It just feels like it'd be easier to just give up building software but it shouldn't feel like that, I thought the patent laws were to promote the drive to pursue innovation.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ditherblur",
+    "url": "https://news.ycombinator.com/user?id=ditherblur"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32244691",
+  "sameAs": "https://news.ycombinator.com/item?id=32244691",
+  "dateCreated": "2022-07-26T22:28:10.505Z",
+  "datePublished": "2022-07-26T22:06:00.000Z",
+  "dateModified": "2022-07-26T22:28:10.505Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何避免专利侵权/专利巨头？\n",
+  "headline_zh-Hant": "Ask HN: 如何避免專利侵權/專利巨頭？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我知道，我不知道/找律师，但我是一个在美国试图自力更生的可怜的个人开发者，当与知识产权律师交谈时，这些管理费用实在是太多了，每小时可以达到200美元以上。似乎我所有的同行都不担心专利问题，但每次我在HN上都会看到一些恐怖的故事，让我很焦虑。大多数案件似乎都有一个好的结局，但它们似乎总要花上几年的时间，就像那个GNOME专利巨头案件一样。<p>有什么最佳做法可以避免专利侵权/成为专利巨头的目标？<p>我一直在阅读大量的NOLO法律书籍，我现在从图书馆得到了10本关于知识产权法、专利、版权、如何进行法律研究等的书籍。我知道有像EFF https://www.eff.org 的东西可以帮助。有谷歌专利或美国专利商标局的搜索来寻找现有技术和20年前的东西即将到期*（我知道这不是那么简单，但只是想简单说说）。<p>但我只是对整个事情感到焦虑，它真的让我停止编码/分享代码/建造东西。以前的我只是跳进一个新的项目，然后就开始建设，这实在是太耗费时间了。我看到我的大学同学公然抄袭UI设计，而他们并没有意识到其中大部分都有设计专利，他们面临着风险。也许是我太夸张了，但似乎专利巨头对小公司的攻击也在增加，许多新的软件专利的申请速度超过了你的合理水平，而且在即将到来的经济衰退中，对小公司进行诉讼可能会更有利可图。<p>我知道没有办法做到完全安全，但一定有某种方法可以至少减少你的大部分风险。要以正确的方式做事。开发者应该怎样做才能减少他们的风险？(现在我正在研究单一成员有限责任公司，以便在发生诉讼时，我可以抵消这方面的风险，但我现在只是在学习东西，一切都很模糊，比我试图用几段话来描述的还要复杂）。 <p>&quot;这提醒我顺便说一下，在我执政的第一天，我做的第一件正式的事情就是成立了一个专利局；因为我知道，一个没有专利局和良好的专利法的国家只是一只螃蟹，除了横着走或倒着走，没有任何办法。\n马克-吐温<p>我只是觉得放弃开发软件会更容易，但不应该这样，我认为专利法是为了促进追求创新的动力。\n",
+  "description_zh-Hant": "我知道，我不知道/找律師，但我是一個在美國試圖自力更生的可憐的個人開發者，當與知識產權律師交談時，這些管理費用實在是太多了，每小時可以達到200美元以上。似乎我所有的同行都不擔心專利問題，但每次我在HN上都會看到一些恐怖的故事，讓我很焦慮。大多數案件似乎都有一個好的結局，但它們似乎總要花上幾年的時間，就像那個GNOME專利巨頭案件一樣。<p>有什麼最佳做法可以避免專利侵權/成為專利巨頭的目標？<p>我一直在閱讀大量的NOLO法律書籍，我現在從圖書館得到了10本關於知識產權法、專利、版權、如何進行法律研究等的書籍。我知道有像EFF https://www.eff.org 的東西可以幫助。有谷歌專利或美國專利商標局的搜索來尋找現有技術和20年前的東西即將到期*（我知道這不是那麼簡單，但只是想簡單說說）。<p>但我只是對整個事情感到焦慮，它真的讓我停止編碼/分享代碼/建造東西。以前的我只是跳進一個新的項目，然後就開始建設，這實在是太耗費時間了。我看到我的大學同學公然抄襲UI設計，而他們並沒有意識到其中大部分都有設計專利，他們面臨著風險。也許是我太誇張了，但似乎專利巨頭對小公司的攻擊也在增加，許多新的軟件專利的申請速度超過了你的合理水平，而且在即將到來的經濟衰退中，對小公司進行訴訟可能會更有利可圖。<p>我知道沒有辦法做到完全安全，但一定有某種方法可以至少減少你的大部分風險。要以正確的方式做事。開發者應該怎樣做才能減少他們的風險？(現在我正在研究單一成員有限責任公司，以便在發生訴訟時，我可以抵消這方面的風險，但我現在只是在學習東西，一切都很模糊，比我試圖用幾段話來描述的還要複雜）。 <p>&quot;這提醒我順便說一下，在我執政的第一天，我做的第一件正式的事情就是成立了一個專利局；因為我知道，一個沒有專利局和良好的專利法的國家只是一隻螃蟹，除了橫著走或倒著走，沒有任何辦法。\n馬克-吐溫<p>我只是覺得放棄開發軟件會更容易，但不應該這樣，我認為專利法是為了促進追求創新的動力。\n"
+}
