@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--26--en--myfeed--HackerNews--NewsArticle--32235975",
+  "url": "https://news.ycombinator.com/item?id=32235975",
+  "headline": "Show HN: Marple – Interactive time series visualization for engineers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN, excited to share the project I have been working on for the past two years.<p>Marple was created by engineers for engineers. Marple helps them organize and analyze their sensor data in a more user-friendly way.<p>We’ve all been there: measurement data from an experiment or test needs to be analyzed but the only thing you have is a few data files flying around. You do not have a clue how to open or read the data. So what you do next is open your Python/Matlab/Jupyter Notebook/… and start coding in order to make some sense of the data. We didn’t like that process, so we started Marple to solve this issue.<p>Engineers tend to log data at frequencies from 1Hz to 10kHz and usually log hundreds of sensors at the same time. Data sets usually contain millions of data points. In order to make our web-based data visualization responsive, we had some technical challenges to tackle. We developed our own visualization engine based on PostgreSQL that is able to visualize millions of data points pretty much instantly. This allows us to create an interactive visualization environment which is perfect for data exploration, even for large data sets!<p>This is the second time we show Marple to HackerNews, but since then we made some big steps. We made a pivot to a cloud product and now offer a free version of Marple. Feel free to head over to our website and give it a go. Let us know what you think of it!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "NeroVanbierv",
+    "url": "https://news.ycombinator.com/user?id=NeroVanbierv"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32235975",
+  "sameAs": "https://www.marpledata.com/",
+  "dateCreated": "2022-07-26T09:46:00.902Z",
+  "datePublished": "2022-07-26T09:10:10.000Z",
+  "dateModified": "2022-07-26T09:46:00.902Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Marple - 为工程师提供交互式时间序列可视化服务\n",
+  "headline_zh-Hant": "Show HN: Marple - 為工程師提供交互式時間序列可視化服務\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN，很高兴与大家分享我在过去两年里一直在做的项目。<p>Marple是由工程师为工程师创建的。<p>我们都经历过这样的情况：来自实验或测试的测量数据需要进行分析，但你唯一拥有的是一些到处乱飞的数据文件。你不知道如何打开或读取这些数据。所以你接下来要做的就是打开你的Python/Matlab/Jupyter Notebook/......并开始编码，以便对数据做出一些解释。我们不喜欢这个过程，所以我们启动了Marple来解决这个问题。<p>工程师们倾向于以1Hz到10kHz的频率记录数据，通常同时记录数百个传感器。数据集通常包含数百万个数据点。为了使我们基于网络的数据可视化反应灵敏，我们有一些技术挑战需要解决。我们开发了自己的基于PostgreSQL的可视化引擎，能够将数百万的数据点几乎瞬间可视化。这使我们能够创建一个互动的可视化环境，这对数据探索来说是完美的，即使是大型数据集！<p>这是我们第二次向HackerNews展示Marple，但从那时起，我们采取了一些重大举措。我们做了一个转折，变成了一个云产品，现在提供了一个免费的Marple版本。请随意前往我们的网站并试一试。让我们知道你对它的看法!\n",
+  "description_zh-Hant": "嗨，HN，很高興與大家分享我在過去兩年裡一直在做的項目。<p>Marple是由工程師為工程師創建的。<p>我們都經歷過這樣的情況：來自實驗或測試的測量數據需要進行分析，但你唯一擁有的是一些到處亂飛的數據文件。你不知道如何打開或讀取這些數據。所以你接下來要做的就是打開你的Python/Matlab/Jupyter Notebook/......並開始編碼，以便對數據做出一些解釋。我們不喜歡這個過程，所以我們啟動了Marple來解決這個問題。<p>工程師們傾向於以1Hz到10kHz的頻率記錄數據，通常同時記錄數百個傳感器。數據集通常包含數百萬個數據點。為了使我們基於網絡的數據可視化反應靈敏，我們有一些技術挑戰需要解決。我們開發了自己的基於PostgreSQL的可視化引擎，能夠將數百萬的數據點幾乎瞬間可視化。這使我們能夠創建一個互動的可視化環境，這對數據探索來說是完美的，即使是大型數據集！<p>這是我們第二次向HackerNews展示Marple，但從那時起，我們採取了一些重大舉措。我們做了一個轉折，變成了一個雲產品，現在提供了一個免費的Marple版本。請隨意前往我們的網站並試一試。讓我們知道你對它的看法!\n"
+}
