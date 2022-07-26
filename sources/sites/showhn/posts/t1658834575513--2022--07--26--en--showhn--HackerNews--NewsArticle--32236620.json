@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--26--en--showhn--HackerNews--NewsArticle--32236620",
+  "url": "https://news.ycombinator.com/item?id=32236620",
+  "headline": "Show HN: TypeScript query builder with full type inference",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN! Colin here - a TypeScripter, open sourcer, and engineer at EdgeDB. As the creator of Zod and tRPC, I'm interested in designing tools/APIs that use type inference and generics to make life easier for devs. This query builder represents another step in that direction.<p>We set out to build an EdgeQL query builder that can express queries of arbitrary complexity (EdgeQL has feature parity with SQL, roughly) and infer the static type of the query result. We introspect the database and generate a schema-aware client that represent any query, including ones that use built-in functions, operators, string/array/tuple indexing, aggregations, conditionals, type casting, subqueries, computed properties, etc—things most ORMs can’t represent.<p>This post mostly discusses the API design, which I think will be interesting regardless of familiarity with EdgeQL. I’d love to see some of these ideas bleed into future generations of TypeScript ORMs/query builders too.<p>Best way to try it is to clone the sandbox repo and follow the instructions in the README[0]. Or jump into the docs[1].<p>[0] <a href=\"https://github.com/edgedb/mcu-sandbox\" rel=\"nofollow\">https://github.com/edgedb/mcu-sandbox</a><p>[1] <a href=\"https://www.edgedb.com/docs/clients/js/querybuilder\" rel=\"nofollow\">https://www.edgedb.com/docs/clients/js/querybuilder</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "colinmcd",
+    "url": "https://news.ycombinator.com/user?id=colinmcd"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32236620",
+  "sameAs": "https://www.edgedb.com/blog/designing-the-ultimate-typescript-query-builder",
+  "dateCreated": "2022-07-26T11:22:55.513Z",
+  "datePublished": "2022-07-26T10:54:43.000Z",
+  "dateModified": "2022-07-26T11:22:55.513Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 具有完全类型推理的TypeScript查询生成器\n",
+  "headline_zh-Hant": "Show HN: 具有完全類型推理的TypeScript查詢生成器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hey HN! Colin here - a TypeScripter, open sourcer, and engineer at EdgeDB. As the creator of Zod and tRPC, I'm interested in designing tools/APIs that use type inference and generics to make life easier for devs. This query builder represents another step in that direction.<p>We set out to build an EdgeQL query builder that can express queries of arbitrary complexity (EdgeQL has feature parity with SQL, roughly) and infer the static type of the query result. We introspect the database and generate a schema-aware client that represent any query, including ones that use built-in functions, operators, string/array/tuple indexing, aggregations, conditionals, type casting, subqueries, computed properties, etc—things most ORMs can’t represent.<p>This post mostly discusses the API design, which I think will be interesting regardless of familiarity with EdgeQL. I’d love to see some of these ideas bleed into future generations of TypeScript ORMs/query builders too.<p>Best way to try it is to clone the sandbox repo and follow the instructions in the README[0]. Or jump into the docs[1].<p>[0] <a href=\"https://github.com/edgedb/mcu-sandbox\" rel=\"nofollow\">https://github.com/edgedb/mcu-sandbox</a><p>[1] <a href=\"https://www.edgedb.com/docs/clients/js/querybuilder\" rel=\"nofollow\">https://www.edgedb.com/docs/clients/js/querybuilder</a>\n",
+  "description_zh-Hant": "Hey HN! Colin here - a TypeScripter, open sourcer, and engineer at EdgeDB. As the creator of Zod and tRPC, I'm interested in designing tools/APIs that use type inference and generics to make life easier for devs. This query builder represents another step in that direction.<p>We set out to build an EdgeQL query builder that can express queries of arbitrary complexity (EdgeQL has feature parity with SQL, roughly) and infer the static type of the query result. We introspect the database and generate a schema-aware client that represent any query, including ones that use built-in functions, operators, string/array/tuple indexing, aggregations, conditionals, type casting, subqueries, computed properties, etc—things most ORMs can’t represent.<p>This post mostly discusses the API design, which I think will be interesting regardless of familiarity with EdgeQL. I’d love to see some of these ideas bleed into future generations of TypeScript ORMs/query builders too.<p>Best way to try it is to clone the sandbox repo and follow the instructions in the README[0]. Or jump into the docs[1].<p>[0] <a href=\"https://github.com/edgedb/mcu-sandbox\" rel=\"nofollow\">https://github.com/edgedb/mcu-sandbox</a><p>[1] <a href=\"https://www.edgedb.com/docs/clients/js/querybuilder\" rel=\"nofollow\">https://www.edgedb.com/docs/clients/js/querybuilder</a>\n"
+}
