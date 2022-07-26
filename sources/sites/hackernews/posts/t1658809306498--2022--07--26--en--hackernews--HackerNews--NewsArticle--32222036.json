@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--26--en--hackernews--HackerNews--NewsArticle--32222036",
+  "url": "https://news.ycombinator.com/item?id=32222036",
+  "headline": "Information that won’t fit inside your head: Journals with and without bullets",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vitabenes",
+    "url": "https://news.ycombinator.com/user?id=vitabenes"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32222036",
+  "sameAs": "https://howaboutthis.substack.com/p/the-information-that-wont-fit-inside",
+  "dateCreated": "2022-07-26T04:21:46.498Z",
+  "datePublished": "2022-07-25T08:56:38.000Z",
+  "dateModified": "2022-07-26T04:21:46.498Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 38
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 11
+    }
+  ],
+  "headline_zh-Hans": "脑子里装不下的信息。带有和不带有子弹的日记\n",
+  "headline_zh-Hant": "腦子裡裝不下的信息。帶有和不帶有子彈的日記\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

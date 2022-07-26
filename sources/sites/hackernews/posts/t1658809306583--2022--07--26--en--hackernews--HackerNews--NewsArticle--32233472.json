@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--26--en--hackernews--HackerNews--NewsArticle--32233472",
+  "url": "https://news.ycombinator.com/item?id=32233472",
+  "headline": "Treadmill garbage collector by H. Baker",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "oecumena",
+    "url": "https://news.ycombinator.com/user?id=oecumena"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32233472",
+  "sameAs": "http://www.cofault.com/2022/07/treadmill.html",
+  "dateCreated": "2022-07-26T04:21:46.583Z",
+  "datePublished": "2022-07-26T02:13:57.000Z",
+  "dateModified": "2022-07-26T04:21:46.583Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 44
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 15
+    }
+  ],
+  "headline_zh-Hans": "跑步机垃圾收集器 作者：H. Baker\n",
+  "headline_zh-Hant": "跑步機垃圾收集器 作者：H. Baker\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
