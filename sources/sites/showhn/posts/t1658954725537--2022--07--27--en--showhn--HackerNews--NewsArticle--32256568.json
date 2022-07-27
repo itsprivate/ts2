@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--showhn--HackerNews--NewsArticle--32256568",
+  "url": "https://news.ycombinator.com/item?id=32256568",
+  "headline": "Show HN: JSON-Safe Lisp Language",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Relatively simple currently, but figured I'd post for some feedback. I started this project last year but somewhat abandoned it. This feels like something which most likely already exists, but I couldn't find anything at the time I made it.<p>I feel like my write up on the repo is pretty good at explaining the inspiration and purpose of this package;<p>&quot;Let's say you have an API, and you're looking for a method by which you can increase performance of your app via doing transformations of the data directly in the API. In this scenario, you would middleman the API returned data through a Fluxduct parser in order to get the data in the format you would like. An important distinction to be made here is that you are not changing the raw output of your API, but rather defining explicit values which you would like back in the app.<p>These values are much more versatile than a pure API response as well, as they can be compounded with operators and conditionals to return computed values not otherwise returned in your API. Even more, the number of fields is completely up to you! If you only want 3 fields, foo, bar, and baz, on an API endpoint that returns more than just those 3 fields, you can explicitly only request those fields back.<p>As icing on the cake; Fluxduct is made from plain javascript, which allows for implementation either server-side or client-side, on top of this, Fluxduct is JSON-safe, meaning all transformations can exist as JSON, making these transformations able to be stored in most databases without the need for any additional transformations.&quot;<p>All criticism is appreciated.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "methodical",
+    "url": "https://news.ycombinator.com/user?id=methodical"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32256568",
+  "sameAs": "https://github.com/nathanielop/fluxduct",
+  "dateCreated": "2022-07-27T20:45:25.537Z",
+  "datePublished": "2022-07-27T20:38:12.000Z",
+  "dateModified": "2022-07-27T20:45:25.537Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: JSON-安全Lisp语言\n",
+  "headline_zh-Hant": "Show HN: JSON-安全Lisp語言\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "目前相对简单，但我想我应该发帖征求一些反馈。我去年开始做这个项目，但有点放弃了。<p>我觉得我在repo上写的东西很好地解释了这个包的灵感和目的；<p>&quot;假设你有一个API，你正在寻找一种方法，通过在API中直接对数据进行转换来提高应用程序的性能。在这种情况下，你将通过一个Fluxduct解析器来处理API返回的数据，以便获得你想要的数据格式。这里有一个重要的区别，那就是你不是在改变你的API的原始输出，而是在定义你希望在应用程序中返回的明确的值。<p>这些值比纯粹的API响应更通用，因为它们可以与运算符和条件相结合，返回你的API中没有返回的计算值。更重要的是，字段的数量完全由你决定！如果你只想要3个字段，那么就用 \"f \"来表示。如果你只想要3个字段，即foo、bar和baz，而一个API端点返回的不仅仅是这3个字段，你可以明确地只请求返回这些字段。 <p>作为锦上添花，Fluxduct是由普通的javascript制作的，它允许在服务器端或客户端实施，除此之外，Fluxduct是JSON安全的，这意味着所有的转换可以作为JSON存在，使这些转换能够被存储在大多数数据库中，而不需要任何额外的转换。\n",
+  "description_zh-Hant": "目前相對簡單，但我想我應該發帖徵求一些反饋。我去年開始做這個項目，但有點放棄了。<p>我覺得我在repo上寫的東西很好地解釋了這個包的靈感和目的；<p>&quot;假設你有一個API，你正在尋找一種方法，通過在API中直接對數據進行轉換來提高應用程序的性能。在這種情況下，你將通過一個Fluxduct解析器來處理API返回的數據，以便獲得你想要的數據格式。這裡有一個重要的區別，那就是你不是在改變你的API的原始輸出，而是在定義你希望在應用程序中返回的明確的值。<p>這些值比純粹的API響應更通用，因為它們可以與運算符和條件相結合，返回你的API中沒有返回的計算值。更重要的是，字段的數量完全由你決定！如果你只想要3個字段，那麼就用 \"f \"來表示。如果你只想要3個字段，即foo、bar和baz，而一個API端點返回的不僅僅是這3個字段，你可以明確地只請求返回這些字段。 <p>作為錦上添花，Fluxduct是由普通的javascript製作的，它允許在服務器端或客戶端實施，除此之外，Fluxduct是JSON安全的，這意味著所有的轉換可以作為JSON存在，使這些轉換能夠被存儲在大多數數據庫中，而不需要任何額外的轉換。\n"
+}
