@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--askhn--HackerNews--NewsArticle--32254538",
+  "url": "https://news.ycombinator.com/item?id=32254538",
+  "headline": "Ask HN: PCI-DSS (level 3/4) for a one-man business?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I wonder if someone with a one-man business app already implemented a debit/credit card payment system fully compliant with PCI-DSS level 3 or 4 ?<p>Indeed you could integrate components/drop-in's/plugins from any platform such as Stripe or Adyen, but what if you want to keep control on the full payment flow ? Such platforms allow you to use &quot;only&quot; their API to process the payment under the condition that you are PCI-DSS compliant. Therefore what's the effort required to fulfill the Self-Assessment Questionnaire[^1] ?<p>Many thanks for your feedback.<p><pre><code>  [^1] https://listings.pcisecuritystandards.org/documents/PCI-DSS-v3_2_1-SAQ-D_Merchant.pdf</code></pre>",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "rmedaer",
+    "url": "https://news.ycombinator.com/user?id=rmedaer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32254538",
+  "sameAs": "https://news.ycombinator.com/item?id=32254538",
+  "dateCreated": "2022-07-27T18:51:34.242Z",
+  "datePublished": "2022-07-27T18:31:42.000Z",
+  "dateModified": "2022-07-27T18:51:34.242Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为一个人的企业提供PCI-DSS（3/4级）？\n",
+  "headline_zh-Hant": "Ask HN: 為一個人的企業提供PCI-DSS（3/4級）？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "I wonder if someone with a one-man business app already implemented a debit/credit card payment system fully compliant with PCI-DSS level 3 or 4 ?<p>Indeed you could integrate components/drop-in's/plugins from any platform such as Stripe or Adyen, but what if you want to keep control on the full payment flow ? Such platforms allow you to use &quot;only&quot; their API to process the payment under the condition that you are PCI-DSS compliant. Therefore what's the effort required to fulfill the Self-Assessment Questionnaire[^1] ?<p>Many thanks for your feedback.<p><pre><code> [^1] https://listings.pcisecuritystandards.org/documents/PCI-DSS-v3_2_1-SAQ-D_Merchant.pdf</code></pre>\n",
+  "description_zh-Hant": "I wonder if someone with a one-man business app already implemented a debit/credit card payment system fully compliant with PCI-DSS level 3 or 4 ?<p>Indeed you could integrate components/drop-in's/plugins from any platform such as Stripe or Adyen, but what if you want to keep control on the full payment flow ? Such platforms allow you to use &quot;only&quot; their API to process the payment under the condition that you are PCI-DSS compliant. Therefore what's the effort required to fulfill the Self-Assessment Questionnaire[^1] ?<p>Many thanks for your feedback.<p><pre><code> [^1] https://listings.pcisecuritystandards.org/documents/PCI-DSS-v3_2_1-SAQ-D_Merchant.pdf</code></pre>\n"
+}
