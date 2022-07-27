@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--myfeed--HackerNews--NewsArticle--32248973",
+  "url": "https://news.ycombinator.com/item?id=32248973",
+  "headline": "Why isn't there a CreateProcess that completely isolates Windows processes?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "indy",
+    "url": "https://news.ycombinator.com/user?id=indy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32248973",
+  "sameAs": "https://www.computerenhance.com/p/why-isnt-there-a-createprocess-that",
+  "dateCreated": "2022-07-27T12:55:15.131Z",
+  "datePublished": "2022-07-27T11:01:03.000Z",
+  "dateModified": "2022-07-27T12:55:15.131Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "为什么没有一个能完全隔离Windows进程的CreateProcess？\n",
+  "headline_zh-Hant": "為什麼沒有一個能完全隔離Windows進程的CreateProcess？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
