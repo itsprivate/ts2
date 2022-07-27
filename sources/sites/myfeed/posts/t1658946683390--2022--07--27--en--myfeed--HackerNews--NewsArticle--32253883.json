@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--myfeed--HackerNews--NewsArticle--32253883",
+  "url": "https://news.ycombinator.com/item?id=32253883",
+  "headline": "There is a path to replace TCP in the datacenter",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Katydid",
+    "url": "https://news.ycombinator.com/user?id=Katydid"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32253883",
+  "sameAs": "https://www.theregister.com/2022/07/27/replace_tcp_datacenter/",
+  "dateCreated": "2022-07-27T18:31:23.390Z",
+  "datePublished": "2022-07-27T17:51:23.000Z",
+  "dateModified": "2022-07-27T18:31:23.390Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在数据中心有一条取代TCP的道路\n",
+  "headline_zh-Hant": "在數據中心有一條取代TCP的道路\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
