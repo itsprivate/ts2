@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--myfeed--HackerNews--NewsArticle--32252501",
+  "url": "https://news.ycombinator.com/item?id=32252501",
+  "headline": "Tell HN: Gitlab.com doesn't allow issue search without signing in",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I was searching for an issue on gitlab.com just now, and noticed I couldn't search any project's issue tracker without signing in: a banner says &quot;You must sign in to search for specific terms.&quot; To reproduce, simply open https://gitlab.com/gitlab-org/gitlab/-/issues/ in a private browsing session and try to search for any term.<p>I'm shocked by the user hostility. There's zero chance I'm going to move my open source projects to gitlab.com if users can't even search the issue tracker without creating a GitLab account and signing in. Truly baffling decision.<p>I was so shocked I dug deeper and tracked down the offending code and MRs that introduced them (appreciate the ability to do this, I'll give them that). This is controlled by a feature flag :disable_anonymous_search and manifests as &lt;div class=&quot;js-issues-list&quot; data-is-anonymous-search-disabled=&quot;true&quot; ...&gt; in rendered HTML. Relevant MRs from 10 months ago:<p>- https://gitlab.com/gitlab-org/gitlab/-/merge_requests/70223<p>- https://gitlab.com/gitlab-org/gitlab/-/merge_requests/70249<p>I don't see any justification given, but the former MR says &quot;Related to #340716&quot; which doesn't link to anywhere, and https://gitlab.com/gitlab-org/gitlab/-/issues/340716 is 404, so maybe something internal?<p>The feature flag also doesn't appear to be default-on for self-hosted instances.<p>Aside: Interesting that despite hearing about GitLab on HN all the time (including how people are moving from GitHub to GitLab in droves), it took me ten months to even notice this. Just about every open source project relevant to me is still on GitHub, or in certain cases, self-hosted. Really makes me wonder if there's a certain amount of astroturfing going on.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "oefrha",
+    "url": "https://news.ycombinator.com/user?id=oefrha"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32252501",
+  "sameAs": "https://news.ycombinator.com/item?id=32252501",
+  "dateCreated": "2022-07-27T16:39:14.095Z",
+  "datePublished": "2022-07-27T16:23:31.000Z",
+  "dateModified": "2022-07-27T16:39:14.095Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：Gitlab.com不允许在没有登录的情况下搜索问题。\n",
+  "headline_zh-Hant": "告訴HN：Gitlab.com不允許在沒有登錄的情況下搜索問題。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我刚才在gitlab.com上搜索一个问题，发现我在没有登录的情况下无法搜索任何项目的问题跟踪器：一个横幅说&quot;你必须登录才能搜索特定术语。&quot;要重现，只需在一个私人浏览会话中打开https://gitlab.com/gitlab-org/gitlab/-/issues/，并尝试搜索任何术语。<p>我对用户的敌意感到震惊。如果用户不创建GitLab账户并登录就不能搜索问题跟踪器，那么我就没有机会将我的开源项目转移到gitlab.com。<p>我非常震惊，我深入挖掘并追踪了引入这些问题的违规代码和MRs（感谢他们的能力，我会给他们这个机会）。这是由一个功能标志:disable_anonymous_search控制的，在渲染的HTML中表现为&lt;div class=&quot;js-issues-list&quot; data-is-anonymous-search-disabled=&quot;true&quot; ...&gt; 。10个月前的相关MR：<p>- https://gitlab.com/gitlab-org/gitlab/-/merge_requests/70223<p>- https://gitlab.com/gitlab-org/gitlab/-/merge_requests/70249<p>我没有看到给出任何理由，但前一个MR说&quot;与#340716&quot;有关，但没有链接到任何地方，而https://gitlab。 com/gitlab-org/gitlab/-/issues/340716是404，所以可能是内部问题？<p>该功能标志似乎也不是默认开启的自托管实例。<p>另外：有趣的是，尽管在HN上经常听到关于GitLab的消息（包括人们如何从GitHub大量转移到GitLab），我甚至在十个月后才注意到这一点。几乎所有与我相关的开源项目都还在GitHub上，或者在某些情况下，是自行托管的。这真的让我怀疑是否有某种程度的 \"星光大道 \"在进行。\n",
+  "description_zh-Hant": "我剛才在gitlab.com上搜索一個問題，發現我在沒有登錄的情況下無法搜索任何項目的問題跟蹤器：一個橫幅說&quot;你必須登錄才能搜索特定術語。&quot;要重現，只需在一個私人瀏覽會話中打開https://gitlab.com/gitlab-org/gitlab/-/issues/，並嘗試搜索任何術語。<p>我對用戶的敵意感到震驚。如果用戶不創建GitLab賬戶並登錄就不能搜索問題跟蹤器，那麼我就沒有機會將我的開源項目轉移到gitlab.com。<p>我非常震驚，我深入挖掘並追蹤了引入這些問題的違規代碼和MRs（感謝他們的能力，我會給他們這個機會）。這是由一個功能標誌:disable_anonymous_search控制的，在渲染的HTML中表現為&lt;div class=&quot;js-issues-list&quot; data-is-anonymous-search-disabled=&quot;true&quot; ...&gt; 。10個月前的相關MR：<p>- https://gitlab.com/gitlab-org/gitlab/-/merge_requests/70223<p>- https://gitlab.com/gitlab-org/gitlab/-/merge_requests/70249<p>我沒有看到給出任何理由，但前一個MR說&quot;與#340716&quot;有關，但沒有鏈接到任何地方，而https://gitlab。 com/gitlab-org/gitlab/-/issues/340716是404，所以可能是內部問題？<p>該功能標誌似乎也不是默認開啟的自託管實例。<p>另外：有趣的是，儘管在HN上經常聽到關於GitLab的消息（包括人們如何從GitHub大量轉移到GitLab），我甚至在十個月後才注意到這一點。幾乎所有與我相關的開源項目都還在GitHub上，或者在某些情況下，是自行託管的。這真的讓我懷疑是否有某種程度的 \"星光大道 \"在進行。\n"
+}
