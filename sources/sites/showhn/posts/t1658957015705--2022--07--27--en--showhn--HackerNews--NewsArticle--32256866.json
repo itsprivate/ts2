@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--showhn--HackerNews--NewsArticle--32256866",
+  "url": "https://news.ycombinator.com/item?id=32256866",
+  "headline": "Show HN: Clyde, package manager for prebuilt applications",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Nowadays many tools and applications come in the form of a self-contained static binary. Those are easy to install and try out, but I often find myself having to hunt them back when I want to use them on another machine. Not to mention trying to keep them up-to-date once installed. To solve this I built Clyde, a package manager for prebuilt applications. Clyde can download apps and install them on your account (no need to be root). It works on Linux, macOS and Windows.<p>When possible, Clyde gives you more than just the app binaries: man pages are directly accessible and I plan to add support for automatically setup command-line auto-completion in the next version. Application documentation is also grouped in a doc directory, and I want to give direct access to it in the future.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "agateau",
+    "url": "https://news.ycombinator.com/user?id=agateau"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32256866",
+  "sameAs": "https://github.com/agateau/clyde",
+  "dateCreated": "2022-07-27T21:23:35.705Z",
+  "datePublished": "2022-07-27T20:58:02.000Z",
+  "dateModified": "2022-07-27T21:23:35.705Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Clyde，预建应用程序的软件包管理器\n",
+  "headline_zh-Hant": "Show HN: Clyde，預建應用程序的軟件包管理器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "现在，许多工具和应用程序都是以独立的静态二进制形式出现的。这些都很容易安装和试用，但我经常发现当我想在另一台机器上使用它们时，我不得不把它们找回来。更不用说在安装后要保持它们的最新状态了。为了解决这个问题，我建立了Clyde，一个预置应用程序的软件包管理器。Clyde可以下载应用程序并将其安装在你的账户上（不需要root）。它可以在Linux、macOS和Windows上运行。<p>在可能的情况下，Clyde为你提供的不仅仅是应用程序的二进制文件：手册页面可以直接访问，我计划在下一个版本中增加对自动设置命令行自动完成的支持。应用程序文档也被分组在doc目录中，我希望在未来能直接访问它。\n",
+  "description_zh-Hant": "現在，許多工具和應用程序都是以獨立的靜態二進制形式出現的。這些都很容易安裝和試用，但我經常發現當我想在另一臺機器上使用它們時，我不得不把它們找回來。更不用說在安裝後要保持它們的最新狀態了。為了解決這個問題，我建立了Clyde，一個預置應用程序的軟件包管理器。Clyde可以下載應用程序並將其安裝在你的賬戶上（不需要root）。它可以在Linux、macOS和Windows上運行。<p>在可能的情況下，Clyde為你提供的不僅僅是應用程序的二進制文件：手冊頁面可以直接訪問，我計劃在下一個版本中增加對自動設置命令行自動完成的支持。應用程序文檔也被分組在doc目錄中，我希望在未來能直接訪問它。\n"
+}
