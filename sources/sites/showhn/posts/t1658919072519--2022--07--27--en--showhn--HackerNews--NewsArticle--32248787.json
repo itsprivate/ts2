@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--showhn--HackerNews--NewsArticle--32248787",
+  "url": "https://news.ycombinator.com/item?id=32248787",
+  "headline": "Show HN: Clockodo Integration for Emacs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've made a small integration for clockodo into emacs. Feel free to try it out and give me feedback since my elisp can be improved further.\nATM, it is written from an employees perspective and only provides the basic interaction and reports.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "ratzeputz",
+    "url": "https://news.ycombinator.com/user?id=ratzeputz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32248787",
+  "sameAs": "https://github.com/santifa/clockodo-el",
+  "dateCreated": "2022-07-27T10:51:12.519Z",
+  "datePublished": "2022-07-27T10:32:50.000Z",
+  "dateModified": "2022-07-27T10:51:12.519Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Emacs的Clockodo集成\n",
+  "headline_zh-Hant": "Show HN: Emacs的Clockodo集成\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我已经为clockodo做了一个小的集成到emacs。欢迎试用并给我反馈，因为我的elisp还可以进一步改进。\nATM，它是从雇员的角度写的，只提供基本的互动和报告。\n",
+  "description_zh-Hant": "我已經為clockodo做了一個小的集成到emacs。歡迎試用並給我反饋，因為我的elisp還可以進一步改進。\nATM，它是從僱員的角度寫的，只提供基本的互動和報告。\n"
+}
