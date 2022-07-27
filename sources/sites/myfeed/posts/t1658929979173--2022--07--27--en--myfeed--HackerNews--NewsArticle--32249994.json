@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--myfeed--HackerNews--NewsArticle--32249994",
+  "url": "https://news.ycombinator.com/item?id=32249994",
+  "headline": "Study finds judges are increasingly citing Wikipedia in legal decisions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mikece",
+    "url": "https://news.ycombinator.com/user?id=mikece"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32249994",
+  "sameAs": "https://www.engadget.com/wikipedia-judge-influence-study-130013916.html",
+  "dateCreated": "2022-07-27T13:52:59.173Z",
+  "datePublished": "2022-07-27T13:11:56.000Z",
+  "dateModified": "2022-07-27T13:52:59.173Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "研究发现法官在法律裁决中越来越多地引用维基百科\n",
+  "headline_zh-Hant": "研究發現法官在法律裁決中越來越多地引用維基百科\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
