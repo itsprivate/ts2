@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--myfeed--HackerNews--NewsArticle--32245659",
+  "url": "https://news.ycombinator.com/item?id=32245659",
+  "headline": "School in the time of Covid",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "MuchoMaas",
+    "url": "https://news.ycombinator.com/user?id=MuchoMaas"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32245659",
+  "sameAs": "https://link.springer.com/article/10.1007/s40592-022-00161-9",
+  "dateCreated": "2022-07-27T02:34:56.291Z",
+  "datePublished": "2022-07-27T00:25:50.000Z",
+  "dateModified": "2022-07-27T02:34:56.291Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "科维德时代的学校\n",
+  "headline_zh-Hant": "科維德時代的學校\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
