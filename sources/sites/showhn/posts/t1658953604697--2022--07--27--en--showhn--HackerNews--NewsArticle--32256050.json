@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--showhn--HackerNews--NewsArticle--32256050",
+  "url": "https://news.ycombinator.com/item?id=32256050",
+  "headline": "Show HN: Lightweight Maybe Library for TypeScript / JavaScript",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "A `Maybe` library for TypeScript / JavaScript. This tries to have as little overhead as possible by having a `Maybe&lt;T&gt;` as `T | null | undefined` then using functions for dealing with maybes. As opposed to having custom datasructures and dsls. The library provides typesafe functions for creating pipelines from a maybe as well as traditional `getOrElse` type functions. This aims to make dealing with null's and undefined values simpler as well as allowing the flexibility of opting into as much or as little as the library as you require.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "Jamesbarford",
+    "url": "https://news.ycombinator.com/user?id=Jamesbarford"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32256050",
+  "sameAs": "https://github.com/Jamesbarford/mighty-maybe",
+  "dateCreated": "2022-07-27T20:26:44.697Z",
+  "datePublished": "2022-07-27T20:02:48.000Z",
+  "dateModified": "2022-07-27T20:26:44.697Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 用于TypeScript/JavaScript的轻量级Maybe库\n",
+  "headline_zh-Hant": "Show HN: 用於TypeScript/JavaScript的輕量級Maybe庫\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "TypeScript/JavaScript的`Maybe`库。它试图通过将 \"Maybe&lt;T&gt; \"作为 \"T | null | undefined\"，然后使用函数来处理 \"Maybe\"，从而尽可能地减少开销。相对于自定义数据结构和dsls。该库提供了类型安全的函数，用于从maybe创建管道，以及传统的`getOrElse`类型函数。这样做的目的是使处理null和未定义的值更加简单，并允许根据你的需要灵活地选择进入该库的数量或数量。\n",
+  "description_zh-Hant": "TypeScript/JavaScript的`Maybe`庫。它試圖通過將 \"Maybe&lt;T&gt; \"作為 \"T | null | undefined\"，然後使用函數來處理 \"Maybe\"，從而儘可能地減少開銷。相對於自定義數據結構和dsls。該庫提供了類型安全的函數，用於從maybe創建管道，以及傳統的`getOrElse`類型函數。這樣做的目的是使處理null和未定義的值更加簡單，並允許根據你的需要靈活地選擇進入該庫的數量或數量。\n"
+}
