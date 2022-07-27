@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--showhn--HackerNews--NewsArticle--32250701",
+  "url": "https://news.ycombinator.com/item?id=32250701",
+  "headline": "Show HN: Disgo – Create a Discord Bot in Go",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "switchupcb",
+    "url": "https://news.ycombinator.com/user?id=switchupcb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32250701",
+  "sameAs": "https://github.com/switchupcb/disgo",
+  "dateCreated": "2022-07-27T14:25:29.504Z",
+  "datePublished": "2022-07-27T14:20:12.000Z",
+  "dateModified": "2022-07-27T14:25:29.504Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Disgo - 在Go中创建一个Discord机器人\n",
+  "headline_zh-Hant": "Show HN: Disgo - 在Go中創建一個Discord機器人\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

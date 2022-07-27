@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--myfeed--HackerNews--NewsArticle--32250506",
+  "url": "https://news.ycombinator.com/item?id=32250506",
+  "headline": "Crypto Breaks the Rules and That’s the Point",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "revorad",
+    "url": "https://news.ycombinator.com/user?id=revorad"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32250506",
+  "sameAs": "https://www.bloomberg.com/opinion/articles/2022-07-26/crypto-breaks-the-rules-and-that-s-the-point",
+  "dateCreated": "2022-07-27T14:25:17.616Z",
+  "datePublished": "2022-07-27T14:02:57.000Z",
+  "dateModified": "2022-07-27T14:25:17.616Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Crypto打破了规则，这就是重点\n",
+  "headline_zh-Hant": "Crypto打破了規則，這就是重點\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
