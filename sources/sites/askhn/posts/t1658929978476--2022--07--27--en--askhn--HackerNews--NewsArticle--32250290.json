@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--askhn--HackerNews--NewsArticle--32250290",
+  "url": "https://news.ycombinator.com/item?id=32250290",
+  "headline": "Ask HN: Does hashing only part of a file make sense as unique checksum?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN,<p>currently, I'm having a performance issue with my little side project `tonehub`[1]. It's a small Web API including a background indexer task for audio files in pretty early state.<p>Introduction: Sometimes I move an audio file to another directory, because the metadata changed. This results in losing all of the files non-metadata history (playback count, current position, playlists, etc.).<p>To overcome this, I implemented hashing via xxhash only for the audio-part of the file skipping the metadata part. If a file is indexed, but its location is not found in the database, it hashes the file, looks it up and if a unique match is present, it updates only the location keeping the history and releations.<p>Now to my problem: It's too slow. I have many audio book files in m4b format, most of the time bigger than 200MB and hashing a file like this takes pretty long, long enough that indexing a whole library feels to slow in my opinion.<p>So I thought about following alternatives to improve that:<p><pre><code>  - Hashing only a fixed length part of of the file (e.g. 5MB around the midpoint position, because of intros and outros are often the same)\n  \n  - Hashing a percentage size part (e.g. 5% of the audio data size)\n  \n  - Combine one of these &quot;partial&quot; hashes with a size check (e.g. hash=0815471 + size=8340485bytes, because hash and size collision may be less likely)?\n</code></pre>\nIt feels like that won't work. So I ask HN:<p><pre><code>  Would one of these alternatives be enough to avoid collisions? \n\n  If so, what would be a &quot;sufficient&quot; part of the file and which alternative is the best?\n</code></pre>\nThank you<p>[1] https://github.com/sandreas/tonehub",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "sandreas",
+    "url": "https://news.ycombinator.com/user?id=sandreas"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32250290",
+  "sameAs": "https://news.ycombinator.com/item?id=32250290",
+  "dateCreated": "2022-07-27T13:52:58.476Z",
+  "datePublished": "2022-07-27T13:42:32.000Z",
+  "dateModified": "2022-07-27T13:52:58.476Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 只对文件的一部分进行散列，作为唯一的校验，是否有意义？\n",
+  "headline_zh-Hant": "Ask HN: 只對文件的一部分進行散列，作為唯一的校驗，是否有意義？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hey HN,<p>currently, I'm having a performance issue with my little side project `tonehub`[1]. It's a small Web API including a background indexer task for audio files in pretty early state.<p>Introduction: Sometimes I move an audio file to another directory, because the metadata changed. This results in losing all of the files non-metadata history (playback count, current position, playlists, etc.).<p>To overcome this, I implemented hashing via xxhash only for the audio-part of the file skipping the metadata part. If a file is indexed, but its location is not found in the database, it hashes the file, looks it up and if a unique match is present, it updates only the location keeping the history and releations.<p>Now to my problem: It's too slow. I have many audio book files in m4b format, most of the time bigger than 200MB and hashing a file like this takes pretty long, long enough that indexing a whole library feels to slow in my opinion.<p>So I thought about following alternatives to improve that:<p><pre><code> - Hashing only a fixed length part of of the file (e.g. 5MB around the midpoint position, because of intros and outros are often the same)\n  \n  - Hashing a percentage size part (e.g. 5% of the audio data size)\n  \n  - Combine one of these &quot;partial&quot; hashes with a size check (e.g. hash=0815471 + size=8340485bytes, because hash and size collision may be less likely)?\n</code></pre>\nIt feels like that won't work. So I ask HN:<p><pre><code> Would one of these alternatives be enough to avoid collisions? \n\n  If so, what would be a &quot;sufficient&quot; part of the file and which alternative is the best?\n</code></pre>\nThank you<p>[1] https://github.com/sandreas/tonehub\n",
+  "description_zh-Hant": "Hey HN,<p>currently, I'm having a performance issue with my little side project `tonehub`[1]. It's a small Web API including a background indexer task for audio files in pretty early state.<p>Introduction: Sometimes I move an audio file to another directory, because the metadata changed. This results in losing all of the files non-metadata history (playback count, current position, playlists, etc.).<p>To overcome this, I implemented hashing via xxhash only for the audio-part of the file skipping the metadata part. If a file is indexed, but its location is not found in the database, it hashes the file, looks it up and if a unique match is present, it updates only the location keeping the history and releations.<p>Now to my problem: It's too slow. I have many audio book files in m4b format, most of the time bigger than 200MB and hashing a file like this takes pretty long, long enough that indexing a whole library feels to slow in my opinion.<p>So I thought about following alternatives to improve that:<p><pre><code> - Hashing only a fixed length part of of the file (e.g. 5MB around the midpoint position, because of intros and outros are often the same)\n  \n  - Hashing a percentage size part (e.g. 5% of the audio data size)\n  \n  - Combine one of these &quot;partial&quot; hashes with a size check (e.g. hash=0815471 + size=8340485bytes, because hash and size collision may be less likely)?\n</code></pre>\nIt feels like that won't work. So I ask HN:<p><pre><code> Would one of these alternatives be enough to avoid collisions? \n\n  If so, what would be a &quot;sufficient&quot; part of the file and which alternative is the best?\n</code></pre>\nThank you<p>[1] https://github.com/sandreas/tonehub\n"
+}

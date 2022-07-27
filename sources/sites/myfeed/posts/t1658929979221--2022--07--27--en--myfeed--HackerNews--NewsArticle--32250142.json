@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--myfeed--HackerNews--NewsArticle--32250142",
+  "url": "https://news.ycombinator.com/item?id=32250142",
+  "headline": "Rockstar Games Cleaned Up Its Frat-Boy Culture – and Grand Theft Auto, Too",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "alphabetting",
+    "url": "https://news.ycombinator.com/user?id=alphabetting"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32250142",
+  "sameAs": "https://www.bloomberg.com/news/articles/2022-07-27/gta-6-release-date-rockstar-cleans-up-image-after-employee-backlash",
+  "dateCreated": "2022-07-27T13:52:59.221Z",
+  "datePublished": "2022-07-27T13:29:19.000Z",
+  "dateModified": "2022-07-27T13:52:59.221Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "洛克星游戏公司清理了其兄弟会文化--《侠盗猎车手》也是如此\n",
+  "headline_zh-Hant": "洛克星遊戲公司清理了其兄弟會文化--《俠盜獵車手》也是如此\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
