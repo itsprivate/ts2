@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--showhn--HackerNews--NewsArticle--32258329",
+  "url": "https://news.ycombinator.com/item?id=32258329",
+  "headline": "Show HN: TypeScript Editor that generates structured forms from TypeScript types",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN!<p>I've been doing a lot of work with the TypeScript Compiler API[1] recently as part of my work on Preview.js[2], an IDE extension that lets you preview React/Solid/Vue components.<p>One thing I noticed is that even with great autocomplete and type validation, creating/editing JS values that match a given TypeScript type can require a lot of typing. This is especially the case in Preview.js, where you can edit the props you pass to the component you're previewing in the bottom right panel. For example, quickly switching between different variants of a union type can be a hassle.<p>To solve this, I decided to try creating a tool that generates a structured from for a given TypeScript type. For example if you pass it `type Foo = { bar: string, baz: number }`, it will show you a form with two inputs `bar` and `baz` with the appropriate types, and it will output the equivalent JS code (or JSON) as you type.<p>You can try it at <a href=\"https://tseditor.fwouts.com\" rel=\"nofollow\">https://tseditor.fwouts.com</a><p>I built this as a standalone tool so that I could debug it easily (and indeed, I found a ton of great bugs!). As it took shape, I realised there might be other use cases for it than Preview.js. Imagine for example using this in Postman (or whichever tool is better than Postman these days!) instead of inputting JSON values for your request payloads. Or perhaps using this for ad-hoc forms (the form is effectively encoded in the URL).<p>I'm curious what you'd see yourself using this editor for? Any feedback welcome of course!<p>Thanks<p>François (@fwouts on Twitter)<p>[1] <a href=\"https://github.com/microsoft/TypeScript/wiki/Using-the-Compiler-API\" rel=\"nofollow\">https://github.com/microsoft/TypeScript/wiki/Using-the-Compi...</a>\n[2] <a href=\"https://previewjs.com\" rel=\"nofollow\">https://previewjs.com</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "fwouts",
+    "url": "https://news.ycombinator.com/user?id=fwouts"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32258329",
+  "sameAs": "https://tseditor.fwouts.com",
+  "dateCreated": "2022-07-27T23:27:29.332Z",
+  "datePublished": "2022-07-27T23:17:05.000Z",
+  "dateModified": "2022-07-27T23:27:29.332Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 从TypeScript类型生成结构化表单的TypeScript编辑器\n",
+  "headline_zh-Hant": "Show HN: 從TypeScript類型生成結構化表單的TypeScript編輯器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hey HN!<p>I've been doing a lot of work with the TypeScript Compiler API[1] recently as part of my work on Preview.js[2], an IDE extension that lets you preview React/Solid/Vue components.<p>One thing I noticed is that even with great autocomplete and type validation, creating/editing JS values that match a given TypeScript type can require a lot of typing. This is especially the case in Preview.js, where you can edit the props you pass to the component you're previewing in the bottom right panel. For example, quickly switching between different variants of a union type can be a hassle.<p>To solve this, I decided to try creating a tool that generates a structured from for a given TypeScript type. For example if you pass it `type Foo = { bar: string, baz: number }`, it will show you a form with two inputs `bar` and `baz` with the appropriate types, and it will output the equivalent JS code (or JSON) as you type.<p>You can try it at <a href=\"https://tseditor.fwouts.com\" rel=\"nofollow\">https://tseditor.fwouts.com</a><p>I built this as a standalone tool so that I could debug it easily (and indeed, I found a ton of great bugs!). As it took shape, I realised there might be other use cases for it than Preview.js. Imagine for example using this in Postman (or whichever tool is better than Postman these days!) instead of inputting JSON values for your request payloads. Or perhaps using this for ad-hoc forms (the form is effectively encoded in the URL).<p>I'm curious what you'd see yourself using this editor for? Any feedback welcome of course!<p>Thanks<p>François (@fwouts on Twitter)<p>[1] <a href=\"https://github.com/microsoft/TypeScript/wiki/Using-the-Compiler-API\" rel=\"nofollow\">https://github.com/microsoft/TypeScript/wiki/Using-the-Compi...</a>\n[2] <a href=\"https://previewjs.com\" rel=\"nofollow\">https://previewjs.com</a>\n",
+  "description_zh-Hant": "Hey HN!<p>I've been doing a lot of work with the TypeScript Compiler API[1] recently as part of my work on Preview.js[2], an IDE extension that lets you preview React/Solid/Vue components.<p>One thing I noticed is that even with great autocomplete and type validation, creating/editing JS values that match a given TypeScript type can require a lot of typing. This is especially the case in Preview.js, where you can edit the props you pass to the component you're previewing in the bottom right panel. For example, quickly switching between different variants of a union type can be a hassle.<p>To solve this, I decided to try creating a tool that generates a structured from for a given TypeScript type. For example if you pass it `type Foo = { bar: string, baz: number }`, it will show you a form with two inputs `bar` and `baz` with the appropriate types, and it will output the equivalent JS code (or JSON) as you type.<p>You can try it at <a href=\"https://tseditor.fwouts.com\" rel=\"nofollow\">https://tseditor.fwouts.com</a><p>I built this as a standalone tool so that I could debug it easily (and indeed, I found a ton of great bugs!). As it took shape, I realised there might be other use cases for it than Preview.js. Imagine for example using this in Postman (or whichever tool is better than Postman these days!) instead of inputting JSON values for your request payloads. Or perhaps using this for ad-hoc forms (the form is effectively encoded in the URL).<p>I'm curious what you'd see yourself using this editor for? Any feedback welcome of course!<p>Thanks<p>François (@fwouts on Twitter)<p>[1] <a href=\"https://github.com/microsoft/TypeScript/wiki/Using-the-Compiler-API\" rel=\"nofollow\">https://github.com/microsoft/TypeScript/wiki/Using-the-Compi...</a>\n[2] <a href=\"https://previewjs.com\" rel=\"nofollow\">https://previewjs.com</a>\n"
+}
