@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--07--25--en--myfeed--HackerNews--NewsArticle--32224208",
-  "url": "https://news.ycombinator.com/item?id=32224208",
-  "headline": ".sex Considered Dangerous",
+  "identifier": "2022--07--27--en--showhn--HackerNews--NewsArticle--32248151",
+  "url": "https://news.ycombinator.com/item?id=32248151",
+  "headline": "Show HN: A Printf Debugging Tool in Golang",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "zxwrt",
-    "url": "https://news.ycombinator.com/user?id=zxwrt"
+    "name": "samanator",
+    "url": "https://news.ycombinator.com/user?id=samanator"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32224208",
-  "sameAs": "https://datatracker.ietf.org/doc/html/rfc3675",
-  "dateCreated": "2022-07-25T14:25:50.982Z",
-  "datePublished": "2022-07-25T13:47:41.000Z",
-  "dateModified": "2022-07-25T14:25:50.982Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32248151",
+  "sameAs": "https://github.com/skamensky/printfdebug",
+  "dateCreated": "2022-07-27T08:34:05.223Z",
+  "datePublished": "2022-07-27T08:32:52.000Z",
+  "dateModified": "2022-07-27T08:34:05.223Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": ".性被认为是危险的\n",
-  "headline_zh-Hant": ".性被認為是危險的\n",
+  "headline_zh-Hans": "Show HN: Golang中的Printf调试工具\n",
+  "headline_zh-Hant": "Show HN: Golang中的Printf調試工具\n",
   "@context": [
     "https://schema.org",
     {
