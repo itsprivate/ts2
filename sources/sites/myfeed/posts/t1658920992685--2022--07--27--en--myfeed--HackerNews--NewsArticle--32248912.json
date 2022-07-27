@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--myfeed--HackerNews--NewsArticle--32248912",
+  "url": "https://news.ycombinator.com/item?id=32248912",
+  "headline": "Headless ORM and batteries included ORM?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "What would be the difference? What features make ORM batteries included?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "alexblokh",
+    "url": "https://news.ycombinator.com/user?id=alexblokh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32248912",
+  "sameAs": "https://news.ycombinator.com/item?id=32248912",
+  "dateCreated": "2022-07-27T11:23:12.685Z",
+  "datePublished": "2022-07-27T10:52:11.000Z",
+  "dateModified": "2022-07-27T11:23:12.685Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 6
+    }
+  ],
+  "headline_zh-Hans": "无头ORM和含电池ORM？\n",
+  "headline_zh-Hant": "無頭ORM和含電池ORM？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "会有什么区别？哪些功能使ORM电池包括在内？\n",
+  "description_zh-Hant": "會有什麼區別？哪些功能使ORM電池包括在內？\n"
+}
