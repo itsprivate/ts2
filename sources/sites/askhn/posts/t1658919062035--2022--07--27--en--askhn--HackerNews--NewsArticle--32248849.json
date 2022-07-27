@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--askhn--HackerNews--NewsArticle--32248849",
+  "url": "https://news.ycombinator.com/item?id=32248849",
+  "headline": "Ask HN: CI/CD for Python flask app?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "For a web app and API project built with React, Flask, Swagger, MongoDB and Redis, what is the best practice in terms of deployment across stage and production instances? I'm working on this for my client and it's not really in my wheelhouse.<p>Very low users (5-10/day) for the API and the admin site is used by one or two people. More of a proof of concept or prototype at this stage. Currently using AWS and deploying with a lot of python and shell scripts which push builds to Fury (debian) and then deploy w Spot elastic groups. Would love to simplify it since we don't need production grade infrastructure (yet). Let's assume the main requirement is to continue using AWS.<p>Any recommendations? Seems like AWS Beanstalk handles everything - is that the way to go? Other options? TIA.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "fakeElonMusk",
+    "url": "https://news.ycombinator.com/user?id=fakeElonMusk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32248849",
+  "sameAs": "https://news.ycombinator.com/item?id=32248849",
+  "dateCreated": "2022-07-27T10:51:02.035Z",
+  "datePublished": "2022-07-27T10:43:29.000Z",
+  "dateModified": "2022-07-27T10:51:02.035Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为Python flask应用提供CI/CD？\n",
+  "headline_zh-Hant": "Ask HN: 為Python flask應用提供CI/CD？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "对于一个用React、Flask、Swagger、MongoDB和Redis构建的Web应用和API项目，在跨阶段和生产实例的部署方面，最佳做法是什么？<p>API的用户非常少（5-10人/天），管理网站只有一两个人在使用，我正在为我的客户做这件事，但这并不是我的工作范围。在这个阶段，更多的是一个概念证明或原型。目前使用AWS，并使用大量的python和shell脚本进行部署，将构建推送到Fury（debian），然后部署到Spot弹性组。由于我们不需要生产级别的基础设施（还没有），所以希望能简化它。我们假设主要要求是继续使用AWS。<p>有什么建议吗？似乎AWS Beanstalk可以处理所有的事情--这就是要走的路吗？其他选项呢？TIA。\n",
+  "description_zh-Hant": "對於一個用React、Flask、Swagger、MongoDB和Redis構建的Web應用和API項目，在跨階段和生產實例的部署方面，最佳做法是什麼？<p>API的用戶非常少（5-10人/天），管理網站只有一兩個人在使用，我正在為我的客戶做這件事，但這並不是我的工作範圍。在這個階段，更多的是一個概念證明或原型。目前使用AWS，並使用大量的python和shell腳本進行部署，將構建推送到Fury（debian），然後部署到Spot彈性組。由於我們不需要生產級別的基礎設施（還沒有），所以希望能簡化它。我們假設主要要求是繼續使用AWS。<p>有什麼建議嗎？似乎AWS Beanstalk可以處理所有的事情--這就是要走的路嗎？其他選項呢？TIA。\n"
+}
