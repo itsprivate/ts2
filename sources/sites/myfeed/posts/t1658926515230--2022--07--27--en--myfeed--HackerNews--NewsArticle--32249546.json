@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--27--en--myfeed--HackerNews--NewsArticle--32249546",
+  "url": "https://news.ycombinator.com/item?id=32249546",
+  "headline": "Build new things from your old Lego bricks",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "zuhayeer",
+    "url": "https://news.ycombinator.com/user?id=zuhayeer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32249546",
+  "sameAs": "https://brickit.app/",
+  "dateCreated": "2022-07-27T12:55:15.230Z",
+  "datePublished": "2022-07-27T12:17:14.000Z",
+  "dateModified": "2022-07-27T12:55:15.230Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "用你的旧乐高砖建造新东西\n",
+  "headline_zh-Hant": "用你的舊樂高磚建造新東西\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
