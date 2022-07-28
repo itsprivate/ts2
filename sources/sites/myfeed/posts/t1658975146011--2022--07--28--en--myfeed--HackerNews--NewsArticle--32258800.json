@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--28--en--myfeed--HackerNews--NewsArticle--32258800",
+  "url": "https://news.ycombinator.com/item?id=32258800",
+  "headline": "Pegasus spyware: Just 'tip of the iceberg' seen so far",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "samizdis",
+    "url": "https://news.ycombinator.com/user?id=samizdis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32258800",
+  "sameAs": "https://www.theregister.com/2022/07/27/us_congress_spyware_debate/",
+  "dateCreated": "2022-07-28T02:25:46.011Z",
+  "datePublished": "2022-07-28T00:08:06.000Z",
+  "dateModified": "2022-07-28T02:25:46.011Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Pegasus间谍软件。到目前为止看到的只是 \"冰山一角\n",
+  "headline_zh-Hant": "Pegasus間諜軟件。到目前為止看到的只是 \"冰山一角\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

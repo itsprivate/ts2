@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--28--en--myfeed--HackerNews--NewsArticle--32259760",
+  "url": "https://news.ycombinator.com/item?id=32259760",
+  "headline": "Strong quake kills at least 5, injures dozens in northern Philippines",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mardiyah",
+    "url": "https://news.ycombinator.com/user?id=mardiyah"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32259760",
+  "sameAs": "https://www.cnbc.com/2022/07/27/strong-quake-kills-at-least-5-injures-dozens-in-northern-philippines-.html",
+  "dateCreated": "2022-07-28T02:25:46.161Z",
+  "datePublished": "2022-07-28T02:19:19.000Z",
+  "dateModified": "2022-07-28T02:25:46.161Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "菲律宾北部强震造成至少5人死亡，数十人受伤\n",
+  "headline_zh-Hant": "菲律賓北部強震造成至少5人死亡，數十人受傷\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--28--en--myfeed--HackerNews--NewsArticle--32258325",
+  "url": "https://news.ycombinator.com/item?id=32258325",
+  "headline": "Search text from PDF files stored in an S3 bucket",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Beefin",
+    "url": "https://news.ycombinator.com/user?id=Beefin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32258325",
+  "sameAs": "https://medium.com/@mixpeek/search-text-from-pdf-files-stored-in-an-s3-bucket-2f10947eebd3",
+  "dateCreated": "2022-07-28T02:25:45.968Z",
+  "datePublished": "2022-07-27T23:16:35.000Z",
+  "dateModified": "2022-07-28T02:25:45.968Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "从存储在S3桶中的PDF文件中搜索文本\n",
+  "headline_zh-Hant": "從存儲在S3桶中的PDF文件中搜索文本\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

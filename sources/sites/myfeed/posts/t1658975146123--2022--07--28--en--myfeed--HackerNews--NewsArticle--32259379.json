@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--28--en--myfeed--HackerNews--NewsArticle--32259379",
+  "url": "https://news.ycombinator.com/item?id=32259379",
+  "headline": "Compressed Linear Algebra for Large-Scale Machine Learning [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "greghn",
+    "url": "https://news.ycombinator.com/user?id=greghn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32259379",
+  "sameAs": "https://www.vldb.org/pvldb/vol9/p960-elgohary.pdf",
+  "dateCreated": "2022-07-28T02:25:46.123Z",
+  "datePublished": "2022-07-28T01:28:54.000Z",
+  "dateModified": "2022-07-28T02:25:46.123Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用于大规模机器学习的压缩线性代数 [pdf]\n",
+  "headline_zh-Hant": "用於大規模機器學習的壓縮線性代數 [pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
