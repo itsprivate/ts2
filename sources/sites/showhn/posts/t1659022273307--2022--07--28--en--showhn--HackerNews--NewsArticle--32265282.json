@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--28--en--showhn--HackerNews--NewsArticle--32265282",
+  "url": "https://news.ycombinator.com/item?id=32265282",
+  "headline": "Show HN: Rimoto, control your computer with WebSockets",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Rimoto allows you to control your computer and show some stats from it like cpu &amp; ram usage with the help of websockets.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "not_foobar",
+    "url": "https://news.ycombinator.com/user?id=not_foobar"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32265282",
+  "sameAs": "https://github.com/vivekascoder/rimoto",
+  "dateCreated": "2022-07-28T15:31:13.307Z",
+  "datePublished": "2022-07-28T15:01:19.000Z",
+  "dateModified": "2022-07-28T15:31:13.307Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Rimoto，用WebSockets控制你的电脑\n",
+  "headline_zh-Hant": "Show HN: Rimoto，用WebSockets控制你的電腦\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Rimoto允许你控制你的电脑，并在websockets的帮助下显示一些统计信息，如cpu &amp; ram的使用。\n",
+  "description_zh-Hant": "Rimoto允許你控制你的電腦，並在websockets的幫助下顯示一些統計信息，如cpu &amp; ram的使用。\n"
+}
