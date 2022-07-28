@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--28--en--besthn--HackerNews--NewsArticle--32257412",
+  "url": "https://news.ycombinator.com/item?id=32257412",
+  "headline": "Everyone seems to forget why GNOME and GNOME 3 and Unity happened",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "JetSpiegel",
+    "url": "https://news.ycombinator.com/user?id=JetSpiegel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32257412",
+  "sameAs": "https://liam-on-linux.dreamwidth.org/85359.html",
+  "dateCreated": "2022-07-28T02:25:45.065Z",
+  "datePublished": "2022-07-27T21:43:35.000Z",
+  "dateModified": "2022-07-28T02:25:45.065Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 233
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 182
+    }
+  ],
+  "headline_zh-Hans": "大家似乎都忘记了GNOME和GNOME 3以及Unity发生的原因\n",
+  "headline_zh-Hant": "大家似乎都忘記了GNOME和GNOME 3以及Unity發生的原因\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
