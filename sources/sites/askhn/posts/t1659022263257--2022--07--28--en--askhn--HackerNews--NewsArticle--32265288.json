@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--28--en--askhn--HackerNews--NewsArticle--32265288",
+  "url": "https://news.ycombinator.com/item?id=32265288",
+  "headline": "Ask HN: How to monitor a sea fiber cable?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Recently there was a news[0] about how a national intelligence agency tried to monitor data transmitted via a sea fiber optic cable called SAFE[1] on a foreign country.<p>Keeping aside the politics, is it feasible to monitor and sniff data out the sea fiber directly?<p>Wikipedia says the cable transmits data at 440Gb/s. So I'm assuming they cannot store a large portion of the data for future analysis.\nFurther, since this was carried in a foreign country, they might not have access to a data center, nor they can transmit it back to the home country (it would need bandwidth of another sea cable). And lastly, I'm guessing most of the traffic must be encrypted.<p>So how are they doing it? If the news is incorrect, it is even possible to do it for anyone with &quot;a device&quot; that be taken to a foreign country in a plane?<p>0: https://www.msn.com/en-in/news/other/mauritius-snooping-scandal-%E2%80%94-the-moustache-man-from-india-in-the-centre-of-the-storm/ar-AAZVzrB<p>1: https://en.wikipedia.org/wiki/SAFE_(cable_system)",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "anuragpeshne",
+    "url": "https://news.ycombinator.com/user?id=anuragpeshne"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32265288",
+  "sameAs": "https://news.ycombinator.com/item?id=32265288",
+  "dateCreated": "2022-07-28T15:31:03.257Z",
+  "datePublished": "2022-07-28T15:01:45.000Z",
+  "dateModified": "2022-07-28T15:31:03.257Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何监测海上光缆？\n",
+  "headline_zh-Hant": "Ask HN: 如何監測海上光纜？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "最近有一则新闻[0]，关于一个国家情报机构如何试图监控通过一条名为SAFE[1]的海上光缆传输的数据在外国的情况。<p>撇开政治不谈，直接监控和嗅探海上光缆的数据是否可行？<p>百科上说这条光缆传输数据的速度为440Gb/s。所以我假设他们不可能储存很大一部分数据供将来分析。\n此外，由于这是在外国进行的，他们可能无法进入数据中心，也无法将其传送回本国（这需要另一条海缆的带宽）。最后，我猜测大部分的流量必须是加密的。<p>那么他们是如何做到的呢？如果新闻是错误的，甚至有可能对任何拥有&quot;设备&quot;的人来说，用飞机带到外国去？<p>0：https://www.msn.com/en-in/news/other/mauritius-snooping-scandal-%E2%80%94-the-moustache-man-from-india-in-the-centre-of-the-storm/ar-AAZVzrB<p>1：https://en.wikipedia.org/wiki/SAFE_(cable_system)\n",
+  "description_zh-Hant": "最近有一則新聞[0]，關於一個國家情報機構如何試圖監控通過一條名為SAFE[1]的海上光纜傳輸的數據在外國的情況。<p>撇開政治不談，直接監控和嗅探海上光纜的數據是否可行？<p>百科上說這條光纜傳輸數據的速度為440Gb/s。所以我假設他們不可能儲存很大一部分數據供將來分析。\n此外，由於這是在外國進行的，他們可能無法進入數據中心，也無法將其傳送回本國（這需要另一條海纜的帶寬）。最後，我猜測大部分的流量必須是加密的。<p>那麼他們是如何做到的呢？如果新聞是錯誤的，甚至有可能對任何擁有&quot;設備&quot;的人來說，用飛機帶到外國去？<p>0：https://www.msn.com/en-in/news/other/mauritius-snooping-scandal-%E2%80%94-the-moustache-man-from-india-in-the-centre-of-the-storm/ar-AAZVzrB<p>1：https://en.wikipedia.org/wiki/SAFE_(cable_system)\n"
+}
