@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--28--en--myfeed--HackerNews--NewsArticle--32260738",
+  "url": "https://news.ycombinator.com/item?id=32260738",
+  "headline": "Why using cowboy in a DALL-E prompt produces completely mismatching image",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "matkoniecz",
+    "url": "https://news.ycombinator.com/user?id=matkoniecz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32260738",
+  "sameAs": "https://old.reddit.com/r/dalle2/comments/w7qvgl/how_cowboy_and_cat_wearing_white_jeans_on_a_farm/",
+  "dateCreated": "2022-07-28T05:33:24.314Z",
+  "datePublished": "2022-07-28T05:19:26.000Z",
+  "dateModified": "2022-07-28T05:33:24.314Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "为什么在DALL-E的提示中使用牛仔会产生完全不匹配的形象\n",
+  "headline_zh-Hant": "為什麼在DALL-E的提示中使用牛仔會產生完全不匹配的形象\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
