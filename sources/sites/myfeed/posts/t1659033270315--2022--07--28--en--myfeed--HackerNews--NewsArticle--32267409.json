@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--28--en--myfeed--HackerNews--NewsArticle--32267409",
+  "url": "https://news.ycombinator.com/item?id=32267409",
+  "headline": "Grap: A Language for Typesetting Graphs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "privong",
+    "url": "https://news.ycombinator.com/user?id=privong"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32267409",
+  "sameAs": "https://www.lunabase.org/~faber/Vault/software/grap/",
+  "dateCreated": "2022-07-28T18:34:30.315Z",
+  "datePublished": "2022-07-28T17:18:35.000Z",
+  "dateModified": "2022-07-28T18:34:30.315Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Grap: 一种用于排版图形的语言\n",
+  "headline_zh-Hant": "Grap: 一種用於排版圖形的語言\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
