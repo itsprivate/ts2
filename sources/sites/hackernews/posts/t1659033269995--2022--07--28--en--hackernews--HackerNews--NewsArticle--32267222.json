@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--28--en--hackernews--HackerNews--NewsArticle--32267222",
+  "url": "https://news.ycombinator.com/item?id=32267222",
+  "headline": "AWS us-east-2 outage",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "our alerts just went crazy, and we're having issues even logging in to the AWS dashboard<p>possibly related: https://news.ycombinator.com/item?id=32267154",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jchen42",
+    "url": "https://news.ycombinator.com/user?id=jchen42"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32267222",
+  "sameAs": "https://news.ycombinator.com/item?id=32267222",
+  "dateCreated": "2022-07-28T18:34:29.995Z",
+  "datePublished": "2022-07-28T17:09:05.000Z",
+  "dateModified": "2022-07-28T18:34:29.995Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 153
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 48
+    }
+  ],
+  "headline_zh-Hans": "AWS US-EAST-2中断\n",
+  "headline_zh-Hant": "AWS US-EAST-2中斷\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们的警报刚刚变得疯狂，而且我们甚至在登录AWS仪表板时都有问题<p>可能与此有关：https://news.ycombinator.com/item?id=32267154\n",
+  "description_zh-Hant": "我們的警報剛剛變得瘋狂，而且我們甚至在登錄AWS儀表板時都有問題<p>可能與此有關：https://news.ycombinator.com/item?id=32267154\n"
+}

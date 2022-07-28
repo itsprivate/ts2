@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--28--en--myfeed--HackerNews--NewsArticle--32267248",
+  "url": "https://news.ycombinator.com/item?id=32267248",
+  "headline": "Flower 1.0",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tanto",
+    "url": "https://news.ycombinator.com/user?id=tanto"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32267248",
+  "sameAs": "https://flower.dev/blog/2022-07-28-announcing-flower-1.0",
+  "dateCreated": "2022-07-28T18:34:30.276Z",
+  "datePublished": "2022-07-28T17:10:07.000Z",
+  "dateModified": "2022-07-28T18:34:30.276Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "鲜花1.0\n",
+  "headline_zh-Hant": "鮮花1.0\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

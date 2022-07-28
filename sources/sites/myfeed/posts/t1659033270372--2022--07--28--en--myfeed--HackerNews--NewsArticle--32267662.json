@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--28--en--myfeed--HackerNews--NewsArticle--32267662",
+  "url": "https://news.ycombinator.com/item?id=32267662",
+  "headline": "What happened to PCWorld’s YouTube channel?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kmfrk",
+    "url": "https://news.ycombinator.com/user?id=kmfrk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32267662",
+  "sameAs": "https://www.pcworld.com/article/822871/what-happened-to-pcworlds-youtube-channel.html",
+  "dateCreated": "2022-07-28T18:34:30.372Z",
+  "datePublished": "2022-07-28T17:34:54.000Z",
+  "dateModified": "2022-07-28T18:34:30.372Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "PCWorld的YouTube频道发生了什么？\n",
+  "headline_zh-Hant": "PCWorld的YouTube頻道發生了什麼？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
