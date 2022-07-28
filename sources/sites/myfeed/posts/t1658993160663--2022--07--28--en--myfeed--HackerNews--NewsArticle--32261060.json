@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--28--en--myfeed--HackerNews--NewsArticle--32261060",
+  "url": "https://news.ycombinator.com/item?id=32261060",
+  "headline": "UK climate continues to change in 2021 [Met Office annual report, pub. 28/7/22]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "samizdis",
+    "url": "https://news.ycombinator.com/user?id=samizdis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32261060",
+  "sameAs": "https://www.metoffice.gov.uk/about-us/press-office/news/weather-and-climate/2022/uk-climate-continues-to-change-in-2021",
+  "dateCreated": "2022-07-28T07:26:00.663Z",
+  "datePublished": "2022-07-28T06:26:17.000Z",
+  "dateModified": "2022-07-28T07:26:00.663Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "英国气候在2021年继续变化 [气象局年度报告，发表于28/7/22]\n",
+  "headline_zh-Hant": "英國氣候在2021年繼續變化 [氣象局年度報告，發表於28/7/22]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
