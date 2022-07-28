@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--28--en--myfeed--HackerNews--NewsArticle--32264600",
+  "url": "https://news.ycombinator.com/item?id=32264600",
+  "headline": "Code Snitching: Nashvillians Are Weaponizing Metro Codes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "JamesCoyne",
+    "url": "https://news.ycombinator.com/user?id=JamesCoyne"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32264600",
+  "sameAs": "https://www.nashvillescene.com/news/coverstory/code-snitching-nashvillians-are-weaponizing-metro-codes-against-undesirable-neighbors/article_5e94bd56-0c67-11ed-af4e-e3d04ad7e500.html",
+  "dateCreated": "2022-07-28T14:28:30.124Z",
+  "datePublished": "2022-07-28T14:15:59.000Z",
+  "dateModified": "2022-07-28T14:28:30.124Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "代码告密：纳什维利人正在将地铁代码武器化\n",
+  "headline_zh-Hant": "代碼告密：納什維利人正在將地鐵代碼武器化\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
