@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--28--en--hackernews--HackerNews--NewsArticle--32261868",
+  "url": "https://news.ycombinator.com/item?id=32261868",
+  "headline": "TIFU by using Stripe as a payment processor for my small business",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ahiknsr",
+    "url": "https://news.ycombinator.com/user?id=ahiknsr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32261868",
+  "sameAs": "https://old.reddit.com/r/tifu/comments/wa230m/tifu_by_using_stripe_as_a_payment_processor_for/",
+  "dateCreated": "2022-07-28T10:56:40.743Z",
+  "datePublished": "2022-07-28T08:50:39.000Z",
+  "dateModified": "2022-07-28T10:56:40.743Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 37
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "通过使用Stripe作为我的小企业的支付处理器来实现TIFU。\n",
+  "headline_zh-Hant": "通過使用Stripe作為我的小企業的支付處理器來實現TIFU。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
