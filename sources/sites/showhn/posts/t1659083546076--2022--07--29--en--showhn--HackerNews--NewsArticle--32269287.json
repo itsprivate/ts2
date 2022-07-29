@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--07--27--en--myfeed--HackerNews--NewsArticle--32245743",
-  "url": "https://news.ycombinator.com/item?id=32245743",
-  "headline": "San Diego Street Videos from the 1970s",
+  "identifier": "2022--07--29--en--showhn--HackerNews--NewsArticle--32269287",
+  "url": "https://news.ycombinator.com/item?id=32269287",
+  "headline": "Show HN: Distributed SQLite on FoundationDB",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "ecliptik",
-    "url": "https://news.ycombinator.com/user?id=ecliptik"
+    "name": "losfair",
+    "url": "https://news.ycombinator.com/user?id=losfair"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32245743",
-  "sameAs": "https://www.sandiego.gov/digitalarchives/film-audio/street-videos",
-  "dateCreated": "2022-07-27T02:34:56.329Z",
-  "datePublished": "2022-07-27T00:41:18.000Z",
-  "dateModified": "2022-07-27T02:34:56.329Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32269287",
+  "sameAs": "https://github.com/losfair/mvsqlite",
+  "dateCreated": "2022-07-29T08:32:26.076Z",
+  "datePublished": "2022-07-28T19:49:05.000Z",
+  "dateModified": "2022-07-29T08:32:26.076Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 4
+      "userInteractionCount": 10
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "圣地亚哥1970年代的街头录像\n",
-  "headline_zh-Hant": "聖地亞哥1970年代的街頭錄像\n",
+  "headline_zh-Hans": "Show HN: FoundationDB上的分布式SQLite\n",
+  "headline_zh-Hant": "Show HN: FoundationDB上的分佈式SQLite\n",
   "@context": [
     "https://schema.org",
     {
