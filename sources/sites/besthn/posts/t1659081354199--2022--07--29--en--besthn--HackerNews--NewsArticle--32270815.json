@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--29--en--besthn--HackerNews--NewsArticle--32270815",
+  "url": "https://news.ycombinator.com/item?id=32270815",
+  "headline": "The Best iPhone",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rpgbr",
+    "url": "https://news.ycombinator.com/user?id=rpgbr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32270815",
+  "sameAs": "https://notes.ghed.in/posts/the-best-iphone/",
+  "dateCreated": "2022-07-29T07:55:54.199Z",
+  "datePublished": "2022-07-28T22:27:50.000Z",
+  "dateModified": "2022-07-29T07:55:54.199Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 390
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 308
+    }
+  ],
+  "headline_zh-Hans": "最佳苹果手机\n",
+  "headline_zh-Hant": "最佳蘋果手機\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

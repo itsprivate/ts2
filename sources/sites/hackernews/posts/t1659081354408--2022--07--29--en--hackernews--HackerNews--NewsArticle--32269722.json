@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--29--en--hackernews--HackerNews--NewsArticle--32269722",
+  "url": "https://news.ycombinator.com/item?id=32269722",
+  "headline": "Show HN: TensorDock Core GPU Cloud – GPU servers from $0.29/hr",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello HN!<p>I’m Jonathan from TensorDock. After 7 months in beta, we’re finally launching Core Cloud, our platform to deploy GPU virtual machines in as little as 45 seconds!  <a href=\"https://www.tensordock.com/product-core\" rel=\"nofollow\">https://www.tensordock.com/product-core</a><p>Why? \nTraining machine learning workloads at large clouds can be extremely expensive. This left us wondering, “how did cloud ever become more expensive than on-prem?” I’ve seen too many ML startups buy their own hardware. Cheaper dedicated servers with NVIDIA GPUs are not too hard to find, but they lack the functionality and scalability of the big clouds.<p>We thought to ourselves, what if we built a platform that combines the functionality of the large clouds but made it priced somewhere between a dedicated server and the large clouds? That’s exactly what we’ve done.<p>Built to make engineers more productive. We have 3 machine learning images so you can start training ML models in 2 minutes, not 2 hours. We provide a REST API, so you can integrate directly your code with ours. And, there’s a community CLI you can use to manage your servers directly via command line<p>We provide a feature set only large clouds supersede. We have storage-only billing when the VM is stopped (for only $0.073/GB/month) so that you aren't paying for compute when you don't need it. We also provide the ability to edit virtual machines after they’re created to downsize costs. If you provision a NVIDIA A6000 and find out you’re only using 50% of it, stop the VM, modify it to a NVIDIA A5000, and you’ll be billed the lower hourly rate without needing to recreate your server and migrate data over! Our infrastructure is built on 3x-replicated NVMe-based network storage, 10 Gbps networking, and 3 locations (New York, Chicago, Las Vegas) with more coming soon!<p><pre><code>  - CPU-only servers from $0.027/hour\n  - NVIDIA Quadro RTX 4000s from $0.29/hour\n  - NVIDIA Tesla V100s from $0.52/hour\n  - and 8 other GPU types that let you truly right-size workloads so that you’re never paying for more than you actually need\n\n</code></pre>\nWe're starting off with $1 in free credits! Yes, we sound cheap… but $1 is all you need to get started with us! That’s more than 3 hours of compute time on our cheapest configuration! Use code HACKERNEWS_1 on the billing page to redeem this free credit :)<p>TensorDock: <a href=\"https://www.tensordock.com/\" rel=\"nofollow\">https://www.tensordock.com/</a>\nProduct page: <a href=\"https://www.tensordock.com/product-core\" rel=\"nofollow\">https://www.tensordock.com/product-core</a>\nAPI: <a href=\"https://documenter.getpostman.com/view/10732984/UVC3j7Kz\" rel=\"nofollow\">https://documenter.getpostman.com/view/10732984/UVC3j7Kz</a>\nCommunity CLI: <a href=\"https://github.com/caguiclajmg/tensordock-cli\" rel=\"nofollow\">https://github.com/caguiclajmg/tensordock-cli</a><p>Deploy a GPU: <a href=\"https://console.tensordock.com/deploy\" rel=\"nofollow\">https://console.tensordock.com/deploy</a><p>I'm here to answer your questions, so post them below! Or, email me directly at jonathan@tensordock.com :)",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jonathanlei",
+    "url": "https://news.ycombinator.com/user?id=jonathanlei"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32269722",
+  "sameAs": "https://www.tensordock.com/product-core",
+  "dateCreated": "2022-07-29T07:55:54.408Z",
+  "datePublished": "2022-07-28T20:28:47.000Z",
+  "dateModified": "2022-07-29T07:55:54.408Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 101
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 34
+    }
+  ],
+  "headline_zh-Hans": "Show HN: TensorDock核心GPU云 - GPU服务器0.29美元/小时起\n",
+  "headline_zh-Hant": "Show HN: TensorDock核心GPU雲 - GPU服務器0.29美元/小時起\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hello HN!<p>I’m Jonathan from TensorDock. After 7 months in beta, we’re finally launching Core Cloud, our platform to deploy GPU virtual machines in as little as 45 seconds!  <a href=\"https://www.tensordock.com/product-core\" rel=\"nofollow\">https://www.tensordock.com/product-core</a><p>Why? \nTraining machine learning workloads at large clouds can be extremely expensive. This left us wondering, “how did cloud ever become more expensive than on-prem?” I’ve seen too many ML startups buy their own hardware. Cheaper dedicated servers with NVIDIA GPUs are not too hard to find, but they lack the functionality and scalability of the big clouds.<p>We thought to ourselves, what if we built a platform that combines the functionality of the large clouds but made it priced somewhere between a dedicated server and the large clouds? That’s exactly what we’ve done.<p>Built to make engineers more productive. We have 3 machine learning images so you can start training ML models in 2 minutes, not 2 hours. We provide a REST API, so you can integrate directly your code with ours. And, there’s a community CLI you can use to manage your servers directly via command line<p>We provide a feature set only large clouds supersede. We have storage-only billing when the VM is stopped (for only $0.073/GB/month) so that you aren't paying for compute when you don't need it. We also provide the ability to edit virtual machines after they’re created to downsize costs. If you provision a NVIDIA A6000 and find out you’re only using 50% of it, stop the VM, modify it to a NVIDIA A5000, and you’ll be billed the lower hourly rate without needing to recreate your server and migrate data over! Our infrastructure is built on 3x-replicated NVMe-based network storage, 10 Gbps networking, and 3 locations (New York, Chicago, Las Vegas) with more coming soon!<p><pre><code> - CPU-only servers from $0.027/hour\n  - NVIDIA Quadro RTX 4000s from $0.29/hour\n  - NVIDIA Tesla V100s from $0.52/hour\n  - and 8 other GPU types that let you truly right-size workloads so that you’re never paying for more than you actually need\n\n</code></pre>\nWe're starting off with $1 in free credits! Yes, we sound cheap… but $1 is all you need to get started with us! That’s more than 3 hours of compute time on our cheapest configuration! Use code HACKERNEWS_1 on the billing page to redeem this free credit :)<p>TensorDock: <a href=\"https://www.tensordock.com/\" rel=\"nofollow\">https://www.tensordock.com/</a>\nProduct page: <a href=\"https://www.tensordock.com/product-core\" rel=\"nofollow\">https://www.tensordock.com/product-core</a>\nAPI: <a href=\"https://documenter.getpostman.com/view/10732984/UVC3j7Kz\" rel=\"nofollow\">https://documenter.getpostman.com/view/10732984/UVC3j7Kz</a>\nCommunity CLI: <a href=\"https://github.com/caguiclajmg/tensordock-cli\" rel=\"nofollow\">https://github.com/caguiclajmg/tensordock-cli</a><p>Deploy a GPU: <a href=\"https://console.tensordock.com/deploy\" rel=\"nofollow\">https://console.tensordock.com/deploy</a><p>I'm here to answer your questions, so post them below! Or, email me directly at jonathan@tensordock.com :)\n",
+  "description_zh-Hant": "Hello HN!<p>I’m Jonathan from TensorDock. After 7 months in beta, we’re finally launching Core Cloud, our platform to deploy GPU virtual machines in as little as 45 seconds!  <a href=\"https://www.tensordock.com/product-core\" rel=\"nofollow\">https://www.tensordock.com/product-core</a><p>Why? \nTraining machine learning workloads at large clouds can be extremely expensive. This left us wondering, “how did cloud ever become more expensive than on-prem?” I’ve seen too many ML startups buy their own hardware. Cheaper dedicated servers with NVIDIA GPUs are not too hard to find, but they lack the functionality and scalability of the big clouds.<p>We thought to ourselves, what if we built a platform that combines the functionality of the large clouds but made it priced somewhere between a dedicated server and the large clouds? That’s exactly what we’ve done.<p>Built to make engineers more productive. We have 3 machine learning images so you can start training ML models in 2 minutes, not 2 hours. We provide a REST API, so you can integrate directly your code with ours. And, there’s a community CLI you can use to manage your servers directly via command line<p>We provide a feature set only large clouds supersede. We have storage-only billing when the VM is stopped (for only $0.073/GB/month) so that you aren't paying for compute when you don't need it. We also provide the ability to edit virtual machines after they’re created to downsize costs. If you provision a NVIDIA A6000 and find out you’re only using 50% of it, stop the VM, modify it to a NVIDIA A5000, and you’ll be billed the lower hourly rate without needing to recreate your server and migrate data over! Our infrastructure is built on 3x-replicated NVMe-based network storage, 10 Gbps networking, and 3 locations (New York, Chicago, Las Vegas) with more coming soon!<p><pre><code> - CPU-only servers from $0.027/hour\n  - NVIDIA Quadro RTX 4000s from $0.29/hour\n  - NVIDIA Tesla V100s from $0.52/hour\n  - and 8 other GPU types that let you truly right-size workloads so that you’re never paying for more than you actually need\n\n</code></pre>\nWe're starting off with $1 in free credits! Yes, we sound cheap… but $1 is all you need to get started with us! That’s more than 3 hours of compute time on our cheapest configuration! Use code HACKERNEWS_1 on the billing page to redeem this free credit :)<p>TensorDock: <a href=\"https://www.tensordock.com/\" rel=\"nofollow\">https://www.tensordock.com/</a>\nProduct page: <a href=\"https://www.tensordock.com/product-core\" rel=\"nofollow\">https://www.tensordock.com/product-core</a>\nAPI: <a href=\"https://documenter.getpostman.com/view/10732984/UVC3j7Kz\" rel=\"nofollow\">https://documenter.getpostman.com/view/10732984/UVC3j7Kz</a>\nCommunity CLI: <a href=\"https://github.com/caguiclajmg/tensordock-cli\" rel=\"nofollow\">https://github.com/caguiclajmg/tensordock-cli</a><p>Deploy a GPU: <a href=\"https://console.tensordock.com/deploy\" rel=\"nofollow\">https://console.tensordock.com/deploy</a><p>I'm here to answer your questions, so post them below! Or, email me directly at jonathan@tensordock.com :)\n"
+}
