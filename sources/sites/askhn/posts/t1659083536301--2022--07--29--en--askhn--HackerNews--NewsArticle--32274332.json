@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--29--en--askhn--HackerNews--NewsArticle--32274332",
+  "url": "https://news.ycombinator.com/item?id=32274332",
+  "headline": "Ask HN: What do you want others to work on?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi all,<p>I am curious what you all think other people should work on? Either you don't have the time to work on yourself or other reasons. Perhaps it's not your area of expertise and you want someone else to fix it.<p>What do you want open source projects to support? What's your wants?<p>I'll tell you what I want.<p>I want complicated open source software that everyone depends on to be better documented. I spend random hours here and there digging into open source projects such as the Linux kernel, Nginx, Postgresql and haproxy but I cannot say I understand them fully. I need to do some documenting or articles on how they work.<p>I want LuaJIT to be documented enough so that someone could implement their own JIT tracing compiler by reading the documentation.<p>I strongly recommend the Rpython documentation. It's very good but I think it could be even more detailed.<p>I want a true scale to zero cloud infrastructure that is similar to Serverless but also scales to black Friday or Google levels of traffic. And has scalable data layer similar to Instagram or Twitter's gizzard. I want scaling plan function that turns money into scalbility.<p>I am curious what the HN community desires are. Not necessarily your problems but I am sure there is some overlap.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "samsquire",
+    "url": "https://news.ycombinator.com/user?id=samsquire"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32274332",
+  "sameAs": "https://news.ycombinator.com/item?id=32274332",
+  "dateCreated": "2022-07-29T08:32:16.301Z",
+  "datePublished": "2022-07-29T08:16:50.000Z",
+  "dateModified": "2022-07-29T08:32:16.301Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你希望别人在什么方面下功夫？\n",
+  "headline_zh-Hant": "Ask HN: 你希望別人在什麼方面下功夫？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家好，<p>我很好奇你们都认为其他人应该在什么方面下功夫？要么是你自己没有时间去做，要么是其他原因。也许这不是你的专业领域，你希望别人来解决它。<p>你希望开源项目支持什么？你想要什么？<p>我会告诉你我想要什么。<p>我希望每个人都依赖的复杂的开源软件能有更好的文档。我在这里和那里随机花了几个小时来研究开源项目，如Linux内核、Nginx、Postgresql和haproxy，但我不能说我完全理解它们。我需要做一些关于它们如何工作的文档或文章。<p>我希望LuaJIT有足够的文档，以便有人可以通过阅读文档实现自己的JIT跟踪编译器。<p>我强烈推荐Rpython文档。<p>我希望有一个真正的扩展到零的云基础设施，它类似于Serverless，但也可以扩展到黑色星期五或谷歌的流量水平。并且拥有类似于Instagram或Twitter的gizzard的可扩展数据层。我希望扩展计划的功能能把钱变成可扩展性。<p>我很好奇HN社区的愿望是什么。不一定是你的问题，但我相信会有一些重叠。\n",
+  "description_zh-Hant": "大家好，<p>我很好奇你們都認為其他人應該在什麼方面下功夫？要麼是你自己沒有時間去做，要麼是其他原因。也許這不是你的專業領域，你希望別人來解決它。<p>你希望開源項目支持什麼？你想要什麼？<p>我會告訴你我想要什麼。<p>我希望每個人都依賴的複雜的開源軟件能有更好的文檔。我在這裡和那裡隨機花了幾個小時來研究開源項目，如Linux內核、Nginx、Postgresql和haproxy，但我不能說我完全理解它們。我需要做一些關於它們如何工作的文檔或文章。<p>我希望LuaJIT有足夠的文檔，以便有人可以通過閱讀文檔實現自己的JIT跟蹤編譯器。<p>我強烈推薦Rpython文檔。<p>我希望有一個真正的擴展到零的雲基礎設施，它類似於Serverless，但也可以擴展到黑色星期五或谷歌的流量水平。並且擁有類似於Instagram或Twitter的gizzard的可擴展數據層。我希望擴展計劃的功能能把錢變成可擴展性。<p>我很好奇HN社區的願望是什麼。不一定是你的問題，但我相信會有一些重疊。\n"
+}
