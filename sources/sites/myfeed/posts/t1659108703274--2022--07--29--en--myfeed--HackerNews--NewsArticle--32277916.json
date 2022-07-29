@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--29--en--myfeed--HackerNews--NewsArticle--32277916",
+  "url": "https://news.ycombinator.com/item?id=32277916",
+  "headline": "p8g 0.5.0 – 2D graphics library for C, C++ and Java",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bernhardfritz",
+    "url": "https://news.ycombinator.com/user?id=bernhardfritz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32277916",
+  "sameAs": "https://bernhardfritz.github.io/p8g/",
+  "dateCreated": "2022-07-29T15:31:43.274Z",
+  "datePublished": "2022-07-29T15:08:04.000Z",
+  "dateModified": "2022-07-29T15:31:43.274Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "p8g 0.5.0 - 用于C、C++和Java的2D图形库\n",
+  "headline_zh-Hant": "p8g 0.5.0 - 用於C、C++和Java的2D圖形庫\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
