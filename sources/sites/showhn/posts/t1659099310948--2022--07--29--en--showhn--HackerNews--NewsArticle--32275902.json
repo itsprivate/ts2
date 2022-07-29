@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--07--27--en--myfeed--HackerNews--NewsArticle--32247588",
-  "url": "https://news.ycombinator.com/item?id=32247588",
-  "headline": "Hetzner offering bare metal Ampere Altra servers",
+  "identifier": "2022--07--29--en--showhn--HackerNews--NewsArticle--32275902",
+  "url": "https://news.ycombinator.com/item?id=32275902",
+  "headline": "Show HN: A simple, pretty alternative to strace written in Rust",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "velmu",
-    "url": "https://news.ycombinator.com/user?id=velmu"
+    "name": "JAKWAI",
+    "url": "https://news.ycombinator.com/user?id=JAKWAI"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32247588",
-  "sameAs": "https://www.hetzner.com/dedicated-rootserver/matrix-rx",
-  "dateCreated": "2022-07-27T07:45:34.610Z",
-  "datePublished": "2022-07-27T06:53:05.000Z",
-  "dateModified": "2022-07-27T07:45:34.610Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32275902",
+  "sameAs": "https://github.com/JakWai01/lurk",
+  "dateCreated": "2022-07-29T12:55:10.948Z",
+  "datePublished": "2022-07-29T12:09:52.000Z",
+  "dateModified": "2022-07-29T12:55:10.948Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 4
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 3
     }
   ],
-  "headline_zh-Hans": "Hetzner提供裸机Ampere Altra服务器\n",
-  "headline_zh-Hant": "Hetzner提供裸機Ampere Altra服務器\n",
+  "headline_zh-Hans": "Show HN: 用Rust编写的一个简单、漂亮的strace替代品\n",
+  "headline_zh-Hant": "Show HN: 用Rust編寫的一個簡單、漂亮的strace替代品\n",
   "@context": [
     "https://schema.org",
     {
