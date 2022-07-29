@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--29--en--askhn--HackerNews--NewsArticle--32274919",
+  "url": "https://news.ycombinator.com/item?id=32274919",
+  "headline": "Ask HN: A technical write-up of the original QuickDraw region algorithms?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "So this is maybe more of a rant than a question, but I just spent almost an hour trying and failing to find a blog that I read a few years ago. It had multiple articles explaining how Bill Atkinson's famous QuickDraw regions worked (maybe also including how he did the roundrect thing), and how they allowed for fast graphics on early Apple machines.<p>It's not any of these links [0][1][2][3][4][5], although admittedly they probably already got me 80% of the way of what there is to understand about regions. And I know the original source code has been released[6], but since I can't read 68K assembly that's not going to help me unless I turn this into a long-term project.<p>I'm honestly a bit surprised by this. Plenty of articles gushing about how important these algorithms were to the success of Apple and why they were patented, lots of PDFs of original manuals, old forum discussions on the expiration of patents, but no detailed articles that try to give a detailed explanation of how it all worked? It kind of feels like preserving history by saving the marketing but not the product itself.<p>So my slightly upset rant aside, I'm kind of hoping that I'm just unlucky with search engines getting worse at finding these type of technical articles with a niche audience. Does anyone remember the blog posts I was talking about and happen to have them bookmarked?<p>[0] https://www.folklore.org/StoryView.py?project=Macintosh&amp;story=I_Still_Remember_Regions.txt<p>[1] https://www.folklore.org/StoryView.py?story=Round_Rects_Are_Everywhere.txt<p>[1] http://basalgangster.macgui.com/RetroMacComputing/The_Long_View/Entries/2010/8/29_Regions.html<p>[3] https://www.info-mac.org/viewtopic.php?t=17328<p>[4] http://wg20.criticalcodestudies.com/index.php?p=/discussion/80/code-critique-roundrects-apple-quickdraw-source-code<p>[5] http://www.verycomputer.com/275_4a6b5f879a8d4eab_1.htm<p>[6] www.computerhistory.org/highlights/macpaint/",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "vanderZwan",
+    "url": "https://news.ycombinator.com/user?id=vanderZwan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32274919",
+  "sameAs": "https://news.ycombinator.com/item?id=32274919",
+  "dateCreated": "2022-07-29T09:59:35.095Z",
+  "datePublished": "2022-07-29T09:46:53.000Z",
+  "dateModified": "2022-07-29T09:59:35.095Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 原始QuickDraw区域算法的技术写法？\n",
+  "headline_zh-Hant": "Ask HN: 原始QuickDraw區域算法的技術寫法？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "因此，这也许更像是一种咆哮，而不是一个问题，但我刚刚花了近一个小时试图找到我几年前读过的一个博客，但没有成功。它有多篇文章解释了比尔-阿特金森著名的QuickDraw区域是如何工作的（也许还包括他是如何做到圆整的），以及它们是如何在早期的苹果机器上实现快速绘图的。<p>这不是这些链接中的任何一个[0][1][2][3][4][5]，尽管承认它们可能已经让我了解了关于区域的80%的内容。我知道原始的源代码已经发布了[6]，但由于我不能读懂68K汇编，除非我把这变成一个长期的项目，否则这对我没有帮助。很多文章都在大肆宣扬这些算法对苹果的成功有多么重要，以及为什么要申请专利，还有很多原始手册的 PDF 文件，以及关于专利到期的旧论坛讨论，但却没有详细的文章试图详细解释这一切是如何运作的？这有点像通过保存营销而不是产品本身来保存历史。<p>因此，撇开我那略显不安的咆哮，我有点希望我只是运气不好，搜索引擎在寻找这类具有小众受众的技术文章方面越来越差。有谁记得我说的那些博客文章，并恰好把它们放在书签上？<p>[0] https://www.folklore.org/StoryView.py?project=Macintosh&amp;story=I_Still_Remember_Regions.txt<p>[1] https://www.folklore.org/StoryView.py?story=Round_Rects_Are_Everywhere.txt<p>[1] http://basalgangster.macgui.com/RetroMacComputing/The_Long_View/Entries/2010/8/29_Regions.html<p>[3] https://www.info-mac.org/viewtopic.php?t=17328<p>[4] http://wg20.criticalcodestudies.com/index.php?p=/discussion/80/code-critique-roundrects-apple-quickdraw-source-code<p>[5] http://www.verycomputer.com/275_4a6b5f879a8d4eab_1.htm<p>[6] www.computerhistory.org/highlights/macpaint/\n",
+  "description_zh-Hant": "因此，這也許更像是一種咆哮，而不是一個問題，但我剛剛花了近一個小時試圖找到我幾年前讀過的一個博客，但沒有成功。它有多篇文章解釋了比爾-阿特金森著名的QuickDraw區域是如何工作的（也許還包括他是如何做到圓整的），以及它們是如何在早期的蘋果機器上實現快速繪圖的。<p>這不是這些鏈接中的任何一個[0][1][2][3][4][5]，儘管承認它們可能已經讓我瞭解了關於區域的80%的內容。我知道原始的源代碼已經發布了[6]，但由於我不能讀懂68K彙編，除非我把這變成一個長期的項目，否則這對我沒有幫助。很多文章都在大肆宣揚這些算法對蘋果的成功有多麼重要，以及為什麼要申請專利，還有很多原始手冊的 PDF 文件，以及關於專利到期的舊論壇討論，但卻沒有詳細的文章試圖詳細解釋這一切是如何運作的？這有點像通過保存營銷而不是產品本身來保存歷史。<p>因此，撇開我那略顯不安的咆哮，我有點希望我只是運氣不好，搜索引擎在尋找這類具有小眾受眾的技術文章方面越來越差。有誰記得我說的那些博客文章，並恰好把它們放在書籤上？<p>[0] https://www.folklore.org/StoryView.py?project=Macintosh&amp;story=I_Still_Remember_Regions.txt<p>[1] https://www.folklore.org/StoryView.py?story=Round_Rects_Are_Everywhere.txt<p>[1] http://basalgangster.macgui.com/RetroMacComputing/The_Long_View/Entries/2010/8/29_Regions.html<p>[3] https://www.info-mac.org/viewtopic.php?t=17328<p>[4] http://wg20.criticalcodestudies.com/index.php?p=/discussion/80/code-critique-roundrects-apple-quickdraw-source-code<p>[5] http://www.verycomputer.com/275_4a6b5f879a8d4eab_1.htm<p>[6] www.computerhistory.org/highlights/macpaint/\n"
+}
