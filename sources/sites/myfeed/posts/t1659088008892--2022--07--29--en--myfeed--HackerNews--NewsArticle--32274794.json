@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--29--en--myfeed--HackerNews--NewsArticle--32274794",
+  "url": "https://news.ycombinator.com/item?id=32274794",
+  "headline": "Almost a year ago, I quit my gamedev job to make my own game: Glaciered",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "GordonS",
+    "url": "https://news.ycombinator.com/user?id=GordonS"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32274794",
+  "sameAs": "https://old.reddit.com/r/Unity3D/comments/w7yj4g/almost_a_year_ago_i_quit_my_fulltime_gamedev_job/",
+  "dateCreated": "2022-07-29T09:46:48.892Z",
+  "datePublished": "2022-07-29T09:29:39.000Z",
+  "dateModified": "2022-07-29T09:46:48.892Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "差不多一年前，我辞去了游戏开发的工作，制作自己的游戏。冰冻三尺非一日之寒\n",
+  "headline_zh-Hant": "差不多一年前，我辭去了遊戲開發的工作，製作自己的遊戲。冰凍三尺非一日之寒\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
