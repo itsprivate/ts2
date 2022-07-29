@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--29--en--askhn--HackerNews--NewsArticle--32275332",
+  "url": "https://news.ycombinator.com/item?id=32275332",
+  "headline": "Ask HN: Best Automated Testing Approach for Canvas-Based Apps?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Canvas-based Apps:<p>Basically any app where most of the features involve user interaction on a graphical canvas (eg. checking if a map is drawn correctly on Google Maps, testing Paint or Figma-like sketching apps etc)<p>These types of apps are traditionally more difficult to test than GUI apps with predominantly form-like features.<p>I was wondering what the latest state-of-art was in regards to testing such apps, with respect to maintainability, low false positives/negatives etc.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "bookaway",
+    "url": "https://news.ycombinator.com/user?id=bookaway"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32275332",
+  "sameAs": "https://news.ycombinator.com/item?id=32275332",
+  "dateCreated": "2022-07-29T10:56:07.921Z",
+  "datePublished": "2022-07-29T10:47:13.000Z",
+  "dateModified": "2022-07-29T10:56:07.921Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 基于帆布的应用程序的最佳自动测试方法？\n",
+  "headline_zh-Hant": "Ask HN: 基於帆布的應用程序的最佳自動測試方法？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "基于画布的应用程序：<p>基本上，任何大多数功能涉及用户在图形画布上的互动的应用程序（例如，检查谷歌地图上的地图是否正确绘制，测试Paint或Figma-like素描应用程序等）<p>这些类型的应用程序传统上比GUI应用程序更难测试，主要是类似表格的功能。<p>我想知道在测试此类应用程序方面的最新技术水平，关于可维护性、低误报/负报等。\n",
+  "description_zh-Hant": "基於畫布的應用程序：<p>基本上，任何大多數功能涉及用戶在圖形畫布上的互動的應用程序（例如，檢查谷歌地圖上的地圖是否正確繪製，測試Paint或Figma-like素描應用程序等）<p>這些類型的應用程序傳統上比GUI應用程序更難測試，主要是類似表格的功能。<p>我想知道在測試此類應用程序方面的最新技術水平，關於可維護性、低誤報/負報等。\n"
+}
