@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--29--en--myfeed--HackerNews--NewsArticle--32276602",
+  "url": "https://news.ycombinator.com/item?id=32276602",
+  "headline": "Show HN: Sync and search your Twitter likes and bookmarks",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN, I use twitter a lot and often bookmark interesting tweets to come back to later, but find that I rarely actually come back to them (twitter's native bookmarks interface is kind of high friction). Same for tweets I've liked or favorited: it's an exquisitely weird experience to know I've seen a tweet and even favorited it, but that I'll probably never be able to find it again.<p>A good way to find the tweets I was looking for would tick these boxes:\n- <i>fast</i> (10s of ms not 100s) local search: find any tweet instantly<p>- easily query and export the data<p>- automatically sync new bookmarks or likes<p>BirdBear is my attempt to scratch this itch. It uses SQLIte in the browser via WASM to store your liked and bookmarked tweets locally, and then lets you do instant full text search over all of them (powered by SQLite's FTS extension). There's also a SQL console built in, so if you know SQL you can slice and dice your bookmarks and likes to your heart's content. You can also export all your liked or bookmarked tweets as JSON to use them outside of BirdBear.<p>Right now the focus is on bookmarks and likes, but the plan is to build this into a more general twitter data tool to let you locally download tweets from all the accounts you follow, keep them up to date, and to add organization features like folders and tagging. A sort of personal tweeterbase if you will.<p>How do you keep track of the tweets you like? Any great tools or tricks you've discovered or features you'd like to see in a tool like this?<p>edit: formatting",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "nikvdp",
+    "url": "https://news.ycombinator.com/user?id=nikvdp"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32276602",
+  "sameAs": "https://birdbear.app",
+  "dateCreated": "2022-07-29T14:26:37.079Z",
+  "datePublished": "2022-07-29T13:30:39.000Z",
+  "dateModified": "2022-07-29T14:26:37.079Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 同步和搜索你的Twitter喜欢和书签\n",
+  "headline_zh-Hant": "Show HN: 同步和搜索你的Twitter喜歡和書籤\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hey HN, I use twitter a lot and often bookmark interesting tweets to come back to later, but find that I rarely actually come back to them (twitter's native bookmarks interface is kind of high friction). Same for tweets I've liked or favorited: it's an exquisitely weird experience to know I've seen a tweet and even favorited it, but that I'll probably never be able to find it again.<p>A good way to find the tweets I was looking for would tick these boxes:\n- <i>fast</i> (10s of ms not 100s) local search: find any tweet instantly<p>- easily query and export the data<p>- automatically sync new bookmarks or likes<p>BirdBear is my attempt to scratch this itch. It uses SQLIte in the browser via WASM to store your liked and bookmarked tweets locally, and then lets you do instant full text search over all of them (powered by SQLite's FTS extension). There's also a SQL console built in, so if you know SQL you can slice and dice your bookmarks and likes to your heart's content. You can also export all your liked or bookmarked tweets as JSON to use them outside of BirdBear.<p>Right now the focus is on bookmarks and likes, but the plan is to build this into a more general twitter data tool to let you locally download tweets from all the accounts you follow, keep them up to date, and to add organization features like folders and tagging. A sort of personal tweeterbase if you will.<p>How do you keep track of the tweets you like? Any great tools or tricks you've discovered or features you'd like to see in a tool like this?<p>edit: formatting\n",
+  "description_zh-Hant": "Hey HN, I use twitter a lot and often bookmark interesting tweets to come back to later, but find that I rarely actually come back to them (twitter's native bookmarks interface is kind of high friction). Same for tweets I've liked or favorited: it's an exquisitely weird experience to know I've seen a tweet and even favorited it, but that I'll probably never be able to find it again.<p>A good way to find the tweets I was looking for would tick these boxes:\n- <i>fast</i> (10s of ms not 100s) local search: find any tweet instantly<p>- easily query and export the data<p>- automatically sync new bookmarks or likes<p>BirdBear is my attempt to scratch this itch. It uses SQLIte in the browser via WASM to store your liked and bookmarked tweets locally, and then lets you do instant full text search over all of them (powered by SQLite's FTS extension). There's also a SQL console built in, so if you know SQL you can slice and dice your bookmarks and likes to your heart's content. You can also export all your liked or bookmarked tweets as JSON to use them outside of BirdBear.<p>Right now the focus is on bookmarks and likes, but the plan is to build this into a more general twitter data tool to let you locally download tweets from all the accounts you follow, keep them up to date, and to add organization features like folders and tagging. A sort of personal tweeterbase if you will.<p>How do you keep track of the tweets you like? Any great tools or tricks you've discovered or features you'd like to see in a tool like this?<p>edit: formatting\n"
+}

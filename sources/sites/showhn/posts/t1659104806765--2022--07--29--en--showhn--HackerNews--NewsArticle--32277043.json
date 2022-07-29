@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--29--en--showhn--HackerNews--NewsArticle--32277043",
+  "url": "https://news.ycombinator.com/item?id=32277043",
+  "headline": "Show HN: ListFollowers.com – list Twitter follow(er)s, search, sort, and export",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi, I made a tool to list a Twitter user's follows or followers, combine two such list with set operations, search and sort throught the results, and export the results to JSON or CSV for further analysis.<p>Here's a thread of ideas for how you can use it: <a href=\"https://twitter.com/mechanical_monk/status/1550055763317506050\" rel=\"nofollow\">https://twitter.com/mechanical_monk/status/15500557633175060...</a><p>Let me know what you think!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mechanical_monk",
+    "url": "https://news.ycombinator.com/user?id=mechanical_monk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32277043",
+  "sameAs": "https://listfollowers.com/",
+  "dateCreated": "2022-07-29T14:26:46.765Z",
+  "datePublished": "2022-07-29T14:04:29.000Z",
+  "dateModified": "2022-07-29T14:26:46.765Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: ListFollowers.com - 列出Twitter的关注者，搜索、排序和导出\n",
+  "headline_zh-Hant": "Show HN: ListFollowers.com - 列出Twitter的關注者，搜索、排序和導出\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi, I made a tool to list a Twitter user's follows or followers, combine two such list with set operations, search and sort throught the results, and export the results to JSON or CSV for further analysis.<p>Here's a thread of ideas for how you can use it: <a href=\"https://twitter.com/mechanical_monk/status/1550055763317506050\" rel=\"nofollow\">https://twitter.com/mechanical_monk/status/15500557633175060...</a><p>Let me know what you think!\n",
+  "description_zh-Hant": "Hi, I made a tool to list a Twitter user's follows or followers, combine two such list with set operations, search and sort throught the results, and export the results to JSON or CSV for further analysis.<p>Here's a thread of ideas for how you can use it: <a href=\"https://twitter.com/mechanical_monk/status/1550055763317506050\" rel=\"nofollow\">https://twitter.com/mechanical_monk/status/15500557633175060...</a><p>Let me know what you think!\n"
+}
