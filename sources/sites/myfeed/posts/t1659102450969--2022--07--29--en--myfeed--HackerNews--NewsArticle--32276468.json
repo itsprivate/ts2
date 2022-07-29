@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--29--en--myfeed--HackerNews--NewsArticle--32276468",
+  "url": "https://news.ycombinator.com/item?id=32276468",
+  "headline": "Cachix Deploy Public Beta",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "domenkozar",
+    "url": "https://news.ycombinator.com/user?id=domenkozar"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32276468",
+  "sameAs": "https://blog.cachix.org/posts/2022-07-29-cachix-deploy-public-beta/",
+  "dateCreated": "2022-07-29T13:47:30.969Z",
+  "datePublished": "2022-07-29T13:19:18.000Z",
+  "dateModified": "2022-07-29T13:47:30.969Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Cachix部署公共测试版\n",
+  "headline_zh-Hant": "Cachix部署公共測試版\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
