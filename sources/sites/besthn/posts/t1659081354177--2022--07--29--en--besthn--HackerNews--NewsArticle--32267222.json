@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--29--en--besthn--HackerNews--NewsArticle--32267222",
+  "url": "https://news.ycombinator.com/item?id=32267222",
+  "headline": "AWS us-east-2 outage",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "our alerts just went crazy, and we're having issues even logging in to the AWS dashboard<p>possibly related: <a href=\"https://news.ycombinator.com/item?id=32267154\" rel=\"nofollow\">https://news.ycombinator.com/item?id=32267154</a>",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jchen42",
+    "url": "https://news.ycombinator.com/user?id=jchen42"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32267222",
+  "sameAs": "https://news.ycombinator.com/item?id=32267222",
+  "dateCreated": "2022-07-29T07:55:54.177Z",
+  "datePublished": "2022-07-28T17:09:05.000Z",
+  "dateModified": "2022-07-29T07:55:54.177Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 327
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 192
+    }
+  ],
+  "headline_zh-Hans": "AWS US-EAST-2中断\n",
+  "headline_zh-Hant": "AWS US-EAST-2中斷\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "our alerts just went crazy, and we're having issues even logging in to the AWS dashboard<p>possibly related: <a href=\"https://news.ycombinator.com/item?id=32267154\" rel=\"nofollow\">https://news.ycombinator.com/item?id=32267154</a>\n",
+  "description_zh-Hant": "our alerts just went crazy, and we're having issues even logging in to the AWS dashboard<p>possibly related: <a href=\"https://news.ycombinator.com/item?id=32267154\" rel=\"nofollow\">https://news.ycombinator.com/item?id=32267154</a>\n"
+}
