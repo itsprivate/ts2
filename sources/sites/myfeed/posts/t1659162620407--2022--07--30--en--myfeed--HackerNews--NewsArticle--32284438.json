@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--myfeed--HackerNews--NewsArticle--32284438",
+  "url": "https://news.ycombinator.com/item?id=32284438",
+  "headline": "Show HN: Outserv – Blockchain Search Engine with GraphQL APIs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Outserv enables you to run production-grade GraphQL Search APIs over any blockchain data. In our tests, all the transactions in the entire (15M blocks of) Ethereum blockchain were indexed by Outserv within 12 hours from scratch, ready to be served — a 10x improvement over conventional methods.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mrjn",
+    "url": "https://news.ycombinator.com/user?id=mrjn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32284438",
+  "sameAs": "https://manishrjain.com/outserv-graphql-blockchain-search",
+  "dateCreated": "2022-07-30T06:30:20.407Z",
+  "datePublished": "2022-07-30T05:13:02.000Z",
+  "dateModified": "2022-07-30T06:30:20.407Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Outserv - 带有GraphQL APIs的区块链搜索引擎\n",
+  "headline_zh-Hant": "Show HN: Outserv - 帶有GraphQL APIs的區塊鏈搜索引擎\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Outserv使你能够在任何区块链数据上运行生产级的GraphQL Search APIs。在我们的测试中，整个（15M块）以太坊区块链中的所有交易都被Outserv在12小时内从头开始编制索引，并准备好提供服务--比传统方法提高了10倍。\n",
+  "description_zh-Hant": "Outserv使你能夠在任何區塊鏈數據上運行生產級的GraphQL Search APIs。在我們的測試中，整個（15M塊）以太坊區塊鏈中的所有交易都被Outserv在12小時內從頭開始編制索引，並準備好提供服務--比傳統方法提高了10倍。\n"
+}
