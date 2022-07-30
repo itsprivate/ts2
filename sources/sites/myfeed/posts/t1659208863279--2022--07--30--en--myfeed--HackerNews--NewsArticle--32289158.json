@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--myfeed--HackerNews--NewsArticle--32289158",
+  "url": "https://news.ycombinator.com/item?id=32289158",
+  "headline": "Native FreeCAD importer added to JSketcher (browser based modeler)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mmiscool",
+    "url": "https://news.ycombinator.com/user?id=mmiscool"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32289158",
+  "sameAs": "https://github.com/xibyte/jsketcher/tree/dev",
+  "dateCreated": "2022-07-30T19:21:03.279Z",
+  "datePublished": "2022-07-30T18:33:44.000Z",
+  "dateModified": "2022-07-30T19:21:03.279Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "JSketcher（基于浏览器的建模器）中添加了本地FreeCAD导入器\n",
+  "headline_zh-Hant": "JSketcher（基於瀏覽器的建模器）中添加了本地FreeCAD導入器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
