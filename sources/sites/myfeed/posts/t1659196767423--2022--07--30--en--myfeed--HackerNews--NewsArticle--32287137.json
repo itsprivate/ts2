@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--myfeed--HackerNews--NewsArticle--32287137",
+  "url": "https://news.ycombinator.com/item?id=32287137",
+  "headline": "Show HN: Clp, a Faster Alternative to Bat",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "This is a small hobby project that writes files to stdout with syntax highlighting.<p>My main use case is replacing bat for use in the preview window for the program fzf. I wanted to speed it up and support languages that didn’t meet bat’s inclusion criteria out of the box (myrddin, hare, etc)- more info in the blog post.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jpe90",
+    "url": "https://news.ycombinator.com/user?id=jpe90"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32287137",
+  "sameAs": "https://jeskin.net/blog/clp/",
+  "dateCreated": "2022-07-30T15:59:27.423Z",
+  "datePublished": "2022-07-30T14:40:17.000Z",
+  "dateModified": "2022-07-30T15:59:27.423Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Clp，一个更快的蝙蝠替代品\n",
+  "headline_zh-Hant": "Show HN: Clp，一個更快的蝙蝠替代品\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "这是一个小型的业余项目，它将文件写入stdout，并带有语法高亮。<p>我的主要用例是取代bat，在程序fzf的预览窗口中使用。我想加快它的速度，并支持那些不符合bat开箱即用标准的语言（myrddin, hare等）--更多信息见博文。\n",
+  "description_zh-Hant": "這是一個小型的業餘項目，它將文件寫入stdout，並帶有語法高亮。<p>我的主要用例是取代bat，在程序fzf的預覽窗口中使用。我想加快它的速度，並支持那些不符合bat開箱即用標準的語言（myrddin, hare等）--更多信息見博文。\n"
+}
