@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--myfeed--HackerNews--NewsArticle--32286742",
+  "url": "https://news.ycombinator.com/item?id=32286742",
+  "headline": "My domain has been flagged as 'Deceptive' by Google",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I was just trying to access one of the services I host when I'm hit with a full red error page on Brave saying:<p>&gt; Deceptive site ahead<p>&gt; Attackers on code.nickthesick.com may trick you into doing something dangerous like installing software or revealing your personal information (for example, passwords, phone numbers, or credit cards).<p>With a &quot;Learn more&quot; link which gave me a link to: https://support.google.com/chrome/answer/99020?visit_id=637947814277802266-3335630021&amp;p=cpn_safe_browsing&amp;hl=en&amp;rd=1 which had a section:<p>&gt; My site or software is marked dangerous or suspicious<p>&gt; Site owner: If you own a site marked as dangerous or deceptive: Follow the instructions [to fix the problem and request a review](https://developers.google.com/webmasters/hacked/docs/request_review).<p>Linking to: https://web.dev/request-a-review/ \nWhich is now taking me through the process for requesting a review from Google. \nSo now I'm verifying myself to Google that I own the domain to even see what my domain was flagged for.\nThis takes adding a TXT record, so off to Cloudflare to update my DNS records.\nAfter verifying that I own the domain, and looking for the issue, all I get is:<p>&gt; 1 issue detected<p>&gt; Google has detected harmful content on some of your site’s pages. We recommend that you remove it as soon as possible. Until then, browsers such as Google Chrome will display a warning when users visit or download certain files from your site.<p>and:<p>&gt; Description: These pages attempt to trick users into doing something dangerous, such as installing unwanted software or revealing personal information. Learn more<p>&gt; Sample URLs: N/A<p>It can't even bother to tell me which page is trying to &quot;trick users into doing something dangerous, such as installing unwanted software or revealing personal information&quot;. What a sham, looking into the Learn More link:<p>&gt; Most reconsideration reviews can take several days or weeks, although in some cases, such as link-related reconsideration requests, it may take longer than usual to review your request.<p>Whaaa? You are blocking my site for days to weeks without giving me any information on what the issue is or even where it is?<p>I seriously don't know what my domain could have been flagged for, the main site `nickthesick.com` is just a personal page that I wrote up on my own.\nThe other sub-domains host several selfhosted services that I run for personal use and would find it weird for any of them to even be indexed by Google much less flagged by it.<p>Maybe it is one of the services? But all of them are open source I think.<p>Has anyone else ran into this issue? What did you do?\nI'm tempted to just ask them to review it because I don't know what could even be flagged but I'm afraid that they will give me trouble for it later if they find the same 'deception' again.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nickthesick",
+    "url": "https://news.ycombinator.com/user?id=nickthesick"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32286742",
+  "sameAs": "https://news.ycombinator.com/item?id=32286742",
+  "dateCreated": "2022-07-30T13:55:45.904Z",
+  "datePublished": "2022-07-30T13:40:38.000Z",
+  "dateModified": "2022-07-30T13:55:45.904Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我的域名被谷歌标记为 \"欺骗性\"。\n",
+  "headline_zh-Hant": "我的域名被谷歌標記為 \"欺騙性\"。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正试图访问我托管的一个服务时，我在Brave上看到一个全红的错误页面说：<p>&gt; 欺骗性网站在前面<p>&gt; code.nickthesick.com上的攻击者可能会欺骗你做一些危险的事情，如安装软件或透露你的个人信息（例如，密码、电话号码或信用卡）。 <p>有一个&quot;了解更多&quot;的链接，它给了我一个链接：https://support.google.com/chrome/answer/99020?visit_id=637947814277802266-3335630021&amp;p=cpn_safe_browsing&amp;hl=en&amp;rd=1，其中有一个部分：<p>&gt; 我的网站或软件被标记为危险或可疑<p>&gt; 网站所有者：如果你拥有一个标记为危险或欺骗的网站。请按照指示[修复问题并请求审查](https://developers.google.com/webmasters/hacked/docs/request_review)。<p>链接到：https://web.dev/request-a-review/ \n现在，我正在通过向谷歌申请审查的过程。\n因此，现在我正在向谷歌核实我拥有该域名，以查看我的域名被标记为什么。\n这需要添加一个TXT记录，所以去Cloudflare更新我的DNS记录。\n在核实我拥有该域名，并寻找问题后，我得到的信息是：<p>&gt; 检测到1个问题<p>&gt; 谷歌在你网站的一些页面上检测到有害内容。我们建议你尽快将其删除。在此之前，当用户访问或从您的网站下载某些文件时，谷歌浏览器等浏览器将显示警告。<p>而且：<p>&gt; 说明。这些网页试图欺骗用户做一些危险的事情，如安装不需要的软件或泄露个人信息。了解更多<p>&gt; 样本URL。不适用<p>它甚至懒得告诉我哪个页面试图&quot;欺骗用户做一些危险的事情，如安装不需要的软件或泄露个人信息&quot;。真是个骗局，查看了解更多链接：<p>&gt; 大多数重新考虑的审查可能需要几天或几周的时间，尽管在某些情况下，如与链接有关的重新考虑请求，审查你的请求可能需要比平时更长的时间。<p>Whaaa? 你把我的网站封锁了几天到几周，却不给我任何问题的信息，甚至不告诉我问题出在哪里？<p>我真的不知道我的域名会因为什么被标记，主网站`nickthesick.com`只是我自己写的一个个人网页。\n其他子域承载着我为个人使用而运行的几个自我托管的服务，如果它们中的任何一个被谷歌索引，我都会觉得很奇怪，更不用说被它标记了。<p>也许是其中一个服务？但我认为它们都是开源的。<p>还有人遇到过这个问题吗？你是怎么做的？\n我很想让他们审查一下，因为我不知道什么东西会被标记，但我怕他们以后再发现同样的 \"欺骗\"，会给我带来麻烦。\n",
+  "description_zh-Hant": "我正試圖訪問我託管的一個服務時，我在Brave上看到一個全紅的錯誤頁面說：<p>&gt; 欺騙性網站在前面<p>&gt; code.nickthesick.com上的攻擊者可能會欺騙你做一些危險的事情，如安裝軟件或透露你的個人信息（例如，密碼、電話號碼或信用卡）。 <p>有一個&quot;瞭解更多&quot;的鏈接，它給了我一個鏈接：https://support.google.com/chrome/answer/99020?visit_id=637947814277802266-3335630021&amp;p=cpn_safe_browsing&amp;hl=en&amp;rd=1，其中有一個部分：<p>&gt; 我的網站或軟件被標記為危險或可疑<p>&gt; 網站所有者：如果你擁有一個標記為危險或欺騙的網站。請按照指示[修復問題並請求審查](https://developers.google.com/webmasters/hacked/docs/request_review)。<p>鏈接到：https://web.dev/request-a-review/ \n現在，我正在通過向谷歌申請審查的過程。\n因此，現在我正在向谷歌核實我擁有該域名，以查看我的域名被標記為什麼。\n這需要添加一個TXT記錄，所以去Cloudflare更新我的DNS記錄。\n在核實我擁有該域名，並尋找問題後，我得到的信息是：<p>&gt; 檢測到1個問題<p>&gt; 谷歌在你網站的一些頁面上檢測到有害內容。我們建議你儘快將其刪除。在此之前，當用戶訪問或從您的網站下載某些文件時，谷歌瀏覽器等瀏覽器將顯示警告。<p>而且：<p>&gt; 說明。這些網頁試圖欺騙用戶做一些危險的事情，如安裝不需要的軟件或洩露個人信息。瞭解更多<p>&gt; 樣本URL。不適用<p>它甚至懶得告訴我哪個頁面試圖&quot;欺騙用戶做一些危險的事情，如安裝不需要的軟件或洩露個人信息&quot;。真是個騙局，查看了解更多鏈接：<p>&gt; 大多數重新考慮的審查可能需要幾天或幾周的時間，儘管在某些情況下，如與鏈接有關的重新考慮請求，審查你的請求可能需要比平時更長的時間。<p>Whaaa? 你把我的網站封鎖了幾天到幾周，卻不給我任何問題的信息，甚至不告訴我問題出在哪裡？<p>我真的不知道我的域名會因為什麼被標記，主網站`nickthesick.com`只是我自己寫的一個個人網頁。\n其他子域承載著我為個人使用而運行的幾個自我託管的服務，如果它們中的任何一個被谷歌索引，我都會覺得很奇怪，更不用說被它標記了。<p>也許是其中一個服務？但我認為它們都是開源的。<p>還有人遇到過這個問題嗎？你是怎麼做的？\n我很想讓他們審查一下，因為我不知道什麼東西會被標記，但我怕他們以後再發現同樣的 \"欺騙\"，會給我帶來麻煩。\n"
+}
