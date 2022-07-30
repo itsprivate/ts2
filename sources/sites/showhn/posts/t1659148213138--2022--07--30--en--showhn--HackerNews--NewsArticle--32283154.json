@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--showhn--HackerNews--NewsArticle--32283154",
+  "url": "https://news.ycombinator.com/item?id=32283154",
+  "headline": "Show HN: Lb – Opinionated Media Library",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I finally figured out how to publish as a python package. I use this multiple times a day the past few months. It controls all of my media consumption.<p>I am very much anti-Spotify and I am eternally grateful for the `pychromecast` and `catt` python libraries which allow me to easily play music through my house with my Google speaker groups.<p>I have been backing up a lot of YouTube videos recently so this helps me to loop through them--it's my own hacky auto-play.<p>It probably won't work well on WSL or Windows",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "xk3",
+    "url": "https://news.ycombinator.com/user?id=xk3"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32283154",
+  "sameAs": "https://github.com/chapmanjacobd/lb",
+  "dateCreated": "2022-07-30T02:30:13.138Z",
+  "datePublished": "2022-07-30T00:20:16.000Z",
+  "dateModified": "2022-07-30T02:30:13.138Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Lb - 观点媒体图书馆\n",
+  "headline_zh-Hant": "Show HN: Lb - 觀點媒體圖書館\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我终于知道了如何将其作为一个Python包发布。在过去的几个月里，我每天都会多次使用它。<p>我非常反感Spotify，我永远感谢`pychromecast`和`catt`python库，它们让我能够通过我的Google扬声器组轻松地在家里播放音乐。<p>我最近一直在备份大量的YouTube视频，所以这有助于我循环播放它们--这是我自己的黑客自动播放。\n",
+  "description_zh-Hant": "我終於知道了如何將其作為一個Python包發佈。在過去的幾個月裡，我每天都會多次使用它。<p>我非常反感Spotify，我永遠感謝`pychromecast`和`catt`python庫，它們讓我能夠通過我的Google揚聲器組輕鬆地在家裡播放音樂。<p>我最近一直在備份大量的YouTube視頻，所以這有助於我循環播放它們--這是我自己的黑客自動播放。\n"
+}
