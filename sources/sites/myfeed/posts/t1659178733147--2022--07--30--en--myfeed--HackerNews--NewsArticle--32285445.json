@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--myfeed--HackerNews--NewsArticle--32285445",
+  "url": "https://news.ycombinator.com/item?id=32285445",
+  "headline": "Show HN: SSHScript – shell script-like Python script",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I have many Python scripts which run commands and deal with outputs on localhost and remote hosts.  Between these scripts, there are many common routines. Eg. making ssh connections, execution and collecting data.<p>Based on the subprocess and Paramiko, I created the SSHScript. With it, I could embed shell commands in Python scripts. This kind of script  is  converted to a regular Python script by SSHScript  for execution . Working with SSHScript, I feel like writing shell scripts with Python and all Python packages.<p>For backend engineers who want to automate tasks with Python scripts instead of shell script s , hope you enjoy the SSHScript.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "iapyeh",
+    "url": "https://news.ycombinator.com/user?id=iapyeh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32285445",
+  "sameAs": "https://iapyeh.github.io/sshscript/",
+  "dateCreated": "2022-07-30T10:58:53.147Z",
+  "datePublished": "2022-07-30T09:28:15.000Z",
+  "dateModified": "2022-07-30T10:58:53.147Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: SSHScript - 类似shell脚本的Python脚本\n",
+  "headline_zh-Hant": "Show HN: SSHScript - 類似shell腳本的Python腳本\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我有许多Python脚本，它们在本地主机和远程主机上运行命令并处理输出。 在这些脚本之间，有许多共同的程序。例如，建立ssh连接、执行和收集数据。<p>基于子进程和Paramiko，我创建了SSHScript。有了它，我可以在Python脚本中嵌入shell命令。这种脚本被SSHScript转换为普通的Python脚本来执行。使用SSHScript，我感觉就像用Python和所有Python包来写shell脚本。<p>对于那些想用Python脚本而不是shell脚本来自动化任务的后台工程师，希望你能喜欢SSHScript。\n",
+  "description_zh-Hant": "我有許多Python腳本，它們在本地主機和遠程主機上運行命令並處理輸出。 在這些腳本之間，有許多共同的程序。例如，建立ssh連接、執行和收集數據。<p>基於子進程和Paramiko，我創建了SSHScript。有了它，我可以在Python腳本中嵌入shell命令。這種腳本被SSHScript轉換為普通的Python腳本來執行。使用SSHScript，我感覺就像用Python和所有Python包來寫shell腳本。<p>對於那些想用Python腳本而不是shell腳本來自動化任務的後臺工程師，希望你能喜歡SSHScript。\n"
+}
