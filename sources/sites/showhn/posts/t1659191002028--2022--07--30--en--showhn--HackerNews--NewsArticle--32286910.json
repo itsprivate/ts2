@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--showhn--HackerNews--NewsArticle--32286910",
+  "url": "https://news.ycombinator.com/item?id=32286910",
+  "headline": "Show HN: Prosur: Logs all 3D printer activity in a DB, view it all in a browser",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "After much frustration in trying to reliably log data from my custom 3D printer with a heated chamber, I wrote this tool. I eventually decided to go all-in and make something very robust, and expand the scope to collect not just chamber temperatures, but images, print jobs, slicer settings, motor positions, etc. as well.\nThe tool displays all data in a single plot, which scrolls all the way back to 1970 and allows zooming out. The left sidebar shows print jobs, while the right sidebar shows slicer settings for the currently-viewed job and allows downloading the original print file.\nThe graph will auto-update every second.\nThe bottom bar shows a timeline of images, matching the x-axis of the plot above.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "edg5000",
+    "url": "https://news.ycombinator.com/user?id=edg5000"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32286910",
+  "sameAs": "https://github.com/EDG5000/prosur",
+  "dateCreated": "2022-07-30T14:23:22.028Z",
+  "datePublished": "2022-07-30T14:05:23.000Z",
+  "dateModified": "2022-07-30T14:23:22.028Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 普罗索尔。在一个数据库中记录所有的3D打印机活动，在浏览器中查看所有的活动。\n",
+  "headline_zh-Hant": "Show HN: 普羅索爾。在一個數據庫中記錄所有的3D打印機活動，在瀏覽器中查看所有的活動。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在试图可靠地记录我的带有加热室的定制3D打印机的数据时遇到了很多挫折，我写了这个工具。我最终决定全力以赴，做一些非常强大的东西，并扩大范围，不仅收集室温，而且收集图像、打印作业、切片机设置、电机位置等。\n该工具在一个单一的图表中显示所有的数据，它可以一直滚动到1970年，并允许放大。左边的侧栏显示打印作业，右边的侧栏显示当前查看的作业的切片机设置，并允许下载原始打印文件。\n该图将每秒钟自动更新。\n底部栏显示图像的时间轴，与上面图的X轴相匹配。\n",
+  "description_zh-Hant": "在試圖可靠地記錄我的帶有加熱室的定製3D打印機的數據時遇到了很多挫折，我寫了這個工具。我最終決定全力以赴，做一些非常強大的東西，並擴大範圍，不僅收集室溫，而且收集圖像、打印作業、切片機設置、電機位置等。\n該工具在一個單一的圖表中顯示所有的數據，它可以一直滾動到1970年，並允許放大。左邊的側欄顯示打印作業，右邊的側欄顯示當前查看的作業的切片機設置，並允許下載原始打印文件。\n該圖將每秒鐘自動更新。\n底部欄顯示圖像的時間軸，與上面圖的X軸相匹配。\n"
+}
