@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--myfeed--HackerNews--NewsArticle--32289879",
+  "url": "https://news.ycombinator.com/item?id=32289879",
+  "headline": "The issues with JAMStack: You might need a back end",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "davzie",
+    "url": "https://news.ycombinator.com/user?id=davzie"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32289879",
+  "sameAs": "https://www.browserlondon.com/blog/2020/04/20/issues-with-jamstack-you-might-need-backend/",
+  "dateCreated": "2022-07-30T21:56:26.071Z",
+  "datePublished": "2022-07-30T20:15:00.000Z",
+  "dateModified": "2022-07-30T21:56:26.071Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "JAMStack的问题。你可能需要一个后端\n",
+  "headline_zh-Hant": "JAMStack的問題。你可能需要一個後端\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
