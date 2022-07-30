@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--myfeed--HackerNews--NewsArticle--32282624",
+  "url": "https://news.ycombinator.com/item?id=32282624",
+  "headline": "The nastiest feud in science (2018)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "classichasclass",
+    "url": "https://news.ycombinator.com/user?id=classichasclass"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32282624",
+  "sameAs": "https://www.theatlantic.com/magazine/archive/2018/09/dinosaur-extinction-debate/565769/",
+  "dateCreated": "2022-07-30T02:30:03.369Z",
+  "datePublished": "2022-07-29T22:55:05.000Z",
+  "dateModified": "2022-07-30T02:30:03.369Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "科学界最肮脏的恩怨(2018)\n",
+  "headline_zh-Hant": "科學界最骯髒的恩怨(2018)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

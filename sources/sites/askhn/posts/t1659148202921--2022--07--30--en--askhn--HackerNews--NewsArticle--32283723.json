@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--askhn--HackerNews--NewsArticle--32283723",
+  "url": "https://news.ycombinator.com/item?id=32283723",
+  "headline": "Ask HN: Deployment guides and tutorials with a lot of hand holding?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm a complete simpleton when it comes to cloud tools and using them for app/site deployment. I can upload Git commits or FTP files to a server no problem. I don't know how to spin up a EC2 instance or whatnot to make an entire website visible and managed from the admin side.<p>To give you an idea of how far I've been gone from the process, the most complete A-Z process I've done for deploying involves installing a LAMP stack, select and configure PHP and Apache modules, and pointing nameservers to load a given web page URI.<p>It's probably not done anything like that anymore so I am not sure where to begin. What is the most &quot;for dummies&quot; hand-holding guides you can think of for modern deployment setups? I'm struggling because this is where I am having to self-guide more than &quot;learn Python in 12 weeks&quot; kind of stuff and I don't know if that learn in a few weeks example can be applied to deployment so cleanly.<p>Full disclosure, I don't have a job where I can do this or seek guidance from. I am unemployed and without a personal guide.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "djellybeans",
+    "url": "https://news.ycombinator.com/user?id=djellybeans"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32283723",
+  "sameAs": "https://news.ycombinator.com/item?id=32283723",
+  "dateCreated": "2022-07-30T02:30:02.921Z",
+  "datePublished": "2022-07-30T02:17:41.000Z",
+  "dateModified": "2022-07-30T02:30:02.921Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 部署指南和教程有很多手把手的指导？\n",
+  "headline_zh-Hant": "Ask HN: 部署指南和教程有很多手把手的指導？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "当涉及到云工具和使用它们进行应用/网站部署时，我是一个完全简单的人。我可以把Git提交的文件或FTP文件上传到服务器上，没有问题。我不知道如何启动EC2实例或其他什么东西，以使整个网站从管理员方面可见和管理。<p>为了让你了解我已经离这个过程有多远，我所做的最完整的A-Z部署过程涉及安装LAMP堆栈，选择和配置PHP和Apache模块，以及指向命名服务器以加载一个给定的网页URI.<p>它可能没有做任何类似的事情了，所以我不确定从哪里开始。对于现代部署设置，你能想到的最&quot;傻瓜&quot;的手把手指导是什么？我很纠结，因为这是我不得不自我指导的地方，而不是&quot;在12周内学会Python&quot;那种东西，我不知道在几周内学会的例子是否可以如此干净地应用于部署。<p>完全披露，我没有一份可以做这个或寻求指导的工作。我现在失业了，没有个人指导。\n",
+  "description_zh-Hant": "當涉及到雲工具和使用它們進行應用/網站部署時，我是一個完全簡單的人。我可以把Git提交的文件或FTP文件上傳到服務器上，沒有問題。我不知道如何啟動EC2實例或其他什麼東西，以使整個網站從管理員方面可見和管理。<p>為了讓你瞭解我已經離這個過程有多遠，我所做的最完整的A-Z部署過程涉及安裝LAMP堆棧，選擇和配置PHP和Apache模塊，以及指向命名服務器以加載一個給定的網頁URI.<p>它可能沒有做任何類似的事情了，所以我不確定從哪裡開始。對於現代部署設置，你能想到的最&quot;傻瓜&quot;的手把手指導是什麼？我很糾結，因為這是我不得不自我指導的地方，而不是&quot;在12周內學會Python&quot;那種東西，我不知道在幾周內學會的例子是否可以如此乾淨地應用於部署。<p>完全披露，我沒有一份可以做這個或尋求指導的工作。我現在失業了，沒有個人指導。\n"
+}

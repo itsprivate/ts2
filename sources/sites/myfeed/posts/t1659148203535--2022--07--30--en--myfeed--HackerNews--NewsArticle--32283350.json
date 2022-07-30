@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--myfeed--HackerNews--NewsArticle--32283350",
+  "url": "https://news.ycombinator.com/item?id=32283350",
+  "headline": "Elon Musk Also Threatened to Buy My Company. Here’s How We Handled It",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "elsewhen",
+    "url": "https://news.ycombinator.com/user?id=elsewhen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32283350",
+  "sameAs": "https://www.bloomberg.com/news/articles/2022-04-14/elon-musk-also-threatened-to-buy-my-company-here-s-how-we-handled-it",
+  "dateCreated": "2022-07-30T02:30:03.535Z",
+  "datePublished": "2022-07-30T01:02:11.000Z",
+  "dateModified": "2022-07-30T02:30:03.535Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "埃隆-马斯克也威胁要收购我的公司。以下是我们的处理方法\n",
+  "headline_zh-Hant": "埃隆-馬斯克也威脅要收購我的公司。以下是我們的處理方法\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
