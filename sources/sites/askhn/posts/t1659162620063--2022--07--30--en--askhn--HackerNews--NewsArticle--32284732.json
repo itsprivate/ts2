@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--askhn--HackerNews--NewsArticle--32284732",
+  "url": "https://news.ycombinator.com/item?id=32284732",
+  "headline": "Ask HN: Something Like Git but for Binaries?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I am looking for something like Git but for binaries where I can prove the validity of binaries in some repository (artifactory,Nexus,…) or via it’s own repository that the binaries are valid artifacts and maybe also how they derived from other artifacts.<p>e.g. having a merkle tree of different binaries and their derivations.<p>Is this in some way possible? Is this what Git lfs will do?\nOr do I need Bazel for this? How does NixOS or Gnu Guix fit into this?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "weitzj",
+    "url": "https://news.ycombinator.com/user?id=weitzj"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32284732",
+  "sameAs": "https://news.ycombinator.com/item?id=32284732",
+  "dateCreated": "2022-07-30T06:30:20.063Z",
+  "datePublished": "2022-07-30T06:21:51.000Z",
+  "dateModified": "2022-07-30T06:30:20.063Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 类似于Git但用于二进制文件的东西？\n",
+  "headline_zh-Hant": "Ask HN: 類似於Git但用於二進制文件的東西？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在寻找类似于Git的东西，但是对于二进制文件，我可以证明二进制文件在一些仓库（artifactory,Nexus...）中的有效性，或者通过它自己的仓库证明二进制文件是有效的人工制品，也许还可以证明它们是如何从其他人工制品中衍生出来的。<p>例如，有一个不同二进制文件及其衍生的merkle树。这就是Git lfs要做的吗？\n还是说我需要Bazel来做这个？NixOS或Gnu Guix是如何做到这一点的？\n",
+  "description_zh-Hant": "我正在尋找類似於Git的東西，但是對於二進制文件，我可以證明二進制文件在一些倉庫（artifactory,Nexus...）中的有效性，或者通過它自己的倉庫證明二進制文件是有效的人工製品，也許還可以證明它們是如何從其他人工製品中衍生出來的。<p>例如，有一個不同二進制文件及其衍生的merkle樹。這就是Git lfs要做的嗎？\n還是說我需要Bazel來做這個？NixOS或Gnu Guix是如何做到這一點的？\n"
+}
