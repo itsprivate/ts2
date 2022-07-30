@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--myfeed--HackerNews--NewsArticle--32288438",
+  "url": "https://news.ycombinator.com/item?id=32288438",
+  "headline": "ML Model with Automated Creation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "asclepiusbelow",
+    "url": "https://news.ycombinator.com/user?id=asclepiusbelow"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32288438",
+  "sameAs": "https://serpapi.com/blog/ml-model-with-automated-creation/",
+  "dateCreated": "2022-07-30T17:33:40.026Z",
+  "datePublished": "2022-07-30T17:13:53.000Z",
+  "dateModified": "2022-07-30T17:33:40.026Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "自动创建的ML模型\n",
+  "headline_zh-Hant": "自動創建的ML模型\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

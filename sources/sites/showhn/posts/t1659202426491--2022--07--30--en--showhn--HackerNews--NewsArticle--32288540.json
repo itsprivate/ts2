@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--showhn--HackerNews--NewsArticle--32288540",
+  "url": "https://news.ycombinator.com/item?id=32288540",
+  "headline": "Show HN: Automatdeck – simple lightweight IT automation tool for your deployment",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "automatdeck",
+    "url": "https://news.ycombinator.com/user?id=automatdeck"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32288540",
+  "sameAs": "https://github.com/kheshav/automatdeck-agent",
+  "dateCreated": "2022-07-30T17:33:46.491Z",
+  "datePublished": "2022-07-30T17:25:18.000Z",
+  "dateModified": "2022-07-30T17:33:46.491Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Automatdeck - 简单的轻量级IT自动化工具，适合你的部署\n",
+  "headline_zh-Hant": "Show HN: Automatdeck - 簡單的輕量級IT自動化工具，適合你的部署\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
