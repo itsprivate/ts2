@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--showhn--HackerNews--NewsArticle--32285921",
+  "url": "https://news.ycombinator.com/item?id=32285921",
+  "headline": "Show HN: Inventa – A Go-Python library for service registry and RPC over Redis",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN!<p>While I’m working on development of a simple and lightweight cross-language distributed deep learning pipeline with WebRTC (which will be open-sourced in the same Github account and announced here in the following weeks), “Inventa” was born as a spin-off library, but it’s designed as a general purpose library to use in any domain.<p>Inventa is a library that supports Go and Python, for microservice registry and executing RPC (Remote Procedure Call) over Redis.<p>Service discovery, registry, and execution of remote procedures are some of the necessary tools in distributed applications. You must track which services (also how many replica instances of them) are alive. Also, your services should communicate between each other (choreography) or via an orchestrator service on top of them.<p>You can do API/function calls remotely by serving REST APIs, gRPC endpoints, etc... But these choices came with some drawbacks or advantages, you have lots of different architectural options on this topic.<p>Inventa offers you a lightweight solution for these requirements; if you already have Redis in your project's toolbox, and if all of your services have access to this Redis instance.<p>Also, Inventa doesn't abstract/hide its Redis client object, you can use its Redis Client object freely which is already connected to the server.<p>You can find:\n- Inventa for Go: <a href=\"https://github.com/adalkiran/go-inventa\" rel=\"nofollow\">https://github.com/adalkiran/go-inventa</a>\n- Inventa for Python: <a href=\"https://github.com/adalkiran/py-inventa\" rel=\"nofollow\">https://github.com/adalkiran/py-inventa</a> - <a href=\"https://pypi.org/project/inventa\" rel=\"nofollow\">https://pypi.org/project/inventa</a>\n- Inventa Examples, cross-language example project (which contains services developed with Go and Python): <a href=\"https://github.com/adalkiran/inventa-examples\" rel=\"nofollow\">https://github.com/adalkiran/inventa-examples</a><p>Open to any suggestions and contributions to enhance capabilities, to make it more robust or more usable in real production environments. If enough demand comes, maybe Inventa can be ported to other programming languages/platforms (e.g. .Net Core, Java/Kotlin, NodeJS, etc…) too.<p>Please check it out (especially Inventa Examples to see how can be used, and my other repositories) and I’d love to read your thoughts!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "adalkiran",
+    "url": "https://news.ycombinator.com/user?id=adalkiran"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32285921",
+  "sameAs": "https://github.com/adalkiran/inventa-examples",
+  "dateCreated": "2022-07-30T11:24:35.438Z",
+  "datePublished": "2022-07-30T11:17:21.000Z",
+  "dateModified": "2022-07-30T11:24:35.438Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Inventa - 一个用于服务注册和Redis上的RPC的Go-Python库\n",
+  "headline_zh-Hant": "Show HN: Inventa - 一個用於服務註冊和Redis上的RPC的Go-Python庫\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi HN!<p>While I’m working on development of a simple and lightweight cross-language distributed deep learning pipeline with WebRTC (which will be open-sourced in the same Github account and announced here in the following weeks), “Inventa” was born as a spin-off library, but it’s designed as a general purpose library to use in any domain. <p>Inventa is a library that supports Go and Python, for microservice registry and executing RPC (Remote Procedure Call) over Redis.<p>Service discovery, registry, and execution of remote procedures are some of the necessary tools in distributed applications. You must track which services (also how many replica instances of them) are alive. Also, your services should communicate between each other (choreography) or via an orchestrator service on top of them.<p>You can do API/function calls remotely by serving REST APIs, gRPC endpoints, etc... But these choices came with some drawbacks or advantages, you have lots of different architectural options on this topic.<p>Inventa offers you a lightweight solution for these requirements; if you already have Redis in your project's toolbox, and if all of your services have access to this Redis instance.<p>Also, Inventa doesn't abstract/hide its Redis client object, you can use its Redis Client object freely which is already connected to the server.<p>You can find:\n- Inventa for Go: <a href=\"https://github.com/adalkiran/go-inventa\" rel=\"nofollow\">https://github.com/adalkiran/go-inventa</a>\n- Inventa for Python: <a href=\"https://github.com/adalkiran/py-inventa\" rel=\"nofollow\">https://github.com/adalkiran/py-inventa</a> - <a href=\"https://pypi.org/project/inventa\" rel=\"nofollow\">https://pypi.org/project/inventa</a>\n- Inventa Examples, cross-language example project (which contains services developed with Go and Python): <a href=\"https://github.com/adalkiran/inventa-examples\" rel=\"nofollow\">https://github.com/adalkiran/inventa-examples</a><p>Open to any suggestions and contributions to enhance capabilities, to make it more robust or more usable in real production environments. If enough demand comes, maybe Inventa can be ported to other programming languages/platforms (e.g. .Net Core, Java/Kotlin, NodeJS, etc…) too.<p>Please check it out (especially Inventa Examples to see how can be used, and my other repositories) and I’d love to read your thoughts!\n",
+  "description_zh-Hant": "Hi HN!<p>While I’m working on development of a simple and lightweight cross-language distributed deep learning pipeline with WebRTC (which will be open-sourced in the same Github account and announced here in the following weeks), “Inventa” was born as a spin-off library, but it’s designed as a general purpose library to use in any domain. <p>Inventa is a library that supports Go and Python, for microservice registry and executing RPC (Remote Procedure Call) over Redis.<p>Service discovery, registry, and execution of remote procedures are some of the necessary tools in distributed applications. You must track which services (also how many replica instances of them) are alive. Also, your services should communicate between each other (choreography) or via an orchestrator service on top of them.<p>You can do API/function calls remotely by serving REST APIs, gRPC endpoints, etc... But these choices came with some drawbacks or advantages, you have lots of different architectural options on this topic.<p>Inventa offers you a lightweight solution for these requirements; if you already have Redis in your project's toolbox, and if all of your services have access to this Redis instance.<p>Also, Inventa doesn't abstract/hide its Redis client object, you can use its Redis Client object freely which is already connected to the server.<p>You can find:\n- Inventa for Go: <a href=\"https://github.com/adalkiran/go-inventa\" rel=\"nofollow\">https://github.com/adalkiran/go-inventa</a>\n- Inventa for Python: <a href=\"https://github.com/adalkiran/py-inventa\" rel=\"nofollow\">https://github.com/adalkiran/py-inventa</a> - <a href=\"https://pypi.org/project/inventa\" rel=\"nofollow\">https://pypi.org/project/inventa</a>\n- Inventa Examples, cross-language example project (which contains services developed with Go and Python): <a href=\"https://github.com/adalkiran/inventa-examples\" rel=\"nofollow\">https://github.com/adalkiran/inventa-examples</a><p>Open to any suggestions and contributions to enhance capabilities, to make it more robust or more usable in real production environments. If enough demand comes, maybe Inventa can be ported to other programming languages/platforms (e.g. .Net Core, Java/Kotlin, NodeJS, etc…) too.<p>Please check it out (especially Inventa Examples to see how can be used, and my other repositories) and I’d love to read your thoughts!\n"
+}
