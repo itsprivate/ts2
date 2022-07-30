@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--showhn--HackerNews--NewsArticle--32289965",
+  "url": "https://news.ycombinator.com/item?id=32289965",
+  "headline": "Show HN: Let's Play Sudoku",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I was a bit sick lately and slightly bored of lying in the bed. I love to play Sudoku when I have some time to kill. So I thought would be a nice idea to familiarise with PWAs.<p>So I short handedly created an installable Sudoku PWA. Try it! And let me know what you would miss.<p>For now everything is stored in localstorge. But I intent to add a social sign in and then store the profiles / histories on the server for logged in users",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "dnnsthnnr",
+    "url": "https://news.ycombinator.com/user?id=dnnsthnnr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32289965",
+  "sameAs": "https://getsudoku.app",
+  "dateCreated": "2022-07-30T20:44:36.188Z",
+  "datePublished": "2022-07-30T20:25:00.000Z",
+  "dateModified": "2022-07-30T20:44:36.188Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我们来玩数独\n",
+  "headline_zh-Hant": "Show HN: 我們來玩數獨\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我最近有点不舒服，躺在床上略感无聊。我喜欢在有时间的时候玩数独。所以我想，熟悉一下PWA是个不错的主意。<p>所以我在短时间内创建了一个可安装的数独PWA。试试吧! <p>目前，所有的东西都存储在localstorge中。但我打算添加一个社交登录，然后将登录用户的资料/历史存储在服务器上。\n",
+  "description_zh-Hant": "我最近有點不舒服，躺在床上略感無聊。我喜歡在有時間的時候玩數獨。所以我想，熟悉一下PWA是個不錯的主意。<p>所以我在短時間內創建了一個可安裝的數獨PWA。試試吧! <p>目前，所有的東西都存儲在localstorge中。但我打算添加一個社交登錄，然後將登錄用戶的資料/歷史存儲在服務器上。\n"
+}
