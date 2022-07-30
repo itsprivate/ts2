@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--besthn--HackerNews--NewsArticle--32282942",
+  "url": "https://news.ycombinator.com/item?id=32282942",
+  "headline": "C++ Asynchronous Framework",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "shcheklein",
+    "url": "https://news.ycombinator.com/user?id=shcheklein"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32282942",
+  "sameAs": "https://userver.tech/",
+  "dateCreated": "2022-07-30T11:55:37.699Z",
+  "datePublished": "2022-07-29T23:44:22.000Z",
+  "dateModified": "2022-07-30T11:55:37.699Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 200
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 90
+    }
+  ],
+  "headline_zh-Hans": "C++异步框架\n",
+  "headline_zh-Hant": "C++異步框架\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
