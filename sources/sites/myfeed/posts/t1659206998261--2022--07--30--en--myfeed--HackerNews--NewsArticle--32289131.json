@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--myfeed--HackerNews--NewsArticle--32289131",
+  "url": "https://news.ycombinator.com/item?id=32289131",
+  "headline": "Why are we living in an age of anger – is it because of the 50-year rage cycle?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "paulpauper",
+    "url": "https://news.ycombinator.com/user?id=paulpauper"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32289131",
+  "sameAs": "https://www.theguardian.com/science/2018/may/16/living-in-an-age-of-anger-50-year-rage-cycle",
+  "dateCreated": "2022-07-30T18:49:58.261Z",
+  "datePublished": "2022-07-30T18:30:41.000Z",
+  "dateModified": "2022-07-30T18:49:58.261Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "为什么我们生活在一个愤怒的时代--是因为50年的愤怒周期吗？\n",
+  "headline_zh-Hant": "為什麼我們生活在一個憤怒的時代--是因為50年的憤怒週期嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
