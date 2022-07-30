@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--30--en--hackernews--HackerNews--NewsArticle--32290725",
+  "url": "https://news.ycombinator.com/item?id=32290725",
+  "headline": "Using Nix on macOS",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gbrindisi",
+    "url": "https://news.ycombinator.com/user?id=gbrindisi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32290725",
+  "sameAs": "https://checkoway.net/musings/nix/",
+  "dateCreated": "2022-07-30T23:25:14.713Z",
+  "datePublished": "2022-07-30T21:52:17.000Z",
+  "dateModified": "2022-07-30T23:25:14.713Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在MacOS上使用Nix\n",
+  "headline_zh-Hant": "在MacOS上使用Nix\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
