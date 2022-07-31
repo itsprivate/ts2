@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32298453",
+  "url": "https://news.ycombinator.com/item?id=32298453",
+  "headline": "U.S. cities and towns are paying remote workers up to $20k to move there",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "thesecretceo",
+    "url": "https://news.ycombinator.com/user?id=thesecretceo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32298453",
+  "sameAs": "https://fortune.com/2022/07/29/cities-and-towns-paying-remote-workers-to-move/",
+  "dateCreated": "2022-07-31T20:26:43.710Z",
+  "datePublished": "2022-07-31T20:20:12.000Z",
+  "dateModified": "2022-07-31T20:26:43.710Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "美国城市和乡镇向远程工作者支付高达2万美元的费用，让他们搬到那里去。\n",
+  "headline_zh-Hant": "美國城市和鄉鎮向遠程工作者支付高達2萬美元的費用，讓他們搬到那裡去。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
