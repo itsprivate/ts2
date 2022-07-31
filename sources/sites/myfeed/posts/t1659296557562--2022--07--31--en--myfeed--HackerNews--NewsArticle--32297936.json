@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32297936",
+  "url": "https://news.ycombinator.com/item?id=32297936",
+  "headline": "A tutorial like you have never seen before",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nassimsoftware",
+    "url": "https://news.ycombinator.com/user?id=nassimsoftware"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32297936",
+  "sameAs": "https://nassimcomics.substack.com/p/a-tutorial-like-you-have-never-seen",
+  "dateCreated": "2022-07-31T19:42:37.562Z",
+  "datePublished": "2022-07-31T19:14:40.000Z",
+  "dateModified": "2022-07-31T19:42:37.562Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "一个你从未见过的教程\n",
+  "headline_zh-Hant": "一個你從未見過的教程\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
