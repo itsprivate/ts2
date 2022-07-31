@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32295658",
+  "url": "https://news.ycombinator.com/item?id=32295658",
+  "headline": "How I Write History, or a Window into My Crazy",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nbascomb",
+    "url": "https://news.ycombinator.com/user?id=nbascomb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32295658",
+  "sameAs": "https://www.workcraftlife.com/p/nbascomb",
+  "dateCreated": "2022-07-31T14:43:08.496Z",
+  "datePublished": "2022-07-31T14:21:23.000Z",
+  "dateModified": "2022-07-31T14:43:08.496Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我是如何写历史的，或者说是我疯狂的窗口\n",
+  "headline_zh-Hant": "我是如何寫歷史的，或者說是我瘋狂的窗口\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
