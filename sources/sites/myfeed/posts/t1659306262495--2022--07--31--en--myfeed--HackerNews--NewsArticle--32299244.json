@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32299244",
+  "url": "https://news.ycombinator.com/item?id=32299244",
+  "headline": "Greg can't use encrypted apps and must open his phone for police at any time",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "adrian_mrd",
+    "url": "https://news.ycombinator.com/user?id=adrian_mrd"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32299244",
+  "sameAs": "https://www.abc.net.au/news/science/2022-08-01/blockade-australia-technology-bail-conditions-encrypted-apps/101277038",
+  "dateCreated": "2022-07-31T22:24:22.495Z",
+  "datePublished": "2022-07-31T21:56:13.000Z",
+  "dateModified": "2022-07-31T22:24:22.495Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "格雷格不能使用加密的应用程序，必须在任何时候为警察打开他的手机\n",
+  "headline_zh-Hant": "格雷格不能使用加密的應用程序，必須在任何時候為警察打開他的手機\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

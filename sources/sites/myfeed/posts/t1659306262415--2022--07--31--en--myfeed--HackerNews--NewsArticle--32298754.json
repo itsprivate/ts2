@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32298754",
+  "url": "https://news.ycombinator.com/item?id=32298754",
+  "headline": "I'm the average driver on the road, and I'm out of my mind",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dev_tty01",
+    "url": "https://news.ycombinator.com/user?id=dev_tty01"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32298754",
+  "sameAs": "https://www.mcsweeneys.net/articles/im-the-average-driver-on-the-road-right-now-and-im-out-of-my-fucking-mind",
+  "dateCreated": "2022-07-31T22:24:22.415Z",
+  "datePublished": "2022-07-31T20:55:10.000Z",
+  "dateModified": "2022-07-31T22:24:22.415Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "我是道路上的普通司机，我已经失去了理智\n",
+  "headline_zh-Hant": "我是道路上的普通司機，我已經失去了理智\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
