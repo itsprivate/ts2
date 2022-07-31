@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32299517",
+  "url": "https://news.ycombinator.com/item?id=32299517",
+  "headline": "Endemic Covid-19 Looks Pretty Brutal",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bookofjoe",
+    "url": "https://news.ycombinator.com/user?id=bookofjoe"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32299517",
+  "sameAs": "https://www.nytimes.com/2022/07/20/opinion/covid-19-deaths-vaccines-endemic.html",
+  "dateCreated": "2022-07-31T22:57:06.655Z",
+  "datePublished": "2022-07-31T22:35:28.000Z",
+  "dateModified": "2022-07-31T22:57:06.655Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "地方性的Covid-19看起来很残酷\n",
+  "headline_zh-Hant": "地方性的Covid-19看起來很殘酷\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
