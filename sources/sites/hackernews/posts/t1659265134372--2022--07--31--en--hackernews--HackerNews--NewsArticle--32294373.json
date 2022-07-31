@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--hackernews--HackerNews--NewsArticle--32294373",
+  "url": "https://news.ycombinator.com/item?id=32294373",
+  "headline": "Kubernetes Broke Git",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kiyanwang",
+    "url": "https://news.ycombinator.com/user?id=kiyanwang"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32294373",
+  "sameAs": "https://matt-rickard.com/how-kubernetes-broke-git/",
+  "dateCreated": "2022-07-31T10:58:54.372Z",
+  "datePublished": "2022-07-31T09:13:14.000Z",
+  "dateModified": "2022-07-31T10:58:54.372Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Kubernetes破坏了Git\n",
+  "headline_zh-Hant": "Kubernetes破壞了Git\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
