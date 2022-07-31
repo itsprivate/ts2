@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32295419",
+  "url": "https://news.ycombinator.com/item?id=32295419",
+  "headline": "Programmatically delete AWS resources based on allowlist and (TTL)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kiyanwang",
+    "url": "https://news.ycombinator.com/user?id=kiyanwang"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32295419",
+  "sameAs": "https://github.com/servian/aws-auto-cleanup",
+  "dateCreated": "2022-07-31T13:56:01.522Z",
+  "datePublished": "2022-07-31T13:43:56.000Z",
+  "dateModified": "2022-07-31T13:56:01.522Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "根据允许列表和（TTL），以编程方式删除AWS资源\n",
+  "headline_zh-Hant": "根據允許列表和（TTL），以編程方式刪除AWS資源\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
