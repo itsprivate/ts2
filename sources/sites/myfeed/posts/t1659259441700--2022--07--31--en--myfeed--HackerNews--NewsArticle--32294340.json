@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32294340",
+  "url": "https://news.ycombinator.com/item?id=32294340",
+  "headline": "Stockholm Bike Map: a webapp that enriches an official app",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "CorvusCrypto",
+    "url": "https://news.ycombinator.com/user?id=CorvusCrypto"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32294340",
+  "sameAs": "https://stockholmbikemap.com/",
+  "dateCreated": "2022-07-31T09:24:01.700Z",
+  "datePublished": "2022-07-31T09:03:14.000Z",
+  "dateModified": "2022-07-31T09:24:01.700Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "斯德哥尔摩自行车地图：一个丰富官方应用程序的网络应用程序\n",
+  "headline_zh-Hant": "斯德哥爾摩自行車地圖：一個豐富官方應用程序的網絡應用程序\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
