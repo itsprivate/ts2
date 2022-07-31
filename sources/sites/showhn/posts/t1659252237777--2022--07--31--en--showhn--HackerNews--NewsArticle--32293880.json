@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--showhn--HackerNews--NewsArticle--32293880",
+  "url": "https://news.ycombinator.com/item?id=32293880",
+  "headline": "Show HN: BDC – Ergonomic, sub 1KiB virtual DOM library",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "BDC is a simple library for updating the DOM to match a javascript description.\nDoes not require JSX or a compilation step.<p><pre><code>    clobber(\n      document.body,\n      h(&quot;marquee&quot;, [\n        h(&quot;span&quot;, {&quot;style&quot;: &quot;font-weight: bold&quot;}, &quot;Hello&quot;), &quot;, &quot;,\n        h(&quot;blink&quot;, &quot;world&quot;), &quot;!&quot;,\n      ]),\n    );\n</code></pre>\nVery fast to first render, moderately slow on subsequent updates.<p>Prompted by the post on millionjs, which uses compiles user code to hit the same outrageously small size target.<p>Prompted by the post on millionjs, which uses compilation to hit the same outrageously small size target.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "bwhmather",
+    "url": "https://news.ycombinator.com/user?id=bwhmather"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32293880",
+  "sameAs": "https://github.com/bwhmather/bdc-js",
+  "dateCreated": "2022-07-31T07:23:57.777Z",
+  "datePublished": "2022-07-31T07:17:11.000Z",
+  "dateModified": "2022-07-31T07:23:57.777Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: BDC - 符合人体工程学的、小于1KiB的虚拟DOM库\n",
+  "headline_zh-Hant": "Show HN: BDC - 符合人體工程學的、小於1KiB的虛擬DOM庫\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "BDC is a simple library for updating the DOM to match a javascript description.\nDoes not require JSX or a compilation step.<p><pre><code> clobber(\n      document.body,\n      h(&quot;marquee&quot;, [\n        h(&quot;span&quot;, {&quot;style&quot;: &quot;font-weight: bold&quot;}, &quot;Hello&quot;), &quot;, &quot;,\n        h(&quot;blink&quot;, &quot;world&quot;), &quot;!&quot;,\n      ]),\n    );\n</code></pre>\nVery fast to first render, moderately slow on subsequent updates.<p>Prompted by the post on millionjs, which uses compiles user code to hit the same outrageously small size target.<p>Prompted by the post on millionjs, which uses compilation to hit the same outrageously small size target.\n",
+  "description_zh-Hant": "BDC is a simple library for updating the DOM to match a javascript description.\nDoes not require JSX or a compilation step.<p><pre><code> clobber(\n      document.body,\n      h(&quot;marquee&quot;, [\n        h(&quot;span&quot;, {&quot;style&quot;: &quot;font-weight: bold&quot;}, &quot;Hello&quot;), &quot;, &quot;,\n        h(&quot;blink&quot;, &quot;world&quot;), &quot;!&quot;,\n      ]),\n    );\n</code></pre>\nVery fast to first render, moderately slow on subsequent updates.<p>Prompted by the post on millionjs, which uses compiles user code to hit the same outrageously small size target.<p>Prompted by the post on millionjs, which uses compilation to hit the same outrageously small size target.\n"
+}
