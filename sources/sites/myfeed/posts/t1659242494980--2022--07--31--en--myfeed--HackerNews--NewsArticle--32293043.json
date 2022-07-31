@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32293043",
+  "url": "https://news.ycombinator.com/item?id=32293043",
+  "headline": "Atlassian Hardcoded a Password",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "taspeotis",
+    "url": "https://news.ycombinator.com/user?id=taspeotis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32293043",
+  "sameAs": "https://jira.atlassian.com/browse/CONFSERVER-79483",
+  "dateCreated": "2022-07-31T04:41:34.980Z",
+  "datePublished": "2022-07-31T03:59:52.000Z",
+  "dateModified": "2022-07-31T04:41:34.980Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "阿特拉斯公司硬编码的密码\n",
+  "headline_zh-Hant": "阿特拉斯公司硬編碼的密碼\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
