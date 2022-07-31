@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32297103",
+  "url": "https://news.ycombinator.com/item?id=32297103",
+  "headline": "Google, like Amazon, may let police see your video without a warrant",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "arkadiyt",
+    "url": "https://news.ycombinator.com/user?id=arkadiyt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32297103",
+  "sameAs": "https://www.theverge.com/2022/7/26/23279562/arlo-apple-wyze-eufy-google-ring-security-camera-foortage-warrant",
+  "dateCreated": "2022-07-31T17:55:48.078Z",
+  "datePublished": "2022-07-31T17:32:32.000Z",
+  "dateModified": "2022-07-31T17:55:48.078Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "谷歌和亚马逊一样，可能会让警察在没有搜查令的情况下看到你的视频\n",
+  "headline_zh-Hant": "谷歌和亞馬遜一樣，可能會讓警察在沒有搜查令的情況下看到你的視頻\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
