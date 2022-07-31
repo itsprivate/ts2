@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32299298",
+  "url": "https://news.ycombinator.com/item?id=32299298",
+  "headline": "Linux 5.19 – Linus Torvalds Released It from an Apple Silicon MacBook",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ah-",
+    "url": "https://news.ycombinator.com/user?id=ah-"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32299298",
+  "sameAs": "https://www.phoronix.com/news/Linux-5.19-Released",
+  "dateCreated": "2022-07-31T22:44:22.347Z",
+  "datePublished": "2022-07-31T22:04:45.000Z",
+  "dateModified": "2022-07-31T22:44:22.347Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Linux 5.19 - Linus Torvalds在苹果硅质MacBook上发布了它\n",
+  "headline_zh-Hant": "Linux 5.19 - Linus Torvalds在蘋果硅質MacBook上發佈了它\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
