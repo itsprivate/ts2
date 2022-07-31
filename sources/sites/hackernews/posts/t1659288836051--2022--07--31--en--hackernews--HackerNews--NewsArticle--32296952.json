@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--hackernews--HackerNews--NewsArticle--32296952",
+  "url": "https://news.ycombinator.com/item?id=32296952",
+  "headline": "LinkedIn is importing job postings it finds online onto company's profiles",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I work at a company that is not actively hiring, so imagine my surprise when I see 5+ job postings on my company's LinkedIn page.<p>It appears that LinkedIn is automatically importing job postings from other places on LinkedIn and other sites such as angel.co if the company name of the job posting matches your company name on LinkedIn.<p>After importing, the job postings will display your company logo, company description, profile pictures of your connections that already work there, etc, just like a real job posting. The &quot;Apply&quot; link redirects to the original job posting such as from angel.co.<p>The only reason I was able to tell these are not legitimate is because the descriptions of the posts clearly describe a different company.<p>So it seems to be a phishing opportunity is to create a profile on LinkedIn or angel.co with a company name that matches your target company. Write some job postings with descriptions that look like a job posting that the company would actually hire. And now those job postings will be reposted onto the official LinkedIn pages of the company, and applicants will be redirected to your phished webpage.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gurchik",
+    "url": "https://news.ycombinator.com/user?id=gurchik"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32296952",
+  "sameAs": "https://news.ycombinator.com/item?id=32296952",
+  "dateCreated": "2022-07-31T17:33:56.051Z",
+  "datePublished": "2022-07-31T17:07:48.000Z",
+  "dateModified": "2022-07-31T17:33:56.051Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "LinkedIn正在将其在网上找到的工作岗位导入公司的档案中。\n",
+  "headline_zh-Hant": "LinkedIn正在將其在網上找到的工作崗位導入公司的檔案中。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我在一家没有积极招聘的公司工作，所以当我在公司的LinkedIn页面上看到5个以上的招聘信息时，可以想象我的惊讶。<p>似乎LinkedIn正在自动从LinkedIn上的其他地方和其他网站（如angel.co）导入招聘信息，如果招聘信息的公司名称与你在LinkedIn上的公司名称一致的话。<p>导入后，招聘信息将显示你的公司标志、公司描述、你已经在那里工作的联系人的个人资料照片等，就像一个真正的招聘信息。<p>我之所以能看出这些都是不合法的，是因为这些帖子的描述清楚地描述了一个不同的公司。<p>因此，这似乎是一个钓鱼的机会，即在LinkedIn或angel.co上创建一个与你的目标公司名称相符的公司简介。写一些招聘信息，其描述看起来像该公司实际会雇用的招聘信息。而现在这些招聘信息将被转贴到该公司的LinkedIn官方网页上，求职者将被重定向到你的钓鱼网页上。\n",
+  "description_zh-Hant": "我在一家沒有積極招聘的公司工作，所以當我在公司的LinkedIn頁面上看到5個以上的招聘信息時，可以想象我的驚訝。<p>似乎LinkedIn正在自動從LinkedIn上的其他地方和其他網站（如angel.co）導入招聘信息，如果招聘信息的公司名稱與你在LinkedIn上的公司名稱一致的話。<p>導入後，招聘信息將顯示你的公司標誌、公司描述、你已經在那裡工作的聯繫人的個人資料照片等，就像一個真正的招聘信息。<p>我之所以能看出這些都是不合法的，是因為這些帖子的描述清楚地描述了一個不同的公司。<p>因此，這似乎是一個釣魚的機會，即在LinkedIn或angel.co上創建一個與你的目標公司名稱相符的公司簡介。寫一些招聘信息，其描述看起來像該公司實際會僱用的招聘信息。而現在這些招聘信息將被轉貼到該公司的LinkedIn官方網頁上，求職者將被重定向到你的釣魚網頁上。\n"
+}
