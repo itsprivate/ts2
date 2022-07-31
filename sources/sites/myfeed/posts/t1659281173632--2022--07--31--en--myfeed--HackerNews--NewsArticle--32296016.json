@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32296016",
+  "url": "https://news.ycombinator.com/item?id=32296016",
+  "headline": "Tweet Quine. Recursive URL",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "liberia",
+    "url": "https://news.ycombinator.com/user?id=liberia"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32296016",
+  "sameAs": "https://twitter.com/quinetweet/status/1309951041321013248",
+  "dateCreated": "2022-07-31T15:26:13.632Z",
+  "datePublished": "2022-07-31T15:07:48.000Z",
+  "dateModified": "2022-07-31T15:26:13.632Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "鸣叫Quine。递归URL\n",
+  "headline_zh-Hant": "鳴叫Quine。遞歸URL\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
