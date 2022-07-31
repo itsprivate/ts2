@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32298058",
+  "url": "https://news.ycombinator.com/item?id=32298058",
+  "headline": "Kubernetes Reinvented Virtual Machines (in a good sense)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "paulgb",
+    "url": "https://news.ycombinator.com/user?id=paulgb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32298058",
+  "sameAs": "https://iximiuz.com/en/posts/kubernetes-vs-virtual-machines/",
+  "dateCreated": "2022-07-31T19:42:37.578Z",
+  "datePublished": "2022-07-31T19:30:27.000Z",
+  "dateModified": "2022-07-31T19:42:37.578Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Kubernetes重塑了虚拟机（从好的方面讲）。\n",
+  "headline_zh-Hant": "Kubernetes重塑了虛擬機（從好的方面講）。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

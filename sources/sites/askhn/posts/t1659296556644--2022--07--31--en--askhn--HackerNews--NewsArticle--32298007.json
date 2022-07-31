@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--askhn--HackerNews--NewsArticle--32298007",
+  "url": "https://news.ycombinator.com/item?id=32298007",
+  "headline": "Ask HN: Does an equivalent of Clojure exist for .NET?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "- Knowing there is F#, which is not quite it, imho.\n- Knowing about ClojureCLR, which is not up to .Net 6.x as of today...",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "rawland",
+    "url": "https://news.ycombinator.com/user?id=rawland"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32298007",
+  "sameAs": "https://news.ycombinator.com/item?id=32298007",
+  "dateCreated": "2022-07-31T19:42:36.644Z",
+  "datePublished": "2022-07-31T19:22:39.000Z",
+  "dateModified": "2022-07-31T19:42:36.644Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: .NET是否存在相当于Clojure的东西？\n",
+  "headline_zh-Hant": "Ask HN: .NET是否存在相當於Clojure的東西？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "- 知道有F#，但据我所知，这还不是很好。\n- 知道有ClojureCLR，到今天为止，它还没有达到.Net 6.x的水平...\n",
+  "description_zh-Hant": "- 知道有F#，但據我所知，這還不是很好。\n- 知道有ClojureCLR，到今天為止，它還沒有達到.Net 6.x的水平...\n"
+}
