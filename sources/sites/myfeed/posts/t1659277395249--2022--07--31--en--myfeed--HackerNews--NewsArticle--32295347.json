@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32295347",
+  "url": "https://news.ycombinator.com/item?id=32295347",
+  "headline": "COMP.LANG.C",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "graderjs",
+    "url": "https://news.ycombinator.com/user?id=graderjs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32295347",
+  "sameAs": "https://usenetarchives.com/threads.php?id=comp.lang.c&y=0&r=0&p=1",
+  "dateCreated": "2022-07-31T14:23:15.249Z",
+  "datePublished": "2022-07-31T13:27:42.000Z",
+  "dateModified": "2022-07-31T14:23:15.249Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "COMP.LANG.C\n",
+  "headline_zh-Hant": "COMP.LANG.C\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
