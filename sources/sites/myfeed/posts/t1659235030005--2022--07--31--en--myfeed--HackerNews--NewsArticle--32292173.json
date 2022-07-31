@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32292173",
+  "url": "https://news.ycombinator.com/item?id=32292173",
+  "headline": "Claimed evidence for the ability to see colors not in the color space",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "xhrpost",
+    "url": "https://news.ycombinator.com/user?id=xhrpost"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32292173",
+  "sameAs": "https://en.wikipedia.org/wiki/Impossible_color",
+  "dateCreated": "2022-07-31T02:37:10.005Z",
+  "datePublished": "2022-07-31T01:17:48.000Z",
+  "dateModified": "2022-07-31T02:37:10.005Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "声称能看到不在颜色空间的颜色的证据\n",
+  "headline_zh-Hant": "聲稱能看到不在顏色空間的顏色的證據\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
