@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32296516",
+  "url": "https://news.ycombinator.com/item?id=32296516",
+  "headline": "Skrooge 2.28.0",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "HieronymusBosch",
+    "url": "https://news.ycombinator.com/user?id=HieronymusBosch"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32296516",
+  "sameAs": "https://skrooge.org/node/247",
+  "dateCreated": "2022-07-31T16:35:55.563Z",
+  "datePublished": "2022-07-31T16:10:23.000Z",
+  "dateModified": "2022-07-31T16:35:55.563Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "斯科罗格2.28.0\n",
+  "headline_zh-Hant": "斯科羅格2.28.0\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

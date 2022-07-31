@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--hackernews--HackerNews--NewsArticle--32296299",
+  "url": "https://news.ycombinator.com/item?id=32296299",
+  "headline": "The New Ghostscript PDF Interpreter",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "diskmuncher",
+    "url": "https://news.ycombinator.com/user?id=diskmuncher"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32296299",
+  "sameAs": "https://www.ghostscript.com/blog/pdfi.html",
+  "dateCreated": "2022-07-31T16:35:55.277Z",
+  "datePublished": "2022-07-31T15:40:44.000Z",
+  "dateModified": "2022-07-31T16:35:55.277Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "新的Ghostscript PDF解释器\n",
+  "headline_zh-Hant": "新的Ghostscript PDF解釋器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
