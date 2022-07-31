@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--hackernews--HackerNews--NewsArticle--32297501",
+  "url": "https://news.ycombinator.com/item?id=32297501",
+  "headline": "Instagram Scraping without APIs, no credentials required, Node.js (NPM) or PHP",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "orsifrancesco",
+    "url": "https://news.ycombinator.com/user?id=orsifrancesco"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32297501",
+  "sameAs": "https://orsi.me/instagram-without-api/",
+  "dateCreated": "2022-07-31T19:21:35.329Z",
+  "datePublished": "2022-07-31T18:23:24.000Z",
+  "dateModified": "2022-07-31T19:21:35.329Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 6
+    }
+  ],
+  "headline_zh-Hans": "不需要API，不需要证书，Node.js (NPM)或PHP的Instagram搜刮。\n",
+  "headline_zh-Hant": "不需要API，不需要證書，Node.js (NPM)或PHP的Instagram搜刮。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
