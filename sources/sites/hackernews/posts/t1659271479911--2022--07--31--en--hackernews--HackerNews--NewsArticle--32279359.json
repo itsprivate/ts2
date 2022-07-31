@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--hackernews--HackerNews--NewsArticle--32279359",
+  "url": "https://news.ycombinator.com/item?id=32279359",
+  "headline": "Dogelog player is a Prolog system for the JavaScript and the Python platform",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bryanrasmussen",
+    "url": "https://news.ycombinator.com/user?id=bryanrasmussen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32279359",
+  "sameAs": "http://www.xlog.ch/izytab/doclet/en/docs/23_products/05_dogelog/package.html",
+  "dateCreated": "2022-07-31T12:44:39.911Z",
+  "datePublished": "2022-07-29T17:01:43.000Z",
+  "dateModified": "2022-07-31T12:44:39.911Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Dogelog播放器是一个用于JavaScript和Python平台的Prolog系统。\n",
+  "headline_zh-Hant": "Dogelog播放器是一個用於JavaScript和Python平臺的Prolog系統。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
