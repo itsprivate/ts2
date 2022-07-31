@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32294290",
+  "url": "https://news.ycombinator.com/item?id=32294290",
+  "headline": "DOS/VS 5pack Release",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nix23",
+    "url": "https://news.ycombinator.com/user?id=nix23"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32294290",
+  "sameAs": "http://www.vm370.org/dos",
+  "dateCreated": "2022-07-31T10:45:44.513Z",
+  "datePublished": "2022-07-31T08:50:14.000Z",
+  "dateModified": "2022-07-31T10:45:44.513Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "DOS/VS 5包发布\n",
+  "headline_zh-Hant": "DOS/VS 5包發佈\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
