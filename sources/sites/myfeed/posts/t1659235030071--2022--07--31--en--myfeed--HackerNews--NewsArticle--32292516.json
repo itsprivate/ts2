@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32292516",
+  "url": "https://news.ycombinator.com/item?id=32292516",
+  "headline": "Bye Bye It's Finally the End of Life of Java 7",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "SudoSH",
+    "url": "https://news.ycombinator.com/user?id=SudoSH"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32292516",
+  "sameAs": "https://coderoasis.com/java-7-end-of-life/",
+  "dateCreated": "2022-07-31T02:37:10.071Z",
+  "datePublished": "2022-07-31T02:12:07.000Z",
+  "dateModified": "2022-07-31T02:37:10.071Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "再见，Java 7的生命终于结束了\n",
+  "headline_zh-Hant": "再見，Java 7的生命終於結束了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

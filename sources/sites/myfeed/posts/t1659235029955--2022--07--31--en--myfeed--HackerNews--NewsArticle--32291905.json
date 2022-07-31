@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--myfeed--HackerNews--NewsArticle--32291905",
+  "url": "https://news.ycombinator.com/item?id=32291905",
+  "headline": "WhatsApp: We won't lower security for any government",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "intunderflow",
+    "url": "https://news.ycombinator.com/user?id=intunderflow"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32291905",
+  "sameAs": "https://www.bbc.co.uk/news/technology-62291328",
+  "dateCreated": "2022-07-31T02:37:09.955Z",
+  "datePublished": "2022-07-31T00:43:04.000Z",
+  "dateModified": "2022-07-31T02:37:09.955Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "WhatsApp: 我们不会为任何政府降低安全性\n",
+  "headline_zh-Hant": "WhatsApp: 我們不會為任何政府降低安全性\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
