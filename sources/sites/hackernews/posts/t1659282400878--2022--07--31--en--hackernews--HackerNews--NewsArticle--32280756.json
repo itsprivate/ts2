@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--07--31--en--hackernews--HackerNews--NewsArticle--32280756",
+  "url": "https://news.ycombinator.com/item?id=32280756",
+  "headline": "Faked Crystallography",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mhb",
+    "url": "https://news.ycombinator.com/user?id=mhb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32280756",
+  "sameAs": "https://www.science.org/content/blog-post/faked-crystallography",
+  "dateCreated": "2022-07-31T15:46:40.878Z",
+  "datePublished": "2022-07-29T19:19:19.000Z",
+  "dateModified": "2022-07-31T15:46:40.878Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "伪造的晶体学\n",
+  "headline_zh-Hant": "偽造的晶體學\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
