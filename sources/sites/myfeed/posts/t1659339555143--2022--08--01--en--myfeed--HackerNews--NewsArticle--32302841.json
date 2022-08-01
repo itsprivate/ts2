@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--myfeed--HackerNews--NewsArticle--32302841",
+  "url": "https://news.ycombinator.com/item?id=32302841",
+  "headline": "Show HN: How to test whether a STUN/TURN server is working properly",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "A few days ago, I created a simple service for my WebRTC Project: <a href=\"https://github.com/miroslavpejic85/mirotalk\" rel=\"nofollow\">https://github.com/miroslavpejic85/mirotalk</a> to test if the STUN/TURN servers are working properly.<p>After installing and configuring a STUN/TURN server, most of the developers that are new to this stuff will ask themselves, how do I know if it's working properly?<p>So I made a snippet :)<p>```<p>&lt;!DOCTYPE html&gt;<p>&lt;html&gt;<p>&lt;head&gt;\n    &lt;title&gt;Test Stun/Turn Servers&lt;/title&gt;<p><pre><code>    &lt;meta charset=&quot;utf-8&quot; /&gt;\n    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;\n    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;</code></pre>\n&lt;/head&gt;<p>&lt;body&gt;\n    &lt;h1&gt;Test Ice Servers&lt;/h1&gt;<p><pre><code>    &lt;hr /&gt;\n\n    &lt;pre id='ice' style='overflow: auto'&gt;&lt;/pre&gt;\n\n    &lt;hr /&gt;\n\n    &lt;p id='ip'&gt;&lt;/p&gt;\n    &lt;p id='stun'&gt; The STUN server is NOT reachable!&lt;/p&gt;\n    &lt;p id='turn'&gt; The TURN server is NOT reachable!&lt;/p&gt;\n    &lt;p id='err'&gt;&lt;/p&gt;\n\n    &lt;hr /&gt;\n\n    &lt;script&gt;\n        const Ice = document.getElementById('ice');\n        const IP = document.getElementById('ip');\n        const Stun = document.getElementById('stun');\n        const Turn = document.getElementById('turn');\n        const Err = document.getElementById('err');\n\n        const iceServers = [\n            // Test some STUN server\n            {\n                urls: 'stun:stun.l.google.com:19302',\n            },\n            // Test some TURN server\n            {\n                urls: 'turn:turnUrl',\n                username: 'turnUsername',\n                credential: 'turnPassword',\n            },\n        ];\n\n        // Print iceServers config\n        Ice.innerHTML = JSON.stringify(iceServers, null, 4);\n\n        // Test the connections\n        const pc = new RTCPeerConnection({\n            iceServers\n        });\n\n        pc.onicecandidate = (e) =&gt; {\n            if (!e.candidate) return;\n\n            console.log(e.candidate.candidate);\n\n            // If a srflx candidate was found, notify that the STUN server works!\n            if (e.candidate.type == 'srflx' || e.candidate.candidate.includes('srflx')) {\n                let ip = /\\b\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\b/;\n                let address = e.candidate.address \n                    ? e.candidate.address \n                    : e.candidate.candidate.match(ip);\n                IP.innerHTML = ' Your Public IP Address is ' + address;\n                Stun.innerHTML = ' The STUN server is reachable!';\n            }\n\n            // If a relay candidate was found, notify that the TURN server works!\n            if (e.candidate.type == 'relay' || e.candidate.candidate.includes('relay')) {\n                Turn.innerHTML = ' The TURN server is reachable!';\n            }\n        };\n\n        // handle error\n        pc.onicecandidateerror = (e) =&gt; {\n            console.error(e);\n            Err.innerHTML = ' Error: ' + e.errorText;\n        };\n\n        pc.createDataChannel('test');\n        pc.createOffer().then(offer =&gt; pc.setLocalDescription(offer));\n    &lt;/script&gt;\n</code></pre>\n&lt;/body&gt;<p>&lt;/html&gt;<p>```<p>Alternative to <a href=\"https://webrtc.github.io/samples/src/content/peerconnection/trickle-ice/\" rel=\"nofollow\">https://webrtc.github.io/samples/src/content/peerconnection/...</a><p>Ref: <a href=\"https://www.reddit.com/r/selfhosted/comments/wayiev/how_to_test_whether_a_stunturn_server_is_working/\" rel=\"nofollow\">https://www.reddit.com/r/selfhosted/comments/wayiev/how_to_t...</a><p>I hope it will be useful to someone.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mp85",
+    "url": "https://news.ycombinator.com/user?id=mp85"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32302841",
+  "sameAs": "https://p2p.mirotalk.com//test?iceServers=[{%22urls%22:%22stun:stun.l.google.com:19302%22},{%22urls%22:%22turn:openrelay.metered.ca:443%22,%22username%22:%22openrelayproject%22,%22credential%22:%22openrelayproject%22}]",
+  "dateCreated": "2022-08-01T07:39:15.143Z",
+  "datePublished": "2022-08-01T06:45:41.000Z",
+  "dateModified": "2022-08-01T07:39:15.143Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 如何测试STUN/TURN服务器是否正常工作\n",
+  "headline_zh-Hant": "Show HN: 如何測試STUN/TURN服務器是否正常工作\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "A few days ago, I created a simple service for my WebRTC Project: <a href=\"https://github.com/miroslavpejic85/mirotalk\" rel=\"nofollow\">https://github.com/miroslavpejic85/mirotalk</a> to test if the STUN/TURN servers are working properly.<p>After installing and configuring a STUN/TURN server, most of the developers that are new to this stuff will ask themselves, how do I know if it's working properly?<p>So I made a snippet :)<p>```<p>&lt;!DOCTYPE html&gt;<p>&lt;html&gt;<p>&lt;head&gt;\n    &lt;title&gt;Test Stun/Turn Servers&lt;/title&gt;<p><pre><code> &lt;meta charset=&quot;utf-8&quot; /&gt;\n    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;\n    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;</code></pre>\n&lt;/head&gt;<p>&lt;body&gt;\n    &lt;h1&gt;Test Ice Servers&lt;/h1&gt;<p><pre><code> &lt;hr /&gt;\n\n    &lt;pre id='ice' style='overflow: auto'&gt;&lt;/pre&gt;\n\n    &lt;hr /&gt;\n\n    &lt;p id='ip'&gt;&lt;/p&gt;\n    &lt;p id='stun'&gt; The STUN server is NOT reachable!&lt;/p&gt;\n    &lt;p id='turn'&gt; The TURN server is NOT reachable!&lt;/p&gt;\n    &lt;p id='err'&gt;&lt;/p&gt;\n\n    &lt;hr /&gt;\n\n    &lt;script&gt;\n        const Ice = document.getElementById('ice');\n        const IP = document.getElementById('ip');\n        const Stun = document.getElementById('stun');\n        const Turn = document.getElementById('turn');\n        const Err = document.getElementById('err');\n\n        const iceServers = [...\n            // 测试一些STUN服务器\n            {\n                urls: 'stud:stud.l.google.com:19302'。\n            },\n            // 测试一些TURN服务器\n            {\n                urls: 'turn:turnUrl',\n                username: 'turnUsername',\n                credential: 'turnPassword',\n            },\n        ];\n\n        // 打印iceServers的配置\n        Ice.innerHTML = JSON.stringify(iceServers, null, 4);\n\n        // 测试连接\n        const pc = new RTCPeerConnection({\n            iceServers\n        });\n\n        pc.onicecandidate = (e) =&gt; {\n            if (!e.candidate) return;\n\n            console.log(e.candidate.candidate)。\n\n            // 如果找到了一个srflx候选者，通知STUN服务器工作!\n            如果(e.candidate.type == 'srflx' || e.candidate.candidate.includes('srflx')) {\n                let ip = /b\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\b/;\n                let address = e.candidate.address \n                    ? e.candid.address \n                    : e.candidate.compare(ip)。\n                IP.innerHTML = '你的公共IP地址是' + address;\n                Stun.innerHTML = ' STUN服务器可以到达！' 。\n            }\n\n            // 如果找到了一个中继候选者，通知TURN服务器可以正常工作!\n            如果(e.candidate.type == 'relay'|| e.candidate.candidate.includes('relay')) {\n                Turn.innerHTML = ' The TURN server is reachable!' 。\n            }\n        };\n\n        // 处理错误\n        pc.onicecandidateerror = (e) =&gt; {\n            console.error(e);\n            Err.innerHTML = ' Error: ' + e.errorText;\n        };\n\n        pc.createDataChannel('test')。\n        pc.createOffer().then(offer =&gt; pc.setLocalDescription(offer))。\n    &lt;/script&gt;\n</code></pre>\n&lt;/body&gt;<p>&lt;/html&gt;<p>```<p>Alternative to <a href=\"https://webrtc.github.io/samples/src/content/peerconnection/trickle-ice/\" rel=\"nofollow\">https://webrtc.github.io/samples/src/content/peerconnection/...</a><p>Ref: <a href=\"https://www.reddit.com/r/selfhosted/comments/wayiev/how_to_test_whether_a_stunturn_server_is_working/\" rel=\"nofollow\">https://www.reddit.com/r/selfhosted/comments/wayiev/how_to_t...</a><p>I hope it will be useful to someone.\n",
+  "description_zh-Hant": "A few days ago, I created a simple service for my WebRTC Project: <a href=\"https://github.com/miroslavpejic85/mirotalk\" rel=\"nofollow\">https://github.com/miroslavpejic85/mirotalk</a> to test if the STUN/TURN servers are working properly.<p>After installing and configuring a STUN/TURN server, most of the developers that are new to this stuff will ask themselves, how do I know if it's working properly?<p>So I made a snippet :)<p>```<p>&lt;!DOCTYPE html&gt;<p>&lt;html&gt;<p>&lt;head&gt;\n    &lt;title&gt;Test Stun/Turn Servers&lt;/title&gt;<p><pre><code> &lt;meta charset=&quot;utf-8&quot; /&gt;\n    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;\n    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;</code></pre>\n&lt;/head&gt;<p>&lt;body&gt;\n    &lt;h1&gt;Test Ice Servers&lt;/h1&gt;<p><pre><code> &lt;hr /&gt;\n\n    &lt;pre id='ice' style='overflow: auto'&gt;&lt;/pre&gt;\n\n    &lt;hr /&gt;\n\n    &lt;p id='ip'&gt;&lt;/p&gt;\n    &lt;p id='stun'&gt; The STUN server is NOT reachable!&lt;/p&gt;\n    &lt;p id='turn'&gt; The TURN server is NOT reachable!&lt;/p&gt;\n    &lt;p id='err'&gt;&lt;/p&gt;\n\n    &lt;hr /&gt;\n\n    &lt;script&gt;\n        const Ice = document.getElementById('ice');\n        const IP = document.getElementById('ip');\n        const Stun = document.getElementById('stun');\n        const Turn = document.getElementById('turn');\n        const Err = document.getElementById('err');\n\n        const iceServers = [...\n            // 測試一些STUN服務器\n            {\n                urls: 'stud:stud.l.google.com:19302'。\n            },\n            // 測試一些TURN服務器\n            {\n                urls: 'turn:turnUrl',\n                username: 'turnUsername',\n                credential: 'turnPassword',\n            },\n        ];\n\n        // 打印iceServers的配置\n        Ice.innerHTML = JSON.stringify(iceServers, null, 4);\n\n        // 測試連接\n        const pc = new RTCPeerConnection({\n            iceServers\n        });\n\n        pc.onicecandidate = (e) =&gt; {\n            if (!e.candidate) return;\n\n            console.log(e.candidate.candidate)。\n\n            // 如果找到了一個srflx候選者，通知STUN服務器工作!\n            如果(e.candidate.type == 'srflx' || e.candidate.candidate.includes('srflx')) {\n                let ip = /b\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\b/;\n                let address = e.candidate.address \n                    ? e.candid.address \n                    : e.candidate.compare(ip)。\n                IP.innerHTML = '你的公共IP地址是' + address;\n                Stun.innerHTML = ' STUN服務器可以到達！' 。\n            }\n\n            // 如果找到了一箇中繼候選者，通知TURN服務器可以正常工作!\n            如果(e.candidate.type == 'relay'|| e.candidate.candidate.includes('relay')) {\n                Turn.innerHTML = ' The TURN server is reachable!' 。\n            }\n        };\n\n        // 處理錯誤\n        pc.onicecandidateerror = (e) =&gt; {\n            console.error(e);\n            Err.innerHTML = ' Error: ' + e.errorText;\n        };\n\n        pc.createDataChannel('test')。\n        pc.createOffer().then(offer =&gt; pc.setLocalDescription(offer))。\n    &lt;/script&gt;\n</code></pre>\n&lt;/body&gt;<p>&lt;/html&gt;<p>```<p>Alternative to <a href=\"https://webrtc.github.io/samples/src/content/peerconnection/trickle-ice/\" rel=\"nofollow\">https://webrtc.github.io/samples/src/content/peerconnection/...</a><p>Ref: <a href=\"https://www.reddit.com/r/selfhosted/comments/wayiev/how_to_test_whether_a_stunturn_server_is_working/\" rel=\"nofollow\">https://www.reddit.com/r/selfhosted/comments/wayiev/how_to_t...</a><p>I hope it will be useful to someone.\n"
+}

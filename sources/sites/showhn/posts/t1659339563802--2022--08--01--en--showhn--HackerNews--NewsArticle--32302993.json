@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--showhn--HackerNews--NewsArticle--32302993",
+  "url": "https://news.ycombinator.com/item?id=32302993",
+  "headline": "Show HN: API Gateway with SQL support, written in Go",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi, We have been working on APIVault, which is an API Gateway that supports MySQL, PostgreSQL and Microsoft SQL Server.<p>Written fully in Go (not just some NGINX proxy like Kong), we have a &quot;protect&quot; mode which defends OTP/SMS endpoints against DoS attacks (which can drain a company's SMS credits)<p>Kubernetes Ingress support is in the works.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "muhammadn",
+    "url": "https://news.ycombinator.com/user?id=muhammadn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32302993",
+  "sameAs": "https://github.com/flitnetics/APIVault",
+  "dateCreated": "2022-08-01T07:39:23.802Z",
+  "datePublished": "2022-08-01T07:11:23.000Z",
+  "dateModified": "2022-08-01T07:39:23.802Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 支持SQL的API网关，用Go编写\n",
+  "headline_zh-Hant": "Show HN: 支持SQL的API網關，用Go編寫\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你好，我们一直在开发APIVault，这是一个支持MySQL、PostgreSQL和Microsoft SQL Server的API网关。<p>完全用Go编写（而不是像Kong那样的一些NGINX代理），我们有一个&quot;保护&quot;模式，可以防御OTP/SMS端点的DoS攻击（可以耗尽公司的SMS点数）<p>Kubernetes Ingress支持正在进行。\n",
+  "description_zh-Hant": "你好，我們一直在開發APIVault，這是一個支持MySQL、PostgreSQL和Microsoft SQL Server的API網關。<p>完全用Go編寫（而不是像Kong那樣的一些NGINX代理），我們有一個&quot;保護&quot;模式，可以防禦OTP/SMS端點的DoS攻擊（可以耗盡公司的SMS點數）<p>Kubernetes Ingress支持正在進行。\n"
+}
