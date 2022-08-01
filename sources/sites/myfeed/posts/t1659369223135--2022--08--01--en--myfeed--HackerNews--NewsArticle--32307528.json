@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--07--30--en--myfeed--HackerNews--NewsArticle--32284661",
-  "url": "https://news.ycombinator.com/item?id=32284661",
-  "headline": "Emulating a big-endian s390x with QEMU",
+  "identifier": "2022--08--01--en--myfeed--HackerNews--NewsArticle--32307528",
+  "url": "https://news.ycombinator.com/item?id=32307528",
+  "headline": "30% Optimization of DateTime.GetDate()/.Year/.Month/.Day/.DayOfYear",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,14 +13,14 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "robin_reala",
-    "url": "https://news.ycombinator.com/user?id=robin_reala"
+    "name": "danieldiazas",
+    "url": "https://news.ycombinator.com/user?id=danieldiazas"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32284661",
-  "sameAs": "https://til.simonwillison.net/docker/emulate-s390x-with-qemu",
-  "dateCreated": "2022-07-30T07:56:05.236Z",
-  "datePublished": "2022-07-30T06:05:54.000Z",
-  "dateModified": "2022-07-30T07:56:05.236Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32307528",
+  "sameAs": "https://github.com/dotnet/runtime/pull/72712",
+  "dateCreated": "2022-08-01T15:53:43.135Z",
+  "datePublished": "2022-08-01T15:34:45.000Z",
+  "dateModified": "2022-08-01T15:53:43.135Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
@@ -34,11 +34,11 @@
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 1
     }
   ],
-  "headline_zh-Hans": "用QEMU模拟一个大面值的S390x\n",
-  "headline_zh-Hant": "用QEMU模擬一個大面值的S390x\n",
+  "headline_zh-Hans": "对DateTime.GetDate()/.Year/.Month/.Day/.DayOfYear进行30%的优化。\n",
+  "headline_zh-Hant": "對DateTime.GetDate()/.Year/.Month/.Day/.DayOfYear進行30%的優化。\n",
   "@context": [
     "https://schema.org",
     {
