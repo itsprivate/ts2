@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--askhn--HackerNews--NewsArticle--32312453",
+  "url": "https://news.ycombinator.com/item?id=32312453",
+  "headline": "Ask HN: Does LTS Linux still make sense?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Most of my team's remaining deployment issue come from dealing with different versions of Linux distributions. Do rolling release distributions make more sense / work better now than in the past?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "indymike",
+    "url": "https://news.ycombinator.com/user?id=indymike"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32312453",
+  "sameAs": "https://news.ycombinator.com/item?id=32312453",
+  "dateCreated": "2022-08-01T22:00:00.034Z",
+  "datePublished": "2022-08-01T21:46:53.000Z",
+  "dateModified": "2022-08-01T22:00:00.034Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: LTS Linux仍然有意义吗？\n",
+  "headline_zh-Hant": "Ask HN: LTS Linux仍然有意義嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我的团队剩下的大部分部署问题都来自于处理不同版本的Linux发行版。与过去相比，现在的滚动发布版本是否更有意义/效果更好？\n",
+  "description_zh-Hant": "我的團隊剩下的大部分部署問題都來自於處理不同版本的Linux發行版。與過去相比，現在的滾動發佈版本是否更有意義/效果更好？\n"
+}
