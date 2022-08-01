@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--myfeed--HackerNews--NewsArticle--32301513",
+  "url": "https://news.ycombinator.com/item?id=32301513",
+  "headline": "Parts of the moon have stable temperatures fit for humans, researchers find",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mooreds",
+    "url": "https://news.ycombinator.com/user?id=mooreds"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32301513",
+  "sameAs": "https://text.npr.org/1114709619",
+  "dateCreated": "2022-08-01T04:24:31.441Z",
+  "datePublished": "2022-08-01T03:08:44.000Z",
+  "dateModified": "2022-08-01T04:24:31.441Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "研究人员发现，月球的某些部分具有适合人类的稳定温度\n",
+  "headline_zh-Hant": "研究人員發現，月球的某些部分具有適合人類的穩定溫度\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--myfeed--HackerNews--NewsArticle--32301193",
+  "url": "https://news.ycombinator.com/item?id=32301193",
+  "headline": "Donald Knuth: Algorithms, Complexity and the Art of Computer Programming [video]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "paulpauper",
+    "url": "https://news.ycombinator.com/user?id=paulpauper"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32301193",
+  "sameAs": "https://www.youtube.com/watch?v=2BdBfsXbST8",
+  "dateCreated": "2022-08-01T04:24:31.365Z",
+  "datePublished": "2022-08-01T02:19:58.000Z",
+  "dateModified": "2022-08-01T04:24:31.365Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "唐纳德-克努斯。算法、复杂性和计算机编程的艺术[视频］\n",
+  "headline_zh-Hant": "唐納德-克努斯。算法、複雜性和計算機編程的藝術[視頻］\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
