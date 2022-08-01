@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--showhn--HackerNews--NewsArticle--32309905",
+  "url": "https://news.ycombinator.com/item?id=32309905",
+  "headline": "Show HN: Lightweight Data Quality checks with Hamilton & Pandera",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Who needs Deequ or Great Expectations? A lightweight and straightforward way to add data quality to Pandas - use Pandera + Hamilton.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "krawczstef",
+    "url": "https://news.ycombinator.com/user?id=krawczstef"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32309905",
+  "sameAs": "https://github.com/stitchfix/hamilton/tree/main/examples/data_quality/pandera",
+  "dateCreated": "2022-08-01T18:35:54.997Z",
+  "datePublished": "2022-08-01T18:06:59.000Z",
+  "dateModified": "2022-08-01T18:35:54.997Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 用汉密尔顿和潘德拉进行轻量级数据质量检查\n",
+  "headline_zh-Hant": "Show HN: 用漢密爾頓和潘德拉進行輕量級數據質量檢查\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "谁需要Deequ或Great Expectations？一个轻量级的、直接的方法来为Pandas添加数据质量--使用Pandera + Hamilton。\n",
+  "description_zh-Hant": "誰需要Deequ或Great Expectations？一個輕量級的、直接的方法來為Pandas添加數據質量--使用Pandera + Hamilton。\n"
+}
