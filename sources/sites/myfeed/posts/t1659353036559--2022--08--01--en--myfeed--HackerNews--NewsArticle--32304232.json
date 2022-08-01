@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--myfeed--HackerNews--NewsArticle--32304232",
+  "url": "https://news.ycombinator.com/item?id=32304232",
+  "headline": "Running untrusted JavaScript code in simple, fast (~20ms) & safe manner",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We recently had to solve the challenge of executing untrusted code (from users and 3rd-party extension developers) and eventually ended up with this fast and completely stateless service at which we can throw any script and context with nothing more than a simple request.<p>Not only can get the result back (whatever the script returns), but also allow for outbound requests via a custom fetch implementation, which further allows scripts for making pre-authenticated requests to our own product API, but also to those of other products people have linked to their account. All without exposing the actual access tokens, or course.<p>Would anyone be interested in using such a service? And for those who already solved this themselves, what's your way of running untrusted code (from users or extension developers) in a fast &amp; secure manner?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cheerioty",
+    "url": "https://news.ycombinator.com/user?id=cheerioty"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32304232",
+  "sameAs": "https://news.ycombinator.com/item?id=32304232",
+  "dateCreated": "2022-08-01T11:23:56.559Z",
+  "datePublished": "2022-08-01T10:51:45.000Z",
+  "dateModified": "2022-08-01T11:23:56.559Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "以简单、快速（~20ms）和安全的方式运行不受信任的JavaScript代码\n",
+  "headline_zh-Hant": "以簡單、快速（~20ms）和安全的方式運行不受信任的JavaScript代碼\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们最近不得不解决执行不受信任的代码（来自用户和第三方扩展开发者）的难题，最终得到了这个快速且完全无状态的服务，我们可以向其抛出任何脚本和上下文，只需一个简单的请求。<p>不仅可以得到结果（无论脚本返回什么），而且还允许通过自定义的fetch实现向外请求，这进一步允许脚本对我们自己的产品API进行预先认证的请求，也可以对人们链接到其账户的其他产品的API进行预先认证。所有这些都不需要暴露实际的访问令牌，或者当然。<p>有人对使用这样的服务感兴趣吗？对于那些已经自己解决了这个问题的人来说，你有什么办法以快速和安全的方式运行不受信任的代码（来自用户或扩展开发人员）？\n",
+  "description_zh-Hant": "我們最近不得不解決執行不受信任的代碼（來自用戶和第三方擴展開發者）的難題，最終得到了這個快速且完全無狀態的服務，我們可以向其拋出任何腳本和上下文，只需一個簡單的請求。<p>不僅可以得到結果（無論腳本返回什麼），而且還允許通過自定義的fetch實現向外請求，這進一步允許腳本對我們自己的產品API進行預先認證的請求，也可以對人們鏈接到其賬戶的其他產品的API進行預先認證。所有這些都不需要暴露實際的訪問令牌，或者當然。<p>有人對使用這樣的服務感興趣嗎？對於那些已經自己解決了這個問題的人來說，你有什麼辦法以快速和安全的方式運行不受信任的代碼（來自用戶或擴展開發人員）？\n"
+}
