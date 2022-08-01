@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--askhn--HackerNews--NewsArticle--32306650",
+  "url": "https://news.ycombinator.com/item?id=32306650",
+  "headline": "Ask HN: How to serve a single JavaScript file fast around the globe?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We have a single JS bundle file that websites around the world used.<p>We want to ensure that the JS file doesn't increase loading times significantly no matter where it's requested from the world.<p>Which solution would you recommend?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "farouqaldori",
+    "url": "https://news.ycombinator.com/user?id=farouqaldori"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32306650",
+  "sameAs": "https://news.ycombinator.com/item?id=32306650",
+  "dateCreated": "2022-08-01T14:45:05.081Z",
+  "datePublished": "2022-08-01T14:42:52.000Z",
+  "dateModified": "2022-08-01T14:45:05.081Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何在全球范围内快速提供一个单一的JavaScript文件？\n",
+  "headline_zh-Hant": "Ask HN: 如何在全球範圍內快速提供一個單一的JavaScript文件？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们有一个单一的JS捆绑文件，世界各地的网站都在使用。<p>我们希望确保该JS文件无论从世界何处被请求，都不会显著增加加载时间。<p>您推荐哪种解决方案？\n",
+  "description_zh-Hant": "我們有一個單一的JS捆綁文件，世界各地的網站都在使用。<p>我們希望確保該JS文件無論從世界何處被請求，都不會顯著增加加載時間。<p>您推薦哪種解決方案？\n"
+}
