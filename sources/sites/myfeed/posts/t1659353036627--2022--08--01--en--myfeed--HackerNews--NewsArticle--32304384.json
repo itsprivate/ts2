@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--myfeed--HackerNews--NewsArticle--32304384",
+  "url": "https://news.ycombinator.com/item?id=32304384",
+  "headline": "He’s Baseball’s Only Mud Supplier. It’s a Job He May Soon Lose",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mooreds",
+    "url": "https://news.ycombinator.com/user?id=mooreds"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32304384",
+  "sameAs": "https://www.nytimes.com/2022/07/26/sports/baseball/baseball-mud-supplier.html",
+  "dateCreated": "2022-08-01T11:23:56.627Z",
+  "datePublished": "2022-08-01T11:13:42.000Z",
+  "dateModified": "2022-08-01T11:23:56.627Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "他是棒球的唯一泥浆供应商。这是他可能很快就会失去的工作\n",
+  "headline_zh-Hant": "他是棒球的唯一泥漿供應商。這是他可能很快就會失去的工作\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
