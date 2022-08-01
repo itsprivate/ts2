@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--askhn--HackerNews--NewsArticle--32303643",
+  "url": "https://news.ycombinator.com/item?id=32303643",
+  "headline": "Ask HN: Is there a way to solve this using Maths?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Say, I have this following relation:<p>output_value = (V0, V1, ..., Vn)<p>The output_value depends on the input values V0...Vn such that some values when reduced may increase the output_value, and some values when increased may decrease the output_value. On the otherhand, increasing some values may increase the output_value, and decreasing some values may decrease the output_value.<p>Each Vk value depends on two values Vk_X and Vk_Y. The change in these various Vk_X and Vk_Y values determine the value of Vk and hence affect the final output_value.<p>A very crude hypothetical example, where there is only one input value V0, could be:<p>pay_per_employee(V0) = profit(V0_X) / number_of_employees(V0_Y)<p>productivity = pay_per_employee<p>(There could be many values Vk that might affect the final productivity value, but I have shown just one value)<p>Other real-world example could be calculating credit score.<p>Is it possible to mathematically represent this type of relationship of multiple input values on the final output value? If yes, then what field of mathematics does this fall under?<p>Also, is there a way in mathematics to avoid divide-by-zero errors in equations?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "m33k44",
+    "url": "https://news.ycombinator.com/user?id=m33k44"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32303643",
+  "sameAs": "https://news.ycombinator.com/item?id=32303643",
+  "dateCreated": "2022-08-01T09:29:50.916Z",
+  "datePublished": "2022-08-01T09:16:19.000Z",
+  "dateModified": "2022-08-01T09:29:50.916Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 有什么方法可以用数学来解决这个问题吗？\n",
+  "headline_zh-Hant": "Ask HN: 有什麼方法可以用數學來解決這個問題嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "例如，我有以下关系：<p>output_value = (V0, V1, ..., Vn)<p>output_value取决于输入值V0...Vn，这样，有些值减少时可能会增加output_value，而有些值增加时可能会减少output_value。<p>每个Vk值取决于两个值Vk_X和Vk_Y。这些不同的Vk_X和Vk_Y值的变化决定了Vk的值，从而影响最终的输出_值。 <p>一个非常粗略的假设性例子，即只有一个输入值V0，可以是：<p>per_employee(V0) = profit(V0_X) / number_of_employees(V0_Y)<p>productivity = pay_per_employee<p>（可能有许多值Vk可能影响最终的生产力值，但我只显示了一个值）<p>其他现实世界的例子可以是计算信用分数。 <p>是否有可能用数学来表示这种多个输入值对最终输出值的关系？如果可以，那么这属于数学的哪个领域？<p>另外，数学中是否有办法避免方程中的除以零错误？\n",
+  "description_zh-Hant": "例如，我有以下關係：<p>output_value = (V0, V1, ..., Vn)<p>output_value取決於輸入值V0...Vn，這樣，有些值減少時可能會增加output_value，而有些值增加時可能會減少output_value。<p>每個Vk值取決於兩個值Vk_X和Vk_Y。這些不同的Vk_X和Vk_Y值的變化決定了Vk的值，從而影響最終的輸出_值。 <p>一個非常粗略的假設性例子，即只有一個輸入值V0，可以是：<p>per_employee(V0) = profit(V0_X) / number_of_employees(V0_Y)<p>productivity = pay_per_employee<p>（可能有許多值Vk可能影響最終的生產力值，但我只顯示了一個值）<p>其他現實世界的例子可以是計算信用分數。 <p>是否有可能用數學來表示這種多個輸入值對最終輸出值的關係？如果可以，那麼這屬於數學的哪個領域？<p>另外，數學中是否有辦法避免方程中的除以零錯誤？\n"
+}
