@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--showhn--HackerNews--NewsArticle--32307619",
+  "url": "https://news.ycombinator.com/item?id=32307619",
+  "headline": "Show HN: ProxSNI, a transparent HTTPS tunnel for self-hosters",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm self-hosting my stuff, and pay dearly for a fixed IP from my ISP. Either you do that, or you rent a VPS and set up a somewhat complicated scheme to forward traffic to your home, or maybe you feel like giving Cloudflare access to all your files on the way to you [1]. Maybe that's too much, and you change again to a VPS setup.<p>Well I felt like an option was missing: An SNI-sniffing reverse proxy. That's exactly what ProxSNI [2] is.<p>Using the open-source (!) client, all HTTP and HTTPS traffic is forwarded to you, without breaking any encryption (since SNI was never encrypted in the first place). That means your traffic is always yours, and ProxSNI just forwards it to you. You are in charge of getting a domain and setting up your server at home, we just send you your traffic.<p>Where other mail men in this area will open your letter to make sure nothing bad is inside, we simply read the address on the envelope and deliver it, and put some pride in letting you decide what's best for you.<p>I hope you'll try our service free of charge for the duration of this beta-launch.<p>[1] <a href=\"https://news.ycombinator.com/item?id=30443178\" rel=\"nofollow\">https://news.ycombinator.com/item?id=30443178</a>\n[2] <a href=\"https://proxsni.com\" rel=\"nofollow\">https://proxsni.com</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "TrostN",
+    "url": "https://news.ycombinator.com/user?id=TrostN"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32307619",
+  "sameAs": "https://proxsni.com/?hn",
+  "dateCreated": "2022-08-01T15:54:00.408Z",
+  "datePublished": "2022-08-01T15:39:55.000Z",
+  "dateModified": "2022-08-01T15:54:00.408Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: ProxSNI，一个为自营商提供的透明HTTPS隧道\n",
+  "headline_zh-Hant": "Show HN: ProxSNI，一個為自營商提供的透明HTTPS隧道\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "I'm self-hosting my stuff, and pay dearly for a fixed IP from my ISP. Either you do that, or you rent a VPS and set up a somewhat complicated scheme to forward traffic to your home, or maybe you feel like giving Cloudflare access to all your files on the way to you [1]. Maybe that's too much, and you change again to a VPS setup.<p>Well I felt like an option was missing: An SNI-sniffing reverse proxy. That's exactly what ProxSNI [2] is.<p>Using the open-source (!) client, all HTTP and HTTPS traffic is forwarded to you, without breaking any encryption (since SNI was never encrypted in the first place). That means your traffic is always yours, and ProxSNI just forwards it to you. You are in charge of getting a domain and setting up your server at home, we just send you your traffic.<p>Where other mail men in this area will open your letter to make sure nothing bad is inside, we simply read the address on the envelope and deliver it, and put some pride in letting you decide what's best for you.<p>I hope you'll try our service free of charge for the duration of this beta-launch.<p>[1] <a href=\"https://news.ycombinator.com/item?id=30443178\" rel=\"nofollow\">https://news.ycombinator.com/item?id=30443178</a>\n[2] <a href=\"https://proxsni.com\" rel=\"nofollow\">https://proxsni.com</a>\n",
+  "description_zh-Hant": "I'm self-hosting my stuff, and pay dearly for a fixed IP from my ISP. Either you do that, or you rent a VPS and set up a somewhat complicated scheme to forward traffic to your home, or maybe you feel like giving Cloudflare access to all your files on the way to you [1]. Maybe that's too much, and you change again to a VPS setup.<p>Well I felt like an option was missing: An SNI-sniffing reverse proxy. That's exactly what ProxSNI [2] is.<p>Using the open-source (!) client, all HTTP and HTTPS traffic is forwarded to you, without breaking any encryption (since SNI was never encrypted in the first place). That means your traffic is always yours, and ProxSNI just forwards it to you. You are in charge of getting a domain and setting up your server at home, we just send you your traffic.<p>Where other mail men in this area will open your letter to make sure nothing bad is inside, we simply read the address on the envelope and deliver it, and put some pride in letting you decide what's best for you.<p>I hope you'll try our service free of charge for the duration of this beta-launch.<p>[1] <a href=\"https://news.ycombinator.com/item?id=30443178\" rel=\"nofollow\">https://news.ycombinator.com/item?id=30443178</a>\n[2] <a href=\"https://proxsni.com\" rel=\"nofollow\">https://proxsni.com</a>\n"
+}
