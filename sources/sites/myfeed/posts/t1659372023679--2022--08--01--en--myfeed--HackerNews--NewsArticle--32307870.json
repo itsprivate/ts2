@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--myfeed--HackerNews--NewsArticle--32307870",
+  "url": "https://news.ycombinator.com/item?id=32307870",
+  "headline": "Cornell Course on Raspberry Pi Pico",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vha3",
+    "url": "https://news.ycombinator.com/user?id=vha3"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32307870",
+  "sameAs": "https://ece4760.github.io",
+  "dateCreated": "2022-08-01T16:40:23.679Z",
+  "datePublished": "2022-08-01T15:54:09.000Z",
+  "dateModified": "2022-08-01T16:40:23.679Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "康奈尔大学关于树莓派Pico的课程\n",
+  "headline_zh-Hant": "康奈爾大學關於樹莓派Pico的課程\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
