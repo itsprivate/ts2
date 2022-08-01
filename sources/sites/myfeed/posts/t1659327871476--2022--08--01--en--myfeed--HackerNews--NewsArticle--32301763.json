@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--myfeed--HackerNews--NewsArticle--32301763",
+  "url": "https://news.ycombinator.com/item?id=32301763",
+  "headline": "Caesar's Gallic Wars – Interactive Map and Timeline",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nonoumasy",
+    "url": "https://news.ycombinator.com/user?id=nonoumasy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32301763",
+  "sameAs": "https://history-maps.com/story/Gallic-Wars",
+  "dateCreated": "2022-08-01T04:24:31.476Z",
+  "datePublished": "2022-08-01T03:40:49.000Z",
+  "dateModified": "2022-08-01T04:24:31.476Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "凯撒的高卢战役--交互式地图和时间线\n",
+  "headline_zh-Hant": "凱撒的高盧戰役--交互式地圖和時間線\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
