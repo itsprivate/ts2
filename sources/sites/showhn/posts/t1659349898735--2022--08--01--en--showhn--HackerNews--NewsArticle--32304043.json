@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--showhn--HackerNews--NewsArticle--32304043",
+  "url": "https://news.ycombinator.com/item?id=32304043",
+  "headline": "Show HN: Lightweight yet powerful IT automation tool",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Automatdeck agent is a simple lightweight IT automation tool for your workflows, tickets and deployments which can be triggered on demand via REST API.<p>It allows you to manage your automation in a simple intuitive yet powerful configuration syntax which is quite similar to gitlab ci/cd or github actions.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "automatdeck",
+    "url": "https://news.ycombinator.com/user?id=automatdeck"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32304043",
+  "sameAs": "https://github.com/kheshav/automatdeck-agent",
+  "dateCreated": "2022-08-01T10:31:38.735Z",
+  "datePublished": "2022-08-01T10:24:41.000Z",
+  "dateModified": "2022-08-01T10:31:38.735Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 轻量级但功能强大的IT自动化工具\n",
+  "headline_zh-Hant": "Show HN: 輕量級但功能強大的IT自動化工具\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Automatdeck代理是一个简单的轻量级IT自动化工具，适用于您的工作流程、票据和部署，可通过REST API按需触发。<p>它允许您以简单直观但功能强大的配置语法管理您的自动化，这与gitlab ci/cd或github actions相当类似。\n",
+  "description_zh-Hant": "Automatdeck代理是一個簡單的輕量級IT自動化工具，適用於您的工作流程、票據和部署，可通過REST API按需觸發。<p>它允許您以簡單直觀但功能強大的配置語法管理您的自動化，這與gitlab ci/cd或github actions相當類似。\n"
+}

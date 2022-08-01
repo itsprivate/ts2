@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--askhn--HackerNews--NewsArticle--32303853",
+  "url": "https://news.ycombinator.com/item?id=32303853",
+  "headline": "Ask HN: GitHub caches acting up in region BOM?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We are repeatedly getting an &quot;Error 503 Backend is unhealthy&quot; from GitHub, since 2022-08-01 02:22 UTC.<p>Error 54113\nDetails: cache-bom4731-BOM 1659337091 3275129850<p>Is anyone else facing the same issue?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "thewisenerd",
+    "url": "https://news.ycombinator.com/user?id=thewisenerd"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32303853",
+  "sameAs": "https://news.ycombinator.com/item?id=32303853",
+  "dateCreated": "2022-08-01T10:31:30.280Z",
+  "datePublished": "2022-08-01T09:54:48.000Z",
+  "dateModified": "2022-08-01T10:31:30.280Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: GitHub缓存在区域BOM中出现问题？\n",
+  "headline_zh-Hant": "Ask HN: GitHub緩存在區域BOM中出現問題？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们反复收到来自GitHub的&quot;Error 503 Backend is unhealthy&quot;，自2022-08-01 02:22 UTC。<p>Error 54113\n详情：cache-bom4731-BOM 1659337091 3275129850<p>还有人面临同样的问题吗？\n",
+  "description_zh-Hant": "我們反覆收到來自GitHub的&quot;Error 503 Backend is unhealthy&quot;，自2022-08-01 02:22 UTC。<p>Error 54113\n詳情：cache-bom4731-BOM 1659337091 3275129850<p>還有人面臨同樣的問題嗎？\n"
+}
