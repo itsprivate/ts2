@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--showhn--HackerNews--NewsArticle--32300453",
+  "url": "https://news.ycombinator.com/item?id=32300453",
+  "headline": "Show HN: A handy color picker for programmers and web designers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "This is a handy dandy color picker utility program, written as a web app. It is designed for laptop/desktop use, doesn't fit on a mobile device.<p>You can select a starting color by either selecting from one of the named web colors, or one of the 700 Mark Ferrari superstar pixel artist color swatches, then you can explore nearby colors which are arranged in a novel hexagonal grid that lets you explore in 12 different directions at once.<p>When you select a color, it copies the color name to the clipboard so you can paste it into what you are working on.  There are multiple output formats you can choose from, like web hex #AABBCC, or rgb(1,2,3) for example.<p>Free. The 1400 lines of code is posted on GitHub, if you are curious as to how it was made. There are some clever tricks in the code regarding how to sort colors properly.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "magicmouse",
+    "url": "https://news.ycombinator.com/user?id=magicmouse"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32300453",
+  "sameAs": "https://beadslang.com/projects/colorchart/colorchart.html",
+  "dateCreated": "2022-08-01T02:35:50.790Z",
+  "datePublished": "2022-08-01T00:45:22.000Z",
+  "dateModified": "2022-08-01T02:35:50.790Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 为程序员和网页设计师提供的方便的颜色选择器\n",
+  "headline_zh-Hant": "Show HN: 為程序員和網頁設計師提供的方便的顏色選擇器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "这是一个方便的花花公子选色工具程序，作为一个网络应用程序编写。<p>你可以从命名的网络颜色中选择一个起始颜色，或者从700个Mark Ferrari超级明星像素艺术家的色块中选择一个，然后你可以探索附近的颜色，这些颜色被安排在一个新颖的六边形网格中，让你一次就能从12个不同的方向探索。 有多种输出格式供你选择，例如网页十六进制#AABBCC，或rgb(1,2,3)等。<p>免费。1400行代码发布在GitHub上，如果你对它的制作过程感到好奇。在代码中，有一些关于如何正确排序颜色的巧妙技巧。\n",
+  "description_zh-Hant": "這是一個方便的花花公子選色工具程序，作為一個網絡應用程序編寫。<p>你可以從命名的網絡顏色中選擇一個起始顏色，或者從700個Mark Ferrari超級明星像素藝術家的色塊中選擇一個，然後你可以探索附近的顏色，這些顏色被安排在一個新穎的六邊形網格中，讓你一次就能從12個不同的方向探索。 有多種輸出格式供你選擇，例如網頁十六進制#AABBCC，或rgb(1,2,3)等。<p>免費。1400行代碼發佈在GitHub上，如果你對它的製作過程感到好奇。在代碼中，有一些關於如何正確排序顏色的巧妙技巧。\n"
+}

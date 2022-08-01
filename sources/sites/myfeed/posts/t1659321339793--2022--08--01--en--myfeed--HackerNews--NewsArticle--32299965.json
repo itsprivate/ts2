@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--myfeed--HackerNews--NewsArticle--32299965",
+  "url": "https://news.ycombinator.com/item?id=32299965",
+  "headline": "Character Encoding and UTF-8",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fredrb",
+    "url": "https://news.ycombinator.com/user?id=fredrb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32299965",
+  "sameAs": "https://blog.fredrb.com/2022/07/31/character-encoding-utf8/",
+  "dateCreated": "2022-08-01T02:35:39.793Z",
+  "datePublished": "2022-07-31T23:36:55.000Z",
+  "dateModified": "2022-08-01T02:35:39.793Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "字符编码和UTF-8\n",
+  "headline_zh-Hant": "字符編碼和UTF-8\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

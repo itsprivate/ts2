@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--besthn--HackerNews--NewsArticle--32298994",
+  "url": "https://news.ycombinator.com/item?id=32298994",
+  "headline": "Nuclear energy is clean",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mpweiher",
+    "url": "https://news.ycombinator.com/user?id=mpweiher"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32298994",
+  "sameAs": "https://www.collectifission.nl/nl/2022/07/nuclear-energy-is-clean/",
+  "dateCreated": "2022-08-01T02:35:39.359Z",
+  "datePublished": "2022-07-31T21:25:32.000Z",
+  "dateModified": "2022-08-01T02:35:39.359Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 259
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 218
+    }
+  ],
+  "headline_zh-Hans": "核能是清洁的\n",
+  "headline_zh-Hant": "核能是清潔的\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
