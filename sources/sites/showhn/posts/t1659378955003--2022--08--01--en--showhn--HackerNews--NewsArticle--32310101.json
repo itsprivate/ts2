@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--showhn--HackerNews--NewsArticle--32310101",
+  "url": "https://news.ycombinator.com/item?id=32310101",
+  "headline": "Show HN: Print age encrypted small secrets for offline recovery",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Print age encrypted small secrets such as cryptographic keys, passwords, recovery tokens etc. for offline recovery. Uses a one-shot localhost web server and QR codes for simple generation and recovery.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "betareducer",
+    "url": "https://news.ycombinator.com/user?id=betareducer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32310101",
+  "sameAs": "https://github.com/yawn/offkey",
+  "dateCreated": "2022-08-01T18:35:55.003Z",
+  "datePublished": "2022-08-01T18:19:22.000Z",
+  "dateModified": "2022-08-01T18:35:55.003Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 打印年龄加密的小秘密，以便离线恢复\n",
+  "headline_zh-Hant": "Show HN: 打印年齡加密的小秘密，以便離線恢復\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "打印年龄加密的小秘密，如加密密钥、密码、恢复令牌等，用于离线恢复。使用一次性的本地主机网络服务器和二维码进行简单的生成和恢复。\n",
+  "description_zh-Hant": "打印年齡加密的小秘密，如加密密鑰、密碼、恢復令牌等，用於離線恢復。使用一次性的本地主機網絡服務器和二維碼進行簡單的生成和恢復。\n"
+}
