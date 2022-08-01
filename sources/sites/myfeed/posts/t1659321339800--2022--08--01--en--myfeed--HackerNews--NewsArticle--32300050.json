@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--myfeed--HackerNews--NewsArticle--32300050",
+  "url": "https://news.ycombinator.com/item?id=32300050",
+  "headline": "Cleaning data with SQLite-utils and Datasette",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ghuntley",
+    "url": "https://news.ycombinator.com/user?id=ghuntley"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32300050",
+  "sameAs": "https://datasette.io/tutorials/clean-data",
+  "dateCreated": "2022-08-01T02:35:39.800Z",
+  "datePublished": "2022-07-31T23:49:00.000Z",
+  "dateModified": "2022-08-01T02:35:39.800Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用SQLite-utils和Datasette清理数据\n",
+  "headline_zh-Hant": "用SQLite-utils和Datasette清理數據\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

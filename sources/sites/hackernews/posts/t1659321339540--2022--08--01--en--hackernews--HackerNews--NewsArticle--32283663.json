@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--hackernews--HackerNews--NewsArticle--32283663",
+  "url": "https://news.ycombinator.com/item?id=32283663",
+  "headline": "Lyra: Fast, in-memory, typo-tolerant, full-text search engine in TypeScript",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bpierre",
+    "url": "https://news.ycombinator.com/user?id=bpierre"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32283663",
+  "sameAs": "https://github.com/nearform/lyra",
+  "dateCreated": "2022-08-01T02:35:39.540Z",
+  "datePublished": "2022-07-30T02:02:11.000Z",
+  "dateModified": "2022-08-01T02:35:39.540Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Lyra：快速的、内存中的、容忍错别字的、TypeScript中的全文本搜索引擎\n",
+  "headline_zh-Hant": "Lyra：快速的、內存中的、容忍錯別字的、TypeScript中的全文本搜索引擎\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
