@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--01--en--askhn--HackerNews--NewsArticle--32305322",
+  "url": "https://news.ycombinator.com/item?id=32305322",
+  "headline": "Ask HN: G.E.C.K. but for the web?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "There is a popular sentiment of escaping walled gardens of Facebook and others. How do you do it?<p>I want to start a small community with a blog and forum. Preferably the forum would also power blog comments.<p>Right now I'm leaning towards Ghost+Discourse[1]. But I'm already running into some issues like not being able to localize Ghost, especially search and subscription functions.<p>Do you have a favourite solution here? A sort of G.E.C.K. but for the web?<p>[1] https://ghost.org/integrations/discourse/",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "blfr",
+    "url": "https://news.ycombinator.com/user?id=blfr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32305322",
+  "sameAs": "https://news.ycombinator.com/item?id=32305322",
+  "dateCreated": "2022-08-01T13:52:07.456Z",
+  "datePublished": "2022-08-01T12:59:49.000Z",
+  "dateModified": "2022-08-01T13:52:07.456Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: G.E.C.K.但为网络？\n",
+  "headline_zh-Hant": "Ask HN: G.E.C.K.但為網絡？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "现在有一种流行的情绪，即逃离Facebook和其他的围墙花园。你是如何做到的？<p>我想建立一个有博客和论坛的小型社区。<p>现在我倾向于使用Ghost+Discourse[1]。但是我已经遇到了一些问题，比如不能对Ghost进行本地化，特别是搜索和订阅功能。<p>你在这里有什么喜欢的解决方案吗？一种G.E.C.K.但用于网络的方案？<p>[1] https://ghost.org/integrations/discourse/\n",
+  "description_zh-Hant": "現在有一種流行的情緒，即逃離Facebook和其他的圍牆花園。你是如何做到的？<p>我想建立一個有博客和論壇的小型社區。<p>現在我傾向於使用Ghost+Discourse[1]。但是我已經遇到了一些問題，比如不能對Ghost進行本地化，特別是搜索和訂閱功能。<p>你在這裡有什麼喜歡的解決方案嗎？一種G.E.C.K.但用於網絡的方案？<p>[1] https://ghost.org/integrations/discourse/\n"
+}
