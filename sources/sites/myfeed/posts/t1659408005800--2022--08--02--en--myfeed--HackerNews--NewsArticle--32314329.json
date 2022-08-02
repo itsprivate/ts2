@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--myfeed--HackerNews--NewsArticle--32314329",
+  "url": "https://news.ycombinator.com/item?id=32314329",
+  "headline": "NYT subscription takes much-longer to cancel than to create",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "behnamoh",
+    "url": "https://news.ycombinator.com/user?id=behnamoh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32314329",
+  "sameAs": "https://twitter.com/darkpatterns/status/1479528080737808392",
+  "dateCreated": "2022-08-02T02:40:05.800Z",
+  "datePublished": "2022-08-02T01:46:59.000Z",
+  "dateModified": "2022-08-02T02:40:05.800Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "取消《纽约时报》订阅的时间比创建的时间长得多\n",
+  "headline_zh-Hant": "取消《紐約時報》訂閱的時間比創建的時間長得多\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

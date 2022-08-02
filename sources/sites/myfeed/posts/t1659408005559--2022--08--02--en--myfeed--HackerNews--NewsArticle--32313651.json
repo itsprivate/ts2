@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--myfeed--HackerNews--NewsArticle--32313651",
+  "url": "https://news.ycombinator.com/item?id=32313651",
+  "headline": "Welcome to Aotearoa? The Campaign to Decolonize New Zealand’s Name",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "happyopossum",
+    "url": "https://news.ycombinator.com/user?id=happyopossum"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32313651",
+  "sameAs": "https://www.wsj.com/articles/welcome-to-aotearoa-the-campaign-to-decolonize-new-zealands-name-11658914200",
+  "dateCreated": "2022-08-02T02:40:05.559Z",
+  "datePublished": "2022-08-01T23:54:14.000Z",
+  "dateModified": "2022-08-02T02:40:05.559Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "欢迎来到Aotearoa？新西兰国名非殖民化的运动\n",
+  "headline_zh-Hant": "歡迎來到Aotearoa？新西蘭國名非殖民化的運動\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

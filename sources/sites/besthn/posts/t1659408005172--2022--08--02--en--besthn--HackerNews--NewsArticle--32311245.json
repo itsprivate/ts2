@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--besthn--HackerNews--NewsArticle--32311245",
+  "url": "https://news.ycombinator.com/item?id=32311245",
+  "headline": "Introduction to Apple Silicon",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "arkj",
+    "url": "https://news.ycombinator.com/user?id=arkj"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32311245",
+  "sameAs": "https://github.com/AsahiLinux/docs/wiki/Introduction-to-Apple-Silicon",
+  "dateCreated": "2022-08-02T02:40:05.172Z",
+  "datePublished": "2022-08-01T19:53:41.000Z",
+  "dateModified": "2022-08-02T02:40:05.172Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 215
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 80
+    }
+  ],
+  "headline_zh-Hans": "苹果硅简介\n",
+  "headline_zh-Hant": "蘋果硅簡介\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
