@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--showhn--HackerNews--NewsArticle--32318020",
+  "url": "https://news.ycombinator.com/item?id=32318020",
+  "headline": "Show HN: Math Type for Python",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey all, I'm one of the co-founders of Luminal — a new Python workspace for scientists &amp; engineers. It's still a work in progress (it's only been a few months!), but there's one feature that I think is cool that I'd like to share already: math type for Python.<p>Basically it renders complex equations like this one:<p>e = (1-(B1.r<i>V1*2)/μ_S</i>(2-(B1.r<i>V1*2)/μ_S)</i>math.cos(γ1)*2)*(1/2)<p>as math type (i.e. like LaTeX), directly in your code. This can help read or &quot;debug&quot; equations (plus it just looks pretty).<p>Try it for free at <a href=\"https://getluminal.com\" rel=\"nofollow\">https://getluminal.com</a> and let us know what you think!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "gamabunta",
+    "url": "https://news.ycombinator.com/user?id=gamabunta"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32318020",
+  "sameAs": "https://getluminal.com/",
+  "dateCreated": "2022-08-02T13:47:50.502Z",
+  "datePublished": "2022-08-02T13:10:12.000Z",
+  "dateModified": "2022-08-02T13:47:50.502Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Python的数学类型\n",
+  "headline_zh-Hant": "Show HN: Python的數學類型\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hey all, I'm one of the co-founders of Luminal — a new Python workspace for scientists &amp; engineers. It's still a work in progress (it's only been a few months!), but there's one feature that I think is cool that I'd like to share already: math type for Python. <p>Basically it renders complex equations like this one:<p>e = (1-(B1.r<i>V1*2)/μ_S</i>(2-(B1.r<i>V1*2)/μ_S)</i>math.cos(γ1)*2)*(1/2)<p>as math type (i.e. like LaTeX), directly in your code. This can help read or &quot;debug&quot; equations (plus it just looks pretty).<p>Try it for free at <a href=\"https://getluminal.com\" rel=\"nofollow\">https://getluminal.com</a> and let us know what you think!\n",
+  "description_zh-Hant": "Hey all, I'm one of the co-founders of Luminal — a new Python workspace for scientists &amp; engineers. It's still a work in progress (it's only been a few months!), but there's one feature that I think is cool that I'd like to share already: math type for Python. <p>Basically it renders complex equations like this one:<p>e = (1-(B1.r<i>V1*2)/μ_S</i>(2-(B1.r<i>V1*2)/μ_S)</i>math.cos(γ1)*2)*(1/2)<p>as math type (i.e. like LaTeX), directly in your code. This can help read or &quot;debug&quot; equations (plus it just looks pretty).<p>Try it for free at <a href=\"https://getluminal.com\" rel=\"nofollow\">https://getluminal.com</a> and let us know what you think!\n"
+}
