@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--myfeed--HackerNews--NewsArticle--32314389",
+  "url": "https://news.ycombinator.com/item?id=32314389",
+  "headline": "Four Features That Justify a New Unix Shell",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "luu",
+    "url": "https://news.ycombinator.com/user?id=luu"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32314389",
+  "sameAs": "https://www.oilshell.org/blog/2020/10/osh-features.html",
+  "dateCreated": "2022-08-02T02:40:05.851Z",
+  "datePublished": "2022-08-02T01:59:40.000Z",
+  "dateModified": "2022-08-02T02:40:05.851Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "证明新的Unix Shell是正确的四个特点\n",
+  "headline_zh-Hant": "證明新的Unix Shell是正確的四個特點\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

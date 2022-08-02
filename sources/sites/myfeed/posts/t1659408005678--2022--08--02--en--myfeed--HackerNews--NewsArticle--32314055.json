@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--myfeed--HackerNews--NewsArticle--32314055",
+  "url": "https://news.ycombinator.com/item?id=32314055",
+  "headline": "Greatest Dance Songs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "walterbell",
+    "url": "https://news.ycombinator.com/user?id=walterbell"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32314055",
+  "sameAs": "https://www.rollingstone.com/music/music-lists/200-greatest-dance-songs-of-all-time-1372888/",
+  "dateCreated": "2022-08-02T02:40:05.678Z",
+  "datePublished": "2022-08-02T00:59:59.000Z",
+  "dateModified": "2022-08-02T02:40:05.678Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "最伟大的舞曲\n",
+  "headline_zh-Hant": "最偉大的舞曲\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
