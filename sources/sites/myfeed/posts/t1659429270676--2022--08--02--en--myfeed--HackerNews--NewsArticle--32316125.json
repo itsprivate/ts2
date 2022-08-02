@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--myfeed--HackerNews--NewsArticle--32316125",
+  "url": "https://news.ycombinator.com/item?id=32316125",
+  "headline": "Tahti – a hardware inspired sampler/groovebox for the browser",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tomduncalf",
+    "url": "https://news.ycombinator.com/user?id=tomduncalf"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32316125",
+  "sameAs": "https://tahti.studio/",
+  "dateCreated": "2022-08-02T08:34:30.676Z",
+  "datePublished": "2022-08-02T07:48:03.000Z",
+  "dateModified": "2022-08-02T08:34:30.676Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Tahti - 一个受硬件启发的浏览器采样器/Groovebox\n",
+  "headline_zh-Hant": "Tahti - 一個受硬件啟發的瀏覽器採樣器/Groovebox\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
