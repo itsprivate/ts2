@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--askhn--HackerNews--NewsArticle--32325298",
+  "url": "https://news.ycombinator.com/item?id=32325298",
+  "headline": "Ask HN: Do you self-host databases or use a managed service like RDS?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I felt AWS RDS is too costly for small usecases (5-10M rows). Does any of you manage self-host database here ? Any tools that can turn a self-hosted database into a managed database of sort with easy backup/restore etc.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "cloudbee",
+    "url": "https://news.ycombinator.com/user?id=cloudbee"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32325298",
+  "sameAs": "https://news.ycombinator.com/item?id=32325298",
+  "dateCreated": "2022-08-02T23:26:51.436Z",
+  "datePublished": "2022-08-02T22:51:22.000Z",
+  "dateModified": "2022-08-02T23:26:51.436Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你是自行托管数据库还是使用RDS这样的管理服务？\n",
+  "headline_zh-Hant": "Ask HN: 你是自行託管數據庫還是使用RDS這樣的管理服務？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我觉得AWS RDS对于小的使用情况（5-10M行）来说成本太高。你们有人在这里管理自营数据库吗？有什么工具可以把自带的数据库变成一个可管理的数据库，并能方便地进行备份/恢复等。\n",
+  "description_zh-Hant": "我覺得AWS RDS對於小的使用情況（5-10M行）來說成本太高。你們有人在這裡管理自營數據庫嗎？有什麼工具可以把自帶的數據庫變成一個可管理的數據庫，並能方便地進行備份/恢復等。\n"
+}
