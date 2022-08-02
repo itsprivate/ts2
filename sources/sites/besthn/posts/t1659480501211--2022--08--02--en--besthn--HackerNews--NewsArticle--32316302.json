@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--besthn--HackerNews--NewsArticle--32316302",
+  "url": "https://news.ycombinator.com/item?id=32316302",
+  "headline": "Building a panel out of e-ink electronic shelf labels",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "frxx",
+    "url": "https://news.ycombinator.com/user?id=frxx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32316302",
+  "sameAs": "https://rbaron.net/blog/2022/07/29/Daisy-chaining-multiple-electronic-shelf-labels.html",
+  "dateCreated": "2022-08-02T22:48:21.211Z",
+  "datePublished": "2022-08-02T08:23:35.000Z",
+  "dateModified": "2022-08-02T22:48:21.211Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 201
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 35
+    }
+  ],
+  "headline_zh-Hans": "用电子墨水的电子货架标签搭建一个面板\n",
+  "headline_zh-Hant": "用電子墨水的電子貨架標籤搭建一個面板\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
