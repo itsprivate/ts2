@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--showhn--HackerNews--NewsArticle--32317301",
+  "url": "https://news.ycombinator.com/item?id=32317301",
+  "headline": "Show HN: Doors of Delirium – Game of Life and Spotify Visualisation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "My ode to Game of Life as an interactive Spotify music visualisation app. Started out with pixel putting on canvas, ended with learning WebGL GLSL.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jsomau",
+    "url": "https://news.ycombinator.com/user?id=jsomau"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32317301",
+  "sameAs": "https://www.doorsofdelirium.com/",
+  "dateCreated": "2022-08-02T11:42:07.362Z",
+  "datePublished": "2022-08-02T11:27:48.000Z",
+  "dateModified": "2022-08-02T11:42:07.362Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 谵妄之门--生命的游戏和Spotify视觉化\n",
+  "headline_zh-Hant": "Show HN: 譫妄之門--生命的遊戲和Spotify視覺化\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我对生命游戏的颂歌，作为一个互动的Spotify音乐可视化应用程序。从画布上的像素开始，以学习WebGL GLSL结束。\n",
+  "description_zh-Hant": "我對生命遊戲的頌歌，作為一個互動的Spotify音樂可視化應用程序。從畫布上的像素開始，以學習WebGL GLSL結束。\n"
+}
