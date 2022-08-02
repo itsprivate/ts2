@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--myfeed--HackerNews--NewsArticle--32316397",
+  "url": "https://news.ycombinator.com/item?id=32316397",
+  "headline": "Last week Intel killed Optane. Today, Kioxia, Everspin announce comparable tech",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "i_am_proteus",
+    "url": "https://news.ycombinator.com/user?id=i_am_proteus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32316397",
+  "sameAs": "https://www.theregister.com/2022/08/02/kioxia_everspin_persistent_memory/",
+  "dateCreated": "2022-08-02T08:59:46.875Z",
+  "datePublished": "2022-08-02T08:38:57.000Z",
+  "dateModified": "2022-08-02T08:59:46.875Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "上周，英特尔杀死了Optane。今天，Kioxia和Everspin宣布了类似的技术\n",
+  "headline_zh-Hant": "上週，英特爾殺死了Optane。今天，Kioxia和Everspin宣佈了類似的技術\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
