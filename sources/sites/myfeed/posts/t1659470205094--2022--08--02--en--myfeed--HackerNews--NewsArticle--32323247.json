@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--myfeed--HackerNews--NewsArticle--32323247",
+  "url": "https://news.ycombinator.com/item?id=32323247",
+  "headline": "What do we do about all the people who can’t charge an EV at home?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "PaulHoule",
+    "url": "https://news.ycombinator.com/user?id=PaulHoule"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32323247",
+  "sameAs": "https://arstechnica.com/cars/2022/08/what-do-we-do-about-all-the-people-who-cant-charge-an-ev-at-home/",
+  "dateCreated": "2022-08-02T19:56:45.094Z",
+  "datePublished": "2022-08-02T19:34:01.000Z",
+  "dateModified": "2022-08-02T19:56:45.094Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "我们该如何处理那些无法在家中为电动车充电的人呢？\n",
+  "headline_zh-Hant": "我們該如何處理那些無法在家中為電動車充電的人呢？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
