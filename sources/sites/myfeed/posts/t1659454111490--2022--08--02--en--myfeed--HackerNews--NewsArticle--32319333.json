@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--myfeed--HackerNews--NewsArticle--32319333",
+  "url": "https://news.ycombinator.com/item?id=32319333",
+  "headline": "CPAN: Day in History [audio]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mooreds",
+    "url": "https://news.ycombinator.com/user?id=mooreds"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32319333",
+  "sameAs": "https://corecursive.com/tdih-cpan/",
+  "dateCreated": "2022-08-02T15:28:31.490Z",
+  "datePublished": "2022-08-02T14:56:20.000Z",
+  "dateModified": "2022-08-02T15:28:31.490Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "CPAN：历史上的一天 [音频]\n",
+  "headline_zh-Hant": "CPAN：歷史上的一天 [音頻]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
