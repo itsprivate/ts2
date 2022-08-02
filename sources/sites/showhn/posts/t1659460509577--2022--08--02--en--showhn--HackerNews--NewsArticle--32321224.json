@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--07--22--en--hackernews--HackerNews--NewsArticle--32192498",
-  "url": "https://news.ycombinator.com/item?id=32192498",
-  "headline": "Vercel Build Output API: Infrastructure-as-Filesystem",
+  "identifier": "2022--08--02--en--showhn--HackerNews--NewsArticle--32321224",
+  "url": "https://news.ycombinator.com/item?id=32321224",
+  "headline": "Show HN: A RESTful API Template in Go",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "leerob",
-    "url": "https://news.ycombinator.com/user?id=leerob"
+    "name": "ndimares",
+    "url": "https://news.ycombinator.com/user?id=ndimares"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32192498",
-  "sameAs": "https://vercel.com/blog/build-output-api",
-  "dateCreated": "2022-07-22T16:41:27.829Z",
-  "datePublished": "2022-07-22T14:53:23.000Z",
-  "dateModified": "2022-07-22T16:41:27.829Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32321224",
+  "sameAs": "https://github.com/speakeasy-api/rest-template-go",
+  "dateCreated": "2022-08-02T17:15:09.577Z",
+  "datePublished": "2022-08-02T16:56:32.000Z",
+  "dateModified": "2022-08-02T17:15:09.577Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 30
+      "userInteractionCount": 4
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "Vercel构建输出API。基础设施即文件系统\n",
-  "headline_zh-Hant": "Vercel構建輸出API。基礎設施即文件系統\n",
+  "headline_zh-Hans": "Show HN: Go中的RESTful API模板\n",
+  "headline_zh-Hant": "Show HN: Go中的RESTful API模板\n",
   "@context": [
     "https://schema.org",
     {
