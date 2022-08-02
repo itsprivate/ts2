@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--askhn--HackerNews--NewsArticle--32325785",
+  "url": "https://news.ycombinator.com/item?id=32325785",
+  "headline": "Ask HN: Digital Ocean having issues with Container Registry?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Recently DO had an issue with App Platform and Container Registry: https://status.digitalocean.com/incidents/1szp1h6crn90<p>Within the last 15 minutes (at least) Container Registry pushes have started failing for us. Possibly this could be related. Posting this message here since the official DO status page has not been updated yet.<p>Last time it took a few hours before the incident got a dedicated page. Wishing that team well since their service is very useful!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "belfalas",
+    "url": "https://news.ycombinator.com/user?id=belfalas"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32325785",
+  "sameAs": "https://news.ycombinator.com/item?id=32325785",
+  "dateCreated": "2022-08-02T23:46:41.622Z",
+  "datePublished": "2022-08-02T23:44:01.000Z",
+  "dateModified": "2022-08-02T23:46:41.622Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Digital Ocean在容器注册方面有问题？\n",
+  "headline_zh-Hant": "Ask HN: Digital Ocean在容器註冊方面有問題？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "最近，DO在应用平台和容器注册处出现了一个问题：https://status.digitalocean.com/incidents/1szp1h6crn90<p>在过去的15分钟内（至少），容器注册处的推送开始对我们失效。这可能与此有关。由于官方的DO状态页面还没有更新，所以在这里发布这个消息。<p>上一次，过了几个小时，这个事件才有了专门的页面。祝愿该团队一切顺利，因为他们的服务非常有用!\n",
+  "description_zh-Hant": "最近，DO在應用平臺和容器註冊處出現了一個問題：https://status.digitalocean.com/incidents/1szp1h6crn90<p>在過去的15分鐘內（至少），容器註冊處的推送開始對我們失效。這可能與此有關。由於官方的DO狀態頁面還沒有更新，所以在這裡發佈這個消息。<p>上一次，過了幾個小時，這個事件才有了專門的頁面。祝願該團隊一切順利，因為他們的服務非常有用!\n"
+}
