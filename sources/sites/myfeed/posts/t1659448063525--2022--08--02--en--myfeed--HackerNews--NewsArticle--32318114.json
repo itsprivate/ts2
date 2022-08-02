@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--myfeed--HackerNews--NewsArticle--32318114",
+  "url": "https://news.ycombinator.com/item?id=32318114",
+  "headline": "A mind-reading combat jet for the future",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rntn",
+    "url": "https://news.ycombinator.com/user?id=rntn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32318114",
+  "sameAs": "https://www.bbc.co.uk/news/business-62289737",
+  "dateCreated": "2022-08-02T13:47:43.525Z",
+  "datePublished": "2022-08-02T13:19:47.000Z",
+  "dateModified": "2022-08-02T13:47:43.525Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "未来的读心术战机\n",
+  "headline_zh-Hant": "未來的讀心術戰機\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

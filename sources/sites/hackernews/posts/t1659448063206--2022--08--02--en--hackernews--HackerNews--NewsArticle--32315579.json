@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--hackernews--HackerNews--NewsArticle--32315579",
+  "url": "https://news.ycombinator.com/item?id=32315579",
+  "headline": "Wi-Fine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "signa11",
+    "url": "https://news.ycombinator.com/user?id=signa11"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32315579",
+  "sameAs": "https://wifine.gitlab.io/",
+  "dateCreated": "2022-08-02T13:47:43.206Z",
+  "datePublished": "2022-08-02T05:56:51.000Z",
+  "dateModified": "2022-08-02T13:47:43.206Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 31
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 15
+    }
+  ],
+  "headline_zh-Hans": "紫外线辐射\n",
+  "headline_zh-Hant": "紫外線輻射\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
