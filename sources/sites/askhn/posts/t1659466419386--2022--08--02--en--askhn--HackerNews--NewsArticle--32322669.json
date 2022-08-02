@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--askhn--HackerNews--NewsArticle--32322669",
+  "url": "https://news.ycombinator.com/item?id=32322669",
+  "headline": "Ask HN: Game engines for lightweight Android/iOS games?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi folks, long time lurker.<p>I had developed few minimal puzzles games using Unity 3D (back in those days it was called that) during my graduation years and really enjoyed what little I was able to produce with what little knowledge I had. They were nothing fancy, just flat translation/rotation/scale based animated games. Since then life happened and I switched to a full-time android role working on native app development.<p>I am really interested in getting back to game development (android/iOS) and wanted to hear from folks on how to go about engine/tools to use. Some of my main criteria/concerns are:<p><pre><code>  1. Performance/Smoothness: Should feel like native components (60FPS) and easy to develop native-like UI components.\n  2. Build size: Should not have a lot of bloat and produce builds that have size similar to native counterparts. \n  3. Basic 3rd party plugin support: Should support commons ad network, IAP, analytics, storage framework, etc.\n</code></pre>\nMy evaluation of current candidates<p><pre><code>  1. React Native: Cross platform, native like performance, tons of existing JS packages to use from. \n  2. Flutter: Cross platform, native like performance. But don't think the current ecosystem for library has lots of options.\n  3. Godot: Cross platform, heavily supported, easy to extend. But seems like an overkill for use-case, also produces build with more than native counterpart size. \n  4. Unity: Cross platform and lots of extensions to choose from. But again an overkill, large build size and excessive battery usage issue.\n  5. Defold: Don't know much but heard its from the guys behind Candy crush and made specifically for 2D games. Need to explore more.\n  6. iOS (xCode): I already have extensive knowledge of native android developer, might as well learn iOS development and build natively for both platform. Best platform, plugin, performance, build size support (best of all, just twice the dev effort)\n</code></pre>\nApart from Unity, I'll have to pretty much learn any of the tool/language I go ahead with. Hence the dilemma to choose which on to go ahead with.<p>Attaching links of games similar to my art-style<p><pre><code>  - https://play.google.com/store/apps/details?id=com.balysv.loop\n  - https://apps.apple.com/us/app/noodles/id967624193\n  - https://play.google.com/store/apps/details?id=com.weplaydots.twodotsandroid\n  - https://play.google.com/store/apps/details?id=com.weplaydots.plus</code></pre>",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "abhad",
+    "url": "https://news.ycombinator.com/user?id=abhad"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32322669",
+  "sameAs": "https://news.ycombinator.com/item?id=32322669",
+  "dateCreated": "2022-08-02T18:53:39.386Z",
+  "datePublished": "2022-08-02T18:40:35.000Z",
+  "dateModified": "2022-08-02T18:53:39.386Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 轻量级Android/iOS游戏的游戏引擎？\n",
+  "headline_zh-Hant": "Ask HN: 輕量級Android/iOS遊戲的遊戲引擎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi folks, long time lurker.<p>I had developed few minimal puzzles games using Unity 3D (back in those days it was called that) during my graduation years and really enjoyed what little I was able to produce with what little knowledge I had. They were nothing fancy, just flat translation/rotation/scale based animated games. Since then life happened and I switched to a full-time android role working on native app development.<p>I am really interested in getting back to game development (android/iOS) and wanted to hear from folks on how to go about engine/tools to use. Some of my main criteria/concerns are:<p><pre><code> 1. Performance/Smoothness: Should feel like native components (60FPS) and easy to develop native-like UI components.\n  2. Build size: Should not have a lot of bloat and produce builds that have size similar to native counterparts. \n  3. Basic 3rd party plugin support: Should support commons ad network, IAP, analytics, storage framework, etc.\n</code></pre>\nMy evaluation of current candidates<p><pre><code> 1. React Native: Cross platform, native like performance, tons of existing JS packages to use from. \n  2. Flutter: Cross platform, native like performance. But don't think the current ecosystem for library has lots of options.\n  3. Godot: Cross platform, heavily supported, easy to extend. But seems like an overkill for use-case, also produces build with more than native counterpart size. \n  4. Unity: Cross platform and lots of extensions to choose from. But again an overkill, large build size and excessive battery usage issue.\n  5. Defold: Don't know much but heard its from the guys behind Candy crush and made specifically for 2D games. Need to explore more.\n  6. iOS (xCode): I already have extensive knowledge of native android developer, might as well learn iOS development and build natively for both platform. Best platform, plugin, performance, build size support (best of all, just twice the dev effort)\n</code></pre>\nApart from Unity, I'll have to pretty much learn any of the tool/language I go ahead with. Hence the dilemma to choose which on to go ahead with.<p>Attaching links of games similar to my art-style<p><pre><code> - https://play.google.com/store/apps/details?id=com.balysv.loop\n  - https://apps.apple.com/us/app/noodles/id967624193\n  - https://play.google.com/store/apps/details?id=com.weplaydots.twodotsandroid\n  - https://play.google.com/store/apps/details?id=com.weplaydots.plus</code></pre>\n",
+  "description_zh-Hant": "Hi folks, long time lurker.<p>I had developed few minimal puzzles games using Unity 3D (back in those days it was called that) during my graduation years and really enjoyed what little I was able to produce with what little knowledge I had. They were nothing fancy, just flat translation/rotation/scale based animated games. Since then life happened and I switched to a full-time android role working on native app development.<p>I am really interested in getting back to game development (android/iOS) and wanted to hear from folks on how to go about engine/tools to use. Some of my main criteria/concerns are:<p><pre><code> 1. Performance/Smoothness: Should feel like native components (60FPS) and easy to develop native-like UI components.\n  2. Build size: Should not have a lot of bloat and produce builds that have size similar to native counterparts. \n  3. Basic 3rd party plugin support: Should support commons ad network, IAP, analytics, storage framework, etc.\n</code></pre>\nMy evaluation of current candidates<p><pre><code> 1. React Native: Cross platform, native like performance, tons of existing JS packages to use from. \n  2. Flutter: Cross platform, native like performance. But don't think the current ecosystem for library has lots of options.\n  3. Godot: Cross platform, heavily supported, easy to extend. But seems like an overkill for use-case, also produces build with more than native counterpart size. \n  4. Unity: Cross platform and lots of extensions to choose from. But again an overkill, large build size and excessive battery usage issue.\n  5. Defold: Don't know much but heard its from the guys behind Candy crush and made specifically for 2D games. Need to explore more.\n  6. iOS (xCode): I already have extensive knowledge of native android developer, might as well learn iOS development and build natively for both platform. Best platform, plugin, performance, build size support (best of all, just twice the dev effort)\n</code></pre>\nApart from Unity, I'll have to pretty much learn any of the tool/language I go ahead with. Hence the dilemma to choose which on to go ahead with.<p>Attaching links of games similar to my art-style<p><pre><code> - https://play.google.com/store/apps/details?id=com.balysv.loop\n  - https://apps.apple.com/us/app/noodles/id967624193\n  - https://play.google.com/store/apps/details?id=com.weplaydots.twodotsandroid\n  - https://play.google.com/store/apps/details?id=com.weplaydots.plus</code></pre>\n"
+}
