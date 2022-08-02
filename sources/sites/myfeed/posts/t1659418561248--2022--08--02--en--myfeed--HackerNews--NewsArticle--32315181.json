@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--myfeed--HackerNews--NewsArticle--32315181",
+  "url": "https://news.ycombinator.com/item?id=32315181",
+  "headline": "US kills al Qaeda leader Ayman al-Zawahiri in drone strike in Afghanistan",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "latchkey",
+    "url": "https://news.ycombinator.com/user?id=latchkey"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32315181",
+  "sameAs": "https://www.cnn.com/2022/08/01/politics/joe-biden-counter-terrorism/index.html",
+  "dateCreated": "2022-08-02T05:36:01.248Z",
+  "datePublished": "2022-08-02T04:44:08.000Z",
+  "dateModified": "2022-08-02T05:36:01.248Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "美国在阿富汗的无人机袭击中杀死了基地组织领导人艾曼-扎瓦赫里\n",
+  "headline_zh-Hant": "美國在阿富汗的無人機襲擊中殺死了基地組織領導人艾曼-扎瓦赫裡\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
