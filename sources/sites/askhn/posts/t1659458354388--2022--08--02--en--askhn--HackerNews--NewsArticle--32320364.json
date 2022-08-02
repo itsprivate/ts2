@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--askhn--HackerNews--NewsArticle--32320364",
+  "url": "https://news.ycombinator.com/item?id=32320364",
+  "headline": "Ask HN: High Biases in Stripe-Radar?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Following high (10.57%) USD-INR transaction fee on PayPal [1]. We, recently, implemented Stripe payments and found that the Stripe-Radar is hindering the subscriptions. Yesterday, we experienced 2-digit &quot;Blocked&quot; payments because of &quot;High Risk&quot;. I upgraded my account to see the reasoning, after evaluating the failures it seems the Stripe-Radar is highly biased to the distance between payment-session-ip-address and card-billing-address.<p>A card transaction with an 11-mile distance &amp; no history of frauds/disputes has a RiskScore of 87. The transaction is blocked as the account by default comes with RiskScore threshold of 75.<p>There are &quot;Allow Rules&quot; on the Stripe-Radar, that are disabled as the account should meet 2K USD/month. We have been consistently doing over 15K USD/month on other gateways, and Stripe doesn't want to consider the transactions statement to enable the option for new accounts.<p>Has anyone come across a similar situation? How did you handle it?<p>[1]. https://news.ycombinator.com/item?id=32228267",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "saradhi",
+    "url": "https://news.ycombinator.com/user?id=saradhi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32320364",
+  "sameAs": "https://news.ycombinator.com/item?id=32320364",
+  "dateCreated": "2022-08-02T16:39:14.388Z",
+  "datePublished": "2022-08-02T15:58:18.000Z",
+  "dateModified": "2022-08-02T16:39:14.388Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Stripe-Radar的高偏差？\n",
+  "headline_zh-Hant": "Ask HN: Stripe-Radar的高偏差？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "继PayPal的高额（10.57%）美元-印度卢比交易费之后[1]。我们，最近，实施了Stripe支付，并发现Stripe-Radar阻碍了订阅的进行。昨天，我们遇到了2位数的&quot;阻止&quot;支付，因为&quot;高风险&quot;。我升级了我的账户以查看原因，在评估了失败的原因后，似乎Stripe-Radar对支付会话ip地址和卡账单地址之间的距离有很大的偏见。<p>一个有11英里距离的卡交易&amp; 没有欺诈/纠纷的历史，风险分数为87。<p>在Stripe-Radar上有&quot;Allow Rules&quot;，这些规则被禁用，因为该账户应达到每月2千美元。我们一直在其他网关上做超过15000美元/月的交易，而Stripe不想考虑交易报表来启用新账户的选项。<p>有人遇到过类似情况吗？你是怎么处理的？<p>[1]. https://news.ycombinator.com/item?id=32228267\n",
+  "description_zh-Hant": "繼PayPal的高額（10.57%）美元-印度盧比交易費之後[1]。我們，最近，實施了Stripe支付，並發現Stripe-Radar阻礙了訂閱的進行。昨天，我們遇到了2位數的&quot;阻止&quot;支付，因為&quot;高風險&quot;。我升級了我的賬戶以查看原因，在評估了失敗的原因後，似乎Stripe-Radar對支付會話ip地址和卡賬單地址之間的距離有很大的偏見。<p>一個有11英里距離的卡交易&amp; 沒有欺詐/糾紛的歷史，風險分數為87。<p>在Stripe-Radar上有&quot;Allow Rules&quot;，這些規則被禁用，因為該賬戶應達到每月2千美元。我們一直在其他網關上做超過15000美元/月的交易，而Stripe不想考慮交易報表來啟用新賬戶的選項。<p>有人遇到過類似情況嗎？你是怎麼處理的？<p>[1]. https://news.ycombinator.com/item?id=32228267\n"
+}
