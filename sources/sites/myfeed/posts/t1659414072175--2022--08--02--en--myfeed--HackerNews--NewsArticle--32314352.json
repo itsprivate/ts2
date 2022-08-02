@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--myfeed--HackerNews--NewsArticle--32314352",
+  "url": "https://news.ycombinator.com/item?id=32314352",
+  "headline": "Interpolating Polygons",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mcovalt",
+    "url": "https://news.ycombinator.com/user?id=mcovalt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32314352",
+  "sameAs": "http://lambdafunk.com/2017-02-21-Interpolating-Polygons/",
+  "dateCreated": "2022-08-02T04:21:12.175Z",
+  "datePublished": "2022-08-02T01:52:35.000Z",
+  "dateModified": "2022-08-02T04:21:12.175Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "内插多边形\n",
+  "headline_zh-Hant": "內插多邊形\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
