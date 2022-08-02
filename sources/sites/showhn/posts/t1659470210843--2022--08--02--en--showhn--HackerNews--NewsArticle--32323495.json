@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--showhn--HackerNews--NewsArticle--32323495",
+  "url": "https://news.ycombinator.com/item?id=32323495",
+  "headline": "Show HN: A simple way to secure your smart home from cyber threats",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN - We have been working on qomodo this year which provides everyday homes with a simple way protect smart homes (with Ring Doorbell, Sonos, Google Home, Nest, SimpliSafe etc) from cyber threats.<p>We are wanting to get rid of having to install apps across multiple devices, trying to set up complex home networks for those with little to no technical skills.<p>Our mobile app allows users to interact with the qomodo hub (which plugs in to your router) to view security alerts (malicious activity that we blocked), manage their settings and set VPN locations (think for privacy but also changing your Smart TV location).<p>Right now we are using OEM hardware but are looking to develop our own now that we have our own firmware. Most of the heavy lifting is being done on AWS, and our mobile app is for the user/HW interaction (REACT). The app communicates with AWS AWS and AWS has a constant line connection with the box.\nCurrently in the middle of writing up an 'under the hood' type page, but for someone like my next door neighbour.<p>We had heavy python programmes on the box for a while but it was killing our HW resource, looked at maybe trying to compile in Rust but then decided to make the firmware as lightweight as possible so we did not have to rely on the box spec (ripped a bunch of python out) - we can process and do most things via AWS, lambda functions and some scripts (python and JavaScript) and jobs for the updates/blocking.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "tobywilmington",
+    "url": "https://news.ycombinator.com/user?id=tobywilmington"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32323495",
+  "sameAs": "https://www.qomodo.io",
+  "dateCreated": "2022-08-02T19:56:50.843Z",
+  "datePublished": "2022-08-02T19:55:34.000Z",
+  "dateModified": "2022-08-02T19:56:50.843Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 保护你的智能家居免受网络威胁的一个简单方法\n",
+  "headline_zh-Hant": "Show HN: 保護你的智能家居免受網絡威脅的一個簡單方法\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嘿，HN - 我们今年一直在开发qomodo，它为日常家庭提供了一种简单的方式来保护智能家居（与Ring Doorbell、Sonos、Google Home、Nest、SimpliSafe等）免受网络威胁。<p>我们希望摆脱不得不在多个设备上安装应用程序，试图为那些几乎没有技术能力的人设置复杂的家庭网络。 <p>我们的移动应用程序允许用户与qomodo枢纽（插入到您的路由器）互动，以查看安全警报（我们阻止的恶意活动），管理他们的设置和设置VPN位置（考虑到隐私，但也改变您的智能电视位置）。<p>现在我们使用OEM硬件，但现在我们正在寻找开发自己的固件。大部分繁重的工作都是在AWS上完成的，而我们的移动应用是用于用户/W的互动（REACT）。该应用程序与AWS的AWS进行通信，AWS与盒子有一个持续的线路连接。\n目前正在写一个 \"引擎盖下 \"类型的页面，但是是为像我隔壁邻居那样的人写的。 <p>我们有一段时间在盒子上安装了大量的python程序，但它正在扼杀我们的HW资源，我们曾考虑尝试用Rust编译，但后来决定让固件尽可能轻量化，这样我们就不必依赖盒子的规格（撕掉了一堆python）--我们可以通过AWS、lambda函数和一些脚本（python和JavaScript）以及更新/阻塞的工作来处理和做大部分事情。\n",
+  "description_zh-Hant": "嘿，HN - 我們今年一直在開發qomodo，它為日常家庭提供了一種簡單的方式來保護智能家居（與Ring Doorbell、Sonos、Google Home、Nest、SimpliSafe等）免受網絡威脅。<p>我們希望擺脫不得不在多個設備上安裝應用程序，試圖為那些幾乎沒有技術能力的人設置複雜的家庭網絡。 <p>我們的移動應用程序允許用戶與qomodo樞紐（插入到您的路由器）互動，以查看安全警報（我們阻止的惡意活動），管理他們的設置和設置VPN位置（考慮到隱私，但也改變您的智能電視位置）。<p>現在我們使用OEM硬件，但現在我們正在尋找開發自己的固件。大部分繁重的工作都是在AWS上完成的，而我們的移動應用是用於用戶/W的互動（REACT）。該應用程序與AWS的AWS進行通信，AWS與盒子有一個持續的線路連接。\n目前正在寫一個 \"引擎蓋下 \"類型的頁面，但是是為像我隔壁鄰居那樣的人寫的。 <p>我們有一段時間在盒子上安裝了大量的python程序，但它正在扼殺我們的HW資源，我們曾考慮嘗試用Rust編譯，但後來決定讓固件儘可能輕量化，這樣我們就不必依賴盒子的規格（撕掉了一堆python）--我們可以通過AWS、lambda函數和一些腳本（python和JavaScript）以及更新/阻塞的工作來處理和做大部分事情。\n"
+}
