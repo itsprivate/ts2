@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--myfeed--HackerNews--NewsArticle--32314631",
+  "url": "https://news.ycombinator.com/item?id=32314631",
+  "headline": "Aussieplusplus: Programming Language from Down Under",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "brendanfalk",
+    "url": "https://news.ycombinator.com/user?id=brendanfalk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32314631",
+  "sameAs": "https://github.com/zackradisic/aussieplusplus",
+  "dateCreated": "2022-08-02T04:21:12.232Z",
+  "datePublished": "2022-08-02T02:46:50.000Z",
+  "dateModified": "2022-08-02T04:21:12.232Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 14
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "Aussieplusplus: 来自地下的编程语言\n",
+  "headline_zh-Hant": "Aussieplusplus: 來自地下的編程語言\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

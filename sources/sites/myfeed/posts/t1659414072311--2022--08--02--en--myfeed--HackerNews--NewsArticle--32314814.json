@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--myfeed--HackerNews--NewsArticle--32314814",
+  "url": "https://news.ycombinator.com/item?id=32314814",
+  "headline": "The biggest new idea in computing for half a century was just scrapped",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "RachelF",
+    "url": "https://news.ycombinator.com/user?id=RachelF"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32314814",
+  "sameAs": "https://www.theregister.com/2022/08/01/optane_intel_cancellation/",
+  "dateCreated": "2022-08-02T04:21:12.311Z",
+  "datePublished": "2022-08-02T03:29:56.000Z",
+  "dateModified": "2022-08-02T04:21:12.311Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 16
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 9
+    }
+  ],
+  "headline_zh-Hans": "半个世纪以来计算机领域最大的新想法刚刚被废止\n",
+  "headline_zh-Hant": "半個世紀以來計算機領域最大的新想法剛剛被廢止\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

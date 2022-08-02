@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--hackernews--HackerNews--NewsArticle--32314700",
+  "url": "https://news.ycombinator.com/item?id=32314700",
+  "headline": "Parallel Programming for FPGAs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bjourne",
+    "url": "https://news.ycombinator.com/user?id=bjourne"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32314700",
+  "sameAs": "https://github.com/KastnerRG/pp4fpgas",
+  "dateCreated": "2022-08-02T04:21:12.046Z",
+  "datePublished": "2022-08-02T03:03:36.000Z",
+  "dateModified": "2022-08-02T04:21:12.046Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "FPGA的并行编程\n",
+  "headline_zh-Hant": "FPGA的並行編程\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
