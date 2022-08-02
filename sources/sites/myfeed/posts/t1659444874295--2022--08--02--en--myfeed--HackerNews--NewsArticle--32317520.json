@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--02--en--myfeed--HackerNews--NewsArticle--32317520",
+  "url": "https://news.ycombinator.com/item?id=32317520",
+  "headline": "Using Firecracker and Go to run short, untrusted code execution jobs (2021)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hasheddan",
+    "url": "https://news.ycombinator.com/user?id=hasheddan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32317520",
+  "sameAs": "https://stanislas.blog/2021/08/firecracker/",
+  "dateCreated": "2022-08-02T12:54:34.295Z",
+  "datePublished": "2022-08-02T12:01:53.000Z",
+  "dateModified": "2022-08-02T12:54:34.295Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 23
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "使用Firecracker和Go来运行简短的、不受信任的代码执行作业(2021)\n",
+  "headline_zh-Hant": "使用Firecracker和Go來運行簡短的、不受信任的代碼執行作業(2021)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
