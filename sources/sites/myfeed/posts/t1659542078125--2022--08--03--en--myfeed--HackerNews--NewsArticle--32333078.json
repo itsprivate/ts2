@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--myfeed--HackerNews--NewsArticle--32333078",
+  "url": "https://news.ycombinator.com/item?id=32333078",
+  "headline": "Many HN articles could be summarized in a tweet",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Since time leeching articles goes against HN spirit, there should have a way to flag these posts.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "xchip",
+    "url": "https://news.ycombinator.com/user?id=xchip"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32333078",
+  "sameAs": "https://news.ycombinator.com/item?id=32333078",
+  "dateCreated": "2022-08-03T15:54:38.125Z",
+  "datePublished": "2022-08-03T15:31:00.000Z",
+  "dateModified": "2022-08-03T15:54:38.125Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "许多HN的文章可以用一条推特来概括\n",
+  "headline_zh-Hant": "許多HN的文章可以用一條推特來概括\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "由于 \"时间 \"文章违背了HN的精神，应该有一种方法来标记这些帖子。\n",
+  "description_zh-Hant": "由於 \"時間 \"文章違背了HN的精神，應該有一種方法來標記這些帖子。\n"
+}
