@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--askhn--HackerNews--NewsArticle--32337637",
+  "url": "https://news.ycombinator.com/item?id=32337637",
+  "headline": "Ask HN: How do you make the most of a bad interview",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Context: I do technical interviews for various roles at my company. The interview lasts 45 minutes and I primarily test people on their data modeling and SQL skills, though sometimes I ask some easy scripting questions if it's more relevant. The questions aren't particularly challenging, unless you don't know SQL/programming.<p>I've been doing these interviews for 3-4 years now, and have seen a wide spectrum of candidates from people who finish everything in 15 minutes, to people who maybe don't know all the syntax but can talk me through their reasoning and get to a solution with coaching, to people who explicitly say they don't know how to write code and spend the entire 45 minutes in an awkward struggle session.<p>It's that bottom half that I'm looking for advice on how to make the most of the interview time. I don't want the candidates to feel like it's been a complete waste of time, and if I can get them to show me that they can share their thought process and learn something, it can push them from a hard no to a soft no or even a soft yes (depending on the position). I'm not a huge fan of these types of white board interviews so I will always give them answers on correct syntax if they can tell me what they want a line to do (and generally act like a knowledge base because there's never an instance in real life where you wouldn't have any of this info available to you). What are some techniques you've found effective when candidates are struggling? When do you stop giving hints and start to give portions of the answer?<p>Some things I've been doing are\nIn general:\n- If it's been silent for more than a minute, and the candidate hasn't said or typed anything, asking what they're thinking about\n- Asking them to explain what they want to accomplish in a normal sentence, and then hopefully pseudocode\n- Regularly making sure they've understood the question.<p>Data modeling and SQL:\n- Making up example data based off the schema they've come up with and posing situations where their model would have issues\n- Giving example result sets based on the query they've written vs what I've asked for\n- Giving example data and asking for a query that would return something similar.<p>Scripting:\n- Giving counterexamples that don't work with their solution\n- Walking through their solution with said examples and pointing out the step it fails on\n- When time starts to run out, giving them a piece of the solution that's been tripping them up the most and seeing if they can move on from there.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "cbreezyyall",
+    "url": "https://news.ycombinator.com/user?id=cbreezyyall"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32337637",
+  "sameAs": "https://news.ycombinator.com/item?id=32337637",
+  "dateCreated": "2022-08-03T23:46:27.276Z",
+  "datePublished": "2022-08-03T23:28:05.000Z",
+  "dateModified": "2022-08-03T23:46:27.276Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你如何充分利用一个糟糕的面试\n",
+  "headline_zh-Hant": "Ask HN: 你如何充分利用一個糟糕的面試\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "背景。我为公司的各种职位做技术面试。面试持续45分钟，我主要测试人们的数据建模和SQL技能，尽管有时我会问一些简单的脚本问题，如果它更相关。<p>我做这些面试已经有3-4年了，我看到了各种各样的候选人，有的人在15分钟内就完成了所有的工作，有的人也许不知道所有的语法，但可以和我讨论他们的推理，并在指导下找到解决方案，还有的人明确表示他们不知道如何写代码，并在整个45分钟内陷入尴尬的挣扎。 <p>我正在寻找关于如何充分利用面试时间的建议，就是这下半部分。我不希望候选人觉得这完全是浪费时间，如果我能够让他们向我展示他们能够分享他们的思维过程并学到一些东西，就可以把他们从硬拒绝推到软拒绝，甚至是软同意（取决于职位）。我不太喜欢这些类型的白板面试，所以如果他们能告诉我他们想让一条线做什么，我总是会在正确的语法上给他们答案（一般来说，就像一个知识库，因为在现实生活中从来没有一个实例，你不会有任何这些信息可用）。当候选人处于挣扎状态时，你发现哪些技巧是有效的？你什么时候停止提示并开始给出部分答案？<p>我一直在做的一些事情是\n一般来说。\n- 如果沉默超过一分钟，而且候选人没有说或打任何东西，问他们在想什么？\n- 要求他们用一个正常的句子来解释他们想要完成的任务，然后希望是伪代码\n- 定期确认他们已经理解了问题。<p>数据建模和SQL。\n- 根据他们想出的模式编造示例数据，并提出他们的模型会出现问题的情况。\n- 根据他们所写的查询与我所要求的内容，给出示例结果集。\n- 提供示例数据，并要求提供一个能返回类似结果的查询。\n- 给出与他们的解决方案不一致的反例\n- 用上述例子来解释他们的解决方案，并指出其失败的步骤。\n- 当时间开始耗尽时，给他们提供一个最让他们头疼的解决方案，看看他们是否能从那里继续前进。\n",
+  "description_zh-Hant": "背景。我為公司的各種職位做技術面試。面試持續45分鐘，我主要測試人們的數據建模和SQL技能，儘管有時我會問一些簡單的腳本問題，如果它更相關。<p>我做這些面試已經有3-4年了，我看到了各種各樣的候選人，有的人在15分鐘內就完成了所有的工作，有的人也許不知道所有的語法，但可以和我討論他們的推理，並在指導下找到解決方案，還有的人明確表示他們不知道如何寫代碼，並在整個45分鐘內陷入尷尬的掙扎。 <p>我正在尋找關於如何充分利用面試時間的建議，就是這下半部分。我不希望候選人覺得這完全是浪費時間，如果我能夠讓他們向我展示他們能夠分享他們的思維過程並學到一些東西，就可以把他們從硬拒絕推到軟拒絕，甚至是軟同意（取決於職位）。我不太喜歡這些類型的白板面試，所以如果他們能告訴我他們想讓一條線做什麼，我總是會在正確的語法上給他們答案（一般來說，就像一個知識庫，因為在現實生活中從來沒有一個實例，你不會有任何這些信息可用）。當候選人處於掙扎狀態時，你發現哪些技巧是有效的？你什麼時候停止提示並開始給出部分答案？<p>我一直在做的一些事情是\n一般來說。\n- 如果沉默超過一分鐘，而且候選人沒有說或打任何東西，問他們在想什麼？\n- 要求他們用一個正常的句子來解釋他們想要完成的任務，然後希望是偽代碼\n- 定期確認他們已經理解了問題。<p>數據建模和SQL。\n- 根據他們想出的模式編造示例數據，並提出他們的模型會出現問題的情況。\n- 根據他們所寫的查詢與我所要求的內容，給出示例結果集。\n- 提供示例數據，並要求提供一個能返回類似結果的查詢。\n- 給出與他們的解決方案不一致的反例\n- 用上述例子來解釋他們的解決方案，並指出其失敗的步驟。\n- 當時間開始耗盡時，給他們提供一個最讓他們頭疼的解決方案，看看他們是否能從那裡繼續前進。\n"
+}
