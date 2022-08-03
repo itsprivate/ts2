@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--hackernews--HackerNews--NewsArticle--32334052",
+  "url": "https://news.ycombinator.com/item?id=32334052",
+  "headline": "Show HN: MutableAI (YC W22) – Copilot Alternative for VS Code",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN! We’re MutableAI (YC W22) (<a href=\"https://mutable.ai\" rel=\"nofollow\">https://mutable.ai</a>). Our mission is to reduce the time and cost to create high quality code using AI. We have worked at the full gamut of companies ranging from startups to big tech and have gotten the sense that many of the rote aspects of software development could be made easier, freeing up precious mental energy.<p>Devs love Copilot, but autocomplete is just one of many ways that AI should make programming easier. We’re taking a more comprehensive approach to developer tooling that bundles Copilot-like autocomplete with documentation, custom AI instruction, and some early refactoring capabilities (Python only) in one extension. We currently support Javascript/Typescript, Python, Go, and Rust, with more coming soon. Overview (w/ bg music) [1].<p>In addition to autocomplete, which can be triggered either automatically or manually, we can add documentation to all your methods in a Rust file, or you can ask the AI to insert missing imports in a Python file. In some cases we can get really sophisticated and ask it to program a game from scratch or update your REST interface to accommodate a new data payload.<p>We use a combination of AI (e.g. OpenAI codex) and AST transformation / metaprogramming techniques on the backend. We are also working on providing other backend solutions for varying needs, including on-prem deployments.<p>We soft launched our product with a small cohort of users and want to welcome more of you to our pilot beta. We hope you enjoy the product and look forward to learning from you.<p>We are currently in an extended free trial phase for early adopters and plan to keep a free tier for solo devs and open source contributors. We also offer a generous discount to startups. For enterprise please reach out to info@mutable.ai<p>We want to thank our very earliest users and invite the HN community to try the product installing it via the VS Code marketplace [2]. We're looking forward to hearing your comments and feedback, or feature suggestions!<p>[1] <a href=\"https://www.youtube.com/watch?v=x-gKEbgyzCg\" rel=\"nofollow\">https://www.youtube.com/watch?v=x-gKEbgyzCg</a><p>[2] <a href=\"https://marketplace.visualstudio.com/items?itemName=mutable-ai.mutable-ai\" rel=\"nofollow\">https://marketplace.visualstudio.com/items?itemName=mutable-...</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "oshams",
+    "url": "https://news.ycombinator.com/user?id=oshams"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32334052",
+  "sameAs": "https://marketplace.visualstudio.com/items?itemName=mutable-ai.mutable-ai",
+  "dateCreated": "2022-08-03T20:46:22.939Z",
+  "datePublished": "2022-08-03T16:48:06.000Z",
+  "dateModified": "2022-08-03T20:46:22.939Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Show HN: MutableAI (YC W22) - VS代码的Copilot替代品\n",
+  "headline_zh-Hant": "Show HN: MutableAI (YC W22) - VS代碼的Copilot替代品\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi HN! We’re MutableAI (YC W22) (<a href=\"https://mutable.ai\" rel=\"nofollow\">https://mutable.ai</a>). Our mission is to reduce the time and cost to create high quality code using AI. We have worked at the full gamut of companies ranging from startups to big tech and have gotten the sense that many of the rote aspects of software development could be made easier, freeing up precious mental energy.<p>Devs love Copilot, but autocomplete is just one of many ways that AI should make programming easier. We’re taking a more comprehensive approach to developer tooling that bundles Copilot-like autocomplete with documentation, custom AI instruction, and some early refactoring capabilities (Python only) in one extension. We currently support Javascript/Typescript, Python, Go, and Rust, with more coming soon. Overview (w/ bg music) [1].<p>In addition to autocomplete, which can be triggered either automatically or manually, we can add documentation to all your methods in a Rust file, or you can ask the AI to insert missing imports in a Python file. In some cases we can get really sophisticated and ask it to program a game from scratch or update your REST interface to accommodate a new data payload.<p>We use a combination of AI (e.g. OpenAI codex) and AST transformation / metaprogramming techniques on the backend. We are also working on providing other backend solutions for varying needs, including on-prem deployments.<p>We soft launched our product with a small cohort of users and want to welcome more of you to our pilot beta. We hope you enjoy the product and look forward to learning from you.<p>We are currently in an extended free trial phase for early adopters and plan to keep a free tier for solo devs and open source contributors. We also offer a generous discount to startups. For enterprise please reach out to info@mutable.ai<p>We want to thank our very earliest users and invite the HN community to try the product installing it via the VS Code marketplace [2]. We're looking forward to hearing your comments and feedback, or feature suggestions!<p>[1] <a href=\"https://www.youtube.com/watch?v=x-gKEbgyzCg\" rel=\"nofollow\">https://www.youtube.com/watch?v=x-gKEbgyzCg</a><p>[2] <a href=\"https://marketplace.visualstudio.com/items?itemName=mutable-ai.mutable-ai\" rel=\"nofollow\">https://marketplace.visualstudio.com/items?itemName=mutable-...</a>\n",
+  "description_zh-Hant": "Hi HN! We’re MutableAI (YC W22) (<a href=\"https://mutable.ai\" rel=\"nofollow\">https://mutable.ai</a>). Our mission is to reduce the time and cost to create high quality code using AI. We have worked at the full gamut of companies ranging from startups to big tech and have gotten the sense that many of the rote aspects of software development could be made easier, freeing up precious mental energy.<p>Devs love Copilot, but autocomplete is just one of many ways that AI should make programming easier. We’re taking a more comprehensive approach to developer tooling that bundles Copilot-like autocomplete with documentation, custom AI instruction, and some early refactoring capabilities (Python only) in one extension. We currently support Javascript/Typescript, Python, Go, and Rust, with more coming soon. Overview (w/ bg music) [1].<p>In addition to autocomplete, which can be triggered either automatically or manually, we can add documentation to all your methods in a Rust file, or you can ask the AI to insert missing imports in a Python file. In some cases we can get really sophisticated and ask it to program a game from scratch or update your REST interface to accommodate a new data payload.<p>We use a combination of AI (e.g. OpenAI codex) and AST transformation / metaprogramming techniques on the backend. We are also working on providing other backend solutions for varying needs, including on-prem deployments.<p>We soft launched our product with a small cohort of users and want to welcome more of you to our pilot beta. We hope you enjoy the product and look forward to learning from you.<p>We are currently in an extended free trial phase for early adopters and plan to keep a free tier for solo devs and open source contributors. We also offer a generous discount to startups. For enterprise please reach out to info@mutable.ai<p>We want to thank our very earliest users and invite the HN community to try the product installing it via the VS Code marketplace [2]. We're looking forward to hearing your comments and feedback, or feature suggestions!<p>[1] <a href=\"https://www.youtube.com/watch?v=x-gKEbgyzCg\" rel=\"nofollow\">https://www.youtube.com/watch?v=x-gKEbgyzCg</a><p>[2] <a href=\"https://marketplace.visualstudio.com/items?itemName=mutable-ai.mutable-ai\" rel=\"nofollow\">https://marketplace.visualstudio.com/items?itemName=mutable-...</a>\n"
+}
