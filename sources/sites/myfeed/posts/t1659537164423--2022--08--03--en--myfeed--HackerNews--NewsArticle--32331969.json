@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--myfeed--HackerNews--NewsArticle--32331969",
+  "url": "https://news.ycombinator.com/item?id=32331969",
+  "headline": "Elixir Observability: OpenTelemetry, Lightstep, Honeycomb",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "davydog187",
+    "url": "https://news.ycombinator.com/user?id=davydog187"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32331969",
+  "sameAs": "https://davelucia.com/blog/observing-elixir-with-lightstep",
+  "dateCreated": "2022-08-03T14:32:44.423Z",
+  "datePublished": "2022-08-03T14:15:22.000Z",
+  "dateModified": "2022-08-03T14:32:44.423Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Elixir可观察性。OpenTelemetry, Lightstep, Honeycomb\n",
+  "headline_zh-Hant": "Elixir可觀察性。OpenTelemetry, Lightstep, Honeycomb\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
