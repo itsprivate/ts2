@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--askhn--HackerNews--NewsArticle--32328352",
+  "url": "https://news.ycombinator.com/item?id=32328352",
+  "headline": "Ask HN: How can I improve my team's approach to internal testing?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey everyone,<p>I'm an engineer at a company that’s building a SaaS product. We use the product internally as it serves as a productivity tool for some use cases we have. A byproduct of this is that we are always internally testing, like running our own testing sessions for new features/versions or just using it internally to do our work.<p>When we internally test features we document findings through a Confluence page and then export everything to Jira. If we find an issue in something unrelated to what we are testing then it’s likely we don’t know where it should go. This is the same for when we just use the product ourselves, for example, I end up just not sharing problems because I want to save myself from the hour-long Slack rabbit hole that it puts me in.<p>I’m keen to know if there’s a way I can make this better for my team or the company as a whole. Or if there are any other ways we can go about assuring quality before releases.<p>FYI we don’t have QAs, developers are expected to handle that part. We also have automated tests but we still find issues when we take a manual approach, ofc depending on the size of the change.<p>I would appreciate any and all feedback! Thank you.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "literallyanyone",
+    "url": "https://news.ycombinator.com/user?id=literallyanyone"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32328352",
+  "sameAs": "https://news.ycombinator.com/item?id=32328352",
+  "dateCreated": "2022-08-03T06:54:22.939Z",
+  "datePublished": "2022-08-03T06:36:14.000Z",
+  "dateModified": "2022-08-03T06:54:22.939Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我怎样才能改进我的团队的内部测试方法？\n",
+  "headline_zh-Hant": "Ask HN: 我怎樣才能改進我的團隊的內部測試方法？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家好，<p>我是一家公司的工程师，该公司正在构建一个SaaS产品。我们在内部使用该产品，因为它是我们一些用例的生产力工具。这方面的一个副产品是，我们总是在进行内部测试，比如为新功能/版本运行我们自己的测试环节，或者只是在内部使用它来完成我们的工作。<p>当我们在内部测试功能时，我们通过Confluence页面记录结果，然后将一切导出到Jira。如果我们在与我们正在测试的内容无关的地方发现问题，那么很可能我们不知道它应该去哪里。当我们自己使用产品时也是如此，例如，我最终只是没有分享问题，因为我想把自己从长达一小时的Slack兔子洞中解救出来。<p>我很想知道是否有办法让我的团队或整个公司的情况变得更好。<p>我们没有QA，开发人员被期望处理这一部分。我们也有自动化测试，但当我们采取手动方式时，我们仍然会发现问题，当然这取决于变化的大小。<p>我希望得到任何和所有的反馈! 谢谢你。\n",
+  "description_zh-Hant": "大家好，<p>我是一家公司的工程師，該公司正在構建一個SaaS產品。我們在內部使用該產品，因為它是我們一些用例的生產力工具。這方面的一個副產品是，我們總是在進行內部測試，比如為新功能/版本運行我們自己的測試環節，或者只是在內部使用它來完成我們的工作。<p>當我們在內部測試功能時，我們通過Confluence頁面記錄結果，然後將一切導出到Jira。如果我們在與我們正在測試的內容無關的地方發現問題，那麼很可能我們不知道它應該去哪裡。當我們自己使用產品時也是如此，例如，我最終只是沒有分享問題，因為我想把自己從長達一小時的Slack兔子洞中解救出來。<p>我很想知道是否有辦法讓我的團隊或整個公司的情況變得更好。<p>我們沒有QA，開發人員被期望處理這一部分。我們也有自動化測試，但當我們採取手動方式時，我們仍然會發現問題，當然這取決於變化的大小。<p>我希望得到任何和所有的反饋! 謝謝你。\n"
+}
