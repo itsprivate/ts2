@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--myfeed--HackerNews--NewsArticle--32326756",
+  "url": "https://news.ycombinator.com/item?id=32326756",
+  "headline": "Dejavu – Audio fingerprinting and recognition algorithm",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pabs3",
+    "url": "https://news.ycombinator.com/user?id=pabs3"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32326756",
+  "sameAs": "https://github.com/worldveil/dejavu",
+  "dateCreated": "2022-08-03T04:07:32.019Z",
+  "datePublished": "2022-08-03T01:58:21.000Z",
+  "dateModified": "2022-08-03T04:07:32.019Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Dejavu - 音频指纹和识别算法\n",
+  "headline_zh-Hant": "Dejavu - 音頻指紋和識別算法\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

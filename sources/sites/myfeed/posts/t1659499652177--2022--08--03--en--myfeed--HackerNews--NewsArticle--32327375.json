@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--myfeed--HackerNews--NewsArticle--32327375",
+  "url": "https://news.ycombinator.com/item?id=32327375",
+  "headline": "Starting Up in a Downturn",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jedwhite",
+    "url": "https://news.ycombinator.com/user?id=jedwhite"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32327375",
+  "sameAs": "https://ecorner.stanford.edu/articles/71448/",
+  "dateCreated": "2022-08-03T04:07:32.177Z",
+  "datePublished": "2022-08-03T03:36:27.000Z",
+  "dateModified": "2022-08-03T04:07:32.177Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在经济衰退中创业\n",
+  "headline_zh-Hant": "在經濟衰退中創業\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
