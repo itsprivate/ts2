@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--myfeed--HackerNews--NewsArticle--32327151",
+  "url": "https://news.ycombinator.com/item?id=32327151",
+  "headline": "Apple sued by French media over App Store power",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "docmechanic",
+    "url": "https://news.ycombinator.com/user?id=docmechanic"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32327151",
+  "sameAs": "https://www.theregister.com/2022/08/02/apple_app_monopoly/",
+  "dateCreated": "2022-08-03T04:07:32.114Z",
+  "datePublished": "2022-08-03T03:01:32.000Z",
+  "dateModified": "2022-08-03T04:07:32.114Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "苹果因App Store权力问题被法国媒体起诉\n",
+  "headline_zh-Hant": "蘋果因App Store權力問題被法國媒體起訴\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
