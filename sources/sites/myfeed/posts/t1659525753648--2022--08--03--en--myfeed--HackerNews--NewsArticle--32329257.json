@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--08--01--en--myfeed--HackerNews--NewsArticle--32307045",
-  "url": "https://news.ycombinator.com/item?id=32307045",
-  "headline": "Io_uring: 122M IOPS in 2U, with 80% of the system idle",
+  "identifier": "2022--08--03--en--myfeed--HackerNews--NewsArticle--32329257",
+  "url": "https://news.ycombinator.com/item?id=32329257",
+  "headline": "Show HN: async – Async/Await Lib in Golang",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,35 +10,38 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "mfiguiere",
-    "url": "https://news.ycombinator.com/user?id=mfiguiere"
+    "name": "sun0day",
+    "url": "https://news.ycombinator.com/user?id=sun0day"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32307045",
-  "sameAs": "https://twitter.com/axboe/status/1554115250588471297",
-  "dateCreated": "2022-08-01T15:31:57.062Z",
-  "datePublished": "2022-08-01T15:07:51.000Z",
-  "dateModified": "2022-08-01T15:31:57.062Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32329257",
+  "sameAs": "https://github.com/sun0day/async",
+  "dateCreated": "2022-08-03T11:22:33.648Z",
+  "datePublished": "2022-08-03T08:52:45.000Z",
+  "dateModified": "2022-08-03T11:22:33.648Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 3
+      "userInteractionCount": 2
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 0
+      "userInteractionCount": 2
     }
   ],
-  "headline_zh-Hans": "寿命。在2U内有1.22亿的IOPS，80%的系统处于闲置状态\n",
-  "headline_zh-Hant": "壽命。在2U內有1.22億的IOPS，80%的系統處於閒置狀態\n",
+  "headline_zh-Hans": "Show HN: async - Golang中的异步/等待 Lib\n",
+  "headline_zh-Hant": "Show HN: async - Golang中的異步/等待 Lib\n",
   "@context": [
     "https://schema.org",
     {
