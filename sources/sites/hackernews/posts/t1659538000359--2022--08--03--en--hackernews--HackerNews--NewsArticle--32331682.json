@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--hackernews--HackerNews--NewsArticle--32331682",
+  "url": "https://news.ycombinator.com/item?id=32331682",
+  "headline": "Ask HN: Which coordinate system is better for a beginners programming language?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "This is a programming language reduced to the basics with built-in graphics commands. It includes an interactive course to learn programming.<p>There are now two versions. One with the coordinate system origin at the top left, one with the origin at the bottom left. I am interested in the reasons why one or the other version is &quot;better&quot; for a teaching and learning programming language.<p>Arguments for &quot;top left&quot;: this is common in 2D computer graphics; it is easier to deal with a grid of rows and columns<p>Top left origin tutorial: https://easylang.online/apps/tut_learn.html<p>Arguments for &quot;bottom left&quot;: the y-value corresponds to the height; that's how it's taught in math class<p>Bottom left origin tutorial: https://tiki.li/apps/tut_learn.html<p>These tutorials are also built into the Web ID. It is all open source.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "chkas",
+    "url": "https://news.ycombinator.com/user?id=chkas"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32331682",
+  "sameAs": "https://news.ycombinator.com/item?id=32331682",
+  "dateCreated": "2022-08-03T14:46:40.359Z",
+  "datePublished": "2022-08-03T13:54:41.000Z",
+  "dateModified": "2022-08-03T14:46:40.359Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 13
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 对于初学者的编程语言，哪种坐标系更好？\n",
+  "headline_zh-Hant": "Ask HN: 對於初學者的編程語言，哪種座標系更好？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "这是一种简化为基础的编程语言，具有内置的图形命令。它包括一个学习编程的互动课程。<p>现在有两个版本。一个是坐标系原点在左上方，一个是原点在左下方。我感兴趣的是，为什么一个或另一个版本对于教学和学习编程语言来说是&quot;更好&quot;的原因。<p>支持&quot;左上角&quot;的理由：这在二维计算机图形中很常见；处理行和列的网格比较容易<p>左上角原点教程：https://easylang。 online/apps/tut_learn.html<p>&quot;bottom left&quot;的参数：y值对应高度；数学课上就是这么教的<p>Bottom left origin tutorial: https://tiki.li/apps/tut_learn.html<p>这些教程也被内置在Web ID中。它都是开源的。\n",
+  "description_zh-Hant": "這是一種簡化為基礎的編程語言，具有內置的圖形命令。它包括一個學習編程的互動課程。<p>現在有兩個版本。一個是座標系原點在左上方，一個是原點在左下方。我感興趣的是，為什麼一個或另一個版本對於教學和學習編程語言來說是&quot;更好&quot;的原因。<p>支持&quot;左上角&quot;的理由：這在二維計算機圖形中很常見；處理行和列的網格比較容易<p>左上角原點教程：https://easylang。 online/apps/tut_learn.html<p>&quot;bottom left&quot;的參數：y值對應高度；數學課上就是這麼教的<p>Bottom left origin tutorial: https://tiki.li/apps/tut_learn.html<p>這些教程也被內置在Web ID中。它都是開源的。\n"
+}
