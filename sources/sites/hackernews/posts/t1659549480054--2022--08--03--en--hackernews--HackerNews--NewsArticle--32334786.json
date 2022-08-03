@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--hackernews--HackerNews--NewsArticle--32334786",
+  "url": "https://news.ycombinator.com/item?id=32334786",
+  "headline": "I know what you download",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "anthropodie",
+    "url": "https://news.ycombinator.com/user?id=anthropodie"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32334786",
+  "sameAs": "https://iknowwhatyoudownload.com/",
+  "dateCreated": "2022-08-03T17:58:00.054Z",
+  "datePublished": "2022-08-03T17:46:51.000Z",
+  "dateModified": "2022-08-03T17:58:00.054Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "我知道你下载了什么\n",
+  "headline_zh-Hant": "我知道你下載了什麼\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

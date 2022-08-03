@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--myfeed--HackerNews--NewsArticle--32334276",
+  "url": "https://news.ycombinator.com/item?id=32334276",
+  "headline": "There are now 1,170 unicorns. Their birth rate is slowing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "astonfred",
+    "url": "https://news.ycombinator.com/user?id=astonfred"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32334276",
+  "sameAs": "https://www.cbinsights.com/research/unicorn-startup-market-map/",
+  "dateCreated": "2022-08-03T17:58:07.010Z",
+  "datePublished": "2022-08-03T17:03:44.000Z",
+  "dateModified": "2022-08-03T17:58:07.010Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "现在有1170个独角兽。他们的出生率正在放缓\n",
+  "headline_zh-Hant": "現在有1170個獨角獸。他們的出生率正在放緩\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

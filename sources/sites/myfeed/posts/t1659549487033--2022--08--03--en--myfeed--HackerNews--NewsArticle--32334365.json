@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--myfeed--HackerNews--NewsArticle--32334365",
+  "url": "https://news.ycombinator.com/item?id=32334365",
+  "headline": "We used growth hacking on Reddit and got 4000+ new visitors in one day",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "theo_champion",
+    "url": "https://news.ycombinator.com/user?id=theo_champion"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32334365",
+  "sameAs": "https://chunk.run/blog/how-we-used-growth-hacking-on-reddit",
+  "dateCreated": "2022-08-03T17:58:07.033Z",
+  "datePublished": "2022-08-03T17:12:07.000Z",
+  "dateModified": "2022-08-03T17:58:07.033Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "我们在Reddit上使用增长黑客技术，在一天内获得了4000多个新访客\n",
+  "headline_zh-Hant": "我們在Reddit上使用增長黑客技術，在一天內獲得了4000多個新訪客\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
