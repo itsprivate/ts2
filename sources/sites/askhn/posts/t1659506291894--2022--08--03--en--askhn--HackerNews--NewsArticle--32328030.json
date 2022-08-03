@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--askhn--HackerNews--NewsArticle--32328030",
+  "url": "https://news.ycombinator.com/item?id=32328030",
+  "headline": "Ask HN: Help, I'm Drowning in JavaScript",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've had a rough day yesterday. I'm a web dev, but read that as in &quot;I learnt HTML in the 90s and worked on small projects maintaining websites&quot;. Hence the username. On my current job I'm working with a proprietary software, which uses VanillaJS to modify XML/JSON files to make the data useable for our company. I'm not the dumbest person on the planet, or so I believe, I understand what coding is, I understand the fundamentals.<p>Yesterday I spent 4 hours regexing out HTML data from not so well maintained data sources and screamed at my computer, because I was not able to find patterns. I know, please don't ask. This is not high level programming. We're talking .replace and .match, with the occaisonal if/else over hundreds of sets. My colleague calmed me down and took the time to help me. Bless him. This colleague has multiple projects within the company, because, to me, he is a modern web dev: Building scrapers from scratch with Node, uses multiple frameworks, you get the jist.<p>My path in this company should have been: Learning the code he writes, so I can help him maintaining the software and be on standby, if something breaks. This won't be happening in the forseeable future.<p>My problem: I do not understand his code. Or anyone elses. While I basically use if/else, he uses ternary operators. I write functions by hand, the uses arrow functions and symbols I can hardly understand.  Multiple generations of Javascript foundation changes and yearly new crazes are lying between us. We do not have the time to code review his projects. Also, he should not be my teacher. But: I want to be able to help him and not be a burden.<p>I tried $learnToCode websites, YouTube tutorials, bought &quot;Master Classes&quot; from the usual suspects. But I'm literally drowning in the market of javascript. There is no clean line learning &quot;This is the 2000s&quot; to &quot;Welcome to the year 2022&quot; javascript.<p>For example, I do not get Typescript; I do not understand, how big projects can use Node, with it's thousands of dependencies, while nobody cares, that 20 to 100 of them are deprecated, or in short: I do not understand, how this whole eco system works. But I want to. Do you have any suggestions on how to unclutter this mess, which absolutely overwhelms me?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "casual-dev",
+    "url": "https://news.ycombinator.com/user?id=casual-dev"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32328030",
+  "sameAs": "https://news.ycombinator.com/item?id=32328030",
+  "dateCreated": "2022-08-03T05:58:11.894Z",
+  "datePublished": "2022-08-03T05:40:47.000Z",
+  "dateModified": "2022-08-03T05:58:11.894Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 帮助，我被淹没在JavaScript中了\n",
+  "headline_zh-Hant": "Ask HN: 幫助，我被淹沒在JavaScript中了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我昨天度过了艰难的一天。我是一名网络开发员，但读作&quot;我在90年代学过HTML，从事过维护网站的小项目&quot;。因此，我的名字是这样的。在我目前的工作中，我正在使用一个专利软件，它使用VanillaJS来修改XML/JSON文件，使数据对我们公司有用。我不是这个星球上最笨的人，或者说我相信，我明白什么是编码，我明白基本原理。<p>昨天，我花了4个小时从维护得不太好的数据源中重新输入HTML数据，并对我的电脑大喊大叫，因为我无法找到模式。我知道，请不要问。这不是高水平的编程。我们说的是.replace和.match，偶尔会有几百个集合的if/else。我的同事让我冷静下来，花时间来帮助我。祝福他。这位同事在公司内有多个项目，因为对我来说，他是一个现代的网络开发人员：用Node从头开始构建刮削器，使用多个框架，你会明白的。<p>我在这家公司的路径应该是。学习他写的代码，这样我就可以帮助他维护软件，并在出现故障时随时待命。在可预见的未来，这不会发生。<p>我的问题是：我不理解他的代码。或者其他任何人的。我基本上使用if/else，而他使用三元运算符。我用手写函数，他用箭头函数和符号，我几乎看不懂。 多代的Javascript基础变化和每年的新热潮都横亘在我们之间。我们没有时间对他的项目进行代码审查。而且，他不应该是我的老师。但是。<p>我试过$learnToCode网站、YouTube教程，也买过一般人的&quot;Master Classes&quot;。但我简直要淹没在javascript的市场中了。<p>例如，我不明白Typescript；我不明白大项目如何使用Node，以及它的数千个依赖项，而没有人关心其中的20到100个依赖项被废弃，或者简而言之：我不明白这整个生态体系是如何运作的。但我想知道。你有什么建议可以让我摆脱这种混乱的局面吗？\n",
+  "description_zh-Hant": "我昨天度過了艱難的一天。我是一名網絡開發員，但讀作&quot;我在90年代學過HTML，從事過維護網站的小項目&quot;。因此，我的名字是這樣的。在我目前的工作中，我正在使用一個專利軟件，它使用VanillaJS來修改XML/JSON文件，使數據對我們公司有用。我不是這個星球上最笨的人，或者說我相信，我明白什麼是編碼，我明白基本原理。<p>昨天，我花了4個小時從維護得不太好的數據源中重新輸入HTML數據，並對我的電腦大喊大叫，因為我無法找到模式。我知道，請不要問。這不是高水平的編程。我們說的是.replace和.match，偶爾會有幾百個集合的if/else。我的同事讓我冷靜下來，花時間來幫助我。祝福他。這位同事在公司內有多個項目，因為對我來說，他是一個現代的網絡開發人員：用Node從頭開始構建刮削器，使用多個框架，你會明白的。<p>我在這家公司的路徑應該是。學習他寫的代碼，這樣我就可以幫助他維護軟件，並在出現故障時隨時待命。在可預見的未來，這不會發生。<p>我的問題是：我不理解他的代碼。或者其他任何人的。我基本上使用if/else，而他使用三元運算符。我用手寫函數，他用箭頭函數和符號，我幾乎看不懂。 多代的Javascript基礎變化和每年的新熱潮都橫亙在我們之間。我們沒有時間對他的項目進行代碼審查。而且，他不應該是我的老師。但是。<p>我試過$learnToCode網站、YouTube教程，也買過一般人的&quot;Master Classes&quot;。但我簡直要淹沒在javascript的市場中了。<p>例如，我不明白Typescript；我不明白大項目如何使用Node，以及它的數千個依賴項，而沒有人關心其中的20到100個依賴項被廢棄，或者簡而言之：我不明白這整個生態體系是如何運作的。但我想知道。你有什麼建議可以讓我擺脫這種混亂的局面嗎？\n"
+}
