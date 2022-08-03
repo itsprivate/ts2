@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--myfeed--HackerNews--NewsArticle--32330603",
+  "url": "https://news.ycombinator.com/item?id=32330603",
+  "headline": "Patterns and Practices for efficiently handling C# async/await cancel processing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ghuntley",
+    "url": "https://news.ycombinator.com/user?id=ghuntley"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32330603",
+  "sameAs": "https://neuecc.medium.com/patterns-practices-for-efficiently-handling-c-async-await-cancel-processing-and-timeouts-b419ce5f69a4",
+  "dateCreated": "2022-08-03T12:54:33.233Z",
+  "datePublished": "2022-08-03T12:08:08.000Z",
+  "dateModified": "2022-08-03T12:54:33.233Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "有效处理C#异步/等待取消处理的模式和实践\n",
+  "headline_zh-Hant": "有效處理C#異步/等待取消處理的模式和實踐\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--myfeed--HackerNews--NewsArticle--32330903",
+  "url": "https://news.ycombinator.com/item?id=32330903",
+  "headline": "Launching a product that makes dishwashing much easier",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Twhitehouse",
+    "url": "https://news.ycombinator.com/user?id=Twhitehouse"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32330903",
+  "sameAs": "https://www.shakysuds.com",
+  "dateCreated": "2022-08-03T12:54:33.308Z",
+  "datePublished": "2022-08-03T12:41:08.000Z",
+  "dateModified": "2022-08-03T12:54:33.308Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "推出一款使洗碗更容易的产品\n",
+  "headline_zh-Hant": "推出一款使洗碗更容易的產品\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
