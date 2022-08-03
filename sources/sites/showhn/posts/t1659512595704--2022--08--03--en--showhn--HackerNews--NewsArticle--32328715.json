@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--08--01--en--myfeed--HackerNews--NewsArticle--32305536",
-  "url": "https://news.ycombinator.com/item?id=32305536",
-  "headline": "I shaved 80 MB from my TypeScript build by removing googleapis",
+  "identifier": "2022--08--03--en--showhn--HackerNews--NewsArticle--32328715",
+  "url": "https://news.ycombinator.com/item?id=32328715",
+  "headline": "Show HN: FlowGraph – A tool for visualizing relationships between concepts",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "danvk",
-    "url": "https://news.ycombinator.com/user?id=danvk"
+    "name": "surrTurr",
+    "url": "https://news.ycombinator.com/user?id=surrTurr"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32305536",
-  "sameAs": "https://effectivetypescript.com/2022/07/30/treemap-for-source-files/",
-  "dateCreated": "2022-08-01T13:52:08.178Z",
-  "datePublished": "2022-08-01T13:18:47.000Z",
-  "dateModified": "2022-08-01T13:52:08.178Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32328715",
+  "sameAs": "https://github.com/AlexW00/Flow_Graph",
+  "dateCreated": "2022-08-03T07:43:15.704Z",
+  "datePublished": "2022-08-03T07:36:43.000Z",
+  "dateModified": "2022-08-03T07:43:15.704Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 3
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "我通过删除googleapis，从我的TypeScript构建中减少了80MB。\n",
-  "headline_zh-Hant": "我通過刪除googleapis，從我的TypeScript構建中減少了80MB。\n",
+  "headline_zh-Hans": "Show HN: FlowGraph - 一个可视化概念间关系的工具\n",
+  "headline_zh-Hant": "Show HN: FlowGraph - 一個可視化概念間關係的工具\n",
   "@context": [
     "https://schema.org",
     {
