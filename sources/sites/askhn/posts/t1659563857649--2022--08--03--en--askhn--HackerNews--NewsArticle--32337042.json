@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--askhn--HackerNews--NewsArticle--32337042",
+  "url": "https://news.ycombinator.com/item?id=32337042",
+  "headline": "Ask HN: Projections as an Alternative to REST APIs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I work at a large FinTech in a team responsible for a federated GraphQL service and, recently, related datasets in Redshift. We've come to see our datasets as another kind of API representing the same underlying data from our GraphQL API.<p>Our service is event sourced and follows CQRS and so our Redshift dataset is just another projection. This got me thinking, can other services simply use this projection directly instead of a GraphQL or REST API?<p>In general, services could provide an API for mutations that updates a projection which other services can directly query using SQL. Although services are accessing a database directly, it's not breaking encapsulation because the data is a projection intended for use by other services like an API.<p>There's a few benefits I see here. Firstly, if all services were modelled like this, querying multiple &quot;services&quot; could be handled with simple joins. Latency is reduced as data doesn't pass through an intermediate service. Scaling reads is straightforward. The same &quot;API&quot; works for both transactional and analytical use-cases. And finally, low-write services could be scaled down and no-write services could just be data pipelines.<p>So HN what do you think about a database as service API?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "xky",
+    "url": "https://news.ycombinator.com/user?id=xky"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32337042",
+  "sameAs": "https://news.ycombinator.com/item?id=32337042",
+  "dateCreated": "2022-08-03T21:57:37.649Z",
+  "datePublished": "2022-08-03T21:56:11.000Z",
+  "dateModified": "2022-08-03T21:57:37.649Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 预测作为REST API的替代品\n",
+  "headline_zh-Hant": "Ask HN: 預測作為REST API的替代品\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我在一家大型金融科技公司工作，所在的团队负责联合GraphQL服务，最近还负责Redshift的相关数据集。我们已经把我们的数据集看作是另一种API，代表了我们GraphQL API中的相同底层数据。<p>我们的服务是以事件为来源的，并遵循CQRS，因此我们的Redshift数据集只是另一种投影。这让我想到，其他服务是否可以简单地直接使用这个投影，而不是使用GraphQL或REST API？<p>一般来说，服务可以提供一个API，用于更新其他服务可以使用SQL直接查询的投影的突变。尽管服务直接访问数据库，但这并没有破坏封装，因为数据是供其他服务使用的投影，就像API一样。<p>我认为这里有几个好处。首先，如果所有服务都像这样建模，那么可以通过简单的连接来查询多个&quot;服务&quot; 。由于数据不需要通过中间服务，所以延迟会减少。读取的扩展是直接的。同样的&quot;API&quot;适用于事务性和分析性用例。最后，低写服务可以缩减，无写服务可以只是数据管道。<p>那么，HN你对数据库即服务API有什么看法？\n",
+  "description_zh-Hant": "我在一家大型金融科技公司工作，所在的團隊負責聯合GraphQL服務，最近還負責Redshift的相關數據集。我們已經把我們的數據集看作是另一種API，代表了我們GraphQL API中的相同底層數據。<p>我們的服務是以事件為來源的，並遵循CQRS，因此我們的Redshift數據集只是另一種投影。這讓我想到，其他服務是否可以簡單地直接使用這個投影，而不是使用GraphQL或REST API？<p>一般來說，服務可以提供一個API，用於更新其他服務可以使用SQL直接查詢的投影的突變。儘管服務直接訪問數據庫，但這並沒有破壞封裝，因為數據是供其他服務使用的投影，就像API一樣。<p>我認為這裡有幾個好處。首先，如果所有服務都像這樣建模，那麼可以通過簡單的連接來查詢多個&quot;服務&quot; 。由於數據不需要通過中間服務，所以延遲會減少。讀取的擴展是直接的。同樣的&quot;API&quot;適用於事務性和分析性用例。最後，低寫服務可以縮減，無寫服務可以只是數據管道。<p>那麼，HN你對數據庫即服務API有什麼看法？\n"
+}
