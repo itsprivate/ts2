@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--myfeed--HackerNews--NewsArticle--32331067",
+  "url": "https://news.ycombinator.com/item?id=32331067",
+  "headline": "Why Missive ditched Google Analytics for good",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pumkesjaan",
+    "url": "https://news.ycombinator.com/user?id=pumkesjaan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32331067",
+  "sameAs": "https://missiveapp.com/blog/privacy-first-analytics",
+  "dateCreated": "2022-08-03T13:47:48.595Z",
+  "datePublished": "2022-08-03T12:56:35.000Z",
+  "dateModified": "2022-08-03T13:47:48.595Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "为什么Missive永远地抛弃了Google Analytics？\n",
+  "headline_zh-Hant": "為什麼Missive永遠地拋棄了Google Analytics？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
