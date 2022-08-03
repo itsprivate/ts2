@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--myfeed--HackerNews--NewsArticle--32330558",
+  "url": "https://news.ycombinator.com/item?id=32330558",
+  "headline": "JetBrains is working on new CI/CD called TeamCity Pipelines",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "marcobehler",
+    "url": "https://news.ycombinator.com/user?id=marcobehler"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32330558",
+  "sameAs": "https://lp.jetbrains.com/teamcity-pipelines/",
+  "dateCreated": "2022-08-03T12:54:33.205Z",
+  "datePublished": "2022-08-03T12:02:07.000Z",
+  "dateModified": "2022-08-03T12:54:33.205Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "JetBrains正在开发名为TeamCity Pipelines的新CI/CD\n",
+  "headline_zh-Hant": "JetBrains正在開發名為TeamCity Pipelines的新CI/CD\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

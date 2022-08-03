@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--myfeed--HackerNews--NewsArticle--32330431",
+  "url": "https://news.ycombinator.com/item?id=32330431",
+  "headline": "Has(): The Family Selector",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "feross",
+    "url": "https://news.ycombinator.com/user?id=feross"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32330431",
+  "sameAs": "https://developer.chrome.com/blog/has-m105/",
+  "dateCreated": "2022-08-03T12:54:33.181Z",
+  "datePublished": "2022-08-03T11:49:10.000Z",
+  "dateModified": "2022-08-03T12:54:33.181Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Has()。家族选择器\n",
+  "headline_zh-Hant": "Has()。家族選擇器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
