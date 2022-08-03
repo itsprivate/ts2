@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--08--01--en--myfeed--HackerNews--NewsArticle--32305657",
-  "url": "https://news.ycombinator.com/item?id=32305657",
-  "headline": "More Snowy Mountains space junk found amid visit from Australian Space Agency",
+  "identifier": "2022--08--03--en--showhn--HackerNews--NewsArticle--32328914",
+  "url": "https://news.ycombinator.com/item?id=32328914",
+  "headline": "Show HN: An SQL data mapper using Go generics",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "mkl",
-    "url": "https://news.ycombinator.com/user?id=mkl"
+    "name": "bokwoon",
+    "url": "https://news.ycombinator.com/user?id=bokwoon"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32305657",
-  "sameAs": "https://www.abc.net.au/news/2022-08-01/more-snowy-mountains-spacex-space-junk-found/101287460",
-  "dateCreated": "2022-08-01T14:26:01.732Z",
-  "datePublished": "2022-08-01T13:28:44.000Z",
-  "dateModified": "2022-08-01T14:26:01.732Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32328914",
+  "sameAs": "https://github.com/bokwoon95/sq",
+  "dateCreated": "2022-08-03T08:37:03.826Z",
+  "datePublished": "2022-08-03T08:04:27.000Z",
+  "dateModified": "2022-08-03T08:37:03.826Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "在澳大利亚航天局的访问中发现更多雪山的太空垃圾\n",
-  "headline_zh-Hant": "在澳大利亞航天局的訪問中發現更多雪山的太空垃圾\n",
+  "headline_zh-Hans": "Show HN: 一个使用Go泛型的SQL数据映射器\n",
+  "headline_zh-Hant": "Show HN: 一個使用Go泛型的SQL數據映射器\n",
   "@context": [
     "https://schema.org",
     {
