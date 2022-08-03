@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--myfeed--HackerNews--NewsArticle--32325873",
+  "url": "https://news.ycombinator.com/item?id=32325873",
+  "headline": "UCF Student Negotiated with Mark Cuban to Stop Tweeting Jet's Whereabouts",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "coolmike",
+    "url": "https://news.ycombinator.com/user?id=coolmike"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32325873",
+  "sameAs": "https://www.cnbc.com/2022/08/02/jet-tracking-teen-jack-sweeney-stopped-tweeting-mark-cuban-flights.html",
+  "dateCreated": "2022-08-03T02:29:13.164Z",
+  "datePublished": "2022-08-02T23:54:07.000Z",
+  "dateModified": "2022-08-03T02:29:13.164Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "加州大学学生与马克-库班谈判，停止在推特上发布喷气机的下落\n",
+  "headline_zh-Hant": "加州大學學生與馬克-庫班談判，停止在推特上發佈噴氣機的下落\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

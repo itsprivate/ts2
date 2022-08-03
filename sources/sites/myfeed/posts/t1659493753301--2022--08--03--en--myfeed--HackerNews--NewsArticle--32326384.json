@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--myfeed--HackerNews--NewsArticle--32326384",
+  "url": "https://news.ycombinator.com/item?id=32326384",
+  "headline": "View Kotlin's Slack community without signing in",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cheeseblubber",
+    "url": "https://news.ycombinator.com/user?id=cheeseblubber"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32326384",
+  "sameAs": "https://slack-chats.kotlinlang.org/",
+  "dateCreated": "2022-08-03T02:29:13.301Z",
+  "datePublished": "2022-08-03T00:57:56.000Z",
+  "dateModified": "2022-08-03T02:29:13.301Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "无需登录即可查看Kotlin的Slack社区\n",
+  "headline_zh-Hant": "無需登錄即可查看Kotlin的Slack社區\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
