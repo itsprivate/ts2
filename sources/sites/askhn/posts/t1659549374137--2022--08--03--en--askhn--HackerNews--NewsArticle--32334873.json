@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--askhn--HackerNews--NewsArticle--32334873",
+  "url": "https://news.ycombinator.com/item?id=32334873",
+  "headline": "Ask HN: Do you know a good MySQL replication *failover* tutorial?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Fellow HNers,<p>I’m finding lots of tutorials on <i>setting up</i> MySQL replication (the Digital Ocean ones are particularly great), but I’m struggling to find good <i>failover</i> tutorials.<p>So for example you’ve got basic Source/Replica replication set up, but what’s the best practise to fail over to said replica when the source dies?<p>I have a rough plan that I’ve worked out but I’d love to see some meaty tutorials that cover this topic and demonstrate it in practise.<p>Any links (or google schooling for my admittedly old brain) would be appreciated.<p>Thanks!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "herodoturtle",
+    "url": "https://news.ycombinator.com/user?id=herodoturtle"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32334873",
+  "sameAs": "https://news.ycombinator.com/item?id=32334873",
+  "dateCreated": "2022-08-03T17:56:14.137Z",
+  "datePublished": "2022-08-03T17:53:23.000Z",
+  "dateModified": "2022-08-03T17:56:14.137Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你知道一个好的MySQL复制*故障恢复*教程吗？\n",
+  "headline_zh-Hant": "Ask HN: 你知道一個好的MySQL複製*故障恢復*教程嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Fellow HNers,<p>I’m finding lots of tutorials on <i>setting up</i> MySQL replication (the Digital Ocean ones are particularly great), but I’m struggling to find good <i>failover</i> tutorials.<p>So for example you’ve got basic Source/Replica replication set up, but what’s the best practise to fail over to said replica when the source dies? <p>I have a rough plan that I’ve worked out but I’d love to see some meaty tutorials that cover this topic and demonstrate it in practise.<p>Any links (or google schooling for my admittedly old brain) would be appreciated.<p>Thanks!\n",
+  "description_zh-Hant": "Fellow HNers,<p>I’m finding lots of tutorials on <i>setting up</i> MySQL replication (the Digital Ocean ones are particularly great), but I’m struggling to find good <i>failover</i> tutorials.<p>So for example you’ve got basic Source/Replica replication set up, but what’s the best practise to fail over to said replica when the source dies? <p>I have a rough plan that I’ve worked out but I’d love to see some meaty tutorials that cover this topic and demonstrate it in practise.<p>Any links (or google schooling for my admittedly old brain) would be appreciated.<p>Thanks!\n"
+}
