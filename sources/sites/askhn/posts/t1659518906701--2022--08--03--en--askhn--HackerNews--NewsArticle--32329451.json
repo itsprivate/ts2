@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--askhn--HackerNews--NewsArticle--32329451",
+  "url": "https://news.ycombinator.com/item?id=32329451",
+  "headline": "Ask HN: I used to be an engineer, but business analysts turned me into IFTTT?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "In the early years of my career, we didn't have business analysts. We talked to people who wanted software that would improve their work process and we brainstormed with them how we could build software to address their needs. They sometimes asked for things they didn't need or didn't make sense, but we talked it out with them until we found the sweet spot between what they need and what we can realistically deliver.<p>The past few years, companies I worked for had a &quot;business analyst&quot; or &quot;business developer&quot;, a role that never existed in the early years of my career. My experience is that the function of a BA is to be a moat between the business needs and the developer. They give me specs with zero context or explanation which makes it impossible for me to engineer a solution.<p>For example, the BA tells me that users with a &quot;KE Number&quot; can't order an inspection, and that this is a bug. I look at the code and work out from a sprawl of nested if-statements that currently the only users who can order an inspection are those who are currently up to date on their payments. I ask the BA what &quot;KE Number&quot; is and why they can order an inspection even if they aren't up to date on their payments. He looks at me like I'm stupid and repeats the command louder and slower. I try and try to convince him that I need to know why, even though it's incomprehensible to him that I would want to know. I finally manage to tease out that users on the Full Comprehensive plan are trusted to pay their bills and so they have permission to do anything that a user who is up to date on payments can do. Users on the Full Comprehensive plan get a KE Number, so that's a way we can identify them.<p>Aha, now I have the actual business rule! I can find the one place this business rule is expressed, or if it isn't there already, then I can add it. What I find instead is KENumber in various nested if-statements sprinkled all over the place from the persistence layer to the view logic. I do a git blame and find the developers who wrote these. I talk to them and find out they have no idea what KENumber is, but the BA told them &quot;If KENumber is x, then do y&quot; and so they added an if statement somewhere. I look through the Pull Request history and find 14 bug fixes in the form of &quot;User with KE Number can't do x&quot; and every single one was solved by adding yet another if statement to check if a user has a KENumber.<p>This has been my average workday at the last three companies I worked at. I feel like everyone is annoyed with me because I waste time asking weird irrelevant questions and they don't understand why it takes me so long to fix a bug. I thought it was a problem with the company but now I've switched twice and getting the same experience, so either I've changed or the industry has changed.<p>When I tell the higher-ups I want to be more informed of the business domain, they always respond &quot;Oh, you want to switch careers? You want to give up software engineering and become a business analyst instead?&quot; I can't seem to get across that I need to know the business domain in order to do the job of software engineering.<p>Does anyone relate to this? Am I way off base? Is there a way to convince higher-ups that we need to know the business domain? Is there a trick to finding a company where software engineers have access to the domain knowledge?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "unknownsky",
+    "url": "https://news.ycombinator.com/user?id=unknownsky"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32329451",
+  "sameAs": "https://news.ycombinator.com/item?id=32329451",
+  "dateCreated": "2022-08-03T09:28:26.701Z",
+  "datePublished": "2022-08-03T09:20:32.000Z",
+  "dateModified": "2022-08-03T09:28:26.701Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我曾经是一名工程师，但商业分析师把我变成了IFTTT？\n",
+  "headline_zh-Hant": "Ask HN: 我曾經是一名工程師，但商業分析師把我變成了IFTTT？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在我职业生涯的早期，我们没有业务分析员。我们与那些希望通过软件来改善工作流程的人交谈，并与他们一起集思广益，探讨如何构建软件来满足他们的需求。<p>在过去的几年里，我工作的公司有一个&quot;业务分析师&quot;或&quot;业务开发人员&quot;，这个角色在我职业生涯的早期从未出现过。我的经验是，BA的功能是成为业务需求和开发人员之间的一道护城河。他们给我的规范没有任何背景或解释，这使我无法设计一个解决方案。<p>例如，BA告诉我，有&quot;KE Number&quot;的用户不能订购检查，这是一个错误。我看了看代码，从一大堆嵌套的if语句中发现，目前唯一可以订购检查的用户是那些目前已经完成付款的用户。我问BA什么是 \"KE号码\"，为什么即使他们没有及时付款，也可以要求检查。他看着我，好像我是个傻瓜，并大声、慢条斯理地重复着这个命令。我试图说服他，我需要知道原因，尽管他无法理解我想知道。我最后设法弄明白，全面综合计划的用户被信任为支付他们的账单，因此他们有权限做任何一个有最新付款记录的用户可以做的事情。全面综合计划的用户有一个KE号码，所以这是我们识别他们的一种方式。<p>哈，现在我有了实际的业务规则！我可以找到这个业务规则的一个地方。我可以找到表达这一业务规则的地方，或者如果它不在那里，那么我可以添加它。但我发现，从持久层到视图逻辑，各种嵌套的if语句中到处都是KENumber。我做了一个git blame，找到了写这些东西的开发者。我和他们交谈，发现他们不知道KENumber是什么，但是BA告诉他们&quot;如果KENumber是x，那么就做y&quot;，所以他们在某个地方添加了一个if语句。我查看了拉动请求的历史，发现有14个错误修复，其形式是&quot;有KE号码的用户不能做x&quot;，而每一个都是通过添加另一个if语句来检查用户是否有KEN号码来解决的。<p>这就是我在过去三家公司工作的平均工作日。我觉得每个人都对我很恼火，因为我浪费时间问一些奇怪的不相关的问题，而且他们不明白为什么我花了这么长时间来修复一个错误。我以为是公司的问题，但现在我已经换了两次，得到了同样的经验，所以要么是我变了，要么是行业变了。<p>当我告诉高层我想更多地了解商业领域时，他们总是回答说：\"哦，你想转行？你想放弃软件工程而成为一名商业分析师吗？&quot; 我似乎无法理解我需要了解商业领域才能完成软件工程的工作。<p>有人对此有同感吗？我是不是太偏激了？有什么方法可以说服高层，让他们知道我们需要了解业务领域？有什么诀窍可以找到一家软件工程师可以接触到领域知识的公司吗？\n",
+  "description_zh-Hant": "在我職業生涯的早期，我們沒有業務分析員。我們與那些希望通過軟件來改善工作流程的人交談，並與他們一起集思廣益，探討如何構建軟件來滿足他們的需求。<p>在過去的幾年裡，我工作的公司有一個&quot;業務分析師&quot;或&quot;業務開發人員&quot;，這個角色在我職業生涯的早期從未出現過。我的經驗是，BA的功能是成為業務需求和開發人員之間的一道護城河。他們給我的規範沒有任何背景或解釋，這使我無法設計一個解決方案。<p>例如，BA告訴我，有&quot;KE Number&quot;的用戶不能訂購檢查，這是一個錯誤。我看了看代碼，從一大堆嵌套的if語句中發現，目前唯一可以訂購檢查的用戶是那些目前已經完成付款的用戶。我問BA什麼是 \"KE號碼\"，為什麼即使他們沒有及時付款，也可以要求檢查。他看著我，好像我是個傻瓜，並大聲、慢條斯理地重複著這個命令。我試圖說服他，我需要知道原因，儘管他無法理解我想知道。我最後設法弄明白，全面綜合計劃的用戶被信任為支付他們的賬單，因此他們有權限做任何一個有最新付款記錄的用戶可以做的事情。全面綜合計劃的用戶有一個KE號碼，所以這是我們識別他們的一種方式。<p>哈，現在我有了實際的業務規則！我可以找到這個業務規則的一個地方。我可以找到表達這一業務規則的地方，或者如果它不在那裡，那麼我可以添加它。但我發現，從持久層到視圖邏輯，各種嵌套的if語句中到處都是KENumber。我做了一個git blame，找到了寫這些東西的開發者。我和他們交談，發現他們不知道KENumber是什麼，但是BA告訴他們&quot;如果KENumber是x，那麼就做y&quot;，所以他們在某個地方添加了一個if語句。我查看了拉動請求的歷史，發現有14個錯誤修復，其形式是&quot;有KE號碼的用戶不能做x&quot;，而每一個都是通過添加另一個if語句來檢查用戶是否有KEN號碼來解決的。<p>這就是我在過去三家公司工作的平均工作日。我覺得每個人都對我很惱火，因為我浪費時間問一些奇怪的不相關的問題，而且他們不明白為什麼我花了這麼長時間來修復一個錯誤。我以為是公司的問題，但現在我已經換了兩次，得到了同樣的經驗，所以要麼是我變了，要麼是行業變了。<p>當我告訴高層我想更多地瞭解商業領域時，他們總是回答說：\"哦，你想轉行？你想放棄軟件工程而成為一名商業分析師嗎？&quot; 我似乎無法理解我需要了解商業領域才能完成軟件工程的工作。<p>有人對此有同感嗎？我是不是太偏激了？有什麼方法可以說服高層，讓他們知道我們需要了解業務領域？有什麼訣竅可以找到一家軟件工程師可以接觸到領域知識的公司嗎？\n"
+}
