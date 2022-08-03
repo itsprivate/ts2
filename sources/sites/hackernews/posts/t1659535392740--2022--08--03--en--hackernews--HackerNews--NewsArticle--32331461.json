@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--hackernews--HackerNews--NewsArticle--32331461",
+  "url": "https://news.ycombinator.com/item?id=32331461",
+  "headline": "Ask HN: Is my software stack choice sound?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "As a side-project I am developing a simple app to send short messages to subscribed users. The users will be able to respond to the messages either privately or publicly.<p>It is a simple app, but I am not web or mobile developer. So this will be a learning experience for me.<p>This is a mobile-first app. I am thinking of what software stack I should use. I have reduced the choices to the following:<p>frontend: Flutter, backend: REST + Wt + PostgreSQL<p>Or<p>frontend: Flutter, backend: GraphQL + Phoenix/Elixir + CouchDB<p>I am a C/C++ developer and familiar with Wt and little bit of REST and RDBMS. But I am not familiar with Flutter, PostgreSQL, GraphQL, Phoenix/Elixir and CouchDB.<p>What software stack should I use? I am leaning towards the first option as I am familiar with C/C++.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "m33k44",
+    "url": "https://news.ycombinator.com/user?id=m33k44"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32331461",
+  "sameAs": "https://news.ycombinator.com/item?id=32331461",
+  "dateCreated": "2022-08-03T14:03:12.740Z",
+  "datePublished": "2022-08-03T13:32:56.000Z",
+  "dateModified": "2022-08-03T14:03:12.740Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 9
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我的软件栈选择是否合理？\n",
+  "headline_zh-Hant": "Ask HN: 我的軟件棧選擇是否合理？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "作为一个副业，我正在开发一个简单的应用程序，向订阅的用户发送短消息。用户将能够私下或公开回应这些信息。<p>这是一个简单的应用程序，但我不是网络或移动开发人员。所以这对我来说将是一个学习的经历。<p>这是一个移动优先的应用程序。我正在考虑我应该使用什么软件栈。我已经把选择减少到以下几点：<p>前端。Flutter，后端。REST + Wt + PostgreSQL<p>或者<p>前端。Flutter，后端。GraphQL + Phoenix/Elixir + CouchDB<p>我是一个C/C++开发人员，熟悉Wt和一点点REST和RDBMS。但我对Flutter、PostgreSQL、GraphQL、Phoenix/Elixir和CouchDB并不熟悉。<p>我应该使用什么软件栈？我倾向于第一个选项，因为我熟悉C/C++。\n",
+  "description_zh-Hant": "作為一個副業，我正在開發一個簡單的應用程序，向訂閱的用戶發送短消息。用戶將能夠私下或公開回應這些信息。<p>這是一個簡單的應用程序，但我不是網絡或移動開發人員。所以這對我來說將是一個學習的經歷。<p>這是一個移動優先的應用程序。我正在考慮我應該使用什麼軟件棧。我已經把選擇減少到以下幾點：<p>前端。Flutter，後端。REST + Wt + PostgreSQL<p>或者<p>前端。Flutter，後端。GraphQL + Phoenix/Elixir + CouchDB<p>我是一個C/C++開發人員，熟悉Wt和一點點REST和RDBMS。但我對Flutter、PostgreSQL、GraphQL、Phoenix/Elixir和CouchDB並不熟悉。<p>我應該使用什麼軟件棧？我傾向於第一個選項，因為我熟悉C/C++。\n"
+}
