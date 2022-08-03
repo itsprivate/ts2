@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--askhn--HackerNews--NewsArticle--32331234",
+  "url": "https://news.ycombinator.com/item?id=32331234",
+  "headline": "Ask HN: How do you successfully nitpick during a code review?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've been writing code for nearly a decade at various large companies and have seen code quality vary drastically from team to team even within the same company. I like to think that I hold the standard for my code quality to a pretty high standard In in terms of readability, best practices, modularity, and the likes.<p>One of the projects I maintain now has a few people contributing to it, but the majority of the contributions are mine (~90% according to git).<p>When other people submit code for me to review, I am often distracted by the quality of the code in the pull request and find myself requesting tons of changes that have to do with the code quality itself (better variable naming, hiding implementations behind clean interfaces to reduce clutter, breaking large functions into smaller, more readable chunks, etc). This leads to me focusing less on the functionality of the code, but more on the style which wastes a lot of time.<p>This is a frustrating experience both for me, and for the person who is trying to submit code. My intent behind these requests isn't to nitpick, but to hold others to a high standard, and mostly keep the codebase clean so that the new code is easy enough to read for a new person on the team to jump in and contribute.<p>These requested changes are often ignored or are taken as optional suggestions that the person contributing.<p>So two questions:\n  1. Am I being overly pedantic when it comes to style and readability?\n  2. And if not, how can I best communicate to my teammates and other contributors that code quality is important and that these &quot;nitpicks&quot; are important?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "thrownit_away",
+    "url": "https://news.ycombinator.com/user?id=thrownit_away"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32331234",
+  "sameAs": "https://news.ycombinator.com/item?id=32331234",
+  "dateCreated": "2022-08-03T13:47:47.799Z",
+  "datePublished": "2022-08-03T13:11:43.000Z",
+  "dateModified": "2022-08-03T13:47:47.799Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何在代码审查中成功地吹毛求疵？\n",
+  "headline_zh-Hant": "Ask HN: 如何在代碼審查中成功地吹毛求疵？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我在不同的大公司写了近十年的代码，看到不同团队的代码质量差异很大，甚至在同一公司内也是如此。我想我对自己的代码质量的标准是相当高的，在可读性、最佳实践、模块化等方面都是如此。<p>我现在维护的一个项目有几个人在贡献，但大部分的贡献是我的（根据git的数据，大约90%）。 <p>当其他人提交代码让我审查时，我经常被拉动请求中的代码质量所干扰，并发现自己要求进行大量与代码质量本身有关的修改（更好的变量命名、将实现隐藏在干净的接口后面以减少混乱、将大型函数分解成更小、更可读的块，等等）。这导致我不太关注代码的功能，而是更关注风格，这就浪费了很多时间。<p>这对我和试图提交代码的人来说都是一种令人沮丧的经历。我提出这些要求的目的并不是要吹毛求疵，而是要以高标准来要求别人，而且主要是保持代码库的清洁，以便新的代码足够容易阅读，使团队中的新人能够跳进去并做出贡献。<p>这些要求的修改往往被忽视，或者被视为贡献者的可选建议。\n  1. 当涉及到风格和可读性时，我是否过于迂腐了？\n  2. 如果不是，我怎样才能更好地与我的队友和其他贡献者沟通，让他们知道代码质量很重要，而这些&quot;吹毛求疵&quot;很重要？\n",
+  "description_zh-Hant": "我在不同的大公司寫了近十年的代碼，看到不同團隊的代碼質量差異很大，甚至在同一公司內也是如此。我想我對自己的代碼質量的標準是相當高的，在可讀性、最佳實踐、模塊化等方面都是如此。<p>我現在維護的一個項目有幾個人在貢獻，但大部分的貢獻是我的（根據git的數據，大約90%）。 <p>當其他人提交代碼讓我審查時，我經常被拉動請求中的代碼質量所幹擾，並發現自己要求進行大量與代碼質量本身有關的修改（更好的變量命名、將實現隱藏在乾淨的接口後面以減少混亂、將大型函數分解成更小、更可讀的塊，等等）。這導致我不太關注代碼的功能，而是更關注風格，這就浪費了很多時間。<p>這對我和試圖提交代碼的人來說都是一種令人沮喪的經歷。我提出這些要求的目的並不是要吹毛求疵，而是要以高標準來要求別人，而且主要是保持代碼庫的清潔，以便新的代碼足夠容易閱讀，使團隊中的新人能夠跳進去並做出貢獻。<p>這些要求的修改往往被忽視，或者被視為貢獻者的可選建議。\n  1. 當涉及到風格和可讀性時，我是否過於迂腐了？\n  2. 如果不是，我怎樣才能更好地與我的隊友和其他貢獻者溝通，讓他們知道代碼質量很重要，而這些&quot;吹毛求疵&quot;很重要？\n"
+}

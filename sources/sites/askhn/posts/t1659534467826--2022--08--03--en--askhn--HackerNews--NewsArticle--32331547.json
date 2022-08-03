@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--askhn--HackerNews--NewsArticle--32331547",
+  "url": "https://news.ycombinator.com/item?id=32331547",
+  "headline": "Ask HN: Is there a Gmail DNS resolver outage happening?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I got pinged on WhatsApp, that they can't send me emails - this is to my own server that has been happily ticking for quite a while. Tested sending from outlook and gmail - outlook worked, gmail failed with:<p><pre><code>    DNS Error: DNS type 'mx' lookup of [domain] responded with code NXDOMAIN Domain name not found: [domain] Learn more at https://support.google.com/mail/?p=BadRcptDomain\n</code></pre>\nAnyone seen this before or experiencing it currently?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "pmlnr",
+    "url": "https://news.ycombinator.com/user?id=pmlnr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32331547",
+  "sameAs": "https://news.ycombinator.com/item?id=32331547",
+  "dateCreated": "2022-08-03T13:47:47.826Z",
+  "datePublished": "2022-08-03T13:42:46.000Z",
+  "dateModified": "2022-08-03T13:47:47.826Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 是否有Gmail的DNS解析器发生故障？\n",
+  "headline_zh-Hant": "Ask HN: 是否有Gmail的DNS解析器發生故障？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "I got pinged on WhatsApp, that they can't send me emails - this is to my own server that has been happily ticking for quite a while. Tested sending from outlook and gmail - outlook worked, gmail failed with:<p><pre><code> DNS Error: DNS type 'mx' lookup of [domain] responded with code NXDOMAIN Domain name not found: [domain] Learn more at https://support.google.com/mail/?p=BadRcptDomain\n</code></pre>\nAnyone seen this before or experiencing it currently?\n",
+  "description_zh-Hant": "I got pinged on WhatsApp, that they can't send me emails - this is to my own server that has been happily ticking for quite a while. Tested sending from outlook and gmail - outlook worked, gmail failed with:<p><pre><code> DNS Error: DNS type 'mx' lookup of [domain] responded with code NXDOMAIN Domain name not found: [domain] Learn more at https://support.google.com/mail/?p=BadRcptDomain\n</code></pre>\nAnyone seen this before or experiencing it currently?\n"
+}

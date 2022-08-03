@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--03--en--showhn--HackerNews--NewsArticle--32331122",
+  "url": "https://news.ycombinator.com/item?id=32331122",
+  "headline": "Show HN: Matchify – Find your music doppelgänger",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "An experiment using the Spotify API to compare your music taste with others. The score is an attempt to mimic that given in a &quot;blend&quot; playlist. Inspired by the research in the links (and the high score my partner and I have been given : )",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "homerjam",
+    "url": "https://news.ycombinator.com/user?id=homerjam"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32331122",
+  "sameAs": "https://matchify.me",
+  "dateCreated": "2022-08-03T13:47:59.671Z",
+  "datePublished": "2022-08-03T13:01:34.000Z",
+  "dateModified": "2022-08-03T13:47:59.671Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Matchify - 寻找你的音乐二重奏者\n",
+  "headline_zh-Hant": "Show HN: Matchify - 尋找你的音樂二重奏者\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "一个使用Spotify API来比较你和其他人的音乐品味的实验。分数是试图模仿&quot;blend&quot;播放列表中给出的分数。灵感来自于链接中的研究（以及我和我的伙伴得到的高分 : )\n",
+  "description_zh-Hant": "一個使用Spotify API來比較你和其他人的音樂品味的實驗。分數是試圖模仿&quot;blend&quot;播放列表中給出的分數。靈感來自於鏈接中的研究（以及我和我的夥伴得到的高分 : )\n"
+}
