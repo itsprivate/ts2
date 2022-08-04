@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--myfeed--HackerNews--NewsArticle--32342698",
+  "url": "https://news.ycombinator.com/item?id=32342698",
+  "headline": "The Website is Down (2009) [video]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cos2pi",
+    "url": "https://news.ycombinator.com/user?id=cos2pi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32342698",
+  "sameAs": "https://www.youtube.com/watch?v=uRGljemfwUE",
+  "dateCreated": "2022-08-04T13:44:42.886Z",
+  "datePublished": "2022-08-04T13:35:43.000Z",
+  "dateModified": "2022-08-04T13:44:42.886Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "网站瘫痪了（2009）[视频］\n",
+  "headline_zh-Hant": "網站癱瘓了（2009）[視頻］\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
