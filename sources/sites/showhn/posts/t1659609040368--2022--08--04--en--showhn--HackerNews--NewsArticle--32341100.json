@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--showhn--HackerNews--NewsArticle--32341100",
+  "url": "https://news.ycombinator.com/item?id=32341100",
+  "headline": "Show HN: GraphQL Armor – An open source security layer for GraphQL",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Following our discussions with the community at GraphQL SF and London, we crafted an open source and easy to use plugin that adds a <i>necessary</i> security layer to GraphQL servers.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "glimow",
+    "url": "https://news.ycombinator.com/user?id=glimow"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32341100",
+  "sameAs": "https://github.com/Escape-Technologies/graphql-armor",
+  "dateCreated": "2022-08-04T10:30:40.368Z",
+  "datePublished": "2022-08-04T10:04:24.000Z",
+  "dateModified": "2022-08-04T10:30:40.368Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: GraphQL Armor - GraphQL的开源安全层\n",
+  "headline_zh-Hant": "Show HN: GraphQL Armor - GraphQL的開源安全層\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在我们与GraphQL SF和伦敦的社区讨论之后，我们精心制作了一个开源且易于使用的插件，为GraphQL服务器增加了一个<i>必要的</i>安全层。\n",
+  "description_zh-Hant": "在我們與GraphQL SF和倫敦的社區討論之後，我們精心製作了一個開源且易於使用的插件，為GraphQL服務器增加了一個<i>必要的</i>安全層。\n"
+}

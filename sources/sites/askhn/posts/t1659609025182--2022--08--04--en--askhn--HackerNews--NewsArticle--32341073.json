@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--askhn--HackerNews--NewsArticle--32341073",
+  "url": "https://news.ycombinator.com/item?id=32341073",
+  "headline": "Ask HN: Do you use GPT-3 like models at work? How do you validate their output?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi! I work in NLP. I'm curious about finding use cases for GPT-3 like models, but an issue I have is that these models sometimes produce garbage, which is dangerous.<p>How do you do it? Did you manage to somehow plug in a verification model for its output? What were the results?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "hollowpython",
+    "url": "https://news.ycombinator.com/user?id=hollowpython"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32341073",
+  "sameAs": "https://news.ycombinator.com/item?id=32341073",
+  "dateCreated": "2022-08-04T10:30:25.182Z",
+  "datePublished": "2022-08-04T10:00:22.000Z",
+  "dateModified": "2022-08-04T10:30:25.182Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你在工作中使用类似GPT-3的模型吗？你如何验证它们的输出？\n",
+  "headline_zh-Hant": "Ask HN: 你在工作中使用類似GPT-3的模型嗎？你如何驗證它們的輸出？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨！我在NLP工作。我很想为类似GPT-3的模型找到用例，但我遇到的一个问题是，这些模型有时会产生垃圾，这很危险。<p>你怎么做的？你是否设法以某种方式为其输出插入一个验证模型？结果是什么？\n",
+  "description_zh-Hant": "嗨！我在NLP工作。我很想為類似GPT-3的模型找到用例，但我遇到的一個問題是，這些模型有時會產生垃圾，這很危險。<p>你怎麼做的？你是否設法以某種方式為其輸出插入一個驗證模型？結果是什麼？\n"
+}
