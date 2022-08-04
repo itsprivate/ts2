@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--myfeed--HackerNews--NewsArticle--32349512",
+  "url": "https://news.ycombinator.com/item?id=32349512",
+  "headline": "Tell HN: Security notice from Slack regarding Shared Invitation links",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Just received this notice-<p>----<p>We’re writing to let you know about a bug we recently discovered and fixed in Slack’s Shared Invite Link functionality. This feature allows users with the proper permissions to create a link that will allow anyone to join your Slack workspace; it is an alternative to inviting people one-by-one via email to become workspace members. You are receiving this email because one or more members of your workspace created and/or revoked one of these links for your workspace between April 17th, 2017 and July 17th, 2022. We’ll go into detail about this security issue below.<p>Important things first, though: We have no reason to believe that anyone was able to obtain plaintext passwords for users in your workspace because of this vulnerability. However, for the sake of caution, we have reset impacted users’ Slack passwords. They will need to set a new Slack password before they can login again. A list of impacted users is below.<p>&lt;redacted&gt;<p>Now, for some technical details — feel free to skip the next two paragraphs if that doesn’t interest you. When you’re connected to Slack, we keep your client updated using a piece of technology called a websocket. This is an always-open stream of behind-the-scenes information, specific to just you and your account, that we use to push new information to your Slack client. When a new message is posted, a new file is uploaded, a new emoji reaction is added, or a new teammate joins, all of this information (plus much more!) is sent to you over a websocket. Data streamed from Slack’s servers over the websocket is processed by the Slack client apps, but often hidden from the user's view.<p>One of the hidden events we send over the websocket is a notice that a shared invite link was created or revoked. The bug we discovered was in this invite link event: along with the information about the shared invite link, we included the hashed password of the user who created or revoked the link. This information was sent over the websocket to all users of the workspace who were currently connected to Slack. The hash of a password is not the same as the password itself; it is a cryptographic technique to store data in a way that is secure, but not reversible. In other words, it is practically infeasible for your password to be derived from the hash, and no one can use the hash to log in as you. We use a technique called salting to further protect these hashes. Hashed passwords are secure, but not perfect — they are still subject to being reversed via brute force — which is why we’ve chosen to reset the passwords of everyone affected.<p>When your users reset their passwords we recommend selecting a complex and unique password. This is easiest to do by using a password manager to help generate and store strong, unique passwords for every service.<p>If you have additional questions, or if you need our help as you investigate this issue, you can reply to this message or email us feedback@slack.com.<p>We know that the security of your data is important. We deeply regret this issue and its impact on your organization.<p>Sincerely,\nThe team at Slack",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gauravphoenix",
+    "url": "https://news.ycombinator.com/user?id=gauravphoenix"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32349512",
+  "sameAs": "https://news.ycombinator.com/item?id=32349512",
+  "dateCreated": "2022-08-04T23:45:13.365Z",
+  "datePublished": "2022-08-04T23:17:32.000Z",
+  "dateModified": "2022-08-04T23:45:13.365Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：Slack关于共享邀请链接的安全通知\n",
+  "headline_zh-Hant": "告訴HN：Slack關於共享邀請鏈接的安全通知\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "刚刚收到这个通知--<p>----<p>我们写信告诉你，我们最近发现并修复了Slack的共享邀请链接功能中的一个错误。该功能允许拥有适当权限的用户创建一个链接，允许任何人加入你的Slack工作区；这是一个替代通过电子邮件逐一邀请人们成为工作区成员的方法。你之所以收到这封邮件，是因为在2017年4月17日至2022年7月17日期间，你的工作区的一名或多名成员为你的工作区创建和/或撤销了这些链接之一。我们将在下面详细介绍这个安全问题。<p>重要的是，首先。我们没有理由相信，由于这个漏洞，有人能够获得你工作区用户的明文密码。然而，为了谨慎起见，我们已经重置了受影响用户的Slack密码。他们将需要设置一个新的Slack密码，才能再次登录。受影响的用户名单如下。<p>&lt;redacted&gt;<p>现在，关于一些技术细节--如果你对这些不感兴趣，请随意跳过接下来的两段。当你连接到Slack时，我们使用一种叫做websocket的技术保持你的客户端更新。这是一个始终开放的幕后信息流，只针对你和你的账户，我们用它来向你的Slack客户端推送新信息。当发布一条新消息、上传一个新文件、添加一个新的表情符号反应或有新的队友加入时，所有这些信息（以及更多！）都会通过websocket发送给你。Slack服务器通过websocket发送的数据由Slack客户端应用程序处理，但通常会从用户的视野中隐藏起来。<p>我们通过websocket发送的一个隐藏事件是一个共享邀请链接被创建或撤销的通知。我们发现的错误就在这个邀请链接事件中：与共享邀请链接的信息一起，我们包含了创建或撤销链接的用户的散列密码。这个信息通过websocket被发送到工作区所有当前连接到Slack的用户那里。密码的哈希值与密码本身并不相同；它是一种加密技术，以一种安全的方式存储数据，但不可逆。换句话说，从哈希值中得出你的密码实际上是不可行的，而且没有人可以使用哈希值作为你的身份登录。我们使用一种叫做盐化的技术来进一步保护这些哈希值。哈希密码是安全的，但并不完美--它们仍然有可能通过暴力手段被逆转--这就是为什么我们选择重置所有受影响的人的密码。<p>当你的用户重置他们的密码时，我们建议选择一个复杂而独特的密码。<p>如果您有其他问题，或者您在调查这个问题时需要我们的帮助，您可以回复这条消息或给我们发电子邮件 feedback@slack.com。<p>我们知道您的数据安全很重要。我们对这一问题及其对您的组织的影响深感遗憾。<p>真诚的。\nSlack的团队\n",
+  "description_zh-Hant": "剛剛收到這個通知--<p>----<p>我們寫信告訴你，我們最近發現並修復了Slack的共享邀請鏈接功能中的一個錯誤。該功能允許擁有適當權限的用戶創建一個鏈接，允許任何人加入你的Slack工作區；這是一個替代通過電子郵件逐一邀請人們成為工作區成員的方法。你之所以收到這封郵件，是因為在2017年4月17日至2022年7月17日期間，你的工作區的一名或多名成員為你的工作區創建和/或撤銷了這些鏈接之一。我們將在下面詳細介紹這個安全問題。<p>重要的是，首先。我們沒有理由相信，由於這個漏洞，有人能夠獲得你工作區用戶的明文密碼。然而，為了謹慎起見，我們已經重置了受影響用戶的Slack密碼。他們將需要設置一個新的Slack密碼，才能再次登錄。受影響的用戶名單如下。<p>&lt;redacted&gt;<p>現在，關於一些技術細節--如果你對這些不感興趣，請隨意跳過接下來的兩段。當你連接到Slack時，我們使用一種叫做websocket的技術保持你的客戶端更新。這是一個始終開放的幕後信息流，只針對你和你的賬戶，我們用它來向你的Slack客戶端推送新信息。當發佈一條新消息、上傳一個新文件、添加一個新的表情符號反應或有新的隊友加入時，所有這些信息（以及更多！）都會通過websocket發送給你。Slack服務器通過websocket發送的數據由Slack客戶端應用程序處理，但通常會從用戶的視野中隱藏起來。<p>我們通過websocket發送的一個隱藏事件是一個共享邀請鏈接被創建或撤銷的通知。我們發現的錯誤就在這個邀請鏈接事件中：與共享邀請鏈接的信息一起，我們包含了創建或撤銷鏈接的用戶的散列密碼。這個信息通過websocket被髮送到工作區所有當前連接到Slack的用戶那裡。密碼的哈希值與密碼本身並不相同；它是一種加密技術，以一種安全的方式存儲數據，但不可逆。換句話說，從哈希值中得出你的密碼實際上是不可行的，而且沒有人可以使用哈希值作為你的身份登錄。我們使用一種叫做鹽化的技術來進一步保護這些哈希值。哈希密碼是安全的，但並不完美--它們仍然有可能通過暴力手段被逆轉--這就是為什麼我們選擇重置所有受影響的人的密碼。<p>當你的用戶重置他們的密碼時，我們建議選擇一個複雜而獨特的密碼。<p>如果您有其他問題，或者您在調查這個問題時需要我們的幫助，您可以回覆這條消息或給我們發電子郵件 feedback@slack.com。<p>我們知道您的數據安全很重要。我們對這一問題及其對您的組織的影響深感遺憾。<p>真誠的。\nSlack的團隊\n"
+}
