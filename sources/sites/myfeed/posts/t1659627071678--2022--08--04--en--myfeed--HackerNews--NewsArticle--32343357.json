@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--myfeed--HackerNews--NewsArticle--32343357",
+  "url": "https://news.ycombinator.com/item?id=32343357",
+  "headline": "The Metaverse Is Not a Place. It’s a Communications Medium",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rchaudhary",
+    "url": "https://news.ycombinator.com/user?id=rchaudhary"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32343357",
+  "sameAs": "https://www.oreilly.com/radar/the-metaverse-is-not-a-place/",
+  "dateCreated": "2022-08-04T15:31:11.678Z",
+  "datePublished": "2022-08-04T14:27:46.000Z",
+  "dateModified": "2022-08-04T15:31:11.678Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Metaverse不是一个地方。它是一种传播媒介\n",
+  "headline_zh-Hant": "Metaverse不是一個地方。它是一種傳播媒介\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
