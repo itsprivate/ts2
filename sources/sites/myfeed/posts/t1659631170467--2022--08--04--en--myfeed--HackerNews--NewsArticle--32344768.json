@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--myfeed--HackerNews--NewsArticle--32344768",
+  "url": "https://news.ycombinator.com/item?id=32344768",
+  "headline": "Show HN: Highlight – Debug customer-facing issues with replay",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN, I’m Jay, a co-founder at Highlight and a YC alum; excited to share our replay-based debugging tool!<p>TLDR; if you're using a tool like Fullstory for debugging, or you have trouble understanding the actual impact of your errors (e.g. in sentry), you should give us a try!<p>We built Highlight because we constantly found ourselves flooded with errors and support tickets with very little context on <i>why</i> these issues occurred. To make matters worse, there was never an easy (and less annoying way) of reproducing these errors, other than by asking users to send screenshots, videos, etc. Frankly, this wasn’t a good use of anyone’s time!<p>At the same time, the more product-oriented folks on our team wished that they could better understand UX flows and user frustrations without having to do unnecessary user interviews.<p>Highlight addresses both of these pain points by giving teams reproducibility out of the box! Our platform is installable with a single Javascript snippet and makes it easy and quick to search for relevant user sessions. For product folks, it’s easy to filter down to sessions where users performed specific actions, such as using a newly released feature. For developers, when an error or support ticket shows up in their inbox, they know exactly where to start debugging<p>Today, we’re focusing on session replay and monitoring, but our goal is to expand to an entire suite of debugging tooling focused on helping teams find and fix issues faster. Some features on our roadmap include live session viewing, backend error monitoring, and much more!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "podoman",
+    "url": "https://news.ycombinator.com/user?id=podoman"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32344768",
+  "sameAs": "https://www.highlight.io",
+  "dateCreated": "2022-08-04T16:39:30.467Z",
+  "datePublished": "2022-08-04T16:10:42.000Z",
+  "dateModified": "2022-08-04T16:39:30.467Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 亮点 - 利用回放功能调试面向客户的问题\n",
+  "headline_zh-Hant": "Show HN: 亮點 - 利用回放功能調試面向客戶的問題\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嘿，HN，我是Jay，Highlight的联合创始人，也是YC的校友；很高兴能与大家分享我们基于回放的调试工具！<p>TLDR；如果你正在使用Fullstory这样的工具进行调试，或者你难以理解错误的实际影响（例如在sentry中），你应该给我们一个机会！<p>我们建立Highlight是因为我们经常发现自己被错误和支持票淹没，但很少有关于<i>为什么</i>这些问题的背景。更糟糕的是，除了要求用户发送屏幕截图、视频等之外，从来没有一个简单（而且不那么令人讨厌）的方法来重现这些错误。坦率地说，这不是对任何人的时间的良好利用！<p>同时，我们团队中更多的以产品为导向的人希望他们能够更好地了解UX流程和用户的挫折感，而不必进行不必要的用户访谈。<p>Highlight通过给团队提供开箱即用的可重复性来解决这两个痛点 我们的平台只需一个Javascript片段就可以安装，并使搜索相关的用户会话变得简单而快速。对于产品人员来说，很容易过滤到用户执行特定操作的会话，例如使用新发布的功能。对于开发人员来说，当一个错误或支持票据出现在他们的收件箱中时，他们清楚地知道从哪里开始调试<p>今天，我们专注于会话回放和监控，但我们的目标是扩展到一整套调试工具，专注于帮助团队更快地发现和修复问题。我们路线图上的一些功能包括实时会话查看、后端错误监控，以及更多的功能!\n",
+  "description_zh-Hant": "嘿，HN，我是Jay，Highlight的聯合創始人，也是YC的校友；很高興能與大家分享我們基於回放的調試工具！<p>TLDR；如果你正在使用Fullstory這樣的工具進行調試，或者你難以理解錯誤的實際影響（例如在sentry中），你應該給我們一個機會！<p>我們建立Highlight是因為我們經常發現自己被錯誤和支持票淹沒，但很少有關於<i>為什麼</i>這些問題的背景。更糟糕的是，除了要求用戶發送屏幕截圖、視頻等之外，從來沒有一個簡單（而且不那麼令人討厭）的方法來重現這些錯誤。坦率地說，這不是對任何人的時間的良好利用！<p>同時，我們團隊中更多的以產品為導向的人希望他們能夠更好地瞭解UX流程和用戶的挫折感，而不必進行不必要的用戶訪談。<p>Highlight通過給團隊提供開箱即用的可重複性來解決這兩個痛點 我們的平臺只需一個Javascript片段就可以安裝，並使搜索相關的用戶會話變得簡單而快速。對於產品人員來說，很容易過濾到用戶執行特定操作的會話，例如使用新發布的功能。對於開發人員來說，當一個錯誤或支持票據出現在他們的收件箱中時，他們清楚地知道從哪裡開始調試<p>今天，我們專注於會話回放和監控，但我們的目標是擴展到一整套調試工具，專注於幫助團隊更快地發現和修復問題。我們路線圖上的一些功能包括實時會話查看、後端錯誤監控，以及更多的功能!\n"
+}
