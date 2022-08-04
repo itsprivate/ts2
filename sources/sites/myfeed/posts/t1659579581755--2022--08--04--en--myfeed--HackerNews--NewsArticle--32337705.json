@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--myfeed--HackerNews--NewsArticle--32337705",
+  "url": "https://news.ycombinator.com/item?id=32337705",
+  "headline": "A Simple Guide to Quadratic Voting",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bpierre",
+    "url": "https://news.ycombinator.com/user?id=bpierre"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32337705",
+  "sameAs": "https://blog.tally.xyz/a-simple-guide-to-quadratic-voting-327b52addde1",
+  "dateCreated": "2022-08-04T02:19:41.755Z",
+  "datePublished": "2022-08-03T23:39:26.000Z",
+  "dateModified": "2022-08-04T02:19:41.755Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 18
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 20
+    }
+  ],
+  "headline_zh-Hans": "二次元投票的简单指南\n",
+  "headline_zh-Hant": "二次元投票的簡單指南\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

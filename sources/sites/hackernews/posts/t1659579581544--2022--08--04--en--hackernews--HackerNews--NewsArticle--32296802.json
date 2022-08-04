@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--hackernews--HackerNews--NewsArticle--32296802",
+  "url": "https://news.ycombinator.com/item?id=32296802",
+  "headline": "I talked to Leonardo da Vinci",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dbrereton",
+    "url": "https://news.ycombinator.com/user?id=dbrereton"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32296802",
+  "sameAs": "https://dkb.show/post/leonardo-da-vinci",
+  "dateCreated": "2022-08-04T02:19:41.544Z",
+  "datePublished": "2022-07-31T16:49:17.000Z",
+  "dateModified": "2022-08-04T02:19:41.544Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 16
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "我与达芬奇交谈\n",
+  "headline_zh-Hant": "我與達芬奇交談\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
