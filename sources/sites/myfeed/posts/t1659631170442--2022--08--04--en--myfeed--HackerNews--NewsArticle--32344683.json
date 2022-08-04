@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--myfeed--HackerNews--NewsArticle--32344683",
+  "url": "https://news.ycombinator.com/item?id=32344683",
+  "headline": "CoqQ: Foundational Verification of Quantum Programs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "belter",
+    "url": "https://news.ycombinator.com/user?id=belter"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32344683",
+  "sameAs": "https://arxiv.org/abs/2207.11350",
+  "dateCreated": "2022-08-04T16:39:30.442Z",
+  "datePublished": "2022-08-04T16:04:57.000Z",
+  "dateModified": "2022-08-04T16:39:30.442Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "CoqQ：量子程序的基础性验证\n",
+  "headline_zh-Hant": "CoqQ：量子程序的基礎性驗證\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

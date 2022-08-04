@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--myfeed--HackerNews--NewsArticle--32345056",
+  "url": "https://news.ycombinator.com/item?id=32345056",
+  "headline": "Jim Lehrer’s Rules of Journalism (2020)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Tomte",
+    "url": "https://news.ycombinator.com/user?id=Tomte"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32345056",
+  "sameAs": "https://kottke.org/20/01/jim-lehrers-rules-of-journalism-1",
+  "dateCreated": "2022-08-04T16:39:30.530Z",
+  "datePublished": "2022-08-04T16:30:20.000Z",
+  "dateModified": "2022-08-04T16:39:30.530Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "吉姆-莱勒的新闻规则(2020)\n",
+  "headline_zh-Hant": "吉姆-萊勒的新聞規則(2020)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
