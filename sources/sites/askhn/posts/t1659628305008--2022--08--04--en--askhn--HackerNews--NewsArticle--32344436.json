@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--askhn--HackerNews--NewsArticle--32344436",
+  "url": "https://news.ycombinator.com/item?id=32344436",
+  "headline": "Ask HN: Low-Carbon VPS Hosting?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Recently, we (a small digital agency working mostly with non-profit orgs) are getting asked more and more often about low/no-carbon hosting. We currently host all our production sites on Digital Ocean and staging sites on Hetzner, I've reached out to DO in the past about green hosting options but it's apparently not something they're particularly interested in. I know of some green hosting options for bare metal, but I'm having a hard time finding anything DOish, VPS that we can spin up and kill at will. Anyone have any recommendations?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "drcongo",
+    "url": "https://news.ycombinator.com/user?id=drcongo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32344436",
+  "sameAs": "https://news.ycombinator.com/item?id=32344436",
+  "dateCreated": "2022-08-04T15:51:45.008Z",
+  "datePublished": "2022-08-04T15:45:42.000Z",
+  "dateModified": "2022-08-04T15:51:45.008Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 低碳的VPS主机？\n",
+  "headline_zh-Hant": "Ask HN: 低碳的VPS主機？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "最近，我们（一家主要与非营利组织合作的小型数字机构）越来越频繁地被问及低碳/无碳主机。我们目前在Digital Ocean上托管我们所有的生产网站，在Hetzner上托管暂存网站，我过去曾与DO联系过绿色托管选项，但显然他们对这个问题不感兴趣。我知道有一些裸机的绿色主机选择，但我很难找到任何与DO有关的VPS，我们可以随意旋转和关闭。有人有什么建议吗？\n",
+  "description_zh-Hant": "最近，我們（一家主要與非營利組織合作的小型數字機構）越來越頻繁地被問及低碳/無碳主機。我們目前在Digital Ocean上託管我們所有的生產網站，在Hetzner上託管暫存網站，我過去曾與DO聯繫過綠色託管選項，但顯然他們對這個問題不感興趣。我知道有一些裸機的綠色主機選擇，但我很難找到任何與DO有關的VPS，我們可以隨意旋轉和關閉。有人有什麼建議嗎？\n"
+}
