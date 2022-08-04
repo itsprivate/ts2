@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--besthn--HackerNews--NewsArticle--32342334",
+  "url": "https://news.ycombinator.com/item?id=32342334",
+  "headline": "Launch HN: CodeCrafters (YC S22) – Practice writing complex software",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey everybody, it’s Sarup and Paul, founders of CodeCrafters (<a href=\"https://codecrafters.io\" rel=\"nofollow\">https://codecrafters.io</a>). We make interactive courses for software engineers, where you get to recreate popular developer tools from scratch. Build your own Redis, Git, Docker, and SQLite—in Go, Python, Rust, etc.<p>For example, if you did our Git course, you’d learn how Git internally stores file data by building an implementation of Git that can clone a GitHub repo. If you did our SQLite course, you’d end up with a SQLite implementation that can read a valid SQLite database file, and retrieve data by performing an index / full-table scan on it. The projects you’ll build are always end to end compatible with the official spec. Given the same input, your program would behave the same way the official one would.<p>We’re different in the developer education segment in 3 main ways:<p>First, we cater to people with programming experience. There are tons of introductory “learn to code” resources out there, but surprisingly little once you get past the basics. Good programmers want to get better and to develop in areas where they’re not strong yet, and that’s what we help with.<p>Second, the coursework involves writing actual code instead of consuming videos. You handle concurrency, develop statecharts, traverse B-trees, etc. While we test against a fixed spec, you’re welcome to try different approaches. E.g in our Redis course, you could implement handling concurrent clients either using threads, or using an event loop.<p>Third, instead of coding in the browser, you build these projects in your local dev environment. We create repositories for you to work out of, and you git push to run tests. The actual code can be written in your editor of choice (VSCode, JetBrains, Emacs, etc).<p>This last point in particular—our git-based workflow—is something customers repeatedly tell us they enjoy. We run our own git servers, and have server-side post commit hooks configured to run tests on every push. These post-commit hooks also send back logs to users, with colors to indicate pass/fail, errors, etc. Our feedback cycle for popular languages like Go, Python, JS often takes ~2.5sec (including pushing code, running tests, and streaming back results), faster than even regular GitHub pushes. We do this by executing code within firecracker VMs and caching aggressively wherever possible.<p>As open source contributors, we’ve always been interested in the internals of software we use day-to-day. When Paul became an Engineering Manager for a team of 12, he decided to conduct in-person “Build your own Redis” workshops as a way to engage his team and help build skills. He had a mini-curriculum, a physical leaderboard for scorekeeping, and a Slack channel for discussing solutions. Participants loved it and wanted more. With CodeCrafters, we’ve essentially built an expanded version of that workshop experience on a website—for engineers and teams that want to challenge themselves, dive deeper, and grow.<p>We’ve learned how much hunger there is for a skill-building path that’s structured, fun, and focused on cool, well-known projects with serious technical dimensions. Jumping straight into the deep end as an open-source contributor has always been an option, but it’s daunting, if not intimidating. It can take a long time to get oriented in a major codebase, and mentorship isn’t always available. There’s a need for an intermediate approach with lessons that build technical expertise, and that’s what we’re supplying.<p>So far, we’ve seen developers and teams use CodeCrafters to learn the internals of complex software, master programming languages, onboard devs in a new language, and even as a continuous team-bonding activity.<p>If you’re a developer, we’d love for you to try CodeCrafters. Most customers expense the subscription through their learning / professional development budgets. If you need help convincing your manager, feel free to email me — sarup@codecrafters.io.<p>Paul and I are excited to continue helping software engineers become the best technical version of themselves. We'd love to hear your ideas, experiences, and suggestions. What new courses should we add? What other formats of learning have you found to be effective?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rohitpaulk",
+    "url": "https://news.ycombinator.com/user?id=rohitpaulk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32342334",
+  "sameAs": "https://codecrafters.io",
+  "dateCreated": "2022-08-04T22:46:30.485Z",
+  "datePublished": "2022-08-04T13:05:32.000Z",
+  "dateModified": "2022-08-04T22:46:30.485Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 204
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 115
+    }
+  ],
+  "headline_zh-Hans": "启动HN：CodeCrafters (YC S22) - 练习编写复杂的软件\n",
+  "headline_zh-Hant": "啟動HN：CodeCrafters (YC S22) - 練習編寫複雜的軟件\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家好，我是Sarup和Paul，CodeCrafters（<a href=\"https://codecrafters.io\" rel=\"nofollow\">https://codecrafters.io>）的创始人。我们为软件工程师制作互动课程，在这里你可以从头开始重新创建流行的开发工具。<p>例如，如果你学习了我们的Git课程，你将通过构建一个可以克隆GitHub repo的Git实现来学习Git内部如何存储文件数据。如果你学习了我们的SQLite课程，你最终会得到一个SQLite实现，它可以读取一个有效的SQLite数据库文件，并通过对它进行索引/全表扫描来检索数据。你将建立的项目总是与官方规格端对端兼容的。<p>我们在开发者教育领域的不同之处主要体现在三个方面：<p>首先，我们迎合有编程经验的人。外面有大量的入门级 \"学习代码 \"资源，但一旦你超越了基础知识，就会发现其数量少得惊人。优秀的程序员希望在他们不擅长的领域得到提高和发展，而这正是我们所要帮助的。<p>第二，课程作业涉及编写实际代码，而不是消费视频。你要处理并发，开发状态图，遍历B树，等等。虽然我们针对一个固定的规格进行测试，但我们欢迎你尝试不同的方法。例如，在我们的Redis课程中，你可以使用线程或使用事件循环来实现处理并发客户端。<p>第三，你不用在浏览器中编码，而是在你的本地开发环境中构建这些项目。我们为你创建存储库，你可以用git推送来运行测试。实际的代码可以在你选择的编辑器（VSCode、JetBrains、Emacs等）中编写。<p>这最后一点，特别是我们基于git的工作流程，是客户反复告诉我们他们喜欢的东西。我们运行自己的git服务器，并配置了服务器端的提交后钩子，以便在每次推送时运行测试。这些提交后的钩子也会向用户发回日志，用颜色表示通过/失败、错误等。我们对Go、Python、JS等流行语言的反馈周期通常需要2.5秒（包括推送代码、运行测试和流回结果），甚至比GitHub的常规推送还要快。我们通过在Firecracker虚拟机中执行代码，并尽可能积极地进行缓存。<p>作为开源贡献者，我们一直对日常使用的软件的内部结构感兴趣。当Paul成为一个12人团队的工程经理时，他决定举办 \"建立你自己的Redis \"研讨会，以此来吸引他的团队并帮助培养技能。他有一个迷你课程，一个用于记分的物理排行榜，以及一个用于讨论解决方案的Slack频道。参与者很喜欢，并希望得到更多。通过 CodeCrafters，我们基本上在网站上建立了这种研讨会经验的扩展版本--为那些希望挑战自我、深入研究和成长的工程师和团队服务。<p>我们了解到，人们对结构化的、有趣的、专注于具有严肃技术层面的酷、知名项目的技能培养途径有多大的渴求。直接跳入深水区成为一名开源贡献者一直是一种选择，但它令人生畏，甚至令人生畏。在一个主要的代码库中，可能需要很长的时间来适应，而且并不总是有导师的指导。<p>到目前为止，我们已经看到开发人员和团队使用 CodeCrafters 来学习复杂软件的内部结构，掌握编程语言，在新语言中加入开发人员，甚至作为一种持续的团队联系活动。大多数客户通过他们的学习/职业发展预算支付订阅费用。如果你需要帮助说服你的经理，请随时给我发电子邮件--sarup@codecrafters.io。<p>保罗和我很高兴能继续帮助软件工程师成为最好的技术版本的自己。我们很想听听你的想法、经验和建议。我们应该增加哪些新课程？你发现还有哪些学习形式是有效的？\n",
+  "description_zh-Hant": "大家好，我是Sarup和Paul，CodeCrafters（<a href=\"https://codecrafters.io\" rel=\"nofollow\">https://codecrafters.io>）的創始人。我們為軟件工程師製作互動課程，在這裡你可以從頭開始重新創建流行的開發工具。<p>例如，如果你學習了我們的Git課程，你將通過構建一個可以克隆GitHub repo的Git實現來學習Git內部如何存儲文件數據。如果你學習了我們的SQLite課程，你最終會得到一個SQLite實現，它可以讀取一個有效的SQLite數據庫文件，並通過對它進行索引/全表掃描來檢索數據。你將建立的項目總是與官方規格端對端兼容的。<p>我們在開發者教育領域的不同之處主要體現在三個方面：<p>首先，我們迎合有編程經驗的人。外面有大量的入門級 \"學習代碼 \"資源，但一旦你超越了基礎知識，就會發現其數量少得驚人。優秀的程序員希望在他們不擅長的領域得到提高和發展，而這正是我們所要幫助的。<p>第二，課程作業涉及編寫實際代碼，而不是消費視頻。你要處理併發，開發狀態圖，遍歷B樹，等等。雖然我們針對一個固定的規格進行測試，但我們歡迎你嘗試不同的方法。例如，在我們的Redis課程中，你可以使用線程或使用事件循環來實現處理併發客戶端。<p>第三，你不用在瀏覽器中編碼，而是在你的本地開發環境中構建這些項目。我們為你創建存儲庫，你可以用git推送來運行測試。實際的代碼可以在你選擇的編輯器（VSCode、JetBrains、Emacs等）中編寫。<p>這最後一點，特別是我們基於git的工作流程，是客戶反覆告訴我們他們喜歡的東西。我們運行自己的git服務器，並配置了服務器端的提交後鉤子，以便在每次推送時運行測試。這些提交後的鉤子也會向用戶發回日誌，用顏色表示通過/失敗、錯誤等。我們對Go、Python、JS等流行語言的反饋週期通常需要2.5秒（包括推送代碼、運行測試和流回結果），甚至比GitHub的常規推送還要快。我們通過在Firecracker虛擬機中執行代碼，並儘可能積極地進行緩存。<p>作為開源貢獻者，我們一直對日常使用的軟件的內部結構感興趣。當Paul成為一個12人團隊的工程經理時，他決定舉辦 \"建立你自己的Redis \"研討會，以此來吸引他的團隊並幫助培養技能。他有一個迷你課程，一個用於記分的物理排行榜，以及一個用於討論解決方案的Slack頻道。參與者很喜歡，並希望得到更多。通過 CodeCrafters，我們基本上在網站上建立了這種研討會經驗的擴展版本--為那些希望挑戰自我、深入研究和成長的工程師和團隊服務。<p>我們瞭解到，人們對結構化的、有趣的、專注於具有嚴肅技術層面的酷、知名項目的技能培養途徑有多大的渴求。直接跳入深水區成為一名開源貢獻者一直是一種選擇，但它令人生畏，甚至令人生畏。在一個主要的代碼庫中，可能需要很長的時間來適應，而且並不總是有導師的指導。<p>到目前為止，我們已經看到開發人員和團隊使用 CodeCrafters 來學習複雜軟件的內部結構，掌握編程語言，在新語言中加入開發人員，甚至作為一種持續的團隊聯繫活動。大多數客戶通過他們的學習/職業發展預算支付訂閱費用。如果你需要幫助說服你的經理，請隨時給我發電子郵件--sarup@codecrafters.io。<p>保羅和我很高興能繼續幫助軟件工程師成為最好的技術版本的自己。我們很想聽聽你的想法、經驗和建議。我們應該增加哪些新課程？你發現還有哪些學習形式是有效的？\n"
+}
