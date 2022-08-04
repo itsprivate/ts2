@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--showhn--HackerNews--NewsArticle--32347448",
+  "url": "https://news.ycombinator.com/item?id=32347448",
+  "headline": "Show HN: Release-notifier.com – Get notified of new releases from GitHub repos",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi everyone,<p>this is a very small project I did some time ago, because the existing tools like gitpunch didn't worked at that given time.<p>With my tool you are able to get notified by email or webhook (e.g. Rocket.chat) if a specific repository on github gets a new release.<p>It's a simple rails SaaS and without costs. TBH if many people are interested in the tool maybe there could be a fee in the future, but that's a story in the future and not for you &quot;early adopters&quot; :)<p>Have a nice day!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "preezer",
+    "url": "https://news.ycombinator.com/user?id=preezer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32347448",
+  "sameAs": "https://release-notifier.com/",
+  "dateCreated": "2022-08-04T19:57:17.455Z",
+  "datePublished": "2022-08-04T19:49:11.000Z",
+  "dateModified": "2022-08-04T19:57:17.455Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Release-notifier.com - 从GitHub仓库获得新版本通知\n",
+  "headline_zh-Hant": "Show HN: Release-notifier.com - 從GitHub倉庫獲得新版本通知\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家好，<p>这是我前段时间做的一个非常小的项目，因为现有的工具如gitpunch在当时并不奏效。<p>通过我的工具，如果github上的特定仓库有新版本，你可以通过电子邮件或webhook（如Rocket.chat）获得通知。如果很多人对这个工具感兴趣，也许将来会收费，但这是未来的故事，不是为你们这些早期采用者准备的。\n",
+  "description_zh-Hant": "大家好，<p>這是我前段時間做的一個非常小的項目，因為現有的工具如gitpunch在當時並不奏效。<p>通過我的工具，如果github上的特定倉庫有新版本，你可以通過電子郵件或webhook（如Rocket.chat）獲得通知。如果很多人對這個工具感興趣，也許將來會收費，但這是未來的故事，不是為你們這些早期採用者準備的。\n"
+}
