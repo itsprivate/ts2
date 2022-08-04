@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--myfeed--HackerNews--NewsArticle--32341813",
+  "url": "https://news.ycombinator.com/item?id=32341813",
+  "headline": "WebAssembly on a QR Code",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "angelmm",
+    "url": "https://news.ycombinator.com/user?id=angelmm"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32341813",
+  "sameAs": "https://twitter.com/tgr_code/status/1555073604844367872",
+  "dateCreated": "2022-08-04T12:51:32.057Z",
+  "datePublished": "2022-08-04T12:11:23.000Z",
+  "dateModified": "2022-08-04T12:51:32.057Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在QR码上的WebAssembly\n",
+  "headline_zh-Hant": "在QR碼上的WebAssembly\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
