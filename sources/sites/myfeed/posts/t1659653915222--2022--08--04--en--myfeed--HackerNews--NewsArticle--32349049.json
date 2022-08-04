@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--myfeed--HackerNews--NewsArticle--32349049",
+  "url": "https://news.ycombinator.com/item?id=32349049",
+  "headline": "Tell HN: Potential hashed password leaks from Slack workspace invitation links",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi hn, today I received an email from Slack explaining an issue with one of the invitation links I created to invite others to my workspace, which apparently included my hashed password, I'm pasting the text I received.<p>When you're connected to Slack, we keep your client updated using a websocket. When you have Slack open, the websocket is an always-open stream of behind-the-scenes information, specific to just you and your account, that we use to push new information to your Slack client. When a new message is posted, a new file is uploaded, a new emoji reaction is added, or a new teammate joins, all of this information is sent to you over a websocket. The raw data streamed from Slack's servers over the websocket is processed by the Slack client apps, but is not directly visible to users.<p>One of the hidden events we send over the websocket is a notice that a shared invite link was created or revoked. The bug we discovered was in this invite link event along with the information about the shared invite link, the hashed password of the user who created or revoked the link was also included. This information was sent over the websocket to all users of the workspace who were currently connected to Slack. The hash of a password is not the same as the password itself; it is a cryptographic technique to store data in a way that is secure, and cannot be used to log in as you. We use a technique called salting to further protect these hashes. Hashed and salted passwords are secure, but not perfect — they are still subject to being reversed via brute force — which is why we've chosen to reset the passwords of everyone affected.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "AlexITC",
+    "url": "https://news.ycombinator.com/user?id=AlexITC"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32349049",
+  "sameAs": "https://news.ycombinator.com/item?id=32349049",
+  "dateCreated": "2022-08-04T22:58:35.222Z",
+  "datePublished": "2022-08-04T22:19:31.000Z",
+  "dateModified": "2022-08-04T22:58:35.222Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：Slack工作区邀请链接的潜在散列密码泄露\n",
+  "headline_zh-Hant": "告訴HN：Slack工作區邀請鏈接的潛在散列密碼洩露\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，今天我收到了一封来自Slack的电子邮件，解释了我为邀请他人进入我的工作区而创建的一个邀请链接的问题，其中显然包括我的散列密码，我粘贴了我收到的文本。<p>当你连接到Slack时，我们使用websocket保持你的客户端更新。当你打开Slack时，websocket是一个始终开放的幕后信息流，只针对你和你的账户，我们用它来向你的Slack客户端推送新信息。当发布一条新信息、上传一个新文件、添加一个新的表情符号反应，或者有新的队友加入，所有这些信息都会通过websocket发送给你。Slack服务器通过websocket流传的原始数据由Slack客户端应用程序处理，但用户不能直接看到。<p>我们通过websocket发送的一个隐藏事件是一个共享邀请链接被创建或撤销的通知。我们发现的错误是，在这个邀请链接事件中，除了有关共享邀请链接的信息外，还包括创建或撤销该链接的用户的散列密码。这些信息通过websocket被发送到工作区的所有当前连接到Slack的用户。密码的哈希值与密码本身并不相同；它是一种加密技术，以一种安全的方式存储数据，不能被用来作为你的身份登录。我们使用一种叫做加盐的技术来进一步保护这些哈希值。哈希和加盐的密码是安全的，但并不完美--它们仍然可能通过暴力手段被逆转--这就是为什么我们选择重置每个受影响的人的密码。\n",
+  "description_zh-Hant": "嗨，今天我收到了一封來自Slack的電子郵件，解釋了我為邀請他人進入我的工作區而創建的一個邀請鏈接的問題，其中顯然包括我的散列密碼，我粘貼了我收到的文本。<p>當你連接到Slack時，我們使用websocket保持你的客戶端更新。當你打開Slack時，websocket是一個始終開放的幕後信息流，只針對你和你的賬戶，我們用它來向你的Slack客戶端推送新信息。當發佈一條新信息、上傳一個新文件、添加一個新的表情符號反應，或者有新的隊友加入，所有這些信息都會通過websocket發送給你。Slack服務器通過websocket流傳的原始數據由Slack客戶端應用程序處理，但用戶不能直接看到。<p>我們通過websocket發送的一個隱藏事件是一個共享邀請鏈接被創建或撤銷的通知。我們發現的錯誤是，在這個邀請鏈接事件中，除了有關共享邀請鏈接的信息外，還包括創建或撤銷該鏈接的用戶的散列密碼。這些信息通過websocket被髮送到工作區的所有當前連接到Slack的用戶。密碼的哈希值與密碼本身並不相同；它是一種加密技術，以一種安全的方式存儲數據，不能被用來作為你的身份登錄。我們使用一種叫做加鹽的技術來進一步保護這些哈希值。哈希和加鹽的密碼是安全的，但並不完美--它們仍然可能通過暴力手段被逆轉--這就是為什麼我們選擇重置每個受影響的人的密碼。\n"
+}
