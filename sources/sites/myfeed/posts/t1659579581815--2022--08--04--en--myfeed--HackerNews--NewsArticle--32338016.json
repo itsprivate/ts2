@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--myfeed--HackerNews--NewsArticle--32338016",
+  "url": "https://news.ycombinator.com/item?id=32338016",
+  "headline": "Harvard researchers account for more articles than Germany or Canada",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gotmedium",
+    "url": "https://news.ycombinator.com/user?id=gotmedium"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32338016",
+  "sameAs": "https://twitter.com/michael_nielsen/status/1553787322256150529",
+  "dateCreated": "2022-08-04T02:19:41.815Z",
+  "datePublished": "2022-08-04T00:32:27.000Z",
+  "dateModified": "2022-08-04T02:19:41.815Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "哈佛大学的研究人员所发表的文章比德国或加拿大还要多\n",
+  "headline_zh-Hant": "哈佛大學的研究人員所發表的文章比德國或加拿大還要多\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

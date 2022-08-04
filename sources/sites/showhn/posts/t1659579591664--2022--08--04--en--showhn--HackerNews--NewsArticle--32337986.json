@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--showhn--HackerNews--NewsArticle--32337986",
+  "url": "https://news.ycombinator.com/item?id=32337986",
+  "headline": "Show HN: Fuhpy.com Match the Pose in the Picture",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "fuhpy.com (Fuhn Ünd Happy People, Ya!) is my final project for EdX Harvard CS50.<p>Fuhpy uses PoseNet, p5.js, and ml5.js to find the keypoints of a person's body in a photograph. If the user allows access to a camera, Fuhpy then compares the user's body's keypoints - the user attempts to &quot;match&quot; the pose in the photo. When the keypoints are close enough, the &quot;match&quot; is completed.<p>Fuhpy is not perfectly executed - it's a buggy, hacky, prototype. But I'd be grateful for your feedback. (And if you strike a cool pose that you want to share, I'll include it in my final project's video summary!)<p>Thanks!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "aaron5",
+    "url": "https://news.ycombinator.com/user?id=aaron5"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32337986",
+  "sameAs": "https://fuhpy.com",
+  "dateCreated": "2022-08-04T02:19:51.664Z",
+  "datePublished": "2022-08-04T00:26:34.000Z",
+  "dateModified": "2022-08-04T02:19:51.664Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Fuhpy.com 匹配图片中的姿势\n",
+  "headline_zh-Hant": "Show HN: Fuhpy.com 匹配圖片中的姿勢\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "fuhpy.com（Fuhn Ünd Happy People，Ya！）是我在EdX哈佛CS50的期末项目。<p>Fuhpy使用PoseNet、p5.js和ml5.js来寻找照片中人的身体关键点。如果用户允许访问相机，Fuhpy就会比较用户身体的关键点--用户试图&quot;匹配&quot; 照片中的姿势。当关键点足够接近时，就完成了&quot;匹配&quot;。<p>Fuhpy的执行并不完美--它是一个有问题的、黑客式的原型。但我希望得到您的反馈。(如果你摆出一个想分享的酷姿势，我将把它列入我的最终项目的视频摘要中！)<p>谢谢!\n",
+  "description_zh-Hant": "fuhpy.com（Fuhn Ünd Happy People，Ya！）是我在EdX哈佛CS50的期末項目。<p>Fuhpy使用PoseNet、p5.js和ml5.js來尋找照片中人的身體關鍵點。如果用戶允許訪問相機，Fuhpy就會比較用戶身體的關鍵點--用戶試圖&quot;匹配&quot; 照片中的姿勢。當關鍵點足夠接近時，就完成了&quot;匹配&quot;。<p>Fuhpy的執行並不完美--它是一個有問題的、黑客式的原型。但我希望得到您的反饋。(如果你擺出一個想分享的酷姿勢，我將把它列入我的最終項目的視頻摘要中！)<p>謝謝!\n"
+}
