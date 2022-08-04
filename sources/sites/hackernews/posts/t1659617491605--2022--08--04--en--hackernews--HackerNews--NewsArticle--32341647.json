@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--hackernews--HackerNews--NewsArticle--32341647",
+  "url": "https://news.ycombinator.com/item?id=32341647",
+  "headline": "Bank of England warns the UK will fall into recession this year",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "saos",
+    "url": "https://news.ycombinator.com/user?id=saos"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32341647",
+  "sameAs": "https://www.bbc.co.uk/news/business-62405037",
+  "dateCreated": "2022-08-04T12:51:31.605Z",
+  "datePublished": "2022-08-04T11:46:00.000Z",
+  "dateModified": "2022-08-04T12:51:31.605Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 18
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 10
+    }
+  ],
+  "headline_zh-Hans": "英格兰银行警告说，英国今年将陷入衰退\n",
+  "headline_zh-Hant": "英格蘭銀行警告說，英國今年將陷入衰退\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

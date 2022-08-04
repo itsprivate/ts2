@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--showhn--HackerNews--NewsArticle--32341845",
+  "url": "https://news.ycombinator.com/item?id=32341845",
+  "headline": "Show HN: Random Rijks – See a Random Artwork from the Amsterdam Rijksmuseum",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "stefanvdw1",
+    "url": "https://news.ycombinator.com/user?id=stefanvdw1"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32341845",
+  "sameAs": "https://randomrijks.com",
+  "dateCreated": "2022-08-04T12:51:44.140Z",
+  "datePublished": "2022-08-04T12:15:31.000Z",
+  "dateModified": "2022-08-04T12:51:44.140Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 随机Rijks - 查看阿姆斯特丹Rijksmuseum的随机艺术作品\n",
+  "headline_zh-Hant": "Show HN: 隨機Rijks - 查看阿姆斯特丹Rijksmuseum的隨機藝術作品\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
