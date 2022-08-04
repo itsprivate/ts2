@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--askhn--HackerNews--NewsArticle--32346513",
+  "url": "https://news.ycombinator.com/item?id=32346513",
+  "headline": "Ask HN: Any open source text editors with word tagging?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I am looking for a text editor where users can tag words with meta data.\n&quot;Jhon doe started the car.&quot; -&gt; John doe &lt;person&gt;, car &lt;vehicle&gt;<p>I want these tags to be programmable/exportable so that when we process the document, I can process based on custom rules. \nEg. Different colours for person, objects, location , \nShow summary in the side panel etc .",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "neo_hacker",
+    "url": "https://news.ycombinator.com/user?id=neo_hacker"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32346513",
+  "sameAs": "https://news.ycombinator.com/item?id=32346513",
+  "dateCreated": "2022-08-04T18:32:59.111Z",
+  "datePublished": "2022-08-04T18:25:51.000Z",
+  "dateModified": "2022-08-04T18:32:59.111Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 有什么开放源码的文本编辑器具有单词标签功能吗？\n",
+  "headline_zh-Hant": "Ask HN: 有什麼開放源碼的文本編輯器具有單詞標籤功能嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在寻找一个文本编辑器，用户可以用元数据来标记单词。\n&quot;Jhon doe started the car.&quot; -&gt; John doe &lt;person&gt;, car &lt;vehicle&gt;<p>我希望这些标签是可编程/可导出的，这样当我们处理文件时，我可以根据自定义规则来处理。\n例如，对人、物、地点使用不同的颜色。\n在侧板上显示摘要等。\n",
+  "description_zh-Hant": "我正在尋找一個文本編輯器，用戶可以用元數據來標記單詞。\n&quot;Jhon doe started the car.&quot; -&gt; John doe &lt;person&gt;, car &lt;vehicle&gt;<p>我希望這些標籤是可編程/可導出的，這樣當我們處理文件時，我可以根據自定義規則來處理。\n例如，對人、物、地點使用不同的顏色。\n在側板上顯示摘要等。\n"
+}
