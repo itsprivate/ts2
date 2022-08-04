@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--askhn--HackerNews--NewsArticle--32340570",
+  "url": "https://news.ycombinator.com/item?id=32340570",
+  "headline": "Ask HN: Are you having issues with AWS MFA?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I have both my root account and an IAM account on AWS protected with MFA. Tokens are provided via Authy apps from either iPhone or MacOS app and everything was fine until yesterday evening (both apps haven't been updated recently); today AWS is rejecting every single token I submit. Clicking on &quot;Having problems with your authentication device? Click here&quot; link takes me back to the login screen therefore I'm stuck.<p>I've started the manual recovery process but it will take a while. Is anyone else experiencing similar issues?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "thinkindie",
+    "url": "https://news.ycombinator.com/user?id=thinkindie"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32340570",
+  "sameAs": "https://news.ycombinator.com/item?id=32340570",
+  "dateCreated": "2022-08-04T08:36:12.055Z",
+  "datePublished": "2022-08-04T08:31:05.000Z",
+  "dateModified": "2022-08-04T08:36:12.055Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你在使用AWS MFA时有问题吗？\n",
+  "headline_zh-Hant": "Ask HN: 你在使用AWS MFA時有問題嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我的根账户和AWS上的IAM账户都有MFA保护。令牌是通过iPhone或MacOS应用程序的Authy应用程序提供的，直到昨天晚上一切都很好（两个应用程序最近都没有更新）；今天AWS拒绝了我提交的每一个令牌。点击&quot;你的认证设备有问题？点击这里&quot;链接让我回到了登录屏幕，因此我被卡住了。<p>我已经开始了手动恢复过程，但这需要一段时间。还有人遇到类似的问题吗？\n",
+  "description_zh-Hant": "我的根賬戶和AWS上的IAM賬戶都有MFA保護。令牌是通過iPhone或MacOS應用程序的Authy應用程序提供的，直到昨天晚上一切都很好（兩個應用程序最近都沒有更新）；今天AWS拒絕了我提交的每一個令牌。點擊&quot;你的認證設備有問題？點擊這裡&quot;鏈接讓我回到了登錄屏幕，因此我被卡住了。<p>我已經開始了手動恢復過程，但這需要一段時間。還有人遇到類似的問題嗎？\n"
+}
