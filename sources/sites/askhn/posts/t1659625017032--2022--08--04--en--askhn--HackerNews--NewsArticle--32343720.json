@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--04--en--askhn--HackerNews--NewsArticle--32343720",
+  "url": "https://news.ycombinator.com/item?id=32343720",
+  "headline": "Ask HN: Do You Use Spinnaker?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "The project (https://github.com/spinnaker/spinnaker) seems kinda dead. It's supposed to be a CD system, but if one is using something like GitLab (with its own CI/CD) does it make sense?<p>So, do you use Spinnaker? If not, what do you use instead?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "danwee",
+    "url": "https://news.ycombinator.com/user?id=danwee"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32343720",
+  "sameAs": "https://news.ycombinator.com/item?id=32343720",
+  "dateCreated": "2022-08-04T14:56:57.032Z",
+  "datePublished": "2022-08-04T14:55:01.000Z",
+  "dateModified": "2022-08-04T14:56:57.032Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 您是否使用Spinnaker？\n",
+  "headline_zh-Hant": "Ask HN: 您是否使用Spinnaker？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "这个项目（https://github.com/spinnaker/spinnaker）似乎有点死了。它应该是一个CD系统，但如果一个人使用像GitLab这样的东西（有自己的CI/CD），它有意义吗？<p>那么，你使用Spinnaker吗？如果不用，你用什么代替？\n",
+  "description_zh-Hant": "這個項目（https://github.com/spinnaker/spinnaker）似乎有點死了。它應該是一個CD系統，但如果一個人使用像GitLab這樣的東西（有自己的CI/CD），它有意義嗎？<p>那麼，你使用Spinnaker嗎？如果不用，你用什麼代替？\n"
+}
