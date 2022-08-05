@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--05--en--askhn--HackerNews--NewsArticle--32353046",
+  "url": "https://news.ycombinator.com/item?id=32353046",
+  "headline": "Ask HN: Why system design interviews are focused on services then components?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "So, recently i started giving out interviews. I have 7+ years of experience so one or two design rounds are expected. \nKeeping that in mind i revised my concepts on distributed system and read few famous papers on distributed system. it was fun visiting those concepts again.\nAlso, as advised i watched few scaling videos on youtube (i.e Design Uber etc.)<p>I have experience building system from scratch and depending upon the requirement i have scaled few services in my organization.<p>So, my expectations from the design round was to have open-ended discussion with interviewer on certain component and discussing drill-down component architecture, scaling issues, drawbacks etc.<p>But For me at least, reality is quite different. I was asked to design BookMyShow ( Movie booking system ) in full. I mean the interviewers expectation was to just draw the components, write the api and design schema. He will understand my work by looking into it.<p>I have given 5+ interviews as of now ( got offer from some of them). But i feel like design round wasn't justified.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "striker_axel",
+    "url": "https://news.ycombinator.com/user?id=striker_axel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32353046",
+  "sameAs": "https://news.ycombinator.com/item?id=32353046",
+  "dateCreated": "2022-08-05T08:31:59.520Z",
+  "datePublished": "2022-08-05T07:58:11.000Z",
+  "dateModified": "2022-08-05T08:31:59.520Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么系统设计面试的重点是服务而不是组件？\n",
+  "headline_zh-Hant": "Ask HN: 為什麼系統設計面試的重點是服務而不是組件？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "所以，最近我开始发放面试通知。我有7年多的经验，所以预计会有一到两轮的设计比赛。\n考虑到这一点，我修改了关于分布式系统的概念，并阅读了一些关于分布式系统的著名论文。\n<p>我有从头开始建立系统的经验，并根据需求在我的组织中扩展了一些服务。<p>因此，我对设计轮的期望是与面试官就某些组件进行开放式讨论，并讨论深入的组件架构、扩展问题和缺点等。我被要求完整地设计BookMyShow（电影预订系统）。我的意思是，面试官的期望是只画出组件，写出api和设计模式。<p>到目前为止，我已经参加了5次以上的面试（从其中一些人那里得到了offer）。但我觉得设计回合并不合理。\n",
+  "description_zh-Hant": "所以，最近我開始發放面試通知。我有7年多的經驗，所以預計會有一到兩輪的設計比賽。\n考慮到這一點，我修改了關於分佈式系統的概念，並閱讀了一些關於分佈式系統的著名論文。\n<p>我有從頭開始建立系統的經驗，並根據需求在我的組織中擴展了一些服務。<p>因此，我對設計輪的期望是與面試官就某些組件進行開放式討論，並討論深入的組件架構、擴展問題和缺點等。我被要求完整地設計BookMyShow（電影預訂系統）。我的意思是，面試官的期望是隻畫出組件，寫出api和設計模式。<p>到目前為止，我已經參加了5次以上的面試（從其中一些人那裡得到了offer）。但我覺得設計回合並不合理。\n"
+}
