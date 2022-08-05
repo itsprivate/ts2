@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--05--en--myfeed--HackerNews--NewsArticle--32355153",
+  "url": "https://news.ycombinator.com/item?id=32355153",
+  "headline": "Authentication bypass bug in Nextauth.js could allow email account takeover",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "feross",
+    "url": "https://news.ycombinator.com/user?id=feross"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32355153",
+  "sameAs": "https://portswigger.net/daily-swig/authentication-bypass-bug-in-nextauth-js-could-allow-email-account-takeover",
+  "dateCreated": "2022-08-05T12:53:55.270Z",
+  "datePublished": "2022-08-05T12:31:42.000Z",
+  "dateModified": "2022-08-05T12:53:55.270Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Nextauth.js中的认证绕过漏洞可能允许电子邮件账户被接管\n",
+  "headline_zh-Hant": "Nextauth.js中的認證繞過漏洞可能允許電子郵件賬戶被接管\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
