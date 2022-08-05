@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--05--en--hackernews--HackerNews--NewsArticle--32358042",
+  "url": "https://news.ycombinator.com/item?id=32358042",
+  "headline": "Patent Act requires an “inventor” to be a natural person, not an AI [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bonyt",
+    "url": "https://news.ycombinator.com/user?id=bonyt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32358042",
+  "sameAs": "https://cafc.uscourts.gov/opinions-orders/21-2347.OPINION.8-5-2022_1988142.pdf",
+  "dateCreated": "2022-08-05T17:14:45.800Z",
+  "datePublished": "2022-08-05T16:04:33.000Z",
+  "dateModified": "2022-08-05T17:14:45.800Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "专利法》要求 \"发明人 \"必须是自然人，而不是人工智能 [pdf]\n",
+  "headline_zh-Hant": "專利法》要求 \"發明人 \"必須是自然人，而不是人工智能 [pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
