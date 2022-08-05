@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--05--en--showhn--HackerNews--NewsArticle--32350423",
+  "url": "https://news.ycombinator.com/item?id=32350423",
+  "headline": "Show HN: Nomadic, a node Postgres migration tool",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN! I looked at a lot of simple migration tools and none of them quite met my needs. So I built this! It's lightweight, written in TypeScript and ships a test suite. It lets you create migrations using sql and gets out of your way, also has support for transforming the SQL and running after migrate hooks.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "cellis",
+    "url": "https://news.ycombinator.com/user?id=cellis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32350423",
+  "sameAs": "https://www.npmjs.com/package/nomadic",
+  "dateCreated": "2022-08-05T02:22:34.530Z",
+  "datePublished": "2022-08-05T01:32:25.000Z",
+  "dateModified": "2022-08-05T02:22:34.530Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Nomadic，一个节点Postgres迁移工具\n",
+  "headline_zh-Hant": "Show HN: Nomadic，一個節點Postgres遷移工具\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN! 我看了很多简单的迁移工具，没有一个能完全满足我的需求。所以我做了这个! 它是轻量级的，用TypeScript写的，并且有一个测试套件。它可以让你使用sql来创建迁移，并且不妨碍你的工作，还支持转换sql和在迁移钩子之后运行。\n",
+  "description_zh-Hant": "嗨，HN! 我看了很多簡單的遷移工具，沒有一個能完全滿足我的需求。所以我做了這個! 它是輕量級的，用TypeScript寫的，並且有一個測試套件。它可以讓你使用sql來創建遷移，並且不妨礙你的工作，還支持轉換sql和在遷移鉤子之後運行。\n"
+}
