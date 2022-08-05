@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--05--en--myfeed--HackerNews--NewsArticle--32359654",
+  "url": "https://news.ycombinator.com/item?id=32359654",
+  "headline": "Slack was broadcasting hashed passwords for 5 years",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kstrauser",
+    "url": "https://news.ycombinator.com/user?id=kstrauser"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32359654",
+  "sameAs": "https://honeypot.net/post/slack-broadcasting-hashed-passwords-five-years/",
+  "dateCreated": "2022-08-05T18:33:25.342Z",
+  "datePublished": "2022-08-05T18:03:18.000Z",
+  "dateModified": "2022-08-05T18:33:25.342Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Slack广播散列密码长达5年之久\n",
+  "headline_zh-Hant": "Slack廣播散列密碼長達5年之久\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
