@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--05--en--askhn--HackerNews--NewsArticle--32356874",
+  "url": "https://news.ycombinator.com/item?id=32356874",
+  "headline": "Ask HN: What is the most number of files you have successfully indexed?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "It wasn't that long ago that you had to combine hard drives in an array to get enough space for 100M+ moderately-sized files. Now you can buy single drives with 20TB+ capacity which is big enough for about 200M files where the average size is 100KB.<p>File systems were never designed for fast search, so there are a number of 'file indexers' that are used to speed up searching. MacOS's Spotlight, Windows Search and Linux's locate are just a few. Each crawls the file system and uses a kind of database to store file metadata for faster lookup. Updating the database can be a slow process when large numbers of files are indexed.<p>What is the largest number of files that you have successfully indexed using one of these systems? Has anyone tried it on a volume with over 100M files?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "didgetmaster",
+    "url": "https://news.ycombinator.com/user?id=didgetmaster"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32356874",
+  "sameAs": "https://news.ycombinator.com/item?id=32356874",
+  "dateCreated": "2022-08-05T14:58:51.012Z",
+  "datePublished": "2022-08-05T14:46:45.000Z",
+  "dateModified": "2022-08-05T14:58:51.012Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你成功索引的最多的文件数量是多少？\n",
+  "headline_zh-Hant": "Ask HN: 你成功索引的最多的文件數量是多少？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "不久以前，你必须将硬盘组合成一个阵列，才能获得足够的空间来存放100M以上的中等大小的文件。现在，你可以买到20TB以上容量的单块硬盘，这足以容纳平均大小为100KB的约2亿个文件。<p>文件系统从来都不是为快速搜索而设计的，因此有许多 \"文件索引器 \"被用来加快搜索速度。MacOS的Spotlight、Windows Search和Linux的locate只是其中几个。每个索引器都会抓取文件系统，并使用一种数据库来存储文件元数据，以加快查找速度。当大量文件被索引时，更新数据库可能是一个缓慢的过程。<p>你使用这些系统之一成功索引的最大文件数量是多少？有没有人在一个有超过1亿个文件的卷上试过？\n",
+  "description_zh-Hant": "不久以前，你必須將硬盤組合成一個陣列，才能獲得足夠的空間來存放100M以上的中等大小的文件。現在，你可以買到20TB以上容量的單塊硬盤，這足以容納平均大小為100KB的約2億個文件。<p>文件系統從來都不是為快速搜索而設計的，因此有許多 \"文件索引器 \"被用來加快搜索速度。MacOS的Spotlight、Windows Search和Linux的locate只是其中幾個。每個索引器都會抓取文件系統，並使用一種數據庫來存儲文件元數據，以加快查找速度。當大量文件被索引時，更新數據庫可能是一個緩慢的過程。<p>你使用這些系統之一成功索引的最大文件數量是多少？有沒有人在一個有超過1億個文件的捲上試過？\n"
+}
