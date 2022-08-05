@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--05--en--myfeed--HackerNews--NewsArticle--32354896",
+  "url": "https://news.ycombinator.com/item?id=32354896",
+  "headline": "Israeli researchers discovered the first consensus-level attack on Ethereum",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cryptoisthekey",
+    "url": "https://news.ycombinator.com/user?id=cryptoisthekey"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32354896",
+  "sameAs": "https://twitter.com/yaish_aviv/status/1555445499041300481",
+  "dateCreated": "2022-08-05T12:53:55.160Z",
+  "datePublished": "2022-08-05T12:03:46.000Z",
+  "dateModified": "2022-08-05T12:53:55.160Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 16
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "以色列研究人员发现以太坊的第一个共识级攻击\n",
+  "headline_zh-Hant": "以色列研究人員發現以太坊的第一個共識級攻擊\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

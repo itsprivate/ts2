@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--05--en--myfeed--HackerNews--NewsArticle--32354717",
+  "url": "https://news.ycombinator.com/item?id=32354717",
+  "headline": "Correlation does not mean causation-but it does not exclude it. Let's talk",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "carvking",
+    "url": "https://news.ycombinator.com/user?id=carvking"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32354717",
+  "sameAs": "https://dailysceptic.org/2022/08/04/covid-vaccines-are-killing-one-in-every-800-over-60s-and-should-be-withdrawn-immediately-says-leading-vaccine-scientist/",
+  "dateCreated": "2022-08-05T12:53:55.132Z",
+  "datePublished": "2022-08-05T11:42:35.000Z",
+  "dateModified": "2022-08-05T12:53:55.132Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "相关性并不意味着因果关系--但它并不排除因果关系。我们来谈谈\n",
+  "headline_zh-Hant": "相關性並不意味著因果關係--但它並不排除因果關係。我們來談談\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
