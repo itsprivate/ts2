@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--05--en--askhn--HackerNews--NewsArticle--32356205",
+  "url": "https://news.ycombinator.com/item?id=32356205",
+  "headline": "Ask HN: Why are there so many duplicate articles?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Should we be scanning recent articles in order to cut down on duplicate submissions?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "tamaharbor",
+    "url": "https://news.ycombinator.com/user?id=tamaharbor"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32356205",
+  "sameAs": "https://news.ycombinator.com/item?id=32356205",
+  "dateCreated": "2022-08-05T14:26:16.163Z",
+  "datePublished": "2022-08-05T14:00:29.000Z",
+  "dateModified": "2022-08-05T14:26:16.163Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么有这么多重复的文章？\n",
+  "headline_zh-Hant": "Ask HN: 為什麼有這麼多重複的文章？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们是否应该扫描最近的文章，以减少重复提交？\n",
+  "description_zh-Hant": "我們是否應該掃描最近的文章，以減少重複提交？\n"
+}
