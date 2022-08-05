@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--05--en--askhn--HackerNews--NewsArticle--32358821",
+  "url": "https://news.ycombinator.com/item?id=32358821",
+  "headline": "Ask HN: How do you secure your home server?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I am getting into self-hosting and it seems it takes an awful lot of work to secure your general-purpose Linux distribution.[0] I am surprised that the default seems to be to do all of this by hand.<p>How do you deploy a secure Linux home server? Are there distros that are pre-configured for this purpose? Do you use any Ansible playbooks (or other scripts)? Or do you indeed implement all security measures manually?<p>[0]: https://github.com/imthenachoman/How-To-Secure-A-Linux-Server",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "dschuessler",
+    "url": "https://news.ycombinator.com/user?id=dschuessler"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32358821",
+  "sameAs": "https://news.ycombinator.com/item?id=32358821",
+  "dateCreated": "2022-08-05T17:14:45.437Z",
+  "datePublished": "2022-08-05T17:00:36.000Z",
+  "dateModified": "2022-08-05T17:14:45.437Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你如何保护你的家庭服务器？\n",
+  "headline_zh-Hant": "Ask HN: 你如何保護你的家庭服務器？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在接触自我托管，似乎需要大量的工作来确保你的通用Linux发行版的安全。[0]我感到惊讶的是，默认情况下似乎是手工完成所有这些工作。有哪些发行版是为此目的而预先配置的？你是否使用任何Ansible playbooks（或其他脚本）？或者你确实是手动实现所有的安全措施？<p>[0]: https://github.com/imthenachoman/How-To-Secure-A-Linux-Server\n",
+  "description_zh-Hant": "我正在接觸自我託管，似乎需要大量的工作來確保你的通用Linux發行版的安全。[0]我感到驚訝的是，默認情況下似乎是手工完成所有這些工作。有哪些發行版是為此目的而預先配置的？你是否使用任何Ansible playbooks（或其他腳本）？或者你確實是手動實現所有的安全措施？<p>[0]: https://github.com/imthenachoman/How-To-Secure-A-Linux-Server\n"
+}
