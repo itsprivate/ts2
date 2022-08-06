@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--06--en--myfeed--HackerNews--NewsArticle--32370573",
+  "url": "https://news.ycombinator.com/item?id=32370573",
+  "headline": "Show HN: 1.0 launch of Nodewood, a Node.js SaaS starter kit",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey Hacker News!  I've been working on Nodewood for a couple years now (and have submitted it before, in its beta version [1]), but have just released the first full-release 1.0 version today!<p>Nodewood is intended to solve the issue that a lot of new SaaS founders face, that there's a whole host of features you have to have as table stakes -- user management, team management, subscription management, etc. -- and building those features yourself means you either have to cut corners or delay working on the actual business logic of your app.  Nodewood comes with those features out of the box, allowing you to start building your actual app moments after you create your project.<p>Plus, it comes with a CLI tool, a Docker-based development system, and a Pulumi-based [2] deploy option, not to mention a lot of other time-saving tools and utilities!<p>As always, I'd love to hear any feedback!<p>[1] <a href=\"https://news.ycombinator.com/item?id=26048937\" rel=\"nofollow\">https://news.ycombinator.com/item?id=26048937</a><p>[2] <a href=\"https://www.pulumi.com/\" rel=\"nofollow\">https://www.pulumi.com/</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "DanHulton",
+    "url": "https://news.ycombinator.com/user?id=DanHulton"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32370573",
+  "sameAs": "https://nodewood.com/blog/nodewood-1-0-official-full-release/",
+  "dateCreated": "2022-08-06T19:20:39.996Z",
+  "datePublished": "2022-08-06T18:49:55.000Z",
+  "dateModified": "2022-08-06T19:20:39.996Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 1.0推出Nodewood，一个Node.js SaaS入门套件\n",
+  "headline_zh-Hant": "Show HN: 1.0推出Nodewood，一個Node.js SaaS入門套件\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hey Hacker News!  I've been working on Nodewood for a couple years now (and have submitted it before, in its beta version [1]), but have just released the first full-release 1.0 version today!<p>Nodewood is intended to solve the issue that a lot of new SaaS founders face, that there's a whole host of features you have to have as table stakes -- user management, team management, subscription management, etc. -- and building those features yourself means you either have to cut corners or delay working on the actual business logic of your app.  Nodewood comes with those features out of the box, allowing you to start building your actual app moments after you create your project.<p>Plus, it comes with a CLI tool, a Docker-based development system, and a Pulumi-based [2] deploy option, not to mention a lot of other time-saving tools and utilities! <p>As always, I'd love to hear any feedback!<p>[1] <a href=\"https://news.ycombinator.com/item?id=26048937\" rel=\"nofollow\">https://news.ycombinator.com/item?id=26048937</a><p>[2] <a href=\"https://www.pulumi.com/\" rel=\"nofollow\">https://www.pulumi.com/</a>\n",
+  "description_zh-Hant": "Hey Hacker News!  I've been working on Nodewood for a couple years now (and have submitted it before, in its beta version [1]), but have just released the first full-release 1.0 version today!<p>Nodewood is intended to solve the issue that a lot of new SaaS founders face, that there's a whole host of features you have to have as table stakes -- user management, team management, subscription management, etc. -- and building those features yourself means you either have to cut corners or delay working on the actual business logic of your app.  Nodewood comes with those features out of the box, allowing you to start building your actual app moments after you create your project.<p>Plus, it comes with a CLI tool, a Docker-based development system, and a Pulumi-based [2] deploy option, not to mention a lot of other time-saving tools and utilities! <p>As always, I'd love to hear any feedback!<p>[1] <a href=\"https://news.ycombinator.com/item?id=26048937\" rel=\"nofollow\">https://news.ycombinator.com/item?id=26048937</a><p>[2] <a href=\"https://www.pulumi.com/\" rel=\"nofollow\">https://www.pulumi.com/</a>\n"
+}
