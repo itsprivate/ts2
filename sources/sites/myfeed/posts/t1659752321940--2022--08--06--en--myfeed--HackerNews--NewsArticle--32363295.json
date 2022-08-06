@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--06--en--myfeed--HackerNews--NewsArticle--32363295",
+  "url": "https://news.ycombinator.com/item?id=32363295",
+  "headline": "CACM special issue on Lisp (1991)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rwxrwxrwx",
+    "url": "https://news.ycombinator.com/user?id=rwxrwxrwx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32363295",
+  "sameAs": "https://cacm.acm.org/magazines/1991/9",
+  "dateCreated": "2022-08-06T02:18:41.940Z",
+  "datePublished": "2022-08-05T23:49:06.000Z",
+  "dateModified": "2022-08-06T02:18:41.940Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "CACM关于Lisp的专刊(1991)\n",
+  "headline_zh-Hant": "CACM關於Lisp的專刊(1991)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

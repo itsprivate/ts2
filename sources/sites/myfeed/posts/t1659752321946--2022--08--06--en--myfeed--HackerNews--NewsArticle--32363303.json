@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--06--en--myfeed--HackerNews--NewsArticle--32363303",
+  "url": "https://news.ycombinator.com/item?id=32363303",
+  "headline": "Kaspersky blames misconfiguration after customers receive “dear and lovely”email",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Rondom",
+    "url": "https://news.ycombinator.com/user?id=Rondom"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32363303",
+  "sameAs": "https://grahamcluley.com/kaspersky-blames-misconfiguration-after-customers-receive-dear-and-lovely-email/",
+  "dateCreated": "2022-08-06T02:18:41.946Z",
+  "datePublished": "2022-08-05T23:49:56.000Z",
+  "dateModified": "2022-08-06T02:18:41.946Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "客户收到 \"亲爱的、可爱的 \"电子邮件后，卡巴斯基指责配置错误\n",
+  "headline_zh-Hant": "客戶收到 \"親愛的、可愛的 \"電子郵件後，卡巴斯基指責配置錯誤\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
