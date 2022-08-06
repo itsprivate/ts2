@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--06--en--myfeed--HackerNews--NewsArticle--32369123",
+  "url": "https://news.ycombinator.com/item?id=32369123",
+  "headline": "Running your CI builds without the server",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bkq",
+    "url": "https://news.ycombinator.com/user?id=bkq"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32369123",
+  "sameAs": "https://blog.djinn-ci.com/showcase/2022/08/06/running-your-ci-builds-without-the-server/",
+  "dateCreated": "2022-08-06T17:34:02.607Z",
+  "datePublished": "2022-08-06T15:49:52.000Z",
+  "dateModified": "2022-08-06T17:34:02.607Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在没有服务器的情况下运行你的CI构建\n",
+  "headline_zh-Hant": "在沒有服務器的情況下運行你的CI構建\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
