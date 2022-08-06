@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--06--en--showhn--HackerNews--NewsArticle--32364193",
+  "url": "https://news.ycombinator.com/item?id=32364193",
+  "headline": "Show HN: Sematic – Convert plain English to structured data",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN!<p>I would like to share the project that I've been working on for the past six months. It's called &quot;Sematic&quot;, and it's an NLU API that parses plain english so that devs can really start start to understand the language of our users.<p>In January I was trying to build a &quot;text to bash script&quot; product for my wife, as she is unable to use services like Zapier due to security reasons. I ended up being completely stuck on the first part of the project, which was parsing plain english to a data abstraction that I could code against. The largest problem I had was determining all the relationships between different objects/entities.<p>I was hoping that Machine Learning could help me, but after going down some rabbit holes, building models, abusing GPT-3, etc, I found that no matter what, I was going to need proper error correction on the model's output. This prompted me to begin studying linguistics, and other no-ML rule based language parsing options. I still feel like there is going to be some ML in this project eventually, but for now I feel like I still have a lot of alpha to go by using some great libs like Duckling, and using old fashioned parsing techniques.<p>My goal is to get Sematic to a point where devs feel comfortable with using it to add Alexa/Siri-like text understanding to all kinds of apps and websites. If you have comments or suggestions, I'm happy to chat more about it. Thank you.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "brochington",
+    "url": "https://news.ycombinator.com/user?id=brochington"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32364193",
+  "sameAs": "https://github.com/brochington/sematic",
+  "dateCreated": "2022-08-06T03:35:43.614Z",
+  "datePublished": "2022-08-06T02:18:48.000Z",
+  "dateModified": "2022-08-06T03:35:43.614Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 思迈特 - 将普通英语转换为结构化数据\n",
+  "headline_zh-Hant": "Show HN: 思邁特 - 將普通英語轉換為結構化數據\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嘿，HN！<p>我想分享一下我在过去六个月里一直在做的项目。<p>在一月份，我试图为我的妻子建立一个&quot;text to bash script&quot;产品，因为她由于安全原因而无法使用Zapier等服务。结果我在项目的第一部分就完全卡住了，也就是把纯英文解析成我可以编码的数据抽象。我最大的问题是确定不同对象/实体之间的所有关系。<p>我希望机器学习可以帮助我，但在进入一些兔子洞、建立模型、滥用GPT-3等之后，我发现无论如何，我都需要对模型的输出进行适当的错误纠正。这促使我开始研究语言学，以及其他基于无规则的语言解析选项。我仍然觉得这个项目最终会有一些ML，但现在我觉得通过使用一些伟大的lib，如Duckling，以及使用老式的解析技术，我仍然有很多alpha。<p>我的目标是让Sematic达到一个点，让开发人员感到舒适，使用它来为各种应用程序和网站添加类似Alexa/Siri的文本理解。如果您有意见或建议，我很乐意与您进一步讨论。谢谢你。\n",
+  "description_zh-Hant": "嘿，HN！<p>我想分享一下我在過去六個月裡一直在做的項目。<p>在一月份，我試圖為我的妻子建立一個&quot;text to bash script&quot;產品，因為她由於安全原因而無法使用Zapier等服務。結果我在項目的第一部分就完全卡住了，也就是把純英文解析成我可以編碼的數據抽象。我最大的問題是確定不同對象/實體之間的所有關係。<p>我希望機器學習可以幫助我，但在進入一些兔子洞、建立模型、濫用GPT-3等之後，我發現無論如何，我都需要對模型的輸出進行適當的錯誤糾正。這促使我開始研究語言學，以及其他基於無規則的語言解析選項。我仍然覺得這個項目最終會有一些ML，但現在我覺得通過使用一些偉大的lib，如Duckling，以及使用老式的解析技術，我仍然有很多alpha。<p>我的目標是讓Sematic達到一個點，讓開發人員感到舒適，使用它來為各種應用程序和網站添加類似Alexa/Siri的文本理解。如果您有意見或建議，我很樂意與您進一步討論。謝謝你。\n"
+}
