@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--06--en--showhn--HackerNews--NewsArticle--32371477",
+  "url": "https://news.ycombinator.com/item?id=32371477",
+  "headline": "Show HN: Explore random selections of books with Wikipedia pages",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "This is an update of a prior randomizer, which I previously did not realize only contained around 200 entries. By extracting the dump of all titles of English entries in Wikipedia containing &quot;(books)&quot; here (<a href=\"http://dumps.wikimedia.org/enwiki/latest/enwiki-latest-all-titles-in-ns0.gz\" rel=\"nofollow\">http://dumps.wikimedia.org/enwiki/latest/enwiki-latest-all-t...</a>), I developed a randomizer that contains all books currently accompanied by articles. This is one way to find noteworthy books to read.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "westcort",
+    "url": "https://news.ycombinator.com/user?id=westcort"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32371477",
+  "sameAs": "https://locserendipity.com/Books.html",
+  "dateCreated": "2022-08-06T20:57:56.386Z",
+  "datePublished": "2022-08-06T20:48:53.000Z",
+  "dateModified": "2022-08-06T20:57:56.386Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 用维基百科页面探索随机选择的书籍\n",
+  "headline_zh-Hant": "Show HN: 用維基百科頁面探索隨機選擇的書籍\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "This is an update of a prior randomizer, which I previously did not realize only contained around 200 entries. By extracting the dump of all titles of English entries in Wikipedia containing &quot;(books)&quot; here (<a href=\"http://dumps.wikimedia.org/enwiki/latest/enwiki-latest-all-titles-in-ns0.gz\" rel=\"nofollow\">http://dumps.wikimedia.org/enwiki/latest/enwiki-latest-all-t...</a>), I developed a randomizer that contains all books currently accompanied by articles. This is one way to find noteworthy books to read.\n",
+  "description_zh-Hant": "This is an update of a prior randomizer, which I previously did not realize only contained around 200 entries. By extracting the dump of all titles of English entries in Wikipedia containing &quot;(books)&quot; here (<a href=\"http://dumps.wikimedia.org/enwiki/latest/enwiki-latest-all-titles-in-ns0.gz\" rel=\"nofollow\">http://dumps.wikimedia.org/enwiki/latest/enwiki-latest-all-t...</a>), I developed a randomizer that contains all books currently accompanied by articles. This is one way to find noteworthy books to read.\n"
+}
