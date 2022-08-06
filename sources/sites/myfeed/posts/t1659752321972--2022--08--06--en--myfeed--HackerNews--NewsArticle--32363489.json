@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--06--en--myfeed--HackerNews--NewsArticle--32363489",
+  "url": "https://news.ycombinator.com/item?id=32363489",
+  "headline": "Direct Stream Digital",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "js2",
+    "url": "https://news.ycombinator.com/user?id=js2"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32363489",
+  "sameAs": "https://en.wikipedia.org/wiki/Direct_Stream_Digital",
+  "dateCreated": "2022-08-06T02:18:41.972Z",
+  "datePublished": "2022-08-06T00:18:05.000Z",
+  "dateModified": "2022-08-06T02:18:41.972Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "直流数字\n",
+  "headline_zh-Hant": "直流數字\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
