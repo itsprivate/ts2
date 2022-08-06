@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--06--en--hackernews--HackerNews--NewsArticle--32366022",
+  "url": "https://news.ycombinator.com/item?id=32366022",
+  "headline": "Monad Confusion and the Blurry Line Between Data and Computation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "susam",
+    "url": "https://news.ycombinator.com/user?id=susam"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32366022",
+  "sameAs": "https://www.micahcantor.com/blog/monad-confusion/",
+  "dateCreated": "2022-08-06T08:50:29.380Z",
+  "datePublished": "2022-08-06T08:03:15.000Z",
+  "dateModified": "2022-08-06T08:50:29.380Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "单体的混乱和数据与计算之间的模糊界限\n",
+  "headline_zh-Hant": "單體的混亂和數據與計算之間的模糊界限\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
