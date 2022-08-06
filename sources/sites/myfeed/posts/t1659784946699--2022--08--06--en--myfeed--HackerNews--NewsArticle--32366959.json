@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--06--en--myfeed--HackerNews--NewsArticle--32366959",
+  "url": "https://news.ycombinator.com/item?id=32366959",
+  "headline": "Show HN: Thread-Parallel Decompression and Random Access to Gzip Files (Pragzip)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello HN,<p>I'm very excited to have finished a gzip decoder that can speed up decompression using threads. On my Ryzen 3900X, I measured a 8x speedup over standard gzip, reaching 1.6 GB/s for a synthetic file with a consistent compression ratio of 1.3.<p>A functional decompressor like this is kind of a first, that's why I am excited. Pragzip implements the two-staged decompression idea put forward with pugz, which unfortunately only works with gzipped text files not arbitrary files and has many more limitations. I think my main contribution over pugz might be a fast (~10 MB/s) data-agnostic deflate block finder, which might btw also be used to rescue corrupted gzip files). Note that pigz does compress files in parallel but it effectively is not able to decompress not even their own produced files in parallel.<p>You can try out pragzip via PyPI or by building the C++ pragzip tool from source:<p><pre><code>    python3 -m pip install --user pragzip\n    pragzip --version  # 0.2.0\n</code></pre>\nHere is a quick comparison with a very Huffman-intensive workload tested on a 12-core Ryzen 3900X:<p><pre><code>    base64 /dev/urandom | head -c $(( 4 * 1024 * 1024 * 1024 )) &gt; 4GiB\n    gzip 4GiB  # compresses to a 3.1 GiB large file called 4GiB.gz\n\n    time gzip         -d -c 4GiB.gz | wc -c   # real ~21.6 s (~200 MB/s)\n    time pigz         -d -c 4GiB.gz | wc -c   # real ~12.9 s (~332 MB/s)\n    time pragzip -P 0 -d -c 4GiB.gz | wc -c   # real ~2.7 s (~1.6 GB/s decompression bandwidth)\n</code></pre>\nI have unit tests for files produced with gzip, bgzip, igzip, pigz, Python's gzip, and python-pgzip. It should therefore work for any &quot;normal&quot; gzip file and is feature-complete but needs a lot of testing and polishing. Note that it is very memory-intensive depending on the archive's compression factor and of course the number of cores being used. This will be subject to further improvements.<p>Bug reports, feature requests, or anything else are very welcome!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mxmlnkn",
+    "url": "https://news.ycombinator.com/user?id=mxmlnkn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32366959",
+  "sameAs": "https://github.com/mxmlnkn/pragzip",
+  "dateCreated": "2022-08-06T11:22:26.699Z",
+  "datePublished": "2022-08-06T11:02:12.000Z",
+  "dateModified": "2022-08-06T11:22:26.699Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 线程并行解压和随机访问Gzip文件(Pragzip)\n",
+  "headline_zh-Hant": "Show HN: 線程並行解壓和隨機訪問Gzip文件(Pragzip)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hello HN,<p>I'm very excited to have finished a gzip decoder that can speed up decompression using threads. On my Ryzen 3900X, I measured a 8x speedup over standard gzip, reaching 1.6 GB/s for a synthetic file with a consistent compression ratio of 1.3.<p>A functional decompressor like this is kind of a first, that's why I am excited. Pragzip implements the two-staged decompression idea put forward with pugz, which unfortunately only works with gzipped text files not arbitrary files and has many more limitations. I think my main contribution over pugz might be a fast (~10 MB/s) data-agnostic deflate block finder, which might btw also be used to rescue corrupted gzip files). Note that pigz does compress files in parallel but it effectively is not able to decompress not even their own produced files in parallel.<p>You can try out pragzip via PyPI or by building the C++ pragzip tool from source:<p><pre><code> python3 -m pip install --user pragzip\n    pragzip --version # 0.2.0\n</code></pre>\nHere is a quick comparison with a very Huffman-intensive workload tested on a 12-core Ryzen 3900X:<p><pre><code> base64 /dev/urandom | head -c $(( 4 * 1024 * 1024 * 1024 )) &gt; 4GiB\n    gzip 4GiB # compresses to a 3.1 GiB large file called 4GiB.gz\n\n    time gzip -d -c 4GiB.gz | wc -c # real ~21.6 s (~200 MB/s)\n    time pigz -d -c 4GiB.gz | wc -c # real ~12.9 s (~332 MB/s)\n    time pragzip -P 0 -d -c 4GiB.gz | wc -c # real ~2.7 s (~1.6 GB/s decompression bandwidth)\n</code></pre>\nI have unit tests for files produced with gzip, bgzip, igzip, pigz, Python's gzip, and python-pgzip. It should therefore work for any &quot;normal&quot; gzip file and is feature-complete but needs a lot of testing and polishing. Note that it is very memory-intensive depending on the archive's compression factor and of course the number of cores being used. This will be subject to further improvements.<p>Bug reports, feature requests, or anything else are very welcome!\n",
+  "description_zh-Hant": "Hello HN,<p>I'm very excited to have finished a gzip decoder that can speed up decompression using threads. On my Ryzen 3900X, I measured a 8x speedup over standard gzip, reaching 1.6 GB/s for a synthetic file with a consistent compression ratio of 1.3.<p>A functional decompressor like this is kind of a first, that's why I am excited. Pragzip implements the two-staged decompression idea put forward with pugz, which unfortunately only works with gzipped text files not arbitrary files and has many more limitations. I think my main contribution over pugz might be a fast (~10 MB/s) data-agnostic deflate block finder, which might btw also be used to rescue corrupted gzip files). Note that pigz does compress files in parallel but it effectively is not able to decompress not even their own produced files in parallel.<p>You can try out pragzip via PyPI or by building the C++ pragzip tool from source:<p><pre><code> python3 -m pip install --user pragzip\n    pragzip --version # 0.2.0\n</code></pre>\nHere is a quick comparison with a very Huffman-intensive workload tested on a 12-core Ryzen 3900X:<p><pre><code> base64 /dev/urandom | head -c $(( 4 * 1024 * 1024 * 1024 )) &gt; 4GiB\n    gzip 4GiB # compresses to a 3.1 GiB large file called 4GiB.gz\n\n    time gzip -d -c 4GiB.gz | wc -c # real ~21.6 s (~200 MB/s)\n    time pigz -d -c 4GiB.gz | wc -c # real ~12.9 s (~332 MB/s)\n    time pragzip -P 0 -d -c 4GiB.gz | wc -c # real ~2.7 s (~1.6 GB/s decompression bandwidth)\n</code></pre>\nI have unit tests for files produced with gzip, bgzip, igzip, pigz, Python's gzip, and python-pgzip. It should therefore work for any &quot;normal&quot; gzip file and is feature-complete but needs a lot of testing and polishing. Note that it is very memory-intensive depending on the archive's compression factor and of course the number of cores being used. This will be subject to further improvements.<p>Bug reports, feature requests, or anything else are very welcome!\n"
+}
