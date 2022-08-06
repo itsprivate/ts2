@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--06--en--myfeed--HackerNews--NewsArticle--32370129",
+  "url": "https://news.ycombinator.com/item?id=32370129",
+  "headline": "Hosting a Minecraft server without extra hardware with Tailscale and iptables",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "siraben",
+    "url": "https://news.ycombinator.com/user?id=siraben"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32370129",
+  "sameAs": "https://siraben.dev/2022/08/01/tailscale-iptables.html",
+  "dateCreated": "2022-08-06T17:56:05.151Z",
+  "datePublished": "2022-08-06T17:49:57.000Z",
+  "dateModified": "2022-08-06T17:56:05.151Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "用Tailscale和iptables托管一个没有额外硬件的Minecraft服务器\n",
+  "headline_zh-Hant": "用Tailscale和iptables託管一個沒有額外硬件的Minecraft服務器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
