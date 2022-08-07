@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--07--en--myfeed--HackerNews--NewsArticle--32375938",
+  "url": "https://news.ycombinator.com/item?id=32375938",
+  "headline": "In first, Iron Dome's interception success rate reaches 95%",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "JumpCrisscross",
+    "url": "https://news.ycombinator.com/user?id=JumpCrisscross"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32375938",
+  "sameAs": "https://www.ynetnews.com/article/hjvgbg6a5",
+  "dateCreated": "2022-08-07T13:15:44.125Z",
+  "datePublished": "2022-08-07T12:26:18.000Z",
+  "dateModified": "2022-08-07T13:15:44.125Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "首先，铁穹堡的拦截成功率达到95%。\n",
+  "headline_zh-Hant": "首先，鐵穹堡的攔截成功率達到95%。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--07--en--hackernews--HackerNews--NewsArticle--32376154",
+  "url": "https://news.ycombinator.com/item?id=32376154",
+  "headline": "Show HN: Figure is a daily logic puzzle game",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello, HN! Figure is a little side project I’ve been working on. Someone described it as Bejeweled meets Wordle.<p>I built the puzzle interface and website in Next.js and React, which was a first for me and overall a great learning experience. The daily puzzle data is queued up in a PostgreSQL table. Another table stores anonymous solve stats. Once a day, a cron job hits a serverless API that promotes the next puzzle as “live” and prompts Next.js to update the prebaked static site with the new data. The game state is managed with Redux and your stats are persisted to localStorage. Framer Motion for animations. Styling is mostly Tailwind CSS. I use Figma for design and Logic Pro to make the sounds.<p>I get a lot of questions about how the puzzles are generated. It’s not super sexy. I generate random grids of tiles and then run them through a brute force solver (sounds rough but the puzzles don’t feel anything). Every few days, I play through puzzles that look promising based on the solution space and pick some good ones to go into the queue. The rest are sent back to the void (again, painless).<p>I’ve spent a little bit of time tinkering with a procedural generator, but so far the random ones are better. The downsides of the random approach are (1) the curation effort required, and (2) the high variability in puzzle difficulty. I have a feeling there’s a whole body of math and CS knowledge where Figure is an example of something that I don’t know the name for (imposter syndrome intensifies).<p>As for the future of Figure, I feel strongly about keeping it free of ads, login walls, in-app purchases, or anything else that infringes on enjoyment or privacy. I’d also like to make sure Figure is accessible to everyone. English isn’t exactly required to play, but translations for the UI and website would be nice. I’ve tried to build Figure to be friendly to people who have color vision deficiency and people who rely on screen readers and keyboard navigation, but I have no idea if it’s actually any fun in these cases.<p>Here are some miscellaneous thoughts…<p>1. It’s been surprisingly satisfying to build a web game with a modern frontend stack. I’ve noticed a lot of grumbling on HN over the years from OG web developers who yearn for the days of semantic HTML, a sprinkling of CSS, and vanilla JS. I was in that boat too and have grumbled plenty about the breakneck pace of frontend evolution. One of my goals with this project was to pick some popular frameworks and give them an honest try. I’m now a believer, but there’s still no way I can keep up with all the progress.<p>2. I found Tailwind awkward at first, but after a while I realized I was using Figma a lot less and just designing in code with utility classes, which is great for focus and flow. Having lived through the Web 2.0 standards revolution, it was hard to let go of some deeply rooted opinions about semantic purity, but overall I’m sold.<p>3. I really love side projects. At most jobs, you’re pushed toward specialization. Side projects allow you to build out a generalist skillset, which makes you better at your core job function and better at collaborating with others. It’s also liberating to explore and pivot around without time pressure. Figure started out as a 3D fidget toy in Unity where you fling projectiles at floating objects…<p>4. I made this game on my trusty 2013 MacBook Pro, which has been almost completely sufficient (ahem Docker ಠ_ಠ). I’ll probably get an M2 Air soon, but I’m reluctant to say goodbye to the best computer I’ve ever owned.<p>5. I’m very grateful for the people who build and maintain open source projects. It’s also delightful how many paid services offer generous free tiers to let developers play around: Figma, GitHub, Vercel, Supabase, and Pipedream, just to name a few that I’m currently using actively. If you work on FOSS and/or these excellent platforms, thank you.<p>Anyway, hope you like it. Happy to answer any questions.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "sumul",
+    "url": "https://news.ycombinator.com/user?id=sumul"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32376154",
+  "sameAs": "https://figure.game",
+  "dateCreated": "2022-08-07T13:42:19.928Z",
+  "datePublished": "2022-08-07T13:01:29.000Z",
+  "dateModified": "2022-08-07T13:42:19.928Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 图是一个日常逻辑谜题游戏\n",
+  "headline_zh-Hant": "Show HN: 圖是一個日常邏輯謎題遊戲\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你好，HN! 图是我一直在做的一个小的辅助项目。<p>我用Next.js和React构建了谜题界面和网站，这对我来说是第一次，总体来说是一次很好的学习经历。每天的谜题数据被排在一个PostgreSQL表格中。另一个表存储了匿名的解题统计信息。每天一次，一个cron job会点击一个无服务器的API，将下一个谜题提升为 \"上线\"，并提示Next.js用新的数据来更新预制的静态网站。游戏状态由Redux管理，你的统计数据被持久化到localStorage。Framer Motion用于制作动画。风格设计主要是使用Tailwind CSS。我使用Figma进行设计，使用Logic Pro制作声音。<p>我收到很多关于谜题是如何生成的问题。这并不太性感。我生成了随机的砖块网格，然后通过一个暴力解算器来运行它们（听起来很粗糙，但是谜题没有任何感觉）。每隔几天，我就会根据解题空间来玩那些看起来很有希望的谜题，然后挑选一些好的谜题放入队列中。<p>我花了一点时间研究程序化生成器，但到目前为止，随机生成器的效果更好。随机方法的缺点是：（1）需要策划的努力，以及（2）谜题难度的高度可变性。我有一种感觉，在整个数学和CS知识体系中，Figure是一个我不知道名字的例子（冒名顶替者综合症加剧了）。<p>至于Figure的未来，我强烈认为要保持它没有广告、登录墙、应用内购买或其他任何侵犯享受或隐私的东西。我还想确保Figure对每个人都是开放的。玩游戏并不完全需要英语，但用户界面和网站的翻译会很好。我曾试图将Figure打造得对那些有色觉障碍的人和依赖屏幕阅读器和键盘导航的人友好，但我不知道在这些情况下它是否真的有乐趣。用现代的前端堆栈来构建一个网页游戏，这让我感到非常满意。多年来，我注意到在HN上有很多来自OG网络开发者的抱怨，他们向往着语义HTML、洒上CSS和vanilla JS的日子。我也曾在那条船上，对前端进化的惊人速度抱怨过很多。我做这个项目的目的之一是挑选一些流行的框架，并给它们一个诚实的尝试。我现在是一个信徒，但我仍然无法跟上所有的进展。 <p>2.一开始我发现Tailwind很笨拙，但过了一段时间，我发现我很少使用Figma，只是在代码中使用实用类进行设计，这对专注和流程是很好的。在经历了Web 2.0标准革命之后，我很难放下一些关于语义纯度的根深蒂固的观点，但总的来说，我还是接受了。 <p>3.我真的喜欢副业。在大多数工作中，你会被推向专业化的方向。副业项目可以让你建立起一个通用的技能集，从而使你在核心工作职能方面做得更好，也更善于与他人合作。在没有时间压力的情况下，你可以自由地进行探索和调整，这也是一种解放。图开始是一个在Unity中的3D小玩意，你向漂浮的物体投掷弹丸......<p>4.我在我可靠的2013年MacBook Pro上做这个游戏，它几乎已经完全足够了（咳咳，Docker ಠ_ಠ）。我可能很快就会买一台M2 Air，但我不愿意和我拥有过的最好的电脑说再见。我非常感谢那些建设和维护开源项目的人。许多付费服务提供了慷慨的免费层级，让开发者玩得不亦乐乎，这一点也很令人高兴。Figma、GitHub、Vercel、Supabase和Pipedream，只是我目前正在积极使用的几个例子。如果你在FOSS和/或这些优秀的平台上工作，谢谢你。<p>不管怎样，希望你喜欢它。很高兴回答任何问题。\n",
+  "description_zh-Hant": "你好，HN! 圖是我一直在做的一個小的輔助項目。<p>我用Next.js和React構建了謎題界面和網站，這對我來說是第一次，總體來說是一次很好的學習經歷。每天的謎題數據被排在一個PostgreSQL表格中。另一個表存儲了匿名的解題統計信息。每天一次，一個cron job會點擊一個無服務器的API，將下一個謎題提升為 \"上線\"，並提示Next.js用新的數據來更新預製的靜態網站。遊戲狀態由Redux管理，你的統計數據被持久化到localStorage。Framer Motion用於製作動畫。風格設計主要是使用Tailwind CSS。我使用Figma進行設計，使用Logic Pro製作聲音。<p>我收到很多關於謎題是如何生成的問題。這並不太性感。我生成了隨機的磚塊網格，然後通過一個暴力解算器來運行它們（聽起來很粗糙，但是謎題沒有任何感覺）。每隔幾天，我就會根據解題空間來玩那些看起來很有希望的謎題，然後挑選一些好的謎題放入隊列中。<p>我花了一點時間研究程序化生成器，但到目前為止，隨機生成器的效果更好。隨機方法的缺點是：（1）需要策劃的努力，以及（2）謎題難度的高度可變性。我有一種感覺，在整個數學和CS知識體系中，Figure是一個我不知道名字的例子（冒名頂替者綜合症加劇了）。<p>至於Figure的未來，我強烈認為要保持它沒有廣告、登錄牆、應用內購買或其他任何侵犯享受或隱私的東西。我還想確保Figure對每個人都是開放的。玩遊戲並不完全需要英語，但用戶界面和網站的翻譯會很好。我曾試圖將Figure打造得對那些有色覺障礙的人和依賴屏幕閱讀器和鍵盤導航的人友好，但我不知道在這些情況下它是否真的有樂趣。用現代的前端堆棧來構建一個網頁遊戲，這讓我感到非常滿意。多年來，我注意到在HN上有很多來自OG網絡開發者的抱怨，他們嚮往著語義HTML、灑上CSS和vanilla JS的日子。我也曾在那條船上，對前端進化的驚人速度抱怨過很多。我做這個項目的目的之一是挑選一些流行的框架，並給它們一個誠實的嘗試。我現在是一個信徒，但我仍然無法跟上所有的進展。 <p>2.一開始我發現Tailwind很笨拙，但過了一段時間，我發現我很少使用Figma，只是在代碼中使用實用類進行設計，這對專注和流程是很好的。在經歷了Web 2.0標準革命之後，我很難放下一些關於語義純度的根深蒂固的觀點，但總的來說，我還是接受了。 <p>3.我真的喜歡副業。在大多數工作中，你會被推向專業化的方向。副業項目可以讓你建立起一個通用的技能集，從而使你在核心工作職能方面做得更好，也更善於與他人合作。在沒有時間壓力的情況下，你可以自由地進行探索和調整，這也是一種解放。圖開始是一個在Unity中的3D小玩意，你向漂浮的物體投擲彈丸......<p>4.我在我可靠的2013年MacBook Pro上做這個遊戲，它幾乎已經完全足夠了（咳咳，Docker ಠ_ಠ）。我可能很快就會買一臺M2 Air，但我不願意和我擁有過的最好的電腦說再見。我非常感謝那些建設和維護開源項目的人。許多付費服務提供了慷慨的免費層級，讓開發者玩得不亦樂乎，這一點也很令人高興。Figma、GitHub、Vercel、Supabase和Pipedream，只是我目前正在積極使用的幾個例子。如果你在FOSS和/或這些優秀的平臺上工作，謝謝你。<p>不管怎樣，希望你喜歡它。很高興回答任何問題。\n"
+}
