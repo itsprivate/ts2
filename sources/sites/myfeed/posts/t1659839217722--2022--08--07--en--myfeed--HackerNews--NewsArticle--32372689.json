@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--07--en--myfeed--HackerNews--NewsArticle--32372689",
+  "url": "https://news.ycombinator.com/item?id=32372689",
+  "headline": "Genesis: God’s Actual Programming Language",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "u8",
+    "url": "https://news.ycombinator.com/user?id=u8"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32372689",
+  "sameAs": "https://github.com/elonlit/Genesis",
+  "dateCreated": "2022-08-07T02:26:57.722Z",
+  "datePublished": "2022-08-07T00:02:42.000Z",
+  "dateModified": "2022-08-07T02:26:57.722Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 52
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 33
+    }
+  ],
+  "headline_zh-Hans": "创世纪。上帝的实际编程语言\n",
+  "headline_zh-Hant": "創世紀。上帝的實際編程語言\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

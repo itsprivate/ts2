@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--07--en--myfeed--HackerNews--NewsArticle--32372719",
+  "url": "https://news.ycombinator.com/item?id=32372719",
+  "headline": "GM's Ultium Batteries",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "MrVitaliy",
+    "url": "https://news.ycombinator.com/user?id=MrVitaliy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32372719",
+  "sameAs": "https://www.cnbc.com/2022/05/17/gm-is-betting-its-ultium-batteries-will-lead-the-automaker-to-ev-dominance.html",
+  "dateCreated": "2022-08-07T02:26:57.743Z",
+  "datePublished": "2022-08-07T00:11:15.000Z",
+  "dateModified": "2022-08-07T02:26:57.743Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 6
+    }
+  ],
+  "headline_zh-Hans": "通用汽车的Ultium电池\n",
+  "headline_zh-Hant": "通用汽車的Ultium電池\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

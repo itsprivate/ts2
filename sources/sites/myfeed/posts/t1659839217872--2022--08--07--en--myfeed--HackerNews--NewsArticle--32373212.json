@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--07--en--myfeed--HackerNews--NewsArticle--32373212",
+  "url": "https://news.ycombinator.com/item?id=32373212",
+  "headline": "Break my stupid hash function",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I made this crappy, most likely very insecure hash function with zero actual cryptographic hash knowledge while on a plane.<p>If you can find a collision or find the preimage of f11e7def9c2ec4c0, you'll officially have broken it.<p>Link: https://gist.github.com/quackduck/0da5d2ed7807e3ef22dc2e0cdadbf90a",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "quackduck",
+    "url": "https://news.ycombinator.com/user?id=quackduck"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32373212",
+  "sameAs": "https://news.ycombinator.com/item?id=32373212",
+  "dateCreated": "2022-08-07T02:26:57.872Z",
+  "datePublished": "2022-08-07T01:58:52.000Z",
+  "dateModified": "2022-08-07T02:26:57.872Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "打破我那愚蠢的哈希函数\n",
+  "headline_zh-Hant": "打破我那愚蠢的哈希函數\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我在飞机上做了这个蹩脚的、很可能是非常不安全的哈希函数，实际的加密哈希知识为零。<p>如果你能找到一个碰撞或找到f11e7def9c2ec4c0的预像，你就正式破解了它。<p>链接：https://gist.github.com/quackduck/0da5d2ed7807e3ef22dc2e0cdadbf90a\n",
+  "description_zh-Hant": "我在飛機上做了這個蹩腳的、很可能是非常不安全的哈希函數，實際的加密哈希知識為零。<p>如果你能找到一個碰撞或找到f11e7def9c2ec4c0的預像，你就正式破解了它。<p>鏈接：https://gist.github.com/quackduck/0da5d2ed7807e3ef22dc2e0cdadbf90a\n"
+}
