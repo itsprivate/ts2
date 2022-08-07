@@ -36,5 +36,23 @@
       },
       "userInteractionCount": 0
     }
+  ],
+  "headline_zh-Hans": "2008年可实现车联网的汽车\n",
+  "headline_zh-Hant": "2008年可實現車聯網的汽車\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
   ]
 }

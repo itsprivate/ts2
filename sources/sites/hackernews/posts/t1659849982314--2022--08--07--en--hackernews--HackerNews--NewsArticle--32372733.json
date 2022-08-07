@@ -36,5 +36,23 @@
       },
       "userInteractionCount": 1
     }
+  ],
+  "headline_zh-Hans": "框架平板电脑组装手册\n",
+  "headline_zh-Hant": "框架平板電腦組裝手冊\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
   ]
 }
