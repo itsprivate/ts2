@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--07--en--myfeed--HackerNews--NewsArticle--32373020",
+  "url": "https://news.ycombinator.com/item?id=32373020",
+  "headline": "Airlines cancel more than 1,500 US flights Friday",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "goindeep",
+    "url": "https://news.ycombinator.com/user?id=goindeep"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32373020",
+  "sameAs": "https://www.cnn.com/travel/article/flight-cancellations/index.html",
+  "dateCreated": "2022-08-07T02:26:57.848Z",
+  "datePublished": "2022-08-07T01:18:47.000Z",
+  "dateModified": "2022-08-07T02:26:57.848Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "航空公司周五取消1500多个美国航班\n",
+  "headline_zh-Hant": "航空公司週五取消1500多個美國航班\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
