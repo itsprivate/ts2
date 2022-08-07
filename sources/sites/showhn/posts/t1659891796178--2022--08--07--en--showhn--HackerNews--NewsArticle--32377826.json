@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--07--en--showhn--HackerNews--NewsArticle--32377826",
+  "url": "https://news.ycombinator.com/item?id=32377826",
+  "headline": "Show HN: Apprise v1.0.0 – A lightweight all-in-one notification solution",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I introduced Hacker News to Apprise back when it was just an experiment (and supported just 30 or so notification services at the time). Now supporting more then 85+ services and with a ton of built in features, I officially created it's first stable v1.0.0 release marking a major milestone for the project.<p>Apprise doesn't compete with other notification services out there; instead it just acts as a proxy (or master switchboard) to support handling messages to them. It's a means of decoupling notification support from the systems that want to provide them. The idea is to adopt Apprise into your environment, and then you no longer have to worry about adding/removing support for new services as the come along and deprecating the ones that go away.<p>The way it works is that every service out there maps to a `schema://credentials/?optional_configuration`. You just need to define the schemas you use, and then you can already use Apprise. Check out the list of the services available today here: <a href=\"https://github.com/caronc/apprise#supported-notifications\" rel=\"nofollow\">https://github.com/caronc/apprise#supported-notifications</a><p>Apprise is 100% open source (MIT Licensed).  It has an acompanied API I built for those who want to centralize their configuration (found here: <a href=\"https://github.com/caronc/apprise-api\" rel=\"nofollow\">https://github.com/caronc/apprise-api</a>).<p>Some reasons you may also all find it useful:<p><pre><code>  - It works perfectly with legacy servers (supporting even Python 2.7).  So this fits system admins using older systems such as CentOS 6+\n  - It has a complete API that developers, devops, and administrators alike can leverage allowing them to control the notifications in their environments.\n  - It supports configuration files allowing you to securely hide your credentials and map them to simple tags like `family`, `devops`, `marketing`, etc. There is no limit to the number of tag assignments. It supports a simple TEXT (https://github.com/caronc/apprise/wiki/config_text) based configuration, as well as a more advanced and configurable YAML (https://github.com/caronc/apprise/wiki/config_yaml) based one.\n  - It sends all notifications asynchronously optimizing setups where there are many end-points to deliver to.\n  - It supports inputs are of MARKDOWN, HTML, and TEXT and can easily convert between these depending on the endpoint. For example: HTML provided input would be converted to TEXT before passing it along as a text message. However the same HTML content provided would not be converted if the endpoint accepted it as such (such as Telegram, or Email). \n  - It supports breaking large messages into smaller ones to fit the upstream service. Hence a text message (160 characters) or a Tweet (280 characters) would be constructed for you if the notification you sent was larger.\n  - It supports file attachments too. So feel free to pass along an image, PDF, etc if the destination supports it.\n  - It can easily allow you to write your own custom notifications and/or simply leverage Apprise as routing service to perform admin tasks for you.  See here for more details: https://github.com/caronc/apprise/wiki/decorator_notify\n  - It has 100% code based test coverage. :)\n</code></pre>\nI hope to continue to add more services (and break 100+ supported services someday). I also hope some of you find it useful for your own project solution!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "l2g",
+    "url": "https://news.ycombinator.com/user?id=l2g"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32377826",
+  "sameAs": "https://github.com/caronc/apprise",
+  "dateCreated": "2022-08-07T17:03:16.178Z",
+  "datePublished": "2022-08-07T16:51:08.000Z",
+  "dateModified": "2022-08-07T17:03:16.178Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Apprise v1.0.0 - 一个轻量级的一体化通知解决方案\n",
+  "headline_zh-Hant": "Show HN: Apprise v1.0.0 - 一個輕量級的一體化通知解決方案\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "I introduced Hacker News to Apprise back when it was just an experiment (and supported just 30 or so notification services at the time). Now supporting more then 85+ services and with a ton of built in features, I officially created it's first stable v1.0.0 release marking a major milestone for the project.<p>Apprise doesn't compete with other notification services out there; instead it just acts as a proxy (or master switchboard) to support handling messages to them. It's a means of decoupling notification support from the systems that want to provide them. The idea is to adopt Apprise into your environment, and then you no longer have to worry about adding/removing support for new services as the come along and deprecating the ones that go away.<p>The way it works is that every service out there maps to a `schema://credentials/?optional_configuration`. You just need to define the schemas you use, and then you can already use Apprise. Check out the list of the services available today here: <a href=\"https://github.com/caronc/apprise#supported-notifications\" rel=\"nofollow\">https://github.com/caronc/apprise#supported-notifications</a><p>Apprise is 100% open source (MIT Licensed).  It has an acompanied API I built for those who want to centralize their configuration (found here: <a href=\"https://github.com/caronc/apprise-api\" rel=\"nofollow\">https://github.com/caronc/apprise-api</a>).<p>Some reasons you may also all find it useful:<p><pre><code> - It works perfectly with legacy servers (supporting even Python 2.7).  所以这适合使用旧系统的系统管理员，如CentOS 6+。\n  - 它有一个完整的API，开发人员、开发人员和管理员都可以利用，允许他们控制他们环境中的通知。\n  - 它支持配置文件，允许你安全地隐藏你的证书，并将它们映射到简单的标签，如`family`、`devops`、`marketing`等。对标签分配的数量没有限制。它支持简单的基于TEXT（https://github.com/caronc/apprise/wiki/config_text）的配置，以及更高级的、可配置的基于YAML（https://github.com/caronc/apprise/wiki/config_yaml）的配置。\n  - 它以异步方式发送所有的通知，优化了有许多终端需要传送的设置。\n  - 它支持MARKDOWN、HTML和TEXT的输入，并且可以根据端点在这些输入之间轻松转换。比如说。提供的HTML输入将被转换为TEXT，然后作为一个文本信息传递。However the same HTML content provided would not be converted if the endpoint accepted it as such (such as Telegram, or Email). \n  - It supports breaking large messages into smaller ones to fit the upstream service. Hence a text message (160 characters) or a Tweet (280 characters) would be constructed for you if the notification you sent was larger.\n  - It supports file attachments too. So feel free to pass along an image, PDF, etc if the destination supports it.\n  - It can easily allow you to write your own custom notifications and/or simply leverage Apprise as routing service to perform admin tasks for you.  See here for more details: https://github.com/caronc/apprise/wiki/decorator_notify\n  - It has 100% code based test coverage. :)\n</code></pre>\nI hope to continue to add more services (and break 100+ supported services someday). I also hope some of you find it useful for your own project solution!\n",
+  "description_zh-Hant": "I introduced Hacker News to Apprise back when it was just an experiment (and supported just 30 or so notification services at the time). Now supporting more then 85+ services and with a ton of built in features, I officially created it's first stable v1.0.0 release marking a major milestone for the project.<p>Apprise doesn't compete with other notification services out there; instead it just acts as a proxy (or master switchboard) to support handling messages to them. It's a means of decoupling notification support from the systems that want to provide them. The idea is to adopt Apprise into your environment, and then you no longer have to worry about adding/removing support for new services as the come along and deprecating the ones that go away.<p>The way it works is that every service out there maps to a `schema://credentials/?optional_configuration`. You just need to define the schemas you use, and then you can already use Apprise. Check out the list of the services available today here: <a href=\"https://github.com/caronc/apprise#supported-notifications\" rel=\"nofollow\">https://github.com/caronc/apprise#supported-notifications</a><p>Apprise is 100% open source (MIT Licensed).  It has an acompanied API I built for those who want to centralize their configuration (found here: <a href=\"https://github.com/caronc/apprise-api\" rel=\"nofollow\">https://github.com/caronc/apprise-api</a>).<p>Some reasons you may also all find it useful:<p><pre><code> - It works perfectly with legacy servers (supporting even Python 2.7).  所以這適合使用舊系統的系統管理員，如CentOS 6+。\n  - 它有一個完整的API，開發人員、開發人員和管理員都可以利用，允許他們控制他們環境中的通知。\n  - 它支持配置文件，允許你安全地隱藏你的證書，並將它們映射到簡單的標籤，如`family`、`devops`、`marketing`等。對標籤分配的數量沒有限制。它支持簡單的基於TEXT（https://github.com/caronc/apprise/wiki/config_text）的配置，以及更高級的、可配置的基於YAML（https://github.com/caronc/apprise/wiki/config_yaml）的配置。\n  - 它以異步方式發送所有的通知，優化了有許多終端需要傳送的設置。\n  - 它支持MARKDOWN、HTML和TEXT的輸入，並且可以根據端點在這些輸入之間輕鬆轉換。比如說。提供的HTML輸入將被轉換為TEXT，然後作為一個文本信息傳遞。However the same HTML content provided would not be converted if the endpoint accepted it as such (such as Telegram, or Email). \n  - It supports breaking large messages into smaller ones to fit the upstream service. Hence a text message (160 characters) or a Tweet (280 characters) would be constructed for you if the notification you sent was larger.\n  - It supports file attachments too. So feel free to pass along an image, PDF, etc if the destination supports it.\n  - It can easily allow you to write your own custom notifications and/or simply leverage Apprise as routing service to perform admin tasks for you.  See here for more details: https://github.com/caronc/apprise/wiki/decorator_notify\n  - It has 100% code based test coverage. :)\n</code></pre>\nI hope to continue to add more services (and break 100+ supported services someday). I also hope some of you find it useful for your own project solution!\n"
+}
