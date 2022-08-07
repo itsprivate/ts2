@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--07--en--myfeed--HackerNews--NewsArticle--32377129",
+  "url": "https://news.ycombinator.com/item?id=32377129",
+  "headline": "So, you want to become an Engineering Manager?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "silent1mezzo",
+    "url": "https://news.ycombinator.com/user?id=silent1mezzo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32377129",
+  "sameAs": "https://mckerlie.com/posts/you-want-to-be-an-engineering-manager/",
+  "dateCreated": "2022-08-07T15:47:04.539Z",
+  "datePublished": "2022-08-07T15:16:50.000Z",
+  "dateModified": "2022-08-07T15:47:04.539Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "那么，你想成为一名工程经理吗？\n",
+  "headline_zh-Hant": "那麼，你想成為一名工程經理嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
