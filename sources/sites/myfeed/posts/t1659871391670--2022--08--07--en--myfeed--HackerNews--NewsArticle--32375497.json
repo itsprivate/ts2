@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--08--05--en--myfeed--HackerNews--NewsArticle--32350067",
-  "url": "https://news.ycombinator.com/item?id=32350067",
-  "headline": "I’m so over customer experience surveys",
+  "identifier": "2022--08--07--en--myfeed--HackerNews--NewsArticle--32375497",
+  "url": "https://news.ycombinator.com/item?id=32375497",
+  "headline": "Technical analysis of syzkaller based fuzzers: It's not about VaultFuzzer",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -13,32 +13,32 @@
   "keywords": [],
   "author": {
     "@type": "Person",
-    "name": "deeptake",
-    "url": "https://news.ycombinator.com/user?id=deeptake"
+    "name": "hardenedvault",
+    "url": "https://news.ycombinator.com/user?id=hardenedvault"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32350067",
-  "sameAs": "https://techcrunch.com/2022/08/02/im-so-over-customer-experience-surveys/",
-  "dateCreated": "2022-08-05T02:22:24.990Z",
-  "datePublished": "2022-08-05T00:27:37.000Z",
-  "dateModified": "2022-08-05T02:22:24.990Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32375497",
+  "sameAs": "https://hardenedvault.net/blog/2022-08-07-state-based-fuzzer-update/",
+  "dateCreated": "2022-08-07T11:23:11.670Z",
+  "datePublished": "2022-08-07T10:56:47.000Z",
+  "dateModified": "2022-08-07T11:23:11.670Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 6
+      "userInteractionCount": 2
     },
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "CommentAction"
       },
-      "userInteractionCount": 1
+      "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "我已经受够了客户体验调查\n",
-  "headline_zh-Hant": "我已經受夠了客戶體驗調查\n",
+  "headline_zh-Hans": "基于syzkaller的模糊器的技术分析。这与VaultFuzzer无关\n",
+  "headline_zh-Hant": "基於syzkaller的模糊器的技術分析。這與VaultFuzzer無關\n",
   "@context": [
     "https://schema.org",
     {
