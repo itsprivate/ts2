@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--07--en--myfeed--HackerNews--NewsArticle--32378094",
+  "url": "https://news.ycombinator.com/item?id=32378094",
+  "headline": "Linux now has a Runtime Verification Interface merged in",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "p4bl0",
+    "url": "https://news.ycombinator.com/user?id=p4bl0"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32378094",
+  "sameAs": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/kernel/trace/rv/rv.c?id=102227b970a15256f5ffd12a6a276ddf978e6caf",
+  "dateCreated": "2022-08-07T17:56:40.050Z",
+  "datePublished": "2022-08-07T17:31:38.000Z",
+  "dateModified": "2022-08-07T17:56:40.050Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Linux现在有一个运行时验证接口，并入了\n",
+  "headline_zh-Hant": "Linux現在有一個運行時驗證接口，併入了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

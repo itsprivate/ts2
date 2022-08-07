@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--07--en--myfeed--HackerNews--NewsArticle--32377621",
+  "url": "https://news.ycombinator.com/item?id=32377621",
+  "headline": "How Google Played with Bad Cryptography",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "some_furry",
+    "url": "https://news.ycombinator.com/user?id=some_furry"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32377621",
+  "sameAs": "https://cendyne.dev/posts/2022-08-07-how-google-played-with-bad-cryptography.html",
+  "dateCreated": "2022-08-07T17:34:24.291Z",
+  "datePublished": "2022-08-07T16:21:19.000Z",
+  "dateModified": "2022-08-07T17:34:24.291Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "谷歌如何玩转糟糕的密码学\n",
+  "headline_zh-Hant": "谷歌如何玩轉糟糕的密碼學\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

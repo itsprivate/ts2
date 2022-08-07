@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--07--en--myfeed--HackerNews--NewsArticle--32377974",
+  "url": "https://news.ycombinator.com/item?id=32377974",
+  "headline": "I added C-style for-loops to Python",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tusharsadhwani",
+    "url": "https://news.ycombinator.com/user?id=tusharsadhwani"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32377974",
+  "sameAs": "https://sadh.life/post/cursed-for/",
+  "dateCreated": "2022-08-07T17:34:24.332Z",
+  "datePublished": "2022-08-07T17:13:15.000Z",
+  "dateModified": "2022-08-07T17:34:24.332Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "我在Python中加入了C语言风格的for-loops\n",
+  "headline_zh-Hant": "我在Python中加入了C語言風格的for-loops\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
