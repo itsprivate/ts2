@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--askhn--HackerNews--NewsArticle--32392027",
+  "url": "https://news.ycombinator.com/item?id=32392027",
+  "headline": "Ask HN: Virtualization / VPN Options on Apple Silicon",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Long story short, for work, I need to connect to a cisco VPN that doesn't allow any outside access to the internet, in order to access certain company resources. This is due to FEDRAMP regulations, apparently. To accomplish this, they have us use a VM to access those resources so we can use the host machine to access the rest of the internet.<p>Unfortunately due to some uninformed decisions, they assigned me an M1 mac to do my work, but as I have discovered, apple silicon has very poor virtualization options. You can run a tech preview version of windows 11, but it does not support signing into work accounts. You can run another instance of macos with parallels or UTM or vmware preview, but it's a mess -- there's no way to copy/paste between host and vm, and generally a bunch of other issues as a result of the lack of support for any host/guest tools.<p>I have tried many different options and come up short, so I thought the HN community might have an idea. I am able to connect to the VPN from my host machine, but that is prohibitive since I would basically have to connect/disconnect every time I want to access resources on the outside net.<p>Perhaps there is an option that does not require a whole VM, but I am not well versed enough in networking to know what that may be.<p>Perhaps my only option is going back to an Intel mac.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "apgeyc",
+    "url": "https://news.ycombinator.com/user?id=apgeyc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32392027",
+  "sameAs": "https://news.ycombinator.com/item?id=32392027",
+  "dateCreated": "2022-08-08T22:46:56.903Z",
+  "datePublished": "2022-08-08T22:40:21.000Z",
+  "dateModified": "2022-08-08T22:46:56.903Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 苹果硅上的虚拟化/VPN选项\n",
+  "headline_zh-Hant": "Ask HN: 蘋果硅上的虛擬化/VPN選項\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "长话短说，由于工作需要，我需要连接到一个不允许任何外部访问互联网的思科VPN，以便访问某些公司资源。这显然是由于FEDRAMP的规定。为了达到这个目的，他们让我们使用虚拟机来访问这些资源，这样我们就可以使用主机来访问互联网的其他部分。<p>不幸的是，由于一些不知情的决定，他们给我分配了一台M1 Mac来做我的工作，但我发现，苹果硅的虚拟化选项非常差。你可以运行技术预览版的windows 11，但它不支持签入工作账户。你可以用parallels或UTM或vmware预览版运行另一个macos实例，但这是一个烂摊子--没有办法在主机和虚拟机之间复制/粘贴，而且由于缺乏对任何主机/访客工具的支持，一般还有一堆其他问题。我可以从我的主机上连接到VPN，但这是很困难的，因为每次我想访问外网的资源时，基本上都要连接/断开。<p>也许有一个不需要整个虚拟机的选项，但我对网络的了解还不够多，不知道那可能是什么。\n",
+  "description_zh-Hant": "長話短說，由於工作需要，我需要連接到一個不允許任何外部訪問互聯網的思科VPN，以便訪問某些公司資源。這顯然是由於FEDRAMP的規定。為了達到這個目的，他們讓我們使用虛擬機來訪問這些資源，這樣我們就可以使用主機來訪問互聯網的其他部分。<p>不幸的是，由於一些不知情的決定，他們給我分配了一臺M1 Mac來做我的工作，但我發現，蘋果硅的虛擬化選項非常差。你可以運行技術預覽版的windows 11，但它不支持簽入工作賬戶。你可以用parallels或UTM或vmware預覽版運行另一個macos實例，但這是一個爛攤子--沒有辦法在主機和虛擬機之間複製/粘貼，而且由於缺乏對任何主機/訪客工具的支持，一般還有一堆其他問題。我可以從我的主機上連接到VPN，但這是很困難的，因為每次我想訪問外網的資源時，基本上都要連接/斷開。<p>也許有一個不需要整個虛擬機的選項，但我對網絡的瞭解還不夠多，不知道那可能是什麼。\n"
+}
