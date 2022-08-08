@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--myfeed--HackerNews--NewsArticle--32381660",
+  "url": "https://news.ycombinator.com/item?id=32381660",
+  "headline": "Microsoft blocks Tutanota users from own service",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "0xmohit",
+    "url": "https://news.ycombinator.com/user?id=0xmohit"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32381660",
+  "sameAs": "https://tutanota.com/blog/posts/microsoft-blocks-tutanota-users-from-own-service/",
+  "dateCreated": "2022-08-08T02:16:33.566Z",
+  "datePublished": "2022-08-08T01:38:05.000Z",
+  "dateModified": "2022-08-08T02:16:33.566Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 15
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "微软阻止Tutanota用户使用自己的服务\n",
+  "headline_zh-Hant": "微軟阻止Tutanota用戶使用自己的服務\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
