@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--myfeed--HackerNews--NewsArticle--32386662",
+  "url": "https://news.ycombinator.com/item?id=32386662",
+  "headline": "Recursive “How to get your blog post on the front page of HN”",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ivanvas",
+    "url": "https://news.ycombinator.com/user?id=ivanvas"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32386662",
+  "sameAs": "https://www.autodidacts.io/how-to-win-the-internet/",
+  "dateCreated": "2022-08-08T15:30:22.722Z",
+  "datePublished": "2022-08-08T15:29:11.000Z",
+  "dateModified": "2022-08-08T15:30:22.722Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "递归 \"如何让你的博文登上HN的头版\"\n",
+  "headline_zh-Hant": "遞歸 \"如何讓你的博文登上HN的頭版\"\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
