@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--myfeed--HackerNews--NewsArticle--32385888",
+  "url": "https://news.ycombinator.com/item?id=32385888",
+  "headline": "Stay with the pain, don't shut this out [DHH]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "BryanBeshore",
+    "url": "https://news.ycombinator.com/user?id=BryanBeshore"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32385888",
+  "sameAs": "https://world.hey.com/dhh/stay-with-the-pain-don-t-shut-this-out-11021763",
+  "dateCreated": "2022-08-08T15:30:22.545Z",
+  "datePublished": "2022-08-08T14:34:54.000Z",
+  "dateModified": "2022-08-08T15:30:22.545Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "与痛苦相伴，不要将其拒之门外[DHH]\n",
+  "headline_zh-Hant": "與痛苦相伴，不要將其拒之門外[DHH]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
