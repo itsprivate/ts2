@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--myfeed--HackerNews--NewsArticle--32381510",
+  "url": "https://news.ycombinator.com/item?id=32381510",
+  "headline": "Tell HN: Debian blocks access to wiki pages from VPN IPs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Just what the title says.<p>ProtonVPN here. I get blocking when people try to comment or make changes but this is preventing debian users from accessing the wiki for help or to follow instructions.<p>For a bit more context, I have gone to a great length to make sure my devices can only access the internet via a VPN that is enforced at the network level not at the host level for obvious reasons.<p>Is this acceptable? Do they also block Tor? What is the benefit?<p>No other distro or open source project I encountered has a similar restriction.<p>I thought I would post here because they are one of the most popular distros. If they need my direct IP address to use their software then is the &quot;free&quot; part of FOSS really true? (Paying with loss of privacy).",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "badrabbit",
+    "url": "https://news.ycombinator.com/user?id=badrabbit"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32381510",
+  "sameAs": "https://news.ycombinator.com/item?id=32381510",
+  "dateCreated": "2022-08-08T02:16:33.530Z",
+  "datePublished": "2022-08-08T01:13:24.000Z",
+  "dateModified": "2022-08-08T02:16:33.530Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：Debian阻止来自VPN IP的wiki页面访问\n",
+  "headline_zh-Hant": "告訴HN：Debian阻止來自VPN IP的wiki頁面訪問\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "就像标题所说的那样。<p>这里是ProtonVPN。当人们试图发表评论或进行修改时，我得到了阻止，但这阻碍了debian用户访问wiki以寻求帮助或遵循指示。<p>对于更多的背景，我已经花了很大的精力来确保我的设备只能通过VPN访问互联网，由于明显的原因，VPN是在网络层面而不是在主机层面执行的。他们是否也阻止了Tor？有什么好处？<p>我遇到的其他发行版或开源项目都没有类似的限制。<p>我想我会在这里发帖，因为他们是最受欢迎的发行版之一。如果他们需要我的直接IP地址来使用他们的软件，那么FOSS的&quot;免费&quot;部分是否真的存在？(付费的同时也失去了隐私)。\n",
+  "description_zh-Hant": "就像標題所說的那樣。<p>這裡是ProtonVPN。當人們試圖發表評論或進行修改時，我得到了阻止，但這阻礙了debian用戶訪問wiki以尋求幫助或遵循指示。<p>對於更多的背景，我已經花了很大的精力來確保我的設備只能通過VPN訪問互聯網，由於明顯的原因，VPN是在網絡層面而不是在主機層面執行的。他們是否也阻止了Tor？有什麼好處？<p>我遇到的其他發行版或開源項目都沒有類似的限制。<p>我想我會在這裡發帖，因為他們是最受歡迎的發行版之一。如果他們需要我的直接IP地址來使用他們的軟件，那麼FOSS的&quot;免費&quot;部分是否真的存在？(付費的同時也失去了隱私)。\n"
+}

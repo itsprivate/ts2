@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--askhn--HackerNews--NewsArticle--32381554",
+  "url": "https://news.ycombinator.com/item?id=32381554",
+  "headline": "Ask HN: Best way to have candidates share code for takehome evaluations?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I used to be against takehome evaluations (I thought companies showed the most respect to candidates by being present during the evaluation), but we've recently had a few candidates say they prefer it as they think it gives them a better chance to show their skills.<p>So we wrote up a short prompt for a project that should take a couple of hours.<p>What's the right way to have candidates share their solution code?  My first thought was to instruct them to put it into a private github repo and share it with me.  But that seems to present a few problems:\n1) According to the accept invite dialog, Github apparently leaks my IP address to the repository owner whenever I access it?\n2) No obvious workflow for me to share the code with other engineers on my team so that they can help evaluate.  I tried Github forking but the candidate was included as a collaborator on that fork, so probably got awkward emails when I forked and then removed him.<p>So I'm trying to think of a solution that doesn't involve leaking my teams' IP addresses, or other teammates' Github usernames.<p>I don't need to run this stuff.  I'm OK with only being able to review in a web UI (I prefer it, from a security perspective).  That's also why I don't want them to try to use email attaching either, even if Gmail could be made to tolerate it.<p>So I want something like a web (lowercase D) dropbox for code.  Any ideas, HNers?  Thanks!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "collectedparts",
+    "url": "https://news.ycombinator.com/user?id=collectedparts"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32381554",
+  "sameAs": "https://news.ycombinator.com/item?id=32381554",
+  "dateCreated": "2022-08-08T02:16:32.858Z",
+  "datePublished": "2022-08-08T01:21:35.000Z",
+  "dateModified": "2022-08-08T02:16:32.858Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 让候选人分享代码进行带回家评估的最佳方式？\n",
+  "headline_zh-Hant": "Ask HN: 讓候選人分享代碼進行帶回家評估的最佳方式？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我曾经反对带回家评估（我认为公司在评估时在场是对候选人的最大尊重），但最近有几个候选人说他们更喜欢带回家评估，因为他们认为这能让他们有更好的机会展示自己的技能。<p>所以我们为一个项目写了一个简短的提示，应该需要几个小时。<p>什么是让候选人分享其解决方案代码的正确方式？ 我的第一个想法是指示他们把它放到一个私人的github repo中，然后与我分享。 但这似乎会带来一些问题。\n1）根据接受邀请的对话框，Github显然会在我访问它时将我的IP地址泄露给仓库所有者？\n2）没有明显的工作流程让我与团队中的其他工程师分享代码，以便他们能够帮助评估。 我试过Github分叉，但候选人被列为该分叉的合作者，所以当我分叉后又删除他时，可能会收到尴尬的电子邮件。<p>所以我正在努力想一个解决方案，不涉及泄露我的团队的IP地址，或其他队友的Github用户名。 我对只能在 Web UI 中进行审查没有意见（从安全角度来看，我更喜欢这样）。 这也是为什么我不希望他们尝试使用电子邮件附件，即使Gmail可以容忍它。<p>所以我想要一个类似于网络（小写D）Dropbox的代码。 有什么想法吗，HNers？ 谢谢!\n",
+  "description_zh-Hant": "我曾經反對帶回家評估（我認為公司在評估時在場是對候選人的最大尊重），但最近有幾個候選人說他們更喜歡帶回家評估，因為他們認為這能讓他們有更好的機會展示自己的技能。<p>所以我們為一個項目寫了一個簡短的提示，應該需要幾個小時。<p>什麼是讓候選人分享其解決方案代碼的正確方式？ 我的第一個想法是指示他們把它放到一個私人的github repo中，然後與我分享。 但這似乎會帶來一些問題。\n1）根據接受邀請的對話框，Github顯然會在我訪問它時將我的IP地址洩露給倉庫所有者？\n2）沒有明顯的工作流程讓我與團隊中的其他工程師分享代碼，以便他們能夠幫助評估。 我試過Github分叉，但候選人被列為該分叉的合作者，所以當我分叉後又刪除他時，可能會收到尷尬的電子郵件。<p>所以我正在努力想一個解決方案，不涉及洩露我的團隊的IP地址，或其他隊友的Github用戶名。 我對只能在 Web UI 中進行審查沒有意見（從安全角度來看，我更喜歡這樣）。 這也是為什麼我不希望他們嘗試使用電子郵件附件，即使Gmail可以容忍它。<p>所以我想要一個類似於網絡（小寫D）Dropbox的代碼。 有什麼想法嗎，HNers？ 謝謝!\n"
+}
