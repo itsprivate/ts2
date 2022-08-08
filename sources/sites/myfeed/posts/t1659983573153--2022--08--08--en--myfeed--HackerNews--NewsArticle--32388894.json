@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--myfeed--HackerNews--NewsArticle--32388894",
+  "url": "https://news.ycombinator.com/item?id=32388894",
+  "headline": "Meta’s new AI chatbot exposes anti-semite, homophobic views",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "giuliomagnifico",
+    "url": "https://news.ycombinator.com/user?id=giuliomagnifico"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32388894",
+  "sameAs": "https://cybernews.com/news/metas-new-ai-chatbot-exposes-anti-semite-homophobic-views/",
+  "dateCreated": "2022-08-08T18:32:53.153Z",
+  "datePublished": "2022-08-08T18:05:37.000Z",
+  "dateModified": "2022-08-08T18:32:53.153Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "美达公司的新人工智能聊天机器人暴露了反犹太主义、同性恋的观点\n",
+  "headline_zh-Hant": "美達公司的新人工智能聊天機器人暴露了反猶太主義、同性戀的觀點\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
