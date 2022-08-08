@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--showhn--HackerNews--NewsArticle--32385596",
+  "url": "https://news.ycombinator.com/item?id=32385596",
+  "headline": "Show HN: Voxel map of my school, made with WebGL and SDF raymarching",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "xingyzt",
+    "url": "https://news.ycombinator.com/user?id=xingyzt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32385596",
+  "sameAs": "https://x-ing.space/voxdemo/",
+  "dateCreated": "2022-08-08T14:27:21.424Z",
+  "datePublished": "2022-08-08T14:12:26.000Z",
+  "dateModified": "2022-08-08T14:27:21.424Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我的学校的体素地图，用WebGL和SDF射线行进制作的\n",
+  "headline_zh-Hant": "Show HN: 我的學校的體素地圖，用WebGL和SDF射線行進製作的\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
