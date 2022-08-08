@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--showhn--HackerNews--NewsArticle--32384982",
+  "url": "https://news.ycombinator.com/item?id=32384982",
+  "headline": "Show HN: JavaScript package to quickly make charts accessible to the blind",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN,<p>Charts can convey a lot of information but are difficult to make accessible for visually impaired and blind users. The most common solutions are to include a data table or attempt to describe the chart in alt text, often resulting in a subpar user experience.<p>I’m a blind software developer and one of the contributors to Chart2Music (C2M), an open source JavaScript/TypeScript package which tries to simplify creating accessible charts. It works with pretty much any charting library to add interactive sonification and verbal output through screen reading software.<p>The goals of the project are:\n* Allow chart authors to make accessible charts without having to understand sonification best practices or how to force screen readers to speak using ARIA\n* Allow blind consumers to explore charts and look for trends in the data without having to navigate large data tables\n* Work alongside charting libraries so authors can continue to control the visuals using the tools that they know best\n* Be easy to use in the majority of cases but allow deeper customization and integration when desired<p>Now that C2M is stable and ready to be used, I’m interested in finding a way to integrate it with some of the system dashboards, so I can monitor server resources like CPU and memory utilization for my side projects.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "spmealin",
+    "url": "https://news.ycombinator.com/user?id=spmealin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32384982",
+  "sameAs": "https://www.chart2music.com/docs/",
+  "dateCreated": "2022-08-08T13:50:19.371Z",
+  "datePublished": "2022-08-08T13:13:47.000Z",
+  "dateModified": "2022-08-08T13:50:19.371Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 迅速使图表为盲人所用的JavaScript包\n",
+  "headline_zh-Hant": "Show HN: 迅速使圖表為盲人所用的JavaScript包\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi HN,<p>图表可以传达很多信息，但很难让视障和盲人用户无障碍使用。最常见的解决方案是包括一个数据表或试图在alt文本中描述图表，这往往会导致不合格的用户体验。<p>我是一名盲人软件开发人员，也是Chart2Music（C2M）的贡献者之一，这是一个开源的JavaScript/TypeScript包，试图简化创建无障碍图表。它可以与几乎所有的图表库配合使用，通过读屏软件添加交互式声效和语言输出。<p>该项目的目标是。\n* 允许图表作者制作无障碍图表，而不需要了解声效的最佳实践，也不需要了解如何使用ARIA强迫屏幕阅读器说话。\n* 允许盲人消费者探索图表并寻找数据的趋势，而不必浏览大型的数据表格\n* 与图表库一起工作，因此作者可以继续使用他们最熟悉的工具来控制视觉效果。\n* 在大多数情况下易于使用，但在需要时允许更深入的定制和整合<p>现在，C2M已经稳定并可以使用，我有兴趣找到一种方法将其与一些系统仪表盘整合，这样我就可以为我的副业项目监测服务器资源，如CPU和内存利用率。\n",
+  "description_zh-Hant": "Hi HN,<p>圖表可以傳達很多信息，但很難讓視障和盲人用戶無障礙使用。最常見的解決方案是包括一個數據表或試圖在alt文本中描述圖表，這往往會導致不合格的用戶體驗。<p>我是一名盲人軟件開發人員，也是Chart2Music（C2M）的貢獻者之一，這是一個開源的JavaScript/TypeScript包，試圖簡化創建無障礙圖表。它可以與幾乎所有的圖表庫配合使用，通過讀屏軟件添加交互式聲效和語言輸出。<p>該項目的目標是。\n* 允許圖表作者製作無障礙圖表，而不需要了解聲效的最佳實踐，也不需要了解如何使用ARIA強迫屏幕閱讀器說話。\n* 允許盲人消費者探索圖表並尋找數據的趨勢，而不必瀏覽大型的數據表格\n* 與圖表庫一起工作，因此作者可以繼續使用他們最熟悉的工具來控制視覺效果。\n* 在大多數情況下易於使用，但在需要時允許更深入的定製和整合<p>現在，C2M已經穩定並可以使用，我有興趣找到一種方法將其與一些系統儀表盤整合，這樣我就可以為我的副業項目監測服務器資源，如CPU和內存利用率。\n"
+}
