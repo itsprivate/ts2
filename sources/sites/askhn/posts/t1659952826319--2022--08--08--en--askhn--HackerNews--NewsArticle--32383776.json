@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--askhn--HackerNews--NewsArticle--32383776",
+  "url": "https://news.ycombinator.com/item?id=32383776",
+  "headline": "Ask HN: How much software is too much for one team?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I work in a group of two teams at the moment that owns something like 80+ bits of software. This includes 11 or so APIs/products that sit right at the core of the business domain, as our teams together own the core business domain and are supposed to provide internal APIs for other teams to build products on top of. Internally we have many platform teams which offer PaaS stuff, but seem to only use a fraction of it, rather there's a tonne of one-off tooling we've built for our services that also some other teams leverage too despite that we're not one of these PaaS teams, nor is it anything to related to the domain we actually own. For a while I thought it made sense, but as I look around the organisation I'm starting to feel like it makes less and less sense as I realise the only engineer that actually knows much about it is the one that built it all. From time to time I see that we've also built our own chatbot framework too and every time I see it I wonder &quot;why do we have to own this thing and maintain it???&quot;. Lately I feel really burdened by all this extra stuff that's hanging around and starting to push back on it and ask questions. I did some digging around our company to try and get a sense of what's normal and found some data indicating our team owns a ratio of 5 bits of software for every 1 engineer which is much higher than most other teams.<p>What's really bothering me lately is when I push back on this and start to question &quot;how do other teams handle this?&quot;, &quot;what's preventing us from using the PaaS offerings?&quot;, &quot;do you think this is a reasonable amount of software for a single engineer to be across?&quot;, I get responses from the person who built all this extra stuff that are very defensive in nature and quite dismissive of how the extra cognitive load makes me feel. What worries me is they have been with the company 8 years and given they built most of the stuff have very strong mental models of it and hence are very comfortable/competent in this little kingdom of code and in stark contrast roughly 2/3 of the team has been there a year or less and I see a lot of people struggling to be across that much software and showing fatigue from the cognitive load placed on us, and I don't think they're able to properly empathize with how it's actually affecting the team.<p>Anyone else been in this situation? Any advice?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "barking_biscuit",
+    "url": "https://news.ycombinator.com/user?id=barking_biscuit"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32383776",
+  "sameAs": "https://news.ycombinator.com/item?id=32383776",
+  "dateCreated": "2022-08-08T10:00:26.319Z",
+  "datePublished": "2022-08-08T09:47:55.000Z",
+  "dateModified": "2022-08-08T10:00:26.319Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 对一个团队来说，多少软件才算多？\n",
+  "headline_zh-Hant": "Ask HN: 對一個團隊來說，多少軟件才算多？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我目前在一个由两个团队组成的小组工作，该小组拥有大约80多个软件。这包括11个左右的API/产品，它们正好位于业务领域的核心，因为我们的团队共同拥有核心业务领域，并且应该为其他团队提供内部API，以便在此基础上构建产品。在内部，我们有许多提供PaaS的平台团队，但似乎只使用了其中的一小部分，相反，我们为自己的服务建立了大量的一次性工具，尽管我们不是这些PaaS团队之一，也不是与我们实际拥有的领域有关的东西，但其他一些团队也利用了这些工具。有一段时间我认为这是有意义的，但是当我环顾整个组织时，我开始觉得它越来越没有意义，因为我意识到唯一真正了解它的工程师就是建立它的人。我不时看到我们也建立了自己的聊天机器人框架，每次我看到它都会想，为什么我们要拥有这个东西并维护它？最近，我对所有这些额外的东西感到很有负担，并开始对其进行反击，提出问题。我在公司周围做了一些调查，试图了解什么是正常的，并发现一些数据表明我们的团队每1名工程师拥有5位软件的比例，这比其他大多数团队要高得多。<p>最近真正困扰我的是当我推回这个问题并开始质疑&quot;其他团队如何处理这个问题？ &quot;，&quot;是什么阻止我们使用PaaS产品？&quot;，&quot;你认为这对一个工程师来说是合理的软件数量吗？&quot;，我从建立所有这些额外的东西的人那里得到的回应是非常防御性的，而且对额外的认知负担让我感到相当不屑。我担心的是，他们已经在公司工作了8年，鉴于他们建立了大部分的东西，有非常强大的心理模型，因此在这个小小的代码王国里非常舒服/有能力，而与此形成鲜明对比的是，大约2/3的团队已经在那里工作了一年或更少，我看到很多人都在努力跨越这么多的软件，并因施加在我们身上的认知负荷而显示疲劳，我不认为他们能够正确地理解它实际上是如何影响团队的。有什么建议吗？\n",
+  "description_zh-Hant": "我目前在一個由兩個團隊組成的小組工作，該小組擁有大約80多個軟件。這包括11個左右的API/產品，它們正好位於業務領域的核心，因為我們的團隊共同擁有核心業務領域，並且應該為其他團隊提供內部API，以便在此基礎上構建產品。在內部，我們有許多提供PaaS的平臺團隊，但似乎只使用了其中的一小部分，相反，我們為自己的服務建立了大量的一次性工具，儘管我們不是這些PaaS團隊之一，也不是與我們實際擁有的領域有關的東西，但其他一些團隊也利用了這些工具。有一段時間我認為這是有意義的，但是當我環顧整個組織時，我開始覺得它越來越沒有意義，因為我意識到唯一真正瞭解它的工程師就是建立它的人。我不時看到我們也建立了自己的聊天機器人框架，每次我看到它都會想，為什麼我們要擁有這個東西並維護它？最近，我對所有這些額外的東西感到很有負擔，並開始對其進行反擊，提出問題。我在公司周圍做了一些調查，試圖瞭解什麼是正常的，並發現一些數據表明我們的團隊每1名工程師擁有5位軟件的比例，這比其他大多數團隊要高得多。<p>最近真正困擾我的是當我推回這個問題並開始質疑&quot;其他團隊如何處理這個問題？ &quot;，&quot;是什麼阻止我們使用PaaS產品？&quot;，&quot;你認為這對一個工程師來說是合理的軟件數量嗎？&quot;，我從建立所有這些額外的東西的人那裡得到的回應是非常防禦性的，而且對額外的認知負擔讓我感到相當不屑。我擔心的是，他們已經在公司工作了8年，鑑於他們建立了大部分的東西，有非常強大的心理模型，因此在這個小小的代碼王國裡非常舒服/有能力，而與此形成鮮明對比的是，大約2/3的團隊已經在那裡工作了一年或更少，我看到很多人都在努力跨越這麼多的軟件，並因施加在我們身上的認知負荷而顯示疲勞，我不認為他們能夠正確地理解它實際上是如何影響團隊的。有什麼建議嗎？\n"
+}
