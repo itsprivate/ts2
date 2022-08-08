@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--showhn--HackerNews--NewsArticle--32387303",
+  "url": "https://news.ycombinator.com/item?id=32387303",
+  "headline": "Show HN: Python Minecraft Interactive World Builder",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm working on a FOSS project to teach Python Programming by writing code that interacts with a Minecraft world.<p>Full instructions and tutorials are provided in the documentation.<p>Please try out out and give some feedback!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "gilesknap",
+    "url": "https://news.ycombinator.com/user?id=gilesknap"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32387303",
+  "sameAs": "https://github.com/gilesknap/mciwb",
+  "dateCreated": "2022-08-08T16:38:30.331Z",
+  "datePublished": "2022-08-08T16:07:58.000Z",
+  "dateModified": "2022-08-08T16:38:30.331Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Python Minecraft交互式世界构建器\n",
+  "headline_zh-Hant": "Show HN: Python Minecraft交互式世界構建器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在做一个FOSS项目，通过编写与Minecraft世界互动的代码来教授Python编程。<p>文档中提供了完整的说明和教程。<p>请试用并给出一些反馈意见\n",
+  "description_zh-Hant": "我正在做一個FOSS項目，通過編寫與Minecraft世界互動的代碼來教授Python編程。<p>文檔中提供了完整的說明和教程。<p>請試用並給出一些反饋意見\n"
+}
