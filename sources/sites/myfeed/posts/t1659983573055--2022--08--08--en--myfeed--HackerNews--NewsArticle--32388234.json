@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--myfeed--HackerNews--NewsArticle--32388234",
+  "url": "https://news.ycombinator.com/item?id=32388234",
+  "headline": "Tell HN: Webdesignernews.com is broken",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I couldn't find anyone on Twitter who owns this site. But maybe you lurk here.<p>Every link (even in the footer) is returning a 404.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "typeofhuman",
+    "url": "https://news.ycombinator.com/user?id=typeofhuman"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32388234",
+  "sameAs": "https://news.ycombinator.com/item?id=32388234",
+  "dateCreated": "2022-08-08T18:32:53.055Z",
+  "datePublished": "2022-08-08T17:11:33.000Z",
+  "dateModified": "2022-08-08T18:32:53.055Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：Webdesignernews.com已经坏了\n",
+  "headline_zh-Hant": "告訴HN：Webdesignernews.com已經壞了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我在Twitter上找不到拥有这个网站的人。但也许你潜伏在这里。<p>每个链接（甚至在页脚）都返回404。\n",
+  "description_zh-Hant": "我在Twitter上找不到擁有這個網站的人。但也許你潛伏在這裡。<p>每個鏈接（甚至在頁腳）都返回404。\n"
+}
