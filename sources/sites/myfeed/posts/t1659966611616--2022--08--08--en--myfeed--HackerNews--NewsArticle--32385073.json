@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--myfeed--HackerNews--NewsArticle--32385073",
+  "url": "https://news.ycombinator.com/item?id=32385073",
+  "headline": "Plant-based ‘beef’ reduces CO2 but threatens ag jobs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "PaulHoule",
+    "url": "https://news.ycombinator.com/user?id=PaulHoule"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32385073",
+  "sameAs": "https://news.cornell.edu/stories/2022/08/plant-based-beef-reduces-co2-threatens-ag-jobs",
+  "dateCreated": "2022-08-08T13:50:11.616Z",
+  "datePublished": "2022-08-08T13:23:48.000Z",
+  "dateModified": "2022-08-08T13:50:11.616Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "植物性 \"牛肉 \"减少二氧化碳，但威胁农业就业\n",
+  "headline_zh-Hant": "植物性 \"牛肉 \"減少二氧化碳，但威脅農業就業\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
