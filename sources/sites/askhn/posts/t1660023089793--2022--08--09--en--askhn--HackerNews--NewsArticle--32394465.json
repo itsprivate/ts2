@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--09--en--askhn--HackerNews--NewsArticle--32394465",
+  "url": "https://news.ycombinator.com/item?id=32394465",
+  "headline": "Ask HN: What is the most common name for the www/htdocs/public_HTML directory?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Documenting a static website generator and I want to know the generic name of the directory that holds the files to be published: HTML file, image assets, etc. Audience is semi-technical: they're tech writers who can work the command line to use Hugo or Jekyll but who probably don't know Python or Go very well.<p>I call it the &quot;publish directory&quot; but perhaps there's a more popular term of art? ISPs tend to call it the www directory, or public_html, or htdocs, but I'm not convinced any of them is particularly well known to less technical peeps.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "tomcam",
+    "url": "https://news.ycombinator.com/user?id=tomcam"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32394465",
+  "sameAs": "https://news.ycombinator.com/item?id=32394465",
+  "dateCreated": "2022-08-09T05:31:29.793Z",
+  "datePublished": "2022-08-09T05:27:26.000Z",
+  "dateModified": "2022-08-09T05:31:29.793Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: www/htdocs/public_HTML目录的最常见名称是什么？\n",
+  "headline_zh-Hant": "Ask HN: www/htdocs/public_HTML目錄的最常見名稱是什麼？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在编写一个静态网站生成器的文档，我想知道存放要发布的文件的目录的通用名称：HTML文件、图片资产等。<p>我把它称为&quot;发布目录&quot;，但也许有一个更流行的艺术术语？ISP倾向于将其称为www目录，或public_html，或htdocs，但我不相信其中任何一个对不太懂技术的人来说是特别有名的。\n",
+  "description_zh-Hant": "我正在編寫一個靜態網站生成器的文檔，我想知道存放要發佈的文件的目錄的通用名稱：HTML文件、圖片資產等。<p>我把它稱為&quot;發佈目錄&quot;，但也許有一個更流行的藝術術語？ISP傾向於將其稱為www目錄，或public_html，或htdocs，但我不相信其中任何一個對不太懂技術的人來說是特別有名的。\n"
+}
