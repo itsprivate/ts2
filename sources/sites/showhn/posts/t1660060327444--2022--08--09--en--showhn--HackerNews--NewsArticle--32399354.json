@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--09--en--showhn--HackerNews--NewsArticle--32399354",
+  "url": "https://news.ycombinator.com/item?id=32399354",
+  "headline": "Show HN: PogPrice, an Android app for managing prices (protect from inflation)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "This is an app where you can keep current and past prices of a product, check price changes throughout time, find cheapest price in a shop. Just manually add shops and products you are interested in. All shops, products and prices are saved in a device.<p>I spent my time developing this app because of rising inflation rates happening in many countries. I was seeing prices of food, clothing and other necessities getting higher and higher but I know I and many other people won't be keeping up with them.<p>From a technical perspective: PogPrice was created in Kotlin with libraries like Jetpack Compose, Koin and Objectbox (and few others). Its user interface is designed using Material You and Android 12 custom color theme support.<p>Google Play shows screenshots from an older version. You will see how much this app changed by comparing current version downloaded to your device with these images.<p>I hope you will enjoy using PogPrice!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "szeweq",
+    "url": "https://news.ycombinator.com/user?id=szeweq"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32399354",
+  "sameAs": "https://play.google.com/store/apps/details?id=xyz.szeweq.droogoo&hl=en_US&gl=US",
+  "dateCreated": "2022-08-09T15:52:07.444Z",
+  "datePublished": "2022-08-09T15:32:43.000Z",
+  "dateModified": "2022-08-09T15:52:07.444Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: PogPrice，一个管理价格的安卓应用（防止通货膨胀）。\n",
+  "headline_zh-Hant": "Show HN: PogPrice，一個管理價格的安卓應用（防止通貨膨脹）。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "这是一个应用程序，你可以保持产品的当前和过去的价格，检查整个时间的价格变化，找到商店的最便宜价格。只需手动添加你感兴趣的商店和产品。所有商店、产品和价格都保存在一个设备中。<p>我花时间开发这个应用程序是因为许多国家的通货膨胀率不断上升。我看到食品、衣服和其他必需品的价格越来越高，但我知道我和其他许多人不会跟上他们的步伐。<p>从技术角度来看。PogPrice是用Kotlin创建的，使用了Jetpack Compose、Koin和Objectbox（以及其他一些）等库。它的用户界面是用Material You和Android 12自定义颜色主题支持设计的。<p>Google Play显示了旧版本的屏幕截图。通过比较下载到你的设备上的当前版本和这些图片，你会发现这个应用有多大的变化。<p>我希望你会喜欢使用PogPrice!\n",
+  "description_zh-Hant": "這是一個應用程序，你可以保持產品的當前和過去的價格，檢查整個時間的價格變化，找到商店的最便宜價格。只需手動添加你感興趣的商店和產品。所有商店、產品和價格都保存在一個設備中。<p>我花時間開發這個應用程序是因為許多國家的通貨膨脹率不斷上升。我看到食品、衣服和其他必需品的價格越來越高，但我知道我和其他許多人不會跟上他們的步伐。<p>從技術角度來看。PogPrice是用Kotlin創建的，使用了Jetpack Compose、Koin和Objectbox（以及其他一些）等庫。它的用戶界面是用Material You和Android 12自定義顏色主題支持設計的。<p>Google Play顯示了舊版本的屏幕截圖。通過比較下載到你的設備上的當前版本和這些圖片，你會發現這個應用有多大的變化。<p>我希望你會喜歡使用PogPrice!\n"
+}
