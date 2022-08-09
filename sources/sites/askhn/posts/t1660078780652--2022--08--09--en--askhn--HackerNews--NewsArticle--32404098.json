@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--09--en--askhn--HackerNews--NewsArticle--32404098",
+  "url": "https://news.ycombinator.com/item?id=32404098",
+  "headline": "Ask HN: Which user referral software do you use?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I run a service that has a great potential for more users with referrals, as our target segment is groups. Currently, we've integrated rewardful-dot-com, however, the service works only for the Stripe purchases. Is there any other services that offer to integrate with other Payment gateways like (RazorPay) or has the ability to accept the referral purchase by a webhook?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "saradhi",
+    "url": "https://news.ycombinator.com/user?id=saradhi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32404098",
+  "sameAs": "https://news.ycombinator.com/item?id=32404098",
+  "dateCreated": "2022-08-09T20:59:40.652Z",
+  "datePublished": "2022-08-09T20:50:17.000Z",
+  "dateModified": "2022-08-09T20:59:40.652Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你使用哪种用户推荐软件？\n",
+  "headline_zh-Hant": "Ask HN: 你使用哪種用戶推薦軟件？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我经营着一项服务，由于我们的目标群体是团体，因此有很大的潜力通过推荐来获得更多的用户。目前，我们已经整合了rewardful-dot-com，但是，该服务只适用于Stripe的购买。是否有其他服务提供与其他支付网关（如RazorPay）的集成，或有能力通过网络钩子接受推荐购买？\n",
+  "description_zh-Hant": "我經營著一項服務，由於我們的目標群體是團體，因此有很大的潛力通過推薦來獲得更多的用戶。目前，我們已經整合了rewardful-dot-com，但是，該服務只適用於Stripe的購買。是否有其他服務提供與其他支付網關（如RazorPay）的集成，或有能力通過網絡鉤子接受推薦購買？\n"
+}
