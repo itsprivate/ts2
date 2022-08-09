@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--09--en--showhn--HackerNews--NewsArticle--32401413",
+  "url": "https://news.ycombinator.com/item?id=32401413",
+  "headline": "Show HN: MOS, an application to help you deploy mathematical optimization models",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We built MOS in response to the frictions we experienced in deploying optimization solutions.<p>Some of the key benefits provided are the following:\n- Models can be easily uploaded to the application after adding simple annotations to the model code.\n- Models can be accessed via various available interfaces, including a REST API, a web graphical user interface, and client libraries in popular programming languages such as Python and Julia.\n- Models can be run with different inputs by workers running locally or distributed over the network.\n- Intermediate and end results can be extracted, browsed, and analyzed.<p>This is all available without the need for (the typically required) custom ad-hoc code.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jmerrick",
+    "url": "https://news.ycombinator.com/user?id=jmerrick"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32401413",
+  "sameAs": "https://fuinn.github.io/mos-docs/",
+  "dateCreated": "2022-08-09T18:31:45.994Z",
+  "datePublished": "2022-08-09T17:58:02.000Z",
+  "dateModified": "2022-08-09T18:31:45.994Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: MOS，一个帮助你部署数学优化模型的应用程序\n",
+  "headline_zh-Hant": "Show HN: MOS，一個幫助你部署數學優化模型的應用程序\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们建立MOS是为了应对我们在部署优化解决方案时遇到的摩擦。<p>提供的一些主要好处如下。\n- 在向模型代码添加简单的注释后，模型可以轻松上传到应用程序。\n- 可以通过各种可用的接口访问模型，包括REST API、网络图形用户界面，以及Python和Julia等流行编程语言的客户端库。\n- 模型可以由本地或分布在网络上的工作者以不同的输入运行。\n- 中间和最终结果可以被提取、浏览和分析。<p>这一切都不需要（通常需要）自定义的特别代码。\n",
+  "description_zh-Hant": "我們建立MOS是為了應對我們在部署優化解決方案時遇到的摩擦。<p>提供的一些主要好處如下。\n- 在向模型代碼添加簡單的註釋後，模型可以輕鬆上傳到應用程序。\n- 可以通過各種可用的接口訪問模型，包括REST API、網絡圖形用戶界面，以及Python和Julia等流行編程語言的客戶端庫。\n- 模型可以由本地或分佈在網絡上的工作者以不同的輸入運行。\n- 中間和最終結果可以被提取、瀏覽和分析。<p>這一切都不需要（通常需要）自定義的特別代碼。\n"
+}
