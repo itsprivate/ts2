@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--09--en--myfeed--HackerNews--NewsArticle--32398305",
+  "url": "https://news.ycombinator.com/item?id=32398305",
+  "headline": "The Makers of Costco's Kirkland Signature and Trader Joe's O's",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ksec",
+    "url": "https://news.ycombinator.com/user?id=ksec"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32398305",
+  "sameAs": "https://www.cnn.com/2022/08/06/business/costco-kirkland-signature-trader-joes-store-brands/index.html",
+  "dateCreated": "2022-08-09T14:44:36.334Z",
+  "datePublished": "2022-08-09T14:17:24.000Z",
+  "dateModified": "2022-08-09T14:44:36.334Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Costco的Kirkland Signature和Trader Joe的O's的制造商\n",
+  "headline_zh-Hant": "Costco的Kirkland Signature和Trader Joe的O's的製造商\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
