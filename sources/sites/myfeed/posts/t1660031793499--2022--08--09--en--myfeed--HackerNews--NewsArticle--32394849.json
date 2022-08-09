@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--09--en--myfeed--HackerNews--NewsArticle--32394849",
+  "url": "https://news.ycombinator.com/item?id=32394849",
+  "headline": "Show HN: rfilerunner: a simple command runner",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN! This is a little project I made a few months ago and have been using on every project since. Where before I'd use Makefiles to keep all the necessary commands for a project written down, rfilerunner has some more accessible expressiveness (i.e. I can just write bash or Python), built-in file watching and parallel execution, and niceties in making simple project-specific CLIs.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "goatmobile",
+    "url": "https://news.ycombinator.com/user?id=goatmobile"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32394849",
+  "sameAs": "https://github.com/goatmobile/rfilerunner",
+  "dateCreated": "2022-08-09T07:56:33.499Z",
+  "datePublished": "2022-08-09T06:31:11.000Z",
+  "dateModified": "2022-08-09T07:56:33.499Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: rfilerunner：一个简单的命令运行器\n",
+  "headline_zh-Hant": "Show HN: rfilerunner：一個簡單的命令運行器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN! 这是我几个月前做的一个小项目，此后一直在每个项目上使用。以前我用Makefiles来保留一个项目的所有必要命令，而现在rfilerunner有一些更容易理解的表达方式（即我可以直接写bash或Python），内置的文件观察和并行执行，以及制作简单的项目专用CLI的好处。\n",
+  "description_zh-Hant": "嗨，HN! 這是我幾個月前做的一個小項目，此後一直在每個項目上使用。以前我用Makefiles來保留一個項目的所有必要命令，而現在rfilerunner有一些更容易理解的表達方式（即我可以直接寫bash或Python），內置的文件觀察和並行執行，以及製作簡單的項目專用CLI的好處。\n"
+}
