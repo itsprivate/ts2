@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--09--en--myfeed--HackerNews--NewsArticle--32392599",
+  "url": "https://news.ycombinator.com/item?id=32392599",
+  "headline": "MantaRay: Open-Source Ray Tracer",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kevmo314",
+    "url": "https://news.ycombinator.com/user?id=kevmo314"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32392599",
+  "sameAs": "https://github.com/ange-yaghi/manta-ray",
+  "dateCreated": "2022-08-09T02:31:50.397Z",
+  "datePublished": "2022-08-09T00:02:58.000Z",
+  "dateModified": "2022-08-09T02:31:50.397Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 38
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "MantaRay: 开源的光线追踪器\n",
+  "headline_zh-Hant": "MantaRay: 開源的光線追蹤器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
