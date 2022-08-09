@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--09--en--myfeed--HackerNews--NewsArticle--32397412",
+  "url": "https://news.ycombinator.com/item?id=32397412",
+  "headline": "IconBrew – open-source icon pack/set",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "behnamoh",
+    "url": "https://news.ycombinator.com/user?id=behnamoh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32397412",
+  "sameAs": "https://iconbrew.com/",
+  "dateCreated": "2022-08-09T13:55:36.108Z",
+  "datePublished": "2022-08-09T13:19:11.000Z",
+  "dateModified": "2022-08-09T13:55:36.108Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "IconBrew - 开源的图标包/集\n",
+  "headline_zh-Hant": "IconBrew - 開源的圖標包/集\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
