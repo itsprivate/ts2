@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--09--en--myfeed--HackerNews--NewsArticle--32396520",
+  "url": "https://news.ycombinator.com/item?id=32396520",
+  "headline": "OK. This is fine. UK energy bills forecast to hit £4,266 a year from January",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "stichers",
+    "url": "https://news.ycombinator.com/user?id=stichers"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32396520",
+  "sameAs": "https://www.theguardian.com/money/2022/aug/09/uk-energy-bills-forecast-to-hit-4266-from-january",
+  "dateCreated": "2022-08-09T11:55:42.453Z",
+  "datePublished": "2022-08-09T11:39:40.000Z",
+  "dateModified": "2022-08-09T11:55:42.453Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "好的。这很好。英国能源账单预计将从1月起达到每年4266英镑\n",
+  "headline_zh-Hant": "好的。這很好。英國能源賬單預計將從1月起達到每年4266英鎊\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
