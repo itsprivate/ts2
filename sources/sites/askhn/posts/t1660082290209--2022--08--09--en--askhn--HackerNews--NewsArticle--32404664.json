@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--09--en--askhn--HackerNews--NewsArticle--32404664",
+  "url": "https://news.ycombinator.com/item?id=32404664",
+  "headline": "Ask HN: What are some interesting examples of visual programming?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I am developing a new 3D graphics and animation system written in Common Lisp.<p>Almost all 3D systems today have node graphs for setting up scenes. I am interested in finding ways of generalizing this into visual programming. I am aware of the term is nebulous and up for debate, but was curious if anyone had suggestions of interesting previous work along such lines, whether in 3D graphics or other domains.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "kaveh808",
+    "url": "https://news.ycombinator.com/user?id=kaveh808"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32404664",
+  "sameAs": "https://news.ycombinator.com/item?id=32404664",
+  "dateCreated": "2022-08-09T21:58:10.209Z",
+  "datePublished": "2022-08-09T21:36:44.000Z",
+  "dateModified": "2022-08-09T21:58:10.209Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 有哪些有趣的可视化编程的例子？\n",
+  "headline_zh-Hant": "Ask HN: 有哪些有趣的可視化編程的例子？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在开发一个用Common Lisp编写的新的3D图形和动画系统。<p>目前几乎所有的3D系统都有节点图来设置场景。我有兴趣找到将其概括为可视化编程的方法。我知道这个词很模糊，还有待商榷，但我很好奇，如果有人对以前的工作有什么建议，不管是在3D图形还是其他领域，都是很有意思的。\n",
+  "description_zh-Hant": "我正在開發一個用Common Lisp編寫的新的3D圖形和動畫系統。<p>目前幾乎所有的3D系統都有節點圖來設置場景。我有興趣找到將其概括為可視化編程的方法。我知道這個詞很模糊，還有待商榷，但我很好奇，如果有人對以前的工作有什麼建議，不管是在3D圖形還是其他領域，都是很有意思的。\n"
+}
