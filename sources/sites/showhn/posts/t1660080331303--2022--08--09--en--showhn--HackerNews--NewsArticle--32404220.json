@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--09--en--showhn--HackerNews--NewsArticle--32404220",
+  "url": "https://news.ycombinator.com/item?id=32404220",
+  "headline": "Show HN: Tone v0.0.8 – hackable console audio tagger – feedback for new version?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN,<p>I would like to show you my new version of tone [1], a command line audio tagger. It is mainly developed for audiobooks, but should also work for music and other formats. Features:<p>- dump metadata in different formats with JSONPath support<p><pre><code>  tone dump my-file.m4b\n  tone dump --format=json --query='$.meta.album' my-file.m4b\n\n</code></pre>\n- modify most common audio formats metadata<p><pre><code>  tone tag input.mp3 --meta-title &quot;a title&quot;\n  tone tag --auto-import=covers --auto-import=chapters --path-pattern=&quot;audiobooks/%g/%a/%s/%p - %n.m4b&quot; --path-pattern=&quot;audiobooks/%g/%a/%z/%n.m4b&quot; audiobooks/ --dry-run\n</code></pre>\n- write your own custom scripted tagger extensions with JavaScript<p><pre><code>  tone tag &quot;harry-potter-1.m4b&quot; --taggers=&quot;musicbrainz&quot; --script=&quot;musicbrainz.js&quot; --script-tagger-parameter=&quot;e2310769-2e68-462f-b54f-25ac8e3f1a21&quot;\n</code></pre>\n- multiarch docker image is also available via<p><pre><code>  docker pull sandreas/tone:v0.0.8\n</code></pre>\nFeedback is highly appreciated.<p>[1]: https://github.com/sandreas/tone",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "sandreas",
+    "url": "https://news.ycombinator.com/user?id=sandreas"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32404220",
+  "sameAs": "https://news.ycombinator.com/item?id=32404220",
+  "dateCreated": "2022-08-09T21:25:31.303Z",
+  "datePublished": "2022-08-09T20:59:51.000Z",
+  "dateModified": "2022-08-09T21:25:31.303Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Tone v0.0.8 - 可入侵的控制台音频标记器 - 为新版本提供反馈？\n",
+  "headline_zh-Hant": "Show HN: Tone v0.0.8 - 可入侵的控制檯音頻標記器 - 為新版本提供反饋？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hey HN,<p>I would like to show you my new version of tone [1], a command line audio tagger. It is mainly developed for audiobooks, but should also work for music and other formats. Features:<p>- dump metadata in different formats with JSONPath support<p><pre><code> tone dump my-file.m4b\n  tone dump --format=json --query='$.meta.album' my-file.m4b\n\n</code></pre>\n- modify most common audio formats metadata<p><pre><code> tone tag input.mp3 --meta-title &quot;a title&quot;\n  tone tag --auto-import=covers --auto-import=chapters --path-pattern=&quot;audiobooks/%g/%a/%s/%p - %n.m4b&quot; --path-pattern=&quot;audiobooks/%g/%a/%z/%n.m4b&quot; audiobooks/ --dry-run\n</code></pre>\n- write your own custom scripted tagger extensions with JavaScript<p><pre><code> tone tag &quot;harry-potter-1.m4b&quot; --taggers=&quot;musicbrainz&quot; --script=&quot;musicbrainz.js&quot; --script-tagger-parameter=&quot;e2310769-2e68-462f-b54f-25ac8e3f1a21&quot;\n</code></pre>\n- multiarch docker image is also available via<p><pre><code> docker pull sandreas/tone:v0.0.8\n</code></pre>\nFeedback is highly appreciated.<p>[1]: https://github.com/sandreas/tone\n",
+  "description_zh-Hant": "Hey HN,<p>I would like to show you my new version of tone [1], a command line audio tagger. It is mainly developed for audiobooks, but should also work for music and other formats. Features:<p>- dump metadata in different formats with JSONPath support<p><pre><code> tone dump my-file.m4b\n  tone dump --format=json --query='$.meta.album' my-file.m4b\n\n</code></pre>\n- modify most common audio formats metadata<p><pre><code> tone tag input.mp3 --meta-title &quot;a title&quot;\n  tone tag --auto-import=covers --auto-import=chapters --path-pattern=&quot;audiobooks/%g/%a/%s/%p - %n.m4b&quot; --path-pattern=&quot;audiobooks/%g/%a/%z/%n.m4b&quot; audiobooks/ --dry-run\n</code></pre>\n- write your own custom scripted tagger extensions with JavaScript<p><pre><code> tone tag &quot;harry-potter-1.m4b&quot; --taggers=&quot;musicbrainz&quot; --script=&quot;musicbrainz.js&quot; --script-tagger-parameter=&quot;e2310769-2e68-462f-b54f-25ac8e3f1a21&quot;\n</code></pre>\n- multiarch docker image is also available via<p><pre><code> docker pull sandreas/tone:v0.0.8\n</code></pre>\nFeedback is highly appreciated.<p>[1]: https://github.com/sandreas/tone\n"
+}
