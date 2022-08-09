@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--09--en--askhn--HackerNews--NewsArticle--32400443",
+  "url": "https://news.ycombinator.com/item?id=32400443",
+  "headline": "Ask HN: What are the current limits for file indexers?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "HDDs and some SDDs are now big enough to store hundreds of millions of files. MacOS Spotlight, Windows Search, and Locate on Linux are just a few file indexers available. How many files can you index using them? What is the largest number of files anyone has successfully indexed?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "didgetmaster",
+    "url": "https://news.ycombinator.com/user?id=didgetmaster"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32400443",
+  "sameAs": "https://news.ycombinator.com/item?id=32400443",
+  "dateCreated": "2022-08-09T17:05:57.045Z",
+  "datePublished": "2022-08-09T16:52:23.000Z",
+  "dateModified": "2022-08-09T17:05:57.045Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 目前对文件索引器的限制是什么？\n",
+  "headline_zh-Hant": "Ask HN: 目前對文件索引器的限制是什麼？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "硬盘和一些SDD现在已经大到可以存储数以亿计的文件。MacOS Spotlight、Windows Search和Linux上的Locate只是几个可用的文件索引器。使用它们，你能索引多少文件？有人成功索引过的最大文件数量是多少？\n",
+  "description_zh-Hant": "硬盤和一些SDD現在已經大到可以存儲數以億計的文件。MacOS Spotlight、Windows Search和Linux上的Locate只是幾個可用的文件索引器。使用它們，你能索引多少文件？有人成功索引過的最大文件數量是多少？\n"
+}
