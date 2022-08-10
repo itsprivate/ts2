@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--10--en--hackernews--HackerNews--NewsArticle--32411493",
+  "url": "https://news.ycombinator.com/item?id=32411493",
+  "headline": "Man who built ISP instead of paying Comcast $50K expands to hundreds of homes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "carride",
+    "url": "https://news.ycombinator.com/user?id=carride"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32411493",
+  "sameAs": "https://arstechnica.com/tech-policy/2022/08/man-who-built-isp-instead-of-paying-comcast-50k-expands-to-hundreds-of-homes/",
+  "dateCreated": "2022-08-10T13:40:47.039Z",
+  "datePublished": "2022-08-10T13:23:54.000Z",
+  "dateModified": "2022-08-10T13:40:47.039Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 21
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "男子自建ISP而不向康卡斯特公司支付5万美元 拓展至数百个家庭\n",
+  "headline_zh-Hant": "男子自建ISP而不向康卡斯特公司支付5萬美元 拓展至數百個家庭\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
