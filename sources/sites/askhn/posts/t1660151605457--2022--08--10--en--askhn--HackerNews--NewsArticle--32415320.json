@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--10--en--askhn--HackerNews--NewsArticle--32415320",
+  "url": "https://news.ycombinator.com/item?id=32415320",
+  "headline": "Ask HN: RAID-1 Memory System",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I was thinking these days... IBM has a RAID-5-like memory system on their mainframes, mostly for the reliability (copious amounts of L4$ deal with performance). Having memory sticks arranged in a RAID-1 pattern would allow for twice the random-read bandwidth on L3$ misses at twice the random-write cost on L3$ evictions, but since read/write ratios are usually much larger than 1, it could make sense.<p>Has anyone ever tried to build this?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "rbanffy",
+    "url": "https://news.ycombinator.com/user?id=rbanffy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32415320",
+  "sameAs": "https://news.ycombinator.com/item?id=32415320",
+  "dateCreated": "2022-08-10T17:13:25.457Z",
+  "datePublished": "2022-08-10T17:08:14.000Z",
+  "dateModified": "2022-08-10T17:13:25.457Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: RAID-1内存系统\n",
+  "headline_zh-Hant": "Ask HN: RAID-1內存系統\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我这几天在想... IBM在他们的主机上有一个类似RAID-5的内存系统，主要是为了可靠性（大量的L4$用于处理性能问题）。将内存条排列成RAID-1模式将允许在L3$失误时有两倍的随机读取带宽，在L3$驱逐时有两倍的随机写入成本，但由于读/写比率通常比1大得多，它可能是有意义的。<p>有人曾试图建立这个吗？\n",
+  "description_zh-Hant": "我這幾天在想... IBM在他們的主機上有一個類似RAID-5的內存系統，主要是為了可靠性（大量的L4$用於處理性能問題）。將內存條排列成RAID-1模式將允許在L3$失誤時有兩倍的隨機讀取帶寬，在L3$驅逐時有兩倍的隨機寫入成本，但由於讀/寫比率通常比1大得多，它可能是有意義的。<p>有人曾試圖建立這個嗎？\n"
+}

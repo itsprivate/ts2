@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--10--en--myfeed--HackerNews--NewsArticle--32415053",
+  "url": "https://news.ycombinator.com/item?id=32415053",
+  "headline": "Squip: Exploiting the Scheduler Queue Contention Side Channel [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "todsacerdoti",
+    "url": "https://news.ycombinator.com/user?id=todsacerdoti"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32415053",
+  "sameAs": "https://stefangast.eu/papers/squip.pdf",
+  "dateCreated": "2022-08-10T17:13:26.035Z",
+  "datePublished": "2022-08-10T16:53:18.000Z",
+  "dateModified": "2022-08-10T17:13:26.035Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "争分夺秒。利用调度器队列争夺侧通道 [pdf]\n",
+  "headline_zh-Hant": "爭分奪秒。利用調度器隊列爭奪側通道 [pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
