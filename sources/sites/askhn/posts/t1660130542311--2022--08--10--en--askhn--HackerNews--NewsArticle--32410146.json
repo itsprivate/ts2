@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--10--en--askhn--HackerNews--NewsArticle--32410146",
+  "url": "https://news.ycombinator.com/item?id=32410146",
+  "headline": "Ask HN: Would this score system encourage replayability in a multi-level game?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Consider a multi-level game such as Candy Crush.<p>The idea is to have a very simple score system that encourages level replayability without affecting gameplay within a level in any way.<p>In particular, when you pass a level, the number of points for that level is equal to the number of levels passed (including the level just passed).<p>When you pass a level that was already passed, your level score replaces the previous level score.<p>Your total score is equal to the total of the level scores.<p>This encourages replayability of levels since you can get more points for passing a level as you pass more levels.<p>Do you think this idea would encourage players to replay levels and compete on a leaderboard for (total) scores?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "amichail",
+    "url": "https://news.ycombinator.com/user?id=amichail"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32410146",
+  "sameAs": "https://news.ycombinator.com/item?id=32410146",
+  "dateCreated": "2022-08-10T11:22:22.311Z",
+  "datePublished": "2022-08-10T11:14:52.000Z",
+  "dateModified": "2022-08-10T11:22:22.311Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 这种分数系统会鼓励多层次游戏的重玩性吗？\n",
+  "headline_zh-Hant": "Ask HN: 這種分數系統會鼓勵多層次遊戲的重玩性嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "考虑一个多层次的游戏，如Candy Crush.<p>这个想法是要有一个非常简单的分数系统，鼓励关卡的重玩性，而不以任何方式影响关卡内的游戏性。<p>特别是，当你通过一个关卡时，该关卡的分数等于通过的关卡数（包括刚通过的关卡）。 <p>当你通过一个已经通过的关卡时，你的关卡分数将取代之前的关卡分数。<p>你的总分数等于关卡分数的总和。<p>这鼓励了关卡的可重玩性，因为当你通过更多关卡时，你可以获得更多的分数。<p>你认为这个想法会鼓励玩家重玩关卡并在排行榜上竞争（总）分数？\n",
+  "description_zh-Hant": "考慮一個多層次的遊戲，如Candy Crush.<p>這個想法是要有一個非常簡單的分數系統，鼓勵關卡的重玩性，而不以任何方式影響關卡內的遊戲性。<p>特別是，當你通過一個關卡時，該關卡的分數等於通過的關卡數（包括剛通過的關卡）。 <p>當你通過一個已經通過的關卡時，你的關卡分數將取代之前的關卡分數。<p>你的總分數等於關卡分數的總和。<p>這鼓勵了關卡的可重玩性，因為當你通過更多關卡時，你可以獲得更多的分數。<p>你認為這個想法會鼓勵玩家重玩關卡並在排行榜上競爭（總）分數？\n"
+}
