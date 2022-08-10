@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--10--en--myfeed--HackerNews--NewsArticle--32411741",
+  "url": "https://news.ycombinator.com/item?id=32411741",
+  "headline": "Why are systems languages always overly complex?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I do most of my programming in Node and TypeScript. It's nice and simple.<p>I always wonder why we don't just use this syntax to write low-level system code. The module system is nice; functions, objects, and arrays are nice to work with; and the syntax is simple and familiar.<p>A systems language essentially just adds access to pointers.<p>In most of these systems languages, the raw memory management is often abstracted away into libraries, and we are just writing basic logic in a new convoluted syntax that a single dev happened to like. Think Rust, Zig, etc.<p>It's quite clear that TypeScript is going to be around forever. Why don't we just use this syntax for a systems language, and add a few constraints to make it low-level.<p>Imagine the same syntax/tooling for embedded, kernel, system (browsers, interpreters), backend, and frontend.<p>I just don't know why there is not more interest in this.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "grumblingdev",
+    "url": "https://news.ycombinator.com/user?id=grumblingdev"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32411741",
+  "sameAs": "https://news.ycombinator.com/item?id=32411741",
+  "dateCreated": "2022-08-10T14:25:30.524Z",
+  "datePublished": "2022-08-10T13:40:33.000Z",
+  "dateModified": "2022-08-10T14:25:30.524Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "为什么系统语言总是过于复杂？\n",
+  "headline_zh-Hant": "為什麼系統語言總是過於複雜？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我的大部分编程都是用Node和TypeScript完成的。<p>我总是在想，为什么我们不直接使用这种语法来编写低级别的系统代码。模块系统很好；函数、对象和数组也很好用；而且语法简单而熟悉。<p>系统语言本质上只是增加了对指针的访问。<p>在大多数这些系统语言中，原始内存管理往往被抽象到库中，我们只是在用一种新的复杂的语法编写基本逻辑，而这种语法恰好是某个开发者喜欢的。想想Rust、Zig等。<p>很明显，TypeScript将永远存在。我们为什么不把这种语法用于系统语言，并添加一些约束条件，使其成为低级别的语言。<p>想象一下，嵌入式、内核、系统（浏览器、解释器）、后端和前端都使用同样的语法/工具。\n",
+  "description_zh-Hant": "我的大部分編程都是用Node和TypeScript完成的。<p>我總是在想，為什麼我們不直接使用這種語法來編寫低級別的系統代碼。模塊系統很好；函數、對象和數組也很好用；而且語法簡單而熟悉。<p>系統語言本質上只是增加了對指針的訪問。<p>在大多數這些系統語言中，原始內存管理往往被抽象到庫中，我們只是在用一種新的複雜的語法編寫基本邏輯，而這種語法恰好是某個開發者喜歡的。想想Rust、Zig等。<p>很明顯，TypeScript將永遠存在。我們為什麼不把這種語法用於系統語言，並添加一些約束條件，使其成為低級別的語言。<p>想象一下，嵌入式、內核、系統（瀏覽器、解釋器）、後端和前端都使用同樣的語法/工具。\n"
+}
