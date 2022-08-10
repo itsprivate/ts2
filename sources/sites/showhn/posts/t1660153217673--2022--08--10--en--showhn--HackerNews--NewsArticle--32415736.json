@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--10--en--showhn--HackerNews--NewsArticle--32415736",
+  "url": "https://news.ycombinator.com/item?id=32415736",
+  "headline": "Show HN: I'm using Midjourney to create reward images for my word game Xordle",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm using Midjourney to solve a game design issue I had with my Wordle variant, Xordle, where it was fun to have themed puzzles but the themes tended to either be too hard to notice even after the puzzle was completed (missed opportunity for a fun moment for most players), or too easy to notice before the puzzle was completed (giving away the answer). It requires a little effort to generate prompts, but not too much; definitely worth it in this case as I can now do themes that are pretty vague and are revealed by the image, or connect totally un-themed words together to still get the fun moment at the end of the puzzle. This post talks about what lead to this feature and has example output.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "furyofantares",
+    "url": "https://news.ycombinator.com/user?id=furyofantares"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32415736",
+  "sameAs": "https://blog.keldor.org/2022/08/using-midjourney-to-create-reward.html",
+  "dateCreated": "2022-08-10T17:40:17.673Z",
+  "datePublished": "2022-08-10T17:37:54.000Z",
+  "dateModified": "2022-08-10T17:40:17.673Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我正在使用Midjourney为我的文字游戏Xordle创建奖励图像。\n",
+  "headline_zh-Hant": "Show HN: 我正在使用Midjourney為我的文字遊戲Xordle創建獎勵圖像。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我使用 Midjourney 来解决我在 Wordle 变体 Xordle 中遇到的一个游戏设计问题，在这个问题上，有主题的谜题很有趣，但是主题往往要么在谜题完成后很难被注意到（对大多数玩家来说错过了一个有趣的机会），要么在谜题完成前太容易被注意到（泄露了答案）。这需要花费一点精力来生成提示，但不会太多；在这种情况下，这绝对是值得的，因为我现在可以做一些相当模糊的主题，通过图片来揭示，或者将完全没有主题的单词连接在一起，在谜题的最后仍然获得有趣的时刻。这篇文章讲述了导致这一功能的原因，并有输出的例子。\n",
+  "description_zh-Hant": "我使用 Midjourney 來解決我在 Wordle 變體 Xordle 中遇到的一個遊戲設計問題，在這個問題上，有主題的謎題很有趣，但是主題往往要麼在謎題完成後很難被注意到（對大多數玩家來說錯過了一個有趣的機會），要麼在謎題完成前太容易被注意到（洩露了答案）。這需要花費一點精力來生成提示，但不會太多；在這種情況下，這絕對是值得的，因為我現在可以做一些相當模糊的主題，通過圖片來揭示，或者將完全沒有主題的單詞連接在一起，在謎題的最後仍然獲得有趣的時刻。這篇文章講述了導致這一功能的原因，並有輸出的例子。\n"
+}
