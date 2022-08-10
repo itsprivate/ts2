@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--10--en--myfeed--HackerNews--NewsArticle--32407550",
+  "url": "https://news.ycombinator.com/item?id=32407550",
+  "headline": "GUI Framework on Linux",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi.<p>I read this page.<p>https://news.ycombinator.com/item?id=32398181<p>In general, I'd be interested in GUI applications on linux.<p>Right of the bat, I dont like Javascript.<p>I know the following about linux and GUI Programming.<p>1. C / C++ are sort of lingua franca  and are capable of making calls in the linux OS to draw a pixel on the frame buffer.<p>2. I think,but dont know this : rust will get a native ui framework.<p>I know that Linux is going to include rust in its kernel code, at least partially from the next update.<p>3. I am familiar with things like wrapping  a C/C++ package in other languages, such as wxwidget wrapper in D. There's also things like gambas that wraps QT or GTK<p>4. I know that Ruby has a native toolkit, there's scenic for elixir, there's livy for python, there's Lazarus, there's tcl/tk, there's flutter from go, and well, Java.<p>5. There are also things like V using a custom drawing, or Ring using Allegro/ Cairo/ SDL2.<p>But I really dont like Javascript or web view, I also dont like java,and I dont want to rely on google for Dart/Flutter.<p>But I would like to be able to program linux GUI apps, where i can have a canvas element, where i can seamlessly draw text, images, vector, 3D graphics (via Vulkan, or if Vulkan is not possible then openGL) etc .<p>I would also like to access the speakers and the printer.<p>I have already listed the UI toolkit that what I am familiar with. My question is : did I miss something?<p>I'd be open to all knowledge, even crazy niche language with a nice UI toolkit. I am doing it for my own use, and thus won't mind the lack of popularity so to say.<p>Of course, this is an open ended question and I can't ask this in stackoverflow- thus I decided to ask here. I appreciate all input.<p>Thank you.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sean_con",
+    "url": "https://news.ycombinator.com/user?id=sean_con"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32407550",
+  "sameAs": "https://news.ycombinator.com/item?id=32407550",
+  "dateCreated": "2022-08-10T05:00:31.306Z",
+  "datePublished": "2022-08-10T03:22:43.000Z",
+  "dateModified": "2022-08-10T05:00:31.306Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Linux上的GUI框架\n",
+  "headline_zh-Hant": "Linux上的GUI框架\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你好。<p>我读过这个页面。<p>https://news.ycombinator.com/item?id=32398181<p>总的来说，我对Linux上的GUI应用感兴趣。<p>从一开始，我就不喜欢Javascript。<p>我对Linux和GUI编程有以下了解。<p>1. C/C++是一种通用语言，能够在Linux操作系统中进行调用，在帧缓冲区上绘制一个像素。 <p>2.我认为，但不知道：Rust将获得一个本地ui框架。<p>我知道，Linux将在其内核代码中包括Rust，至少从下一次更新开始部分包括。我很熟悉用其他语言包装C/C++包的事情，比如D语言中的wxwidget包装器，还有像Gambas包装QT或GTK的事情<p>4.我知道Ruby有一个本地工具包，elixir有scenic，python有livy，有Lazarus，有tcl/tk，有go的flutter，还有，Java.<p>5. 还有一些东西，如使用自定义绘图的V，或使用Allegro/Cairo/SDL2的Ring。<p>但我真的不喜欢Javascript或web view，我也不喜欢java，我也不想依靠google的Dart/Flutter。 <p>但是我希望能够编写Linux GUI应用程序，在那里我可以有一个画布元素，在那里我可以无缝地绘制文本、图像、矢量、3D图形（通过Vulkan，或者如果Vulkan是不可能的，那么就是openGL）等。<p>我还想访问扬声器和打印机。我的问题是：我是否错过了什么？<p>我愿意接受所有的知识，甚至是疯狂的小众语言与漂亮的UI工具包。<p>当然，这是一个开放性的问题，我不能在stackoverflow中问这个问题--因此我决定在这里问。我感谢所有的意见。<p>谢谢你。\n",
+  "description_zh-Hant": "你好。<p>我讀過這個頁面。<p>https://news.ycombinator.com/item?id=32398181<p>總的來說，我對Linux上的GUI應用感興趣。<p>從一開始，我就不喜歡Javascript。<p>我對Linux和GUI編程有以下了解。<p>1. C/C++是一種通用語言，能夠在Linux操作系統中進行調用，在幀緩衝區上繪製一個像素。 <p>2.我認為，但不知道：Rust將獲得一個本地ui框架。<p>我知道，Linux將在其內核代碼中包括Rust，至少從下一次更新開始部分包括。我很熟悉用其他語言包裝C/C++包的事情，比如D語言中的wxwidget包裝器，還有像Gambas包裝QT或GTK的事情<p>4.我知道Ruby有一個本地工具包，elixir有scenic，python有livy，有Lazarus，有tcl/tk，有go的flutter，還有，Java.<p>5. 還有一些東西，如使用自定義繪圖的V，或使用Allegro/Cairo/SDL2的Ring。<p>但我真的不喜歡Javascript或web view，我也不喜歡java，我也不想依靠google的Dart/Flutter。 <p>但是我希望能夠編寫Linux GUI應用程序，在那裡我可以有一個畫布元素，在那裡我可以無縫地繪製文本、圖像、矢量、3D圖形（通過Vulkan，或者如果Vulkan是不可能的，那麼就是openGL）等。<p>我還想訪問揚聲器和打印機。我的問題是：我是否錯過了什麼？<p>我願意接受所有的知識，甚至是瘋狂的小眾語言與漂亮的UI工具包。<p>當然，這是一個開放性的問題，我不能在stackoverflow中問這個問題--因此我決定在這裡問。我感謝所有的意見。<p>謝謝你。\n"
+}
