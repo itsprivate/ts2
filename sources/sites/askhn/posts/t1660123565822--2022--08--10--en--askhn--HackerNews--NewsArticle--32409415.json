@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--10--en--askhn--HackerNews--NewsArticle--32409415",
+  "url": "https://news.ycombinator.com/item?id=32409415",
+  "headline": "Ask HN: Teams migrated from Nomad to Kubernetes,what pushed you to migrate?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "we are trying to pick a self-hosted container orchestration engine to use, after evaluating the pros and cons of both we decided Nomad would be the better option for us.<p>I used both in the past, and for self-hosted solution I also prefer the simplicity of Nomad, but I realize that Kubernetes has much more functionality, so I'm wondering if there is something that we will realize that we are missing once we start using Nomad for production workloads.<p>So my question is targeted at people who used Nomad in production, and later found themselves migrating to Kubernetes, what is your story? and what functionality did you miss the most that pushed you to move to Kubernetes.\nBlogs and articles are also welcome.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "_shadi",
+    "url": "https://news.ycombinator.com/user?id=_shadi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32409415",
+  "sameAs": "https://news.ycombinator.com/item?id=32409415",
+  "dateCreated": "2022-08-10T09:26:05.822Z",
+  "datePublished": "2022-08-10T09:02:34.000Z",
+  "dateModified": "2022-08-10T09:26:05.822Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 团队从Nomad迁移到Kubernetes，是什么推动了你们的迁移？\n",
+  "headline_zh-Hant": "Ask HN: 團隊從Nomad遷移到Kubernetes，是什麼推動了你們的遷移？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "<p>我过去曾使用过这两种引擎，对于自我托管的解决方案，我也更喜欢Nomad的简单性，但我意识到Kubernetes有更多的功能，所以我想知道，一旦我们开始在生产工作负载中使用Nomad，是否会意识到我们缺少什么。 <p>所以我的问题是针对那些在生产中使用Nomad，后来发现自己迁移到Kubernetes的人，你的故事是什么？ 你最想念的是什么功能，促使你迁移到Kubernetes。\n我们也欢迎博客和文章。\n",
+  "description_zh-Hant": "<p>我過去曾使用過這兩種引擎，對於自我託管的解決方案，我也更喜歡Nomad的簡單性，但我意識到Kubernetes有更多的功能，所以我想知道，一旦我們開始在生產工作負載中使用Nomad，是否會意識到我們缺少什麼。 <p>所以我的問題是針對那些在生產中使用Nomad，後來發現自己遷移到Kubernetes的人，你的故事是什麼？ 你最想念的是什麼功能，促使你遷移到Kubernetes。\n我們也歡迎博客和文章。\n"
+}
