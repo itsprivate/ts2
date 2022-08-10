@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--10--en--myfeed--HackerNews--NewsArticle--32414601",
+  "url": "https://news.ycombinator.com/item?id=32414601",
+  "headline": "Libstrophe 0.12.2 has been released (XMPP library) with SCRAM-SHA-* supports",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "neustradamus",
+    "url": "https://news.ycombinator.com/user?id=neustradamus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32414601",
+  "sameAs": "https://strophe.im/libstrophe/",
+  "dateCreated": "2022-08-10T17:13:25.938Z",
+  "datePublished": "2022-08-10T16:26:58.000Z",
+  "dateModified": "2022-08-10T17:13:25.938Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Libstrophe 0.12.2已经发布（XMPP库），支持SCRAM-SHA-*。\n",
+  "headline_zh-Hant": "Libstrophe 0.12.2已經發布（XMPP庫），支持SCRAM-SHA-*。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
