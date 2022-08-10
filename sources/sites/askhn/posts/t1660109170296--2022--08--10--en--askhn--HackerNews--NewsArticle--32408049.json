@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--10--en--askhn--HackerNews--NewsArticle--32408049",
+  "url": "https://news.ycombinator.com/item?id=32408049",
+  "headline": "Ask HN: What are the best environments for differential programming?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I want to incorporate an algebra solver into a neural network. Crazy idea, I know. I'm trying to generate algebra problems that are actually solvable, and the best way I can think to do that would be to have a solver implemented in-network. That's a complex piece of code, thus the interest in differentiable programming.<p>Julia? Python? Swift? Something else?<p>My experience has been that the autogradient in TensorFlow would be way too finicky to implement something complex in. Maybe I'm wrong?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "pc2g4d",
+    "url": "https://news.ycombinator.com/user?id=pc2g4d"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32408049",
+  "sameAs": "https://news.ycombinator.com/item?id=32408049",
+  "dateCreated": "2022-08-10T05:26:10.296Z",
+  "datePublished": "2022-08-10T05:18:23.000Z",
+  "dateModified": "2022-08-10T05:26:10.296Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 什么是差异化编程的最佳环境？\n",
+  "headline_zh-Hant": "Ask HN: 什麼是差異化編程的最佳環境？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我想把一个代数求解器纳入一个神经网络。我知道，这个想法很疯狂。我试图生成实际可解的代数问题，而我能想到的最好的方法就是在网络中实现一个解算器。这是一段复杂的代码，因此我对可微分编程感兴趣。<p>Julia？Python？Swift？<p>我的经验是，TensorFlow中的自动梯度对于实现复杂的东西来说太棘手了。也许我错了？\n",
+  "description_zh-Hant": "我想把一個代數求解器納入一個神經網絡。我知道，這個想法很瘋狂。我試圖生成實際可解的代數問題，而我能想到的最好的方法就是在網絡中實現一個解算器。這是一段複雜的代碼，因此我對可微分編程感興趣。<p>Julia？Python？Swift？<p>我的經驗是，TensorFlow中的自動梯度對於實現複雜的東西來說太棘手了。也許我錯了？\n"
+}
