@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--10--en--askhn--HackerNews--NewsArticle--32408396",
+  "url": "https://news.ycombinator.com/item?id=32408396",
+  "headline": "Ask HN: How do I go about optimizing a codebase?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Say I wanted to improve the performance of a large codebase such as a compiler, runtime, web server, etc.<p>How do you do this? I guess you can profile it but there’s so much information that the profiler gives and I usually don’t know where to look. How do you know where to look? Are there any books, blogposts that are good to start learning how to do this?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "hahnchen",
+    "url": "https://news.ycombinator.com/user?id=hahnchen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32408396",
+  "sameAs": "https://news.ycombinator.com/item?id=32408396",
+  "dateCreated": "2022-08-10T06:34:47.080Z",
+  "datePublished": "2022-08-10T06:27:37.000Z",
+  "dateModified": "2022-08-10T06:34:47.080Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我如何去优化一个代码库？\n",
+  "headline_zh-Hant": "Ask HN: 我如何去優化一個代碼庫？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "假设我想提高一个大型代码库的性能，如编译器、运行时、网络服务器等。<p>你如何做到这一点？我想你可以对它进行剖析，但剖析器给出的信息太多，我通常不知道该去哪里找。你怎么知道去哪里找？有什么书籍、博文可以开始学习如何做这件事吗？\n",
+  "description_zh-Hant": "假設我想提高一個大型代碼庫的性能，如編譯器、運行時、網絡服務器等。<p>你如何做到這一點？我想你可以對它進行剖析，但剖析器給出的信息太多，我通常不知道該去哪裡找。你怎麼知道去哪裡找？有什麼書籍、博文可以開始學習如何做這件事嗎？\n"
+}
