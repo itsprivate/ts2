@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--askhn--HackerNews--NewsArticle--32424909",
+  "url": "https://news.ycombinator.com/item?id=32424909",
+  "headline": "Ask HN: How large a portion of your team's cloud bill is caused by databases?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm consulting with a team where the database costs comprise ~90% of the entire cloud bill. This seems like a ridiculous ratio, but I haven't had access to such billing information before. Is it common for database costs to balloon like this? I wouldn't consider the team's treatment of the database to be good, but this cost is insane. Have you experienced anything similar, and how do you even go about optimizing a database that's been driven into the ground?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "hhjinks",
+    "url": "https://news.ycombinator.com/user?id=hhjinks"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32424909",
+  "sameAs": "https://news.ycombinator.com/item?id=32424909",
+  "dateCreated": "2022-08-11T12:53:25.455Z",
+  "datePublished": "2022-08-11T12:52:57.000Z",
+  "dateModified": "2022-08-11T12:53:25.455Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你的团队的云计算账单中有多大一部分是由数据库引起的？\n",
+  "headline_zh-Hant": "Ask HN: 你的團隊的雲計算賬單中有多大一部分是由數據庫引起的？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在为一个团队提供咨询，数据库费用占整个云计算账单的90%。这似乎是一个荒谬的比例，但我以前没有接触过这种账单信息。数据库成本像这样膨胀是很常见的吗？我不会认为团队对数据库的处理是好的，但这个成本是疯狂的。你是否经历过类似的事情，你甚至如何去优化一个已经被逼到绝境的数据库？\n",
+  "description_zh-Hant": "我正在為一個團隊提供諮詢，數據庫費用佔整個雲計算賬單的90%。這似乎是一個荒謬的比例，但我以前沒有接觸過這種賬單信息。數據庫成本像這樣膨脹是很常見的嗎？我不會認為團隊對數據庫的處理是好的，但這個成本是瘋狂的。你是否經歷過類似的事情，你甚至如何去優化一個已經被逼到絕境的數據庫？\n"
+}
