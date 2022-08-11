@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--myfeed--HackerNews--NewsArticle--32431063",
+  "url": "https://news.ycombinator.com/item?id=32431063",
+  "headline": "Hubble Sees Supergiant Star Betelgeuse Slowly Recovering After Blowing Its Top",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "yamrzou",
+    "url": "https://news.ycombinator.com/user?id=yamrzou"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32431063",
+  "sameAs": "https://www.nasa.gov/feature/goddard/2022/hubble-sees-red-supergiant-star-betelgeuse-slowly-recovering-after-blowing-its-top/",
+  "dateCreated": "2022-08-11T20:27:03.147Z",
+  "datePublished": "2022-08-11T20:06:59.000Z",
+  "dateModified": "2022-08-11T20:27:03.147Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "哈勃看到超巨星贝特宙斯在爆炸后缓慢恢复\n",
+  "headline_zh-Hant": "哈勃看到超巨星貝特宙斯在爆炸後緩慢恢復\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

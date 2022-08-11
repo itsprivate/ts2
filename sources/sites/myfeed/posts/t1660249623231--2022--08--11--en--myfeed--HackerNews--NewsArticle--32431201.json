@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--myfeed--HackerNews--NewsArticle--32431201",
+  "url": "https://news.ycombinator.com/item?id=32431201",
+  "headline": "Building a Better GitHub Insight Tool in a Week",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gervwyk",
+    "url": "https://news.ycombinator.com/user?id=gervwyk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32431201",
+  "sameAs": "https://ossinsight.io/blog/why-we-choose-tidb-to-support-ossinsight/",
+  "dateCreated": "2022-08-11T20:27:03.231Z",
+  "datePublished": "2022-08-11T20:18:10.000Z",
+  "dateModified": "2022-08-11T20:27:03.231Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "在一周内建立一个更好的GitHub洞察力工具\n",
+  "headline_zh-Hant": "在一週內建立一個更好的GitHub洞察力工具\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
