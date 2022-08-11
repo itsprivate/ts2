@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--myfeed--HackerNews--NewsArticle--32426498",
+  "url": "https://news.ycombinator.com/item?id=32426498",
+  "headline": "NHS IT services held hostage by ransomware hackers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "drac89",
+    "url": "https://news.ycombinator.com/user?id=drac89"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32426498",
+  "sameAs": "https://www.bbc.com/news/technology-62506039",
+  "dateCreated": "2022-08-11T15:28:05.906Z",
+  "datePublished": "2022-08-11T14:45:21.000Z",
+  "dateModified": "2022-08-11T15:28:05.906Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "国家医疗服务系统IT服务被勒索软件黑客挟持\n",
+  "headline_zh-Hant": "國家醫療服務系統IT服務被勒索軟件黑客挾持\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

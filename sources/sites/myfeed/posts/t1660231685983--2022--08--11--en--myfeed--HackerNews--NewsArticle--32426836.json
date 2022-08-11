@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--myfeed--HackerNews--NewsArticle--32426836",
+  "url": "https://news.ycombinator.com/item?id=32426836",
+  "headline": "Writing Snake in 12 Lines of PyTorch",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "todsacerdoti",
+    "url": "https://news.ycombinator.com/user?id=todsacerdoti"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32426836",
+  "sameAs": "https://medium.com/artificialis/writing-snake-in-12-lines-of-pytorch-f7b21ce42a66",
+  "dateCreated": "2022-08-11T15:28:05.983Z",
+  "datePublished": "2022-08-11T15:03:18.000Z",
+  "dateModified": "2022-08-11T15:28:05.983Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用PyTorch的12行写蛇\n",
+  "headline_zh-Hant": "用PyTorch的12行寫蛇\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
