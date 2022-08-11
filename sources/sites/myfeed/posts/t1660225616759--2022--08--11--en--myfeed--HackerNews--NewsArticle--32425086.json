@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--myfeed--HackerNews--NewsArticle--32425086",
+  "url": "https://news.ycombinator.com/item?id=32425086",
+  "headline": "Show HN: PHP on Netlify Edge Functions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "ascorbic",
+    "url": "https://news.ycombinator.com/user?id=ascorbic"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32425086",
+  "sameAs": "https://github.com/ascorbic/php-edge",
+  "dateCreated": "2022-08-11T13:46:56.759Z",
+  "datePublished": "2022-08-11T13:12:11.000Z",
+  "dateModified": "2022-08-11T13:46:56.759Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Netlify边缘功能上的PHP\n",
+  "headline_zh-Hant": "Show HN: Netlify邊緣功能上的PHP\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
