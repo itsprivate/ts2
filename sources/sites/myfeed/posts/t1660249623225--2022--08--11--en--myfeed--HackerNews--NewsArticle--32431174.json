@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--myfeed--HackerNews--NewsArticle--32431174",
+  "url": "https://news.ycombinator.com/item?id=32431174",
+  "headline": "Open to a fault: On the passive compromise of TLS keys via transient errors [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "johnnyapol",
+    "url": "https://news.ycombinator.com/user?id=johnnyapol"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32431174",
+  "sameAs": "https://www.usenix.org/system/files/sec22-sullivan.pdf",
+  "dateCreated": "2022-08-11T20:27:03.225Z",
+  "datePublished": "2022-08-11T20:16:05.000Z",
+  "dateModified": "2022-08-11T20:27:03.225Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "开放的故障。关于通过瞬时错误对TLS密钥的被动破坏 [pdf]\n",
+  "headline_zh-Hant": "開放的故障。關於通過瞬時錯誤對TLS密鑰的被動破壞 [pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
