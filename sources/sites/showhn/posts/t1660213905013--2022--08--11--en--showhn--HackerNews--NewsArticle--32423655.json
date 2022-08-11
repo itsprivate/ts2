@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--08--09--en--myfeed--HackerNews--NewsArticle--32397210",
-  "url": "https://news.ycombinator.com/item?id=32397210",
-  "headline": "A Tiny Software Protocol for Communication over UART, SPI, etc.",
+  "identifier": "2022--08--11--en--showhn--HackerNews--NewsArticle--32423655",
+  "url": "https://news.ycombinator.com/item?id=32423655",
+  "headline": "Show HN: A CLI autopilot for live demos, with presenter view",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "manchoz",
-    "url": "https://news.ycombinator.com/user?id=manchoz"
+    "name": "stavros",
+    "url": "https://news.ycombinator.com/user?id=stavros"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32397210",
-  "sameAs": "https://github.com/lexus2k/tinyproto",
-  "dateCreated": "2022-08-09T13:55:36.091Z",
-  "datePublished": "2022-08-09T13:03:21.000Z",
-  "dateModified": "2022-08-09T13:55:36.091Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32423655",
+  "sameAs": "https://gitlab.com/stavros/itsalive",
+  "dateCreated": "2022-08-11T10:31:45.013Z",
+  "datePublished": "2022-08-11T10:16:11.000Z",
+  "dateModified": "2022-08-11T10:31:45.013Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "用于通过UART、SPI等进行通信的微小软件协议。\n",
-  "headline_zh-Hant": "用於通過UART、SPI等進行通信的微小軟件協議。\n",
+  "headline_zh-Hans": "Show HN: 一个用于现场演示的CLI自动驾驶仪，带有演示者视图\n",
+  "headline_zh-Hant": "Show HN: 一個用於現場演示的CLI自動駕駛儀，帶有演示者視圖\n",
   "@context": [
     "https://schema.org",
     {
