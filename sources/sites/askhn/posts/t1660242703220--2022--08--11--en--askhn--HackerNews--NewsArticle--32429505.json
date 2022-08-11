@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--askhn--HackerNews--NewsArticle--32429505",
+  "url": "https://news.ycombinator.com/item?id=32429505",
+  "headline": "Ask HN: Why do you consider the web a thing?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Imagine you just found a website that you are mildly interested in and it requires signup<p>You have no idea if the website will block your IP because some ban list contains your IP block because someone else in your city did something to get it there (such as hitting the ' key by accident). But you won't know until the end because they have not added the blocking functionality to the UI, but via a small amendment to the back end<p>Next, you will have to assume it needs email verification on top of the captcha. If you just enter a random email address that doesn't exist and hit the next step button, it may (99% likely) only then tell you to go check that inbox for a verification link. After this, it may ban you for trying the second registration too fast. So it's best to always use a temporary email<p>There may be a CPU or GPU intensive bottleneck on the website which immensely slows down this process. For example, the front page of Github with the 3D globe brings lower end machines to a halt<p>You must now follow these steps:<p>1 The form may not work at all due to requiring a specific browser or OS. This often is apparent by a button that you click and nothing happens so you will need to try a few browsers and maybe even OS or try switching your screen resolution. You may only get stuck N steps in and only find out then that you need to do this<p>2 Find temporary email and set up address on it. This may require a recaptcha which means 30 seconds of clicking images as they fade in very slowly. But your connection could drop or cut in which case, the captcha will show an error box and you start over<p>3 Redo the signup form because it will say your password doesn't match the password policy (each of which is completely different for every site). 50% chance new captcha<p>4 If youre lucky the website will only require a user name and password. However it may ask up to 10 irrelevant questions depending on how pretentious the administrator is<p>5 The site may block the email provider, or the email provider blocks the sites. go back to step 1 and find a new email provider, but then the site might block you or escalate to SMS verification<p>The signup form could have multiple pages, and each time you click next there is an opportunity to badly handle connection loss or ban because some of the data transmitted was not as expected, or similar issues as one would expect of amateur code<p>if you activated the captcha before going out and setting up your email and come back, it may have expired. the login page may itself expire as well by the time you come back to it. we still didnt mention browser addons, which square once or twice more (missing DOM elements causing malfunction, XSS filtering breaking the page, ad blocker blocking, etc). the browser may ask to restart to apply an update when you open the tab for the email website (recent Firefox issue) and you start from scratch. some of these are avoided by having the concept of a single email address that you use for everything or 50% of everything, but it will get spammed and shared and may be or blocked or become so because you shared it too much",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "unixbane",
+    "url": "https://news.ycombinator.com/user?id=unixbane"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32429505",
+  "sameAs": "https://news.ycombinator.com/item?id=32429505",
+  "dateCreated": "2022-08-11T18:31:43.220Z",
+  "datePublished": "2022-08-11T18:00:11.000Z",
+  "dateModified": "2022-08-11T18:31:43.220Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么你认为网络是一个东西？\n",
+  "headline_zh-Hant": "Ask HN: 為什麼你認為網絡是一個東西？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "想象一下，你刚刚发现一个你有轻微兴趣的网站，它需要注册<p>你不知道该网站是否会阻止你的IP，因为一些禁止名单包含了你的IP屏蔽，因为你所在城市的其他人做了一些事情让它出现在那里（比如不小心敲了'键）。但你到最后也不会知道，因为他们没有在用户界面上添加屏蔽功能，而是通过对后端进行小的修正<p>接下来，你将不得不假设它需要在验证码之上进行电子邮件验证。如果你只是输入一个不存在的随机电子邮件地址并点击下一步按钮，它可能（99%的可能性）只会告诉你去检查那个收件箱的验证链接。在这之后，它可能会因为你过快地尝试第二次注册而禁止你。因此，最好总是使用一个临时电子邮件<p>网站上可能有一个CPU或GPU密集型的瓶颈，极大地减慢了这个过程。例如，Github首页的3D地球仪让低端机器停滞不前<p>你现在必须遵循这些步骤：<p>1 由于需要特定的浏览器或操作系统，该表格可能根本无法工作。这通常表现为你点击一个按钮，但什么也没有发生，所以你需要尝试几个浏览器，甚至操作系统，或者尝试切换你的屏幕分辨率。你可能只卡了N步，然后才发现你需要这样做<p>2 找到临时电子邮件并在上面设置地址。这可能需要一个recaptcha，这意味着要点击30秒的图像，因为它们会非常缓慢地淡出。但是你的连接可能会下降或中断，在这种情况下，验证码会显示一个错误框，你要重新开始<p>3 重做注册表，因为它会说你的密码不符合密码政策（每个网站都完全不同）。50%的机会是新的验证码<p>4 如果你很幸运，网站将只要求一个用户名和密码。然而，它可能会问多达10个不相关的问题，这取决于管理员有多自命不凡<p>5 该网站可能会阻止电子邮件提供商，或者电子邮件提供商阻止网站。回到第1步，找到一个新的电子邮件提供商，但随后网站可能会阻止你或升级到短信验证<p>注册表可能有多个页面，每次你点击下一步都有机会严重处理连接丢失或禁止，因为一些传输的数据不符合预期，或类似于人们期望的业余代码的问题<p>如果你在出去和设置电子邮件之前激活验证码，回来时，它可能已经过期。我们仍然没有提到浏览器插件，这类插件已经出现过一两次了（DOM元素缺失导致故障，XSS过滤破坏页面，广告拦截器拦截等）。当你打开电子邮件网站的标签时，浏览器可能会要求重新启动以应用更新（最近的火狐浏览器问题），你会从头开始。其中一些问题可以通过拥有一个单一的电子邮件地址的概念来避免，你用它来做所有的事情或50%的事情，但它会被垃圾邮件和分享，可能会被阻止或变得如此，因为你分享得太多了\n",
+  "description_zh-Hant": "想象一下，你剛剛發現一個你有輕微興趣的網站，它需要註冊<p>你不知道該網站是否會阻止你的IP，因為一些禁止名單包含了你的IP屏蔽，因為你所在城市的其他人做了一些事情讓它出現在那裡（比如不小心敲了'鍵）。但你到最後也不會知道，因為他們沒有在用戶界面上添加屏蔽功能，而是通過對後端進行小的修正<p>接下來，你將不得不假設它需要在驗證碼之上進行電子郵件驗證。如果你只是輸入一個不存在的隨機電子郵件地址並點擊下一步按鈕，它可能（99%的可能性）只會告訴你去檢查那個收件箱的驗證鏈接。在這之後，它可能會因為你過快地嘗試第二次註冊而禁止你。因此，最好總是使用一個臨時電子郵件<p>網站上可能有一個CPU或GPU密集型的瓶頸，極大地減慢了這個過程。例如，Github首頁的3D地球儀讓低端機器停滯不前<p>你現在必須遵循這些步驟：<p>1 由於需要特定的瀏覽器或操作系統，該表格可能根本無法工作。這通常表現為你點擊一個按鈕，但什麼也沒有發生，所以你需要嘗試幾個瀏覽器，甚至操作系統，或者嘗試切換你的屏幕分辨率。你可能只卡了N步，然後才發現你需要這樣做<p>2 找到臨時電子郵件並在上面設置地址。這可能需要一個recaptcha，這意味著要點擊30秒的圖像，因為它們會非常緩慢地淡出。但是你的連接可能會下降或中斷，在這種情況下，驗證碼會顯示一個錯誤框，你要重新開始<p>3 重做註冊表，因為它會說你的密碼不符合密碼政策（每個網站都完全不同）。50%的機會是新的驗證碼<p>4 如果你很幸運，網站將只要求一個用戶名和密碼。然而，它可能會問多達10個不相關的問題，這取決於管理員有多自命不凡<p>5 該網站可能會阻止電子郵件提供商，或者電子郵件提供商阻止網站。回到第1步，找到一個新的電子郵件提供商，但隨後網站可能會阻止你或升級到短信驗證<p>註冊表可能有多個頁面，每次你點擊下一步都有機會嚴重處理連接丟失或禁止，因為一些傳輸的數據不符合預期，或類似於人們期望的業餘代碼的問題<p>如果你在出去和設置電子郵件之前激活驗證碼，回來時，它可能已經過期。我們仍然沒有提到瀏覽器插件，這類插件已經出現過一兩次了（DOM元素缺失導致故障，XSS過濾破壞頁面，廣告攔截器攔截等）。當你打開電子郵件網站的標籤時，瀏覽器可能會要求重新啟動以應用更新（最近的火狐瀏覽器問題），你會從頭開始。其中一些問題可以通過擁有一個單一的電子郵件地址的概念來避免，你用它來做所有的事情或50%的事情，但它會被垃圾郵件和分享，可能會被阻止或變得如此，因為你分享得太多了\n"
+}
