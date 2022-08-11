@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--myfeed--HackerNews--NewsArticle--32420182",
+  "url": "https://news.ycombinator.com/item?id=32420182",
+  "headline": "Windows devices with newest processors might be susceptible to data damage",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "MikusR",
+    "url": "https://news.ycombinator.com/user?id=MikusR"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32420182",
+  "sameAs": "https://support.microsoft.com/en-au/topic/kb5017259-windows-devices-that-have-the-newest-supported-processors-might-be-susceptible-to-data-damage-d5e7c0cb-6e0a-4865-81ed-c82e91657a24",
+  "dateCreated": "2022-08-11T02:09:17.451Z",
+  "datePublished": "2022-08-11T00:32:29.000Z",
+  "dateModified": "2022-08-11T02:09:17.451Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "采用最新处理器的Windows设备可能容易受到数据损坏的影响\n",
+  "headline_zh-Hant": "採用最新處理器的Windows設備可能容易受到數據損壞的影響\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

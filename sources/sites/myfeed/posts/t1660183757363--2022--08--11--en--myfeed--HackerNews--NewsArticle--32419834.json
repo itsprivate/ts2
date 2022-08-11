@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--myfeed--HackerNews--NewsArticle--32419834",
+  "url": "https://news.ycombinator.com/item?id=32419834",
+  "headline": "Book Review: Albion's Seed",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "eternalban",
+    "url": "https://news.ycombinator.com/user?id=eternalban"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32419834",
+  "sameAs": "https://slatestarcodex.com/2016/04/27/book-review-albions-seed/",
+  "dateCreated": "2022-08-11T02:09:17.363Z",
+  "datePublished": "2022-08-10T23:38:33.000Z",
+  "dateModified": "2022-08-11T02:09:17.363Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "书评。阿尔比恩的种子\n",
+  "headline_zh-Hant": "書評。阿爾比恩的種子\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
