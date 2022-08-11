@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--myfeed--HackerNews--NewsArticle--32428077",
+  "url": "https://news.ycombinator.com/item?id=32428077",
+  "headline": "Latest VSCode has experimental sticky scrolling feature",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "amsterdorn",
+    "url": "https://news.ycombinator.com/user?id=amsterdorn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32428077",
+  "sameAs": "https://code.visualstudio.com/updates/v1_70#_editor-sticky-scroll",
+  "dateCreated": "2022-08-11T16:35:28.201Z",
+  "datePublished": "2022-08-11T16:24:56.000Z",
+  "dateModified": "2022-08-11T16:35:28.201Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "最新的VSCode具有实验性的粘性滚动功能\n",
+  "headline_zh-Hant": "最新的VSCode具有實驗性的粘性滾動功能\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
