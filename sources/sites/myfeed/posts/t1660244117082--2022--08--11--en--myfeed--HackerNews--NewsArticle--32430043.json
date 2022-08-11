@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--myfeed--HackerNews--NewsArticle--32430043",
+  "url": "https://news.ycombinator.com/item?id=32430043",
+  "headline": "Google to exempt campaign emails from spam detection",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Kortaggio",
+    "url": "https://news.ycombinator.com/user?id=Kortaggio"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32430043",
+  "sameAs": "https://www.washingtonpost.com/politics/2022/08/11/google-spam-filter-republican-fundraising/",
+  "dateCreated": "2022-08-11T18:55:17.082Z",
+  "datePublished": "2022-08-11T18:44:52.000Z",
+  "dateModified": "2022-08-11T18:55:17.082Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "谷歌将免除竞选邮件的垃圾邮件检测\n",
+  "headline_zh-Hant": "谷歌將免除競選郵件的垃圾郵件檢測\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
