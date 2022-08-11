@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--myfeed--HackerNews--NewsArticle--32428219",
+  "url": "https://news.ycombinator.com/item?id=32428219",
+  "headline": "Show HN: Map Buddy: Discover, subscribe, and create interactive maps",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Map Buddy was built to make it easy to map ephemeral events that just aren't a good fit for other map apps. For example: Garage Sales, roaming Food Trucks, and the locations of vendors and water stations at outdoor music festivals.<p>The long term goal is for most of the maps to be created by the community. That said, to fix the chicken-and-egg problem, there are several automated first-party maps that contain fun data. For example, there are maps for San Francisco police, Fire Department, and 311 calls, and Earthquake epicenters from all around the world.<p>If all this information were to always be visible then the user would certainly be overwhelmed! They would also see a lot of stuff they just don't care about. Instead, Map Buddy users subscribe to the maps they care about, and their home map is a composite of all of these maps. This means you might see coffee shops, Dreamforce after parties, and Burning Man art, while your friend might see coffee shops, the local chamber of commerce members, and doggy bag stations.<p>Map Buddy is available as a mobile-friendly web app, iOS app, and Android app:<p>- Web: [<a href=\"https://app.mapbuddy.app/](https://app.mapbuddy.app/)\" rel=\"nofollow\">https://app.mapbuddy.app/](https://app.mapbuddy.app/)</a>\n- iOS: [<a href=\"https://apps.apple.com/app/radar-chat-local-discovery/id1599975217](https://apps.apple.com/app/radar-chat-local-discovery/id1599975217)\" rel=\"nofollow\">https://apps.apple.com/app/radar-chat-local-discovery/id1599...</a>\n- Android: [<a href=\"https://play.google.com/store/apps/details?id=chat.radar.app.twa](https://play.google.com/store/apps/details?id=chat.radar.app.twa)\" rel=\"nofollow\">https://play.google.com/store/apps/details?id=chat.radar.app...</a><p>Map Buddy is also a convenient general-purpose mapping tool. It has customers who use it to map partnering business and embed the map as an iframe on their website. Map Buddy only shows exactly the locations that have been added. This differs from other tools that show your map entries, plus ads for coffee shops and the local Target.<p>Most map posts also support threaded conversations (this is configurable per post). This allows people to, for example, discuss an earthquake that they felt, a robbery that they overheard, or even express their love for their favorite tree without having to carve their initials on it.<p>Here are some examples of the features of Map Buddy:<p>- Conversation screen for a large bay area earthquake:\n    - <a href=\"https://app.mapbuddy.app/post/earthquakes/2I0J4lRxuDY7na1tacFvLY\" rel=\"nofollow\">https://app.mapbuddy.app/post/earthquakes/2I0J4lRxuDY7na1tac...</a>\n- Map showcasing a house for sale and nearby places of interest:\n    - <a href=\"https://app.mapbuddy.app/map/berkeley-2164-oregon-st\" rel=\"nofollow\">https://app.mapbuddy.app/map/berkeley-2164-oregon-st</a>\n- SFPD incident map at a specific viewport:\n    - <a href=\"https://app.mapbuddy.app/map/sfpd/@37.77637,-122.43460,17z\" rel=\"nofollow\">https://app.mapbuddy.app/map/sfpd/@37.77637,-122.43460,17z</a><p>The most advanced feature is for scavenger hunts, which Map Buddy's first customer uses extensively. They are a STEM Ed organization that partners with local companies in the space, such as planetariums and libraries. Students install the app and visit the locations in real life. Once there, they can check-in using the app. My customer then rewards students who check-in the most by raffling off prizes.<p>At this point almost everything is free. The only thing that's really charged for is manual data entry (basically cleaning up and importing a spreadsheet of locations) and the check-in feature (they need a TOS page and must be vetted since emails are shared).<p>This project was previously announced on HN as &quot;Radar Chat&quot;. Since then, the app has evolved in many ways, especially in going from a focus on users that create messages to companies that create curated maps.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "tlhunter",
+    "url": "https://news.ycombinator.com/user?id=tlhunter"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32428219",
+  "sameAs": "https://mapbuddy.app/",
+  "dateCreated": "2022-08-11T17:05:45.518Z",
+  "datePublished": "2022-08-11T16:33:13.000Z",
+  "dateModified": "2022-08-11T17:05:45.518Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 地图之友。发现、订阅和创建互动地图\n",
+  "headline_zh-Hant": "Show HN: 地圖之友。發現、訂閱和創建互動地圖\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Map Buddy was built to make it easy to map ephemeral events that just aren't a good fit for other map apps. For example: Garage Sales, roaming Food Trucks, and the locations of vendors and water stations at outdoor music festivals.<p>The long term goal is for most of the maps to be created by the community. That said, to fix the chicken-and-egg problem, there are several automated first-party maps that contain fun data. For example, there are maps for San Francisco police, Fire Department, and 311 calls, and Earthquake epicenters from all around the world.<p>If all this information were to always be visible then the user would certainly be overwhelmed! They would also see a lot of stuff they just don't care about. Instead, Map Buddy users subscribe to the maps they care about, and their home map is a composite of all of these maps. This means you might see coffee shops, Dreamforce after parties, and Burning Man art, while your friend might see coffee shops, the local chamber of commerce members, and doggy bag stations.<p>Map Buddy is available as a mobile-friendly web app, iOS app, and Android app:<p>- Web: [<a href=\"https://app.mapbuddy.app/](https://app.mapbuddy.app/)\" rel=\"nofollow\">https://app.mapbuddy.app/](https://app.mapbuddy.app/)</a>\n- iOS: [<a href=\"https://apps.apple.com/app/radar-chat-local-discovery/id1599975217](https://apps.apple.com/app/radar-chat-local-discovery/id1599975217)\" rel=\"nofollow\">https://apps.apple.com/app/radar-chat-local-discovery/id1599...</a>\n- Android: [<a href=\"https://play.google.com/store/apps/details?id=chat.radar.app.twa](https://play.google.com/store/apps/details?id=chat.radar.app.twa)\" rel=\"nofollow\">https://play.google.com/store/apps/details?id=chat.radar.app...</a><p>Map Buddy is also a convenient general-purpose mapping tool. It has customers who use it to map partnering business and embed the map as an iframe on their website. Map Buddy only shows exactly the locations that have been added. This differs from other tools that show your map entries, plus ads for coffee shops and the local Target.<p>Most map posts also support threaded conversations (this is configurable per post). This allows people to, for example, discuss an earthquake that they felt, a robbery that they overheard, or even express their love for their favorite tree without having to carve their initials on it.<p>Here are some examples of the features of Map Buddy:<p>- Conversation screen for a large bay area earthquake:\n    - <a href=\"https://app.mapbuddy.app/post/earthquakes/2I0J4lRxuDY7na1tacFvLY\" rel=\"nofollow\">https://app.mapbuddy.app/post/earthquakes/2I0J4lRxuDY7na1tac...</a>\n- Map showcasing a house for sale and nearby places of interest:\n    - <a href=\"https://app.mapbuddy.app/map/berkeley-2164-oregon-st\" rel=\"nofollow\">https://app.mapbuddy.app/map/berkeley-2164-oregon-st</a>\n- SFPD incident map at a specific viewport:\n    - <a href=\"https://app.mapbuddy.app/map/sfpd/@37.77637,-122.43460,17z\" rel=\"nofollow\">https://app.mapbuddy.app/map/sfpd/@37.77637,-122.43460,17z</a><p>The most advanced feature is for scavenger hunts, which Map Buddy's first customer uses extensively. They are a STEM Ed organization that partners with local companies in the space, such as planetariums and libraries. Students install the app and visit the locations in real life. Once there, they can check-in using the app. My customer then rewards students who check-in the most by raffling off prizes.<p>At this point almost everything is free. The only thing that's really charged for is manual data entry (basically cleaning up and importing a spreadsheet of locations) and the check-in feature (they need a TOS page and must be vetted since emails are shared).<p>This project was previously announced on HN as &quot;Radar Chat&quot;. Since then, the app has evolved in many ways, especially in going from a focus on users that create messages to companies that create curated maps.\n",
+  "description_zh-Hant": "Map Buddy was built to make it easy to map ephemeral events that just aren't a good fit for other map apps. For example: Garage Sales, roaming Food Trucks, and the locations of vendors and water stations at outdoor music festivals.<p>The long term goal is for most of the maps to be created by the community. That said, to fix the chicken-and-egg problem, there are several automated first-party maps that contain fun data. For example, there are maps for San Francisco police, Fire Department, and 311 calls, and Earthquake epicenters from all around the world.<p>If all this information were to always be visible then the user would certainly be overwhelmed! They would also see a lot of stuff they just don't care about. Instead, Map Buddy users subscribe to the maps they care about, and their home map is a composite of all of these maps. This means you might see coffee shops, Dreamforce after parties, and Burning Man art, while your friend might see coffee shops, the local chamber of commerce members, and doggy bag stations.<p>Map Buddy is available as a mobile-friendly web app, iOS app, and Android app:<p>- Web: [<a href=\"https://app.mapbuddy.app/](https://app.mapbuddy.app/)\" rel=\"nofollow\">https://app.mapbuddy.app/](https://app.mapbuddy.app/)</a>\n- iOS: [<a href=\"https://apps.apple.com/app/radar-chat-local-discovery/id1599975217](https://apps.apple.com/app/radar-chat-local-discovery/id1599975217)\" rel=\"nofollow\">https://apps.apple.com/app/radar-chat-local-discovery/id1599...</a>\n- Android: [<a href=\"https://play.google.com/store/apps/details?id=chat.radar.app.twa](https://play.google.com/store/apps/details?id=chat.radar.app.twa)\" rel=\"nofollow\">https://play.google.com/store/apps/details?id=chat.radar.app...</a><p>Map Buddy is also a convenient general-purpose mapping tool. It has customers who use it to map partnering business and embed the map as an iframe on their website. Map Buddy only shows exactly the locations that have been added. This differs from other tools that show your map entries, plus ads for coffee shops and the local Target.<p>Most map posts also support threaded conversations (this is configurable per post). This allows people to, for example, discuss an earthquake that they felt, a robbery that they overheard, or even express their love for their favorite tree without having to carve their initials on it.<p>Here are some examples of the features of Map Buddy:<p>- Conversation screen for a large bay area earthquake:\n    - <a href=\"https://app.mapbuddy.app/post/earthquakes/2I0J4lRxuDY7na1tacFvLY\" rel=\"nofollow\">https://app.mapbuddy.app/post/earthquakes/2I0J4lRxuDY7na1tac...</a>\n- Map showcasing a house for sale and nearby places of interest:\n    - <a href=\"https://app.mapbuddy.app/map/berkeley-2164-oregon-st\" rel=\"nofollow\">https://app.mapbuddy.app/map/berkeley-2164-oregon-st</a>\n- SFPD incident map at a specific viewport:\n    - <a href=\"https://app.mapbuddy.app/map/sfpd/@37.77637,-122.43460,17z\" rel=\"nofollow\">https://app.mapbuddy.app/map/sfpd/@37.77637,-122.43460,17z</a><p>The most advanced feature is for scavenger hunts, which Map Buddy's first customer uses extensively. They are a STEM Ed organization that partners with local companies in the space, such as planetariums and libraries. Students install the app and visit the locations in real life. Once there, they can check-in using the app. My customer then rewards students who check-in the most by raffling off prizes.<p>At this point almost everything is free. The only thing that's really charged for is manual data entry (basically cleaning up and importing a spreadsheet of locations) and the check-in feature (they need a TOS page and must be vetted since emails are shared).<p>This project was previously announced on HN as &quot;Radar Chat&quot;. Since then, the app has evolved in many ways, especially in going from a focus on users that create messages to companies that create curated maps.\n"
+}

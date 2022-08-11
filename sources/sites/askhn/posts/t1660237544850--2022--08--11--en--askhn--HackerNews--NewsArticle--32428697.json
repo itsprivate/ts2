@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--askhn--HackerNews--NewsArticle--32428697",
+  "url": "https://news.ycombinator.com/item?id=32428697",
+  "headline": "Ask HN: Data Migration Apps / Frameworks?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We have a small SaaS product (4 developers on the team) with many competitors in the space, including a variety of homegrown solutions. Our industry has existed for many decades, and so many of our new customers have records dating back tens of years or more. In our industry, it's vital the historic records be migrated to any new software solution, and so we are in a position of needing to migrate data for almost every new client that we onboard. And because these new clients are currently using a variety of competitor software products, or their own in-house system of Excel sheets and TXT files, we end up hand-migrating everyone, which is both error prone and time consuming.<p>We have an in-house system to help eliminate errors in the migrations, but it is still EXTREMELY time consuming to build the migration scripts and vet the data, and we still end up with errored data from time to time.<p>What I'm hoping to find is some program (Free, Paid, whatever) or framework (Any language is fine) that can help with the migration process. Ideally this is a program that we can point at a data source (Even if we first have to hand move things into a proper database engine) and then write queries or transformations to get that data into our required format. Even better if the utility can keep track of data that we didn't move and show us what tables/columns were not moved so that we can audit the migrations in order to verify that all required data is being moved.<p>With all of the SaaS products in the world, I'd be surprised if nothing exists in this space, but so far in my lunch break googling I've come up empty.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "AnAnonymousDude",
+    "url": "https://news.ycombinator.com/user?id=AnAnonymousDude"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32428697",
+  "sameAs": "https://news.ycombinator.com/item?id=32428697",
+  "dateCreated": "2022-08-11T17:05:44.850Z",
+  "datePublished": "2022-08-11T17:02:45.000Z",
+  "dateModified": "2022-08-11T17:05:44.850Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 数据迁移应用程序/框架？\n",
+  "headline_zh-Hant": "Ask HN: 數據遷移應用程序/框架？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们有一个小型的SaaS产品（团队中有4名开发人员），在这个领域有许多竞争对手，包括各种自制的解决方案。我们的行业已经存在了几十年，所以我们的许多新客户的记录可以追溯到几十年前或更早。在我们的行业中，将历史记录迁移到任何新的软件解决方案中是至关重要的，因此我们几乎需要为每一个新加入的客户迁移数据。由于这些新客户目前正在使用各种竞争对手的软件产品，或者他们自己的Excel表和TXT文件的内部系统，我们最终要手工迁移每个人的数据，这既容易出错，也很耗时。 <p>我们有一个内部系统来帮助消除迁移中的错误，但是建立迁移脚本和审查数据仍然非常耗时，而且我们仍然不时地出现错误的数据。<p>我希望能够找到一些能够帮助迁移过程的程序（免费的、付费的，等等）或框架（任何语言都可以）。理想情况下，这是一个我们可以指向数据源的程序（即使我们首先要手工将东西移到一个适当的数据库引擎中），然后编写查询或转换，将数据转换成我们需要的格式。如果该工具能够跟踪我们没有移动的数据，并显示哪些表/列没有被移动，那就更好了，这样我们就可以对迁移进行审计，以验证所有需要的数据都被移动了。<p>由于世界上有那么多的SaaS产品，如果在这个领域没有存在，我会感到惊讶，但到目前为止，我在午休时间上网搜索，却一无所获。\n",
+  "description_zh-Hant": "我們有一個小型的SaaS產品（團隊中有4名開發人員），在這個領域有許多競爭對手，包括各種自制的解決方案。我們的行業已經存在了幾十年，所以我們的許多新客戶的記錄可以追溯到幾十年前或更早。在我們的行業中，將歷史記錄遷移到任何新的軟件解決方案中是至關重要的，因此我們幾乎需要為每一個新加入的客戶遷移數據。由於這些新客戶目前正在使用各種競爭對手的軟件產品，或者他們自己的Excel表和TXT文件的內部系統，我們最終要手工遷移每個人的數據，這既容易出錯，也很耗時。 <p>我們有一個內部系統來幫助消除遷移中的錯誤，但是建立遷移腳本和審查數據仍然非常耗時，而且我們仍然不時地出現錯誤的數據。<p>我希望能夠找到一些能夠幫助遷移過程的程序（免費的、付費的，等等）或框架（任何語言都可以）。理想情況下，這是一個我們可以指向數據源的程序（即使我們首先要手工將東西移到一個適當的數據庫引擎中），然後編寫查詢或轉換，將數據轉換成我們需要的格式。如果該工具能夠跟蹤我們沒有移動的數據，並顯示哪些表/列沒有被移動，那就更好了，這樣我們就可以對遷移進行審計，以驗證所有需要的數據都被移動了。<p>由於世界上有那麼多的SaaS產品，如果在這個領域沒有存在，我會感到驚訝，但到目前為止，我在午休時間上網搜索，卻一無所獲。\n"
+}
