@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--myfeed--HackerNews--NewsArticle--32421520",
+  "url": "https://news.ycombinator.com/item?id=32421520",
+  "headline": "Bevy – data-driven game engine built in Rust",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "modinfo",
+    "url": "https://news.ycombinator.com/user?id=modinfo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32421520",
+  "sameAs": "https://bevyengine.org/",
+  "dateCreated": "2022-08-11T05:25:07.377Z",
+  "datePublished": "2022-08-11T04:15:06.000Z",
+  "dateModified": "2022-08-11T05:25:07.377Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Bevy - 用Rust构建的数据驱动的游戏引擎\n",
+  "headline_zh-Hant": "Bevy - 用Rust構建的數據驅動的遊戲引擎\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
