@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--askhn--HackerNews--NewsArticle--32429194",
+  "url": "https://news.ycombinator.com/item?id=32429194",
+  "headline": "Ask HN: How to best document large, legacy systems?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm a relatively new developer coming into a 10+-year-old business-critical app with the expected share of arcane domain knowledge and unintuitive behaviour.<p>We have some very high-level overviews of the UI but very little documentation on what the system 'should' do for a given interaction. This means that I and the other devs are constantly second-guessing what the expected behaviour is. Authoritative answers from the business come slowly and piecemeal, usually via word-of-mouth, and aren't recorded in any systematic way.<p>I've been trying to do my part by documenting what I learn on the development team's personal wiki, but it doesn't feel like enough. Does anyone have experience writing after-the-fact specifications for legacy software? How did you sell it to management? Were there any pitfalls you fell into? Most importantly of all, I guess: was it worth it?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "becquerel",
+    "url": "https://news.ycombinator.com/user?id=becquerel"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32429194",
+  "sameAs": "https://news.ycombinator.com/item?id=32429194",
+  "dateCreated": "2022-08-11T17:55:52.588Z",
+  "datePublished": "2022-08-11T17:36:16.000Z",
+  "dateModified": "2022-08-11T17:55:52.588Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何最好地记录大型遗留系统？\n",
+  "headline_zh-Hant": "Ask HN: 如何最好地記錄大型遺留系統？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我是一名相对较新的开发人员，刚进入一个有10多年历史的关键业务应用程序，其中包含了预期的神秘领域知识和不直观的行为。<p>我们有一些非常高层次的UI概述，但很少有关于系统在特定交互中 \"应该 \"做什么的文档。这意味着，我和其他开发人员一直在猜测什么是预期行为。来自业务部门的权威性答案是缓慢而零散的，通常是通过口耳相传，而且没有任何系统性的记录。<p>我一直试图通过在开发团队的个人wiki上记录我所学到的东西来尽自己的一份力量，但这感觉还不够。有谁有为遗留软件编写事后规范的经验？你是如何向管理层推销的？你有没有陷入什么陷阱？最重要的是，我想：这值得吗？\n",
+  "description_zh-Hant": "我是一名相對較新的開發人員，剛進入一個有10多年曆史的關鍵業務應用程序，其中包含了預期的神秘領域知識和不直觀的行為。<p>我們有一些非常高層次的UI概述，但很少有關於系統在特定交互中 \"應該 \"做什麼的文檔。這意味著，我和其他開發人員一直在猜測什麼是預期行為。來自業務部門的權威性答案是緩慢而零散的，通常是通過口耳相傳，而且沒有任何系統性的記錄。<p>我一直試圖通過在開發團隊的個人wiki上記錄我所學到的東西來儘自己的一份力量，但這感覺還不夠。有誰有為遺留軟件編寫事後規範的經驗？你是如何向管理層推銷的？你有沒有陷入什麼陷阱？最重要的是，我想：這值得嗎？\n"
+}
