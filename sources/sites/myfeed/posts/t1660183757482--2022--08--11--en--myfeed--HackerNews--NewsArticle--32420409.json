@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--myfeed--HackerNews--NewsArticle--32420409",
+  "url": "https://news.ycombinator.com/item?id=32420409",
+  "headline": "Inflation drops to zero in July due to falling gas prices",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "MilnerRoute",
+    "url": "https://news.ycombinator.com/user?id=MilnerRoute"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32420409",
+  "sameAs": "https://www.axios.com/2022/08/10/inflation-cpi-report-july",
+  "dateCreated": "2022-08-11T02:09:17.482Z",
+  "datePublished": "2022-08-11T01:07:19.000Z",
+  "dateModified": "2022-08-11T02:09:17.482Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "由于天然气价格下降，7月份通货膨胀率降至零\n",
+  "headline_zh-Hant": "由於天然氣價格下降，7月份通貨膨脹率降至零\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
