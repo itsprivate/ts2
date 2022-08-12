@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--12--en--besthn--HackerNews--NewsArticle--32425178",
+  "url": "https://news.ycombinator.com/item?id=32425178",
+  "headline": "GM makes $1,500 subscription mandatory on GMC, Buick, Cadillac Models",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "seitzej",
+    "url": "https://news.ycombinator.com/user?id=seitzej"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32425178",
+  "sameAs": "https://www.thedrive.com/news/gm-makes-1500-onstar-subscription-mandatory-on-gmc-buick-cadillac-models",
+  "dateCreated": "2022-08-12T07:43:07.354Z",
+  "datePublished": "2022-08-11T13:21:16.000Z",
+  "dateModified": "2022-08-12T07:43:07.354Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 200
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 134
+    }
+  ],
+  "headline_zh-Hans": "通用汽车强制要求GMC、别克、凯迪拉克车型缴纳1500美元的会费\n",
+  "headline_zh-Hant": "通用汽車強制要求GMC、別克、凱迪拉克車型繳納1500美元的會費\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
