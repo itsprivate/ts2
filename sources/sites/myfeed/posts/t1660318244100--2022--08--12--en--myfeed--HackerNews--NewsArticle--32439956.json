@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--12--en--myfeed--HackerNews--NewsArticle--32439956",
+  "url": "https://news.ycombinator.com/item?id=32439956",
+  "headline": "Author Salman Rushdie attacked on lecture stage in New York",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "danso",
+    "url": "https://news.ycombinator.com/user?id=danso"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32439956",
+  "sameAs": "https://apnews.com/article/salman-rushdie-attacked-9eae99aea82cb0d39628851ecd42227a",
+  "dateCreated": "2022-08-12T15:30:44.100Z",
+  "datePublished": "2022-08-12T15:24:17.000Z",
+  "dateModified": "2022-08-12T15:30:44.100Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "作家萨尔曼-拉什迪在纽约的演讲台上遭到袭击\n",
+  "headline_zh-Hant": "作家薩爾曼-拉什迪在紐約的演講臺上遭到襲擊\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
