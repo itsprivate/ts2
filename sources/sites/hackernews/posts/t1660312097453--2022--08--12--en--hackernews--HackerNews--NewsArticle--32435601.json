@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--12--en--hackernews--HackerNews--NewsArticle--32435601",
+  "url": "https://news.ycombinator.com/item?id=32435601",
+  "headline": "SQLite: Wal2 Mode Notes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "umanghere",
+    "url": "https://news.ycombinator.com/user?id=umanghere"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32435601",
+  "sameAs": "https://www.sqlite.org/cgi/src/doc/wal2/doc/wal2.md",
+  "dateCreated": "2022-08-12T13:48:17.453Z",
+  "datePublished": "2022-08-12T07:40:24.000Z",
+  "dateModified": "2022-08-12T13:48:17.453Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 28
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "SQLite。Wal2模式说明\n",
+  "headline_zh-Hant": "SQLite。Wal2模式說明\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
