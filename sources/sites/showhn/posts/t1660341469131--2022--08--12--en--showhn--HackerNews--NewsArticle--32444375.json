@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--12--en--showhn--HackerNews--NewsArticle--32444375",
+  "url": "https://news.ycombinator.com/item?id=32444375",
+  "headline": "Show HN: DAW JSON Link",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I just released v3 of DAW JSON Link <a href=\"https://github.com/beached/daw_json_link\" rel=\"nofollow\">https://github.com/beached/daw_json_link</a>, a C++ JSON library, that I am the author of.  It's a C++ JSON library that prioritizes concrete data structures.  It is fast, GB/s, and competitive with other libraries out there like simdjson.   A brief list of things it supports are:\n  * declaratively map json objects to C++ data structures\n  * allows allocators to be provided and passes it to allocator aware types\n  * can parse via a non-owning json_value that allows JSON Path like indices along with iteration of sub members\n  * types to provide iteration over json arrays and use in C++ algorithms\n  * JSON Lines/NDJSON support\n  * The parser does not allocate at all, that is up to the resulting data structures, if needed.  The memory usage is very minimal\n  * Variants/Sum types are a priority and most expressions of them in JSON have easy mappings with a fallback to code if needed\n  * JSON Schema output from mappings\n  * Custom number types are supported(e.g Boost Multi-precision/GNU MP)\n  * Serialization to most things is supported out of the box with the ability to easily add a new way. This includes, pointer, output iterators, span like types, strings/vectors/containers of byte like types, FILE <i>...\n  </i> An accompanying project <a href=\"https://github.com/beached/daw_json_link_describe\" rel=\"nofollow\">https://github.com/beached/daw_json_link_describe</a> that allows using Boost.Describe reflection like mappings with JSON Link\n  * Lots of example code in tests folder and cookbook like documentation in the docs folder to see it in use.  All the examples in documentation are part of the test suite too\n  * Optionally allows for comments( # line comments and C-style // and /* <i>/)\n  </i> Allows for trailing comma\n  * constexpr",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "beached_whale",
+    "url": "https://news.ycombinator.com/user?id=beached_whale"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32444375",
+  "sameAs": "https://github.com/beached/daw_json_link",
+  "dateCreated": "2022-08-12T21:57:49.131Z",
+  "datePublished": "2022-08-12T21:54:08.000Z",
+  "dateModified": "2022-08-12T21:57:49.131Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: DAW JSON链接\n",
+  "headline_zh-Hant": "Show HN: DAW JSON鏈接\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "I just released v3 of DAW JSON Link <a href=\"https://github.com/beached/daw_json_link\" rel=\"nofollow\">https://github.com/beached/daw_json_link</a>, a C++ JSON library, that I am the author of.  It's a C++ JSON library that prioritizes concrete data structures.  It is fast, GB/s, and competitive with other libraries out there like simdjson.   A brief list of things it supports are:\n  * declaratively map json objects to C++ data structures\n  * allows allocators to be provided and passes it to allocator aware types\n  * can parse via a non-owning json_value that allows JSON Path like indices along with iteration of sub members\n  * types to provide iteration over json arrays and use in C++ algorithms\n  * JSON Lines/NDJSON support\n  * The parser does not allocate at all, that is up to the resulting data structures, if needed.  The memory usage is very minimal\n  * Variants/Sum types are a priority and most expressions of them in JSON have easy mappings with a fallback to code if needed\n  * JSON Schema output from mappings\n  * Custom number types are supported(e.g Boost Multi-precision/GNU MP)\n  * Serialization to most things is supported out of the box with the ability to easily add a new way. This includes, pointer, output iterators, span like types, strings/vectors/containers of byte like types, FILE <i>...\n  </i> An accompanying project <a href=\"https://github.com/beached/daw_json_link_describe\" rel=\"nofollow\">https://github.com/beached/daw_json_link_describe</a> that allows using Boost.Describe reflection like mappings with JSON Link\n  * Lots of example code in tests folder and cookbook like documentation in the docs folder to see it in use.  All the examples in documentation are part of the test suite too\n  * Optionally allows for comments( # line comments and C-style // and /* <i>/)\n  </i> Allows for trailing comma\n  * constexpr\n",
+  "description_zh-Hant": "I just released v3 of DAW JSON Link <a href=\"https://github.com/beached/daw_json_link\" rel=\"nofollow\">https://github.com/beached/daw_json_link</a>, a C++ JSON library, that I am the author of.  It's a C++ JSON library that prioritizes concrete data structures.  It is fast, GB/s, and competitive with other libraries out there like simdjson.   A brief list of things it supports are:\n  * declaratively map json objects to C++ data structures\n  * allows allocators to be provided and passes it to allocator aware types\n  * can parse via a non-owning json_value that allows JSON Path like indices along with iteration of sub members\n  * types to provide iteration over json arrays and use in C++ algorithms\n  * JSON Lines/NDJSON support\n  * The parser does not allocate at all, that is up to the resulting data structures, if needed.  The memory usage is very minimal\n  * Variants/Sum types are a priority and most expressions of them in JSON have easy mappings with a fallback to code if needed\n  * JSON Schema output from mappings\n  * Custom number types are supported(e.g Boost Multi-precision/GNU MP)\n  * Serialization to most things is supported out of the box with the ability to easily add a new way. This includes, pointer, output iterators, span like types, strings/vectors/containers of byte like types, FILE <i>...\n  </i> An accompanying project <a href=\"https://github.com/beached/daw_json_link_describe\" rel=\"nofollow\">https://github.com/beached/daw_json_link_describe</a> that allows using Boost.Describe reflection like mappings with JSON Link\n  * Lots of example code in tests folder and cookbook like documentation in the docs folder to see it in use.  All the examples in documentation are part of the test suite too\n  * Optionally allows for comments( # line comments and C-style // and /* <i>/)\n  </i> Allows for trailing comma\n  * constexpr\n"
+}
