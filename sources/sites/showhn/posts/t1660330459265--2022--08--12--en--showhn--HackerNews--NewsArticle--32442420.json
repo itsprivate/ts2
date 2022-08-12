@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--12--en--showhn--HackerNews--NewsArticle--32442420",
+  "url": "https://news.ycombinator.com/item?id=32442420",
+  "headline": "Show HN: Just Listen: Listen to random podcast episodes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "wenbin",
+    "url": "https://news.ycombinator.com/user?id=wenbin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32442420",
+  "sameAs": "https://apps.apple.com/us/app/just-listen-podcast-app/id1444970658",
+  "dateCreated": "2022-08-12T18:54:19.265Z",
+  "datePublished": "2022-08-12T18:43:46.000Z",
+  "dateModified": "2022-08-12T18:54:19.265Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 只听。听随机的播客集\n",
+  "headline_zh-Hant": "Show HN: 只聽。聽隨機的播客集\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

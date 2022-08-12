@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--12--en--askhn--HackerNews--NewsArticle--32442496",
+  "url": "https://news.ycombinator.com/item?id=32442496",
+  "headline": "Ask HN: Frameworks for game-style UI with WebGL?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm at the point where I am starting to write shaders to do custom effects in WebGL,  such as combining a left and a right image to make an anaglyph image.<p>What I'm thinking about next is about how to make &quot;game like&quot; UIs on the web for desktop and mobile.  Some things that I am inspired by are:<p>(1) The Playstation 3 interface https://en.wikipedia.org/wiki/XrossMediaBar<p>(2) Interfaces in video games for viewing a database or documentation about the game world.  I'd like to make something similar but for some part of the real world.<p>The Pokédex from Pokémon is a familiar example but it's not such a good one because Pokémon games mostly run on low-spec handhelds,  so I am thinking more about what you'd see on a PC or TV console games...  But instead of using a game controller you'd be using the touchscreen,  mouse or keyboard.<p>(3) However I very much like how games for the Nintendo DS/3DS use the touchscreen such as peeling stickers in <i>Paper Mario Sticker Star</i> and how you can make Luigi fight in the boss battles in <i>Mario and Luigi Dream Team</i>.  So some advanced capability for touch gestures is wanted.<p>I'd prefer programming in Javascript,  could accept Typescript but it would be a hard sell if it (say) compiled something else to WebAssembly unless that came with awesome capabilities.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "PaulHoule",
+    "url": "https://news.ycombinator.com/user?id=PaulHoule"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32442496",
+  "sameAs": "https://news.ycombinator.com/item?id=32442496",
+  "dateCreated": "2022-08-12T18:54:10.816Z",
+  "datePublished": "2022-08-12T18:50:37.000Z",
+  "dateModified": "2022-08-12T18:54:10.816Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 使用WebGL的游戏式用户界面的框架？\n",
+  "headline_zh-Hant": "Ask HN: 使用WebGL的遊戲式用戶界面的框架？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "I'm at the point where I am starting to write shaders to do custom effects in WebGL, such as combining a left and a right image to make an anaglyph image.<p>What I'm thinking about next is about how to make &quot;game like&quot; UIs on the web for desktop and mobile.  Some things that I am inspired by are:<p>(1) The Playstation 3 interface https://en.wikipedia.org/wiki/XrossMediaBar<p>(2) Interfaces in video games for viewing a database or documentation about the game world.  I'd like to make something similar but for some part of the real world.<p>The Pokédex from Pokémon is a familiar example but it's not such a good one because Pokémon games mostly run on low-spec handhelds, so I am thinking more about what you'd see on a PC or TV console games...  But instead of using a game controller you'd be using the touchscreen, mouse or keyboard.<p>(3) However I very much like how games for the Nintendo DS/3DS use the touchscreen such as peeling stickers in <i>Paper Mario Sticker Star</i> and how you can make Luigi fight in the boss battles in <i>Mario and Luigi Dream Team</i>.  So some advanced capability for touch gestures is wanted.<p>I'd prefer programming in Javascript, could accept Typescript but it would be a hard sell if it (say) compiled something else to WebAssembly unless that came with awesome capabilities.\n",
+  "description_zh-Hant": "I'm at the point where I am starting to write shaders to do custom effects in WebGL, such as combining a left and a right image to make an anaglyph image.<p>What I'm thinking about next is about how to make &quot;game like&quot; UIs on the web for desktop and mobile.  Some things that I am inspired by are:<p>(1) The Playstation 3 interface https://en.wikipedia.org/wiki/XrossMediaBar<p>(2) Interfaces in video games for viewing a database or documentation about the game world.  I'd like to make something similar but for some part of the real world.<p>The Pokédex from Pokémon is a familiar example but it's not such a good one because Pokémon games mostly run on low-spec handhelds, so I am thinking more about what you'd see on a PC or TV console games...  But instead of using a game controller you'd be using the touchscreen, mouse or keyboard.<p>(3) However I very much like how games for the Nintendo DS/3DS use the touchscreen such as peeling stickers in <i>Paper Mario Sticker Star</i> and how you can make Luigi fight in the boss battles in <i>Mario and Luigi Dream Team</i>.  So some advanced capability for touch gestures is wanted.<p>I'd prefer programming in Javascript, could accept Typescript but it would be a hard sell if it (say) compiled something else to WebAssembly unless that came with awesome capabilities.\n"
+}
