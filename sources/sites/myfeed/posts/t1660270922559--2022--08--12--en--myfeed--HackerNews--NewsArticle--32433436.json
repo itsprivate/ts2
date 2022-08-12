@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--12--en--myfeed--HackerNews--NewsArticle--32433436",
+  "url": "https://news.ycombinator.com/item?id=32433436",
+  "headline": "CDC ends recommendations for social distancing and quarantine for Covid-19",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hammock",
+    "url": "https://news.ycombinator.com/user?id=hammock"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32433436",
+  "sameAs": "https://www.cnn.com/2022/08/11/health/cdc-covid-guidance-update/index.html",
+  "dateCreated": "2022-08-12T02:22:02.559Z",
+  "datePublished": "2022-08-12T00:18:49.000Z",
+  "dateModified": "2022-08-12T02:22:02.559Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "疾病预防控制中心结束了对Covid-19的社会疏远和隔离建议\n",
+  "headline_zh-Hant": "疾病預防控制中心結束了對Covid-19的社會疏遠和隔離建議\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--12--en--hackernews--HackerNews--NewsArticle--32432724",
+  "url": "https://news.ycombinator.com/item?id=32432724",
+  "headline": "Curio – Notebook application for note-taking and research",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sogen",
+    "url": "https://news.ycombinator.com/user?id=sogen"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32432724",
+  "sameAs": "https://www.zengobi.com/curio/",
+  "dateCreated": "2022-08-12T02:22:02.303Z",
+  "datePublished": "2022-08-11T22:40:46.000Z",
+  "dateModified": "2022-08-12T02:22:02.303Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 22
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 9
+    }
+  ],
+  "headline_zh-Hans": "Curio - 用于记事和研究的笔记本应用程序\n",
+  "headline_zh-Hant": "Curio - 用於記事和研究的筆記本應用程序\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
