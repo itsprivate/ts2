@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--12--en--myfeed--HackerNews--NewsArticle--32439128",
+  "url": "https://news.ycombinator.com/item?id=32439128",
+  "headline": "Laika – a new AI writing tool for writing pros",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "alphachar",
+    "url": "https://news.ycombinator.com/user?id=alphachar"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32439128",
+  "sameAs": "https://www.writewithlaika.com/",
+  "dateCreated": "2022-08-12T14:45:23.346Z",
+  "datePublished": "2022-08-12T14:24:19.000Z",
+  "dateModified": "2022-08-12T14:45:23.346Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Laika--为写作专家提供的新的AI写作工具\n",
+  "headline_zh-Hant": "Laika--為寫作專家提供的新的AI寫作工具\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

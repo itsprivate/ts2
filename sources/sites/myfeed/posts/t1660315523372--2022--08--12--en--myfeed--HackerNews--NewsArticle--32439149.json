@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--12--en--myfeed--HackerNews--NewsArticle--32439149",
+  "url": "https://news.ycombinator.com/item?id=32439149",
+  "headline": "Show HN: I made a Pie Chart maker for making pie charts without headache",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "atharvtathe",
+    "url": "https://news.ycombinator.com/user?id=atharvtathe"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32439149",
+  "sameAs": "https://piechartmaker.co/",
+  "dateCreated": "2022-08-12T14:45:23.372Z",
+  "datePublished": "2022-08-12T14:25:27.000Z",
+  "dateModified": "2022-08-12T14:45:23.372Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我做了一个饼图制作器，用于制作饼图而不感到头痛\n",
+  "headline_zh-Hant": "Show HN: 我做了一個餅圖製作器，用於製作餅圖而不感到頭痛\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
