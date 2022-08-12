@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--12--en--myfeed--HackerNews--NewsArticle--32438208",
+  "url": "https://news.ycombinator.com/item?id=32438208",
+  "headline": "Levity Polymorphism [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "asplake",
+    "url": "https://news.ycombinator.com/user?id=asplake"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32438208",
+  "sameAs": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/levity-pldi17.pdf",
+  "dateCreated": "2022-08-12T14:24:26.402Z",
+  "datePublished": "2022-08-12T13:22:25.000Z",
+  "dateModified": "2022-08-12T14:24:26.402Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Levity多态性 [pdf]\n",
+  "headline_zh-Hant": "Levity多態性 [pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
