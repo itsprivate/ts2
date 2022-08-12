@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--12--en--myfeed--HackerNews--NewsArticle--32437495",
+  "url": "https://news.ycombinator.com/item?id=32437495",
+  "headline": "Confusion in the Church-Turing Thesis",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nomad41",
+    "url": "https://news.ycombinator.com/user?id=nomad41"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32437495",
+  "sameAs": "https://arxiv.org/abs/1410.7103",
+  "dateCreated": "2022-08-12T12:51:30.910Z",
+  "datePublished": "2022-08-12T12:29:12.000Z",
+  "dateModified": "2022-08-12T12:51:30.910Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "教会-图灵论的混乱\n",
+  "headline_zh-Hant": "教會-圖靈論的混亂\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--12--en--askhn--HackerNews--NewsArticle--32437716",
+  "url": "https://news.ycombinator.com/item?id=32437716",
+  "headline": "Ask HN: What is better for a dev tool? Native Desktop App, or Rich Web App?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I am working on a dev tool providing an All-in-One user management interface for various databases, deployment tools (e.g., k8s), and logging/tracing systems.<p>The idea of having one binary application, you open it, and have everything in there (like IDE) sounds good to me. But I also see that more and more tools combine a backend application (client CLI/daemon running in the background) with a rich frontend web application for GUI.<p>Even for a native desktop application, I do not exclude having a daemon running in the background or on a remote server. But the main question is, what's better for the user-facing part? Native Desktop or Web App?<p>Which one do you think is preferable for a better user experience?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "umbrellasun",
+    "url": "https://news.ycombinator.com/user?id=umbrellasun"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32437716",
+  "sameAs": "https://news.ycombinator.com/item?id=32437716",
+  "dateCreated": "2022-08-12T12:51:30.406Z",
+  "datePublished": "2022-08-12T12:49:00.000Z",
+  "dateModified": "2022-08-12T12:51:30.406Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 什么是更好的开发工具？原生桌面应用，还是富网络应用？\n",
+  "headline_zh-Hant": "Ask HN: 什麼是更好的開發工具？原生桌面應用，還是富網絡應用？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在开发一个开发工具，为各种数据库、部署工具（如k8s）和日志/跟踪系统提供一个一体化的用户管理界面。<p>拥有一个二进制应用程序的想法，你打开它，并在其中拥有所有东西（如IDE），这对我来说听起来很好。但我也看到，越来越多的工具将后端应用程序（在后台运行的客户端CLI/daemon）与丰富的前端GUI的Web应用程序相结合。但主要的问题是，对于面向用户的部分，什么更好？是本地桌面应用程序还是Web应用程序？<p>你认为哪一个更适合获得更好的用户体验？\n",
+  "description_zh-Hant": "我正在開發一個開發工具，為各種數據庫、部署工具（如k8s）和日誌/跟蹤系統提供一個一體化的用戶管理界面。<p>擁有一個二進制應用程序的想法，你打開它，並在其中擁有所有東西（如IDE），這對我來說聽起來很好。但我也看到，越來越多的工具將後端應用程序（在後臺運行的客戶端CLI/daemon）與豐富的前端GUI的Web應用程序相結合。但主要的問題是，對於面向用戶的部分，什麼更好？是本地桌面應用程序還是Web應用程序？<p>你認為哪一個更適合獲得更好的用戶體驗？\n"
+}

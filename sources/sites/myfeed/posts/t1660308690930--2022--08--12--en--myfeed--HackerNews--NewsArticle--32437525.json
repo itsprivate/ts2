@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--12--en--myfeed--HackerNews--NewsArticle--32437525",
+  "url": "https://news.ycombinator.com/item?id=32437525",
+  "headline": "Deploying Rust web app on Fly.io",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "datarage",
+    "url": "https://news.ycombinator.com/user?id=datarage"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32437525",
+  "sameAs": "https://medium.com/@mister-life/deploying-a-rust-web-app-to-fly-io-bonus-the-dockerfile-also-works-for-aws-ecs-ac4731d46f47",
+  "dateCreated": "2022-08-12T12:51:30.930Z",
+  "datePublished": "2022-08-12T12:31:59.000Z",
+  "dateModified": "2022-08-12T12:51:30.930Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "在Fly.io上部署Rust Web应用\n",
+  "headline_zh-Hant": "在Fly.io上部署Rust Web應用\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
