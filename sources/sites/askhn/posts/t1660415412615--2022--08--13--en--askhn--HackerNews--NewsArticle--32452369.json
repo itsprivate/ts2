@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--13--en--askhn--HackerNews--NewsArticle--32452369",
+  "url": "https://news.ycombinator.com/item?id=32452369",
+  "headline": "Ask HN: How to prevent search engines from indexing certain pages of my blog?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello HN,<p>there is a very annoying law in Germany that says you basically have to put your name and address on your blog, no matter what the content is about.<p>You can't even make it a .jpg to prevent automated data crawling. Courts have ruled against it because it interferes with software that visually impaired people use.<p>Fines up to 50k Euros are possible.<p>So now I'm wondering how I can make it the least likely my blog will show up when somebody searches for my name?<p>Apparently a noindex metatag like this helps?<p>&lt;meta name=”robots” content=”noindex”&gt;<p>The reason I'm asking here is because the sites that discuss de-indexing pages are concerned with SEO, not privacy issues.<p>Does anybody have any other thoughts on how to achieve maximum privacy without breaking this law?<p>All input is appreciated.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "kali_clarkson",
+    "url": "https://news.ycombinator.com/user?id=kali_clarkson"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32452369",
+  "sameAs": "https://news.ycombinator.com/item?id=32452369",
+  "dateCreated": "2022-08-13T18:30:12.615Z",
+  "datePublished": "2022-08-13T18:21:19.000Z",
+  "dateModified": "2022-08-13T18:30:12.615Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何防止搜索引擎对我的博客的某些页面进行索引？\n",
+  "headline_zh-Hant": "Ask HN: 如何防止搜索引擎對我的博客的某些頁面進行索引？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你好，HN，<p>在德国有一条非常恼人的法律，说你基本上必须在你的博客上写上你的名字和地址，不管内容是什么。<p>你甚至不能把它变成.jpg，以防止自动数据爬行。<p>法院已经裁定反对，因为它干扰了视障人士使用的软件。<p>罚款可能高达5万欧元。<p>所以我现在想知道，当有人搜索我的名字时，我怎样才能使我的博客出现的可能性最小？<p>显然，像这样的无索引元标签有帮助？ <p>&lt;meta name=\"robots\" content=\"noindex\"&gt;<p>我之所以在这里问，是因为讨论去索引页面的网站关注的是SEO，而不是隐私问题。<p>对于如何在不违反法律的情况下实现最大的隐私，谁还有什么想法？\n",
+  "description_zh-Hant": "你好，HN，<p>在德國有一條非常惱人的法律，說你基本上必須在你的博客上寫上你的名字和地址，不管內容是什麼。<p>你甚至不能把它變成.jpg，以防止自動數據爬行。<p>法院已經裁定反對，因為它干擾了視障人士使用的軟件。<p>罰款可能高達5萬歐元。<p>所以我現在想知道，當有人搜索我的名字時，我怎樣才能使我的博客出現的可能性最小？<p>顯然，像這樣的無索引元標籤有幫助？ <p>&lt;meta name=\"robots\" content=\"noindex\"&gt;<p>我之所以在這裡問，是因為討論去索引頁面的網站關注的是SEO，而不是隱私問題。<p>對於如何在不違反法律的情況下實現最大的隱私，誰還有什麼想法？\n"
+}
