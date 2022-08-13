@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--13--en--myfeed--HackerNews--NewsArticle--32450107",
+  "url": "https://news.ycombinator.com/item?id=32450107",
+  "headline": "No, please not again, STOP inventing build systems",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We already have serious incompatibility problems with projects using autotools vs CMake vs Meson vs GYP vs Boost.Build vs SCons vs BUCK vs... and now we throw BUSY (https://github.com/rochus-keller/BUSY/) onto the pile.<p>It sucks when you find a smallish library and discover it uses an esoteric build system whose dependencies dwarf the library themselves (cough Yoga). The OSS community needs build system consolidation, not tacking on a 15th wheel to the cart.<p>Who cares that BUSY is statically typed?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "milbone",
+    "url": "https://news.ycombinator.com/user?id=milbone"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32450107",
+  "sameAs": "https://news.ycombinator.com/item?id=32450107",
+  "dateCreated": "2022-08-13T14:23:19.588Z",
+  "datePublished": "2022-08-13T14:16:08.000Z",
+  "dateModified": "2022-08-13T14:23:19.588Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "不，请不要再这样了，停止发明构建系统。\n",
+  "headline_zh-Hant": "不，請不要再這樣了，停止發明構建系統。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们在使用自动工具与CMake与Meson与GYP与Boost.Build与SCons与BUCK与......的项目中已经存在严重的不兼容问题，现在我们又把BUSY（https://github.com/rochus-keller/BUSY/）扔到了这堆东西上。<p>当你找到一个小的库，发现它使用一个神秘的构建系统，其依赖性与库本身相差甚远，这很糟糕（咳，Yoga）。开放源码软件社区需要的是构建系统的整合，而不是把第15个轮子加到车上。<p>谁会在乎BUSY是静态类型的？\n",
+  "description_zh-Hant": "我們在使用自動工具與CMake與Meson與GYP與Boost.Build與SCons與BUCK與......的項目中已經存在嚴重的不兼容問題，現在我們又把BUSY（https://github.com/rochus-keller/BUSY/）扔到了這堆東西上。<p>當你找到一個小的庫，發現它使用一個神秘的構建系統，其依賴性與庫本身相差甚遠，這很糟糕（咳，Yoga）。開放源碼軟件社區需要的是構建系統的整合，而不是把第15個輪子加到車上。<p>誰會在乎BUSY是靜態類型的？\n"
+}
