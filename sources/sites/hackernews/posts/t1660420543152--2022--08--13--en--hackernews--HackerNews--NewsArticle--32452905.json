@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--13--en--hackernews--HackerNews--NewsArticle--32452905",
+  "url": "https://news.ycombinator.com/item?id=32452905",
+  "headline": "Ask HN: How to price a service that saves hundreds of engineering hours?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've built a Cypress test runner that completes all tests (no matter how many you've got) in less than a minute. In contrast, based on my experience, a medium-size Cypress test suite takes about 15 minutes to complete.<p>The only catch is that individual tests have to be under 30 seconds.<p>The idea came out of frustration running Cypress in my previous company, where it was taking 10 minutes+ to run all Cypress tests while parallelizing across 30 VMs and costing us in excess of USD 2k/month.<p>In order to achieve this, I have effectively built a new Cypress test runner from the ground up. It understands Cypress syntax, but otherwise have nothing in common with how Cypress works. The way it achieves this performance is by splitting each spec into individual tests and starting all of the tests at once, i.e. if you have 10 specs with 5 tests each, this program will start 50 VMs to run your tests.<p>I have two companies trialing this at the moment and the feedback has been incredibly positive, saying that it is saving _hundreds_ of engineering hours.\nI am trying to establish how to price this. The challenge is that this model is profitable at scale, but losing money if there is not high density of clients. This is because it costs me USD ~0.15 to run a VM for 1 hour and I need to spin up enough VMs to complete all tests, and I am charged in increments of an hour.<p>My thinking is to charge 2 cents per a test-minute, i.e. Using previous example of 10 specs with 5 tests each, it would cost USD 1 to run all tests once. If you run integration tests 100 times per day, that's USD 100/day.<p>This may sound much. However, if prior to using this you were waiting 15 minutes to run all tests, that is 14 minutes saved. If avg. engineer in your company is earning USD 60/hour, you are saving USD 14 by having engineers get immediate results rather than waiting for them. If positioned that way, it doesn't sound expensive.<p>I am currently targeting companies with 30-50 engineers (existing customers are series A and series B companies). At this size, they don't have crazy amount of tests, so I can deliver on the 1 minute promise, and they care a lot about moving fast.<p>What sounds reasonable?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "punkpeye",
+    "url": "https://news.ycombinator.com/user?id=punkpeye"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32452905",
+  "sameAs": "https://news.ycombinator.com/item?id=32452905",
+  "dateCreated": "2022-08-13T19:55:43.152Z",
+  "datePublished": "2022-08-13T19:19:51.000Z",
+  "dateModified": "2022-08-13T19:55:43.152Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 11
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何为一项节省了数百个工程小时的服务定价？\n",
+  "headline_zh-Hant": "Ask HN: 如何為一項節省了數百個工程小時的服務定價？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我已经建立了一个Cypress测试运行器，可以在一分钟内完成所有测试（无论你有多少）。相比之下，根据我的经验，一个中等规模的Cypress测试套件大约需要15分钟才能完成。<p>唯一的问题是，单个测试必须在30秒内完成。<p>这个想法来自于在我以前的公司运行Cypress的挫折感，在那里，运行所有Cypress测试需要10分钟以上，同时在30个虚拟机上进行并行化处理，并使我们每月花费超过2千美元。<p>为了实现这一目标，我实际上已经从基础上建立了一个新的Cypress测试运行器。它能理解Cypress的语法，但在其他方面与Cypress的工作方式毫无共同之处。它实现这种性能的方式是将每个规格分割成单独的测试，并一次性启动所有的测试，即如果你有10个规格，每个规格有5个测试，这个程序将启动50个虚拟机来运行你的测试。<p>目前我有两家公司在试用这个程序，反馈非常积极，说它可以节省_数百个工程时间。\n我正在努力确定如何为其定价。面临的挑战是，这种模式在规模上是有利可图的，但如果没有高密度的客户，就会亏本。这是因为运行一个虚拟机1小时需要花费0.15美元，我需要旋转足够的虚拟机来完成所有的测试，而且我是以一小时为单位收费的。<p>我的想法是每一个测试分钟收费2美分，即使用之前的例子，10个规格，每个5个测试，运行所有测试一次需要1美元。如果你每天运行集成测试100次，那就是100美元/天。<p>这听起来可能很多。但是，如果在使用这个软件之前，你要等待15分钟来运行所有的测试，那就可以节省14分钟。如果你们公司的工程师平均收入为60美元/小时，那么通过让工程师立即得到结果而不是等待，你们就节省了14美元。如果以这种方式定位，听起来并不昂贵。<p>我目前的目标是拥有30-50名工程师的公司（现有客户是A轮和B轮公司）。在这种规模下，他们没有疯狂的测试量，所以我可以实现1分钟的承诺，而且他们非常关心快速行动。<p>什么听起来很合理？\n",
+  "description_zh-Hant": "我已經建立了一個Cypress測試運行器，可以在一分鐘內完成所有測試（無論你有多少）。相比之下，根據我的經驗，一箇中等規模的Cypress測試套件大約需要15分鐘才能完成。<p>唯一的問題是，單個測試必須在30秒內完成。<p>這個想法來自於在我以前的公司運行Cypress的挫折感，在那裡，運行所有Cypress測試需要10分鐘以上，同時在30個虛擬機上進行並行化處理，並使我們每月花費超過2千美元。<p>為了實現這一目標，我實際上已經從基礎上建立了一個新的Cypress測試運行器。它能理解Cypress的語法，但在其他方面與Cypress的工作方式毫無共同之處。它實現這種性能的方式是將每個規格分割成單獨的測試，並一次性啟動所有的測試，即如果你有10個規格，每個規格有5個測試，這個程序將啟動50個虛擬機來運行你的測試。<p>目前我有兩家公司在試用這個程序，反饋非常積極，說它可以節省_數百個工程時間。\n我正在努力確定如何為其定價。面臨的挑戰是，這種模式在規模上是有利可圖的，但如果沒有高密度的客戶，就會虧本。這是因為運行一個虛擬機1小時需要花費0.15美元，我需要旋轉足夠的虛擬機來完成所有的測試，而且我是以一小時為單位收費的。<p>我的想法是每一個測試分鐘收費2美分，即使用之前的例子，10個規格，每個5個測試，運行所有測試一次需要1美元。如果你每天運行集成測試100次，那就是100美元/天。<p>這聽起來可能很多。但是，如果在使用這個軟件之前，你要等待15分鐘來運行所有的測試，那就可以節省14分鐘。如果你們公司的工程師平均收入為60美元/小時，那麼通過讓工程師立即得到結果而不是等待，你們就節省了14美元。如果以這種方式定位，聽起來並不昂貴。<p>我目前的目標是擁有30-50名工程師的公司（現有客戶是A輪和B輪公司）。在這種規模下，他們沒有瘋狂的測試量，所以我可以實現1分鐘的承諾，而且他們非常關心快速行動。<p>什麼聽起來很合理？\n"
+}
