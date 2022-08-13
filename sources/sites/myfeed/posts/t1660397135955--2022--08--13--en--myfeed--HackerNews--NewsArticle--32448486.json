@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--13--en--myfeed--HackerNews--NewsArticle--32448486",
+  "url": "https://news.ycombinator.com/item?id=32448486",
+  "headline": "Aberdeen Chinese takeaway hit with £10k gas bill",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hunglee2",
+    "url": "https://news.ycombinator.com/user?id=hunglee2"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32448486",
+  "sameAs": "https://www.bbc.co.uk/news/uk-scotland-north-east-orkney-shetland-62466518",
+  "dateCreated": "2022-08-13T13:25:35.955Z",
+  "datePublished": "2022-08-13T10:30:24.000Z",
+  "dateModified": "2022-08-13T13:25:35.955Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "阿伯丁中国外卖店遭遇1万英镑的煤气账单\n",
+  "headline_zh-Hant": "阿伯丁中國外賣店遭遇1萬英鎊的煤氣賬單\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

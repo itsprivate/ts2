@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--13--en--myfeed--HackerNews--NewsArticle--32449196",
+  "url": "https://news.ycombinator.com/item?id=32449196",
+  "headline": "Sloppy Use of Machine Learning Is Causing a ‘Reproducibility Crisis’ in Science",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "npalli",
+    "url": "https://news.ycombinator.com/user?id=npalli"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32449196",
+  "sameAs": "https://www.wired.com/story/machine-learning-reproducibility-crisis/",
+  "dateCreated": "2022-08-13T13:25:36.110Z",
+  "datePublished": "2022-08-13T12:18:04.000Z",
+  "dateModified": "2022-08-13T13:25:36.110Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "机器学习的马虎使用导致科学中的 \"可重复性危机\n",
+  "headline_zh-Hant": "機器學習的馬虎使用導致科學中的 \"可重複性危機\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

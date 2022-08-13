@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--13--en--myfeed--HackerNews--NewsArticle--32448481",
+  "url": "https://news.ycombinator.com/item?id=32448481",
+  "headline": "Can We Contain the Dragon?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dlcmh",
+    "url": "https://news.ycombinator.com/user?id=dlcmh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32448481",
+  "sameAs": "https://lawliberty.org/book-review/can-we-contain-the-dragon/",
+  "dateCreated": "2022-08-13T13:25:35.949Z",
+  "datePublished": "2022-08-13T10:28:30.000Z",
+  "dateModified": "2022-08-13T13:25:35.949Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我们能遏制住龙吗？\n",
+  "headline_zh-Hant": "我們能遏制住龍嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
