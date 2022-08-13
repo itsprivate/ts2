@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--13--en--myfeed--HackerNews--NewsArticle--32450879",
+  "url": "https://news.ycombinator.com/item?id=32450879",
+  "headline": "How Cisco got Hacked – Tracking the attacker steps and the logs it generates",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nykolasz",
+    "url": "https://news.ycombinator.com/user?id=nykolasz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32450879",
+  "sameAs": "https://trunc.org/learning/cisco-hack-tracks-left-in-the-logs",
+  "dateCreated": "2022-08-13T16:35:39.735Z",
+  "datePublished": "2022-08-13T15:40:15.000Z",
+  "dateModified": "2022-08-13T16:35:39.735Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "思科是如何被黑的--追踪攻击者的步骤和它产生的日志\n",
+  "headline_zh-Hant": "思科是如何被黑的--追蹤攻擊者的步驟和它產生的日誌\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

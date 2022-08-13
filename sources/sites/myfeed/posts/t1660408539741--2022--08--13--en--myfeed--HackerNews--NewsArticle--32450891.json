@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--13--en--myfeed--HackerNews--NewsArticle--32450891",
+  "url": "https://news.ycombinator.com/item?id=32450891",
+  "headline": "My name is hard for Americans to pronounce. Don’t tell me to change it",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "behnamoh",
+    "url": "https://news.ycombinator.com/user?id=behnamoh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32450891",
+  "sameAs": "https://www.washingtonpost.com/outlook/2021/06/08/name-pronounce-difficult-multiculturalism/",
+  "dateCreated": "2022-08-13T16:35:39.741Z",
+  "datePublished": "2022-08-13T15:41:31.000Z",
+  "dateModified": "2022-08-13T16:35:39.741Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我的名字对美国人来说很难发音。不要告诉我改变它\n",
+  "headline_zh-Hant": "我的名字對美國人來說很難發音。不要告訴我改變它\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

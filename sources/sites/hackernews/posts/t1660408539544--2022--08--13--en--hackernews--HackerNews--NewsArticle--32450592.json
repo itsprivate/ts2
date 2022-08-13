@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--13--en--hackernews--HackerNews--NewsArticle--32450592",
+  "url": "https://news.ycombinator.com/item?id=32450592",
+  "headline": "On Being Tired",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kimmk",
+    "url": "https://news.ycombinator.com/user?id=kimmk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32450592",
+  "sameAs": "https://jukkaniiranen.com/2022/02/on-being-tired/",
+  "dateCreated": "2022-08-13T16:35:39.544Z",
+  "datePublished": "2022-08-13T15:10:33.000Z",
+  "dateModified": "2022-08-13T16:35:39.544Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 16
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "关于疲惫\n",
+  "headline_zh-Hant": "關於疲憊\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

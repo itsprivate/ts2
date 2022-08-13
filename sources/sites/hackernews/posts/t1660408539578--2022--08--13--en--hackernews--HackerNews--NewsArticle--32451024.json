@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--13--en--hackernews--HackerNews--NewsArticle--32451024",
+  "url": "https://news.ycombinator.com/item?id=32451024",
+  "headline": "It’s raining PFAS: rainwater is unsafe to drink even in Antarctica and Tibet",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nabla9",
+    "url": "https://news.ycombinator.com/user?id=nabla9"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32451024",
+  "sameAs": "https://www.su.se/english/news/it-s-raining-pfas-even-in-antarctica-and-on-the-tibetan-plateau-rainwater-is-unsafe-to-drink-1.620735",
+  "dateCreated": "2022-08-13T16:35:39.578Z",
+  "datePublished": "2022-08-13T15:54:30.000Z",
+  "dateModified": "2022-08-13T16:35:39.578Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 76
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 24
+    }
+  ],
+  "headline_zh-Hans": "雨中的PFAS：即使在南极洲和西藏，雨水也不安全，无法饮用\n",
+  "headline_zh-Hant": "雨中的PFAS：即使在南極洲和西藏，雨水也不安全，無法飲用\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
