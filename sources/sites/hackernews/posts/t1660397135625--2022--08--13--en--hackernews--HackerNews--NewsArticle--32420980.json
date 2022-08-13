@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--13--en--hackernews--HackerNews--NewsArticle--32420980",
+  "url": "https://news.ycombinator.com/item?id=32420980",
+  "headline": "Walking Tokyo for Seven Days",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cmod",
+    "url": "https://news.ycombinator.com/user?id=cmod"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32420980",
+  "sameAs": "https://craigmod.com/ridgeline/146/",
+  "dateCreated": "2022-08-13T13:25:35.625Z",
+  "datePublished": "2022-08-11T02:50:21.000Z",
+  "dateModified": "2022-08-13T13:25:35.625Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 50
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 46
+    }
+  ],
+  "headline_zh-Hans": "漫步东京七天\n",
+  "headline_zh-Hant": "漫步東京七天\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

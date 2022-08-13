@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--13--en--myfeed--HackerNews--NewsArticle--32448772",
+  "url": "https://news.ycombinator.com/item?id=32448772",
+  "headline": "Functional Reactive Programming",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "amelius",
+    "url": "https://news.ycombinator.com/user?id=amelius"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32448772",
+  "sameAs": "https://wiki.haskell.org/Functional_Reactive_Programming",
+  "dateCreated": "2022-08-13T13:25:36.043Z",
+  "datePublished": "2022-08-13T11:18:46.000Z",
+  "dateModified": "2022-08-13T13:25:36.043Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "功能性反应式编程\n",
+  "headline_zh-Hant": "功能性反應式編程\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
