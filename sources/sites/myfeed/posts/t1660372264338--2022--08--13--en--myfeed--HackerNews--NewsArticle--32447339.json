@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--13--en--myfeed--HackerNews--NewsArticle--32447339",
+  "url": "https://news.ycombinator.com/item?id=32447339",
+  "headline": "The Zoom installer let a researcher hack his way to root access on macOS",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "neodypsis",
+    "url": "https://news.ycombinator.com/user?id=neodypsis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32447339",
+  "sameAs": "https://www.theverge.com/2022/8/12/23303411/zoom-defcon-root-access-privilege-escalation-hack-patrick-wardle",
+  "dateCreated": "2022-08-13T06:31:04.338Z",
+  "datePublished": "2022-08-13T06:05:47.000Z",
+  "dateModified": "2022-08-13T06:31:04.338Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "ZOOM安装程序让研究人员黑进了macOS上的root权限\n",
+  "headline_zh-Hant": "ZOOM安裝程序讓研究人員黑進了macOS上的root權限\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
