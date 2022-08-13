@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--13--en--showhn--HackerNews--NewsArticle--32454496",
+  "url": "https://news.ycombinator.com/item?id=32454496",
+  "headline": "Show HN: `pdf2searchablepdf` command-line tool to make PDF have searchable text",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Easily perform OCR (Optical Character Recognition) on PDFs. `pdf2searchablepdf input.pdf` = voila! &quot;input_searchable.pdf&quot; is created &amp; now has searchable text",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "techie2022",
+    "url": "https://news.ycombinator.com/user?id=techie2022"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32454496",
+  "sameAs": "https://github.com/ElectricRCAircraftGuy/PDF2SearchablePDF",
+  "dateCreated": "2022-08-13T22:45:04.633Z",
+  "datePublished": "2022-08-13T22:40:59.000Z",
+  "dateModified": "2022-08-13T22:45:04.633Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: `pdf2searchablepdf`命令行工具，使PDF具有可搜索的文本\n",
+  "headline_zh-Hant": "Show HN: `pdf2searchablepdf`命令行工具，使PDF具有可搜索的文本\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "轻松地对PDF进行OCR（光学字符识别）。`pdf2searchablepdf input.pdf` = 瞧！&quot;input_searchable.pdf&quot;被创建&amp;现在有可搜索的文本。\n",
+  "description_zh-Hant": "輕鬆地對PDF進行OCR（光學字符識別）。`pdf2searchablepdf input.pdf` = 瞧！&quot;input_searchable.pdf&quot;被創建&amp;現在有可搜索的文本。\n"
+}
