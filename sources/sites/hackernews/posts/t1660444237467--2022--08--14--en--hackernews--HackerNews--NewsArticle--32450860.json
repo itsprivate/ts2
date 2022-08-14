@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--hackernews--HackerNews--NewsArticle--32450860",
+  "url": "https://news.ycombinator.com/item?id=32450860",
+  "headline": "Electric vehicles are way more energy-efficient than internal combustion",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bilsbie",
+    "url": "https://news.ycombinator.com/user?id=bilsbie"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32450860",
+  "sameAs": "https://www.motortrend.com/news/evs-more-efficient-than-internal-combustion-engines/",
+  "dateCreated": "2022-08-14T02:30:37.467Z",
+  "datePublished": "2022-08-13T15:38:12.000Z",
+  "dateModified": "2022-08-14T02:30:37.467Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 55
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 93
+    }
+  ],
+  "headline_zh-Hans": "电动汽车比内燃机的能效高得多\n",
+  "headline_zh-Hant": "電動汽車比內燃機的能效高得多\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
