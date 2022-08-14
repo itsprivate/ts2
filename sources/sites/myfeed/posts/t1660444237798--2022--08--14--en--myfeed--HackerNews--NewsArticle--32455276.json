@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--myfeed--HackerNews--NewsArticle--32455276",
+  "url": "https://news.ycombinator.com/item?id=32455276",
+  "headline": "S.F. developer hits brick wall in bid to turn Tenderloin lot into housing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jseliger",
+    "url": "https://news.ycombinator.com/user?id=jseliger"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32455276",
+  "sameAs": "https://www.sfchronicle.com/sf/bayarea/heatherknight/article/Tenderloin-affordable-housing-17371022.php",
+  "dateCreated": "2022-08-14T02:30:37.798Z",
+  "datePublished": "2022-08-14T00:56:49.000Z",
+  "dateModified": "2022-08-14T02:30:37.798Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "旧金山的开发商在将Tenderloin地块改造成住房的过程中碰壁了\n",
+  "headline_zh-Hant": "舊金山的開發商在將Tenderloin地塊改造成住房的過程中碰壁了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--myfeed--HackerNews--NewsArticle--32455363",
+  "url": "https://news.ycombinator.com/item?id=32455363",
+  "headline": "UpBit: Scalable In-Memory Updatable Bitmap Indexing [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "greghn",
+    "url": "https://news.ycombinator.com/user?id=greghn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32455363",
+  "sameAs": "https://dl.acm.org/doi/pdf/10.1145/2882903.2915964",
+  "dateCreated": "2022-08-14T02:30:37.817Z",
+  "datePublished": "2022-08-14T01:09:16.000Z",
+  "dateModified": "2022-08-14T02:30:37.817Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "UpBit：可扩展的内存中可更新的位图索引 [pdf]\n",
+  "headline_zh-Hant": "UpBit：可擴展的內存中可更新的位圖索引 [pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--myfeed--HackerNews--NewsArticle--32455254",
+  "url": "https://news.ycombinator.com/item?id=32455254",
+  "headline": "California Efforts to Reduce Jail Pop. During Covid Come to End as Crime Rises",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "shaburn",
+    "url": "https://news.ycombinator.com/user?id=shaburn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32455254",
+  "sameAs": "https://www.wsj.com/articles/california-efforts-to-reduce-jail-population-during-covid-come-to-end-as-crime-rises-11660361898",
+  "dateCreated": "2022-08-14T02:30:37.786Z",
+  "datePublished": "2022-08-14T00:53:51.000Z",
+  "dateModified": "2022-08-14T02:30:37.786Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "加州为减少监狱人口所做的努力。随着犯罪率的上升，加州减少监狱人口的努力也告一段落。\n",
+  "headline_zh-Hant": "加州為減少監獄人口所做的努力。隨著犯罪率的上升，加州減少監獄人口的努力也告一段落。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

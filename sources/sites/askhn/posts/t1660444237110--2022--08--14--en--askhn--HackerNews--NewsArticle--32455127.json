@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--askhn--HackerNews--NewsArticle--32455127",
+  "url": "https://news.ycombinator.com/item?id=32455127",
+  "headline": "Ask HN: Have a code performance-oriented interview Monday. Tips?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I have an interview on Monday, which, according to some advice from previous interviewees and the recruiter, will involve taking some existing Python code and some existing SQL code, and then use libraries like numpy and pandas to 'improve the performance' (for the Python section) and probably just standard SQL performance questions for the SQL part.<p>I mostly use the libraries in their desired manner and so not sure if it will be like a &quot;terrible performance pandas code&quot; and then try to locate how it is mis-using the APIs, or if it is just plain vanilla python code and then figuring out how to improve it with the library APIs.<p>For now I am pretty focused on preparing for the Python aspect.<p>I have a pretty workable understanding of vectorization, but are there any other things of note that you would want a candidate to know specifically in terms of improving the performance of running code in the context of these specific tools in the toolbelt?<p>What would you make sure to cover if you were the interviewer, asking a candidate to demonstrate understanding of these libraries in the context of writing performance-oriented code?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "arthurcolle",
+    "url": "https://news.ycombinator.com/user?id=arthurcolle"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32455127",
+  "sameAs": "https://news.ycombinator.com/item?id=32455127",
+  "dateCreated": "2022-08-14T02:30:37.110Z",
+  "datePublished": "2022-08-14T00:33:54.000Z",
+  "dateModified": "2022-08-14T02:30:37.110Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 周一有一个面向代码性能的面试。提示？\n",
+  "headline_zh-Hant": "Ask HN: 週一有一個面向代碼性能的面試。提示？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我周一有一个面试，根据以前的面试者和招聘人员的一些建议，这将涉及到采取一些现有的Python代码和一些现有的SQL代码，然后使用numpy和pandas等库来 \"提高性能\"（对于Python部分），对于SQL部分可能只是标准SQL性能问题。 <p>我主要是以他们想要的方式使用库，所以不确定是否会像&quot;性能糟糕的pandas代码&quot;一样，然后尝试定位它是如何错误地使用API的，或者如果它只是普通的vanilla python代码，然后找出如何用库的API改进它。 <p>目前，我正专注于为Python方面做准备。<p>我对矢量化有相当可行的理解，但在改善运行代码的性能方面，你是否希望应聘者对工具箱中的这些特定工具有具体的了解？<p>如果你是面试官，要求应聘者在编写面向性能的代码方面展示对这些库的理解，你会确保涵盖哪些方面？\n",
+  "description_zh-Hant": "我週一有一個面試，根據以前的面試者和招聘人員的一些建議，這將涉及到採取一些現有的Python代碼和一些現有的SQL代碼，然後使用numpy和pandas等庫來 \"提高性能\"（對於Python部分），對於SQL部分可能只是標準SQL性能問題。 <p>我主要是以他們想要的方式使用庫，所以不確定是否會像&quot;性能糟糕的pandas代碼&quot;一樣，然後嘗試定位它是如何錯誤地使用API的，或者如果它只是普通的vanilla python代碼，然後找出如何用庫的API改進它。 <p>目前，我正專注於為Python方面做準備。<p>我對矢量化有相當可行的理解，但在改善運行代碼的性能方面，你是否希望應聘者對工具箱中的這些特定工具有具體的瞭解？<p>如果你是面試官，要求應聘者在編寫面向性能的代碼方面展示對這些庫的理解，你會確保涵蓋哪些方面？\n"
+}
