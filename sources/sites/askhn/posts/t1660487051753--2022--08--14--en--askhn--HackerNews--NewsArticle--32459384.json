@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--askhn--HackerNews--NewsArticle--32459384",
+  "url": "https://news.ycombinator.com/item?id=32459384",
+  "headline": "Ask HN: Why not to build an open-source C++ project on Intels oneTBB?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Intel's thread building blocks and OpenMP seems to be  dominant library for accelerating single threaded code which has some parallelizable sections. The nested parallelism in the open source project has makes me discount OpenMP based solutions. None of the core maintainers has experience with raw parallel C++ programming using user created and managed threads and locking or lock-free data structures. The code has no BLAS style operations. We target workstation or server class devices, embedded support is not planned.<p>Under those circumstances TBB looks interesting and i am favoring that solution. Is there a reason why an open source project should not use Intels TBB?<p>What alternatives should be considered?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "freemint",
+    "url": "https://news.ycombinator.com/user?id=freemint"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32459384",
+  "sameAs": "https://news.ycombinator.com/item?id=32459384",
+  "dateCreated": "2022-08-14T14:24:11.753Z",
+  "datePublished": "2022-08-14T14:11:49.000Z",
+  "dateModified": "2022-08-14T14:24:11.753Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么不在Intels oneTBB上建立一个开源的C++项目？\n",
+  "headline_zh-Hant": "Ask HN: 為什麼不在Intels oneTBB上建立一個開源的C++項目？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "英特尔的线程构建模块和OpenMP似乎是加速单线程代码的主导库，其中有一些可并行的部分。开源项目中的嵌套并行使我对基于OpenMP的解决方案大打折扣。没有一个核心维护者有使用用户创建和管理的线程以及锁定或无锁数据结构的原始并行C++编程经验。代码中没有BLAS风格的操作。我们的目标是工作站或服务器类设备，不打算支持嵌入式。<p>在这些情况下，TBB看起来很有趣，我赞成这个解决方案。一个开源项目有理由不使用Intels TBB吗？<p>应该考虑哪些替代方案？\n",
+  "description_zh-Hant": "英特爾的線程構建模塊和OpenMP似乎是加速單線程代碼的主導庫，其中有一些可並行的部分。開源項目中的嵌套並行使我對基於OpenMP的解決方案大打折扣。沒有一個核心維護者有使用用戶創建和管理的線程以及鎖定或無鎖數據結構的原始並行C++編程經驗。代碼中沒有BLAS風格的操作。我們的目標是工作站或服務器類設備，不打算支持嵌入式。<p>在這些情況下，TBB看起來很有趣，我贊成這個解決方案。一個開源項目有理由不使用Intels TBB嗎？<p>應該考慮哪些替代方案？\n"
+}
