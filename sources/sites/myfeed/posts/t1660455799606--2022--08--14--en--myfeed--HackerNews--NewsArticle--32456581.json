@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--myfeed--HackerNews--NewsArticle--32456581",
+  "url": "https://news.ycombinator.com/item?id=32456581",
+  "headline": "Managing Terraform State. Best Practices and Examples",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kiyanwang",
+    "url": "https://news.ycombinator.com/user?id=kiyanwang"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32456581",
+  "sameAs": "https://spacelift.io/blog/terraform-state",
+  "dateCreated": "2022-08-14T05:43:19.606Z",
+  "datePublished": "2022-08-14T05:18:26.000Z",
+  "dateModified": "2022-08-14T05:43:19.606Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "管理Terraform状态。最佳实践和实例\n",
+  "headline_zh-Hant": "管理Terraform狀態。最佳實踐和實例\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
