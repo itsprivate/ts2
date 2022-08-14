@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--showhn--HackerNews--NewsArticle--32457676",
+  "url": "https://news.ycombinator.com/item?id=32457676",
+  "headline": "Show HN: Use GPT-NeoX to generate quotes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We fine-tuned the 20B parameter GPT-Neox model by EleutherAI to generate quotes, and build a small web app around it.<p>Generate Quotes: https://neox.labml.ai/quote<p>We open-sourced the code we used to fine-tune the GPT-NeoX model.<p>Annotated implementation: https://nn.labml.ai/neox/index.html<p>Github: https://github.com/labmlai/annotated_deep_learning_paper_implementations/tree/master/labml_nn/neox<p>Original EleutherAI GPT-Neox GitHub repo: https://github.com/EleutherAI/gpt-neox<p>GPT-NeoX playground: https://neox.labml.ai",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "hnipun",
+    "url": "https://news.ycombinator.com/user?id=hnipun"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32457676",
+  "sameAs": "https://news.ycombinator.com/item?id=32457676",
+  "dateCreated": "2022-08-14T09:24:59.715Z",
+  "datePublished": "2022-08-14T08:57:29.000Z",
+  "dateModified": "2022-08-14T09:24:59.715Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 使用GPT-NeoX来生成报价\n",
+  "headline_zh-Hant": "Show HN: 使用GPT-NeoX來生成報價\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们对EleutherAI的20B参数GPT-Neox模型进行了微调，以生成报价，并围绕它建立了一个小型网络应用。<p>生成报价：https://neox.labml.ai/quote<p>我们开源了用于微调GPT-Neox模型的代码。<p>注释的实现：https://nn.labml.ai/neox/index.html<p>Github：https://github.com/labmlai/annotated_deep_learning_paper_implementations/tree/master/labml_nn/neox<p>原始EleutherAI GPT-Neox GitHub repo：https://github.com/EleutherAI/gpt-neox<p>GPT-NeoX playground：https://neox.labml.ai\n",
+  "description_zh-Hant": "我們對EleutherAI的20B參數GPT-Neox模型進行了微調，以生成報價，並圍繞它建立了一個小型網絡應用。<p>生成報價：https://neox.labml.ai/quote<p>我們開源了用於微調GPT-Neox模型的代碼。<p>註釋的實現：https://nn.labml.ai/neox/index.html<p>Github：https://github.com/labmlai/annotated_deep_learning_paper_implementations/tree/master/labml_nn/neox<p>原始EleutherAI GPT-Neox GitHub repo：https://github.com/EleutherAI/gpt-neox<p>GPT-NeoX playground：https://neox.labml.ai\n"
+}
