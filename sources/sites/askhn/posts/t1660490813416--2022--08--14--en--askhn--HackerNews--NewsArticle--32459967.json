@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--askhn--HackerNews--NewsArticle--32459967",
+  "url": "https://news.ycombinator.com/item?id=32459967",
+  "headline": "Ask HN: Does HN scrape submitted links?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I was very intrigued when I submitting this to HN: https://news.ycombinator.com/item?id=32459886. The link I have actually submitted was https://www.theatlantic.com/science/archive/2022/08/bird-flight-evolution-airplanes/671132/, but HN changed the domain to quantamagazine.org and marked the submission as [dupe], which is correct given that the same article was submitted 10 days ago: https://news.ycombinator.com/item?id=32342139.<p>How was HN able to determine that the article from The Atlantic is the same as the one from Quanta Magazine? They don't share the title, nor the url structure. The only explanation I can imagine is that there was some scraping involved. Any other idea?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "yamrzou",
+    "url": "https://news.ycombinator.com/user?id=yamrzou"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32459967",
+  "sameAs": "https://news.ycombinator.com/item?id=32459967",
+  "dateCreated": "2022-08-14T15:26:53.416Z",
+  "datePublished": "2022-08-14T15:20:39.000Z",
+  "dateModified": "2022-08-14T15:26:53.416Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: HN是否搜刮了提交的链接？\n",
+  "headline_zh-Hant": "Ask HN: HN是否搜刮了提交的鏈接？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "当我向HN提交这篇文章时，我非常好奇：https://news.ycombinator.com/item?id=32459886。我实际提交的链接是https://www.theatlantic.com/science/archive/2022/08/bird-flight-evolution-airplanes/671132/，但HN将域名改为quantamagazine.org，并将提交的链接标记为[dupe]，这是正确的，因为同一篇文章在10天前提交过：https://news.ycombinator.com/item?id=32342139。<p>HN是如何确定《大西洋》的文章与《广达》杂志的文章是一样的？它们没有共同的标题，也没有相同的网址结构。我可以想象的唯一解释是，其中涉及到一些刮擦。有什么其他想法吗？\n",
+  "description_zh-Hant": "當我向HN提交這篇文章時，我非常好奇：https://news.ycombinator.com/item?id=32459886。我實際提交的鏈接是https://www.theatlantic.com/science/archive/2022/08/bird-flight-evolution-airplanes/671132/，但HN將域名改為quantamagazine.org，並將提交的鏈接標記為[dupe]，這是正確的，因為同一篇文章在10天前提交過：https://news.ycombinator.com/item?id=32342139。<p>HN是如何確定《大西洋》的文章與《廣達》雜誌的文章是一樣的？它們沒有共同的標題，也沒有相同的網址結構。我可以想象的唯一解釋是，其中涉及到一些刮擦。有什麼其他想法嗎？\n"
+}
