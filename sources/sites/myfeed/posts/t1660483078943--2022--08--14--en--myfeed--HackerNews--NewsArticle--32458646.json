@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--myfeed--HackerNews--NewsArticle--32458646",
+  "url": "https://news.ycombinator.com/item?id=32458646",
+  "headline": "US military wants to understand the most important software on earth",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "proxygeek",
+    "url": "https://news.ycombinator.com/user?id=proxygeek"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32458646",
+  "sameAs": "https://www.technologyreview.com/2022/07/14/1055894/us-military-sofware-linux-kernel-open-source/",
+  "dateCreated": "2022-08-14T13:17:58.943Z",
+  "datePublished": "2022-08-14T12:20:37.000Z",
+  "dateModified": "2022-08-14T13:17:58.943Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "美国军方希望了解地球上最重要的软件\n",
+  "headline_zh-Hant": "美國軍方希望瞭解地球上最重要的軟件\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
