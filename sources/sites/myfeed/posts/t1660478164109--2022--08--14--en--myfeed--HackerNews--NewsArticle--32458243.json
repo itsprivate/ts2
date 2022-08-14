@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--myfeed--HackerNews--NewsArticle--32458243",
+  "url": "https://news.ycombinator.com/item?id=32458243",
+  "headline": "What happens at Sun Valley, the secret gathering of unelected billionaire kings?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "flipchart",
+    "url": "https://news.ycombinator.com/user?id=flipchart"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32458243",
+  "sameAs": "https://www.theguardian.com/commentisfree/2021/jul/12/what-happens-at-sun-valley-the-secret-gathering-of-unelected-billionaire-kings",
+  "dateCreated": "2022-08-14T11:56:04.109Z",
+  "datePublished": "2022-08-14T10:57:55.000Z",
+  "dateModified": "2022-08-14T11:56:04.109Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "在太阳谷，这个未经选举的亿万富翁国王的秘密聚会上会发生什么？\n",
+  "headline_zh-Hant": "在太陽谷，這個未經選舉的億萬富翁國王的秘密聚會上會發生什麼？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
