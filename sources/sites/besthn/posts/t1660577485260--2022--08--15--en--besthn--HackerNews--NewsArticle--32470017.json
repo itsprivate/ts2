@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--besthn--HackerNews--NewsArticle--32470017",
+  "url": "https://news.ycombinator.com/item?id=32470017",
+  "headline": "Tell HN: Godaddy canceled my domain, gave me 2h to respond, then charged €150",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I use my own domain to host a simple homepage. I also use it as a custom mail domain.\nInitially, I bought the domain on godaddy.com when I was getting into the realms of software engineering.\nI always found the user interface hard to get used to, but it never bothered me enough for me to transfer my domain.\nEspecially because I run the DNS through Cloudlfare and, therefore, I have fairly little contact with the interface of godaddy.<p>Today Proton (my mail provider of choice) surprised me with a warning that there were problems with the setup of my domain. A quick research revealed that godaddy had cancelled my domain. It showed up in the Redemption Grace Period. This status code indicates that godaddy has asked the registry to delete my domain. After 30 calendar days  + 5 days following the end of the redemption period, my domain is purged from the registry database and becomes available for registration.<p>I immediately contacted the godaddy support hotline. Mainly because of my mail account and the services connected to it. They confirmed the termination. The reason given was that I had failed to respond to an e-mail - that was sent yesterday on a Sunday(!) at 9:51 PM. Then at 0 o'clock my domain was terminated. So I had a breathtaking 2 hours to respond. Which is especially fun because I go to bed at 10pm. :-D<p>To make matters worse, the mail ended up in the spam folder because Godaddy's reputation seems to be bad and was titled: &quot;Update your privacy settings and personal information.&quot;. Even under normal circumstances, I would have ignored this email. How should someone suspect that in a few minutes from now on the own domain is going to be killed.<p>If I understood the service employee correctly, this mail means that something was wrong with my payment data. And indeed, there was an old credit card on file. However, a PayPal address was also stored there, which still worked. Via this address, I was later even debited the penalty fees that I supposedly had to pay.<p>After some back and forth with service, I was then given an ultimatum: Either I pay €150 fine, allegedly required by my government to be charged for domains that enter the grace period. Or I lose the domain.<p>The latter didn't sound very inviting, as I like my domain and also don't feel like switching all accounts to another domain/provider. So I paid the fee.<p>Godaddy confirmed afterwards that there were no further emails or announcements. The service employee even confirmed by phone that apart from the mail and the subsequent generous transition period of 2 hours, there would have been no further information.<p>TL:DR If you have a domain with Godaddy, just make sure that the payment information is correct. Otherwise, it might get expensive.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "M0r13n",
+    "url": "https://news.ycombinator.com/user?id=M0r13n"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32470017",
+  "sameAs": "https://news.ycombinator.com/item?id=32470017",
+  "dateCreated": "2022-08-15T15:31:25.260Z",
+  "datePublished": "2022-08-15T14:21:15.000Z",
+  "dateModified": "2022-08-15T15:31:25.260Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 202
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 114
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：Godaddy取消了我的域名，给了我2小时的答复，然后收取150欧元的费用。\n",
+  "headline_zh-Hant": "告訴HN：Godaddy取消了我的域名，給了我2小時的答覆，然後收取150歐元的費用。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我使用我自己的域名来托管一个简单的主页。我还用它作为一个自定义的邮件域名。\n最初，我在godaddy.com上买了这个域名，当时我正在进入软件工程的领域。\n我总是发现用户界面很难习惯，但它从来没有困扰过我，让我转移我的域名。\n特别是因为我通过Cloudlfare运行DNS，因此，我与godaddy的界面接触相当少。<p>今天Proton（我选择的邮件提供商）给了我一个惊喜，警告说我的域名设置有问题。快速研究发现，godaddy已经取消了我的域名。它显示在赎回宽限期内。这个状态代码表明，godaddy已经要求注册处删除我的域名。在赎回期结束后的30个日历日+5天后，我的域名将从注册表数据库中清除，并可用于注册。<p>我立即联系了godaddy支持热线。主要是因为我的邮件账户和与之相连的服务。他们确认了终止的消息。给出的理由是我没有回复一封电子邮件--那是昨天星期天（！）晚上9点51分发出的。然后在0点钟，我的域名被终止了。所以我有两个小时的时间来回复，让人叹为观止。这特别有趣，因为我晚上10点就睡觉了。 :-D<p>更糟糕的是，邮件最后进入了垃圾邮件文件夹，因为Godaddy的声誉似乎很差，标题是：&quot;更新你的隐私设置和个人信息。即使在正常情况下，我也会忽略这封邮件。怎么会有人怀疑几分钟后自己的域名就会被干掉。<p>如果我对服务员工的理解正确的话，这封邮件意味着我的支付数据出了问题。而事实上，档案中确实有一张旧的信用卡。然而，那里还储存了一个PayPal地址，这个地址仍然有效。<p>在与服务人员来回沟通后，我被下了最后通牒：要么支付150欧元的罚款，据说这是我国政府要求对进入宽限期的域名收取的费用。<p>后者听起来不是很诱人，因为我喜欢我的域名，也不喜欢把所有的账户切换到另一个域名/供应商。所以我支付了这笔费用。<p>Godaddy事后确认，没有进一步的电子邮件或公告。服务人员甚至在电话中确认，除了邮件和随后2小时的宽松过渡期外，不会有进一步的信息。<p>TL:DR 如果你在Godaddy有一个域名，只要确保付款信息是正确的。否则，它可能会变得很昂贵。\n",
+  "description_zh-Hant": "我使用我自己的域名來託管一個簡單的主頁。我還用它作為一個自定義的郵件域名。\n最初，我在godaddy.com上買了這個域名，當時我正在進入軟件工程的領域。\n我總是發現用戶界面很難習慣，但它從來沒有困擾過我，讓我轉移我的域名。\n特別是因為我通過Cloudlfare運行DNS，因此，我與godaddy的界面接觸相當少。<p>今天Proton（我選擇的郵件提供商）給了我一個驚喜，警告說我的域名設置有問題。快速研究發現，godaddy已經取消了我的域名。它顯示在贖回寬限期內。這個狀態代碼表明，godaddy已經要求註冊處刪除我的域名。在贖回期結束後的30個日曆日+5天后，我的域名將從註冊表數據庫中清除，並可用於註冊。<p>我立即聯繫了godaddy支持熱線。主要是因為我的郵件賬戶和與之相連的服務。他們確認了終止的消息。給出的理由是我沒有回覆一封電子郵件--那是昨天星期天（！）晚上9點51分發出的。然後在0點鐘，我的域名被終止了。所以我有兩個小時的時間來回復，讓人歎為觀止。這特別有趣，因為我晚上10點就睡覺了。 :-D<p>更糟糕的是，郵件最後進入了垃圾郵件文件夾，因為Godaddy的聲譽似乎很差，標題是：&quot;更新你的隱私設置和個人信息。即使在正常情況下，我也會忽略這封郵件。怎麼會有人懷疑幾分鐘後自己的域名就會被幹掉。<p>如果我對服務員工的理解正確的話，這封郵件意味著我的支付數據出了問題。而事實上，檔案中確實有一張舊的信用卡。然而，那裡還儲存了一個PayPal地址，這個地址仍然有效。<p>在與服務人員來回溝通後，我被下了最後通牒：要麼支付150歐元的罰款，據說這是我國政府要求對進入寬限期的域名收取的費用。<p>後者聽起來不是很誘人，因為我喜歡我的域名，也不喜歡把所有的賬戶切換到另一個域名/供應商。所以我支付了這筆費用。<p>Godaddy事後確認，沒有進一步的電子郵件或公告。服務人員甚至在電話中確認，除了郵件和隨後2小時的寬鬆過渡期外，不會有進一步的信息。<p>TL:DR 如果你在Godaddy有一個域名，只要確保付款信息是正確的。否則，它可能會變得很昂貴。\n"
+}
