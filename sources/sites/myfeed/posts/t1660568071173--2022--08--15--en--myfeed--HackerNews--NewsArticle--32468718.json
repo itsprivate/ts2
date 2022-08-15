@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--myfeed--HackerNews--NewsArticle--32468718",
+  "url": "https://news.ycombinator.com/item?id=32468718",
+  "headline": "SwinIR: Image Restoration Using Swin Transformer (PyTorch)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "aargh_aargh",
+    "url": "https://news.ycombinator.com/user?id=aargh_aargh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32468718",
+  "sameAs": "https://github.com/JingyunLiang/SwinIR",
+  "dateCreated": "2022-08-15T12:54:31.173Z",
+  "datePublished": "2022-08-15T12:19:14.000Z",
+  "dateModified": "2022-08-15T12:54:31.173Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "SwinIR：使用Swin Transformer（PyTorch）进行图像修复\n",
+  "headline_zh-Hant": "SwinIR：使用Swin Transformer（PyTorch）進行圖像修復\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--hackernews--HackerNews--NewsArticle--32468430",
+  "url": "https://news.ycombinator.com/item?id=32468430",
+  "headline": "Tailscale changes its Android app to support the open source Headscale server",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hooooonk",
+    "url": "https://news.ycombinator.com/user?id=hooooonk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32468430",
+  "sameAs": "https://github.com/tailscale/tailscale-android/pull/45",
+  "dateCreated": "2022-08-15T12:54:30.927Z",
+  "datePublished": "2022-08-15T11:45:07.000Z",
+  "dateModified": "2022-08-15T12:54:30.927Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 104
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 13
+    }
+  ],
+  "headline_zh-Hans": "Tailscale改变其安卓应用以支持开源的Headscale服务器\n",
+  "headline_zh-Hant": "Tailscale改變其安卓應用以支持開源的Headscale服務器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
