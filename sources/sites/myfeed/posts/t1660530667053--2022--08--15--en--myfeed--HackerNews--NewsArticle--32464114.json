@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--myfeed--HackerNews--NewsArticle--32464114",
+  "url": "https://news.ycombinator.com/item?id=32464114",
+  "headline": "Over 9k VNC servers exposed online without a password",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jerryjerryjerry",
+    "url": "https://news.ycombinator.com/user?id=jerryjerryjerry"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32464114",
+  "sameAs": "https://www.bleepingcomputer.com/news/security/over-9-000-vnc-servers-exposed-online-without-a-password/",
+  "dateCreated": "2022-08-15T02:31:07.053Z",
+  "datePublished": "2022-08-14T23:21:14.000Z",
+  "dateModified": "2022-08-15T02:31:07.053Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "超过9千台VNC服务器被暴露在网上而没有密码\n",
+  "headline_zh-Hant": "超過9千臺VNC服務器被暴露在網上而沒有密碼\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

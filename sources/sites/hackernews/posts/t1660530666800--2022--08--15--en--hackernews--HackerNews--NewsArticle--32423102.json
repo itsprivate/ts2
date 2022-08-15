@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--hackernews--HackerNews--NewsArticle--32423102",
+  "url": "https://news.ycombinator.com/item?id=32423102",
+  "headline": "Engine Simulator: produce realistic sounds from various engine parameters",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dtjohnnyb",
+    "url": "https://news.ycombinator.com/user?id=dtjohnnyb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32423102",
+  "sameAs": "https://github.com/ange-yaghi/engine-sim",
+  "dateCreated": "2022-08-15T02:31:06.800Z",
+  "datePublished": "2022-08-11T08:44:24.000Z",
+  "dateModified": "2022-08-15T02:31:06.800Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 35
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 9
+    }
+  ],
+  "headline_zh-Hans": "发动机模拟器：通过各种发动机参数产生逼真的声音\n",
+  "headline_zh-Hant": "發動機模擬器：通過各種發動機參數產生逼真的聲音\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

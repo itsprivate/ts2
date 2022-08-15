@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--showhn--HackerNews--NewsArticle--32464821",
+  "url": "https://news.ycombinator.com/item?id=32464821",
+  "headline": "Show HN: How We built TinySnap: the anatomy of a browser extension",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "dearroy",
+    "url": "https://news.ycombinator.com/user?id=dearroy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32464821",
+  "sameAs": "https://blog.tinysnap.app/how-we-built-tinysnap-the-anatomy-of-a-browser-extension/",
+  "dateCreated": "2022-08-15T02:31:16.445Z",
+  "datePublished": "2022-08-15T01:18:56.000Z",
+  "dateModified": "2022-08-15T02:31:16.445Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我们如何建立TinySnap：一个浏览器扩展的剖析\n",
+  "headline_zh-Hant": "Show HN: 我們如何建立TinySnap：一個瀏覽器擴展的剖析\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
