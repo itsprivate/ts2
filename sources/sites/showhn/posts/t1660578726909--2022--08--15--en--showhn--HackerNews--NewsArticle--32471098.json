@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--showhn--HackerNews--NewsArticle--32471098",
+  "url": "https://news.ycombinator.com/item?id=32471098",
+  "headline": "Show HN: Visualization as a Service",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Talked to a bunch of people, looks like there is a need, one company uses SQL Server Cube to handle intermediate dataset exploring for their customers, but it's not flexible, fast, and scalable. VAAS is the API that you can call any time with any dataset to provide an instant visualizer URL for exploring and visualizing the data.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "caoxhua",
+    "url": "https://news.ycombinator.com/user?id=caoxhua"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32471098",
+  "sameAs": "https://columns.ai/dev?hn=1",
+  "dateCreated": "2022-08-15T15:52:06.909Z",
+  "datePublished": "2022-08-15T15:42:10.000Z",
+  "dateModified": "2022-08-15T15:52:06.909Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 可视化作为一种服务\n",
+  "headline_zh-Hant": "Show HN: 可視化作為一種服務\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "和一堆人聊过，看起来是有需求的，一家公司用SQL Server Cube为他们的客户处理中间数据集的探索，但它不灵活，不快速，不可扩展。VAAS是一个API，你可以在任何时候调用任何数据集，提供一个即时的可视化URL来探索和可视化数据。\n",
+  "description_zh-Hant": "和一堆人聊過，看起來是有需求的，一家公司用SQL Server Cube為他們的客戶處理中間數據集的探索，但它不靈活，不快速，不可擴展。VAAS是一個API，你可以在任何時候調用任何數據集，提供一個即時的可視化URL來探索和可視化數據。\n"
+}
