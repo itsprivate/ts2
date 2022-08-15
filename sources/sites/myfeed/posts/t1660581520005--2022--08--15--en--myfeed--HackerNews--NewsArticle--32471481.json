@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--myfeed--HackerNews--NewsArticle--32471481",
+  "url": "https://news.ycombinator.com/item?id=32471481",
+  "headline": "China has painted itself into a semiconductor corner",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mikhael",
+    "url": "https://news.ycombinator.com/user?id=mikhael"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32471481",
+  "sameAs": "https://www.japantimes.co.jp/opinion/2022/08/15/commentary/world-commentary/china-semiconductor-woes/",
+  "dateCreated": "2022-08-15T16:38:40.005Z",
+  "datePublished": "2022-08-15T16:09:32.000Z",
+  "dateModified": "2022-08-15T16:38:40.005Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "中国已经把自己画到了半导体的角落里\n",
+  "headline_zh-Hant": "中國已經把自己畫到了半導體的角落裡\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
