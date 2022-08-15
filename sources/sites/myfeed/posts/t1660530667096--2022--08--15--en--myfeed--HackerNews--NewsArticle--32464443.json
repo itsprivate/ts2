@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--myfeed--HackerNews--NewsArticle--32464443",
+  "url": "https://news.ycombinator.com/item?id=32464443",
+  "headline": "RadioShack",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "PaulHoule",
+    "url": "https://news.ycombinator.com/user?id=PaulHoule"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32464443",
+  "sameAs": "https://en.wikipedia.org/wiki/RadioShack",
+  "dateCreated": "2022-08-15T02:31:07.096Z",
+  "datePublished": "2022-08-15T00:17:23.000Z",
+  "dateModified": "2022-08-15T02:31:07.096Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "淘宝网\n",
+  "headline_zh-Hant": "淘寶網\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
