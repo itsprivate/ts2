@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--myfeed--HackerNews--NewsArticle--32474829",
+  "url": "https://news.ycombinator.com/item?id=32474829",
+  "headline": "Loki – Visual Regression Testing for Storybook",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sattoshi",
+    "url": "https://news.ycombinator.com/user?id=sattoshi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32474829",
+  "sameAs": "https://loki.js.org/",
+  "dateCreated": "2022-08-15T20:46:08.978Z",
+  "datePublished": "2022-08-15T20:16:26.000Z",
+  "dateModified": "2022-08-15T20:46:08.978Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Loki - 故事书的视觉回归测试\n",
+  "headline_zh-Hant": "Loki - 故事書的視覺迴歸測試\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
