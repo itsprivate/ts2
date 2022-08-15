@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--myfeed--HackerNews--NewsArticle--32473169",
+  "url": "https://news.ycombinator.com/item?id=32473169",
+  "headline": "Tell HN: You can't login to BuzzSumo without connecting your Facebook account",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Users need to mandatorily connect their Facebook account with https://buzzsumo.com (Content Research Platform) for verification.\nHere's the screenshot: https://cln.sh/tshyw3",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jerrygoyal",
+    "url": "https://news.ycombinator.com/user?id=jerrygoyal"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32473169",
+  "sameAs": "https://news.ycombinator.com/item?id=32473169",
+  "dateCreated": "2022-08-15T18:33:20.950Z",
+  "datePublished": "2022-08-15T18:06:53.000Z",
+  "dateModified": "2022-08-15T18:33:20.950Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：不连接Facebook账户就无法登录BuzzSumo。\n",
+  "headline_zh-Hant": "告訴HN：不連接Facebook賬戶就無法登錄BuzzSumo。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "用户需要强制性地将他们的Facebook账户与https://buzzsumo.com（内容研究平台）连接起来进行验证。\n以下是屏幕截图：https://cln.sh/tshyw3\n",
+  "description_zh-Hant": "用戶需要強制性地將他們的Facebook賬戶與https://buzzsumo.com（內容研究平臺）連接起來進行驗證。\n以下是屏幕截圖：https://cln.sh/tshyw3\n"
+}
