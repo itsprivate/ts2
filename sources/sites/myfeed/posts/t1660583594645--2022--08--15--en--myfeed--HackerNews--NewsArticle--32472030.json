@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--myfeed--HackerNews--NewsArticle--32472030",
+  "url": "https://news.ycombinator.com/item?id=32472030",
+  "headline": "Update Zoom for Mac now to avoid root-access vulnerability",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "LinuxBender",
+    "url": "https://news.ycombinator.com/user?id=LinuxBender"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32472030",
+  "sameAs": "https://arstechnica.com/information-technology/2022/08/zoom-patches-mac-auto-updater-vulnerability-that-granted-root-access/",
+  "dateCreated": "2022-08-15T17:13:14.645Z",
+  "datePublished": "2022-08-15T16:45:14.000Z",
+  "dateModified": "2022-08-15T17:13:14.645Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "立即更新Mac版Zoom，避免出现root访问漏洞\n",
+  "headline_zh-Hant": "立即更新Mac版Zoom，避免出現root訪問漏洞\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
