@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--myfeed--HackerNews--NewsArticle--32472806",
+  "url": "https://news.ycombinator.com/item?id=32472806",
+  "headline": "Show HN: Node.js library for creating bots and sending texts via WhatsApp Cloud",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "Tawn33y",
+    "url": "https://news.ycombinator.com/user?id=Tawn33y"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32472806",
+  "sameAs": "https://github.com/tawn33y/whatsapp-cloud-api",
+  "dateCreated": "2022-08-15T17:56:10.945Z",
+  "datePublished": "2022-08-15T17:41:14.000Z",
+  "dateModified": "2022-08-15T17:56:10.945Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 用于创建机器人和通过WhatsApp云发送文本的Node.js库\n",
+  "headline_zh-Hant": "Show HN: 用於創建機器人和通過WhatsApp雲發送文本的Node.js庫\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
