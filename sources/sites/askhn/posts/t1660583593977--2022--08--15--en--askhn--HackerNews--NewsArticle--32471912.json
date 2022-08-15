@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--askhn--HackerNews--NewsArticle--32471912",
+  "url": "https://news.ycombinator.com/item?id=32471912",
+  "headline": "Ask HN: Can small teams maintain Electron apps?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We're a small dev team maintaining a niche Electron app that has about three dozen direct dependencies and hundreds of indirect dependencies. Dependabot warns us weekly about vulnerable Node modules, while Electron has frequent major releases, sometimes with breaking changes that have a major impact.<p>We have to update dependencies in this codebase much more frequently than in our Ruby and Go codebases. The result is a huge time suck, especially when we run into breaking changes and poor documentation (which is often).<p>Do other small teams feel this pain? Do large teams have staff dedicated to keeping Node/Electron dependencies up to date?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "diamondap",
+    "url": "https://news.ycombinator.com/user?id=diamondap"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32471912",
+  "sameAs": "https://news.ycombinator.com/item?id=32471912",
+  "dateCreated": "2022-08-15T17:13:13.977Z",
+  "datePublished": "2022-08-15T16:38:39.000Z",
+  "dateModified": "2022-08-15T17:13:13.977Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 小型团队可以维护Electron应用程序吗？\n",
+  "headline_zh-Hant": "Ask HN: 小型團隊可以維護Electron應用程序嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们是一个小型开发团队，正在维护一个小众的Electron应用，该应用有大约30多个直接依赖项和数百个间接依赖项。Dependabot每周都会就脆弱的Node模块向我们发出警告，而Electron则会频繁发布重大版本，有时还会出现具有重大影响的突破性变化。<p>与Ruby和Go代码库相比，我们必须更频繁地更新这个代码库中的依赖。其结果是大量的时间被吸走，尤其是当我们遇到破坏性的变化和糟糕的文档时（这种情况经常发生）。<p>其他小型团队是否也有这种痛苦？大型团队是否有专门的人员来保持Node/Electron的依赖性？\n",
+  "description_zh-Hant": "我們是一個小型開發團隊，正在維護一個小眾的Electron應用，該應用有大約30多個直接依賴項和數百個間接依賴項。Dependabot每週都會就脆弱的Node模塊向我們發出警告，而Electron則會頻繁發佈重大版本，有時還會出現具有重大影響的突破性變化。<p>與Ruby和Go代碼庫相比，我們必須更頻繁地更新這個代碼庫中的依賴。其結果是大量的時間被吸走，尤其是當我們遇到破壞性的變化和糟糕的文檔時（這種情況經常發生）。<p>其他小型團隊是否也有這種痛苦？大型團隊是否有專門的人員來保持Node/Electron的依賴性？\n"
+}
