@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--hackernews--HackerNews--NewsArticle--32423912",
+  "url": "https://news.ycombinator.com/item?id=32423912",
+  "headline": "I want to hate this new classic lit reading app but I do not",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mlschmitt23",
+    "url": "https://news.ycombinator.com/user?id=mlschmitt23"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32423912",
+  "sameAs": "https://lithub.com/i-want-to-hate-this-new-classic-lit-reading-app-but-i-do-not/",
+  "dateCreated": "2022-08-15T04:09:26.960Z",
+  "datePublished": "2022-08-11T10:55:52.000Z",
+  "dateModified": "2022-08-15T04:09:26.960Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 16
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 8
+    }
+  ],
+  "headline_zh-Hans": "我想讨厌这个新的经典文学阅读应用程序，但我不喜欢。\n",
+  "headline_zh-Hant": "我想討厭這個新的經典文學閱讀應用程序，但我不喜歡。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
