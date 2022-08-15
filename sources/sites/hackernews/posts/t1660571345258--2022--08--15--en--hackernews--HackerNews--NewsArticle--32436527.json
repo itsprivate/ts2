@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--hackernews--HackerNews--NewsArticle--32436527",
+  "url": "https://news.ycombinator.com/item?id=32436527",
+  "headline": "Best Practices for Form Design [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Akcium",
+    "url": "https://news.ycombinator.com/user?id=Akcium"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32436527",
+  "sameAs": "http://static.lukew.com/webforms_lukew.pdf",
+  "dateCreated": "2022-08-15T13:49:05.258Z",
+  "datePublished": "2022-08-12T10:25:09.000Z",
+  "dateModified": "2022-08-15T13:49:05.258Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "表格设计的最佳实践 [pdf]\n",
+  "headline_zh-Hant": "表格設計的最佳實踐 [pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
