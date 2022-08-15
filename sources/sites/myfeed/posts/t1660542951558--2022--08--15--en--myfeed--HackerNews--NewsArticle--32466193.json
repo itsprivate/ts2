@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--myfeed--HackerNews--NewsArticle--32466193",
+  "url": "https://news.ycombinator.com/item?id=32466193",
+  "headline": "Law enforcement took more stuff from people than burglars did last year (2015)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dlcmh",
+    "url": "https://news.ycombinator.com/user?id=dlcmh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32466193",
+  "sameAs": "https://www.washingtonpost.com/news/wonk/wp/2015/11/23/cops-took-more-stuff-from-people-than-burglars-did-last-year/",
+  "dateCreated": "2022-08-15T05:55:51.558Z",
+  "datePublished": "2022-08-15T05:31:19.000Z",
+  "dateModified": "2022-08-15T05:55:51.558Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "去年（2015年）执法部门从人们手中拿走的东西比窃贼还多\n",
+  "headline_zh-Hant": "去年（2015年）執法部門從人們手中拿走的東西比竊賊還多\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
