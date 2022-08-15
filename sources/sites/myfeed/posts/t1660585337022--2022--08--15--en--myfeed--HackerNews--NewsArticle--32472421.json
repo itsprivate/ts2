@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--myfeed--HackerNews--NewsArticle--32472421",
+  "url": "https://news.ycombinator.com/item?id=32472421",
+  "headline": "Show HN: OxideDB – Teach PostgreSQL Database How to Speak MongoDB Wire Protocol",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey everyone! I have created a product that relies on MongoDB for a document store but doesn't really need any of the distributed features to really justify having a hosted MongoDB or DocumentDB instance. Now that we're trying to turn this into a product, we're seeing that some companies have a little bit of resistance around managing yet another database. Most of our clients already have and manage PostgreSQL in one form or another.<p>I knew that PostgreSQL already offered first class JSON support, but I didn't want to rewrite the application data layer from scratch if I could avoid it. That's when I started researching if there was a &quot;proxy&quot; that would translate the MongoDB protocol - that I was completely ignorant about - into PostgreSQL. To my surprise there was nothing ready for production use but I found MangoDB that later on became FerretDB. I delved into the code and was in love with the idea. The team around is really nice, but I found that they had greater ambitions - they basically wanted to offer multiple backends, namely Tigris, on top of PostgreSQL.<p>On the other hand, I have been waiting to find an excuse to delve deeply into the rust ecosystem but never really found something I was passionate about until I had the idea of challenging myself to see if I could learn about the protocol that MongoDB uses by relying on their public documentation and the hints I found on FerretDB.<p>Fast forward 3 weeks and I have something I am almost comfortable on sharing yet super excited to get feedback on. It's in very early stages, and it's work from someone that is not yet super comfortable with the stack. Please don't be too harsh and keep in mind this is the beginning of a journey for me that I embarked out of pure joy on getting a tiny bit better on rust and making things click internally.<p>Thank you for your time and if you would like to help me on this project please be more than welcome to reach out, either here, via email or directly on the GitHub repo. (heavy breathing before clicking submit :-) )<p>PS: I forgot to mention, but another thing I added to my toolbelt while developing this was about creating parsers. In order to transform MongoDB JSON to SQL queries, I ported an existing library from the MongoDB team from PEG.js to pest.rs!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "fcoury",
+    "url": "https://news.ycombinator.com/user?id=fcoury"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32472421",
+  "sameAs": "https://github.com/fcoury/oxide",
+  "dateCreated": "2022-08-15T17:42:17.022Z",
+  "datePublished": "2022-08-15T17:13:18.000Z",
+  "dateModified": "2022-08-15T17:42:17.022Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: OxideDB - 教会PostgreSQL数据库如何说MongoDB线协议\n",
+  "headline_zh-Hant": "Show HN: OxideDB - 教會PostgreSQL數據庫如何說MongoDB線協議\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家好! 我创建了一个依靠MongoDB进行文档存储的产品，但并不真正需要任何分布式功能来真正证明有一个托管的MongoDB或DocumentDB实例。现在我们正试图把它变成一个产品，我们看到一些公司对管理另一个数据库有一点抵触。<p>我知道PostgreSQL已经提供了一流的JSON支持，但是如果可以避免的话，我不想从头开始重写应用数据层。这时我开始研究是否有一个&quot;代理&quot;可以将我完全不了解的MongoDB协议转换为PostgreSQL。令我惊讶的是，没有任何东西可以用于生产，但我发现了MangoDB，后来成为FerretDB。我深入研究了代码并爱上了这个想法。周围的团队真的很好，但我发现他们有更大的野心--他们基本上想在PostgreSQL之上提供多个后端，即Tigris。 <p>另一方面，我一直在等待找到一个借口来深入研究 rust 生态系统，但从未真正找到我所热衷的东西，直到我有了挑战自己的想法，看看我能否通过依靠他们的公共文档和我在 FerretDB 上发现的提示来了解 MongoDB 使用的协议。<p>快速前进 3 周，我有了一些我几乎可以放心分享但又超级期待得到反馈的东西。这是在非常早期的阶段，而且是一个对堆栈还不是很熟悉的人的作品。请不要太苛刻，并记住这是我的一个旅程的开始，我是出于纯粹的喜悦而开始的，因为我对Rust有了一点点的了解，并使事情在内部发生了变化。<p>谢谢你的时间，如果你想在这个项目上帮助我，请非常欢迎你联系我，可以在这里，通过电子邮件或直接在GitHub repo。(<p>PS：我忘了说了，在开发这个项目时，我在我的工具箱中添加了另一个东西，就是关于创建解析器。为了将MongoDB JSON转换为SQL查询，我将MongoDB团队的一个现有库从PEG.js移植到pest.rs!\n",
+  "description_zh-Hant": "大家好! 我創建了一個依靠MongoDB進行文檔存儲的產品，但並不真正需要任何分佈式功能來真正證明有一個託管的MongoDB或DocumentDB實例。現在我們正試圖把它變成一個產品，我們看到一些公司對管理另一個數據庫有一點牴觸。<p>我知道PostgreSQL已經提供了一流的JSON支持，但是如果可以避免的話，我不想從頭開始重寫應用數據層。這時我開始研究是否有一個&quot;代理&quot;可以將我完全不瞭解的MongoDB協議轉換為PostgreSQL。令我驚訝的是，沒有任何東西可以用於生產，但我發現了MangoDB，後來成為FerretDB。我深入研究了代碼並愛上了這個想法。周圍的團隊真的很好，但我發現他們有更大的野心--他們基本上想在PostgreSQL之上提供多個後端，即Tigris。 <p>另一方面，我一直在等待找到一個藉口來深入研究 rust 生態系統，但從未真正找到我所熱衷的東西，直到我有了挑戰自己的想法，看看我能否通過依靠他們的公共文檔和我在 FerretDB 上發現的提示來了解 MongoDB 使用的協議。<p>快速前進 3 周，我有了一些我幾乎可以放心分享但又超級期待得到反饋的東西。這是在非常早期的階段，而且是一個對堆棧還不是很熟悉的人的作品。請不要太苛刻，並記住這是我的一個旅程的開始，我是出於純粹的喜悅而開始的，因為我對Rust有了一點點的瞭解，並使事情在內部發生了變化。<p>謝謝你的時間，如果你想在這個項目上幫助我，請非常歡迎你聯繫我，可以在這裡，通過電子郵件或直接在GitHub repo。(<p>PS：我忘了說了，在開發這個項目時，我在我的工具箱中添加了另一個東西，就是關於創建解析器。為了將MongoDB JSON轉換為SQL查詢，我將MongoDB團隊的一個現有庫從PEG.js移植到pest.rs!\n"
+}
