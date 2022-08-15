@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--myfeed--HackerNews--NewsArticle--32472303",
+  "url": "https://news.ycombinator.com/item?id=32472303",
+  "headline": "US Homebuilder Confidence Hits Worst Slump Since 2007 Collapse",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "shaburn",
+    "url": "https://news.ycombinator.com/user?id=shaburn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32472303",
+  "sameAs": "https://www.bloomberg.com/news/articles/2022-08-15/us-homebuilder-confidence-hits-worst-slump-since-2007-collapse",
+  "dateCreated": "2022-08-15T18:33:20.831Z",
+  "datePublished": "2022-08-15T17:03:31.000Z",
+  "dateModified": "2022-08-15T18:33:20.831Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "美国房屋建筑商的信心遭遇2007年崩盘以来最严重的滑坡\n",
+  "headline_zh-Hant": "美國房屋建築商的信心遭遇2007年崩盤以來最嚴重的滑坡\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
