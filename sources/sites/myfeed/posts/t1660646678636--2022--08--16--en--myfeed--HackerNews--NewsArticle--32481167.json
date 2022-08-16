@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--myfeed--HackerNews--NewsArticle--32481167",
+  "url": "https://news.ycombinator.com/item?id=32481167",
+  "headline": "T-Mobile and Deutsche Telekom lie to customers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nickt",
+    "url": "https://news.ycombinator.com/user?id=nickt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32481167",
+  "sameAs": "https://hasbrouck.org/blog/archives/002653.html",
+  "dateCreated": "2022-08-16T10:44:38.636Z",
+  "datePublished": "2022-08-16T10:34:21.000Z",
+  "dateModified": "2022-08-16T10:44:38.636Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "T-Mobile和德国电信对客户撒谎\n",
+  "headline_zh-Hant": "T-Mobile和德國電信對客戶撒謊\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
