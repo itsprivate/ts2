@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--myfeed--HackerNews--NewsArticle--32484794",
+  "url": "https://news.ycombinator.com/item?id=32484794",
+  "headline": "GPT-3 generated use cases for our product",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sidgarimella",
+    "url": "https://news.ycombinator.com/user?id=sidgarimella"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32484794",
+  "sameAs": "https://www.prefix.app/use-cases",
+  "dateCreated": "2022-08-16T16:37:04.597Z",
+  "datePublished": "2022-08-16T16:10:01.000Z",
+  "dateModified": "2022-08-16T16:37:04.597Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "GPT-3为我们的产品生成的使用案例\n",
+  "headline_zh-Hant": "GPT-3為我們的產品生成的使用案例\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

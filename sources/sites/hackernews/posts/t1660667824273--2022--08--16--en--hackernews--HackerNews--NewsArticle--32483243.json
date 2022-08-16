@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--hackernews--HackerNews--NewsArticle--32483243",
+  "url": "https://news.ycombinator.com/item?id=32483243",
+  "headline": "Germany: 1 Dead, 9 injured after BMW self driving test car veers into traffic",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "belltaco",
+    "url": "https://news.ycombinator.com/user?id=belltaco"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32483243",
+  "sameAs": "https://apnews.com/article/technology-germany-8a2333532b91635d5b214485043ed94a",
+  "dateCreated": "2022-08-16T16:37:04.273Z",
+  "datePublished": "2022-08-16T14:32:11.000Z",
+  "dateModified": "2022-08-16T16:37:04.273Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 24
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 10
+    }
+  ],
+  "headline_zh-Hans": "德国：宝马自动驾驶测试车转向交通，1人死亡，9人受伤\n",
+  "headline_zh-Hant": "德國：寶馬自動駕駛測試車轉向交通，1人死亡，9人受傷\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
