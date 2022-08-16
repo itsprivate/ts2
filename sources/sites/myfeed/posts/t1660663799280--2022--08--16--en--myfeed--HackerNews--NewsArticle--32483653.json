@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--myfeed--HackerNews--NewsArticle--32483653",
+  "url": "https://news.ycombinator.com/item?id=32483653",
+  "headline": "Ukraine sitrep: nuke plant crazies, Wagner wipeout, PzH 2000 fails",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tomohawk",
+    "url": "https://news.ycombinator.com/user?id=tomohawk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32483653",
+  "sameAs": "https://www.thedrive.com/the-war-zone/ukraine-situation-report-bridge-busting-campaign-persists-in-kherson",
+  "dateCreated": "2022-08-16T15:29:59.280Z",
+  "datePublished": "2022-08-16T14:59:09.000Z",
+  "dateModified": "2022-08-16T15:29:59.280Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "乌克兰情况报道：核电站的疯狂，瓦格纳的覆灭，PzH 2000的失败\n",
+  "headline_zh-Hant": "烏克蘭情況報道：核電站的瘋狂，瓦格納的覆滅，PzH 2000的失敗\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

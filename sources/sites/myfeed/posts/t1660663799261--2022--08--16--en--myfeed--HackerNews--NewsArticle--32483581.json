@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--myfeed--HackerNews--NewsArticle--32483581",
+  "url": "https://news.ycombinator.com/item?id=32483581",
+  "headline": "Huanan Seafood Wholesale Market in Wuhan was the early epicenter of COVID-19",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "evolve2k",
+    "url": "https://news.ycombinator.com/user?id=evolve2k"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32483581",
+  "sameAs": "https://www.science.org/doi/full/10.1126/science.abp8715",
+  "dateCreated": "2022-08-16T15:29:59.261Z",
+  "datePublished": "2022-08-16T14:54:52.000Z",
+  "dateModified": "2022-08-16T15:29:59.261Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "武汉的华南海鲜批发市场是COVID-19的早期震中。\n",
+  "headline_zh-Hant": "武漢的華南海鮮批發市場是COVID-19的早期震中。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
