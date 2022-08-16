@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--showhn--HackerNews--NewsArticle--32482148",
+  "url": "https://news.ycombinator.com/item?id=32482148",
+  "headline": "Show HN: A quiet faster search engine written in Ruby",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "daviducolo",
+    "url": "https://news.ycombinator.com/user?id=daviducolo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32482148",
+  "sameAs": "https://github.com/dato-ai/dato.rss",
+  "dateCreated": "2022-08-16T13:22:43.371Z",
+  "datePublished": "2022-08-16T12:54:54.000Z",
+  "dateModified": "2022-08-16T13:22:43.371Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 用Ruby编写的一个安静的快速搜索引擎\n",
+  "headline_zh-Hant": "Show HN: 用Ruby編寫的一個安靜的快速搜索引擎\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

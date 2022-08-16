@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--myfeed--HackerNews--NewsArticle--32481662",
+  "url": "https://news.ycombinator.com/item?id=32481662",
+  "headline": "Tell HN: Microsoft deliverability issues made my life a living hell",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN,<p>I've been hosting full featured email servers for half a dozen organizations, mainly non-profits and healthcare institutions, for a few years. It's used internally &amp; externally by individuals, for their daily work.<p>I successfully implemented all email best practices, from strong authentication to SPF, DKIM, DMARC &amp; enrolled into all postmaster tools (like Microsoft SNDS, Google Postmaster, etc). Every email is scanned against ClamAV (antivirus) and Rspamd (antispam), also each server has its own dedicated IPv4 and IPv6 addresses.<p>Since the beginning of this year, Microsoft started to reject emails sent from these servers. It took me almost 3 months between January &amp; March to fix this issue with them (which was a false positive in their systems), and now they are bouncing my client's emails again.<p>I sincerely don't know what to do, I'm 100% sure no spam is originating from our side. My clients (I don't blame them) are lost and don't understand why their emails aren't delivered. I explained many times that they are being blocked by Microsoft services and that everything is working as expected on our end. Still, even workaround like relaying sending through Sendgrid don't work, their IP addresses are blacklisted from Microsoft as well.<p>I'm feeling bad about this, even more, helpless with this issue coming back. I've ran emails servers for years and never had issues with any other email service providers (Google, Yahoo, etc).<p>What do you think should I do? Propose my clients to move to Office365? I believe it's the only way to fix their deliverability issues with Microsoft... In the meantime moral support is greatly appreciated.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mthld",
+    "url": "https://news.ycombinator.com/user?id=mthld"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32481662",
+  "sameAs": "https://news.ycombinator.com/item?id=32481662",
+  "dateCreated": "2022-08-16T13:22:30.140Z",
+  "datePublished": "2022-08-16T11:58:03.000Z",
+  "dateModified": "2022-08-16T13:22:30.140Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：微软的可送达性问题让我的生活成了人间地狱\n",
+  "headline_zh-Hant": "告訴HN：微軟的可送達性問題讓我的生活成了人間地獄\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi HN,<p>几年来，我一直为半打组织托管全功能的电子邮件服务器，主要是非营利组织和医疗机构。<p>我成功地实施了所有电子邮件的最佳做法，从强认证到SPF、DKIM、DMARC以及注册到所有的postmaster工具（如Microsoft SNDS、Google Postmaster等）。每封电子邮件都经过ClamAV（防病毒）和Rspamd（防垃圾邮件）的扫描，而且每台服务器都有自己的专用IPv4和IPv6地址。<p>从今年年初开始，微软开始拒绝从这些服务器发送的电子邮件。从1月到3月，我花了将近3个月的时间与他们解决这个问题（这是他们系统中的一个假阳性），现在他们又开始反弹我客户的邮件了。<p>我真的不知道该怎么办，我100%确定没有垃圾邮件来自我们这边。我的客户（我不怪他们）很迷茫，不明白为什么他们的邮件没有被送达。我多次解释说，他们被微软的服务所阻挡，而且在我们这边一切都在正常工作。但是，即使是通过Sendgrid中转发送这样的解决方法也不起作用，他们的IP地址也被微软列入了黑名单。<p>我对此感到很难过，更无奈的是这个问题又出现了。我经营电子邮件服务器多年，从未与任何其他电子邮件服务提供商（谷歌、雅虎等）发生过问题。<p>你认为我应该怎么做？提议我的客户转移到Office365？我相信这是解决他们与微软之间递送问题的唯一方法...... 同时，非常感谢您的精神支持。\n",
+  "description_zh-Hant": "Hi HN,<p>幾年來，我一直為半打組織託管全功能的電子郵件服務器，主要是非營利組織和醫療機構。<p>我成功地實施了所有電子郵件的最佳做法，從強認證到SPF、DKIM、DMARC以及註冊到所有的postmaster工具（如Microsoft SNDS、Google Postmaster等）。每封電子郵件都經過ClamAV（防病毒）和Rspamd（防垃圾郵件）的掃描，而且每臺服務器都有自己的專用IPv4和IPv6地址。<p>從今年年初開始，微軟開始拒絕從這些服務器發送的電子郵件。從1月到3月，我花了將近3個月的時間與他們解決這個問題（這是他們系統中的一個假陽性），現在他們又開始反彈我客戶的郵件了。<p>我真的不知道該怎麼辦，我100%確定沒有垃圾郵件來自我們這邊。我的客戶（我不怪他們）很迷茫，不明白為什麼他們的郵件沒有被送達。我多次解釋說，他們被微軟的服務所阻擋，而且在我們這邊一切都在正常工作。但是，即使是通過Sendgrid中轉發送這樣的解決方法也不起作用，他們的IP地址也被微軟列入了黑名單。<p>我對此感到很難過，更無奈的是這個問題又出現了。我經營電子郵件服務器多年，從未與任何其他電子郵件服務提供商（谷歌、雅虎等）發生過問題。<p>你認為我應該怎麼做？提議我的客戶轉移到Office365？我相信這是解決他們與微軟之間遞送問題的唯一方法...... 同時，非常感謝您的精神支持。\n"
+}
