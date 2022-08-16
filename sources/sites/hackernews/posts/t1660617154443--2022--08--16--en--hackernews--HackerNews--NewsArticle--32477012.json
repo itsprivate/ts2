@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--hackernews--HackerNews--NewsArticle--32477012",
+  "url": "https://news.ycombinator.com/item?id=32477012",
+  "headline": "Using Rust to scale Elixir for 11M concurrent users",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "i0exception",
+    "url": "https://news.ycombinator.com/user?id=i0exception"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32477012",
+  "sameAs": "https://discord.com/blog/using-rust-to-scale-elixir-for-11-million-concurrent-users",
+  "dateCreated": "2022-08-16T02:32:34.443Z",
+  "datePublished": "2022-08-15T23:30:57.000Z",
+  "dateModified": "2022-08-16T02:32:34.443Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "使用Rust来扩展Elixir的11M并发用户\n",
+  "headline_zh-Hant": "使用Rust來擴展Elixir的11M併發用戶\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
