@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--myfeed--HackerNews--NewsArticle--32482356",
+  "url": "https://news.ycombinator.com/item?id=32482356",
+  "headline": "Please do not use Python for tooling",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bborud",
+    "url": "https://news.ycombinator.com/user?id=bborud"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32482356",
+  "sameAs": "https://borud.no/dev/2022/embedded-tooling/",
+  "dateCreated": "2022-08-16T13:47:52.308Z",
+  "datePublished": "2022-08-16T13:19:55.000Z",
+  "dateModified": "2022-08-16T13:47:52.308Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "请不要用Python做工具\n",
+  "headline_zh-Hant": "請不要用Python做工具\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
