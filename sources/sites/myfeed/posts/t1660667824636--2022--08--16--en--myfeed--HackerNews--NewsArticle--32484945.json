@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--myfeed--HackerNews--NewsArticle--32484945",
+  "url": "https://news.ycombinator.com/item?id=32484945",
+  "headline": "L2 Self-driving BMW veers into oncoming traffic leaving 1 dead and 9 injured",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "faebi",
+    "url": "https://news.ycombinator.com/user?id=faebi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32484945",
+  "sameAs": "https://www.thesun.co.uk/news/19525886/bmw-autonomous-electric-test-car-crash/",
+  "dateCreated": "2022-08-16T16:37:04.636Z",
+  "datePublished": "2022-08-16T16:20:15.000Z",
+  "dateModified": "2022-08-16T16:37:04.636Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "L2 自动驾驶宝马车转向迎面而来的车辆，造成1人死亡，9人受伤\n",
+  "headline_zh-Hant": "L2 自動駕駛寶馬車轉向迎面而來的車輛，造成1人死亡，9人受傷\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

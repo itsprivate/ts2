@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--myfeed--HackerNews--NewsArticle--32484734",
+  "url": "https://news.ycombinator.com/item?id=32484734",
+  "headline": "Visibot – Control Robots from a Spreadsheet",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "zindlerb",
+    "url": "https://news.ycombinator.com/user?id=zindlerb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32484734",
+  "sameAs": "https://visibot.com/",
+  "dateCreated": "2022-08-16T16:37:04.581Z",
+  "datePublished": "2022-08-16T16:05:40.000Z",
+  "dateModified": "2022-08-16T16:37:04.581Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Visibot - 从电子表格中控制机器人\n",
+  "headline_zh-Hant": "Visibot - 從電子表格中控制機器人\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

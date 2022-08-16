@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--myfeed--HackerNews--NewsArticle--32485089",
+  "url": "https://news.ycombinator.com/item?id=32485089",
+  "headline": "Data Engineers Spend 2 Days per Week Firefighting Bad Data",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "swordsmith8",
+    "url": "https://news.ycombinator.com/user?id=swordsmith8"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32485089",
+  "sameAs": "https://www.montecarlodata.com/blog-data-quality-survey-2022/",
+  "dateCreated": "2022-08-16T16:37:04.666Z",
+  "datePublished": "2022-08-16T16:28:43.000Z",
+  "dateModified": "2022-08-16T16:37:04.666Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "数据工程师每周花2天时间扑灭坏数据\n",
+  "headline_zh-Hant": "數據工程師每週花2天時間撲滅壞數據\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

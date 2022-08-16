@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--myfeed--HackerNews--NewsArticle--32484807",
+  "url": "https://news.ycombinator.com/item?id=32484807",
+  "headline": "Faster offset pagination for Rails apps",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "samlambert",
+    "url": "https://news.ycombinator.com/user?id=samlambert"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32484807",
+  "sameAs": "https://planetscale.com/blog/fastpage-faster-offset-pagination-for-rails-apps",
+  "dateCreated": "2022-08-16T16:37:04.608Z",
+  "datePublished": "2022-08-16T16:10:29.000Z",
+  "dateModified": "2022-08-16T16:37:04.608Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "为Rails应用程序提供更快的偏移分页功能\n",
+  "headline_zh-Hant": "為Rails應用程序提供更快的偏移分頁功能\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
