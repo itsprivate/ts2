@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--myfeed--HackerNews--NewsArticle--32478492",
+  "url": "https://news.ycombinator.com/item?id=32478492",
+  "headline": "Colour evolution of Betelgeuse over two millennia, derived from records",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sohkamyung",
+    "url": "https://news.ycombinator.com/user?id=sohkamyung"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32478492",
+  "sameAs": "https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stac1969/6651563",
+  "dateCreated": "2022-08-16T02:32:34.834Z",
+  "datePublished": "2022-08-16T02:16:47.000Z",
+  "dateModified": "2022-08-16T02:32:34.834Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "猎户座两千年来的颜色演变，源自记录\n",
+  "headline_zh-Hant": "獵戶座兩千年來的顏色演變，源自記錄\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

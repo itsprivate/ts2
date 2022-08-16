@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--myfeed--HackerNews--NewsArticle--32478002",
+  "url": "https://news.ycombinator.com/item?id=32478002",
+  "headline": "Seamless back end/front end communication with code generation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "crummy",
+    "url": "https://news.ycombinator.com/user?id=crummy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32478002",
+  "sameAs": "https://malcolmcrum.com/blog/2022/07/30/hand-rolled-api-generator.html",
+  "dateCreated": "2022-08-16T02:32:34.781Z",
+  "datePublished": "2022-08-16T01:08:38.000Z",
+  "dateModified": "2022-08-16T02:32:34.781Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "无缝的后端/前端通信与代码生成\n",
+  "headline_zh-Hant": "無縫的後端/前端通信與代碼生成\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
