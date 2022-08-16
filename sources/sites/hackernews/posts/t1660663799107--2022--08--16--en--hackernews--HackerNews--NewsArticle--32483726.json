@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--hackernews--HackerNews--NewsArticle--32483726",
+  "url": "https://news.ycombinator.com/item?id=32483726",
+  "headline": "Poly-time algorithm for deciding Hilbert Nullstellensatz. A proof of P=NP",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "limoce",
+    "url": "https://news.ycombinator.com/user?id=limoce"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32483726",
+  "sameAs": "https://arxiv.org/abs/2208.07327",
+  "dateCreated": "2022-08-16T15:29:59.107Z",
+  "datePublished": "2022-08-16T15:03:44.000Z",
+  "dateModified": "2022-08-16T15:29:59.107Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 18
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "决定Hilbert Nullstellensatz的多时间算法。P=NP的证明\n",
+  "headline_zh-Hant": "決定Hilbert Nullstellensatz的多時間算法。P=NP的證明\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

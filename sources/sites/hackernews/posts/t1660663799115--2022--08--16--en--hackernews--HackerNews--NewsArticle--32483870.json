@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--hackernews--HackerNews--NewsArticle--32483870",
+  "url": "https://news.ycombinator.com/item?id=32483870",
+  "headline": "Show HN: I made a local development, debugging and hotreload tool for AWS Lambda",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "MerLoc is a live AWS Lambda function development and debugging tool. MerLoc allows you to run AWS Lambda functions on your local while they are still part of a flow in the AWS cloud remote.<p>MerLoc makes it possible to\n- test your function locally without deploy to the AWS Lambda environment (so no wait for build, package and deploy)\n- debug your function by putting breakpoints from your IDE\n- hot-reload updated function on your local automatically to apply changes automatically (so again no wait for build, package and deploy)\n- run the individual function locally while it is still part of flow shown above and use real requests from the AWS Lambda environment",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "sozal",
+    "url": "https://news.ycombinator.com/user?id=sozal"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32483870",
+  "sameAs": "https://github.com/thundra-io/merloc-java",
+  "dateCreated": "2022-08-16T15:29:59.115Z",
+  "datePublished": "2022-08-16T15:13:19.000Z",
+  "dateModified": "2022-08-16T15:29:59.115Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我为AWS Lambda做了一个本地开发、调试和热重载工具\n",
+  "headline_zh-Hant": "Show HN: 我為AWS Lambda做了一個本地開發、調試和熱重載工具\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "MerLoc是一个实时的AWS Lambda函数开发和调试工具。MerLoc允许您在本地运行AWS Lambda函数，而这些函数仍然是AWS云远程流程的一部分。\n- 在本地测试您的函数，而无需部署到AWS Lambda环境（因此无需等待构建、打包和部署）。\n- 通过在IDE中设置断点来调试你的函数\n- 自动在本地热加载更新后的函数，以自动应用变化（因此同样无需等待构建、打包和部署）。\n- 在本地运行单个函数，而它仍然是上述流程的一部分，并使用来自AWS Lambda环境的真实请求\n",
+  "description_zh-Hant": "MerLoc是一個實時的AWS Lambda函數開發和調試工具。MerLoc允許您在本地運行AWS Lambda函數，而這些函數仍然是AWS雲遠程流程的一部分。\n- 在本地測試您的函數，而無需部署到AWS Lambda環境（因此無需等待構建、打包和部署）。\n- 通過在IDE中設置斷點來調試你的函數\n- 自動在本地熱加載更新後的函數，以自動應用變化（因此同樣無需等待構建、打包和部署）。\n- 在本地運行單個函數，而它仍然是上述流程的一部分，並使用來自AWS Lambda環境的真實請求\n"
+}
