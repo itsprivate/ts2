@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--myfeed--HackerNews--NewsArticle--32482623",
+  "url": "https://news.ycombinator.com/item?id=32482623",
+  "headline": "Show HN: Integrate.ai – Machine learning and analytics on hard-to-access data",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN! This is Steve from integrate.ai (https://integrate.ai). Our platform unlocks a range of machine learning and analytics capabilities on data that would otherwise be difficult or impossible to access due to privacy, confidentiality, or technical hurdles.<p>Traditional approaches to machine learning and analytics require centralization and aggregation of data sources. Given the increasingly distributed nature of data - across organizations, across borders, and across connected devices - centralizing the data necessary for machine learning and analytics often requires complex data-sharing agreements, costly pipelines, and supporting infrastructure.<p>The data governance challenges and cost implications of data centralization are blocking the world’s most important data-driven problems, particularly in healthcare, industrial IoT, and finance, where data custodians must enforce the highest privacy and security standards to ensure regulatory and contractual compliance and data is spread across multiple silos or edge environments. Here are a few examples where barriers to data access either slow down or completely block world-changing use cases:<p>(1) Rare disease diagnostics - Research hospitals don’t have enough rare disease data points to build accurate diagnostic models, and they cannot get access to more data from partner hospitals to improve their models<p>(2) Precision medicine - Health data consortiums working on improving medical care for diseases from cancer to heart disease can take years setting up data sharing agreements and implementing governance processes before research begins<p>(3) Drug safety monitoring - Government regulators can’t leverage data that is hard to standardize, such as laboratory, radiology, and pathology results, resulting in potential missed opportunities for detecting side effects or validating product safety<p>(4) Predictive maintenance - Manufacturers don’t have access to all of their data to train predictive maintenance models, because of challenges moving high volumes of data, sporadic data availability at the edge, and customer resistance to providing data access<p>(5) Financial fraud detection - Individual banks and credit card companies lack sufficient fraud data points to train highly accurate models, but face regulatory barriers and concerns about IP sensitivity that limits their ability to share data<p>integrate.ai leverages federated learning and differential privacy to enable machine learning and analytics on sensitive or hard-to-access data wherever it sits, without moving it. It allows data to stay distributed in its original protected environments, while unlocking its value with privacy-protecting machine learning and analytics. Model training and analytics are performed locally, and only end-results like model parameters are aggregated in a secure and confidential manner.<p>We empower product teams to extend machine learning and analytics capabilities in their products in flexible and reliable ways. integrate.ai is packaged as a developer tool, helping developers seamlessly integrate federated learning and federated analytics capabilities into almost any solution with an easy-to-use SDK and supporting cloud services for end-to-end management. Once integrated, end-users can collaborate across sensitive data sets while data custodians retain full control. Solutions incorporating integrate.ai can serve as both effective experimentation tools and production-ready services.<p>You can start building your own federated models and analytics quickly, with our 14-day free trial: https://integrate.ai.<p>By adopting a federated approach and training models on data where it sits, without moving it, developers will be able to unlock solutions to the world’s most important problems without risking sensitive data. We would love to hear your thoughts on using hard-to-access data for machine learning and analytics, and your feedback on the product. Happy federating!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "iaisteve",
+    "url": "https://news.ycombinator.com/user?id=iaisteve"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32482623",
+  "sameAs": "https://news.ycombinator.com/item?id=32482623",
+  "dateCreated": "2022-08-16T14:24:58.539Z",
+  "datePublished": "2022-08-16T13:45:09.000Z",
+  "dateModified": "2022-08-16T14:24:58.539Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Integrate.ai - 对难以获取的数据进行机器学习和分析\n",
+  "headline_zh-Hant": "Show HN: Integrate.ai - 對難以獲取的數據進行機器學習和分析\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN! 我是 integrate.ai (https://integrate.ai) 的 Steve。我们的平台在数据上释放了一系列机器学习和分析能力，否则，由于隐私、保密性或技术障碍，这些数据将难以或无法访问。鉴于数据的分布性越来越强--跨组织、跨边界和跨连接设备--集中机器学习和分析所需的数据往往需要复杂的数据共享协议、昂贵的管道和支持性基础设施。<p>数据治理的挑战和数据集中的成本影响阻碍了世界上最重要的数据驱动问题，特别是在医疗保健、工业物联网和金融领域，数据保管人必须执行最高的隐私和安全标准，以确保监管和合同合规，而数据则分布在多个筒仓或边缘环境。以下是几个例子，数据访问的障碍要么减缓，要么完全阻止改变世界的用例。 <p>(1) 罕见病诊断 - 研究医院没有足够的罕见病数据点来建立准确的诊断模型，而且他们无法从伙伴医院获得更多的数据来改进他们的模型<p>(2) 精准医疗 - 致力于改善从癌症到心脏病等疾病的医疗服务的健康数据联盟，在研究开始前需要花费数年时间来制定数据共享协议和实施治理流程<p>(3) 药物安全监测 - 政府监管机构无法利用难以标准化的数据，如实验室、放射学和病理学结果。导致可能错失检测副作用或验证产品安全性的机会<p>(4) 预测性维护 - 制造商无法访问其所有数据来训练预测性维护模型，因为在移动大量数据方面存在挑战，边缘的数据可用性不稳定，以及客户对提供数据访问的抵制<p>(5) 金融欺诈检测 - 个别银行和信用卡公司缺乏足够的欺诈数据点来训练高度准确的模型，但面临监管障碍和对知识产权敏感性的担忧，限制其共享数据的能力<p>整合。 ai利用联合学习和差异化隐私来实现对敏感或难以访问的数据的机器学习和分析，无论其位于何处，都不需要移动它。它允许数据保持在原有的受保护环境中分布，同时通过保护隐私的机器学习和分析来释放其价值。模型训练和分析在本地进行，只有像模型参数这样的最终结果才会以安全和保密的方式进行汇总。<p>我们使产品团队能够以灵活和可靠的方式在其产品中扩展机器学习和分析能力。 integrate.ai被包装成一个开发者工具，帮助开发者通过一个易于使用的SDK和支持端到端管理的云服务，将联合学习和联合分析能力无缝集成到几乎任何解决方案中。一旦集成，最终用户可以在敏感的数据集上进行协作，而数据监管者则保持完全控制。整合了 integrate.ai 的解决方案既可以作为有效的实验工具，也可以作为生产就绪的服务。<p>您可以通过我们的14天免费试用，迅速开始构建您自己的联合模型和分析：https://integrate.ai。<p>通过采用联合方法和在数据上训练模型，而不移动数据，开发人员将能够解锁世界上最重要问题的解决方案，而不会冒敏感数据的风险。我们希望听到您对使用难以获取的数据进行机器学习和分析的想法，以及您对产品的反馈。快乐的联合!\n",
+  "description_zh-Hant": "嗨，HN! 我是 integrate.ai (https://integrate.ai) 的 Steve。我們的平臺在數據上釋放了一系列機器學習和分析能力，否則，由於隱私、保密性或技術障礙，這些數據將難以或無法訪問。鑑於數據的分佈性越來越強--跨組織、跨邊界和跨連接設備--集中機器學習和分析所需的數據往往需要複雜的數據共享協議、昂貴的管道和支持性基礎設施。<p>數據治理的挑戰和數據集中的成本影響阻礙了世界上最重要的數據驅動問題，特別是在醫療保健、工業物聯網和金融領域，數據保管人必須執行最高的隱私和安全標準，以確保監管和合同合規，而數據則分佈在多個筒倉或邊緣環境。以下是幾個例子，數據訪問的障礙要麼減緩，要麼完全阻止改變世界的用例。 <p>(1) 罕見病診斷 - 研究醫院沒有足夠的罕見病數據點來建立準確的診斷模型，而且他們無法從夥伴醫院獲得更多的數據來改進他們的模型<p>(2) 精準醫療 - 致力於改善從癌症到心臟病等疾病的醫療服務的健康數據聯盟，在研究開始前需要花費數年時間來制定數據共享協議和實施治理流程<p>(3) 藥物安全監測 - 政府監管機構無法利用難以標準化的數據，如實驗室、放射學和病理學結果。導致可能錯失檢測副作用或驗證產品安全性的機會<p>(4) 預測性維護 - 製造商無法訪問其所有數據來訓練預測性維護模型，因為在移動大量數據方面存在挑戰，邊緣的數據可用性不穩定，以及客戶對提供數據訪問的抵制<p>(5) 金融欺詐檢測 - 個別銀行和信用卡公司缺乏足夠的欺詐數據點來訓練高度準確的模型，但面臨監管障礙和對知識產權敏感性的擔憂，限制其共享數據的能力<p>整合。 ai利用聯合學習和差異化隱私來實現對敏感或難以訪問的數據的機器學習和分析，無論其位於何處，都不需要移動它。它允許數據保持在原有的受保護環境中分佈，同時通過保護隱私的機器學習和分析來釋放其價值。模型訓練和分析在本地進行，只有像模型參數這樣的最終結果才會以安全和保密的方式進行彙總。<p>我們使產品團隊能夠以靈活和可靠的方式在其產品中擴展機器學習和分析能力。 integrate.ai被包裝成一個開發者工具，幫助開發者通過一個易於使用的SDK和支持端到端管理的雲服務，將聯合學習和聯合分析能力無縫集成到幾乎任何解決方案中。一旦集成，最終用戶可以在敏感的數據集上進行協作，而數據監管者則保持完全控制。整合了 integrate.ai 的解決方案既可以作為有效的實驗工具，也可以作為生產就緒的服務。<p>您可以通過我們的14天免費試用，迅速開始構建您自己的聯合模型和分析：https://integrate.ai。<p>通過採用聯合方法和在數據上訓練模型，而不移動數據，開發人員將能夠解鎖世界上最重要問題的解決方案，而不會冒敏感數據的風險。我們希望聽到您對使用難以獲取的數據進行機器學習和分析的想法，以及您對產品的反饋。快樂的聯合!\n"
+}
