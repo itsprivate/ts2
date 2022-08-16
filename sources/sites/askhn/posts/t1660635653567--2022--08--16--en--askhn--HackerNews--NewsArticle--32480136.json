@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--askhn--HackerNews--NewsArticle--32480136",
+  "url": "https://news.ycombinator.com/item?id=32480136",
+  "headline": "Ask HN: Is anyone using the new GitHub v2 projects?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm really frustrated with how they developed this thing. I use Zenhub which seamlessly integrates Issues with GitHub.<p>For those who don't know, Zenhub manages GitHub issues(all of them) in Kanban board. This is not how GitHub projects is implemented, as every issue needs to be converted to a card and added to a specific Project.<p>The second problem is filtering or searching. You need to create a new view to really filter or search your &quot;board&quot;. In a sense they duplicated issues but removed search from them and reimplemented entire UI so they look like issues.<p>My use case is &quot;I want view to manage Sprint using issues&quot;, it's not possible to do that with GitHub Projects v2. Is anyone actually using to manage Sprints in GitHub, I would like to hear your experience with it?<p>I came across this https://i0.wp.com/user-images.githubusercontent.com/98360703/181262320-ccf26012-2efb-4f4d-9a7a-51af0ea18584.png on https://github.blog/changelog/2022-07-27-github-issues-projects-now-generally-available/ and I don't beleive it. Do they like to torture people :D?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "dz0ny",
+    "url": "https://news.ycombinator.com/user?id=dz0ny"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32480136",
+  "sameAs": "https://news.ycombinator.com/item?id=32480136",
+  "dateCreated": "2022-08-16T07:40:53.567Z",
+  "datePublished": "2022-08-16T07:26:01.000Z",
+  "dateModified": "2022-08-16T07:40:53.567Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 有人在使用新的GitHub v2项目吗？\n",
+  "headline_zh-Hant": "Ask HN: 有人在使用新的GitHub v2項目嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我对他们开发这个东西的方式感到非常沮丧。我使用Zenhub，它将问题与GitHub无缝集成。<p>对于那些不知道的人来说，Zenhub在看板中管理GitHub问题（所有问题）。这不是GitHub项目的实现方式，因为每个问题都需要转换为卡片，并添加到一个特定的项目。你需要创建一个新的视图来真正过滤或搜索你的&quot;板&quot;。<p>我的用例是&quot;我想用问题来管理Sprint&quot;，GitHub Projects v2不可能做到这一点。有没有人真正使用GitHub来管理Sprints，我想听听你的经验？<p>我在https://github.blog/changelog/2022-07-27-github-issues-projects-now-generally-available/ 上看到这个https://i0.wp.com/user-images.githubusercontent.com/98360703/181262320-ccf26012-2efb-4f4d-9a7a-51af0ea18584.png，我不相信。他们喜欢折磨人吗：D？\n",
+  "description_zh-Hant": "我對他們開發這個東西的方式感到非常沮喪。我使用Zenhub，它將問題與GitHub無縫集成。<p>對於那些不知道的人來說，Zenhub在看板中管理GitHub問題（所有問題）。這不是GitHub項目的實現方式，因為每個問題都需要轉換為卡片，並添加到一個特定的項目。你需要創建一個新的視圖來真正過濾或搜索你的&quot;板&quot;。<p>我的用例是&quot;我想用問題來管理Sprint&quot;，GitHub Projects v2不可能做到這一點。有沒有人真正使用GitHub來管理Sprints，我想聽聽你的經驗？<p>我在https://github.blog/changelog/2022-07-27-github-issues-projects-now-generally-available/ 上看到這個https://i0.wp.com/user-images.githubusercontent.com/98360703/181262320-ccf26012-2efb-4f4d-9a7a-51af0ea18584.png，我不相信。他們喜歡折磨人嗎：D？\n"
+}
