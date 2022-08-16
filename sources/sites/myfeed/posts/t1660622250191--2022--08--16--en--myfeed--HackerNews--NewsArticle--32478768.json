@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--myfeed--HackerNews--NewsArticle--32478768",
+  "url": "https://news.ycombinator.com/item?id=32478768",
+  "headline": "Trump now claims FBI agents seized three of his passports during the Mar-a-Lago",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mardiyah",
+    "url": "https://news.ycombinator.com/user?id=mardiyah"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32478768",
+  "sameAs": "https://www.dailymail.co.uk/news/article-11113825/Trump-claims-FBI-agents-seized-three-PASSPORTS-Mar-Lago-raid.html",
+  "dateCreated": "2022-08-16T03:57:30.191Z",
+  "datePublished": "2022-08-16T03:03:57.000Z",
+  "dateModified": "2022-08-16T03:57:30.191Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "特朗普现在声称联邦调查局特工在马拉戈期间扣押了他的三本护照\n",
+  "headline_zh-Hant": "特朗普現在聲稱聯邦調查局特工在馬拉戈期間扣押了他的三本護照\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
