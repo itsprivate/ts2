@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--askhn--HackerNews--NewsArticle--32487598",
+  "url": "https://news.ycombinator.com/item?id=32487598",
+  "headline": "Ask HN: Is MySQL 8, in 2022, a safe DB for storing financial data?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've joined a financial startup which is in the process of building a MVP and they want to use MySQL instead of PostgreSQL as the main DB (their critical DB, the DB which will store all financial transaction data). Think checking accounts, transactions, ledgers, credit cards, investment, etc. All of this will be stored in MySQL with InnoDB.<p>My main concern is data loss and corruption.<p>I know that HN and Reddit hates MySQL and praises PostgreSQL, but their arguments make sense to me:\n- Team more familiar with MySQL. It's better to use something that you know the defects and workarounds than to use something that's better in theory but you don't know how to tame it.\n- MySQL has more documentation and training resources. There are excellent, up to date O'Reilly books about it from the development, optimization and administration perspectives. Just from O’Reilly there is: Learning SQL [focused on MySQL], Learning MySQL [not to be confused with the former], High Performance MySQL, Efficient MySQL Performance, MySQL Cookbook. And all of them are up to date. The official docs are also very good. On the PostgreSQL side, no such resources, there seems to be no recent good books about it - the O'Reilly book is about a very old version and the Packt ones don't count, Packt books are usually sh<i>t. Also, the official docs seem meh (example: the MONEY type should not be used, but you wouldn't know this from the manual [https://www.postgresql.org/docs/14/datatype-money.html], there's not even any mention on it being bad; you'd know it's bad only if you had read https://wiki.postgresql.org/wiki/Don%27t_Do_This#Don.27t_use_money\n- Most complaints online seem to be about MySQL 5, which is very old and which problems mostly been fixed in modern versions, or about installations running without SQL strict mode on.\n- PostgreSQL is also not immune to problems: https://about.gitlab.com/blog/2017/02/10/postmortem-of-database-outage-of-january-31/<p>However, I experienced, multiple times, data loss and corruption with MySQL and MariaDB, as recently as 2017. That makes me uneasy to fully trust it.<p>What do you think, from a perspective of data integrity and reliability, about storing mission critical financial data in </i>modern* MySQL? Can it be trusted? Anecdotes about ancient versions will not be useful. Is anyone here running it for this kind of workload? Is PostgreSQL still considered safer than MySQL in 2022 or has MySQL caught up in that department? The main worry is not about features or speed, the main worry is data loss and corruption.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "profwalkstr",
+    "url": "https://news.ycombinator.com/user?id=profwalkstr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32487598",
+  "sameAs": "https://news.ycombinator.com/item?id=32487598",
+  "dateCreated": "2022-08-16T19:41:41.152Z",
+  "datePublished": "2022-08-16T19:27:46.000Z",
+  "dateModified": "2022-08-16T19:41:41.152Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 在2022年，MySQL 8是一个用于存储金融数据的安全数据库吗？\n",
+  "headline_zh-Hant": "Ask HN: 在2022年，MySQL 8是一個用於存儲金融數據的安全數據庫嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "I've joined a financial startup which is in the process of building a MVP and they want to use MySQL instead of PostgreSQL as the main DB (their critical DB, the DB which will store all financial transaction data). Think checking accounts, transactions, ledgers, credit cards, investment, etc. All of this will be stored in MySQL with InnoDB.<p>My main concern is data loss and corruption.<p>I know that HN and Reddit hates MySQL and praises PostgreSQL, but their arguments make sense to me:\n- Team more familiar with MySQL. It's better to use something that you know the defects and workarounds than to use something that's better in theory but you don't know how to tame it.\n- MySQL has more documentation and training resources. There are excellent, up to date O'Reilly books about it from the development, optimization and administration perspectives. Just from O’Reilly there is: Learning SQL [focused on MySQL], Learning MySQL [not to be confused with the former], High Performance MySQL, Efficient MySQL Performance, MySQL Cookbook. And all of them are up to date. The official docs are also very good. On the PostgreSQL side, no such resources, there seems to be no recent good books about it - the O'Reilly book is about a very old version and the Packt ones don't count, Packt books are usually sh<i>t. Also, the official docs seem meh (example: the MONEY type should not be used, but you wouldn't know this from the manual [https://www.postgresql.org/docs/14/datatype-money.html], there's not even any mention on it being bad; you'd know it's bad only if you had read https://wiki.postgresql.org/wiki/Don%27t_Do_This#Don.27t_use_money\n- Most complaints online seem to be about MySQL 5, which is very old and which problems mostly been fixed in modern versions, or about installations running without SQL strict mode on.\n- PostgreSQL is also not immune to problems: https://about.gitlab.com/blog/2017/02/10/postmortem-of-database-outage-of-january-31/<p>However, I experienced, multiple times, data loss and corruption with MySQL and MariaDB, as recently as 2017. That makes me uneasy to fully trust it.<p>What do you think, from a perspective of data integrity and reliability, about storing mission critical financial data in </i>modern* MySQL? Can it be trusted? Anecdotes about ancient versions will not be useful. Is anyone here running it for this kind of workload? Is PostgreSQL still considered safer than MySQL in 2022 or has MySQL caught up in that department? 主要担心的不是功能或速度，主要担心的是数据丢失和损坏。\n",
+  "description_zh-Hant": "I've joined a financial startup which is in the process of building a MVP and they want to use MySQL instead of PostgreSQL as the main DB (their critical DB, the DB which will store all financial transaction data). Think checking accounts, transactions, ledgers, credit cards, investment, etc. All of this will be stored in MySQL with InnoDB.<p>My main concern is data loss and corruption.<p>I know that HN and Reddit hates MySQL and praises PostgreSQL, but their arguments make sense to me:\n- Team more familiar with MySQL. It's better to use something that you know the defects and workarounds than to use something that's better in theory but you don't know how to tame it.\n- MySQL has more documentation and training resources. There are excellent, up to date O'Reilly books about it from the development, optimization and administration perspectives. Just from O’Reilly there is: Learning SQL [focused on MySQL], Learning MySQL [not to be confused with the former], High Performance MySQL, Efficient MySQL Performance, MySQL Cookbook. And all of them are up to date. The official docs are also very good. On the PostgreSQL side, no such resources, there seems to be no recent good books about it - the O'Reilly book is about a very old version and the Packt ones don't count, Packt books are usually sh<i>t. Also, the official docs seem meh (example: the MONEY type should not be used, but you wouldn't know this from the manual [https://www.postgresql.org/docs/14/datatype-money.html], there's not even any mention on it being bad; you'd know it's bad only if you had read https://wiki.postgresql.org/wiki/Don%27t_Do_This#Don.27t_use_money\n- Most complaints online seem to be about MySQL 5, which is very old and which problems mostly been fixed in modern versions, or about installations running without SQL strict mode on.\n- PostgreSQL is also not immune to problems: https://about.gitlab.com/blog/2017/02/10/postmortem-of-database-outage-of-january-31/<p>However, I experienced, multiple times, data loss and corruption with MySQL and MariaDB, as recently as 2017. That makes me uneasy to fully trust it.<p>What do you think, from a perspective of data integrity and reliability, about storing mission critical financial data in </i>modern* MySQL? Can it be trusted? Anecdotes about ancient versions will not be useful. Is anyone here running it for this kind of workload? Is PostgreSQL still considered safer than MySQL in 2022 or has MySQL caught up in that department? 主要擔心的不是功能或速度，主要擔心的是數據丟失和損壞。\n"
+}
