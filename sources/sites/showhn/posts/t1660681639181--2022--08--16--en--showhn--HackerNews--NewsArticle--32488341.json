@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--showhn--HackerNews--NewsArticle--32488341",
+  "url": "https://news.ycombinator.com/item?id=32488341",
+  "headline": "Show HN: Script to install releases of GitHub projects (on Linux)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "After hundreds of times of searching the latest release of a GitHub project, picking the right package/archive, downloading and installing it, I have automated these steps.<p>This (POSIX) shell script takes a list of GitHub projects and tries finding, downloading and installing the correct deb/rpm/apk packages or compressed archives (currently only for `x86_64` Linux systems).<p>Unfortunately, I depend on that some pattern is used in the release's file names (like `xyz_linux_amd64.tar.gz`). So there is no guarantee that it works for every GitHub project. Just try it out and tell me when you find a project that you can't install with this script.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "MaxGyver83",
+    "url": "https://news.ycombinator.com/user?id=MaxGyver83"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32488341",
+  "sameAs": "https://github.com/MaxGyver83/install-from-github",
+  "dateCreated": "2022-08-16T20:27:19.181Z",
+  "datePublished": "2022-08-16T20:22:31.000Z",
+  "dateModified": "2022-08-16T20:27:19.181Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 安装GitHub项目版本的脚本（在Linux上）。\n",
+  "headline_zh-Hant": "Show HN: 安裝GitHub項目版本的腳本（在Linux上）。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "经过数百次搜索GitHub项目的最新版本，挑选正确的软件包/压缩包，下载并安装它，我已经将这些步骤自动化了。 <p>这个（POSIX）shell脚本接收一个GitHub项目的列表，并尝试寻找、下载和安装正确的deb/rpm/apk包或压缩档案（目前仅适用于`x86_64`Linux系统）。<p>不幸的是，我依赖于发布的文件名中使用的一些模式（如`xyz_linux_amd64.tar.gz`）。所以不能保证它对每个GitHub项目都有效。试一试吧，当你发现有项目无法用这个脚本安装时，请告诉我。\n",
+  "description_zh-Hant": "經過數百次搜索GitHub項目的最新版本，挑選正確的軟件包/壓縮包，下載並安裝它，我已經將這些步驟自動化了。 <p>這個（POSIX）shell腳本接收一個GitHub項目的列表，並嘗試尋找、下載和安裝正確的deb/rpm/apk包或壓縮檔案（目前僅適用於`x86_64`Linux系統）。<p>不幸的是，我依賴於發佈的文件名中使用的一些模式（如`xyz_linux_amd64.tar.gz`）。所以不能保證它對每個GitHub項目都有效。試一試吧，當你發現有項目無法用這個腳本安裝時，請告訴我。\n"
+}
