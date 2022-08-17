@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--17--en--askhn--HackerNews--NewsArticle--32497440",
+  "url": "https://news.ycombinator.com/item?id=32497440",
+  "headline": "Ask HN: Existing solutions to detect fraud risk based on email address?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Our marketplace is growing rapidly and so is the number of users that attempt to use it for fraudulent activities.<p>I am looking for a solution that could give us early warnings about users based on information that they input, e.g. &quot;This email address was first seen in last 24hrs&quot;.<p>We have Stripe Radar, but that only kicks in when they attempt to make a payment, which is slightly too late.<p>At the moment, I am using Clearbit for this – I simply check if there is any information about the user in Clearbit, and that is proving to be a powerful signal. However, I am looking for a purpose built platform to pull warnings about users based on the information that we have.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "gajus",
+    "url": "https://news.ycombinator.com/user?id=gajus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32497440",
+  "sameAs": "https://news.ycombinator.com/item?id=32497440",
+  "dateCreated": "2022-08-17T15:30:32.608Z",
+  "datePublished": "2022-08-17T15:10:59.000Z",
+  "dateModified": "2022-08-17T15:30:32.608Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 现有的基于电子邮件地址检测欺诈风险的解决方案？\n",
+  "headline_zh-Hant": "Ask HN: 現有的基於電子郵件地址檢測欺詐風險的解決方案？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们的市场正在快速增长，试图利用它进行欺诈活动的用户数量也在不断增加。<p>我正在寻找一种解决方案，它可以根据用户输入的信息向我们发出早期警告，例如：&quot;这个电子邮件地址是在过去24小时内首次出现的&quot;。 <p>我们有Stripe Radar，但它只有在用户试图付款时才会启动，这有点太晚了。<p>目前，我正在使用Clearbit来实现这一点--我只是检查Clearbit中是否有任何关于用户的信息，这被证明是一个强大的信号。然而，我正在寻找一个专门的平台，以根据我们所拥有的信息对用户发出警告。\n",
+  "description_zh-Hant": "我們的市場正在快速增長，試圖利用它進行欺詐活動的用戶數量也在不斷增加。<p>我正在尋找一種解決方案，它可以根據用戶輸入的信息向我們發出早期警告，例如：&quot;這個電子郵件地址是在過去24小時內首次出現的&quot;。 <p>我們有Stripe Radar，但它只有在用戶試圖付款時才會啟動，這有點太晚了。<p>目前，我正在使用Clearbit來實現這一點--我只是檢查Clearbit中是否有任何關於用戶的信息，這被證明是一個強大的信號。然而，我正在尋找一個專門的平臺，以根據我們所擁有的信息對用戶發出警告。\n"
+}
