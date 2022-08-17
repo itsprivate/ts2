@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--17--en--showhn--HackerNews--NewsArticle--32499466",
+  "url": "https://news.ycombinator.com/item?id=32499466",
+  "headline": "Show HN: I made a tool to build badges in Pharo",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'd like to share with you a new app for building badges made with Pharo 10 (a fork of Squeak Smalltalk). It is based on the Shields.io badge generation provider.<p>The idea is to select the badges you want, complete the required variables, and get your badge(s). You can also save and load commonly used variables, so it may help a bit to automate presenting your project's README.<p>Hernán",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "hernanmd",
+    "url": "https://news.ycombinator.com/user?id=hernanmd"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32499466",
+  "sameAs": "https://github.com/hernanmd/badges",
+  "dateCreated": "2022-08-17T17:57:12.546Z",
+  "datePublished": "2022-08-17T17:43:10.000Z",
+  "dateModified": "2022-08-17T17:57:12.546Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我做了一个在Pharo中建立徽章的工具\n",
+  "headline_zh-Hant": "Show HN: 我做了一個在Pharo中建立徽章的工具\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我想与你分享一个用Pharo 10（Squeak Smalltalk的一个分支）制作的新的徽章应用。它是基于Shields.io的徽章生成器。<p>这个想法是选择你想要的徽章，完成所需的变量，然后获得你的徽章。你还可以保存和加载常用的变量，所以它可能对自动呈现你的项目的README有点帮助。\n",
+  "description_zh-Hant": "我想與你分享一個用Pharo 10（Squeak Smalltalk的一個分支）製作的新的徽章應用。它是基於Shields.io的徽章生成器。<p>這個想法是選擇你想要的徽章，完成所需的變量，然後獲得你的徽章。你還可以保存和加載常用的變量，所以它可能對自動呈現你的項目的README有點幫助。\n"
+}
