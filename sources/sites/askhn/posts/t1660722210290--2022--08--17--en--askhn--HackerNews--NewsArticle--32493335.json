@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--17--en--askhn--HackerNews--NewsArticle--32493335",
+  "url": "https://news.ycombinator.com/item?id=32493335",
+  "headline": "Ask HN: How would you implement an IoT sales bell?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "One of the things our business lost in the move from office based to home working, was the celebratory moment when one of our sales people closed a new deal.<p>In the office, the sales person would walk up to a service bell, &quot;ding&quot;, and applause would arise from everyone in the office.<p>In a remote works, CRM systems are updated, graphs and spreadsheets are updated but no applause or appreciation.<p>I had a couple of ideas, however I'm not sure where to start on hardware or if there's a better solution.<p>One idea was to get IoT buttons, that when pressed would ring a physical bell (everyone would have both a button and a bell) and push a message to our &quot;everyone&quot; chat system.<p>I don't know enough about hardware (perhaps Raspberry Pi or Arduino?) to figure out how to physically strike a bell - any ideas?<p>Somehow I'd also need to know who the user of the button was, so that the message could attribute the moment to them.<p>The other idea is to rig up a webhook from our CRM, that would do the same thing.  This would mean the data in the chat message would be richer.<p>I could simply rig the webhook to a chat messag, however I really feel that the joy of a single bell &quot;ding&quot; bringing immediate applause is the thing I want to reproduce (to some extent).<p>What do you think? How would you do this? Do you have another even better idea?<p>Thanks HN",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "nickmyersdt",
+    "url": "https://news.ycombinator.com/user?id=nickmyersdt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32493335",
+  "sameAs": "https://news.ycombinator.com/item?id=32493335",
+  "dateCreated": "2022-08-17T07:43:30.290Z",
+  "datePublished": "2022-08-17T07:27:40.000Z",
+  "dateModified": "2022-08-17T07:43:30.290Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你将如何实施物联网销售钟？\n",
+  "headline_zh-Hant": "Ask HN: 你將如何實施物聯網銷售鍾？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "当我们的业务从办公室转移到家庭工作时，失去的东西之一是当我们的一个销售人员完成新的交易时的庆祝时刻。<p>在办公室，销售人员会走到一个服务铃，&quot;叮&quot;，办公室里的每个人都会鼓掌。 <p>在远程工作中，CRM系统被更新，图表和电子表格被更新，但没有掌声或赞赏。<p>我有几个想法，然而我不确定在硬件方面该从哪里开始，或者是否有更好的解决方案。 <p>一个想法是获得物联网按钮，按下后会响起一个物理铃铛（每个人都会有一个按钮和一个铃铛），并向我们的&quot;每个人&quot;聊天系统推送一条信息。<p>我对硬件了解不够（也许是Raspberry Pi或Arduino？ <p>我还需要知道按钮的使用者是谁，这样消息就能将这一时刻归于他们。<p>另一个想法是在我们的CRM中设置一个webhook，这将做同样的事情。 <p>我可以简单地将webhook连接到聊天信息中，但是我真的觉得，我想重现（在某种程度上）单一铃声带来的喜悦和立即鼓掌的感觉。你会怎么做呢？你有其他更好的想法吗？<p>谢谢 HN\n",
+  "description_zh-Hant": "當我們的業務從辦公室轉移到家庭工作時，失去的東西之一是當我們的一個銷售人員完成新的交易時的慶祝時刻。<p>在辦公室，銷售人員會走到一個服務鈴，&quot;叮&quot;，辦公室裡的每個人都會鼓掌。 <p>在遠程工作中，CRM系統被更新，圖表和電子表格被更新，但沒有掌聲或讚賞。<p>我有幾個想法，然而我不確定在硬件方面該從哪裡開始，或者是否有更好的解決方案。 <p>一個想法是獲得物聯網按鈕，按下後會響起一個物理鈴鐺（每個人都會有一個按鈕和一個鈴鐺），並向我們的&quot;每個人&quot;聊天系統推送一條信息。<p>我對硬件瞭解不夠（也許是Raspberry Pi或Arduino？ <p>我還需要知道按鈕的使用者是誰，這樣消息就能將這一時刻歸於他們。<p>另一個想法是在我們的CRM中設置一個webhook，這將做同樣的事情。 <p>我可以簡單地將webhook連接到聊天信息中，但是我真的覺得，我想重現（在某種程度上）單一鈴聲帶來的喜悅和立即鼓掌的感覺。你會怎麼做呢？你有其他更好的想法嗎？<p>謝謝 HN\n"
+}
