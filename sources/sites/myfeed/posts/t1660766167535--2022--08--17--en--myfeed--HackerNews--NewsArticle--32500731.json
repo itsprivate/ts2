@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--17--en--myfeed--HackerNews--NewsArticle--32500731",
+  "url": "https://news.ycombinator.com/item?id=32500731",
+  "headline": "Bill Gates and Steve Ballmer Night at the Roxbury",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "zaksingh",
+    "url": "https://news.ycombinator.com/user?id=zaksingh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32500731",
+  "sameAs": "https://www.youtube.com/watch?v=IY2j_GPIqRA",
+  "dateCreated": "2022-08-17T19:56:07.535Z",
+  "datePublished": "2022-08-17T19:34:10.000Z",
+  "dateModified": "2022-08-17T19:56:07.535Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "比尔-盖茨和史蒂夫-鲍尔默在罗克斯伯里之夜\n",
+  "headline_zh-Hant": "比爾-蓋茨和史蒂夫-鮑爾默在羅克斯伯裡之夜\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
