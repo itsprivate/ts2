@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--17--en--askhn--HackerNews--NewsArticle--32493553",
+  "url": "https://news.ycombinator.com/item?id=32493553",
+  "headline": "Ask HN: Scalability strategy for updating massive node trees",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I created an economic engine app &quot;Rovas&quot;[1] that allows project owners to share rewards that their projects (A) receive, with other - &quot;shareholder&quot; projects (B). Individuals who work on the projects can also be shareholders. The shareholder projects (B) can also have individual and project shareholders. Rewarding one project thus might result in rewarding tens, or hundreds of thousands nodes (individuals, or projects). The rewarding act might be very frequent, in the ideal scenario maybe every second, or even faster. All rewards to individuals and projects must be recorded for audit purposes.<p>Example: An outdoors activities web portal has ~10^5 users, each of which is required to pay for consuming the content every time they do so, which might be daily. The portal was created by ~10 people (developers, copy writers, marketing folks,..) and uses products of other projects, like the Apache web server, MySQL database, fonts, OpenStreetMap tiles, with their own teams of developers... All of these projects and their workers share a bit of every payment made by the portal user.<p>Rovas is a POC that has been working for hundreds, to thousands of nodes. I chose a strategy, where a payment is not processed immediately but batched, together with other payments that arrive within (I think) 10 minutes. I am looking for an architecture/strategy to tackle the problem on a scale of millions of nodes updated frequently. I am not sure blockchain will help me given its own scalability problems, but I follow that space very sporadically and it might be the case that a similar problem is/has been solved by some implementation.\nRovas is a long haul project, so even futuristic concepts interest me (quantum computing?).<p>[1] https://rovas.app",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "tapiok",
+    "url": "https://news.ycombinator.com/user?id=tapiok"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32493553",
+  "sameAs": "https://news.ycombinator.com/item?id=32493553",
+  "dateCreated": "2022-08-17T08:33:04.205Z",
+  "datePublished": "2022-08-17T07:56:11.000Z",
+  "dateModified": "2022-08-17T08:33:04.205Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 更新大规模节点树的可伸缩性策略\n",
+  "headline_zh-Hant": "Ask HN: 更新大規模節點樹的可伸縮性策略\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我创建了一个经济引擎应用&quot;Rovas&quot;[1]，允许项目所有者与其他&quot;股东&quot;项目（B）分享他们的项目（A）获得的回报。为项目工作的个人也可以成为股东。股东项目（B）也可以有个人和项目股东。因此，奖励一个项目可能导致奖励数万或数十万个节点（个人或项目）。奖励行为可能非常频繁，在理想的情况下，可能是每秒钟一次，甚至更快。所有对个人和项目的奖励都必须被记录下来，以供审计之用。一个户外活动的门户网站有~10^5个用户，每个用户每次消费内容都需要付费，这可能是每天都有。这个门户网站是由大约10个人创建的（开发人员、撰稿人、营销人员......），并使用其他项目的产品，如Apache网络服务器、MySQL数据库、字体、OpenStreetMap瓷砖，以及他们自己的开发人员团队。所有这些项目和他们的工作人员都分享门户用户的每一笔付款。<p>Rovas是一个POC，已经为数百到数千的节点工作。我选择了一种策略，即付款不是立即处理，而是与其他在（我认为）10分钟内到达的付款一起分批处理。我正在寻找一种架构/策略来解决数百万节点频繁更新的问题。鉴于区块链自身的可扩展性问题，我不确定它是否能帮助我，但我偶尔会关注这个领域，也许类似的问题正在/已经被某些实施方案解决了。\nRovas是一个长期的项目，所以即使是未来的概念我也感兴趣（量子计算？）。<p>[1] https://rovas.app\n",
+  "description_zh-Hant": "我創建了一個經濟引擎應用&quot;Rovas&quot;[1]，允許項目所有者與其他&quot;股東&quot;項目（B）分享他們的項目（A）獲得的回報。為項目工作的個人也可以成為股東。股東項目（B）也可以有個人和項目股東。因此，獎勵一個項目可能導致獎勵數萬或數十萬個節點（個人或項目）。獎勵行為可能非常頻繁，在理想的情況下，可能是每秒鐘一次，甚至更快。所有對個人和項目的獎勵都必須被記錄下來，以供審計之用。一個戶外活動的門戶網站有~10^5個用戶，每個用戶每次消費內容都需要付費，這可能是每天都有。這個門戶網站是由大約10個人創建的（開發人員、撰稿人、營銷人員......），並使用其他項目的產品，如Apache網絡服務器、MySQL數據庫、字體、OpenStreetMap瓷磚，以及他們自己的開發人員團隊。所有這些項目和他們的工作人員都分享門戶用戶的每一筆付款。<p>Rovas是一個POC，已經為數百到數千的節點工作。我選擇了一種策略，即付款不是立即處理，而是與其他在（我認為）10分鐘內到達的付款一起分批處理。我正在尋找一種架構/策略來解決數百萬節點頻繁更新的問題。鑑於區塊鏈自身的可擴展性問題，我不確定它是否能幫助我，但我偶爾會關注這個領域，也許類似的問題正在/已經被某些實施方案解決了。\nRovas是一個長期的項目，所以即使是未來的概念我也感興趣（量子計算？）。<p>[1] https://rovas.app\n"
+}
