@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--17--en--myfeed--HackerNews--NewsArticle--32493318",
+  "url": "https://news.ycombinator.com/item?id=32493318",
+  "headline": "Python and manually creating the requirements.txt vs. pip freeze",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey everyone!<p>I just had an argument with a colleague that I feel like I had a million times before: Should the requirements.txt be manually created with only first-order dependencies or automatically created through `pip freeze` and hence contain all the transitive dependencies?<p>I am very strongly in favor of the `pip freeze` approach since it guarantees reproducible virtual environments (at least in theory). My colleague, who is, unfortunately, developing on Windows tells me that this regularly breaks on his machine and insists on the manual files with only the first-level dependencies.<p>Are there known cross-platform issues with `pip freeze` approach? I have searched the internet high and wide and I couldn't find a sound argument for either being right or wrong on this topic.<p>I would appreciate any input on this :)",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "robinweiss",
+    "url": "https://news.ycombinator.com/user?id=robinweiss"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32493318",
+  "sameAs": "https://news.ycombinator.com/item?id=32493318",
+  "dateCreated": "2022-08-17T07:43:30.931Z",
+  "datePublished": "2022-08-17T07:26:03.000Z",
+  "dateModified": "2022-08-17T07:43:30.931Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Python和手动创建requirements.txt与pip freeze的对比。\n",
+  "headline_zh-Hant": "Python和手動創建requirements.txt與pip freeze的對比。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "大家好！<p>我刚刚和一个同事发生了争论，我觉得我之前已经争论过无数次了。要求.txt应该是手动创建的，只包含一阶的依赖关系，还是通过 \"pip freeze \"自动创建的，从而包含所有的横向依赖关系？<p>我非常赞成 \"pip freeze \"的方法，因为它保证了可重复的虚拟环境（至少在理论上是这样）。我的同事，不幸的是，在Windows上开发的人告诉我，这在他的机器上经常发生故障，并坚持使用只有一级依赖关系的手动文件。<p>\"pip冻结 \"方法是否存在已知的跨平台问题？我已经在互联网上搜索了很久，但我找不到一个合理的论据来证明在这个问题上是正确的或错误的。）\n",
+  "description_zh-Hant": "大家好！<p>我剛剛和一個同事發生了爭論，我覺得我之前已經爭論過無數次了。要求.txt應該是手動創建的，只包含一階的依賴關係，還是通過 \"pip freeze \"自動創建的，從而包含所有的橫向依賴關係？<p>我非常贊成 \"pip freeze \"的方法，因為它保證了可重複的虛擬環境（至少在理論上是這樣）。我的同事，不幸的是，在Windows上開發的人告訴我，這在他的機器上經常發生故障，並堅持使用只有一級依賴關係的手動文件。<p>\"pip凍結 \"方法是否存在已知的跨平臺問題？我已經在互聯網上搜索了很久，但我找不到一個合理的論據來證明在這個問題上是正確的或錯誤的。）\n"
+}
