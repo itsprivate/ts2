@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--17--en--myfeed--HackerNews--NewsArticle--32501676",
+  "url": "https://news.ycombinator.com/item?id=32501676",
+  "headline": "Lessons learned from building a chatbot platform for 2 years",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've been working on Presbot for over 2+ years now. It started as a self-learning chatbot designed to act as an interactive agent that would represent its owner in all sorts of situations. I realized that until that interaction is smooth and believable - not passing a Turing test, but closer to an actual dynamic conversation, it provides much less value, more slowly. Also, users don't like to enter a ton of information upfront or train the chatbot, which requires the onboarding process to be as simple and straightforward as possible. Most of the chatbot responses initially were reliant on scanning profile text and incoherent user input which did not result in a great user experience.<p>Interestingly, a large portion of the users perceived the chatbot as a general-purpose AI agent capable of responding effectively to random questions (for example., \n- Cheap flights to New York\n- How far is the moon from earth? \n- Who was the Nth president of the United States?\n- What’s the meaning of love?\n- What’s Baby Yoda's real name?<p>Believe it or not, these were some of the popular questions. Presbot was able to respond with vague &quot;I'm not sure&quot; type responses at best. At one point, I added top N results from Wikipedia in the response to at least point users in the right direction but ended up removing it eventually. Let me know if you’d like more of the questions and I'll be happy to share)<p>I ended up pivoting to a rule-based bot focusing on lead capture via a conversation curated with dynamic questions. I added an option to offer a service (e.g., newsletter signup) in exchange for users' email and the ability to retarget with a deeper discount or a more engaging value proposition if the initial offer did not go through, and updated my value proposition to lead generation vs it being a self-learning chatbot.<p>I am reaching out for feedback and, in appreciation for your time, would love to offer a limited-time 50% off on all paid plans (Use Code HALFOFF at Checkout). The app has a free tier as well which should suffice for the most part. Thank you!!<p>http://presbot.com/",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tumidpandora",
+    "url": "https://news.ycombinator.com/user?id=tumidpandora"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32501676",
+  "sameAs": "https://news.ycombinator.com/item?id=32501676",
+  "dateCreated": "2022-08-17T21:46:37.654Z",
+  "datePublished": "2022-08-17T21:00:56.000Z",
+  "dateModified": "2022-08-17T21:46:37.654Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "构建聊天机器人平台2年来的经验教训\n",
+  "headline_zh-Hant": "構建聊天機器人平臺2年來的經驗教訓\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我已经在Presbot上工作了2年多了。它最初是一个自我学习的聊天机器人，旨在作为一个互动代理，在各种情况下代表其主人。我意识到，在这种互动变得顺畅和可信之前--不是通过图灵测试，而是更接近于实际的动态对话，它提供的价值要小得多，更慢。另外，用户不喜欢在前期输入大量的信息，也不喜欢训练聊天机器人，这就要求入职过程尽可能的简单明了。大多数聊天机器人的回应最初都是依靠扫描个人资料文本和不连贯的用户输入，这并没有带来很好的用户体验。<p>有趣的是，很大一部分用户认为聊天机器人是一个通用的人工智能代理，能够有效地回应随机问题（例如。\n- 前往纽约的廉价航班\n- 月球离地球有多远？\n- 谁是美国的第N任总统？\n- 爱的含义是什么？\n- 婴儿尤达的真名是什么？<p>信不信由你，这些都是一些热门问题。Presbot最多能以模糊的&quot;我不确定&quot;类型的回答来回应。有一次，我在回答中加入了维基百科的前N个结果，至少可以为用户指出正确的方向，但最终还是把它删除了。如果你想了解更多的问题，请告诉我，我很乐意与你分享）<p>我最后转向了一个基于规则的机器人，专注于通过动态问题策划的对话来获取线索。我增加了一个选项，提供服务（如通讯注册）以换取用户的电子邮件，如果最初的报价没有通过，我还可以用更高的折扣或更有吸引力的价值主张重新定位，并将我的价值主张更新为线索生成，而不是一个自我学习的聊天机器人。<p>我正在征求反馈意见，为了感谢您的时间，我很愿意为所有付费计划提供限时的50%折扣（在结账时使用代码HALFOFF）。该应用程序也有一个免费层，在大多数情况下应该足够了。谢谢你！<p>http://presbot.com/\n",
+  "description_zh-Hant": "我已經在Presbot上工作了2年多了。它最初是一個自我學習的聊天機器人，旨在作為一個互動代理，在各種情況下代表其主人。我意識到，在這種互動變得順暢和可信之前--不是通過圖靈測試，而是更接近於實際的動態對話，它提供的價值要小得多，更慢。另外，用戶不喜歡在前期輸入大量的信息，也不喜歡訓練聊天機器人，這就要求入職過程儘可能的簡單明瞭。大多數聊天機器人的回應最初都是依靠掃描個人資料文本和不連貫的用戶輸入，這並沒有帶來很好的用戶體驗。<p>有趣的是，很大一部分用戶認為聊天機器人是一個通用的人工智能代理，能夠有效地回應隨機問題（例如。\n- 前往紐約的廉價航班\n- 月球離地球有多遠？\n- 誰是美國的第N任總統？\n- 愛的含義是什麼？\n- 嬰兒尤達的真名是什麼？<p>信不信由你，這些都是一些熱門問題。Presbot最多能以模糊的&quot;我不確定&quot;類型的回答來回應。有一次，我在回答中加入了維基百科的前N個結果，至少可以為用戶指出正確的方向，但最終還是把它刪除了。如果你想了解更多的問題，請告訴我，我很樂意與你分享）<p>我最後轉向了一個基於規則的機器人，專注於通過動態問題策劃的對話來獲取線索。我增加了一個選項，提供服務（如通訊註冊）以換取用戶的電子郵件，如果最初的報價沒有通過，我還可以用更高的折扣或更有吸引力的價值主張重新定位，並將我的價值主張更新為線索生成，而不是一個自我學習的聊天機器人。<p>我正在徵求反饋意見，為了感謝您的時間，我很願意為所有付費計劃提供限時的50%折扣（在結賬時使用代碼HALFOFF）。該應用程序也有一個免費層，在大多數情況下應該足夠了。謝謝你！<p>http://presbot.com/\n"
+}
