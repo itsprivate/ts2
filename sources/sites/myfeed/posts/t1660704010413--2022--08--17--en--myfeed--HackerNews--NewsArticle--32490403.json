@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--17--en--myfeed--HackerNews--NewsArticle--32490403",
+  "url": "https://news.ycombinator.com/item?id=32490403",
+  "headline": "From Power Up to Bash Prompt (2000)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "slondr",
+    "url": "https://news.ycombinator.com/user?id=slondr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32490403",
+  "sameAs": "https://web.archive.org/web/20051122150932/http://axiom.anu.edu.au/~okeefe/p2b/power2bash/power2bash.html",
+  "dateCreated": "2022-08-17T02:40:10.413Z",
+  "datePublished": "2022-08-16T23:29:18.000Z",
+  "dateModified": "2022-08-17T02:40:10.413Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "从电源启动到Bash提示 (2000)\n",
+  "headline_zh-Hant": "從電源啟動到Bash提示 (2000)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
