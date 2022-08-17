@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--17--en--myfeed--HackerNews--NewsArticle--32492144",
+  "url": "https://news.ycombinator.com/item?id=32492144",
+  "headline": "Solving Boggle with Rust, WebAssembly, TensorFlow and OpenCV in the Browser",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "parkuman",
+    "url": "https://news.ycombinator.com/user?id=parkuman"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32492144",
+  "sameAs": "https://prowe.ca/blog/wasm-rust-boggle-solver",
+  "dateCreated": "2022-08-17T07:01:11.338Z",
+  "datePublished": "2022-08-17T03:55:54.000Z",
+  "dateModified": "2022-08-17T07:01:11.338Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用Rust、WebAssembly、TensorFlow和OpenCV在浏览器中解决Boggle问题\n",
+  "headline_zh-Hant": "用Rust、WebAssembly、TensorFlow和OpenCV在瀏覽器中解決Boggle問題\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
