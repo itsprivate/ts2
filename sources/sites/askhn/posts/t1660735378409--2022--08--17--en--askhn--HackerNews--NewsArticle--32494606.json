@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--17--en--askhn--HackerNews--NewsArticle--32494606",
+  "url": "https://news.ycombinator.com/item?id=32494606",
+  "headline": "Ask HN: Has any Rust developer moved to embedded device programming?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi! Was wondering if any Rust developer have moved to embedded land. Did you switch to C/C++ or stayed with Rust? What MCU did you work with? Any tips?<p>I have good understanding of Rust and soon will need to program ESP32 chip. Write a driver and and http/tcp api on it.<p>Currently I jave seen mixed messages about Rust in embedded. Ecosystem moves fast, but semms like old C/C++ devs stay with their lang. So I'm curious what Rust devs have to say abou it.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "detuks",
+    "url": "https://news.ycombinator.com/user?id=detuks"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32494606",
+  "sameAs": "https://news.ycombinator.com/item?id=32494606",
+  "dateCreated": "2022-08-17T11:22:58.409Z",
+  "datePublished": "2022-08-17T10:58:23.000Z",
+  "dateModified": "2022-08-17T11:22:58.409Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 是否有Rust开发者转向嵌入式设备编程？\n",
+  "headline_zh-Hant": "Ask HN: 是否有Rust開發者轉向嵌入式設備編程？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨！我想知道是否有Rust开发者转到了嵌入式领域。你是改用C/C++还是继续使用Rust？你使用的是什么MCU？有什么技巧吗？<p>我对Rust有很好的理解，很快就需要对ESP32芯片进行编程。编写一个驱动程序和http/tcp api。<p>目前，我看到关于嵌入式中的Rust的信息不一。生态系统发展迅速，但像老C/C++开发人员一样留在他们的语言中。所以我很好奇Rust的开发者们对它有什么看法。\n",
+  "description_zh-Hant": "嗨！我想知道是否有Rust開發者轉到了嵌入式領域。你是改用C/C++還是繼續使用Rust？你使用的是什麼MCU？有什麼技巧嗎？<p>我對Rust有很好的理解，很快就需要對ESP32芯片進行編程。編寫一個驅動程序和http/tcp api。<p>目前，我看到關於嵌入式中的Rust的信息不一。生態系統發展迅速，但像老C/C++開發人員一樣留在他們的語言中。所以我很好奇Rust的開發者們對它有什麼看法。\n"
+}
