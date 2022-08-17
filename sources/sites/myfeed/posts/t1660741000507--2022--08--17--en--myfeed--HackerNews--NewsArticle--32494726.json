@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--17--en--myfeed--HackerNews--NewsArticle--32494726",
+  "url": "https://news.ycombinator.com/item?id=32494726",
+  "headline": "Coffee with Brian Kernighan – Computerphile [video]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "smlckz",
+    "url": "https://news.ycombinator.com/user?id=smlckz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32494726",
+  "sameAs": "https://www.youtube.com/watch?v=GNyQxXw_oMQ",
+  "dateCreated": "2022-08-17T12:56:40.507Z",
+  "datePublished": "2022-08-17T11:18:44.000Z",
+  "dateModified": "2022-08-17T12:56:40.507Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "与Brian Kernighan喝咖啡 - Computerphile [视频]\n",
+  "headline_zh-Hant": "與Brian Kernighan喝咖啡 - Computerphile [視頻]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
