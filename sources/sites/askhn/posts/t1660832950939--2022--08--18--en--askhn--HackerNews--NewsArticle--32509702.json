@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--askhn--HackerNews--NewsArticle--32509702",
+  "url": "https://news.ycombinator.com/item?id=32509702",
+  "headline": "Ask HN: Database or filesystem for logging user actions?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Which do you prefer and why? I am not talking about application logging, only actions users perform, say on a web application, when for example the user logs in, signs up, etc.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "iio7",
+    "url": "https://news.ycombinator.com/user?id=iio7"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32509702",
+  "sameAs": "https://news.ycombinator.com/item?id=32509702",
+  "dateCreated": "2022-08-18T14:29:10.939Z",
+  "datePublished": "2022-08-18T14:00:24.000Z",
+  "dateModified": "2022-08-18T14:29:10.939Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 用于记录用户行为的数据库或文件系统？\n",
+  "headline_zh-Hant": "Ask HN: 用於記錄用戶行為的數據庫或文件系統？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你喜欢哪一种，为什么？我说的不是应用记录，只是用户执行的动作，比如说在一个网络应用上，当用户登录、注册等。\n",
+  "description_zh-Hant": "你喜歡哪一種，為什麼？我說的不是應用記錄，只是用戶執行的動作，比如說在一個網絡應用上，當用戶登錄、註冊等。\n"
+}
