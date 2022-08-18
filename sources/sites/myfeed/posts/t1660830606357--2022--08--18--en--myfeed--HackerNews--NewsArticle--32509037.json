@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--myfeed--HackerNews--NewsArticle--32509037",
+  "url": "https://news.ycombinator.com/item?id=32509037",
+  "headline": "Japan wants young people to drink more alcohol",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "smn1234",
+    "url": "https://news.ycombinator.com/user?id=smn1234"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32509037",
+  "sameAs": "https://www.cnn.com/2022/08/18/asia/japan-tax-alcohol-competition-intl-hnk/index.html",
+  "dateCreated": "2022-08-18T13:50:06.357Z",
+  "datePublished": "2022-08-18T13:04:13.000Z",
+  "dateModified": "2022-08-18T13:50:06.357Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 26
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 15
+    }
+  ],
+  "headline_zh-Hans": "日本希望年轻人喝更多的酒\n",
+  "headline_zh-Hant": "日本希望年輕人喝更多的酒\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

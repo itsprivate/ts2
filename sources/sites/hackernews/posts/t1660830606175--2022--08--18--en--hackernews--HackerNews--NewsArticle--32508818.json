@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--hackernews--HackerNews--NewsArticle--32508818",
+  "url": "https://news.ycombinator.com/item?id=32508818",
+  "headline": "Zimbu programming language by Vim author Bram Moolenaar",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "osener",
+    "url": "https://news.ycombinator.com/user?id=osener"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32508818",
+  "sameAs": "http://www.zimbu.org/Home",
+  "dateCreated": "2022-08-18T13:50:06.175Z",
+  "datePublished": "2022-08-18T12:44:12.000Z",
+  "dateModified": "2022-08-18T13:50:06.175Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 15
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 13
+    }
+  ],
+  "headline_zh-Hans": "Vim作者Bram Moolenaar的Zimbu编程语言\n",
+  "headline_zh-Hant": "Vim作者Bram Moolenaar的Zimbu編程語言\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
