@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--askhn--HackerNews--NewsArticle--32512316",
+  "url": "https://news.ycombinator.com/item?id=32512316",
+  "headline": "Ask HN: How to start modern mobile first cross platform application in 2022",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN,<p>I want to start a relatively simple application / SaaS and need your input about the tech stack on mobile.<p>It will have a relatively simple server backend, and an app which should include an API, database, payment processing and email notification. Plus a bit of marketing pages.<p>For an app, I'll go with Clojure &amp; Postgresql, since I'm most familiar with it. The rest of the site will be just statically generated, using some existing tools. The frontend will be a mobile first web app, written preferably in Clojurescript.<p>I will also need an Android and iPhone app. Here I don't know how to handle it, since I'm out of touch with mobile development. I'd like to avoid having to write native code for both platforms.<p>I'd like to reuse the frontend part of the web app. Maybe wrap it inside a web view component and call it an app? What is the best way to do it? Progressive app would do, but then, it won't be in the app store.<p>I see one option would be Ionic framework, which allows using the same code on all three platforms, and build separate app from the same code base. Is it the way to go?<p>Flutter should now theoretically support all three platforms, Android, iPhone, and Web. Jetpack Compose too, as well as react-native. But these look, too complex to me. Too many layers of indirection.<p>Which tech stack would you use? What is the best approach for an app, that maximizes code reuse and limits the need to write platform-specific code?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "tut-urut-utut",
+    "url": "https://news.ycombinator.com/user?id=tut-urut-utut"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32512316",
+  "sameAs": "https://news.ycombinator.com/item?id=32512316",
+  "dateCreated": "2022-08-18T17:14:23.584Z",
+  "datePublished": "2022-08-18T17:09:16.000Z",
+  "dateModified": "2022-08-18T17:14:23.584Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何在2022年启动现代移动优先跨平台应用\n",
+  "headline_zh-Hant": "Ask HN: 如何在2022年啟動現代移動優先跨平臺應用\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi HN,<p>我想启动一个相对简单的应用程序/SaaS，需要你提供关于移动技术栈的意见。<p>它将有一个相对简单的服务器后台，以及一个应用程序，其中应包括一个API、数据库、支付处理和电子邮件通知。<p>对于应用程序，我将使用Clojure &amp; Postgresql，因为我对它最熟悉。网站的其他部分将只是静态生成，使用一些现有的工具。前端将是一个移动优先的网络应用，最好是用Clojurescript编写。在这里我不知道如何处理，因为我与移动开发脱节。我想避免为这两个平台编写本地代码。<p>我想重新使用Web应用的前端部分。也许可以将其包裹在一个 Web 视图组件内，并将其称为一个应用程序？最好的方法是什么？<p>我看到一个选项是Ionic框架，它允许在所有三个平台上使用相同的代码，并从同一代码库中建立独立的应用程序。<p>Flutter现在理论上应该支持所有三个平台，Android、iPhone和Web。Jetpack Compose也是如此，还有react-native。但这些对我来说都太复杂了。<p>你会使用哪种技术栈？对于一个应用程序来说，什么是最好的方法，可以最大限度地重用代码并限制编写平台特定代码的需要？\n",
+  "description_zh-Hant": "Hi HN,<p>我想啟動一個相對簡單的應用程序/SaaS，需要你提供關於移動技術棧的意見。<p>它將有一個相對簡單的服務器後臺，以及一個應用程序，其中應包括一個API、數據庫、支付處理和電子郵件通知。<p>對於應用程序，我將使用Clojure &amp; Postgresql，因為我對它最熟悉。網站的其他部分將只是靜態生成，使用一些現有的工具。前端將是一個移動優先的網絡應用，最好是用Clojurescript編寫。在這裡我不知道如何處理，因為我與移動開發脫節。我想避免為這兩個平臺編寫本地代碼。<p>我想重新使用Web應用的前端部分。也許可以將其包裹在一個 Web 視圖組件內，並將其稱為一個應用程序？最好的方法是什麼？<p>我看到一個選項是Ionic框架，它允許在所有三個平臺上使用相同的代碼，並從同一代碼庫中建立獨立的應用程序。<p>Flutter現在理論上應該支持所有三個平臺，Android、iPhone和Web。Jetpack Compose也是如此，還有react-native。但這些對我來說都太複雜了。<p>你會使用哪種技術棧？對於一個應用程序來說，什麼是最好的方法，可以最大限度地重用代碼並限制編寫平臺特定代碼的需要？\n"
+}

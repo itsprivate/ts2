@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--myfeed--HackerNews--NewsArticle--32511392",
+  "url": "https://news.ycombinator.com/item?id=32511392",
+  "headline": "Can isolation cure your loneliness?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "elorant",
+    "url": "https://news.ycombinator.com/user?id=elorant"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32511392",
+  "sameAs": "https://www.worldopress.com/post/can-isolation-cure-your-loneliness",
+  "dateCreated": "2022-08-18T17:14:24.044Z",
+  "datePublished": "2022-08-18T15:59:42.000Z",
+  "dateModified": "2022-08-18T17:14:24.044Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "隔离可以治愈你的孤独吗？\n",
+  "headline_zh-Hant": "隔離可以治癒你的孤獨嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
