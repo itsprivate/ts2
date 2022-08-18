@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--askhn--HackerNews--NewsArticle--32512950",
+  "url": "https://news.ycombinator.com/item?id=32512950",
+  "headline": "Ask HN: Why server side rendering is not used anymore",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "For an internal tool at our company that served a website with register schema of SOC (derived from IPXact XML's) we used an old tool written in perl that was very hard to maintain.<p>I took it upon myself to contact few software solution companies to rewrite the tool in a modern language and add few features.<p>All the companies dissmised server side rendering and suggest a server - client scheme based on NodeJS on the server and React / Angular on the client.<p>After proceeding with one of the companies, the end result was slow, very hard to maintain and every new feature was very highly priced.<p>We're in a worse situation than we were.<p>Was is a bad selection of technology for the specific use case ?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "stdcall83",
+    "url": "https://news.ycombinator.com/user?id=stdcall83"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32512950",
+  "sameAs": "https://news.ycombinator.com/item?id=32512950",
+  "dateCreated": "2022-08-18T18:31:48.213Z",
+  "datePublished": "2022-08-18T18:06:48.000Z",
+  "dateModified": "2022-08-18T18:31:48.213Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么不再使用服务器端渲染了\n",
+  "headline_zh-Hant": "Ask HN: 為什麼不再使用服務器端渲染了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在我们公司的一个内部工具中，我们使用了一个用perl编写的旧工具，该工具使用了SOC的注册模式（源自IPXact XML），但很难维护。<p>我主动联系了一些软件解决方案公司，以便用现代语言重写该工具并添加一些功能。 <p>所有的公司都不支持服务器端渲染，并建议在服务器上采用基于NodeJS的服务器-客户端方案，在客户端采用React/Angular方案。<p>在与其中一家公司合作后，最终的结果是速度很慢，很难维护，而且每一个新功能的价格都很高。<p>我们现在的情况比以前更糟。\n",
+  "description_zh-Hant": "在我們公司的一個內部工具中，我們使用了一個用perl編寫的舊工具，該工具使用了SOC的註冊模式（源自IPXact XML），但很難維護。<p>我主動聯繫了一些軟件解決方案公司，以便用現代語言重寫該工具並添加一些功能。 <p>所有的公司都不支持服務器端渲染，並建議在服務器上採用基於NodeJS的服務器-客戶端方案，在客戶端採用React/Angular方案。<p>在與其中一家公司合作後，最終的結果是速度很慢，很難維護，而且每一個新功能的價格都很高。<p>我們現在的情況比以前更糟。\n"
+}

@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--askhn--HackerNews--NewsArticle--32513082",
+  "url": "https://news.ycombinator.com/item?id=32513082",
+  "headline": "Ask HN: Why are we not using debuggers more?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I noticed that I rarely use debuggers. I asked around, and most of my co-workers are the same. We rely on debuggers only as a last resort, instead opting for prints, asserts, or the &quot;method of the long stare&quot;.\nWe are developing in Python/Java/C++ and use other convenience tools like IDEs.<p>Are you also avoiding debuggers? If so, why? What makes debugging so tedious?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "pentab",
+    "url": "https://news.ycombinator.com/user?id=pentab"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32513082",
+  "sameAs": "https://news.ycombinator.com/item?id=32513082",
+  "dateCreated": "2022-08-18T18:31:48.224Z",
+  "datePublished": "2022-08-18T18:18:03.000Z",
+  "dateModified": "2022-08-18T18:31:48.224Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么我们不更多地使用调试器？\n",
+  "headline_zh-Hant": "Ask HN: 為什麼我們不更多地使用調試器？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我注意到，我很少使用调试器。我问了一下，我的大多数同事也是如此。我们只是在万不得已的情况下才依赖调试器，而选择打印、断言或&quot;长时间凝视&quot;的方法。\n我们用Python/Java/C++开发，并使用其他方便的工具，如IDEs。<p>你也在避免使用调试器吗？如果是的话，为什么？是什么让调试工作变得如此乏味？\n",
+  "description_zh-Hant": "我注意到，我很少使用調試器。我問了一下，我的大多數同事也是如此。我們只是在萬不得已的情況下才依賴調試器，而選擇打印、斷言或&quot;長時間凝視&quot;的方法。\n我們用Python/Java/C++開發，並使用其他方便的工具，如IDEs。<p>你也在避免使用調試器嗎？如果是的話，為什麼？是什麼讓調試工作變得如此乏味？\n"
+}
