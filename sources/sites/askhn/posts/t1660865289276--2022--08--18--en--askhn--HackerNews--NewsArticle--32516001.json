@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--askhn--HackerNews--NewsArticle--32516001",
+  "url": "https://news.ycombinator.com/item?id=32516001",
+  "headline": "Ask HN: Is anyone working with SQL data in Jupyter Notebook?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Daily I'm working with a lot of SQL, mostly in a self-hosted Redash. But, I caught myself on commenting some part of a query and then writing another query below the commented-out code.\nI thought it would be awesome to work with data in a Jupyter-like fashion - then I could tell the whole story, why I went this way with research, why such a query.\nSo I added SQL support to my Jupyter instance, a started working with data in Jupyter.<p>Now I can tell a better story and I have the full history of &quot;why I did this&quot;. But it feels somehow not cool, also keeping the credentials to the database inside the notebook - not cool. _(I know I can keep them in environment, but that's not the point)_<p>Is anyone querying SQL from Jupyter?\nIs there a better way to query data, and query the results with another SQL? Then use Python to do some stuff on data. Then plot the results. Keeping all the mid-steps at the same time.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "michaeloblak",
+    "url": "https://news.ycombinator.com/user?id=michaeloblak"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32516001",
+  "sameAs": "https://news.ycombinator.com/item?id=32516001",
+  "dateCreated": "2022-08-18T23:28:09.276Z",
+  "datePublished": "2022-08-18T23:22:01.000Z",
+  "dateModified": "2022-08-18T23:28:09.276Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 有人在Jupyter Notebook中处理SQL数据吗？\n",
+  "headline_zh-Hant": "Ask HN: 有人在Jupyter Notebook中處理SQL數據嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我每天都在处理大量的SQL，主要是在一个自我托管的Redash中。但是，我发现自己在注释一个查询的某些部分，然后在注释过的代码下面写另一个查询。\n我想，如果能以类似Jupyter的方式处理数据，那就太棒了--那样我就可以讲述整个故事，为什么我这样做研究，为什么要做这样的查询。\n所以我在我的Jupyter实例中添加了SQL支持，并开始在Jupyter中处理数据。<p>现在我可以讲一个更好的故事，我有完整的历史，为什么我这样做&quot;。但我觉得这并不酷，在笔记本中保留数据库的凭证也不酷。我知道我可以把它们放在环境中，但这不是重点）_<p>有人从Jupyter查询SQL吗？\n有没有更好的方法来查询数据，并用另一种SQL来查询结果？然后用Python在数据上做一些事情。然后将结果绘制出来。在同一时间保持所有的中间步骤。\n",
+  "description_zh-Hant": "我每天都在處理大量的SQL，主要是在一個自我託管的Redash中。但是，我發現自己在註釋一個查詢的某些部分，然後在註釋過的代碼下面寫另一個查詢。\n我想，如果能以類似Jupyter的方式處理數據，那就太棒了--那樣我就可以講述整個故事，為什麼我這樣做研究，為什麼要做這樣的查詢。\n所以我在我的Jupyter實例中添加了SQL支持，並開始在Jupyter中處理數據。<p>現在我可以講一個更好的故事，我有完整的歷史，為什麼我這樣做&quot;。但我覺得這並不酷，在筆記本中保留數據庫的憑證也不酷。我知道我可以把它們放在環境中，但這不是重點）_<p>有人從Jupyter查詢SQL嗎？\n有沒有更好的方法來查詢數據，並用另一種SQL來查詢結果？然後用Python在數據上做一些事情。然後將結果繪製出來。在同一時間保持所有的中間步驟。\n"
+}
