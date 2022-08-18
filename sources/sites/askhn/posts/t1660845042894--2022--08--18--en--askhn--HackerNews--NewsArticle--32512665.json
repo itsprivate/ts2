@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--askhn--HackerNews--NewsArticle--32512665",
+  "url": "https://news.ycombinator.com/item?id=32512665",
+  "headline": "Ask HN: Life after abusing Google Sheets as a database",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "At my company we're very good with Google Sheets, we download CSV files from our systems, we dump them into google sheets and we let all sorts of formulas and filters do the magic.<p>And then we import / export / filter to give different stakeholders access to selective data.<p>it works fine, except that we have created a monster that often hits technology constrains in download/upload/import that we need some hacks AND - most importantly - it's often too slow.<p>I looked into AirTable and unfortunately the &quot;50,000 records per base&quot; is not enough, and Enterprise is too expensive.<p>Is there a no-code solution that HN recommend?<p>Maybe Ragic?<p>Thanks in Advance.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "SMAAART",
+    "url": "https://news.ycombinator.com/user?id=SMAAART"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32512665",
+  "sameAs": "https://news.ycombinator.com/item?id=32512665",
+  "dateCreated": "2022-08-18T17:50:42.894Z",
+  "datePublished": "2022-08-18T17:40:52.000Z",
+  "dateModified": "2022-08-18T17:50:42.894Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 滥用谷歌表格作为数据库后的生活\n",
+  "headline_zh-Hant": "Ask HN: 濫用谷歌表格作為數據庫後的生活\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在我的公司，我们很擅长使用谷歌表格，我们从我们的系统中下载CSV文件，我们把它们转储到谷歌表格中，我们让各种公式和过滤器发挥神奇的作用。<p>然后我们导入/导出/过滤，让不同的利益相关者访问选择性的数据。 <p>它工作得很好，只是我们创造了一个怪物，在下载/上传/导入时经常遇到技术限制，我们需要一些黑客，而且--最重要的是--它经常太慢。<p>我研究了AirTable，不幸的是，每基50,000条记录&quot;是不够的，而且企业太贵。<p>有没有HN推荐的无代码解决方案？<p>也许是Ragic？<p>预先感谢。\n",
+  "description_zh-Hant": "在我的公司，我們很擅長使用谷歌表格，我們從我們的系統中下載CSV文件，我們把它們轉儲到谷歌表格中，我們讓各種公式和過濾器發揮神奇的作用。<p>然後我們導入/導出/過濾，讓不同的利益相關者訪問選擇性的數據。 <p>它工作得很好，只是我們創造了一個怪物，在下載/上傳/導入時經常遇到技術限制，我們需要一些黑客，而且--最重要的是--它經常太慢。<p>我研究了AirTable，不幸的是，每基50,000條記錄&quot;是不夠的，而且企業太貴。<p>有沒有HN推薦的無代碼解決方案？<p>也許是Ragic？<p>預先感謝。\n"
+}
