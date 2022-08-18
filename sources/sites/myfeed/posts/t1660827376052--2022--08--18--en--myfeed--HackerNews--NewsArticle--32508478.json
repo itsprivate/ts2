@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--myfeed--HackerNews--NewsArticle--32508478",
+  "url": "https://news.ycombinator.com/item?id=32508478",
+  "headline": "Launch HN: Self-hosted n8n on AWS with Microtica 2.0",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN! This is Alex from the Microtica team (https://microtica.com). Microtica is a platform for easy infrastructure setup and app deployment on your AWS account. We provide ready-to-use templates to quickly spin-up infrastructure for your apps with built-in security, monitoring, and scalability. Currently, we have around 20 templates and infrastructure components, but we’ll add more to our catalogue.<p>One of our most recent templates is n8n workflow automation (https://microtica.com/templates/n8n). You can build complex workflows and host them on your own infrastructure the same day you start developing. Connect Git for your n8n app, select the cluster you want and deploy.<p>Fast, without going through tutorials, for free.<p>Thanks for your time, and would love to hear your feedback!",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "savovaleks",
+    "url": "https://news.ycombinator.com/user?id=savovaleks"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32508478",
+  "sameAs": "https://news.ycombinator.com/item?id=32508478",
+  "dateCreated": "2022-08-18T12:56:16.052Z",
+  "datePublished": "2022-08-18T12:12:03.000Z",
+  "dateModified": "2022-08-18T12:56:16.052Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "启动HN：使用Microtica 2.0在AWS上自我托管的n8n\n",
+  "headline_zh-Hant": "啟動HN：使用Microtica 2.0在AWS上自我託管的n8n\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN! 我是Microtica团队的Alex（https://microtica.com）。Microtica是一个平台，用于在你的AWS账户上轻松设置基础设施和部署应用程序。我们提供现成的模板，为你的应用程序快速启动基础设施，并提供内置的安全性、监控和可扩展性。目前，我们有大约20个模板和基础设施组件，但我们会在目录中增加更多。<p>我们最近的一个模板是n8n工作流自动化（https://microtica.com/templates/n8n）。你可以建立复杂的工作流程，并在开始开发的同一天将其托管在你自己的基础设施上。为你的n8n应用程序连接Git，选择你想要的集群并进行部署。<p>速度快，不需要通过教程，免费。<p>谢谢你的时间，并希望听到你的反馈!\n",
+  "description_zh-Hant": "嗨，HN! 我是Microtica團隊的Alex（https://microtica.com）。Microtica是一個平臺，用於在你的AWS賬戶上輕鬆設置基礎設施和部署應用程序。我們提供現成的模板，為你的應用程序快速啟動基礎設施，並提供內置的安全性、監控和可擴展性。目前，我們有大約20個模板和基礎設施組件，但我們會在目錄中增加更多。<p>我們最近的一個模板是n8n工作流自動化（https://microtica.com/templates/n8n）。你可以建立複雜的工作流程，並在開始開發的同一天將其託管在你自己的基礎設施上。為你的n8n應用程序連接Git，選擇你想要的集群並進行部署。<p>速度快，不需要通過教程，免費。<p>謝謝你的時間，並希望聽到你的反饋!\n"
+}
