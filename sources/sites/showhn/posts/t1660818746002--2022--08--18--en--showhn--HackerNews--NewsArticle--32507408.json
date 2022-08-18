@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--showhn--HackerNews--NewsArticle--32507408",
+  "url": "https://news.ycombinator.com/item?id=32507408",
+  "headline": "Show HN: I built a 3rd-party status page for GitHub on Cloudflare Pages",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "For the curious: It's a Remix app running on Cloudflare Pages, with a plain old Node/Express API and postgres db.<p>The uptime data comes from OnlineOrNot.com, though I'll be integrating Pingdom and a few other uptime monitoring services later. Once the uptime monitoring detects an outage, the status page automatically updates, and sends emails to anyone subscribed.<p>I used Remix because I wanted to write React components with Tailwind CSS, but have them &quot;compile down&quot; to just HTML/CSS. The output HTML/CSS is around 10.1KiB in total.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "rozenmd",
+    "url": "https://news.ycombinator.com/user?id=rozenmd"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32507408",
+  "sameAs": "https://github.onlineornot.com",
+  "dateCreated": "2022-08-18T10:32:26.002Z",
+  "datePublished": "2022-08-18T10:02:04.000Z",
+  "dateModified": "2022-08-18T10:32:26.002Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我在Cloudflare页面上为GitHub建立了一个第三方状态页面\n",
+  "headline_zh-Hant": "Show HN: 我在Cloudflare頁面上為GitHub建立了一個第三方狀態頁面\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "<p>正常运行时间的数据来自OnlineOrNot.com，但我将在以后整合Pingdom和其他一些正常运行时间监测服务。<p>我使用Remix是因为我想用Tailwind CSS编写React组件，但让它们编译成HTML/CSS。输出的HTML/CSS总量约为10.1KiB。\n",
+  "description_zh-Hant": "<p>正常運行時間的數據來自OnlineOrNot.com，但我將在以後整合Pingdom和其他一些正常運行時間監測服務。<p>我使用Remix是因為我想用Tailwind CSS編寫React組件，但讓它們編譯成HTML/CSS。輸出的HTML/CSS總量約為10.1KiB。\n"
+}
