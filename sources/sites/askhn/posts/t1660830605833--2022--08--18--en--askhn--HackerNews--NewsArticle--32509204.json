@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--askhn--HackerNews--NewsArticle--32509204",
+  "url": "https://news.ycombinator.com/item?id=32509204",
+  "headline": "Ask HN: Best DNS Blocker for iOS",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Looking at fairly simple, idiot available, DNS block options for iOS -- by idiot i mean downloading an app and making some basic changes myself, not trying to run a pihole through my own server, etc.<p>-- My only real requirement would be that i could be allowed to be add my own domains that i want filtered to my own black list (such as iOS ads domain so i no longer have to see ads in News+ app).<p>I've been using Adguard Pro but the latest version for some reason refuses to transmit any data while on cellular network, it works fine on wifi but on cellular i get nothing.  i tried searching forums but even though people list these problems about once a year since 2017 there doesn't seem to be ever a viable solution posted.<p>i then switched to NextDNS, but that DNS doesn't allow me to add additional domain.<p>i also switched DNSCloak but it also doesn't have a selection to block your own domains (or maybe i just need to pay the $12 updated pro version?).<p>So anyways, could someone advise an DNS blocking app that they use on iOS that perhaps isn't AdGuard that would help me do what i want to do?<p>Tnx.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ir77",
+    "url": "https://news.ycombinator.com/user?id=ir77"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32509204",
+  "sameAs": "https://news.ycombinator.com/item?id=32509204",
+  "dateCreated": "2022-08-18T13:50:05.833Z",
+  "datePublished": "2022-08-18T13:22:21.000Z",
+  "dateModified": "2022-08-18T13:50:05.833Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 最佳iOS版DNS阻断器\n",
+  "headline_zh-Hant": "Ask HN: 最佳iOS版DNS阻斷器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我在寻找相当简单的、傻瓜式的、适用于iOS的DNS拦截选项--我说的傻瓜是指下载一个应用程序，自己做一些基本的改变，而不是试图通过我自己的服务器运行一个pihole，等等。 <p>--我唯一真正的要求是允许我将我想要过滤的域名添加到我自己的黑名单中（例如iOS广告域名，这样我就不必再看到News+应用中的广告）。<p>我一直在使用Adguard Pro，但最新版本由于某些原因在蜂窝网络上拒绝传输任何数据，它在wifi上工作正常，但在蜂窝网络上我什么也得不到。 我试着在论坛上搜索，但尽管人们自2017年以来每年都会列出这些问题，但似乎从来没有一个可行的解决方案发布。 <p>我还换了DNSCloak，但它也没有选择阻止你自己的域名（或者也许我只需要支付12美元的更新专业版）。<p>所以无论如何，有人可以建议他们在iOS上使用的DNS阻止应用程序，也许不是AdGuard，可以帮助我做我想做的事情？\n",
+  "description_zh-Hant": "我在尋找相當簡單的、傻瓜式的、適用於iOS的DNS攔截選項--我說的傻瓜是指下載一個應用程序，自己做一些基本的改變，而不是試圖通過我自己的服務器運行一個pihole，等等。 <p>--我唯一真正的要求是允許我將我想要過濾的域名添加到我自己的黑名單中（例如iOS廣告域名，這樣我就不必再看到News+應用中的廣告）。<p>我一直在使用Adguard Pro，但最新版本由於某些原因在蜂窩網絡上拒絕傳輸任何數據，它在wifi上工作正常，但在蜂窩網絡上我什麼也得不到。 我試著在論壇上搜索，但儘管人們自2017年以來每年都會列出這些問題，但似乎從來沒有一個可行的解決方案發布。 <p>我還換了DNSCloak，但它也沒有選擇阻止你自己的域名（或者也許我只需要支付12美元的更新專業版）。<p>所以無論如何，有人可以建議他們在iOS上使用的DNS阻止應用程序，也許不是AdGuard，可以幫助我做我想做的事情？\n"
+}
