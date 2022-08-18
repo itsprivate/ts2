@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--showhn--HackerNews--NewsArticle--32507363",
+  "url": "https://news.ycombinator.com/item?id=32507363",
+  "headline": "Show HN: I'm building an email service on the blockchain",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN! I'm a UG university student, and I'm building Stenzor, an email service built on the Solana blockchain.<p>Companies like Google have way too much control over email. They get to decide whether or not mail hits your inbox. I've had incidents in the past where Gmail silently <i>blocked</i> my emails because their AI thought they were malicious.<p>You may say &quot;use your own mail server&quot;, but that is easier said than done; the average user has neither time nor skill. Besides, if your contacts are using Gmail, good luck getting past their spam filter on a shared IP.<p>On the more philosophical side, services like Gmail and Outlook give the illusion that their services are free to use, which leads to over-consumption and over-reliance. At the end of the day somebody has to pay the bills - why not let the user pay for what they use instead of absorbing that cost and selling their data?<p>--<p>On the technical side of things, it uses decentralized technologies like IPFS to store your emails. There is absolutely no centralized server involved (unless you consider our web host, Netlify) and you will soon be able to run the webapp locally.<p>What about encryption, you say? We currently encrypt all email content, including subject and attachments using x25519-xsalsa20-poly1305, via the libsodium box API. Before the stable release we will switch to a post-quantum encryption scheme such as NTRU.<p>Thanks for reading till the end!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "muscache",
+    "url": "https://news.ycombinator.com/user?id=muscache"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32507363",
+  "sameAs": "https://stenzor.com",
+  "dateCreated": "2022-08-18T09:59:45.696Z",
+  "datePublished": "2022-08-18T09:56:20.000Z",
+  "dateModified": "2022-08-18T09:59:45.696Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我正在区块链上建立一个电子邮件服务\n",
+  "headline_zh-Hant": "Show HN: 我正在區塊鏈上建立一個電子郵件服務\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hey HN! I'm a UG university student, and I'm building Stenzor, an email service built on the Solana blockchain.<p>Companies like Google have way too much control over email. They get to decide whether or not mail hits your inbox. I've had incidents in the past where Gmail silently <i>blocked</i> my emails because their AI thought they were malicious.<p>You may say &quot;use your own mail server&quot;, but that is easier said than done; the average user has neither time nor skill. Besides, if your contacts are using Gmail, good luck getting past their spam filter on a shared IP.<p>On the more philosophical side, services like Gmail and Outlook give the illusion that their services are free to use, which leads to over-consumption and over-reliance. At the end of the day somebody has to pay the bills - why not let the user pay for what they use instead of absorbing that cost and selling their data?<p>--<p>On the technical side of things, it uses decentralized technologies like IPFS to store your emails. There is absolutely no centralized server involved (unless you consider our web host, Netlify) and you will soon be able to run the webapp locally.<p>What about encryption, you say? We currently encrypt all email content, including subject and attachments using x25519-xsalsa20-poly1305, via the libsodium box API. Before the stable release we will switch to a post-quantum encryption scheme such as NTRU.<p>Thanks for reading till the end!\n",
+  "description_zh-Hant": "Hey HN! I'm a UG university student, and I'm building Stenzor, an email service built on the Solana blockchain.<p>Companies like Google have way too much control over email. They get to decide whether or not mail hits your inbox. I've had incidents in the past where Gmail silently <i>blocked</i> my emails because their AI thought they were malicious.<p>You may say &quot;use your own mail server&quot;, but that is easier said than done; the average user has neither time nor skill. Besides, if your contacts are using Gmail, good luck getting past their spam filter on a shared IP.<p>On the more philosophical side, services like Gmail and Outlook give the illusion that their services are free to use, which leads to over-consumption and over-reliance. At the end of the day somebody has to pay the bills - why not let the user pay for what they use instead of absorbing that cost and selling their data?<p>--<p>On the technical side of things, it uses decentralized technologies like IPFS to store your emails. There is absolutely no centralized server involved (unless you consider our web host, Netlify) and you will soon be able to run the webapp locally.<p>What about encryption, you say? We currently encrypt all email content, including subject and attachments using x25519-xsalsa20-poly1305, via the libsodium box API. Before the stable release we will switch to a post-quantum encryption scheme such as NTRU.<p>Thanks for reading till the end!\n"
+}
