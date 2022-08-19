@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--showhn--HackerNews--NewsArticle--32516418",
+  "url": "https://news.ycombinator.com/item?id=32516418",
+  "headline": "Show HN: I built an app to save time planning your Google calendar using AI",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN,<p>I built a mobile app to help you save time planning your google calendar using AI. One of the biggest problems with tasks and meetings is that they are not fluid and they don’t change with your day. Spending X amount of time to rearrange your calendar defeats the purpose. So how do you keep you calendar sync with your day? This impacts your true availability too.<p>I realized that 80% of our work is similar so how do I capture that information to help with scheduling? Simple, tags and semantic search. Your past tasks and meetings become templates for your new ones when the scheduler works. Atomic does heavy pre-processing before sending your events to the AI schedule solver. There are many attributes to the event and more info is the landing page. Two big ones are time preferences (time boundaries for your events) and priorities. With these two alone your new schedule should reflect your day. These attributes get copied over when you run the scheduler.<p>So let’s say you have a meeting with John Doe and John only prefers certain times of the week. You add that information into the event. Next time you have a meeting with John, the scheduler will take the time preferences in to account.<p>Tasks get a big boost because now you can sync them and let the scheduler place them at the right place. All you have to do is tap a button and choose a range for the scheduler to work on.<p>Tags work in a similar manner. There is automatic tagging but you can copy over them from a previous template as well. Tags have their own settings including time preferences and event attribute copying settings.<p>I am seeking beta testers before a full launch and fix any critical bugs.<p>FYI - there is a playground for the semantic search and smart tagging function on the landing page. Please check it out!<p>Known limits<p>1. Google calendar has limits on number of events you can update at a time.<p>2. You have to set your work schedule under settings of the app or the schedule assist won’t work. Make it wide to cover your whole week.<p>product hunt link: <a href=\"https://www.producthunt.com/posts/atomic-3\" rel=\"nofollow\">https://www.producthunt.com/posts/atomic-3</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "rish1_2",
+    "url": "https://news.ycombinator.com/user?id=rish1_2"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32516418",
+  "sameAs": "https://www.atomiclife.app/",
+  "dateCreated": "2022-08-19T02:35:39.285Z",
+  "datePublished": "2022-08-19T00:27:48.000Z",
+  "dateModified": "2022-08-19T02:35:39.285Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 我建立了一个应用程序，以节省时间，用AI来规划你的谷歌日历\n",
+  "headline_zh-Hant": "Show HN: 我建立了一個應用程序，以節省時間，用AI來規劃你的谷歌日曆\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN,<p>我建立了一个移动应用程序，以帮助你节省时间，使用AI规划你的谷歌日历。任务和会议的最大问题之一是，它们不是流动的，它们不会随着你的一天而改变。花费X量的时间来重新安排你的日历，这违背了目的。那么，你如何使你的日历与你的一天保持同步？这也影响了你的真实可用性。<p>我意识到我们80%的工作是相似的，那么我如何捕捉这些信息来帮助安排工作呢？很简单，标签和语义搜索。你过去的任务和会议在调度器工作时成为你新任务的模板。Atomic在将你的事件发送到人工智能日程解决器之前做了大量的预处理。事件有很多属性，更多信息在登陆页面。两个大的属性是时间偏好（你的事件的时间界限）和优先级。仅凭这两点，你的新日程表就应该反映你的一天。当你运行调度程序时，这些属性会被复制过来。<p>因此，假设你与无名氏有一个会议，而无名氏只喜欢一周中的某些时间。你把这些信息添加到事件中。<p>任务得到了很大的提升，因为现在你可以同步它们，并让调度器把它们放在正确的地方。All you have to do is tap a button and choose a range for the scheduler to work on.<p>Tags work in a similar manner. There is automatic tagging but you can copy over them from a previous template as well. Tags have their own settings including time preferences and event attribute copying settings.<p>I am seeking beta testers before a full launch and fix any critical bugs.<p>FYI - there is a playground for the semantic search and smart tagging function on the landing page. Please check it out!<p>Known limits<p>1. Google calendar has limits on number of events you can update at a time.<p>2. You have to set your work schedule under settings of the app or the schedule assist won’t work. Make it wide to cover your whole week.<p>product hunt link: <a href=\"https://www.producthunt.com/posts/atomic-3\" rel=\"nofollow\">https://www.producthunt.com/posts/atomic-3</a>\n",
+  "description_zh-Hant": "嗨，HN,<p>我建立了一個移動應用程序，以幫助你節省時間，使用AI規劃你的谷歌日曆。任務和會議的最大問題之一是，它們不是流動的，它們不會隨著你的一天而改變。花費X量的時間來重新安排你的日曆，這違背了目的。那麼，你如何使你的日曆與你的一天保持同步？這也影響了你的真實可用性。<p>我意識到我們80%的工作是相似的，那麼我如何捕捉這些信息來幫助安排工作呢？很簡單，標籤和語義搜索。你過去的任務和會議在調度器工作時成為你新任務的模板。Atomic在將你的事件發送到人工智能日程解決器之前做了大量的預處理。事件有很多屬性，更多信息在登陸頁面。兩個大的屬性是時間偏好（你的事件的時間界限）和優先級。僅憑這兩點，你的新日程表就應該反映你的一天。當你運行調度程序時，這些屬性會被複制過來。<p>因此，假設你與無名氏有一個會議，而無名氏只喜歡一週中的某些時間。你把這些信息添加到事件中。<p>任務得到了很大的提升，因為現在你可以同步它們，並讓調度器把它們放在正確的地方。All you have to do is tap a button and choose a range for the scheduler to work on.<p>Tags work in a similar manner. There is automatic tagging but you can copy over them from a previous template as well. Tags have their own settings including time preferences and event attribute copying settings.<p>I am seeking beta testers before a full launch and fix any critical bugs.<p>FYI - there is a playground for the semantic search and smart tagging function on the landing page. Please check it out!<p>Known limits<p>1. Google calendar has limits on number of events you can update at a time.<p>2. You have to set your work schedule under settings of the app or the schedule assist won’t work. Make it wide to cover your whole week.<p>product hunt link: <a href=\"https://www.producthunt.com/posts/atomic-3\" rel=\"nofollow\">https://www.producthunt.com/posts/atomic-3</a>\n"
+}
