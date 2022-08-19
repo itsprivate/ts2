@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--myfeed--HackerNews--NewsArticle--32522471",
+  "url": "https://news.ycombinator.com/item?id=32522471",
+  "headline": "Could you guys review my first JavaScript project?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "theonerookiedev",
+    "url": "https://news.ycombinator.com/user?id=theonerookiedev"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32522471",
+  "sameAs": "https://gp-nc.github.io/drum-kit/",
+  "dateCreated": "2022-08-19T16:39:18.678Z",
+  "datePublished": "2022-08-19T15:45:18.000Z",
+  "dateModified": "2022-08-19T16:39:18.678Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "你们能不能审查一下我的第一个JavaScript项目？\n",
+  "headline_zh-Hant": "你們能不能審查一下我的第一個JavaScript項目？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

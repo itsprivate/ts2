@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--hackernews--HackerNews--NewsArticle--32522901",
+  "url": "https://news.ycombinator.com/item?id=32522901",
+  "headline": "Technology Deep Dive: Building a Faster ORAM Layer for Enclaves",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "maksim-m",
+    "url": "https://news.ycombinator.com/user?id=maksim-m"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32522901",
+  "sameAs": "https://signal.org/blog/building-faster-oram/",
+  "dateCreated": "2022-08-19T16:39:18.507Z",
+  "datePublished": "2022-08-19T16:16:00.000Z",
+  "dateModified": "2022-08-19T16:39:18.507Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "技术深究。为Enclaves构建更快的ORAM层\n",
+  "headline_zh-Hant": "技術深究。為Enclaves構建更快的ORAM層\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
