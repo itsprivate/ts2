@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--askhn--HackerNews--NewsArticle--32518586",
+  "url": "https://news.ycombinator.com/item?id=32518586",
+  "headline": "Ask HN: Modsecurity Alternatives",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Does anyone know of a good mod-security (WAF) alternative for nginx? Specifically an open source project that isn't riddled with memory leaks.<p>Naxis seems to be dead.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "sschueller",
+    "url": "https://news.ycombinator.com/user?id=sschueller"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32518586",
+  "sameAs": "https://news.ycombinator.com/item?id=32518586",
+  "dateCreated": "2022-08-19T08:34:22.995Z",
+  "datePublished": "2022-08-19T08:13:15.000Z",
+  "dateModified": "2022-08-19T08:34:22.995Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Modsecurity的替代产品\n",
+  "headline_zh-Hant": "Ask HN: Modsecurity的替代產品\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "有谁知道一个好的nginx的mod-security（WAF）替代品？特别是一个不存在内存泄漏的开源项目。<p>Naxis似乎已经死了。\n",
+  "description_zh-Hant": "有誰知道一個好的nginx的mod-security（WAF）替代品？特別是一個不存在內存洩漏的開源項目。<p>Naxis似乎已經死了。\n"
+}
