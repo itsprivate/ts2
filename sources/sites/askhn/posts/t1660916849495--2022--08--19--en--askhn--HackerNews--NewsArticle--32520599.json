@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--askhn--HackerNews--NewsArticle--32520599",
+  "url": "https://news.ycombinator.com/item?id=32520599",
+  "headline": "Ask HN: Secure Chat with Someone in China?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm in Europe. They've suggested WeChat but I'm concerned about censorship/monitoring.<p>Looking for options with text chat and video/audio calls.  Ideally with minimal technical setup required at their end.<p>I looked into setting up a Matrix instance and giving them a link to a self-hosted version of the Element web client but it doesn't look like that would work [0].<p>Not sure yet if a VPN is an option for them (I don't know if I'd be suggesting something that they'd feel uncomfortable with).<p>What are my options?<p>If WeChat is the only route, any advice on how to minimise risk when using it?<p>(Also curious to hear from anyone from China about your experiences with messaging and censorship)<p>[0] there are reports from some that this doesn't work in China due to the element client still needing to talk to matrix.org which is blocked.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "throwaway09380",
+    "url": "https://news.ycombinator.com/user?id=throwaway09380"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32520599",
+  "sameAs": "https://news.ycombinator.com/item?id=32520599",
+  "dateCreated": "2022-08-19T13:47:29.495Z",
+  "datePublished": "2022-08-19T13:18:09.000Z",
+  "dateModified": "2022-08-19T13:47:29.495Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 与中国的人安全聊天？\n",
+  "headline_zh-Hant": "Ask HN: 與中國的人安全聊天？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我在欧洲。他们建议使用微信，但我担心审查/监控问题。<p>我希望能有文字聊天和视频/音频通话的选择。 <p>我想建立一个Matrix实例，并给他们一个链接到一个自我托管的Element网络客户端，但看起来这行不通[0]。<p>还不确定VPN是否是他们的选择（我不知道我是否会建议他们觉得不舒服的东西）。 <p>我有什么选择？<p>如果微信是唯一的途径，有什么建议可以在使用时将风险降到最低？<p>（也很想听听来自中国的人对信息传递和审查的经验）<p>[0]有些人报告说这在中国不起作用，因为元素客户端仍然需要与matrix.org对话，而后者被封锁了。\n",
+  "description_zh-Hant": "我在歐洲。他們建議使用微信，但我擔心審查/監控問題。<p>我希望能有文字聊天和視頻/音頻通話的選擇。 <p>我想建立一個Matrix實例，並給他們一個鏈接到一個自我託管的Element網絡客戶端，但看起來這行不通[0]。<p>還不確定VPN是否是他們的選擇（我不知道我是否會建議他們覺得不舒服的東西）。 <p>我有什麼選擇？<p>如果微信是唯一的途徑，有什麼建議可以在使用時將風險降到最低？<p>（也很想聽聽來自中國的人對信息傳遞和審查的經驗）<p>[0]有些人報告說這在中國不起作用，因為元素客戶端仍然需要與matrix.org對話，而後者被封鎖了。\n"
+}
