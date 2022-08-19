@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--askhn--HackerNews--NewsArticle--32525814",
+  "url": "https://news.ycombinator.com/item?id=32525814",
+  "headline": "Ask HN: Is there a service like Retool but for customer-facing UIs?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "For example, I'd like to set up a small customer-facing UI portal that uses a REST API as a backend. Pretty much exactly like Retool, but not for an &quot;internal&quot; UI.<p>Retool's current pricing makes this use case non-viable.<p>Know of anything?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ezekg",
+    "url": "https://news.ycombinator.com/user?id=ezekg"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32525814",
+  "sameAs": "https://news.ycombinator.com/item?id=32525814",
+  "dateCreated": "2022-08-19T21:00:19.690Z",
+  "datePublished": "2022-08-19T20:55:20.000Z",
+  "dateModified": "2022-08-19T21:00:19.690Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 是否有类似Retool的服务，但针对面向客户的用户界面？\n",
+  "headline_zh-Hant": "Ask HN: 是否有類似Retool的服務，但針對面向客戶的用戶界面？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "例如，我想建立一个面向客户的小型 UI 门户，使用 REST API 作为后端。<p>Retool目前的定价使这个用例不可行。\n",
+  "description_zh-Hant": "例如，我想建立一個面向客戶的小型 UI 門戶，使用 REST API 作為後端。<p>Retool目前的定價使這個用例不可行。\n"
+}
