@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--myfeed--HackerNews--NewsArticle--32520121",
+  "url": "https://news.ycombinator.com/item?id=32520121",
+  "headline": "The end of the Redis adventure (2020)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "simonebrunozzi",
+    "url": "https://news.ycombinator.com/user?id=simonebrunozzi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32520121",
+  "sameAs": "http://antirez.com/news/133",
+  "dateCreated": "2022-08-19T12:49:53.717Z",
+  "datePublished": "2022-08-19T12:25:28.000Z",
+  "dateModified": "2022-08-19T12:49:53.717Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Redis的冒险结束了（2020）。\n",
+  "headline_zh-Hant": "Redis的冒險結束了（2020）。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

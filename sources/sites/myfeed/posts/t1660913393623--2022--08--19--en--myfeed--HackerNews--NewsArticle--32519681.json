@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--myfeed--HackerNews--NewsArticle--32519681",
+  "url": "https://news.ycombinator.com/item?id=32519681",
+  "headline": "Show HN: A clone of Tailwind's home page using Code Hike",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "pomber",
+    "url": "https://news.ycombinator.com/user?id=pomber"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32519681",
+  "sameAs": "https://github.com/code-hike/not-tailwind",
+  "dateCreated": "2022-08-19T12:49:53.623Z",
+  "datePublished": "2022-08-19T11:22:45.000Z",
+  "dateModified": "2022-08-19T12:49:53.623Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 使用Code Hike克隆Tailwind的主页\n",
+  "headline_zh-Hant": "Show HN: 使用Code Hike克隆Tailwind的主頁\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
