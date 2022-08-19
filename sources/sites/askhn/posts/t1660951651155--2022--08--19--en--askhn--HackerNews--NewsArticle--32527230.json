@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--askhn--HackerNews--NewsArticle--32527230",
+  "url": "https://news.ycombinator.com/item?id=32527230",
+  "headline": "Ask HN: Cheap, Hackable Drones (For Photogrammetry)?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I recently did some drone flight / mapping training for humanitarian efforts. This was carried out using DJI drones, which seem to be the leader in prosumer to light enterprise drone mapping. At the same time that entry level DJI drones get more capable cameras (the DJI Mini 3 Pro camera looks great / has a 1 inch sensor), DJI is getting slower and less responsive at releasing SDKs that allow mapping apps like Pix4D and Dronelink to automate mapping flights.<p>In the alter, DYI drone universe, people are slapping propellers on various form factor flight frames and programming them with ArduPilot—epically cool, but very DIY.<p>This brings me to the flood of inexpensive, competent-ish looking drones that are all over online retailers' websites. I'm talking about the Holy Stone, Ruku, GoolRC class drones that, on paper, would appear to be a bargain. My <i>GUESS</i> is that a bunch of these inexpensive drones build off the open source drone community—it seems like a lot of work to build your own software stack on razor-thin margins. That makes me think some of these models have to be hackable to control with open source software like ArduPilot's mission planner.<p>I'm guessing none make it easy, nor are they likely to advertise any open source software that they use. But, I still have to imagine that somewhere out there, some drone hacker has managed to pop a console or found a TTL serial interface exposed on an accessible circuit board somewhere.<p>Anyone have any experience in this area? Am I missing some reason why this can't actually exist?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "peatmoss",
+    "url": "https://news.ycombinator.com/user?id=peatmoss"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32527230",
+  "sameAs": "https://news.ycombinator.com/item?id=32527230",
+  "dateCreated": "2022-08-19T23:27:31.155Z",
+  "datePublished": "2022-08-19T23:14:14.000Z",
+  "dateModified": "2022-08-19T23:27:31.155Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 廉价、可破解的无人机（用于摄影测量）？\n",
+  "headline_zh-Hant": "Ask HN: 廉價、可破解的無人機（用於攝影測量）？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "I recently did some drone flight / mapping training for humanitarian efforts. This was carried out using DJI drones, which seem to be the leader in prosumer to light enterprise drone mapping. At the same time that entry level DJI drones get more capable cameras (the DJI Mini 3 Pro camera looks great / has a 1 inch sensor), DJI is getting slower and less responsive at releasing SDKs that allow mapping apps like Pix4D and Dronelink to automate mapping flights. <p>In the alter, DYI drone universe, people are slapping propellers on various form factor flight frames and programming them with ArduPilot—epically cool, but very DIY.<p>This brings me to the flood of inexpensive, competent-ish looking drones that are all over online retailers' websites. I'm talking about the Holy Stone, Ruku, GoolRC class drones that, on paper, would appear to be a bargain. My <i>GUESS</i> is that a bunch of these inexpensive drones build off the open source drone community—it seems like a lot of work to build your own software stack on razor-thin margins. That makes me think some of these models have to be hackable to control with open source software like ArduPilot's mission planner.<p>I'm guessing none make it easy, nor are they likely to advertise any open source software that they use. But, I still have to imagine that somewhere out there, some drone hacker has managed to pop a console or found a TTL serial interface exposed on an accessible circuit board somewhere.<p>Anyone have any experience in this area? Am I missing some reason why this can't actually exist?\n",
+  "description_zh-Hant": "I recently did some drone flight / mapping training for humanitarian efforts. This was carried out using DJI drones, which seem to be the leader in prosumer to light enterprise drone mapping. At the same time that entry level DJI drones get more capable cameras (the DJI Mini 3 Pro camera looks great / has a 1 inch sensor), DJI is getting slower and less responsive at releasing SDKs that allow mapping apps like Pix4D and Dronelink to automate mapping flights. <p>In the alter, DYI drone universe, people are slapping propellers on various form factor flight frames and programming them with ArduPilot—epically cool, but very DIY.<p>This brings me to the flood of inexpensive, competent-ish looking drones that are all over online retailers' websites. I'm talking about the Holy Stone, Ruku, GoolRC class drones that, on paper, would appear to be a bargain. My <i>GUESS</i> is that a bunch of these inexpensive drones build off the open source drone community—it seems like a lot of work to build your own software stack on razor-thin margins. That makes me think some of these models have to be hackable to control with open source software like ArduPilot's mission planner.<p>I'm guessing none make it easy, nor are they likely to advertise any open source software that they use. But, I still have to imagine that somewhere out there, some drone hacker has managed to pop a console or found a TTL serial interface exposed on an accessible circuit board somewhere.<p>Anyone have any experience in this area? Am I missing some reason why this can't actually exist?\n"
+}
