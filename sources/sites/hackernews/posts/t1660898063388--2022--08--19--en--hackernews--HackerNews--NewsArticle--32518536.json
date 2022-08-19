@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--hackernews--HackerNews--NewsArticle--32518536",
+  "url": "https://news.ycombinator.com/item?id=32518536",
+  "headline": "More content by people, for people in Search",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gingerlime",
+    "url": "https://news.ycombinator.com/user?id=gingerlime"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32518536",
+  "sameAs": "https://blog.google/products/search/more-content-by-people-for-people-in-search/",
+  "dateCreated": "2022-08-19T08:34:23.388Z",
+  "datePublished": "2022-08-19T08:03:48.000Z",
+  "dateModified": "2022-08-19T08:34:23.388Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "更多由人提供的内容，在搜索中为人服务\n",
+  "headline_zh-Hant": "更多由人提供的內容，在搜索中為人服務\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
