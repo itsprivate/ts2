@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--myfeed--HackerNews--NewsArticle--32517495",
+  "url": "https://news.ycombinator.com/item?id=32517495",
+  "headline": "Show HN: An HTML endless runner under 900 lines without frameworks or libraries",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "My wife and I recently submitted to a mobile game jam on Newgrounds (yes, it's still around). What started as a question of whether we could do it somehow morphed into whether we could do without so many of the seemingly needless complications rampant in our respective industries. My wife thus did all the art as traditional frame-by-frame animation (no puppets or tweening) and I preceded without a game engine. I did use a pre-processor that gives JS a Lisp syntax (Parenscript), because C-syntax is gross. We hope the end result, while definitely of small scope, will serve to inspire some thought as to what is and isn't needed in your next project.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "gtrevorjay",
+    "url": "https://news.ycombinator.com/user?id=gtrevorjay"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32517495",
+  "sameAs": "https://github.com/trevorjay/Bondis-Heaps-of-Air",
+  "dateCreated": "2022-08-19T05:43:29.388Z",
+  "datePublished": "2022-08-19T04:12:11.000Z",
+  "dateModified": "2022-08-19T05:43:29.388Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 一个900行以下的HTML无尽运行器，没有框架或库\n",
+  "headline_zh-Hant": "Show HN: 一個900行以下的HTML無盡運行器，沒有框架或庫\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我的妻子和我最近在Newgrounds（是的，它仍然存在）上提交了一个移动游戏卡。一开始是我们是否能做到的问题，后来演变成我们是否能做到不在我们各自的行业中出现那么多看似不必要的复杂情况。因此，我的妻子把所有的艺术都变成了传统的逐帧动画（没有木偶或weening），而我在之前没有使用游戏引擎。我确实使用了一个预处理器，它为JS提供了Lisp语法（Parenscript），因为C语法很恶心。我们希望最终的结果，虽然肯定是小范围的，但将有助于激发一些思考，在你的下一个项目中需要什么和不需要什么。\n",
+  "description_zh-Hant": "我的妻子和我最近在Newgrounds（是的，它仍然存在）上提交了一個移動遊戲卡。一開始是我們是否能做到的問題，後來演變成我們是否能做到不在我們各自的行業中出現那麼多看似不必要的複雜情況。因此，我的妻子把所有的藝術都變成了傳統的逐幀動畫（沒有木偶或weening），而我在之前沒有使用遊戲引擎。我確實使用了一個預處理器，它為JS提供了Lisp語法（Parenscript），因為C語法很噁心。我們希望最終的結果，雖然肯定是小範圍的，但將有助於激發一些思考，在你的下一個項目中需要什麼和不需要什麼。\n"
+}
