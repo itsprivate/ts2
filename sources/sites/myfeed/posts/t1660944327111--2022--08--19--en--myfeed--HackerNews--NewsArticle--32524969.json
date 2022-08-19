@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--myfeed--HackerNews--NewsArticle--32524969",
+  "url": "https://news.ycombinator.com/item?id=32524969",
+  "headline": "Hookdeck: Webhook Infrastructure and Tooling",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "leetrout",
+    "url": "https://news.ycombinator.com/user?id=leetrout"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32524969",
+  "sameAs": "https://hookdeck.com/",
+  "dateCreated": "2022-08-19T21:25:27.111Z",
+  "datePublished": "2022-08-19T19:15:57.000Z",
+  "dateModified": "2022-08-19T21:25:27.111Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Hookdeck: Webhook基础设施和工具\n",
+  "headline_zh-Hant": "Hookdeck: Webhook基礎設施和工具\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
