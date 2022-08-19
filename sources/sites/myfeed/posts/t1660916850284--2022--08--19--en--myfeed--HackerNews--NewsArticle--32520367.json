@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--myfeed--HackerNews--NewsArticle--32520367",
+  "url": "https://news.ycombinator.com/item?id=32520367",
+  "headline": "TikTok's In-App Browser Reportedly Capable of Monitoring Anything You Type",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "RabbitUpRabbit",
+    "url": "https://news.ycombinator.com/user?id=RabbitUpRabbit"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32520367",
+  "sameAs": "https://www.macrumors.com/2022/08/18/felix-krause-in-app-browser-javascript-tool/",
+  "dateCreated": "2022-08-19T13:47:30.284Z",
+  "datePublished": "2022-08-19T12:54:36.000Z",
+  "dateModified": "2022-08-19T13:47:30.284Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "据报道，TikTok的应用内浏览器能够监控你输入的任何内容\n",
+  "headline_zh-Hant": "據報道，TikTok的應用內瀏覽器能夠監控你輸入的任何內容\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
