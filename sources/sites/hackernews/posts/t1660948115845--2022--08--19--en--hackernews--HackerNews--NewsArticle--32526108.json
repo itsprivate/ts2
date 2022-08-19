@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--hackernews--HackerNews--NewsArticle--32526108",
+  "url": "https://news.ycombinator.com/item?id=32526108",
+  "headline": "Ask HN: Why is there no performant remote desktop for Mac/Linux?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "IIUC, RDP (Microsoft's remote desktop protocol) sends draw commands across. It's the default way to access remote desktops on Windows. Conversely, AFAICT, the default way on MacOS and Linux is VNC which IIUC sends all the pixels (with compression). I've noticed for years I can work remotely, edit code, etc on RDP. I've done it around the across 8000 miles and had hardly any lag. Conversely I'm trying to share 2 computers right next to each other in the same network via VNC and it's horribly laggy.<p>Is this just not an itch anyone has wanted to scratch in the last 25 years? On Linux you can maybe XWindows your way to a faster connection by what about Mac? Also, RDP seems to let me run GPU based stuff where as XWindows you're actually not seeing the computer's display.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "asiachick",
+    "url": "https://news.ycombinator.com/user?id=asiachick"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32526108",
+  "sameAs": "https://news.ycombinator.com/item?id=32526108",
+  "dateCreated": "2022-08-19T22:28:35.845Z",
+  "datePublished": "2022-08-19T21:25:27.000Z",
+  "dateModified": "2022-08-19T22:28:35.845Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 20
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 10
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么没有用于Mac/Linux的高性能远程桌面？\n",
+  "headline_zh-Hant": "Ask HN: 為什麼沒有用於Mac/Linux的高性能遠程桌面？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "IIUC，RDP（微软的远程桌面协议）将绘图命令发送过去。这是在Windows上访问远程桌面的默认方式。相反，AFAICT，MacOS和Linux上的默认方式是VNC，IIUC发送所有的像素（有压缩）。我注意到多年来我可以在RDP上远程工作，编辑代码等。我在8000英里以外的地方做过，几乎没有任何滞后。相反，我试图通过VNC共享同一网络中彼此相邻的两台计算机，它的滞后性非常可怕。<p>在过去的25年里，这是不是没有人想去挠痒痒？在 Linux 上，你也许可以通过 XWindows 来获得更快的连接，那么 Mac 呢？另外，RDP似乎可以让我运行基于GPU的东西，而XWindows你实际上看不到电脑的显示屏。\n",
+  "description_zh-Hant": "IIUC，RDP（微軟的遠程桌面協議）將繪圖命令發送過去。這是在Windows上訪問遠程桌面的默認方式。相反，AFAICT，MacOS和Linux上的默認方式是VNC，IIUC發送所有的像素（有壓縮）。我注意到多年來我可以在RDP上遠程工作，編輯代碼等。我在8000英里以外的地方做過，幾乎沒有任何滯後。相反，我試圖通過VNC共享同一網絡中彼此相鄰的兩臺計算機，它的滯後性非常可怕。<p>在過去的25年裡，這是不是沒有人想去撓癢癢？在 Linux 上，你也許可以通過 XWindows 來獲得更快的連接，那麼 Mac 呢？另外，RDP似乎可以讓我運行基於GPU的東西，而XWindows你實際上看不到電腦的顯示屏。\n"
+}

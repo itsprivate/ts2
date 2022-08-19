@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--hackernews--HackerNews--NewsArticle--32526255",
+  "url": "https://news.ycombinator.com/item?id=32526255",
+  "headline": "Digger – Back and Digitally Remastered (1998)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "susam",
+    "url": "https://news.ycombinator.com/user?id=susam"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32526255",
+  "sameAs": "http://www.digger.org/",
+  "dateCreated": "2022-08-19T22:28:35.852Z",
+  "datePublished": "2022-08-19T21:37:25.000Z",
+  "dateModified": "2022-08-19T22:28:35.852Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "挖掘机--回归和数字重制 (1998)\n",
+  "headline_zh-Hant": "挖掘機--迴歸和數字重製 (1998)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
