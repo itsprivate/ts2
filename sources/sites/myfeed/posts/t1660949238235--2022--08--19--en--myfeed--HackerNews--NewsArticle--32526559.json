@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--myfeed--HackerNews--NewsArticle--32526559",
+  "url": "https://news.ycombinator.com/item?id=32526559",
+  "headline": "Speech-to-Text Client-Side?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Is there any way to do conversational speech-to-text in the browser/with mobile GPUs?  Or do we need to still choose a cloud provider?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "novantadue",
+    "url": "https://news.ycombinator.com/user?id=novantadue"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32526559",
+  "sameAs": "https://news.ycombinator.com/item?id=32526559",
+  "dateCreated": "2022-08-19T22:47:18.235Z",
+  "datePublished": "2022-08-19T22:07:38.000Z",
+  "dateModified": "2022-08-19T22:47:18.235Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "语音转文字客户端？\n",
+  "headline_zh-Hant": "語音轉文字客戶端？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "有没有办法在浏览器中/用移动GPU做对话式语音转文字？ 还是我们仍然需要选择一个云供应商？\n",
+  "description_zh-Hant": "有沒有辦法在瀏覽器中/用移動GPU做對話式語音轉文字？ 還是我們仍然需要選擇一個雲供應商？\n"
+}
