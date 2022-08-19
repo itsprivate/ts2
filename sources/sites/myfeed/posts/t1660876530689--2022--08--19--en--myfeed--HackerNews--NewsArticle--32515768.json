@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--myfeed--HackerNews--NewsArticle--32515768",
+  "url": "https://news.ycombinator.com/item?id=32515768",
+  "headline": "Healthcare Interoperability",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Currently, there are many growing startups tackling the problem of healthcare interoperability (Smile CDR, Health Gorilla, 1upHealth, Redox, Particle Health). Why is it that these startups are working on fixing interoperability when big EHR vendors (Epic, Cerner, Meditech) are not? I understand EHR vendors do not need to innovate because they have a large portion of market share, but are there any other reasons (technology, software, etc.) that inhibit these big EHR vendors from improving their system?<p>I see great potential in being able to transfer records from one system to another. I have recently talked to physicians and staff in the Transfer Record Department at Norton Healthcare and The University of Louisville Hospital. There seems to be a problem. All large EHR vendors ship out different, isolated systems to each hospital. Thus, if one hospital using Epic wants to send medical records to a hospital down the street also using Epic, they will have to go through an inefficient process to transfer information because these EHR systems are isolated (even though they both use Epic). While Epic has ShareEverywhere (allowing records to be shared digitally), some hospitals do not have this software, making this software essentially useless to some patients. Alternatively, records are shared either through fax, phone calls, etc. In this method, whether it be through digitally or through paper, it is through a pdf format–it is pages upon pages of information. Thus, the actual medical records the receiving side view is not integrated within the EHR but a read-only view. Even then, the process could take up to 30 days (according to HIPAA regulations) and additional fees tagged along for patients.<p>Currently, there are startups working on interoperability. However, these startups are either physician-focused, developer-focused, and not integrated with EHR vendors. I was thinking about building a system that focuses on all the problems described above. Currently, there are two ideas to go about this.<p>1. Build a novel EHR system \nWith built-in audio-to-text recognition, AI-driven to ensure ease of use for physicians, better UI/UX that prevents unnecessary training time for physicians, bridges the gap between patients understanding medical information, patient-friendly apps, and integrated across all hospitals. (The features listed above are problems that patients and physicians have expressed in Stanford Medicine EHR White Papers, Stanford EHR National Symposium, etc.)<p>2. Build a system that increases interoperability between hospitals using the same and different EHR vendors.<p>The former solution seems difficult seeing market share is already dominated by other vendors (but what startup isn't difficult). However, there seems to be a need for a more innovative competitor that listens to patients and physicians, providing them with an experience incomparable to the current slow, sluggish vendors.<p>The latter solution is slightly less difficult but requires inside information about the individual EHR systems. Nevertheless, this would ultimately decrease administrative costs/time, provide all medical information about a patient since birth, and increase ease of use for patients and physicians.<p>That is one problem that I have been researching lately. I would love to hear your thoughts and corrections about anything I said. Let me know what you think :)<p>TLDR<p>Problem: Big EHR vendors do not innovate in interoperability and startups are not working on increasing patient-side interoperability. This leads to inefficient record sharing processes and fragmented medical information across different hospitals for patients.<p>Solution: A new EHR system or a system that can communicate between EHR vendors",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "andrewparkk",
+    "url": "https://news.ycombinator.com/user?id=andrewparkk"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32515768",
+  "sameAs": "https://news.ycombinator.com/item?id=32515768",
+  "dateCreated": "2022-08-19T02:35:30.689Z",
+  "datePublished": "2022-08-18T22:51:02.000Z",
+  "dateModified": "2022-08-19T02:35:30.689Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "医疗保健的互操作性\n",
+  "headline_zh-Hant": "醫療保健的互操作性\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "目前，有许多成长中的初创公司在解决医疗互操作性的问题（Smile CDR, Health Gorilla, 1upHealth, Redox, Particle Health）。为什么这些初创公司正在努力解决互操作性问题，而大型EHR供应商（Epic、Cerner、Meditech）却没有？我理解EHR供应商不需要创新，因为他们有很大一部分市场份额，但是否有其他原因（技术、软件等）抑制这些大型EHR供应商改进他们的系统？<p>我看到了能够将记录从一个系统转移到另一个系统的巨大潜力。我最近与诺顿医疗集团和路易斯维尔大学医院的转移记录部门的医生和工作人员进行了交谈。似乎有一个问题。所有大型EHR供应商都向每家医院运送不同的、孤立的系统。因此，如果一家使用Epic的医院想把医疗记录发给街边同样使用Epic的医院，他们将不得不通过一个低效的过程来传输信息，因为这些EHR系统是孤立的（尽管他们都使用Epic）。虽然Epic有ShareEverywhere（允许以数字方式共享记录），但一些医院没有这个软件，这使得这个软件对一些病人来说基本上是无用的。另外，记录可以通过传真、电话等方式共享。在这种方法中，无论是通过数字方式还是通过纸质方式，都是通过pdf格式--它是一页又一页的信息。因此，接收方查看的实际医疗记录并没有整合到EHR中，而是一个只读的视图。即使如此，这个过程也可能需要30天（根据HIPAA规定），并且对患者来说还需要额外的费用。<p>目前，有一些初创公司正在研究互操作性。然而，这些初创公司要么以医生为中心，要么以开发者为中心，而且没有与EHR供应商整合。我正在考虑建立一个专注于上述所有问题的系统。目前，有两个想法可以去做。<p>1. 构建一个新颖的EHR系统 \n内置音频到文本的识别，人工智能驱动以确保医生的易用性，更好的UI/UX以防止医生不必要的培训时间，弥合病人理解医疗信息的差距，病人友好的应用程序，并在所有医院之间整合。(上面列出的功能是患者和医生在斯坦福医学EHR白皮书、斯坦福EHR全国研讨会等场合表达的问题。)<p>2.建立一个系统，提高使用相同和不同EHR供应商的医院之间的互操作性。<p>看到市场份额已经被其他供应商占据，前一个解决方案似乎很难（但什么创业公司不难）。然而，似乎需要一个更具创新性的竞争者，倾听病人和医生的心声，为他们提供目前缓慢、迟钝的供应商无法比拟的体验。<p>后一种解决方案难度稍低，但需要关于各个EHR系统的内部信息。尽管如此，这最终将减少管理成本/时间，提供病人自出生以来的所有医疗信息，并提高病人和医生的使用便利性。<p>这是我最近一直在研究的一个问题。我很想听听你对我所说的任何事情的看法和纠正。让我知道你的想法:)<p>TLDR<p>问题：大型EHR供应商没有在互操作性方面进行创新，而初创公司也没有致力于提高病人方面的互操作性。这导致了病人在不同医院之间的低效记录共享过程和零散的医疗信息。<p>解决方案。一个新的EHR系统或一个能在EHR供应商之间沟通的系统\n",
+  "description_zh-Hant": "目前，有許多成長中的初創公司在解決醫療互操作性的問題（Smile CDR, Health Gorilla, 1upHealth, Redox, Particle Health）。為什麼這些初創公司正在努力解決互操作性問題，而大型EHR供應商（Epic、Cerner、Meditech）卻沒有？我理解EHR供應商不需要創新，因為他們有很大一部分市場份額，但是否有其他原因（技術、軟件等）抑制這些大型EHR供應商改進他們的系統？<p>我看到了能夠將記錄從一個系統轉移到另一個系統的巨大潛力。我最近與諾頓醫療集團和路易斯維爾大學醫院的轉移記錄部門的醫生和工作人員進行了交談。似乎有一個問題。所有大型EHR供應商都向每家醫院運送不同的、孤立的系統。因此，如果一家使用Epic的醫院想把醫療記錄發給街邊同樣使用Epic的醫院，他們將不得不通過一個低效的過程來傳輸信息，因為這些EHR系統是孤立的（儘管他們都使用Epic）。雖然Epic有ShareEverywhere（允許以數字方式共享記錄），但一些醫院沒有這個軟件，這使得這個軟件對一些病人來說基本上是無用的。另外，記錄可以通過傳真、電話等方式共享。在這種方法中，無論是通過數字方式還是通過紙質方式，都是通過pdf格式--它是一頁又一頁的信息。因此，接收方查看的實際醫療記錄並沒有整合到EHR中，而是一個只讀的視圖。即使如此，這個過程也可能需要30天（根據HIPAA規定），並且對患者來說還需要額外的費用。<p>目前，有一些初創公司正在研究互操作性。然而，這些初創公司要麼以醫生為中心，要麼以開發者為中心，而且沒有與EHR供應商整合。我正在考慮建立一個專注於上述所有問題的系統。目前，有兩個想法可以去做。<p>1. 構建一個新穎的EHR系統 \n內置音頻到文本的識別，人工智能驅動以確保醫生的易用性，更好的UI/UX以防止醫生不必要的培訓時間，彌合病人理解醫療信息的差距，病人友好的應用程序，並在所有醫院之間整合。(上面列出的功能是患者和醫生在斯坦福醫學EHR白皮書、斯坦福EHR全國研討會等場合表達的問題。)<p>2.建立一個系統，提高使用相同和不同EHR供應商的醫院之間的互操作性。<p>看到市場份額已經被其他供應商佔據，前一個解決方案似乎很難（但什麼創業公司不難）。然而，似乎需要一個更具創新性的競爭者，傾聽病人和醫生的心聲，為他們提供目前緩慢、遲鈍的供應商無法比擬的體驗。<p>後一種解決方案難度稍低，但需要關於各個EHR系統的內部信息。儘管如此，這最終將減少管理成本/時間，提供病人自出生以來的所有醫療信息，並提高病人和醫生的使用便利性。<p>這是我最近一直在研究的一個問題。我很想聽聽你對我所說的任何事情的看法和糾正。讓我知道你的想法:)<p>TLDR<p>問題：大型EHR供應商沒有在互操作性方面進行創新，而初創公司也沒有致力於提高病人方面的互操作性。這導致了病人在不同醫院之間的低效記錄共享過程和零散的醫療信息。<p>解決方案。一個新的EHR系統或一個能在EHR供應商之間溝通的系統\n"
+}

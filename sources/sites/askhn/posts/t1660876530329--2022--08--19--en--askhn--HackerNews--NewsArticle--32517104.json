@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--askhn--HackerNews--NewsArticle--32517104",
+  "url": "https://news.ycombinator.com/item?id=32517104",
+  "headline": "Ask HN: Do in-app browsers break Wordle-like apps for the average user?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've made several apps that I'd classify as Wordle-like in the sense that:<p>1. They are tiny CDN served apps<p>2. They exclusively rely on localStorage<p>I've sent them to friends via chat and we had fun but they don't understand why they lose the progress/state after a bit. Not only it is difficult to make people open the browser manually but actually explaining what an in-app browser is... it's almost impossible.<p>Have you encountered something similar?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "pyentropy",
+    "url": "https://news.ycombinator.com/user?id=pyentropy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32517104",
+  "sameAs": "https://news.ycombinator.com/item?id=32517104",
+  "dateCreated": "2022-08-19T02:35:30.329Z",
+  "datePublished": "2022-08-19T02:33:16.000Z",
+  "dateModified": "2022-08-19T02:35:30.329Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 应用内浏览器是否会破坏普通用户的Wordle类应用？\n",
+  "headline_zh-Hant": "Ask HN: 應用內瀏覽器是否會破壞普通用戶的Wordle類應用？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": " 它们是由CDN提供服务的小型应用<p>2.它们完全依赖本地存储<p>我曾通过聊天将它们发送给朋友，我们玩得很开心，但他们不明白为什么它们在一段时间后会失去进度/状态。不仅很难让人们手动打开浏览器，而且实际上解释什么是应用内浏览器......这几乎是不可能的。<p>你是否遇到过类似的情况？\n",
+  "description_zh-Hant": " 它們是由CDN提供服務的小型應用<p>2.它們完全依賴本地存儲<p>我曾通過聊天將它們發送給朋友，我們玩得很開心，但他們不明白為什麼它們在一段時間後會失去進度/狀態。不僅很難讓人們手動打開瀏覽器，而且實際上解釋什麼是應用內瀏覽器......這幾乎是不可能的。<p>你是否遇到過類似的情況？\n"
+}

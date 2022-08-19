@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--hackernews--HackerNews--NewsArticle--32480919",
+  "url": "https://news.ycombinator.com/item?id=32480919",
+  "headline": "Love, Death and Music: The Poetry of W.H. Auden",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "apollinaire",
+    "url": "https://news.ycombinator.com/user?id=apollinaire"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32480919",
+  "sameAs": "https://www.wsj.com/articles/love-death-and-music-review-the-poetry-of-w-h-auden-11660317959",
+  "dateCreated": "2022-08-19T02:35:30.577Z",
+  "datePublished": "2022-08-16T09:51:25.000Z",
+  "dateModified": "2022-08-19T02:35:30.577Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "爱、死亡和音乐。奥登的诗歌》(The Poetry of W.H. Auden)\n",
+  "headline_zh-Hant": "愛、死亡和音樂。奧登的詩歌》(The Poetry of W.H. Auden)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
