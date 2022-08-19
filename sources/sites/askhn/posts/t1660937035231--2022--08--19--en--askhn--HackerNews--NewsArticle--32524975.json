@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--askhn--HackerNews--NewsArticle--32524975",
+  "url": "https://news.ycombinator.com/item?id=32524975",
+  "headline": "Ask HN: What do you use to monitor hardware in the field?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We are a B2B that has hardware running Linux in the field for a bunch of customers at their site (let's round to like 1000 machines and growing). All of them &quot;connect&quot; to our servers through OpenVPN and have been, from &quot;days gone past&quot;, loaded with Zabbix and send us telemetry. Unfortunately due to personnel changes, no one is really sure of how things are done anymore and the task of maintaining this monitoring is coming down to me. How would you approach this task? I'm feeling a bit overwhelmed and reading online kinda want to just start over by choosing something newer like Prometheus.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "vietthan",
+    "url": "https://news.ycombinator.com/user?id=vietthan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32524975",
+  "sameAs": "https://news.ycombinator.com/item?id=32524975",
+  "dateCreated": "2022-08-19T19:23:55.231Z",
+  "datePublished": "2022-08-19T19:16:18.000Z",
+  "dateModified": "2022-08-19T19:23:55.231Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你用什么来监测现场的硬件？\n",
+  "headline_zh-Hant": "Ask HN: 你用什麼來監測現場的硬件？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们是一家B2B公司，在现场为一群客户提供运行Linux的硬件（让我们四舍五入，大概有1000台机器，而且还在增加）。所有这些机器都通过OpenVPN连接到我们的服务器上，并且从过去的日子开始就加载了Zabbix并向我们发送遥测信息。不幸的是，由于人事变动，没有人真正确定事情是如何做的，维护这种监控的任务就落在我身上了。你会如何处理这项任务？我感到有点不知所措，在网上看了一下，有点想重新开始，选择一些较新的东西，如Prometheus。\n",
+  "description_zh-Hant": "我們是一家B2B公司，在現場為一群客戶提供運行Linux的硬件（讓我們四捨五入，大概有1000臺機器，而且還在增加）。所有這些機器都通過OpenVPN連接到我們的服務器上，並且從過去的日子開始就加載了Zabbix並向我們發送遙測信息。不幸的是，由於人事變動，沒有人真正確定事情是如何做的，維護這種監控的任務就落在我身上了。你會如何處理這項任務？我感到有點不知所措，在網上看了一下，有點想重新開始，選擇一些較新的東西，如Prometheus。\n"
+}
