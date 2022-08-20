@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--hackernews--HackerNews--NewsArticle--32518791",
+  "url": "https://news.ycombinator.com/item?id=32518791",
+  "headline": "Float Toy",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "agomez314",
+    "url": "https://news.ycombinator.com/user?id=agomez314"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32518791",
+  "sameAs": "https://evanw.github.io/float-toy/",
+  "dateCreated": "2022-08-20T17:55:50.968Z",
+  "datePublished": "2022-08-19T08:52:04.000Z",
+  "dateModified": "2022-08-20T17:55:50.968Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 10
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "漂流玩具\n",
+  "headline_zh-Hant": "漂流玩具\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
