@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--askhn--HackerNews--NewsArticle--32533504",
+  "url": "https://news.ycombinator.com/item?id=32533504",
+  "headline": "Ask HN: Spam on the domain I just purchased?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I registered a domain name a couple months ago (via hover.com if that matters). Just now I visited it to see what the default/empty splash-page looks like, and got redirected through several different sites in different languages (one of which looked like a spammy recipe site? the rest went by so fast they didn't fully load)<p>Needless to say, this was highly sketchy and I'm now wondering if I need to take steps to lock down my various accounts since I feel like I just visited a malicious link<p>But what I'm <i>really</i> wondering is, how did this happen with a newly-registered domain <i>that I own</i>? I deleted all the existing DNS records after it happened, but assuming those were the cause of all this, how did malicious ones get there in the first place? hover.com seems like the only party that should have been able to do this, but they've never shown themselves to be a malicious actor in the past. Does a domain keep its previous DNS records when it gets bought by a new owner who didn't do a transfer? Do those not normally get reset by the registrar?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "brundolf",
+    "url": "https://news.ycombinator.com/user?id=brundolf"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32533504",
+  "sameAs": "https://news.ycombinator.com/item?id=32533504",
+  "dateCreated": "2022-08-20T17:03:50.575Z",
+  "datePublished": "2022-08-20T17:01:03.000Z",
+  "dateModified": "2022-08-20T17:03:50.575Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我刚刚购买的域名上有垃圾邮件？\n",
+  "headline_zh-Hant": "Ask HN: 我剛剛購買的域名上有垃圾郵件？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "I registered a domain name a couple months ago (via hover.com if that matters). Just now I visited it to see what the default/empty splash-page looks like, and got redirected through several different sites in different languages (one of which looked like a spammy recipe site? the rest went by so fast they didn't fully load)<p>Needless to say, this was highly sketchy and I'm now wondering if I need to take steps to lock down my various accounts since I feel like I just visited a malicious link<p>But what I'm <i>really</i> wondering is, how did this happen with a newly-registered domain <i>that I own</i>? I deleted all the existing DNS records after it happened, but assuming those were the cause of all this, how did malicious ones get there in the first place? hover.com seems like the only party that should have been able to do this, but they've never shown themselves to be a malicious actor in the past. Does a domain keep its previous DNS records when it gets bought by a new owner who didn't do a transfer? Do those not normally get reset by the registrar?\n",
+  "description_zh-Hant": "I registered a domain name a couple months ago (via hover.com if that matters). Just now I visited it to see what the default/empty splash-page looks like, and got redirected through several different sites in different languages (one of which looked like a spammy recipe site? the rest went by so fast they didn't fully load)<p>Needless to say, this was highly sketchy and I'm now wondering if I need to take steps to lock down my various accounts since I feel like I just visited a malicious link<p>But what I'm <i>really</i> wondering is, how did this happen with a newly-registered domain <i>that I own</i>? I deleted all the existing DNS records after it happened, but assuming those were the cause of all this, how did malicious ones get there in the first place? hover.com seems like the only party that should have been able to do this, but they've never shown themselves to be a malicious actor in the past. Does a domain keep its previous DNS records when it gets bought by a new owner who didn't do a transfer? Do those not normally get reset by the registrar?\n"
+}
