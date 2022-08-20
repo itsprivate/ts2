@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--askhn--HackerNews--NewsArticle--32533968",
+  "url": "https://news.ycombinator.com/item?id=32533968",
+  "headline": "Ask HN: Looking for a fantastic old talk on kernel network abstractions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi, it's probably been at least 10 years now since there was a talk about the design of network abstractions within an operating system kernel. I think it may have been by someone from the BSD camp, as opposed as to someone from Linux. The slides from the talk really elegantly addressed issues about the kind of devices and various complexities around abstracting driver interfaces whilst dealing with differing protocols, hardware interfaces, and other issues. I would really appreciate finding this talk again. Please help, I'm sorry I can't provide more details. I seem to have lost my old bookmark.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "deltasepsilon",
+    "url": "https://news.ycombinator.com/user?id=deltasepsilon"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32533968",
+  "sameAs": "https://news.ycombinator.com/item?id=32533968",
+  "dateCreated": "2022-08-20T18:30:43.103Z",
+  "datePublished": "2022-08-20T18:03:53.000Z",
+  "dateModified": "2022-08-20T18:30:43.103Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 寻找关于内核网络抽象的精彩旧谈\n",
+  "headline_zh-Hant": "Ask HN: 尋找關於內核網絡抽象的精彩舊談\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你好，自从有关于操作系统内核中的网络抽象设计的讨论以来，可能至少有10年了。我想这可能是BSD阵营的人，而不是Linux的人。那次演讲的幻灯片非常优雅地解决了关于设备种类的问题，以及在处理不同的协议、硬件接口和其他问题时，围绕驱动接口抽象的各种复杂性。我真的希望能再次找到这个讲座。请帮助，很抱歉我不能提供更多的细节。我似乎丢失了我的旧书签。\n",
+  "description_zh-Hant": "你好，自從有關於操作系統內核中的網絡抽象設計的討論以來，可能至少有10年了。我想這可能是BSD陣營的人，而不是Linux的人。那次演講的幻燈片非常優雅地解決了關於設備種類的問題，以及在處理不同的協議、硬件接口和其他問題時，圍繞驅動接口抽象的各種複雜性。我真的希望能再次找到這個講座。請幫助，很抱歉我不能提供更多的細節。我似乎丟失了我的舊書籤。\n"
+}
