@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--showhn--HackerNews--NewsArticle--32528176",
+  "url": "https://news.ycombinator.com/item?id=32528176",
+  "headline": "Show HN: Node Maze Generator",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "A few months ago I started making an RPG API and decided to break portions of it off into open source code.<p>Here is an extensible maze / dungeon generator for node which can be installed via NPM.<p>The generator uses a growing tree algorithm and can be extended with custom generators in order to make more complex dungeons, add items and enemies etc.<p>I don't know if anyone has a use case for such a library, but here it is none-the-less.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "w4ffl35",
+    "url": "https://news.ycombinator.com/user?id=w4ffl35"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32528176",
+  "sameAs": "https://github.com/w4ffl35/node-maze-generator",
+  "dateCreated": "2022-08-20T02:31:25.892Z",
+  "datePublished": "2022-08-20T01:33:56.000Z",
+  "dateModified": "2022-08-20T02:31:25.892Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 节点迷宫生成器\n",
+  "headline_zh-Hant": "Show HN: 節點迷宮生成器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "几个月前，我开始制作一个RPG API，并决定将其中的部分内容分解成开放源代码。<p>这里有一个可扩展的迷宫/地牢生成器，可以通过NPM安装。<p>该生成器使用生长树算法，可以用自定义生成器进行扩展，以制作更复杂的地牢，添加物品和敌人等。\n",
+  "description_zh-Hant": "幾個月前，我開始製作一個RPG API，並決定將其中的部分內容分解成開放源代碼。<p>這裡有一個可擴展的迷宮/地牢生成器，可以通過NPM安裝。<p>該生成器使用生長樹算法，可以用自定義生成器進行擴展，以製作更復雜的地牢，添加物品和敵人等。\n"
+}
