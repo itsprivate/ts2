@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--showhn--HackerNews--NewsArticle--32531165",
+  "url": "https://news.ycombinator.com/item?id=32531165",
+  "headline": "Show HN: An attempt to make a reduce-palette/dither filter for 2d canvas images",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "rikroots",
+    "url": "https://news.ycombinator.com/user?id=rikroots"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32531165",
+  "sameAs": "https://scrawl-v8.rikweb.org.uk/demo/filters-027.html",
+  "dateCreated": "2022-08-20T11:42:06.790Z",
+  "datePublished": "2022-08-20T11:25:37.000Z",
+  "dateModified": "2022-08-20T11:42:06.790Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 试图为2D画布图像制作一个减色板/抖动过滤器\n",
+  "headline_zh-Hant": "Show HN: 試圖為2D畫布圖像製作一個減色板/抖動過濾器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
