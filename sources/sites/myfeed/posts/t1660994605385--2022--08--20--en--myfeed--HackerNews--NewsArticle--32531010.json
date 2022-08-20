@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--myfeed--HackerNews--NewsArticle--32531010",
+  "url": "https://news.ycombinator.com/item?id=32531010",
+  "headline": "Drought-Induced Civil Conflict Among the Ancient Maya",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rntn",
+    "url": "https://news.ycombinator.com/user?id=rntn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32531010",
+  "sameAs": "https://www.nature.com/articles/s41467-022-31522-x",
+  "dateCreated": "2022-08-20T11:23:25.385Z",
+  "datePublished": "2022-08-20T10:54:29.000Z",
+  "dateModified": "2022-08-20T11:23:25.385Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "古代玛雅人中由干旱引起的民间冲突\n",
+  "headline_zh-Hant": "古代瑪雅人中由乾旱引起的民間衝突\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
