@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--askhn--HackerNews--NewsArticle--32529575",
+  "url": "https://news.ycombinator.com/item?id=32529575",
+  "headline": "Ask HN: What work is being done on non-proprietary cloud computing protocols?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "It's occurred to me a few times that I don't mind if our architecture uses cloud-based serverless tech, lambdas, queues etc. - but we should be talking to such endpoints using non-proprietary protocols that would allow us to switch to another cloud provider if necessary (possibly even our own non-cloud-based provider, esp. while developing/debugging).\nIs any work being done on this front? Is it likely to be successful? What are the major hurdles?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "wizofaus",
+    "url": "https://news.ycombinator.com/user?id=wizofaus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32529575",
+  "sameAs": "https://news.ycombinator.com/item?id=32529575",
+  "dateCreated": "2022-08-20T06:31:45.457Z",
+  "datePublished": "2022-08-20T06:06:05.000Z",
+  "dateModified": "2022-08-20T06:31:45.457Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 在非专有的云计算协议方面正在进行哪些工作？\n",
+  "headline_zh-Hant": "Ask HN: 在非專有的雲計算協議方面正在進行哪些工作？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我曾多次想到，如果我们的架构使用基于云的无服务器技术、lambdas、队列等，我并不介意。- 但我们应该使用非专有协议与这些终端对话，以便在必要时切换到另一个云提供商（甚至可能是我们自己的非云提供商，特别是在开发/调试时）。\n在这方面是否有任何工作正在进行？它有可能成功吗？主要的障碍是什么？\n",
+  "description_zh-Hant": "我曾多次想到，如果我們的架構使用基於雲的無服務器技術、lambdas、隊列等，我並不介意。- 但我們應該使用非專有協議與這些終端對話，以便在必要時切換到另一個雲提供商（甚至可能是我們自己的非雲提供商，特別是在開發/調試時）。\n在這方面是否有任何工作正在進行？它有可能成功嗎？主要的障礙是什麼？\n"
+}
