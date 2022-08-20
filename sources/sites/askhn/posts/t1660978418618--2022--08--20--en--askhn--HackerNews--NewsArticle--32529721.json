@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--askhn--HackerNews--NewsArticle--32529721",
+  "url": "https://news.ycombinator.com/item?id=32529721",
+  "headline": "Ask HN: Outcomes of using HTDP vs a popular language course as intro to CS?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "How to Design Programs aka HTDP: https://htdp.org/<p>It is used by many schools like NorthEastern, Brown, UBC, etc. as an introduction to programming and computer science. It uses a set of student languages of increasing difficulty to teach concepts of programming and computer science. But it mainly uses functional programming and doesn't discuss imperative style programming. Although in the first edition it discusses some mutation and state topics, but those have been dropped in the second edition.<p>The thing is the universities which are deemed top in CS goes a different route while teaching introductory CS. Like MIT teaches a course in Python. So does Cornell. CMU has a later course on functional programming in SML but not as an introductory course (for that it uses Python/C0). Berkeley uses Python. Stanford also now used Python, C++ for its intro courses.<p>Now, I don't have anything against the popular languages. They are popular for some reason and one of those reasons is that they are used widely. Like Python for Data Science and Machine Learning research in academia as well as industry. Whereas the languages of HTDP are not.<p>As much as we like functional programming, imperative programming is still here to stay and when we are out in the wild doing research or industry jobs we have to code and maintain in imperative languages even if we don't like.<p>There have been quite a few studies about how HTDP does a good job in teaching principles. How do the students whose first intro to programming and CS was HTDP fare in the wild when they have to pick up languages that are mixed paradigm like Python, C++, etc for a course that needs it.<p>E.g: In deep learning research if you use a library like Pytorch or tensorflow you are bound to use OOP code to design networks and use for loop constructs to train them.<p>How does the knowledge transfer coming from HTDP background in the real setting? E.g: Does using mutation, looping constructs become hard or easier to model inside your mind?<p>I am sure there are quite a few students from either camps here on HN. Would like to hear about your anecdotes and experiences, even if you are self taught.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "newsoul",
+    "url": "https://news.ycombinator.com/user?id=newsoul"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32529721",
+  "sameAs": "https://news.ycombinator.com/item?id=32529721",
+  "dateCreated": "2022-08-20T06:53:38.618Z",
+  "datePublished": "2022-08-20T06:35:48.000Z",
+  "dateModified": "2022-08-20T06:53:38.618Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 使用HTDP与流行的语言课程作为CS的入门课程的结果？\n",
+  "headline_zh-Hant": "Ask HN: 使用HTDP與流行的語言課程作為CS的入門課程的結果？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "How to Design Programs aka HTDP: https://htdp.org/<p>它被许多学校如NorthEastern、Brown、UBC等作为编程和计算机科学的入门课程。它使用一套难度增加的学生语言来教授编程和计算机科学的概念。但它主要使用函数式编程，没有讨论命令式编程。虽然在第一版中讨论了一些突变和状态的话题，但在第二版中已经放弃了。<p>问题是那些被认为是CS领域顶尖的大学在教授CS入门时走了不同的路线。比如麻省理工学院教授Python课程。康奈尔大学也是如此。CMU后来有一门关于SML函数式编程的课程，但不是作为入门课程（为此它使用Python/C0）。Berkeley使用Python。斯坦福大学现在也用Python、C++做入门课程。<p>现在，我并不反对流行语言。它们的流行是有原因的，其中一个原因是它们被广泛使用。比如Python用于学术界和工业界的数据科学和机器学习研究。<p>尽管我们喜欢函数式编程，但命令式编程仍然存在，当我们在野外做研究或行业工作时，我们必须用命令式语言进行编码和维护，即使我们不喜欢。<p>有不少研究表明HTDP在教学原理方面做得很好。<p>例如：在深度学习研究中，如果你使用Pytorch或tensorflow这样的库，你必然会使用OOP代码来设计网络，并使用for loop结构来训练它们，那么在实际环境中，来自HTDP背景的知识如何转移？比如说。使用突变、循环结构在你的脑海中是变得困难还是更容易建模？<p>我相信在HN上有不少来自两个阵营的学生。我想听听你的轶事和经验，即使你是自学的。\n",
+  "description_zh-Hant": "How to Design Programs aka HTDP: https://htdp.org/<p>它被許多學校如NorthEastern、Brown、UBC等作為編程和計算機科學的入門課程。它使用一套難度增加的學生語言來教授編程和計算機科學的概念。但它主要使用函數式編程，沒有討論命令式編程。雖然在第一版中討論了一些突變和狀態的話題，但在第二版中已經放棄了。<p>問題是那些被認為是CS領域頂尖的大學在教授CS入門時走了不同的路線。比如麻省理工學院教授Python課程。康奈爾大學也是如此。CMU後來有一門關於SML函數式編程的課程，但不是作為入門課程（為此它使用Python/C0）。Berkeley使用Python。斯坦福大學現在也用Python、C++做入門課程。<p>現在，我並不反對流行語言。它們的流行是有原因的，其中一個原因是它們被廣泛使用。比如Python用於學術界和工業界的數據科學和機器學習研究。<p>儘管我們喜歡函數式編程，但命令式編程仍然存在，當我們在野外做研究或行業工作時，我們必須用命令式語言進行編碼和維護，即使我們不喜歡。<p>有不少研究表明HTDP在教學原理方面做得很好。<p>例如：在深度學習研究中，如果你使用Pytorch或tensorflow這樣的庫，你必然會使用OOP代碼來設計網絡，並使用for loop結構來訓練它們，那麼在實際環境中，來自HTDP背景的知識如何轉移？比如說。使用突變、循環結構在你的腦海中是變得困難還是更容易建模？<p>我相信在HN上有不少來自兩個陣營的學生。我想聽聽你的軼事和經驗，即使你是自學的。\n"
+}
