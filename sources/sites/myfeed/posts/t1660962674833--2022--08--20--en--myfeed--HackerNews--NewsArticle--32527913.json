@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--myfeed--HackerNews--NewsArticle--32527913",
+  "url": "https://news.ycombinator.com/item?id=32527913",
+  "headline": "Show HN: Easy Steps to Implement Apple's GameCenter Leaderboard",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I wrote this article about why Apple's GameCenter is Making a Huge Revival and it got accepted in FreeCodeCamp's news so I thought of sharing it with you all!<p>You can make iPhone games without a scoreboard, but leaderboards can help make the game feel more competitive, like people are competing against one another around the World.<p>Instead of creating and managing your own backend, the GameCenter Leaderboard allows you to scale with traffic infinitely, skip an entire login page for authorization, get the Image, Name, and friends playing the same game – all without your users having to enter anything.<p>Especially with iOS 16, Apple is investing more in improving it, and driving more app usage, like through Push Notifications when your friend beats your score in the game.<p>There wasn't much updated documentation on how to do a lot of this, especially none with SwiftUI nor with the advent of async and await in Swift. So I consolidated and simplified it for everyone to build amazing apps. In my journey of learning SwiftUI, I have been creating and publishing open-source apps like this one <a href=\"https://stairmasterclimber.com/app\" rel=\"nofollow\">https://stairmasterclimber.com/app</a> because IMO that's the best way to learn. So feel free to invite me to test your apps too!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "saamerm",
+    "url": "https://news.ycombinator.com/user?id=saamerm"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32527913",
+  "sameAs": "https://www.freecodecamp.org/news/how-to-implement-a-leaderboard-in-swiftui/",
+  "dateCreated": "2022-08-20T02:31:14.833Z",
+  "datePublished": "2022-08-20T00:51:24.000Z",
+  "dateModified": "2022-08-20T02:31:14.833Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 实施苹果游戏中心排行榜的简单步骤\n",
+  "headline_zh-Hant": "Show HN: 實施蘋果遊戲中心排行榜的簡單步驟\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "I wrote this article about why Apple's GameCenter is Making a Huge Revival and it got accepted in FreeCodeCamp's news so I thought of sharing it with you all!<p>You can make iPhone games without a scoreboard, but leaderboards can help make the game feel more competitive, like people are competing against one another around the World. <p>Instead of creating and managing your own backend, the GameCenter Leaderboard allows you to scale with traffic infinitely, skip an entire login page for authorization, get the Image, Name, and friends playing the same game – all without your users having to enter anything. <p>Especially with iOS 16, Apple is investing more in improving it, and driving more app usage, like through Push Notifications when your friend beats your score in the game.<p>There wasn't much updated documentation on how to do a lot of this, especially none with SwiftUI nor with the advent of async and await in Swift. So I consolidated and simplified it for everyone to build amazing apps. In my journey of learning SwiftUI, I have been creating and publishing open-source apps like this one <a href=\"https://stairmasterclimber.com/app\" rel=\"nofollow\">https://stairmasterclimber.com/app</a> because IMO that's the best way to learn. So feel free to invite me to test your apps too!\n",
+  "description_zh-Hant": "I wrote this article about why Apple's GameCenter is Making a Huge Revival and it got accepted in FreeCodeCamp's news so I thought of sharing it with you all!<p>You can make iPhone games without a scoreboard, but leaderboards can help make the game feel more competitive, like people are competing against one another around the World. <p>Instead of creating and managing your own backend, the GameCenter Leaderboard allows you to scale with traffic infinitely, skip an entire login page for authorization, get the Image, Name, and friends playing the same game – all without your users having to enter anything. <p>Especially with iOS 16, Apple is investing more in improving it, and driving more app usage, like through Push Notifications when your friend beats your score in the game.<p>There wasn't much updated documentation on how to do a lot of this, especially none with SwiftUI nor with the advent of async and await in Swift. So I consolidated and simplified it for everyone to build amazing apps. In my journey of learning SwiftUI, I have been creating and publishing open-source apps like this one <a href=\"https://stairmasterclimber.com/app\" rel=\"nofollow\">https://stairmasterclimber.com/app</a> because IMO that's the best way to learn. So feel free to invite me to test your apps too!\n"
+}
