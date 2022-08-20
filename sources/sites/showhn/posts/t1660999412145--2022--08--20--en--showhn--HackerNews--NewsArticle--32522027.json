@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--showhn--HackerNews--NewsArticle--32522027",
+  "url": "https://news.ycombinator.com/item?id=32522027",
+  "headline": "Show HN: A modern, high-performance, real-time OLAP database",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "It looks awesome about this OLAP database<p>Apache Doris is an easy-to-use, high-performance and real-time analytical database based on MPP architecture, known for its extreme speed and ease of use. It only requires a sub-second response time to return query results under massive data and can support not only high-concurrent point query scenarios but also high-throughput complex analysis scenarios.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "dataalive",
+    "url": "https://news.ycombinator.com/user?id=dataalive"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32522027",
+  "sameAs": "https://github.com/apache/doris",
+  "dateCreated": "2022-08-20T12:43:32.145Z",
+  "datePublished": "2022-08-19T15:15:31.000Z",
+  "dateModified": "2022-08-20T12:43:32.145Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 一个现代化、高性能、实时的OLAP数据库\n",
+  "headline_zh-Hant": "Show HN: 一個現代化、高性能、實時的OLAP數據庫\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "关于这个OLAP数据库，看起来很厉害<p>Apache Doris是一个基于MPP架构的易于使用的高性能实时分析数据库，以其极快的速度和易用性著称。它在海量数据下只需要亚秒级的响应时间就可以返回查询结果，不仅可以支持高并发的点查询场景，还可以支持高吞吐量的复杂分析场景。\n",
+  "description_zh-Hant": "關於這個OLAP數據庫，看起來很厲害<p>Apache Doris是一個基於MPP架構的易於使用的高性能實時分析數據庫，以其極快的速度和易用性著稱。它在海量數據下只需要亞秒級的響應時間就可以返回查詢結果，不僅可以支持高併發的點查詢場景，還可以支持高吞吐量的複雜分析場景。\n"
+}
