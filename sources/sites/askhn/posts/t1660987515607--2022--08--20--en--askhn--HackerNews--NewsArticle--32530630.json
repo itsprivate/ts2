@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--askhn--HackerNews--NewsArticle--32530630",
+  "url": "https://news.ycombinator.com/item?id=32530630",
+  "headline": "Ask HN: Auto Generated API (REST/GraphQL) for SQL Server?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "It feels like a huge step backwards going from Postgres and PostgREST to SQL Server where it's common to write the API by hand in C#. I see that Hasura has limited support for SQL Server, but important features like stored procedures are low on their list of priorities and postponed until at least 2023.<p>Are someone out there using a tool for auto generating API's based on a schema in SQL Server?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "jansommer",
+    "url": "https://news.ycombinator.com/user?id=jansommer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32530630",
+  "sameAs": "https://news.ycombinator.com/item?id=32530630",
+  "dateCreated": "2022-08-20T09:25:15.607Z",
+  "datePublished": "2022-08-20T09:19:14.000Z",
+  "dateModified": "2022-08-20T09:25:15.607Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为SQL服务器自动生成的API（REST/GraphQL）？\n",
+  "headline_zh-Hant": "Ask HN: 為SQL服務器自動生成的API（REST/GraphQL）？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "从Postgres和PostgREST到SQL Server，感觉是一个巨大的倒退，因为在那里用C#手工编写API是很常见的。我看到Hasura对SQL Server有有限的支持，但是像存储过程这样的重要功能在他们的优先级列表中是很低的，至少要推迟到2023年。<p>是否有人在使用基于SQL Server模式的自动生成API的工具？\n",
+  "description_zh-Hant": "從Postgres和PostgREST到SQL Server，感覺是一個巨大的倒退，因為在那裡用C#手工編寫API是很常見的。我看到Hasura對SQL Server有有限的支持，但是像存儲過程這樣的重要功能在他們的優先級列表中是很低的，至少要推遲到2023年。<p>是否有人在使用基於SQL Server模式的自動生成API的工具？\n"
+}
