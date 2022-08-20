@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--askhn--HackerNews--NewsArticle--32535397",
+  "url": "https://news.ycombinator.com/item?id=32535397",
+  "headline": "Ask HN: What service are you using to send marketing emails?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We're using AWS SES for transactional emails and it hasn't been a problem so far. But, for bulk sending of marketing emails, I've only found services that depend on number of contacts we have such as MailChimp. It is just prohibitively expensive for us because we send a marketing email for announcements of new products, usually once or twice a year. For this, it makes little sence to continue paying $600-$1000 / year for MailChimp.<p>Curious, is there a better &quot;hacky&quot; way to send emails? I don't need analytics and a whole bunch of templating features like on MailChimp. I can manage my own mailing list just fine in Postgres. I simply need an API and I've heard bad things about using AWS SES for bulk emails.<p>Looking for a low budget infrequent mass email service, I'd appreciate some insight.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "systemvoltage",
+    "url": "https://news.ycombinator.com/user?id=systemvoltage"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32535397",
+  "sameAs": "https://news.ycombinator.com/item?id=32535397",
+  "dateCreated": "2022-08-20T21:49:24.119Z",
+  "datePublished": "2022-08-20T21:44:07.000Z",
+  "dateModified": "2022-08-20T21:49:24.119Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你使用什么服务来发送营销邮件？\n",
+  "headline_zh-Hant": "Ask HN: 你使用什麼服務來發送營銷郵件？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们使用AWS SES来处理事务性邮件，到目前为止还没有问题。但是，对于营销邮件的批量发送，我只发现了一些取决于我们的联系人数量的服务，如MailChimp。这对我们来说太贵了，因为我们为新产品的公告发送营销邮件，通常是一年一到两次。为此，继续为MailChimp支付600-1000美元/年的费用是没有意义的。<p>很好奇，有没有更好的&quot;hacky&quot;方式来发送邮件？我不需要像MailChimp那样的分析和一大堆的模板功能。我可以在Postgres中很好地管理我自己的邮件列表。我只需要一个API，而且我听说使用AWS SES来发送大量的电子邮件是很糟糕的。<p>正在寻找一个低预算的非经常性电子邮件服务，我希望得到一些见解。\n",
+  "description_zh-Hant": "我們使用AWS SES來處理事務性郵件，到目前為止還沒有問題。但是，對於營銷郵件的批量發送，我只發現了一些取決於我們的聯繫人數量的服務，如MailChimp。這對我們來說太貴了，因為我們為新產品的公告發送營銷郵件，通常是一年一到兩次。為此，繼續為MailChimp支付600-1000美元/年的費用是沒有意義的。<p>很好奇，有沒有更好的&quot;hacky&quot;方式來發送郵件？我不需要像MailChimp那樣的分析和一大堆的模板功能。我可以在Postgres中很好地管理我自己的郵件列表。我只需要一個API，而且我聽說使用AWS SES來發送大量的電子郵件是很糟糕的。<p>正在尋找一個低預算的非經常性電子郵件服務，我希望得到一些見解。\n"
+}
