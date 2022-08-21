@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--21--en--besthn--HackerNews--NewsArticle--32538805",
+  "url": "https://news.ycombinator.com/item?id=32538805",
+  "headline": "A dad took photos of his naked toddler for the doctor and Google flagged him",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dklsf",
+    "url": "https://news.ycombinator.com/user?id=dklsf"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32538805",
+  "sameAs": "https://www.nytimes.com/2022/08/21/technology/google-surveillance-toddler-photo.html",
+  "dateCreated": "2022-08-21T11:55:42.740Z",
+  "datePublished": "2022-08-21T10:15:42.000Z",
+  "dateModified": "2022-08-21T11:55:42.740Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 201
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 113
+    }
+  ],
+  "headline_zh-Hans": "一位父亲为医生拍摄了他的裸体幼儿的照片，而谷歌对他进行了标记\n",
+  "headline_zh-Hant": "一位父親為醫生拍攝了他的裸體幼兒的照片，而谷歌對他進行了標記\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
