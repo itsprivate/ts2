@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--21--en--askhn--HackerNews--NewsArticle--32536318",
+  "url": "https://news.ycombinator.com/item?id=32536318",
+  "headline": "Ask HN: Why do some companies build their own CICD orchestrators?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I saw Slack has something called Checkpoint",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "dev_0",
+    "url": "https://news.ycombinator.com/user?id=dev_0"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32536318",
+  "sameAs": "https://news.ycombinator.com/item?id=32536318",
+  "dateCreated": "2022-08-21T02:29:11.358Z",
+  "datePublished": "2022-08-21T00:26:42.000Z",
+  "dateModified": "2022-08-21T02:29:11.358Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么有些公司会建立自己的CICD协调器？\n",
+  "headline_zh-Hant": "Ask HN: 為什麼有些公司會建立自己的CICD協調器？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我看到Slack有一个叫Checkpoint的东西\n",
+  "description_zh-Hant": "我看到Slack有一個叫Checkpoint的東西\n"
+}

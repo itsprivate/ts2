@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--21--en--hackernews--HackerNews--NewsArticle--32518360",
+  "url": "https://news.ycombinator.com/item?id=32518360",
+  "headline": "On Being Busy",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "aadillpickle",
+    "url": "https://news.ycombinator.com/user?id=aadillpickle"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32518360",
+  "sameAs": "https://blog.aadilali.com/posts/busy.html",
+  "dateCreated": "2022-08-21T02:29:11.768Z",
+  "datePublished": "2022-08-19T07:27:03.000Z",
+  "dateModified": "2022-08-21T02:29:11.768Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 33
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 10
+    }
+  ],
+  "headline_zh-Hans": "关于忙碌的问题\n",
+  "headline_zh-Hant": "關於忙碌的問題\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

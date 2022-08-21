@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--21--en--myfeed--HackerNews--NewsArticle--32536174",
+  "url": "https://news.ycombinator.com/item?id=32536174",
+  "headline": "Compiler Explorer Stats",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hasheddan",
+    "url": "https://news.ycombinator.com/user?id=hasheddan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32536174",
+  "sameAs": "https://ce.grafana.net:443/public-dashboards/326d9aa2606b4efea25f4458a4c3f065?orgId=0&refresh=1m",
+  "dateCreated": "2022-08-21T02:29:12.001Z",
+  "datePublished": "2022-08-20T23:55:01.000Z",
+  "dateModified": "2022-08-21T02:29:12.001Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "编译器浏览器的统计资料\n",
+  "headline_zh-Hant": "編譯器瀏覽器的統計資料\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
