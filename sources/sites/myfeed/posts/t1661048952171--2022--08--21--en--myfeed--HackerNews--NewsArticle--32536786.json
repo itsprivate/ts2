@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--21--en--myfeed--HackerNews--NewsArticle--32536786",
+  "url": "https://news.ycombinator.com/item?id=32536786",
+  "headline": "Breaking Down PFAS (it’s everywhere and harmful)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "surbas",
+    "url": "https://news.ycombinator.com/user?id=surbas"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32536786",
+  "sameAs": "https://www.nytimes.com/2022/08/18/science/pfas-forever-chemicals.html",
+  "dateCreated": "2022-08-21T02:29:12.171Z",
+  "datePublished": "2022-08-21T02:06:29.000Z",
+  "dateModified": "2022-08-21T02:29:12.171Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "破解PFAS（它无处不在，而且有害）。\n",
+  "headline_zh-Hant": "破解PFAS（它無處不在，而且有害）。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
