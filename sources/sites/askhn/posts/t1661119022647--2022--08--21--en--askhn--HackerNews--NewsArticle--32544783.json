@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--21--en--askhn--HackerNews--NewsArticle--32544783",
+  "url": "https://news.ycombinator.com/item?id=32544783",
+  "headline": "Ask HN: Anyone keep getting stuck on Cloudfare DDoS test refresh loop?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Apparently on other browsers (only Chrome and Firefox passed the DDoS check) like Vivaldi, upon figuring out why I keep getting stuck in refresh loop during cloudfare DDoS test, I decided to open dev tools and keep seeing the page attempting to fetch something like https://www.example.com/cdn-cgi/challenge-platform/h/g/.. and it keep return 401 Unauthorized or 400 error.<p>I'm not really sure if these 401/400 error are relevant but I'll describe the behavior anyways.<p>The weird thing is that only Chrome and Firefox (both normal and incognito mode) passed the test while Vivaldi and Edge failed. Vivaldi's behavior will get 401 error on fetch-ing /cdn-cgi/challenge-platform/h/g/pat/xxx/xxx/xxx/xxx while Edge will get 400 error upon xhr-ing /cdn-cgi/challenge-platform/h/g/flow/ov1/xxx/xxx/xxx. I cannot investigate deeper than this since I don't have time and https://example.com/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=xxx JS file is obfuscated.<p>Honestly at this point I'm using Firefox at temporary solution whenever a site got stuck in this ridiculous refresh loop and I have no idea why.<p>I did have uBlock Origin installed on both Firefox and Vivaldi with same exact settings and filter lists (since I exported and imported them) and both success and fail cases have the extension enabled. There's also Adguard in the background disabled for both cases.<p>In some rare cases Cloudfare outright ONLY block my Vivaldi browser instead of having access to the DDoS test page. Usually clear site data will &quot;fix&quot; and it goes back to stuck in the same refresh loop.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "Trung0246",
+    "url": "https://news.ycombinator.com/user?id=Trung0246"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32544783",
+  "sameAs": "https://news.ycombinator.com/item?id=32544783",
+  "dateCreated": "2022-08-21T21:57:02.647Z",
+  "datePublished": "2022-08-21T21:45:31.000Z",
+  "dateModified": "2022-08-21T21:57:02.647Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 有谁一直卡在Cloudfare DDoS测试的刷新循环上？\n",
+  "headline_zh-Hant": "Ask HN: 有誰一直卡在Cloudfare DDoS測試的刷新循環上？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "显然，在其他浏览器上（只有Chrome和Firefox通过了DDoS检查），如Vivaldi，在弄清楚为什么我在Cloudfare DDoS测试期间一直卡在刷新循环中时，我决定打开开发工具，并一直看到页面试图获取类似https://www.example。 <p>我不太确定这些401/400错误是否相关，但我还是要描述一下这个行为。<p>奇怪的是，只有Chrome和Firefox（正常和隐身模式）通过了测试，而Vivaldi和Edge则失败了。Vivaldi的行为在获取/cdn-cgi/challenge-platform/h/g/pat/xxx/xxx/xxx/xxx/xxx时得到401错误，而Edge在xhr-ing /cdn-cgi/challenge-platform/h/g/flow/ov1/xxx/xxx时得到400错误。我无法深入调查，因为我没有时间，而且https://example.com/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=xxx JS文件被混淆了。<p>老实说，在这一点上，我在使用Firefox的临时解决方案，每当一个网站卡在这个荒谬的刷新循环中，我不知道为什么。<p>我确实在Firefox和Vivaldi上安装了uBlock Origin，设置和过滤器列表完全相同（因为我导出和导入它们），成功和失败案例都启用了该扩展。<p>在一些罕见的情况下，Cloudfare完全只阻止我的Vivaldi浏览器，而不是访问DDoS测试页面。通常情况下，清除网站数据将&quot;修复&quot;，它又回到了卡在同一个刷新循环中。\n",
+  "description_zh-Hant": "顯然，在其他瀏覽器上（只有Chrome和Firefox通過了DDoS檢查），如Vivaldi，在弄清楚為什麼我在Cloudfare DDoS測試期間一直卡在刷新循環中時，我決定打開開發工具，並一直看到頁面試圖獲取類似https://www.example。 <p>我不太確定這些401/400錯誤是否相關，但我還是要描述一下這個行為。<p>奇怪的是，只有Chrome和Firefox（正常和隱身模式）通過了測試，而Vivaldi和Edge則失敗了。Vivaldi的行為在獲取/cdn-cgi/challenge-platform/h/g/pat/xxx/xxx/xxx/xxx/xxx時得到401錯誤，而Edge在xhr-ing /cdn-cgi/challenge-platform/h/g/flow/ov1/xxx/xxx時得到400錯誤。我無法深入調查，因為我沒有時間，而且https://example.com/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=xxx JS文件被混淆了。<p>老實說，在這一點上，我在使用Firefox的臨時解決方案，每當一個網站卡在這個荒謬的刷新循環中，我不知道為什麼。<p>我確實在Firefox和Vivaldi上安裝了uBlock Origin，設置和過濾器列表完全相同（因為我導出和導入它們），成功和失敗案例都啟用了該擴展。<p>在一些罕見的情況下，Cloudfare完全只阻止我的Vivaldi瀏覽器，而不是訪問DDoS測試頁面。通常情況下，清除網站數據將&quot;修復&quot;，它又回到了卡在同一個刷新循環中。\n"
+}
