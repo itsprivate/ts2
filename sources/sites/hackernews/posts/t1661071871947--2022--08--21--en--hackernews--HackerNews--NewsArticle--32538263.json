@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--21--en--hackernews--HackerNews--NewsArticle--32538263",
+  "url": "https://news.ycombinator.com/item?id=32538263",
+  "headline": "If everyone bicycled like the Danes, we’d avoid a UK’s worth of emissions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Fnoord",
+    "url": "https://news.ycombinator.com/user?id=Fnoord"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32538263",
+  "sameAs": "https://arstechnica.com/science/2022/08/if-everyone-bicycled-like-the-danes-wed-avoid-a-uks-worth-of-emissions/",
+  "dateCreated": "2022-08-21T08:51:11.947Z",
+  "datePublished": "2022-08-21T08:07:41.000Z",
+  "dateModified": "2022-08-21T08:51:11.947Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "如果每个人都像丹麦人一样骑自行车，我们就能避免一个英国的排放。\n",
+  "headline_zh-Hant": "如果每個人都像丹麥人一樣騎自行車，我們就能避免一個英國的排放。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
