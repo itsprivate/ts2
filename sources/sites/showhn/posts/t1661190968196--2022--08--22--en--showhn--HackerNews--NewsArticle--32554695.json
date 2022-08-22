@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--showhn--HackerNews--NewsArticle--32554695",
+  "url": "https://news.ycombinator.com/item?id=32554695",
+  "headline": "Show HN: Ask Cryptography, a platform to discuss cryptography research papers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "This is a website that tries to accumulate public knowledge among cryptography papers. It is difference to other platforms is that the discussions are indexed by papers. Hence, it is easy to find all discussions or questions that has been posted about a paper so far.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "talayhan_a",
+    "url": "https://news.ycombinator.com/user?id=talayhan_a"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32554695",
+  "sameAs": "https://askcryp.to/",
+  "dateCreated": "2022-08-22T17:56:08.196Z",
+  "datePublished": "2022-08-22T17:39:46.000Z",
+  "dateModified": "2022-08-22T17:56:08.196Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 询问密码学，一个讨论密码学研究论文的平台\n",
+  "headline_zh-Hant": "Show HN: 詢問密碼學，一個討論密碼學研究論文的平臺\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "这是一个试图在密码学论文中积累公共知识的网站。它与其他平台的区别在于，讨论是按论文索引的。因此，很容易找到迄今为止关于某篇论文的所有讨论或问题。\n",
+  "description_zh-Hant": "這是一個試圖在密碼學論文中積累公共知識的網站。它與其他平臺的區別在於，討論是按論文索引的。因此，很容易找到迄今為止關於某篇論文的所有討論或問題。\n"
+}
