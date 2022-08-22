@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--askhn--HackerNews--NewsArticle--32558417",
+  "url": "https://news.ycombinator.com/item?id=32558417",
+  "headline": "Ask HN: What is it like developing and deploying ASP.NET on Linux?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Dear all,<p>I'm investigating possible languages and ecosystems to develop a commercial web application. I'm reasonably familiar with Java but work in C# for my day job, so these are the two languages that I'm considering.<p>For a variety of reasons, I wish to build an entirely Linux server side. I'd like to hear your experiences running ASP.NET on Linux. Would you recommend it? Would I run into problems and frustrations because the ecosystem is still slanted towards Windows?<p>The main reasons in my mind to use .net are C#, the Entity Framework (ORM, DB migrations), and the Blazor templates.<p>But perhaps, if the Java ecosystem has good enough analogues and is better supported on Linux that might be the way to go.<p>Any thoughts or anecdotes will be appreciated.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "HeckFeck",
+    "url": "https://news.ycombinator.com/user?id=HeckFeck"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32558417",
+  "sameAs": "https://news.ycombinator.com/item?id=32558417",
+  "dateCreated": "2022-08-22T23:27:57.235Z",
+  "datePublished": "2022-08-22T23:02:46.000Z",
+  "dateModified": "2022-08-22T23:27:57.235Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 在Linux上开发和部署ASP.NET是怎样的？\n",
+  "headline_zh-Hant": "Ask HN: 在Linux上開發和部署ASP.NET是怎樣的？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "亲爱的各位，<p>我正在调查可能的语言和生态系统，以开发一个商业网络应用。我对Java相当熟悉，但在日常工作中使用C#，所以这是我正在考虑的两种语言。<p>由于各种原因，我希望建立一个完全的Linux服务器端。我想听听你在Linux上运行ASP.NET的经验。你会推荐它吗？<p>我认为使用.net的主要原因是C#、Entity Framework（ORM、DB迁移）和Blazor模板。<p>但是，如果Java生态系统有足够好的类似物，并且在Linux上得到更好的支持，也许这才是正确的选择。\n",
+  "description_zh-Hant": "親愛的各位，<p>我正在調查可能的語言和生態系統，以開發一個商業網絡應用。我對Java相當熟悉，但在日常工作中使用C#，所以這是我正在考慮的兩種語言。<p>由於各種原因，我希望建立一個完全的Linux服務器端。我想聽聽你在Linux上運行ASP.NET的經驗。你會推薦它嗎？<p>我認為使用.net的主要原因是C#、Entity Framework（ORM、DB遷移）和Blazor模板。<p>但是，如果Java生態系統有足夠好的類似物，並且在Linux上得到更好的支持，也許這才是正確的選擇。\n"
+}
