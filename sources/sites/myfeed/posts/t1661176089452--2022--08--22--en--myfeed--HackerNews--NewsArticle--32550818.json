@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--myfeed--HackerNews--NewsArticle--32550818",
+  "url": "https://news.ycombinator.com/item?id=32550818",
+  "headline": "Separation Logic",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "haskellandchill",
+    "url": "https://news.ycombinator.com/user?id=haskellandchill"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32550818",
+  "sameAs": "https://cacm.acm.org/magazines/2019/2/234356-separation-logic/fulltext",
+  "dateCreated": "2022-08-22T13:48:09.452Z",
+  "datePublished": "2022-08-22T13:10:48.000Z",
+  "dateModified": "2022-08-22T13:48:09.452Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "分离逻辑\n",
+  "headline_zh-Hant": "分離邏輯\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

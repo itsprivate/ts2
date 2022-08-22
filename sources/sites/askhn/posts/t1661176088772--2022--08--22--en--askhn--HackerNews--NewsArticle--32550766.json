@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--askhn--HackerNews--NewsArticle--32550766",
+  "url": "https://news.ycombinator.com/item?id=32550766",
+  "headline": "Ask HN: Will Bun JavaScript support child processes?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I am very optimistic about Bun JS and considering using it to run a low code system built in NodeJS, but right now I need child processes to fully isolate crashing server side code. Does anyone know if Bun will support child processes and IPC at some point?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "zubairq",
+    "url": "https://news.ycombinator.com/user?id=zubairq"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32550766",
+  "sameAs": "https://news.ycombinator.com/item?id=32550766",
+  "dateCreated": "2022-08-22T13:48:08.772Z",
+  "datePublished": "2022-08-22T13:05:45.000Z",
+  "dateModified": "2022-08-22T13:48:08.772Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Bun JavaScript是否支持子进程？\n",
+  "headline_zh-Hant": "Ask HN: Bun JavaScript是否支持子進程？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我非常看好Bun JS，考虑用它来运行一个用NodeJS构建的低代码系统，但现在我需要子进程来完全隔离崩溃的服务器端代码。有谁知道Bun是否会在某个时候支持子进程和IPC？\n",
+  "description_zh-Hant": "我非常看好Bun JS，考慮用它來運行一個用NodeJS構建的低代碼系統，但現在我需要子進程來完全隔離崩潰的服務器端代碼。有誰知道Bun是否會在某個時候支持子進程和IPC？\n"
+}
