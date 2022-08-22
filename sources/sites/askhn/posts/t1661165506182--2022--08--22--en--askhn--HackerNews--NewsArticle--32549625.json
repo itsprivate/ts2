@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--askhn--HackerNews--NewsArticle--32549625",
+  "url": "https://news.ycombinator.com/item?id=32549625",
+  "headline": "Ask HN: Books about OS X internals",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "It happened so that I've got a Macbook as my work laptop and I'm feeling helpless with it. In Linux world I'm considering myself as advanced/expert user, but OSX feels so different. I know that OSX comes from (Free?)BSD family but since I'm 0-level in BSD also this knowledge does not help much. Are there any good books that explain how OSX works internally and what advanced tools there are to work with it? Examples of what I already miss are: strace, ip * (ip netns, ip route), binutils, firewall management",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "yaris",
+    "url": "https://news.ycombinator.com/user?id=yaris"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32549625",
+  "sameAs": "https://news.ycombinator.com/item?id=32549625",
+  "dateCreated": "2022-08-22T10:51:46.182Z",
+  "datePublished": "2022-08-22T10:39:11.000Z",
+  "dateModified": "2022-08-22T10:51:46.182Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 关于OS X内部的书籍\n",
+  "headline_zh-Hant": "Ask HN: 關於OS X內部的書籍\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我有一台Macbook作为工作用的笔记本电脑，但我对它感到无能为力。在Linux世界里，我认为自己是高级/专家级用户，但OSX感觉如此不同。我知道OSX来自(Free?)BSD家族，但由于我在BSD方面是零水平，这些知识并没有什么帮助。有没有什么好书可以解释OSX的内部工作原理以及有哪些高级工具可以使用？我已经错过的例子有：strace、ip *（ip netns、ip route）、binutils、防火墙管理。\n",
+  "description_zh-Hant": "我有一臺Macbook作為工作用的筆記本電腦，但我對它感到無能為力。在Linux世界裡，我認為自己是高級/專家級用戶，但OSX感覺如此不同。我知道OSX來自(Free?)BSD家族，但由於我在BSD方面是零水平，這些知識並沒有什麼幫助。有沒有什麼好書可以解釋OSX的內部工作原理以及有哪些高級工具可以使用？我已經錯過的例子有：strace、ip *（ip netns、ip route）、binutils、防火牆管理。\n"
+}

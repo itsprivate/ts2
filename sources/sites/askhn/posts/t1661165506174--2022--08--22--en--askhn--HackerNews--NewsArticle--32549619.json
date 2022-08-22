@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--askhn--HackerNews--NewsArticle--32549619",
+  "url": "https://news.ycombinator.com/item?id=32549619",
+  "headline": "Ask HN: Should I Log Errors, Throw Errors or Both?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN,<p>When programming an API, or any kind of application, software, ecc , at some point in the code you know that something could go wrong and you should notify it as an error, now, should I throw it? Or should I just log it as an error and let the program continue execution anyway? Or should I do both?<p>Let me know what you think are the best practices to notify errors and how you usually manage this situation.<p>Btw this is my first HN post:)<p>Thanks!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "Franck21",
+    "url": "https://news.ycombinator.com/user?id=Franck21"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32549619",
+  "sameAs": "https://news.ycombinator.com/item?id=32549619",
+  "dateCreated": "2022-08-22T10:51:46.174Z",
+  "datePublished": "2022-08-22T10:38:00.000Z",
+  "dateModified": "2022-08-22T10:51:46.174Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 我应该记录错误、抛出错误还是两者都要？\n",
+  "headline_zh-Hant": "Ask HN: 我應該記錄錯誤、拋出錯誤還是兩者都要？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi HN,<p>当对API进行编程时，或任何类型的应用程序，软件，ecc ，在代码的某些点上，你知道可能会出错，你应该把它作为一个错误通知，现在，我应该扔掉它吗？或者我应该把它记录为一个错误，让程序继续执行？<p>让我知道你认为通知错误的最佳做法是什么，以及你通常如何管理这种情况。<p>Btw这是我的第一篇HN帖子:)<p>谢谢!\n",
+  "description_zh-Hant": "Hi HN,<p>當對API進行編程時，或任何類型的應用程序，軟件，ecc ，在代碼的某些點上，你知道可能會出錯，你應該把它作為一個錯誤通知，現在，我應該扔掉它嗎？或者我應該把它記錄為一個錯誤，讓程序繼續執行？<p>讓我知道你認為通知錯誤的最佳做法是什麼，以及你通常如何管理這種情況。<p>Btw這是我的第一篇HN帖子:)<p>謝謝!\n"
+}

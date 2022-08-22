@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--askhn--HackerNews--NewsArticle--32549597",
+  "url": "https://news.ycombinator.com/item?id=32549597",
+  "headline": "Ask HN: Why do companies implement GEO-based login checks?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "As someone who often travels, I find myself locked out of services such as GitLab because I'm trying to authenticate in another country.<p>Is it really that unusual?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "jsdevtom",
+    "url": "https://news.ycombinator.com/user?id=jsdevtom"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32549597",
+  "sameAs": "https://news.ycombinator.com/item?id=32549597",
+  "dateCreated": "2022-08-22T10:51:46.164Z",
+  "datePublished": "2022-08-22T10:34:45.000Z",
+  "dateModified": "2022-08-22T10:51:46.164Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么公司要实施基于GEO的登录检查？\n",
+  "headline_zh-Hant": "Ask HN: 為什麼公司要實施基於GEO的登錄檢查？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "作为一个经常旅行的人，我发现自己被锁定在GitLab等服务之外，因为我试图在另一个国家进行认证。<p>这真的那么不寻常吗？\n",
+  "description_zh-Hant": "作為一個經常旅行的人，我發現自己被鎖定在GitLab等服務之外，因為我試圖在另一個國家進行認證。<p>這真的那麼不尋常嗎？\n"
+}
