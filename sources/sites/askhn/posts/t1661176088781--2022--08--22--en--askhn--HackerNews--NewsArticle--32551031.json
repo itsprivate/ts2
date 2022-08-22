@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--askhn--HackerNews--NewsArticle--32551031",
+  "url": "https://news.ycombinator.com/item?id=32551031",
+  "headline": "Ask HN: Are Oozie workflow “logs” intended for corporate fraud investigation",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I work for a financial institution where my role is responsible for large-scale payments to customers. The creation of the files that dictate which customer gets how much is through code run as part of an Oozie workflow. The code, output files and Oozie workflow &quot;logs&quot; are stored in a production environment, where access is revoked after a successful production run. My question is around the intended use-case of Oozie workflow logs and whether they are suitable for the purpose of investigating corporate fraud or are they merely suitable for debugging? I have viewed the logs however they are difficult to interpret and I feel that they may not be fit for the purpose of an internal audit, should that ever happen.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "burningburner",
+    "url": "https://news.ycombinator.com/user?id=burningburner"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32551031",
+  "sameAs": "https://news.ycombinator.com/item?id=32551031",
+  "dateCreated": "2022-08-22T13:48:08.781Z",
+  "datePublished": "2022-08-22T13:27:11.000Z",
+  "dateModified": "2022-08-22T13:48:08.781Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Oozie工作流程的 \"日志 \"是否用于企业欺诈调查\n",
+  "headline_zh-Hant": "Ask HN: Oozie工作流程的 \"日誌 \"是否用於企業欺詐調查\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我在一家金融机构工作，我的职责是负责向客户大规模付款。决定哪个客户得到多少钱的文件是通过Oozie工作流程中的代码运行的。代码、输出文件和Oozie工作流程&quot;日志&quot;都存储在生产环境中，在生产运行成功后，访问权被撤销。我的问题是围绕着Oozie工作流程日志的预期使用情况，以及它们是否适合用于调查企业欺诈行为，还是仅仅适合用于调试？我查看了这些日志，但它们很难解释，我觉得它们可能不适合内部审计的目的，如果真的发生的话。\n",
+  "description_zh-Hant": "我在一家金融機構工作，我的職責是負責向客戶大規模付款。決定哪個客戶得到多少錢的文件是通過Oozie工作流程中的代碼運行的。代碼、輸出文件和Oozie工作流程&quot;日誌&quot;都存儲在生產環境中，在生產運行成功後，訪問權被撤銷。我的問題是圍繞著Oozie工作流程日誌的預期使用情況，以及它們是否適合用於調查企業欺詐行為，還是僅僅適合用於調試？我查看了這些日誌，但它們很難解釋，我覺得它們可能不適合內部審計的目的，如果真的發生的話。\n"
+}

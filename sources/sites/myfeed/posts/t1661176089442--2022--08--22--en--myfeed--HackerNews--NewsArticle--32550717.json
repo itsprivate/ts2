@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--myfeed--HackerNews--NewsArticle--32550717",
+  "url": "https://news.ycombinator.com/item?id=32550717",
+  "headline": "Apple Expands Self Service Repair to Mac Notebooks",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "todsacerdoti",
+    "url": "https://news.ycombinator.com/user?id=todsacerdoti"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32550717",
+  "sameAs": "https://www.apple.com/newsroom/2022/08/apple-expands-self-service-repair-to-mac-notebooks/",
+  "dateCreated": "2022-08-22T13:48:09.442Z",
+  "datePublished": "2022-08-22T13:00:32.000Z",
+  "dateModified": "2022-08-22T13:48:09.442Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 80
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 24
+    }
+  ],
+  "headline_zh-Hans": "苹果公司将自助维修服务扩展至Mac笔记本\n",
+  "headline_zh-Hant": "蘋果公司將自助維修服務擴展至Mac筆記本\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
