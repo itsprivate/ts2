@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--myfeed--HackerNews--NewsArticle--32549895",
+  "url": "https://news.ycombinator.com/item?id=32549895",
+  "headline": "A network graph analysis of Spotify podcast recommendations",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "misener",
+    "url": "https://news.ycombinator.com/user?id=misener"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32549895",
+  "sameAs": "https://wearebumper.com/blog/2022/08/22/spotify-episode-recommendation-algorithm/",
+  "dateCreated": "2022-08-22T12:52:48.172Z",
+  "datePublished": "2022-08-22T11:17:49.000Z",
+  "dateModified": "2022-08-22T12:52:48.172Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "对Spotify播客推荐的网络图分析\n",
+  "headline_zh-Hant": "對Spotify播客推薦的網絡圖分析\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
