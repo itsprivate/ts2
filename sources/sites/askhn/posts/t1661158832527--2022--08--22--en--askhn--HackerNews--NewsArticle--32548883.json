@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--askhn--HackerNews--NewsArticle--32548883",
+  "url": "https://news.ycombinator.com/item?id=32548883",
+  "headline": "Ask HN: How is international (Unicode) email address support in 2022?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Playing with IDN domain names, I had several problems with services supporting such email address:<p>- Gmail doesn't allow me <i>reply</i> to a friend's email, though they could send to me\n- GitHub would 500 out when adding a GPG key with a UID with Unicode email address \n- Some services can't outright send the email to such an address<p>A thread from 2017 https://news.ycombinator.com/item?id=14831756 and one from 2019 https://news.ycombinator.com/item?id=19013617 showed that the support was poor. I wonder how it is in 2022?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "noctis",
+    "url": "https://news.ycombinator.com/user?id=noctis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32548883",
+  "sameAs": "https://news.ycombinator.com/item?id=32548883",
+  "dateCreated": "2022-08-22T09:00:32.527Z",
+  "datePublished": "2022-08-22T08:43:31.000Z",
+  "dateModified": "2022-08-22T09:00:32.527Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 2022年的国际（Unicode）电子邮件地址支持情况如何？\n",
+  "headline_zh-Hant": "Ask HN: 2022年的國際（Unicode）電子郵件地址支持情況如何？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在使用IDN域名时，我遇到了几个支持这种电子邮件地址的服务问题：<p>- Gmail不允许我<i>回复</i>一个朋友的电子邮件，尽管他们可以给我发送。\n- 当添加一个带有Unicode电子邮件地址的UID的GPG密钥时，GitHub会出现500个。\n- 有些服务不能直接将邮件发送到这样的地址<p>2017年的一个线程https://news.ycombinator.com/item?id=14831756，2019年的一个线程https://news.ycombinator.com/item?id=19013617，显示支持度很差。我想知道2022年的情况如何？\n",
+  "description_zh-Hant": "在使用IDN域名時，我遇到了幾個支持這種電子郵件地址的服務問題：<p>- Gmail不允許我<i>回覆</i>一個朋友的電子郵件，儘管他們可以給我發送。\n- 當添加一個帶有Unicode電子郵件地址的UID的GPG密鑰時，GitHub會出現500個。\n- 有些服務不能直接將郵件發送到這樣的地址<p>2017年的一個線程https://news.ycombinator.com/item?id=14831756，2019年的一個線程https://news.ycombinator.com/item?id=19013617，顯示支持度很差。我想知道2022年的情況如何？\n"
+}
