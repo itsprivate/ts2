@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--showhn--HackerNews--NewsArticle--32546943",
+  "url": "https://news.ycombinator.com/item?id=32546943",
+  "headline": "Show HN: What is Docker (in Docker)^n",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "SCLeo",
+    "url": "https://news.ycombinator.com/user?id=SCLeo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32546943",
+  "sameAs": "https://scleox.github.io/explain_docker_nesting/",
+  "dateCreated": "2022-08-22T04:13:40.516Z",
+  "datePublished": "2022-08-22T03:20:16.000Z",
+  "dateModified": "2022-08-22T04:13:40.516Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 什么是Docker（在Docker）^n\n",
+  "headline_zh-Hant": "Show HN: 什麼是Docker（在Docker）^n\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
