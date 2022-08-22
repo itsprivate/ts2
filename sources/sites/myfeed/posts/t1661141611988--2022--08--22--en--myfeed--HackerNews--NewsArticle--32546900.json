@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--myfeed--HackerNews--NewsArticle--32546900",
+  "url": "https://news.ycombinator.com/item?id=32546900",
+  "headline": "Same people keep winning Maryland lottery, audit finds",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "walterbell",
+    "url": "https://news.ycombinator.com/user?id=walterbell"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32546900",
+  "sameAs": "https://foxbaltimore.com/news/city-in-crisis/audit-raises-security-concerns-at-maryland-lottery-agency",
+  "dateCreated": "2022-08-22T04:13:31.988Z",
+  "datePublished": "2022-08-22T03:11:55.000Z",
+  "dateModified": "2022-08-22T04:13:31.988Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "审计发现，同样的人不断赢得马里兰州的彩票\n",
+  "headline_zh-Hant": "審計發現，同樣的人不斷贏得馬里蘭州的彩票\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
