@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--myfeed--HackerNews--NewsArticle--32545644",
+  "url": "https://news.ycombinator.com/item?id=32545644",
+  "headline": "Drone Remote Identification Protocol (Drip) Architecture",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "contingencies",
+    "url": "https://news.ycombinator.com/user?id=contingencies"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32545644",
+  "sameAs": "https://datatracker.ietf.org/doc/draft-ietf-drip-arch/",
+  "dateCreated": "2022-08-22T02:29:22.350Z",
+  "datePublished": "2022-08-21T23:42:14.000Z",
+  "dateModified": "2022-08-22T02:29:22.350Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "无人机远程识别协议（Drip）架构\n",
+  "headline_zh-Hant": "無人機遠程識別協議（Drip）架構\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--askhn--HackerNews--NewsArticle--32546161",
+  "url": "https://news.ycombinator.com/item?id=32546161",
+  "headline": "Ask HN: Proposed HNDM Design",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Suppose that HN user Foo wishes to DM user Bar. HN knows their real email addresses, so Foo emails Bar@hndm.com, and HNDM auto-forwards this to Bar's real email address. If Foo wants a response from Bar, Foo needs to tell Bar their (Foo's) real email address, and Bar can email them directly. The only accepted/understood direct reply to one of these forwards is &quot;block&quot;, which will forever block Foo from sending to Bar. If Foo gets three blocks, they're disallowed from sending HNDMs until the they are under three blocks, which clear at one block/week.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "abrax3141",
+    "url": "https://news.ycombinator.com/user?id=abrax3141"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32546161",
+  "sameAs": "https://news.ycombinator.com/item?id=32546161",
+  "dateCreated": "2022-08-22T02:29:21.727Z",
+  "datePublished": "2022-08-22T01:06:46.000Z",
+  "dateModified": "2022-08-22T02:29:21.727Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 拟议的HNDM设计\n",
+  "headline_zh-Hant": "Ask HN: 擬議的HNDM設計\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "假设HN用户Foo希望向用户Bar发送DM。HN知道他们的真实电子邮件地址，所以Foo给Bar@hndm.com，而HNDM自动转发到Bar的真实电子邮件地址。如果Foo希望得到Bar的回复，Foo需要告诉Bar他们（Foo的）真实电子邮件地址，Bar可以直接给他们发电子邮件。对这些转发之一的唯一接受/理解的直接回复是&quot;block&quot;，这将永远阻止Foo向Bar发送。如果Foo得到三个区块，他们将被禁止发送HNDM，直到他们低于三个区块，这将以一个区块/周的速度清除。\n",
+  "description_zh-Hant": "假設HN用戶Foo希望向用戶Bar發送DM。HN知道他們的真實電子郵件地址，所以Foo給Bar@hndm.com，而HNDM自動轉發到Bar的真實電子郵件地址。如果Foo希望得到Bar的回覆，Foo需要告訴Bar他們（Foo的）真實電子郵件地址，Bar可以直接給他們發電子郵件。對這些轉發之一的唯一接受/理解的直接回復是&quot;block&quot;，這將永遠阻止Foo向Bar發送。如果Foo得到三個區塊，他們將被禁止發送HNDM，直到他們低於三個區塊，這將以一個區塊/周的速度清除。\n"
+}
