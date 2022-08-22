@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--myfeed--HackerNews--NewsArticle--32556675",
+  "url": "https://news.ycombinator.com/item?id=32556675",
+  "headline": "YouTube launches a dedicated podcasts homepage for US users",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "FinnKuhn",
+    "url": "https://news.ycombinator.com/user?id=FinnKuhn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32556675",
+  "sameAs": "https://techcrunch.com/2022/08/22/youtube-launches-a-dedicated-podcasts-homepage-for-u-s-users/",
+  "dateCreated": "2022-08-22T20:26:52.723Z",
+  "datePublished": "2022-08-22T20:20:45.000Z",
+  "dateModified": "2022-08-22T20:26:52.723Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "YouTube为美国用户推出了专门的播客主页\n",
+  "headline_zh-Hant": "YouTube為美國用戶推出了專門的播客主頁\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
