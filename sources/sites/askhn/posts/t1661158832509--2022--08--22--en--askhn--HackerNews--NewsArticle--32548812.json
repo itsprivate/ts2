@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--askhn--HackerNews--NewsArticle--32548812",
+  "url": "https://news.ycombinator.com/item?id=32548812",
+  "headline": "Ask HN: Email service for tiny company, 20 users, no marketing, no transactional",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "What email service would you recommend for my tiny company? I need to send and receive emails from personname@mydomain.com, about 20 user accounts, catchall (so that all emails to unknownuser@mydomain.com come to say catchall@domain.com), where price is not per account but per domain with unlimited or large number of accounts.\nNo need for marketing campaigns or transactional emails from the SAAS we got, we have a solution for that.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "michaelkariv",
+    "url": "https://news.ycombinator.com/user?id=michaelkariv"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32548812",
+  "sameAs": "https://news.ycombinator.com/item?id=32548812",
+  "dateCreated": "2022-08-22T09:00:32.509Z",
+  "datePublished": "2022-08-22T08:34:12.000Z",
+  "dateModified": "2022-08-22T09:00:32.509Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为小公司提供电子邮件服务，20个用户，没有营销，没有交易。\n",
+  "headline_zh-Hant": "Ask HN: 為小公司提供電子郵件服務，20個用戶，沒有營銷，沒有交易。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你会为我的小公司推荐什么电子邮件服务？我需要从personname@mydomain.com，大约20个用户账户发送和接收电子邮件，catchall（这样所有发往unknownuser@mydomain.com的电子邮件都会到catchall@domain.com），这里的价格不是按账户计算，而是按有无限或大量账户的域名计算。\n不需要从我们得到的SAAS中进行营销活动或交易性的电子邮件，我们有一个解决方案。\n",
+  "description_zh-Hant": "你會為我的小公司推薦什麼電子郵件服務？我需要從personname@mydomain.com，大約20個用戶賬戶發送和接收電子郵件，catchall（這樣所有發往unknownuser@mydomain.com的電子郵件都會到catchall@domain.com），這裡的價格不是按賬戶計算，而是按有無限或大量賬戶的域名計算。\n不需要從我們得到的SAAS中進行營銷活動或交易性的電子郵件，我們有一個解決方案。\n"
+}
