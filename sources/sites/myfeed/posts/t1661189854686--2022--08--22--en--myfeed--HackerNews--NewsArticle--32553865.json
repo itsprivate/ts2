@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--myfeed--HackerNews--NewsArticle--32553865",
+  "url": "https://news.ycombinator.com/item?id=32553865",
+  "headline": "Hackers steal crypto from Bitcoin ATMs by exploiting Zero-Day bug",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "modinfo",
+    "url": "https://news.ycombinator.com/user?id=modinfo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32553865",
+  "sameAs": "https://www.bleepingcomputer.com/news/security/hackers-steal-crypto-from-bitcoin-atms-by-exploiting-zero-day-bug/",
+  "dateCreated": "2022-08-22T17:37:34.686Z",
+  "datePublished": "2022-08-22T16:39:45.000Z",
+  "dateModified": "2022-08-22T17:37:34.686Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "黑客利用零日漏洞从比特币ATM机上窃取加密货币\n",
+  "headline_zh-Hant": "黑客利用零日漏洞從比特幣ATM機上竊取加密貨幣\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
