@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--myfeed--HackerNews--NewsArticle--32553457",
+  "url": "https://news.ycombinator.com/item?id=32553457",
+  "headline": "Do you use BigInt in your Node codebase or do you use number?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gajus",
+    "url": "https://news.ycombinator.com/user?id=gajus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32553457",
+  "sameAs": "https://twitter.com/kuizinas/status/1561734172938469378",
+  "dateCreated": "2022-08-22T16:34:57.789Z",
+  "datePublished": "2022-08-22T16:09:56.000Z",
+  "dateModified": "2022-08-22T16:34:57.789Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "你在你的Node代码库中是使用BigInt还是使用数字？\n",
+  "headline_zh-Hant": "你在你的Node代碼庫中是使用BigInt還是使用數字？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
