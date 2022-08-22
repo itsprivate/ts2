@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--myfeed--HackerNews--NewsArticle--32550058",
+  "url": "https://news.ycombinator.com/item?id=32550058",
+  "headline": "Despite Attacks, Software Supply Chain Remains Insecure",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "JoachimS",
+    "url": "https://news.ycombinator.com/user?id=JoachimS"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32550058",
+  "sameAs": "https://www.eetimes.com/despite-attacks-software-supply-chain-remains-unsecure/",
+  "dateCreated": "2022-08-22T12:52:48.184Z",
+  "datePublished": "2022-08-22T11:42:18.000Z",
+  "dateModified": "2022-08-22T12:52:48.184Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "尽管受到攻击，软件供应链仍然不安全\n",
+  "headline_zh-Hant": "儘管受到攻擊，軟件供應鏈仍然不安全\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
