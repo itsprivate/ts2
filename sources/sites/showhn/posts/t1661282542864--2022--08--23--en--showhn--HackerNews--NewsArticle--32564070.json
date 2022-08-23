@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--showhn--HackerNews--NewsArticle--32564070",
+  "url": "https://news.ycombinator.com/item?id=32564070",
+  "headline": "Show HN: Interactive visualization of how Bitcoin works",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi! This is a little something I've been working on to help people understand how Bitcoin and &quot;blockchain&quot; actually works. It's an interactive simulation of a Bitcoin-like system, running in your browser. It was originally intended as a full interactive online course, and someday it might evolve to become just that.<p>The source code is here: <a href=\"https://github.com/trudi-group/isds\" rel=\"nofollow\">https://github.com/trudi-group/isds</a> (Rust compiled to WebAssembly)<p>Feel free to use this however you like! (For teaching, for learning, as a screensaver, ...) And I'm all ears if you have comments or questions!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "marfl",
+    "url": "https://news.ycombinator.com/user?id=marfl"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32564070",
+  "sameAs": "https://layers.trudi.group/",
+  "dateCreated": "2022-08-23T19:22:22.864Z",
+  "datePublished": "2022-08-23T12:45:20.000Z",
+  "dateModified": "2022-08-23T19:22:22.864Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 比特币工作原理的交互式视觉化\n",
+  "headline_zh-Hant": "Show HN: 比特幣工作原理的交互式視覺化\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi! This is a little something I've been working on to help people understand how Bitcoin and &quot;blockchain&quot; actually works. It's an interactive simulation of a Bitcoin-like system, running in your browser. It was originally intended as a full interactive online course, and someday it might evolve to become just that.<p>The source code is here: <a href=\"https://github.com/trudi-group/isds\" rel=\"nofollow\">https://github.com/trudi-group/isds</a> (Rust compiled to WebAssembly)<p>Feel free to use this however you like! (For teaching, for learning, as a screensaver, ...) And I'm all ears if you have comments or questions!\n",
+  "description_zh-Hant": "Hi! This is a little something I've been working on to help people understand how Bitcoin and &quot;blockchain&quot; actually works. It's an interactive simulation of a Bitcoin-like system, running in your browser. It was originally intended as a full interactive online course, and someday it might evolve to become just that.<p>The source code is here: <a href=\"https://github.com/trudi-group/isds\" rel=\"nofollow\">https://github.com/trudi-group/isds</a> (Rust compiled to WebAssembly)<p>Feel free to use this however you like! (For teaching, for learning, as a screensaver, ...) And I'm all ears if you have comments or questions!\n"
+}
