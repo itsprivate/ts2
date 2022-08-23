@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--showhn--HackerNews--NewsArticle--32565339",
+  "url": "https://news.ycombinator.com/item?id=32565339",
+  "headline": "Show HN: Book Recommendations via SMS",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN,<p>My aim with Sunday Books is to 1) recommend good nonfiction books via text message and 2) make those books available for quick purchase from the same text. Why SMS? It's quiet, calm, accessible, and you don't have to wade through newsletters, popups, ads, social rankings, endlessly scrolling cover photos, and thousands of mass-market reviews just to figure out if you might want to read a book.<p>I know there are a lot of people working on book discovery apps and alternatives to Goodreads, but none of that interests me as a reader. I don't need social features, public reading lists, suggestions from the algorithm, or digital bookshelves. I want recommendations I can trust from people with similar literary tastes, so that's what I'm working to build.<p>Quick details:<p>* You opt-in to receive texts, start your subscription via Stripe.<p>* We recommend a book twice a month via text message.<p>* At launch, we'll provide guidance on where to find the book. Soon, you can buy the book directly from us.<p>* No need to create an account, log in, or manage a cart to checkout.<p>* Text messaging available only in the US and Canada; shipping only in the US to start.<p>Current status:<p>* Sharing this publicly to see if it resonates. You can send an email (in my profile) to get on the waiting list.<p>* Learning about text message opt-in laws and deliverability gotchas, and figuring out which SMS tool to use.<p>* Rounding up people who have a similar literary taste to help write recommendations.<p>* Opening accounts with book wholesalers and publishers.<p>* Trying to sync subscription status from Stripe to Heymarket, though I'm at the edges of my technical know-how with the APIs. I'm currently using Zapier (god has it gone to shit) to sync subscription status to Heymarket contacts but would like to build something less clumsy, more robust.<p>Challenges:<p>The biggest challenge is the bookstore side of the business—it's a real hurdle and may not be practical, even if I sent orders to a large distributor, like Ingram. It's likely that I'll launch with recommendations only, provide ISBNs and sources for buying the book in the text message—no marketing or affiliate links. From there, I'll figure out next steps for the bookstore.<p>Note that the language on the website is still a work in progress, the recommendation that's on the site is just a copy/paste sample, but wanted to show what I'm going for. That section will scroll through previously recommended books once I've got them added.<p>I'll be ready to test and to start adding people to the list the week after next.<p>Your comments and suggestions are appreciated.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "greenrock",
+    "url": "https://news.ycombinator.com/user?id=greenrock"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32565339",
+  "sameAs": "https://sundaybooks.org",
+  "dateCreated": "2022-08-23T14:27:50.526Z",
+  "datePublished": "2022-08-23T14:22:45.000Z",
+  "dateModified": "2022-08-23T14:27:50.526Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 通过短信推荐书籍\n",
+  "headline_zh-Hant": "Show HN: 通過短信推薦書籍\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嘿，HN,<p>我做Sunday Books的目的是：1）通过短信推荐好的非小说类书籍；2）让这些书籍可以在同一短信中快速购买。为什么是短信？它安静、平和、易接近，而且你不必为了弄清楚你是否想读一本书而涉足通讯、弹出窗口、广告、社交排名、无休止地滚动的封面照片和数以千计的大众市场评论。<p>我知道有很多人正在开发图书发现应用程序和Goodreads的替代品，但作为一个读者，我对这些都不感兴趣。我不需要社交功能、公共阅读列表、来自算法的建议，或者数字书架。我希望有类似文学品味的人向我推荐我可以信赖的书，所以这就是我正在努力建立的。<p>快速的细节：<p>* 你选择接收短信，通过Stripe开始订阅。<p>* 我们每月两次通过短信推荐一本书。<p>* 在推出时，我们将提供在哪里找到这本书的指导。很快，你就可以直接向我们买书了。<p>* 不需要创建账户、登录或管理购物车来结账。<p>* 短信只在美国和加拿大提供；开始时只在美国发货。<p>当前状态：<p>* 公开分享，看看是否引起共鸣。你可以发送电子邮件（在我的个人资料中）加入等待名单。<p>* 了解短信选择法和可传递性问题，并确定使用哪种短信工具。<p>* 召集有类似文学品味的人帮助写推荐信。<p>* 与图书批发商和出版商开立账户。<p>* 试图将订阅状态从 Stripe 同步到 Heymarket，尽管我对 API 的技术知识处于边缘。我目前正在使用Zapier（天哪，它已经变成了狗屎）将订阅状态同步到Heymarket的联系人，但我想建立一些不那么笨拙、更强大的东西。<p>挑战：<p>最大的挑战是书店方面的业务--这是一个真正的障碍，即使我将订单发送给大型经销商，如Ingram，也可能不实用。我很可能只推出推荐书目，在文本信息中提供ISBN和购书来源--没有营销或联盟链接。<p>请注意，网站上的语言仍在进行中，网站上的推荐只是一个复制/粘贴的样本，但我想展示我的意图。<p>我将准备好测试，并在下周开始将人们添加到列表中。<p>感谢您的意见和建议。\n",
+  "description_zh-Hant": "嘿，HN,<p>我做Sunday Books的目的是：1）通過短信推薦好的非小說類書籍；2）讓這些書籍可以在同一短信中快速購買。為什麼是短信？它安靜、平和、易接近，而且你不必為了弄清楚你是否想讀一本書而涉足通訊、彈出窗口、廣告、社交排名、無休止地滾動的封面照片和數以千計的大眾市場評論。<p>我知道有很多人正在開發圖書發現應用程序和Goodreads的替代品，但作為一個讀者，我對這些都不感興趣。我不需要社交功能、公共閱讀列表、來自算法的建議，或者數字書架。我希望有類似文學品味的人向我推薦我可以信賴的書，所以這就是我正在努力建立的。<p>快速的細節：<p>* 你選擇接收短信，通過Stripe開始訂閱。<p>* 我們每月兩次通過短信推薦一本書。<p>* 在推出時，我們將提供在哪裡找到這本書的指導。很快，你就可以直接向我們買書了。<p>* 不需要創建賬戶、登錄或管理購物車來結賬。<p>* 短信只在美國和加拿大提供；開始時只在美國發貨。<p>當前狀態：<p>* 公開分享，看看是否引起共鳴。你可以發送電子郵件（在我的個人資料中）加入等待名單。<p>* 瞭解短信選擇法和可傳遞性問題，並確定使用哪種短信工具。<p>* 召集有類似文學品味的人幫助寫推薦信。<p>* 與圖書批發商和出版商開立賬戶。<p>* 試圖將訂閱狀態從 Stripe 同步到 Heymarket，儘管我對 API 的技術知識處於邊緣。我目前正在使用Zapier（天哪，它已經變成了狗屎）將訂閱狀態同步到Heymarket的聯繫人，但我想建立一些不那麼笨拙、更強大的東西。<p>挑戰：<p>最大的挑戰是書店方面的業務--這是一個真正的障礙，即使我將訂單發送給大型經銷商，如Ingram，也可能不實用。我很可能只推出推薦書目，在文本信息中提供ISBN和購書來源--沒有營銷或聯盟鏈接。<p>請注意，網站上的語言仍在進行中，網站上的推薦只是一個複製/粘貼的樣本，但我想展示我的意圖。<p>我將準備好測試，並在下週開始將人們添加到列表中。<p>感謝您的意見和建議。\n"
+}

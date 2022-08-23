@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--hackernews--HackerNews--NewsArticle--32565059",
+  "url": "https://news.ycombinator.com/item?id=32565059",
+  "headline": "Ask HN: How do you organize or rename pdf files (books, papers, etc.)?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Is there a tool for finding metadata of pdf files based on their hash or content? Like MusicBraiz Picard for identifying and tagging mp3 files.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ducktective",
+    "url": "https://news.ycombinator.com/user?id=ducktective"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32565059",
+  "sameAs": "https://news.ycombinator.com/item?id=32565059",
+  "dateCreated": "2022-08-23T14:27:43.387Z",
+  "datePublished": "2022-08-23T14:02:32.000Z",
+  "dateModified": "2022-08-23T14:27:43.387Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你如何组织或重命名pdf文件（书籍、论文等）？\n",
+  "headline_zh-Hant": "Ask HN: 你如何組織或重命名pdf文件（書籍、論文等）？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "有没有一种工具可以根据pdf文件的哈希值或内容来查找其元数据？就像MusicBraiz Picard用于识别和标记MP3文件一样。\n",
+  "description_zh-Hant": "有沒有一種工具可以根據pdf文件的哈希值或內容來查找其元數據？就像MusicBraiz Picard用於識別和標記MP3文件一樣。\n"
+}
