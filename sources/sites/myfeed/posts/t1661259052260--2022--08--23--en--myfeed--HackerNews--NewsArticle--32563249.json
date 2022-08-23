@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32563249",
+  "url": "https://news.ycombinator.com/item?id=32563249",
+  "headline": "The opengauss active and standby architecture is used with keeplive",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Is there any risk in using opengauss active and standby architecture with keeplive?<p>Explanation: The use of the opengauss active/standby architecture with keeplive is mainly to consider that the application connection string does not need to be modified when the application uses the domain name (the domain name of the keeplive virtual IP) to connect and switch.<p>Is there a better architecture than this one for opengauss usage scenarios?",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "leo_001",
+    "url": "https://news.ycombinator.com/user?id=leo_001"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32563249",
+  "sameAs": "https://news.ycombinator.com/item?id=32563249",
+  "dateCreated": "2022-08-23T12:50:52.260Z",
+  "datePublished": "2022-08-23T11:30:40.000Z",
+  "dateModified": "2022-08-23T12:50:52.260Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "opengauss主动和待机架构与keeplive\n",
+  "headline_zh-Hant": "opengauss主動和待機架構與keeplive\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "使用opengauss主动和备用架构与keeplive是否有风险？<p>解释一下。使用opengauss主动/备用架构与keeplive，主要是考虑到当应用程序使用域名（keeplive虚拟IP的域名）进行连接和切换时，不需要修改应用程序的连接字符串。<p>对于opengauss的使用场景，是否有比这更好的架构？\n",
+  "description_zh-Hant": "使用opengauss主動和備用架構與keeplive是否有風險？<p>解釋一下。使用opengauss主動/備用架構與keeplive，主要是考慮到當應用程序使用域名（keeplive虛擬IP的域名）進行連接和切換時，不需要修改應用程序的連接字符串。<p>對於opengauss的使用場景，是否有比這更好的架構？\n"
+}
