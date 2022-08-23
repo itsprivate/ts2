@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--askhn--HackerNews--NewsArticle--32566900",
+  "url": "https://news.ycombinator.com/item?id=32566900",
+  "headline": "Ask HN: What does your data-science team use for project management?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I find that Jira and the like, are good for software projects. But, not so suitable for data projects.<p>What are your recommendations?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "krishadi",
+    "url": "https://news.ycombinator.com/user?id=krishadi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32566900",
+  "sameAs": "https://news.ycombinator.com/item?id=32566900",
+  "dateCreated": "2022-08-23T16:36:00.973Z",
+  "datePublished": "2022-08-23T16:01:02.000Z",
+  "dateModified": "2022-08-23T16:36:00.973Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你的数据科学团队用什么来管理项目？\n",
+  "headline_zh-Hant": "Ask HN: 你的數據科學團隊用什麼來管理項目？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我发现，Jira之类的软件项目很好。但是，不太适合数据项目。<p>你有什么建议？\n",
+  "description_zh-Hant": "我發現，Jira之類的軟件項目很好。但是，不太適合數據項目。<p>你有什麼建議？\n"
+}
