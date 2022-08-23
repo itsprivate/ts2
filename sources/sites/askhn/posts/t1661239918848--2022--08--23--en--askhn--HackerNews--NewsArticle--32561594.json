@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--askhn--HackerNews--NewsArticle--32561594",
+  "url": "https://news.ycombinator.com/item?id=32561594",
+  "headline": "Ask HN: How Does S3 Work?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "As a moderately competent computer guy, I've used S3 and from the outside, it looks like a giant network drive that I can access using an API instead. I am familiar with ZFS and RAID systems. But, I've always been curious how S3 works behind the scenes. Since it has been replicated by Google, DigitalOcean, Rackspace, etc.; there must be some common public knowledge how this thing works?<p>Curious:<p>- How does Amazon handle drive failures?<p>- Is my file located on one drive or is it fragmented on the network and then somehow assembled on demand?<p>- How can Amazon achieve 99.99999% reliability?<p>- Where does the permissions/metadata stuff get stored for each file? Is it a centralized database or it gets padded with the file and the stripped when accessing it?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "systemvoltage",
+    "url": "https://news.ycombinator.com/user?id=systemvoltage"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32561594",
+  "sameAs": "https://news.ycombinator.com/item?id=32561594",
+  "dateCreated": "2022-08-23T07:31:58.848Z",
+  "datePublished": "2022-08-23T07:28:19.000Z",
+  "dateModified": "2022-08-23T07:31:58.848Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: S3是如何工作的？\n",
+  "headline_zh-Hant": "Ask HN: S3是如何工作的？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "作为一个中等能力的电脑人，我使用过S3，从外面看，它就像一个巨大的网络驱动器，我可以用API来代替访问。我对ZFS和RAID系统很熟悉。但是，我一直很好奇S3是如何在幕后工作的。既然它已经被谷歌、DigitalOcean、Rackspace等公司复制，肯定有一些共同的公共知识，这个东西是如何工作的？<p>好奇的是：<p>- 亚马逊是如何处理驱动器故障的？<p>- 我的文件是位于一个驱动器上，还是在网络上被分割成碎片，然后以某种方式按需组装？<p>- 亚马逊如何实现99.99999%的可靠性？<p>- 每个文件的权限/元数据东西被储存在哪里？它是一个集中的数据库，还是在访问文件时与文件和剥离的内容一起被填充？\n",
+  "description_zh-Hant": "作為一箇中等能力的電腦人，我使用過S3，從外面看，它就像一個巨大的網絡驅動器，我可以用API來代替訪問。我對ZFS和RAID系統很熟悉。但是，我一直很好奇S3是如何在幕後工作的。既然它已經被谷歌、DigitalOcean、Rackspace等公司複製，肯定有一些共同的公共知識，這個東西是如何工作的？<p>好奇的是：<p>- 亞馬遜是如何處理驅動器故障的？<p>- 我的文件是位於一個驅動器上，還是在網絡上被分割成碎片，然後以某種方式按需組裝？<p>- 亞馬遜如何實現99.99999%的可靠性？<p>- 每個文件的權限/元數據東西被儲存在哪裡？它是一個集中的數據庫，還是在訪問文件時與文件和剝離的內容一起被填充？\n"
+}
