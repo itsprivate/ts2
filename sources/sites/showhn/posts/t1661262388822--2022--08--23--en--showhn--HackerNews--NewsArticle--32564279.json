@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--showhn--HackerNews--NewsArticle--32564279",
+  "url": "https://news.ycombinator.com/item?id=32564279",
+  "headline": "Show HN: Stylemapper – A better way to style React components",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I have never been 100% happy with the way React applications were styled, and I tried lots of options. Recently I started using TailwindCSS, which is great, but there were still a few things I didn't like: \n- It's ugly with CSS classnames all over your component code\n- There is lots of boilerplate for custom components, especially if you are using Typescript and variants\nSo I wrote a little utility that takes care of all the reservations I had. I would love to hear your feedback!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "ivome",
+    "url": "https://news.ycombinator.com/user?id=ivome"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32564279",
+  "sameAs": "https://slicknode.com/blog/stylemapper-style-react-components/",
+  "dateCreated": "2022-08-23T13:46:28.822Z",
+  "datePublished": "2022-08-23T13:00:54.000Z",
+  "dateModified": "2022-08-23T13:46:28.822Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Stylemapper - 一种更好的方式来样式React组件\n",
+  "headline_zh-Hant": "Show HN: Stylemapper - 一種更好的方式來樣式React組件\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我一直对React应用程序的风格化方式不是很满意，我尝试了很多选择。最近我开始使用TailwindCSS，它很不错，但还是有一些我不喜欢的地方。\n- 它的CSS类名遍布你的组件代码，很难看\n- 自定义组件有很多模板，特别是当你使用Typescript和变体的时候。\n所以我写了一个小工具来解决我所有的保留意见。我很想听到你的反馈\n",
+  "description_zh-Hant": "我一直對React應用程序的風格化方式不是很滿意，我嘗試了很多選擇。最近我開始使用TailwindCSS，它很不錯，但還是有一些我不喜歡的地方。\n- 它的CSS類名遍佈你的組件代碼，很難看\n- 自定義組件有很多模板，特別是當你使用Typescript和變體的時候。\n所以我寫了一個小工具來解決我所有的保留意見。我很想聽到你的反饋\n"
+}
