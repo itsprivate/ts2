@@ -1,8 +1,8 @@
 {
   "@type": "NewsArticle",
-  "identifier": "2022--08--20--en--myfeed--HackerNews--NewsArticle--32535623",
-  "url": "https://news.ycombinator.com/item?id=32535623",
-  "headline": "Identity Crisis: Sequence vs. UUID as Primary Key",
+  "identifier": "2022--08--23--en--showhn--HackerNews--NewsArticle--32561701",
+  "url": "https://news.ycombinator.com/item?id=32561701",
+  "headline": "Show HN: Docker for Machine Learning Models",
   "publisher": {
     "@type": "Organization",
     "name": "HackerNews",
@@ -10,24 +10,27 @@
     "logo": "https://hn.buzzing.cc/avatar.png"
   },
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
   "author": {
     "@type": "Person",
-    "name": "h3mb3",
-    "url": "https://news.ycombinator.com/user?id=h3mb3"
+    "name": "gaocegege",
+    "url": "https://news.ycombinator.com/user?id=gaocegege"
   },
-  "discussionUrl": "https://news.ycombinator.com/item?id=32535623",
-  "sameAs": "https://brandur.org/nanoglyphs/026-ids",
-  "dateCreated": "2022-08-20T22:58:05.953Z",
-  "datePublished": "2022-08-20T22:14:55.000Z",
-  "dateModified": "2022-08-20T22:58:05.953Z",
+  "discussionUrl": "https://news.ycombinator.com/item?id=32561701",
+  "sameAs": "https://github.com/kleveross/ormb",
+  "dateCreated": "2022-08-23T07:48:00.134Z",
+  "datePublished": "2022-08-23T07:43:03.000Z",
+  "dateModified": "2022-08-23T07:48:00.134Z",
   "interactionStatistic": [
     {
       "@type": "InteractionCounter",
       "interactionType": {
         "@type": "LikeAction"
       },
-      "userInteractionCount": 2
+      "userInteractionCount": 1
     },
     {
       "@type": "InteractionCounter",
@@ -37,8 +40,8 @@
       "userInteractionCount": 0
     }
   ],
-  "headline_zh-Hans": "身份危机。序列与UUID作为主键的对比\n",
-  "headline_zh-Hant": "身份危機。序列與UUID作為主鍵的對比\n",
+  "headline_zh-Hans": "Show HN: 用于机器学习模型的Docker\n",
+  "headline_zh-Hant": "Show HN: 用於機器學習模型的Docker\n",
   "@context": [
     "https://schema.org",
     {
