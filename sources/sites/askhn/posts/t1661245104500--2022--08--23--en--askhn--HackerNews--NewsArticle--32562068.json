@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--askhn--HackerNews--NewsArticle--32562068",
+  "url": "https://news.ycombinator.com/item?id=32562068",
+  "headline": "Ask HN: Package service to keep software substrate healthy and up to date",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN,<p>after years of work in big tech orgs I gained quite a bit of experience in understanding the software environment where software is deployed and complied in.<p>I like to call all the set of libraries, environment options, setting to compilers or to interpret, software substrate. As it is not the main value but it is fundamental to have an healthy substrate to not incur in software defects.<p>I am the one that can update to the latest library, upgrade the compiler, fix the warnings, deploy the last version of the interpreter, etc... I take care of this software substrate.<p>All operations that are necessary but requires a lot of time and knowledge to get right.<p>I am thinking about packaging this experience as a product for medium to large companies.<p>Ideally I would like to partner with companies that need a stable software foundation and be responsible to deliver the set of tools, libraries, executable, environmental variables, etc... that are needed to succefully develop and deploy software.<p>This will concretise in partnering with the client to understand their codebase. Create a stable software image with all the libraries and tools needed to deploy successfully the software. And keep such base image up to date, by running integration tests using new release of the tools that are needed in the base image.<p>Pointing out what issues the team will encounter in a migration and suggesting the best way forward.<p>Would this kind of service be of any value?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "iot_devs",
+    "url": "https://news.ycombinator.com/user?id=iot_devs"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32562068",
+  "sameAs": "https://news.ycombinator.com/item?id=32562068",
+  "dateCreated": "2022-08-23T08:58:24.500Z",
+  "datePublished": "2022-08-23T08:37:30.000Z",
+  "dateModified": "2022-08-23T08:58:24.500Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 保持软件基质健康和最新的打包服务\n",
+  "headline_zh-Hant": "Ask HN: 保持軟件基質健康和最新的打包服務\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN，<p>在大型技术机构工作多年后，我在了解软件部署和编译的软件环境方面获得了相当多的经验。<p>我喜欢把所有的库、环境选项、对编译器的设置或解释称为软件底层。因为它不是主要的价值，但它是拥有一个健康的底层以避免产生软件缺陷的根本。<p>我是一个可以更新到最新的库、升级编译器、修复警告、部署最新版本的解释器的人，等等。我负责这个软件的底层。<p>所有的操作都是必要的，但需要大量的时间和知识才能做好。<p>我正在考虑将这种经验打包成一个产品，供大中型公司使用。<p>事实上，我想与那些需要稳定的软件基础的公司合作，负责提供成功开发和部署软件所需的一套工具、库、可执行文件、环境变量等等。创建一个稳定的软件镜像，包括成功部署软件所需的所有库和工具。并通过使用基础镜像中所需要的新版工具进行集成测试来保持这种基础镜像的更新。<p>指出团队在迁移中会遇到哪些问题，并提出最佳的前进方式。<p>这种服务是否有任何价值？\n",
+  "description_zh-Hant": "嗨，HN，<p>在大型技術機構工作多年後，我在瞭解軟件部署和編譯的軟件環境方面獲得了相當多的經驗。<p>我喜歡把所有的庫、環境選項、對編譯器的設置或解釋稱為軟件底層。因為它不是主要的價值，但它是擁有一個健康的底層以避免產生軟件缺陷的根本。<p>我是一個可以更新到最新的庫、升級編譯器、修復警告、部署最新版本的解釋器的人，等等。我負責這個軟件的底層。<p>所有的操作都是必要的，但需要大量的時間和知識才能做好。<p>我正在考慮將這種經驗打包成一個產品，供大中型公司使用。<p>事實上，我想與那些需要穩定的軟件基礎的公司合作，負責提供成功開發和部署軟件所需的一套工具、庫、可執行文件、環境變量等等。創建一個穩定的軟件鏡像，包括成功部署軟件所需的所有庫和工具。並通過使用基礎鏡像中所需要的新版工具進行集成測試來保持這種基礎鏡像的更新。<p>指出團隊在遷移中會遇到哪些問題，並提出最佳的前進方式。<p>這種服務是否有任何價值？\n"
+}
