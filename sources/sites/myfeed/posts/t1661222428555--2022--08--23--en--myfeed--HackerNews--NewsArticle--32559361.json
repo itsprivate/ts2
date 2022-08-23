@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32559361",
+  "url": "https://news.ycombinator.com/item?id=32559361",
+  "headline": "Twitter tells employees they might get only half their annual bonus",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fortran77",
+    "url": "https://news.ycombinator.com/user?id=fortran77"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32559361",
+  "sameAs": "https://www.nytimes.com/2022/08/19/technology/twitter-annual-bonus.html",
+  "dateCreated": "2022-08-23T02:40:28.555Z",
+  "datePublished": "2022-08-23T01:08:00.000Z",
+  "dateModified": "2022-08-23T02:40:28.555Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 34
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 15
+    }
+  ],
+  "headline_zh-Hans": "推特告诉员工他们可能只得到一半的年度奖金\n",
+  "headline_zh-Hant": "推特告訴員工他們可能只得到一半的年度獎金\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
