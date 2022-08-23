@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32559116",
+  "url": "https://news.ycombinator.com/item?id=32559116",
+  "headline": "After acquiring Timeful in 2015, Google is shutting down 'goals' in Calendar",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "s3r3nity",
+    "url": "https://news.ycombinator.com/user?id=s3r3nity"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32559116",
+  "sameAs": "https://support.google.com/calendar/answer/12207659?hl=en",
+  "dateCreated": "2022-08-23T02:40:28.481Z",
+  "datePublished": "2022-08-23T00:30:20.000Z",
+  "dateModified": "2022-08-23T02:40:28.481Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "在2015年收购了Timeful之后，谷歌正在关闭日历中的 \"目标\"。\n",
+  "headline_zh-Hant": "在2015年收購了Timeful之後，谷歌正在關閉日曆中的 \"目標\"。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

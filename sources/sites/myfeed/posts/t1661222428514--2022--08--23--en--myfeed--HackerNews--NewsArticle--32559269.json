@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32559269",
+  "url": "https://news.ycombinator.com/item?id=32559269",
+  "headline": "My black body story (it's physics)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "winkywooster",
+    "url": "https://news.ycombinator.com/user?id=winkywooster"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32559269",
+  "sameAs": "https://commandcenter.blogspot.com/2022/08/my-black-body-story-its-physics.html",
+  "dateCreated": "2022-08-23T02:40:28.514Z",
+  "datePublished": "2022-08-23T00:53:35.000Z",
+  "dateModified": "2022-08-23T02:40:28.514Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 25
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "我的黑体故事（它是物理学）\n",
+  "headline_zh-Hant": "我的黑體故事（它是物理學）\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

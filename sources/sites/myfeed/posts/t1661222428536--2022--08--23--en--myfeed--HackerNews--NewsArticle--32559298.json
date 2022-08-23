@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32559298",
+  "url": "https://news.ycombinator.com/item?id=32559298",
+  "headline": "Chinese censors change ending of latest 'Minions' movie",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "clouddrover",
+    "url": "https://news.ycombinator.com/user?id=clouddrover"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32559298",
+  "sameAs": "https://www.cnn.com/2022/08/22/business/minions-movie-chinese-censorship-intl-scli/index.html",
+  "dateCreated": "2022-08-23T02:40:28.536Z",
+  "datePublished": "2022-08-23T00:58:45.000Z",
+  "dateModified": "2022-08-23T02:40:28.536Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "中国审查机构改变了最新的 \"仆人 \"电影的结局\n",
+  "headline_zh-Hant": "中國審查機構改變了最新的 \"僕人 \"電影的結局\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
