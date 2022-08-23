@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32561260",
+  "url": "https://news.ycombinator.com/item?id=32561260",
+  "headline": "Fortifying federated access to AWS via OIDC",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jegowr",
+    "url": "https://news.ycombinator.com/user?id=jegowr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32561260",
+  "sameAs": "https://old.reddit.com/r/aws/comments/wvhi7v/fortifying_federated_access_to_aws_via_oidc/",
+  "dateCreated": "2022-08-23T07:01:44.203Z",
+  "datePublished": "2022-08-23T06:42:53.000Z",
+  "dateModified": "2022-08-23T07:01:44.203Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "通过OIDC强化对AWS的联合访问\n",
+  "headline_zh-Hant": "通過OIDC強化對AWS的聯合訪問\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
