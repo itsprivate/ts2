@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32565726",
+  "url": "https://news.ycombinator.com/item?id=32565726",
+  "headline": "Ossia Score 3.1.1 released with 3D support",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jcelerier",
+    "url": "https://news.ycombinator.com/user?id=jcelerier"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32565726",
+  "sameAs": "https://github.com/ossia/score/releases",
+  "dateCreated": "2022-08-23T15:27:49.762Z",
+  "datePublished": "2022-08-23T14:50:22.000Z",
+  "dateModified": "2022-08-23T15:27:49.762Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ossia Score 3.1.1发布，支持3D功能\n",
+  "headline_zh-Hant": "Ossia Score 3.1.1發佈，支持3D功能\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
