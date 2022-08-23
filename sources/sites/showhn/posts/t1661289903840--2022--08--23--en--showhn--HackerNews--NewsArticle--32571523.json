@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--showhn--HackerNews--NewsArticle--32571523",
+  "url": "https://news.ycombinator.com/item?id=32571523",
+  "headline": "Show HN: Stable Diffusion browser-based UI on localhost",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "cmdr2",
+    "url": "https://news.ycombinator.com/user?id=cmdr2"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32571523",
+  "sameAs": "https://github.com/cmdr2/stable-diffusion-ui",
+  "dateCreated": "2022-08-23T21:25:03.840Z",
+  "datePublished": "2022-08-23T21:07:26.000Z",
+  "dateModified": "2022-08-23T21:25:03.840Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 在本地主机上稳定的基于浏览器的Diffusion用户界面\n",
+  "headline_zh-Hant": "Show HN: 在本地主機上穩定的基於瀏覽器的Diffusion用戶界面\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
