@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32560361",
+  "url": "https://news.ycombinator.com/item?id=32560361",
+  "headline": "Google refuses to reinstate account after man took medical images of son’s groin",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sandebert",
+    "url": "https://news.ycombinator.com/user?id=sandebert"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32560361",
+  "sameAs": "https://www.theguardian.com/technology/2022/aug/22/google-csam-account-blocked",
+  "dateCreated": "2022-08-23T04:30:08.055Z",
+  "datePublished": "2022-08-23T04:07:18.000Z",
+  "dateModified": "2022-08-23T04:30:08.055Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "男子拍下儿子腹股沟的医疗图片后，谷歌拒绝恢复账户资格\n",
+  "headline_zh-Hant": "男子拍下兒子腹股溝的醫療圖片後，谷歌拒絕恢復賬戶資格\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

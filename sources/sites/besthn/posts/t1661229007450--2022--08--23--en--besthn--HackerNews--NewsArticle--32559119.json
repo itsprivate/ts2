@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--besthn--HackerNews--NewsArticle--32559119",
+  "url": "https://news.ycombinator.com/item?id=32559119",
+  "headline": "An odd discovery on Spotify",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "breathenow",
+    "url": "https://news.ycombinator.com/user?id=breathenow"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32559119",
+  "sameAs": "https://www.robinsloan.com/newsletters/visions/#spotify",
+  "dateCreated": "2022-08-23T04:30:07.450Z",
+  "datePublished": "2022-08-23T00:30:52.000Z",
+  "dateModified": "2022-08-23T04:30:07.450Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 231
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 83
+    }
+  ],
+  "headline_zh-Hans": "Spotify上的一个奇怪的发现\n",
+  "headline_zh-Hant": "Spotify上的一個奇怪的發現\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
