@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--askhn--HackerNews--NewsArticle--32568386",
+  "url": "https://news.ycombinator.com/item?id=32568386",
+  "headline": "Ask HN: Reverse engineering whirpool.net.au into a F/OSS web app",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Whirlpool (AKA WP), is a very popular tech 'forum' in Australia / Nz.<p>For an overview of it's arch, see here:\nhttps://whirlpool.net.au/wiki/wp_architecture<p>And these 2 links lead off to just about anything else related to the service:\nhttps://forums.whirlpool.net.au\nhttps://whirlpool.net.au/wiki<p>For those unfamiliar, there's a tonne of great enduser features (inc. a very powerful userscript called wp+).<p>I'd love to rebuild it all into a modern FOSS web app, one that uses just html/css/js etc, instead of java.<p>With it's own unique UX/UI, but one that still hints-at or feels, a lot like WP.<p>Interested in folks thoughts on how best to approach this.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "SaulJLH",
+    "url": "https://news.ycombinator.com/user?id=SaulJLH"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32568386",
+  "sameAs": "https://news.ycombinator.com/item?id=32568386",
+  "dateCreated": "2022-08-23T17:55:55.657Z",
+  "datePublished": "2022-08-23T17:41:46.000Z",
+  "dateModified": "2022-08-23T17:55:55.657Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 将whirpool.net.au逆向工程成一个F/OSS网络应用程序\n",
+  "headline_zh-Hant": "Ask HN: 將whirpool.net.au逆向工程成一個F/OSS網絡應用程序\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "惠而浦（AKA WP），在澳大利亚/新西兰是一个非常受欢迎的技术 \"论坛\"。<p>关于它的档案的概述，请看这里。\nhttps://whirlpool.net.au/wiki/wp_architecture<p>而这2个链接则是通往与该服务相关的任何其他内容。\nhttps://forums.whirlpool.net.au\nhttps://whirlpool.net.au/wiki<p>对于那些不熟悉的人来说，有大量伟大的最终用户功能（包括一个非常强大的用户脚本，称为wp+）。<p>我想把它全部重建为一个现代的FOSS网络应用，一个只使用html/css/js等，而不是java的应用。<p>有自己独特的UX/UI，但仍然暗示或感觉，很像WP。<p>对人们关于如何最好地处理这个问题的想法感兴趣。\n",
+  "description_zh-Hant": "惠而浦（AKA WP），在澳大利亞/新西蘭是一個非常受歡迎的技術 \"論壇\"。<p>關於它的檔案的概述，請看這裡。\nhttps://whirlpool.net.au/wiki/wp_architecture<p>而這2個鏈接則是通往與該服務相關的任何其他內容。\nhttps://forums.whirlpool.net.au\nhttps://whirlpool.net.au/wiki<p>對於那些不熟悉的人來說，有大量偉大的最終用戶功能（包括一個非常強大的用戶腳本，稱為wp+）。<p>我想把它全部重建為一個現代的FOSS網絡應用，一個只使用html/css/js等，而不是java的應用。<p>有自己獨特的UX/UI，但仍然暗示或感覺，很像WP。<p>對人們關於如何最好地處理這個問題的想法感興趣。\n"
+}
