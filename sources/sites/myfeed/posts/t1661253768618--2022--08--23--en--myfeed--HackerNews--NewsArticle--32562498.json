@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32562498",
+  "url": "https://news.ycombinator.com/item?id=32562498",
+  "headline": "Tell HN: Google Photos API does not allow downloading original images",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Inspired by the NYTimes story[1] of the past few days of several families that were locked out of their Google accounts forever I decided to try syncing my photo library from Google Photos to S3 using rclone, but it turns out Google Photos does not support getting your original quality photos back OUT. The only way is through the manual and laborious &quot;takeout&quot; process.<p>[1]: https://www.nytimes.com/2022/08/21/technology/google-surveillance-toddler-photo.html",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "tommoor",
+    "url": "https://news.ycombinator.com/user?id=tommoor"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32562498",
+  "sameAs": "https://news.ycombinator.com/item?id=32562498",
+  "dateCreated": "2022-08-23T11:22:48.618Z",
+  "datePublished": "2022-08-23T09:49:01.000Z",
+  "dateModified": "2022-08-23T11:22:48.618Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：谷歌照片API不允许下载原始图片\n",
+  "headline_zh-Hant": "告訴HN：谷歌照片API不允許下載原始圖片\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "受《纽约时报》过去几天关于几个家庭被永远锁在谷歌账户外的故事[1]的启发，我决定尝试使用rclone将我的照片库从谷歌照片同步到S3，但事实证明，谷歌照片不支持将你的原始质量照片拿回来OUT。唯一的办法是通过手动和费力的&quot;取出&quot;过程。<p>[1]: https://www.nytimes.com/2022/08/21/technology/google-surveillance-toddler-photo.html\n",
+  "description_zh-Hant": "受《紐約時報》過去幾天關於幾個家庭被永遠鎖在谷歌賬戶外的故事[1]的啟發，我決定嘗試使用rclone將我的照片庫從谷歌照片同步到S3，但事實證明，谷歌照片不支持將你的原始質量照片拿回來OUT。唯一的辦法是通過手動和費力的&quot;取出&quot;過程。<p>[1]: https://www.nytimes.com/2022/08/21/technology/google-surveillance-toddler-photo.html\n"
+}
