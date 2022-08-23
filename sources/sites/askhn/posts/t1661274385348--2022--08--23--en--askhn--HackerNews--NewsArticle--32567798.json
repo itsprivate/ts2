@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--askhn--HackerNews--NewsArticle--32567798",
+  "url": "https://news.ycombinator.com/item?id=32567798",
+  "headline": "Ask HN: How Do You Navigate Code?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've been working in a new codebase recently, and I've been struggling to navigate code. I don't think this code is organized particularly poorly, but I still find myself jumping around and having quite a few files/tabs open trying to follow the thread. In this case some of this code is object oriented and so there's lots of jumping between class and base classes (often multiple base classes deep...) to see where anything happens. I've used VIM marks in the past, I'm trying a bookmarking extension for VS Code, and sometimes I open multiple files in splits to keep things &quot;in context&quot;, but I still feel like these are all less than ideal and it's very easy if I step away from my computer for a few minutes for it all to leak out of my brain and then I spend the next 30 minutes trying to get it all back before I can work on the problem.<p>Looking for any tips you all might have for making this easier.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "Davertron",
+    "url": "https://news.ycombinator.com/user?id=Davertron"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32567798",
+  "sameAs": "https://news.ycombinator.com/item?id=32567798",
+  "dateCreated": "2022-08-23T17:06:25.348Z",
+  "datePublished": "2022-08-23T17:01:01.000Z",
+  "dateModified": "2022-08-23T17:06:25.348Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你是如何浏览代码的？\n",
+  "headline_zh-Hant": "Ask HN: 你是如何瀏覽代碼的？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我最近一直在一个新的代码库中工作，我一直在努力浏览代码。我不认为这段代码的组织性特别差，但我还是发现自己跳来跳去，并且打开了很多文件/标签，试图跟随线索。在这种情况下，有些代码是面向对象的，所以在类和基类（通常是多个基类的深度......）之间有很多跳转，看看哪里发生了什么。我过去曾使用过VIM标记，我正在尝试VS Code的书签扩展，有时我以分割的方式打开多个文件，以保持事情的上下文，但我仍然觉得这些都不太理想，如果我离开电脑几分钟，就很容易从我的大脑中漏掉，然后我在接下来的30分钟里试图把它全部找回来，然后再去解决这个问题。\n",
+  "description_zh-Hant": "我最近一直在一個新的代碼庫中工作，我一直在努力瀏覽代碼。我不認為這段代碼的組織性特別差，但我還是發現自己跳來跳去，並且打開了很多文件/標籤，試圖跟隨線索。在這種情況下，有些代碼是面向對象的，所以在類和基類（通常是多個基類的深度......）之間有很多跳轉，看看哪裡發生了什麼。我過去曾使用過VIM標記，我正在嘗試VS Code的書籤擴展，有時我以分割的方式打開多個文件，以保持事情的上下文，但我仍然覺得這些都不太理想，如果我離開電腦幾分鐘，就很容易從我的大腦中漏掉，然後我在接下來的30分鐘裡試圖把它全部找回來，然後再去解決這個問題。\n"
+}
