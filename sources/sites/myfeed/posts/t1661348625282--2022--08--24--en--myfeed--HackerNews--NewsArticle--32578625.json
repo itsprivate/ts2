@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32578625",
+  "url": "https://news.ycombinator.com/item?id=32578625",
+  "headline": "G'mic: A Full-Featured Open-Source Framework for Image Processing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "asicsp",
+    "url": "https://news.ycombinator.com/user?id=asicsp"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32578625",
+  "sameAs": "https://gmic.eu/",
+  "dateCreated": "2022-08-24T13:43:45.282Z",
+  "datePublished": "2022-08-24T12:40:23.000Z",
+  "dateModified": "2022-08-24T13:43:45.282Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "G'mic: 一个全功能的图像处理开源框架\n",
+  "headline_zh-Hant": "G'mic: 一個全功能的圖像處理開源框架\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
