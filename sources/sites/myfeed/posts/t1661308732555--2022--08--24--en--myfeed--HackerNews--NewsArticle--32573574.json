@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32573574",
+  "url": "https://news.ycombinator.com/item?id=32573574",
+  "headline": "The World’s Biggest Hacker Rickroll",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "anotherevan",
+    "url": "https://news.ycombinator.com/user?id=anotherevan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32573574",
+  "sameAs": "https://www.wired.com/story/biggest-hacker-rickroll-high-school-prank/",
+  "dateCreated": "2022-08-24T02:38:52.555Z",
+  "datePublished": "2022-08-24T00:38:42.000Z",
+  "dateModified": "2022-08-24T02:38:52.555Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "世界上最大的黑客漫游（The World's Biggest Hacker Rickroll\n",
+  "headline_zh-Hant": "世界上最大的黑客漫遊（The World's Biggest Hacker Rickroll\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
