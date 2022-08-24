@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32579300",
+  "url": "https://news.ycombinator.com/item?id=32579300",
+  "headline": "Website leaks geo coordinates and email of people",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "drpepp",
+    "url": "https://news.ycombinator.com/user?id=drpepp"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32579300",
+  "sameAs": "https://github.com/jzarca01/lib-windowswap",
+  "dateCreated": "2022-08-24T13:43:45.459Z",
+  "datePublished": "2022-08-24T13:39:21.000Z",
+  "dateModified": "2022-08-24T13:43:45.459Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "网站泄露了人们的地理坐标和电子邮件\n",
+  "headline_zh-Hant": "網站洩露了人們的地理座標和電子郵件\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
