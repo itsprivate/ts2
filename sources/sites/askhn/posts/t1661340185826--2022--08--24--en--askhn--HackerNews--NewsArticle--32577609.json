@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--askhn--HackerNews--NewsArticle--32577609",
+  "url": "https://news.ycombinator.com/item?id=32577609",
+  "headline": "Ask HN: Mature tools for availability when app shutdown outside of buisness hour",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello,<p>I just joined a new company in the observability team. We used Datadog for observability. Datadog support computing app availability based on unsuccessful monitoring checks that can happen. However as i learned when joining the company, this won't work in our case.<p>Why? : The vast majority ( 500+) of the company app don't run 24*7, they have different business hours ( like 9-5) but outside of these business hours, apps are shutdown. So for example for a 9-5 , app will be shutdown at 5 and restart tomorrow at 9. And Datadog don't support that. It has maintenance window but they can not be scheduled, the same is valid for monitoring mute.<p>So the team ( I was not there at this moment) tried to code a scheduler to send through API maintenance windows each day but the datadog availability computation was not correct.They decided to build their own tool which took as sources: datadog unsuccessful checks + table of business hours per app and allow to calculate app availability. The results were correct.<p>However as I joined the team, I found that this code will be very difficult to maintain at longer term. So if someone knows a tool ( preferably opensource but i am open) that can help, i am interested.\nPS: The tool can't be a datadog alternative because the observability platform can be changed.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "azebazenestor",
+    "url": "https://news.ycombinator.com/user?id=azebazenestor"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32577609",
+  "sameAs": "https://news.ycombinator.com/item?id=32577609",
+  "dateCreated": "2022-08-24T11:23:05.826Z",
+  "datePublished": "2022-08-24T10:50:28.000Z",
+  "dateModified": "2022-08-24T11:23:05.826Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 当应用程序在营业时间外关闭时，有成熟的工具可以使用。\n",
+  "headline_zh-Hant": "Ask HN: 當應用程序在營業時間外關閉時，有成熟的工具可以使用。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你好，<p>我刚刚加入一家新公司的可观察性团队。我们使用Datadog进行观察性工作。Datadog支持根据可能发生的不成功的监控检查来计算应用程序的可用性。然而，正如我在加入公司时了解到的那样，这在我们的案例中是行不通的。 <p>为什么？：公司的绝大多数（500多个）应用不是24*7运行的，它们有不同的营业时间（如9-5），但在这些营业时间之外，应用是关闭的。例如，对于朝九晚五的人来说，应用程序会在5点关闭，明天9点重新启动，而Datadog并不支持这样做。他们决定建立自己的工具，该工具的来源是：Datadog不成功的检查+每个应用程序的营业时间表，并允许计算应用程序的可用性。<p>但是，当我加入这个团队时，我发现这个代码很难长期维护。因此，如果有人知道有什么工具（最好是开源的，但我是开放的）可以帮忙，我很感兴趣。\nPS：这个工具不可能是datadog的替代品，因为可观察性平台可以被改变。\n",
+  "description_zh-Hant": "你好，<p>我剛剛加入一家新公司的可觀察性團隊。我們使用Datadog進行觀察性工作。Datadog支持根據可能發生的不成功的監控檢查來計算應用程序的可用性。然而，正如我在加入公司時瞭解到的那樣，這在我們的案例中是行不通的。 <p>為什麼？：公司的絕大多數（500多個）應用不是24*7運行的，它們有不同的營業時間（如9-5），但在這些營業時間之外，應用是關閉的。例如，對於朝九晚五的人來說，應用程序會在5點關閉，明天9點重新啟動，而Datadog並不支持這樣做。他們決定建立自己的工具，該工具的來源是：Datadog不成功的檢查+每個應用程序的營業時間表，並允許計算應用程序的可用性。<p>但是，當我加入這個團隊時，我發現這個代碼很難長期維護。因此，如果有人知道有什麼工具（最好是開源的，但我是開放的）可以幫忙，我很感興趣。\nPS：這個工具不可能是datadog的替代品，因為可觀察性平臺可以被改變。\n"
+}
