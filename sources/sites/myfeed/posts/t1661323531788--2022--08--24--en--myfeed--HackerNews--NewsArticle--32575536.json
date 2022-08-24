@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32575536",
+  "url": "https://news.ycombinator.com/item?id=32575536",
+  "headline": "Tell HN: Plex was hacked, emails and hashed passwords stolen",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Received this email from Plex today.<p>Dear Plex User,\nWe want you to be aware of an incident involving your Plex account information yesterday. While we believe the actual impact of this incident is limited, we want to ensure you have the right information and tools to keep your account secure.<p>What happened<p>Yesterday, we discovered suspicious activity on one of our databases. We immediately began an investigation and it does appear that a third-party was able to access a limited subset of data that includes emails, usernames, and encrypted passwords. Even though all account passwords that could have been accessed were hashed and secured in accordance with best practices, out of an abundance of caution we are requiring all Plex accounts to have their password reset. Rest assured that credit card and other payment data are not stored on our servers at all and were not vulnerable in this incident.<p>What we're doing<p>We've already addressed the method that this third-party employed to gain access to the system, and we're doing additional reviews to ensure that the security of all of our systems is further hardened to prevent future incursions. While the account passwords were secured in accordance with best practices, we're requiring all Plex users to reset their password.<p>What you can do<p>Long story short, we kindly request that you reset your Plex account password immediately. When doing so, there's a checkbox to &quot;Sign out connected devices after password change.&quot; This will additionally sign out all of your devices (including any Plex Media Server you own) and require you to sign back in with your new password. This is a headache, but we recommend doing so for increased security. We have created a support article with step-by-step instructions on how to reset your password here.\nWe'd also like to remind you that no one at Plex will ever reach out to you to ask for a password or credit card number over email. For further account protection, we also recommend enabling two-factor authentication on your Plex account if you haven't already done so.\nLastly, we sincerely apologize to you for any inconvenience this situation may cause. We take pride in our security system and want to assure you that we are doing everything we can to swiftly remedy this incident and prevent future incidents from occurring. We are all too aware that third-parties will continue to attempt to infiltrate IT infrastructures around the world, and rest assured we at Plex will never be complacent in hardening our security and defenses.\nFor step-by-step instructions on how to reset your password, visit: https://support.plex.tv/articles/account-requires-password-reset<p>Thank you, \nThe Plex Security Team",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "honkdaddy",
+    "url": "https://news.ycombinator.com/user?id=honkdaddy"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32575536",
+  "sameAs": "https://news.ycombinator.com/item?id=32575536",
+  "dateCreated": "2022-08-24T06:45:31.788Z",
+  "datePublished": "2022-08-24T06:18:55.000Z",
+  "dateModified": "2022-08-24T06:45:31.788Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：Plex被黑，电子邮件和散列密码被盗\n",
+  "headline_zh-Hant": "告訴HN：Plex被黑，電子郵件和散列密碼被盜\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "今天收到了Plex的这封邮件。<p>亲爱的Plex用户。\n我们希望你注意到昨天发生的涉及你的Plex账户信息的事件。虽然我们认为这一事件的实际影响有限，但我们希望确保你有正确的信息和工具来保证你的账户安全。<p>发生了什么<p>昨天，我们发现我们的一个数据库有可疑活动。我们立即开始调查，看来一个第三方确实能够访问有限的数据子集，包括电子邮件、用户名和加密密码。尽管所有可能被访问的账户密码都按照最佳做法进行了加密和保护，但出于谨慎的考虑，我们要求所有Plex账户重新设置密码。请放心，信用卡和其他支付数据根本没有存储在我们的服务器上，在这一事件中没有漏洞。<p>我们正在做什么<p>我们已经解决了这个第三方采用的访问系统的方法，我们正在做额外的审查，以确保我们所有系统的安全性得到进一步加强，以防止未来的入侵。虽然账户密码的安全符合最佳做法，但我们要求所有Plex用户重新设置密码。<p>你能做什么<p>长话短说，我们恳请你立即重新设置你的Plex账户密码。在这样做的时候，有一个复选框\"&quot;密码更改后退出连接的设备\"&quot;这将额外地退出你所有的设备（包括你拥有的任何Plex媒体服务器），并要求你用新密码重新登录。这是一个令人头痛的问题，但我们建议这样做以提高安全性。我们已经创建了一篇支持文章，其中有关于如何重置密码的分步说明。\n我们还想提醒你，Plex不会有人通过电子邮件向你索要密码或信用卡号码。为了进一步保护账户，我们还建议在你的Plex账户上启用双因素认证，如果你还没有这样做的话。\n最后，我们对这种情况可能造成的任何不便表示真诚的歉意。我们对我们的安全系统感到自豪，并希望向你保证，我们正在尽一切努力迅速补救这一事件，并防止未来事件的发生。我们非常清楚，第三方将继续试图渗入世界各地的IT基础设施，请放心，我们Plex在加强安全和防御方面绝不会自满。\n关于如何重置密码的步骤说明，请访问：https://support.plex.tv/articles/account-requires-password-reset<p>谢谢你。\nPlex安全团队\n",
+  "description_zh-Hant": "今天收到了Plex的這封郵件。<p>親愛的Plex用戶。\n我們希望你注意到昨天發生的涉及你的Plex賬戶信息的事件。雖然我們認為這一事件的實際影響有限，但我們希望確保你有正確的信息和工具來保證你的賬戶安全。<p>發生了什麼<p>昨天，我們發現我們的一個數據庫有可疑活動。我們立即開始調查，看來一個第三方確實能夠訪問有限的數據子集，包括電子郵件、用戶名和加密密碼。儘管所有可能被訪問的賬戶密碼都按照最佳做法進行了加密和保護，但出於謹慎的考慮，我們要求所有Plex賬戶重新設置密碼。請放心，信用卡和其他支付數據根本沒有存儲在我們的服務器上，在這一事件中沒有漏洞。<p>我們正在做什麼<p>我們已經解決了這個第三方採用的訪問系統的方法，我們正在做額外的審查，以確保我們所有系統的安全性得到進一步加強，以防止未來的入侵。雖然賬戶密碼的安全符合最佳做法，但我們要求所有Plex用戶重新設置密碼。<p>你能做什麼<p>長話短說，我們懇請你立即重新設置你的Plex賬戶密碼。在這樣做的時候，有一個複選框\"&quot;密碼更改後退出連接的設備\"&quot;這將額外地退出你所有的設備（包括你擁有的任何Plex媒體服務器），並要求你用新密碼重新登錄。這是一個令人頭痛的問題，但我們建議這樣做以提高安全性。我們已經創建了一篇支持文章，其中有關於如何重置密碼的分步說明。\n我們還想提醒你，Plex不會有人通過電子郵件向你索要密碼或信用卡號碼。為了進一步保護賬戶，我們還建議在你的Plex賬戶上啟用雙因素認證，如果你還沒有這樣做的話。\n最後，我們對這種情況可能造成的任何不便表示真誠的歉意。我們對我們的安全系統感到自豪，並希望向你保證，我們正在盡一切努力迅速補救這一事件，並防止未來事件的發生。我們非常清楚，第三方將繼續試圖滲入世界各地的IT基礎設施，請放心，我們Plex在加強安全和防禦方面絕不會自滿。\n關於如何重置密碼的步驟說明，請訪問：https://support.plex.tv/articles/account-requires-password-reset<p>謝謝你。\nPlex安全團隊\n"
+}
