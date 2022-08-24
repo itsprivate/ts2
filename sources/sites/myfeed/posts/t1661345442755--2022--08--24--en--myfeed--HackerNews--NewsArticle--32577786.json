@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32577786",
+  "url": "https://news.ycombinator.com/item?id=32577786",
+  "headline": "The Template Method Pattern and the Non-Virtual Idiom",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "todsacerdoti",
+    "url": "https://news.ycombinator.com/user?id=todsacerdoti"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32577786",
+  "sameAs": "https://www.sandordargo.com/blog/2022/08/24/tmp-and-nvi",
+  "dateCreated": "2022-08-24T12:50:42.755Z",
+  "datePublished": "2022-08-24T11:10:21.000Z",
+  "dateModified": "2022-08-24T12:50:42.755Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "模板方法模式和非虚拟成语\n",
+  "headline_zh-Hant": "模板方法模式和非虛擬成語\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
