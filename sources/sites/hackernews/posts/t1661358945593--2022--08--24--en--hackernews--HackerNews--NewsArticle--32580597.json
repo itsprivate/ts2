@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--hackernews--HackerNews--NewsArticle--32580597",
+  "url": "https://news.ycombinator.com/item?id=32580597",
+  "headline": "Ask HN: Are You Leaving Heroku?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "It seems like Heroku has been dying on a vine. The platform is still incredible and unmatched in Developer Experience, but recent security incidents (along with a severely prolonged resolution), downtime, and (just yesterday) a DNS-related issue is making me reconsider and quite possibly will move some mission-critical apps to AWS.<p>Are you migrating away from Heroku? If so, which cloud provider are you using (AWS, Google Cloud, Azure, etc)? What's your stack and what service are you migrating to (ECS, Elastic Beanstalk, etc)?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "seancoleman",
+    "url": "https://news.ycombinator.com/user?id=seancoleman"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32580597",
+  "sameAs": "https://news.ycombinator.com/item?id=32580597",
+  "dateCreated": "2022-08-24T16:35:45.593Z",
+  "datePublished": "2022-08-24T15:22:23.000Z",
+  "dateModified": "2022-08-24T16:35:45.593Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 33
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 22
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你要离开Heroku了吗？\n",
+  "headline_zh-Hant": "Ask HN: 你要離開Heroku了嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "看起来Heroku已经在藤蔓上死去了。这个平台仍然令人难以置信，在开发者体验方面无与伦比，但最近的安全事件（以及严重延长的解决方案）、停机时间和（就在昨天）与DNS有关的问题让我重新考虑，很可能将一些关键任务的应用程序转移到AWS。如果是这样，你使用的是哪家云服务提供商（AWS、谷歌云、Azure等）？你的堆栈是什么，你要迁移到什么服务（ECS、Elastic Beanstalk，等等）？\n",
+  "description_zh-Hant": "看起來Heroku已經在藤蔓上死去了。這個平臺仍然令人難以置信，在開發者體驗方面無與倫比，但最近的安全事件（以及嚴重延長的解決方案）、停機時間和（就在昨天）與DNS有關的問題讓我重新考慮，很可能將一些關鍵任務的應用程序轉移到AWS。如果是這樣，你使用的是哪家雲服務提供商（AWS、谷歌雲、Azure等）？你的堆棧是什麼，你要遷移到什麼服務（ECS、Elastic Beanstalk，等等）？\n"
+}

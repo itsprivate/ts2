@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32581025",
+  "url": "https://news.ycombinator.com/item?id=32581025",
+  "headline": "Play&Sing – free iPad app for piano singers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "PlayAndSing",
+    "url": "https://news.ycombinator.com/user?id=PlayAndSing"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32581025",
+  "sameAs": "https://apps.apple.com/us/app/play-sing/id1633212114",
+  "dateCreated": "2022-08-24T16:35:45.845Z",
+  "datePublished": "2022-08-24T15:49:10.000Z",
+  "dateModified": "2022-08-24T16:35:45.845Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Play&Sing - 为钢琴歌手提供的免费iPad应用程序\n",
+  "headline_zh-Hant": "Play&Sing - 為鋼琴歌手提供的免費iPad應用程序\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
