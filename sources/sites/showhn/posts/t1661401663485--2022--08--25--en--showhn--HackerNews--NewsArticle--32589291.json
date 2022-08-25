@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--showhn--HackerNews--NewsArticle--32589291",
+  "url": "https://news.ycombinator.com/item?id=32589291",
+  "headline": "Show HN: Eclipse: Python-fire inspired library to simplify creating CLIs in Go",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm a Go noob (coming from Python) and was missing python-fire's simplicity when writing quick CLIs in Go, hence this project.<p>I know this is not idiomatic Go (with magic methods and what not), I tried to minimize the magic as much as I could while still bringing most of the features I was using in python-fire.<p>Any feedback is appreciated!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "avamsi",
+    "url": "https://news.ycombinator.com/user?id=avamsi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32589291",
+  "sameAs": "https://github.com/avamsi/eclipse",
+  "dateCreated": "2022-08-25T04:27:43.485Z",
+  "datePublished": "2022-08-25T03:55:13.000Z",
+  "dateModified": "2022-08-25T04:27:43.485Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Eclipse。受Python-fire启发的库，简化了Go中CLI的创建过程\n",
+  "headline_zh-Hant": "Show HN: Eclipse。受Python-fire啟發的庫，簡化了Go中CLI的創建過程\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我是一个Go新手（来自Python），在用Go编写快速CLI时，我很怀念python-fire的简单性，所以才有了这个项目。<p>我知道这不是习惯性的Go（有魔法方法什么的），我试图尽可能地减少魔法，同时仍然带来我在python-fire中的大部分功能。\n",
+  "description_zh-Hant": "我是一個Go新手（來自Python），在用Go編寫快速CLI時，我很懷念python-fire的簡單性，所以才有了這個項目。<p>我知道這不是習慣性的Go（有魔法方法什麼的），我試圖儘可能地減少魔法，同時仍然帶來我在python-fire中的大部分功能。\n"
+}
