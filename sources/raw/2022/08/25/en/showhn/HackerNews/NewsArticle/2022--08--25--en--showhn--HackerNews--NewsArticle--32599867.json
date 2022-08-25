@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--showhn--HackerNews--NewsArticle--32599867",
+  "url": "https://news.ycombinator.com/item?id=32599867",
+  "headline": "Neural Network Translation Running in the Browser with Transformers-JS",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I wrote a javascript library that lets you run modern transformer neural networks from Hugging Face  in the browser. It works on mobile browsers, desktop browsers, pretty much everywhere.<p>This is a little translation web app that is able to go from English to French, German, and Romanian.<p>When you run it the first time, it will take some time to download the neural network. After that, the browser can cache it and subsequent reloads will be faster.<p>It’s hosted on Azure Static Web Apps to demonstrate that no logic is running on the server. The server merely provides the neural network data to be downloaded and run on the browser. Pretty cool, huh?",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "praeclarum",
+    "url": "https://news.ycombinator.com/user?id=praeclarum"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32599867",
+  "sameAs": "https://transformers-js.praeclarum.org",
+  "dateCreated": "2022-08-25T21:00:26.570Z",
+  "datePublished": "2022-08-25T20:59:22.000Z",
+  "dateModified": "2022-08-25T21:00:26.570Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
