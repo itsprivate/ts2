@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--hackernews--HackerNews--NewsArticle--32576231",
+  "url": "https://news.ycombinator.com/item?id=32576231",
+  "headline": "An Industrial-Strength Audio Search Algorithm [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "memorable",
+    "url": "https://news.ycombinator.com/user?id=memorable"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32576231",
+  "sameAs": "https://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf",
+  "dateCreated": "2022-08-25T05:45:54.511Z",
+  "datePublished": "2022-08-24T08:09:01.000Z",
+  "dateModified": "2022-08-25T05:45:54.511Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 13
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一个工业级的音频搜索算法 [pdf]\n",
+  "headline_zh-Hant": "一個工業級的音頻搜索算法 [pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

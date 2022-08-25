@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--besthn--HackerNews--NewsArticle--32587740",
+  "url": "https://news.ycombinator.com/item?id=32587740",
+  "headline": "A 14kb page can load much faster than a 15kb page",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "DitheringIdiot",
+    "url": "https://news.ycombinator.com/user?id=DitheringIdiot"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32587740",
+  "sameAs": "https://endtimes.dev/why-your-website-should-be-under-14kb-in-size/",
+  "dateCreated": "2022-08-25T05:45:54.401Z",
+  "datePublished": "2022-08-25T00:24:46.000Z",
+  "dateModified": "2022-08-25T05:45:54.401Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 227
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 95
+    }
+  ],
+  "headline_zh-Hans": "一个14kb的页面可以比一个15kb的页面加载得更快\n",
+  "headline_zh-Hant": "一個14kb的頁面可以比一個15kb的頁面加載得更快\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
