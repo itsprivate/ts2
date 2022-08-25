@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--askhn--HackerNews--NewsArticle--32598881",
+  "url": "https://news.ycombinator.com/item?id=32598881",
+  "headline": "Why does macOS assume PC and PS/2 RTF encodings came from NeXT machines?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "According to the RTF specification, \\pc and \\pca encodings specify the IBM 437 and IBM 850 code pages, respectively.<p>However, TextEdit and Pages both use the NeXT character set &lt; https://en.wikipedia.org/wiki/NeXT_character_set &gt; when rendering such files.<p>Example RTF code:<p><pre><code>    {\\rtf1\\pc\n    {\\fonttbl\\f0 Courier New;}\n    {\\pard\n    \\'c9\\'cd\\'cd\\'cd\\'cd\\'bb \\line\n    \\'ba\\~\\~\\~\\~\\'ba \\line\n    \\'ba\\~\\~\\~\\~\\'ba \\line\n    \\'c8\\'cd\\'cd\\'cd\\'cd\\'bc \\line\n    \\par}\n    }\n</code></pre>\nThis should create a box using curses-like line drawing characters. But on TextEdit and Pages, it does something else entirely using quotes and a superscript number 2.<p>Anyone have any historical context?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "torstenvl",
+    "url": "https://news.ycombinator.com/user?id=torstenvl"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32598881",
+  "sameAs": "https://news.ycombinator.com/item?id=32598881",
+  "dateCreated": "2022-08-25T19:41:45.107Z",
+  "datePublished": "2022-08-25T19:35:47.000Z",
+  "dateModified": "2022-08-25T19:41:45.107Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
