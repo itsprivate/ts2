@@ -1,0 +1,40 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--hackernews--HackerNews--NewsArticle--32598603",
+  "url": "https://news.ycombinator.com/item?id=32598603",
+  "headline": "Launch HN: Artemis (YC S22) – Use comments to give code an interactive interface",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello Hacker News, we’re Austin, Manvir, and Kyle, the cofounders of Artemis Labs\n(<a href=\"https://artemisdevtool.com\" rel=\"nofollow\">https://artemisdevtool.com</a>). We turn your in-line comments into a UI that can be used to\nvisualize, test, document and share your code. This helps engineers and scientists quickly\ncreate quality scripts.<p>Artemis was born in a Caltech robotics lab where I saw firsthand how much time and effort it\ntook to create a quality script. Valuable engineers were spending hundreds of hours making\nslide decks, hybrid Markdown / LaTeX documents, and demo GUIs just to make their tools\naccessible and usable by others. As someone who has been on the learning end of things, it\ncan be nearly impossible to decipher or use even the smallest scripts if they lack quality\ndocumentation and interactive interfaces. Although these methods worked they were an\nincredible time sink and documentation became stale quickly.<p>Artemis was devised as a solution to this problem. We wanted a tool that allows developers to\ncreate high-quality interfaces and documentation without forcing them to invest substantial time,\nalter their codebases or make significant changes to their workflows.<p>The way it works is simple: First add special comments to your codebase; Artemis uses these\ncomments (called “anchors”) to automatically generate a GUI for your code. Then run your\nprogram using our command-line utility. Artemis launches in an offline browser window that\ndisplays your code on one side and your new interface on the other. To see how this looks, you\ncan watch our demo video here: <a href=\"https://www.youtube.com/watch?v=IDL12DkS2Hc\" rel=\"nofollow\">https://www.youtube.com/watch?v=IDL12DkS2Hc</a>.<p>This interface scrolls vertically, so as your code runs new GUI elements appear one below\nanother at the relevant time organized into “cards.” For example, if a program takes two\nnumbers and adds them, your interface will first show input fields for the variables in one card.\nWhen you enter numbers and press “continue,” a new card showing the result will appear.<p>There are three types of anchors: inputs, outputs and documentation. Inputs let you change\nvariables in your program via the interface, outputs represent the products of your program as\ngraphs, text, etc. and documentation lets you create interface elements that explain what is\nhappening as your program runs. Documentation can take the form of text, Markdown, LaTeX,\nsyntax-highlighted code snippets, multimedia, and links, and more.<p>These anchors all follow the same format: you put them in a comment, beginning with “@,”\nfollowed by its type— “input,” “output” or “doc.” For “doc” anchors you just proceed to add\nwhatever you would like to appear in the document card. For inputs and outputs, you need to\nspecify which variable they act upon by typing “data=x,” with x being your variable.<p>We provide a suite of default anchors, such as text inputs, and outputs in the form of text,\ntables, and graphs—but we also let you create your own, using regular Python. Do you need to\ncreate a custom anchor to quickly display your statistical data using Seaborn? Do you want to\nautomatically render advanced 3D plots in Matplotlib? Artemis makes this, and more, easy.<p>The reason we opted to have anchors work from comments is to avoid requiring you to alter\nyour code or the way you work. You don’t have to toggle between different environments—you\nstay in your preferred IDE, bringing more functionality to it rather than requiring you to go\nsomewhere else.<p>For example, we subsume the functionality of Jupyter as a visualization tool without requiring\nyou to use a notebook. In our experience, notebooks are rather constraining relative to a full\nPython environment— they require you to restructure your code for the notebook, run your\nprograms on an IPython kernel, and often import new third-party libraries or widgets. With\nArtemis you get the interactivity of a notebook, as well as the display of UI elements and\ndocumentation alongside code, but it also works with professional-grade codebases and tooling.<p>Artemis interfaces can be exported as an HTML file that runs offline. This is a key feature that\nmakes us a portable, effective documentation/walkthrough tool. These interfaces are small\nenough to send via email and can even be embedded in web pages. When a third party opens\nyour HTML file, they’ll see exactly what you see when you run your program with Artemis: an\ninterface on the left and your code on the right.<p>We thought the most obvious applications of this approach would be for quickly building\ninteractive computational tools and making test scaffolding for complex programs. But it turned\nout to also be really good for making code walkthroughs that can explain your program to\ncoworkers or managers, or teach people how to use your program. You can see this in action here: <a href=\"https://www.youtube.com/watch?v=V4c3Q6lHFPo\" rel=\"nofollow\">https://www.youtube.com/watch?v=V4c3Q6lHFPo</a>.<p>Engineers at Mayo Clinic use Artemis in this way, using our Markdown, LaTeX, and multi-media\ndocumentation capabilities coupled with custom anchor outputs to produce step-by-step\nwalkthroughs for their internal tools.<p>Artemis is ready to go, and we offer a free trial on our website. Setup and installation only take a\nminute, but we’d also be delighted to answer your questions personally and/or give you a\nwalkthrough—we like to meet our users!<p>Our current pricing model is $15/month for basic Artemis. There’s a pro version that allows you\nto create custom anchors (beyond inputs, outputs and doc), and export your interfaces as HTML\nfiles. We also do the “contact us” enterprise thing for larger teams.<p>We’ll be around in the comments below and are super interested in whatever you have to say!",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "austinmccoy6251",
+    "url": "https://news.ycombinator.com/user?id=austinmccoy6251"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32598603",
+  "sameAs": "https://news.ycombinator.com/item?id=32598603",
+  "dateCreated": "2022-08-25T19:22:16.555Z",
+  "datePublished": "2022-08-25T19:16:26.000Z",
+  "dateModified": "2022-08-25T19:22:16.555Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
