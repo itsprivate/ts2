@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--askhn--HackerNews--NewsArticle--32595705",
+  "url": "https://news.ycombinator.com/item?id=32595705",
+  "headline": "Are there any tools for visual software design and automatic deployment?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I really hope that the collective intelligence of Hacker News has answers, because this is the type of question that you cannot ask on stackoverflow.<p>The question is exactly as the title says. The following text provides context, but if you already understand what I am after, you can skip it.<p>----------------------------<p>In 1992, when we saw Visio for the first time, we  hoped that one day we would be able to use it for creating software design documents visually, and then deploying them with the press of a button. Visio is a general-purpose diagram-drawing application, so it cannot do that, but it has always supported linking and embedding, so in theory it could be used for this purpose by a specialized software design tool. However, I have never head of any such tool.<p>In 1993 Microsoft announced the successor to their Microsoft C/C++ compiler, and the name of the new product was going to be Microsoft Visual C++. The term &quot;visual&quot; in the product title got our hopes up that it would include some visual design tools, but when we finally got our hands on it, we realized that it is just another command-line toolset, and the title was just marketing deceit.<p>In 1997 Microsoft announced its first Integrated Development Environment, and the name of the product was going to be Microsoft Visual Studio. We had been hoping that it would have Visio embedded in it for use in visual software design, but nothing of that sort happened.<p>In 2000 Microsoft bought Visio, but instead of integrating it into Visual Studio they made it part of Microsoft Office, so apparently Microsoft is moving in directions unrelated to visual software design.<p>In the mean time, various &quot;Visual Programming Languages&quot; have been created, such as Snap!, EduBlocks, Blockly and Scratch, which are cute, but what they facilitate is visual programming, not visual design.<p>Since 1996 UML has been trying to standardize the notation used in software designs, but notation has been the least of our problems. Some UML tools are allegedly capable of bridging the gap between design and implementation, but as far as I know they do it by means of code generation, which is almost always a very bad idea. (The &quot;all design up-front&quot; doctrine has been dead for decades now.)<p>Recently we have been seeing some visualization tools such as Lucidscale by Lucidchart, but they deal with a specialized domain (cloud environments) they only work at a very high level of abstraction (cloud components, not software components) and they tend to only be usable for visualization, exploration, and documentation of existing systems rather than design and deployment of new systems, or even modification of existing systems.<p>----------------------------<p>So, are there any specialized tools for visual software design that would allow us to visually compose a software design consisting of predefined software components, and then have that design deployed with the press of a button?<p>Note that &quot;deployment&quot; does not necessarily imply cloud environments and the like; deployment could also be the uploading of a binary image into an embedded device. So, I am talking about software systems of any complexity and scale.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "mikenakis",
+    "url": "https://news.ycombinator.com/user?id=mikenakis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32595705",
+  "sameAs": "https://news.ycombinator.com/item?id=32595705",
+  "dateCreated": "2022-08-25T16:36:30.210Z",
+  "datePublished": "2022-08-25T16:05:34.000Z",
+  "dateModified": "2022-08-25T16:36:30.210Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
