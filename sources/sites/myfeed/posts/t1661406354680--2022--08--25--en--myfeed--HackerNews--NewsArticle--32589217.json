@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--myfeed--HackerNews--NewsArticle--32589217",
+  "url": "https://news.ycombinator.com/item?id=32589217",
+  "headline": "The next Sonos flagship speaker will play sound in nearly all directions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Tomte",
+    "url": "https://news.ycombinator.com/user?id=Tomte"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32589217",
+  "sameAs": "https://www.theverge.com/2022/8/24/23319989/sonos-optimo-speaker-features-design",
+  "dateCreated": "2022-08-25T05:45:54.680Z",
+  "datePublished": "2022-08-25T03:40:48.000Z",
+  "dateModified": "2022-08-25T05:45:54.680Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "下一个Sonos旗舰扬声器将在几乎所有方向播放声音\n",
+  "headline_zh-Hant": "下一個Sonos旗艦揚聲器將在幾乎所有方向播放聲音\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

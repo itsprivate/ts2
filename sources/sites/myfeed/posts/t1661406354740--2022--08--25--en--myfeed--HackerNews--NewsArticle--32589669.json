@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--myfeed--HackerNews--NewsArticle--32589669",
+  "url": "https://news.ycombinator.com/item?id=32589669",
+  "headline": "Badge of Shame",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ayy_lmao",
+    "url": "https://news.ycombinator.com/user?id=ayy_lmao"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32589669",
+  "sameAs": "https://en.wikipedia.org/wiki/Badge_of_shame",
+  "dateCreated": "2022-08-25T05:45:54.740Z",
+  "datePublished": "2022-08-25T04:56:07.000Z",
+  "dateModified": "2022-08-25T05:45:54.740Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "耻辱的徽章\n",
+  "headline_zh-Hant": "恥辱的徽章\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
