@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--askhn--HackerNews--NewsArticle--32593941",
+  "url": "https://news.ycombinator.com/item?id=32593941",
+  "headline": "What does Machine Learning production look like in your case?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN! I'm working on a talk/blog on a related topic and was curious to see what the case is for people here. I think each case is a bit different so I don't want to constrain people too much.<p>If you deploy ML to production in your group/team/company – what does production mean for you?<p>Examples:\n- &quot;We run a model once a week that predicts some stuff and stores it in a table, then the customer queries it&quot;\n- &quot;We create an inference endpoint on some cloud resource, which our product/users use to predict poses in videos&quot;\n- &quot;I wish I knew, we're still figuring it out&quot;\n- &quot;We deploy a model as part of a larger pipeline in a system of microservices (and other buzzwords)&quot;<p>Also, if you are in an extra-sharing mood – in your version of production, were there any counter-intuitive things you learned when you first set up the pipeline?<p>Cheers! Enjoy the picture Dall-E2 made for you of a cat asking for upvotes in return.\nhttps://labs.openai.com/s/2enTplV9c9OxU7lyqhyIjXlN",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "dpleban",
+    "url": "https://news.ycombinator.com/user?id=dpleban"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32593941",
+  "sameAs": "https://news.ycombinator.com/item?id=32593941",
+  "dateCreated": "2022-08-25T14:24:51.357Z",
+  "datePublished": "2022-08-25T14:10:46.000Z",
+  "dateModified": "2022-08-25T14:24:51.357Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
