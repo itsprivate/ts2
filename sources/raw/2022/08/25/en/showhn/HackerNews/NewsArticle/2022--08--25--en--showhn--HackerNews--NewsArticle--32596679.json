@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--showhn--HackerNews--NewsArticle--32596679",
+  "url": "https://news.ycombinator.com/item?id=32596679",
+  "headline": "Take 2 with Pathview’s cookieless content attribution",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Afternoon HN.<p>I’ve been working to address the concerns previously voiced by fellow hackers. I underestimated the amount of passion some would have for data privacy. Thanks again to everyone who donated a few minutes to educate me.<p>Pathview no longer uses a salted and hashed IP to count unique visitors. I’ve removed the metric entirely and replaced it with “unique sessions” which is more congruent with my intention. I would not have arrived at this solution without HN. Originally, I was returning a .gif in response to the JavaScript trigger, which now returns a timestamp. The conversion report now highlights first touch, last touch, and multi-touch content paths. Pathview content attribution is a (single channel) platform for conversion optimization. I now realize conversion attribution was too broad a term for this application. Users can implement a Do Not Track mechanism should they need such functionality. I will not make GDPR claims until I’ve consulted with a lawyer. Though, my intention is to be just that.<p>The underlying capture mechanism leverages 160-characters of JavaScript to capture two pieces of information: the current page and the referring page. The script then returns a time-stamped response. Post-response, I store three pieces of data derived from the visit: the base domain, current page, and referring page.<p>My general approach to post-processing represents an iteration and improvement over old-school log analytics. There are two main differences: I do not capture or store the visiting IP address and Pathview is a cloud solution rather than a self-hosted application. Also, disabling JavaScript prevents the visit from being recorded. In time, some ad blockers will impact visit captures too.<p>I still have content to write and a short to-do list before I start beta testing. I know I need to explain what I do and how I do it to build trust. Does anyone have questions, concerns, or recommendations? I would welcome any insight. I’m prepared to listen and adapt as necessary.<p>Note: I turned the Pathview script off for this post. It will not capture your visit.<p>Original Post: <a href=\"https://news.ycombinator.com/item?id=32480811\" rel=\"nofollow\">https://news.ycombinator.com/item?id=32480811</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "shanebellone",
+    "url": "https://news.ycombinator.com/user?id=shanebellone"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32596679",
+  "sameAs": "https://pathview.io/example",
+  "dateCreated": "2022-08-25T17:06:51.966Z",
+  "datePublished": "2022-08-25T17:05:49.000Z",
+  "dateModified": "2022-08-25T17:06:51.966Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
