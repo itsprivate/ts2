@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--showhn--HackerNews--NewsArticle--32597994",
+  "url": "https://news.ycombinator.com/item?id=32597994",
+  "headline": "Explaining GraphQL to a PM Through Analogy; Also: Encouraging Questions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey guys and gals,<p>I just had a PM ask me a great honest and simple question and felt like posting my response here to<p>A) encourage encouraging question asking. We're all imposters at some level and being honest about that will just help us all improve.<p>B) See how you all can make my analogy better or more useful.<p>Cheers!<p>Text copied below since Notion requires login to read public pages now? wtf Notion bad job<p>DO NOT ever say I have to promise not to laugh at you for asking a question!<p>A) I commend ANY PM for their curiosity into ANY technical details<p>B) Everyone pretends they know way more than they do in tech land so don’t sweat it<p>C) I have trouble with some basic stuff like I mentioned in Standup like CSS. I just never learned it well<p>SO, with that all said, a quick way to explain GraphQL<p>It’s a technology created by a great team at Facebook that makes it more efficient for us folks on the front end to ask the backend for our data. Facebook the company blows but they do some cool stuff. This is one of those things<p>Let’s use an analogy to explain GraphQL and compare it to what USED to be the standard - Rest APIs.<p>With Rest APIs, we tell our backend team - “Hey, backend! \nGive us all of our users that have this ID” and the backend has to have already created something called an “endpoint” which is a simple URL you can plop into your browser and it shows you some data. For example: www.example.com/user/1 - if we go to this hypothetical endpoint, we expect that we will receive back ALL (SERIUOSLY - ALL OF THE data that the backend thinks is appropriate to hand us for that user.<p>That’s fine, but it’s a huge waste. Imagine if you wanted to ask your friend what her address was, but instead of her responding with her address, she’d write down her birthday, her phone number, all of the people she knows, her social security number, her password for her phone, and a whole bunch of other useless stuff. You just CARE about what her address, but she provided you with a bunch of information that wasn’t at ALL what you cared about.<p>The question becomes: How do we solve this with a URL the old way? Do we ask our backend to create a new “endpoint”? Something perhaps like www.example.com/user/1/address?<p>That would work, but as we add more data to our user, our backend folks are going to have to create new endpoints for each one of the new pieces of data that we add, so we ignore this solution and instead just keep adding data to that first URL endpoint.<p>This is the problem GraphQL solves.<p>The frontend TELLS GraphQL what data we want about the user and it responds with only that data. The wastes WAY less bandwidth from the front end to the back end, speeds up our queries, and makes the code that provides data way more flexible.<p>Probably a little more technical information than is warranted here, but the request ends up looking like below instead of some convoluted URL like www.example.com/user/1/address<p>user {\n  address\n}<p>and that’s it! The backend will now respond ONLY with the data we want, which makes our responses much quicker and faster and that’s good for all parties involved, including our end users.<p>Thanks for your question! Hopefully this helps you understand and please feel free to always ask questions. The more our PM folks know about the technology, the better! Props to you :clap:",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "blueberrychpstx",
+    "url": "https://news.ycombinator.com/user?id=blueberrychpstx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32597994",
+  "sameAs": "https://www.notion.so/blueberrychopsticks/Explaining-GraphQL-to-a-PM-through-Analogy-f41d50f0d7c74c999a71c8f660e5683b",
+  "dateCreated": "2022-08-25T18:54:01.724Z",
+  "datePublished": "2022-08-25T18:31:47.000Z",
+  "dateModified": "2022-08-25T18:54:01.724Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}

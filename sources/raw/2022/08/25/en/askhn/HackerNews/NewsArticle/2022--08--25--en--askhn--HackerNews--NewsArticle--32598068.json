@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--askhn--HackerNews--NewsArticle--32598068",
+  "url": "https://news.ycombinator.com/item?id=32598068",
+  "headline": "Why GitHub doesn't count forks in the contribution matrix?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "When you fork a repository, GitHub won't add any contributions you make to the fork in your contribution matrix. These will be counted only after you create a PR to the original repo and it gets merged!!!<p>Can anybody explain why GitHub works like this and if there's a way to disable it for my forks?<p>I understand that instead of forking through github I could &quot;fork&quot; manually by cloning and changing the origin to my repo, but why not make it easy?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "spapas82",
+    "url": "https://news.ycombinator.com/user?id=spapas82"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32598068",
+  "sameAs": "https://news.ycombinator.com/item?id=32598068",
+  "dateCreated": "2022-08-25T18:53:51.656Z",
+  "datePublished": "2022-08-25T18:35:40.000Z",
+  "dateModified": "2022-08-25T18:53:51.656Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}

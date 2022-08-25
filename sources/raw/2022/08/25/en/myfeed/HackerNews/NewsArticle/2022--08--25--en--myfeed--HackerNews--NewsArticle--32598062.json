@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--myfeed--HackerNews--NewsArticle--32598062",
+  "url": "https://news.ycombinator.com/item?id=32598062",
+  "headline": "Browse HN Together in Three.js",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN,<p>We’re Philip, Amby, and Declan, and we made “multiplayer virtual computers” that you can embed anywhere, including 3D spaces. We decided to build this because we noticed that embedding third-party apps and websites can be a nightmare due to incompatible platforms, security issues, and poor UX. Adding multiplayer functionality to these embeds makes this problem exponentially more difficult.<p>On the backend, we’re spinning up a VM and running a resource-optimized fork of Chromium which we then stream to participants via WebRTC. Since we’re hosting the servers running the applications, multiple users can connect and control the virtual computer seamlessly, and their client just needs to handle a video stream.<p>If you want to add multiplayer virtual computers to your own app, you can sign up on <a href=\"https://hyperbeam.com/?ch=hn&amp;cm=hn1\" rel=\"nofollow\">https://hyperbeam.com/?ch=hn&amp;cm=hn1</a>, grab a free API key, and throw the provided embed URL in an iframe in your app.<p>You can also play around more with the Three.js demo in our interactive sandbox: <a href=\"https://app.sideguide.dev/hyperbeam/threejs/\" rel=\"nofollow\">https://app.sideguide.dev/hyperbeam/threejs/</a><p>If you have any questions or feedback, feel free to comment or shoot me an email at declan@hyperbeam.com.<p>Thanks!<p>Docs: <a href=\"https://docs.hyperbeam.com\" rel=\"nofollow\">https://docs.hyperbeam.com</a>\nDiscord: <a href=\"https://discord.gg/D78RsGfQjq\" rel=\"nofollow\">https://discord.gg/D78RsGfQjq</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "declan_g",
+    "url": "https://news.ycombinator.com/user?id=declan_g"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32598062",
+  "sameAs": "https://threejs-example.hyperbeam.com",
+  "dateCreated": "2022-08-25T18:53:52.134Z",
+  "datePublished": "2022-08-25T18:35:29.000Z",
+  "dateModified": "2022-08-25T18:53:52.134Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 8
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ]
+}
