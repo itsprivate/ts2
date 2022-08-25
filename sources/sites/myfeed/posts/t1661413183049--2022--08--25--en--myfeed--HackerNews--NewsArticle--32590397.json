@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--myfeed--HackerNews--NewsArticle--32590397",
+  "url": "https://news.ycombinator.com/item?id=32590397",
+  "headline": "Elon Musk scolds Tesla driver criticizing $199/month Self-Driving subscription",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "isaacfrond",
+    "url": "https://news.ycombinator.com/user?id=isaacfrond"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32590397",
+  "sameAs": "https://www.businessinsider.com/elon-musk-scolds-tesla-driver-complaining-fsd-critical-feedback-2022-8",
+  "dateCreated": "2022-08-25T07:39:43.049Z",
+  "datePublished": "2022-08-25T06:43:32.000Z",
+  "dateModified": "2022-08-25T07:39:43.049Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "埃隆-马斯克斥责特斯拉司机批评199美元/月的自驾游套餐\n",
+  "headline_zh-Hant": "埃隆-馬斯克斥責特斯拉司機批評199美元/月的自駕遊套餐\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
