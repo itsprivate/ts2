@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--26--en--showhn--HackerNews--NewsArticle--32605573",
+  "url": "https://news.ycombinator.com/item?id=32605573",
+  "headline": "Document Tracking like a boss – Not another file transfer tool",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Apps like dropbox, and google drive, we transfer don't work in some parts of Asia (India, China, etc) for various reasons. It's pretty hard to share huge docs/slides/presentations to our vendors and customers in this part of the world.<p>I work for a small company and needed to solve this problem, so I built a tool that is multi-cloud backed on Cloudflare R2 +  Alibaba Object Storage with a Vue js front-end. It does the job reasonably well. You can send 3gb of files to anyone and include a video message, too; please try it out and let me know what you think.<p>We have reasonably good usage of free users in both these countries and a number of businesses. I added an asynchronous video message feature that you can add to your outbound documents, this has helped increase document open rates; people tell me it helps close more deals.<p>Feel free to get in touch at rishi{dot}uttam@sinosend.com with your feedback.  <a href=\"https://sinosend.com/\" rel=\"nofollow\">https://sinosend.com/</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "R_Uttam",
+    "url": "https://news.ycombinator.com/user?id=R_Uttam"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32605573",
+  "sameAs": "https://sinosend.com?ref=hn",
+  "dateCreated": "2022-08-26T11:23:34.440Z",
+  "datePublished": "2022-08-26T10:36:23.000Z",
+  "dateModified": "2022-08-26T11:23:34.440Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
