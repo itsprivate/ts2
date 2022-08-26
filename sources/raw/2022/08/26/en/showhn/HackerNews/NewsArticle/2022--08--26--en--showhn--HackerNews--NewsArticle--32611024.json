@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--26--en--showhn--HackerNews--NewsArticle--32611024",
+  "url": "https://news.ycombinator.com/item?id=32611024",
+  "headline": "We built a service to help companies reduce AWS spend by 57%",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN: Kaveh here, the founder of https://www.usage.ai/<p>Great to be back on Hacker News, and we have a handful of exciting updates that I'd love to share with the community:<p>* On top of underwriting CPU RIs, we now also underwrite exotic GPU RIs such as G and P instances!<p>* Short-term EKS/ECS spikes can now be covered with ultra-short-term RIs (you can get an RI for as little as 1 hour!)<p>* Multi-user and multi-AWS account support have been improved -- see all your AWS RIs across all your AWS accounts and collaborate with other users.<p>We help companies drive down AWS EC2 spend. Why? Because the way it's done now is a pain. DevOps and Software Engineers end up spending time managing costs rather than focusing on business problems.<p>Previous to founding Usage, I worked on high-performance computing research at JP Morgan Chase and as a software engineer at a number of medium sized companies.<p>Here's how it works: We are typically brought in by a DevOps manager to cut AWS EC2 costs. The app is entirely self-service and the savings are generated automatically, typically we do this live on a call. On average, we reduce AWS EC2 spend by 50% for 5 minutes of work.<p>To reduce by 50%+, we don't touch the instances, require any code change, or change the performance of your instances. We buy Reserved Instances on your behalf (a billing layer change only) and bundle them with guaranteed buyback. So you get the steep 57% savings of 3-year no-upfront RIs with none of the commitment (you can sell them back to us anytime after 30 days).<p>We make money off of a 20% Savings Fee. Happy to chat directly kaveh@usage.ai<p>Have you experienced any issues with managing your company or organization's AWS expenses? We'd love to hear your feedback and ideas!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "kavehkhorram",
+    "url": "https://news.ycombinator.com/user?id=kavehkhorram"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32611024",
+  "sameAs": "https://news.ycombinator.com/item?id=32611024",
+  "dateCreated": "2022-08-26T18:32:26.262Z",
+  "datePublished": "2022-08-26T18:26:46.000Z",
+  "dateModified": "2022-08-26T18:32:26.262Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
