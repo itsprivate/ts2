@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--26--en--showhn--HackerNews--NewsArticle--32612175",
+  "url": "https://news.ycombinator.com/item?id=32612175",
+  "headline": "XSWR – The simplest React data (re)fetching library ever made",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey there, I made a new library for React data fetching.<p>XSWR is very inspired from SWR (which stands for &quot;Stale While Revalidate&quot;).<p>In fact, it's a side project I made to fill in the gaps of SWR, that ended up production-ready.<p>XSWR uses two new approaches compared to other data fetching libraries like swr or react-query:<p>- Encapsulating key, fetcher and resource type in a single abstraction called &quot;handle&quot;.<p>- Composing features with very simple hooks instead of having bloated configuration patterns and unexpected behaviours.<p>By using these two approaches, XSWR aims to help you highly centralize and reuse things.<p>Docs:\n<a href=\"https://xswr.hazae41.me/\" rel=\"nofollow\">https://xswr.hazae41.me/</a><p>Comparison with swr and react-query:\n<a href=\"https://xswr.hazae41.me/faq/comparison\" rel=\"nofollow\">https://xswr.hazae41.me/faq/comparison</a><p>Thanks for you feedbacks!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "Hazae41",
+    "url": "https://news.ycombinator.com/user?id=Hazae41"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32612175",
+  "sameAs": "https://github.com/hazae41/xswr",
+  "dateCreated": "2022-08-26T20:28:10.903Z",
+  "datePublished": "2022-08-26T20:10:13.000Z",
+  "dateModified": "2022-08-26T20:28:10.903Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
