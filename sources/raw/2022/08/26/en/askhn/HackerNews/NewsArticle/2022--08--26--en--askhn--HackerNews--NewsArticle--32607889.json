@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--26--en--askhn--HackerNews--NewsArticle--32607889",
+  "url": "https://news.ycombinator.com/item?id=32607889",
+  "headline": "What do you use to make CLIs?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I am curious what people reach for when writing CLIs these days; specifically what language, libraries (if any), and why?<p>By CLI, I mean any executable program or script like git that supports commands, sub-commands, and POSIX-style flags.<p>I mostly work in Go, and have been happy with the standard library[1] or Cobra[2]. I also write a lot of shell scripts.<p>I thought it would be interesting to see some other approaches.<p>[1]: https://pkg.go.dev/flag\n[2]: https://cobra.dev",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "mmwtsn",
+    "url": "https://news.ycombinator.com/user?id=mmwtsn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32607889",
+  "sameAs": "https://news.ycombinator.com/item?id=32607889",
+  "dateCreated": "2022-08-26T14:26:24.783Z",
+  "datePublished": "2022-08-26T14:20:27.000Z",
+  "dateModified": "2022-08-26T14:26:24.783Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ]
+}
