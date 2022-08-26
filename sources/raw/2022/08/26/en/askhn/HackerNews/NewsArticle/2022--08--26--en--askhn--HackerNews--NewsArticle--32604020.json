@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--26--en--askhn--HackerNews--NewsArticle--32604020",
+  "url": "https://news.ycombinator.com/item?id=32604020",
+  "headline": "Since yesterday, Firefox and Thunderbird take 30s to start. Why?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Both FF and Thunderbird suddenly take 30s to start on my linux machine.<p>&quot;firefox -safe-mode&quot; does no speed it up.<p>When I run &quot;strace firefox&quot;, the first time it hangs after this line:<p>restart_syscall(&lt;... resuming interrupted poll ...&gt;<p>Then it hangs multiple times after lines after lines that all contain the word &quot;poll&quot; in one form or another.<p>What does the combined Linux expertise of HN say? How do I debug this situation?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "JonathanBeuys",
+    "url": "https://news.ycombinator.com/user?id=JonathanBeuys"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32604020",
+  "sameAs": "https://news.ycombinator.com/item?id=32604020",
+  "dateCreated": "2022-08-26T06:46:32.327Z",
+  "datePublished": "2022-08-26T06:38:23.000Z",
+  "dateModified": "2022-08-26T06:46:32.327Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
