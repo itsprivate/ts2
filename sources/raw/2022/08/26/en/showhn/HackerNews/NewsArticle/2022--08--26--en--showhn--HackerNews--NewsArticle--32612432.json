@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--26--en--showhn--HackerNews--NewsArticle--32612432",
+  "url": "https://news.ycombinator.com/item?id=32612432",
+  "headline": "Binary Serialization with TypeScript",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Based on the Borsh serialization format I have created an easy to use TypeScript library that lets you conveniently serialize your classes into a compact binary representation. Later, you can deserialize this directly back directly into classes or using other languages, like with the Rust implementation borsh-rs. One of many reasons for using this library compared to using JSON is that you can have messages behave like Rust enums, rather than plain JS object that you have to do type checking with in order to determine what kind of object you are dealing with.<p>TypeScript: <a href=\"https://github.com/dao-xyz/borsh-ts\" rel=\"nofollow\">https://github.com/dao-xyz/borsh-ts</a>\nRust: <a href=\"https://github.com/near/borsh-rs\" rel=\"nofollow\">https://github.com/near/borsh-rs</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "marcus_pousette",
+    "url": "https://news.ycombinator.com/user?id=marcus_pousette"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32612432",
+  "sameAs": "https://github.com/dao-xyz/borsh-ts",
+  "dateCreated": "2022-08-26T20:47:10.320Z",
+  "datePublished": "2022-08-26T20:33:19.000Z",
+  "dateModified": "2022-08-26T20:47:10.320Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
