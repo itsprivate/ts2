@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--26--en--askhn--HackerNews--NewsArticle--32603170",
+  "url": "https://news.ycombinator.com/item?id=32603170",
+  "headline": "VM hosting that could start under a second?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I have a use case that requires starting a VM (or Docker image, though less ideal) in under a few seconds, using a pre-setup image.<p>I need to run them for 1-2 minutes and then kill them, i.e. looking for a hosting provider that charges in small increments (seconds or minutes).<p>What are my options?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "punkpeye",
+    "url": "https://news.ycombinator.com/user?id=punkpeye"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32603170",
+  "sameAs": "https://news.ycombinator.com/item?id=32603170",
+  "dateCreated": "2022-08-26T04:32:08.270Z",
+  "datePublished": "2022-08-26T03:54:12.000Z",
+  "dateModified": "2022-08-26T04:32:08.270Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ]
+}

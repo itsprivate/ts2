@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--26--en--besthn--HackerNews--NewsArticle--32600821",
+  "url": "https://news.ycombinator.com/item?id=32600821",
+  "headline": "Devbox – Easy, predictable shells and containers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Devbox is a command-line tool that lets you easily create isolated shells and containers. You start by defining the list of packages required by your development environment, and devbox uses that definition to create an isolated environment just for your application.<p>In practice, Devbox works similar to a package manager like yarn – except the packages it manages are at the operating-system level (the sort of thing you would normally install with brew or apt-get).<p>See it in action: <a href=\"https://youtu.be/WMBaXQZmDoA\" rel=\"nofollow\">https://youtu.be/WMBaXQZmDoA</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "robrich",
+    "url": "https://news.ycombinator.com/user?id=robrich"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32600821",
+  "sameAs": "https://github.com/jetpack-io/devbox",
+  "dateCreated": "2022-08-26T04:32:11.574Z",
+  "datePublished": "2022-08-25T22:35:06.000Z",
+  "dateModified": "2022-08-26T04:32:11.574Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 212
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 76
+    }
+  ]
+}
