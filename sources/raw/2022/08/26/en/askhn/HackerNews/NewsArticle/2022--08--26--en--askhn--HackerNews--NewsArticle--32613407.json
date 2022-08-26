@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--26--en--askhn--HackerNews--NewsArticle--32613407",
+  "url": "https://news.ycombinator.com/item?id=32613407",
+  "headline": "How can I “reset” the way I approach building software?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've been out of school and working full-time at a well-regarded company doing full-stack Web Dev for 5 years now. But despite my career going well, I still feel like my approach to building software, both at work and for my personal projects, is not nearly as solid as I'd expect. In particular, I have a desire to write simple and straightforward software, but for whatever reason feel incapable of doing so, always making things way too complex.<p>For example, I've been working on a side-project for about a month now, and I feel like half of that time has been spent going back and forth and back and forth between different code design decisions.<p>First I wanted to implement an event-driven architecture, so I read articles and watched talks and landed on an event-sourcing style system, where I'd persist a log of all events that occurred in the app. I also incorporated DDD concepts like repos and domain objects, and persisted all app state in SQlite.<p>Then I realized that I was making things way too complicated for the first iteration of my little project, and tried to re-write it in a very plain and straightforward style, e.g. just using an ORM instead of a repo pattern, no event bus, keeping more ephemeral state in-memory; just objects talking to other objects.<p>But even after I completely re-implemented everything, I _still_ feel like I'm making things way too complicated, and am getting worried that maybe I'm just incapable, for whatever reason, of writing straightforward, simple software. When approaching a problem, I feel like my brain skips about 10 steps of simpler options before making a decision.<p>I'm looking for any advice or material that would help be get unstuck in my software building process and learn how to write _simple_ software.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "mousebunny",
+    "url": "https://news.ycombinator.com/user?id=mousebunny"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32613407",
+  "sameAs": "https://news.ycombinator.com/item?id=32613407",
+  "dateCreated": "2022-08-26T22:26:56.185Z",
+  "datePublished": "2022-08-26T22:20:52.000Z",
+  "dateModified": "2022-08-26T22:26:56.185Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ]
+}
