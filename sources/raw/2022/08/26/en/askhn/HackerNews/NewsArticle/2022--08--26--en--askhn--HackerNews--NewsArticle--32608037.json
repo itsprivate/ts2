@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--26--en--askhn--HackerNews--NewsArticle--32608037",
+  "url": "https://news.ycombinator.com/item?id=32608037",
+  "headline": "How do you manage version numbers for multi-platform application",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We have an application that is built for multiple platforms (web, mobile, desktop) from a single code base. We maintain a version number which resembles semantic version, but has specific internal meaning. The version number is user facing to help when submitting feedback or support requests. We keep having conversations about whether the version should always be in sync across platforms. I'm just curious if anyone else has a similar situation and how it is managed.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "xyclos",
+    "url": "https://news.ycombinator.com/user?id=xyclos"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32608037",
+  "sameAs": "https://news.ycombinator.com/item?id=32608037",
+  "dateCreated": "2022-08-26T14:44:50.141Z",
+  "datePublished": "2022-08-26T14:32:34.000Z",
+  "dateModified": "2022-08-26T14:44:50.141Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
