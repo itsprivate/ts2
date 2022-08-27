@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--27--en--showhn--HackerNews--NewsArticle--32612861",
+  "url": "https://news.ycombinator.com/item?id=32612861",
+  "headline": "A Minimal PHP Wiki",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "First, I'm by no mean a programmer.\nSecond, I am reading HN for years, just registered to make this public and see if it can be useful for someone. I have nothing to gain monetary.<p>A while ago, I decided that no blogging system was simple enough and I looked for a small wiki to use as a CMS/blog. Found WikWiki on C2.com and I mixed it with some basic Markdown syntax, a minimal template and added password protection.<p>The result is a single php file, no database and no dependencies. Code is a mess, not modulable, probably wrong in so many ways, but it can probably used by some as personal notepad, wiki, CMS, blog, etc.<p>Any comments appreciated.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "mindwise",
+    "url": "https://news.ycombinator.com/user?id=mindwise"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32612861",
+  "sameAs": "https://mindwi.se/?WikiMind",
+  "dateCreated": "2022-08-27T02:45:03.964Z",
+  "datePublished": "2022-08-26T21:16:49.000Z",
+  "dateModified": "2022-08-27T02:45:03.964Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}
