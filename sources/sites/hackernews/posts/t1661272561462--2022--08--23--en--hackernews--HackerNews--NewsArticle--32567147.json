@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--hackernews--HackerNews--NewsArticle--32567147",
+  "url": "https://news.ycombinator.com/item?id=32567147",
+  "headline": "Design the Next iPhone",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mkeeter",
+    "url": "https://news.ycombinator.com/user?id=mkeeter"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32567147",
+  "sameAs": "https://neal.fun/design-the-next-iphone/",
+  "dateCreated": "2022-08-23T16:36:01.462Z",
+  "datePublished": "2022-08-23T16:16:24.000Z",
+  "dateModified": "2022-08-23T16:36:01.462Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 22
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 9
+    }
+  ],
+  "headline_zh-Hans": "设计下一代iPhone\n",
+  "headline_zh-Hant": "設計下一代iPhone\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

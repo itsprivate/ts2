@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--hackernews--HackerNews--NewsArticle--32487073",
+  "url": "https://news.ycombinator.com/item?id=32487073",
+  "headline": "One Tag to Rule Them All: Introducing the New Google Tag",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sdoering",
+    "url": "https://news.ycombinator.com/user?id=sdoering"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32487073",
+  "sameAs": "https://www.simoahava.com/analytics/one-tag-rule-them-all-introducing-google-tag/",
+  "dateCreated": "2022-08-16T19:41:42.083Z",
+  "datePublished": "2022-08-16T18:50:09.000Z",
+  "dateModified": "2022-08-16T19:41:42.083Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "一个标签统治一切：介绍新的谷歌标签\n",
+  "headline_zh-Hant": "一個標籤統治一切：介紹新的谷歌標籤\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

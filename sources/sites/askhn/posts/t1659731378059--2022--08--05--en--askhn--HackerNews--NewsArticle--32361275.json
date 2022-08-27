@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--05--en--askhn--HackerNews--NewsArticle--32361275",
+  "url": "https://news.ycombinator.com/item?id=32361275",
+  "headline": "Ask HN: Best way to let a user create a link inside a text input",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm developing a flowcharting tool which lets users enter text inside each node. I want to allow you to highlight a bit of text and make it a link, by entering a url. Much like google docs and most other popular text editors. For a v1 I implemented this using prosemirror [0] which is pretty straight forward. The downside is that prosemirror is highly complex and introduces a large dependency. It also requires you to store data in their custom format. I'm trying to find another library, or tips on rolling my own, for simple link creation so I don't have to pull in code for all the other fancy things prosemirror does.<p>Eventually I may add other rich text editing features, like hash tags, @ mentions, etc. But I would rather start simple and resort to prosemirror when I really need it.<p>[0] https://github.com/prosemirror",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "escot",
+    "url": "https://news.ycombinator.com/user?id=escot"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32361275",
+  "sameAs": "https://news.ycombinator.com/item?id=32361275",
+  "dateCreated": "2022-08-05T20:29:38.059Z",
+  "datePublished": "2022-08-05T20:02:44.000Z",
+  "dateModified": "2022-08-05T20:29:38.059Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 让用户在文本输入中创建一个链接的最佳方法\n",
+  "headline_zh-Hant": "Ask HN: 讓用戶在文本輸入中創建一個鏈接的最佳方法\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在开发一个流程图工具，让用户在每个节点内输入文本。我想让你通过输入一个网址来突出一个文本并使其成为一个链接。很像google docs和其他流行的文本编辑器。对于一个v1版本，我使用prosemirror[0]实现了这一点，这是很直接的做法。缺点是prosemirror非常复杂，引入了大量的依赖性。它还要求你用他们的自定义格式来存储数据。我正在努力寻找另一个库，或者自己开发的技巧，用于简单的链接创建，这样我就不必为prosemirror所做的所有其他花哨的事情输入代码。<p>最终我可能会添加其他富文本编辑功能，如哈希标签、@提及等。但我宁愿从简单的开始，当我真正需要它的时候再求助于prosemirror。<p>[0] https://github.com/prosemirror\n",
+  "description_zh-Hant": "我正在開發一個流程圖工具，讓用戶在每個節點內輸入文本。我想讓你通過輸入一個網址來突出一個文本並使其成為一個鏈接。很像google docs和其他流行的文本編輯器。對於一個v1版本，我使用prosemirror[0]實現了這一點，這是很直接的做法。缺點是prosemirror非常複雜，引入了大量的依賴性。它還要求你用他們的自定義格式來存儲數據。我正在努力尋找另一個庫，或者自己開發的技巧，用於簡單的鏈接創建，這樣我就不必為prosemirror所做的所有其他花哨的事情輸入代碼。<p>最終我可能會添加其他富文本編輯功能，如哈希標籤、@提及等。但我寧願從簡單的開始，當我真正需要它的時候再求助於prosemirror。<p>[0] https://github.com/prosemirror\n"
+}

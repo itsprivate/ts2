@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--hackernews--HackerNews--NewsArticle--32508302",
+  "url": "https://news.ycombinator.com/item?id=32508302",
+  "headline": "Launch HN: Cerrion (YC S22) – Computer vision to reduce production line problems",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN! Michael here, computer vision researcher turned co-founder of Cerrion (<a href=\"https://www.cerrion.com/\" rel=\"nofollow\">https://www.cerrion.com/</a>). I’m here with my co-founders Karim and Nikolay.<p>Cerrion helps manufacturers automatically detect problems on their production lines using computer vision. You can see this in action here, for detecting issues on conveyor belts and in glass bottle production: <a href=\"https://youtu.be/DuSN-qJcoNQ\" rel=\"nofollow\">https://youtu.be/DuSN-qJcoNQ</a><p>It’s estimated that undetected problems on production lines cost the manufacturing industry $1 trillion in lost production time per year. This is because staying on top of your production is hard and works best with trained and experienced eyes. We are working on making this easier, by automating production line monitoring with computer vision.<p>The basic idea is simple: our product learns how a manufacturing process looks when things are going well, then can detect and track anomalies and other problems in real time.<p>This has several major benefits: (1) it allows detecting subtle issues on the production line before they become big and costly, (2) it reduces the need for human monitoring, and (3) it facilitates root cause analysis remotely in a matter of minutes by showing video data of the problem(s).<p>We came to work on this because Nikolay previously co-founded Assaia (<a href=\"https://assaia.com/\" rel=\"nofollow\">https://assaia.com/</a>) and we learnt how messy and intransparent ground operations at airports are. We quickly realized that manufacturing companies suffer from similar pain points, given that manufacturing processes are highly complex. Thus, we started talking to manufacturing companies and soon recognized that computer vision could significantly increase their process transparency and thus help them better run their production lines.<p>We have built a video analysis pipeline using a dockerized Python stack. The pipeline processes RTSP video streams and analyzes them in real-time, using a Convolutional Neural Network, making predictions for what goes wrong where in the production process. We aggregate these predictions into events, push them to a Kafka queue and serve them back to the customer. We do this via a real-time alerting system and a detection library. The real-time alerting allows customers to take actions immediately. The detection library offers an analytics dashboard, as well as videos of the relevant problems. With this, our customers can find systematic production issues and do root-cause analysis.<p>The manufacturing landscape is heterogeneous and production processes are constantly changing. To be able to serve all kinds of industries, we need an adaptable product. To get there, we are working hard to make our product plug-and-play—essentially, to get to the point where it fully automatically learns how a manufacturing process looks when things are going well and automatically detect deviations based on this. In practice this means we need to build a performant model using transfer learning and self-supervision; and automatically adapt and keep it up to date from just a handful of user inputs (for which we use active learning).<p>BTW, we pay our bills by charging a SaaS license per production line.<p>Thanks for reading! We are curious to hear your thoughts!",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "michaelgygli",
+    "url": "https://news.ycombinator.com/user?id=michaelgygli"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32508302",
+  "sameAs": "https://www.cerrion.com/",
+  "dateCreated": "2022-08-18T12:56:15.805Z",
+  "datePublished": "2022-08-18T11:57:47.000Z",
+  "dateModified": "2022-08-18T12:56:15.805Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 16
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "启动HN：Cerrion (YC S22) - 计算机视觉减少生产线问题\n",
+  "headline_zh-Hant": "啟動HN：Cerrion (YC S22) - 計算機視覺減少生產線問題\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hey HN! Michael here, computer vision researcher turned co-founder of Cerrion (<a href=\"https://www.cerrion.com/\" rel=\"nofollow\">https://www.cerrion.com/</a>). I’m here with my co-founders Karim and Nikolay.<p>Cerrion helps manufacturers automatically detect problems on their production lines using computer vision. You can see this in action here, for detecting issues on conveyor belts and in glass bottle production: <a href=\"https://youtu.be/DuSN-qJcoNQ\" rel=\"nofollow\">https://youtu.be/DuSN-qJcoNQ</a><p>It’s estimated that undetected problems on production lines cost the manufacturing industry $1 trillion in lost production time per year. This is because staying on top of your production is hard and works best with trained and experienced eyes. We are working on making this easier, by automating production line monitoring with computer vision.<p>The basic idea is simple: our product learns how a manufacturing process looks when things are going well, then can detect and track anomalies and other problems in real time.<p>This has several major benefits: (1) it allows detecting subtle issues on the production line before they become big and costly, (2) it reduces the need for human monitoring, and (3) it facilitates root cause analysis remotely in a matter of minutes by showing video data of the problem(s).<p>We came to work on this because Nikolay previously co-founded Assaia (<a href=\"https://assaia.com/\" rel=\"nofollow\">https://assaia.com/</a>) and we learnt how messy and intransparent ground operations at airports are. We quickly realized that manufacturing companies suffer from similar pain points, given that manufacturing processes are highly complex. 因此，我们开始与制造公司交谈，并很快认识到计算机视觉可以显著提高他们的流程透明度，从而帮助他们更好地运行其生产线。该管道处理RTSP视频流，并使用卷积神经网络对其进行实时分析，预测生产过程中哪些地方出了问题。我们将这些预测汇总成事件，推送到Kafka队列中，并将其送回给客户。我们通过一个实时警报系统和一个检测库来做到这一点。实时警报使客户能够立即采取行动。检测库提供一个分析仪表板，以及相关问题的视频。有了这些，我们的客户可以发现系统性的生产问题，并进行根本原因分析。<p>制造领域是异质的，生产过程也在不断变化。为了能够服务于各种行业，我们需要一个可适应的产品。为了达到这个目标，我们正在努力使我们的产品做到即插即用--基本上，要达到这样的程度：当事情进展顺利时，它可以完全自动学习制造过程的样子，并在此基础上自动检测偏差。在实践中，这意味着我们需要使用转移学习和自我监督来建立一个高性能的模型；并自动适应和保持它从少量的用户输入（为此我们使用主动学习）中得到更新。我们很想听听你的想法!\n",
+  "description_zh-Hant": "Hey HN! Michael here, computer vision researcher turned co-founder of Cerrion (<a href=\"https://www.cerrion.com/\" rel=\"nofollow\">https://www.cerrion.com/</a>). I’m here with my co-founders Karim and Nikolay.<p>Cerrion helps manufacturers automatically detect problems on their production lines using computer vision. You can see this in action here, for detecting issues on conveyor belts and in glass bottle production: <a href=\"https://youtu.be/DuSN-qJcoNQ\" rel=\"nofollow\">https://youtu.be/DuSN-qJcoNQ</a><p>It’s estimated that undetected problems on production lines cost the manufacturing industry $1 trillion in lost production time per year. This is because staying on top of your production is hard and works best with trained and experienced eyes. We are working on making this easier, by automating production line monitoring with computer vision.<p>The basic idea is simple: our product learns how a manufacturing process looks when things are going well, then can detect and track anomalies and other problems in real time.<p>This has several major benefits: (1) it allows detecting subtle issues on the production line before they become big and costly, (2) it reduces the need for human monitoring, and (3) it facilitates root cause analysis remotely in a matter of minutes by showing video data of the problem(s).<p>We came to work on this because Nikolay previously co-founded Assaia (<a href=\"https://assaia.com/\" rel=\"nofollow\">https://assaia.com/</a>) and we learnt how messy and intransparent ground operations at airports are. We quickly realized that manufacturing companies suffer from similar pain points, given that manufacturing processes are highly complex. 因此，我們開始與製造公司交談，並很快認識到計算機視覺可以顯著提高他們的流程透明度，從而幫助他們更好地運行其生產線。該管道處理RTSP視頻流，並使用卷積神經網絡對其進行實時分析，預測生產過程中哪些地方出了問題。我們將這些預測彙總成事件，推送到Kafka隊列中，並將其送回給客戶。我們通過一個實時警報系統和一個檢測庫來做到這一點。實時警報使客戶能夠立即採取行動。檢測庫提供一個分析儀表板，以及相關問題的視頻。有了這些，我們的客戶可以發現系統性的生產問題，並進行根本原因分析。<p>製造領域是異質的，生產過程也在不斷變化。為了能夠服務於各種行業，我們需要一個可適應的產品。為了達到這個目標，我們正在努力使我們的產品做到即插即用--基本上，要達到這樣的程度：當事情進展順利時，它可以完全自動學習製造過程的樣子，並在此基礎上自動檢測偏差。在實踐中，這意味著我們需要使用轉移學習和自我監督來建立一個高性能的模型；並自動適應和保持它從少量的用戶輸入（為此我們使用主動學習）中得到更新。我們很想聽聽你的想法!\n"
+}

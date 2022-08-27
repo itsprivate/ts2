@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--09--en--besthn--HackerNews--NewsArticle--32393545",
+  "url": "https://news.ycombinator.com/item?id=32393545",
+  "headline": "Write a note to your spouse every day",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jordanmoconnor",
+    "url": "https://news.ycombinator.com/user?id=jordanmoconnor"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32393545",
+  "sameAs": "https://jdnoc.com/note/",
+  "dateCreated": "2022-08-09T09:27:36.926Z",
+  "datePublished": "2022-08-09T02:14:32.000Z",
+  "dateModified": "2022-08-09T09:27:36.926Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 207
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 141
+    }
+  ],
+  "headline_zh-Hans": "每天给你的配偶写一张纸条\n",
+  "headline_zh-Hant": "每天給你的配偶寫一張紙條\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

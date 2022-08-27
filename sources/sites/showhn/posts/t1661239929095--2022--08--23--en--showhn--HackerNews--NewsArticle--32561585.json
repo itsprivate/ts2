@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--showhn--HackerNews--NewsArticle--32561585",
+  "url": "https://news.ycombinator.com/item?id=32561585",
+  "headline": "Show HN: Treeche, Tree-Shakable Checker for JavaScript/TypeScript Application",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I created an npm module, which is named &quot;treeche&quot; (Tree shakable Checker). This is an npm module to check whether your javascript/typescript application is tree-shakable or not. This may allow you to find unexpected side effects in your codebase and reduce bundle size...\n<a href=\"https://github.com/Shinyaigeek/treeche\" rel=\"nofollow\">https://github.com/Shinyaigeek/treeche</a>\nThis is just an experimental project, so feedback is welcome!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "shinyaigeek",
+    "url": "https://news.ycombinator.com/user?id=shinyaigeek"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32561585",
+  "sameAs": "https://github.com/Shinyaigeek/treeche",
+  "dateCreated": "2022-08-23T07:32:09.095Z",
+  "datePublished": "2022-08-23T07:27:22.000Z",
+  "dateModified": "2022-08-23T07:32:09.095Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Treeche，用于JavaScript/TypeScript应用的树形可动摇检查器\n",
+  "headline_zh-Hant": "Show HN: Treeche，用於JavaScript/TypeScript應用的樹形可動搖檢查器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "I created an npm module, which is named &quot;treeche&quot; (Tree shakable Checker). This is an npm module to check whether your javascript/typescript application is tree-shakable or not. This may allow you to find unexpected side effects in your codebase and reduce bundle size...\n<a href=\"https://github.com/Shinyaigeek/treeche\" rel=\"nofollow\">https://github.com/Shinyaigeek/treeche</a>\nThis is just an experimental project, so feedback is welcome!\n",
+  "description_zh-Hant": "I created an npm module, which is named &quot;treeche&quot; (Tree shakable Checker). This is an npm module to check whether your javascript/typescript application is tree-shakable or not. This may allow you to find unexpected side effects in your codebase and reduce bundle size...\n<a href=\"https://github.com/Shinyaigeek/treeche\" rel=\"nofollow\">https://github.com/Shinyaigeek/treeche</a>\nThis is just an experimental project, so feedback is welcome!\n"
+}

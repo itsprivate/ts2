@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32574863",
+  "url": "https://news.ycombinator.com/item?id=32574863",
+  "headline": "Aluminium Oxynitride (“Transparent Aluminum”)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "stacktrust",
+    "url": "https://news.ycombinator.com/user?id=stacktrust"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32574863",
+  "sameAs": "https://en.wikipedia.org/wiki/Aluminium_oxynitride",
+  "dateCreated": "2022-08-24T05:35:07.894Z",
+  "datePublished": "2022-08-24T04:06:45.000Z",
+  "dateModified": "2022-08-24T05:35:07.894Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "氧化铝(\"透明铝\")\n",
+  "headline_zh-Hant": "氧化鋁(\"透明鋁\")\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32567375",
+  "url": "https://news.ycombinator.com/item?id=32567375",
+  "headline": "Book Review: What We Owe the Future",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "feross",
+    "url": "https://news.ycombinator.com/user?id=feross"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32567375",
+  "sameAs": "https://astralcodexten.substack.com/p/book-review-what-we-owe-the-future",
+  "dateCreated": "2022-08-23T17:06:26.798Z",
+  "datePublished": "2022-08-23T16:32:03.000Z",
+  "dateModified": "2022-08-23T17:06:26.798Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "书评。我们对未来的亏欠\n",
+  "headline_zh-Hant": "書評。我們對未來的虧欠\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

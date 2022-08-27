@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--21--en--hackernews--HackerNews--NewsArticle--32539360",
+  "url": "https://news.ycombinator.com/item?id=32539360",
+  "headline": "Turning SQLite into a Distributed Database",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "losfair",
+    "url": "https://news.ycombinator.com/user?id=losfair"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32539360",
+  "sameAs": "https://univalence.me/posts/mvsqlite",
+  "dateCreated": "2022-08-21T13:17:29.668Z",
+  "datePublished": "2022-08-21T12:09:23.000Z",
+  "dateModified": "2022-08-21T13:17:29.668Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "将SQLite变成一个分布式数据库\n",
+  "headline_zh-Hant": "將SQLite變成一個分佈式數據庫\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

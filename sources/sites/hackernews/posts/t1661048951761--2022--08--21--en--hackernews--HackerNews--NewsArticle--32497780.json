@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--21--en--hackernews--HackerNews--NewsArticle--32497780",
+  "url": "https://news.ycombinator.com/item?id=32497780",
+  "headline": "There’s No Speed Limit",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "melling",
+    "url": "https://news.ycombinator.com/user?id=melling"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32497780",
+  "sameAs": "https://sive.rs/kimo",
+  "dateCreated": "2022-08-21T02:29:11.761Z",
+  "datePublished": "2022-08-17T15:39:34.000Z",
+  "dateModified": "2022-08-21T02:29:11.761Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 36
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "没有速度限制\n",
+  "headline_zh-Hant": "沒有速度限制\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

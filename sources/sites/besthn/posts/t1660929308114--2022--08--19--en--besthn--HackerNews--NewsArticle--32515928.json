@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--besthn--HackerNews--NewsArticle--32515928",
+  "url": "https://news.ycombinator.com/item?id=32515928",
+  "headline": "Why is the OpenBSD documentation so good?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "zdw",
+    "url": "https://news.ycombinator.com/user?id=zdw"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32515928",
+  "sameAs": "https://dataswamp.org/~solene/2022-08-18-why-openbsd-documentation-is-good.html",
+  "dateCreated": "2022-08-19T17:15:08.114Z",
+  "datePublished": "2022-08-18T23:10:42.000Z",
+  "dateModified": "2022-08-19T17:15:08.114Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 201
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 86
+    }
+  ],
+  "headline_zh-Hans": "为什么OpenBSD的文档这么好？\n",
+  "headline_zh-Hant": "為什麼OpenBSD的文檔這麼好？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

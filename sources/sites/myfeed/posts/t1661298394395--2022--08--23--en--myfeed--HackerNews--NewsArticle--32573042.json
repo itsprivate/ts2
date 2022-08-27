@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32573042",
+  "url": "https://news.ycombinator.com/item?id=32573042",
+  "headline": "Handheld RPI4 based computer with keyboard and display",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "882542F3884314B",
+    "url": "https://news.ycombinator.com/user?id=882542F3884314B"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32573042",
+  "sameAs": "https://github.com/brickbots/HandiPi",
+  "dateCreated": "2022-08-23T23:46:34.395Z",
+  "datePublished": "2022-08-23T23:34:59.000Z",
+  "dateModified": "2022-08-23T23:46:34.395Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "基于RPI4的手持式计算机，带键盘和显示器\n",
+  "headline_zh-Hant": "基於RPI4的手持式計算機，帶鍵盤和顯示器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

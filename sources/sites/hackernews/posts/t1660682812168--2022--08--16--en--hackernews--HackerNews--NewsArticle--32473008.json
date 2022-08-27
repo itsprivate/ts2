@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--hackernews--HackerNews--NewsArticle--32473008",
+  "url": "https://news.ycombinator.com/item?id=32473008",
+  "headline": "The Elocution Cage",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Caiero",
+    "url": "https://news.ycombinator.com/user?id=Caiero"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32473008",
+  "sameAs": "https://www.historians.org/publications-and-directories/perspectives-on-history/may-2022/the-elocution-cage",
+  "dateCreated": "2022-08-16T20:46:52.168Z",
+  "datePublished": "2022-08-15T17:55:07.000Z",
+  "dateModified": "2022-08-16T20:46:52.168Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 7
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "口才笼\n",
+  "headline_zh-Hant": "口才籠\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

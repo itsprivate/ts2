@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--12--en--askhn--HackerNews--NewsArticle--32433338",
+  "url": "https://news.ycombinator.com/item?id=32433338",
+  "headline": "Ask HN: What's the simplest way to store email collected from a landing page?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm about to spin up a landing page to test a startup idea and would like to collect some basic details like name &amp; email from interested users.<p>Managed DBs &amp; VPS seem excessive for this simple case. What's my best option?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "maxwelldone",
+    "url": "https://news.ycombinator.com/user?id=maxwelldone"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32433338",
+  "sameAs": "https://news.ycombinator.com/item?id=32433338",
+  "dateCreated": "2022-08-12T02:22:01.872Z",
+  "datePublished": "2022-08-12T00:04:04.000Z",
+  "dateModified": "2022-08-12T02:22:01.872Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 什么是最简单的方法来存储从登陆页面收集的电子邮件？\n",
+  "headline_zh-Hant": "Ask HN: 什麼是最簡單的方法來存儲從登陸頁面收集的電子郵件？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正准备制作一个登陆页面，以测试一个初创企业的想法，并希望从感兴趣的用户那里收集一些基本的细节，如姓名和电子邮件。<p>管理数据库和VPS对于这种简单的情况似乎是过度的。我的最佳选择是什么？\n",
+  "description_zh-Hant": "我正準備製作一個登陸頁面，以測試一個初創企業的想法，並希望從感興趣的用戶那裡收集一些基本的細節，如姓名和電子郵件。<p>管理數據庫和VPS對於這種簡單的情況似乎是過度的。我的最佳選擇是什麼？\n"
+}

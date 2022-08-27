@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--showhn--HackerNews--NewsArticle--32461523",
+  "url": "https://news.ycombinator.com/item?id=32461523",
+  "headline": "Show HN: YoLinks, a human-readable URL shortener for teams",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN,<p>I've been working on YoLinks (aka YoLinks.app) for the past few months. Most URLs are long, unmemorable, and opaque. YoLinks allows anyone in your organization to create aliases that anyone else can access. These aliases end up being shorter, more memorable, and transparent. Imagine using yo/onboarding instead of <a href=\"https://docs.google.com/document/d/1pyJy21G5F508r6Fbg0AMlE8axKl2fclMKi49O27k4SA/edit\" rel=\"nofollow\">https://docs.google.com/document/d/1pyJy21G5F508r6Fbg0AMlE8a...</a>. All aliases are private to your organization.<p>My primary goal in building YoLinks was learning. I was also frustrated that my current company doesn't have a similar tool; you can learn a lot more while solving a real problem (this is why I didn't sign us up for similar products on the market).<p>Here's a list of concepts and tools I learned while building this:<p>* React for the frontend<p>* Cypress for in-browser tests<p>* Concepts around building a multi-tenant product for enterprises (roles, managing mappings between users and their organizations, SSO)<p>* Google Identity Platform (which also exposes you to Firebase Authentication) for authentication and supporting OIDC auth for multiple tenants<p>* Mixpanel<p>* Browser extension development (manifest v3 for Chrome and Edge; v2 for FireFox)<p>I'd love any feedback!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "aryann",
+    "url": "https://news.ycombinator.com/user?id=aryann"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32461523",
+  "sameAs": "https://yolinks.app/",
+  "dateCreated": "2022-08-14T18:30:32.446Z",
+  "datePublished": "2022-08-14T18:16:50.000Z",
+  "dateModified": "2022-08-14T18:30:32.446Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: YoLinks，一个为团队提供的人类可读的URL缩短器\n",
+  "headline_zh-Hant": "Show HN: YoLinks，一個為團隊提供的人類可讀的URL縮短器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hi HN,<p>I've been working on YoLinks (aka YoLinks.app) for the past few months. Most URLs are long, unmemorable, and opaque. YoLinks allows anyone in your organization to create aliases that anyone else can access. These aliases end up being shorter, more memorable, and transparent. Imagine using yo/onboarding instead of <a href=\"https://docs.google.com/document/d/1pyJy21G5F508r6Fbg0AMlE8axKl2fclMKi49O27k4SA/edit\" rel=\"nofollow\">https://docs.google.com/document/d/1pyJy21G5F508r6Fbg0AMlE8a...</a>. All aliases are private to your organization.<p>My primary goal in building YoLinks was learning. I was also frustrated that my current company doesn't have a similar tool; you can learn a lot more while solving a real problem (this is why I didn't sign us up for similar products on the market). <p>Here's a list of concepts and tools I learned while building this: <p>* React for the frontend<p>* Cypress for in-browser tests<p>* Concepts around building a multi-tenant product for enterprises (roles, managing mappings between users and their organizations, SSO)<p>* Google Identity Platform (which also exposes you to Firebase Authentication) for authentication and supporting OIDC auth for multiple tenants<p>* Mixpanel<p>* Browser extension development (manifest v3 for Chrome and Edge; v2 for FireFox)<p>I'd love any feedback!\n",
+  "description_zh-Hant": "Hi HN,<p>I've been working on YoLinks (aka YoLinks.app) for the past few months. Most URLs are long, unmemorable, and opaque. YoLinks allows anyone in your organization to create aliases that anyone else can access. These aliases end up being shorter, more memorable, and transparent. Imagine using yo/onboarding instead of <a href=\"https://docs.google.com/document/d/1pyJy21G5F508r6Fbg0AMlE8axKl2fclMKi49O27k4SA/edit\" rel=\"nofollow\">https://docs.google.com/document/d/1pyJy21G5F508r6Fbg0AMlE8a...</a>. All aliases are private to your organization.<p>My primary goal in building YoLinks was learning. I was also frustrated that my current company doesn't have a similar tool; you can learn a lot more while solving a real problem (this is why I didn't sign us up for similar products on the market). <p>Here's a list of concepts and tools I learned while building this: <p>* React for the frontend<p>* Cypress for in-browser tests<p>* Concepts around building a multi-tenant product for enterprises (roles, managing mappings between users and their organizations, SSO)<p>* Google Identity Platform (which also exposes you to Firebase Authentication) for authentication and supporting OIDC auth for multiple tenants<p>* Mixpanel<p>* Browser extension development (manifest v3 for Chrome and Edge; v2 for FireFox)<p>I'd love any feedback!\n"
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32575747",
+  "url": "https://news.ycombinator.com/item?id=32575747",
+  "headline": "Facebook feed seems borked but no status updates yet",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "0xChain",
+    "url": "https://news.ycombinator.com/user?id=0xChain"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32575747",
+  "sameAs": "https://metastatus.com/",
+  "dateCreated": "2022-08-24T07:02:08.883Z",
+  "datePublished": "2022-08-24T06:54:17.000Z",
+  "dateModified": "2022-08-24T07:02:08.883Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "脸书上的反馈似乎是错误的，但还没有状态更新\n",
+  "headline_zh-Hant": "臉書上的反饋似乎是錯誤的，但還沒有狀態更新\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

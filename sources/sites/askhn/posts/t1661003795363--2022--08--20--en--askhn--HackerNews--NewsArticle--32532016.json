@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--askhn--HackerNews--NewsArticle--32532016",
+  "url": "https://news.ycombinator.com/item?id=32532016",
+  "headline": "Ask HN: Is there a place that specifies input tensors for popular models?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I may be missing something painfully obvious here... but is there any place or way that you can quickly decipher how you create the input tensor from raw data to feed into a model you're working with?<p>For example, if I grabbed or was given an onnx model, is there any way to discover it's input tensors or is there a central repository of example input tensors I can check?<p>Every time I find a new pretrained model it semes like a majority of my time is spent just figuring out the input and output tensors and it rarely seems to be properly documented in a reasonable way even on huggingface.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "boredumb",
+    "url": "https://news.ycombinator.com/user?id=boredumb"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32532016",
+  "sameAs": "https://news.ycombinator.com/item?id=32532016",
+  "dateCreated": "2022-08-20T13:56:35.363Z",
+  "datePublished": "2022-08-20T13:44:47.000Z",
+  "dateModified": "2022-08-20T13:56:35.363Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 是否有一个地方可以指定流行模型的输入张量？\n",
+  "headline_zh-Hant": "Ask HN: 是否有一個地方可以指定流行模型的輸入張量？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我可能错过了一些很明显的东西......但是否有任何地方或方法可以让你快速解读如何从原始数据中创建输入张量来输入你正在使用的模型？<p>例如，如果我抓取或得到一个onnx模型，是否有任何方法可以发现它的输入张量，或者是否有一个我可以检查的输入张量例子的中央存储库？ <p>每当我发现一个新的预训练模型时，我的大部分时间似乎都花在了弄清输入和输出的张量上，而且即使在huggingface上，似乎也很少有合理的文档。\n",
+  "description_zh-Hant": "我可能錯過了一些很明顯的東西......但是否有任何地方或方法可以讓你快速解讀如何從原始數據中創建輸入張量來輸入你正在使用的模型？<p>例如，如果我抓取或得到一個onnx模型，是否有任何方法可以發現它的輸入張量，或者是否有一個我可以檢查的輸入張量例子的中央存儲庫？ <p>每當我發現一個新的預訓練模型時，我的大部分時間似乎都花在了弄清輸入和輸出的張量上，而且即使在huggingface上，似乎也很少有合理的文檔。\n"
+}

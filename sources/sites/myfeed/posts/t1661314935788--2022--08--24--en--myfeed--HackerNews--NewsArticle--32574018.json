@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32574018",
+  "url": "https://news.ycombinator.com/item?id=32574018",
+  "headline": "Crowdfunding platform of Web3 that helps raise ETH every 14 days",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "phanis",
+    "url": "https://news.ycombinator.com/user?id=phanis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32574018",
+  "sameAs": "https://twitter.com/bip_so/status/1562120276112207873",
+  "dateCreated": "2022-08-24T04:22:15.788Z",
+  "datePublished": "2022-08-24T01:39:20.000Z",
+  "dateModified": "2022-08-24T04:22:15.788Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Web3的众筹平台，每14天帮助筹集ETH。\n",
+  "headline_zh-Hant": "Web3的眾籌平臺，每14天幫助籌集ETH。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--showhn--HackerNews--NewsArticle--32576509",
+  "url": "https://news.ycombinator.com/item?id=32576509",
+  "headline": "Show HN: Weekrise – A Calendar for Your Tasks",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "herber",
+    "url": "https://news.ycombinator.com/user?id=herber"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32576509",
+  "sameAs": "https://weekrise.com",
+  "dateCreated": "2022-08-24T08:59:02.884Z",
+  "datePublished": "2022-08-24T08:36:55.000Z",
+  "dateModified": "2022-08-24T08:59:02.884Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Weekrise - 为你的任务制定的日历\n",
+  "headline_zh-Hant": "Show HN: Weekrise - 為你的任務制定的日曆\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--hackernews--HackerNews--NewsArticle--32524527",
+  "url": "https://news.ycombinator.com/item?id=32524527",
+  "headline": "FDIC issues cease and desist letter to FTX US [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "vishnugupta",
+    "url": "https://news.ycombinator.com/user?id=vishnugupta"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32524527",
+  "sameAs": "https://www.fdic.gov/news/press-releases/2022/ftx-harrison-letter.pdf",
+  "dateCreated": "2022-08-19T19:01:24.265Z",
+  "datePublished": "2022-08-19T18:32:55.000Z",
+  "dateModified": "2022-08-19T19:01:24.265Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 20
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 5
+    }
+  ],
+  "headline_zh-Hans": "联邦存款保险公司向FTX美国公司发出停止和终止信[pdf]\n",
+  "headline_zh-Hant": "聯邦存款保險公司向FTX美國公司發出停止和終止信[pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

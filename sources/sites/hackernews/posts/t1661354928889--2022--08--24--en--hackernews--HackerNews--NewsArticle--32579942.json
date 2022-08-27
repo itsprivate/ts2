@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--hackernews--HackerNews--NewsArticle--32579942",
+  "url": "https://news.ycombinator.com/item?id=32579942",
+  "headline": "Free Will: Who’s in Control?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "lawrenceyan",
+    "url": "https://news.ycombinator.com/user?id=lawrenceyan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32579942",
+  "sameAs": "https://deepfix.substack.com/p/free-will-whos-in-control",
+  "dateCreated": "2022-08-24T15:28:48.889Z",
+  "datePublished": "2022-08-24T14:30:47.000Z",
+  "dateModified": "2022-08-24T15:28:48.889Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "自由意志。谁在控制？\n",
+  "headline_zh-Hant": "自由意志。誰在控制？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

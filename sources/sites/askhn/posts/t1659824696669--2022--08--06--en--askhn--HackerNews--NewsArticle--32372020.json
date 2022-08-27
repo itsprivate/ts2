@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--06--en--askhn--HackerNews--NewsArticle--32372020",
+  "url": "https://news.ycombinator.com/item?id=32372020",
+  "headline": "Ask HN: Is the Arch Linux AUR Down?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "URL: https://aur.archlinux.org<p>I'm personally getting an Error 502: Bad gateway from their nginx server and would like to confirm it isn't just me",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "i13e",
+    "url": "https://news.ycombinator.com/user?id=i13e"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32372020",
+  "sameAs": "https://news.ycombinator.com/item?id=32372020",
+  "dateCreated": "2022-08-06T22:24:56.669Z",
+  "datePublished": "2022-08-06T22:09:16.000Z",
+  "dateModified": "2022-08-06T22:24:56.669Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Arch Linux的AUR倒了吗？\n",
+  "headline_zh-Hant": "Ask HN: Arch Linux的AUR倒了嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "URL: https://aur.archlinux.org<p>我个人从他们的nginx服务器上得到一个错误502：坏网关，想确认这不是我一个人的问题。\n",
+  "description_zh-Hant": "URL: https://aur.archlinux.org<p>我個人從他們的nginx服務器上得到一個錯誤502：壞網關，想確認這不是我一個人的問題。\n"
+}

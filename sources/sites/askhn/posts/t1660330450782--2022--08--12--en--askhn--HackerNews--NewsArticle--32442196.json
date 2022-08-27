@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--12--en--askhn--HackerNews--NewsArticle--32442196",
+  "url": "https://news.ycombinator.com/item?id=32442196",
+  "headline": "Ask HN: What is your high performance server setup?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "https://news.ycombinator.com/item?id=32439601<p>After reading this, I am wondering, how do you configure your linux server for high throughput API? I am struggling with 10k concurrent request with node.js on c6i.4xlarge and one ElastiCache redis cluster. I can't imagine handling 50k/100k concurrent request with single server.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "hmm-interesting",
+    "url": "https://news.ycombinator.com/user?id=hmm-interesting"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32442196",
+  "sameAs": "https://news.ycombinator.com/item?id=32442196",
+  "dateCreated": "2022-08-12T18:54:10.782Z",
+  "datePublished": "2022-08-12T18:24:35.000Z",
+  "dateModified": "2022-08-12T18:54:10.782Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你的高性能服务器设置是什么？\n",
+  "headline_zh-Hant": "Ask HN: 你的高性能服務器設置是什麼？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "https://news.ycombinator.com/item?id=32439601<p>读完这篇文章后，我想知道，你是如何为高吞吐量的API配置你的linux服务器的？我在c6i.4xlarge上用node.js和一个ElastiCache redis集群处理10k并发请求。我无法想象用一台服务器处理5万/10万并发请求。\n",
+  "description_zh-Hant": "https://news.ycombinator.com/item?id=32439601<p>讀完這篇文章後，我想知道，你是如何為高吞吐量的API配置你的linux服務器的？我在c6i.4xlarge上用node.js和一個ElastiCache redis集群處理10k併發請求。我無法想象用一臺服務器處理5萬/10萬併發請求。\n"
+}

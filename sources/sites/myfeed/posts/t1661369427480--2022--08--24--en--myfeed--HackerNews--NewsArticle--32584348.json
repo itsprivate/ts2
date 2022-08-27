@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32584348",
+  "url": "https://news.ycombinator.com/item?id=32584348",
+  "headline": "Introduction to Genomics for Software Engineers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "clmcleod",
+    "url": "https://news.ycombinator.com/user?id=clmcleod"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32584348",
+  "sameAs": "https://stjude.github.io/learngenomics.dev/docs/biological-foundations/cells-genomes-dna-chromosomes/",
+  "dateCreated": "2022-08-24T19:30:27.480Z",
+  "datePublished": "2022-08-24T19:14:34.000Z",
+  "dateModified": "2022-08-24T19:30:27.480Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "软件工程师的基因组学介绍\n",
+  "headline_zh-Hant": "軟件工程師的基因組學介紹\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

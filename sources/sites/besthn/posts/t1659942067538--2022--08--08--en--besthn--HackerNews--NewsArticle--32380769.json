@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--besthn--HackerNews--NewsArticle--32380769",
+  "url": "https://news.ycombinator.com/item?id=32380769",
+  "headline": "Why does gRPC insist on trailers?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "strzalek",
+    "url": "https://news.ycombinator.com/user?id=strzalek"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32380769",
+  "sameAs": "https://carlmastrangelo.com/blog/why-does-grpc-insist-on-trailers",
+  "dateCreated": "2022-08-08T07:01:07.538Z",
+  "datePublished": "2022-08-07T22:59:19.000Z",
+  "dateModified": "2022-08-08T07:01:07.538Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 201
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 64
+    }
+  ],
+  "headline_zh-Hans": "为什么gRPC坚持使用拖车？\n",
+  "headline_zh-Hant": "為什麼gRPC堅持使用拖車？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

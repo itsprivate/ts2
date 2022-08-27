@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--hackernews--HackerNews--NewsArticle--32579905",
+  "url": "https://news.ycombinator.com/item?id=32579905",
+  "headline": "AI-designed camera only records objects of interest while being blind to others",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "m-watson",
+    "url": "https://news.ycombinator.com/user?id=m-watson"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32579905",
+  "sameAs": "https://cnsi.ucla.edu/project/august-15-2022-ai-designed-camera-only-records-objects-of-interest-while-being-blind-to-others/",
+  "dateCreated": "2022-08-24T14:44:57.661Z",
+  "datePublished": "2022-08-24T14:27:52.000Z",
+  "dateModified": "2022-08-24T14:44:57.661Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "AI设计的相机只记录感兴趣的物体，而对其他物体视而不见\n",
+  "headline_zh-Hant": "AI設計的相機只記錄感興趣的物體，而對其他物體視而不見\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--hackernews--HackerNews--NewsArticle--32582571",
+  "url": "https://news.ycombinator.com/item?id=32582571",
+  "headline": "Does AWS Lambda Oregon region having issues?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Unable to run Lambdas.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "efi-lumigo",
+    "url": "https://news.ycombinator.com/user?id=efi-lumigo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32582571",
+  "sameAs": "https://news.ycombinator.com/item?id=32582571",
+  "dateCreated": "2022-08-24T17:35:17.568Z",
+  "datePublished": "2022-08-24T17:14:50.000Z",
+  "dateModified": "2022-08-24T17:35:17.568Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 12
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 8
+    }
+  ],
+  "headline_zh-Hans": "AWS Lambda Oregon地区有问题吗？\n",
+  "headline_zh-Hant": "AWS Lambda Oregon地區有問題嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "无法运行Lambdas。\n",
+  "description_zh-Hant": "無法運行Lambdas。\n"
+}

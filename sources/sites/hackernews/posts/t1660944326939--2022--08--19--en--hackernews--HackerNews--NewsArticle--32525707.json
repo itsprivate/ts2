@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--hackernews--HackerNews--NewsArticle--32525707",
+  "url": "https://news.ycombinator.com/item?id=32525707",
+  "headline": "640by480: Instagram Clone for Vintage Digital Cameras",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "kscottz",
+    "url": "https://news.ycombinator.com/user?id=kscottz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32525707",
+  "sameAs": "https://www.640by480.com/",
+  "dateCreated": "2022-08-19T21:25:26.939Z",
+  "datePublished": "2022-08-19T20:44:48.000Z",
+  "dateModified": "2022-08-19T21:25:26.939Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "640by480: 复古数码相机的Instagram克隆\n",
+  "headline_zh-Hant": "640by480: 復古數碼相機的Instagram克隆\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

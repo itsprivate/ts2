@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32572390",
+  "url": "https://news.ycombinator.com/item?id=32572390",
+  "headline": "OpenBSD on the Framework Laptop",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "upofadown",
+    "url": "https://news.ycombinator.com/user?id=upofadown"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32572390",
+  "sameAs": "https://libthom.so/posts/2022/openbsd-framework-laptop/",
+  "dateCreated": "2022-08-23T22:45:58.940Z",
+  "datePublished": "2022-08-23T22:23:36.000Z",
+  "dateModified": "2022-08-23T22:45:58.940Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "框架笔记本电脑上的OpenBSD\n",
+  "headline_zh-Hant": "框架筆記本電腦上的OpenBSD\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--askhn--HackerNews--NewsArticle--32481410",
+  "url": "https://news.ycombinator.com/item?id=32481410",
+  "headline": "Ask HN: To have (system) design sessions or not?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "In my team, I suggest that before starting coding/implementing any middle-size/big feature (e.g., an HTTP endpoint that, supposedly, needs a new db table) the engineers involved (which usually involves all the backend engineers) should have a &quot;design&quot; session where:<p>- potential high-level solutions are discussed<p>- potential implementations are discussed (not low-level details, but at least the important/risky ones)<p>- and once a &quot;final&quot; decision is made, whoever is in charge of pushing the feature live to production can start with the implementation. The rest of the team can review the implmentation later on knowing that it should follow the final decision the team agreed on<p>The team doesn't like the approach that much because:<p>- it takes time (&quot;Omg, yet another meeting?&quot;)<p>- &quot;review of the design can be done at PR code review time&quot;<p>- developers should have more freedom when it comes to designing systems (&quot;we don't want to be just code monkeys that implement the design of others&quot;)<p>I disagree with these reasons (but nevertheless comply with what the majority says). Mainly: having design sessions takes time, yes, but it pays off (in my opinion we are actually saving &quot;implementation/review&quot; time). Second: PR reviews shouldn't be for discussing architectural/design decisions (by the time the author has submitted a PR, it's already too late to make any significant changes. And if any significant change needs to be made, then we are losing tons of time as stated before). Third: design sessions are for everyone to speak up and suggest potential solutions, so we are not just &quot;code monkeys&quot;, we implement the designs we agree on.<p>I'm probably the second most senior engineer in the team but I'm not the &quot;tech lead&quot;. I do feel certain kind of responsibility in suggesting improvements in the way we work, but ultimately I don't have such a strong voice in the team, and we just do what the majority decides. The engineer manager knows about it, and while they agree we want to improve the way we work, they suggest that it will take time until we reach that point.<p>Just wanted to know your opinion about it. I'm a very relaxed person: while I do like to make suggestions to improve things, I don't mind if my suggestions are not ultimately taken into account.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "danwee",
+    "url": "https://news.ycombinator.com/user?id=danwee"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32481410",
+  "sameAs": "https://news.ycombinator.com/item?id=32481410",
+  "dateCreated": "2022-08-16T11:20:39.265Z",
+  "datePublished": "2022-08-16T11:17:58.000Z",
+  "dateModified": "2022-08-16T11:20:39.265Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 是否要举行（系统）设计会议？\n",
+  "headline_zh-Hant": "Ask HN: 是否要舉行（系統）設計會議？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在我的团队中，我建议在开始编码/实施任何中等规模/大的功能（例如。一个HTTP端点，据说需要一个新的数据库表），相关的工程师（通常包括所有的后台工程师）应该有一个&quot;设计&quot;会议，其中：<p>- 讨论潜在的高层次解决方案<p>- 讨论潜在的实现（不是低层次的细节，但至少是重要/危险的细节）<p>- 一旦做出&quot;最终&quot;决定，谁负责将该功能上线到生产，谁就可以开始实施了。团队的其他成员可以在稍后审查实施情况，知道它应该遵循团队商定的最终决定<p>团队不太喜欢这种方法，因为：<p>- 它需要时间（&quot;OMG，又要开会？ &quot;)<p>- &quot;对设计的审查可以在PR代码审查时进行&quot;<p>- 开发人员在设计系统时应该有更多的自由(&quot;我们不想只做实现别人设计的代码猴子&quot;)<p> 我不同意这些理由（但还是遵守大多数人的意见）。主要是：举行设计会议需要时间，是的，但它会带来回报（在我看来，我们实际上是在节省&quot;实施/审查&quot;时间）。第二：PR评审不应该用来讨论架构/设计决策（当作者提交PR时，已经来不及做任何重大改变了。而如果需要做任何重大的改变，那么我们就会像之前所说的那样损失大量的时间）。第三：设计会议是让每个人都发表意见并提出潜在的解决方案，所以我们不只是&quot;代码猴子&quot;，我们实施我们同意的设计。<p>我可能是团队中第二资深的工程师，但我不是&quot;技术领导&quot;。我确实感到有责任对我们的工作方式提出改进建议，但最终我在团队中没有那么大的发言权，我们只是做大多数人决定的事情。工程师经理知道这件事，虽然他们同意我们要改进工作方式，但他们建议在达到这一点之前需要时间。<p>我只是想知道你对此的看法。我是一个非常轻松的人：虽然我确实喜欢提出建议来改善事情，但我不介意我的建议最终没有被考虑。\n",
+  "description_zh-Hant": "在我的團隊中，我建議在開始編碼/實施任何中等規模/大的功能（例如。一個HTTP端點，據說需要一個新的數據庫表），相關的工程師（通常包括所有的後臺工程師）應該有一個&quot;設計&quot;會議，其中：<p>- 討論潛在的高層次解決方案<p>- 討論潛在的實現（不是低層次的細節，但至少是重要/危險的細節）<p>- 一旦做出&quot;最終&quot;決定，誰負責將該功能上線到生產，誰就可以開始實施了。團隊的其他成員可以在稍後審查實施情況，知道它應該遵循團隊商定的最終決定<p>團隊不太喜歡這種方法，因為：<p>- 它需要時間（&quot;OMG，又要開會？ &quot;)<p>- &quot;對設計的審查可以在PR代碼審查時進行&quot;<p>- 開發人員在設計系統時應該有更多的自由(&quot;我們不想只做實現別人設計的代碼猴子&quot;)<p> 我不同意這些理由（但還是遵守大多數人的意見）。主要是：舉行設計會議需要時間，是的，但它會帶來回報（在我看來，我們實際上是在節省&quot;實施/審查&quot;時間）。第二：PR評審不應該用來討論架構/設計決策（當作者提交PR時，已經來不及做任何重大改變了。而如果需要做任何重大的改變，那麼我們就會像之前所說的那樣損失大量的時間）。第三：設計會議是讓每個人都發表意見並提出潛在的解決方案，所以我們不只是&quot;代碼猴子&quot;，我們實施我們同意的設計。<p>我可能是團隊中第二資深的工程師，但我不是&quot;技術領導&quot;。我確實感到有責任對我們的工作方式提出改進建議，但最終我在團隊中沒有那麼大的發言權，我們只是做大多數人決定的事情。工程師經理知道這件事，雖然他們同意我們要改進工作方式，但他們建議在達到這一點之前需要時間。<p>我只是想知道你對此的看法。我是一個非常輕鬆的人：雖然我確實喜歡提出建議來改善事情，但我不介意我的建議最終沒有被考慮。\n"
+}

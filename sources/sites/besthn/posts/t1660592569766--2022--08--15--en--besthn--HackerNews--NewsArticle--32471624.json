@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--besthn--HackerNews--NewsArticle--32471624",
+  "url": "https://news.ycombinator.com/item?id=32471624",
+  "headline": "Win32 Is the Only Stable ABI on Linux",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pantalaimon",
+    "url": "https://news.ycombinator.com/user?id=pantalaimon"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32471624",
+  "sameAs": "https://blog.hiler.eu/win32-the-only-stable-abi/",
+  "dateCreated": "2022-08-15T19:42:49.766Z",
+  "datePublished": "2022-08-15T16:19:43.000Z",
+  "dateModified": "2022-08-15T19:42:49.766Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 209
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 137
+    }
+  ],
+  "headline_zh-Hans": "Win32是Linux上唯一稳定的ABI\n",
+  "headline_zh-Hant": "Win32是Linux上唯一穩定的ABI\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--hackernews--HackerNews--NewsArticle--32519881",
+  "url": "https://news.ycombinator.com/item?id=32519881",
+  "headline": "Serving Netflix Video Traffic at 800Gb/s and Beyond [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ksec",
+    "url": "https://news.ycombinator.com/user?id=ksec"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32519881",
+  "sameAs": "http://nabstreamingsummit.com/wp-content/uploads/2022/05/2022-Streaming-Summit-Netflix.pdf",
+  "dateCreated": "2022-08-19T13:47:29.825Z",
+  "datePublished": "2022-08-19T11:53:43.000Z",
+  "dateModified": "2022-08-19T13:47:29.825Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 78
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 31
+    }
+  ],
+  "headline_zh-Hans": "以800Gb/s及以上速度为Netflix视频流量提供服务 [pdf]\n",
+  "headline_zh-Hant": "以800Gb/s及以上速度為Netflix視頻流量提供服務 [pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

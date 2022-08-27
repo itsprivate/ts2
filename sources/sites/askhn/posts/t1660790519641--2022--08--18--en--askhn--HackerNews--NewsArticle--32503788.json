@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--askhn--HackerNews--NewsArticle--32503788",
+  "url": "https://news.ycombinator.com/item?id=32503788",
+  "headline": "Ask HN: Independently Recreate Zone Records?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi, we discovered that our registrar had nearly tripled our prices by adding thousands of dollars of services to our dozens of domains without permission (privacy, hosting, etc)<p>When we called them to ask when this was authorized, we were told they would refund up to three days' worth<p>So, we took one of the three accounts and moved all the domains off of it.<p>When we said we felt that it wasn't appropriate that they wouldn't tell us when the costs were authorized or refund us, and we'd already closed one account in protest, our other two accounts were locked, we were given the transfer codes, and we were told to hit the bricks<p>The thing is, the domains are complicated.  There's a lot of records on them.  And the registrar refuses to give us the zone records.  This seems like a real problem.<p>Is there a tool to recreate the zone records from the outside using things like dig and nslookup?<p>We really don't have the ability to remake these domains by hand",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "domain-tempacct",
+    "url": "https://news.ycombinator.com/user?id=domain-tempacct"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32503788",
+  "sameAs": "https://news.ycombinator.com/item?id=32503788",
+  "dateCreated": "2022-08-18T02:41:59.641Z",
+  "datePublished": "2022-08-18T00:44:31.000Z",
+  "dateModified": "2022-08-18T02:41:59.641Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 7
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 独立地重现区记录？\n",
+  "headline_zh-Hant": "Ask HN: 獨立地重現區記錄？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你好，我们发现我们的注册商在未经许可的情况下，给我们的几十个域名增加了数千美元的服务（隐私、托管等），使我们的价格几乎翻了三倍<p>当我们给他们打电话询问何时授权时，他们告诉我们最多可以退还三天的费用<p>于是，我们把三个账户中的一个，把所有的域名从它身上移走。 <p>当我们说，我们觉得他们不告诉我们费用是什么时候授权的，也不给我们退款是不合适的，而且我们已经关闭了一个账户以示抗议，我们的另外两个账户被锁定了，我们得到了转移代码，并被告知要撞墙<p>问题是，这些域名很复杂。 上面有很多记录。 而注册商拒绝给我们区域记录。 这似乎是一个真正的问题。<p>是否有一个工具可以从外部使用像dig和nslookup这样的东西重新创建区域记录？\n",
+  "description_zh-Hant": "你好，我們發現我們的註冊商在未經許可的情況下，給我們的幾十個域名增加了數千美元的服務（隱私、託管等），使我們的價格幾乎翻了三倍<p>當我們給他們打電話詢問何時授權時，他們告訴我們最多可以退還三天的費用<p>於是，我們把三個賬戶中的一個，把所有的域名從它身上移走。 <p>當我們說，我們覺得他們不告訴我們費用是什麼時候授權的，也不給我們退款是不合適的，而且我們已經關閉了一個賬戶以示抗議，我們的另外兩個賬戶被鎖定了，我們得到了轉移代碼，並被告知要撞牆<p>問題是，這些域名很複雜。 上面有很多記錄。 而註冊商拒絕給我們區域記錄。 這似乎是一個真正的問題。<p>是否有一個工具可以從外部使用像dig和nslookup這樣的東西重新創建區域記錄？\n"
+}

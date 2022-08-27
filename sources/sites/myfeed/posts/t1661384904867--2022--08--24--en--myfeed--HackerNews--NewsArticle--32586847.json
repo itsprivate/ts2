@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32586847",
+  "url": "https://news.ycombinator.com/item?id=32586847",
+  "headline": "Google Images alternative that doesn't suck",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "aman_jha",
+    "url": "https://news.ycombinator.com/user?id=aman_jha"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32586847",
+  "sameAs": "https://same.energy",
+  "dateCreated": "2022-08-24T23:48:24.867Z",
+  "datePublished": "2022-08-24T22:46:26.000Z",
+  "dateModified": "2022-08-24T23:48:24.867Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "谷歌图片的替代品，并不糟糕\n",
+  "headline_zh-Hant": "谷歌圖片的替代品，並不糟糕\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

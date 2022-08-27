@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--myfeed--HackerNews--NewsArticle--32591216",
+  "url": "https://news.ycombinator.com/item?id=32591216",
+  "headline": "The Worst Programming Language Ever",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "latexr",
+    "url": "https://news.ycombinator.com/user?id=latexr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32591216",
+  "sameAs": "https://www.youtube.com/watch?v=vcFBwt1nu2U",
+  "dateCreated": "2022-08-25T11:24:44.791Z",
+  "datePublished": "2022-08-25T08:48:41.000Z",
+  "dateModified": "2022-08-25T11:24:44.791Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "史上最差的编程语言\n",
+  "headline_zh-Hant": "史上最差的編程語言\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

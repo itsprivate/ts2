@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32567985",
+  "url": "https://news.ycombinator.com/item?id=32567985",
+  "headline": "One-Third of Popular PyPI Packages Mistakenly Flagged as Malicious",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "dlor",
+    "url": "https://news.ycombinator.com/user?id=dlor"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32567985",
+  "sameAs": "https://www.darkreading.com/application-security/one-third-pypi-packages-mistakenly-flagged-malicious",
+  "dateCreated": "2022-08-23T17:38:18.741Z",
+  "datePublished": "2022-08-23T17:14:55.000Z",
+  "dateModified": "2022-08-23T17:38:18.741Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 4
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "三分之一的流行PyPI软件包被误标为恶意软件\n",
+  "headline_zh-Hant": "三分之一的流行PyPI軟件包被誤標為惡意軟件\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

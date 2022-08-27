@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--hackernews--HackerNews--NewsArticle--32534173",
+  "url": "https://news.ycombinator.com/item?id=32534173",
+  "headline": "Brian Kernighan adds Unicode support to Awk (May, 2022)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ducktective",
+    "url": "https://news.ycombinator.com/user?id=ducktective"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32534173",
+  "sameAs": "https://github.com/onetrueawk/awk/commit/9ebe940cf3c652b0e373634d2aa4a00b8395b636",
+  "dateCreated": "2022-08-20T18:51:51.675Z",
+  "datePublished": "2022-08-20T18:32:31.000Z",
+  "dateModified": "2022-08-20T18:51:51.675Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 29
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 6
+    }
+  ],
+  "headline_zh-Hans": "Brian Kernighan为Awk增加了Unicode支持（2022年5月）。\n",
+  "headline_zh-Hant": "Brian Kernighan為Awk增加了Unicode支持（2022年5月）。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

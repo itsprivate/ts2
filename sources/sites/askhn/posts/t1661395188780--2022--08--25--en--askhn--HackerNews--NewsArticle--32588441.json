@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--askhn--HackerNews--NewsArticle--32588441",
+  "url": "https://news.ycombinator.com/item?id=32588441",
+  "headline": "Ask HN: Is it the norm for companies/startups to not give a damn about security?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi, I've joined a startup a few months ago(with a few dozens employees). A B2B startup which have some very huge clients which you all heard of, multinationals, some parts of governments.<p>It's not critical infrastructure or anything close to that, but we deal with the personal data of pretty important employees of those companies, and have an app installed on their phones.<p>And the &quot;security&quot; culture, seems like the worst you could imagine, I wonder if it's (almost) the norm in the industry or just some bad luck, would love to have your opinions and stories about this topic<p>A few months ago, I found a vulnerability allowing any user(and I do mean ANY user), to login as an admin on our homemade administration space with a simple trick, which would allow them to change almost any &quot;trusted&quot; content that users can see on our app, text, images, videos, links or files that they'll be asked to open/download, delete users, dump a list of all users...<p>Fixing this has been at the bottom of the todo list for months, and no one seems to care, no one is assigned to it.\nWhen it's brought up people are like &quot;ooh yeah that's like really really bad, but what about [tiny useless feature than one user asked about]?we don't have the time to fix that!&quot;<p>Hundreds of employees passwords for what's AFAIK our largest client, are stored in PLAINTEXT.(same story as the vulnerability, bottom of the todo list, no one cares)<p>Oh, and did I mention that any logged in user can call almost any API endpoints with almost zero verification that he's allowed to call them?<p>Those 3 issues are still there after months even though everybody is aware of them.<p>Would you just get the hell out without looking back? or keep trying to improve stuff even when it takes months to just get them to care enough to start maybe thinking about assigning a dev to a problem?<p>How is it at your current/past companies?<p>Thanks",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "nonasktell",
+    "url": "https://news.ycombinator.com/user?id=nonasktell"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32588441",
+  "sameAs": "https://news.ycombinator.com/item?id=32588441",
+  "dateCreated": "2022-08-25T02:39:48.780Z",
+  "datePublished": "2022-08-25T01:52:17.000Z",
+  "dateModified": "2022-08-25T02:39:48.780Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 公司/初创企业不重视安全问题是一种常态吗？\n",
+  "headline_zh-Hant": "Ask HN: 公司/初創企業不重視安全問題是一種常態嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "你好，我几个月前加入了一家创业公司（有几十名员工）。一家B2B创业公司拥有一些你们都听说过的巨大客户，包括跨国公司和政府的某些部门。<p>这不是关键的基础设施或类似的东西，但我们处理的是这些公司相当重要的员工的个人数据，并在他们的手机上安装了一个应用程序。 <p>而 \"安全 \"文化，似乎是你能想象到的最糟糕的，我不知道这是否（几乎）是这个行业的常态，或者只是一些坏运气，很想知道你对这个话题的看法和故事<p>几个月前，我发现一个漏洞，允许任何用户（我是说任何用户），通过一个简单的技巧，以管理员身份登录我们的自制管理空间，这将允许他们改变几乎任何 \"受信任 \"的内容。 信任的&quot;内容，用户可以在我们的应用程序上看到文本、图像、视频、链接或文件，他们会被要求打开/下载，删除用户，转储所有用户的列表。 ...<p>几个月来，修复这个问题一直被放在任务清单的最底层，但似乎没有人关心，也没有人被分配到这个问题上。\n当它被提出来的时候，人们就像&quot;哦，是的，这就像真的非常糟糕，但是[比一个用户要求的更小的无用功能]呢？我们没有时间去修复它！&quot;<p>我们最大的客户的数百名员工的密码是以PLAINTEXT存储的。 (与漏洞的故事相同，在任务列表的底部，没有人关心)<p>哦，我有没有提到，任何登录的用户都可以调用几乎所有的API端点，几乎不需要验证他是否被允许调用它们？ <p>这3个问题在几个月后仍然存在，尽管每个人都知道它们。<p>你会不顾一切地离开吗？还是继续努力改进东西，即使花了几个月的时间才让他们关心到也许开始考虑分配一个开发人员来处理问题？<p>你现在/过去的公司情况如何？<p>谢谢\n",
+  "description_zh-Hant": "你好，我幾個月前加入了一家創業公司（有幾十名員工）。一家B2B創業公司擁有一些你們都聽說過的巨大客戶，包括跨國公司和政府的某些部門。<p>這不是關鍵的基礎設施或類似的東西，但我們處理的是這些公司相當重要的員工的個人數據，並在他們的手機上安裝了一個應用程序。 <p>而 \"安全 \"文化，似乎是你能想象到的最糟糕的，我不知道這是否（幾乎）是這個行業的常態，或者只是一些壞運氣，很想知道你對這個話題的看法和故事<p>幾個月前，我發現一個漏洞，允許任何用戶（我是說任何用戶），通過一個簡單的技巧，以管理員身份登錄我們的自制管理空間，這將允許他們改變幾乎任何 \"受信任 \"的內容。 信任的&quot;內容，用戶可以在我們的應用程序上看到文本、圖像、視頻、鏈接或文件，他們會被要求打開/下載，刪除用戶，轉儲所有用戶的列表。 ...<p>幾個月來，修復這個問題一直被放在任務清單的最底層，但似乎沒有人關心，也沒有人被分配到這個問題上。\n當它被提出來的時候，人們就像&quot;哦，是的，這就像真的非常糟糕，但是[比一個用戶要求的更小的無用功能]呢？我們沒有時間去修復它！&quot;<p>我們最大的客戶的數百名員工的密碼是以PLAINTEXT存儲的。 (與漏洞的故事相同，在任務列表的底部，沒有人關心)<p>哦，我有沒有提到，任何登錄的用戶都可以調用幾乎所有的API端點，幾乎不需要驗證他是否被允許調用它們？ <p>這3個問題在幾個月後仍然存在，儘管每個人都知道它們。<p>你會不顧一切地離開嗎？還是繼續努力改進東西，即使花了幾個月的時間才讓他們關心到也許開始考慮分配一個開發人員來處理問題？<p>你現在/過去的公司情況如何？<p>謝謝\n"
+}

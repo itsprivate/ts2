@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--besthn--HackerNews--NewsArticle--32547912",
+  "url": "https://news.ycombinator.com/item?id=32547912",
+  "headline": "Tell HN: Google Cloud suspended our production projects at 1am on Saturday",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "TLDR; never use google cloud systems for production.<p>Google cloud suspended all our projects due to the billing issue in their system they had.<p>Despite reassurances &quot;your account will not be suspended&quot; while communicating with billing support, all the projects were suspended at 1am on Saturday.<p>All the account payments were made and the billing cards are valid. There are no outstanding bills.<p>Never use GCP for production.<p>----\nEdit: full story by request, long read:\n----<p>Previous month billing didn't went through. Not sure if this was due to the billing outage google had (https://status.cloud.google.com/products/oLCqDYkE9NFWQVgctQTL/history) or financial transaction issue, however we went ahead and made a manual payment covering all the outstanding amount + extra. Despite the payment made, about a week+ later we suddenly started receiving threatening emails &quot;Your Projects are at risk of suspension&quot;. Edited and updated the billing cards. Opened a billing support request clearly mentioning this is a production environment and all the bills are paid. They were &quot;investigating&quot; the issue and assured the project will not be suspended.",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "7tech",
+    "url": "https://news.ycombinator.com/user?id=7tech"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32547912",
+  "sameAs": "https://news.ycombinator.com/item?id=32547912",
+  "dateCreated": "2022-08-22T07:56:44.311Z",
+  "datePublished": "2022-08-22T06:08:54.000Z",
+  "dateModified": "2022-08-22T07:56:44.311Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 204
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 73
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：谷歌云在周六凌晨1点暂停了我们的生产项目\n",
+  "headline_zh-Hant": "告訴HN：谷歌雲在週六凌晨1點暫停了我們的生產項目\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "TLDR；永远不要使用谷歌云系统进行生产。<p>谷歌云暂停了我们所有的项目，因为他们系统中的计费问题。<p>尽管在与计费支持部门沟通时保证&quot;你的账户不会被暂停&quot;，但所有的项目在周六凌晨1点被暂停。<p>所有的账户付款都已完成，计费卡有效。没有未付的账单。<p>千万不要将GCP用于生产。<p>----\n编辑：应要求提供完整的故事，阅读时间很长。\n----<p>上个月的账单没有通过。不知道这是由于google的计费中断（https://status.cloud.google.com/products/oLCqDYkE9NFWQVgctQTL/history）还是金融交易问题，但是我们继续前进并进行了手动付款，涵盖了所有的未付金额+额外的金额。尽管已经付款，大约一个多星期后，我们突然开始收到威胁性的电子邮件&quot;你的项目有暂停的风险&quot;。编辑并更新了帐单卡。打开了一个账单支持请求，明确提到这是一个生产环境，所有的账单都已支付。他们正在&quot;调查&quot;这个问题并保证项目不会被暂停。\n",
+  "description_zh-Hant": "TLDR；永遠不要使用谷歌雲系統進行生產。<p>谷歌雲暫停了我們所有的項目，因為他們系統中的計費問題。<p>儘管在與計費支持部門溝通時保證&quot;你的賬戶不會被暫停&quot;，但所有的項目在週六凌晨1點被暫停。<p>所有的賬戶付款都已完成，計費卡有效。沒有未付的賬單。<p>千萬不要將GCP用於生產。<p>----\n編輯：應要求提供完整的故事，閱讀時間很長。\n----<p>上個月的賬單沒有通過。不知道這是由於google的計費中斷（https://status.cloud.google.com/products/oLCqDYkE9NFWQVgctQTL/history）還是金融交易問題，但是我們繼續前進並進行了手動付款，涵蓋了所有的未付金額+額外的金額。儘管已經付款，大約一個多星期後，我們突然開始收到威脅性的電子郵件&quot;你的項目有暫停的風險&quot;。編輯並更新了帳單卡。打開了一個賬單支持請求，明確提到這是一個生產環境，所有的賬單都已支付。他們正在&quot;調查&quot;這個問題並保證項目不會被暫停。\n"
+}

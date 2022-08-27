@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--askhn--HackerNews--NewsArticle--32519083",
+  "url": "https://news.ycombinator.com/item?id=32519083",
+  "headline": "Ask HN: ASK HN: Any advice on bad GoTo-support?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm quite desperate so I want to ask, whether you might have some advice or similar experiences with bad customer-support at GoTo?\nWe implemented the GoToWebinar-APIs in may 2022. Our customers were quite happy, however we are facing an API-request limit of 500 calls per day. Thus, having an event with 1500 participants takes several days to create using the API.<p>There are ways to lift the API-Client to production-mode by calling the support. And there is the problem: \nGoTo support is refusing or is just unable to help. Several mails and conversations later we still have no solution. Even worse, the support takes two to four weeks to answer requests and is seemingly unwilling to help- I even got asked, whether I want to downgrade my account (???).<p>I'm actually thinking about ditching the GoTo-integration and move to competitors like Zoom. Even if this will result in an investment of work. Also our clients would not be happy to move to another provider due to their habits. Finally, I don't know whether the customer-support is on the same, inacceptable level.<p>Do you have made similar experiences with GoTo or other providers like Zoom?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "immnn",
+    "url": "https://news.ycombinator.com/user?id=immnn"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32519083",
+  "sameAs": "https://news.ycombinator.com/item?id=32519083",
+  "dateCreated": "2022-08-19T09:47:21.776Z",
+  "datePublished": "2022-08-19T09:40:34.000Z",
+  "dateModified": "2022-08-19T09:47:21.776Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: ASK HN: 对糟糕的GoTo-支持有什么建议吗？\n",
+  "headline_zh-Hant": "Ask HN: ASK HN: 對糟糕的GoTo-支持有什麼建議嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我很绝望，所以我想问，你是否有一些建议或类似的经验，在GoTo的糟糕的客户支持下？\n我们在2022年5月实施了GoToWebinar-APIs。我们的客户非常满意，但是我们面临着每天500次的API请求限制。因此，使用API创建一个有1500名参与者的活动需要几天时间。<p>有办法通过呼叫支持将API-客户端提升到生产模式。问题就出在这里。\nGoTo的支持是拒绝或无法提供帮助。几封邮件和对话之后，我们仍然没有解决方案。更糟糕的是，支持部门需要两到四周的时间来回答请求，而且似乎不愿意提供帮助--我甚至被问到，我是否要降低我的账户等级（？即使这将导致工作上的投资。而且我们的客户由于习惯问题，也不会乐意转到另一个供应商那里。最后，我不知道客户支持是否处于相同的、不可接受的水平。<p>你在GoTo或Zoom等其他供应商那里是否有类似的经历？\n",
+  "description_zh-Hant": "我很絕望，所以我想問，你是否有一些建議或類似的經驗，在GoTo的糟糕的客戶支持下？\n我們在2022年5月實施了GoToWebinar-APIs。我們的客戶非常滿意，但是我們面臨著每天500次的API請求限制。因此，使用API創建一個有1500名參與者的活動需要幾天時間。<p>有辦法通過呼叫支持將API-客戶端提升到生產模式。問題就出在這裡。\nGoTo的支持是拒絕或無法提供幫助。幾封郵件和對話之後，我們仍然沒有解決方案。更糟糕的是，支持部門需要兩到四周的時間來回答請求，而且似乎不願意提供幫助--我甚至被問到，我是否要降低我的賬戶等級（？即使這將導致工作上的投資。而且我們的客戶由於習慣問題，也不會樂意轉到另一個供應商那裡。最後，我不知道客戶支持是否處於相同的、不可接受的水平。<p>你在GoTo或Zoom等其他供應商那裡是否有類似的經歷？\n"
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--15--en--hackernews--HackerNews--NewsArticle--32474281",
+  "url": "https://news.ycombinator.com/item?id=32474281",
+  "headline": "Rules for Weird Ideas",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mbwgh",
+    "url": "https://news.ycombinator.com/user?id=mbwgh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32474281",
+  "sameAs": "https://dynomight.net/weird-ideas/",
+  "dateCreated": "2022-08-15T20:27:33.012Z",
+  "datePublished": "2022-08-15T19:37:10.000Z",
+  "dateModified": "2022-08-15T20:27:33.012Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "怪异想法的规则\n",
+  "headline_zh-Hant": "怪異想法的規則\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

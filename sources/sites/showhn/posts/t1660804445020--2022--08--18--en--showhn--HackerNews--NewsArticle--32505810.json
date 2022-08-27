@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--showhn--HackerNews--NewsArticle--32505810",
+  "url": "https://news.ycombinator.com/item?id=32505810",
+  "headline": "Show HN: StoneDB—A Real-Time HTAP Database Based on the MySQL Kernel",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "StoneDB is an open-source hybrid transaction/analytical processing (HTAP) database designed and developed by StoneAtom based on the MySQL kernel. It is the first database of this type launched in China. StoneDB can be seamlessly switched from MySQL. It provides features such as optimal performance and real-time analytics, offering you a one-stop solution to process online transaction processing (OLTP), online analytical processing (OLAP), and HTAP workloads.<p>StoneDB is fully compatible with the MySQL 5.6 and 5.7 protocols, the MySQL ecosystem, and common MySQL features and syntaxes. Tools and clients in the MySQL ecosystem, such as Navicat, Workbench, mysqldump, and mydumper, can be directly used on StoneDB. In addition, all workloads on StoneDB can be run on MySQL.<p>StoneDB is optimized for OLAP applications. StoneDB that runs on a common server can process complex queries on tens of billions of data records, while ensuring high performance. Compared to databases that use MySQL Community Edition, StoneDB is at least 10 times faster in processing queries.<p>StoneDB uses the Knowledge Grid technology and a column-based storage engine. The column-based storage engine is designed for OLAP applications and uses techniques such as column-based storage, Knowledge Grid-based filtering, and high-efficiency data compression. With such storage engine, StoneDB ensures the high performance of application systems and reduces the total cost of ownership (TCO).",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "Bright_Li",
+    "url": "https://news.ycombinator.com/user?id=Bright_Li"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32505810",
+  "sameAs": "https://github.com/stoneatom/stonedb",
+  "dateCreated": "2022-08-18T06:34:05.020Z",
+  "datePublished": "2022-08-18T05:56:04.000Z",
+  "dateModified": "2022-08-18T06:34:05.020Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: StoneDB--基于MySQL内核的实时HTAP数据库\n",
+  "headline_zh-Hant": "Show HN: StoneDB--基於MySQL內核的實時HTAP數據庫\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "StoneDB是StoneAtom公司基于MySQL内核设计和开发的开源混合交易/分析处理（HTAP）数据库。它是中国推出的第一个该类型的数据库。StoneDB可以从MySQL无缝切换。它提供了最佳性能和实时分析等功能，为您提供了处理在线交易处理（OLTP）、在线分析处理（OLAP）和HTAP工作负载的一站式解决方案。<p>StoneDB与MySQL 5.6和5.7协议、MySQL生态系统、以及常见的MySQL功能和语法完全兼容。MySQL生态系统中的工具和客户端，如Navicat、Workbench、mysqldump和mydumper，可以直接在StoneDB上使用。此外，StoneDB上的所有工作负载都可以在MySQL上运行。<p>StoneDB为OLAP应用进行了优化。在普通服务器上运行的StoneDB可以处理数以百亿计的数据记录的复杂查询，同时保证高性能。与使用MySQL社区版的数据库相比，StoneDB处理查询的速度至少要快10倍。<p>StoneDB使用知识网格技术和基于列的存储引擎。基于列的存储引擎是为OLAP应用而设计的，它采用了诸如基于列的存储、基于知识网格的过滤和高效数据压缩等技术。通过这样的存储引擎，StoneDB确保了应用系统的高性能，并降低了总体拥有成本（TCO）。\n",
+  "description_zh-Hant": "StoneDB是StoneAtom公司基於MySQL內核設計和開發的開源混合交易/分析處理（HTAP）數據庫。它是中國推出的第一個該類型的數據庫。StoneDB可以從MySQL無縫切換。它提供了最佳性能和實時分析等功能，為您提供了處理在線交易處理（OLTP）、在線分析處理（OLAP）和HTAP工作負載的一站式解決方案。<p>StoneDB與MySQL 5.6和5.7協議、MySQL生態系統、以及常見的MySQL功能和語法完全兼容。MySQL生態系統中的工具和客戶端，如Navicat、Workbench、mysqldump和mydumper，可以直接在StoneDB上使用。此外，StoneDB上的所有工作負載都可以在MySQL上運行。<p>StoneDB為OLAP應用進行了優化。在普通服務器上運行的StoneDB可以處理數以百億計的數據記錄的複雜查詢，同時保證高性能。與使用MySQL社區版的數據庫相比，StoneDB處理查詢的速度至少要快10倍。<p>StoneDB使用知識網格技術和基於列的存儲引擎。基於列的存儲引擎是為OLAP應用而設計的，它採用了諸如基於列的存儲、基於知識網格的過濾和高效數據壓縮等技術。通過這樣的存儲引擎，StoneDB確保了應用系統的高性能，並降低了總體擁有成本（TCO）。\n"
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32584754",
+  "url": "https://news.ycombinator.com/item?id=32584754",
+  "headline": "Facebook users reporting celebrity spam is flooding their feeds",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "stoicanalyst",
+    "url": "https://news.ycombinator.com/user?id=stoicanalyst"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32584754",
+  "sameAs": "https://www.npr.org/2022/08/24/1119206689/facebook-celebrity-spam-glitch",
+  "dateCreated": "2022-08-24T20:27:48.977Z",
+  "datePublished": "2022-08-24T19:45:18.000Z",
+  "dateModified": "2022-08-24T20:27:48.977Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "脸书用户报告称名人垃圾邮件充斥他们的馈送页面\n",
+  "headline_zh-Hant": "臉書用戶報告稱名人垃圾郵件充斥他們的饋送頁面\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

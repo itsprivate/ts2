@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--hackernews--HackerNews--NewsArticle--32507849",
+  "url": "https://news.ycombinator.com/item?id=32507849",
+  "headline": "Tempest LCD: Playing Songs from Your LCD Monitor with a Radio",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "signa11",
+    "url": "https://news.ycombinator.com/user?id=signa11"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32507849",
+  "sameAs": "https://github.com/luamfb/tempest-lcd",
+  "dateCreated": "2022-08-18T11:56:19.370Z",
+  "datePublished": "2022-08-18T11:06:17.000Z",
+  "dateModified": "2022-08-18T11:56:19.370Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Tempest LCD。用收音机播放液晶显示器上的歌曲\n",
+  "headline_zh-Hant": "Tempest LCD。用收音機播放液晶顯示器上的歌曲\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--06--en--besthn--HackerNews--NewsArticle--32367982",
+  "url": "https://news.ycombinator.com/item?id=32367982",
+  "headline": "Google Trying to Solve a UUID",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "delduca",
+    "url": "https://news.ycombinator.com/user?id=delduca"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32367982",
+  "sameAs": "https://www.google.com/search?q=0e2b835d-4d9a-4b8b-b009-988741022e8c&sourceid=chrome&ie=UTF-8",
+  "dateCreated": "2022-08-06T17:56:04.838Z",
+  "datePublished": "2022-08-06T13:38:24.000Z",
+  "dateModified": "2022-08-06T17:56:04.838Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 201
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 75
+    }
+  ],
+  "headline_zh-Hans": "谷歌试图解决UUID的问题\n",
+  "headline_zh-Hant": "谷歌試圖解決UUID的問題\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

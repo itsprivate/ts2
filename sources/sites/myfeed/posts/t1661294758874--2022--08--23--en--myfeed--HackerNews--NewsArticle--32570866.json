@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32570866",
+  "url": "https://news.ycombinator.com/item?id=32570866",
+  "headline": "New Employee, Command UI, JMP SIM Card, Multi-Account Billing",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "zaik",
+    "url": "https://news.ycombinator.com/user?id=zaik"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32570866",
+  "sameAs": "https://blog.jmp.chat/b/august-newsletter-2022",
+  "dateCreated": "2022-08-23T22:45:58.874Z",
+  "datePublished": "2022-08-23T20:16:18.000Z",
+  "dateModified": "2022-08-23T22:45:58.874Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "新员工，命令用户界面，JMP SIM卡，多账户计费\n",
+  "headline_zh-Hant": "新員工，命令用戶界面，JMP SIM卡，多賬戶計費\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

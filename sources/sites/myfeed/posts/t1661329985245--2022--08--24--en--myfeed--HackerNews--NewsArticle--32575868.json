@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32575868",
+  "url": "https://news.ycombinator.com/item?id=32575868",
+  "headline": "Facebook down: Why is my news feed showing posts to celebrities",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "orjan",
+    "url": "https://news.ycombinator.com/user?id=orjan"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32575868",
+  "sameAs": "https://www.newsshopper.co.uk/news/national/uk-today/20732497.facebook-news-feed-showing-posts-celebrities/",
+  "dateCreated": "2022-08-24T08:33:05.245Z",
+  "datePublished": "2022-08-24T07:13:17.000Z",
+  "dateModified": "2022-08-24T08:33:05.245Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "脸书下跌。为什么我的新闻提要显示给名人的帖子\n",
+  "headline_zh-Hant": "臉書下跌。為什麼我的新聞提要顯示給名人的帖子\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

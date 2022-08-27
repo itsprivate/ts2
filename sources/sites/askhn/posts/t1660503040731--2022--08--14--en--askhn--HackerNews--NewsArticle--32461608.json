@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--askhn--HackerNews--NewsArticle--32461608",
+  "url": "https://news.ycombinator.com/item?id=32461608",
+  "headline": "Ask HN: App Distribution Through the Ages",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "It used to be that you distributed app binaries for installation on your OS. There were issues of memory safety, code security, viruses, piracy etc., with this approach.<p>The rise of open source, garbage-collected languages, language runtimes and centrally controlled appstores has become the norm.<p>Why haven't we had an evolution of better ways of linking/loading applications and policy enfocement that improves memory safety, user security and privacy without the rent-seeking central app store mechanisms? Something like docker or podman but at an application binary level that can enforce a stricter contract and policy enforcement (and maybe portable across OSes) using advancements in languages and systems such as refinement types, SMT solvers, proof systems etc.,<p>Is there any practically usable software that strives to do this?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "vivegi",
+    "url": "https://news.ycombinator.com/user?id=vivegi"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32461608",
+  "sameAs": "https://news.ycombinator.com/item?id=32461608",
+  "dateCreated": "2022-08-14T18:50:40.731Z",
+  "datePublished": "2022-08-14T18:27:37.000Z",
+  "dateModified": "2022-08-14T18:50:40.731Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 古往今来的应用分发\n",
+  "headline_zh-Hant": "Ask HN: 古往今來的應用分發\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "过去，你分发应用程序的二进制文件，以便在你的操作系统上安装。这种方法存在内存安全、代码安全、病毒、盗版等问题。<p>开源、垃圾收集语言、语言运行时和集中控制的应用商店的兴起已成为常态。<p>为什么我们没有进化出更好的链接/加载应用程序和政策执行的方法，以改善内存安全、用户安全和隐私，而没有寻租的中央应用商店机制？类似于docker或podman的东西，但在应用二进制层面上，可以利用语言和系统的进步，如细化类型、SMT求解器、证明系统等，执行更严格的合同和策略执行（也许可以跨操作系统移植）。\n",
+  "description_zh-Hant": "過去，你分發應用程序的二進制文件，以便在你的操作系統上安裝。這種方法存在內存安全、代碼安全、病毒、盜版等問題。<p>開源、垃圾收集語言、語言運行時和集中控制的應用商店的興起已成為常態。<p>為什麼我們沒有進化出更好的鏈接/加載應用程序和政策執行的方法，以改善內存安全、用戶安全和隱私，而沒有尋租的中央應用商店機制？類似於docker或podman的東西，但在應用二進制層面上，可以利用語言和系統的進步，如細化類型、SMT求解器、證明系統等，執行更嚴格的合同和策略執行（也許可以跨操作系統移植）。\n"
+}

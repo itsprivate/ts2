@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--13--en--askhn--HackerNews--NewsArticle--32454420",
+  "url": "https://news.ycombinator.com/item?id=32454420",
+  "headline": "Ask HN: Why is “Microsoft Quick Assist” vuln being suppressed?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've attempted to share this story numerous times and it has been taken down every time, and I have been banned from multiple communities for even talking about it. I'm not giving up yet.<p>The short story is: A fully updated Windows 11 Enterprise includes a major security threat vector called &quot;Microsoft Quick Assist&quot;.<p>The prospect of a Microsoft employee backdoor being in Windows was once relegated to the realms of conspiracy theories. Yet, today, every version of Windows 11 Enterprise (probably other editions too) includes what amounts to a broad daylight Microsoft employee backdoor. You can verify it for yourself in the following manner: Go to Settings -&gt; Apps -&gt; Optional features. scroll down a bit and you will find a 3.12MB executable called &quot;Microsoft Quick Assist&quot; What is Microsoft Quick Assist? Thankfully they even provided a description: &quot;Allows Microsoft support agents to connect to your device and also lets you share your screen with someone you trust so that they can help you.&quot;<p>There you have it folks, unequivocal evidence of a backdoor for &quot;Microsoft support agents&quot; to access your device, pre-installed with every system, with no warning or option to disable it during initial setup. They have stealthily buried it deep in the settings where most people aren't likely to discover it.<p>It was previously thought that if a backdoor existed in Windows it would only be accessible by high level Microsoft employees or perhaps need to be activated with a national security letter. Nope, it appears they have quite brazenly given underpaid support agents in a foreign country who barely speak English the keys to the kingdom.<p>Evidently someone doesn't want us talking about it.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "unknownaccount",
+    "url": "https://news.ycombinator.com/user?id=unknownaccount"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32454420",
+  "sameAs": "https://news.ycombinator.com/item?id=32454420",
+  "dateCreated": "2022-08-13T22:44:52.500Z",
+  "datePublished": "2022-08-13T22:30:36.000Z",
+  "dateModified": "2022-08-13T22:44:52.500Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么 \"Microsoft Quick Assist \"漏洞会被压制？\n",
+  "headline_zh-Hant": "Ask HN: 為什麼 \"Microsoft Quick Assist \"漏洞會被壓制？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我曾无数次试图分享这个故事，但每次都被拿下，而且我甚至因为谈论它而被多个社区禁止。我还没有放弃。<p>简短的故事是。一个完全更新的Windows 11企业版包括一个名为&quot;Microsoft Quick Assist&quot;的主要安全威胁载体。<p>Windows中存在微软员工后门的前景曾经被归入阴谋论的范畴。然而，今天，每个版本的Windows 11企业版（可能还有其他版本）都包括相当于一个光天化日之下的微软员工后门。你可以通过以下方式自行验证。进入设置-&gt;应用程序-&gt;可选功能。向下滚动一下，你会发现一个3.12MB的可执行文件，名为&quot;微软快速协助&quot;什么是微软快速协助？值得庆幸的是，他们甚至提供了一个描述：&quot;允许微软支持人员连接到你的设备，还可以让你与你信任的人分享你的屏幕，以便他们可以帮助你。<p>在这里，你有它的朋友，明确的证据，为&quot;微软支持人员&quot;访问你的设备的后门，预装在每个系统，没有警告或选项在初始设置中禁用它。他们已经悄悄地把它埋在设置的深处，大多数人不可能发现它。<p>以前人们认为，如果Windows中存在一个后门，它将只有微软的高级雇员可以访问，或者也许需要用国家安全信函激活。不，他们似乎已经相当厚颜无耻地把王国的钥匙交给了外国的低薪支持人员，他们几乎不会说英语。\n",
+  "description_zh-Hant": "我曾無數次試圖分享這個故事，但每次都被拿下，而且我甚至因為談論它而被多個社區禁止。我還沒有放棄。<p>簡短的故事是。一個完全更新的Windows 11企業版包括一個名為&quot;Microsoft Quick Assist&quot;的主要安全威脅載體。<p>Windows中存在微軟員工後門的前景曾經被歸入陰謀論的範疇。然而，今天，每個版本的Windows 11企業版（可能還有其他版本）都包括相當於一個光天化日之下的微軟員工後門。你可以通過以下方式自行驗證。進入設置-&gt;應用程序-&gt;可選功能。向下滾動一下，你會發現一個3.12MB的可執行文件，名為&quot;微軟快速協助&quot;什麼是微軟快速協助？值得慶幸的是，他們甚至提供了一個描述：&quot;允許微軟支持人員連接到你的設備，還可以讓你與你信任的人分享你的屏幕，以便他們可以幫助你。<p>在這裡，你有它的朋友，明確的證據，為&quot;微軟支持人員&quot;訪問你的設備的後門，預裝在每個系統，沒有警告或選項在初始設置中禁用它。他們已經悄悄地把它埋在設置的深處，大多數人不可能發現它。<p>以前人們認為，如果Windows中存在一個後門，它將只有微軟的高級僱員可以訪問，或者也許需要用國家安全信函激活。不，他們似乎已經相當厚顏無恥地把王國的鑰匙交給了外國的低薪支持人員，他們幾乎不會說英語。\n"
+}

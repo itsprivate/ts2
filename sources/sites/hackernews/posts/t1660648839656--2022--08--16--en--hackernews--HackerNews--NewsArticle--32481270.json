@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--hackernews--HackerNews--NewsArticle--32481270",
+  "url": "https://news.ycombinator.com/item?id=32481270",
+  "headline": "Scanning for AWS Security Issues with Trivy",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pcw888",
+    "url": "https://news.ycombinator.com/user?id=pcw888"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32481270",
+  "sameAs": "https://lia.mg/posts/trivy-aws/",
+  "dateCreated": "2022-08-16T11:20:39.656Z",
+  "datePublished": "2022-08-16T10:53:59.000Z",
+  "dateModified": "2022-08-16T11:20:39.656Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用Trivy扫描AWS安全问题\n",
+  "headline_zh-Hant": "用Trivy掃描AWS安全問題\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

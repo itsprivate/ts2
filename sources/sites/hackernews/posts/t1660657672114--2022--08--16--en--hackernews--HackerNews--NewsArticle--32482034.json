@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--hackernews--HackerNews--NewsArticle--32482034",
+  "url": "https://news.ycombinator.com/item?id=32482034",
+  "headline": "RubyGems now requires MFA for owners of top gems",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "jacques_chester",
+    "url": "https://news.ycombinator.com/user?id=jacques_chester"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32482034",
+  "sameAs": "https://blog.rubygems.org/2022/08/15/requiring-mfa-on-popular-gems.html",
+  "dateCreated": "2022-08-16T13:47:52.114Z",
+  "datePublished": "2022-08-16T12:43:08.000Z",
+  "dateModified": "2022-08-16T13:47:52.114Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 28
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 8
+    }
+  ],
+  "headline_zh-Hans": "RubyGems现在要求顶级宝石的所有者使用MFA\n",
+  "headline_zh-Hant": "RubyGems現在要求頂級寶石的所有者使用MFA\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

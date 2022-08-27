@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--askhn--HackerNews--NewsArticle--32382338",
+  "url": "https://news.ycombinator.com/item?id=32382338",
+  "headline": "Ask HN: Proposal for an ActivityPub RSS Based News Aggregation Community",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Over the past few years several open source decentralized platforms have emerged. Most modeled after existing sites and social networks, others being new concepts entirely. In this writing, I have taken concepts from rank oriented forums like Reddit and Hacker News, but incorporated them with RSS to make something free of biased algorithms. I believe this could give users not just a personal reader for themselves, but one that also has the option to be shared both by users and among instances of this platform design.<p>How the main feed ranking works<p>Every user has their own personal subscription list of RSS feeds. Obviously by default they can view their own feeds like any old traditional reader. What makes this unique is there would be a local feed page. This would contain a list of most popularly subscribed feeds among users within that rss instance. There would also be another page for a global list of feeds across all instances which depends on the optional relationship between other instances. This being either uni/bi direction or no relationship at all. If instance A follows instance B, then A’s global list contains a rank of feeds by users of both A and B. Global isn’t strictly all instances because we want them to be federated and give the option to control any necessary resource overhead.<p>How users interact<p>A big problem with RSS’s lack of success is that the modern internet is far too complex for any single user to collect feeds on their own. We want users to click on other’s profiles to see what they follow, along with the option to follow whatever is on any type of list. On a local or global feed page, every item in that list has a comment section. This would be similar to HN and Reddit, but with downvoting and overall karma being optional per instance. Of course there could also be other feed ranked pages that make use of this karma similar to Reddit and HN.<p>Any feedback is appreciated.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "super_throwaway",
+    "url": "https://news.ycombinator.com/user?id=super_throwaway"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32382338",
+  "sameAs": "https://news.ycombinator.com/item?id=32382338",
+  "dateCreated": "2022-08-08T04:43:41.663Z",
+  "datePublished": "2022-08-08T04:13:50.000Z",
+  "dateModified": "2022-08-08T04:43:41.663Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 关于建立基于ActivityPub RSS的新闻聚合社区的建议\n",
+  "headline_zh-Hant": "Ask HN: 關於建立基於ActivityPub RSS的新聞聚合社區的建議\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "在过去的几年里，出现了几个开源的去中心化平台。大多数是以现有的网站和社交网络为模型，其他的则完全是新的概念。在这篇文章中，我从Reddit和Hacker News等以等级为导向的论坛中提取了一些概念，但将它们与RSS结合起来，使之成为没有偏见的算法的东西。我相信这不仅可以给用户一个属于自己的个人阅读器，而且还可以选择由用户和这个平台设计的实例之间进行共享。<p>主要的饲料排名是如何工作的<p>每个用户都有自己的个人RSS订阅列表。显然，在默认情况下，他们可以像任何旧的传统阅读器一样查看他们自己的饲料。这一点的独特之处在于，会有一个本地feed页面。这将包含一个在该rss实例中的用户中最受欢迎的订阅源列表。也会有另一个页面，用于所有实例的全球饲料列表，这取决于其他实例之间的可选关系。这种关系要么是单向/双向的，要么是完全没有关系。如果实例A跟随实例B，那么A的全局列表就包含了A和B的用户的feeds排名。全局并不是严格意义上的所有实例，因为我们希望它们是联合的，并给出控制任何必要的资源开销的选项。<p>用户如何互动<p>RSS缺乏成功的一个大问题是，现代互联网太复杂了，任何单个用户都无法自己收集feeds。我们希望用户能够点击其他人的资料，看看他们关注了什么，同时还可以选择关注任何类型的列表中的任何内容。在本地或全球的Feed页面，该列表中的每一项都有一个评论部分。这将类似于HN和Reddit，但每个实例的下拉投票和整体因果关系是可选的。当然，也可以有其他feed排名的页面，利用这个类似于Reddit和HN的业力。<p>感谢任何反馈。\n",
+  "description_zh-Hant": "在過去的幾年裡，出現了幾個開源的去中心化平臺。大多數是以現有的網站和社交網絡為模型，其他的則完全是新的概念。在這篇文章中，我從Reddit和Hacker News等以等級為導向的論壇中提取了一些概念，但將它們與RSS結合起來，使之成為沒有偏見的算法的東西。我相信這不僅可以給用戶一個屬於自己的個人閱讀器，而且還可以選擇由用戶和這個平臺設計的實例之間進行共享。<p>主要的飼料排名是如何工作的<p>每個用戶都有自己的個人RSS訂閱列表。顯然，在默認情況下，他們可以像任何舊的傳統閱讀器一樣查看他們自己的飼料。這一點的獨特之處在於，會有一個本地feed頁面。這將包含一個在該rss實例中的用戶中最受歡迎的訂閱源列表。也會有另一個頁面，用於所有實例的全球飼料列表，這取決於其他實例之間的可選關係。這種關係要麼是單向/雙向的，要麼是完全沒有關係。如果實例A跟隨實例B，那麼A的全局列表就包含了A和B的用戶的feeds排名。全局並不是嚴格意義上的所有實例，因為我們希望它們是聯合的，並給出控制任何必要的資源開銷的選項。<p>用戶如何互動<p>RSS缺乏成功的一個大問題是，現代互聯網太複雜了，任何單個用戶都無法自己收集feeds。我們希望用戶能夠點擊其他人的資料，看看他們關注了什麼，同時還可以選擇關注任何類型的列表中的任何內容。在本地或全球的Feed頁面，該列表中的每一項都有一個評論部分。這將類似於HN和Reddit，但每個實例的下拉投票和整體因果關係是可選的。當然，也可以有其他feed排名的頁面，利用這個類似於Reddit和HN的業力。<p>感謝任何反饋。\n"
+}

@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--askhn--HackerNews--NewsArticle--32484704",
+  "url": "https://news.ycombinator.com/item?id=32484704",
+  "headline": "Ask HN: What do you use for writing your CV?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've always used markdown rendered to PDF via pandoc, but I've recently read that documents like this are thrown away by the resume filtering programs that companies use because they cannot properly auto-scan the data.  Do I need to break down and make an MS Word resume?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "Kon-Peki",
+    "url": "https://news.ycombinator.com/user?id=Kon-Peki"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32484704",
+  "sameAs": "https://news.ycombinator.com/item?id=32484704",
+  "dateCreated": "2022-08-16T16:37:03.796Z",
+  "datePublished": "2022-08-16T16:03:58.000Z",
+  "dateModified": "2022-08-16T16:37:03.796Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你用什么来写你的简历？\n",
+  "headline_zh-Hant": "Ask HN: 你用什麼來寫你的簡歷？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我一直使用markdown通过pandoc渲染成PDF，但我最近读到，像这样的文件被公司使用的简历过滤程序扔掉了，因为它们不能正确地自动扫描数据。 我是否需要分解并制作一份MS Word简历？\n",
+  "description_zh-Hant": "我一直使用markdown通過pandoc渲染成PDF，但我最近讀到，像這樣的文件被公司使用的簡歷過濾程序扔掉了，因為它們不能正確地自動掃描數據。 我是否需要分解並製作一份MS Word簡歷？\n"
+}

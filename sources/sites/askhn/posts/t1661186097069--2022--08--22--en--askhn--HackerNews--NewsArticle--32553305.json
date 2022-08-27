@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--askhn--HackerNews--NewsArticle--32553305",
+  "url": "https://news.ycombinator.com/item?id=32553305",
+  "headline": "Ask HN: What tradeoffs column-oriented DBs do to be “more efficient”?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "From the Wikipedia article: A column-oriented DBMS or columnar DBMS is a database management system (DBMS) that stores data tables by column rather than by row. Benefits include more efficient access to data when only querying a subset of columns (by eliminating the need to read columns that are not relevant), and more options for data compression. However, they are typically less efficient for inserting new data.<p>What exactly happens under the hood? Why the notion of storing by column rather by row increases read and reduces insertion respective speeds?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ewuhic",
+    "url": "https://news.ycombinator.com/user?id=ewuhic"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32553305",
+  "sameAs": "https://news.ycombinator.com/item?id=32553305",
+  "dateCreated": "2022-08-22T16:34:57.069Z",
+  "datePublished": "2022-08-22T15:59:11.000Z",
+  "dateModified": "2022-08-22T16:34:57.069Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为了 \"更有效率\"，面向列的数据库做了哪些折衷？\n",
+  "headline_zh-Hant": "Ask HN: 為了 \"更有效率\"，面向列的數據庫做了哪些折衷？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "来自维基百科的文章。面向列的DBMS或列式DBMS是一种数据库管理系统（DBMS），它按列而不是按行存储数据表。其优点包括在只查询一个列的子集时更有效地访问数据（通过消除读取不相关列的需要），以及更多的数据压缩选项。然而，它们在插入新数据方面的效率通常较低。<p>在引擎盖下究竟发生了什么？为什么按列而不是按行存储的概念会增加读取和减少各自的插入速度？\n",
+  "description_zh-Hant": "來自維基百科的文章。面向列的DBMS或列式DBMS是一種數據庫管理系統（DBMS），它按列而不是按行存儲數據表。其優點包括在只查詢一個列的子集時更有效地訪問數據（通過消除讀取不相關列的需要），以及更多的數據壓縮選項。然而，它們在插入新數據方面的效率通常較低。<p>在引擎蓋下究竟發生了什麼？為什麼按列而不是按行存儲的概念會增加讀取和減少各自的插入速度？\n"
+}

@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--09--en--askhn--HackerNews--NewsArticle--32403928",
+  "url": "https://news.ycombinator.com/item?id=32403928",
+  "headline": "Ask HN: Why would this page crash a browser tab even with JavaScript turned off?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "In the course of trying to google an unknown temporary file found on my drive, I came across this Chinese webpage[0]. It crashed the browser tab in both Firefox and Chrome <i>with Javascript turned off</i>. Reading the source, it's clearly trying to do something nasty; its main script[1] just creates another script tag and injects something from Baidu into it, which doesn't load on its own (presumably only serves once per token, or only if it knows it's injected somehow). Much of the rest of the page looks to be the raw source of a PDF file with a lot of email links. Served this way, Cloudflare is replacing those mail links with cfemail protection.<p>What I really can't figure out is why it crashes the tab, or what the purpose of it is. Put on a hazmat suit if you check this one out, and obviously turn off Javascript.<p>[0] https://www.impact-gun.com/uf20211126/20211126104952_40894.html<p>[1] https://www.impact-gun.com/templets/tj.js",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "noduerme",
+    "url": "https://news.ycombinator.com/user?id=noduerme"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32403928",
+  "sameAs": "https://news.ycombinator.com/item?id=32403928",
+  "dateCreated": "2022-08-09T20:46:21.216Z",
+  "datePublished": "2022-08-09T20:37:13.000Z",
+  "dateModified": "2022-08-09T20:46:21.216Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么即使关闭了JavaScript，这个页面也会使浏览器标签崩溃？\n",
+  "headline_zh-Hant": "Ask HN: 為什麼即使關閉了JavaScript，這個頁面也會使瀏覽器標籤崩潰？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "In the course of trying to google an unknown temporary file found on my drive, I came across this Chinese webpage[0]. It crashed the browser tab in both Firefox and Chrome <i>with Javascript turned off</i>. Reading the source, it's clearly trying to do something nasty; its main script[1] just creates another script tag and injects something from Baidu into it, which doesn't load on its own (presumably only serves once per token, or only if it knows it's injected somehow). Much of the rest of the page looks to be the raw source of a PDF file with a lot of email links. Served this way, Cloudflare is replacing those mail links with cfemail protection.<p>What I really can't figure out is why it crashes the tab, or what the purpose of it is. Put on a hazmat suit if you check this one out, and obviously turn off Javascript.<p>[0] https://www.impact-gun.com/uf20211126/20211126104952_40894.html<p>[1] https://www.impact-gun.com/templets/tj.js\n",
+  "description_zh-Hant": "In the course of trying to google an unknown temporary file found on my drive, I came across this Chinese webpage[0]. It crashed the browser tab in both Firefox and Chrome <i>with Javascript turned off</i>. Reading the source, it's clearly trying to do something nasty; its main script[1] just creates another script tag and injects something from Baidu into it, which doesn't load on its own (presumably only serves once per token, or only if it knows it's injected somehow). Much of the rest of the page looks to be the raw source of a PDF file with a lot of email links. Served this way, Cloudflare is replacing those mail links with cfemail protection.<p>What I really can't figure out is why it crashes the tab, or what the purpose of it is. Put on a hazmat suit if you check this one out, and obviously turn off Javascript.<p>[0] https://www.impact-gun.com/uf20211126/20211126104952_40894.html<p>[1] https://www.impact-gun.com/templets/tj.js\n"
+}

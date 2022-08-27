@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--askhn--HackerNews--NewsArticle--32565681",
+  "url": "https://news.ycombinator.com/item?id=32565681",
+  "headline": "Ask HN: How to encrypt a mail between two interlocutors?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "My friend and I communicate via email, we both use gmail. We want to exchange text and drawings that we don't want to fall into third hands. How do we set up something like GPG? We have never used a desktop client for mail so we need a guide for absolute beginners.<p>I have an experience of using Jabber with OTG but I don't like chat where messages do not have a topic, I also tried to use TOX but it can lose messages if the recipient is not online - so we need mail encryption with the ability to exchange small files.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "eimrine",
+    "url": "https://news.ycombinator.com/user?id=eimrine"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32565681",
+  "sameAs": "https://news.ycombinator.com/item?id=32565681",
+  "dateCreated": "2022-08-23T14:57:37.845Z",
+  "datePublished": "2022-08-23T14:46:29.000Z",
+  "dateModified": "2022-08-23T14:57:37.845Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 如何对两个对话者之间的邮件进行加密？\n",
+  "headline_zh-Hant": "Ask HN: 如何對兩個對話者之間的郵件進行加密？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我和我的朋友通过电子邮件交流，我们都使用gmail。我们想交换文字和图画，我们不想落入第三人手中。我们如何设置类似GPG的东西？<p>我有使用Jabber与OTG的经验，但我不喜欢信息没有主题的聊天，我也尝试过使用TOX，但如果收件人不在线，它可能会丢失信息 - 所以我们需要有交换小文件能力的邮件加密。\n",
+  "description_zh-Hant": "我和我的朋友通過電子郵件交流，我們都使用gmail。我們想交換文字和圖畫，我們不想落入第三人手中。我們如何設置類似GPG的東西？<p>我有使用Jabber與OTG的經驗，但我不喜歡信息沒有主題的聊天，我也嘗試過使用TOX，但如果收件人不在線，它可能會丟失信息 - 所以我們需要有交換小文件能力的郵件加密。\n"
+}

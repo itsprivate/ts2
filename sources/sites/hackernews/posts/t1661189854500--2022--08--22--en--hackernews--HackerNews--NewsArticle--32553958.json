@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--hackernews--HackerNews--NewsArticle--32553958",
+  "url": "https://news.ycombinator.com/item?id=32553958",
+  "headline": "Why Does Everything on Netflix Look Like That?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cpeterso",
+    "url": "https://news.ycombinator.com/user?id=cpeterso"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32553958",
+  "sameAs": "https://www.vice.com/en/article/ake3j5/why-does-everything-on-netflix-look-like-that",
+  "dateCreated": "2022-08-22T17:37:34.500Z",
+  "datePublished": "2022-08-22T16:46:46.000Z",
+  "dateModified": "2022-08-22T17:37:34.500Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 44
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 26
+    }
+  ],
+  "headline_zh-Hans": "为什么Netflix上的东西都是这样的？\n",
+  "headline_zh-Hant": "為什麼Netflix上的東西都是這樣的？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32579842",
+  "url": "https://news.ycombinator.com/item?id=32579842",
+  "headline": "DiIiS: Diablo III open-source server",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "zexodus",
+    "url": "https://news.ycombinator.com/user?id=zexodus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32579842",
+  "sameAs": "https://github.com/blizzless/blizzless-diiis",
+  "dateCreated": "2022-08-24T15:28:49.114Z",
+  "datePublished": "2022-08-24T14:23:15.000Z",
+  "dateModified": "2022-08-24T15:28:49.114Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "DiIiS: 暗黑破坏神III开源服务器\n",
+  "headline_zh-Hant": "DiIiS: 暗黑破壞神III開源服務器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

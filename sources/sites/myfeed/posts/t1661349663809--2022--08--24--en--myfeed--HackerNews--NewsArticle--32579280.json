@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32579280",
+  "url": "https://news.ycombinator.com/item?id=32579280",
+  "headline": "Worlds Animate.gif",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "qwertox",
+    "url": "https://news.ycombinator.com/user?id=qwertox"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32579280",
+  "sameAs": "https://commons.wikimedia.org/wiki/File:Worlds_animate.gif",
+  "dateCreated": "2022-08-24T14:01:03.809Z",
+  "datePublished": "2022-08-24T13:37:50.000Z",
+  "dateModified": "2022-08-24T14:01:03.809Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "世界的动画.gif\n",
+  "headline_zh-Hant": "世界的動畫.gif\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

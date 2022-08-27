@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--10--en--askhn--HackerNews--NewsArticle--32408322",
+  "url": "https://news.ycombinator.com/item?id=32408322",
+  "headline": "Ask HN: Is there a description of the file layout HN uses to store data?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "As far as I know, HN uses no DB and just writes all data to plain text files.<p>Does this still hold true?<p>Is there a description of the layout somewhere? I wonder if it is just one file per comment and the name is the id. And what the internal structure of those files is.<p>I think it would be a very interesting example of a successful Web2 style project that writes to files instead of using a DB.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "TekMol",
+    "url": "https://news.ycombinator.com/user?id=TekMol"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32408322",
+  "sameAs": "https://news.ycombinator.com/item?id=32408322",
+  "dateCreated": "2022-08-10T06:34:47.069Z",
+  "datePublished": "2022-08-10T06:12:49.000Z",
+  "dateModified": "2022-08-10T06:34:47.069Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 是否有关于HN用于存储数据的文件布局的描述？\n",
+  "headline_zh-Hant": "Ask HN: 是否有關於HN用於存儲數據的文件佈局的描述？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "据我所知，HN没有使用数据库，只是将所有数据写入纯文本文件。<p>这一点仍然成立吗？<p>在某处是否有关于布局的描述？我想知道是否每个评论只有一个文件，名字就是ID。这些文件的内部结构是什么？<p>我认为这将是一个非常有趣的例子，它是一个成功的Web2风格的项目，写到文件而不是使用DB。\n",
+  "description_zh-Hant": "據我所知，HN沒有使用數據庫，只是將所有數據寫入純文本文件。<p>這一點仍然成立嗎？<p>在某處是否有關於佈局的描述？我想知道是否每個評論只有一個文件，名字就是ID。這些文件的內部結構是什麼？<p>我認為這將是一個非常有趣的例子，它是一個成功的Web2風格的項目，寫到文件而不是使用DB。\n"
+}

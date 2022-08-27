@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--askhn--HackerNews--NewsArticle--32506523",
+  "url": "https://news.ycombinator.com/item?id=32506523",
+  "headline": "Ask HN: Which SQL grammar is more popular in OLAP System, MySQL or PostgreSQL?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Which SQL grammar is more popular in OLAP System, MySQL or PostgreSQL?<p>MySQL grammar: Apache Doris, Apache Impala. \nPostgreSQL grammar: Greenplum\nNon standard SQL: Clickhouse, Apache Druid",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ApacheDoris",
+    "url": "https://news.ycombinator.com/user?id=ApacheDoris"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32506523",
+  "sameAs": "https://news.ycombinator.com/item?id=32506523",
+  "dateCreated": "2022-08-18T07:43:47.446Z",
+  "datePublished": "2022-08-18T07:41:40.000Z",
+  "dateModified": "2022-08-18T07:43:47.446Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 哪种SQL语法在OLAP系统中更受欢迎，MySQL还是PostgreSQL？\n",
+  "headline_zh-Hant": "Ask HN: 哪種SQL語法在OLAP系統中更受歡迎，MySQL還是PostgreSQL？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "哪种SQL语法在OLAP系统中更受欢迎，MySQL还是PostgreSQL？<p>MySQL语法：Apache Doris，Apache Impala。\nPostgreSQL的语法：Greenplum\n非标准SQL。Clickhouse, Apache Druid\n",
+  "description_zh-Hant": "哪種SQL語法在OLAP系統中更受歡迎，MySQL還是PostgreSQL？<p>MySQL語法：Apache Doris，Apache Impala。\nPostgreSQL的語法：Greenplum\n非標準SQL。Clickhouse, Apache Druid\n"
+}

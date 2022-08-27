@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--askhn--HackerNews--NewsArticle--32599987",
+  "url": "https://news.ycombinator.com/item?id=32599987",
+  "headline": "Self-Hosted SoundCloud?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've got a lot of audio files I want to make available (all created by me) and I'd like to self-host them a la Soundcloud.  Specifically like Soundcloud, in fact - just a bunch of files that are presented with webby player things, optionally with metadata but that's not hugely important.<p>I'm not after any &quot;stream your music collection to XYZ&quot; solutions or anything with authenticated users.  Also ideally it would use a simple server with optionally SQLite for storage - anything with more than two moving parts is too much faff right now.<p>I've looked at the &quot;Awesome Self-Hosted&quot; list on Github but they're pretty much all &quot;stream your media collection&quot; type solutions.  Tried to install Polaris (didn't work) and Rauversion (requires Postgres).",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "zimpenfish",
+    "url": "https://news.ycombinator.com/user?id=zimpenfish"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32599987",
+  "sameAs": "https://news.ycombinator.com/item?id=32599987",
+  "dateCreated": "2022-08-25T21:26:01.225Z",
+  "datePublished": "2022-08-25T21:09:58.000Z",
+  "dateModified": "2022-08-25T21:26:01.225Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ]
+}

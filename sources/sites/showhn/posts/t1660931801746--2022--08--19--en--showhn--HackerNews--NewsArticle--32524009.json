@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--showhn--HackerNews--NewsArticle--32524009",
+  "url": "https://news.ycombinator.com/item?id=32524009",
+  "headline": "Show HN: A tool to upgrade JSON Schema definitions across spec versions",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jviotti",
+    "url": "https://news.ycombinator.com/user?id=jviotti"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32524009",
+  "sameAs": "https://alterschema.sourcemeta.com",
+  "dateCreated": "2022-08-19T17:56:41.746Z",
+  "datePublished": "2022-08-19T17:43:34.000Z",
+  "dateModified": "2022-08-19T17:56:41.746Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 一个跨规格版本升级JSON模式定义的工具\n",
+  "headline_zh-Hant": "Show HN: 一個跨規格版本升級JSON模式定義的工具\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

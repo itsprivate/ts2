@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--hackernews--HackerNews--NewsArticle--32481798",
+  "url": "https://news.ycombinator.com/item?id=32481798",
+  "headline": "Debian Turns 29",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nixcraft",
+    "url": "https://news.ycombinator.com/user?id=nixcraft"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32481798",
+  "sameAs": "https://bits.debian.org/2022/08/debian-turns-29.html",
+  "dateCreated": "2022-08-16T13:47:52.092Z",
+  "datePublished": "2022-08-16T12:16:37.000Z",
+  "dateModified": "2022-08-16T13:47:52.092Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 21
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "蝶变29周年\n",
+  "headline_zh-Hant": "蝶變29週年\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

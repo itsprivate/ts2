@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--05--en--besthn--HackerNews--NewsArticle--32359003",
+  "url": "https://news.ycombinator.com/item?id=32359003",
+  "headline": "Twitter says Musk’s spam analysis used tool that called his own account a bot",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "hassanahmad",
+    "url": "https://news.ycombinator.com/user?id=hassanahmad"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32359003",
+  "sameAs": "https://arstechnica.com/tech-policy/2022/08/twitter-says-musks-spam-analysis-used-tool-that-called-his-own-account-a-bot/",
+  "dateCreated": "2022-08-05T20:46:20.975Z",
+  "datePublished": "2022-08-05T17:13:50.000Z",
+  "dateModified": "2022-08-05T20:46:20.975Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 216
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 199
+    }
+  ],
+  "headline_zh-Hans": "推特称马斯克的垃圾邮件分析使用的工具称他自己的账户为机器人\n",
+  "headline_zh-Hant": "推特稱馬斯克的垃圾郵件分析使用的工具稱他自己的賬戶為機器人\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32584211",
+  "url": "https://news.ycombinator.com/item?id=32584211",
+  "headline": "Oven (Bun)'s first employee will “grind” for nine months with poor WLB",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mplewis",
+    "url": "https://news.ycombinator.com/user?id=mplewis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32584211",
+  "sameAs": "https://twitter.com/oven_sh/status/1562248121656102914",
+  "dateCreated": "2022-08-24T19:30:27.472Z",
+  "datePublished": "2022-08-24T19:05:13.000Z",
+  "dateModified": "2022-08-24T19:30:27.472Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "炉子（Bun）的第一位员工将在WLB不佳的情况下 \"磨炼 \"九个月\n",
+  "headline_zh-Hant": "爐子（Bun）的第一位員工將在WLB不佳的情況下 \"磨鍊 \"九個月\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

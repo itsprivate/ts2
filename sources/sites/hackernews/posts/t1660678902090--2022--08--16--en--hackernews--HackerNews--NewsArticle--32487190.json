@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--hackernews--HackerNews--NewsArticle--32487190",
+  "url": "https://news.ycombinator.com/item?id=32487190",
+  "headline": "You can't afford to be an artist and/or author, let alone be respected",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cdahmedeh",
+    "url": "https://news.ycombinator.com/user?id=cdahmedeh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32487190",
+  "sameAs": "https://www.cdahmedeh.net/blog/2022/8/16/you-cant-afford-to-be-an-artist-let-alone-be-respected",
+  "dateCreated": "2022-08-16T19:41:42.090Z",
+  "datePublished": "2022-08-16T18:58:08.000Z",
+  "dateModified": "2022-08-16T19:41:42.090Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "你不可能成为艺术家和/或作家，更不可能得到尊重\n",
+  "headline_zh-Hant": "你不可能成為藝術家和/或作家，更不可能得到尊重\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

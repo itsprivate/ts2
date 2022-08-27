@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--17--en--hackernews--HackerNews--NewsArticle--32492380",
+  "url": "https://news.ycombinator.com/item?id=32492380",
+  "headline": "Paper: Augmenting Decompiler Output with Learned Variable Names and Types [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ArdelleF",
+    "url": "https://news.ycombinator.com/user?id=ArdelleF"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32492380",
+  "sameAs": "https://www.usenix.org/system/files/sec22-chen-qibin.pdf",
+  "dateCreated": "2022-08-17T08:58:17.663Z",
+  "datePublished": "2022-08-17T04:30:42.000Z",
+  "dateModified": "2022-08-17T08:58:17.663Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 9
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "论文。用学习到的变量名称和类型增强反编译器的输出 [pdf]\n",
+  "headline_zh-Hant": "論文。用學習到的變量名稱和類型增強反編譯器的輸出 [pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

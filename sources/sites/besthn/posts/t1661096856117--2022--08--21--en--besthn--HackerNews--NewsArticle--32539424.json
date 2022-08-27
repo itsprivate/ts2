@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--21--en--besthn--HackerNews--NewsArticle--32539424",
+  "url": "https://news.ycombinator.com/item?id=32539424",
+  "headline": "Nobody wants to teach anymore",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "grej",
+    "url": "https://news.ycombinator.com/user?id=grej"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32539424",
+  "sameAs": "https://jessicalexicus.medium.com/nobody-wants-to-teach-anymore-66f09b877b11",
+  "dateCreated": "2022-08-21T15:47:36.117Z",
+  "datePublished": "2022-08-21T12:18:38.000Z",
+  "dateModified": "2022-08-21T15:47:36.117Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 201
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 296
+    }
+  ],
+  "headline_zh-Hans": "没有人愿意再去教书\n",
+  "headline_zh-Hant": "沒有人願意再去教書\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

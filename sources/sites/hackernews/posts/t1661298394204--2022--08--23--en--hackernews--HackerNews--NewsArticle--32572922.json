@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--hackernews--HackerNews--NewsArticle--32572922",
+  "url": "https://news.ycombinator.com/item?id=32572922",
+  "headline": "Ask HN: Is Heroku DNS screwy for you?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Seeing all sorts of errors with apps that I know are hosted on heroku on Comcast/Xfinity",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "terracatta",
+    "url": "https://news.ycombinator.com/user?id=terracatta"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32572922",
+  "sameAs": "https://news.ycombinator.com/item?id=32572922",
+  "dateCreated": "2022-08-23T23:46:34.204Z",
+  "datePublished": "2022-08-23T23:25:39.000Z",
+  "dateModified": "2022-08-23T23:46:34.204Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 16
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Heroku的DNS对你来说很糟糕吗？\n",
+  "headline_zh-Hant": "Ask HN: Heroku的DNS對你來說很糟糕嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我知道在Comcast/Xfinity的heroku上托管的应用程序出现了各种错误。\n",
+  "description_zh-Hant": "我知道在Comcast/Xfinity的heroku上託管的應用程序出現了各種錯誤。\n"
+}

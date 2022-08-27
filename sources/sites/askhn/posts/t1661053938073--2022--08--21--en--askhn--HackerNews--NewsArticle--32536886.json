@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--21--en--askhn--HackerNews--NewsArticle--32536886",
+  "url": "https://news.ycombinator.com/item?id=32536886",
+  "headline": "Ask HN: Are there any languages for programming-in-the-large?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Almost every programming language in existence today focuses on programming-in-the-small: types, classes, functions, control flow, etc. This is OK for putting together small programs. But when it comes to designing large, complex systems, it's really up to the programmer/team to define the design out-of-band (docs, diagrams, conventions, etc) and then use the programming language to implement the design.<p>Are there programming languages that help with the high-level design of programs? Concepts in such a language could be: system, subsystem, component, composite, constraint, plugin, interface/protocol, data flow, storage, async process, etc. Note that this is not about distributed system design; all the above elements could be in the same process.<p>Another important aspect is help with defining a meta-model of a system. A program meta-model fills some gaps between the language model and the actual domain model of the program. For example, a meta-model of a front-end UI library could define the concept of unidirectional data flow, which enforces data flow in one direction.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "khaledh",
+    "url": "https://news.ycombinator.com/user?id=khaledh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32536886",
+  "sameAs": "https://news.ycombinator.com/item?id=32536886",
+  "dateCreated": "2022-08-21T03:52:18.073Z",
+  "datePublished": "2022-08-21T02:28:25.000Z",
+  "dateModified": "2022-08-21T03:52:18.073Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 4
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 有什么语言可以用于大范围的编程吗？\n",
+  "headline_zh-Hant": "Ask HN: 有什麼語言可以用於大範圍的編程嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "今天，几乎所有的编程语言都专注于小规模的编程：类型、类、函数、控制流等等。这对于拼凑小程序来说是可以的。但是当涉及到设计大型复杂的系统时，就真的要靠程序员/团队来定义设计（文档、图表、惯例等），然后用编程语言来实现设计。这种语言中的概念可以是：系统、子系统、组件、复合、约束、插件、接口/协议、数据流、存储、异步流程等等。请注意，这不是关于分布式系统的设计；所有上述元素都可以在同一个过程中。<p>另一个重要方面是帮助定义系统的元模型。程序元模型填补了语言模型和程序的实际领域模型之间的一些空白。例如，一个前端UI库的元模型可以定义单向数据流的概念，它强制要求数据向一个方向流动。\n",
+  "description_zh-Hant": "今天，幾乎所有的編程語言都專注於小規模的編程：類型、類、函數、控制流等等。這對於拼湊小程序來說是可以的。但是當涉及到設計大型複雜的系統時，就真的要靠程序員/團隊來定義設計（文檔、圖表、慣例等），然後用編程語言來實現設計。這種語言中的概念可以是：系統、子系統、組件、複合、約束、插件、接口/協議、數據流、存儲、異步流程等等。請注意，這不是關於分佈式系統的設計；所有上述元素都可以在同一個過程中。<p>另一個重要方面是幫助定義系統的元模型。程序元模型填補了語言模型和程序的實際領域模型之間的一些空白。例如，一個前端UI庫的元模型可以定義單向數據流的概念，它強制要求數據向一個方向流動。\n"
+}

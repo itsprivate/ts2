@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32582883",
+  "url": "https://news.ycombinator.com/item?id=32582883",
+  "headline": "Noteable increases developer productivity by 50%",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "annadchandler",
+    "url": "https://news.ycombinator.com/user?id=annadchandler"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32582883",
+  "sameAs": "https://releasehub.com/casestudy/noteable",
+  "dateCreated": "2022-08-24T17:55:48.877Z",
+  "datePublished": "2022-08-24T17:36:35.000Z",
+  "dateModified": "2022-08-24T17:55:48.877Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Noteable将开发人员的生产力提高了50%。\n",
+  "headline_zh-Hant": "Noteable將開發人員的生產力提高了50%。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

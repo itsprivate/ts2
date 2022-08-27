@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32565279",
+  "url": "https://news.ycombinator.com/item?id=32565279",
+  "headline": "Inside the Pinecone: Rust rewrite, new graph-based index, new storage engine",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "gk1",
+    "url": "https://news.ycombinator.com/user?id=gk1"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32565279",
+  "sameAs": "https://www.pinecone.io/learn/inside-the-pinecone/",
+  "dateCreated": "2022-08-23T14:44:33.251Z",
+  "datePublished": "2022-08-23T14:18:12.000Z",
+  "dateModified": "2022-08-23T14:44:33.251Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "松果的内部。Rust重写，新的基于图的索引，新的存储引擎\n",
+  "headline_zh-Hant": "松果的內部。Rust重寫，新的基於圖的索引，新的存儲引擎\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

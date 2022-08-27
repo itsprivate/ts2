@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--showhn--HackerNews--NewsArticle--32389108",
+  "url": "https://news.ycombinator.com/item?id=32389108",
+  "headline": "Show HN: Footsteps – alternative to torch.save(params, “weightsTues12noaug.tch”)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "QuadmasterXLII",
+    "url": "https://news.ycombinator.com/user?id=QuadmasterXLII"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32389108",
+  "sameAs": "https://github.com/HastingsGreer/footsteps",
+  "dateCreated": "2022-08-08T18:33:02.780Z",
+  "datePublished": "2022-08-08T18:25:00.000Z",
+  "dateModified": "2022-08-08T18:33:02.780Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 脚步--替代Torch.save(params, \"weightsTues12noaug.tch\")。\n",
+  "headline_zh-Hant": "Show HN: 腳步--替代Torch.save(params, \"weightsTues12noaug.tch\")。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32572902",
+  "url": "https://news.ycombinator.com/item?id=32572902",
+  "headline": "Tell HN: Heroku is having DNS issues",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "https://status.heroku.com",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "camjohnson26",
+    "url": "https://news.ycombinator.com/user?id=camjohnson26"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32572902",
+  "sameAs": "https://news.ycombinator.com/item?id=32572902",
+  "dateCreated": "2022-08-23T23:28:00.354Z",
+  "datePublished": "2022-08-23T23:23:22.000Z",
+  "dateModified": "2022-08-23T23:28:00.354Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "告诉HN：Heroku有DNS问题\n",
+  "headline_zh-Hant": "告訴HN：Heroku有DNS問題\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "https://status.heroku.com\n",
+  "description_zh-Hant": "https://status.heroku.com\n"
+}

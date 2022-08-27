@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--hackernews--HackerNews--NewsArticle--32494624",
+  "url": "https://news.ycombinator.com/item?id=32494624",
+  "headline": "Singing: The key to a long life (2008)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sni",
+    "url": "https://news.ycombinator.com/user?id=sni"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32494624",
+  "sameAs": "https://www.npr.org/2008/11/23/97320958/singing-the-key-to-a-long-life",
+  "dateCreated": "2022-08-18T05:16:40.587Z",
+  "datePublished": "2022-08-17T11:01:23.000Z",
+  "dateModified": "2022-08-18T05:16:40.587Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 32
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 11
+    }
+  ],
+  "headline_zh-Hans": "唱歌。长寿的关键 (2008)\n",
+  "headline_zh-Hant": "唱歌。長壽的關鍵 (2008)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

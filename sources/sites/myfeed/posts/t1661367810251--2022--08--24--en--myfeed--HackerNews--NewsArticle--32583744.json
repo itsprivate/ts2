@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32583744",
+  "url": "https://news.ycombinator.com/item?id=32583744",
+  "headline": "What to Do with Your Life",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "PabloRobles",
+    "url": "https://news.ycombinator.com/user?id=PabloRobles"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32583744",
+  "sameAs": "https://www.julian.com/blog/life-planning",
+  "dateCreated": "2022-08-24T19:03:30.251Z",
+  "datePublished": "2022-08-24T18:30:07.000Z",
+  "dateModified": "2022-08-24T19:03:30.251Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "如何对待你的生活\n",
+  "headline_zh-Hant": "如何對待你的生活\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

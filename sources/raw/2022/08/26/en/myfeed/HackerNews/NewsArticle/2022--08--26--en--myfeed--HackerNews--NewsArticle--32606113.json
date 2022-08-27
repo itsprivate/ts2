@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--26--en--myfeed--HackerNews--NewsArticle--32606113",
+  "url": "https://news.ycombinator.com/item?id=32606113",
+  "headline": "Headshot – Better Profile Photos for Hackers",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello, HN! Headshot is a tiny side project I've been working on to create better looking profile photos.  It started when my wife needed a headshot for work.  Instead of just snapping a photo and calling it a day, we were looking for something a little more professional.<p>There are a ton of native apps that help you remove the background of an image, and after seeing the good work at remove.bg[1] I had a hunch even a script kiddie like myself could get a decent result using client side javascript with an off the shelf image segmentation model.<p>After a little research I found Google's MediaPipe Selfie Segmentation[2].  It's a derivative of the same tech driving Google Meet.  While it is performant on mobile phones, the tradeoff[3] is a less than pixel perfect mask.  It performs best when there is clear separation between the person and the background.  I went down the rabbit hole in this problem space and found this[4] and this[5] which led me to believe with a little more work I can get a better result.  I am completely out of my depth in ML and would most likely need a partner to help me implement better quality image segmentation for high definition photos.  I considered using remove.bg's API but with the goal of keeping Headshot free, the unit economics won't work for the time being.<p>Headshot is built with Vue and Tailwind and hosted on Firebase.  It leverages glfx.js[6] letting the user apply image filters to both the foreground and background. With a few filter tweaks you can put together a pretty decent looking profile photo.  I compress uploaded images as mobile browsers seem to fall over on raw files taken from an iPhone 13.  Final image compositing was pretty straightforward using HTML Canvas and the CanvasRenderingContext2D.globalCompositeOperation.  I do apply a bilateral filter[7] to the segmentation mask to smooth out the edges and provide an adjustable blur[8] on the background to create a light ring effect.<p>The quality of the result really comes down to the quality of the starting photo.  When I followed these general tips[9] for taking a good headshot I was able to create something that can pass as a reasonable headshot.  I am pretty happy with the result but would love to ultimately improve the segmentation mask under more challenging photographic conditions.  The lengths that the Google Meet team went to get a professional result are an interesting technical read[10] that is well above my pay grade.<p>I hope someone on Hacker News can use Headshot to create a great looking profile photo that they can upload to LinkedIn, Zoom, or Slack.<p>Happy to answer any questions.<p>Jason<p>[1] - <a href=\"https://www.remove.bg/\" rel=\"nofollow\">https://www.remove.bg/</a><p>[2] - <a href=\"https://google.github.io/mediapipe/solutions/selfie_segmentation.html\" rel=\"nofollow\">https://google.github.io/mediapipe/solutions/selfie_segmenta...</a><p>[3] - <a href=\"https://drive.google.com/file/d/1dCfozqknMa068vVsO2j_1FgZkW_e3VWv/preview\" rel=\"nofollow\">https://drive.google.com/file/d/1dCfozqknMa068vVsO2j_1FgZkW_...</a><p>[4] - <a href=\"https://github.com/anilsathyan7/Portrait-Segmentation\" rel=\"nofollow\">https://github.com/anilsathyan7/Portrait-Segmentation</a><p>[5] - <a href=\"https://github.com/Volcomix/virtual-background\" rel=\"nofollow\">https://github.com/Volcomix/virtual-background</a><p>[6] - <a href=\"https://evanw.github.io/glfx.js/\" rel=\"nofollow\">https://evanw.github.io/glfx.js/</a><p>[7] - <a href=\"https://github.com/m0ose/imageRoutines\" rel=\"nofollow\">https://github.com/m0ose/imageRoutines</a><p>[8] - <a href=\"https://github.com/flozz/StackBlur\" rel=\"nofollow\">https://github.com/flozz/StackBlur</a><p>[9] - <a href=\"https://headshot.page/tips\" rel=\"nofollow\">https://headshot.page/tips</a><p>[10] - <a href=\"https://ai.googleblog.com/2020/10/background-features-in-google-meet.html\" rel=\"nofollow\">https://ai.googleblog.com/2020/10/background-features-in-goo...</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jasondigitized",
+    "url": "https://news.ycombinator.com/user?id=jasondigitized"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32606113",
+  "sameAs": "https://headshot.page/",
+  "dateCreated": "2022-08-26T11:56:20.220Z",
+  "datePublished": "2022-08-26T11:49:10.000Z",
+  "dateModified": "2022-08-26T11:56:20.220Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}

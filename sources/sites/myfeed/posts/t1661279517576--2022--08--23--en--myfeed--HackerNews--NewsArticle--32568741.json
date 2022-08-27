@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32568741",
+  "url": "https://news.ycombinator.com/item?id=32568741",
+  "headline": "Chinese officials penalized for ugly images in children's textbooks",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Zuider",
+    "url": "https://news.ycombinator.com/user?id=Zuider"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32568741",
+  "sameAs": "https://www.shine.cn/news/nation/2208229496/",
+  "dateCreated": "2022-08-23T18:31:57.576Z",
+  "datePublished": "2022-08-23T18:06:18.000Z",
+  "dateModified": "2022-08-23T18:31:57.576Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "中国官员因儿童教科书中的丑陋图像而受到处罚\n",
+  "headline_zh-Hant": "中國官員因兒童教科書中的醜陋圖像而受到處罰\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32584207",
+  "url": "https://news.ycombinator.com/item?id=32584207",
+  "headline": "No models are perfect, but Biotech's are terrible",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "ashwal",
+    "url": "https://news.ycombinator.com/user?id=ashwal"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32584207",
+  "sameAs": "https://adamashwal.com/models",
+  "dateCreated": "2022-08-24T19:30:27.460Z",
+  "datePublished": "2022-08-24T19:05:02.000Z",
+  "dateModified": "2022-08-24T19:30:27.460Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "没有模型是完美的，但生物技术公司的模型却很糟糕\n",
+  "headline_zh-Hant": "沒有模型是完美的，但生物技術公司的模型卻很糟糕\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

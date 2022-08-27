@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--showhn--HackerNews--NewsArticle--32483820",
+  "url": "https://news.ycombinator.com/item?id=32483820",
+  "headline": "Show HN: Trace Pixels to Vectors in Full Color, Fully Automatically, Using AI",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi! We have developed a tracing algorithm that blends Deep Learning, classical Machine Learning, and hand-crafted computer vision algorithms to turn regular bitmaps (JPEG, PNG, ...) into scalable vector graphics (SVG).<p>It does quite well in general, and especially on small-ish, blurry, noisy and otherwise degraded images that vectorizers normally choke on.<p>Would love to get your feedback on it! Thanks!",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "jrd79",
+    "url": "https://news.ycombinator.com/user?id=jrd79"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32483820",
+  "sameAs": "https://vectorizer.ai",
+  "dateCreated": "2022-08-16T15:30:05.464Z",
+  "datePublished": "2022-08-16T15:10:18.000Z",
+  "dateModified": "2022-08-16T15:30:05.464Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 使用人工智能全自动地将像素追踪到矢量图上\n",
+  "headline_zh-Hant": "Show HN: 使用人工智能全自動地將像素追蹤到矢量圖上\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨！我们开发了一种追踪算法，它融合了深度学习、经典机器学习和手工制作的计算机视觉算法，将普通的位图（JPEG、PNG......）转化为可扩展的矢量图（SVG）。<p>它在一般情况下表现相当好，特别是在矢量器通常扼杀的小尺寸、模糊、嘈杂和其他退化的图像上，<p>希望得到你对它的反馈 谢谢!\n",
+  "description_zh-Hant": "嗨！我們開發了一種追蹤算法，它融合了深度學習、經典機器學習和手工製作的計算機視覺算法，將普通的位圖（JPEG、PNG......）轉化為可擴展的矢量圖（SVG）。<p>它在一般情況下表現相當好，特別是在矢量器通常扼殺的小尺寸、模糊、嘈雜和其他退化的圖像上，<p>希望得到你對它的反饋 謝謝!\n"
+}

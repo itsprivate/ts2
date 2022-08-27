@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--askhn--HackerNews--NewsArticle--32479223",
+  "url": "https://news.ycombinator.com/item?id=32479223",
+  "headline": "Ask HN: Did Facebook just stop fighting adblockers?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "One of my hobbies is writing userscripts, specifically adblockers for sites I frequent. Facebook in particular proved a great and worthy adversary on that front, thanks to their attempts to thwart my userscripts. Until very recently, they employed a unique combination of obfuscation techniques to prevent adblockers from programmatically identifying and removing their &quot;Sponsored&quot; posts.<p>Anyway, until recently I had a working (albeit hacky) adblock heuristic for Facebook that did the job. However, sometime today I noticed that my script stopped working.<p>Upon further inspection, they seem to have gone back to simply embedding the word &quot;Sponsored&quot; in plaintext, making it trivial for userscripts and adblockers to select and remove these elements.<p>Is it a fluke, or did Facebook just give up fighting adblock?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "robgibbons",
+    "url": "https://news.ycombinator.com/user?id=robgibbons"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32479223",
+  "sameAs": "https://news.ycombinator.com/item?id=32479223",
+  "dateCreated": "2022-08-16T04:48:32.279Z",
+  "datePublished": "2022-08-16T04:32:21.000Z",
+  "dateModified": "2022-08-16T04:48:32.279Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Facebook刚刚停止了对广告拦截器的打击？\n",
+  "headline_zh-Hant": "Ask HN: Facebook剛剛停止了對廣告攔截器的打擊？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我的爱好之一是编写用户脚本，特别是为我常去的网站编写广告屏蔽程序。特别是Facebook，由于他们试图阻挠我的用户脚本，在这方面被证明是一个伟大而值得尊敬的对手。直到最近，他们采用了一种独特的混淆技术组合，以防止广告阻止程序识别和删除他们的&quot;赞助&quot;帖子。<p>无论如何，直到最近我有一个工作（尽管是黑客）为Facebook的广告阻止启发式的工作。<p>在进一步的检查中，他们似乎又回到了简单地将&quot;赞助&quot;这个词嵌入到纯文本中，使得用户脚本和广告屏蔽器选择和删除这些元素变得非常简单。\n",
+  "description_zh-Hant": "我的愛好之一是編寫用戶腳本，特別是為我常去的網站編寫廣告屏蔽程序。特別是Facebook，由於他們試圖阻撓我的用戶腳本，在這方面被證明是一個偉大而值得尊敬的對手。直到最近，他們採用了一種獨特的混淆技術組合，以防止廣告阻止程序識別和刪除他們的&quot;贊助&quot;帖子。<p>無論如何，直到最近我有一個工作（儘管是黑客）為Facebook的廣告阻止啟發式的工作。<p>在進一步的檢查中，他們似乎又回到了簡單地將&quot;贊助&quot;這個詞嵌入到純文本中，使得用戶腳本和廣告屏蔽器選擇和刪除這些元素變得非常簡單。\n"
+}

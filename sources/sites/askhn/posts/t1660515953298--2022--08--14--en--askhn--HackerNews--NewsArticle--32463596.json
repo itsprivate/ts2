@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--askhn--HackerNews--NewsArticle--32463596",
+  "url": "https://news.ycombinator.com/item?id=32463596",
+  "headline": "Ask HN: Best way to back up cloud accounts?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I have 15+ years and 500+GB of personal data in my Google account. I'm personally happy with Google's services, security, and privacy, and am not looking to switch away. However, I would like to protect myself against losing access to my account (random unilateral Google termination, ransom, etc).<p>What services do people use to back up their cloud accounts, such as Gmail, Google Photos, Google Drive, etc?<p>Searching for &quot;cloud backup&quot; is useless, because it only returns results for backing up local data _to_ the cloud, not _from_ the cloud.<p>I am aware of Google Takeout, but it is a horribly manual process to wait for them to export half a TB of data and then upload it someplace else. I need something much more &quot;set and forget&quot;.<p>For Gmail I have considered syncing everything to ProtonMail (or similar) via POP/IMAP. Curious if anyone uses this approach? Although unfortunately it would only cover Gmail and not Photos/Drive/etc.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "amacneil",
+    "url": "https://news.ycombinator.com/user?id=amacneil"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32463596",
+  "sameAs": "https://news.ycombinator.com/item?id=32463596",
+  "dateCreated": "2022-08-14T22:25:53.298Z",
+  "datePublished": "2022-08-14T22:21:50.000Z",
+  "dateModified": "2022-08-14T22:25:53.298Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 备份云账户的最佳方式？\n",
+  "headline_zh-Hant": "Ask HN: 備份雲賬戶的最佳方式？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我的谷歌账户里有15年以上、500GB以上的个人数据。我个人对谷歌的服务、安全和隐私都很满意，并不打算换掉。<p>人们用什么服务来备份他们的云账户，如Gmail、Google Photos、Google Drive等？ <p>搜索&quot;云备份&quot;是没有用的，因为它只返回备份本地数据到云端的结果，而不是从云端备份。<p>我知道Google Takeout，但等待他们导出半TB的数据，然后将其上传到其他地方，这是一个可怕的手工过程。<p>对于Gmail，我曾考虑通过POP/IMAP将所有内容同步到ProtonMail（或类似）。很好奇是否有人使用这种方法？虽然不幸的是，它只包括Gmail，而不包括照片/硬盘/等等。\n",
+  "description_zh-Hant": "我的谷歌賬戶裡有15年以上、500GB以上的個人數據。我個人對谷歌的服務、安全和隱私都很滿意，並不打算換掉。<p>人們用什麼服務來備份他們的雲賬戶，如Gmail、Google Photos、Google Drive等？ <p>搜索&quot;雲備份&quot;是沒有用的，因為它只返回備份本地數據到雲端的結果，而不是從雲端備份。<p>我知道Google Takeout，但等待他們導出半TB的數據，然後將其上傳到其他地方，這是一個可怕的手工過程。<p>對於Gmail，我曾考慮通過POP/IMAP將所有內容同步到ProtonMail（或類似）。很好奇是否有人使用這種方法？雖然不幸的是，它只包括Gmail，而不包括照片/硬盤/等等。\n"
+}

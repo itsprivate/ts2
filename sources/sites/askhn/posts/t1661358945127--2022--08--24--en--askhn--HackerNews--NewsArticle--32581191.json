@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--askhn--HackerNews--NewsArticle--32581191",
+  "url": "https://news.ycombinator.com/item?id=32581191",
+  "headline": "Ask HN: Go vs. Python (Docker SDK)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I was just reading Rust – A hard decision pays off (https://news.ycombinator.com/item?id=32578743) when I stumbled upon this comment https://news.ycombinator.com/item?id=32580654<p>&gt; Docker is built with Go. Compare doing things with Docker api between Go and Python. I usually recommend people to &quot;script&quot; things with Go but I start to think that Go has to go... https://docs.docker.com/engine/api/sdk/examples/<p>The very first example of the SDK page is quite a shock. To &quot;run a container&quot; in Python is 3 LOC. To do the same in Go takes 56 LOC. But why? I can imagine one could add a simple method to the Go SDK to mimic what the Python SDK is doing, but that's not the case. So, why this huge difference? One solution is &quot;Pythonic&quot; and the other is &quot;the gopher way&quot;?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "danwee",
+    "url": "https://news.ycombinator.com/user?id=danwee"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32581191",
+  "sameAs": "https://news.ycombinator.com/item?id=32581191",
+  "dateCreated": "2022-08-24T16:35:45.127Z",
+  "datePublished": "2022-08-24T15:58:54.000Z",
+  "dateModified": "2022-08-24T16:35:45.127Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 11
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Go vs. Python (Docker SDK)\n",
+  "headline_zh-Hant": "Ask HN: Go vs. Python (Docker SDK)\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我在阅读Rust - A hard decision pays off (https://news.ycombinator.com/item?id=32578743)时，偶然发现了这个评论https://news.ycombinator.com/item?id=32580654<p>&gt; Docker是用Go构建的。在Go和Python之间比较用Docker api做事情。我通常建议人们用Go编写脚本，但我开始认为Go必须被淘汰...... https://docs.docker.com/engine/api/sdk/examples/<p>SDK页面的第一个例子让我很震惊。在Python中运行一个容器需要3个LOC。在Go中做同样的事情需要56个LOC。但为什么呢？我可以想象，人们可以在Go SDK中添加一个简单的方法来模仿Python SDK的做法，但事实并非如此。那么，为什么会有这种巨大的差异呢？一个解决方案是&quot;Pythonic&quot;，另一个是&quot;gopher方式&quot;？\n",
+  "description_zh-Hant": "我在閱讀Rust - A hard decision pays off (https://news.ycombinator.com/item?id=32578743)時，偶然發現了這個評論https://news.ycombinator.com/item?id=32580654<p>&gt; Docker是用Go構建的。在Go和Python之間比較用Docker api做事情。我通常建議人們用Go編寫腳本，但我開始認為Go必須被淘汰...... https://docs.docker.com/engine/api/sdk/examples/<p>SDK頁面的第一個例子讓我很震驚。在Python中運行一個容器需要3個LOC。在Go中做同樣的事情需要56個LOC。但為什麼呢？我可以想象，人們可以在Go SDK中添加一個簡單的方法來模仿Python SDK的做法，但事實並非如此。那麼，為什麼會有這種巨大的差異呢？一個解決方案是&quot;Pythonic&quot;，另一個是&quot;gopher方式&quot;？\n"
+}

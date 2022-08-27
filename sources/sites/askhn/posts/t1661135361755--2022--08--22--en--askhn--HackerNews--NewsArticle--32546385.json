@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--askhn--HackerNews--NewsArticle--32546385",
+  "url": "https://news.ycombinator.com/item?id=32546385",
+  "headline": "Ask HN: Recommendations on trying to write a efficient text editor",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "For a while now, I've been writing a small text editor. The idea is that I have a basic mvp that I can add to here and there. Currently I'm writing it in c++ using SDL2 to render and using a doubly linked list of gap buffers to store the text. At the moment it's not as performant as I'd like it to be and I've been wondering if there's more efficient ways to store text and render it. Maybe my question sounds stupid, but is there lightweight libraries out there to render text and get keyboard input FAST? In the same vein, is there better more efficient ways of storing text other than using a linked list of gap buffers?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "error_salad",
+    "url": "https://news.ycombinator.com/user?id=error_salad"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32546385",
+  "sameAs": "https://news.ycombinator.com/item?id=32546385",
+  "dateCreated": "2022-08-22T02:29:21.755Z",
+  "datePublished": "2022-08-22T01:44:13.000Z",
+  "dateModified": "2022-08-22T02:29:21.755Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 关于尝试编写高效文本编辑器的建议\n",
+  "headline_zh-Hant": "Ask HN: 關於嘗試編寫高效文本編輯器的建議\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "一段时间以来，我一直在编写一个小型的文本编辑器。我的想法是，我有一个基本的mvp，我可以在这里和那里添加。目前我正在用c++编写它，使用SDL2来渲染，并使用一个双链接的间隙缓冲区列表来存储文本。目前，它的性能并不像我希望的那样好，我一直在想是否有更有效的方法来存储文本和渲染它。也许我的问题听起来很愚蠢，但有没有轻量级的库来快速渲染文本和获取键盘输入？同样，除了使用间隙缓冲区的链接列表外，是否有更好的更有效的方法来存储文本？\n",
+  "description_zh-Hant": "一段時間以來，我一直在編寫一個小型的文本編輯器。我的想法是，我有一個基本的mvp，我可以在這裡和那裡添加。目前我正在用c++編寫它，使用SDL2來渲染，並使用一個雙鏈接的間隙緩衝區列表來存儲文本。目前，它的性能並不像我希望的那樣好，我一直在想是否有更有效的方法來存儲文本和渲染它。也許我的問題聽起來很愚蠢，但有沒有輕量級的庫來快速渲染文本和獲取鍵盤輸入？同樣，除了使用間隙緩衝區的鏈接列表外，是否有更好的更有效的方法來存儲文本？\n"
+}

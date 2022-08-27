@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--askhn--HackerNews--NewsArticle--32589514",
+  "url": "https://news.ycombinator.com/item?id=32589514",
+  "headline": "Ask HN: Is it a good idea to record external APIs/microservices response times?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I wonder if it will be a good idea to record the external APIs or microservices response time as part of application metrics.<p>I do capture the response time of my API. But while analyzing a performance or latency related issues I think it will help to know the performance of the external systems as well. This can quickly point out any issues due to a downstream system or even a DB. I understand that these systems will also have these metrics available but they don't always paint the complete picture. For instance they will not include network latencies.<p>But on the flip side I wonder will this mean generating a lot data and maybe as well lead to increasing latency of the current API.<p>I wonder if this is a practice in the industry? What are your thoughts?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "rd22",
+    "url": "https://news.ycombinator.com/user?id=rd22"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32589514",
+  "sameAs": "https://news.ycombinator.com/item?id=32589514",
+  "dateCreated": "2022-08-25T05:45:54.206Z",
+  "datePublished": "2022-08-25T04:34:02.000Z",
+  "dateModified": "2022-08-25T05:45:54.206Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 记录外部API/微服务的响应时间是个好主意吗？\n",
+  "headline_zh-Hant": "Ask HN: 記錄外部API/微服務的響應時間是個好主意嗎？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我想知道将外部API或微服务的响应时间作为应用指标的一部分进行记录是否是一个好主意。<p>我确实捕捉了我的API的响应时间。但在分析性能或延迟相关问题时，我认为了解外部系统的性能也会有所帮助。这可以迅速指出任何由于下游系统甚至是数据库造成的问题。我知道这些系统也会有这些指标，但它们并不总是能描绘出完整的画面。<p>但从另一个角度来看，我想知道这是否意味着产生大量的数据，并可能导致当前API的延迟增加。<p>我想知道这是否是业界的一种做法？你有什么想法？\n",
+  "description_zh-Hant": "我想知道將外部API或微服務的響應時間作為應用指標的一部分進行記錄是否是一個好主意。<p>我確實捕捉了我的API的響應時間。但在分析性能或延遲相關問題時，我認為了解外部系統的性能也會有所幫助。這可以迅速指出任何由於下游系統甚至是數據庫造成的問題。我知道這些系統也會有這些指標，但它們並不總是能描繪出完整的畫面。<p>但從另一個角度來看，我想知道這是否意味著產生大量的數據，並可能導致當前API的延遲增加。<p>我想知道這是否是業界的一種做法？你有什麼想法？\n"
+}

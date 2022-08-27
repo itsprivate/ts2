@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32577391",
+  "url": "https://news.ycombinator.com/item?id=32577391",
+  "headline": "Unpluq locks your phone distractions so you can get shiz done",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "Timsmits",
+    "url": "https://news.ycombinator.com/user?id=Timsmits"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32577391",
+  "sameAs": "https://techcrunch.com/2022/08/23/unpluq-locks-your-phone/",
+  "dateCreated": "2022-08-24T11:23:06.323Z",
+  "datePublished": "2022-08-24T10:21:01.000Z",
+  "dateModified": "2022-08-24T11:23:06.323Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Unpluq锁定你的手机分心，这样你就可以完成任务了。\n",
+  "headline_zh-Hant": "Unpluq鎖定你的手機分心，這樣你就可以完成任務了。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

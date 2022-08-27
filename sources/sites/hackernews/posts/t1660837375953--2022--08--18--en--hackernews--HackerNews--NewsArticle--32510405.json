@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--hackernews--HackerNews--NewsArticle--32510405",
+  "url": "https://news.ycombinator.com/item?id=32510405",
+  "headline": "Supabase – Realtime: Multiplayer Edition",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "samwillis",
+    "url": "https://news.ycombinator.com/user?id=samwillis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32510405",
+  "sameAs": "https://supabase.com/blog/supabase-realtime-multiplayer-general-availability",
+  "dateCreated": "2022-08-18T15:42:55.953Z",
+  "datePublished": "2022-08-18T14:45:20.000Z",
+  "dateModified": "2022-08-18T15:42:55.953Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 59
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 21
+    }
+  ],
+  "headline_zh-Hans": "Supabase - Realtime: 多人版\n",
+  "headline_zh-Hant": "Supabase - Realtime: 多人版\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

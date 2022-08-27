@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32583498",
+  "url": "https://news.ycombinator.com/item?id=32583498",
+  "headline": "Biden announces student loan relief for borrowers making less than $125,000",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "atomicUpdate",
+    "url": "https://news.ycombinator.com/user?id=atomicUpdate"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32583498",
+  "sameAs": "https://www.cnn.com/2022/08/24/politics/student-loans-joe-biden-white-house/index.html",
+  "dateCreated": "2022-08-24T18:40:45.030Z",
+  "datePublished": "2022-08-24T18:12:52.000Z",
+  "dateModified": "2022-08-24T18:40:45.030Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "拜登宣布为收入低于125,000美元的借款人提供学生贷款救济\n",
+  "headline_zh-Hant": "拜登宣佈為收入低於125,000美元的借款人提供學生貸款救濟\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

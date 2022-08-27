@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--hackernews--HackerNews--NewsArticle--32529457",
+  "url": "https://news.ycombinator.com/item?id=32529457",
+  "headline": "Freedom and Privacy: Two Sides of the Same Coin",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "nnx",
+    "url": "https://news.ycombinator.com/user?id=nnx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32529457",
+  "sameAs": "https://dergigi.com/2022/06/19/freedom-and-privacy/",
+  "dateCreated": "2022-08-20T06:31:45.800Z",
+  "datePublished": "2022-08-20T05:43:43.000Z",
+  "dateModified": "2022-08-20T06:31:45.800Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "自由和隐私。一个硬币的两面\n",
+  "headline_zh-Hant": "自由和隱私。一個硬幣的兩面\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

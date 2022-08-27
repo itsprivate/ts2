@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--askhn--HackerNews--NewsArticle--32388673",
+  "url": "https://news.ycombinator.com/item?id=32388673",
+  "headline": "Ask HN: Setting up “Ask to Connect” mode firewall at router level?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Instead of allowing all connections to/from my computers by default I rather operate on a blacklist-all-by-default and whitelist-as-needed basis.<p>On Windows theres at least 2 ways to do it. using &quot;simple-wall&quot;(free) and &quot;Glasswire&quot;(paid). however, doing the filtering on the computer itself seems sub-optimal. there could be flaws in the filter implementation and connections could sneak through the cracks.  I assume a better way to do the filtering would be using a piece of middleware in between the computer and router, or, at the router itself. This could be made intuitive to use with a touch screen tablet interface next to the computer keyboard. When a connection attempt is made to a new IP, there would be buttons for Allow or Block.<p>When you're operating on a whitelist basis in this way, the chances of a rogue executable being able to exfiltrate your data drops considerably. So please, can someone explain how I can set this up or advise me the best DIY solution? Searching for terms like &quot;ask to connect&quot; + &quot;dd-wrt&quot; yields no results.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "unknownaccount",
+    "url": "https://news.ycombinator.com/user?id=unknownaccount"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32388673",
+  "sameAs": "https://news.ycombinator.com/item?id=32388673",
+  "dateCreated": "2022-08-08T17:55:53.949Z",
+  "datePublished": "2022-08-08T17:46:48.000Z",
+  "dateModified": "2022-08-08T17:55:53.949Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 在路由器层面设置 \"询问连接 \"模式的防火墙？\n",
+  "headline_zh-Hant": "Ask HN: 在路由器層面設置 \"詢問連接 \"模式的防火牆？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "<p>在Windows上，至少有两种方法可以做到这一点：使用&quot;simple-wall&quot;（免费）和&quot;Glasswire&quot;（付费）。 我认为更好的过滤方式是在计算机和路由器之间使用一个中间件，或者在路由器本身。这可以通过电脑键盘旁边的触摸屏平板电脑界面来实现直观的使用。当连接到一个新的IP时，会有允许或阻止的按钮。<p>当你以这种方式在白名单的基础上操作时，流氓可执行文件能够渗入你的数据的机会就会大大减少。所以，谁能解释一下我如何设置这个问题，或者告诉我最好的DIY解决方案？搜索诸如&quot;要求连接&quot;+&quot;dd-wrt&quot;之类的词，没有结果。\n",
+  "description_zh-Hant": "<p>在Windows上，至少有兩種方法可以做到這一點：使用&quot;simple-wall&quot;（免費）和&quot;Glasswire&quot;（付費）。 我認為更好的過濾方式是在計算機和路由器之間使用一箇中間件，或者在路由器本身。這可以通過電腦鍵盤旁邊的觸摸屏平板電腦界面來實現直觀的使用。當連接到一個新的IP時，會有允許或阻止的按鈕。<p>當你以這種方式在白名單的基礎上操作時，流氓可執行文件能夠滲入你的數據的機會就會大大減少。所以，誰能解釋一下我如何設置這個問題，或者告訴我最好的DIY解決方案？搜索諸如&quot;要求連接&quot;+&quot;dd-wrt&quot;之類的詞，沒有結果。\n"
+}

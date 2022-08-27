@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--26--en--askhn--HackerNews--NewsArticle--32613204",
+  "url": "https://news.ycombinator.com/item?id=32613204",
+  "headline": "Which SMTP SaaS Supports DANE?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "There are plenty of SMTP providers out there ... AWS SES, Postmark, Sendgrid...<p>But is there any provider out there which supports DANE on outgoing email, ie. enforcing  STARTTLS if the recipient domain requests so ?<p>(It seems governments and domain name registries love talking about DANE, but few actual email providers care to implement it)",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "unilynx",
+    "url": "https://news.ycombinator.com/user?id=unilynx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32613204",
+  "sameAs": "https://news.ycombinator.com/item?id=32613204",
+  "dateCreated": "2022-08-26T22:26:56.162Z",
+  "datePublished": "2022-08-26T21:58:32.000Z",
+  "dateModified": "2022-08-26T22:26:56.162Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ]
+}

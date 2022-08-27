@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--25--en--myfeed--HackerNews--NewsArticle--32590985",
+  "url": "https://news.ycombinator.com/item?id=32590985",
+  "headline": "Life is good in America, even by EU standards",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mellavora",
+    "url": "https://news.ycombinator.com/user?id=mellavora"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32590985",
+  "sameAs": "https://www.bloomberg.com/opinion/articles/2022-08-25/even-by-european-standards-life-is-good-in-america",
+  "dateCreated": "2022-08-25T10:30:37.890Z",
+  "datePublished": "2022-08-25T08:12:14.000Z",
+  "dateModified": "2022-08-25T10:30:37.890Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "在美国，即使按照欧盟的标准，生活也很好\n",
+  "headline_zh-Hant": "在美國，即使按照歐盟的標準，生活也很好\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

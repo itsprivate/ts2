@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--10--en--besthn--HackerNews--NewsArticle--32412905",
+  "url": "https://news.ycombinator.com/item?id=32412905",
+  "headline": "How SQLite Helps You Do ACID",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "eatonphil",
+    "url": "https://news.ycombinator.com/user?id=eatonphil"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32412905",
+  "sameAs": "https://fly.io/blog/sqlite-internals-rollback-journal/",
+  "dateCreated": "2022-08-10T20:46:20.453Z",
+  "datePublished": "2022-08-10T14:47:39.000Z",
+  "dateModified": "2022-08-10T20:46:20.453Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 200
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 45
+    }
+  ],
+  "headline_zh-Hans": "SQLite如何帮助你做ACID\n",
+  "headline_zh-Hant": "SQLite如何幫助你做ACID\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

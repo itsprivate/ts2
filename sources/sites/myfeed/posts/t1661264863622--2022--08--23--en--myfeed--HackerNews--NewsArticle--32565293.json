@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32565293",
+  "url": "https://news.ycombinator.com/item?id=32565293",
+  "headline": "Create recommendation engine with PyTorch and temporal graph neural networks",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "taubek",
+    "url": "https://news.ycombinator.com/user?id=taubek"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32565293",
+  "sameAs": "https://memgraph.com/blog/amazon-user-item-recommender-with-tgn-and-memgraph",
+  "dateCreated": "2022-08-23T14:27:43.622Z",
+  "datePublished": "2022-08-23T14:19:03.000Z",
+  "dateModified": "2022-08-23T14:27:43.622Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用PyTorch和时空图神经网络创建推荐引擎\n",
+  "headline_zh-Hant": "用PyTorch和時空圖神經網絡創建推薦引擎\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

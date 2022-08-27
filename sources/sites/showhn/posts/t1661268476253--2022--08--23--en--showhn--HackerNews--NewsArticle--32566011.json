@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--showhn--HackerNews--NewsArticle--32566011",
+  "url": "https://news.ycombinator.com/item?id=32566011",
+  "headline": "Show HN: AutoPTT – Voice-activated push-to-talk",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hello HN. I made this Windows desktop app that allows using voice activation with games or apps that only support push-to-talk.<p>The initial version was written years ago, without any UI or configuration options. It was just for my personal use. I had told a few friends about it, though, and then one of them asked if he could get a copy to use with Discord priority speaker, since for years, it has only worked with push-to-talk. So I spent some time making a more user-friendly version.<p>It's written almost exclusively in C and uses Nuklear [1] for the UI. It has an auto updater. The releases are hashed with BLAKE3 and signed with ECC.<p>I also recently made an open source USB device [2] that the app can use to send input from a &quot;real&quot; keyboard because, it turns out, there are some games (CSGO) that ignore simulated input for activating the microphone.<p>I'm having some trouble finding users though. I've tried posting on a few Discord servers and subreddits for games whose players I suspect would find the app useful but self-promotion and advertising are generally not allowed in these communities, so my posts get removed quite quickly. Any tips on how to best reach my audience?<p>[1] <a href=\"https://github.com/Immediate-Mode-UI/Nuklear\" rel=\"nofollow\">https://github.com/Immediate-Mode-UI/Nuklear</a><p>[2] <a href=\"https://github.com/veyh/AutoPTT-Sidekick\" rel=\"nofollow\">https://github.com/veyh/AutoPTT-Sidekick</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "veyh",
+    "url": "https://news.ycombinator.com/user?id=veyh"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32566011",
+  "sameAs": "https://wibe.gumroad.com/l/autoptt",
+  "dateCreated": "2022-08-23T15:27:56.253Z",
+  "datePublished": "2022-08-23T15:09:10.000Z",
+  "dateModified": "2022-08-23T15:27:56.253Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 自动PTT - 语音激活的推送式通话\n",
+  "headline_zh-Hant": "Show HN: 自動PTT - 語音激活的推送式通話\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Hello HN. I made this Windows desktop app that allows using voice activation with games or apps that only support push-to-talk.<p>The initial version was written years ago, without any UI or configuration options. It was just for my personal use. I had told a few friends about it, though, and then one of them asked if he could get a copy to use with Discord priority speaker, since for years, it has only worked with push-to-talk. So I spent some time making a more user-friendly version.<p>It's written almost exclusively in C and uses Nuklear [1] for the UI. It has an auto updater. The releases are hashed with BLAKE3 and signed with ECC.<p>I also recently made an open source USB device [2] that the app can use to send input from a &quot;real&quot; keyboard because, it turns out, there are some games (CSGO) that ignore simulated input for activating the microphone.<p>I'm having some trouble finding users though. I've tried posting on a few Discord servers and subreddits for games whose players I suspect would find the app useful but self-promotion and advertising are generally not allowed in these communities, so my posts get removed quite quickly. Any tips on how to best reach my audience?<p>[1] <a href=\"https://github.com/Immediate-Mode-UI/Nuklear\" rel=\"nofollow\">https://github.com/Immediate-Mode-UI/Nuklear</a><p>[2] <a href=\"https://github.com/veyh/AutoPTT-Sidekick\" rel=\"nofollow\">https://github.com/veyh/AutoPTT-Sidekick</a>\n",
+  "description_zh-Hant": "Hello HN. I made this Windows desktop app that allows using voice activation with games or apps that only support push-to-talk.<p>The initial version was written years ago, without any UI or configuration options. It was just for my personal use. I had told a few friends about it, though, and then one of them asked if he could get a copy to use with Discord priority speaker, since for years, it has only worked with push-to-talk. So I spent some time making a more user-friendly version.<p>It's written almost exclusively in C and uses Nuklear [1] for the UI. It has an auto updater. The releases are hashed with BLAKE3 and signed with ECC.<p>I also recently made an open source USB device [2] that the app can use to send input from a &quot;real&quot; keyboard because, it turns out, there are some games (CSGO) that ignore simulated input for activating the microphone.<p>I'm having some trouble finding users though. I've tried posting on a few Discord servers and subreddits for games whose players I suspect would find the app useful but self-promotion and advertising are generally not allowed in these communities, so my posts get removed quite quickly. Any tips on how to best reach my audience?<p>[1] <a href=\"https://github.com/Immediate-Mode-UI/Nuklear\" rel=\"nofollow\">https://github.com/Immediate-Mode-UI/Nuklear</a><p>[2] <a href=\"https://github.com/veyh/AutoPTT-Sidekick\" rel=\"nofollow\">https://github.com/veyh/AutoPTT-Sidekick</a>\n"
+}

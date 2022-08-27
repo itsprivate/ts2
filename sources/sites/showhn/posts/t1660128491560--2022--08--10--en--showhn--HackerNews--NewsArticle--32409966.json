@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--10--en--showhn--HackerNews--NewsArticle--32409966",
+  "url": "https://news.ycombinator.com/item?id=32409966",
+  "headline": "Show HN: State-of-the-Art German Speech Recognition in 284 lines of C++",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "fxtentacle",
+    "url": "https://news.ycombinator.com/user?id=fxtentacle"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32409966",
+  "sameAs": "https://github.com/DeutscheKI/tevr-asr-tool",
+  "dateCreated": "2022-08-10T10:48:11.560Z",
+  "datePublished": "2022-08-10T10:45:41.000Z",
+  "dateModified": "2022-08-10T10:48:11.560Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 用284行C++语言实现最先进的德语语音识别\n",
+  "headline_zh-Hant": "Show HN: 用284行C++語言實現最先進的德語語音識別\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--26--en--askhn--HackerNews--NewsArticle--32613397",
+  "url": "https://news.ycombinator.com/item?id=32613397",
+  "headline": "Are Golang binaries without Apple Dev acct possible?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I've been using GoReleaser to build and publish my Go binaries to GitHub. I tried installing the Mac on Catalina and hit the &quot;untrusted developer&quot; problem.<p>Is it possible to distribute these binaries without paying for and setting up code signing? Seems that 10.15 is more strict about these things.<p>Does the homebrew path get around this by building what you install locally?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "verdverm",
+    "url": "https://news.ycombinator.com/user?id=verdverm"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32613397",
+  "sameAs": "https://news.ycombinator.com/item?id=32613397",
+  "dateCreated": "2022-08-26T22:26:56.175Z",
+  "datePublished": "2022-08-26T22:19:37.000Z",
+  "dateModified": "2022-08-26T22:26:56.175Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32575353",
+  "url": "https://news.ycombinator.com/item?id=32575353",
+  "headline": "Hooking Go from Rust – Hitchhiker’s Guide to the Go-Laxy",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bepis",
+    "url": "https://news.ycombinator.com/user?id=bepis"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32575353",
+  "sameAs": "https://metalbear.co/blog/hooking-go-from-rust-hitchhikers-guide-to-the-go-laxy/",
+  "dateCreated": "2022-08-24T06:45:31.754Z",
+  "datePublished": "2022-08-24T05:46:47.000Z",
+  "dateModified": "2022-08-24T06:45:31.754Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "从 \"锈 \"中钩出围棋--《搭便车指南》。\n",
+  "headline_zh-Hant": "從 \"鏽 \"中鉤出圍棋--《搭便車指南》。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

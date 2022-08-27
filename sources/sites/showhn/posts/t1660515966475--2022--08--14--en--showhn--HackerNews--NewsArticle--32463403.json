@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--showhn--HackerNews--NewsArticle--32463403",
+  "url": "https://news.ycombinator.com/item?id=32463403",
+  "headline": "Show HN: Site Visits a VR and screen-based installation series",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Site Visits took its initial inspiration from Mozilla’s discontinued Tilt [0] dev tools feature.<p>I remember using it more out of curiosity than as a practical tool over a decade ago.<p>During a deep dive into what our [1] next work would be, Tilt came up again. We became inspired by the perspective it provided via the shape of DOM hierarchies across the web.<p>Using this shape we started to find ways to merge the tangible structure of the site with aspects of the sites cultural impact.<p>The project wants to create an alternate perspective on the web, by layering world-building elements on top of the 3D geometry of the site’s hierarchy.<p>Trying to draw inspiration from the shape of this landscape, and let it influence the concept throughout.<p>A deeper dive into the two current Site Visits is in the submitted link.<p>---<p>The stripped down process for those interested:<p>* A very simple browser plugin was created for Firefox that exports an untextured GLB file of the nested DOM hierarchy.<p>* This is then brought into Blender, and combined with a full page screenshot to create the base landscape model.<p>* Entirely in Blender and in a largely manual way all the world-building elements are created, explored and layered onto the landscape.<p>* After the dust settles an optimized version of the model is created and used as an asset.<p>* For VR we built out an experience via Unity or through stereoscopic 360 video, depending on the exhibition.<p>I hope that this crowd finds this as an interesting take on the web, and am happy to answer any questions in the comments here!<p>---<p>[0]: <a href=\"https://wiki.mozilla.org/Tilt_Project_Page\" rel=\"nofollow\">https://wiki.mozilla.org/Tilt_Project_Page</a><p>[1]: <a href=\"https://instagram.com/loooop.studio\" rel=\"nofollow\">https://instagram.com/loooop.studio</a>",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "boriskourt",
+    "url": "https://news.ycombinator.com/user?id=boriskourt"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32463403",
+  "sameAs": "https://boris.kourtoukov.com/site-visits-installation-series.html",
+  "dateCreated": "2022-08-14T22:26:06.475Z",
+  "datePublished": "2022-08-14T22:02:22.000Z",
+  "dateModified": "2022-08-14T22:26:06.475Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: 现场访问 一个基于VR和屏幕的装置系列\n",
+  "headline_zh-Hant": "Show HN: 現場訪問 一個基於VR和屏幕的裝置系列\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Site Visits took its initial inspiration from Mozilla’s discontinued Tilt [0] dev tools feature.<p>I remember using it more out of curiosity than as a practical tool over a decade ago.<p>During a deep dive into what our [1] next work would be, Tilt came up again. We became inspired by the perspective it provided via the shape of DOM hierarchies across the web.<p>Using this shape we started to find ways to merge the tangible structure of the site with aspects of the sites cultural impact.<p>The project wants to create an alternate perspective on the web, by layering world-building elements on top of the 3D geometry of the site’s hierarchy. <p>Trying to draw inspiration from the shape of this landscape, and let it influence the concept throughout.<p>A deeper dive into the two current Site Visits is in the submitted link.<p>---<p>The stripped down process for those interested:<p>* A very simple browser plugin was created for Firefox that exports an untextured GLB file of the nested DOM hierarchy. <p>* This is then brought into Blender, and combined with a full page screenshot to create the base landscape model.<p>* Entirely in Blender and in a largely manual way all the world-building elements are created, explored and layered onto the landscape. <p>* After the dust settles an optimized version of the model is created and used as an asset.<p>* For VR we built out an experience via Unity or through stereoscopic 360 video, depending on the exhibition.<p>I hope that this crowd finds this as an interesting take on the web, and am happy to answer any questions in the comments here!<p>---<p>[0]: <a href=\"https://wiki.mozilla.org/Tilt_Project_Page\" rel=\"nofollow\">https://wiki.mozilla.org/Tilt_Project_Page</a><p>[1]: <a href=\"https://instagram.com/loooop.studio\" rel=\"nofollow\">https://instagram.com/loooop.studio</a>\n",
+  "description_zh-Hant": "Site Visits took its initial inspiration from Mozilla’s discontinued Tilt [0] dev tools feature.<p>I remember using it more out of curiosity than as a practical tool over a decade ago.<p>During a deep dive into what our [1] next work would be, Tilt came up again. We became inspired by the perspective it provided via the shape of DOM hierarchies across the web.<p>Using this shape we started to find ways to merge the tangible structure of the site with aspects of the sites cultural impact.<p>The project wants to create an alternate perspective on the web, by layering world-building elements on top of the 3D geometry of the site’s hierarchy. <p>Trying to draw inspiration from the shape of this landscape, and let it influence the concept throughout.<p>A deeper dive into the two current Site Visits is in the submitted link.<p>---<p>The stripped down process for those interested:<p>* A very simple browser plugin was created for Firefox that exports an untextured GLB file of the nested DOM hierarchy. <p>* This is then brought into Blender, and combined with a full page screenshot to create the base landscape model.<p>* Entirely in Blender and in a largely manual way all the world-building elements are created, explored and layered onto the landscape. <p>* After the dust settles an optimized version of the model is created and used as an asset.<p>* For VR we built out an experience via Unity or through stereoscopic 360 video, depending on the exhibition.<p>I hope that this crowd finds this as an interesting take on the web, and am happy to answer any questions in the comments here!<p>---<p>[0]: <a href=\"https://wiki.mozilla.org/Tilt_Project_Page\" rel=\"nofollow\">https://wiki.mozilla.org/Tilt_Project_Page</a><p>[1]: <a href=\"https://instagram.com/loooop.studio\" rel=\"nofollow\">https://instagram.com/loooop.studio</a>\n"
+}

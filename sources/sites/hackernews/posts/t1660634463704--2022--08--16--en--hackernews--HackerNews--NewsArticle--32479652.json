@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--hackernews--HackerNews--NewsArticle--32479652",
+  "url": "https://news.ycombinator.com/item?id=32479652",
+  "headline": "WeWork's former CEO has a new startup, reportedly valued at more than $1B",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "cpeterso",
+    "url": "https://news.ycombinator.com/user?id=cpeterso"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32479652",
+  "sameAs": "https://www.cnn.com/2022/08/15/tech/adam-neumann-flow/index.html",
+  "dateCreated": "2022-08-16T07:21:03.704Z",
+  "datePublished": "2022-08-16T06:03:31.000Z",
+  "dateModified": "2022-08-16T07:21:03.704Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 14
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 15
+    }
+  ],
+  "headline_zh-Hans": "WeWork前CEO有了一家新的创业公司，据说估值超过10亿美元\n",
+  "headline_zh-Hant": "WeWork前CEO有了一家新的創業公司，據說估值超過10億美元\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

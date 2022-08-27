@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--askhn--HackerNews--NewsArticle--32506784",
+  "url": "https://news.ycombinator.com/item?id=32506784",
+  "headline": "Ask HN: Nested Resources in REST/HTTP API URLs?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "If you're building a REST/HTTP API, how do you think about when to express the hierarchy of resources in the URLs?<p>For example, let's say you had a blog site. Organizations have blogs. Blogs are made up of sections and comment threads. Comment threads have individual comments.<p>Would you opt for:<p>- /organizations/:organizationId/blogs/:blogId OR /blogs/:blogId (and get the organization from somewhere else like an auth token)<p>- /organizations/:organizationId/blogs/:blogId/sections/:sectionId OR /blogs/:blogId/sections/:sectionId OR /sections/:sectionId<p>- /organizations/:organizationId/blogs/:blogId/threads/:threadId/comments/:commentId... you get the idea",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "emschwartz",
+    "url": "https://news.ycombinator.com/user?id=emschwartz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32506784",
+  "sameAs": "https://news.ycombinator.com/item?id=32506784",
+  "dateCreated": "2022-08-18T08:53:48.751Z",
+  "datePublished": "2022-08-18T08:17:47.000Z",
+  "dateModified": "2022-08-18T08:53:48.751Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: REST/HTTP API URLs中的嵌套资源？\n",
+  "headline_zh-Hant": "Ask HN: REST/HTTP API URLs中的嵌套資源？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "如果你正在构建一个REST/HTTP API，你如何考虑何时在URL中表达资源的层次结构？<p>例如，假设你有一个博客网站。各个组织都有博客。博客是由章节和评论线程组成的。评论线程有个人评论。 <p>你会选择：<p>- /organizations/:organizationId/blogs/:blogId或者/blogs/:blogId（并从其他地方获得组织，如auth token）<p>- /organizations/: organizationId/blogs/:blogId/sections/:sectionId OR /blogs/:blogId/sections/:sectionId OR /sections/:sectionId<p>- /organizations/:organizationId/blogs/:blogId/threads/:threadId/comments/:commentId。 ...你会明白的\n",
+  "description_zh-Hant": "如果你正在構建一個REST/HTTP API，你如何考慮何時在URL中表達資源的層次結構？<p>例如，假設你有一個博客網站。各個組織都有博客。博客是由章節和評論線程組成的。評論線程有個人評論。 <p>你會選擇：<p>- /organizations/:organizationId/blogs/:blogId或者/blogs/:blogId（並從其他地方獲得組織，如auth token）<p>- /organizations/: organizationId/blogs/:blogId/sections/:sectionId OR /blogs/:blogId/sections/:sectionId OR /sections/:sectionId<p>- /organizations/:organizationId/blogs/:blogId/threads/:threadId/comments/:commentId。 ...你會明白的\n"
+}

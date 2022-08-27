@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--showhn--HackerNews--NewsArticle--32464064",
+  "url": "https://news.ycombinator.com/item?id=32464064",
+  "headline": "Show HN: Octarchive – Back up all repos on a GitHub account locally",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hey HN! I just released Octarchive, a simple tool to back up all repos on a GitHub/Gitea account to a local folder written in Go. If you're worried about loosing your FLOSS work, but are can't keep up with manually mirroring all the repositories, this might be the tool you're looking for.<p>I'd love to get your feedback :)",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "pojntfx",
+    "url": "https://news.ycombinator.com/user?id=pojntfx"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32464064",
+  "sameAs": "https://github.com/pojntfx/octarchive",
+  "dateCreated": "2022-08-14T23:25:39.590Z",
+  "datePublished": "2022-08-14T23:15:32.000Z",
+  "dateModified": "2022-08-14T23:25:39.590Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Octarchive - 将GitHub账户上的所有仓库备份到本地\n",
+  "headline_zh-Hant": "Show HN: Octarchive - 將GitHub賬戶上的所有倉庫備份到本地\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN! 我刚刚发布了Octarchive，这是一个简单的工具，可以将GitHub/Gitea账户上的所有仓库备份到一个用Go编写的本地文件夹。如果你担心丢失你的FLOSS工作，但又无法坚持手动镜像所有的仓库，这可能是你正在寻找的工具。<p>我很想得到你的反馈:)\n",
+  "description_zh-Hant": "嗨，HN! 我剛剛發佈了Octarchive，這是一個簡單的工具，可以將GitHub/Gitea賬戶上的所有倉庫備份到一個用Go編寫的本地文件夾。如果你擔心丟失你的FLOSS工作，但又無法堅持手動鏡像所有的倉庫，這可能是你正在尋找的工具。<p>我很想得到你的反饋:)\n"
+}

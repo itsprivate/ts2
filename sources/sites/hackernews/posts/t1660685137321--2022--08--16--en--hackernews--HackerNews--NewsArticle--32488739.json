@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--16--en--hackernews--HackerNews--NewsArticle--32488739",
+  "url": "https://news.ycombinator.com/item?id=32488739",
+  "headline": "Wokwi – Simulate IoT Projects in the Browser",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "pykello",
+    "url": "https://news.ycombinator.com/user?id=pykello"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32488739",
+  "sameAs": "https://wokwi.com/",
+  "dateCreated": "2022-08-16T21:25:37.321Z",
+  "datePublished": "2022-08-16T20:51:42.000Z",
+  "dateModified": "2022-08-16T21:25:37.321Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Wokwi - 在浏览器中模拟物联网项目\n",
+  "headline_zh-Hant": "Wokwi - 在瀏覽器中模擬物聯網項目\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

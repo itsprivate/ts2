@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--10--en--besthn--HackerNews--NewsArticle--32402630",
+  "url": "https://news.ycombinator.com/item?id=32402630",
+  "headline": "Implementing a Zero Trust Architecture",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "justinludwig",
+    "url": "https://news.ycombinator.com/user?id=justinludwig"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32402630",
+  "sameAs": "https://www.nccoe.nist.gov/projects/implementing-zero-trust-architecture",
+  "dateCreated": "2022-08-10T12:48:30.199Z",
+  "datePublished": "2022-08-09T19:13:15.000Z",
+  "dateModified": "2022-08-10T12:48:30.199Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 200
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 55
+    }
+  ],
+  "headline_zh-Hans": "实施零信任架构\n",
+  "headline_zh-Hant": "實施零信任架構\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

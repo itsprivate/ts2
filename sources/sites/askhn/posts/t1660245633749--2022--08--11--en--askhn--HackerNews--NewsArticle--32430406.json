@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--11--en--askhn--HackerNews--NewsArticle--32430406",
+  "url": "https://news.ycombinator.com/item?id=32430406",
+  "headline": "Ask HN: Recommendations for Spaced Repetition (SRS) Beginners?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Someone posted a link to a Spaced Repetition article a few days ago [0]. I'd never heard of the concept before, and it sent me down a rabbit hole of different introductory and literature review articles [1-5], more in-depth discussions on how to adapt the method for more complex topics like mathematics [6-8], some previous HN discussions [9-11], various mainstream tools [12-15], as well as some tools currently being built by HN community members [16-18] (sorry if I missed anything important there).<p>I've also gotten started and created and practized my first few dozen flash cards on some new topics I recently learnt, and the first experience has left me wondering a few things:<p>1. Are there downsides to this? Most reviews seem highly appreciative mentioning practically no downsides besides the time commitment, which supposedly pays off many times over, which just always makes me skeptical. Downsides I could imagine include eg: recent neuroscience suggests that forgetting &amp; memory rearrangement are important elements of brain hygiene, related to decision-making, avoiding things like PTSD and others [19]. How sure are we that we're not messing with those?<p>2. It seems that the most recommended approach is to turn things you want to remember into a set of atomic questions that take &lt;10s to answer. Are you aware of approaches that integrate better with note-taking? I wouldn't reviewing an interesting essay or reproducing an elegant proof in full, not just small tidbits.<p>2a. + Any approaches that integrate well with journalling? I wouldn't mind being reminded of a nice weekend trip with some pictures from time to time in a purely 'here's a nice memory' fashion, not questions like 'Who did you go on a trip with on Feb 9 2020?'.<p>3. So the basic workflow I could much rather see myself adopting on a long-term basis is something like: take 10+10mins each day to write down what you learnt or did in the past 24h that seems worth remembering, and review things from previous days (with some spacing algorithm behind it, and an option to remove things entirely). Do you know if there is a name for that / any science to it / tools that support it (it seems the Ilse notebook might be going in that direction)?<p>[0] https://news.ycombinator.com/item?id=32381206<p>Introductions:<p>[1] https://www.gwern.net/Spaced-repetition \n[2] https://andrewjudson.com/spaced-repitition/2022/06/03/spaced-repitition.html \n[3] http://augmentingcognition.com/ltm.html \n[4] https://andymatuschak.org/prompts/ \n[5] https://www.wired.com/2008/04/ff-wozniak/<p>SRS for math:<p>[6] https://cognitivemedium.com/srs-mathematics \n[7] https://cronokirby.com/posts/2021/02/spaced-repetition-for-mathematics/ \n[8] https://blogs.ams.org/mathgradblog/2011/03/10/space-math-repetition-repetition/<p>Previously on HN:<p>[9] https://news.ycombinator.com/item?id=18895613 \n[10] https://news.ycombinator.com/item?id=24857437 \n[11] https://news.ycombinator.com/item?id=9833581<p>Mainstream tools:<p>[12] https://apps.ankiweb.net/ - seems to be the most popular \n[13] https://super-memo.com/ - the OG \n[14] https://www.supermemo.com/en - web-app alternative to super-memo \n[15] https://mnemosyne-proj.org/ - OS alternative to Anki<p>HN community tools:<p>[16] https://github.com/ilse-langnar/notebook \n[17] https://www.freshcardsapp.com \n[18] https://getpolarized.io/<p>Contrarian:<p>[19] https://time.com/6171190/new-science-of-forgetting/",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "t_mann",
+    "url": "https://news.ycombinator.com/user?id=t_mann"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32430406",
+  "sameAs": "https://news.ycombinator.com/item?id=32430406",
+  "dateCreated": "2022-08-11T19:20:33.749Z",
+  "datePublished": "2022-08-11T19:15:46.000Z",
+  "dateModified": "2022-08-11T19:20:33.749Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 对间隔重复（SRS）初学者的建议？\n",
+  "headline_zh-Hant": "Ask HN: 對間隔重複（SRS）初學者的建議？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "几天前有人贴出了一篇关于间隔重复的文章的链接[0]。我以前从来没有听说过这个概念，它把我送进了一个兔子洞，里面有不同的介绍性文章和文献综述[1-5]，关于如何将该方法用于更复杂的课题（如数学）的更深入的讨论[6-8]，一些以前的HN讨论[9-11]，各种主流工具[12-15]，以及目前由HN社区成员建立的一些工具[16-18]（如果我错过了什么重要内容，请原谅）。 <p>我也已经开始了，并就最近学习的一些新主题创建和练习了我的前几十张闪卡，第一次体验让我想知道几件事：<p>1. 这有什么坏处吗？大多数评论似乎都高度赞赏地提到，除了时间上的投入外，几乎没有任何缺点，而这据说会带来许多倍的回报，这让我一直持怀疑态度。我可以想象到的缺点包括：最近的神经科学表明，遗忘&amp；记忆重排是大脑卫生的重要元素，与决策有关，避免像创伤后应激障碍和其他事情[19]。我们有多大把握不弄乱这些呢？ <p>2.似乎最值得推荐的方法是把你想记住的东西变成一组原子问题，用&lt;10s来回答。你是否知道有什么方法能与记笔记更好地结合？我不会回顾一篇有趣的文章或完整地再现一个优雅的证明，而不仅仅是小的花絮。<p>2a. + 有什么方法能与记事结合得很好？我不介意以一种纯粹的 \"这是一段美好的回忆 \"的方式，通过一些图片来提醒我一次愉快的周末旅行，而不是像 \"2020年2月9日你和谁一起去旅行了？\"这样的问题。 <p>3.所以我更愿意看到自己长期采用的基本工作流程是这样的：每天花10+10分钟，写下你在过去24小时内学到或做过的似乎值得记住的事情，并回顾前几天的事情（后面有一些间隔算法，以及一个完全删除事情的选项）。你知道这是否有一个名字/任何科学的东西/支持它的工具（似乎Ilse笔记本可能会朝这个方向发展）？<p>[0] https://news.ycombinator.com/item?id=32381206<p>介绍：<p>[1] https://www.gwern.net/Spaced-repetition \n[2] https://andrewjudson.com/spaced-repitition/2022/06/03/spaced-repitition.html \n[3] http://augmentingcognition.com/ltm.html \n[4] https://andymatuschak.org/prompts/ \n[5] https://www.wired.com/2008/04/ff-wozniak/<p>数学的SRS：<p>[6] https://cognitivemedium.com/srs-mathematics \n[7] https://cronokirby.com/posts/2021/02/spaced-repetition-for-mathematics/ \n[8] https://blogs.ams.org/mathgradblog/2011/03/10/space-math-repetition-repetition/<p>以前的HN:<p>[9] https://news.ycombinator.com/item?id=18895613 \n[10] https://news.ycombinator.com/item?id=24857437 \n[11] https://news.ycombinator.com/item?id=9833581<p>主流工具：<p>[12] https://apps.ankiweb.net/ - 似乎是最受欢迎的 \n[13] https://super-memo.com/ - OG \n[14] https://www.supermemo.com/en - 超级备忘录的网络应用替代品 \n[15] https://mnemosyne-proj.org/ - 操作系统替代Anki<p>HN社区工具：<p>[16] https://github.com/ilse-langnar/notebook \n[17] https://www.freshcardsapp.com \n[18] https://getpolarized.io/<p>Contrarian:<p>[19] https://time.com/6171190/new-science-of-forgetting/\n",
+  "description_zh-Hant": "幾天前有人貼出了一篇關於間隔重複的文章的鏈接[0]。我以前從來沒有聽說過這個概念，它把我送進了一個兔子洞，裡面有不同的介紹性文章和文獻綜述[1-5]，關於如何將該方法用於更復雜的課題（如數學）的更深入的討論[6-8]，一些以前的HN討論[9-11]，各種主流工具[12-15]，以及目前由HN社區成員建立的一些工具[16-18]（如果我錯過了什麼重要內容，請原諒）。 <p>我也已經開始了，並就最近學習的一些新主題創建和練習了我的前幾十張閃卡，第一次體驗讓我想知道幾件事：<p>1. 這有什麼壞處嗎？大多數評論似乎都高度讚賞地提到，除了時間上的投入外，幾乎沒有任何缺點，而這據說會帶來許多倍的回報，這讓我一直持懷疑態度。我可以想象到的缺點包括：最近的神經科學表明，遺忘&amp；記憶重排是大腦衛生的重要元素，與決策有關，避免像創傷後應激障礙和其他事情[19]。我們有多大把握不弄亂這些呢？ <p>2.似乎最值得推薦的方法是把你想記住的東西變成一組原子問題，用&lt;10s來回答。你是否知道有什麼方法能與記筆記更好地結合？我不會回顧一篇有趣的文章或完整地再現一個優雅的證明，而不僅僅是小的花絮。<p>2a. + 有什麼方法能與記事結合得很好？我不介意以一種純粹的 \"這是一段美好的回憶 \"的方式，通過一些圖片來提醒我一次愉快的週末旅行，而不是像 \"2020年2月9日你和誰一起去旅行了？\"這樣的問題。 <p>3.所以我更願意看到自己長期採用的基本工作流程是這樣的：每天花10+10分鐘，寫下你在過去24小時內學到或做過的似乎值得記住的事情，並回顧前幾天的事情（後面有一些間隔算法，以及一個完全刪除事情的選項）。你知道這是否有一個名字/任何科學的東西/支持它的工具（似乎Ilse筆記本可能會朝這個方向發展）？<p>[0] https://news.ycombinator.com/item?id=32381206<p>介紹：<p>[1] https://www.gwern.net/Spaced-repetition \n[2] https://andrewjudson.com/spaced-repitition/2022/06/03/spaced-repitition.html \n[3] http://augmentingcognition.com/ltm.html \n[4] https://andymatuschak.org/prompts/ \n[5] https://www.wired.com/2008/04/ff-wozniak/<p>數學的SRS：<p>[6] https://cognitivemedium.com/srs-mathematics \n[7] https://cronokirby.com/posts/2021/02/spaced-repetition-for-mathematics/ \n[8] https://blogs.ams.org/mathgradblog/2011/03/10/space-math-repetition-repetition/<p>以前的HN:<p>[9] https://news.ycombinator.com/item?id=18895613 \n[10] https://news.ycombinator.com/item?id=24857437 \n[11] https://news.ycombinator.com/item?id=9833581<p>主流工具：<p>[12] https://apps.ankiweb.net/ - 似乎是最受歡迎的 \n[13] https://super-memo.com/ - OG \n[14] https://www.supermemo.com/en - 超級備忘錄的網絡應用替代品 \n[15] https://mnemosyne-proj.org/ - 操作系統替代Anki<p>HN社區工具：<p>[16] https://github.com/ilse-langnar/notebook \n[17] https://www.freshcardsapp.com \n[18] https://getpolarized.io/<p>Contrarian:<p>[19] https://time.com/6171190/new-science-of-forgetting/\n"
+}

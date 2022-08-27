@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--showhn--HackerNews--NewsArticle--32550198",
+  "url": "https://news.ycombinator.com/item?id=32550198",
+  "headline": "Show HN: Inlyne, a GPU powered, browser-less, Markdown previewer",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Markdown files are used universally in almost every git repository and yet you need a browser or electron app like VS Code to quickly open one.<p>To help this I'm trying to create a markdown viewer that renders on the gpu without needing a browser. If this interests you please help try out `cargo install inlyne`. Using it is as simple as `inlyne README.md` and you can set themes, fonts and scaling as you'd like.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "trimental",
+    "url": "https://news.ycombinator.com/user?id=trimental"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32550198",
+  "sameAs": "https://github.com/trimental/inlyne",
+  "dateCreated": "2022-08-22T12:52:57.543Z",
+  "datePublished": "2022-08-22T12:04:17.000Z",
+  "dateModified": "2022-08-22T12:52:57.543Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: Inlyne，一个由GPU驱动、无浏览器的Markdown预览器\n",
+  "headline_zh-Hant": "Show HN: Inlyne，一個由GPU驅動、無瀏覽器的Markdown預覽器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "Markdown文件几乎在每个git仓库中都被普遍使用，但你需要一个浏览器或像VS Code这样的电子应用程序来快速打开它。<p>为了帮助这个问题，我试图创建一个无需浏览器就能在gpu上显示的markdown查看器。如果你对此感兴趣，请帮忙试试`cargo install inlyne`。使用它就像 \"inlyne README.md \"一样简单，你可以根据自己的需要设置主题、字体和缩放。\n",
+  "description_zh-Hant": "Markdown文件幾乎在每個git倉庫中都被普遍使用，但你需要一個瀏覽器或像VS Code這樣的電子應用程序來快速打開它。<p>為了幫助這個問題，我試圖創建一個無需瀏覽器就能在gpu上顯示的markdown查看器。如果你對此感興趣，請幫忙試試`cargo install inlyne`。使用它就像 \"inlyne README.md \"一樣簡單，你可以根據自己的需要設置主題、字體和縮放。\n"
+}

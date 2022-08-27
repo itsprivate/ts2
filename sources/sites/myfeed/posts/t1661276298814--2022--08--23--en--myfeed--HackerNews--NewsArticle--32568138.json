@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32568138",
+  "url": "https://news.ycombinator.com/item?id=32568138",
+  "headline": "The Gathering Crisis",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "aydnina",
+    "url": "https://news.ycombinator.com/user?id=aydnina"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32568138",
+  "sameAs": "https://www.antipope.org/charlie/blog-static/2022/08/the-gathering-crisis.html",
+  "dateCreated": "2022-08-23T17:38:18.814Z",
+  "datePublished": "2022-08-23T17:24:51.000Z",
+  "dateModified": "2022-08-23T17:38:18.814Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "正在聚集的危机\n",
+  "headline_zh-Hant": "正在聚集的危機\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

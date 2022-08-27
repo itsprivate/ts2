@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--askhn--HackerNews--NewsArticle--32391395",
+  "url": "https://news.ycombinator.com/item?id=32391395",
+  "headline": "Ask HN: How do you deal with code frustration?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Not gonna go into a lot of details of what I've been tasked with (someone I work with might recognize the task :). Suffice it to say that a lot of technical debt was built up over the last couple of years during a &quot;move fast&quot; phase and I've been called in and tasked with cleaning it all up and simplifying things that had become overly complicated (a bit of an understatement) because they keep tacking more code onto the edifice in an attempt to keep it standing instead of addressing underlying problems. I'm finding it exceedingly frustrating and after a couple of months I'm wondering if the task is even possible. There are multiple languages (at least 4) involved and lots of little files that get passed between processes running in different langauges that get parsed... ok, not gonna say anymore about that...<p>So programmers of HN, how do you keep from getting overly frustrated by a big ball tangled code? At what point is it best to just throw in the towel and suggest that perhaps they need to start over?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "UncleOxidant",
+    "url": "https://news.ycombinator.com/user?id=UncleOxidant"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32391395",
+  "sameAs": "https://news.ycombinator.com/item?id=32391395",
+  "dateCreated": "2022-08-08T21:44:26.525Z",
+  "datePublished": "2022-08-08T21:39:28.000Z",
+  "dateModified": "2022-08-08T21:44:26.525Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你如何处理代码的挫折感？\n",
+  "headline_zh-Hant": "Ask HN: 你如何處理代碼的挫折感？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我不打算详细介绍我的任务（和我一起工作的人可能会认识到这个任务：）。我只想说，在过去几年的 \"快速发展 \"阶段，公司积累了大量的技术债务，我被叫来负责清理这些债务，并简化已经变得过于复杂的事情（有点轻描淡写），因为他们不断地在大厦上添加更多的代码，试图保持大厦的稳定性，而不是解决根本问题。我发现这非常令人沮丧，而且在几个月后，我在想这项任务是否可能完成。有多种语言（至少4种）参与其中，还有很多小文件在不同语言运行的进程之间传递，并被解析......好了，不说这些了......<p>那么HN的程序员们，你们是如何避免被一大堆纠缠不清的代码弄得过度沮丧的？在什么情况下，最好是扔掉毛巾，建议他们也许需要重新开始？\n",
+  "description_zh-Hant": "我不打算詳細介紹我的任務（和我一起工作的人可能會認識到這個任務：）。我只想說，在過去幾年的 \"快速發展 \"階段，公司積累了大量的技術債務，我被叫來負責清理這些債務，並簡化已經變得過於複雜的事情（有點輕描淡寫），因為他們不斷地在大廈上添加更多的代碼，試圖保持大廈的穩定性，而不是解決根本問題。我發現這非常令人沮喪，而且在幾個月後，我在想這項任務是否可能完成。有多種語言（至少4種）參與其中，還有很多小文件在不同語言運行的進程之間傳遞，並被解析......好了，不說這些了......<p>那麼HN的程序員們，你們是如何避免被一大堆糾纏不清的代碼弄得過度沮喪的？在什麼情況下，最好是扔掉毛巾，建議他們也許需要重新開始？\n"
+}

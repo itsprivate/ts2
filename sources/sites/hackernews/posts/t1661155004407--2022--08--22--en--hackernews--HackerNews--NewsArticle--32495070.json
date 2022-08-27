@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--hackernews--HackerNews--NewsArticle--32495070",
+  "url": "https://news.ycombinator.com/item?id=32495070",
+  "headline": "PicoLisp is an open source Lisp dialect",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "rcarmo",
+    "url": "https://news.ycombinator.com/user?id=rcarmo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32495070",
+  "sameAs": "https://github.com/picolisp/pil21",
+  "dateCreated": "2022-08-22T07:56:44.407Z",
+  "datePublished": "2022-08-17T11:57:13.000Z",
+  "dateModified": "2022-08-22T07:56:44.407Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "PicoLisp是一种开源的Lisp方言\n",
+  "headline_zh-Hant": "PicoLisp是一種開源的Lisp方言\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32582537",
+  "url": "https://news.ycombinator.com/item?id=32582537",
+  "headline": "Fork Me: The Version-Controlled Political Party",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "DanielLapidus",
+    "url": "https://news.ycombinator.com/user?id=DanielLapidus"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32582537",
+  "sameAs": "https://medium.com/@Lapidus/fork-me-the-version-controlled-political-party-1ab17a86188d",
+  "dateCreated": "2022-08-24T17:35:17.757Z",
+  "datePublished": "2022-08-24T17:12:49.000Z",
+  "dateModified": "2022-08-24T17:35:17.757Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "叉我：版本控制的政党\n",
+  "headline_zh-Hant": "叉我：版本控制的政黨\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

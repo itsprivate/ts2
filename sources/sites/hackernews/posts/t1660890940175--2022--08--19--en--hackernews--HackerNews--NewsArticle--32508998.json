@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--hackernews--HackerNews--NewsArticle--32508998",
+  "url": "https://news.ycombinator.com/item?id=32508998",
+  "headline": "The Secretary Problem",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "fofoz",
+    "url": "https://news.ycombinator.com/user?id=fofoz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32508998",
+  "sameAs": "https://en.wikipedia.org/wiki/Secretary_problem",
+  "dateCreated": "2022-08-19T06:35:40.175Z",
+  "datePublished": "2022-08-18T13:00:12.000Z",
+  "dateModified": "2022-08-19T06:35:40.175Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 21
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 1
+    }
+  ],
+  "headline_zh-Hans": "秘书问题\n",
+  "headline_zh-Hant": "秘書問題\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

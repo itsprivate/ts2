@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--14--en--askhn--HackerNews--NewsArticle--32460814",
+  "url": "https://news.ycombinator.com/item?id=32460814",
+  "headline": "Ask HN: Is there still an opportunity for an affordable CPanel alternative?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "'Asking because I'm considering building one.<p>I used to run a small Web hosting business and still manage a few client accounts. I moved these accounts [from a Web hosting reseller] to DigitalOcean about a year ago and installed CPanel because that's what my clients are familiar with.<p>However, I'm paying more for the control panel license than for the actual servers; Cpanel makes up 60% of the total cost, and the server is 40%. This makes no economic sense to me. I guess I've been shielded from this because [before the transition] I used a hosting provider that required a flat monthly fee.<p>I've done some research on this and below are four (4) reasons why I see an opportunity:<p>1. The cheapest CPanel option is \\$16 a month. The cheapest DigitalOcean droplet is \\$4 a month; a gap that only a few users would tolerate. In addition, most of the negative feedback for CPanel on G2 and Capterra seems to be focused on pricing.\n2. The minimum installation requirements for CPanel are 1Gb RAM and 20Gb HDD; recommended are 4Gb RAM and 40Gb HDD. So it's not going to play nicely on entry-level, affordable cloud servers e.g. 512K RAM and 10Gb HDD. \n3. The UI/UX could be so much better than it currently is, especially for mobile and keyboard users. My apologies for not being more specific on account of time; if you have used CPanel you should have an intuitive sense of what I mean. To be fair, it has improved significantly over the years.\n4. There's an API and CLI, but it doesn't appear to be a workable alternative to the GUI. From the docs, it seems like you have to use the CLI after you login to the server via SSH. The same goes for the API when using PHP/Perl; the module to include in your API call script resides on the server. It all seems a tad unwieldy in this day and age.<p>All the tools I'm considering for building this are mature, free and open-source (React, Node.js, etc.). My timeline estimate is 7 to 10 months. My objective is not to build a CPanel clone; it's to build a free to affordable GUI for cloud servers with a developer-friendly API and CLI.<p>It seems like a good opportunity, but I'm biased. Ergo, I'd like to get some perspective.<p>What say you?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "obihill",
+    "url": "https://news.ycombinator.com/user?id=obihill"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32460814",
+  "sameAs": "https://news.ycombinator.com/item?id=32460814",
+  "dateCreated": "2022-08-14T17:03:18.797Z",
+  "datePublished": "2022-08-14T16:59:08.000Z",
+  "dateModified": "2022-08-14T17:03:18.797Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 是否还有机会获得价格低廉的CPanel替代品？\n",
+  "headline_zh-Hant": "Ask HN: 是否還有機會獲得價格低廉的CPanel替代品？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "问这个问题是因为我正在考虑建立一个。<p>我曾经经营一个小型的网络托管业务，仍然管理着一些客户账户。大约一年前，我把这些账户[从虚拟主机经销商]转移到DigitalOcean，并安装了CPanel，因为这是我的客户所熟悉的。<p>然而，我为控制面板许可证支付的费用比实际的服务器要高；Cpanel占总成本的60%，而服务器占40%。这对我来说没有经济意义。我想我已经被屏蔽了，因为[在转型之前]我使用的是一个需要固定月费的主机供应商。<p>我对此做了一些研究，下面是我看到机会的四（4）个原因：<p>1. 最便宜的CPanel选项是每月16美元。最便宜的DigitalOcean droplet是每月4美元；这个差距只有少数用户可以忍受。此外，G2和Capterra上对CPanel的大多数负面反馈似乎都集中在定价上。\n2. 2. CPanel的最低安装要求是1Gb内存和20Gb硬盘；建议是4Gb内存和40Gb硬盘。因此，它不会在入门级的、可负担得起的云服务器上发挥很好的作用，例如，512K内存和10Gb硬盘。\n3. 3. UI/UX可以比现在好得多，特别是对于手机和键盘用户。由于时间关系，我很抱歉没有说得更具体；如果你使用过CPanel，你应该对我的意思有一个直观的感觉。公平地说，这些年来，它已经有了很大的改进。\n4. 4.有一个API和CLI，但它似乎并不是GUI的一个可行的替代。从文档来看，似乎你必须在通过SSH登录到服务器后使用CLI。当使用PHP/Perl时，API也是如此；包含在你的API调用脚本中的模块位于服务器上。<p>我考虑的所有工具都是成熟的、免费的和开源的（React、Node.js等），在这个时代，这一切都显得有点不容易。我的时间表估计是7到10个月。我的目标不是建立一个CPanel克隆；而是为云服务器建立一个免费的、可负担得起的GUI，并提供对开发者友好的API和CLI。<p>这似乎是一个好机会，但我有偏见。因此，我想获得一些观点。<p>你怎么说？\n",
+  "description_zh-Hant": "問這個問題是因為我正在考慮建立一個。<p>我曾經經營一個小型的網絡託管業務，仍然管理著一些客戶賬戶。大約一年前，我把這些賬戶[從虛擬主機經銷商]轉移到DigitalOcean，並安裝了CPanel，因為這是我的客戶所熟悉的。<p>然而，我為控制面板許可證支付的費用比實際的服務器要高；Cpanel佔總成本的60%，而服務器佔40%。這對我來說沒有經濟意義。我想我已經被屏蔽了，因為[在轉型之前]我使用的是一個需要固定月費的主機供應商。<p>我對此做了一些研究，下面是我看到機會的四（4）個原因：<p>1. 最便宜的CPanel選項是每月16美元。最便宜的DigitalOcean droplet是每月4美元；這個差距只有少數用戶可以忍受。此外，G2和Capterra上對CPanel的大多數負面反饋似乎都集中在定價上。\n2. 2. CPanel的最低安裝要求是1Gb內存和20Gb硬盤；建議是4Gb內存和40Gb硬盤。因此，它不會在入門級的、可負擔得起的雲服務器上發揮很好的作用，例如，512K內存和10Gb硬盤。\n3. 3. UI/UX可以比現在好得多，特別是對於手機和鍵盤用戶。由於時間關係，我很抱歉沒有說得更具體；如果你使用過CPanel，你應該對我的意思有一個直觀的感覺。公平地說，這些年來，它已經有了很大的改進。\n4. 4.有一個API和CLI，但它似乎並不是GUI的一個可行的替代。從文檔來看，似乎你必須在通過SSH登錄到服務器後使用CLI。當使用PHP/Perl時，API也是如此；包含在你的API調用腳本中的模塊位於服務器上。<p>我考慮的所有工具都是成熟的、免費的和開源的（React、Node.js等），在這個時代，這一切都顯得有點不容易。我的時間表估計是7到10個月。我的目標不是建立一個CPanel克隆；而是為雲服務器建立一個免費的、可負擔得起的GUI，並提供對開發者友好的API和CLI。<p>這似乎是一個好機會，但我有偏見。因此，我想獲得一些觀點。<p>你怎麼說？\n"
+}

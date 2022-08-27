@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32566404",
+  "url": "https://news.ycombinator.com/item?id=32566404",
+  "headline": "Olympus: The language where computation happens through the will of the gods",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "headalgorithm",
+    "url": "https://news.ycombinator.com/user?id=headalgorithm"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32566404",
+  "sameAs": "https://github.com/rottytooth/Olympus",
+  "dateCreated": "2022-08-23T15:48:44.162Z",
+  "datePublished": "2022-08-23T15:32:41.000Z",
+  "dateModified": "2022-08-23T15:48:44.162Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "奥林匹斯。通过诸神的意志进行计算的语言\n",
+  "headline_zh-Hant": "奧林匹斯。通過諸神的意志進行計算的語言\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

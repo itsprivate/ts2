@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32571055",
+  "url": "https://news.ycombinator.com/item?id=32571055",
+  "headline": "My Google Cloud was suspended too",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "splix",
+    "url": "https://news.ycombinator.com/user?id=splix"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32571055",
+  "sameAs": "https://twitter.com/splix/status/1562169212105367554",
+  "dateCreated": "2022-08-23T20:46:14.969Z",
+  "datePublished": "2022-08-23T20:30:50.000Z",
+  "dateModified": "2022-08-23T20:46:14.969Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "我的谷歌云也被暂停了\n",
+  "headline_zh-Hant": "我的谷歌雲也被暫停了\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

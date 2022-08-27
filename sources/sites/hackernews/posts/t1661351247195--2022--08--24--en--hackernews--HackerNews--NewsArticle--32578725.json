@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--hackernews--HackerNews--NewsArticle--32578725",
+  "url": "https://news.ycombinator.com/item?id=32578725",
+  "headline": "A Critique of SQL, 40 Years Later",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "mariuz",
+    "url": "https://news.ycombinator.com/user?id=mariuz"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32578725",
+  "sameAs": "https://carlineng.com/?postid=sql-critique#blog",
+  "dateCreated": "2022-08-24T14:27:27.195Z",
+  "datePublished": "2022-08-24T12:48:57.000Z",
+  "dateModified": "2022-08-24T14:27:27.195Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 6
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "40年后，对SQL的批判\n",
+  "headline_zh-Hant": "40年後，對SQL的批判\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

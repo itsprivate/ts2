@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--08--en--askhn--HackerNews--NewsArticle--32385318",
+  "url": "https://news.ycombinator.com/item?id=32385318",
+  "headline": "Ask HN: How Much Do You Dislike Forward Declarations and Why?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I'm working on a programming language. For various reasons, it is a one-pass language that requires forward declarations.<p>However, [1] is criticizing Carbon's requirement for forward declarations, and it has many upvotes. This indicates that dislike for forward declarations is widespread and popular.<p>I've never hated forward declarations. I also work almost exclusively in C, so I'm used to them.<p>Yes, C makes them terrible with the header system. However, my language will use packages, which means that you don't need to forward declare <i>everything</i>; just the items in the same package (well, file) that refer to each other, such as mutually recursive functions or types that have pointers to each other.<p>Do you hate forward declarations enough that that would be a deal-breaker for using such a language? Why?<p>The technical details for my language: instead of defining macros like Rust, users can define new keywords. The keyword definition is responsible for parsing the tokens after the keyword, but it can generate whatever code it wants. If I made my compiler multi-pass, it would require all users who define keywords to make their parsing work with those multiple passes, which is <i>doable</i>, but I think it's too much.<p>I also chose defining keywords over macros because macros can be stateful (I think they might be in Rust), and requiring multiple passes makes keywords stateful too. For example, when defining a function (which uses a keyword), the first pass has to define it with its parameters and its return type, but then parse the body normally while generating nothing. Then, in the next pass, it needs to recognize that the function already exists, check that they are the same, and <i>then</i> parse the function body.<p>I can make it easy for keywords to know what state they are in, but they still have to act differently in each state.<p>Bonus question: if you can think of a way for my language to not require forward declarations while remaining a single-pass compiler, I'd love to hear it.<p>[1]: https://old.reddit.com/r/programming/comments/wiaggd/how_carbon_fixes_c_syntax/ijaeyna/",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "ghoward",
+    "url": "https://news.ycombinator.com/user?id=ghoward"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32385318",
+  "sameAs": "https://news.ycombinator.com/item?id=32385318",
+  "dateCreated": "2022-08-08T13:50:10.863Z",
+  "datePublished": "2022-08-08T13:47:41.000Z",
+  "dateModified": "2022-08-08T13:50:10.863Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 你有多不喜欢转发声明，为什么？\n",
+  "headline_zh-Hant": "Ask HN: 你有多不喜歡轉發聲明，為什麼？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "I'm working on a programming language. For various reasons, it is a one-pass language that requires forward declarations.<p>However, [1] is criticizing Carbon's requirement for forward declarations, and it has many upvotes. This indicates that dislike for forward declarations is widespread and popular.<p>I've never hated forward declarations. I also work almost exclusively in C, so I'm used to them.<p>Yes, C makes them terrible with the header system. However, my language will use packages, which means that you don't need to forward declare <i>everything</i>; just the items in the same package (well, file) that refer to each other, such as mutually recursive functions or types that have pointers to each other.<p>Do you hate forward declarations enough that that would be a deal-breaker for using such a language? Why?<p>The technical details for my language: instead of defining macros like Rust, users can define new keywords. The keyword definition is responsible for parsing the tokens after the keyword, but it can generate whatever code it wants. If I made my compiler multi-pass, it would require all users who define keywords to make their parsing work with those multiple passes, which is <i>doable</i>, but I think it's too much.<p>I also chose defining keywords over macros because macros can be stateful (I think they might be in Rust), and requiring multiple passes makes keywords stateful too. For example, when defining a function (which uses a keyword), the first pass has to define it with its parameters and its return type, but then parse the body normally while generating nothing. 然后，在下一程序中，它需要识别该函数已经存在，检查它们是否相同，然后<i></i>解析函数体。<p>我可以让关键字很容易知道它们处于什么状态，但它们在每个状态下仍然必须采取不同的行动。<p>奖励问题：如果你能想到一种方法，让我的语言不需要正向声明，同时保持一个单程序编译器，我很乐意听到它。<p>[1]: https://old.reddit.com/r/programming/comments/wiaggd/how_carbon_fixes_c_syntax/ijaeyna/\n",
+  "description_zh-Hant": "I'm working on a programming language. For various reasons, it is a one-pass language that requires forward declarations.<p>However, [1] is criticizing Carbon's requirement for forward declarations, and it has many upvotes. This indicates that dislike for forward declarations is widespread and popular.<p>I've never hated forward declarations. I also work almost exclusively in C, so I'm used to them.<p>Yes, C makes them terrible with the header system. However, my language will use packages, which means that you don't need to forward declare <i>everything</i>; just the items in the same package (well, file) that refer to each other, such as mutually recursive functions or types that have pointers to each other.<p>Do you hate forward declarations enough that that would be a deal-breaker for using such a language? Why?<p>The technical details for my language: instead of defining macros like Rust, users can define new keywords. The keyword definition is responsible for parsing the tokens after the keyword, but it can generate whatever code it wants. If I made my compiler multi-pass, it would require all users who define keywords to make their parsing work with those multiple passes, which is <i>doable</i>, but I think it's too much.<p>I also chose defining keywords over macros because macros can be stateful (I think they might be in Rust), and requiring multiple passes makes keywords stateful too. For example, when defining a function (which uses a keyword), the first pass has to define it with its parameters and its return type, but then parse the body normally while generating nothing. 然後，在下一程序中，它需要識別該函數已經存在，檢查它們是否相同，然後<i></i>解析函數體。<p>我可以讓關鍵字很容易知道它們處於什麼狀態，但它們在每個狀態下仍然必須採取不同的行動。<p>獎勵問題：如果你能想到一種方法，讓我的語言不需要正向聲明，同時保持一個單程序編譯器，我很樂意聽到它。<p>[1]: https://old.reddit.com/r/programming/comments/wiaggd/how_carbon_fixes_c_syntax/ijaeyna/\n"
+}

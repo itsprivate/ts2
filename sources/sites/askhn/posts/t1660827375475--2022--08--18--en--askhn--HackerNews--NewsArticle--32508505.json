@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--askhn--HackerNews--NewsArticle--32508505",
+  "url": "https://news.ycombinator.com/item?id=32508505",
+  "headline": "Ask HN: Why don't more developers use event sourcing?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I have found event sourcing (https://martinfowler.com/eaaDev/EventSourcing.html) to be extremely powerful when building applications, however in my experience CRUD seems to be much more prevalent.<p>Why do you think event sourcing isn't as common?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "dwmcc",
+    "url": "https://news.ycombinator.com/user?id=dwmcc"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32508505",
+  "sameAs": "https://news.ycombinator.com/item?id=32508505",
+  "dateCreated": "2022-08-18T12:56:15.475Z",
+  "datePublished": "2022-08-18T12:14:19.000Z",
+  "dateModified": "2022-08-18T12:56:15.475Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 2
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么没有更多的开发者使用事件源？\n",
+  "headline_zh-Hant": "Ask HN: 為什麼沒有更多的開發者使用事件源？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我发现在构建应用程序时，事件源（https://martinfowler.com/eaaDev/EventSourcing.html）是非常强大的，然而根据我的经验，CRUD似乎更普遍。<p>为什么你认为事件源不那么普遍？\n",
+  "description_zh-Hant": "我發現在構建應用程序時，事件源（https://martinfowler.com/eaaDev/EventSourcing.html）是非常強大的，然而根據我的經驗，CRUD似乎更普遍。<p>為什麼你認為事件源不那麼普遍？\n"
+}

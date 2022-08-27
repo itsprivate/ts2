@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32568077",
+  "url": "https://news.ycombinator.com/item?id=32568077",
+  "headline": "On Eating (With) the Rich",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "timdaub",
+    "url": "https://news.ycombinator.com/user?id=timdaub"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32568077",
+  "sameAs": "https://timdaub.github.io/2022/08/23/on-eating-with-the-rich/",
+  "dateCreated": "2022-08-23T17:38:18.803Z",
+  "datePublished": "2022-08-23T17:21:08.000Z",
+  "dateModified": "2022-08-23T17:38:18.803Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "关于（与）富人一起吃东西\n",
+  "headline_zh-Hant": "關於（與）富人一起吃東西\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

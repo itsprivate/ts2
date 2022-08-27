@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32576230",
+  "url": "https://news.ycombinator.com/item?id=32576230",
+  "headline": "Build a simple 2D physics engine for JavaScript games",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "WoodenChair",
+    "url": "https://news.ycombinator.com/user?id=WoodenChair"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32576230",
+  "sameAs": "https://developer.ibm.com/tutorials/wa-build2dphysicsengine/",
+  "dateCreated": "2022-08-24T08:33:05.293Z",
+  "datePublished": "2022-08-24T08:09:00.000Z",
+  "dateModified": "2022-08-24T08:33:05.293Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "为JavaScript游戏建立一个简单的2D物理引擎\n",
+  "headline_zh-Hant": "為JavaScript遊戲建立一個簡單的2D物理引擎\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

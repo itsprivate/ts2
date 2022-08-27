@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32568675",
+  "url": "https://news.ycombinator.com/item?id=32568675",
+  "headline": "Optimizing the Snowflake Query Optimizer",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "carlineng",
+    "url": "https://news.ycombinator.com/user?id=carlineng"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32568675",
+  "sameAs": "https://hoffa.medium.com/inside-snowflake-optimizing-the-query-optimizer-redundant-semi-joins-and-anti-joins-6da855dc56da",
+  "dateCreated": "2022-08-23T18:31:57.564Z",
+  "datePublished": "2022-08-23T18:02:29.000Z",
+  "dateModified": "2022-08-23T18:31:57.564Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "优化Snowflake查询优化器\n",
+  "headline_zh-Hant": "優化Snowflake查詢優化器\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

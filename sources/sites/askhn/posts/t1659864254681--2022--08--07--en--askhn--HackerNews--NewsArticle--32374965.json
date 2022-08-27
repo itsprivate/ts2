@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--07--en--askhn--HackerNews--NewsArticle--32374965",
+  "url": "https://news.ycombinator.com/item?id=32374965",
+  "headline": "Ask HN: Best way to source control multiple repos building upon each other",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Hi HN!<p>I'm working on an online course that currently has four chapters. The students need to be able to start the project from any chapters they want.<p>Ideally, I should be able to provide partial/full solutions as a repository (or an archive) to students. So far, I've separated the work into two directories per chapter (one for the full solution, one for the partial).<p>The problem is - if I want to modify something in any place and want to keep it consistent, I need to make a change in 8 directories.<p>I've been thinking about the best way to organize it but can't think of any approach that would be simple and would allow me to change the code in a single place.<p>I was thinking about submodules, but the projects are not clear-cut, sometimes the same files will be modified in multiple chapters.<p>I would hugely appreciate any thoughts you might have!",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "msadowski",
+    "url": "https://news.ycombinator.com/user?id=msadowski"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32374965",
+  "sameAs": "https://news.ycombinator.com/item?id=32374965",
+  "dateCreated": "2022-08-07T09:24:14.681Z",
+  "datePublished": "2022-08-07T08:51:42.000Z",
+  "dateModified": "2022-08-07T09:24:14.681Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 对相互构建的多个仓库进行源代码控制的最佳方式\n",
+  "headline_zh-Hant": "Ask HN: 對相互構建的多個倉庫進行源代碼控制的最佳方式\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "嗨，HN！<p>我正在开发一个在线课程，目前有四个章节。学生需要能够从他们想要的任何章节开始项目。<p>事实上，我应该能够将部分/完整的解决方案作为一个资源库（或一个档案）提供给学生。到目前为止，我已经把每一章的工作分成了两个目录（一个是完整的解决方案，一个是部分解决方案）。<p>问题是--如果我想在任何地方修改一些东西，并希望保持一致，我需要在8个目录中做出修改。 <p>我一直在思考组织它的最佳方式，但想不出任何简单的方法，而且能让我在一个地方修改代码。<p>我在考虑子模块，但项目并不明确，有时相同的文件会在多个章节中被修改。<p>我将非常感谢你的任何想法!\n",
+  "description_zh-Hant": "嗨，HN！<p>我正在開發一個在線課程，目前有四個章節。學生需要能夠從他們想要的任何章節開始項目。<p>事實上，我應該能夠將部分/完整的解決方案作為一個資源庫（或一個檔案）提供給學生。到目前為止，我已經把每一章的工作分成了兩個目錄（一個是完整的解決方案，一個是部分解決方案）。<p>問題是--如果我想在任何地方修改一些東西，並希望保持一致，我需要在8個目錄中做出修改。 <p>我一直在思考組織它的最佳方式，但想不出任何簡單的方法，而且能讓我在一個地方修改代碼。<p>我在考慮子模塊，但項目並不明確，有時相同的文件會在多個章節中被修改。<p>我將非常感謝你的任何想法!\n"
+}

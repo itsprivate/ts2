@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--askhn--HackerNews--NewsArticle--32515076",
+  "url": "https://news.ycombinator.com/item?id=32515076",
+  "headline": "Ask HN: Why can't we have wireless 4k monitors?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Why can't my laptop or desktop just send whatever it was going to send over HDMI or DisplayPort to my monitor over the EM spectrum?<p>More broadly, why isn't wireless communication stupid fast? Why does Wifi 6 only support gigabit speeds? Given clear line of sight between laptop and receiver, why would there ever be dropped packets or unreliability? If my phone can do gigabit, why can't my laptop which is much bigger do ten gigabit wireless transfer?<p>This is obviously an incredibly difficult problem, I'm not saying &quot;psh I don't understand what's hard so it must be easy&quot;. I want to know what I'm missing: what are the key constraints?<p>Some guesses:<p>- Is it purely because bandwidth is limited because of regulatory reasons and you can only pump X GB/s in the 2.4GHz &amp; 5GHz bands and X is kinda small? Edit: so why not just claim significantly more bandwidth, &quot;the people's&quot; wireless transfer speed seems really important?<p>- Is it because of something like &quot;power consumption scales with speed&quot; so there's a tradeoff?<p>- Or is it because there's no market for/nobody wants to pay for wireless monitors and laptops that can broadcast out the 20GB/s that's necessary for 4k 60Hz 10-bit 4:4:4. But maybe we could totally do it if people were willing to pay for a laptop/phone that cost $100 more?<p>- Is it because of backwards compatibility hell and an ineffective bureaucracy managing the Wifi standard?<p>- Is it because of huge proliferation of devices in the band that behave poorly/uncooperatively which cause traffic (in the same sense there can be traffic on a highway, you lose through put for no good reason).<p>I'm hoping my guesses have revealed multiple fundamental misunderstandings. Please disabuse me of them.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "zvorygin",
+    "url": "https://news.ycombinator.com/user?id=zvorygin"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32515076",
+  "sameAs": "https://news.ycombinator.com/item?id=32515076",
+  "dateCreated": "2022-08-18T21:44:43.567Z",
+  "datePublished": "2022-08-18T21:22:44.000Z",
+  "dateModified": "2022-08-18T21:44:43.567Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 3
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 为什么我们不能有无线4K显示器？\n",
+  "headline_zh-Hant": "Ask HN: 為什麼我們不能有無線4K顯示器？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "为什么我的笔记本电脑或台式机不能通过电磁波谱将它要通过HDMI或DisplayPort发送的东西送到我的显示器上呢？<p>更广泛地说，为什么无线通信的速度不是很笨？为什么Wifi 6只支持千兆的速度？鉴于笔记本电脑和接收器之间有清晰的视线，为什么会出现丢包或不可靠的情况？如果我的手机可以做到千兆，为什么我那台大得多的笔记本电脑不能做到万兆的无线传输呢？<p>这显然是一个非常困难的问题，我不是在说&quot;psh我不明白什么是困难，所以它一定很容易&quot;。我想知道我错过了什么：关键的制约因素是什么？<p>一些猜测：<p>- 是否纯粹是因为监管原因导致带宽受限，你只能在2.4GHz &amp; 5GHz频段抽出X GB/s，而X有点小？编辑：那么为什么不直接要求明显更多的带宽，&quot;人们的&quot;无线传输速度似乎真的很重要？<p>- 是不是因为类似&quot;功耗与速度成比例&quot;所以有一个权衡？<p>- 或者是因为没有市场/没有人愿意支付无线显示器和笔记本电脑，可以广播出4k 60Hz 10位4:4:4所需的20GB/s。但是，如果人们愿意为多花100美元的笔记本/手机买单，也许我们完全可以做到这一点？<p>- 是不是因为向后兼容的地狱和管理Wifi标准的无效官僚机构？<p>- 是不是因为在这个频段上有大量行为不良/不合作的设备扩散，导致交通堵塞（就像在高速公路上可能有交通堵塞一样，你没有理由就会失去直通车）。请消除我的误解。\n",
+  "description_zh-Hant": "為什麼我的筆記本電腦或臺式機不能通過電磁波譜將它要通過HDMI或DisplayPort發送的東西送到我的顯示器上呢？<p>更廣泛地說，為什麼無線通信的速度不是很笨？為什麼Wifi 6只支持千兆的速度？鑑於筆記本電腦和接收器之間有清晰的視線，為什麼會出現丟包或不可靠的情況？如果我的手機可以做到千兆，為什麼我那臺大得多的筆記本電腦不能做到萬兆的無線傳輸呢？<p>這顯然是一個非常困難的問題，我不是在說&quot;psh我不明白什麼是困難，所以它一定很容易&quot;。我想知道我錯過了什麼：關鍵的制約因素是什麼？<p>一些猜測：<p>- 是否純粹是因為監管原因導致帶寬受限，你只能在2.4GHz &amp; 5GHz頻段抽出X GB/s，而X有點小？編輯：那麼為什麼不直接要求明顯更多的帶寬，&quot;人們的&quot;無線傳輸速度似乎真的很重要？<p>- 是不是因為類似&quot;功耗與速度成比例&quot;所以有一個權衡？<p>- 或者是因為沒有市場/沒有人願意支付無線顯示器和筆記本電腦，可以廣播出4k 60Hz 10位4:4:4所需的20GB/s。但是，如果人們願意為多花100美元的筆記本/手機買單，也許我們完全可以做到這一點？<p>- 是不是因為向後兼容的地獄和管理Wifi標準的無效官僚機構？<p>- 是不是因為在這個頻段上有大量行為不良/不合作的設備擴散，導致交通堵塞（就像在高速公路上可能有交通堵塞一樣，你沒有理由就會失去直通車）。請消除我的誤解。\n"
+}

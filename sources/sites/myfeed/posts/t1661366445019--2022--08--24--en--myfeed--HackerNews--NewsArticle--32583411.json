@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32583411",
+  "url": "https://news.ycombinator.com/item?id=32583411",
+  "headline": "Test data pipelines with Great Expectations and Trino",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "bitsondatadev",
+    "url": "https://news.ycombinator.com/user?id=bitsondatadev"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32583411",
+  "sameAs": "https://trino.io/blog/2022/08/24/data-pipelines-production-ready-great-expectations.html",
+  "dateCreated": "2022-08-24T18:40:45.019Z",
+  "datePublished": "2022-08-24T18:07:22.000Z",
+  "dateModified": "2022-08-24T18:40:45.019Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 5
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "用Great Expectations和Trino测试数据管道\n",
+  "headline_zh-Hant": "用Great Expectations和Trino測試數據管道\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

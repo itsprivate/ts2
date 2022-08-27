@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--09--en--besthn--HackerNews--NewsArticle--32385362",
+  "url": "https://news.ycombinator.com/item?id=32385362",
+  "headline": "Incident report: Employee and customer account compromise",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "wepple",
+    "url": "https://news.ycombinator.com/user?id=wepple"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32385362",
+  "sameAs": "https://www.twilio.com/blog/august-2022-social-engineering-attack",
+  "dateCreated": "2022-08-09T07:25:59.906Z",
+  "datePublished": "2022-08-08T13:51:09.000Z",
+  "dateModified": "2022-08-09T07:25:59.906Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 200
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 146
+    }
+  ],
+  "headline_zh-Hans": "事件报告。雇员和客户账户被泄露\n",
+  "headline_zh-Hant": "事件報告。僱員和客戶賬戶被洩露\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--19--en--askhn--HackerNews--NewsArticle--32526117",
+  "url": "https://news.ycombinator.com/item?id=32526117",
+  "headline": "Ask HN: Offline, Embeddable Speech Recognition?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I am in shop for a speech recon library that works offline and can fit on a phone (Android).<p>I used to use Snips AI (https://snips.ai/), which worked well until it was acquired by Sonos. Now the portal is down and I can't modify the model anymore.<p>Looking for something ideally written in C or that can target C for portability. Free/libre and copyleft preferable to avoid the acquisition trap again.<p>Tapping into the vast pools of knowledge of HN; could you please suggest alternatives, preferably ones you have experience with?<p>Thank you.",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "yazzku",
+    "url": "https://news.ycombinator.com/user?id=yazzku"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32526117",
+  "sameAs": "https://news.ycombinator.com/item?id=32526117",
+  "dateCreated": "2022-08-19T21:44:37.552Z",
+  "datePublished": "2022-08-19T21:26:13.000Z",
+  "dateModified": "2022-08-19T21:44:37.552Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 离线、可嵌入的语音识别？\n",
+  "headline_zh-Hant": "Ask HN: 離線、可嵌入的語音識別？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我正在寻找一个可以离线工作并且适合手机（Android）的语音重建库。<p>我曾经使用过Snips AI（https://snips.ai/），它在被Sonos收购之前一直运作良好。现在门户关闭了，我无法再修改模型了。<p>我在寻找最好用C语言编写的东西，或者可以针对C语言进行移植的东西。最好是自由/自由和自由复制，以避免再次陷入收购陷阱。<p>利用HN庞大的知识库；请您推荐替代方案，最好是您有经验的方案。\n",
+  "description_zh-Hant": "我正在尋找一個可以離線工作並且適合手機（Android）的語音重建庫。<p>我曾經使用過Snips AI（https://snips.ai/），它在被Sonos收購之前一直運作良好。現在門戶關閉了，我無法再修改模型了。<p>我在尋找最好用C語言編寫的東西，或者可以針對C語言進行移植的東西。最好是自由/自由和自由複製，以避免再次陷入收購陷阱。<p>利用HN龐大的知識庫；請您推薦替代方案，最好是您有經驗的方案。\n"
+}

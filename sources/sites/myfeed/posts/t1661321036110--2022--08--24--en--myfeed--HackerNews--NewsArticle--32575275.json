@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--myfeed--HackerNews--NewsArticle--32575275",
+  "url": "https://news.ycombinator.com/item?id=32575275",
+  "headline": "The Anatomy of a Large-Scale Hypertextual Web Search Engine (1998) [pdf]",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "baxtr",
+    "url": "https://news.ycombinator.com/user?id=baxtr"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32575275",
+  "sameAs": "https://snap.stanford.edu/class/cs224w-readings/Brin98Anatomy.pdf",
+  "dateCreated": "2022-08-24T06:03:56.110Z",
+  "datePublished": "2022-08-24T05:26:54.000Z",
+  "dateModified": "2022-08-24T06:03:56.110Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "大规模超文本网络搜索引擎的剖析 (1998) [pdf]\n",
+  "headline_zh-Hant": "大規模超文本網絡搜索引擎的剖析 (1998) [pdf]\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

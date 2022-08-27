@@ -1,0 +1,61 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--showhn--HackerNews--NewsArticle--32535210",
+  "url": "https://news.ycombinator.com/item?id=32535210",
+  "headline": "Show HN: strftime-ruby, no-std, Ruby-compatible Rust implementation of strftime",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "lopopolo",
+    "url": "https://news.ycombinator.com/user?id=lopopolo"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32535210",
+  "sameAs": "https://crates.io/crates/strftime-ruby/1.0.0",
+  "dateCreated": "2022-08-20T21:25:45.291Z",
+  "datePublished": "2022-08-20T21:19:32.000Z",
+  "dateModified": "2022-08-20T21:25:45.291Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: strftime-ruby, no-std, 与Ruby兼容的strftime的Rust实现。\n",
+  "headline_zh-Hant": "Show HN: strftime-ruby, no-std, 與Ruby兼容的strftime的Rust實現。\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

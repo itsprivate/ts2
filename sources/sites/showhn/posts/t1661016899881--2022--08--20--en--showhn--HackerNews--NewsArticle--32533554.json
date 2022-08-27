@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--20--en--showhn--HackerNews--NewsArticle--32533554",
+  "url": "https://news.ycombinator.com/item?id=32533554",
+  "headline": "Show HN: Python extensions for sioyek PDF viewer",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "Recently, I release version 1.5 of sioyek PDF viewer which introduces extensions. This is a repository of some useful python extensions that I have developed so far. I would say the most useful one is the one that can download a paper and open it in sioyek just by control+clicking on the paper's name.",
+  "keywords": [
+    "Show HN"
+  ],
+  "genre": "Show HN",
+  "author": {
+    "@type": "Person",
+    "name": "hexomancer",
+    "url": "https://news.ycombinator.com/user?id=hexomancer"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32533554",
+  "sameAs": "https://github.com/ahrm/sioyek-python-extensions",
+  "dateCreated": "2022-08-20T17:34:59.881Z",
+  "datePublished": "2022-08-20T17:06:26.000Z",
+  "dateModified": "2022-08-20T17:34:59.881Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 3
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Show HN: sioyek PDF阅读器的Python扩展\n",
+  "headline_zh-Hant": "Show HN: sioyek PDF閱讀器的Python擴展\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "最近，我发布了sioyek PDF阅读器的1.5版本，其中引入了扩展功能。这是我到目前为止开发的一些有用的python扩展的资料库。我想说的是，最有用的一个是可以下载一篇论文，并在sioyek中打开，只需控制+点击论文的名字。\n",
+  "description_zh-Hant": "最近，我發佈了sioyek PDF閱讀器的1.5版本，其中引入了擴展功能。這是我到目前為止開發的一些有用的python擴展的資料庫。我想說的是，最有用的一個是可以下載一篇論文，並在sioyek中打開，只需控制+點擊論文的名字。\n"
+}

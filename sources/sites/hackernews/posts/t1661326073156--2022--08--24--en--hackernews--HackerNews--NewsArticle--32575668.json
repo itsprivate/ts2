@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--24--en--hackernews--HackerNews--NewsArticle--32575668",
+  "url": "https://news.ycombinator.com/item?id=32575668",
+  "headline": "Things people blamed on bicycles",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "the-archivist",
+    "url": "https://news.ycombinator.com/user?id=the-archivist"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32575668",
+  "sameAs": "https://twitter.com/paulisci/status/1561848479470694403",
+  "dateCreated": "2022-08-24T07:27:53.156Z",
+  "datePublished": "2022-08-24T06:43:06.000Z",
+  "dateModified": "2022-08-24T07:27:53.156Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 43
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 9
+    }
+  ],
+  "headline_zh-Hans": "人们指责自行车的事情\n",
+  "headline_zh-Hant": "人們指責自行車的事情\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

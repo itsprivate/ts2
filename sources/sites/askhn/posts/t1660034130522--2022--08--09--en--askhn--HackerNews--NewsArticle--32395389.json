@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--09--en--askhn--HackerNews--NewsArticle--32395389",
+  "url": "https://news.ycombinator.com/item?id=32395389",
+  "headline": "Ask HN: Cross platform method for accessing system audio output?",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "I was hoping to create a desktop app that analyses the system audio output in real time. Eg. I can analyse audio coming from YouTube, or Spotify, or iTunes. Nothing nefarious, just visualisation.<p>I looked into Electron’s desktop capture, and it doesn’t work for mac. I also looked at Swift MacOS app, but I don’t think that’s possible without a seperate program called SoundFlower and I don’t think it can be packaged with the macOS app itself.<p>How might I go about creating a desktop app which can access the audio output feed of the host system?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "desertraven",
+    "url": "https://news.ycombinator.com/user?id=desertraven"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32395389",
+  "sameAs": "https://news.ycombinator.com/item?id=32395389",
+  "dateCreated": "2022-08-09T08:35:30.522Z",
+  "datePublished": "2022-08-09T08:14:36.000Z",
+  "dateModified": "2022-08-09T08:35:30.522Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: 访问系统音频输出的跨平台方法？\n",
+  "headline_zh-Hant": "Ask HN: 訪問系統音頻輸出的跨平臺方法？\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我希望能创建一个桌面应用程序，实时分析系统的音频输出。例如，我可以分析来自YouTube、Spotify或iTunes的音频。<p>我研究了Electron的桌面捕捉功能，但它并不适用于Mac。我还研究了Swift MacOS应用程序，但我认为如果没有名为SoundFlower的独立程序，这是不可能的，而且我认为它不能与macOS应用程序本身打包在一起。<p>我如何创建一个可以访问主机系统音频输出的桌面应用程序？\n",
+  "description_zh-Hant": "我希望能創建一個桌面應用程序，實時分析系統的音頻輸出。例如，我可以分析來自YouTube、Spotify或iTunes的音頻。<p>我研究了Electron的桌面捕捉功能，但它並不適用於Mac。我還研究了Swift MacOS應用程序，但我認為如果沒有名為SoundFlower的獨立程序，這是不可能的，而且我認為它不能與macOS應用程序本身打包在一起。<p>我如何創建一個可以訪問主機系統音頻輸出的桌面應用程序？\n"
+}

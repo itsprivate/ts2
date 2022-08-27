@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--22--en--besthn--HackerNews--NewsArticle--32548905",
+  "url": "https://news.ycombinator.com/item?id=32548905",
+  "headline": "10BASE-T using Raspberry Pi Pico with 2 GPIO pins",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "sleepy_keita",
+    "url": "https://news.ycombinator.com/user?id=sleepy_keita"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32548905",
+  "sameAs": "https://github.com/kingyoPiyo/Pico-10BASE-T",
+  "dateCreated": "2022-08-22T15:30:42.976Z",
+  "datePublished": "2022-08-22T08:47:21.000Z",
+  "dateModified": "2022-08-22T15:30:42.976Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 208
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 67
+    }
+  ],
+  "headline_zh-Hans": "使用带有2个GPIO引脚的Raspberry Pi Pico的10BASE-T\n",
+  "headline_zh-Hant": "使用帶有2個GPIO引腳的Raspberry Pi Pico的10BASE-T\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}

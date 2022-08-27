@@ -1,0 +1,71 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--18--en--askhn--HackerNews--NewsArticle--32506709",
+  "url": "https://news.ycombinator.com/item?id=32506709",
+  "headline": "Ask HN: Dashboard for Redshift that can auto update every n seconds",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "We are currently using Tableau for visualization, where dashboards to need to manually be refreshed.<p>Our data is in Redshift/Postgres.<p>What visualization / dashboard are catering better to near-realtime updates?",
+  "keywords": [
+    "Ask HN"
+  ],
+  "genre": "Ask HN",
+  "author": {
+    "@type": "Person",
+    "name": "Cilvic",
+    "url": "https://news.ycombinator.com/user?id=Cilvic"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32506709",
+  "sameAs": "https://news.ycombinator.com/item?id=32506709",
+  "dateCreated": "2022-08-18T08:53:48.740Z",
+  "datePublished": "2022-08-18T08:07:12.000Z",
+  "dateModified": "2022-08-18T08:53:48.740Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 1
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Ask HN: Redshift的仪表板可以每隔N秒自动更新一次\n",
+  "headline_zh-Hant": "Ask HN: Redshift的儀表板可以每隔N秒自動更新一次\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1,
+      "description_zh-Hans": {
+        "@id": "description",
+        "@language": "zh-Hans"
+      },
+      "description_zh-Hant": {
+        "@id": "description",
+        "@language": "zh-Hant"
+      }
+    }
+  ],
+  "description_zh-Hans": "我们目前使用Tableau进行可视化，其中仪表盘需要手动刷新。<p>我们的数据在Redshift/Postgres中。<p>什么可视化/仪表盘更适合近实时更新？\n",
+  "description_zh-Hant": "我們目前使用Tableau進行可視化，其中儀表盤需要手動刷新。<p>我們的數據在Redshift/Postgres中。<p>什麼可視化/儀表盤更適合近實時更新？\n"
+}

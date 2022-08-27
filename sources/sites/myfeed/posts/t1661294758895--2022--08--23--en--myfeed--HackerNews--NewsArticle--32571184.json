@@ -1,0 +1,58 @@
+{
+  "@type": "NewsArticle",
+  "identifier": "2022--08--23--en--myfeed--HackerNews--NewsArticle--32571184",
+  "url": "https://news.ycombinator.com/item?id=32571184",
+  "headline": "Lexico.com Will Be Closing August 26",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com",
+    "logo": "https://hn.buzzing.cc/avatar.png"
+  },
+  "description": "",
+  "keywords": [],
+  "author": {
+    "@type": "Person",
+    "name": "susam",
+    "url": "https://news.ycombinator.com/user?id=susam"
+  },
+  "discussionUrl": "https://news.ycombinator.com/item?id=32571184",
+  "sameAs": "https://www.lexico.com/",
+  "dateCreated": "2022-08-23T22:45:58.895Z",
+  "datePublished": "2022-08-23T20:40:59.000Z",
+  "dateModified": "2022-08-23T22:45:58.895Z",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "LikeAction"
+      },
+      "userInteractionCount": 2
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "CommentAction"
+      },
+      "userInteractionCount": 0
+    }
+  ],
+  "headline_zh-Hans": "Lexico.com将于8月26日关闭\n",
+  "headline_zh-Hant": "Lexico.com將於8月26日關閉\n",
+  "@context": [
+    "https://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "en",
+      "headline_zh-Hans": {
+        "@id": "headline",
+        "@language": "zh-Hans"
+      },
+      "headline_zh-Hant": {
+        "@id": "headline",
+        "@language": "zh-Hant"
+      },
+      "@version": 1.1
+    }
+  ]
+}
