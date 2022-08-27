@@ -19,7 +19,6 @@ export default async function main(siteIdentifier: string) {
     .map((item) => item.path)
     .sort()
     .reverse();
-
   const siteConfigPath = getAppPath(siteIdentifier, "site.json");
   const siteConfig = JSON.parse(await Deno.readTextFile(siteConfigPath));
   const totalPages = Math.ceil(postsFiles.length / pageSize);

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="{{language}}" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="{{{themeColor}}}" />
+    {{#jsonLD}}
+    <title>{{name}} - {{description}}</title>
+    <meta itemprop="name" content="{{{name}}}" />
+    <meta itemprop="image" content="{{{image}}}" />
+    <meta
+      itemprop="description"
+      name="description"
+      content="{{{description}}}"
+    />
+    <meta property="og:url" content="{{{pageUrl}}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{{name}}}" />
+    <meta property="og:image" content="{{{image}}}" />
+    <meta property="og:image:alt" content="{{{name}}} Logo" />
+    <meta property="og:description" content="{{{description}}}" />
+    <meta property="og:site_name" content="{{{name}}}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@buzzingcc" />
+    <meta name="twitter:url" content="{{{pageUrl}}}" />
+    <meta name="twitter:title" content="{{{name}}}" />
+    <meta name="twitter:description" content="{{{description}}}" />
+    <meta name="twitter:image" content="{{{image}}}" />
+    <meta name="twitter:image:alt" content="{{{name}}} Logo" />
+    {{/jsonLD}}
+    <meta property="og:locale" content="{{{language}}}" />
+
+    <link
+      rel="alternate"
+      href="{{{rssUrl}}}"
+      type="application/rss+xml"
+      title="RSS"
+    />
+    <link
+      rel="alternate"
+      href="{{{atomUrl}}}"
+      type="application/atom+xml"
+      title="Atom 1.0"
+    />
+
+    <script type="application/ld+json">
+      {{{jsonLDString}}}
+    </script>
+    <link rel="manifest" href="{{{manifestUrl}}}" crossorigin="anonymous" />
+    <link
+      rel="icon"
+      href="/favicon-32x32.png?v=2ef7ada74a965bcb65a38c81f47158be"
+      type="image/png"
+    />
+
+
+    <style>
+      @charset "UTF-8";
+
+      /* Tufte CSS styles */
+      html {
+        font-size: 15px;
+      }
+
+      body {
+        background-color: #eefff8;
+
+        color: #111;
+        min-height: 100vh;
+      }
+      a {
+        text-decoration: none;
+      }
+
+      small {
+        color: var(--secondary);
+      }
+      article {
+        border-bottom: 1px dashed #d4d4d4;
+        padding: 5px;
+        position: relative;
+        overflow: hidden;
+      }
+      article:last-child {
+        border-bottom: none;
+      }
+      article:hover{
+        background: white;
+        border-bottom: 1px solid black;
+      }
+      article .overlay{
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        color: black;
+        text-decoration: none;
+      }
+      article .inner {
+        position: relative;
+        pointer-events: none;
+        z-index: 1;
+      }
+      
+      article .inner a {
+        pointer-events: all;
+        position: relative;
+        color:#999;
+      }
+      article .inner a:hover{
+        color: blue;
+        text-decoration: underline;
+      }
+    
+      .container{
+        width: 520px;
+        max-width: 85%;
+        margin: 30px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <h1>
+                <a href="{{{rootUrl}}}" class="contrast"
+                  >{{#jsonLD}}{{name}}{{/jsonLD}}</a
+                >
+              </h1>
+            </li>
+          </ul>
+
+          <ul style="font-size: 16px">
+            <li>
+              <a href="{{{rssUrl}}}" class="secondary">RSS</a>
+            </li>
+            {{#languages}}
+            <li>
+              <a
+                href="{{{url}}}"
+                class="{{#active}}contrast{{/active}}{{^active}}secondary{{/active}}"
+                >{{name}}</a
+              >
+            </li>
+            {{/languages}}
+          </ul>
+        </nav>
+      </header>
+      <section>
+        {{#posts}}
+        <article>
+          <a href="{{{sameAs}}}" class="overlay"></a>
+          <div class="inner">
+          
+          <p>
+            <span style="color:#999;">{{dateCreated}}</span> 
+            <span style="font-weight:500;">{{headline}}</span>
+            <br />
+            <span style="color:#999;">{{originalHeadline}} ({{hostName}})</span>
+            
+
+          </p>
+        
+          &nbsp;
+          <a href="{{{discussionUrl}}}" class="" style=""
+            >HN讨论</a>
+          {{#description}}
+          <p>{{description}}</p>
+          {{/description}}
+          </div>
+        </article>
+        {{/posts}}
+      </section>
+      <footer style="text-align: center">
+        <small>姊妹站点: </small>
+        <a href="https://www.buzzing.cc"><small>Buzzing</small></a
+        >&nbsp; <small>背后的人❤️:</small
+        ><a href="https://twitter.com/OwenYoungZh"><small>Owen</small></a
+        >&nbsp;
+      </footer>
+    </main>
+  
+  </body>
+</html>

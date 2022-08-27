@@ -24,13 +24,13 @@ devinstall:
 archive:
 	ENV=dev deno run --allow-read --allow-net --allow-write --allow-run --allow-env --unstable ../denoflow/cli.ts run archive --database json://dev-data
 start:
-	denon start
+	denon start -- myfeed
 dev:
 	ENV=dev denon start -- myfeed
 devhn:
 	ENV=dev denon start -- hackernews
 build:
-	deno run -A --unstable site/build.ts showhn
+	deno run -A --unstable site/cli.ts myfeed
 cache:
 	rm -rf ./deno_dir && DENO_DIR=./deno_dir deno cache --unstable https://deno.land/x/denoflow@0.0.34/cli.ts && DENO_DIR=./deno_dir deno cache --unstable site/build.ts
 ask:
